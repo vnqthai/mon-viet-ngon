@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://monvietngon.com/sitemap-index.xml
+Sitemap: https://www.monvietngon.com/sitemap-index.xml

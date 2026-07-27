@@ -71,8 +71,9 @@ Trỏ DNS của monvietngon.com:
 | A     | @    | 185.199.108.153 / 109.153 / 110.153 / 111.153 |
 | CNAME | www  | vnqthai.github.io                            |
 
-Cuối cùng vào **Settings → Pages → Custom domain** điền `monvietngon.com`
-và bật **Enforce HTTPS** (chờ DNS lan truyền xong, thường dưới 1 giờ).
+Cuối cùng vào **Settings → Pages → Custom domain** điền `www.monvietngon.com`
+(bản canonical — `monvietngon.com` sẽ tự redirect về www) và bật **Enforce HTTPS**
+(chờ DNS lan truyền xong, thường dưới 1 giờ).
 
 ## Ghi chú kỹ thuật
 
