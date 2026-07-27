@@ -14,6 +14,11 @@ export const store = {
       localStorage.setItem(k, JSON.stringify(v));
     } catch (e) {}
   },
+  remove(k) {
+    try {
+      localStorage.removeItem(k);
+    } catch (e) {}
+  },
 };
 
 let toastTimer = null;
@@ -27,18 +32,34 @@ export function showToast(msg) {
   toastTimer = setTimeout(() => toast.classList.remove('is-show'), 4200);
 }
 
-/* ---------- Giao diện sáng / tối ---------- */
+/* ---------- Giao diện 3 trạng thái: theo hệ thống (mặc định) → sáng → tối ---------- */
 const root = document.documentElement;
 const themeBtn = document.getElementById('themeToggle');
 if (themeBtn) {
+  const LABELS = {
+    auto: 'Giao diện: theo hệ thống',
+    light: 'Giao diện: sáng',
+    dark: 'Giao diện: tối',
+  };
+  const NEXT = { auto: 'light', light: 'dark', dark: 'auto' };
+  const mode = () => root.dataset.theme || 'auto';
+
+  function paintThemeBtn() {
+    themeBtn.title = LABELS[mode()] + ' — bấm để đổi';
+    themeBtn.setAttribute('aria-label', LABELS[mode()] + ', bấm để đổi');
+  }
   themeBtn.addEventListener('click', () => {
-    const current =
-      root.dataset.theme ||
-      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    const next = current === 'dark' ? 'light' : 'dark';
-    root.dataset.theme = next;
-    store.set('mvn:theme', next);
+    const next = NEXT[mode()];
+    if (next === 'auto') {
+      delete root.dataset.theme;      // quay về theo hệ điều hành
+      store.remove('mvn:theme');
+    } else {
+      root.dataset.theme = next;
+      store.set('mvn:theme', next);
+    }
+    paintThemeBtn();
   });
+  paintThemeBtn();
 }
 
 /* ---------- Nút in ---------- */

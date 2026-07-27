@@ -67,13 +67,12 @@ section[id]{scroll-margin-top:80px}
   background:linear-gradient(90deg,var(--gold),var(--broth));
   transition:width .1s linear;
 }
-#iconSun{display:none}
-:root[data-theme="dark"] #iconMoon{display:none}
-:root[data-theme="dark"] #iconSun{display:block}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme]) #iconMoon{display:none}
-  :root:not([data-theme]) #iconSun{display:block}
-}
+/* Nút giao diện 3 trạng thái — icon thể hiện chế độ ĐANG chọn:
+   màn hình = theo hệ thống (mặc định) · mặt trời = sáng · mặt trăng = tối */
+#iconAuto,#iconSun,#iconMoon{display:none}
+:root:not([data-theme]) #iconAuto{display:block}
+:root[data-theme="light"] #iconSun{display:block}
+:root[data-theme="dark"] #iconMoon{display:block}
 
 /* ---------- Nút ---------- */
 .btn{

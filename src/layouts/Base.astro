@@ -57,9 +57,10 @@ const { title, description, showPrint = false, active } = Astro.props;
         <a href="/bi-quyet/" aria-current={active === 'bi-quyet' ? 'page' : undefined}>Bí quyết bếp</a>
       </nav>
       <div class="head-actions">
-        <button class="icon-btn" id="themeToggle" type="button" aria-label="Đổi giao diện sáng / tối" title="Giao diện sáng / tối">
-          <svg id="iconMoon" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-moon"></use></svg>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Giao diện: theo hệ thống, bấm để đổi" title="Giao diện: theo hệ thống — bấm để đổi">
+          <svg id="iconAuto" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-auto"></use></svg>
           <svg id="iconSun" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-sun"></use></svg>
+          <svg id="iconMoon" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-moon"></use></svg>
         </button>
         {showPrint && (
           <button class="icon-btn" id="printBtn" type="button" aria-label="In công thức" title="In công thức">
