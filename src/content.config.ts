@@ -66,7 +66,11 @@ const recipes = defineCollection({
     featured: z.boolean().default(false), // món nổi bật trên trang chủ
     order: z.number().default(99),        // thứ tự hiển thị (nhỏ = trước)
     art: z
-      .enum(['canh-chua', 'com-tam', 'cha-gio', 'bo-kho', 'kho-qua', 'bowl', 'claypot', 'plate', 'rolls'])
+      .enum([
+        'canh-chua', 'com-tam', 'cha-gio', 'bo-kho', 'kho-qua',
+        'pho-bo', 'bun-bo', 'banh-xeo', 'ca-kho', 'thit-kho', 'canh-bi-do',
+        'bowl', 'claypot', 'plate', 'rolls',
+      ])
       .optional(),
     heroEyebrow: z.string().default('Bếp Việt nhà mình'),
 

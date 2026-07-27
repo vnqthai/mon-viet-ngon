@@ -26,7 +26,8 @@ difficulty: Dễ          # Dễ | Vừa | Kỳ công
 featured: false         # true = hiện ở trang chủ
 order: 99               # thứ tự hiển thị, nhỏ đứng trước
 # art: bowl             # bỏ trống sẽ tự chọn theo category (bowl/claypot/plate/rolls)
-#                       # món chủ lực có art vẽ riêng: canh-chua com-tam cha-gio bo-kho kho-qua
+#                       # art vẽ riêng: canh-chua pho-bo bun-bo com-tam ca-kho thit-kho
+#                       #               banh-xeo cha-gio bo-kho kho-qua canh-bi-do
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc

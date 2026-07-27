@@ -5,6 +5,12 @@ import ArtComTam from './ArtComTam.astro';
 import ArtChaGio from './ArtChaGio.astro';
 import ArtBoKho from './ArtBoKho.astro';
 import ArtKhoQua from './ArtKhoQua.astro';
+import ArtPhoBo from './ArtPhoBo.astro';
+import ArtBunBo from './ArtBunBo.astro';
+import ArtBanhXeo from './ArtBanhXeo.astro';
+import ArtCaKhoTo from './ArtCaKhoTo.astro';
+import ArtThitKho from './ArtThitKho.astro';
+import ArtCanhBiDo from './ArtCanhBiDo.astro';
 import ArtBowl from './ArtBowl.astro';
 import ArtClaypot from './ArtClaypot.astro';
 import ArtPlate from './ArtPlate.astro';
@@ -31,6 +37,12 @@ const kind = art ?? byCategory[category] ?? 'bowl';
 {kind === 'cha-gio' && <ArtChaGio />}
 {kind === 'bo-kho' && <ArtBoKho />}
 {kind === 'kho-qua' && <ArtKhoQua />}
+{kind === 'pho-bo' && <ArtPhoBo />}
+{kind === 'bun-bo' && <ArtBunBo />}
+{kind === 'banh-xeo' && <ArtBanhXeo />}
+{kind === 'ca-kho' && <ArtCaKhoTo />}
+{kind === 'thit-kho' && <ArtThitKho />}
+{kind === 'canh-bi-do' && <ArtCanhBiDo />}
 {kind === 'bowl' && <ArtBowl />}
 {kind === 'claypot' && <ArtClaypot />}
 {kind === 'plate' && <ArtPlate />}

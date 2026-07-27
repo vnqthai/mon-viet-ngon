@@ -1,10 +1,11 @@
 ---
-/* Dĩa cơm tấm sườn nướng — minh họa riêng: cơm vun, sườn cọng xương, ốp la, muỗng nĩa */
+/* Dĩa cơm tấm sườn nướng — sườn cốt lết dáng rẻ quạt TO BẢN (tỉ lệ ~1.3:1 như thật),
+   vệt nướng chéo, vành mỡ, mỡ hành; cơm tấm, ốp la, đồ chua, muỗng nĩa */
 ---
 <svg viewBox="0 0 520 470" role="img" aria-label="Dĩa cơm tấm sườn nướng ốp la">
   <defs>
     <linearGradient id="ctSuon" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#B8672B"/><stop offset="1" stop-color="#8A4517"/>
+      <stop offset="0" stop-color="#D07B35"/><stop offset="1" stop-color="#A04C1B"/>
     </linearGradient>
     <linearGradient id="ctRice" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#EFE7CE"/>
@@ -13,8 +14,8 @@
   <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
   <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
   <g class="steam">
-    <path d="M310 214 C 299 190 325 174 314 148 C 307 132 321 120 317 106"/>
-    <path d="M366 220 C 356 196 382 182 371 156 C 364 140 378 128 374 112"/>
+    <path d="M330 208 C 319 184 345 168 334 142 C 327 126 341 114 337 100"/>
+    <path d="M392 204 C 382 180 408 166 397 140 C 390 124 404 112 400 96"/>
   </g>
   <ellipse cx="260" cy="400" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
 
@@ -24,65 +25,75 @@
   <ellipse cx="260" cy="338" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
   <ellipse cx="260" cy="340" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
 
-  <!-- mô cơm tấm vun -->
-  <ellipse cx="176" cy="322" rx="92" ry="32" fill="url(#ctRice)" stroke="#DCD3B4" stroke-width="2"/>
-  <ellipse cx="176" cy="308" rx="70" ry="24" fill="#FDFAF0"/>
-  <ellipse cx="176" cy="298" rx="46" ry="16" fill="#FFFDF6"/>
-  <!-- hột tấm lấm tấm -->
+  <!-- mô cơm tấm phía sau bên trái -->
+  <ellipse cx="168" cy="318" rx="88" ry="30" fill="url(#ctRice)" stroke="#DCD3B4" stroke-width="2"/>
+  <ellipse cx="168" cy="304" rx="66" ry="23" fill="#FDFAF0"/>
+  <ellipse cx="168" cy="294" rx="43" ry="15" fill="#FFFDF6"/>
   <g stroke="#E3D9BB" stroke-width="3" stroke-linecap="round" fill="none">
-    <path d="M142 306 l8 -2 M186 298 l8 -2 M162 316 l8 -2 M206 312 l8 -2 M150 294 l7 -2 M196 322 l8 -2 M176 288 l7 -2"/>
+    <path d="M136 302 l8 -2 M178 294 l8 -2 M154 312 l8 -2 M196 308 l8 -2 M144 290 l7 -2 M170 284 l7 -2"/>
   </g>
-  <!-- mỡ hành rưới mặt cơm -->
   <g stroke="#6F9C48" stroke-width="3.4" stroke-linecap="round" fill="none">
-    <path d="M150 300 l10 -1 M180 294 l9 2 M164 308 l9 1 M198 304 l9 -1 M186 314 l8 2"/>
+    <path d="M144 296 l10 -1 M172 290 l9 2 M158 304 l9 1 M188 300 l9 -1"/>
   </g>
-  <g fill="#E9B23C"><circle cx="158" cy="296" r="2.2"/><circle cx="192" cy="308" r="2.2"/><circle cx="172" cy="302" r="1.8"/></g>
+  <g fill="#E9B23C"><circle cx="152" cy="292" r="2.2"/><circle cx="182" cy="304" r="2.2"/></g>
 
-  <!-- miếng sườn nướng có cọng xương -->
-  <g transform="rotate(-8 330 300)">
-    <!-- cọng xương ló ra -->
-    <rect x="398" y="290" width="46" height="15" rx="7.5" fill="#F3E9D2" stroke="#D9C8A8" stroke-width="2"/>
-    <circle cx="446" cy="291" r="8" fill="#F3E9D2" stroke="#D9C8A8" stroke-width="2"/>
-    <circle cx="447" cy="304" r="7" fill="#F3E9D2" stroke="#D9C8A8" stroke-width="2"/>
-    <!-- thịt sườn -->
-    <path d="M236 272 C 232 302 244 326 280 330 C 330 336 388 328 402 312 C 412 300 410 282 398 272 C 376 254 336 250 296 254 C 264 258 240 258 236 272 Z" fill="url(#ctSuon)" stroke="#6E3A16" stroke-width="3"/>
-    <!-- viền mỡ cháy cạnh -->
-    <path d="M240 270 C 262 256 322 250 362 256" fill="none" stroke="#E8A65A" stroke-width="6" stroke-linecap="round" opacity=".85"/>
-    <!-- vệt nướng -->
-    <g stroke="#54280C" stroke-width="6" stroke-linecap="round" fill="none">
-      <path d="M270 268 q-8 26 4 52"/>
-      <path d="M312 264 q-8 28 4 56"/>
-      <path d="M354 264 q-6 26 4 50"/>
+  <!-- MIẾNG SƯỜN CỐT LẾT: dáng rẻ quạt to bản, vệt nướng chéo, không xương -->
+  <g>
+    <path d="M282 262
+             C 294 244 320 234 352 232
+             C 384 230 410 238 421 254
+             C 431 270 428 294 413 313
+             C 397 333 364 342 331 340
+             C 299 338 278 323 272 302
+             C 267 287 272 273 282 262 Z"
+          fill="url(#ctSuon)" stroke="#7A3A10" stroke-width="3"/>
+    <!-- vành mỡ dọc mép trên -->
+    <path d="M290 254 C 306 240 332 233 358 232 C 388 231 410 238 419 252 L 410 258 C 400 246 380 240 356 241 C 330 242 308 248 296 260 Z" fill="#EFD3A4"/>
+    <!-- vệt nướng chéo song song -->
+    <g stroke="#5E2C0C" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M312 248 L 296 316"/>
+      <path d="M346 241 L 330 329"/>
+      <path d="M380 240 L 364 327"/>
+      <path d="M407 252 L 395 311"/>
     </g>
-    <!-- bóng mỡ óng -->
-    <path d="M256 288 q16 -10 34 -8 M330 282 q14 -8 30 -6" fill="none" stroke="#E8A65A" stroke-width="3.4" stroke-linecap="round" opacity=".9"/>
-    <!-- mè rắc -->
-    <g fill="#F3E3C3"><ellipse cx="286" cy="300" rx="3.4" ry="2"/><ellipse cx="340" cy="296" rx="3.4" ry="2" transform="rotate(20 340 296)"/><ellipse cx="308" cy="316" rx="3.2" ry="1.9" transform="rotate(-14 308 316)"/></g>
+    <!-- cháy xém mép -->
+    <path d="M414 310 C 406 324 392 334 374 338 C 390 339 406 330 417 317 Z" fill="#5E2C0C" opacity=".75"/>
+    <path d="M273 296 C 271 284 274 273 282 264 C 276 274 274 285 277 297 Z" fill="#5E2C0C" opacity=".7"/>
+    <!-- bóng mỡ óng xiên theo vệt nướng -->
+    <g stroke="#F2B063" stroke-width="3" stroke-linecap="round" fill="none" opacity=".95">
+      <path d="M328 258 L 320 294"/>
+      <path d="M362 254 L 354 292"/>
+      <path d="M394 262 L 387 296"/>
+    </g>
+    <!-- mỡ hành rưới mặt + mỡ óng lấm tấm -->
+    <g stroke="#6F9C48" stroke-width="3.4" stroke-linecap="round" fill="none">
+      <path d="M330 274 l11 -2 M358 306 l11 -2 M392 278 l10 -2 M312 300 l9 2"/>
+    </g>
+    <g fill="#F6C888"><circle cx="342" cy="290" r="2.4"/><circle cx="374" cy="266" r="2.4"/><circle cx="398" cy="298" r="2.2"/></g>
   </g>
 
-  <!-- trứng ốp la lòng đào -->
-  <g transform="translate(238 348)">
+  <!-- trứng ốp la lòng đào phía trước -->
+  <g transform="translate(220 354) scale(1.3)">
     <path d="M-52 2 C -54 -16 -34 -26 -10 -26 C 18 -27 46 -20 50 -4 C 54 12 34 22 4 23 C -24 24 -50 18 -52 2 Z" fill="#FFFDF6" stroke="#E3D9BB" stroke-width="2.5"/>
     <circle cx="-2" cy="-3" r="14" fill="#F2B93E" stroke="#D9971E" stroke-width="2.5"/>
     <circle cx="-7" cy="-8" r="4" fill="#F9D97C"/>
   </g>
 
-  <!-- dưa leo + cà chua -->
+  <!-- dưa leo + cà chua + đồ chua -->
   <g>
-    <circle cx="112" cy="352" r="13" fill="#6F9C48" stroke="#4E7B36" stroke-width="2"/>
-    <circle cx="112" cy="352" r="8.5" fill="#C9DDA4"/>
-    <circle cx="138" cy="362" r="12" fill="#6F9C48" stroke="#4E7B36" stroke-width="2"/>
-    <circle cx="138" cy="362" r="7.6" fill="#C9DDA4"/>
-    <path d="M330 352 a17 12 0 0 1 30 6 q-18 8 -30 -6Z" fill="#D64B33" stroke="#B23A26" stroke-width="1.8"/>
+    <circle cx="106" cy="354" r="13" fill="#6F9C48" stroke="#4E7B36" stroke-width="2"/>
+    <circle cx="106" cy="354" r="8.5" fill="#C9DDA4"/>
+    <circle cx="132" cy="364" r="12" fill="#6F9C48" stroke="#4E7B36" stroke-width="2"/>
+    <circle cx="132" cy="364" r="7.6" fill="#C9DDA4"/>
+    <path d="M424 348 a17 12 0 0 1 30 6 q-18 8 -30 -6Z" fill="#D64B33" stroke="#B23A26" stroke-width="1.8"/>
   </g>
-  <!-- đồ chua sợi -->
   <g stroke-linecap="round" fill="none">
-    <path d="M300 356 q10 -5 20 -1 M312 364 q10 -4 19 0" stroke="#EF9440" stroke-width="4.4"/>
-    <path d="M306 348 q9 -4 18 -1" stroke="#F6F1E1" stroke-width="4.4"/>
+    <path d="M394 364 q10 -5 20 -1 M406 372 q10 -4 19 0" stroke="#EF9440" stroke-width="4.4"/>
+    <path d="M400 356 q9 -4 18 -1" stroke="#F6F1E1" stroke-width="4.4"/>
   </g>
 
   <!-- muỗng nĩa để góc bàn (cơm tấm ăn muỗng nĩa mới đúng điệu) -->
-  <g transform="translate(384 392) rotate(-16)">
+  <g transform="translate(384 396) rotate(-16)">
     <rect x="8" y="0" width="92" height="9" rx="4.5" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="1.6"/>
     <ellipse cx="116" cy="4.5" rx="17" ry="11.5" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="1.6"/>
     <g transform="translate(0 24)">
@@ -105,7 +116,7 @@
     <path d="M70 386 q8 3 16 1" stroke="#E8A65A" stroke-width="2.4" stroke-linecap="round" fill="none"/>
   </g>
   <!-- ớt trên bàn -->
-  <g transform="translate(148 414) rotate(-14)">
+  <g transform="translate(148 418) rotate(-14)">
     <path d="M0 0C13 2 22 -4 26 -13" fill="none" stroke="#C0392B" stroke-width="8" stroke-linecap="round"/>
     <path d="M26 -15c2-4 6-5 9-4" fill="none" stroke="#4E7B36" stroke-width="4" stroke-linecap="round"/>
   </g>
