@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
 import RecipeCard from '../components/RecipeCard.astro';
+import ComingSoon from '../components/ComingSoon.astro';
 import CanhChuaArt from '../components/art/CanhChuaArt.astro';
 
 const recipes = (await getCollection('recipes')).sort(
@@ -13,11 +14,12 @@ const regionCount = new Set(recipes.map((r) => r.data.region)).size;
 
 const tickerItems = [
   { icon: 'bowl', text: 'Canh chua cá lóc miền Tây' },
+  { icon: 'star', text: 'Phở bò quế hồi thơm lựng' },
+  { icon: 'chili', text: 'Bún bò Huế cay nồng sả ruốc' },
   { icon: 'claypot', text: 'Cá kho tộ lửa liu riu' },
-  { icon: 'egg', text: 'Thịt kho hột vịt ngày Tết' },
-  { icon: 'herb', text: 'Rau muống xào tỏi giòn xanh' },
+  { icon: 'flame', text: 'Bánh xèo giòn nghe xèo là thèm' },
   { icon: 'shrimp', text: 'Gỏi cuốn tôm thịt thanh mát' },
-  { icon: 'pumpkin', text: 'Canh bí đỏ ngọt lành' },
+  { icon: 'egg', text: 'Thịt kho hột vịt ngày Tết' },
   { icon: 'rice', text: 'Cơm nhà là ngon nhất' },
 ];
 ---
@@ -91,12 +93,12 @@ const tickerItems = [
       <div class="rcard-grid">
         {featured.map((r) => <RecipeCard recipe={r} />)}
       </div>
-      <div class="coming reveal" style="justify-content:center">
-        <a class="btn btn--line" href="/mon/">
+      <ComingSoon>
+        <a class="btn btn--line" href="/mon/" style="margin-left:auto">
           Xem tất cả {recipes.length} món
           <Icon name="arrow-right" />
         </a>
-      </div>
+      </ComingSoon>
     </div>
   </section>
 

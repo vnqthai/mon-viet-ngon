@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import Icon from '../../components/Icon.astro';
+import ComingSoon from '../../components/ComingSoon.astro';
 import RecipeCard from '../../components/RecipeCard.astro';
 
 const recipes = (await getCollection('recipes')).sort(
@@ -46,11 +46,7 @@ const regions = [...new Set(recipes.map((r) => r.data.region))];
         Chưa có món nào khớp bộ lọc này — thử đổi kiểu món hoặc miền nghen!
       </div>
 
-      <div class="coming reveal">
-        <Icon name="flame" />
-        <span><b>Sắp lên mâm:</b> phở bò, bún bò Huế, bánh xèo, chả giò, canh khổ qua nhồi thịt…
-        Trang còn thêm món dài dài — ghé lại thường nghen!</span>
-      </div>
+      <ComingSoon />
     </div>
   </section>
 </main>

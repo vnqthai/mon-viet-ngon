@@ -1,0 +1,455 @@
+title: Bánh xèo miền Tây **vỏ giòn rụm, nghe xèo là thèm**
+summary: >-
+  Vỏ bánh pha **nước cốt dừa** vàng ươm màu nghệ, đổ mỏng giòn tan, nhân tôm
+  thịt giá đậu xanh đầy ắp — cuốn lá cải xanh chấm mắm chua ngọt, ăn một cái
+  là muốn cái nữa liền.
+region: Miền Tây
+category: Chiên
+time:
+  total: 1 giờ 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 5
+heroEyebrow: Chiều mưa đổ bánh xèo…
+
+quick:
+  ingredients:
+    - "Vỏ bánh: bột gạo [[400|g]] · bột nghệ [[1|muỗng cà phê]] · nước cốt dừa [[200|ml]] · nước [[600|ml]] · hành lá"
+    - Tôm [[300|g]] · ba rọi [[300|g]] xắt mỏng · giá [[300|g]] · đậu xanh cà vỏ [[100|g]] hấp chín
+    - "Rau cuốn: cải bẹ xanh, xà lách · húng quế, tía tô, diếp cá · dưa leo"
+    - "Nước chấm: mắm [[3|muỗng canh|frac]] + đường [[3|muỗng canh|frac]] + nước ấm + chanh + tỏi ớt + đồ chua"
+    - Dầu ăn (hoặc mỡ heo) để đổ bánh
+  steps:
+    - Đậu xanh ngâm **1 giờ**, hấp chín tơi (làm việc này đầu tiên).
+    - Pha bột + nghệ + muối với nước cốt dừa và nước, khuấy mịn, **nghỉ bột 30 phút**, thêm hành lá xắt.
+    - Ba rọi xắt mỏng, tôm rửa ráo; pha mắm chua ngọt + làm đồ chua; rau rửa vẩy khô.
+    - Chảo **nóng già** tráng dầu — xào chín tái vài con tôm + mấy lát thịt ngay trong chảo.
+    - Khuấy bột, chế **một vá**, nghiêng chảo tráng thiệt lẹ cho mỏng — phải nghe **"xèo"** thiệt lớn; rắc đậu xanh + nắm giá, đậy nắp 30 giây.
+    - Mở nắp, rưới muỗng dầu quanh rìa, chiên lửa vừa tới **rìa vàng cong tróc lên** — gập đôi, trượt ra dĩa. Cuốn cải xanh, chấm mắm, ăn nóng tại trận.
+  warning: >-
+    Bánh mềm xìu không giòn là do bộ ba: **bột đặc quá – chảo chưa đủ nóng –
+    đổ quá dày**. Bột phải loãng chảy thành dòng, chảo phải "xèo" thiệt lớn
+    mới chế bột.
+
+flavor:
+  chua: 4
+  ngot: 6
+  man: 5
+  cay: 3
+  thom: 9
+flavorNote: >-
+  **Chuẩn bánh:** rìa **giòn rụm như bánh tráng nướng**, giữa mềm vừa, thơm
+  béo dừa – nghệ; cuốn rau chấm mắm là đủ **giòn – mát – chua – ngọt** trong
+  một miếng.
+storyEyebrow: Chuyện cái bánh
+storyTitle: Món ăn **đặt tên bằng âm thanh** của chảo nóng
+story:
+  - >-
+    Ít có món nào thật thà như bánh xèo: tên món chính là **tiếng bột chạm
+    chảo nóng** — "xèoooo" một phát giòn tan, ai đứng gần bếp cũng nuốt nước
+    miếng. Ở miền Tây, cứ chiều mưa rả rích là mấy má mấy dì lại bắc chảo:
+    người đổ bánh, người lặt rau, con nít chầu chực bên bếp chờ cái bánh
+    đầu tiên — thứ "bánh test chảo" ngon nhất trần đời.
+  - >-
+    Bánh xèo miền Tây có hai chữ ký riêng: **nước cốt dừa trong bột** cho vỏ
+    bánh béo thơm phưng phức, và **lá cải bẹ xanh** thay bánh tráng để cuốn —
+    vị nhẫn nhẹ của cải ôm miếng bánh béo giòn, chấm ngập chén mắm chua ngọt,
+    cân nhau từng chút một. Bánh phải to, phải mỏng, rìa phải giòn — khác hẳn
+    bánh khọt hay bánh xèo miền Trung nhỏ mà dày.
+  - >-
+    Công thức này là bản pha bột tự làm từ đầu, tỉ lệ đã cân để **lần đầu đổ
+    cũng giòn**. Bí quyết không nằm ở tay nghề mà ở ba thứ đo đếm được: độ
+    loãng của bột, độ nóng của chảo, độ mỏng của lớp bột — đọc kỹ phần bước
+    là nắm trọn.
+
+ingredientGroups:
+  - name: Vỏ bánh vàng giòn
+    icon: rice
+    items:
+      - id: botgao
+        name: Bột gạo
+        icon: rice
+        base: 400
+        unit: g
+        note: Bột gạo tẻ; dùng gói bột bánh xèo pha sẵn thì bỏ nghệ
+      - id: botnghe
+        name: Bột nghệ
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng cà phê
+        note: Cho màu vàng nắng — nhiều quá sẽ nhẫn đắng
+      - id: nuoccotdua
+        name: Nước cốt dừa
+        icon: drop
+        color: gold
+        base: 200
+        unit: ml
+        note: Hồn béo của bánh xèo miền Tây — lon hay dão vắt đều được
+      - id: nuoc
+        name: Nước lọc
+        icon: drop
+        base: 600
+        unit: ml
+        note: Thay ⅓ bằng bia lạnh, bánh càng giòn
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 3
+        unit: nhánh
+        note: Xắt nhỏ, thả vô bột trước khi đổ
+  - name: Nhân đầy ắp
+    icon: shrimp
+    items:
+      - id: tom
+        name: Tôm đất hoặc tôm thẻ
+        icon: shrimp
+        color: red
+        base: 300
+        unit: g
+        note: Tôm đất nhỏ để nguyên vỏ mới ngọt; tôm thẻ thì lột
+      - id: baroi
+        name: Ba rọi
+        icon: meat
+        base: 300
+        unit: g
+        note: Xắt lát mỏng cỡ ngón út
+      - id: dauxanh
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 100
+        unit: g
+        note: Ngâm 1 giờ, hấp chín tơi — bùi bùi rất miền Tây
+      - id: gia
+        name: Giá sống
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Rửa sạch, để thiệt ráo
+  - name: Rau cuốn & đồ chua
+    icon: lettuce
+    items:
+      - id: caixanh
+        name: Cải bẹ xanh
+        icon: lettuce
+        color: green
+        base: 1
+        unit: bó
+        note: Lá to nguyên — "bánh tráng" của người miền Tây
+      - id: rauthom
+        name: Xà lách + rau thơm
+        icon: herb
+        color: green
+        qtyText: 1 mâm đầy
+        note: Húng quế, tía tô, diếp cá — càng nhiều càng vui
+      - id: dualeo
+        name: Dưa leo
+        icon: okra
+        color: green
+        base: 1
+        unit: trái
+        note: Xắt sợi dài, kẹp vô cuốn cho mát
+      - id: dochua
+        name: Đồ chua cà rốt – củ cải
+        icon: jar
+        color: gold
+        base: 1
+        unit: chén
+        note: Bào sợi, ngâm giấm đường trước 30 phút
+  - name: Nước mắm chua ngọt
+    icon: bottle
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Xương sống của chén nước chấm
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Mắm bánh xèo pha ngọt dịu kiểu miền Tây
+      - id: chanh
+        name: Chanh
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Vắt lấy 2 muỗng canh nước cốt
+      - id: toiot
+        name: Tỏi + ớt băm
+        icon: chili
+        color: red
+        qtyText: 2 tép tỏi · 2 trái ớt
+        note: Băm nhuyễn cho nổi mặt chén mắm
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **chồng bánh giòn rụm**
+stepsLead: >-
+  Đổ bánh xèo vui như chơi trò chơi: chuẩn bị một lượt cho đủ đồ, rồi cứ đứng
+  bếp đổ liền tay — bánh nào ra ăn nóng bánh đó mới đúng điệu.
+steps:
+  - title: Ngâm đậu, pha bột, nghỉ bột
+    icon: rice
+    minutes: 40 phút
+    intro: "Hai việc chờ lâu nhất làm trước tiên:"
+    bullets:
+      - label: "Đậu xanh:"
+        text: >-
+          ngâm nước ấm **1 giờ** (gấp thì nước nóng già 30 phút), hấp hoặc nấu
+          với xíu nước tới **chín tơi mà còn nguyên hột** — đừng nát thành
+          nhuyễn.
+      - label: "Pha bột:"
+        text: >-
+          trộn đều bột gạo + bột nghệ + ½ muỗng cà phê muối; chế **nước cốt
+          dừa trước, nước lọc sau**, vừa chế vừa khuấy cho tan mịn không ốc
+          trâu.
+      - label: "Thử độ loãng:"
+        text: >-
+          múc vá bột giơ lên — bột **chảy thành dòng mảnh liên tục**, tráng
+          lưng vá thành lớp mỏng nhìn xuyên được là đạt. Đặc quá thêm nước,
+          loãng quá thêm bột, từng muỗng một.
+      - label: "Nghỉ bột:"
+        text: >-
+          đậy lại, để **30 phút** cho bột nở mịn. Trước khi đổ mới thả hành
+          lá xắt vào, khuấy đều.
+    callout:
+      type: tip
+      text: >-
+        Pha bột từ tối hôm trước cất tủ lạnh, bột lên men nhẹ — bánh **giòn
+        hơn và thơm hơn** hẳn. Dân đổ bánh lâu năm toàn chơi chiêu này.
+    timer:
+      secs: 1800
+      label: Hẹn giờ nghỉ bột · 30:00
+      doneMsg: Bột nở mịn rồi — chuẩn bị đổ thôi!
+  - title: Sơ chế nhân, pha mắm, dọn rau
+    icon: knife
+    minutes: 20 phút
+    intro: "Tranh thủ lúc chờ bột, lo trọn phần còn lại:"
+    bullets:
+      - label: "Nhân:"
+        text: >-
+          ba rọi xắt lát mỏng, ướp chút muối tiêu; tôm rửa sạch **để thiệt
+          ráo**; giá rửa, vẩy khô.
+      - label: "Đồ chua:"
+        text: >-
+          cà rốt + củ cải trắng bào sợi, bóp nhẹ với ½ muỗng cà phê muối, xả
+          sạch, ngâm với 2 muỗng canh giấm + 2 muỗng canh đường.
+      - label: "Nước chấm:"
+        text: >-
+          hòa tan [[3|muỗng canh|frac]] đường + [[6|muỗng canh|frac]] nước
+          ấm, thêm [[3|muỗng canh|frac]] nước mắm + 2 muỗng canh nước cốt
+          chanh, nếm chua ngọt cân nhau rồi mới thả **tỏi ớt băm** — tỏi nổi
+          mặt mới đẹp. Ăn tới đâu gắp đồ chua thả vô tới đó.
+      - label: "Rau:"
+        text: cải xanh, xà lách, rau thơm rửa sạch, vẩy thiệt khô, xếp ra mâm.
+    callout:
+      type: tip
+      text: >-
+        Thay nước ấm bằng **nước dừa tươi** là chén mắm dịu ngọt đúng chất
+        miền Tây — nhà có sẵn trái dừa thì đừng bỏ qua.
+  - title: Thử chảo — canh độ nóng chuẩn
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Dùng **chảo không dính đáy dày** (hoặc chảo gang quen tay), bắc lên
+          **lửa lớn** cho nóng già, tráng một lớp dầu mỏng.
+      - text: >-
+          Nhểu **vài giọt bột** thử: nghe **"xèo" một tiếng gọn, rìa giọt bột
+          sủi liền** là chảo đạt. Im re là còn nguội — chờ thêm.
+      - text: >-
+          Giữ bên bếp: chén dầu + muỗng, vá múc bột, nắp chảo, dĩa lớn — đổ
+          bánh là "trận đánh nhanh", đồ nghề phải trong tầm tay.
+    callout:
+      type: warn
+      text: >-
+        Chảo chưa đủ nóng mà chế bột là bánh **dính chảo + mềm xìu** — lỗi số
+        một của người mới. Cứ kiên nhẫn chờ tiếng "xèo" giòn tai.
+  - title: Đổ bánh — nghe xèo là sướng
+    icon: flame
+    minutes: 30 phút
+    intro: "Nhịp đổ một cái bánh, lặp lại tới hết bột:"
+    bullets:
+      - label: "Xào nhân:"
+        text: >-
+          cho 1 muỗng cà phê dầu, thả **3–4 con tôm + 3–4 lát thịt** vào xào
+          chín tái ngay trong chảo, dàn về một phía.
+      - label: "Chế bột:"
+        text: >-
+          khuấy thau bột (bột gạo lắng nhanh lắm), múc **một vá**, chế vòng
+          từ mép chảo vào giữa rồi **nghiêng chảo thiệt lẹ** cho bột phủ kín
+          đáy thành lớp mỏng — nghe "xèoooo" là đúng bài.
+      - label: "Hấp giá:"
+        text: >-
+          rắc 1 muỗng đậu xanh + 1 nắm giá lên **nửa cái bánh**, đậy nắp đúng
+          **30 giây** cho giá vừa héo.
+      - label: "Chiên giòn:"
+        text: >-
+          mở nắp, hạ lửa vừa, **rưới muỗng dầu quanh rìa bánh**, chiên 2–3
+          phút tới khi rìa **vàng nâu, cong tróc khỏi chảo**. Gập đôi bánh,
+          trượt ra dĩa.
+    callout:
+      type: warn
+      text: >-
+        Quên khuấy bột trước mỗi vá là cái sau **đặc nghẹt** cái trước loãng
+        toẹt. Và đừng tham chế đầy — bánh dày là hết giòn, "xèo" thành "xịt".
+    timer:
+      secs: 30
+      label: Đậy nắp hấp giá · 00:30
+      doneMsg: Mở nắp — rưới dầu quanh rìa cho giòn!
+  - title: Cuốn cải xanh, chấm mắm
+    icon: lettuce
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Trải **lá cải bẹ xanh** (hoặc xà lách) lên tay, xé miếng bánh nóng
+          đặt vào, thêm rau thơm + dưa leo.
+      - text: >-
+          Cuốn gọn lại, **chấm ngập** chén mắm chua ngọt có đồ chua — cắn một
+          miếng nghe đủ: giòn của vỏ, ngọt của tôm thịt, mát của rau, chua
+          ngọt của mắm.
+      - text: >-
+          Ăn tới đâu đổ tới đó, bánh ra chảo là chia liền — món này **không
+          chờ ai bao giờ**.
+    callout:
+      type: tip
+      text: >-
+        Nhà đông người thì bày mâm rau + chén mắm sẵn trên bàn, người đổ cứ
+        đổ, người ăn cứ ăn — tiếng "xèo" xen tiếng cười, đó mới là bánh xèo
+        miền Tây trọn vị.
+    doneText: Cuốn cái đầu tiên — xong!
+
+tipsTitle: 7 bí quyết cho **bánh giòn tới miếng cuối**
+tipsLead: >-
+  Giòn hay ỉu là chuyện đo đếm được chứ không phải hên xui — nắm 7 điều này
+  là chảo đầu tay đã ra bánh giòn.
+tips:
+  - icon: drop
+    title: Bột loãng mới giòn
+    text: >-
+      Bí mật lớn nhất nằm ở **độ loãng**: bột phải chảy thành dòng mảnh liên
+      tục. Bột đặc cho cái bánh dày bịch như bánh bò — thà loãng hơn một chút
+      còn hơn đặc hơn một chút.
+  - icon: flame
+    title: Chảo nóng già mới chế bột
+    text: >-
+      Bột chạm chảo phải **"xèo" thiệt lớn và sủi rìa liền** — đó là nước
+      trong bột hóa hơi tức thì, tạo lớp vỏ giòn. Chảo nguội thì bột nằm im,
+      hút dầu, thành bánh mềm.
+  - icon: spoon
+    title: Khuấy bột trước mỗi vá
+    text: >-
+      Bột gạo **lắng xuống đáy thau rất nhanh** — không khuấy là vá trên toàn
+      nước, vá dưới đặc quánh. Tập thói quen: tay múc vá, tay khuấy thau.
+  - icon: jar
+    title: Bia lạnh — mẹo giòn của thợ
+    text: >-
+      Thay ⅓ nước bằng **bia lạnh**: bọt ga + độ lạnh gặp chảo nóng làm vỏ
+      bánh xốp giòn rõ rệt. Không có bia thì nước đá lạnh cũng đỡ được một
+      phần.
+  - icon: drop
+    title: Dầu rưới quanh rìa
+    text: >-
+      Muốn rìa giòn tan kiểu "ren bánh" thì sau khi mở nắp, **rưới muỗng dầu
+      men theo rìa bánh** — rìa được chiên ngập dầu cục bộ, vàng ruộm, kêu
+      rôm rốp.
+  - icon: lettuce
+    title: Cải bẹ xanh thay bánh tráng
+    text: >-
+      Vị **nhẫn cay nhẹ** của cải bẹ xanh sinh ra để cân cái béo của dừa và
+      dầu — cuốn thử một lần là hiểu vì sao người miền Tây không cuốn bằng
+      thứ khác.
+  - icon: clock
+    title: Bánh xèo không chờ ai
+    text: >-
+      Ra chảo **5 phút là bắt đầu ỉu** — nên dọn bàn trước, đổ tới đâu ăn tới
+      đó. Lỡ phải làm nhiều thì xếp bánh lên rack cho thoáng đáy, giữ trong
+      lò 100°C.
+
+serve:
+  title: Bày mâm — **vui nhất là xúm lại cuốn**
+  paras:
+    - >-
+      Bánh xèo là món của **đám đông**: mâm rau ú ụ giữa bàn, chồng dĩa, chén
+      mắm mỗi người một cái, bánh nóng ra tới đâu tiếng xuýt xoa rộ lên tới
+      đó. Nhà có khách mà bày tiệc bánh xèo là **vui nổ trời**, chủ nhà đứng
+      bếp mà miệng cười không nghỉ.
+    - >-
+      Đúng điệu miền Tây là **cuốn bằng tay**: lá cải xanh lót ngoài, bánh
+      rau cuộn trong, chấm ngập mắm — không dao nĩa gì hết. Ăn bánh xèo mà
+      dùng đũa xẻ nhỏ nhẹ là "chưa tới" rồi nghen.
+    - >-
+      Chiều mưa lành lạnh, chảo bánh xèo reo trên bếp, mùi nước cốt dừa thơm
+      phức cả nhà — không cần dịp gì hết, **mưa là cái cớ đủ lớn** để đổ bánh
+      xèo.
+  aside:
+    title: Bên chảo bánh xèo
+    intro: "Ba thứ phải sẵn sàng trước khi đổ cái đầu tiên:"
+    items:
+      - icon: lettuce
+        text: "**Mâm rau ú ụ** — cải xanh, xà lách, rau thơm chất thành ngọn, rửa sẵn vẩy khô."
+      - icon: bottle
+        text: "**Chén mắm chua ngọt + đồ chua** — pha dư ra, món này tốn mắm lắm."
+      - icon: herb
+        text: "**Dĩa lót lá chuối** — bánh ra chảo đặt lên cho ráo dầu, thơm thêm mùi lá."
+
+faq:
+  - q: Bánh không giòn — sai ở đâu?
+    a: >-
+      Dò theo thứ tự: **(1) bột đặc quá** — thêm nước tới khi chảy thành dòng
+      mảnh; **(2) chảo chưa đủ nóng** — chờ nghe "xèo" thiệt lớn; **(3) đổ
+      quá dày** — một vá mỏng thôi; **(4) thiếu dầu ở rìa**. Sửa đúng bốn
+      chỗ đó, cái bánh kế tiếp giòn liền.
+  - q: Dùng gói bột bánh xèo pha sẵn được không?
+    a: >-
+      Được, tiện mà ổn định — gói pha sẵn **có nghệ và bột nở sẵn** nên bỏ
+      bột nghệ đi. Nhưng nhớ giữ lại chữ ký miền Tây: **thay một phần nước
+      bằng nước cốt dừa** theo tỉ lệ trên bao bì, không thì bánh giòn mà
+      "trống mùi".
+  - q: Không có chảo gang, chảo chống dính thường có đổ được không?
+    a: >-
+      Được và còn **dễ hơn cho người mới** — bánh không dính, dễ gập. Chọn
+      cái đáy dày một chút cho giữ nhiệt (chảo mỏng đổ 2–3 cái là nguội).
+      Chảo gang cho rìa giòn nhất nhưng phải quen tay và tráng dầu kỹ.
+  - q: Đậu xanh bỏ được không?
+    a: >-
+      Bỏ được — bánh vẫn giòn ngon, chỉ thiếu đi **vị bùi bùi rất miền Tây**.
+      Nhà kỹ ăn kiểu gốc thì ráng ngâm hấp; gấp quá thì tăng giá + tôm thịt
+      bù vào, không ai bắt đền.
+  - q: Bột pha dư, cất được bao lâu?
+    a: >-
+      Đậy kín cất **tủ lạnh 1–2 ngày** vẫn đổ ngon — bột lên men nhẹ có khi
+      còn giòn thơm hơn hôm đầu. Trước khi đổ nhớ khuấy đều và nếm lại độ
+      loãng (bột để qua đêm hay đặc lên, thêm chút nước là được).
+  - q: Sao bánh cứ dính chảo?
+    a: >-
+      Ba lý do: chảo **chưa đủ nóng** khi chế bột, **thiếu dầu tráng**, hoặc
+      chảo chống dính đã trầy. Chữa: chờ chảo nóng già mới đổ, tráng dầu đều
+      trước mỗi cái, và đừng lật sớm — bánh **tự tróc rìa** khi đủ giòn mới
+      gập.
+
+ticker:
+  - icon: flame
+    text: Nghe xèo là thèm
+  - icon: drop
+    text: Béo thơm nước cốt dừa
+  - icon: shrimp
+    text: Tôm đất ngọt lừ
+  - icon: lettuce
+    text: Cuốn lá cải xanh
+  - icon: pod
+    text: Đậu xanh bùi bùi
+  - icon: bottle
+    text: Mắm chua ngọt đồ chua
+  - icon: sprout
+    text: Giá hấp vừa héo

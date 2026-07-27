@@ -1,0 +1,508 @@
+title: Bún bò Huế **cay nồng sả ruốc đúng chất cố đô**
+summary: >-
+  Nước dùng hầm xương giò thơm nồng **sả và mắm ruốc Huế**, màu điều đỏ óng,
+  bắp bò giò heo mềm tan — tô bún đậm – cay – thơm khiến người xa quê nghe mùi
+  là cồn cào.
+region: Miền Trung
+category: Bún – Phở
+time:
+  total: 3 giờ
+servingsBase: 4
+difficulty: Kỳ công
+featured: true
+order: 3
+heroEyebrow: Dạ thưa xứ Huế bây chừ…
+
+quick:
+  ingredients:
+    - Bắp bò [[600|g]] (cột chỉ giữ khối) · giò heo [[600|g]] khoanh móng trước · xương ống heo [[1000|g]]
+    - Sả [[6|cây]] đập dập + [[3|cây]] băm nhuyễn · hành tím [[4|củ]] nướng · tỏi [[4|tép]]
+    - Mắm ruốc Huế [[3|muỗng canh|frac]] — pha [[200|ml]] nước, để lắng lấy nước trong
+    - "Sa tế: ớt bột [[3|muỗng canh|frac]] · dầu màu điều [[2|muỗng canh|frac]] · sả tỏi băm"
+    - Bún sợi to [[1000|g]] · chả Huế [[200|g]] · huyết luộc [[300|g]] (tùy thích)
+    - "Rau kèm: bắp chuối bào, giá, húng quế · hành tây, hành lá, ngò gai · chanh, ớt"
+    - "Nêm: nước mắm [[2|muỗng canh|frac]] · đường phèn [[1.5|muỗng canh|frac]] · muối"
+  steps:
+    - Xương, giò, bắp bò **chần 3 phút** nước sôi rồi xả sạch; bắp bò cột chỉ cho giữ khối.
+    - Mắm ruốc khuấy với nước, **để lắng 15 phút**, chỉ giữ phần nước trong bên trên.
+    - Hầm xương + giò + bắp với [[3|lít]] nước, thả sả đập + hành tím nướng, **hớt bọt đều tay**, lửa liu riu.
+    - Giò heo mềm sau **45 phút**, bắp bò sau **90 phút** — vớt tới đâu ngâm nước lạnh tới đó cho săn.
+    - Phi sả tỏi băm với ớt bột + dầu điều thành **sa tế** — múc 2 muỗng vô nồi, còn lại để chan.
+    - "Chế nước ruốc lắng vô nồi **đang sôi**, nêm mắm – đường phèn – muối: đậm, cay, ngọt hậu, nồng sả."
+    - "Tô trụng nóng: bún, bắp bò xắt lát, giò, chả, huyết — chan nước **sôi sùng sục**, rưới sa tế, dọn mâm rau + chanh ớt."
+  warning: >-
+    Đổ thẳng mắm ruốc vô nồi là nước đục và nặng mùi. Phải **pha loãng – để
+    lắng – chỉ lấy nước trong**, và luôn chế vào lúc nồi đang sôi.
+
+flavor:
+  chua: 1
+  ngot: 5
+  man: 7
+  cay: 7.5
+  thom: 9.5
+flavorNote: >-
+  **Chuẩn vị Huế:** húp một muỗng thấy **mặn đậm đà dẫn trước, cay nồng đuổi
+  sau, ngọt xương đọng lại ở hậu** — và mùi sả – ruốc thơm nức không lẫn vô
+  đâu được.
+storyEyebrow: Chuyện tô bún
+storyTitle: Tô bún **mang cả cố đô** ra chợ sáng
+story:
+  - >-
+    Ở Huế, trời còn chưa tỏ mặt người là các gánh bún bò đã đỏ lửa dọc đường
+    Nguyễn Du, chợ Đông Ba. Các mệ, các o ngồi giữa một bên là nồi nước dùng
+    bốc khói **thơm nồng sả ruốc**, một bên là thau bún trắng ngần — khách
+    ngồi ghé đòn kê, bưng tô bún nóng, xuýt xoa vì cay mà muỗng nào cũng vét
+    sạch.
+  - >-
+    Người ta hay nói ẩm thực Huế là **"ăn bằng cả năm giác quan"**, và bún bò
+    là bằng chứng sống: màu điều đỏ óng sánh trên mặt nước, mùi sả quyện mắm
+    ruốc bay xa cả góc chợ, miếng bắp bò lát mỏng nằm cạnh khoanh giò trắng
+    giòn. Linh hồn của nồi nước nằm ở **hai thứ không được thiếu: sả và mắm
+    ruốc Huế** — thiếu một là tô bún "lạc giọng" ngay.
+  - >-
+    Công thức này giữ đúng nếp nấu Huế nhưng liều lượng đã cân cho bếp nhà:
+    ruốc pha lắng cho nước trong, độ cay để bạn tự chỉnh bằng chén sa tế
+    riêng. Nấu một nồi cuối tuần, cả nhà **vừa ăn vừa hít hà** — vui như đi
+    chợ sáng xứ Huế.
+
+ingredientGroups:
+  - name: Thịt & xương
+    icon: meat
+    items:
+      - id: bapbo
+        name: Bắp bò (bắp hoa càng ngon)
+        icon: meat
+        color: red
+        base: 600
+        unit: g
+        note: Cột chỉ quanh khối thịt — luộc xong xắt lát mới tròn đẹp
+      - id: gioheo
+        name: Giò heo
+        icon: meat
+        base: 600
+        unit: g
+        note: Chọn móng trước ít mỡ, nhờ chặt khoanh 2 cm
+      - id: xuong
+        name: Xương ống heo
+        icon: meat
+        base: 1000
+        unit: g
+        note: Nền ngọt của nồi nước — nhờ chặt khúc
+      - id: cha
+        name: Chả Huế hoặc chả cua
+        icon: roll
+        color: gold
+        base: 200
+        unit: g
+        note: Mua sẵn hàng chả; không có thì chả lụa cũng xong
+      - id: huyet
+        name: Huyết luộc
+        icon: drop
+        color: red
+        base: 300
+        unit: g
+        note: Tùy thích — không ăn thì bỏ qua
+  - name: Linh hồn Huế
+    icon: stem
+    items:
+      - id: sa
+        name: Sả tươi
+        icon: stem
+        color: green
+        base: 9
+        unit: cây
+        note: 6 cây đập dập thả nồi, 3 cây băm làm sa tế
+      - id: mamruoc
+        name: Mắm ruốc Huế
+        icon: jar
+        color: red
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Hồn cốt của món — tìm đúng ruốc Huế màu tím sẫm
+      - id: otbot
+        name: Ớt bột
+        icon: chili
+        color: red
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Ớt bột Huế cay thơm nhất; giảm nếu nhà ăn cay yếu
+      - id: daudieu
+        name: Dầu màu điều
+        icon: drop
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cho màu đỏ óng; không có thì phi hột điều với dầu ăn
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 4
+        unit: tép
+        note: Băm nhuyễn cho sa tế
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 4
+        unit: củ
+        note: Nướng xém vỏ, cạo sạch, thả nồi cho thơm
+  - name: Bún & rau kèm
+    icon: noodle
+    items:
+      - id: bun
+        name: Bún tươi sợi to
+        icon: noodle
+        base: 1000
+        unit: g
+        note: Sợi to cỡ đầu đũa mới đúng điệu bún bò
+      - id: bapchuoi
+        name: Bắp chuối bào
+        icon: flower
+        color: gold
+        base: 0.5
+        unit: cái
+        frac: true
+        note: Bào mỏng, ngâm nước pha chanh cho trắng giòn
+      - id: gia
+        name: Giá sống
+        icon: sprout
+        color: green
+        base: 200
+        unit: g
+        note: Rửa sạch, để ráo
+      - id: raucay
+        name: Húng quế + ngò gai
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Rau thơm bắt vị nhất với bún bò
+      - id: hanhtay
+        name: Hành tây + hành lá
+        icon: onion
+        base: 1
+        unit: củ
+        note: Hành tây khoanh mỏng ngâm đá, hành lá xắt nhỏ
+      - id: chanhot
+        name: Chanh + ớt tươi
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Chanh bổ múi, ớt xắt lát — ai ăn nấy nêm
+  - name: Nêm nếm
+    icon: spoon
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Nêm lúc cuối cho thơm
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        color: gold
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Ngọt hậu dịu — đường cát cũng được
+      - id: giavi
+        name: Muối + dầu ăn
+        icon: jar
+        qtyText: Muối · dầu ăn phi sa tế
+        note: Nêm theo bước hướng dẫn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 7 bước ra **nồi bún bò dậy mùi cả xóm**
+stepsLead: >-
+  Bún bò Huế nghe "kỳ công" chứ thật ra chỉ có hai việc khó: xử mắm ruốc cho
+  khéo và canh giờ vớt thịt. Cả hai đều có hướng dẫn kỹ ngay dưới đây.
+steps:
+  - title: Sơ chế thịt xương — sạch từ đầu
+    icon: knife
+    minutes: 20 phút
+    bullets:
+      - label: "Giò heo:"
+        text: >-
+          cạo sạch lông sót, chà muối rửa kỹ. Khoanh giò rửa xong **cột chỉ
+          quanh viền** nếu muốn khoanh tròn đẹp không bung.
+      - label: "Bắp bò:"
+        text: >-
+          rửa sạch, **cột chỉ thực phẩm quanh khối thịt** cho giữ dáng — lúc
+          xắt lát mới tròn vành, không vỡ vụn.
+      - label: "Chần:"
+        text: >-
+          đun nồi nước sôi + [[1|muỗng canh|frac]] muối, thả xương, giò, bắp
+          bò vào **chần 3 phút**, vớt ra xả sạch dưới vòi nước. Nồi rửa sạch
+          rồi mới nấu tiếp.
+    callout:
+      type: warn
+      text: >-
+        Bỏ qua bước chần là nước dùng **đục và nổi mùi hôi xương** — canh
+        chua vớt vát được chứ bún bò thì không, vì nồi này cần nước trong mà
+        mùi phải sạch để sả ruốc lên ngôi.
+    timer:
+      secs: 180
+      label: Hẹn giờ chần · 03:00
+      doneMsg: Xả nước lạnh, sạch bọt bẩn rồi!
+  - title: Pha mắm ruốc — lắng cho trong
+    icon: jar
+    minutes: 15 phút
+    intro: "Bước làm nên hay phá hỏng nồi bún bò — làm sớm để kịp lắng:"
+    bullets:
+      - text: >-
+          Cho [[3|muỗng canh|frac]] mắm ruốc vào chén, chế [[200|ml]] nước
+          nguội, **khuấy thiệt tan**.
+      - text: >-
+          Để yên **ít nhất 15 phút** cho cát và xác ruốc lắng hết xuống đáy.
+      - text: >-
+          Khi dùng, **chỉ chắt lấy phần nước trong bên trên**, phần cặn đổ
+          bỏ — nước dùng vừa thơm vừa không lợn cợn.
+    callout:
+      type: tip
+      text: >-
+        Sợ mùi ruốc? Đừng sợ — ruốc sống nghe "nặng mùi" nhưng gặp nồi nước
+        sôi là hóa **thơm nồng nàn rất Huế**. Mùi chỉ tệ khi cho ruốc lúc
+        nước nguội hoặc quên lắng cặn.
+    timer:
+      secs: 900
+      label: Hẹn giờ lắng ruốc · 15:00
+      doneMsg: Chắt nước ruốc trong được rồi!
+  - title: Hầm nước dùng — sả dẫn đường
+    icon: pot
+    minutes: 90 phút
+    bullets:
+      - text: >-
+          Cho xương + giò + bắp bò vào nồi với **[[3|lít]] nước lạnh** +
+          [[1|muỗng canh|frac]] muối, đun lửa vừa.
+      - text: >-
+          Sôi thì hạ lửa, **hớt sạch bọt** rồi thả **sả đập dập** + hành tím
+          nướng vào. Giữ sôi **liu riu**, hé vung.
+      - text: >-
+          **Mốc 45 phút:** xiên đũa qua phần da giò heo thấy xuyên nhẹ là vớt
+          giò ra, **ngâm nước lạnh** cho da giòn, trắng đẹp.
+      - text: >-
+          **Mốc 90 phút:** bắp bò mềm (xiên đũa không rỉ nước hồng) thì vớt,
+          ngâm nước lạnh 10 phút, để ráo. Xương cứ để hầm tiếp trong lúc làm
+          các bước sau.
+    callout:
+      type: warn
+      text: >-
+        Vớt thịt trễ là giò **nhũn mất giòn**, bắp bò **bã mất ngọt** — canh
+        đúng hai mốc giờ, có đồng hồ dưới đây lo giùm bạn.
+    timer:
+      secs: 5400
+      label: Hẹn giờ hầm thịt · 90:00
+      doneMsg: Vớt bắp bò ngâm lạnh nghen!
+  - title: Phi sa tế sả ớt — màu và lửa của món
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Bắc chảo với [[4|muỗng canh|frac]] dầu ăn, lửa vừa, cho **sả băm +
+          tỏi băm** vào phi tới vàng thơm.
+      - text: >-
+          Hạ **lửa nhỏ nhất**, cho ớt bột + dầu màu điều vào, đảo đều đúng
+          **30 giây** rồi tắt bếp — dầu đỏ óng ánh, thơm cay nức mũi.
+      - text: >-
+          Chia hai phần: **2 muỗng canh cho vô nồi nước dùng**, phần còn lại
+          rót ra chén làm sa tế chan — ai ăn cay nấy múc.
+    callout:
+      type: warn
+      text: >-
+        Ớt bột gặp lửa lớn là **cháy đắng trong nháy mắt** và màu chuyển nâu
+        xỉn. Nhớ: phi sả xong mới hạ lửa cho ớt vào.
+  - title: Nêm nếm — đậm mới đúng giọng Huế
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - text: Vớt xác sả, hành và xương ra cho nồi gọn (xương gặm ngọt, đừng vứt vội).
+      - text: >-
+          Nồi đang **sôi già** thì chế **nước ruốc đã lắng** vào — mùi thơm sẽ
+          bùng lên ngay lập tức.
+      - text: >-
+          Nêm [[1.5|muỗng canh|frac]] đường phèn + [[2|muỗng canh|frac]] nước
+          mắm + muối từng chút.
+      - text: >-
+          Nếm thử: nước lèo phải **đậm hơn nước canh một bậc** — vì còn chan
+          vào cả tô bún. Chuẩn là: mặn đậm, cay nồng, ngọt hậu, thơm nức mùi
+          sả ruốc.
+    callout:
+      type: tip
+      text: >-
+        Nêm xong thấy "thơm mà chưa đủ đô", cứ chắt thêm **1 muỗng nước ruốc
+        lắng** — ruốc chính là "nước mắm nêm" của người Huế, lên vị nhanh hơn
+        bất kỳ gia vị nào.
+  - title: Chuẩn bị phần tô
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Thịt:"
+        text: >-
+          bắp bò nguội hẳn, tháo chỉ, **xắt lát mỏng ngang thớ** — lát thịt
+          vân hoa mới đẹp; giò heo để nguyên khoanh; chả Huế cắt miếng vừa
+          gắp; huyết cắt quân cờ, trụng lại nước sôi.
+      - label: "Rau:"
+        text: >-
+          bắp chuối bào ngâm nước pha chanh cho trắng, vớt ráo; giá rửa sạch;
+          húng quế ngò gai lặt lá; hành tây khoanh mỏng ngâm đá; hành lá xắt
+          nhỏ.
+      - label: "Bún:"
+        text: trụng nước sôi **20–30 giây**, xóc ráo, chia sẵn vô tô.
+    callout:
+      type: tip
+      text: >-
+        Món này dọn **mâm rau ú ụ** mới đã: bắp chuối, giá, rau thơm chất
+        thành ngọn — gắp rau nhúng vô nước lèo nóng, ngon quên lối về.
+  - title: Ráp tô — đỏ óng, bốc khói, hít hà
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: Tô trụng nước sôi cho nóng, cho bún vào ⅔ tô.
+      - text: >-
+          Xếp **lát bắp bò – khoanh giò – miếng chả – huyết** vòng quanh, rắc
+          hành tây, hành lá, ngò gai.
+      - text: >-
+          Nước lèo vặn **sôi sùng sục**, chan ngập mặt bún, rưới thêm **một
+          muỗng sa tế đỏ óng** lên trên.
+      - text: >-
+          Dọn kèm mâm rau, chanh ớt và chén sa tế — bưng lên nghe mùi sả ruốc
+          là biết mình nấu đúng bài.
+    callout:
+      type: tip
+      text: >-
+        Tô bún bò Huế đạt chuẩn nhìn là biết: **nước đỏ cam óng ánh, váng sa
+        tế nổi hoa trên mặt**, khoanh giò trắng nõn kê bên lát bò nâu hồng —
+        chưa ăn đã thấy Huế.
+    doneText: Bưng lên hít hà — xong!
+
+tipsTitle: 7 bí quyết cho **tô bún chuẩn giọng Huế**
+tipsLead: >-
+  Bún bò Huế có mấy "luật bất thành văn" mà các mệ các o giữ kỹ — gom hết ở
+  đây, đọc trước khi nấu là tô bún ra đúng giọng.
+tips:
+  - icon: jar
+    title: Ruốc phải lắng, cho lúc sôi
+    text: >-
+      Hai quy tắc vàng với mắm ruốc: **pha loãng để lắng lấy nước trong**, và
+      **chỉ chế vào nồi đang sôi**. Đúng cả hai thì thơm nồng nàn; sai một là
+      nước đục, mùi nặng.
+  - icon: stem
+    title: Sả hai tầng hương
+    text: >-
+      Sả đập dập hầm từ đầu cho **hương nền** ngấm vào nước, sả băm phi sa tế
+      cho **hương nổi** dậy lên lúc chan. Thiếu tầng nào tô bún cũng "mỏng
+      mùi" hẳn đi.
+  - icon: chili
+    title: Ớt bột Huế + dầu điều
+    text: >-
+      Màu đỏ óng của bún bò là **màu thật từ ớt và hột điều**, không phải phẩm
+      màu. Ớt bột Huế vừa cay vừa thơm; không có thì ớt bột thường + dầu điều
+      vẫn ra màu đẹp.
+  - icon: meat
+    title: Cột chỉ bắp bò
+    text: >-
+      Bắp bò không cột chỉ, luộc xong xắt là **vỡ vụn từng mảng**. Cột chặt
+      tay, luộc xong để nguội hẳn mới xắt — lát thịt tròn vành, vân gân trong
+      veo như thạch.
+  - icon: drop
+    title: Ngâm lạnh ngay khi vớt
+    text: >-
+      Giò heo và bắp bò vớt ra **thả liền vô nước lạnh**: da giò giòn sựt
+      không nhũn, thịt bò săn chắc dễ xắt mỏng. Mẹo nhỏ mà chia đôi đẳng cấp
+      nồi bún.
+  - icon: spoon
+    title: Nước lèo đậm hơn nước canh
+    text: >-
+      Nêm xong húp thử thấy "hơi đậm" là **vừa chuẩn** — vì nước còn chan vào
+      bún lạt và rau tươi. Nêm kiểu nước canh húp vừa miệng là tô bún thành
+      lạt nhách.
+  - icon: flame
+    title: Cay để ở chén, đừng ở nồi
+    text: >-
+      Nồi nêm cay **vừa phải** thôi, còn chén sa tế dọn riêng giữa bàn — người
+      ăn cay giỏi tự múc thêm, con nít người già vẫn ăn chung nồi được. Nhà
+      đông thế hệ nấu kiểu này là vẹn cả làng.
+
+serve:
+  title: Dọn mâm — **xuýt xoa mới đúng kiểu Huế**
+  paras:
+    - >-
+      Bún bò Huế phải ăn **nóng rẫy**, vừa thổi vừa húp, cay tới đâu hít hà
+      tới đó — mồ hôi lấm tấm trán mà muỗng vẫn không dừng, đó mới là ăn bún
+      bò đúng kiểu.
+    - >-
+      Gắp nhúm **bắp chuối bào với giá** nhúng xuống nước lèo nóng cho tái
+      sơ rồi lùa cùng bún — giòn mát của rau đỡ lấy cái đậm cay của nước,
+      ăn hoài không ngán. Khoanh giò thì cầm hẳn lên gặm, đừng ngại — ở Huế
+      ai cũng vậy.
+    - >-
+      Nồi nước lèo dư để nguội, cất ngăn mát được 2–3 ngày, ngăn đông cả
+      tháng — hôm nào lười, đun sôi trụng bún là có tô bún bò **nhanh hơn
+      đặt ship**.
+  aside:
+    title: Trên mâm bún bò
+    intro: "Thiếu mấy thứ này là tô bún mất vui:"
+    items:
+      - icon: flower
+        text: "**Bắp chuối bào + giá** — chất thành ngọn, nhúng nước lèo ăn kèm."
+      - icon: chili
+        text: "**Chén sa tế riêng** — ai ăn cay nấy múc, khỏi ai phải nhịn."
+      - icon: lime
+        text: "**Chanh + ớt xắt** — vắt chanh trước muỗng đầu tiên, chua nhẹ nâng cả tô."
+      - icon: herb
+        text: "**Húng quế, ngò gai** — bứt lá thả mặt tô, thơm dậy lên theo khói."
+
+faq:
+  - q: Không tìm được mắm ruốc Huế thì thay bằng gì?
+    a: >-
+      Ráng tìm trước đã — chợ lớn, tiệm đặc sản miền Trung và các sàn online
+      đều có, hũ nhỏ dùng được nhiều nồi. **Mắm tôm Bắc không thay được**
+      (gắt và khác mùi hẳn). Kẹt lắm thì nấu không ruốc, nêm mắm muối cho
+      đậm — vẫn là tô bún bò ngon, chỉ là thiếu mất "giọng Huế".
+  - q: Nhà không ăn cay được thì sao?
+    a: >-
+      Giảm ớt bột trong nồi còn **1 muỗng canh** (giữ nguyên dầu điều cho đẹp
+      màu), toàn bộ vị cay dồn ra **chén sa tế riêng**. Nồi nước khi đó thơm
+      sả đậm đà mà hiền khô — con nít ăn ngon lành.
+  - q: Bún sợi to tìm không ra, dùng bún thường được không?
+    a: >-
+      Được — bún tươi sợi thường vẫn ngon, chỉ kém "đã miệng" hơn chút. Siêu
+      thị hay ghi **"bún bò"** trên bao bún sợi to, chịu khó nhìn kệ. Đừng
+      thay bằng bánh phở — mềm quá, chìm mất trong nước lèo đậm.
+  - q: Giò heo béo quá, có cách nào đỡ ngán?
+    a: >-
+      Chọn **móng trước** (nhiều gân da, ít mỡ), chần kỹ và **hớt váng mỡ**
+      trong lúc hầm. Vẫn ngại thì giảm giò, tăng bắp bò — nước vẫn ngọt mà
+      tô bún thanh hơn hẳn.
+  - q: Nước dùng bị đục thì cứu sao?
+    a: >-
+      Ba thủ phạm quen mặt: **chần vội, sôi bùng, ruốc không lắng**. Cứu:
+      hạ lửa liu riu, hớt sạch bọt váng, lược qua rây có lót khăn xô. Mùi
+      vẫn ổn thì tô bún vẫn ngon — chỉ kém trong thôi, đừng đổ nồi uổng lắm!
+  - q: Có cần chả Huế, huyết không?
+    a: >-
+      Không bắt buộc — **bắp bò + giò heo là bộ khung chính** rồi. Chả và
+      huyết là "đồ chơi thêm" cho tô bún đầy đặn kiểu hàng quán. Có thì vui,
+      không có nồi bún vẫn đứng vững.
+
+ticker:
+  - icon: stem
+    text: Sả đập thơm nức
+  - icon: jar
+    text: Mắm ruốc Huế nồng nàn
+  - icon: chili
+    text: Cay xé mà xuýt xoa
+  - icon: drop
+    text: Màu điều đỏ óng ánh
+  - icon: meat
+    text: Bắp bò giò heo mềm tan
+  - icon: noodle
+    text: Sợi bún to đúng điệu
+  - icon: flower
+    text: Bắp chuối bào giòn mát

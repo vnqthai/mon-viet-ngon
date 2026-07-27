@@ -1,0 +1,516 @@
+title: Phở bò **nước trong, thơm lựng quế hồi**
+summary: >-
+  Tô phở quốc dân nấu tại gia: nước dùng hầm xương **trong veo, ngọt sâu**,
+  thơm dịu gừng nướng quế hồi, bánh phở mềm, bò tái chín đủ đầy — công phu một
+  buổi mà cả nhà xì xụp như ngoài tiệm.
+region: Miền Bắc
+category: Bún – Phở
+time:
+  total: 4 giờ 30 phút
+servingsBase: 4
+difficulty: Kỳ công
+featured: true
+order: 2
+heroEyebrow: Thơm từ đầu ngõ thơm vô…
+
+quick:
+  ingredients:
+    - Xương ống bò [[1500|g]] — nhờ người bán chặt khúc
+    - Nạm hoặc gầu bò [[500|g]] (phần thịt chín) · thăn bò [[300|g]] (phần tái)
+    - Bánh phở tươi [[1000|g]] (hoặc [[400|g]] phở khô)
+    - Gừng [[2|củ]] · hành tây [[2|củ]] · hành tím [[4|củ]] — nướng xém thơm
+    - "Túi gia vị rang thơm: quế [[1|thanh]] · hồi [[3|hoa]] · thảo quả [[2|trái]] · đinh hương [[4|nụ]] · hạt mùi [[1|muỗng canh|frac]]"
+    - "Nêm: muối [[1|muỗng canh|frac]] · đường phèn [[20|g]] · nước mắm [[3|muỗng canh|frac]]"
+    - Hành lá, ngò rí, ngò gai · chanh, ớt · quẩy nếu thích
+  steps:
+    - Xương rửa sạch, **chần 3 phút** trong nước sôi có gừng + muối, xả kỹ từng khúc — bước quyết định nồi nước trong.
+    - Nướng xém gừng, hành tây, hành tím rồi cạo sạch vỏ cháy; rang quế – hồi – thảo quả – đinh hương – hạt mùi, cho hết vô túi vải.
+    - Hầm xương + nạm với [[3.5|lít]] nước và muối, **sôi lăn tăn, hớt bọt đều tay**; thả hành gừng nướng + túi gia vị.
+    - Sau **1 giờ** vớt túi gia vị ra kẻo hắc; sau **90 phút** vớt nạm, ngâm nước lạnh 10 phút cho săn; xương hầm tiếp cho đủ **3 giờ**.
+    - Nêm đường phèn trước, nước mắm sau cùng lúc nước đang sôi — ngọt sâu, mặn dịu, thơm thoang thoảng.
+    - Thăn bò để ngăn đá 20 phút, **thái lát thiệt mỏng ngang thớ**; nạm xắt lát; hành tây thái khoanh ngâm nước đá; trụng bánh phở.
+    - Tô trụng nước sôi cho nóng, xếp bánh phở – nạm – thăn tái – hành, chan nước dùng **sôi sùng sục** cho thịt tái vừa chín tới. Dọn kèm chanh ớt.
+  warning: >-
+    Nước dùng đục là do ba lỗi: chần xương qua loa · để nồi sôi bùng · quên hớt
+    bọt. Nhớ câu thần chú "sôi lăn tăn sủi tăm" là nồi phở trong veo.
+
+flavor:
+  chua: 0.5
+  ngot: 6.5
+  man: 5.5
+  cay: 1.5
+  thom: 9.5
+flavorNote: >-
+  **Chuẩn vị:** húp muỗng nước dùng thấy **ngọt sâu của xương chạy trước, mặn
+  dịu theo sau**, quế hồi chỉ **thoang thoảng chứ không xộc** — và nhìn tô phải
+  thấu tới đáy.
+storyEyebrow: Chuyện tô phở
+storyTitle: Món ăn **mang hồn Việt** đi khắp thế giới
+story:
+  - >-
+    Phở sinh ra từ những gánh hàng rong đất Bắc hồi đầu thế kỷ hai mươi, quẩy
+    qua các phố Hà Nội — Nam Định mỗi sớm tinh mơ. Một đầu gánh là nồi nước
+    dùng nghi ngút khói, đầu kia là bánh phở, thịt bò, dăm ba cái ghế con. Từ
+    cái gánh tre ấy, phở đi một mạch ra thế giới: người ta có thể chưa biết
+    Việt Nam ở đâu, nhưng nghe **"phở"** là gật gù liền.
+  - >-
+    Cái làm nên tô phở không phải thịt, mà là **nồi nước dùng**: xương ống hầm
+    lâu cho ngọt tủy, gừng và hành nướng xém tạo mùi nền ấm áp, túi quế hồi
+    thảo quả đinh hương góp hương thơm "rất phở" không lẫn với bất kỳ món nào.
+    Không có bí truyền gì ở đây — chỉ có **sự kiên nhẫn**: chần xương cho kỹ,
+    hớt bọt cho chăm, giữ lửa liu riu cho nước sôi lăn tăn suốt ba tiếng.
+  - >-
+    Công thức này là bản nhà nấu thong thả ngày cuối tuần: không bột ngọt,
+    không viên gia vị, ngọt là **ngọt thiệt từ xương**. Nấu một lần, sáng hôm
+    sau cả nhà có tô phở bốc khói — và bạn sẽ hiểu vì sao người Việt đi xa,
+    nhớ nhà là nhớ phở.
+
+ingredientGroups:
+  - name: Nồi nước dùng
+    icon: pot
+    items:
+      - id: xuong
+        name: Xương ống bò
+        icon: meat
+        base: 1500
+        unit: g
+        note: Thêm khúc xương đuôi càng ngọt — nhờ chặt sẵn
+      - id: nam
+        name: Nạm hoặc gầu bò
+        icon: meat
+        base: 500
+        unit: g
+        note: Phần thịt chín — nguyên miếng, luộc rồi mới xắt
+      - id: gung
+        name: Gừng già
+        icon: ginger
+        color: gold
+        base: 2
+        unit: củ
+        note: Củ to, để nguyên vỏ đem nướng
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 2
+        unit: củ
+        note: 1 củ nướng cho nồi, 1 củ thái mỏng ăn kèm
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 4
+        unit: củ
+        note: Nướng xém vỏ, đập dập thả nồi
+  - name: Túi gia vị thơm
+    icon: star
+    items:
+      - id: que
+        name: Quế thanh
+        icon: stem
+        color: gold
+        base: 1
+        unit: thanh
+        note: Cỡ 8–10 cm, loại vỏ dày thơm lâu
+      - id: hoi
+        name: Hoa hồi
+        icon: star
+        color: gold
+        base: 3
+        unit: hoa
+        note: Cánh nguyên vẹn, thơm nồng
+      - id: thaoqua
+        name: Thảo quả
+        icon: pod
+        base: 2
+        unit: trái
+        note: Rang rồi đập dập mới dậy mùi
+      - id: dinhhuong
+        name: Đinh hương
+        icon: flower
+        base: 4
+        unit: nụ
+        note: Mùi rất mạnh — đừng tham cho nhiều
+      - id: hatmui
+        name: Hạt mùi (hạt ngò)
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Không có cũng không sao
+  - name: Phần tô phở
+    icon: bowl
+    items:
+      - id: than
+        name: Thăn hoặc phi lê bò
+        icon: meat
+        color: red
+        base: 300
+        unit: g
+        note: Phần ăn tái — chọn miếng tươi đỏ hồng
+      - id: banhpho
+        name: Bánh phở tươi
+        icon: noodle
+        base: 1000
+        unit: g
+        note: Sợi to bản; phở khô thì lấy 400 g
+      - id: hanhla
+        name: Hành lá + ngò rí, ngò gai
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Đầu hành chẻ để riêng, lá xắt nhỏ
+      - id: chanh
+        name: Chanh
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Bổ múi cau, ai ăn tự vắt
+      - id: ot
+        name: Ớt tươi
+        icon: chili
+        color: red
+        base: 2
+        unit: trái
+        note: Xắt lát mỏng
+      - id: quay
+        name: Quẩy nóng
+        icon: roll
+        color: gold
+        qtyText: Tùy thích
+        note: Chấm nước dùng — đúng điệu Hà Nội
+  - name: Nêm nếm
+    icon: spoon
+    items:
+      - id: muoi
+        name: Muối hột
+        icon: jar
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Cho từ đầu để nước dùng "rút" ngọt từ xương
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        color: gold
+        base: 20
+        unit: g
+        note: Ngọt thanh, không gắt như đường cát
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Nêm sau cùng mới thơm
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 7 bước ra **nồi phở để đời**
+stepsLead: >-
+  Phở không khó, chỉ cần thời gian — phần lớn là ngồi canh nồi nghe nước reo.
+  Làm đúng thứ tự từng bước dưới đây, có đồng hồ đếm giờ gắn sẵn cho khỏi quên.
+steps:
+  - title: Chần xương — nền của nồi nước trong
+    icon: knife
+    minutes: 20 phút
+    intro: "Xương sạch thì nước mới trong, ngọt mới thanh — đừng tiếc mấy phút này:"
+    bullets:
+      - label: "Rửa:"
+        text: >-
+          xương ống rửa kỹ dưới vòi nước, cạo sạch vụn xương chỗ chặt. Kỹ hơn
+          nữa thì ngâm nước muối loãng 30 phút cho ra hết máu đọng.
+      - label: "Chần:"
+        text: >-
+          đun sôi một nồi nước với vài lát gừng đập dập + [[1|muỗng canh|frac]]
+          muối, thả xương và nạm vào chần **3 phút** cho tiết hết bọt bẩn.
+      - label: "Xả:"
+        text: >-
+          đổ hết nồi nước chần, xả từng khúc xương dưới vòi nước, cạo sạch
+          màng nâu bám ngoài. Nồi cũng rửa sạch rồi mới hầm.
+    callout:
+      type: warn
+      text: >-
+        Chần qua loa là nước dùng **vừa đục vừa hôi**, sau này vớt bọt mấy
+        cũng không cứu nổi. Đây là bước nền — làm cho tới nơi.
+    timer:
+      secs: 180
+      label: Hẹn giờ chần xương · 03:00
+      doneMsg: Đổ nước chần, xả xương thôi!
+  - title: Nướng hành gừng, rang gia vị
+    icon: flame
+    minutes: 15 phút
+    intro: "Mùi nền của phở nằm trọn trong bước này:"
+    bullets:
+      - label: "Nướng:"
+        text: >-
+          gừng, hành tây, hành tím để **nguyên vỏ**, nướng trực tiếp trên lửa
+          (hoặc chảo khô, nồi chiên không dầu 200°C · 10 phút) tới khi **xém
+          đen vỏ ngoài, dậy mùi thơm nức**.
+      - label: "Cạo:"
+        text: >-
+          cạo sạch hết lớp vỏ cháy dưới vòi nước, đập dập gừng — sót vỏ đen là
+          nước dùng vừa đắng vừa xỉn màu.
+      - label: "Rang:"
+        text: >-
+          cho quế, hồi, thảo quả, đinh hương, hạt mùi vào chảo khô, **lửa nhỏ
+          2–3 phút** tới khi thơm lựng. Thảo quả đập dập lấy cả vỏ lẫn hạt.
+      - label: "Gói túi:"
+        text: >-
+          cho hết gia vị rang vào **túi vải buộc chặt** (không có túi thì dùng
+          rây lọc trà loại to) — để sau này vớt ra một lần là gọn.
+    callout:
+      type: tip
+      text: >-
+        Gia vị rang rồi mới thơm hết cỡ — đừng bỏ thẳng vô nồi. Mua gói "gia vị
+        phở" bán sẵn cũng được, nhưng nhớ rang sơ lại.
+  - title: Hầm nước dùng — trái tim của tô phở
+    icon: pot
+    minutes: 3 giờ
+    bullets:
+      - text: >-
+          Xếp xương + nạm vào nồi, châm **[[3.5|lít]] nước lạnh** ngập xương,
+          thêm [[1|muỗng canh|frac]] muối, đun **lửa vừa** cho sôi.
+      - text: >-
+          Nước vừa sôi thì hạ lửa liền, **hớt bọt liên tục 15 phút đầu** — bọt
+          nâu là tạp chất, hớt càng sạch nước càng trong.
+      - text: >-
+          Thả hành tây, hành tím, gừng nướng + túi gia vị vào. Giữ lửa **liu
+          riu sủi tăm** — mặt nước chỉ lăn tăn, không sôi bùng. Hé vung, hầm
+          đủ **3 giờ**.
+      - text: >-
+          Thỉnh thoảng ghé ngang hớt bọt và váng mỡ. Nước cạn thì châm thêm
+          nước **sôi** (đừng châm nước lạnh).
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng là mỡ và cặn bị đánh tan vào nước — nồi phở **đục ngầu hết
+        cứu**. Lửa nhỏ tới mức chỉ thấy tăm nước li ti là chuẩn.
+    timer:
+      secs: 10800
+      label: Hẹn giờ hầm xương · 180:00
+      doneMsg: Đủ 3 tiếng — nước dùng ngọt sâu rồi!
+  - title: Vớt túi gia vị, vớt nạm đúng lúc
+    icon: clock
+    minutes: canh mốc giờ
+    intro: "Trong lúc hầm có hai mốc giờ cần nhớ:"
+    bullets:
+      - label: "Mốc 1 giờ:"
+        text: >-
+          vớt **túi gia vị** ra. Ngâm lâu hơn nước sẽ hắc mùi thuốc bắc và
+          xỉn màu — một tiếng là hương vừa đẹp.
+      - label: "Mốc 90 phút:"
+        text: >-
+          xiên đũa qua miếng nạm thấy **xuyên nhẹ không rỉ nước hồng** là vớt
+          ra, thả ngay vào tô nước đun sôi để nguội 10 phút cho thịt săn, vớt
+          để ráo. Đừng hầm nạm tới cùng — thịt bã, mất ngọt.
+      - label: "Xương thì ở lại:"
+        text: hầm đủ 3 giờ mới ra hết tủy ngọt. Nhà có thời gian, hầm 4 tiếng càng đậm.
+    callout:
+      type: tip
+      text: >-
+        Thích tô phở "đủ đồ" kiểu tiệm? Thả thêm **gân bò** hầm từ đầu, hoặc
+        **bò viên** vào nồi 10 phút cuối.
+    timer:
+      secs: 5400
+      label: Hẹn giờ vớt nạm · 90:00
+      doneMsg: Vớt nạm ngâm nước lạnh nghen!
+  - title: Nêm nếm — ngọt sâu, mặn dịu
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Vớt xương và xác hành ra, lược nước dùng qua **rây** cho thật trong
+          (kỹ nữa thì lót thêm miếng khăn xô).
+      - text: "Nêm **đường phèn trước**: [[20|g]] — khuấy cho tan hết."
+      - text: >-
+          Nước sôi trở lại mới chế **[[3|muỗng canh|frac]] nước mắm** — nêm
+          mắm lúc cuối mùi mới thơm dịu, không gắt chua.
+      - text: >-
+          Nếm thử: **ngọt sâu từ xương chạy trước, mặn vừa phải theo sau**,
+          hương quế hồi thoảng nhẹ. Lạt thì thêm muối từng chút — đừng thêm
+          mắm nữa kẻo nặng mùi.
+    callout:
+      type: warn
+      text: >-
+        Nước mắm cho sớm rồi đun lâu sẽ **chua và cái mùi "ôi mắm" rất khó
+        chịu** — luôn là gia vị cuối cùng chạm nồi.
+  - title: Chuẩn bị phần tô — dao thớt sẵn sàng
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Thăn tái:"
+        text: >-
+          bọc màng thực phẩm, để **ngăn đá 20 phút** cho hơi cứng rồi thái lát
+          **thiệt mỏng ngang thớ**, bản to. Thái xong lấy sống dao đập nhẹ
+          từng lát cho mềm.
+      - label: "Nạm chín:"
+        text: nguội rồi mới xắt lát mỏng — xắt lúc nóng là vỡ vụn hết.
+      - label: "Hành ngò:"
+        text: >-
+          hành lá xắt nhỏ, phần **đầu hành chẻ sợi**; ngò rí ngò gai xắt
+          khúc; hành tây thái khoanh thiệt mỏng, **ngâm nước đá 10 phút** cho
+          giòn và bớt hăng.
+      - label: "Bánh phở:"
+        text: >-
+          tươi thì trụng nước sôi **10–15 giây**, xóc thiệt ráo; khô thì ngâm
+          nước ấm 30 phút rồi mới trụng.
+    callout:
+      type: tip
+      text: >-
+        Bí quyết thái tái mỏng tang như tiệm gói gọn trong bốn chữ: **thịt
+        lạnh, dao bén**.
+  - title: Ráp tô phở — nước phải thiệt sôi
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          **Trụng tô** bằng nước sôi cho nóng — tô lạnh làm nước dùng nguội đi
+          mấy độ, phí cả buổi hầm.
+      - text: >-
+          Cho bánh phở vào ⅔ tô, xếp lát nạm chín một bên, **trải thăn tái
+          thành lớp mỏng** bên kia, rắc hành lá, đầu hành chẻ, hành tây, ngò.
+      - text: >-
+          Nước dùng vặn **sôi sùng sục** rồi chan thẳng lên lớp thịt tái cho
+          ngập bánh — sức nóng làm tái vừa chín tới, ngọt mềm.
+      - text: >-
+          Bưng ra liền khi khói còn bốc. Chanh, ớt, quẩy bày giữa bàn — ai ăn
+          nấy nêm.
+    callout:
+      type: tip
+      text: >-
+        Muốn tái kiểu "tái lăn" thơm béo: trước khi xếp vô tô, đảo thịt **10
+        giây** trên chảo thiệt nóng với chút mỡ và gừng đập.
+    doneText: Bưng ra bàn — xong!
+
+tipsTitle: 8 bí quyết cho **nồi phở như ngoài tiệm**
+tipsLead: >-
+  Phở là món "sai một ly đi một dặm" — mà toàn mấy cái ly nhỏ xíu dưới đây
+  thôi. Nắm đủ là nồi phở nhà không thua tiệm quen.
+tips:
+  - icon: meat
+    title: Xương ống là xương sống
+    text: >-
+      Ngọt phở là **ngọt tủy xương ống**, không phải ngọt thịt. Cứ 4 tô là
+      1,5 kg xương — thêm khúc xương đuôi càng đậm. Nhờ người bán chặt khúc
+      để tủy lộ ra, ngọt mới thoát hết vào nước.
+  - icon: drop
+    title: Nước trong là do chần + hớt
+    text: >-
+      Chần kỹ trước khi hầm và hớt bọt chăm trong 15 phút đầu — hai việc nhỏ
+      quyết định 90% độ trong. Nồi nước **trong nhìn thấu đáy** là danh dự
+      của người nấu phở.
+  - icon: flame
+    title: Sôi lăn tăn sủi tăm
+    text: >-
+      Lửa chỉ đủ cho mặt nước **lăn tăn tăm nhỏ**. Sôi bùng 10 phút là công
+      chần công hớt đổ sông đổ biển — nước đục ngầu, vị béo ngậy mất thanh.
+  - icon: ginger
+    title: Nướng xém, cạo sạch
+    text: >-
+      Gừng hành phải nướng tới **xém đen dậy mùi** — mùi khói ngọt ấy chính là
+      "mùi phở". Nhưng nhớ cạo sạch vỏ cháy, sót lại là nước đắng và xỉn màu.
+  - icon: star
+    title: Túi gia vị đúng một giờ
+    text: >-
+      Quế hồi thảo quả đinh hương chỉ cần **60 phút** trong nồi là thơm trọn.
+      Ngâm tới cuối buổi là nước hắc mùi thuốc bắc — vớt đúng giờ, hương
+      thanh lịch hơn hẳn.
+  - icon: jar
+    title: Đường phèn thay bột ngọt
+    text: >-
+      Muối cho từ đầu giúp rút ngọt từ xương, **đường phèn** cho vị ngọt thanh
+      tao ở hậu — đủ bộ đó thì chẳng cần nửa muỗng bột ngọt nào.
+  - icon: knife
+    title: Thịt lạnh dao bén
+    text: >-
+      Thăn để ngăn đá 20 phút, dao mài bén, thái **ngang thớ** — lát mỏng
+      tang, chan nước sôi vào là chín tới, mềm tan chứ không dai nhách.
+  - icon: bowl
+    title: Tô nóng, nước sôi sùng sục
+    text: >-
+      Tiệm phở luôn trụng tô trước khi ráp và chan nước lúc **sôi già nhất**.
+      Tô phở ngon là tô phở **nóng rẫy từ muỗng đầu tới muỗng cuối** — nguội
+      là mất nửa cái ngon.
+
+serve:
+  title: Tô phở sáng — **ấm từ bụng ấm ra**
+  paras:
+    - >-
+      Phở ngon nhất vào **buổi sáng se se**, khi cái bụng còn trống và khứu
+      giác còn tinh. Vắt miếng chanh, thả mấy lát ớt, trộn nhẹ cho thăn tái
+      chìm xuống nước — rồi cứ thế cắm cúi, xì xụp, ngẩng lên là thấy đáy tô.
+    - >-
+      Ăn kiểu Hà Nội thì thêm **quẩy nóng chấm nước dùng**, miếng quẩy hút
+      nước lèo nở phồng, cắn ngập răng. Nhà có trẻ con thì gọi phần **chín
+      nạm** cho lành, người lớn tái gầu đủ vị.
+    - >-
+      Nước dùng dư đừng đổ — đó là **kho báu**: để nguội, chia hộp, cấp đông
+      được cả tháng. Sáng nào thèm, đun sôi lại, trụng bánh thái thịt là có
+      tô phở 15 phút.
+  aside:
+    title: Trên bàn phở có gì
+    intro: "Bộ tứ đi kèm cho đúng điệu:"
+    items:
+      - icon: lime
+        text: "**Chanh + ớt tươi** — vắt vô mới ăn, đừng vắt sớm mất thơm."
+      - icon: roll
+        text: "**Quẩy nóng** — chấm ngập nước dùng, chữ ký của phở Bắc."
+      - icon: jar
+        text: "**Giấm tỏi** — vài giọt cho tô phở dậy vị, kiểu người sành Hà Nội."
+      - icon: sprout
+        text: >-
+          **Giá trụng + húng quế + tương đen** — nếu nhà bạn mê phở kiểu Nam,
+          cứ dọn thêm, không ai bắt lỗi.
+
+faq:
+  - q: Không có nồi to, không có 3 tiếng — nồi áp suất được không?
+    a: >-
+      Được! Chần xương xong cho vô nồi áp suất, nấu **45–50 phút** rồi mở
+      vung, thả hành gừng nướng + túi gia vị, đun thường thêm **30 phút** cho
+      dậy mùi. Nước kém trong hơn hầm thường một chút nhưng vẫn ngọt sâu.
+  - q: Thiếu thảo quả, đinh hương thì có nấu được không?
+    a: >-
+      Được. **Quế + hồi là xương sống** của mùi phở — có đủ hai thứ đó là đã
+      ra "chất phở" rồi, thiếu mấy món kia chỉ bớt một tầng hương. Các chợ và
+      sàn online đều có bán **gói gia vị phở** trọn bộ, nhớ rang sơ trước khi
+      dùng.
+  - q: Nước dùng lỡ bị đục — cứu được không?
+    a: >-
+      Bình tĩnh: hạ lửa nhỏ, hớt sạch bọt váng, rồi **lược qua khăn xô** là
+      cứu được kha khá. Tuyệt đối đừng khuấy nồi. Lần sau nhớ ba chữ: **chần
+      kỹ – lửa nhỏ – hớt chăm**.
+  - q: Phở kiểu Bắc và kiểu Nam khác gì nhau?
+    a: >-
+      Công thức này theo **gốc Bắc**: nước trong, vị thanh, hành chẻ, giấm
+      tỏi, quẩy — không giá, không rau. **Kiểu Nam** nước ngọt đậm hơn, dọn
+      kèm giá trụng, húng quế, ngò gai, tương đen tương ớt. Nhà thích kiểu
+      nào cứ dọn kiểu đó — phở không phân biệt vùng miền.
+  - q: Bánh phở khô hay tươi ngon hơn?
+    a: >-
+      **Tươi ngon nhất** — sợi mềm mà vẫn dai nhẹ. Không mua được thì phở khô
+      loại bản to cũng ổn: ngâm nước ấm 30 phút, trụng nước sôi rồi xóc ráo.
+      Đừng luộc thẳng — sợi nhão, gãy vụn.
+  - q: Không bột ngọt thì nước có đủ ngọt không?
+    a: >-
+      Đủ — miễn là **đủ xương và đủ giờ**. 1,5 kg xương ống cho 4 tô, hầm trọn
+      3 tiếng, thêm đường phèn là ngọt sâu đằm thắm. Nếu vẫn thấy "thiếu
+      thiếu", thường là do thiếu muối chứ không phải thiếu ngọt — thử thêm
+      nhúm muối trước đã.
+
+ticker:
+  - icon: star
+    text: Quế hồi rang thơm lựng
+  - icon: drop
+    text: Nước dùng trong nhìn thấu đáy
+  - icon: meat
+    text: Tái mềm, nạm ngọt
+  - icon: noodle
+    text: Bánh phở tươi mềm dai
+  - icon: ginger
+    text: Gừng hành nướng xém
+  - icon: roll
+    text: Quẩy nóng chấm nước lèo
+  - icon: bowl
+    text: Xì xụp tới đáy tô
