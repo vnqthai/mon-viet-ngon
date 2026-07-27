@@ -1,0 +1,414 @@
+title: Bún riêu cua **nước chua thanh, riêu béo ngậy**
+summary: >-
+  Nước riêu đỏ hồng màu cà chua chua thanh **mùi giấm bỗng**, tảng riêu cua
+  vàng óng gạch, đậu phụ chiên phao, ăn kèm rổ rau có rau muống chẻ — tô
+  bún quà sáng khiến người Hà Nội đi đâu cũng ngoái lại.
+region: Miền Bắc
+category: Bún – Phở
+time:
+  total: 1 giờ 15
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 8
+art: bun-rieu
+heroEyebrow: Gánh bún riêu đầu ngõ…
+
+quick:
+  ingredients:
+    - Cua đồng [[500|g]] xay sẵn (xin túi gạch để riêng) · muối [[1|muỗng cà phê]] để lọc
+    - Cà chua [[5|trái]] bổ múi cau · đậu phụ [[3|bìa]] chiên vàng cắt quân cờ
+    - "Nêm hồn Bắc: **giấm bỗng [[100|ml]]** (kẹt thì me/giấm gạo) · mắm tôm [[1|muỗng canh|frac]]"
+    - Hành khô [[3|củ]] · dầu màu điều [[1|muỗng canh|frac]] để chưng gạch
+    - Bún sợi nhỏ [[1000|g]] · hành lá, ngò gai
+    - "Rổ rau: **rau muống chẻ** · tía tô, kinh giới · xà lách · giá — thêm chanh ớt, mắm tôm chén riêng"
+  steps:
+    - Hòa cua xay với [[1.4|lít]] nước + muối, bóp kỹ, **lọc 2–3 lần** cho sạch sạn.
+    - Phi hành khô, chưng **gạch cua + dầu điều** ra chén; chiên đậu phụ vàng giòn.
+    - Xào sơ **nửa phần cà chua** cho ra màu; nửa còn lại để múi tươi.
+    - Nấu nước cua lửa vừa, khuấy nhẹ lúc nguội — **gần sôi ngừng khuấy** cho riêu kết tảng, vớt riêu ra bát.
+    - Thả cà chua xào + múi tươi + đậu phụ vô nồi, nêm **mắm tôm + giấm bỗng**, sôi liu riu 10 phút.
+    - "Ráp tô: bún trụng, xếp riêu + đậu + cà, chan nước **sôi sùng sục**, rưới gạch chưng — dọn rổ rau, chanh ớt."
+  warning: >-
+    Vị bún riêu phải **chua thanh dịu** kiểu giấm bỗng — nêm me hay giấm
+    gạo quá tay là chua gắt, "lạc giọng" ngay. Nêm từng muỗng, vừa nêm vừa
+    nếm, tới khi húp thấy thanh mát là dừng.
+
+flavor:
+  chua: 6
+  ngot: 6
+  man: 6
+  cay: 2
+  thom: 8
+flavorNote: >-
+  **Chuẩn tô bún riêu Bắc:** nước **đỏ hồng trong**, chua thanh mùi bỗng
+  rượu quyện chút nồng mắm tôm, riêu cua **xốp mà chắc**, húp một muỗng
+  thấy ngọt cua lan khắp miệng — đậm mà vẫn nhẹ bụng.
+storyEyebrow: Chuyện tô bún
+storyTitle: Quà sáng **gánh trên vai** của phố phường Bắc bộ
+story:
+  - >-
+    Bún riêu là món của những **gánh hàng rong**: một đầu là nồi nước riêu
+    đỏ au liu riu trên bếp than, đầu kia là thúng bún với rổ rau xanh mướt.
+    Tiếng rao "ai bún riêu nóng đơi…" len qua ngõ nhỏ buổi sáng, người ta
+    bưng tô bún ngồi ghế con, vừa thổi vừa húp — hình ảnh đó gần như là
+    một "đặc sản" của Bắc bộ, ngang với chính tô bún.
+  - >-
+    Bí mật làm nên giọng riêng của bún riêu Bắc nằm ở **giấm bỗng** — thứ
+    bỗng rượu nếp lên men, chua thanh mà thơm dịu, không gắt như giấm
+    thường, không thẫm màu như me. Cộng thêm **chút mắm tôm** nêm lúc nồi
+    đang sôi, nước riêu bỗng dậy mùi "rất chợ quê" — hai thứ đó mà thiếu,
+    tô bún riêu chỉ còn là canh cua chan bún.
+  - >-
+    Nhà đã nấu quen **canh cua rau đay** thì bún riêu là bước tiếp theo dễ
+    ợt: cũng lọc cua, cũng đợi riêu kết, chỉ thêm màn cà chua, đậu phụ và
+    nêm chua. Nấu một nồi cuối tuần, cả nhà ăn sáng như ngồi giữa chợ phiên
+    — mà nước riêu thì ngọt cua thật, không viên gia vị nào bì được.
+
+ingredientGroups:
+  - name: Cua & riêu
+    icon: basket
+    items:
+      - id: cua
+        name: Cua đồng tươi
+        icon: shrimp
+        color: amber
+        base: 500
+        unit: g
+        note: Nhờ hàng cua xay sẵn, xin túi gạch để riêng
+      - id: muoi
+        name: Muối hột
+        icon: jar
+        base: 1
+        unit: muỗng cà phê
+        note: Bỏ vào nước lọc cua — riêu kết tảng chắc
+      - id: hanhkho
+        name: Hành khô
+        icon: onion
+        color: red
+        base: 3
+        unit: củ
+        note: Phi thơm — nửa chưng gạch, nửa rắc mặt
+      - id: daudieu
+        name: Dầu màu điều
+        icon: drop
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Chưng cùng gạch cua cho màu vàng cam óng
+  - name: Nồi nước riêu
+    icon: pot
+    items:
+      - id: cachua
+        name: Cà chua chín
+        icon: tomato
+        color: red
+        base: 5
+        unit: trái
+        note: Bổ múi cau — nửa xào lấy màu, nửa thả sau giữ dáng
+      - id: dauphu
+        name: Đậu phụ
+        icon: roll
+        color: gold
+        base: 3
+        unit: bìa
+        note: Chiên vàng vỏ, cắt quân cờ — hút nước riêu ngon nhức nách
+      - id: giambong
+        name: Giấm bỗng (bỗng rượu nếp)
+        icon: bottle
+        color: gold
+        base: 100
+        unit: ml
+        note: Hồn vị Bắc — hàng khô chợ có; kẹt thì me chín/giấm gạo
+      - id: mamtom
+        name: Mắm tôm
+        icon: jar
+        color: red
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Nêm lúc nồi sôi cho dậy mùi — nhà không ăn thì bớt nửa
+  - name: Bún & rau kèm
+    icon: noodle
+    items:
+      - id: bun
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 1000
+        unit: g
+        note: Sợi nhỏ mềm mới hợp nước riêu thanh
+      - id: raumuongche
+        name: Rau muống chẻ + giá
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Chẻ sẵn ngoài chợ có — ngâm nước cho cong giòn
+      - id: rauthom
+        name: Tía tô + kinh giới + xà lách
+        icon: lettuce
+        color: green
+        base: 1
+        unit: rổ
+        note: Bộ rau "quốc dân" của bún riêu Bắc
+      - id: hanhngo
+        name: Hành lá + ngò gai
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Xắt nhỏ rắc mặt tô
+      - id: chanhot
+        name: Chanh + ớt + mắm tôm chén riêng
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Ai đậm nấy dặm — đúng kiểu hàng bún riêu
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **nồi riêu đỏ hồng thanh chua**
+stepsLead: >-
+  Ai từng nấu canh cua là nắm chắc nửa bài rồi — nửa còn lại chỉ là xào cà
+  chua, chiên đậu và nêm cho ra "giọng Bắc": chua thanh, thoảng mắm tôm.
+steps:
+  - title: Lọc cua, để dành gạch
+    icon: drop
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Hòa cua xay với [[1.4|lít]] nước + [[1|muỗng cà phê]] muối, bóp
+          kỹ cho thịt cua tan hết, để lắng 1 phút.
+      - text: >-
+          Gạn qua **rây lót vải xô**, lọc **2–3 lần** tới khi sờ đáy nồi
+          không còn lợn cợn sạn.
+      - text: Túi gạch cua để riêng ra chén — lát chưng màu.
+    callout:
+      type: tip
+      text: >-
+        Muối bỏ từ nước lọc là bí quyết riêu **kết tảng chắc nịch** — mẹo
+        này dùng chung cho cả canh cua rau đay, nhà nấu quen rồi thì cứ
+        thế mà làm.
+  - title: Chưng gạch & chiên đậu phụ
+    icon: flame
+    minutes: 12 phút
+    bullets:
+      - label: "Chưng gạch:"
+        text: >-
+          phi nửa phần hành khô với [[1|muỗng canh|frac]] dầu điều, trút
+          gạch cua vô đảo 1–2 phút tới **vàng cam óng**, múc ra chén.
+      - label: "Chiên đậu:"
+        text: >-
+          đậu phụ thấm khô, cắt quân cờ, chiên ngập dầu vừa tới **vàng
+          giòn vỏ, ruột còn mềm**, vớt ra giấy thấm.
+    callout:
+      type: warn
+      text: >-
+        Đậu chiên non tay thì thả nồi là **nát vụn**; chiên cháy quá thì
+        chai cứng không hút nước riêu. Vàng ruộm đều mặt là đẹp nhất.
+    timer:
+      secs: 480
+      label: Hẹn giờ chiên đậu · 08:00
+      doneMsg: Đậu vàng giòn rồi — vớt ra thấm dầu!
+  - title: Xào cà chua lấy màu
+    icon: tomato
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Phi phần hành khô còn lại, cho **nửa số cà chua** vô xào với
+          nhúm muối tới mềm, ra nước màu đỏ hồng.
+      - text: Nửa cà chua còn lại để **múi tươi** — thả sau cho tô bún có miếng cà ra dáng.
+    callout:
+      type: tip
+      text: >-
+        Cà chua hai đợt là mẹo của hàng bún: đợt xào cho **màu và vị nền**,
+        đợt tươi cho **miếng đẹp** — nồi riêu vừa thắm vừa có "topping".
+  - title: Nấu nước cua — riêu kết tảng
+    icon: pot
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Bắc nồi nước cua **lửa vừa**, khuấy nhẹ một chiều vài vòng lúc
+          còn nguội cho thịt cua khỏi dính đáy.
+      - text: >-
+          Nước **nóng già thì ngừng khuấy**, hạ lửa nhỏ — riêu kết bông
+          nổi dần thành tảng.
+      - text: >-
+          Riêu nổi chắc thì **vớt nhẹ ra bát** để riêng — bún riêu vớt
+          riêu ra mới giữ được tảng nguyên đẹp khi thả cà, đậu vào nồi.
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng là riêu **vỡ vụn, nước đục** — từ lúc nước nóng già phải
+        canh lửa liu riu và tuyệt đối không khuấy. Ba phút kiên nhẫn đổi
+        lấy tảng riêu vàng óng, đáng lắm.
+  - title: Ráp nồi, nêm giọng Bắc
+    icon: spoon
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Trút cà chua xào + múi tươi + đậu phụ chiên vô nồi nước cua,
+          đun sôi nhẹ trở lại, hớt bọt.
+      - text: >-
+          Nêm [[1|muỗng canh|frac]] mắm tôm (chế lúc **đang sôi** cho
+          thơm), rồi **giấm bỗng từng muỗng** tới khi chua thanh vừa miệng;
+          thêm nước mắm + chút đường cân lại.
+      - text: Thả tảng riêu về nồi (hoặc để bát, xếp thẳng vô tô), rưới **gạch chưng** lên riêu, sôi liu riu **10 phút**.
+    callout:
+      type: tip
+      text: >-
+        Không tìm được giấm bỗng: **me chín dầm lược** cho vị gần nhất
+        (kiểu Nam), giấm gạo pha loãng đứng hạng ba. Mà thấy hàng khô nào
+        bán bỗng thì mua một chai để dành — nấu riêu, nấu ốc chuối đậu đều
+        cần tới.
+    timer:
+      secs: 600
+      label: Hẹn giờ nồi riêu · 10:00
+      doneMsg: Nước riêu thắm vị rồi — trụng bún thôi!
+  - title: Ráp tô, dọn rổ rau
+    icon: bowl
+    minutes: 8 phút
+    bullets:
+      - text: Bún trụng nước sôi 15–20 giây, xóc ráo, chia tô.
+      - text: >-
+          Xếp **tảng riêu – đậu phụ – múi cà chua** lên mặt, chan nước
+          **sôi sùng sục** ngập bún, rắc hành lá ngò gai + hành phi.
+      - text: >-
+          Dọn kèm **rổ rau muống chẻ, tía tô, kinh giới** + chanh, ớt và
+          chén mắm tôm nhỏ — ai ăn đậm tự dặm thêm.
+    callout:
+      type: tip
+      text: >-
+        Ăn đúng bài Bắc: vắt miếng chanh, **dúi nhúm rau muống chẻ xuống
+        nước riêu nóng** cho tái sơ rồi lùa cùng bún — giòn mát đã miệng
+        vô cùng.
+    doneText: Húp muỗng đầu tiên — xong!
+
+tipsTitle: 7 bí quyết cho **tô bún riêu chuẩn giọng Bắc**
+tipsLead: >-
+  Cua ngọt hay không là ở khâu lọc, còn "ra chất bún riêu" hay không là ở
+  mấy điều này.
+tips:
+  - icon: bottle
+    title: Giấm bỗng — hồn vị không thay được
+    text: >-
+      Bỗng rượu nếp chua **thanh và thơm men dịu**, làm nước riêu chua mà
+      vẫn ngọt hậu. Me cho vị gần giống kiểu Nam, giấm thường thì gắt hơn
+      hẳn — có bỗng, tô bún tự dưng "nói giọng Bắc" liền.
+  - icon: jar
+    title: Mắm tôm nêm lúc sôi, lượng vừa phải
+    text: >-
+      Một muỗng canh cho cả nồi — chế khi nước **đang sôi** là mùi nồng
+      bay bớt, còn lại vị đậm rất duyên. Nhà có người kỵ mắm tôm thì nêm
+      nửa, phần còn lại dọn **chén riêng** ai chấm nấy dặm.
+  - icon: basket
+    title: Lọc cua kỹ, muối bỏ từ đầu
+    text: >-
+      Chung bài với canh cua: **muối vào nước lọc** giúp riêu kết chắc,
+      lọc tới sạch sạn mới thôi. Cua xay mua sáng nấu trưa, đừng để qua
+      đêm — mất ngọt, dậy mùi.
+  - icon: roll
+    title: Đậu phụ chiên phao mới hút nước
+    text: >-
+      Miếng đậu chiên **vàng vỏ, xốp ruột** thả vô nồi sẽ hút nước riêu
+      căng mọng — cắn một miếng, nước ngọt túa ra. Đậu trắng thả thẳng thì
+      lành đó, mà nhạt nhẽo kém vui hẳn.
+  - icon: tomato
+    title: Cà chua hai đợt
+    text: >-
+      Xào một nửa lấy **màu đỏ hồng tự nhiên** (khỏi cần phẩm), thả nửa
+      còn lại lúc gần xong cho miếng cà **còn dáng múi cau** — nồi riêu
+      nhìn là muốn húp.
+  - icon: sprout
+    title: Rau muống chẻ là "chân ái"
+    text: >-
+      Bún riêu Bắc mà thiếu **rau muống chẻ ngâm cong giòn** là mất một
+      nửa cái thú. Chợ có hàng chẻ sẵn; nhà tự làm thì chẻ xong ngâm nước
+      lạnh 30 phút là cọng rau xoăn tít, giòn tan.
+  - icon: bowl
+    title: Riêu vớt riêng, xếp thẳng vô tô
+    text: >-
+      Muốn tảng riêu **nguyên miếng vàng óng** nằm trên mặt tô như hàng
+      gánh: vớt riêu ra bát ngay khi kết, lúc ráp tô mới xếp vào rồi chan
+      nước. Để riêu trong nồi khuấy tới lui là nát thành vụn hết.
+
+serve:
+  title: Dọn mâm — **tô riêu nóng, rổ rau đầy**
+  paras:
+    - >-
+      Bún riêu ăn **nóng hổi vừa thổi vừa húp** mới đã: tô bốc khói đặt
+      giữa, rổ rau xanh kế bên, chanh ớt mắm tôm đủ bộ — mỗi người nêm một
+      kiểu, tô ai nấy đậm theo ý mình, y như ngồi hàng gánh đầu ngõ.
+    - >-
+      Bữa sáng cuối tuần nấu nồi riêu là "được lòng" cả nhà: người lớn
+      thêm mắm tôm ớt chưng cay xé, con nít húp nước ngọt cua với đậu phụ
+      — một nồi mà chiều được mọi khẩu vị.
+    - >-
+      Nước riêu dư cất ngăn mát được **một ngày** (riêu + đậu để riêng);
+      hôm sau đun sôi kỹ chan bún hoặc… chan cơm nguội cũng ngon bất ngờ —
+      dân Bắc gọi vui là "riêu tập hai".
+  aside:
+    title: Trên mâm bún riêu
+    intro: "Đủ bộ này mới ra hàng bún riêu:"
+    items:
+      - icon: sprout
+        text: "**Rau muống chẻ + kinh giới tía tô** — chất thành ngọn, nhúng nước nóng ăn kèm."
+      - icon: jar
+        text: "**Chén mắm tôm + ớt chưng** — ai ăn đậm tự dặm, đúng lệ hàng gánh."
+      - icon: lime
+        text: "**Chanh tươi** — vắt trước muỗng đầu, chua thanh bừng cả tô."
+      - icon: roll
+        text: "**Đậu phụ chiên thêm** — nhà đông người chiên dư một dĩa, gắp lai rai."
+
+faq:
+  - q: Giấm bỗng mua ở đâu, nhìn thế nào?
+    a: >-
+      Hàng khô ở chợ (khu bán mắm, dấm) hoặc tiệm đặc sản Bắc — chai nước
+      **đục nhẹ màu trắng ngà, thơm men rượu nếp**, giá rẻ bèo. Mua một
+      chai để ngăn mát dùng được lâu; nấu bún riêu, bún ốc, chuối đậu đều
+      cần. Không có thì me chín là phương án gần vị nhất.
+  - q: Sao riêu của mình không kết tảng?
+    a: >-
+      Bốn nghi phạm quen mặt: **quên muối lúc lọc**, **khuấy khi nước đã
+      nóng già**, **lửa lớn sôi bùng**, hoặc **cua quá ít** (dưới
+      [[400|g]] cho nồi này là riêu mỏng). Nồi sau chỉnh đủ bốn chỗ đó là
+      riêu nổi tảng đẹp liền — có hướng dẫn kỹ trong trang canh cua rau
+      đay của bếp này nữa đó.
+  - q: Không ăn được mắm tôm thì sao?
+    a: >-
+      Bỏ hẳn cũng được — nêm thêm chút **nước mắm ngon** bù đậm. Nước
+      riêu sẽ "hiền" hơn, thanh kiểu canh cua; muốn kéo lại chiều sâu thì
+      thêm nửa muỗng cà phê **mắm ruốc** thay thế, mùi nhẹ hơn mắm tôm mà
+      vẫn có "hồn mắm".
+  - q: Thêm huyết, giò, ốc như ngoài hàng được không?
+    a: >-
+      Được hết — bún riêu là món "nới" thoải mái: **huyết luộc** cắt quân
+      cờ thả cùng đậu phụ, **giò tai/chả** xắt miếng, thậm chí **ốc bươu**
+      xào sơ kiểu bún riêu ốc. Nhưng lần đầu cứ nấu bản mộc cua – cà – đậu
+      cho ra đúng vị nền đã, rồi hẵng "lên đồ".
+  - q: Nấu cho người không ăn được cua đồng (dị ứng)?
+    a: >-
+      Món này thì chịu — **riêu cua là linh hồn**, thay là thành món khác.
+      Nhà có người dị ứng cua thì nồi nước nên nấu riêng phần: một nồi
+      riêu, một nồi nước cà chua đậu phụ chay (nêm y chang, bỏ cua + mắm
+      tôm) — vẫn ngồi chung mâm vui vẻ.
+  - q: Bún riêu để dành được không?
+    a: >-
+      Nước riêu (chưa chan) ngăn mát **1 ngày**, đun sôi kỹ trước khi ăn
+      lại; riêu và đậu nên vớt để hộp riêng cho khỏi nát. Bún và rau thì
+      bữa nào mua bữa đó — bún để tủ lạnh là chua, rau héo mất giòn.
+
+ticker:
+  - icon: tomato
+    text: Nước riêu đỏ hồng cà chua
+  - icon: bowl
+    text: Riêu cua nổi tảng vàng óng
+  - icon: bottle
+    text: Giấm bỗng chua thanh
+  - icon: roll
+    text: Đậu phụ chiên phao mọng nước
+  - icon: sprout
+    text: Rau muống chẻ cong giòn
+  - icon: lime
+    text: Chanh ớt mắm tôm đủ bộ

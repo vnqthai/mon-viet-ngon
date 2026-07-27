@@ -70,6 +70,7 @@ const recipes = defineCollection({
         'canh-chua', 'com-tam', 'cha-gio', 'bo-kho', 'kho-qua',
         'pho-bo', 'bun-bo', 'banh-xeo', 'ca-kho', 'thit-kho', 'canh-bi-do',
         'bun-cha', 'mi-quang', 'ga-kho', 'canh-cua',
+        'bun-rieu', 'com-ga', 'bo-luc-lac', 'ga-la-giang',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

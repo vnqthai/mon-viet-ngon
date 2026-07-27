@@ -1,0 +1,365 @@
+title: Canh gà lá giang **chua thanh lá vườn, ngọt thịt gà ta**
+summary: >-
+  Món **canh chua của miền Tây**, cùng họ với canh chua cá lóc — nhưng
+  chất chua không phải me mà là **nắm lá giang vò giập** hái bờ rào, nhân
+  không phải cá mà là gà ta xào săn. Nước vàng trong chua thanh, húp một
+  muỗng nghe mát tới ruột gan.
+region: Miền Tây
+category: Canh
+time:
+  total: 35 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 19
+art: ga-la-giang
+heroEyebrow: Ra bờ rào hái nắm lá giang…
+
+quick:
+  ingredients:
+    - Gà ta [[800|g]] chặt miếng vừa gắp
+    - Lá giang [[1|bó]] — nhặt lấy chừng [[2|nắm]] lá non, rửa sạch, **vò giập**
+    - Tỏi [[3|tép]] băm · hành tím [[2|củ]] · ớt sừng [[1|trái]] xắt lát
+    - "Nêm: nước mắm [[2|muỗng canh|frac]] · đường phèn [[1|muỗng cà phê]] · muối"
+    - Ngò gai + ngò om [[1|bó]] nhỏ — xắt khúc rắc cuối
+    - "Ăn kèm: cơm nóng (hoặc bún) · chén **muối ớt** chấm gà"
+  steps:
+    - Gà chà muối rửa sạch, để ráo; lá giang nhặt lá non, **vò giập** cho mau ra chua.
+    - Phi thơm tỏi + hành tím, cho gà vô **xào săn 5 phút**, nêm sơ [[1|muỗng canh|frac]] nước mắm.
+    - Châm [[1.5|lít|frac]] nước sôi, hớt bọt, nấu **liu riu 15 phút** cho gà mềm ngọt nước.
+    - Thả lá giang vò, sôi lại **3–5 phút** — nếm rồi thêm lá tới độ chua ưng ý.
+    - Nêm nước mắm – đường phèn – muối cho **chua ngọt cân nhau**, thả ớt lát.
+    - Tắt bếp, rắc ngò gai ngò om — dọn nóng với cơm và chén muối ớt.
+  warning: >-
+    Nấu lá giang **đừng dùng nồi nhôm** — chất chua của lá phản ứng với
+    nhôm, canh dễ chát và không tốt cho sức khỏe. Cứ nồi inox, nồi đất
+    hay nồi tráng men là yên tâm.
+
+flavor:
+  chua: 6.5
+  ngot: 5
+  man: 5.5
+  cay: 3
+  thom: 7.5
+flavorNote: >-
+  **Chuẩn nồi canh lá giang:** nước **vàng trong, chua thanh có hậu
+  ngọt** — chua kiểu lá vườn dịu dàng chứ không gắt giọng như giấm; thịt
+  gà săn ngọt, húp nóng giữa trưa nắng là "hạ hỏa" liền.
+storyEyebrow: Chuyện nồi canh
+storyTitle: Canh chua **cây nhà lá vườn** đúng nghĩa đen
+story:
+  - >-
+    Ở miền Tây, lá giang là thứ **mọc cho không**: dây leo quấn bờ rào,
+    mé mương, hàng cây sau hè — lá nhỏ xanh mướt, nhấm thử nghe chua dịu.
+    Nhà có khách bất chợt, con gà trong chuồng với nắm lá ngoài rào là
+    thành nồi canh đãi khách; bởi vậy dân miệt vườn hay cười: món này là
+    **"cây nhà lá vườn" theo nghĩa đen trăm phần trăm**.
+  - >-
+    Gọi tên cho rành mạch: đây là một nồi **canh chua** — họ hàng ruột
+    với canh chua cá lóc, chỉ khác hai chỗ: chất chua là **lá giang thay
+    cho me**, phần nhân là **gà thay cho cá**. Cái hay của lá giang là
+    chua mà thanh: vị chua tiết ra từ từ khi nấu, muốn chua tới đâu cứ
+    **thêm lá tới đó**, nước canh giữ màu vàng trong veo chứ không thẫm.
+    Gặp thịt gà ta dai ngọt là thành cặp trời sinh; các quán miền Tây còn
+    nâng lên thành **lẩu gà lá giang** bốc khói cho cả bàn xúm xít.
+  - >-
+    Công thức này giữ đúng nếp nấu miệt vườn: gà xào săn cho thơm, nước
+    sôi hớt bọt cho trong, lá giang vò giập thả sau cùng. Ba mươi lăm
+    phút — mà bưng nồi canh lên, nghe mùi chua thanh bay ra là hiểu vì
+    sao người miền Tây xa quê **nhớ bờ rào nhà mình** trước cả nhớ chợ.
+
+ingredientGroups:
+  - name: Gà & gia vị xào
+    icon: meat
+    items:
+      - id: ga
+        name: Gà ta (gà thả vườn)
+        icon: meat
+        color: amber
+        base: 800
+        unit: g
+        note: Chặt miếng vừa gắp, giữ da — thịt dai ngọt hợp canh chua
+      - id: toi
+        name: Tỏi băm
+        icon: garlic
+        base: 3
+        unit: tép
+        note: Phi thơm nền cho nồi canh
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: Đập giập phi cùng tỏi
+      - id: ot
+        name: Ớt sừng
+        icon: chili
+        color: red
+        base: 1
+        unit: trái
+        note: Xắt lát thả cuối — cay nhẹ dậy vị, không xé lưỡi
+  - name: Lá giang & rau thơm
+    icon: herb
+    items:
+      - id: lagiang
+        name: Lá giang
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Chọn bó lá non xanh mướt — lá già ngả sậm dễ chát
+      - id: ngo
+        name: Ngò gai + ngò om
+        icon: sprout
+        color: green
+        base: 1
+        unit: bó
+        note: Cặp rau thơm "ruột" của canh chua miền Tây
+  - name: Nêm nếm & ăn kèm
+    icon: spoon
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Nêm hai nhịp — ướp xào và nêm cuối
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng cà phê
+        note: Hậu ngọt dịu cân vị chua — đường cát cũng được
+      - id: muoiot
+        name: Chén muối ớt
+        icon: lime
+        color: red
+        base: 1
+        unit: chén
+        note: Gắp miếng gà chấm muối ớt — đúng điệu miệt vườn
+      - id: com
+        name: Cơm nóng hoặc bún tươi
+        icon: rice
+        qtyText: Tùy bữa
+        note: Chan cơm là bữa thường, thêm bún là ra dáng lẩu
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi canh chua lá vườn**
+stepsLead: >-
+  Món này dễ tới mức chỉ cần nhớ hai điều: **vò lá cho ra chua** và
+  **đừng dùng nồi nhôm** — còn lại cứ nấu như một nồi canh gà bình thường.
+steps:
+  - title: Sơ chế gà và lá giang
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - label: "Gà:"
+        text: >-
+          chà xát muối hột, rửa sạch, để ráo, chặt miếng **vừa gắp** —
+          món canh nên chặt nhỏ hơn món kho một chút cho mau mềm.
+      - label: "Lá giang:"
+        text: >-
+          nhặt lấy **lá non và đọt**, bỏ lá già gân cứng, rửa sạch để
+          ráo rồi **vò giập nhẹ trong tay** — vò rồi lá mới chịu nhả
+          chua nhanh.
+    callout:
+      type: tip
+      text: >-
+        Nhấm thử một lá sống trước khi nấu: chua dịu là bó lá ngon; nghe
+        chát nhiều là lá già — chịu khó nhặt kỹ hơn, bớt phần già đi.
+  - title: Xào gà săn thơm
+    icon: flame
+    minutes: 7 phút
+    bullets:
+      - text: >-
+          Nồi (inox/đất — **không nhôm** nghen) phi thơm tỏi + hành tím
+          với [[1.5|muỗng canh|frac]] dầu.
+      - text: >-
+          Trút gà vô **xào lửa lớn 5 phút** tới săn da thơm nức, nêm sơ
+          [[1|muỗng canh|frac]] nước mắm cho thấm nền.
+    callout:
+      type: tip
+      text: >-
+        Xào săn trước khi châm nước là bước "ăn gian" vị: nước canh ngọt
+        đậm hơn hẳn kiểu thả gà luộc thẳng, mà thịt gà cũng không bị
+        bã.
+  - title: Châm nước, nấu gà mềm
+    icon: pot
+    minutes: 15 phút
+    bullets:
+      - text: Châm [[1.5|lít|frac]] **nước sôi** ngập gà, đun sôi trở lại, **hớt sạch bọt** cho nước trong.
+      - text: Hạ **liu riu 15 phút** — gà ta vừa mềm tới mà còn săn miếng.
+    callout:
+      type: warn
+      text: >-
+        Nhắc lần nữa vì quan trọng: **nồi nhôm gặp chất chua là kỵ** —
+        canh dễ xỉn màu, chát vị và không lành. Nhà chỉ có nồi nhôm thì
+        nay là dịp xài cái nồi inox cất kỹ đó.
+    timer:
+      secs: 900
+      label: Hẹn giờ nấu gà · 15:00
+      doneMsg: Gà mềm rồi — tới màn thả lá giang!
+  - title: Thả lá giang — nêm chua bằng lá
+    icon: herb
+    minutes: 5 phút
+    bullets:
+      - text: Thả **một nắm lá giang vò** vô nồi đang sôi, nhấn chìm, nấu **2 phút** rồi nếm.
+      - text: >-
+          Chưa đủ chua thì **thêm nắm nữa** — nêm chua bằng lượng lá,
+          từng nấc một, tới độ chua thanh nhà mình ưng.
+      - text: >-
+          Nêm [[1|muỗng canh|frac]] nước mắm còn lại + [[1|muỗng cà phê]]
+          đường phèn + muối — chuẩn là **chua dẫn trước, ngọt đọng sau**.
+    callout:
+      type: tip
+      text: >-
+        Lá giang càng nấu lâu càng ra chua — nồi canh để trên bếp lai
+        rai sẽ **tự chua thêm một nấc**, nên lúc nêm cứ dừng ở mức "chua
+        vừa tới", đừng đuổi theo độ chua ngay từ đầu.
+  - title: Hoàn thiện, dọn nóng
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: Thả **ớt sừng xắt lát**, sôi thêm nửa phút là tắt bếp.
+      - text: Rắc **ngò gai + ngò om** xắt khúc, múc tô lớn.
+      - text: >-
+          Dọn với cơm nóng + chén **muối ớt** — gắp miếng gà chấm muối
+          ớt, húp muỗng canh chua, và cứ thế hết nồi hồi nào không hay.
+    doneText: Nồi canh bốc khói — dọn mâm!
+
+tipsTitle: 7 bí quyết cho **nồi canh lá giang chua thanh**
+tipsLead: >-
+  Món dễ mà vẫn có "nghề" — mấy điều này là khác biệt giữa nồi canh chua
+  thanh và nồi canh... chua chát.
+tips:
+  - icon: herb
+    title: Lá non vò giập — công thức hai chữ
+    text: >-
+      Toàn bộ bí quyết lá giang gói trong **"non"** và **"vò"**: lá non
+      cho chua thanh không chát, vò giập cho chua nhả nhanh và đều. Bỏ
+      qua màn vò là nấu hoài nước vẫn lạt, rồi lại đổ oan cho bó lá.
+  - icon: spoon
+    title: Nêm chua bằng lá, từng nấc
+    text: >-
+      Lá giang là "chai giấm sống" chỉnh được liều: thả một nắm — nếm —
+      thêm nắm nữa. Chua **tăng dần theo thời gian nấu**, nên dừng sớm
+      một nấc là khôn; lỡ chua quá thì châm nước sôi + chút đường cứu
+      lại được.
+  - icon: pot
+    title: Kỵ nồi nhôm — luật bất di bất dịch
+    text: >-
+      Axit trong lá giang **ăn mòn nhôm**, vừa làm canh chát xỉn vừa
+      không lành cho người ăn. Inox, nồi đất, nồi tráng men đều tốt.
+      Luật này áp dụng cho mọi món chua nấu lâu, ghi nhớ một lần xài cả
+      đời.
+  - icon: meat
+    title: Gà ta xào săn rồi mới nấu
+    text: >-
+      Gà thả vườn dai ngọt là bạn nhảy hợp nhất của lá giang. **Xào săn
+      5 phút** trước khi châm nước — nước canh đậm thơm, miếng gà giữ
+      thớ. Gà công nghiệp thì rút thời gian nấu còn 8–10 phút kẻo bở.
+  - icon: drop
+    title: Nước sôi + hớt bọt = nước trong
+    text: >-
+      Châm **nước sôi** vào nồi gà đang nóng và chịu khó hớt bọt 2–3
+      phút đầu — nồi canh vàng trong veo nhìn đã con mắt. Châm nước lạnh
+      là thịt thắt, nước đục, mất điểm oan.
+  - icon: jar
+    title: Đường phèn cân vị — chua phải có hậu
+    text: >-
+      Canh chua miền Tây bao giờ cũng **ngọt hậu**: một muỗng cà phê
+      đường phèn đỡ cho vị chua khỏi "gắt giọng". Nêm xong húp thử —
+      chua dẫn trước, ngọt đọng sau, mặn đứng giữa là mười điểm.
+  - icon: flame
+    title: Thêm bún là thành lẩu đãi khách
+    text: >-
+      Bí mật của các quán lẩu gà lá giang: y công thức này, **nhân rưỡi
+      nước, nêm đậm hơn một nấc**, dọn kèm bún tươi + rau muống + bắp
+      chuối, đặt nồi lên bếp gas mini giữa bàn — thế là bữa canh thành
+      tiệc lẩu, khách xuýt xoa như ngồi quán miền Tây.
+
+serve:
+  title: Dọn mâm — **trưa nắng có nồi canh chua**
+  paras:
+    - >-
+      Mâm cơm chuẩn miệt vườn: nồi canh gà lá giang bốc khói, chén muối
+      ớt đỏ au, dĩa rau luộc hay cá kho quẹt bên cạnh — **canh chua đi
+      với món mặn đậm** là công thức mâm cơm Nam bộ muôn đời. Trời càng
+      nóng, nồi canh này càng "được việc".
+    - >-
+      Ăn đúng điệu: chan canh **ngập nửa chén cơm**, gắp miếng gà chấm
+      muối ớt cắn kèm lát ớt sừng — chua, ngọt, mặn, cay đủ bốn góc trong
+      một miếng. Cuối bữa múc thêm muỗng nước canh húp "tráng miệng" là
+      thói quen khó bỏ.
+    - >-
+      Nhà có tiệc thì chơi lớn thành **lẩu gà lá giang**: nồi đặt giữa
+      bàn, bún và rau nhúng xếp vòng quanh — món quê mà lên mâm tiệc
+      sang không thua ai, chi phí lại nhẹ hều.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Đi cặp với canh gà lá giang:"
+    items:
+      - icon: lime
+        text: "**Chén muối ớt** — chấm gà, linh hồn thứ hai của món."
+      - icon: claypot
+        text: "**Cá kho tộ / thịt kho quẹt** — mặn đậm cân với canh chua."
+      - icon: rice
+        text: "**Cơm trắng nóng** — hoặc bún tươi nếu chơi kiểu lẩu."
+      - icon: sprout
+        text: "**Rau luộc chấm chao/mắm** — thêm chất xanh cho tròn mâm."
+
+faq:
+  - q: Rốt cuộc đây là canh gà hay canh chua?
+    a: >-
+      Là **canh chua** — đúng dòng canh chua miền Tây, vị chủ đạo là
+      **chua thanh của lá giang**, gà đứng vai phần nhân ngọt thịt. Tên
+      "canh gà lá giang" chỉ là gọi theo cặp nhân–lá cho dễ nhớ; lên mâm
+      nó thế chỗ nồi canh chua, đi cặp với món kho mặn y như canh chua
+      cá lóc vậy.
+  - q: Ngoài miền Tây thì mua lá giang ở đâu?
+    a: >-
+      Sạp **rau Nam bộ** ở chợ lớn hay có bó lá giang cột sẵn; siêu thị
+      và chợ online cũng bán theo bịch. Mua dư cứ bọc giấy báo cất ngăn
+      mát được **4–5 ngày**. Ở quê thấy dây lá giang leo rào thì… xin
+      chủ nhà một nắm, ai cũng vui vẻ cho.
+  - q: Không có lá giang, thay bằng gì được?
+    a: >-
+      Thay được **lá me non hoặc me chín** — ra nồi canh gà chua kiểu
+      khác, vẫn ngon nhưng mất cái thanh riêng của lá giang. Còn giấm
+      thì khuyên đừng: chua gắt, nghe mùi là biết "đồ thế thân". Ráng
+      tìm đúng lá một lần cho biết vị đã.
+  - q: Sao nồi canh của mình bị chát?
+    a: >-
+      Ba thủ phạm: **lá già** (nhiều gân cứng), **vò quá nát tới bầm
+      lá**, hoặc **nồi nhôm**. Chọn lá non, vò giập vừa tay, đúng nồi —
+      vị chát biến mất, chỉ còn chua thanh. Lỡ chát nhẹ thì thêm chút
+      đường phèn kéo lại được phần nào.
+  - q: Cho thêm măng chua, bạc hà vô được không?
+    a: >-
+      Được — nhiều nhà thích **măng chua** cho nồi canh "đầy đặn", hay
+      bạc hà (dọc mùng) cho giòn xốp. Nhưng thử **bản mộc** trước một
+      lần: chỉ gà + lá giang, để vị chua thanh của lá được "hát solo" —
+      rồi hẵng thêm thắt theo gu nhà.
+  - q: Canh lá giang để dành được không?
+    a: >-
+      Nên ăn **trong ngày**: để lâu lá giang tiếp tục nhả chua, canh
+      chua quá đà và lá ngả vàng kém ngon. Hâm lại thì đun sôi nhanh rồi
+      tắt liền. Tốt nhất là nấu vừa đủ — mà món này thường… tự hết sạch
+      trong bữa, khỏi lo chuyện để dành.
+
+ticker:
+  - icon: herb
+    text: Lá giang vò giập chua thanh
+  - icon: meat
+    text: Gà ta xào săn ngọt thịt
+  - icon: drop
+    text: Nước canh vàng trong veo
+  - icon: lime
+    text: Muối ớt chấm gà đã đời
+  - icon: sprout
+    text: Ngò om ngò gai dậy mùi
+  - icon: flame
+    text: Thêm bún là thành lẩu

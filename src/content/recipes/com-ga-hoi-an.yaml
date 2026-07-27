@@ -1,0 +1,411 @@
+title: Cơm gà Hội An **cơm vàng tơi hạt, gà xé mọng ngọt**
+summary: >-
+  Hạt cơm **vàng mơ nấu bằng nước luộc gà** tơi ráo từng hạt, gà ta xé
+  trộn hành tây rau răm chua ngọt the nồng — dĩa cơm "danh thiếp" của phố
+  cổ, kèm chén súp nóng đúng lệ, ăn một lần là nhớ Hội An.
+region: Miền Trung
+category: Cơm
+time:
+  total: 1 giờ 30
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 9
+art: com-ga
+heroEyebrow: Phố cổ lên đèn vàng…
+
+quick:
+  ingredients:
+    - Gà ta [[1500|g]] (1 con) · gừng [[1|củ]] đập + hành tím [[2|củ]] nướng để luộc
+    - Gạo dẻo thơm [[500|g]] — vo, **ngâm 30 phút**, để ráo
+    - Bột nghệ [[1|muỗng cà phê]] · mỡ gà (hớt từ nước luộc) hoặc dầu ăn [[2|muỗng canh|frac]] · tỏi [[2|tép]]
+    - Hành tây [[1|củ]] thái mỏng ngâm giấm đường · rau răm [[1|bó]] lớn
+    - "Nước trộn gà: nước mắm [[1.5|muỗng canh|frac]] · chanh [[1|trái]] · đường [[1|muỗng cà phê]] · tiêu"
+    - "Ăn kèm: hành phi · đồ chua (đu đủ/cà rốt) · **tương ớt** · chén súp từ nước luộc"
+  steps:
+    - Luộc gà ngập nước với gừng, hành nướng, muối — sôi hạ **liu riu 25 phút**, tắt bếp **ủ 10 phút**, vớt ngâm nước đá.
+    - Gạo ngâm để ráo, **xào với mỡ gà + tỏi + nghệ** cho săn hạt thơm vàng.
+    - Nấu cơm bằng **nước luộc gà**, châm ít hơn nấu thường một chút (gạo đã ngâm).
+    - Gà nguội xé miếng vừa ăn; hành tây ngâm giấm đường 10 phút cho hết hăng.
+    - Trộn gà + hành tây + rau răm với nước mắm – chanh – đường – tiêu, nêm **đậm hơn gỏi thường một chút**.
+    - "Ráp dĩa: úp chén cơm vàng, phủ gà trộn, rắc hành phi; dọn kèm **chén súp nóng**, đồ chua và tương ớt."
+  warning: >-
+    Cơm gà mà **nhão là thua từ vòng gửi xe** — gạo phải ngâm rồi để ráo,
+    xào săn, và châm nước luộc gà **ít tay hơn nấu cơm thường**. Hạt cơm
+    chuẩn Hội An là vàng mơ, tơi ráo, hạt nào ra hạt nấy.
+
+flavor:
+  chua: 3
+  ngot: 5.5
+  man: 5.5
+  cay: 3
+  thom: 8
+flavorNote: >-
+  **Chuẩn dĩa cơm phố Hội:** cơm béo nhẹ mùi mỡ gà, **vàng mơ chứ không
+  vàng khè**; gà xé ngọt thịt quyện hành tây chua giòn, rau răm the nồng
+  đuổi sau — và chén súp nóng húp xen kẽ cho trơn miệng.
+storyEyebrow: Chuyện dĩa cơm
+storyTitle: Dĩa cơm **danh thiếp** của phố Hội
+story:
+  - >-
+    Tới Hội An, chưa ăn cơm gà coi như chưa trọn chuyến đi — món này là
+    **danh thiếp ẩm thực** của phố cổ, bên cạnh cao lầu. Từ những gánh cơm
+    gà giữa thế kỷ trước, nghề nấu truyền qua mấy đời, mỗi quán một bí
+    quyết riêng nhưng chung một chuẩn: **cơm vàng tơi, gà xé mọng, rau răm
+    hào phóng**.
+  - >-
+    Người Hội An hay nói cơm gà ngon là nhờ **gạo dẻo thơm và nồi nước
+    luộc gà ngọt lừ** — hạt gạo được xào qua mỡ gà với chút nghệ rồi mới
+    nấu bằng chính nước luộc, nên vừa béo vừa thơm mà không hề ngấy. Gà
+    nhất định phải là **gà ta thả vườn**: thịt chắc, da vàng óng, xé ra
+    từng thớ ngọt đậm chứ không bở bùng bục.
+  - >-
+    Cái hay của món này với bếp nhà: **một con gà lo trọn một bữa tiệc
+    nhỏ** — nước luộc chia ba vai (nấu cơm, chén súp, nước trộn), thịt
+    thành gỏi, lòng gà bỏ vô súp. Nấu một lần cuối tuần, nhà mình có
+    "chuyến du lịch Hội An" ngay trên mâm cơm.
+
+ingredientGroups:
+  - name: Gà & nồi luộc
+    icon: meat
+    items:
+      - id: ga
+        name: Gà ta (gà thả vườn)
+        icon: meat
+        color: amber
+        base: 1500
+        unit: g
+        note: 1 con — da vàng, thịt chắc; linh hồn của món
+      - id: gung
+        name: Gừng + hành tím nướng
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Gừng đập giập + 2 củ hành nướng xém — nước luộc thơm, khử tanh
+      - id: muoiluoc
+        name: Muối + nhúm bột nghệ (tùy chọn)
+        icon: jar
+        qtyText: 1 muỗng cà phê muối
+        note: Chút nghệ vô nồi luộc giúp da gà vàng óng hơn
+  - name: Cơm vàng mơ
+    icon: rice
+    items:
+      - id: gao
+        name: Gạo dẻo thơm
+        icon: rice
+        base: 500
+        unit: g
+        note: Vo sạch, ngâm 30 phút, để thật ráo mới xào
+      - id: nghe
+        name: Bột nghệ
+        icon: ginger
+        color: gold
+        base: 1
+        unit: muỗng cà phê
+        note: Cho màu vàng mơ — nghệ tươi thì 1 lóng giã vắt nước
+      - id: moga
+        name: Mỡ gà (hoặc dầu ăn)
+        icon: drop
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Hớt váng mỡ từ nồi luộc — thơm béo "đúng bài" nhất
+      - id: toi
+        name: Tỏi băm
+        icon: garlic
+        base: 2
+        unit: tép
+        note: Phi thơm lúc xào gạo
+  - name: Gỏi gà trộn
+    icon: herb
+    items:
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Thái mỏng, ngâm giấm đường 10 phút cho giòn ngọt hết hăng
+      - id: raurang
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Linh hồn của gỏi gà — xắt khúc, đừng tiếc
+      - id: nuoctron
+        name: Nước mắm + chanh + đường + tiêu
+        icon: bottle
+        qtyText: Theo bước hướng dẫn
+        note: Trộn đậm hơn gỏi thường một chút — vì ăn với cơm
+  - name: Ăn kèm đúng lệ
+    icon: bowl
+    items:
+      - id: sup
+        name: Chén súp nước luộc
+        icon: bowl
+        qtyText: Nước luộc + hành lá
+        note: Thả thêm lòng gà nếu nhà ăn — húp xen kẽ mới đúng điệu
+      - id: dochua
+        name: Đồ chua (đu đủ hoặc cà rốt, củ cải)
+        icon: pod
+        color: green
+        base: 1
+        unit: chén
+        note: Chua giòn chống ngán
+      - id: tuongot
+        name: Tương ớt cay thơm
+        icon: chili
+        color: red
+        base: 1
+        unit: chén nhỏ
+        note: Hội An ăn tương ớt dầu cay thơm — mua loại ngon hoặc tự phi
+      - id: hanhphi
+        name: Hành phi
+        icon: onion
+        color: gold
+        base: 2
+        unit: muỗng canh
+        note: Rắc mặt dĩa — giòn thơm tăng "độ quán"
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **dĩa cơm gà chuẩn phố Hội**
+stepsLead: >-
+  Trình tự khôn nhất: bắc nồi luộc gà trước, tranh thủ ngâm gạo — gà chín
+  thì nước luộc vừa kịp sang vai nấu cơm. Một mạch là xong, không chờ nhau.
+steps:
+  - title: Luộc gà — liu riu, ủ, sốc đá
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - text: >-
+          Gà chà muối gừng rửa sạch, cho vô nồi **ngập nước lạnh** cùng
+          gừng đập, hành tím nướng, [[1|muỗng cà phê]] muối (+ nhúm nghệ
+          nếu thích da vàng óng).
+      - text: >-
+          Đun sôi thì **hớt bọt, hạ liu riu 25 phút** — nước chỉ lăn tăn,
+          không sôi bùng.
+      - text: >-
+          Tắt bếp, **đậy vung ủ 10 phút** cho chín thấu tới xương, rồi vớt
+          gà **ngâm thau nước đá 5 phút** — da căng giòn, thịt săn mọng.
+      - text: Nước luộc giữ lại toàn bộ — hớt lớp **mỡ gà** vàng để riêng xào gạo.
+    callout:
+      type: warn
+      text: >-
+        Luộc sôi bùng từ đầu tới cuối là gà **nứt da, thịt xác**. Liu riu
+        + ủ mới cho thớ thịt mềm mọng kiểu "gà quán" — nóng vội là hỏng
+        con gà ta đáng tiền.
+    timer:
+      secs: 1500
+      label: Hẹn giờ luộc gà · 25:00
+      doneMsg: Tắt bếp, ủ thêm 10 phút nghen!
+  - title: Ngâm gạo, xào săn với nghệ
+    icon: rice
+    minutes: 35 phút
+    bullets:
+      - text: Gạo vo sạch, **ngâm 30 phút** (làm song song lúc luộc gà), đổ ra rá để thật ráo.
+      - text: >-
+          Chảo nóng cho [[2|muỗng canh|frac]] mỡ gà, phi tỏi thơm, trút
+          gạo + [[1|muỗng cà phê]] bột nghệ vô **xào 3–4 phút** tới hạt
+          gạo săn, áo màu vàng đều.
+    callout:
+      type: tip
+      text: >-
+        Nghệ chỉ cần **vàng mơ** — quá tay là cơm vàng khè lại đắng nhẹ.
+        Cho đúng liều, màu dĩa cơm sẽ y hình trên mạng… à không, y ngoài
+        phố Hội luôn.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ngâm gạo · 30:00
+      doneMsg: Gạo ngậm nước đủ rồi — để ráo và xào!
+  - title: Nấu cơm bằng nước luộc gà
+    icon: flame
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Trút gạo đã xào vô nồi cơm điện, châm **nước luộc gà nóng** vừa
+          **sấp mặt gạo** (ít hơn nấu thường một đốt tay — gạo đã ngâm no
+          nước).
+      - text: Bấm nút nấu như bình thường; cơm chín **xới tơi ngay** cho thoát hơi, hạt rời óng ả.
+    callout:
+      type: tip
+      text: >-
+        Muốn "lên trình" kiểu quán: cơm chín để **ủ thêm 10 phút** rồi mới
+        xới — đáy nồi có lớp xém vàng mỏng giòn thơm, ai giành được phần
+        đó là người may mắn của mâm.
+  - title: Xé gà, trộn gỏi hành tây rau răm
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Xé gà:"
+        text: >-
+          gà nguội bớt thì chặt lấy phần thịt, **xé miếng vừa gắp theo
+          thớ**, da thái sợi — đừng xé vụn quá mất sướng miệng.
+      - label: "Hành tây:"
+        text: >-
+          thái mỏng, ngâm [[2|muỗng canh|frac]] giấm + [[1|muỗng cà phê]]
+          đường **10 phút**, vắt nhẹ — giòn ngọt, hết hăng.
+      - label: "Trộn:"
+        text: >-
+          pha [[1.5|muỗng canh|frac]] nước mắm + nước cốt [[1|trái]] chanh
+          + [[1|muỗng cà phê]] đường + tiêu; rưới vô thau gà + hành tây +
+          **rau răm xắt khúc**, trộn nhẹ tay cho thấm.
+    callout:
+      type: warn
+      text: >-
+        Trộn gỏi **sát giờ ăn** thôi — trộn sớm quá hành tây ra nước, rau
+        răm thâm, dĩa gà mất độ tươi giòn. Mọi thứ cứ soạn sẵn, khách ngồi
+        vô bàn mới trộn.
+  - title: Chén súp ăn kèm
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Nước luộc còn lại đun sôi, nêm nhẹ muối tiêu (thả **lòng gà**
+          làm sạch vô luộc chín nếu nhà ăn), rắc hành lá.
+      - text: Múc ra chén nhỏ — mỗi người một chén húp xen kẽ với cơm, đúng lệ quán Hội An.
+    callout:
+      type: tip
+      text: >-
+        Chén súp chính là "nước chấm dạng húp" của món này — cơm đậm đà
+        tới đâu, húp muỗng súp thanh ngọt tới đó, tự nhiên đũa lại gắp
+        tiếp không dừng được.
+  - title: Ráp dĩa kiểu phố Hội
+    icon: spoon
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Đơm cơm vô **chén, ém nhẹ, úp ngược ra dĩa** — khuôn cơm vàng
+          tròn trịa như ngoài quán.
+      - text: Phủ **gà trộn rau răm** lên một bên, rắc hành phi + tiêu xay.
+      - text: >-
+          Dọn kèm chén súp nóng, đồ chua và **tương ớt** — ai ăn cay trộn
+          thẳng vô cơm, ngon "nhức nách".
+    doneText: Dĩa cơm vàng mơ lên mâm — xong!
+
+tipsTitle: 7 bí quyết cho **dĩa cơm gà đúng chất Hội An**
+tipsLead: >-
+  Món này nguyên liệu giản dị, ăn thua nhau ở mấy cái "biết" nho nhỏ dưới
+  đây — đọc trước khi đi chợ nghen.
+tips:
+  - icon: meat
+    title: Gà ta, không thương lượng
+    text: >-
+      Cơm gà Hội An sinh ra cho **gà thả vườn thịt chắc da vàng** — xé ra
+      từng thớ ngọt đậm, dai vừa sướng răng. Gà công nghiệp luộc lên bở
+      xốp, trộn gỏi là vụn nát, mất hết cái "đã" của món.
+  - icon: pot
+    title: Liu riu – ủ – sốc đá, tam bộ luộc gà
+    text: >-
+      Ba nhịp này cho con gà **chín thấu mà mọng**: liu riu để thịt không
+      xác, ủ để chín tới xương không đỏ, sốc đá để da căng giòn thịt săn.
+      Nhớ trọn bộ, thiếu nhịp nào cũng lộ liền.
+  - icon: rice
+    title: Cơm tơi là danh dự của món
+    text: >-
+      Công thức chống nhão: **ngâm 30 phút – để thật ráo – xào săn – châm
+      nước ít tay**. Hạt cơm ra dĩa phải rời, óng, cầm muỗng xúc nghe
+      "xạo xạo" — đó mới là cơm gà, không phải cơm... chan nước gà.
+  - icon: drop
+    title: Mỡ gà là gia vị giấu tên
+    text: >-
+      Lớp váng mỡ vàng trên nồi nước luộc đừng hớt bỏ uổng — **xào gạo
+      bằng mỡ gà** mới ra mùi béo thơm đặc trưng mà dầu ăn không giả nổi.
+      Quán nghề nào cũng giữ bí quyết này.
+  - icon: herb
+    title: Rau răm hào phóng, đúng vai
+    text: >-
+      Gỏi gà mà nhút nhát rau răm là "câm giọng Trung" ngay — vị the nồng
+      của nó đỡ cái béo của gà, dậy cả dĩa cơm. Cứ một bó lớn cho một con
+      gà, xắt khúc trộn thẳng, thêm ít lá nguyên trang trí.
+  - icon: onion
+    title: Hành tây ngâm giấm đường
+    text: >-
+      Mười phút ngâm đổi lấy hành tây **giòn ngọt trong veo, không hăng
+      xộc** — người ghét hành tây ăn cũng gật gù. Vắt nhẹ trước khi trộn
+      kẻo loãng nước gỏi.
+  - icon: chili
+    title: Tương ớt phải cay-thơm, không cay-gắt
+    text: >-
+      Chuẩn Hội An là **tương ớt phi dầu** đỏ óng, cay tới đâu thơm tới
+      đó. Mua loại ngon của các thương hiệu miền Trung, hoặc tự làm: ớt
+      sừng băm phi dầu với tỏi + chút muối đường, để nguội cất hũ ăn cả
+      tuần.
+
+serve:
+  title: Dọn mâm — **một con gà, trọn bữa tiệc**
+  paras:
+    - >-
+      Mâm cơm gà đúng lệ: dĩa cơm vàng úp khuôn, gà trộn phủ rau răm, chén
+      súp bốc khói cạnh chén tương ớt đỏ — nhìn đủ **ba màu vàng – xanh –
+      đỏ** là biết bữa nay nhà có món ngon. Ăn tới đâu, húp muỗng súp tới
+      đó cho trơn miệng.
+    - >-
+      Nhà đãi khách thì bày kiểu **mâm chung**: thau gà trộn ú ụ giữa bàn,
+      nồi cơm vàng bên cạnh, ai đơm phần nấy — vui kiểu "quán cơm gà nhà
+      mình", chủ nhà lại nhàn vì mọi thứ làm sẵn từ chiều.
+    - >-
+      Còn dư thì mai có ngay bữa "tập hai": cơm vàng chiên lại với tóp mỡ
+      gà, gà trộn kẹp bánh mì — ngon tới mức có nhà… cố tình nấu dư.
+  aside:
+    title: Trên mâm cơm gà
+    intro: "Đủ bộ này là chuẩn quán phố Hội:"
+    items:
+      - icon: bowl
+        text: "**Chén súp nước luộc** — húp xen kẽ, thanh ngọt trơn miệng."
+      - icon: chili
+        text: "**Tương ớt dầu cay thơm** — trộn thẳng vô cơm mới đúng điệu."
+      - icon: pod
+        text: "**Đồ chua giòn** — cắn đổi vị, chống ngán thần sầu."
+      - icon: lime
+        text: "**Chanh + tiêu** — ai thích gỏi gà đậm hơn thì vắt thêm."
+
+faq:
+  - q: Chỉ mua được gà công nghiệp thì có nấu được không?
+    a: >-
+      Nấu được nhưng chỉnh cách làm: chọn **gà nguyên con nhỏ hoặc đùi góc
+      tư**, rút ngắn luộc còn **15–17 phút + ủ 10 phút**, và xé miếng to
+      tay hơn kẻo vụn. Vị sẽ "hiền" hơn bản gà ta — bù bằng nước trộn đậm
+      thêm chút và rau răm nhiều thêm chút.
+  - q: Không có nghệ thì cơm có thành cơm gà không?
+    a: >-
+      Vẫn thành — nhiều quán Hội An nấu cơm **chỉ bằng nước luộc + mỡ
+      gà**, màu vàng nhạt tự nhiên của mỡ. Nghệ cho màu đẹp "ăn ảnh" hơn
+      thôi. Đừng thay bằng bột cà ri hay màu thực phẩm — mùi lạc quẻ ngay.
+  - q: Đãi khách, làm trước được những gì?
+    a: >-
+      Gần hết: gà luộc + xé sẵn (đậy kín ngăn mát), nước luộc để nồi, gạo
+      ngâm xào sẵn, hành tây ngâm, rau răm nhặt rửa. Khách tới chỉ **bấm
+      nồi cơm, đun súp, trộn gỏi** — 30 phút ra mâm tươm tất, chủ nhà vẫn
+      thơm tho ra tiếp khách được.
+  - q: Cơm bị nhão hoặc khô quá thì lần sau chỉnh sao?
+    a: >-
+      Nhão = **nước nhiều hoặc gạo chưa ráo** — ngâm xong phải để rá cho
+      róc hẳn, châm nước sấp mặt gạo thôi. Khô xác = xào gạo quá lâu hoặc
+      bớt nước quá tay — xào chỉ 3–4 phút săn nhẹ là đủ. Nồi đầu chưa
+      chuẩn thì nồi sau chỉnh một nấc nước là trúng ngay.
+  - q: Đồ chua ăn kèm làm nhanh kiểu gì?
+    a: >-
+      Bào sợi **cà rốt + củ cải** (hoặc đu đủ xanh), bóp nhúm muối xả
+      sạch, ngâm giấm đường 20 phút là giòn chua ngọt. Làm dư cất hũ ngăn
+      mát ăn được cả tuần — kèm cơm gà, bánh mì, thịt nướng đều hợp.
+  - q: Nước luộc gà dùng không hết làm gì?
+    a: >-
+      Đó là **vàng lỏng** đó — đừng đổ: nấu canh bí, canh cải ngọt lừ khỏi
+      nêm bột ngọt; trữ ngăn đông thành "nước dùng nhà làm" cho phở gà,
+      miến gà sau này. Site mình sắp có phở gà, để dành là vừa đẹp.
+
+ticker:
+  - icon: rice
+    text: Cơm vàng mơ tơi hạt
+  - icon: meat
+    text: Gà ta xé mọng ngọt thịt
+  - icon: herb
+    text: Rau răm the nồng
+  - icon: onion
+    text: Hành tây giòn trong veo
+  - icon: bowl
+    text: Chén súp nóng húp xen kẽ
+  - icon: chili
+    text: Tương ớt dầu cay thơm

@@ -1,0 +1,364 @@
+title: Bò lúc lắc **xém cạnh ngoài, mềm mọng trong**
+summary: >-
+  Khối bò thăn áp chảo **lửa khói xém bốn mặt** mà lòng vẫn mềm mọng, lắc
+  cùng hành tây ớt chuông giòn ngọt, đá thêm miếng bơ tỏi thơm lừng — món
+  "ăn tiệm" ngày xưa mà nay 30 phút là nhà mình có.
+region: Miền Nam
+category: Xào
+time:
+  total: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 13
+art: bo-luc-lac
+heroEyebrow: Nghe chảo xèo một tiếng giòn…
+
+quick:
+  ingredients:
+    - Thăn bò (phi lê) [[600|g]] — cắt khối quân cờ **2.5 cm**
+    - "Ướp 15 phút: tỏi băm [[3|tép]] · dầu hào [[1|muỗng canh|frac]] · xì dầu [[1|muỗng canh|frac]] · đường [[1|muỗng cà phê]] · tiêu · dầu ăn [[1|muỗng canh|frac]]"
+    - Hành tây [[1|củ]] bổ múi · ớt chuông xanh + đỏ mỗi thứ [[0.5|trái|frac]] cắt quân cờ
+    - "Sốt: xì dầu [[1|muỗng canh|frac]] · dầu hào [[1|muỗng canh|frac]] · tương cà [[1|muỗng canh|frac]] · đường [[1|muỗng cà phê]] · nước [[2|muỗng canh|frac]]"
+    - Bơ lạt [[20|g]] + tỏi đập — thả phút cuối
+    - "Ăn kèm: xà lách, cà chua, dưa leo lót dĩa · **muối tiêu chanh** · cơm nóng / khoai tây chiên / bánh mì"
+  steps:
+    - Bò cắt khối 2.5 cm, ướp đủ bộ gia vị **15 phút** (đừng ướp mặn tay — còn sốt).
+    - Xếp xà lách cà chua dưa leo ra dĩa; pha sẵn chén sốt.
+    - Chảo **nóng tới bốc khói nhẹ**, tráng dầu, thả bò **một lớp thưa** — để yên 40 giây cho xém rồi mới **lắc chảo** cho vàng mặt khác; chia **2 mẻ**, mỗi mẻ ~2 phút, trút ra dĩa.
+    - Vẫn chảo đó xào hành tây + ớt chuông **2 phút lửa lớn** — vừa chín tới còn giòn.
+    - Đổ bò về chảo + chén sốt, lắc đều 30 giây, thả **bơ + tỏi đập**, đảo một vòng là tắt bếp — đổ lên dĩa rau, dọn kèm muối tiêu chanh.
+  warning: >-
+    Kẻ thù số một của bò lúc lắc là **chảo chưa đủ nóng và tham dồn một
+    mẻ** — bò xuống chảo mà không nghe "xèo" giòn là đang bị luộc: ra
+    nước, dai nhách, xám xịt. Chảo khói, chia mẻ, thịt mới xém đẹp.
+
+flavor:
+  chua: 1
+  ngot: 5
+  man: 6.5
+  cay: 1.5
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn dĩa bò lúc lắc:** khối bò **nâu xém bốn mặt, cắn vô lòng còn
+  hồng mềm mọng**, sốt mặn ngọt bóng nhẹ ôm lấy thịt, hành tây ớt chuông
+  còn giòn — và mùi bơ tỏi bay lên là cả nhà tự động ngồi vô bàn.
+storyEyebrow: Chuyện dĩa bò
+storyTitle: Món **Tây học** mà rất Sài Gòn
+story:
+  - >-
+    Bò lúc lắc là đứa con lai của thời bếp Việt gặp bếp Pháp: miếng bít-tết
+    Tây vào tay người mình được **cắt khối quân cờ, ướp xì dầu tỏi tiêu,
+    xào lửa lớn** kiểu chảo Á. Cái tên thì thiệt thà hết mức — nấu món này
+    là phải **lúc lắc cái chảo** cho khối thịt lăn qua lăn lại, xém đều
+    bốn mặt, tên món dạy luôn cách nấu.
+  - >-
+    Có thời bò lúc lắc là món "ăn tiệm" sang trọng — tiệc tùng, nhà hàng
+    mới thấy, dọn trên dĩa xà lách với **khoai tây chiên vàng ruộm** rất
+    kiểu Sài Gòn. Giờ thịt bò dễ mua, bí quyết cũng chẳng còn bí: toàn bộ
+    nằm ở **nhiệt** — chảo thật nóng, thịt thật khô, tay thật dứt khoát.
+  - >-
+    Đây là món "đầu tư ít, nở mặt nhiều" nhất kho bếp: 30 phút từ thớt ra
+    bàn mà dĩa bò bóng lừng thơm mùi bơ tỏi, đãi khách hay chiều con nít
+    đều trúng. Học xong bài lắc chảo này, mấy món xào lửa lớn khác coi như
+    ... học ké được nửa đường.
+
+ingredientGroups:
+  - name: Bò & đồ ướp
+    icon: meat
+    items:
+      - id: bo
+        name: Thăn bò / phi lê
+        icon: meat
+        color: red
+        base: 600
+        unit: g
+        note: Thăn nội mềm nhất — miếng dày, đỏ tươi, vân mỡ mảnh
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 5
+        unit: tép
+        note: 3 tép băm ướp + 2 tép đập thả cùng bơ phút cuối
+      - id: dauhao
+        name: Dầu hào + xì dầu
+        icon: bottle
+        qtyText: Mỗi thứ 1 muỗng canh (ướp) + 1 muỗng canh (sốt)
+        note: Bộ đôi mặn ngọt — khỏi cần nêm muối
+      - id: tieuduong
+        name: Đường · tiêu · dầu ăn
+        icon: jar
+        qtyText: Theo bước hướng dẫn
+        note: Tiêu xay hơi thô mới thơm kiểu lúc lắc
+  - name: Rau củ xào & sốt
+    icon: pepper
+    items:
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Bổ múi cau, tách lớp — xào nhanh còn giòn ngọt
+      - id: otchuong
+        name: Ớt chuông xanh + đỏ
+        icon: pepper
+        color: red
+        base: 1
+        unit: trái
+        note: Mỗi màu nửa trái, cắt quân cờ cỡ miếng bò — dĩa lên màu đẹp
+      - id: tuongca
+        name: Tương cà
+        icon: tomato
+        color: red
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Cho sốt bóng nhẹ, ngọt dịu — không phải "vị cà chua"
+      - id: bo-lat
+        name: Bơ lạt
+        icon: drop
+        color: gold
+        base: 20
+        unit: g
+        note: Thả lúc tắt bếp — mùi "nhà hàng" nằm ở đây
+  - name: Dĩa rau nền & chấm
+    icon: lettuce
+    items:
+      - id: rausong
+        name: Xà lách + cà chua + dưa leo
+        icon: lettuce
+        color: green
+        base: 1
+        unit: phần
+        note: Lót dĩa — rau tươi gặp sốt nóng là "salad tự nhiên"
+      - id: muoitieuchanh
+        name: Muối tiêu chanh
+        icon: lime
+        color: green
+        base: 1
+        unit: chén
+        note: Chấm bò đúng bài — muối + tiêu + vắt chanh tại bàn
+      - id: khoaitay
+        name: Khoai tây chiên / cơm nóng / bánh mì
+        icon: rice
+        qtyText: Tùy bữa
+        note: Kiểu Sài Gòn là khoai chiên; bữa cơm thì cơm nóng là nhất
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa bò lúc lắc xèo khói**
+stepsLead: >-
+  Món này nấu nhanh hơn... rửa chảo. Chuẩn bị đâu ra đó hết rồi mới bật
+  bếp — vì từ lúc chảo nóng tới lúc lên dĩa chỉ chừng 6 phút.
+steps:
+  - title: Cắt khối, ướp bò
+    icon: knife
+    minutes: 18 phút
+    bullets:
+      - label: "Cắt:"
+        text: >-
+          thịt thấm thật khô, cắt khối quân cờ **2.5 cm đều tay** — bỏ
+          ngăn đá 15 phút trước khi cắt là khối vuông vức dễ ợt.
+      - label: "Ướp:"
+        text: >-
+          trộn bò với tỏi băm, [[1|muỗng canh|frac]] dầu hào,
+          [[1|muỗng canh|frac]] xì dầu, [[1|muỗng cà phê]] đường, ½ muỗng
+          cà phê tiêu + [[1|muỗng canh|frac]] dầu ăn — **15 phút** là đủ
+          thấm.
+    callout:
+      type: tip
+      text: >-
+        Khối đều nhau quan trọng hơn khối đẹp: miếng to miếng nhỏ lẫn lộn
+        là mẻ xào **chín so le** — miếng vừa tới thì miếng đã dai. Dao
+        thẳng tay một chút, ăn sướng hơn nhiều.
+    timer:
+      secs: 900
+      label: Hẹn giờ ướp bò · 15:00
+      doneMsg: Bò thấm rồi — soạn dĩa rau, nóng chảo!
+  - title: Soạn dĩa rau, pha sốt
+    icon: lettuce
+    minutes: 7 phút
+    bullets:
+      - text: Xà lách rửa để ráo trải dĩa, xếp cà chua lát + dưa leo quanh viền.
+      - text: >-
+          Pha chén sốt: [[1|muỗng canh|frac]] xì dầu + [[1|muỗng
+          canh|frac]] dầu hào + [[1|muỗng canh|frac]] tương cà +
+          [[1|muỗng cà phê]] đường + [[2|muỗng canh|frac]] nước, khuấy
+          tan.
+      - text: Hành tây bổ múi, ớt chuông cắt quân cờ, tỏi đập + bơ để sẵn cạnh bếp.
+    callout:
+      type: tip
+      text: >-
+        Luật của món xào lửa lớn: **mọi thứ trong tầm với trước khi bật
+        bếp** — vô trận rồi mà quay đi tìm chén sốt là mẻ bò quá lửa ngay.
+  - title: Áp chảo bò — lúc lắc đúng nghĩa
+    icon: flame
+    minutes: 6 phút
+    bullets:
+      - text: >-
+          Chảo đáy dày lửa lớn tới **bốc khói nhẹ**, tráng
+          [[1|muỗng canh|frac]] dầu.
+      - text: >-
+          Thả **nửa số bò, một lớp thưa** — nghe "xèo" giòn là đúng nhiệt.
+          **Để yên 40 giây** cho xém mặt rồi mới lắc chảo hất khối thịt
+          lăn mặt khác, thêm 40–60 giây nữa, trút ra dĩa.
+      - text: Chảo nóng lại thì làm **mẻ hai** y vậy — tổng mỗi mẻ chừng 2 phút, lòng khối bò còn hồng.
+    callout:
+      type: warn
+      text: >-
+        **Đừng đảo liên tục** — khối bò cần nằm yên trên mặt chảo nóng mới
+        kịp xém nâu; lắc sớm lắc nhiều là thịt vừa không xém vừa ra nước.
+        Tên món là "lúc lắc" chứ không phải... "quậy đều".
+  - title: Xào rau củ giòn
+    icon: pepper
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Vẫn chảo đó (giữ lại nước xém dưới đáy — ngọt lắm), lửa lớn, cho
+          hành tây + ớt chuông vô **xào đúng 2 phút**.
+      - text: Rau củ vừa **áo dầu bóng, còn giòn sựt** là đạt — đừng xào tới mềm oặt.
+  - title: Hợp nhất, đá bơ tỏi
+    icon: spoon
+    minutes: 2 phút
+    bullets:
+      - text: Đổ bò (cả nước thịt tiết ra dĩa) về chảo, rưới **chén sốt**, lắc đều **30 giây** cho áo bóng.
+      - text: >-
+          Thả **bơ + tỏi đập**, đảo một vòng cho bơ tan quyện là **tắt bếp
+          liền** — đổ toàn bộ lên dĩa rau đã xếp.
+      - text: Rắc tiêu xay, dọn nóng với chén **muối tiêu chanh** + khoai chiên hoặc cơm.
+    callout:
+      type: tip
+      text: >-
+        Bơ cho vô sớm là **khét đắng** — đúng bài là phút cuối cùng, lửa
+        vừa tắt, sức nóng còn lại đủ làm bơ tan thành lớp áo thơm béo bóng
+        lừng cả dĩa.
+    doneText: Nghe mùi bơ tỏi là xong!
+
+tipsTitle: 7 bí quyết cho **khối bò xém ngoài mềm trong**
+tipsLead: >-
+  Bò lúc lắc không có bước nào khó — chỉ có mấy cái "luật nhiệt" mà phá
+  luật nào là dĩa bò trả giá liền luật đó.
+tips:
+  - icon: meat
+    title: Thăn nội đáng đồng tiền
+    text: >-
+      Món này thịt là vai chính nên đừng tiếc: **thăn nội (phi lê) mềm
+      tan**, thăn ngoại/đầu thăn rẻ hơn chút vẫn ổn. Thịt đùi, bắp là dai
+      ngay dù tay nghề cỡ nào — tiền nào thớ nấy, thiệt.
+  - icon: knife
+    title: Thấm khô + khối đều 2.5 cm
+    text: >-
+      Thịt ướt xuống chảo là **hạ nhiệt tức thì** — hơi nước cản thịt xém.
+      Thấm khô bằng giấy bếp trước khi cắt; khối 2.5 cm là cỡ vàng: đủ dày
+      để lòng còn hồng, đủ nhỏ để chín nhanh.
+  - icon: flame
+    title: Chảo khói mới thả thịt
+    text: >-
+      Nhiệt là gia vị chính của món này. Chảo đáy dày để lửa lớn tới
+      **khói vờn nhẹ mặt chảo** mới tráng dầu thả bò — nghe tiếng "xèo"
+      gắt là đúng cửa. Sợ khói mà để lửa vừa là bò thành... bò kho nước.
+  - icon: clock
+    title: Để yên rồi mới lắc
+    text: >-
+      40 giây đầu **cấm nhúc nhích** — mặt thịt cần thời gian tạo lớp vỏ
+      nâu thơm. Xém một mặt rồi mới lắc chảo cho lăn mặt kế. Nhịp "yên –
+      lắc – yên – lắc" đó chính là linh hồn cái tên món.
+  - icon: spoon
+    title: Hai mẻ, đừng tham một
+    text: >-
+      [[600|g]] bò dồn một chảo là nhiệt sập, thịt **ra nước xám xịt**.
+      Chia đôi: mẻ nào cũng thưa thoáng, khối nào cũng được áp thẳng mặt
+      chảo — thêm 2 phút mà đổi được cả dĩa bò xém đẹp, quá hời.
+  - icon: drop
+    title: Bơ tỏi là "chữ ký" phút cuối
+    text: >-
+      Sốt xì dầu dầu hào lo phần đậm đà, còn **bơ + tỏi đập thả lúc tắt
+      bếp** lo phần sang: béo thơm bóng lừng đúng kiểu nhà hàng. Nhà không
+      có bơ vẫn nấu được — nhưng có bơ là dĩa bò "lên đời" thấy rõ.
+  - icon: lime
+    title: Muối tiêu chanh, đừng bỏ qua
+    text: >-
+      Bò lúc lắc mà thiếu chén **muối tiêu chanh** là mất một tầng vị:
+      miếng bò đậm sốt chấm nhẹ qua chua mặn the the, ngon gấp rưỡi. Pha
+      tại bàn — muối, tiêu xay, vắt miếng chanh, ai chấm nấy.
+
+serve:
+  title: Dọn dĩa — **rau mát dưới, bò nóng trên**
+  paras:
+    - >-
+      Đổ bò nóng hổi lên **nền xà lách cà chua** là kiểu dọn kinh điển:
+      sốt nóng rưới xuống làm rau vừa tái nhẹ vừa thấm vị, ăn tới đáy dĩa
+      là phần rau "đắt hàng" không kém phần thịt. Kèm chén muối tiêu chanh
+      và dĩa **khoai tây chiên** là đúng bộ Sài Gòn xưa.
+    - >-
+      Bữa cơm nhà thì giản dị hơn: bò lúc lắc + **cơm trắng nóng** — sốt
+      bơ tỏi chan cơm là con nít vét sạch chén. Cuối tuần đổi gió thì kẹp
+      **bánh mì**, thêm chút đồ chua, thành "bánh mì bò lúc lắc" ngon quên
+      lối về.
+    - >-
+      Đãi khách, món này là "con át chủ bài giờ chót": khách bấm chuông
+      mới bật bếp cũng kịp — 6 phút xào, bưng ra còn nghe xèo xèo, cả bàn
+      trầm trồ mà đầu bếp thì... mới ướp thịt lúc chiều.
+  aside:
+    title: Trên bàn bò lúc lắc
+    intro: "Đủ bộ này là chuẩn vị:"
+    items:
+      - icon: lime
+        text: "**Muối tiêu chanh** — pha tại bàn, chấm miếng bò đậm đà gấp rưỡi."
+      - icon: rice
+        text: "**Khoai tây chiên hoặc cơm nóng** — kiểu tiệm hay kiểu nhà đều thắng."
+      - icon: lettuce
+        text: "**Nền xà lách cà chua** — thấm sốt nóng thành salad tự nhiên."
+      - icon: chili
+        text: "**Ớt xắt / tương ớt** — cho người thích dĩa bò có lửa."
+
+faq:
+  - q: Không mua được thăn nội, dùng thịt nào thay?
+    a: >-
+      Theo thứ tự ngon dần đều với túi tiền: **đầu thăn ngoại, thăn
+      ngoại**, rồi mới tới nạc vai. Miếng nào cũng nên **cắt ngang thớ**,
+      ướp thêm [[1|muỗng cà phê]] dầu ăn và đừng nấu quá lửa. Tránh bắp,
+      đùi — hầm thì ngon chứ lúc lắc là dai.
+  - q: Sao bò của mình xào ra nước, xám mà dai?
+    a: >-
+      Đủ bộ ba lỗi kinh điển: **chảo chưa đủ nóng**, **dồn một mẻ quá
+      dày**, và **đảo liên tục**. Thêm một thủ phạm hay bị bỏ sót: thịt
+      chưa thấm khô. Chỉnh đúng bốn chỗ đó, mẻ sau xém nâu đẹp như hình
+      liền.
+  - q: Nhà không ăn được bò tái, chín hẳn được không?
+    a: >-
+      Được — nhưng đổi chiến thuật: cắt khối **nhỏ hơn chút (2 cm)**, áp
+      chảo lâu hơn mỗi mặt chừng 15 giây, và trút ra ngay khi vừa hết
+      hồng. "Chín tới" khác "chín kỹ" — cứ để tới well-done khô cứng là
+      uổng miếng thăn lắm.
+  - q: Có cần rượu vang đỏ như nhà hàng không?
+    a: >-
+      Không cần — bản nhà hàng hay láng chút rượu cho thơm khói, nhưng
+      công thức xì dầu – dầu hào – bơ tỏi này đã đủ đầy vị. Nhà sẵn chai
+      vang mở dở thì rưới **1 muỗng canh lúc hợp nhất** cho vui, không có
+      chẳng thiếu gì.
+  - q: Khoai tây chiên ăn kèm làm sao cho giòn?
+    a: >-
+      Khoai cắt ngón tay, **luộc sơ 3 phút**, để thật ráo rồi chiên hai
+      lửa: lửa vừa cho chín, vớt ra nghỉ 5 phút, chiên lại **lửa lớn 1–2
+      phút** cho vàng giòn. Lười thì khoai đông lạnh chiên thẳng cũng ổn —
+      món chính là bò, khoai là dàn bao thôi.
+  - q: Ướp bò từ tối hôm trước được không?
+    a: >-
+      Được, ngăn mát đậy kín — nhưng món này **không cần ướp lâu** vì khối
+      thịt to, vị chủ yếu bám mặt ngoài; 15–30 phút là đủ. Ướp qua đêm chỉ
+      tiện công, không ngon hơn bao nhiêu — nhớ để thịt **hết lạnh** rồi
+      mới xào kẻo hạ nhiệt chảo.
+
+ticker:
+  - icon: flame
+    text: Chảo khói xèo một tiếng giòn
+  - icon: meat
+    text: Khối bò xém cạnh lòng hồng
+  - icon: drop
+    text: Bơ tỏi thơm lừng phút cuối
+  - icon: pepper
+    text: Ớt chuông hành tây giòn sựt
+  - icon: lime
+    text: Muối tiêu chanh chấm đã
+  - icon: rice
+    text: Khoai chiên kiểu Sài Gòn
