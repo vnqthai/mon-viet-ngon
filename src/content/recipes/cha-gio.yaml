@@ -1,0 +1,407 @@
+title: Chả giò tôm thịt **giòn rụm tới cuốn cuối cùng**
+summary: >-
+  Vỏ vàng ruộm **nổ giòn rôm rốp**, nhân tôm thịt khoai môn bùi béo đúng kiểu
+  Nam Bộ — món "linh hồn mâm tiệc" mà bí quyết chiên hai lần giúp cuốn nào
+  cũng giòn, nguội rồi vẫn giòn.
+region: Miền Nam
+category: Chiên
+time:
+  total: 1 giờ 15 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 8
+art: cha-gio
+heroEyebrow: Nhà có tiệc là có chả giò…
+
+quick:
+  ingredients:
+    - Thịt heo xay [[400|g]] (nạc dăm) · tôm [[200|g]] băm thô
+    - Khoai môn [[200|g]] bào sợi — chữ ký Nam Bộ · cà rốt [[1|củ]] bào sợi
+    - Nấm mèo [[4|tai]] ngâm nở băm nhỏ · hành tím [[3|củ]] · trứng [[1|trái]] (lấy lòng đỏ)
+    - Bánh tráng chả giò [[24|cái]] (loại dai chuyên cuốn chiên)
+    - "Nêm nhân: hạt nêm [[1|muỗng canh|frac]] · đường [[1|muỗng canh|frac]] · tiêu — dầu ăn để chiên ngập"
+    - "Ăn kèm: nước mắm chua ngọt + đồ chua · bún tươi · xà lách, rau thơm"
+  steps:
+    - Khoai môn, cà rốt bào sợi ngắn, **vắt ráo nước**; nấm mèo, hành tím băm nhỏ.
+    - Trộn thịt + tôm + rau củ + lòng đỏ trứng + gia vị, quết nhẹ, **để ngăn mát 15 phút** cho nhân kết dính.
+    - "Cuốn: nhân vừa phải, gập hai mép, **cuốn lỏng tay** một chút — dán mép bằng nước."
+    - Chiên lần 1 **lửa vừa** ngập dầu 6–7 phút cho chín ruột, vớt ra để ráo.
+    - Sát giờ ăn chiên lần 2 **lửa lớn** 1–2 phút — vàng ruộm, giòn rụm.
+    - Dọn với bún, rau sống, chấm mắm chua ngọt — hoặc cuốn xà lách đúng điệu.
+  warning: >-
+    Ba thủ phạm làm chả giò xẹp mềm: nhân ướt không vắt ráo · cuốn chặt căng
+    tay (nhân nở làm nứt vỏ) · chiên một lần lửa lớn (ngoài cháy trong sống).
+
+flavor:
+  chua: 3
+  ngot: 5
+  man: 5.5
+  cay: 2
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn cuốn chả giò:** cắn nghe **"rốp"** một tiếng, vỏ vàng đều không rỗ
+  dầu, nhân bên trong **ngọt thịt tôm, bùi khoai môn**, nóng bốc khói.
+storyEyebrow: Chuyện cuốn chả
+storyTitle: Món **có mặt ở mọi mâm tiệc** của người Việt
+story:
+  - >-
+    Giỗ chạp, cưới hỏi, Tết nhứt hay tiệc tân gia — mâm cỗ người Việt kiểu gì
+    cũng có dĩa chả giò vàng ruộm đặt chính giữa. Món này vui từ khâu làm:
+    cả nhà xúm lại, người trải bánh, người múc nhân, người cuốn — tay làm
+    miệng nói, **chưa chiên đã rộn ràng như tiệc**.
+  - >-
+    Chả giò miền Nam có chữ ký riêng: **khoai môn bào sợi** trong nhân. Khoai
+    chín tỏa vị bùi béo quyện với tôm thịt, khác hẳn nem rán miền Bắc thiên
+    về miến và giá. Còn độ giòn huyền thoại thì không nằm ở loại bánh tráng
+    đắt tiền, mà ở **kỹ thuật chiên hai lần** — lần đầu chín ruột, lần hai
+    tạo vỏ — quán nào giòn lâu cũng đều làm vậy.
+  - >-
+    Công thức này cân sẵn liều lượng cho mẻ 24 cuốn: ăn một bữa, dư thì cấp
+    đông sống — hôm nào nhà có khách đột xuất, thả thẳng vô chảo dầu là
+    **10 phút sau có dĩa chả giò nóng giòn**, chủ nhà ung dung như đã chuẩn
+    bị từ hôm trước.
+
+ingredientGroups:
+  - name: Phần nhân tôm thịt
+    icon: meat
+    items:
+      - id: thit
+        name: Thịt heo xay (nạc dăm)
+        icon: meat
+        base: 400
+        unit: g
+        note: Nạc dăm có mỡ — nhân mới mềm, không khô
+      - id: tom
+        name: Tôm tươi
+        icon: shrimp
+        color: red
+        base: 200
+        unit: g
+        note: Lột vỏ, băm thô cho có miếng cắn
+      - id: khoaimon
+        name: Khoai môn
+        icon: pumpkin
+        color: gold
+        base: 200
+        unit: g
+        note: Bào sợi ngắn — bùi béo chữ ký Nam Bộ
+      - id: carot
+        name: Cà rốt
+        icon: tomato
+        color: red
+        base: 1
+        unit: củ
+        note: Bào sợi, vắt ráo cùng khoai
+      - id: nammeo
+        name: Nấm mèo (mộc nhĩ)
+        icon: flower
+        base: 4
+        unit: tai
+        note: Ngâm nước ấm 15 phút cho nở, băm nhỏ
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 3
+        unit: củ
+        note: Băm nhuyễn, trộn thẳng vô nhân
+      - id: trung
+        name: Trứng gà
+        icon: egg
+        base: 1
+        unit: trái
+        note: Chỉ lấy lòng đỏ — lòng trắng làm nhân ướt
+  - name: Vỏ cuốn & dầu chiên
+    icon: roll
+    items:
+      - id: banhtrang
+        name: Bánh tráng chả giò
+        icon: roll
+        color: gold
+        base: 24
+        unit: cái
+        note: Loại dai chuyên chiên (bánh tráng rế càng giòn xốp)
+      - id: dau
+        name: Dầu ăn
+        icon: bottle
+        base: 500
+        unit: ml
+        note: Phải ngập cuốn chả — chiên xong lọc lại dùng được
+  - name: Nước chấm & rau ghém
+    icon: lettuce
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: "Pha chua ngọt tỉ lệ 1 mắm : 1 đường : 1 chanh : 4 nước"
+      - id: dochua
+        name: Đồ chua cà rốt – củ cải
+        icon: jar
+        color: gold
+        base: 1
+        unit: chén
+        note: Thả vô chén mắm khi ăn
+      - id: bun
+        name: Bún tươi
+        icon: noodle
+        base: 500
+        unit: g
+        note: Ăn kèm kiểu bún chả giò — không bắt buộc
+      - id: rau
+        name: Xà lách + rau thơm
+        icon: lettuce
+        color: green
+        qtyText: 1 mâm
+        note: Húng lủi, tía tô, dưa leo — cuốn chả giò ăn mát miệng
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **mẻ chả giò nổ giòn**
+stepsLead: >-
+  Nhớ giùm một câu: **nhân ráo — cuốn lỏng — chiên hai lần**. Ba điều đó lo
+  xong thì mẻ chả giò đầu tay của bạn đã giòn hơn khối hàng quán.
+steps:
+  - title: Sơ chế — nhân phải thiệt ráo
+    icon: knife
+    minutes: 20 phút
+    bullets:
+      - label: "Khoai & cà rốt:"
+        text: >-
+          gọt vỏ, bào sợi rồi cắt khúc ngắn cỡ 3 cm, rắc ¼ muỗng cà phê muối
+          trộn nhẹ, để 5 phút rồi **vắt kiệt nước** — bước sống còn của độ
+          giòn.
+      - label: "Nấm mèo:"
+        text: ngâm nước ấm 15 phút, rửa sạch, băm nhỏ.
+      - label: "Tôm:"
+        text: >-
+          lột vỏ, rút chỉ đen, **băm thô** — đừng xay nhuyễn, cắn trúng miếng
+          tôm mới vui miệng.
+      - label: "Hành tím:"
+        text: băm nhuyễn. Chuẩn bị sẵn chén nước lọc để dán mép bánh.
+    callout:
+      type: warn
+      text: >-
+        Khoai môn ngứa tay? Đeo bao tay hoặc thoa chút dầu ăn trước khi gọt.
+        Và tuyệt đối **không rửa khoai sau khi bào** — ướt lại là công vắt
+        đổ sông.
+  - title: Trộn nhân, để lạnh cho kết
+    icon: bowl
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Cho thịt xay + tôm + khoai + cà rốt + nấm mèo + hành tím vô thau,
+          thêm **lòng đỏ trứng**, [[1|muỗng canh|frac]] hạt nêm,
+          [[1|muỗng canh|frac]] đường, 1 muỗng cà phê tiêu.
+      - text: >-
+          Trộn đều rồi **quết nhẹ 2–3 phút** theo một chiều cho nhân dẻo,
+          kết dính.
+      - text: >-
+          Đậy lại, cho vô **ngăn mát 15 phút** — nhân lạnh đứng khối, cuốn
+          gọn tay hơn hẳn.
+    callout:
+      type: tip
+      text: >-
+        Muốn thử vị nhân trước khi cuốn cả mẻ? Vo một viên nhỏ, chiên hoặc quay
+        vi sóng 30 giây, nếm rồi chỉnh gia vị — chắc ăn hơn đoán mò.
+    timer:
+      secs: 900
+      label: Hẹn giờ nhân nghỉ lạnh · 15:00
+      doneMsg: Nhân kết dính rồi — cuốn thôi!
+  - title: Cuốn chả — lỏng tay mới đúng
+    icon: roll
+    minutes: 25 phút
+    bullets:
+      - label: "Đặt nhân:"
+        text: >-
+          trải bánh tráng, múc **1 muỗng canh đầy** nhân đặt lệch về ⅓ dưới,
+          vo nhân thành thỏi ngang cỡ 2 ngón tay.
+      - label: "Cuốn:"
+        text: >-
+          gập hai mép trái phải, cuộn từ dưới lên **vừa tay — đừng siết
+          căng**: nhân chín sẽ nở, cuốn chặt quá là nứt toác khi chiên.
+      - label: "Dán mép:"
+        text: >-
+          chấm nước (hoặc lòng trắng trứng dư) lên mép cuối rồi miết nhẹ.
+          Xếp cuốn ra khay có lót màng/lá chuối, **đừng chồng lên nhau**.
+    callout:
+      type: warn
+      text: >-
+        Cuốn tới đâu che khay tới đó bằng khăn ẩm — bánh tráng phơi gió 10
+        phút là **khô nứt**, chiên lên rỗ mặt liền.
+  - title: Chiên lần 1 — lửa vừa cho chín ruột
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Đổ dầu **ngập cuốn chả** vô chảo sâu lòng, đun tới nóng vừa — nhúng
+          đầu đũa tre thấy **sủi tăm nhẹ quanh đũa** là đúng độ.
+      - text: >-
+          Thả từng cuốn theo mép chảo, **đừng chen chúc** (chiên làm 2–3
+          đợt), lửa vừa **6–7 phút** tới vàng nhạt đều.
+      - text: Vớt ra **rack hoặc giấy thấm dầu**, để nguội hẳn càng tốt.
+    callout:
+      type: tip
+      text: >-
+        Chiên xong lần 1 mà chưa ăn liền? Cứ để nguội rồi cất — sát giờ dọn
+        mới chiên lần 2. Đây là cách các quán luôn có chả giò **nóng giòn
+        phục vụ trong 2 phút**.
+    timer:
+      secs: 420
+      label: Hẹn giờ chiên lần 1 · 07:00
+      doneMsg: Vớt ra để ráo — chờ lần 2 mới giòn nha!
+  - title: Chiên lần 2 — lửa lớn cho nổ giòn
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: Tăng lửa cho dầu **nóng già** (khói lăn tăn mặt dầu).
+      - text: >-
+          Thả chả giò vô chiên **1–2 phút**, đảo nhanh tay tới khi **vàng
+          ruộm, vỏ phồng giòn** — nghe tiếng reo lách tách nhỏ dần là nước
+          trong vỏ đã bay hết, giòn cực đại.
+      - text: Vớt ra rack, dựng đứng cuốn chả cho dầu chảy ra hết.
+    callout:
+      type: warn
+      text: >-
+        Lần 2 nhanh lắm — **đứng canh tại chỗ**, ngơi mắt 30 giây là từ vàng
+        ruộm sang nâu đen. Vớt khi màu còn "non" hơn ý muốn một chút, ra
+        ngoài chả còn sậm thêm.
+  - title: Dọn mâm — chấm ngập mới đã
+    icon: lettuce
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Pha mắm chua ngọt: [[3|muỗng canh|frac]] mắm + 3 muỗng đường + 3
+          muỗng nước cốt chanh + 12 muỗng nước ấm, khuấy tan, thả tỏi ớt băm
+          + gắp đồ chua.
+      - text: >-
+          Kiểu một: dĩa chả giò + mâm rau, **cuốn xà lách rau thơm** chấm
+          mắm. Kiểu hai: tô **bún chả giò** — bún, rau ghém, chả giò cắt đôi,
+          chan mắm trộn đều.
+      - text: Ăn nóng liền lúc vỏ còn reo — chả giò không chờ ai hết á!
+    doneText: Cắn miếng đầu nghe "rốp" — xong!
+
+tipsTitle: 7 bí quyết cho **chả giò giòn lâu không xẹp**
+tipsLead: >-
+  Chiên chả giò không khó — giữ nó giòn tới cuối bữa mới là trình. Mấy mẹo
+  này chính là khoảng cách giữa "nhà làm" và "như tiệm".
+tips:
+  - icon: drop
+    title: Kẻ thù số một là nước
+    text: >-
+      Khoai, cà rốt **vắt kiệt**; trứng chỉ lấy **lòng đỏ**; nhân trộn xong
+      thấy ướt thì rắc thêm muỗng bột năng. Nhân càng ráo, vỏ càng giòn lâu
+      — quy luật thép.
+  - icon: roll
+    title: Cuốn lỏng tay một chút
+    text: >-
+      Nhân chín nở ra chừng 10% — cuốn siết căng là vỏ **nứt toác, dầu chui
+      vô nhân**. Cuộn vừa tay, thấy cuốn chả hơi "mềm mại" là đúng, chiên
+      lên tự căng tròn đẹp.
+  - icon: flame
+    title: Hai lần lửa, hai nhiệm vụ
+    text: >-
+      Lần 1 lửa vừa **nấu chín ruột**, lần 2 lửa lớn **rút nước tạo vỏ
+      giòn**. Gộp làm một là được cái vỏ nâu mà ruột còn sống hoặc ruột chín
+      mà vỏ ỉu — không đường tắt đâu.
+  - icon: bottle
+    title: Dầu phải ngập
+    text: >-
+      Chiên nửa chìm nửa nổi là cuốn chả **chín loang lổ, vỏ chỗ giòn chỗ
+      dai**. Tiếc dầu thì dùng chảo nhỏ sâu lòng chiên từng đợt ít cái —
+      dầu chiên xong lọc bã, cất dùng lần sau.
+  - icon: pumpkin
+    title: Khoai môn — đừng thay
+    text: >-
+      Vị bùi của khoai môn là **hồn chả giò Nam Bộ**. Không có khoai môn thì
+      củ sắn (đậu que ngọt) là phương án B chấp nhận được — nhưng nhớ vắt
+      ráo gấp đôi vì củ sắn nhiều nước hơn.
+  - icon: basket
+    title: Cấp đông sống — kho báu ngày bận
+    text: >-
+      Cuốn xong xếp khay **đừng cho dính nhau**, cấp đông 2 giờ rồi trút vô
+      hộp, trữ được cả tháng. Khi ăn **chiên thẳng từ đông** lửa vừa lâu hơn
+      2–3 phút — đừng rã đông, bánh tráng ướt là dính bết.
+  - icon: bowl
+    title: Rack thay giấy thấm
+    text: >-
+      Vớt chả ra **vỉ/rack cho thoáng đáy**, dựng đứng càng tốt. Đặt nằm
+      trên giấy thấm dầu quá lâu là mặt dưới hấp hơi, **ỉu đúng chỗ đó** —
+      chi tiết nhỏ mà ăn thua lớn.
+
+serve:
+  title: Mâm chả giò — **vui từ bếp ra bàn**
+  paras:
+    - >-
+      Chả giò ngon nhất trong **15 phút đầu** ra chảo — nên nhà mình cứ dọn
+      rau, bún, nước chấm lên bàn trước, chiên lần 2 sau cùng, bưng dĩa chả
+      nóng ra là cả nhà "rốp rốp" liền tay.
+    - >-
+      Bữa thường thì làm tô **bún chả giò thịt nướng** — bún tươi, rau ghém,
+      chả giò cắt khúc, chan mắm ớt. Nhà có tiệc thì chả giò nguyên cuốn xếp
+      tháp, kèm mâm xà lách rau thơm cho khách tự cuốn — món này chưa bao
+      giờ ế trên bàn tiệc Việt.
+  aside:
+    title: Bên dĩa chả giò
+    intro: "Bộ tứ ăn kèm đúng điệu:"
+    items:
+      - icon: bottle
+        text: "**Mắm chua ngọt + đồ chua** — pha dư, món này 'hao mắm' nổi tiếng."
+      - icon: lettuce
+        text: "**Xà lách + húng lủi, tía tô** — cuốn chả giò nóng, mát giòn cân béo."
+      - icon: noodle
+        text: "**Bún tươi** — biến dĩa chả thành bữa chính no nê."
+      - icon: chili
+        text: "**Ớt tươi xắt** — thả vô chén mắm, cay cay mới tròn vị."
+
+faq:
+  - q: Chả giò chiên xong 10 phút là ỉu — sai chỗ nào?
+    a: >-
+      Kiểm ba chỗ: **nhân vắt chưa kiệt** (thủ phạm số 1), **chiên một lần**
+      thay vì hai, và **đặt nằm trên giấy thấm** cho hấp hơi. Sửa đủ ba là
+      cuốn chả giòn qua cả bữa nhậu.
+  - q: Bánh tráng nào để chiên — bánh tráng gỏi cuốn được không?
+    a: >-
+      Không nên — bánh tráng gỏi cuốn mỏng mềm, chiên dễ **phồng rộp và dai**.
+      Tìm loại ghi **"bánh tráng chả giò"** (dày dặn, dẻo dai) hoặc **bánh
+      tráng rế** — rế chiên lên xốp giòn nhìn cực đẹp, đúng kiểu nhà hàng.
+  - q: Chiên bằng nồi chiên không dầu được không?
+    a: >-
+      Được — xịt/phết dầu đều quanh cuốn, **180°C · 12–14 phút, lật giữa
+      chừng**. Vỏ giòn khô hơn kiểu ngập dầu một chút và màu nhạt hơn, nhưng
+      đỡ dầu mỡ. Muốn màu đẹp: phết thêm lớp dầu mỏng lần hai trước 3 phút
+      cuối.
+  - q: Chả giò chiên bị nổ văng dầu — vì sao?
+    a: >-
+      Do **nhân ướt** hoặc **cuốn chả đọng nước đá** (chiên từ đông mà khay
+      đóng tuyết). Nhân vắt ráo, cuốn đông phủi sạch tuyết trước khi thả, và
+      luôn thả **nhẹ tay theo mép chảo** — không sao đâu, dầu bắn lách tách
+      nhẹ là bình thường.
+  - q: Làm trước cho tiệc được tới đâu?
+    a: >-
+      Lý tưởng nhất: cuốn sống + cấp đông từ **vài ngày trước**, hoặc chiên
+      lần 1 từ **sáng**, cất ngăn mát. Tới tiệc chỉ chiên lần 2 (2 phút mỗi
+      đợt) — khách tới đâu, chả nóng giòn ra tới đó, chủ nhà nhàn tênh.
+  - q: Nhân còn dư không đủ bánh tráng thì làm gì?
+    a: >-
+      Đừng bỏ! Vo viên chiên thành **xíu mại chiên**, hoặc hấp chín làm nhân
+      cơm chiên, hay quết vô đậu hũ ky cuốn lại — nhân chả giò là "nhân đa
+      năng" của bếp Việt đó.
+
+ticker:
+  - icon: flame
+    text: Nổ giòn rôm rốp
+  - icon: roll
+    text: Vàng ruộm từng cuốn
+  - icon: pumpkin
+    text: Khoai môn bùi béo
+  - icon: shrimp
+    text: Tôm thịt ngọt mềm
+  - icon: bottle
+    text: Mắm chua ngọt đồ chua
+  - icon: lettuce
+    text: Cuốn rau mát rượi
+  - icon: basket
+    text: Cấp đông ăn dần tiện ghê

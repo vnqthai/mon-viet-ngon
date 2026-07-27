@@ -1,0 +1,428 @@
+title: Bò kho **mềm tan, chấm bánh mì quẹt sạch nồi**
+summary: >-
+  Bò nạm gân hầm **nước dừa tươi** tới mềm tan, nước kho đỏ cam óng ánh thơm
+  sả – hồi – quế, cà rốt ngọt lịm — xé ổ bánh mì nóng chấm ngập là hiểu vì
+  sao món này ai cũng thương.
+region: Miền Nam
+category: Kho
+time:
+  total: 2 giờ
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 9
+art: bo-kho
+heroEyebrow: Nồi bò kho sôi lục bục…
+
+quick:
+  ingredients:
+    - Nạm bò [[500|g]] + gân bò [[300|g]] — cắt khối quân cờ 3 cm
+    - "Ướp: ngũ vị hương [[1|muỗng cà phê]] · sả băm [[2|cây]] · tỏi + hành tím băm · nước mắm [[2|muỗng canh|frac]] · đường [[1|muỗng canh|frac]] · dầu điều [[2|muỗng canh|frac]]"
+    - Nước dừa tươi [[500|ml]] · cà rốt [[3|củ]] cắt khúc xéo
+    - Sả [[3|cây]] đập dập · gừng [[3|lát]] · hoa hồi [[2|hoa]] · quế [[1|thanh]] nhỏ
+    - Cà chua [[2|trái]] băm (hoặc tương cà [[2|muỗng canh|frac]]) — tạo màu, dậy vị
+    - "Ăn kèm: bánh mì nóng (hoặc hủ tiếu/cơm) · húng quế, ngò gai · hành tây · chanh, muối tiêu"
+  steps:
+    - Bò rửa muối gừng, cắt khối 3 cm, ướp gia vị **30 phút** (gân chần sơ 5 phút trước khi ướp).
+    - Phi thơm sả tỏi, **xào bò lửa lớn cho săn** mặt thịt, thêm cà chua băm đảo 2 phút.
+    - Châm [[500|ml]] nước dừa + nước nóng ngập thịt; thả sả đập, gừng, hồi, quế.
+    - Hầm **liu riu 1 giờ 15** (gân mềm dẻo, nạm mềm mà còn khối) — hớt bọt, hé vung.
+    - Cho cà rốt vô, hầm thêm **20 phút**; nêm lại mắm – đường – muối cho **đậm vừa chấm bánh mì**.
+    - Múc tô, rắc húng quế ngò gai + hành tây; dọn bánh mì nóng + muối tiêu chanh. Xé, chấm, quẹt!
+  warning: >-
+    Bò kho mềm hay dai ăn thua ở lửa: **sôi liu riu** thịt mới mềm mọng —
+    sôi bùng 2 tiếng thịt vẫn dai mà nước thì cạn queo, khét đáy.
+
+flavor:
+  chua: 1
+  ngot: 6
+  man: 6
+  cay: 3
+  thom: 9
+flavorNote: >-
+  **Chuẩn nồi bò kho:** nước **đỏ cam sóng sánh** (không đặc như sốt, không
+  loãng như canh), húp thấy ngọt nước dừa, thơm sả quyện hồi quế, miếng gân
+  **dẻo quánh** cắn dính môi.
+storyEyebrow: Chuyện nồi bò kho
+storyTitle: Món **Tây gặp ta** ngon nhất của bếp Việt
+story:
+  - >-
+    Bò kho là đứa con lai đẹp nhất của thời bếp Việt gặp bếp Pháp: cái nền
+    ragout hầm bò cà rốt của Tây, vô tay người Việt được **ướp ngũ vị hương,
+    thả sả đập, chan nước dừa** — thành một món chẳng giống ai, mà ai ăn
+    cũng ghiền. Sáng sớm Sài Gòn, tô bò kho bốc khói kế giỏ bánh mì nóng là
+    cảnh quen của mọi con hẻm.
+  - >-
+    Bí quyết nồi bò kho ngon nằm ở **ba tầng chuẩn bị**: ướp cho thấm, xào
+    cho săn, hầm cho mềm. Xào săn mặt thịt trước khi châm nước là bước nhiều
+    người bỏ qua nhất — chính nó khóa vị ngọt trong thớ, cho miếng bò mềm
+    mà không bã. Còn màu đỏ cam đặc trưng? **Dầu điều + cà chua**, màu thật
+    của bếp nhà, không cần viên gia vị.
+  - >-
+    Nấu một nồi chiều cuối tuần, tối cả nhà chấm bánh mì rôm rả; sáng hôm
+    sau hâm lại **chan hủ tiếu** — bò kho qua đêm còn thấm đậm hơn đêm đầu.
+    Một công nấu, hai bữa ngon, kiểu tính toán rất chi là "má mình".
+
+ingredientGroups:
+  - name: Thịt bò & đồ ướp
+    icon: meat
+    items:
+      - id: nam
+        name: Nạm bò
+        icon: meat
+        color: red
+        base: 500
+        unit: g
+        note: Nạm có gân mỡ xen — mềm ngọt nhất để kho
+      - id: gan
+        name: Gân bò
+        icon: meat
+        base: 300
+        unit: g
+        note: Dẻo quánh ăn ghiền — không ăn gân thì tăng nạm
+      - id: nguvihuong
+        name: Ngũ vị hương
+        icon: star
+        color: gold
+        base: 1
+        unit: muỗng cà phê
+        note: Gói nhỏ bán đầy chợ — linh hồn mùi bò kho
+      - id: daudieu
+        name: Dầu màu điều
+        icon: drop
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Lên màu đỏ cam — không có thì phi hột điều
+      - id: satoihanh
+        name: Sả + tỏi + hành tím (băm)
+        icon: garlic
+        base: 2
+        unit: cây
+        note: 2 cây sả + 3 tép tỏi + 2 củ hành tím
+      - id: giavi
+        name: Nước mắm · đường · muối · tiêu
+        icon: bottle
+        qtyText: Theo bước hướng dẫn
+        note: Ướp một phần, nêm lại lúc cuối
+  - name: Nồi nước kho
+    icon: pot
+    items:
+      - id: nuocdua
+        name: Nước dừa tươi
+        icon: drop
+        base: 500
+        unit: ml
+        note: 1 trái dừa — ngọt thanh không đường nào thay được
+      - id: carot
+        name: Cà rốt
+        icon: tomato
+        color: red
+        base: 3
+        unit: củ
+        note: Cắt khúc xéo to — hầm lâu không nát
+      - id: cachua
+        name: Cà chua chín (hoặc tương cà)
+        icon: tomato
+        color: red
+        base: 2
+        unit: trái
+        note: Băm nhỏ xào cùng — màu đẹp, vị tròn
+      - id: sadap
+        name: Sả cây đập dập
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Thả nguyên cây, vớt trước khi dọn
+      - id: hoiquegung
+        name: Hoa hồi + quế + gừng
+        icon: star
+        color: gold
+        qtyText: 2 hồi · 1 thanh quế nhỏ · 3 lát gừng
+        note: Rang sơ cho thơm rồi mới thả nồi
+  - name: Ăn kèm đúng điệu
+    icon: rice
+    items:
+      - id: banhmi
+        name: Bánh mì nóng
+        icon: roll
+        color: gold
+        base: 4
+        unit: ổ
+        note: Vỏ giòn ruột xốp — nhân vật chính thứ hai
+      - id: rauthom
+        name: Húng quế + ngò gai
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Rắc mặt tô, thơm dậy mùi
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 0.5
+        unit: củ
+        frac: true
+        note: Thái khoanh mỏng ngâm đá, rắc lúc dọn
+      - id: chanh
+        name: Chanh + muối tiêu
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Chén muối tiêu chanh chấm bò — thần thánh
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **nồi bò kho đỏ óng**
+stepsLead: >-
+  Tổng cộng 2 tiếng nhưng tay làm thật sự chỉ chừng 30 phút — còn lại là nồi
+  bò tự sôi lục bục cho thơm nhà thơm cửa.
+steps:
+  - title: Sơ chế & ướp bò
+    icon: knife
+    minutes: 35 phút
+    bullets:
+      - label: "Khử mùi:"
+        text: >-
+          bò chà xát muối hột + gừng đập, rửa sạch, thấm khô. **Gân bò chần
+          nước sôi 5 phút** với vài lát gừng rồi mới cắt.
+      - label: "Cắt khối:"
+        text: >-
+          nạm và gân cắt khối quân cờ **cỡ 3 cm** — nhỏ hơn là hầm xong teo
+          mất tiêu, to hơn thì lâu thấm.
+      - label: "Ướp:"
+        text: >-
+          trộn bò với [[1|muỗng cà phê]] ngũ vị hương, sả tỏi hành băm,
+          [[2|muỗng canh|frac]] nước mắm, [[1|muỗng canh|frac]] đường,
+          [[2|muỗng canh|frac]] dầu điều, ½ muỗng cà phê tiêu — bóp đều,
+          ướp **30 phút**.
+    callout:
+      type: tip
+      text: >-
+        Ngũ vị hương mỗi hiệu đậm nhạt khác nhau — cứ khởi điểm 1 muỗng cà
+        phê, thiếu thơm lúc nêm cuối bổ sung, chứ cho nhiều ngay từ đầu là
+        hăng nồng khó cứu.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ướp bò · 30:00
+      doneMsg: Bò thấm rồi — bắc chảo xào săn!
+  - title: Xào săn — khóa ngọt trong thớ thịt
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Nồi đáy dày, [[2|muỗng canh|frac]] dầu, phi thơm phần sả tỏi còn
+          dính lại từ thau ướp.
+      - text: >-
+          **Lửa lớn**, trút bò vào xào nhanh tay **3–4 phút** tới khi mặt
+          thịt săn lại, cạnh miếng thịt hơi xém.
+      - text: Thêm cà chua băm (hoặc tương cà), đảo **2 phút** cho tan quyện, lên màu.
+    callout:
+      type: warn
+      text: >-
+        Đừng bỏ bước này để "tiết kiệm 5 phút" — thịt không xào săn, hầm ra
+        vừa **bã vừa đục nước**, mất nửa cái ngon của nồi bò kho.
+  - title: Châm nước dừa, thả gia vị thơm
+    icon: pot
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Châm [[500|ml]] nước dừa tươi + nước **nóng** cho ngập mặt thịt
+          chừng 2 cm.
+      - text: >-
+          Hồi + quế **rang sơ trên chảo khô 1 phút** cho dậy mùi, thả vô nồi
+          cùng sả đập dập + gừng lát.
+      - text: Đun sôi, **hớt sạch bọt** nổi lên trong 5 phút đầu.
+    callout:
+      type: tip
+      text: >-
+        Sợ vớt sót hồi quế lúc dọn? Cột chung vô **túi vải/lồng lọc trà** —
+        cuối buổi nhấc ra một lần là sạch nồi.
+  - title: Hầm liu riu — thời gian làm việc của nó
+    icon: claypot
+    minutes: 1 giờ 15
+    bullets:
+      - text: >-
+          Hạ **lửa nhỏ nhất còn sôi lăn tăn**, hé vung, hầm **1 giờ 15
+          phút**. Thỉnh thoảng đảo nhẹ, hớt váng bọt.
+      - text: >-
+          Nước cạn dưới mặt thịt thì châm thêm **nước nóng** (nước lạnh làm
+          thịt thắt lại, dai ngay).
+      - text: >-
+          Kiểm tra: xiên đũa qua miếng nạm thấy **xuyên nhẹ**, miếng gân
+          **dẻo trong** là đạt chuẩn.
+    callout:
+      type: warn
+      text: >-
+        Món này **không có đường tắt bằng lửa lớn** — nhiệt cao chỉ làm nước
+        cạn nhanh còn collagen trong gân chưa kịp mềm. Kiên nhẫn là gia vị
+        thứ mười của bò kho.
+    timer:
+      secs: 4500
+      label: Hẹn giờ hầm bò · 75:00
+      doneMsg: Thử đũa xem — tới giờ thả cà rốt!
+  - title: Thả cà rốt, nêm nước kho
+    icon: spoon
+    minutes: 25 phút
+    bullets:
+      - text: Cho cà rốt vô, hầm tiếp **20 phút** tới chín mềm còn khối.
+      - text: >-
+          Vớt sả, gừng, túi hồi quế ra. Nêm lại: nước mắm – đường – muối
+          theo khẩu vị, chuẩn là **đậm hơn nước canh, nhạt hơn nước kho tộ**
+          — vì còn chấm bánh mì.
+      - text: >-
+          Thích nước sánh nhẹ kiểu quán: hòa **1 muỗng canh bột năng** với
+          nước nguội, rưới từ từ vô nồi đang sôi, khuấy tới độ sánh vừa ý.
+    callout:
+      type: tip
+      text: >-
+        Nếm cuối mà thấy "thơm nhưng nhạt hồn" — thêm **½ muỗng cà phê ngũ
+        vị hương pha loãng nước nóng** rưới vô, đảo đều 2 phút. Mùi bò kho
+        bừng lại liền.
+    timer:
+      secs: 1200
+      label: Hẹn giờ cà rốt · 20:00
+      doneMsg: Cà rốt mềm rồi — nêm lần cuối và dọn!
+  - title: Múc tô, dọn bánh mì
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Múc bò gân cà rốt vô tô, chan nước kho ngập, rắc **húng quế, ngò
+          gai, hành tây khoanh** lên mặt.
+      - text: >-
+          Dọn kèm **bánh mì nóng giòn** (rắc nước lên vỏ, nướng lại 3 phút
+          là giòn như mới ra lò) + chén muối tiêu chanh.
+      - text: >-
+          Ăn đúng bài: xé bánh mì **chấm ngập nước kho**, gắp miếng gân chấm
+          muối tiêu chanh — đổi qua lại tới muỗng cuối cùng.
+    doneText: Quẹt sạch nồi — xong!
+
+tipsTitle: 7 bí quyết cho **nồi bò kho mềm đậm**
+tipsLead: >-
+  Bò kho nhà ai cũng nấu mà mỗi nhà một trời một vực — khác nhau đúng ở mấy
+  điểm này.
+tips:
+  - icon: meat
+    title: Nạm + gân là cặp bài trùng
+    text: >-
+      Nạm cho **thớ mềm ngọt**, gân cho **độ dẻo sần sật** và chất keo làm
+      nước kho sóng sánh tự nhiên. Kho toàn thăn nạc "cho sang" là ra nồi
+      thịt khô bã — chọn phần rẻ mà đúng, ngon hơn phần đắt mà sai.
+  - icon: flame
+    title: Xào săn rồi mới hầm
+    text: >-
+      Mặt thịt xém nhẹ trong chảo nóng tạo **tầng vị nướng** mà nước sôi
+      không bao giờ cho được, đồng thời khóa nước ngọt trong thớ. 5 phút này
+      đáng giá bằng nửa tiếng hầm.
+  - icon: drop
+    title: Nước dừa tươi, không nước ngọt
+    text: >-
+      Ngọt của nước dừa là **ngọt thanh có hậu**, quyện với ngũ vị hương ra
+      đúng "mùi bò kho Sài Gòn". Không có dừa thì nước lọc + mía lau/1 muỗng
+      đường phèn — đừng dùng soda hay nước dừa lon pha đường.
+  - icon: star
+    title: Hồi quế rang sơ, ngũ vị chừng mực
+    text: >-
+      Hồi + quế rang 1 phút trước khi thả — mùi thơm **nở gấp đôi**. Còn ngũ
+      vị hương là dao hai lưỡi: đủ thì thơm sâu, quá tay thì cả nồi thành
+      "tiệm thuốc bắc".
+  - icon: claypot
+    title: Lửa liu riu + châm nước nóng
+    text: >-
+      Hai luật khi hầm: sôi **lăn tăn** thôi, và cạn nước thì châm **nước
+      nóng**. Nước lạnh đổ vô nồi đang hầm làm thịt co thắt — dai trở lại
+      không cứu được.
+  - icon: tomato
+    title: Cà rốt vô sau
+    text: >-
+      Thả cà rốt từ đầu là **nát nhừ tan xác** khi bò vừa mềm. Cứ 20 phút
+      cuối mới cho vô — khúc cà rốt chín ngọt, óng màu mà còn nguyên dáng.
+  - icon: clock
+    title: Qua đêm càng đậm
+    text: >-
+      Bò kho là món **"ngủ một giấc dậy ngon hơn"** — vị thấm sâu, nước dậy
+      màu. Nấu dư ra, mai hâm sôi chan hủ tiếu mì hay ăn với cơm nóng, ngon
+      không thua gì tô mới nấu.
+
+serve:
+  title: Dọn bò kho — **bánh mì nóng là chân ái**
+  paras:
+    - >-
+      Kiểu kinh điển nhất: tô bò kho bốc khói + **ổ bánh mì nóng giòn**. Xé
+      miếng vỏ giòn chấm sâu xuống lớp nước đỏ cam, vớt theo miếng gân dẻo —
+      một miếng là hiểu vì sao dân Sài Gòn ăn bò kho từ sáng sớm.
+    - >-
+      Đổi kiểu thì chan lên **hủ tiếu hoặc mì trứng** trụng, thành tô hủ
+      tiếu bò kho đúng chất quán người Hoa; hoặc giản dị nhất là **chan cơm
+      nóng** — nước kho quyện cơm, con nít ăn quên thôi.
+    - >-
+      Nhà đãi khách buổi tối? Nồi bò kho nấu trước từ trưa, tới giờ chỉ hâm
+      sôi, cắt bánh mì — **chủ nhà nhàn mà mâm vẫn sang**, món này sinh ra
+      để đãi đông người.
+  aside:
+    title: Trên bàn bò kho
+    intro: "Đủ bộ này là bữa bò kho viên mãn:"
+    items:
+      - icon: roll
+        text: "**Bánh mì nóng giòn** — hâm lại lò 3 phút trước khi dọn."
+      - icon: herb
+        text: "**Húng quế + ngò gai + hành tây** — rắc lúc tô còn bốc khói."
+      - icon: lime
+        text: "**Muối tiêu chanh** — chấm riêng miếng bò, đậm đà hơn hẳn."
+      - icon: chili
+        text: "**Sa tế/ớt sừng** — cho người thích tô bò kho cay xé."
+
+faq:
+  - q: Nhà có nồi áp suất, rút ngắn được bao nhiêu?
+    a: >-
+      Nhiều lắm: xào săn xong châm nước, **áp suất 25 phút** (gân 30 phút)
+      rồi xả van, mở nắp thả cà rốt nấu thường 15 phút và nêm. Tổng còn
+      chừng **50 phút**. Vị gần bằng hầm thường — chỉ nước kém sánh chút,
+      bù bằng ít bột năng là đẹp.
+  - q: Dùng gói gia vị bò kho bán sẵn được không?
+    a: >-
+      Được — gói gia vị là "đường tắt tử tế", nêm theo bao bì. Nhưng vẫn nên
+      **thêm sả đập, hồi quế rang và nước dừa tươi** — chính mấy thứ tươi đó
+      chia đôi nồi bò kho "ăn được" và nồi "thơm nức nhà".
+  - q: Không có nước dừa tươi thì sao?
+    a: >-
+      Thay bằng nước lọc + **1 muỗng canh đường phèn**, hoặc nước dừa đóng
+      hộp loại **không đường**. Tránh nước dừa lon có đường — ngọt gắt, hầm
+      lâu dễ gắt cổ.
+  - q: Muốn nước kho sánh như ngoài quán?
+    a: >-
+      Quán thường dùng bột năng hoặc bột gạo: hòa **1 muỗng canh bột năng +
+      3 muỗng nước**, rưới từ từ vô nồi sôi, khuấy nhẹ tới độ ưng ý. Còn
+      "sánh tự nhiên" thì tăng gân bò — collagen tan ra là chất sánh xịn
+      nhất.
+  - q: Bò kho để được mấy ngày, cấp đông được không?
+    a: >-
+      Ngăn mát **3 ngày**, hâm sôi kỹ trước khi ăn. Cấp đông ngon lành
+      **1 tháng** — chia hộp nhỏ theo bữa, rã đông hâm sôi, thả nhúm rau
+      thơm mới là như vừa nấu. Mẹo: cà rốt cấp đông hơi bở, nếu định trữ
+      đông thì bớt cà rốt lại.
+  - q: Sao nồi bò kho của mình bị đắng nhẹ?
+    a: >-
+      Ba nghi phạm: **ngũ vị hương quá tay** (nặng mùi thuốc bắc), **hồi quế
+      rang cháy** thay vì rang sơ, hoặc **dầu điều phi khét**. Chữa tạm:
+      thêm nước dừa + 1 củ cà rốt nấu 15 phút cho vị ngọt kéo lại; lần sau
+      canh ba thứ đó nhẹ tay hơn.
+
+ticker:
+  - icon: claypot
+    text: Hầm liu riu mềm tan
+  - icon: drop
+    text: Nước dừa ngọt thanh
+  - icon: star
+    text: Hồi quế ngũ vị thơm sâu
+  - icon: meat
+    text: Gân dẻo nạm mọng
+  - icon: roll
+    text: Bánh mì chấm quẹt sạch nồi
+  - icon: tomato
+    text: Cà rốt ngọt lịm
+  - icon: herb
+    text: Húng quế ngò gai dậy mùi

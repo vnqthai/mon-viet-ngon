@@ -59,13 +59,15 @@ const recipes = defineCollection({
     title: z.string(),
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Cả nước']),
-    category: z.enum(['Canh', 'Kho', 'Xào', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Bún – Phở']),
+    category: z.enum(['Canh', 'Kho', 'Xào', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Bún – Phở']),
     time: z.object({ total: z.string(), active: z.string().optional() }),
     servingsBase: z.number().default(4),
     difficulty: z.enum(['Dễ', 'Vừa', 'Kỳ công']),
     featured: z.boolean().default(false), // món nổi bật trên trang chủ
     order: z.number().default(99),        // thứ tự hiển thị (nhỏ = trước)
-    art: z.enum(['canh-chua', 'bowl', 'claypot', 'plate', 'rolls']).optional(),
+    art: z
+      .enum(['canh-chua', 'com-tam', 'cha-gio', 'bo-kho', 'kho-qua', 'bowl', 'claypot', 'plate', 'rolls'])
+      .optional(),
     heroEyebrow: z.string().default('Bếp Việt nhà mình'),
 
     quick: z.object({                     // BẢN NẤU NHANH cho người lười đọc

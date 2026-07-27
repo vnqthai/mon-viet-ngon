@@ -18,7 +18,7 @@ title: Tên món **chữ nhấn vàng**
 summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Cả nước
-category: Canh          # Canh | Kho | Xào | Cuốn | Gỏi | Chiên | Hấp | Bún – Phở
+category: Canh          # Canh | Kho | Xào | Cuốn | Gỏi | Chiên | Hấp | Cơm | Bún – Phở
 time:
   total: 30 phút
 servingsBase: 4         # công thức viết cho mấy người — định lượng scale từ số này
@@ -26,6 +26,7 @@ difficulty: Dễ          # Dễ | Vừa | Kỳ công
 featured: false         # true = hiện ở trang chủ
 order: 99               # thứ tự hiển thị, nhỏ đứng trước
 # art: bowl             # bỏ trống sẽ tự chọn theo category (bowl/claypot/plate/rolls)
+#                       # món chủ lực có art vẽ riêng: canh-chua com-tam cha-gio bo-kho kho-qua
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc

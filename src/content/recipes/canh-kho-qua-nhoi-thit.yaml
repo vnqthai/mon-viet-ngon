@@ -1,0 +1,339 @@
+title: Canh khổ qua nhồi thịt **đắng thanh, hậu ngọt lành**
+summary: >-
+  Trái khổ qua xanh mướt ôm nhân thịt **dai mềm nhờ chả cá thác lác**, nước
+  canh trong veo ngọt thanh — món canh giải nhiệt ngày thường, và là lời chúc
+  **"cái khổ qua đi"** trên mâm Tết miền Nam.
+region: Miền Nam
+category: Canh
+time:
+  total: 50 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 11
+art: kho-qua
+heroEyebrow: Ăn khổ qua, cái khổ qua đi…
+
+quick:
+  ingredients:
+    - Khổ qua [[4|trái]] — chọn trái gai nở to, xanh nhạt cho bớt đắng
+    - "Nhân: thịt heo xay [[300|g]] · chả cá thác lác [[100|g]] · nấm mèo [[3|tai]] · hành tím [[2|củ]] · đầu hành trắng"
+    - "Nêm nhân: hạt nêm [[1|muỗng cà phê]] · tiêu [[0.5|muỗng cà phê|frac]] · nước mắm [[1|muỗng cà phê]]"
+    - Nước dùng [[1.5|lít]] (nước hầm xương càng ngọt, nước lọc cũng được)
+    - Hành lá + ngò rí · nước mắm nêm canh
+  steps:
+    - Khổ qua rạch dọc một đường, **moi sạch ruột và cùi trắng** — cùi trắng là chỗ đắng gắt nhất.
+    - Trộn thịt + chả cá + nấm mèo + hành tím + gia vị, **quết dẻo**; nhồi đầy vô ruột khổ qua, trét kín hai đầu.
+    - Nấu sôi [[1.5|lít]] nước, thả khổ qua vô, sôi lại thì **hạ lửa liu riu**, hớt bọt.
+    - Nấu **30 phút** tới khổ qua mềm trong, xiên đũa xuyên nhẹ là chín.
+    - Nêm nước mắm + hạt nêm vừa miệng — canh này nêm **nhạt hơn canh thường** một chút cho nổi vị thanh.
+    - Múc tô, rắc hành ngò + tiêu. Chan cơm nóng, húp tới đâu mát tới đó.
+  warning: >-
+    Nhân rớt khỏi trái là do moi ruột làm thủng vỏ hoặc nhồi hờ tay — moi
+    nhẹ bằng muỗng nhỏ, nhồi **chặt tay và trét phẳng hai miệng rạch** là
+    nằm yên tới lúc dọn.
+
+flavor:
+  chua: 0.5
+  ngot: 6
+  man: 5
+  cay: 1
+  thom: 7.5
+flavorNote: >-
+  **Chuẩn tô canh:** nước **trong veo ngọt thanh**, khổ qua xanh mềm còn
+  giữ **vị đắng dịu** — đắng đầu lưỡi, ngọt cuống họng, đó mới là cái ngon
+  người lớn hay ghiền.
+storyEyebrow: Chuyện trái khổ qua
+storyTitle: Món canh **mang lời chúc** trên mâm Tết miền Nam
+story:
+  - >-
+    Trên mâm cơm Tết miền Nam, cạnh nồi thịt kho hột vịt thế nào cũng có tô
+    canh khổ qua nhồi thịt — không phải ngẫu nhiên. Người Nam chơi chữ:
+    ăn **"khổ qua"** đầu năm để mọi cái khổ… **qua** hết, năm mới chỉ còn
+    ngọt lành. Một món canh mà gói cả lời chúc, thiệt khó có món thứ hai.
+  - >-
+    Mà đâu chỉ Tết — ngày thường trời nóng, tô canh khổ qua là **"máy điều
+    hòa" của mâm cơm**: đắng thanh, mát ruột, đưa cơm lạ lùng. Bí quyết nằm
+    ở đôi điều nhỏ: moi sạch cùi trắng cho bớt đắng gắt, và trộn nhân với
+    **chả cá thác lác** — miếng nhân vừa dai vừa ngọt, cắn vô biết liền
+    "nhà này nấu có nghề".
+  - >-
+    Vị đắng của khổ qua là kiểu vị **phải lớn mới hiểu**: hồi nhỏ nhăn mặt,
+    lớn lên tự nhiên thèm. Nhà có con nít cứ làm theo mẹo giảm đắng trong
+    bài — biết đâu tụi nhỏ nhà bạn "trưởng thành" sớm hơn một bậc ngay từ
+    tô canh này.
+
+ingredientGroups:
+  - name: Khổ qua & nhân nhồi
+    icon: okra
+    items:
+      - id: khoqua
+        name: Khổ qua
+        icon: okra
+        color: green
+        base: 4
+        unit: trái
+        note: Trái thẳng, gai nở to, xanh nhạt — ít đắng hơn loại gai nhuyễn sậm màu
+      - id: thit
+        name: Thịt heo xay
+        icon: meat
+        base: 300
+        unit: g
+        note: Nạc dăm vừa mỡ — nhân mềm không khô
+      - id: chaca
+        name: Chả cá thác lác
+        icon: fish
+        base: 100
+        unit: g
+        note: Bí quyết nhân dai ngọt — không có thì tăng thịt
+      - id: nammeo
+        name: Nấm mèo (mộc nhĩ)
+        icon: flower
+        base: 3
+        unit: tai
+        note: Ngâm nở, băm nhỏ — nhân giòn sựt
+      - id: hanhtim
+        name: Hành tím + đầu hành trắng
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: Băm nhuyễn trộn nhân cho thơm
+  - name: Nồi nước canh
+    icon: pot
+    items:
+      - id: nuocdung
+        name: Nước hầm xương (hoặc nước lọc)
+        icon: pot
+        base: 1.5
+        unit: lít
+        note: Có nước xương thì canh ngọt sâu hơn hẳn
+      - id: hanhngo
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Xắt nhỏ rắc mặt tô
+      - id: giavi
+        name: Nước mắm · hạt nêm · tiêu
+        icon: bottle
+        qtyText: Nêm theo bước hướng dẫn
+        note: Canh này nêm thanh, đừng đậm tay
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **tô canh mát lành**
+stepsLead: >-
+  Món này dễ hơn vẻ ngoài của nó nhiều: moi ruột – nhồi nhân – thả nồi, còn
+  lại để lửa liu riu lo. Lích kích duy nhất là khâu moi ruột, có mẹo ngay
+  bên dưới.
+steps:
+  - title: Sơ chế khổ qua — quyết định độ đắng
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Rạch:"
+        text: >-
+          rửa sạch, cắt bỏ hai đầu nhọn, **rạch một đường dọc thân** (đừng
+          cắt đôi — trái nguyên nhồi mới đẹp và nhân không rớt).
+      - label: "Moi ruột:"
+        text: >-
+          dùng muỗng cà phê nạy nhẹ **hết hột lẫn lớp cùi trắng** bên trong
+          — cùi trắng chính là ổ đắng gắt, moi càng sạch canh càng thanh.
+      - label: "Giảm đắng (tùy nhà):"
+        text: >-
+          ngâm khổ qua trong **nước muối loãng 10 phút** hoặc chần nước sôi
+          30 giây rồi xả lạnh. Nhà ghiền đắng đúng gu thì bỏ qua bước này.
+    callout:
+      type: tip
+      text: >-
+        Chọn trái ngay từ chợ là nửa trận thắng: **gai nở to, màu xanh nhạt,
+        trái thon dài** — đắng dịu. Gai li ti dày đặc, xanh đậm lùn mập —
+        đắng "thấm thía" dành cho dân chuyên.
+  - title: Trộn nhân dai ngọt
+    icon: bowl
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Trộn [[300|g]] thịt xay + [[100|g]] chả cá thác lác + nấm mèo băm
+          + hành tím băm + phần **đầu hành trắng xắt nhuyễn**.
+      - text: >-
+          Nêm [[1|muỗng cà phê]] hạt nêm + [[1|muỗng cà phê]] nước mắm +
+          [[0.5|muỗng cà phê|frac]] tiêu.
+      - text: >-
+          **Quết đều tay 2–3 phút** theo một chiều tới khi nhân dẻo quánh —
+          nhân quết kỹ nấu xong mới dai, không bở.
+    callout:
+      type: tip
+      text: >-
+        Chả cá thác lác là "chất keo tự nhiên": nhân **dai, ngọt và bám chắc
+        vô trái** khi nấu. Chợ nào cũng có hàng bán sẵn, mua thêm 100 g về
+        trữ đông dùng dần rất tiện.
+  - title: Nhồi nhân — chặt tay, trét phẳng
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Banh nhẹ đường rạch, dùng muỗng nhỏ **nhét nhân từng chút, ém
+          chặt** từ hai đầu vô giữa cho đầy ruột trái.
+      - text: >-
+          Nhồi hơi **vun lên một chút** rồi vuốt trét mặt nhân cho phẳng,
+          miết kín mép rạch — nhân nở khi chín sẽ vừa khít.
+      - text: >-
+          Còn dư nhân? Vo viên thả nấu chung — mấy viên "mọc" này con nít
+          giành nhau gắp trước cho coi.
+  - title: Nấu canh — liu riu cho trong nước
+    icon: pot
+    minutes: 35 phút
+    bullets:
+      - text: >-
+          Đun sôi [[1.5|lít]] nước (nước hầm xương càng ngon), **thả khổ qua
+          khi nước sôi** — vỏ xanh giữ màu đẹp.
+      - text: >-
+          Nước sôi bùng lại thì **hạ lửa liu riu**, hớt sạch bọt — bọt từ
+          nhân thịt nổi nhiều ở 10 phút đầu, chăm hớt là nước trong veo.
+      - text: >-
+          Nấu **30 phút**, xiên đũa qua thân trái thấy **xuyên nhẹ, vỏ chuyển
+          xanh trong** là chín mềm đúng độ.
+      - text: >-
+          Nêm nước mắm + hạt nêm **nhạt tay hơn canh thường** — vị thanh mới
+          đỡ được vị đắng, nêm đậm là canh "nặng nề" liền.
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng suốt buổi là nước **đục ngầu và nhân bung** khỏi trái. Món
+        này với món phở chung một triết lý: sôi lăn tăn, nước trong, chất
+        ngọt lành.
+    timer:
+      secs: 1800
+      label: Hẹn giờ nấu canh · 30:00
+      doneMsg: Khổ qua mềm trong rồi — nêm và dọn thôi!
+  - title: Múc tô — rắc hành ngò
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Gắp khổ qua ra tô (nguyên trái hoặc cắt khoanh dày cho dễ gắp),
+          chan nước canh ngập.
+      - text: Rắc **hành lá, ngò rí, tiêu xay** — tô canh dậy mùi liền.
+      - text: >-
+          Dọn với cơm trắng nóng; ai thích chấm thì thêm **chén nước mắm
+          nguyên chất dằm ớt** cho miếng nhân thịt.
+    doneText: Húp miếng nước thanh mát — xong!
+
+tipsTitle: 6 bí quyết cho **tô canh đắng dịu, nước trong**
+tipsLead: >-
+  Khổ qua là món "gia giảm được độ đắng" — nắm mấy mẹo này, nhà ghiền đắng
+  hay sợ đắng đều có tô canh vừa miệng.
+tips:
+  - icon: okra
+    title: Đọc trái khổ qua như dân chợ
+    text: >-
+      **Gai nở to, xanh nhạt, trái thon** = đắng dịu, thịt dày. **Gai
+      nhuyễn dày, xanh sậm** = đắng đậm đô. Chọn theo "trình chịu đắng" của
+      nhà mình — hai loại đều tươi ngon, chỉ khác cấp độ.
+  - icon: knife
+    title: Cùi trắng là ổ đắng
+    text: >-
+      80% cái đắng gắt nằm ở **lớp cùi trắng quanh ruột**. Moi bằng muỗng
+      nhỏ tới khi thấy lòng trái xanh sạch trơn láng — giữ lại vị đắng
+      thanh của phần vỏ thịt, bỏ đi phần đắng chát.
+  - icon: fish
+    title: Chả cá thác lác — nâng cấp nhân
+    text: >-
+      Tỉ lệ vàng **3 thịt : 1 chả cá**: nhân dai mềm, ngọt tự nhiên, không
+      bở vụn khi cắt khoanh. Đây là điểm khác biệt lớn nhất giữa canh khổ
+      qua "nhà nghề" và bản chỉ toàn thịt xay.
+  - icon: spoon
+    title: Quết nhân cho dẻo
+    text: >-
+      Trộn xong đừng dừng — **quết thêm 2–3 phút một chiều** cho nhân nổi
+      độ kết dính. Nhân dẻo bám chắc vô trái, nấu xong cắt khoanh đẹp như
+      hàng cỗ.
+  - icon: pot
+    title: Lửa liu riu, chăm hớt bọt
+    text: >-
+      Nhân thịt nhả bọt nhiều trong 10 phút đầu — **hớt kịp là nước trong
+      veo**, để tan lại vô nước là canh đục và có mùi thịt luộc. Sau đó chỉ
+      cần liu riu tới mềm.
+  - icon: clock
+    title: Nấu trước càng thấm
+    text: >-
+      Món hiếm hoi **để qua bữa ngon hơn**: nhân thấm vị nước, nước ngọt vị
+      nhân. Nấu nồi lớn từ chiều, tối hâm nóng ăn — hoặc như má mình hay
+      làm dịp Tết: nấu 29 ăn tới mùng 2, càng ngày càng ngon.
+
+serve:
+  title: Bữa cơm có tô khổ qua — **mát từ trong bụng**
+  paras:
+    - >-
+      Canh khổ qua sinh ra để **đi cặp với món mặn đậm**: kề bên nồi thịt
+      kho hột vịt là bộ đôi huyền thoại mâm Tết miền Nam — miếng thịt kho
+      béo đậm, húp muỗng canh đắng thanh, cân nhau từng li.
+    - >-
+      Ngày thường trời nóng, chỉ cần tô canh này + dĩa cá chiên + chén cơm
+      trắng là **bữa cơm giải nhiệt** đúng nghĩa. Người mệt, ăn không vô
+      cơm, húp chén nước canh khổ qua nóng cũng thấy khỏe ra — ông bà mình
+      tin vậy, mà ăn rồi thấy… tin được thiệt.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Khổ qua bắt cặp đẹp nhất với:"
+    items:
+      - icon: egg
+        text: "**Thịt kho hột vịt** — combo mâm Tết miền Nam, béo đậm gặp đắng thanh."
+      - icon: fish
+        text: "**Cá chiên sả hoặc cá kho** — mặn giòn đưa cơm, canh mát đỡ lời."
+      - icon: rice
+        text: "**Cơm trắng nóng** — chan nước canh là chân lý."
+      - icon: bottle
+        text: "**Nước mắm dằm ớt** — chấm khoanh nhân thịt, đậm đà hơn hẳn."
+
+faq:
+  - q: Nhà có con nít sợ đắng — làm sao cho dễ ăn nhất?
+    a: >-
+      Ba lớp khiên: chọn **trái gai to xanh nhạt**, moi **kiệt cùi trắng**,
+      và **chần nước sôi 30 giây** trước khi nhồi. Nấu đủ mềm nữa là vị đắng
+      chỉ còn thoang thoảng — nhiều bé ăn khoanh đầu tiên còn xin thêm vì
+      cục nhân "mọc" quá ngon.
+  - q: Nhân cứ bung ra khỏi trái khi nấu — chữa sao?
+    a: >-
+      Bốn nghi phạm: moi ruột **làm rách vỏ**, nhân **không quết dẻo**, nhồi
+      **hờ tay**, hoặc nước **sôi bùng**. Mẹo chắc ăn cho người mới: nhồi
+      xong lấy **cọng hành lá trụng mềm cột quanh thân trái** — vừa giữ nhân
+      vừa nhìn xinh như nhà hàng.
+  - q: Không tìm được chả cá thác lác?
+    a: >-
+      Tăng thịt xay lên [[400|g]] và thêm **1 lòng trắng trứng + 1 muỗng cà
+      phê bột năng** — nhân vẫn kết dính khá ổn. Hoặc thay bằng **giò sống**
+      (mua hàng chả lụa) theo cùng tỉ lệ, cũng dai ngon lắm.
+  - q: Nấu bằng nước lọc có ngọt không hay bắt buộc hầm xương?
+    a: >-
+      Nước lọc vẫn ngon — vì **nhân thịt tự nhả ngọt** vào nước suốt 30 phút.
+      Có sẵn nước hầm xương thì canh sâu vị hơn một bậc; kẹt nữa thì ½ muỗng
+      cà phê hạt nêm xương hầm là đủ kéo.
+  - q: Canh khổ qua để được bao lâu?
+    a: >-
+      Ngăn mát **2–3 ngày**, hâm sôi trước khi ăn — và như dân miền Nam hay
+      nói, nồi khổ qua **ngày thứ hai ngon hơn ngày đầu**. Đừng cấp đông:
+      khổ qua rã đông bị mềm xốp, mất cái sựt nhẹ dễ thương của vỏ trái.
+  - q: Mùa nào khổ qua ngon nhất?
+    a: >-
+      Khổ qua có quanh năm nhưng **mùa nắng (tầm tháng 11 tới tháng 4)**
+      trái đẹp, ít sâu, giá mềm. Cận Tết là "mùa cao điểm" đúng nghĩa —
+      ai cũng mua nấu nồi canh cho cái khổ… qua!
+
+ticker:
+  - icon: okra
+    text: Đắng thanh hậu ngọt
+  - icon: drop
+    text: Nước canh trong veo
+  - icon: fish
+    text: Nhân dai chả cá thác lác
+  - icon: herb
+    text: Hành ngò thơm mặt tô
+  - icon: sun
+    text: Giải nhiệt ngày nắng
+  - icon: flower
+    text: Mâm Tết miền Nam đúng lệ
+  - icon: rice
+    text: Chan cơm nóng là bá cháy

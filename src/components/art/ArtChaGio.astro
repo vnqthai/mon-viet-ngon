@@ -1,0 +1,98 @@
+---
+/* Dĩa chả giò chiên vàng — minh họa riêng: cuốn xếp chồng, một cuốn cắt hở nhân */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa chả giò vàng giòn">
+  <defs>
+    <linearGradient id="cgRoll" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EBB35C"/><stop offset="1" stop-color="#C9812E"/>
+    </linearGradient>
+    <linearGradient id="cgRollTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0BE6C"/><stop offset="1" stop-color="#D28F38"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M232 208 C 221 184 247 168 236 142 C 229 126 243 114 239 100"/>
+    <path d="M296 204 C 286 180 312 166 301 140 C 294 124 308 112 304 96"/>
+  </g>
+  <ellipse cx="260" cy="400" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa -->
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="338" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="338" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="340" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- lá xà lách lót -->
+  <path d="M118 330 C 128 306 170 292 226 290 C 300 288 372 296 396 316 C 408 328 398 344 372 350 C 300 364 160 362 130 348 C 118 342 114 338 118 330 Z" fill="#A8C46E" stroke="#86A94F" stroke-width="2.5"/>
+  <path d="M136 330 q28 -16 66 -20 M330 306 q34 6 54 18" fill="none" stroke="#C4D896" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- hàng chả giò dưới: 3 cuốn -->
+  <g transform="rotate(-3 190 330)">
+    <rect x="118" y="312" width="150" height="36" rx="18" fill="url(#cgRoll)" stroke="#A96A24" stroke-width="2.5"/>
+    <ellipse cx="122" cy="330" rx="9" ry="16" fill="#B3762A" stroke="#A96A24" stroke-width="2"/>
+    <g fill="#F2D9A0"><circle cx="152" cy="322" r="3"/><circle cx="188" cy="332" r="2.6"/><circle cx="222" cy="320" r="3"/><circle cx="246" cy="334" r="2.4"/></g>
+    <path d="M140 340 q30 5 58 2 M208 342 q26 3 48 -1" stroke="#B3762A" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="rotate(2 330 336)">
+    <rect x="256" y="318" width="146" height="36" rx="18" fill="url(#cgRoll)" stroke="#A96A24" stroke-width="2.5"/>
+    <ellipse cx="398" cy="336" rx="9" ry="16" fill="#B3762A" stroke="#A96A24" stroke-width="2"/>
+    <g fill="#F2D9A0"><circle cx="288" cy="328" r="3"/><circle cx="324" cy="338" r="2.6"/><circle cx="360" cy="326" r="3"/></g>
+    <path d="M276 346 q30 4 58 1" stroke="#B3762A" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- hàng trên: 2 cuốn -->
+  <g transform="rotate(-2 210 296)">
+    <rect x="140" y="278" width="148" height="36" rx="18" fill="url(#cgRollTop)" stroke="#A96A24" stroke-width="2.5"/>
+    <ellipse cx="144" cy="296" rx="9" ry="16" fill="#B3762A" stroke="#A96A24" stroke-width="2"/>
+    <g fill="#F6E3B2"><circle cx="176" cy="288" r="3"/><circle cx="212" cy="298" r="2.6"/><circle cx="246" cy="286" r="3"/><circle cx="268" cy="298" r="2.4"/></g>
+    <path d="M158 306 q32 5 62 2" stroke="#B3762A" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+    <path d="M150 284 q40 -8 90 -4" stroke="#F6E3B2" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>
+  </g>
+  <g transform="rotate(4 330 300)">
+    <rect x="272" y="284" width="118" height="34" rx="17" fill="url(#cgRollTop)" stroke="#A96A24" stroke-width="2.5"/>
+    <ellipse cx="386" cy="301" rx="8.5" ry="15" fill="#B3762A" stroke="#A96A24" stroke-width="2"/>
+    <g fill="#F6E3B2"><circle cx="300" cy="294" r="2.8"/><circle cx="334" cy="302" r="2.5"/><circle cx="362" cy="292" r="2.8"/></g>
+    <path d="M282 290 q30 -7 66 -3" stroke="#F6E3B2" stroke-width="3" stroke-linecap="round" fill="none" opacity=".9"/>
+  </g>
+
+  <!-- cuốn cắt đôi hở nhân, dựng nghiêng phía trước -->
+  <g transform="rotate(10 220 360)">
+    <rect x="182" y="346" width="76" height="32" rx="16" fill="url(#cgRoll)" stroke="#A96A24" stroke-width="2.5"/>
+    <ellipse cx="184" cy="362" rx="13" ry="16" fill="#E8B159" stroke="#A96A24" stroke-width="2.2"/>
+    <ellipse cx="184" cy="362" rx="8.5" ry="11" fill="#C4785A"/>
+    <g fill="#8A4A26"><circle cx="181" cy="359" r="1.7"/><circle cx="187" cy="364" r="1.6"/><circle cx="182" cy="367" r="1.4"/></g>
+    <circle cx="188" cy="358" r="1.8" fill="#F3E3C3"/>
+  </g>
+
+  <!-- ớt lát + rau thơm điểm -->
+  <circle cx="332" cy="360" r="6" fill="none" stroke="#C94434" stroke-width="4"/>
+  <g fill="#4E7B36">
+    <ellipse cx="296" cy="366" rx="8" ry="3.6" transform="rotate(-16 296 366)"/>
+    <ellipse cx="310" cy="372" rx="6.6" ry="3" transform="rotate(12 310 372)"/>
+  </g>
+
+  <!-- đôi đũa gác -->
+  <g transform="rotate(-16 428 248)">
+    <rect x="338" y="218" width="170" height="8" rx="4" fill="#9A6538"/>
+    <rect x="344" y="231" width="170" height="8" rx="4" fill="#8A5730"/>
+  </g>
+
+  <!-- chén mắm chua ngọt + đồ chua -->
+  <g>
+    <ellipse cx="88" cy="398" rx="44" ry="14" fill="rgba(15,26,14,.3)"/>
+    <path d="M50 380 C 52 401 67 412 88 412 C 109 412 124 401 126 380 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="88" cy="380" rx="38" ry="11" fill="#D98A3A"/>
+    <circle cx="99" cy="378" r="2.6" fill="#C0392B"/><circle cx="80" cy="382" r="2.2" fill="#C0392B"/><circle cx="90" cy="377" r="1.8" fill="#C0392B"/>
+  </g>
+
+  <!-- rau sống bên bàn -->
+  <g transform="translate(442 392)">
+    <path d="M-20 10 C -26 -6 -12 -20 6 -18 C 22 -16 30 -2 22 10 C 12 22 -12 22 -20 10 Z" fill="#A8C46E" stroke="#86A94F" stroke-width="2.4"/>
+    <path d="M-12 8 q12 -14 30 -18" fill="none" stroke="#C4D896" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+  <g stroke="#7FA95B" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M420 420 q16 -8 32 -6"/>
+  </g>
+</svg>

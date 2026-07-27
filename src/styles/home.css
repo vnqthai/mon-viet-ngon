@@ -86,8 +86,9 @@
 .rcard:hover .rcard__go svg{transform:translateX(4px)}
 
 /* ---------- Bộ lọc danh mục ---------- */
-.filter-bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:34px}
-.filter-bar__label{font-size:.85rem;font-weight:700;color:var(--muted);margin-right:2px}
+.filter-bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:14px}
+.filter-bar--last{margin-bottom:34px}
+.filter-bar__label{font-size:.85rem;font-weight:700;color:var(--muted);margin-right:2px;min-width:66px}
 .filter-chip{
   border:1.5px solid var(--line);background:var(--card);color:var(--muted);
   font-weight:700;font-size:.85rem;padding:8px 16px;border-radius:999px;
@@ -99,7 +100,6 @@
 @media (prefers-color-scheme: dark){
   :root:not([data-theme]) .filter-chip.is-active{background:var(--leaf);border-color:var(--leaf);color:#141A10}
 }
-.filter-sep{width:1px;align-self:stretch;background:var(--line);margin:0 4px}
 .filter-empty{
   display:none;padding:40px 20px;text-align:center;color:var(--muted);
   border:1.5px dashed var(--line);border-radius:var(--radius);

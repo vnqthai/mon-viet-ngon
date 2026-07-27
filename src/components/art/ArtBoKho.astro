@@ -1,0 +1,96 @@
+---
+/* Tô bò kho + ổ bánh mì — minh họa riêng: nước đỏ cam, bò cà rốt, baguette rạch chéo */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô bò kho bốc khói kèm bánh mì">
+  <defs>
+    <linearGradient id="bkBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0703A"/><stop offset="1" stop-color="#B54324"/>
+    </linearGradient>
+    <linearGradient id="bkBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E9E2CC"/>
+    </linearGradient>
+    <linearGradient id="bkBread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFC06A"/><stop offset="1" stop-color="#C9822E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M205 236 C 194 210 220 194 209 166 C 202 148 216 136 212 120"/>
+    <path d="M262 230 C 252 204 278 190 267 162 C 260 144 274 132 270 114"/>
+    <path d="M318 238 C 308 214 332 198 322 172 C 316 156 328 144 324 130"/>
+  </g>
+  <ellipse cx="250" cy="420" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- tô -->
+  <path d="M62 296 C 68 370 152 414 250 414 C 348 414 432 370 438 296 Z" fill="url(#bkBowl)"/>
+  <ellipse cx="250" cy="412" rx="62" ry="11" fill="#D8D0B6"/>
+  <ellipse cx="250" cy="294" rx="188" ry="46" fill="#F6F1E1"/>
+  <ellipse cx="250" cy="294" rx="188" ry="46" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="250" cy="295" rx="174" ry="40" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- nước bò kho đỏ cam -->
+  <ellipse cx="250" cy="297" rx="158" ry="33" fill="url(#bkBroth)"/>
+  <ellipse cx="200" cy="290" rx="58" ry="10" fill="#F2A968" opacity=".5"/>
+  <!-- váng dầu điều -->
+  <path d="M150 300 q18 -7 38 -4 M266 308 q16 -6 34 -3 M318 292 q14 -6 30 -3" fill="none" stroke="#F2A968" stroke-width="3.4" stroke-linecap="round" opacity=".9"/>
+
+  <!-- khối bò -->
+  <g transform="rotate(-6 176 292)">
+    <rect x="146" y="276" width="60" height="34" rx="10" fill="#AA6636" stroke="#6E3A16" stroke-width="2.5"/>
+    <path d="M150 282 q26 -9 52 0" fill="none" stroke="#54280C" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(5 268 302)">
+    <rect x="238" y="286" width="58" height="32" rx="10" fill="#B06C3C" stroke="#6E3A16" stroke-width="2.5"/>
+    <path d="M242 292 q25 -9 50 0" fill="none" stroke="#54280C" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- gân bò trong veo -->
+  <g transform="rotate(-4 336 288)">
+    <rect x="312" y="276" width="46" height="26" rx="12" fill="#D9A05E" stroke="#B3762A" stroke-width="2.4"/>
+    <path d="M318 284 q16 -6 34 -1 M320 292 q14 -4 28 0" fill="none" stroke="#EFC08A" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <!-- cà rốt -->
+  <g fill="#EF9440" stroke="#C96F1E" stroke-width="2.2">
+    <path d="M196 310 a13 13 0 0 1 26 0 q-13 8 -26 0Z"/>
+    <circle cx="310" cy="312" r="11"/>
+    <path d="M138 296 a11 11 0 0 1 22 0 q-11 7 -22 0Z"/>
+  </g>
+  <g fill="#F6B36A"><circle cx="310" cy="312" r="5.5"/><circle cx="209" cy="308" r="5"/></g>
+  <!-- rau quế + hành tây -->
+  <g fill="#4E7B36">
+    <ellipse cx="238" cy="280" rx="8" ry="3.6" transform="rotate(-16 238 280)"/>
+    <ellipse cx="252" cy="286" rx="6.6" ry="3" transform="rotate(14 252 286)"/>
+    <ellipse cx="352" cy="306" rx="7" ry="3.2" transform="rotate(-10 352 306)"/>
+  </g>
+  <path d="M292 316 q9 -5 18 -2" fill="none" stroke="#C4D896" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Ổ BÁNH MÌ — thon dài hai đầu nhọn, ba vết rạch chéo -->
+  <g transform="translate(316 366) rotate(-14)">
+    <ellipse cx="92" cy="46" rx="96" ry="14" fill="rgba(15,26,14,.3)"/>
+    <path d="M0 22 C 8 6 42 -6 92 -6 C 142 -6 176 6 184 22 C 176 38 142 50 92 50 C 42 50 8 38 0 22 Z" fill="url(#bkBread)" stroke="#A96A24" stroke-width="2.5"/>
+    <!-- đầu nhọn đậm màu -->
+    <path d="M0 22 C 8 12 20 4 36 0 C 22 10 12 18 8 24 C 12 28 22 36 36 44 C 20 40 8 32 0 22 Z" fill="#B3762A" opacity=".55"/>
+    <path d="M184 22 C 176 12 164 4 148 0 C 162 10 172 18 176 24 C 172 28 162 36 148 44 C 164 40 176 32 184 22 Z" fill="#B3762A" opacity=".55"/>
+    <!-- ba vết rạch chéo ruột trắng -->
+    <g transform="rotate(-24 58 16)"><rect x="42" y="10" width="34" height="11" rx="5.5" fill="#F6E7C4" stroke="#B9853F" stroke-width="1.8"/></g>
+    <g transform="rotate(-24 96 14)"><rect x="80" y="8" width="34" height="11" rx="5.5" fill="#F6E7C4" stroke="#B9853F" stroke-width="1.8"/></g>
+    <g transform="rotate(-24 134 16)"><rect x="118" y="10" width="34" height="11" rx="5.5" fill="#F6E7C4" stroke="#B9853F" stroke-width="1.8"/></g>
+    <!-- bóng vỏ bánh -->
+    <path d="M30 8 q56 -16 122 -2" fill="none" stroke="#F6E3B2" stroke-width="3.4" stroke-linecap="round" opacity=".9"/>
+  </g>
+
+  <!-- muối tiêu chanh -->
+  <g transform="translate(74 330)">
+    <path d="M-24 8 A25 25 0 0 1 24 8 Z" fill="#E4ECB2" stroke="#9CB25C" stroke-width="2.4"/>
+    <path d="M0 8 0 -14 M0 8 -16 -6 M0 8 16 -6" stroke="#9CB25C" stroke-width="1.8"/>
+  </g>
+  <!-- rau quế bên bàn -->
+  <g fill="#5C8A3C">
+    <ellipse cx="86" cy="398" rx="13" ry="5.5" transform="rotate(-24 86 398)"/>
+    <ellipse cx="102" cy="404" rx="10" ry="4.5" transform="rotate(10 102 404)"/>
+  </g>
+  <g transform="translate(64 416) rotate(-14)">
+    <path d="M0 0C13 2 22 -4 26 -13" fill="none" stroke="#C0392B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M26 -15c2-4 6-5 9-4" fill="none" stroke="#4E7B36" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

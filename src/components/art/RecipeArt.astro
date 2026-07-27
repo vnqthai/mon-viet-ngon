@@ -1,6 +1,10 @@
 ---
 /* Chọn minh họa cho món: art riêng nếu có, không thì suy từ loại món */
 import CanhChuaArt from './CanhChuaArt.astro';
+import ArtComTam from './ArtComTam.astro';
+import ArtChaGio from './ArtChaGio.astro';
+import ArtBoKho from './ArtBoKho.astro';
+import ArtKhoQua from './ArtKhoQua.astro';
 import ArtBowl from './ArtBowl.astro';
 import ArtClaypot from './ArtClaypot.astro';
 import ArtPlate from './ArtPlate.astro';
@@ -17,11 +21,16 @@ const byCategory: Record<string, string> = {
   'Cuốn': 'rolls',
   'Gỏi': 'rolls',
   'Hấp': 'bowl',
+  'Cơm': 'plate',
   'Bún – Phở': 'bowl',
 };
 const kind = art ?? byCategory[category] ?? 'bowl';
 ---
 {kind === 'canh-chua' && <CanhChuaArt />}
+{kind === 'com-tam' && <ArtComTam />}
+{kind === 'cha-gio' && <ArtChaGio />}
+{kind === 'bo-kho' && <ArtBoKho />}
+{kind === 'kho-qua' && <ArtKhoQua />}
 {kind === 'bowl' && <ArtBowl />}
 {kind === 'claypot' && <ArtClaypot />}
 {kind === 'plate' && <ArtPlate />}

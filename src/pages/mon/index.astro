@@ -25,13 +25,14 @@ const regions = [...new Set(recipes.map((r) => r.data.region))];
         đếm giờ ngay trong trang. Lọc theo kiểu món hoặc theo miền cho lẹ.
       </p>
 
-      <div class="filter-bar reveal" role="group" aria-label="Lọc món ăn">
+      <div class="filter-bar reveal" role="group" aria-label="Lọc theo kiểu món">
         <span class="filter-bar__label">Kiểu món</span>
         <button class="filter-chip is-active" data-filter-cat="all" type="button">Tất cả</button>
         {categories.map((c) => (
           <button class="filter-chip" data-filter-cat={c} type="button">{c}</button>
         ))}
-        <span class="filter-sep" aria-hidden="true"></span>
+      </div>
+      <div class="filter-bar filter-bar--last reveal" role="group" aria-label="Lọc theo miền">
         <span class="filter-bar__label">Miền</span>
         <button class="filter-chip is-active" data-filter-region="all" type="button">Cả nước</button>
         {regions.filter((r) => r !== 'Cả nước').map((r) => (
@@ -70,17 +71,20 @@ const regions = [...new Set(recipes.map((r) => r.data.region))];
     });
     if (empty) empty.classList.toggle('is-show', shown === 0);
   }
+  // Bấm chip đang chọn lần nữa = bỏ chọn, quay về "Tất cả"/"Cả nước"
   catBtns.forEach((b) =>
     b.addEventListener('click', () => {
-      cat = b.dataset.filterCat;
-      catBtns.forEach((x) => x.classList.toggle('is-active', x === b));
+      const next = b.dataset.filterCat;
+      cat = cat === next && next !== 'all' ? 'all' : next;
+      catBtns.forEach((x) => x.classList.toggle('is-active', x.dataset.filterCat === cat));
       apply();
     })
   );
   regionBtns.forEach((b) =>
     b.addEventListener('click', () => {
-      region = b.dataset.filterRegion;
-      regionBtns.forEach((x) => x.classList.toggle('is-active', x === b));
+      const next = b.dataset.filterRegion;
+      region = region === next && next !== 'all' ? 'all' : next;
+      regionBtns.forEach((x) => x.classList.toggle('is-active', x.dataset.filterRegion === region));
       apply();
     })
   );

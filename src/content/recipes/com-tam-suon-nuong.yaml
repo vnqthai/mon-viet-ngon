@@ -1,0 +1,426 @@
+title: Cơm tấm sườn nướng **thơm khói như góc phố Sài Gòn**
+summary: >-
+  Miếng sườn ướp sả mật ong nướng **cháy cạnh thơm lừng**, cơm tấm tơi xốp,
+  mỡ hành béo, đồ chua giòn, chan muỗng **nước mắm kẹo** — bữa sáng huyền
+  thoại của Sài Gòn nay đỏ lửa ngay bếp nhà.
+region: Miền Nam
+category: Cơm
+time:
+  total: 1 giờ 30 phút (+ ướp 3 giờ)
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 4
+art: com-tam
+heroEyebrow: Khói thơm đầu hẻm Sài Gòn…
+
+quick:
+  ingredients:
+    - Sườn cốt lết [[4|miếng]] (~[[800|g]]) — dần mềm, ướp càng lâu càng thấm
+    - "Ướp sườn: sả băm [[3|cây]] · tỏi + hành tím băm · nước mắm [[2|muỗng canh|frac]] · đường [[2|muỗng canh|frac]] · mật ong [[1|muỗng canh|frac]] · sữa đặc [[1|muỗng canh|frac]] · dầu hào [[1|muỗng canh|frac]] · tiêu + dầu ăn"
+    - Gạo tấm [[400|g]] — nấu ít nước hơn cơm thường
+    - "Mỡ hành: hành lá [[5|nhánh]] + [[3|muỗng canh|frac]] dầu nóng · đồ chua cà rốt – củ cải"
+    - "Nước mắm kẹo: mắm [[4|muỗng canh|frac]] + đường [[4|muỗng canh|frac]] + nước [[4|muỗng canh|frac]], nấu hơi sánh + tỏi ớt"
+    - Trứng gà [[4|trái]] ốp la (tùy thích) · dưa leo, cà chua ăn kèm
+  steps:
+    - Sườn dần sơ cho mềm, ướp với hỗn hợp sả tỏi mắm đường mật ong sữa đặc — **ít nhất 3 giờ**, qua đêm càng đỉnh.
+    - Vo gạo tấm, nấu với lượng nước **ít hơn cơm thường một nấc** cho hột cơm tơi.
+    - Làm mỡ hành (dầu nóng chế vô hành lá + nhúm muối đường); pha nước mắm kẹo nấu tan hơi sánh; làm đồ chua.
+    - Nướng sườn than hoa (hoặc lò/nồi chiên không dầu 200°C) **mỗi mặt 7–8 phút**, phết nước ướp 1–2 lần — cháy cạnh mép mỡ là đạt.
+    - Ốp la lòng đào nếu thích; sườn nướng xong **để nghỉ 3 phút** mới dọn.
+    - Xới cơm, đặt sườn + trứng + dưa leo cà chua + đồ chua, rưới mỡ hành, chan nước mắm kẹo — ăn nóng liền.
+  warning: >-
+    Sườn khô cứng là do hai lỗi: ướp thiếu dầu/mật ong giữ ẩm, và nướng lửa
+    quá gắt quá lâu. Lửa vừa, phết nước ướp, thấy cháy cạnh là dừng.
+
+flavor:
+  chua: 2
+  ngot: 7
+  man: 6
+  cay: 1.5
+  thom: 9.5
+flavorNote: >-
+  **Chuẩn dĩa cơm tấm:** sườn **mềm mọng, rìa cháy cạnh caramel**, cơm tơi
+  từng hột, và nước mắm phải **kẹo sánh ngọt đậm** — chan tới đâu bám cơm
+  tới đó.
+storyEyebrow: Chuyện dĩa cơm
+storyTitle: Món **tự tình của Sài Gòn** từ hột gạo vỡ
+story:
+  - >-
+    "Tấm" là hột gạo **gãy vụn** khi xay xát — thời trước là phần gạo rẻ nhất,
+    dành cho nhà lao động. Vậy mà người Sài Gòn đem nấu khéo, kê thêm miếng
+    sườn nướng, chút mỡ hành, chén mắm kẹo… biến phần gạo "hạng bét" thành
+    món ăn **cả thành phố say mê**, sáng trưa chiều tối lúc nào cũng đông
+    khách.
+  - >-
+    Nhắc cơm tấm là nhắc **mùi khói**: đi ngang quán, chưa thấy bảng hiệu đã
+    nghe mùi sườn ướp sả đường rớt xuống than bốc lên thơm điếc mũi. Ở nhà
+    không có lò than cũng đừng lo — bí quyết nằm ở **nước ướp đủ ngọt để
+    caramel hóa** và cách canh lửa, công thức này chỉ kỹ từng bước, nướng lò
+    hay nồi chiên không dầu vẫn ra miếng sườn cháy cạnh bóng lưỡng.
+  - >-
+    Dĩa cơm tấm nhà nấu có cái sướng riêng: sườn dày hơn quán, trứng ốp la
+    lòng đào theo ý, mắm kẹo nêm đúng khẩu vị nhà mình. Cuối tuần đổ một mẻ,
+    cả nhà ngồi quanh bàn — **Sài Gòn tự nhiên gần xịt**, dù bạn ở đâu.
+
+ingredientGroups:
+  - name: Sườn & đồ ướp
+    icon: meat
+    items:
+      - id: suon
+        name: Sườn cốt lết
+        icon: meat
+        color: red
+        base: 4
+        unit: miếng
+        note: Miếng dày ~1,5 cm có dải mỡ viền — nhờ hàng thịt dần sơ
+      - id: sa
+        name: Sả tươi
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Băm thiệt nhuyễn để ướp
+      - id: toihanh
+        name: Tỏi + hành tím
+        icon: garlic
+        base: 4
+        unit: tép
+        note: 4 tép tỏi + 2 củ hành tím, băm nhuyễn
+      - id: matong
+        name: Mật ong
+        icon: drop
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Giữ ẩm + lên màu caramel
+      - id: suadac
+        name: Sữa đặc
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Bí quyết sườn mềm của các quán lâu năm
+      - id: giaviuop
+        name: Nước mắm · đường · dầu hào · tiêu · dầu ăn
+        icon: bottle
+        qtyText: Theo bản nấu nhanh
+        note: Trộn thành hỗn hợp ướp sệt
+  - name: Cơm tấm & đồ chua
+    icon: rice
+    items:
+      - id: gaotam
+        name: Gạo tấm
+        icon: rice
+        base: 400
+        unit: g
+        note: Siêu thị/chợ đều có — không thay được độ tơi đặc trưng
+      - id: hanhla
+        name: Hành lá (làm mỡ hành)
+        icon: herb
+        color: green
+        base: 5
+        unit: nhánh
+        note: Xắt nhuyễn, trụng bằng dầu nóng
+      - id: dochua
+        name: Cà rốt + củ cải trắng
+        icon: jar
+        color: gold
+        base: 1
+        unit: chén
+        note: Bào sợi ngâm giấm đường trước 30 phút
+      - id: dualeo
+        name: Dưa leo + cà chua
+        icon: okra
+        color: green
+        base: 1
+        unit: trái
+        note: Xắt lát kê bên dĩa cho mát
+      - id: trung
+        name: Trứng gà (ốp la)
+        icon: egg
+        base: 4
+        unit: trái
+        note: Tùy thích — lòng đào là đúng điệu
+  - name: Nước mắm kẹo
+    icon: bottle
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 4
+        unit: muỗng canh
+        frac: true
+        note: Loại đậm đạm nấu mới thơm
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 4
+        unit: muỗng canh
+        frac: true
+        note: Tỉ lệ 1:1 với mắm — kẹo mới đúng cơm tấm
+      - id: toiot
+        name: Tỏi + ớt băm
+        icon: chili
+        color: red
+        qtyText: 2 tép tỏi · 1–2 trái ớt
+        note: Thả sau khi mắm nguội bớt
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **dĩa cơm tấm chuẩn quán**
+stepsLead: >-
+  Việc nặng nhất là… chờ sườn thấm. Ướp từ trưa hoặc từ tối hôm trước, tới
+  bữa chỉ còn nướng và bày dĩa — thơm khói cả nhà.
+steps:
+  - title: Ướp sườn — càng lâu càng thấm
+    icon: knife
+    minutes: 15 phút (+ chờ 3 giờ)
+    bullets:
+      - label: "Sơ chế:"
+        text: >-
+          sườn rửa sạch, thấm khô, **dùng sống dao dần đều hai mặt** cho mềm
+          thớ; khứa 2–3 đường vào dải mỡ viền để nướng không co quắp.
+      - label: "Hỗn hợp ướp:"
+        text: >-
+          trộn sả + tỏi + hành tím băm với [[2|muỗng canh|frac]] nước mắm,
+          [[2|muỗng canh|frac]] đường, [[1|muỗng canh|frac]] mật ong,
+          [[1|muỗng canh|frac]] sữa đặc, [[1|muỗng canh|frac]] dầu hào,
+          1 muỗng cà phê tiêu + [[2|muỗng canh|frac]] dầu ăn — khuấy sệt.
+      - label: "Ướp:"
+        text: >-
+          xoa đều hỗn hợp lên từng miếng sườn, đậy kín, để ngăn mát **ít nhất
+          3 giờ** — ướp qua đêm sườn thấm tới tận xương.
+    callout:
+      type: tip
+      text: >-
+        Giữ lại **2–3 muỗng nước ướp** để lát nữa phết lúc nướng — lớp phết
+        này chính là lớp bóng caramel nhìn là thèm.
+    timer:
+      secs: 10800
+      label: Hẹn giờ ướp sườn · 180:00
+      doneMsg: Sườn thấm rồi — chuẩn bị đỏ lửa!
+  - title: Nấu cơm tấm tơi xốp
+    icon: rice
+    minutes: 30 phút
+    bullets:
+      - text: >-
+          Vo nhẹ [[400|g]] gạo tấm 2 lần (tấm nhỏ, vo mạnh là trôi hết),
+          ngâm 15 phút cho hột nở đều.
+      - text: >-
+          Nấu với lượng nước **ít hơn nấu cơm thường một nấc** (tấm là gạo
+          vỡ, hút nước nhanh) — cơm chín tơi rời từng hột, không nhão dính.
+      - text: Cơm chín, xới tơi liền rồi đậy hờ cho khô mặt.
+    callout:
+      type: warn
+      text: >-
+        Đổ nước theo thói quen nấu gạo dẻo là ra nồi **cơm nhão bết** — mất
+        chất "tấm" ngay. Thà hơi khô còn cứu được bằng cách rưới mỡ hành.
+  - title: Mỡ hành, đồ chua, nước mắm kẹo
+    icon: spoon
+    minutes: 15 phút
+    intro: "Bộ ba làm nên linh hồn dĩa cơm — tranh thủ lúc chờ sườn:"
+    bullets:
+      - label: "Mỡ hành:"
+        text: >-
+          hành lá xắt nhuyễn vô chén + ¼ muỗng cà phê muối + ½ muỗng cà phê
+          đường; đun [[3|muỗng canh|frac]] dầu **thiệt nóng**, chế thẳng vô —
+          hành chín tái, xanh óng, thơm phức.
+      - label: "Đồ chua:"
+        text: >-
+          cà rốt + củ cải bào sợi, bóp muối xả sạch, ngâm 2 muỗng canh giấm +
+          2 muỗng canh đường ít nhất 30 phút.
+      - label: "Nước mắm kẹo:"
+        text: >-
+          nấu [[4|muỗng canh|frac]] nước mắm + [[4|muỗng canh|frac]] đường +
+          [[4|muỗng canh|frac]] nước lửa nhỏ 3–4 phút tới **hơi sánh** (nguội
+          sẽ kẹo thêm), để ấm rồi thả tỏi ớt băm.
+    callout:
+      type: warn
+      text: >-
+        Mắm cơm tấm khác mắm gỏi cuốn: **đặc – ngọt đậm – ít chua**. Nấu quá
+        tay thành keo cứng thì thêm muỗng nước ấm khuấy lại là xong.
+  - title: Nướng sườn — canh lửa, phết nước ướp
+    icon: flame
+    minutes: 20 phút
+    intro: "Than hoa là chuẩn khói, nhưng lò nướng hay nồi chiên không dầu vẫn ngon:"
+    bullets:
+      - label: "Than hoa:"
+        text: >-
+          than cháy đượm còn **lửa than đỏ, hết khói đen** mới đặt vỉ. Nướng
+          **7–8 phút mỗi mặt**, trở đều tay, phết nước ướp 1–2 lượt.
+      - label: "Lò nướng:"
+        text: >-
+          200°C, khay giữa có lót giấy bạc, **8 phút mỗi mặt** rồi bật chế độ
+          nướng trên (broil) 2 phút cuối cho cháy cạnh.
+      - label: "Nồi chiên không dầu:"
+        text: >-
+          200°C · 8 phút, lật, phết nước ướp, thêm **7 phút** — mép mỡ phồng
+          giòn là đạt.
+      - text: >-
+          Sườn chín lấy ra **để nghỉ 3 phút** cho nước thịt hồi lại rồi mới
+          dọn — cắn vô mọng chứ không khô.
+    callout:
+      type: warn
+      text: >-
+        Nước ướp nhiều đường nên **rất mau khét** — lửa vừa thôi, thấy xém
+        cạnh đẹp là trở liền. Khét đắng là công ướp ba tiếng đổ bỏ.
+    timer:
+      secs: 480
+      label: Hẹn giờ mỗi mặt · 08:00
+      doneMsg: Trở mặt sườn, phết thêm nước ướp!
+  - title: Ốp la lòng đào (tùy chọn mà nên có)
+    icon: egg
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Chảo nóng vừa với chút dầu, đập trứng vào, hạ **lửa nhỏ**, đậy nắp
+          30 giây — lòng trắng chín rìa **giòn ren**, lòng đỏ còn đào óng ánh.
+      - text: Rắc nhúm tiêu, nêm vài giọt nước mắm kẹo lên mặt trứng là hết sảy.
+  - title: Bày dĩa — đủ bộ mới đã
+    icon: rice
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Xới cơm tấm ra dĩa (úp chén cơm cho khum tròn kiểu quán càng vui),
+          **rưới muỗng mỡ hành** lên mặt cơm.
+      - text: >-
+          Kê miếng sườn nướng + trứng ốp la, xếp dưa leo, cà chua, gắp đồ
+          chua để một góc.
+      - text: >-
+          Chan **nước mắm kẹo** lên sườn và cơm ngay trước khi ăn — muỗng đầu
+          tiên phải có đủ cơm, sườn, mỡ hành, đồ chua mới trọn vị Sài Gòn.
+    callout:
+      type: tip
+      text: >-
+        Dĩa cơm tấm đạt chuẩn nghe được **ba mùi cùng lúc**: khói sườn, hành
+        phi trong mỡ hành, và mùi mắm kẹo — thiếu mùi nào bổ sung mùi đó rồi
+        hãy dọn.
+    doneText: Bưng ra bàn — Sài Gòn tới liền!
+
+tipsTitle: 7 bí quyết cho **sườn mềm cháy cạnh như quán**
+tipsLead: >-
+  Cơm tấm ngon thua nhau ở miếng sườn. Mấy mẹo này gom từ kiểu làm của quán
+  lâu năm — áp dụng đủ là sườn nhà không thua sườn tiệm.
+tips:
+  - icon: meat
+    title: Chọn cốt lết có mỡ viền
+    text: >-
+      Miếng sườn ngon phải có **dải mỡ chạy viền** — nướng lên mỡ chảy tự
+      thấm ngược vô thịt, cháy cạnh giòn thơm. Nạc trơn 100% nướng kiểu gì
+      cũng khô.
+  - icon: knife
+    title: Dần sườn trước khi ướp
+    text: >-
+      Dùng sống dao (hoặc búa dần thịt) **dần đều hai mặt** làm đứt bớt thớ —
+      sườn vừa mau thấm vừa mềm hẳn. Nhờ hàng thịt dần giùm ngay lúc mua càng
+      khỏe.
+  - icon: jar
+    title: Sữa đặc + mật ong là combo mềm
+    text: >-
+      Sữa đặc giúp thịt mềm và dậy mùi thơm sữa nhẹ, mật ong giữ ẩm và lên
+      **màu caramel bóng lưỡng** — hai thứ này là "bí mật mở" của sườn cơm
+      tấm, đừng bỏ thứ nào.
+  - icon: clock
+    title: Ba tiếng là mức sàn
+    text: >-
+      Ướp 30 phút chỉ thấm ngoài da. **3 giờ** mới ngấm vô thớ, **qua đêm**
+      thì tới xương — nên món này hợp kiểu "ướp tối nay, ăn trưa mai", tới
+      bữa chỉ mất 20 phút nướng.
+  - icon: flame
+    title: Lửa vừa, trở đều, phết ướt
+    text: >-
+      Đường trong nước ướp caramel hóa rất nhanh: lửa gắt là **ngoài khét
+      trong sống**. Lửa vừa + trở đều + phết nước ướp là ra miếng sườn chín
+      mọng, rìa cháy cạnh đúng độ.
+  - icon: rice
+    title: Cơm tấm phải tơi
+    text: >-
+      Gạo tấm nấu **ít nước hơn thường lệ một nấc**, chín thì xới tơi liền.
+      Hột cơm rời nhau mới hứng được mỡ hành và mắm kẹo — cơm nhão là dĩa
+      cơm "sụp đổ" từ nền móng.
+  - icon: drop
+    title: Mắm kẹo là chữ ký
+    text: >-
+      Nước mắm cơm tấm nấu tỉ lệ **mắm 1 : đường 1**, sánh tới mức "nhểu
+      chậm" — chan lên bám sườn bám cơm chứ không chảy tràn dĩa. Nêm chua
+      chỉ một xíu chanh, đây không phải mắm gỏi cuốn.
+
+serve:
+  title: Dọn dĩa cơm — **Sài Gòn ngay bàn ăn nhà mình**
+  paras:
+    - >-
+      Cơm tấm ăn **nóng hổi ngay khi sườn vừa nghỉ xong** — lúc mỡ hành còn
+      óng, trứng còn lòng đào, cắt miếng sườn nghe dao chạm dĩa lách cách là
+      đúng không khí quán cóc Sài Gòn.
+    - >-
+      Muốn "đủ bộ sườn – bì – chả" như tiệm thì làm thêm dịp khác cho khỏe;
+      bản nhà nấu **sườn + ốp la + mỡ hành + đồ chua** là đã đủ gây thương
+      nhớ. Nhà đông con nít thì cắt sườn sẵn thành miếng nhỏ, chan mắm nhạt
+      tay một chút.
+    - >-
+      Sườn ướp dư cứ **cấp đông cả miếng lẫn nước ướp** — bận rộn cỡ nào,
+      rã đông rồi nướng 20 phút là có dĩa cơm tấm "cứu đói" sang chảnh.
+  aside:
+    title: Trên dĩa cơm tấm có gì
+    intro: "Đội hình chuẩn của một dĩa đúng điệu:"
+    items:
+      - icon: meat
+        text: "**Sườn cháy cạnh** — ngôi sao, để nguyên miếng to mới đã."
+      - icon: egg
+        text: "**Ốp la lòng đào** — dằm ra trộn cơm, béo quên lối về."
+      - icon: herb
+        text: "**Mỡ hành + đồ chua** — một béo một giòn chua, cân dĩa cơm."
+      - icon: bottle
+        text: "**Chén mắm kẹo** — chan hào phóng, đây là 'nước sốt' của cả dĩa."
+
+faq:
+  - q: Không có bếp than thì sườn có ra "chất khói" không?
+    a: >-
+      Ra tới **80–90%** nếu làm đúng: lò nướng bật broil 2 phút cuối, hoặc
+      nồi chiên không dầu nhiệt cao cho cháy cạnh — mùi caramel của đường
+      cháy chính là phần lớn "mùi khói" ta nhớ. Kỹ hơn nữa: áp chảo gang cho
+      xém hai mặt rồi mới vô lò.
+  - q: Sữa đặc trong nước ướp nghe lạ — bỏ được không?
+    a: >-
+      Bỏ được nhưng uổng lắm — sữa đặc là mẹo ruột của các quán: thịt **mềm
+      hơn, màu đẹp hơn, mùi thơm tròn hơn**. Không có sữa đặc thì thay bằng
+      1 muỗng canh nước dừa tươi + thêm ½ muỗng mật ong.
+  - q: Gạo tấm mua ở đâu, thay bằng gạo thường được không?
+    a: >-
+      Chợ và siêu thị đều bán bao ghi **"gạo tấm"** (tấm thơm, tấm Sa Đéc…).
+      Kẹt lắm dùng gạo dẻo thường nấu khô nước — ăn vẫn ngon nhưng mất cái
+      tơi xốp rất riêng, nên ráng tìm đúng tấm nghen.
+  - q: Ướp rồi mà chưa kịp nướng, để được bao lâu?
+    a: >-
+      Ngăn mát **24 giờ** là ngon nhất (quá nữa thịt bắt đầu "chín tái" vì
+      muối đường). Chưa nướng kịp thì chuyển hộp kín **cấp đông được 1
+      tháng** — rã đông ngăn mát qua đêm rồi nướng như thường.
+  - q: Nước mắm kẹo nguội bị đặc cứng thì sao?
+    a: >-
+      Bình thường! Đường nguội thì co lại. Thêm **1–2 muỗng nước ấm**, khuấy
+      đều hoặc quay 10 giây lò vi sóng là sánh mượt trở lại. Lần sau nấu bớt
+      1 phút là vừa.
+  - q: Làm sao biết sườn chín mà không bị khô?
+    a: >-
+      Nhấn ngón tay lên mặt sườn: **đàn hồi nhẹ là chín tới**, cứng đơ là
+      quá lửa. Kỹ nữa thì cắt thử sát xương — nước thịt ứa ra trong (không
+      hồng) là đạt. Nhớ luôn để sườn nghỉ 3 phút trước khi cắt.
+
+ticker:
+  - icon: flame
+    text: Sườn nướng khói thơm
+  - icon: meat
+    text: Cháy cạnh caramel bóng lưỡng
+  - icon: rice
+    text: Cơm tấm tơi từng hột
+  - icon: herb
+    text: Mỡ hành xanh óng
+  - icon: egg
+    text: Ốp la lòng đào
+  - icon: bottle
+    text: Mắm kẹo chan hào phóng
+  - icon: jar
+    text: Đồ chua giòn rụm
