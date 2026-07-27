@@ -1,0 +1,442 @@
+title: Bún chả Hà Nội **chả cháy cạnh, nước chấm ấm thanh**
+summary: >-
+  Chả viên chả miếng ướp **nước hàng** nướng cháy cạnh thơm lựng khói, thả
+  vô bát nước mắm **ấm ngọt thanh** cùng đu đủ giòn — gắp đũa bún trắng
+  nhúng ngập một lần là hiểu vì sao người Hà Nội tự hào món này tới vậy.
+region: Miền Bắc
+category: Bún – Phở
+time:
+  total: 1 giờ 30
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 3
+art: bun-cha
+heroEyebrow: Khói than thơm giữa phố cổ…
+
+quick:
+  ingredients:
+    - Ba chỉ [[400|g]] thái mỏng (chả miếng) · nạc vai xay [[400|g]] (chả viên)
+    - "Ướp: hành khô [[3|củ]] + tỏi [[3|tép]] băm · nước mắm [[3|muỗng canh|frac]] · đường [[1.5|muỗng canh|frac]] · dầu hào [[1|muỗng canh|frac]] · **nước hàng [[1.5|muỗng canh|frac]]** · tiêu"
+    - "Nước chấm: nước ấm [[600|ml]] · nước mắm [[90|ml]] · đường [[80|g]] · giấm [[50|ml]] · tỏi ớt băm"
+    - Đu đủ xanh [[300|g]] + cà rốt [[1|củ]] — ngâm giấm đường làm đồ chua
+    - Bún rối sợi nhỏ [[1000|g]]
+    - "Rau sống: xà lách · tía tô · **kinh giới** · húng, mùi"
+  steps:
+    - Đu đủ + cà rốt thái miếng mỏng, bóp muối xả sạch, **ngâm giấm đường 20 phút**.
+    - Ba chỉ thái mỏng, nạc vai xay — chia hai thau, ướp chung một công thức có **nước hàng**, để **30 phút**.
+    - Nặn thịt xay thành **viên dẹt cỡ 4–5 cm**; xếp thịt lát ra vỉ.
+    - "Pha nước chấm với **nước ấm**: nếm phải thanh dịu — chua ngọt mặn không vị nào gắt."
+    - Nướng chả trên **than hoa** (hoặc nồi chiên không dầu 180°C) tới **cháy cạnh mà còn mọng**.
+    - Thả chả nóng + đồ chua vô bát nước chấm ấm; dọn kèm bún, mâm rau — gắp và nhúng!
+  warning: >-
+    Bát nước chấm quyết định cả mâm bún chả: pha xong phải **nếm thấy thanh
+    dịu, húp được cả muỗng** — mặn gắt hay chua xộc là hỏng; và nhớ dọn
+    **ấm**, nước chấm nguội ngắt là mất nửa cái ngon.
+
+flavor:
+  chua: 4.5
+  ngot: 6
+  man: 6
+  cay: 2
+  thom: 9
+flavorNote: >-
+  **Chuẩn vị Hà Nội:** miếng chả **cháy cạnh mà mọng nước**, thơm mùi khói
+  than và nước hàng; bát nước chấm **ấm – thanh – dịu**, chua ngọt mặn cân
+  tới mức húp không cũng thấy ngon.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món quà trưa **thơm khói cả một góc phố**
+story:
+  - >-
+    Cứ tầm trưa, đi ngang mấy con phố cổ Hà Nội là biết ngay hàng bún chả ở
+    đâu: **mùi chả nướng than hoa bay ra tận đầu ngõ**, người bán tay quạt
+    nan phe phẩy, vỉ chả xèo xèo nhỏ mỡ xuống lửa than đỏ hồng. Người Hà Nội
+    ăn bún chả như một thói quen sang trọng kiểu bình dân — bát nước chấm
+    ấm, đĩa bún trắng ngần, rổ rau xanh mướt, vậy là thành bữa trưa ra trò.
+  - >-
+    Bún chả có hai nhân vật chính: **chả viên** nặn từ thịt xay và **chả
+    miếng** thái từ ba chỉ — thiếu một là "mất vai". Cả hai ướp chung một
+    thứ làm nên màu nâu óng rất Hà Nội: **nước hàng**, tức đường thắng kiểu
+    Bắc. Còn linh hồn thật sự nằm ở bát nước chấm: mắm – đường – giấm pha
+    loãng tay, **ấm nóng, thanh tới mức húp được**, trong bát thả sẵn đu đủ
+    xanh giòn tan.
+  - >-
+    Món này từng khiến cả thế giới tò mò khi Tổng thống Obama ngồi ghế nhựa
+    ăn bún chả ở Hà Nội năm 2016 — nhưng với người Việt mình, bún chả chẳng
+    cần ai quảng cáo. Nhà có cái vỉ nướng, hôm nào trời mát đem ra **nướng
+    mẻ chả thơm um**, cả xóm biết nhà bạn ăn gì tối nay.
+
+ingredientGroups:
+  - name: Hai loại chả
+    icon: meat
+    items:
+      - id: bachi
+        name: Ba chỉ ngon
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: Thái mỏng 3–4 mm làm chả miếng — chọn miếng mỡ nạc đan xen
+      - id: vaixay
+        name: Nạc vai xay
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: Vai có mỡ giắt — chả viên mới mọng, đừng chọn thăn nạc khô
+      - id: hanhtoi
+        name: Hành khô + tỏi
+        icon: garlic
+        base: 3
+        unit: củ
+        note: 3 củ hành khô + 3 tép tỏi, băm thật nhuyễn để ướp
+      - id: nuochang
+        name: Nước hàng (nước màu)
+        icon: drop
+        color: gold
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Chữ ký của chả Hà Nội — mua chai hoặc tự thắng (xem bí quyết)
+      - id: giaviuop
+        name: Nước mắm · đường · dầu hào · tiêu
+        icon: bottle
+        qtyText: Theo bước hướng dẫn
+        note: Ướp chung một công thức cho cả hai loại chả
+  - name: Bát nước chấm & đồ chua
+    icon: bowl
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 90
+        unit: ml
+        note: Mắm cốt 35–40 độ đạm — nền của cả bát
+      - id: duonggiam
+        name: Đường + giấm gạo
+        icon: jar
+        color: gold
+        base: 80
+        unit: g
+        note: Giấm [[50|ml]] — người Bắc chuộng giấm hơn chanh, vị chua dịu
+      - id: dudu
+        name: Đu đủ xanh
+        icon: pod
+        color: green
+        base: 300
+        unit: g
+        note: Chọn trái già còn xanh cứng — mùa đông thay bằng su hào
+      - id: carot
+        name: Cà rốt
+        icon: tomato
+        color: red
+        base: 1
+        unit: củ
+        note: Thái lát mỏng hình hoa cho vui mắt
+      - id: toiot
+        name: Tỏi + ớt băm
+        icon: chili
+        color: red
+        qtyText: 2 tép tỏi · 1–2 trái ớt
+        note: Băm nhỏ, ai ăn cay thêm sau
+  - name: Bún & mâm rau
+    icon: noodle
+    items:
+      - id: bun
+        name: Bún rối sợi nhỏ
+        icon: noodle
+        base: 1000
+        unit: g
+        note: Bún lá hoặc bún rối sợi mảnh mới đúng kiểu Hà Nội
+      - id: rausong
+        name: Xà lách + tía tô + kinh giới + húng
+        icon: lettuce
+        color: green
+        base: 1
+        unit: rổ
+        note: Kinh giới là "quốc hồn" của bún chả — ráng tìm cho được
+      - id: muitau
+        name: Rau mùi (ngò rí)
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Nhặt lá, rửa sạch, để thật ráo
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **mâm bún chả thơm khói**
+stepsLead: >-
+  Bún chả không khó, chỉ có hai chỗ cần để tâm: ướp cho đúng màu đúng vị,
+  và pha bát nước chấm thanh dịu. Còn lại là chuyện của lửa than.
+steps:
+  - title: Làm đồ chua đu đủ
+    icon: pod
+    minutes: 25 phút
+    bullets:
+      - label: "Sơ chế:"
+        text: >-
+          đu đủ xanh gọt vỏ, bổ đôi bỏ hột, thái miếng mỏng cỡ con bài nhỏ;
+          cà rốt thái lát mỏng. Bóp với [[1|muỗng cà phê]] muối, để 10 phút
+          rồi **xả sạch, vắt ráo** — miếng đu đủ sẽ giòn sựt.
+      - label: "Ngâm:"
+        text: >-
+          trộn đu đủ cà rốt với [[3|muỗng canh|frac]] giấm +
+          [[2|muỗng canh|frac]] đường, ngâm **20 phút** là vừa chua ngọt,
+          còn giòn.
+    callout:
+      type: tip
+      text: >-
+        Mùa đông Hà Nội hàng bún chả hay thay đu đủ bằng **su hào** — nhà có
+        su hào cứ mạnh dạn thay, giòn ngọt không kém gì.
+    timer:
+      secs: 1200
+      label: Hẹn giờ ngâm đồ chua · 20:00
+      doneMsg: Đồ chua giòn chua ngọt rồi — nếm thử đi!
+  - title: Ướp hai loại chả
+    icon: knife
+    minutes: 40 phút
+    intro: "Một công thức ướp chung, chia hai thau:"
+    bullets:
+      - label: "Pha đồ ướp:"
+        text: >-
+          trộn hành khô + tỏi băm nhuyễn với [[3|muỗng canh|frac]] nước mắm,
+          [[1.5|muỗng canh|frac]] đường, [[1|muỗng canh|frac]] dầu hào,
+          [[1.5|muỗng canh|frac]] **nước hàng**, ½ muỗng cà phê tiêu.
+      - label: "Chả miếng:"
+        text: >-
+          ba chỉ thái lát mỏng **3–4 mm** (bỏ ngăn đá 30 phút trước khi thái
+          là lát mỏng đều tăm tắp), trộn với nửa phần đồ ướp.
+      - label: "Chả viên:"
+        text: >-
+          thịt xay trộn nửa đồ ướp còn lại, **quết bằng muỗng 2–3 phút** cho
+          thịt dẻo quánh — chả nướng mới kết miếng, không bở.
+      - text: Đậy kín cả hai thau, ướp **tối thiểu 30 phút** (để ngăn mát được qua đêm — càng thấm).
+    callout:
+      type: warn
+      text: >-
+        Đừng bỏ nước hàng rồi bù bằng nhiều đường — chả sẽ **ngọt mà nhợt
+        màu**. Màu nâu óng và mùi thơm "rất bún chả" là công của nước hàng,
+        không phải của đường.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ướp chả · 30:00
+      doneMsg: Chả thấm rồi — nặn viên và lên vỉ!
+  - title: Nặn chả, pha nước chấm ấm
+    icon: bowl
+    minutes: 15 phút
+    bullets:
+      - label: "Nặn viên:"
+        text: >-
+          xoa chút dầu vô lòng bàn tay, vo thịt xay thành viên rồi **ép dẹt
+          cỡ 4–5 cm, dày 1.5 cm** — dẹt mới chín đều và có mặt cháy cạnh đẹp.
+      - label: "Pha nước chấm:"
+        text: >-
+          hòa [[80|g]] đường vào [[600|ml]] **nước ấm**, thêm [[90|ml]] nước
+          mắm + [[50|ml]] giấm, khuấy tan. Nếm thử: **thanh dịu, húp được cả
+          muỗng** — đậm quá thêm nước, nhạt quá thêm mắm từng chút.
+      - text: >-
+          Tỏi ớt băm **để riêng chén**, lúc dọn ai ăn nấy thêm — bát nước
+          chấm giữ được vị thanh, không xộc.
+    callout:
+      type: tip
+      text: >-
+        Tỉ lệ dễ nhớ của nước chấm bún chả: **1 mắm : 1 đường : nửa giấm : 6
+        nước** — loãng và dịu hơn nước mắm gỏi cuốn nhiều, vì mình sẽ nhúng
+        cả bún cả chả vô đó.
+  - title: Nướng chả — cháy cạnh mà mọng
+    icon: flame
+    minutes: 20 phút
+    bullets:
+      - label: "Than hoa (chuẩn bài):"
+        text: >-
+          đợi than **đỏ hồng hết khói đen** mới đặt vỉ. Chả miếng nướng
+          nhanh tay, chả viên lâu hơn chút — lật đều tới khi **hai mặt nâu
+          óng, cạnh xém cánh gián**, mỡ nhỏ xuống than thơm nức.
+      - label: "Nồi chiên không dầu:"
+        text: >-
+          xếp một lớp, **180°C trong 12 phút, lật giữa chừng**, thêm 2–3 phút
+          200°C cho cháy cạnh. Lò nướng: 220°C rãnh trên cùng, 15 phút lật
+          một lần.
+      - label: "Chảo gang:"
+        text: >-
+          lửa vừa, không cần thêm dầu (mỡ ba chỉ tự ra), nướng áp chảo mỗi
+          mặt 3–4 phút — kém mùi khói nhưng vẫn ngon lành.
+    callout:
+      type: warn
+      text: >-
+        Chả chín tới là rút — nướng "cho chắc ăn" thêm 5 phút là miếng chả
+        **khô xác, cứng queo**. Cháy cạnh nghĩa là xém ở viền, còn thân
+        miếng chả phải mọng.
+    timer:
+      secs: 720
+      label: Hẹn giờ nướng · 12:00
+      doneMsg: Kiểm tra màu — cháy cạnh nâu óng là đạt!
+  - title: Trụng bún, soạn mâm rau
+    icon: noodle
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Bún rối trụng nước sôi **15–20 giây**, xả nhanh nước nguội, xóc
+          thật ráo, đơm ra đĩa từng cuộn nhỏ vừa gắp.
+      - text: >-
+          Rau sống rửa sạch ngâm nước muối loãng 10 phút, vẩy ráo, bày rổ:
+          xà lách, tía tô, **kinh giới**, húng, mùi.
+      - text: Hâm nước chấm **ấm nóng** (không sôi), sẵn sàng ráp bát.
+    callout:
+      type: tip
+      text: >-
+        Bún mua buổi sáng ăn trưa là ngon nhất. Nếu bún để tủ lạnh bị cứng,
+        trụng nước sôi lâu hơn chút rồi xả — sợi bún mềm lại như mới.
+  - title: Ráp bát — thả chả vô nước chấm
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Mỗi người một **bát nước chấm ấm**, thả vô: mấy viên chả, mấy lát
+          chả miếng, một gắp đồ chua đu đủ.
+      - text: Ai ăn cay ăn tỏi tự thêm từ chén tỏi ớt băm.
+      - text: >-
+          Ăn đúng điệu Hà Nội: **gắp đũa bún nhúng ngập vô bát**, kèm miếng
+          chả, cắn thêm lá kinh giới — một miếng đủ vị chua ngọt mặn thơm
+          khói.
+    callout:
+      type: tip
+      text: >-
+        Nhà đãi khách cứ dọn kiểu hàng bún chả: nồi nước chấm ấm đặt giữa
+        bàn, chả nướng tới đâu thả vô tới đó — khói bay nghi ngút, chưa ăn
+        đã thấy sang.
+    doneText: Nhúng đũa bún đầu tiên — xong!
+
+tipsTitle: 7 bí quyết cho **mẻ chả chuẩn vị Hà Nội**
+tipsLead: >-
+  Bún chả nhà ai nướng cũng thơm, nhưng ra được "đúng cái vị Hà Nội" hay
+  không là ở mấy điều nhỏ này.
+tips:
+  - icon: drop
+    title: Nước hàng — chữ ký của chả Bắc
+    text: >-
+      Không có nước hàng, chả bún chả chỉ là thịt nướng thường. Tự thắng dễ
+      lắm: **[[3|muỗng canh|frac]] đường + 1 muỗng nước**, đun lửa vừa tới
+      màu **cánh gián sậm** (đậm hơn thắng kho cá chút xíu), tắt bếp chế 2
+      muỗng nước nóng, lắc đều. Nguội cất hũ dùng cả tháng.
+  - icon: meat
+    title: Ba chỉ + vai xay, đừng ham nạc
+    text: >-
+      Chả ngon nhờ **mỡ giắt**: ba chỉ nướng lên mỡ chảy thấm vào thớ, vai
+      xay có mỡ chả viên mới mọng. Chọn thăn nạc "cho lành" là mẻ chả khô
+      như rơm — muốn đỡ béo thì bớt lượng, đừng đổi phần thịt.
+  - icon: flame
+    title: Than hoa đỏ hồng, không khói đen
+    text: >-
+      Đặt vỉ khi than còn khói đen là chả **ám mùi khét, đen nhẻm**. Đợi
+      than bén đỏ hồng phủ lớp tro mỏng mới nướng; mỡ nhỏ giọt xuống bùng
+      lửa thì nhấc vỉ né qua chỗ khác vài giây.
+  - icon: bowl
+    title: Nước chấm thanh, dọn ấm
+    text: >-
+      Nước chấm bún chả **không phải nước mắm chua ngọt kẹo đặc** kiểu Nam —
+      nó loãng, thanh, húp được. Trước khi dọn hâm cho ấm nóng: mùa nào cũng
+      ngon hơn hẳn, mà đây cũng là "luật" của hàng bún chả Hà Nội.
+  - icon: herb
+    title: Kinh giới không thể vắng mặt
+    text: >-
+      Mâm rau bún chả mà thiếu **kinh giới** là dân Hà Nội "bắt bài" liền —
+      mùi the mát của nó sinh ra để đi cùng chả nướng. Chợ có bó kinh giới
+      tươi, đừng tiếc mấy ngàn.
+  - icon: knife
+    title: Quết thịt xay cho dẻo
+    text: >-
+      Thịt xay trộn gia vị xong **quết thêm vài phút** tới khi dẻo dính —
+      viên chả nướng mới kết chặt, cắn vào đàn hồi. Trộn qua loa là chả bở,
+      gắp lên rớt xuống vỡ đôi.
+  - icon: clock
+    title: Ướp qua đêm, nướng hôm sau
+    text: >-
+      Có kế hoạch đãi khách thì ướp thịt **từ tối hôm trước** — thịt thấm
+      sâu, màu đẹp hơn hẳn ướp 30 phút. Hộp thịt ướp sẵn trong tủ lạnh cũng
+      là "bảo hiểm bữa tối" cho ngày bận: về nhà chỉ việc nướng.
+
+serve:
+  title: Dọn mâm — **cả nhà quây quanh bát nước chấm**
+  paras:
+    - >-
+      Bún chả dọn kiểu "mỗi người một bộ": bát nước chấm ấm có chả có đồ
+      chua, đĩa bún trắng, rổ rau chung giữa mâm. Gắp — nhúng — lùa, xong
+      lại gắp; **ăn tới đâu chả thả vô bát tới đó** cho lúc nào cũng nóng.
+    - >-
+      Trời se lạnh mà được bát nước chấm bốc khói, miếng chả cháy cạnh thơm
+      mùi than, thêm lá tía tô kinh giới the mát — **bữa trưa kiểu Hà Nội**
+      ngay giữa nhà mình, chẳng cần vé máy bay.
+    - >-
+      Nhà có tiệc cứ nướng gấp đôi phần chả: mẻ đầu ăn bún chả, mẻ sau kẹp
+      bánh mì chấm phần nước chấm còn lại — khách về ai cũng hỏi công thức.
+  aside:
+    title: Trên mâm bún chả
+    intro: "Đủ bộ này mới gọi là bún chả Hà Nội:"
+    items:
+      - icon: bowl
+        text: "**Bát nước chấm ấm** — nhân vật trung tâm, mọi thứ xoay quanh nó."
+      - icon: pod
+        text: "**Đồ chua đu đủ cà rốt** — giòn tan, chống ngán thần sầu."
+      - icon: herb
+        text: "**Rổ rau có kinh giới tía tô** — bứt lá ăn kèm từng gắp."
+      - icon: chili
+        text: "**Chén tỏi ớt băm riêng** — ai ăn cay nấy múc, bát chấm giữ vị thanh."
+
+faq:
+  - q: Nhà không có bếp than thì nướng bằng gì ngon nhất?
+    a: >-
+      **Nồi chiên không dầu** là lựa chọn ngon nhì sau than hoa: 180°C trong
+      12 phút có lật, chốt 2–3 phút 200°C cho xém cạnh. Muốn "mùi khói" hơn
+      chút thì nướng chảo gang cho xém rồi hong 2 phút trên lửa bếp ga.
+      Chả vẫn mọng, màu vẫn đẹp — chỉ thiếu đúng làn khói than bay qua xóm.
+  - q: Nước hàng mua ở đâu, có thay bằng nước màu kho cá được không?
+    a: >-
+      Được — nước hàng với nước màu (nước kẹo đắng) là **anh em một nhà**,
+      chai "nước màu dừa" bán ở chợ và siêu thị dùng tốt. Tự thắng theo
+      hướng dẫn trong phần bí quyết thì thơm hơn, và nhớ thắng **sậm màu
+      hơn** thắng để kho, chả mới nâu óng.
+  - q: Sao chả viên của mình nướng xong bị bở, vỡ vụn?
+    a: >-
+      Hai lý do: thịt xay **quá nạc** hoặc **quên quết**. Chọn vai có mỡ,
+      trộn gia vị xong quết tới dẻo dính tay; nếu vẫn lỏng lẻo, thêm 1 muỗng
+      canh dầu ăn và để thau thịt vô ngăn mát 15 phút trước khi nặn — viên
+      chả sẽ đứng dáng ngay.
+  - q: Không tìm được đu đủ xanh?
+    a: >-
+      Thay bằng **su hào** (chuẩn kiểu mùa đông Hà Nội) hoặc cà rốt + dưa
+      leo. Cách làm y hệt: thái mỏng, bóp muối xả sạch, ngâm giấm đường.
+      Miễn giòn và chua ngọt dịu là tròn vai.
+  - q: Nước chấm nhất thiết phải ấm hả?
+    a: >-
+      Truyền thống là ấm — mùi mắm dậy hơn, mỡ chả không đông, trời lạnh ăn
+      không tanh. Nhưng trưa hè oi bức thì để **nguội vừa** cũng chẳng ai
+      bắt lỗi; chỉ đừng bỏ đá vô, nước chấm loãng toẹt là hỏng bát bún chả.
+  - q: Hàng bún chả hay có nem rán ăn kèm — làm luôn được không?
+    a: >-
+      Chuẩn đó — bộ đôi kinh điển của quán là bún chả + **nem rán** (trong
+      Nam gọi chả giò). Trang mình có sẵn công thức **chả giò tôm thịt**
+      giòn rụm: làm thêm một mẻ, chấm chung bát nước chấm bún chả là thành
+      "suất đầy đủ" đúng kiểu Hà Nội.
+  - q: Chả nướng dư để dành được không?
+    a: >-
+      Được: ngăn mát **2 ngày**, ngăn đông **2 tuần**. Hâm lại bằng nồi
+      chiên không dầu 160°C vài phút là thơm gần như mới nướng — kẹp bánh
+      mì, ăn với cơm hay xào chút hành tây đều ngon. Nước chấm pha dư cất
+      chai, ngăn mát 4–5 ngày vẫn thanh.
+
+ticker:
+  - icon: flame
+    text: Khói than thơm cả góc phố
+  - icon: meat
+    text: Chả viên chả miếng cháy cạnh
+  - icon: bowl
+    text: Nước chấm ấm thanh dịu
+  - icon: pod
+    text: Đu đủ giòn tan
+  - icon: herb
+    text: Kinh giới tía tô the mát
+  - icon: noodle
+    text: Bún rối trắng ngần
+  - icon: drop
+    text: Nước hàng nâu óng

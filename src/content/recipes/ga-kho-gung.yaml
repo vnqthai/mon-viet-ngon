@@ -1,0 +1,370 @@
+title: Gà kho gừng **ấm bụng những ngày trở trời**
+summary: >-
+  Miếng gà da vàng óng bám lớp nước kho **sánh keo màu cánh gián**, gừng
+  sợi cay ấm thơm lừng góc bếp — món kho quốc dân mà hễ trời chuyển mưa,
+  se lạnh là tự nhiên thèm cơm nóng với nó.
+region: Cả nước
+category: Kho
+time:
+  total: 50 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 12
+art: ga-kho
+heroEyebrow: Gừng cay muối mặn xin đừng quên nhau…
+
+quick:
+  ingredients:
+    - Gà ta [[1200|g]] chặt miếng vừa (đùi, cánh, má đùi — giữ da)
+    - Gừng già [[1|củ]] lớn — nửa thái sợi, nửa thái lát + ít đập giập khử mùi
+    - "Ướp: nước mắm [[2|muỗng canh|frac]] · đường [[1|muỗng canh|frac]] · hành tím [[2|củ]] băm · tiêu · ớt (tùy nhà)"
+    - Đường thắng nước màu [[1.5|muỗng canh|frac]] (hoặc nước màu dừa có sẵn)
+    - Hành lá vài nhánh · cơm nóng + dưa leo ăn kèm
+  steps:
+    - Gà chà **muối + gừng đập**, xả sạch, để ráo; chặt miếng vừa gắp.
+    - Ướp gà với mắm – đường – hành tím – tiêu + **nửa phần gừng lát**, để **15 phút**.
+    - Thắng [[1.5|muỗng canh|frac]] đường tới **màu cánh gián**, cho gà vô xào lửa vừa tới săn da, bám màu.
+    - Châm nước sôi **xâm xấp ⅓ mặt thịt**, kho **liu riu 20 phút**, hé vung, thỉnh thoảng trở miếng.
+    - Thả **gừng sợi**, mở lửa vừa rim tới nước **sánh keo bám da gà**; nêm lại, rắc hành lá + tiêu.
+    - Dọn với cơm trắng nóng — chan muỗng nước kho lên cơm trước, lùa một đũa rồi mới gắp gà!
+  warning: >-
+    Gừng cho quá tay ngay từ đầu là nồi kho **hăng và đắng**. Đúng bài là
+    chia hai đợt: gừng lát ướp cùng cho thơm trầm, **gừng sợi thả 5 phút
+    cuối** cho thơm tươi cay dịu.
+
+flavor:
+  chua: 0
+  ngot: 5
+  man: 7.5
+  cay: 3.5
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn nồi gà kho gừng:** nước kho **sánh keo, mặn ngọt đậm đà** vừa đủ
+  "bắt cơm", miếng gà thấm tới xương mà không khô, và mùi gừng **ấm — cay
+  dịu chứ không hăng**, nghe là thấy được an ủi.
+storyEyebrow: Chuyện nồi kho
+storyTitle: Món kho của câu ca **"gừng cay muối mặn"**
+story:
+  - >-
+    Người Việt mình nói chuyện nghĩa tình là nhắc tới gừng: **"Tay bưng dĩa
+    muối chén gừng / Gừng cay muối mặn xin đừng quên nhau."** Chẳng biết có
+    phải vì vậy không mà nồi gà kho gừng ăn vào cứ thấy... thương thương —
+    nó là món của những bữa cơm thường nhất, không giỗ chạp lễ lạt gì,
+    chỉ là má thấy trời chuyển gió nên kho nồi gà cho ấm bụng cả nhà.
+  - >-
+    Món này hay ở chỗ **cả ba miền đều nhận là món nhà mình**: ngoài Bắc
+    kho khô đứng vị mặn, trong Nam thêm chút đường chút nước dừa cho dịu,
+    miền Trung bỏ thêm ớt cay xé — nhưng cái lõi thì đâu cũng vậy: gà xào
+    săn với nước màu, kho liu riu cho thấm, và gừng, thiệt nhiều mùi gừng.
+  - >-
+    Bí quyết cả công thức gói trong hai chữ **"hai đợt"**: gừng lát kho từ
+    đầu cho vị ấm ngấm vào thớ thịt, gừng sợi thả phút cuối cho mùi tươi
+    bung lên theo khói cơm. Nấu đúng một lần là tay quen — sau này cứ thấy
+    gió về là tự động ghé chợ xách con gà với củ gừng.
+
+ingredientGroups:
+  - name: Gà & đồ ướp
+    icon: meat
+    items:
+      - id: ga
+        name: Gà ta (hoặc gà thả vườn)
+        icon: meat
+        color: amber
+        base: 1200
+        unit: g
+        note: Đùi, cánh, má đùi — giữ da kho mới béo óng
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: Băm nhuyễn để ướp
+      - id: mamduong
+        name: Nước mắm + đường + tiêu
+        icon: bottle
+        qtyText: Theo bước hướng dẫn
+        note: Mắm ngon 35 độ đạm trở lên — món ít đồ, mắm phải xịn
+      - id: ot
+        name: Ớt sừng (tùy nhà)
+        icon: chili
+        color: red
+        base: 1
+        unit: trái
+        note: Nhà có con nít thì để nguyên trái, thơm mà không cay
+  - name: Gừng & nước màu
+    icon: ginger
+    items:
+      - id: gung
+        name: Gừng già củ lớn
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Chọn củ già chắc tay, thơm nồng — gừng non lạt mùi
+      - id: duongthang
+        name: Đường thắng nước màu
+        icon: drop
+        color: gold
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Hoặc dùng nước màu dừa chai sẵn [[1|muỗng canh|frac]]
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 3
+        unit: nhánh
+        note: Xắt khúc rắc lúc tắt bếp
+  - name: Ăn kèm đưa cơm
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        qtyText: Nồi cơm vừa chín tới
+        note: Món này sinh ra để chan cơm — nấu dư chút cơm là khôn
+      - id: dualeo
+        name: Dưa leo (hoặc rau luộc)
+        icon: pod
+        color: green
+        base: 2
+        unit: trái
+        note: Mát giòn, cân lại vị kho đậm
+      - id: canh
+        name: Tô canh rau nhẹ
+        icon: bowl
+        qtyText: Canh cải · canh bí · canh mướp
+        note: Mâm kho + canh là công thức cơm nhà muôn đời
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi gà kho sánh keo**
+stepsLead: >-
+  Món kho dễ nhất nhà — không cần canh me gì nhiều, chỉ cần nhớ đúng nhịp:
+  ướp cho thấm, xào cho săn, kho cho mềm, rim cho sánh.
+steps:
+  - title: Sơ chế gà sạch mùi
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - label: "Khử mùi:"
+        text: >-
+          gà chà xát **muối hột + vài lát gừng đập giập**, bóp kỹ rồi xả
+          nước sạch, để thật ráo — bước nhỏ mà quyết định nồi kho thơm hay
+          tanh.
+      - label: "Chặt miếng:"
+        text: >-
+          chặt miếng vừa gắp cỡ **bao diêm lớn**, giữ nguyên da — da gà kho
+          lên vừa óng vừa béo, đừng lột bỏ uổng lắm.
+      - label: "Gừng:"
+        text: >-
+          cạo vỏ chỗ dơ (đừng gọt sạch — vỏ gừng thơm), **nửa củ thái lát
+          mỏng, nửa củ thái sợi** để riêng hai chén.
+    callout:
+      type: tip
+      text: >-
+        Gà ta chắc thịt kho là ngon nhất; dùng gà công nghiệp cũng được —
+        chọn phần **đùi góc tư**, và sau này rút bớt 5–7 phút kho kẻo bở.
+  - title: Ướp gà 15 phút
+    icon: spoon
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Trộn gà với [[2|muỗng canh|frac]] nước mắm, [[1|muỗng canh|frac]]
+          đường, hành tím băm, ½ muỗng cà phê tiêu và **chén gừng lát**.
+      - text: Bóp nhẹ cho gia vị áo đều từng miếng, đậy lại **ướp 15 phút**.
+    callout:
+      type: tip
+      text: >-
+        Có dư 30 phút thì ướp lâu hơn càng thấm — nhưng đừng quá 2 tiếng
+        ngoài bếp nóng; cần để lâu thì cho vô ngăn mát.
+    timer:
+      secs: 900
+      label: Hẹn giờ ướp gà · 15:00
+      doneMsg: Gà thấm rồi — bắc nồi thắng đường!
+  - title: Thắng nước màu, xào gà săn
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - label: "Thắng đường:"
+        text: >-
+          nồi đáy dày cho [[1.5|muỗng canh|frac]] đường +
+          [[1|muỗng canh|frac]] nước, lửa vừa, **đứng canh không rời mắt**
+          tới khi chuyển **màu cánh gián** (nâu hổ phách) là tới bến.
+      - label: "Xào săn:"
+        text: >-
+          trút gà vô liền, đảo nhanh tay cho **miếng gà áo màu nâu óng**,
+          xào 4–5 phút tới da săn lại, thơm nức.
+    callout:
+      type: warn
+      text: >-
+        Đường thắng quá tay chuyển **nâu đen là đắng cả nồi** — thấy màu
+        cánh gián phải cho gà vô ngay. Lỡ thắng khét thì rửa nồi làm lại,
+        đừng tiếc muỗng đường mà tiếc cả con gà.
+  - title: Kho liu riu 20 phút
+    icon: claypot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Châm **nước sôi** vô xâm xấp chừng ⅓ mặt thịt, thả trái ớt nguyên
+          (nếu dùng), đun sôi rồi hạ **lửa nhỏ nhất còn sôi lăn tăn**.
+      - text: >-
+          Kho **20 phút, hé vung**, thỉnh thoảng trở miếng gà cho thấm đều
+          hai mặt.
+      - text: Nước cạn nhanh quá thì châm thêm **nước sôi** từng chút — đừng bao giờ chế nước lạnh.
+    callout:
+      type: tip
+      text: >-
+        Kho bằng **nồi đất** giữ nhiệt đều, tắt bếp rồi nồi vẫn "kho tiếp"
+        thêm được lúc nữa — nhà có cái nồi đất là dịp xài đó.
+    timer:
+      secs: 1200
+      label: Hẹn giờ kho · 20:00
+      doneMsg: Gà mềm thấm rồi — thả gừng sợi, rim sánh!
+  - title: Thả gừng sợi, rim sánh keo
+    icon: ginger
+    minutes: 7 phút
+    bullets:
+      - text: >-
+          Thả **chén gừng sợi** vô, mở lửa lên **vừa**, rim thêm 5–7 phút
+          không đậy vung cho nước rút.
+      - text: >-
+          Nghiêng nồi múc nước rưới lên mặt gà vài lần — tới khi nước kho
+          **sánh keo, bóng óng bám lấy da gà** là đạt.
+      - text: >-
+          Nêm lại lần cuối (thiếu đậm thêm tí mắm, gắt quá thêm tí nước
+          sôi + nhúm đường), rắc **hành lá + tiêu xay**, tắt bếp.
+    callout:
+      type: warn
+      text: >-
+        Độ sánh là do **nước rút + chất keo từ da gà**, không phải do thêm
+        bột — thấy còn loãng cứ kiên nhẫn rim, đừng pha bột năng làm nước
+        kho đục và mau thiu.
+    doneText: Nước kho sánh óng — xới cơm!
+
+tipsTitle: 7 bí quyết cho **nồi gà kho gừng đúng vị**
+tipsLead: >-
+  Món càng ít nguyên liệu càng lộ tay nghề — mấy điều này là ranh giới giữa
+  "gà kho ăn được" và "gà kho ăn nhớ hoài".
+tips:
+  - icon: ginger
+    title: Gừng già, cạo chứ đừng gọt
+    text: >-
+      Gừng non thì lạt, gừng già mới **cay ấm thơm sâu** — chọn củ cầm chắc
+      tay, bẻ nghe giòn rắc. Vỏ gừng thơm lắm, chỉ cần **cạo nhẹ chỗ dơ**
+      rồi rửa sạch; gọt sạch bách là bỏ đi một nửa mùi.
+  - icon: clock
+    title: Gừng hai đợt — thơm mà không hăng
+    text: >-
+      Toàn bộ tinh thần món này: **gừng lát kho từ đầu** cho vị ấm ngấm vào
+      thịt, **gừng sợi thả cuối** cho mùi tươi dậy lên. Dồn hết từ đầu thì
+      hăng đắng; dồn hết lúc cuối thì thịt kho xong... chưa quen mùi gừng.
+  - icon: drop
+    title: Nước màu cánh gián, không hơn
+    text: >-
+      Màu đẹp của nồi kho nằm ở giây quyết định khi thắng đường: **cánh
+      gián là ngừng** — thêm 10 giây nữa là qua nâu đen, đắng khét. Mới tập
+      thắng thì để chén nước kế bên, tới màu là chế vô chặn nhiệt liền.
+  - icon: meat
+    title: Xào săn rồi mới châm nước
+    text: >-
+      Gà xào tới **da săn, cạnh hơi xém** rồi mới kho — thịt giữ ngọt,
+      miếng gà ra nồi còn nguyên dáng đẹp. Bỏ bước này là gà kho kiểu
+      "luộc trong nước mắm", bở và nhạt thớ.
+  - icon: claypot
+    title: Kho lăn tăn, châm nước sôi
+    text: >-
+      Luật chung của mọi món kho: **sôi lăn tăn** cho thấm từ từ, cạn thì
+      châm **nước sôi** — nước lạnh đổ vô là thịt thắt lại, dai. Kho lửa
+      lớn chỉ được cái nhanh... hỏng.
+  - icon: rice
+    title: Kho đậm hơn ăn không một bậc
+    text: >-
+      Món kho là để **gắp cùng cơm trắng** — nêm "vừa miệng" kiểu nếm vã là
+      vô mâm thành lạt. Cứ đậm hơn một bậc, có chén cơm nóng gánh là tròn
+      vị. Đây cũng là lý do món kho luôn cần tô canh đi cặp.
+  - icon: bulb
+    title: Trở trời, cảm mạo — kho nồi này
+    text: >-
+      Gừng ấm tỳ vị, món kho nóng đậm đà — người mệt, cảm lạnh, bà đẻ ăn
+      cơm với gà kho gừng là **ấm từ trong bụng ấm ra**. Không phải thuốc
+      thang gì đâu, nhưng là "liều an ủi" mà bếp Việt truyền đời.
+
+serve:
+  title: Bữa cơm **kho quẹt mưa dầm** đúng nghĩa
+  paras:
+    - >-
+      Gà kho gừng phải ăn lúc **cơm vừa chín tới, nồi kho còn sôi tăm**:
+      chan muỗng nước kho sánh lên chén cơm trước, lùa một đũa "dằn bụng"
+      rồi mới gắp miếng gà — trình tự này con nít nhà nào cũng tự học được,
+      chẳng ai dạy.
+    - >-
+      Mâm chuẩn cơm nhà: đĩa gà kho gừng, tô **canh rau nhẹ** (canh cải,
+      canh mướp, canh bí), thêm dĩa dưa leo hay rau luộc chấm ngay nước
+      kho — đậm có nhạt có, nóng có mát có, ăn hoài không ngán.
+    - >-
+      Trời mưa lạnh mà nồi gà kho gừng đặt giữa mâm, khói bay mùi gừng ấm
+      cả gian bếp — bữa cơm vậy thôi mà **ngon hơn tiệc**, ai từng xa nhà
+      là hiểu.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Đi cặp với gà kho gừng là hết bài:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — nước kho sánh chan cơm là chân lý."
+      - icon: bowl
+        text: "**Canh mướp, canh cải, canh bí** — nhẹ và mát, cân lại vị kho đậm."
+      - icon: pod
+        text: "**Dưa leo / rau lang luộc** — chấm luôn nước kho, đưa cơm dữ lắm."
+      - icon: chili
+        text: "**Chén ớt xắt** — cho người thích cay ấm nhân đôi."
+
+faq:
+  - q: Dùng gà công nghiệp thay gà ta được không?
+    a: >-
+      Được — chọn **đùi góc tư hoặc má đùi** (đừng dùng ức, kho xong khô
+      bã), và rút thời gian kho còn **13–15 phút** rồi rim. Gà công nghiệp
+      mềm sẵn, kho đủ 20 phút như gà ta là nát, mất miếng đẹp.
+  - q: Sợ gừng hăng, con nít không ăn được?
+    a: >-
+      Giảm còn **nửa lượng gừng**, toàn bộ thái lát kho từ đầu (bỏ đợt sợi
+      sống cuối) — vị gừng sẽ dịu hẳn, chỉ còn thơm ấm. Kho thử một lần là
+      biết "đô" nhà mình ở đâu để lần sau tăng giảm.
+  - q: Có nên thêm nước dừa không?
+    a: >-
+      Kiểu Nam thì có: thay phần nước sôi bằng **[[150|ml]] nước dừa
+      tươi** — nồi kho ngọt dịu, màu óng hơn. Kiểu Bắc thì thôi, nước sôi
+      + nêm đứng vị mặn mới "đúng giọng". Cả hai đều ngon, tùy gu nhà.
+  - q: Gà kho gừng là kho khô hay kho nước?
+    a: >-
+      Nằm giữa, nghiêng về khô: kho tới khi nước **rút còn lớp sánh keo
+      bám da**, nghiêng nồi còn đọng vài muỗng để chan cơm là chuẩn. Thích
+      nhiều nước chan thì châm thêm và nêm đậm bù — nhưng đừng loãng như
+      canh, mất chất "kho".
+  - q: Nấu dư để dành được mấy bữa?
+    a: >-
+      Ngăn mát **3 ngày** ngon lành — mà món này **qua một đêm còn thấm
+      đậm hơn**, trưa mai hâm sôi kỹ đem theo hộp cơm là "đỉnh của chóp".
+      Đừng cấp đông lâu: gừng để đông lâu hay dậy mùi nồng, kém thơm.
+  - q: Sao gà của mình kho xong bị dai, xỉn màu?
+    a: >-
+      Dai là do **lửa lớn** hoặc châm **nước lạnh** giữa chừng — thịt thắt
+      lại là hết cứu. Xỉn màu là **nước màu thắng chưa tới** (nhạt) hoặc
+      **quá lửa** (đen). Lần sau: cánh gián – lăn tăn – nước sôi, ba từ
+      khóa đó là nồi kho đẹp liền.
+
+ticker:
+  - icon: ginger
+    text: Gừng già cay ấm
+  - icon: drop
+    text: Nước kho sánh keo cánh gián
+  - icon: meat
+    text: Da gà vàng óng
+  - icon: flame
+    text: Thơm lừng ngày mưa
+  - icon: rice
+    text: Chan cơm nóng là chân lý
+  - icon: herb
+    text: Hành lá tiêu xay dậy mùi

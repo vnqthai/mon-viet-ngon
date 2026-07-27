@@ -69,6 +69,7 @@ const recipes = defineCollection({
       .enum([
         'canh-chua', 'com-tam', 'cha-gio', 'bo-kho', 'kho-qua',
         'pho-bo', 'bun-bo', 'banh-xeo', 'ca-kho', 'thit-kho', 'canh-bi-do',
+        'bun-cha', 'mi-quang', 'ga-kho', 'canh-cua',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

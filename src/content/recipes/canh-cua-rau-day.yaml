@@ -1,0 +1,371 @@
+title: Canh cua rau đay **riêu nổi tảng, mát lòng trưa hè**
+summary: >-
+  Nước cua đồng ngọt lịm với **tảng riêu vàng óng gạch chưng**, rau đay
+  mồng tơi xanh mượt, mướp hương thơm dịu — bát canh trưa hè của Bắc bộ,
+  ăn với cà pháo giòn tan là "hạ nhiệt" cả người lẫn bữa cơm.
+region: Miền Bắc
+category: Canh
+time:
+  total: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 15
+art: canh-cua
+heroEyebrow: Trưa hè oi ả, thèm bát canh cua…
+
+quick:
+  ingredients:
+    - Cua đồng [[400|g]] — nhờ hàng cua **xay sẵn, xin túi gạch để riêng**
+    - Rau đay [[1|bó]] + mồng tơi [[1|bó]] — nhặt lá, thái nhỏ
+    - Mướp hương [[1|trái]] — gọt vỏ, cắt miếng vát
+    - Hành khô [[2|củ]] thái lát — phi thơm chưng gạch
+    - "Nêm: muối [[1|muỗng cà phê]] (cho vào lúc lọc) · nước mắm nhẹ tay · mắm tôm nửa muỗng cà phê (tùy nhà)"
+    - "Ăn kèm: **cà pháo muối** + cơm trắng — bộ đôi định mệnh"
+  steps:
+    - Hòa cua xay với [[1.2|lít]] nước + [[1|muỗng cà phê]] muối, bóp kỹ, **lọc qua rây 2–3 lần** cho sạch sạn.
+    - Phi hành khô thơm vàng, cho **gạch cua vô chưng** với chút nước mắm — múc ra chén để dành.
+    - Bắc nồi nước cua **lửa vừa**, khuấy nhẹ một chiều; nước nóng già thì **ngừng khuấy** cho riêu kết tảng nổi lên, hạ lửa nhỏ.
+    - Riêu nổi chắc thì gạt nhẹ về một góc, thả **mướp** nấu 2 phút.
+    - Thả **rau đay + mồng tơi**, nêm nhẹ tay, sôi lại chừng 1 phút là tắt bếp — rau vừa chín tới, xanh mượt.
+    - Rưới **gạch chưng hành** lên tảng riêu, dọn nóng với cà pháo và cơm trắng.
+  warning: >-
+    Riêu có kết thành tảng hay tan nát là ở một khoảnh khắc: nước **gần
+    sôi là phải ngừng khuấy và hạ lửa** — để sôi bùng lên là riêu vỡ vụn,
+    nước đục, coi như mất phần đẹp nhất của bát canh.
+
+flavor:
+  chua: 0
+  ngot: 7.5
+  man: 5
+  cay: 0
+  thom: 7
+flavorNote: >-
+  **Chuẩn bát canh cua:** nước trong ngọt lịm **vị cua tự nhiên** (không
+  phải vị bột nêm), riêu **kết tảng chắc** vàng óng gạch, rau xanh mượt
+  còn độ nhớt mát đặc trưng — húp tới đâu mát ruột tới đó.
+storyEyebrow: Chuyện bát canh
+storyTitle: Bát canh **"máy lạnh"** của trưa hè Bắc bộ
+story:
+  - >-
+    Chưa có quạt máy điều hòa, người Bắc bộ chống chọi trưa hè bằng… một
+    bát canh: **canh cua rau đay ăn với cà pháo muối**. Đi chợ sớm xách
+    túi cua đồng còn sủi bọt, trưa về cả nhà ngồi quanh mâm, chan muỗng
+    canh ngọt mát vào bát cơm, cắn quả cà giòn tan — nắng nôi ngoài kia
+    bỗng dưng... đỡ ghét hẳn.
+  - >-
+    Cái quý của canh cua là **ngọt thật**: ngọt từ thịt cua đồng giã lọc,
+    không cần viên nêm nào cả. Kỳ diệu nhất là lúc nấu — thịt cua đang tan
+    trong nước, gặp nóng bỗng **kết lại thành tảng riêu** nổi lên như đám
+    mây, được rưới thêm lớp gạch chưng hành vàng óng. Nhà nào nấu khéo,
+    tảng riêu dày chắc là được khen "đảm" ngay.
+  - >-
+    Món này giờ nấu dễ hơn xưa nhiều: hàng cua ngoài chợ **xay sẵn, khều
+    gạch để riêng** cho mình, về chỉ việc lọc và nấu. Chỉ xin giữ đúng một
+    nếp cũ: canh cua **nấu bữa nào ăn hết bữa đó** — và đừng bao giờ quên
+    hũ cà pháo, thiếu nó bát canh cua như thiếu tri kỷ.
+
+ingredientGroups:
+  - name: Cua đồng
+    icon: basket
+    items:
+      - id: cua
+        name: Cua đồng tươi
+        icon: shrimp
+        color: amber
+        base: 400
+        unit: g
+        note: Nhờ hàng cua làm sạch, xay sẵn — xin túi gạch để riêng
+      - id: hanhkho
+        name: Hành khô
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: Thái lát phi thơm để chưng gạch
+      - id: muoi
+        name: Muối hột
+        icon: jar
+        base: 1
+        unit: muỗng cà phê
+        note: Cho vào nước lọc cua — giúp riêu kết tảng chắc
+      - id: mamtom
+        name: Mắm tôm (tùy nhà)
+        icon: jar
+        color: red
+        qtyText: "½ muỗng cà phê"
+        note: Nêm cho dậy mùi đồng quê — không quen thì bỏ qua
+  - name: Rau mùa hè
+    icon: herb
+    items:
+      - id: rauday
+        name: Rau đay
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Nhặt lá non, thái nhỏ — nhớt mát chính là "chất" của nó
+      - id: mongtoi
+        name: Mồng tơi
+        icon: lettuce
+        color: green
+        base: 1
+        unit: bó
+        note: Lá dày xanh mướt, thái vừa — đi cặp với rau đay muôn đời
+      - id: muop
+        name: Mướp hương
+        icon: pod
+        color: green
+        base: 1
+        unit: trái
+        note: Chọn trái thon, cầm nhẹ tay, vỏ xanh non — thơm dịu
+  - name: Ăn kèm đúng lệ
+    icon: rice
+    items:
+      - id: caphao
+        name: Cà pháo muối giòn
+        icon: pod
+        color: gold
+        base: 1
+        unit: chén
+        note: Mua hũ muối sẵn loại giòn trắng — bộ đôi định mệnh của canh cua
+      - id: com
+        name: Cơm trắng
+        icon: rice
+        qtyText: Nồi cơm vừa chín
+        note: Canh cua chan cơm mới đúng bài, đừng húp suông hết
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        qtyText: Nêm nhẹ tay
+        note: Canh cua nêm nhạt — để vị ngọt cua lên tiếng
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **bát canh riêu nổi tảng**
+stepsLead: >-
+  Canh cua chỉ có một khâu cần khéo là **lọc cua và canh lửa cho riêu
+  kết** — nắm được nhịp đó rồi thì 40 phút ra bát canh ngọt lịm, tay nghề
+  như các bà các mẹ.
+steps:
+  - title: Lọc cua — kỹ khâu này, ngọt cả nồi
+    icon: drop
+    minutes: 15 phút
+    bullets:
+      - label: "Hòa nước:"
+        text: >-
+          cho cua xay vô thau với [[1.2|lít]] nước + [[1|muỗng cà
+          phê]] muối, **bóp kỹ 2–3 phút** cho thịt cua tan hết vào nước.
+      - label: "Lắng & lọc:"
+        text: >-
+          để yên 1 phút cho vỏ vụn chìm xuống, gạn nước qua **rây lót vải
+          xô** sang nồi; đổ thêm chút nước vô bã, bóp và lọc **lần 2–3**
+          tới khi nước lọc trong, không còn sạn.
+      - label: "Gạch cua:"
+        text: túi gạch xin ở hàng cua để riêng ra chén nhỏ, lát nữa chưng.
+    callout:
+      type: warn
+      text: >-
+        Sờ đáy nồi nước lọc thấy **lợn cợn sạn là phải lọc thêm lần nữa** —
+        húp canh mà "rạo" một cái là công cả nồi đổ sông. Muối cho vào từ
+        bước này cũng chính là bí quyết giúp riêu kết tảng chắc.
+  - title: Chưng gạch cua với hành phi
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Chảo nhỏ, [[1.5|muỗng canh|frac]] dầu ăn (có mỡ nước càng thơm),
+          phi **hành khô thái lát** tới vàng thơm.
+      - text: >-
+          Trút chén gạch cua vô, thêm **vài giọt nước mắm**, đảo nhẹ 1–2
+          phút tới khi gạch **vàng óng dậy mùi** — múc ra chén để dành rưới
+          mặt canh.
+    callout:
+      type: tip
+      text: >-
+        Đừng bỏ qua bước nhỏ này: gạch chưng hành chính là **màu và mùi
+        "nhà giàu"** của bát canh cua — thiếu nó riêu nhợt màu, kém hẳn
+        phần long trọng.
+  - title: Nấu nước cua — đợi riêu kết tảng
+    icon: pot
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Bắc nồi nước cua lên **lửa vừa**, dùng đũa **khuấy nhẹ một
+          chiều** vài vòng lúc còn nguội — cho thịt cua không lắng dính
+          đáy nồi.
+      - text: >-
+          Nước **nóng già, lăn tăn sắp sôi** thì ngừng khuấy hẳn, hạ lửa
+          nhỏ — thịt cua bắt đầu kết bông, nổi dần lên thành **tảng riêu**.
+      - text: >-
+          Khi riêu nổi chắc thành mảng, lấy muôi **gạt nhẹ riêu gọn về một
+          góc nồi** (hoặc múc nhẹ ra bát) cho khỏi vỡ khi thả rau.
+    callout:
+      type: warn
+      text: >-
+        Từ lúc nước nóng già, **tuyệt đối không khuấy, không để sôi
+        bùng** — riêu đang kết mà bị "quậy" là tan nát, nước đục ngầu.
+        Kiên nhẫn đứng cạnh nồi đúng 3–4 phút này thôi.
+  - title: Thả mướp, rồi tới rau
+    icon: herb
+    minutes: 5 phút
+    bullets:
+      - text: Thả **mướp** vô trước, nấu chừng **2 phút** cho mềm ngọt.
+      - text: >-
+          Thả **rau đay + mồng tơi** thái nhỏ, nhấn nhẹ cho chìm, nêm
+          nước mắm **nhẹ tay** (+ ½ muỗng cà phê mắm tôm nếu nhà quen vị).
+      - text: >-
+          Canh **sôi lại chừng 1 phút**, rau vừa chín tới xanh mượt là tắt
+          bếp liền — nấu lâu rau nẫu vàng, mất giòn mất mát.
+    callout:
+      type: tip
+      text: >-
+        Canh cua nêm **nhạt hơn canh thường một chút** mới khôn — vị ngọt
+        cua tự nhiên rất thanh, nêm đậm quá là "đè" mất, uổng công lọc kỹ.
+    timer:
+      secs: 120
+      label: Hẹn giờ rau chín tới · 02:00
+      doneMsg: Rau xanh mượt rồi — tắt bếp kẻo nẫu!
+  - title: Rưới gạch, dọn mâm
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: Múc canh ra tô lớn, khéo tay giữ **tảng riêu nguyên miếng** nằm giữa.
+      - text: Rưới **chén gạch chưng hành** lên mặt riêu — vàng óng, thơm nức.
+      - text: >-
+          Dọn cùng **chén cà pháo muối** và nồi cơm trắng — chan, húp, cắn
+          quả cà nghe "rốp", đúng vị trưa hè Bắc bộ.
+    doneText: Riêu vàng óng giữa tô — dọn mâm!
+
+tipsTitle: 7 bí quyết cho **bát canh cua ngọt lịm**
+tipsLead: >-
+  Canh cua là bài thi tay nghề kín đáo của người nội trợ Bắc — điểm cao
+  hay thấp nằm ở mấy chỗ này.
+tips:
+  - icon: basket
+    title: Chọn cua đồng chắc, mua buổi sáng
+    text: >-
+      Cua ngon là cua **còn sống, sủi bọt, bấm yếm thấy cứng tay**; cua cái
+      yếm to nhiều gạch, cua đực nhiều thịt — mua lẫn cả hai là nồi canh
+      vẹn cả ngọt lẫn béo. Sau vụ gặt là mùa cua béo nhất.
+  - icon: jar
+    title: Muối bỏ lúc lọc — bí quyết riêu kết
+    text: >-
+      Một muỗng cà phê muối hòa vào nước lọc cua giúp thịt cua **kết tảng
+      chắc nịch** khi gặp nóng — mẹo nhỏ các bà truyền tay, khoa học gọi
+      là giúp protein đông tụ, mình chỉ cần nhớ: **lọc cua là phải có
+      muối**.
+  - icon: flame
+    title: Ba nhịp lửa của nồi riêu
+    text: >-
+      **Lửa vừa** lúc bắt đầu (khuấy nhẹ một chiều), **ngừng khuấy hạ
+      nhỏ** khi nước nóng già, và **không bao giờ sôi bùng**. Thuộc ba
+      nhịp này là mười nồi kết tảng đủ mười.
+  - icon: herb
+    title: Rau đay thái nhỏ mới ra chất
+    text: >-
+      Rau đay thái nhỏ khi nấu mới tiết **độ nhớt mát** đặc trưng — chính
+      cái nhớt ấy làm bát canh "mát ruột" và giúp nước sanh sánh ôm lấy
+      cơm. Ai chưa quen thì bớt rau đay tăng mồng tơi, đừng bỏ hẳn kẻo
+      mất hồn món.
+  - icon: pod
+    title: Mướp hương, đừng mướp già
+    text: >-
+      Mướp hương trái thon, cầm **nhẹ tay, da xanh non** nấu lên thơm dịu
+      ngọt lừ; mướp già nặng tay là xơ xác, nhạt hoét. Gọt xong ngâm sơ
+      nước muối loãng cho khỏi thâm.
+  - icon: bowl
+    title: Cà pháo — tri kỷ không thể vắng
+    text: >-
+      "**Canh cua cà pháo**" đi với nhau như đũa có đôi: canh mát – cà
+      giòn, canh ngọt – cà chua mặn. Mua hũ cà muối sẵn loại trắng giòn,
+      hoặc nhà muối được thì càng quý. Thiếu cà, bữa canh cua mất vui một
+      nửa.
+  - icon: clock
+    title: Nấu bữa nào, hết bữa đó
+    text: >-
+      Canh cua **rất mau thiu**, hâm lại thì riêu nát mùi nồng — nên nấu
+      vừa đủ ăn một bữa, không nấu dư để dành. Cua xay mua về cũng nên
+      lọc nấu trong buổi, đừng để qua đêm.
+
+serve:
+  title: Mâm cơm **trưa hè chuẩn Bắc bộ**
+  paras:
+    - >-
+      Bộ tứ kinh điển: **canh cua rau đay – cà pháo muối – cơm trắng** và
+      thêm món mặn nhẹ (đậu phụ rán chấm mắm, thịt rang cháy cạnh là hợp
+      nhất). Trời càng oi, mâm này càng "được lòng" — thanh, mát, đưa cơm
+      mà không ngấy chút nào.
+    - >-
+      Ăn đúng kiểu: chan canh **ngập nửa bát cơm**, gắp miếng riêu vàng
+      óng đặt lên trên, và một quả cà pháo cắn kèm — mặn, ngọt, mát, giòn
+      đủ cả trong một miếng. Người Bắc xa quê nghe tả tới đây chắc đã
+      thấy... nhớ nhà.
+    - >-
+      Nhà có khách phương xa tới chơi mùa hè, cứ dọn mâm canh cua cà pháo
+      thay vì bày vẽ sơn hào — **món quê đúng lúc luôn thắng món sang
+      sai chỗ**, tin đi.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Đi cùng canh cua là hợp cạ nhất:"
+    items:
+      - icon: pod
+        text: "**Cà pháo muối giòn** — tri kỷ định mệnh, thiếu là mất vui."
+      - icon: meat
+        text: "**Đậu phụ rán chấm mắm** hoặc **thịt rang cháy cạnh** — mặn ấm cân vị."
+      - icon: rice
+        text: "**Cơm trắng dẻo** — để chan canh ngập nửa bát."
+      - icon: lime
+        text: "**Đĩa dưa muối/quả sấu dầm** — thêm góc chua mùa hè, tùy nhà."
+
+faq:
+  - q: Mua cua xay sẵn ngoài chợ có ngon bằng tự giã không?
+    a: >-
+      Gần bằng, mà **tiện gấp mười** — quan trọng là chọn hàng cua đông
+      khách, cua còn sống nhảy, **xay tại chỗ trước mặt mình** và xin túi
+      gạch để riêng. Về nhà lọc kỹ là bát canh không thua cua tự giã bao
+      nhiêu. Chỉ tránh mua cua xay để tủ từ hôm trước — mất ngọt, dễ nặng
+      mùi.
+  - q: Sao riêu của mình không kết tảng mà tan lợn cợn?
+    a: >-
+      Ba lỗi quen thuộc: **quên muối lúc lọc** (riêu thiếu "keo"), **khuấy
+      khi nước đã nóng già** (riêu đang kết bị đánh tan), và **lửa lớn sôi
+      bùng** (riêu vỡ vụn). Thêm một lý do ít ngờ: cua quá ít — dưới
+      [[300|g]] cua cho nồi nước này thì riêu mỏng, khó thành tảng.
+  - q: Không quen độ nhớt của rau đay thì làm sao?
+    a: >-
+      Giảm rau đay còn nửa bó, tăng mồng tơi và mướp — nước canh sẽ thanh
+      trong hơn hẳn. Nhưng thử "nguyên bản" một lần đã: cái nhớt mát ấy
+      chan cơm rất dễ ăn, nhiều người "ghét trên lý thuyết" xong húp hai
+      bát mới chịu buông.
+  - q: Mắm tôm có bắt buộc không?
+    a: >-
+      Không — nhiều nhà chỉ nêm muối với chút nước mắm cho thanh. Nửa
+      muỗng cà phê mắm tôm là kiểu "đậm đà đồng quê", thơm dậy rất riêng
+      nhưng ai không quen sẽ thấy nặng mùi. Nêm thử nửa nồi trước là cách
+      an toàn cho cả nhà.
+  - q: Canh cua để tủ lạnh mai hâm ăn được không?
+    a: >-
+      Thiệt tình là **không nên** — canh cua nổi tiếng mau thiu, hâm lại
+      thì riêu nát, mùi nồng, rau nhũn. Đây là món "ăn tươi": nấu sát giờ
+      cơm, dọn nóng, hết veo trong bữa. Nấu dư thì bớt lượng lại từ đầu
+      cho vừa.
+  - q: Thay cua đồng bằng cua biển hay tôm được không?
+    a: >-
+      Món này thì không — **ngọt cua đồng là vị không thay thế**: cua biển
+      ngọt kiểu khác và không kết riêu; tôm xay thành... canh tôm. Không
+      tìm được cua đồng tươi thì nhiều chợ có **cua đồng xay cấp đông**
+      loại uy tín — vẫn ra bát canh ra hồn, chỉ kém tươi một bậc.
+
+ticker:
+  - icon: bowl
+    text: Riêu cua nổi tảng vàng óng
+  - icon: drop
+    text: Ngọt lịm vị cua đồng
+  - icon: herb
+    text: Rau đay mồng tơi xanh mượt
+  - icon: pod
+    text: Mướp hương thơm dịu
+  - icon: flame
+    text: Gạch chưng hành phi
+  - icon: rice
+    text: Cà pháo cơm trắng trưa hè

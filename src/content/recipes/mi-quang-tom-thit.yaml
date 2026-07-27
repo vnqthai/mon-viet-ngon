@@ -1,0 +1,442 @@
+title: Mì Quảng tôm thịt **sợi vàng óng, nước nhưn đậm đà**
+summary: >-
+  Sợi mì vàng nghệ nằm dưới lớp tôm thịt um đỏ au, nước lèo chỉ chan **xâm
+  xấp mà đậm điếng người**, bẻ miếng bánh tráng mè rắc đậu phộng lên — trộn
+  đều một cái là hiểu tính hào sảng của người xứ Quảng.
+region: Miền Trung
+category: Bún – Phở
+time:
+  total: 1 giờ 30
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 4
+art: mi-quang
+heroEyebrow: Ai về xứ Quảng cùng tui…
+
+quick:
+  ingredients:
+    - Mì Quảng tươi [[1000|g]] (hoặc mì Quảng khô [[400|g]]) · xương ống heo [[500|g]]
+    - Tôm đất [[300|g]] để vỏ · ba chỉ [[400|g]] thái miếng mỏng · trứng cút [[12|trái]]
+    - "Ướp: củ nén [[1|nắm]] (không có thì hành tím [[4|củ]]) · bột nghệ [[1|muỗng cà phê]] · dầu điều [[2|muỗng canh|frac]] · nước mắm [[2|muỗng canh|frac]] · tiêu"
+    - Đậu phộng rang [[100|g]] · bánh tráng mè [[4|cái]] nướng giòn
+    - "Rau sống: bắp chuối bào · cải con · húng lủi · giá"
+    - "Nêm: nước mắm · muối · đường — nước nhân phải **đậm hơn nước phở** một bậc"
+  steps:
+    - Hầm xương ống với [[1.5|lít|frac]] nước lấy chừng [[1.2|lít]] nước ngọt (45 phút, hớt bọt).
+    - Tôm cắt râu **để vỏ**, ba chỉ thái mỏng — ướp chung nén đập + nghệ + dầu điều + mắm tiêu **20 phút**; luộc trứng cút bóc vỏ.
+    - Phi nén thơm với dầu điều, cho ba chỉ xào săn, tôm vô đảo tới **cong đỏ**, thả trứng cút, rim nhỏ lửa 10 phút.
+    - Châm nước xương **vừa ngập nhân**, nêm mắm – muối – đường thiệt đậm, sôi liu riu 15 phút.
+    - Nướng bánh tráng mè, giã dối đậu phộng, soạn rau sống.
+    - "Ráp tô: mì trụng nhanh, xếp tôm thịt trứng, chan nước **xâm xấp ⅓ sợi mì**, rắc đậu phộng hành ngò, cắm miếng bánh tráng — trộn và ăn liền."
+  warning: >-
+    Mì Quảng mà chan ngập nước là thành... bún! Nước lèo chỉ **xâm xấp ⅓
+    tô**, bù lại phải nêm **đậm gấp rưỡi nước phở** — nhín nước chứ không
+    nhín vị.
+
+flavor:
+  chua: 0.5
+  ngot: 5.5
+  man: 7
+  cay: 3
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn vị Quảng:** sợi mì dai mềm quyện nước nhân **đậm – béo – thơm
+  nghệ**, cắn trúng tôm um ngọt lừ, và lúc nào cũng phải nghe **rôm rốp**
+  của bánh tráng mè với đậu phộng mới đúng điệu.
+storyEyebrow: Chuyện tô mì
+storyTitle: Tô mì **hào sảng như người xứ Quảng**
+story:
+  - >-
+    Ở Quảng Nam – Đà Nẵng, mì Quảng không hẳn là "món ăn" — nó là **chuyện
+    nhà**: đám giỗ, cưới hỏi, khách quý ghé chơi, kiểu gì cũng thấy nồi
+    nhân mì um đỏ au đặt giữa bếp. Người ta còn truyền câu ca **"Thương
+    nhau múc bát chè xanh, làm tô mì Quảng mời anh xơi cùng"** — quý nhau
+    tới cỡ nào mới đem mì Quảng ra mời.
+  - >-
+    Cái độc nhất của mì Quảng là **nước nhưn** — người Quảng gọi nhân là
+    "nhưn", nên thứ nước um sóng sánh từ nồi nhân cũng mang tên đó: chan
+    chỉ xâm xấp đáy tô, nhưng đậm và béo tới mức thấm hết vào từng sợi mì
+    vàng ươm màu nghệ. Nhân thì "bao dung" vô cùng — tôm thịt là bản kinh điển, chứ gà,
+    cá lóc, ếch, thậm chí sứa đều thành mì Quảng được hết. Bởi vậy dân
+    Quảng hay cười: **mì Quảng không có chuẩn, chuẩn là... nhà mình nấu**.
+  - >-
+    Bản tôm thịt này giữ đúng bộ tứ làm nên mùi xứ Quảng: **củ nén, nghệ,
+    dầu điều và đậu phộng** — thêm miếng bánh tráng mè nướng bẻ cái rốp
+    trước khi trộn. Nấu một lần cho đúng bài, lần sau bạn sẽ tự tin "chế"
+    kiểu nhà mình — và thế là món này thành của bạn, đúng tinh thần Quảng.
+
+ingredientGroups:
+  - name: Nhân tôm thịt
+    icon: shrimp
+    items:
+      - id: tom
+        name: Tôm đất (tôm sú nhỏ)
+        icon: shrimp
+        color: red
+        base: 300
+        unit: g
+        note: Để nguyên vỏ um mới ngọt nước, đỏ màu — cắt râu là được
+      - id: bachi
+        name: Ba chỉ
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: Thái miếng mỏng vừa gắp — mỡ ra nước um mới béo
+      - id: trungcut
+        name: Trứng cút
+        icon: egg
+        base: 12
+        unit: trái
+        note: Luộc 5 phút, bóc vỏ — không có thì trứng gà cắt tư
+      - id: xuong
+        name: Xương ống heo
+        icon: meat
+        base: 500
+        unit: g
+        note: Hầm lấy nước ngọt nền — nhờ hàng thịt chặt khúc
+  - name: Bộ tứ mùi xứ Quảng
+    icon: stem
+    items:
+      - id: nen
+        name: Củ nén (hành tăm)
+        icon: garlic
+        color: gold
+        base: 1
+        unit: nắm
+        note: Mùi Quảng thứ thiệt — tìm chợ đặc sản; kẹt thì hành tím 4 củ
+      - id: nghe
+        name: Bột nghệ (hoặc nghệ tươi)
+        icon: ginger
+        color: gold
+        base: 1
+        unit: muỗng cà phê
+        note: Cho màu vàng óng — nghệ tươi giã thì 1 lóng tay
+      - id: daudieu
+        name: Dầu màu điều
+        icon: drop
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cùng nghệ làm nên màu vàng cam đặc trưng
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        color: gold
+        base: 100
+        unit: g
+        note: Rang vàng, giã dối — rắc hào phóng đừng tiếc
+  - name: Mì & đồ ăn kèm
+    icon: noodle
+    items:
+      - id: mi
+        name: Mì Quảng tươi (lá mì cắt sợi)
+        icon: noodle
+        base: 1000
+        unit: g
+        note: Sợi to bản màu vàng — không có thì mì Quảng khô [[400|g]]
+      - id: banhtrang
+        name: Bánh tráng mè
+        icon: roll
+        color: gold
+        base: 4
+        unit: cái
+        note: Nướng giòn — bẻ vô tô, "một nửa cái thú" của món này
+      - id: rausong
+        name: Bắp chuối + cải con + húng lủi + giá
+        icon: lettuce
+        color: green
+        base: 1
+        unit: rổ
+        note: Cải con (cải cay non) là rau "ruột" của mì Quảng
+      - id: hanhngo
+        name: Hành lá + ngò rí + ớt xanh
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Ớt xanh cắn nguyên trái mới đúng kiểu Quảng
+  - name: Nêm nếm
+    icon: spoon
+    items:
+      - id: mamduong
+        name: Nước mắm + muối + đường
+        icon: bottle
+        qtyText: Theo bước hướng dẫn
+        note: Nước nhân nêm đậm — chan ít nên vị phải gánh
+      - id: daan
+        name: Dầu phộng (ưu tiên) hoặc dầu ăn
+        icon: drop
+        color: gold
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Dầu phộng thơm bùi — đúng chất bếp miền Trung
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **tô mì vàng óng đúng chất Quảng**
+stepsLead: >-
+  Mì Quảng làm một mạch rất nhàn: nồi xương tự sôi, mình ướp và um nhân —
+  khâu quyết định là **um cho thấm** và **nêm cho đậm**, còn lại dễ ợt.
+steps:
+  - title: Hầm nước xương nền
+    icon: pot
+    minutes: 45 phút
+    bullets:
+      - text: >-
+          Xương ống chần nước sôi **2 phút**, xả sạch, cho vô nồi với
+          [[1.5|lít|frac]] nước + [[1|muỗng cà phê]] muối.
+      - text: >-
+          Đun sôi, hớt bọt, hạ **liu riu 45 phút** — lấy chừng
+          [[1.2|lít]] nước ngọt trong. Nồi này sôi trong lúc mình làm
+          hết các bước dưới, khỏi đứng canh.
+    callout:
+      type: tip
+      text: >-
+        Kẹt giờ thì thay bằng nước dùng gà hộp pha loãng — nhưng có 45 phút
+        thì cứ hầm: nước xương thật là cái nền làm **nước nhưn ngọt sâu**,
+        khác hẳn nêm bột ngọt.
+    timer:
+      secs: 2700
+      label: Hẹn giờ hầm xương · 45:00
+      doneMsg: Nước xương ngọt rồi — chuẩn bị châm vô nhân!
+  - title: Sơ chế & ướp tôm thịt
+    icon: knife
+    minutes: 25 phút
+    bullets:
+      - label: "Tôm:"
+        text: >-
+          cắt râu, rút chỉ lưng, **giữ nguyên vỏ và đầu** — gạch tôm um lên
+          màu đỏ óng, vỏ tiết ngọt không gì thay được.
+      - label: "Ba chỉ:"
+        text: thái miếng mỏng cỡ nửa bao diêm, để ráo.
+      - label: "Ướp chung:"
+        text: >-
+          củ nén đập giập, trộn tôm + thịt với [[1|muỗng cà phê]] bột nghệ,
+          [[1|muỗng canh|frac]] dầu điều, [[2|muỗng canh|frac]] nước mắm,
+          ½ muỗng cà phê tiêu — ướp **20 phút**.
+      - label: "Trứng cút:"
+        text: luộc **5 phút** từ nước sôi, ngâm nước lạnh, bóc vỏ để sẵn.
+    callout:
+      type: tip
+      text: >-
+        Củ nén đập giập chứ đừng băm nhuyễn — nén thả mùi vào dầu khi phi,
+        còn nguyên tép nhỏ cắn trúng thơm bùng miệng mới thú.
+    timer:
+      secs: 1200
+      label: Hẹn giờ ướp · 20:00
+      doneMsg: Tôm thịt thấm nghệ vàng ươm — um thôi!
+  - title: Um nhân — linh hồn của tô mì
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Nồi rộng đáy, [[3|muỗng canh|frac]] dầu phộng, lửa vừa, phi **củ
+          nén** (và [[1|muỗng canh|frac]] dầu điều còn lại) tới thơm nức.
+      - text: >-
+          Cho ba chỉ vô xào **3–4 phút** cho săn và ra mỡ; trút tôm vô đảo
+          tới khi **cong mình đỏ au**.
+      - text: >-
+          Thả trứng cút, hạ lửa nhỏ, đậy nắp **um 10 phút** — thỉnh thoảng
+          xóc nồi cho nhân thấm đều, ra nước um sóng sánh.
+    callout:
+      type: warn
+      text: >-
+        "Um" là rim nhỏ lửa cho tự ra nước — **đừng châm nước ở bước này**.
+        Châm sớm là tôm thịt luộc lơ lớ, mất lớp vị um đậm bám ngoài mặt.
+    timer:
+      secs: 600
+      label: Hẹn giờ um nhân · 10:00
+      doneMsg: Nhân thấm đỏ au rồi — châm nước xương!
+  - title: Châm nước, nêm cho tới
+    icon: spoon
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Châm nước xương vô nồi nhân **vừa ngập mặt** (chừng
+          [[1.2|lít]]), đun sôi trở lại, hớt bọt.
+      - text: >-
+          Nêm: [[1.5|muỗng canh|frac]] nước mắm + [[1|muỗng cà phê]] đường +
+          muối từng chút, sôi **liu riu 15 phút** cho tôm thịt nhả ngọt.
+      - text: >-
+          Nếm thử và nhớ luật: nước nhân phải **đậm tới mức húp một muỗng
+          thấy "hơi quá"** — vì lát nữa chỉ chan xâm xấp, sợi mì lạt sẽ kéo
+          vị về đúng chỗ.
+    callout:
+      type: warn
+      text: >-
+        Nêm "vừa miệng như nước canh" là tô mì ra **lạt nhách** — lỗi số một
+        của người lần đầu nấu mì Quảng. Cứ mạnh dạn đậm lên một bậc.
+  - title: Soạn đồ ăn kèm — dàn bao rôm rả
+    icon: basket
+    minutes: 15 phút
+    bullets:
+      - label: "Bánh tráng:"
+        text: >-
+          nướng bánh tráng mè trên lửa nhỏ (hoặc nồi chiên không dầu 160°C
+          chừng 3 phút) tới **phồng giòn, mè vàng thơm**.
+      - label: "Đậu phộng:"
+        text: rang vàng vỏ hơi nứt, để nguội, **giã dối** — còn hột còn mảnh mới vui miệng.
+      - label: "Rau:"
+        text: >-
+          bắp chuối bào ngâm nước pha chanh cho trắng giòn; cải con, húng
+          lủi, giá rửa sạch để ráo; hành ngò xắt nhỏ.
+    callout:
+      type: tip
+      text: >-
+        Món này "dàn bao" quan trọng ngang nhân chính — thiếu bánh tráng
+        với đậu phộng là tô mì **mất tiếng rôm rốp**, ăn hụt hẫng lắm.
+  - title: Ráp tô — chan nhín tay thôi!
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Mì tươi trụng nước sôi **10 giây** cho nóng (mì khô luộc theo bao
+          bì, xả, xóc chút dầu phộng), cho vô tô lót ít rau sống dưới đáy
+          nếu thích đúng kiểu Quảng.
+      - text: Xếp tôm, thịt, trứng cút lên mặt, múc nước nhân chan **xâm xấp ⅓ sợi mì**.
+      - text: >-
+          Rắc đậu phộng + hành ngò, **cắm miếng bánh tráng mè** bên thành
+          tô, dọn kèm rổ rau và trái ớt xanh.
+      - text: Ăn đúng bài — bẻ vụn bánh tráng vô tô, **trộn đều từ dưới lên** rồi lùa ngay khi còn nóng.
+    callout:
+      type: tip
+      text: >-
+        Người Quảng ăn mì kèm **trái ớt xanh cắn nguyên trái** — cay giòn
+        thơm chứ không xé lưỡi như ớt đỏ. Thử một lần cho biết đã đời.
+    doneText: Trộn đều, lùa liền — xong!
+
+tipsTitle: 7 bí quyết cho **tô mì Quảng đúng điệu**
+tipsLead: >-
+  Mì Quảng dễ nấu mà khó "ra chất Quảng" — khác nhau nằm hết ở mấy điều
+  này, đọc trước khi vô bếp nghen.
+tips:
+  - icon: drop
+    title: Nước nhưn — chan nhín, nêm đậm
+    text: >-
+      "Nhưn" là tiếng Quảng của "nhân" — nước um từ nồi nhân nên gọi là
+      **nước nhưn**. Luật của nó: **chan ít, nêm đậm** — xâm xấp ⅓ tô để
+      sợi mì thấm chứ không bơi, vị đậm gấp rưỡi nước phở để mỗi đũa mì
+      đều "dính" vị. Đây là ranh giới giữa mì Quảng và một tô bún thường.
+  - icon: garlic
+    title: Củ nén — mùi không thay được
+    text: >-
+      Nén (hành tăm) thơm nồng ấm rất riêng, phi lên là bếp "bay mùi miền
+      Trung" liền. Chợ đặc sản, sạp rau Quảng – Huế hay siêu thị online đều
+      có. Kẹt lắm mới thay hành tím — tô mì vẫn ngon nhưng dân Quảng nếm là
+      biết "thiếu nén" ngay.
+  - icon: shrimp
+    title: Tôm để vỏ mới ra màu ra ngọt
+    text: >-
+      Vỏ và đầu tôm khi um tiết **gạch đỏ óng** xuống nước nhân — bóc vỏ
+      trước là nước nhợt, tôm khô. Sợ khó ăn thì để vỏ khi um, lúc dọn bóc
+      vài con bày mặt tô cho đẹp là vẹn cả đôi đường.
+  - icon: ginger
+    title: Nghệ + điều, màu thật của xứ Quảng
+    text: >-
+      Màu vàng cam của tô mì là **nghệ và dầu điều cộng lại** — nghệ cho
+      vàng trầm, điều cho cam óng. Đừng thay bằng bột màu công nghiệp; và
+      cũng đừng quá tay nghệ kẻo nước nhân đắng nhẹ.
+  - icon: roll
+    title: Bánh tráng mè, nướng sát giờ ăn
+    text: >-
+      Bánh tráng nướng để lâu là **ỉu mềm oặt** — nướng ngay trước khi ráp
+      tô, hoặc nướng sẵn thì cất hộp kín. Phải là loại **có mè**: vừa giòn
+      vừa thơm, bẻ vô tô nghe rốp một cái là "đúng đài" rồi.
+  - icon: pod
+    title: Đậu phộng giã dối, rắc hào phóng
+    text: >-
+      Giã dối — nửa nát nửa nguyên hột — để vừa có bụi bùi quyện nước, vừa
+      có hột giòn cắn vui răng. Mì Quảng mà rắc đậu phộng dè sẻn là người
+      Quảng... buồn lắm đó.
+  - icon: clock
+    title: Ăn liền, đừng để tô chờ
+    text: >-
+      Sợi mì gặp nước nóng là bắt đầu nở — để 15 phút là **bở, đục nước**.
+      Nhà đông người cứ dọn kiểu Quảng: nồi nhân giữa bàn, ai ăn ráp tô
+      nấy, tới đâu nóng giòn tới đó.
+
+serve:
+  title: Dọn mâm — **nồi nhân giữa bàn, ai ăn nấy ráp**
+  paras:
+    - >-
+      Mì Quảng ăn kiểu "tự phục vụ" là vui nhất: nồi nhân đỏ au đặt giữa,
+      mâm bày mì, rau, đậu phộng, chồng bánh tráng — mỗi người ráp tô theo
+      "trường phái" của mình, đứa nhiều tôm, đứa ngập đậu phộng, **rôm rả
+      như đám giỗ ngoài quê**.
+    - >-
+      Nhớ trộn đều trước khi ăn cho nước nhân áo lấy từng sợi mì, gắp kèm
+      nhúm **cải con húng lủi**, thỉnh thoảng cắn miếng ớt xanh — đậm, béo,
+      the, giòn đủ cả trong một đũa.
+    - >-
+      Nước nhân dư đừng đổ: mai trụng thêm vắt mì, chan lại vẫn ngon — hoặc
+      chan cơm nóng ăn sáng kiểu "mì Quảng hóa cơm hến" cũng hao cơm lắm à.
+  aside:
+    title: Trên mâm mì Quảng
+    intro: "Thiếu thứ nào tô mì kém vui thứ đó:"
+    items:
+      - icon: roll
+        text: "**Bánh tráng mè nướng** — bẻ vô tô trước khi trộn, giòn rụm."
+      - icon: pod
+        text: "**Chén đậu phộng rang** — rắc thoải mái, đừng tiếc."
+      - icon: lettuce
+        text: "**Rổ rau có cải con + bắp chuối** — tươi giòn, the nhẹ đúng vị Quảng."
+      - icon: chili
+        text: "**Ớt xanh nguyên trái** — cắn kèm, cay thơm kiểu miền Trung."
+
+faq:
+  - q: Mì Quảng khác bún, phở chỗ nào mà nước ít vậy?
+    a: >-
+      Khác ở **triết lý**: bún phở là món nước — sợi bơi trong nước lèo;
+      mì Quảng là **món trộn có nước** — nước nhưn chan nhín tay, chỉ để
+      thấm và dẫn vị,
+      còn cái ngon nằm ở sợi mì, nhân um và đồ giòn rắc mặt. Bởi vậy ăn mì
+      Quảng phải trộn, không ai "húp" mì Quảng bao giờ.
+  - q: Ngoài miền Trung, kiếm sợi mì Quảng ở đâu?
+    a: >-
+      Ba đường: sạp **đặc sản miền Trung** ở chợ lớn thường có lá mì tươi
+      buổi sáng; siêu thị và sàn online bán **mì Quảng khô** (dùng tốt, trụng
+      theo bao bì rồi xóc dầu phộng); kẹt nữa thì **bánh phở tươi loại to
+      bản** thay tạm — kém dai hơn nhưng vẫn ra dáng tô mì.
+  - q: Không tìm được củ nén thì sao?
+    a: >-
+      Thay bằng **hành tím đập giập** (4 củ cho công thức này) + 1 tép tỏi.
+      Mùi sẽ "hiền" hơn bản gốc chút. Mà nén để được lâu lắm — thấy đâu bán
+      cứ mua sẵn một túi, cất ngăn mát cả tháng, nấu canh gà kho cá đều
+      thơm.
+  - q: Đổi nhân gà, cá lóc… được không?
+    a: >-
+      Quá được — mì Quảng nổi tiếng "bao dung": **gà ta chặt miếng um sả
+      nghệ**, cá lóc, ếch, thậm chí sứa đều thành chuyện. Giữ nguyên bộ tứ
+      nén – nghệ – điều – đậu phộng và nguyên tắc chan nhín nêm đậm là kiểu gì cũng
+      ra "chất Quảng".
+  - q: Sao nước nhân của mình nhạt màu, lạt vị?
+    a: >-
+      Ba chỗ hay hụt: **um chưa tới** (nhân chưa kịp ra nước ngọt đã châm
+      nước xương), **thiếu dầu điều** (màu chỉ trông vào nghệ nên xỉn), và
+      **nêm rụt rè**. Um đủ 10 phút, đủ 2 muỗng dầu điều, nêm đậm hơn cảm
+      giác "vừa miệng" một bậc là tô sau đẹp liền.
+  - q: Làm trước được khâu nào khi đãi khách?
+    a: >-
+      Gần hết luôn: nước xương và nhân um **nấu trước nửa ngày**, rau rửa
+      sẵn, đậu phộng bánh tráng làm từ sáng. Khách tới chỉ đun sôi nồi
+      nhân, trụng mì, ráp tô — 10 phút ra một loạt tô nóng hổi, chủ nhà
+      vẫn kịp ngồi kể chuyện.
+
+ticker:
+  - icon: noodle
+    text: Sợi mì vàng ươm màu nghệ
+  - icon: drop
+    text: Nước nhưn đậm điếng người
+  - icon: shrimp
+    text: Tôm um đỏ au ngọt lừ
+  - icon: roll
+    text: Bánh tráng mè bẻ rốp
+  - icon: pod
+    text: Đậu phộng rang bùi béo
+  - icon: garlic
+    text: Củ nén phi thơm nức
+  - icon: lettuce
+    text: Cải con húng lủi the mát
