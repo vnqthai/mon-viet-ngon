@@ -5,6 +5,7 @@ import Icon from '../../components/Icon.astro';
 import RecipeArt from '../../components/art/RecipeArt.astro';
 import { rich, plain } from '../../utils/rich';
 import { fmtQty } from '../../utils/qty';
+import { viDurationToISO, stepToPlainText } from '../../utils/seo';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -25,13 +26,45 @@ const FLAVOR_ROWS = [
 const viNum = (n: number) => String(n).replace('.', ',');
 const totalItems = d.ingredientGroups.reduce((s: number, g: any) => s + g.items.length, 0);
 const hasTicker = Boolean(d.ticker?.length);
+
+/* schema.org Recipe → Google hiện rich result (thời gian, nguyên liệu…) */
+const pageUrl = new URL(`/mon/${slug}/`, Astro.site).href;
+const ogImage = `/og/${slug}.png`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Recipe',
+  name: plain(d.title),
+  description: plain(d.summary),
+  image: [new URL(ogImage, Astro.site).href],
+  author: { '@type': 'Organization', name: 'Món Việt Ngon', url: Astro.site?.href },
+  inLanguage: 'vi',
+  recipeCuisine: 'Việt Nam',
+  recipeCategory: d.category,
+  keywords: [plain(d.title), d.region, d.category, 'món Việt', 'công thức', 'nấu ăn'].join(', '),
+  totalTime: viDurationToISO(d.time.total),
+  recipeYield: `${d.servingsBase} người ăn`,
+  recipeIngredient: d.ingredientGroups.flatMap((g: any) =>
+    g.items.map((it: any) =>
+      it.base != null ? `${fmtQty(it.base, it.unit, it.frac, 1)} ${it.name}` : `${it.name} (${it.qtyText})`
+    )
+  ),
+  recipeInstructions: d.steps.map((s: any, i: number) => ({
+    '@type': 'HowToStep',
+    position: i + 1,
+    name: plain(s.title),
+    text: stepToPlainText(s),
+    url: `${pageUrl}#buoc-${i + 1}`,
+  })),
+};
 ---
 <Base
   title={`${plain(d.title)} — Món Việt Ngon`}
   description={plain(d.summary)}
+  ogImage={ogImage}
   showPrint={true}
   active="mon"
 >
+<script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
 <main id="recipe-root" data-slug={slug} data-servings-base={d.servingsBase}>
 
   <!-- ============ HERO ============ -->

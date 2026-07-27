@@ -9,10 +9,12 @@ import '../styles/home.css';
 interface Props {
   title: string;
   description: string;
+  ogImage?: string;      // ảnh chia sẻ MXH, mặc định thẻ chung của trang
   showPrint?: boolean;   // hiện nút in (trang món ăn)
   active?: 'home' | 'mon' | 'bi-quyet';
 }
-const { title, description, showPrint = false, active } = Astro.props;
+const { title, description, ogImage = '/og/default.png', showPrint = false, active } = Astro.props;
+const ogImageAbs = new URL(ogImage, Astro.site).href;
 ---
 <!DOCTYPE html>
 <html lang="vi">
@@ -24,6 +26,12 @@ const { title, description, showPrint = false, active } = Astro.props;
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="vi_VN" />
+  <meta property="og:image" content={ogImageAbs} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content={title} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content={ogImageAbs} />
   <title>{title}</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
