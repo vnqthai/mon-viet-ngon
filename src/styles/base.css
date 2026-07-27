@@ -187,7 +187,7 @@ section[id]{scroll-margin-top:80px}
   .reveal{opacity:1;transform:none}
 }
 @media print{
-  .site-head,.ticker,.checker,.toast,.site-foot .fine,.site-foot__nav{display:none !important}
+  .site-head,.ticker,.checker,.toast,.site-foot__nav{display:none !important}
   body{background:#fff;color:#000;font-size:11pt}
   .section{padding:20pt 0}
   .tip{box-shadow:none;border:1px solid #bbb;break-inside:avoid}
