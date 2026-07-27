@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { MEO_BEP } from '../data/meo-bep';
+import { rich } from '../utils/rich';
+---
+<Base
+  title="Bí quyết bếp Việt — Món Việt Ngon"
+  description="Những mẹo bếp nhỏ mà có võ của người nấu lâu năm: chọn nước mắm, thắng nước màu, phi tỏi, khử tanh cá, luộc rau xanh giòn…"
+  active="bi-quyet"
+>
+<main>
+  <section class="section" id="meo-bep">
+    <div class="wrap">
+      <p class="eyebrow reveal">Nghe lời má dặn</p>
+      <h2 class="reveal">Bí quyết bếp Việt — <span class="accent">nhỏ mà có võ</span></h2>
+      <p class="section__lead reveal">
+        Mấy điều người nấu lâu năm coi là hiển nhiên nhưng ít ai chịu viết ra.
+        Thuộc được chừng này là tay nghề lên một bậc, nấu món nào cũng áp dụng được.
+      </p>
+      <div class="tips-grid">
+        {MEO_BEP.map((meo) => (
+          <div class="tip reveal">
+            <div class="tip__icon"><Icon name={meo.icon} /></div>
+            <h3>{meo.title}</h3>
+            <p set:html={rich(meo.text)} />
+          </div>
+        ))}
+      </div>
+      <div class="coming reveal" style="justify-content:center">
+        <a class="btn btn--line" href="/mon/">
+          Đem bí quyết đi nấu liền
+          <Icon name="arrow-right" />
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+</Base>

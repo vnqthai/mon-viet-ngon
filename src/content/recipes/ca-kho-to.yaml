@@ -1,0 +1,289 @@
+title: Cá kho tộ **lửa liu riu keo sánh**
+summary: >-
+  Khứa cá thấm đẫm nước màu cánh gián, tiêu cay nồng, kho trong nồi đất tới khi
+  **nước kho keo lại óng ánh** — món đưa cơm số một của bếp Nam Bộ.
+region: Miền Nam
+category: Kho
+time:
+  total: 1 giờ 15 phút
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 2
+heroEyebrow: Cơm trắng chờ sẵn nghen…
+
+quick:
+  ingredients:
+    - Cá lóc (hoặc cá hú, cá basa) [[700|g]] — cắt khúc dày, khử tanh kỹ
+    - Thịt ba rọi [[100|g]] xắt mỏng (cho béo — bỏ qua cũng được)
+    - Hành tím [[3|củ]] + tỏi [[3|tép]] băm · ớt [[2|trái]] · hành lá, tiêu
+    - >-
+      Ướp & kho: nước mắm [[3|muỗng canh|frac]] · đường [[2.5|muỗng canh|frac]]
+      (thắng nước màu) · hạt nêm, tiêu
+  steps:
+    - Cá chà muối + chanh khử tanh, cắt khúc; ướp mắm – đường – hành tỏi – tiêu **30 phút**.
+    - "Thắng nước màu: đường + chút nước, lửa vừa tới màu cánh gián thì tắt bếp, chế nước nóng vào."
+    - Lót ba rọi đáy tộ, xếp cá lên, rưới nước màu + nước ướp, thêm nước sôi xâm xấp mặt cá.
+    - Kho **lửa liu riu, mở nắp** 25–30 phút; thỉnh thoảng nghiêng nồi rưới nước kho lên mặt cá.
+    - Nước kho keo sánh thì nêm lại, rắc tiêu + hành lá + ớt. Ăn nóng với thiệt nhiều cơm.
+  warning: >-
+    Thắng nước màu quá tay là đắng cả nồi — đường vừa chuyển cánh gián là dừng
+    ngay. Và kho cá thì **đừng lật trở nhiều**, cá nát mất đẹp.
+
+flavor:
+  chua: 0.5
+  ngot: 7
+  man: 8
+  cay: 5
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn cá kho tộ:** mặn ngọt đậm đà quyện nhau, hậu cay ấm của tiêu, miếng
+  cá gắp lên phải **kéo theo sợi nước kho keo óng**.
+storyEyebrow: Chuyện ơ cá kho
+storyTitle: Ơ cá kho — **tri kỷ của nồi cơm**
+story:
+  - >-
+    Nếu canh chua là "bản nhạc mở màn" của mâm cơm Nam Bộ thì cá kho tộ là
+    **giọng trầm giữ nhịp**. Hai món này sinh ra để đi chung: một chua thanh
+    mát, một mặn ngọt đậm đà — và ở giữa là nồi cơm trắng vơi đi nhanh tới mức
+    khó tin.
+  - >-
+    Chữ "tộ" là cái nồi đất, cái thố sành — thứ giữ nhiệt đều và ám mùi khói
+    bếp qua từng lần kho, càng kho lâu năm càng "ngọt nồi". Cá kho đúng kiểu
+    phải **kho mở nắp, lửa liu riu**, để nước kho cạn từ từ mà keo lại, chớ
+    không phải đậy vung um sùm cho mau.
+  - >-
+    Công thức này dùng cá lóc cho chắc thịt, thêm mấy lát ba rọi cho béo —
+    kiểu kho "nhà giàu chút xíu" mà đám nhỏ nào cũng mê.
+
+ingredientGroups:
+  - name: Phần cá & thịt
+    icon: fish
+    items:
+      - id: ca
+        name: Cá lóc (hoặc cá hú, basa)
+        icon: fish
+        base: 700
+        unit: g
+        note: Cắt khúc dày 3–4 cm, khử tanh kỹ
+      - id: baroi
+        name: Thịt ba rọi
+        icon: meat
+        base: 100
+        unit: g
+        note: Xắt lát mỏng — lót đáy nồi cho béo
+  - name: Gia vị kho
+    icon: jar
+    items:
+      - id: duong
+        name: Đường cát (thắng nước màu)
+        icon: jar
+        color: gold
+        base: 2.5
+        unit: muỗng canh
+        frac: true
+        note: Thắng tới màu cánh gián
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: 40 độ đạm thì nồi kho dậy mùi
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 3
+        unit: củ
+        note: Băm nhuyễn ướp cá
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 3
+        unit: tép
+        note: Băm nhuyễn ướp cùng hành
+      - id: ot
+        name: Ớt sừng
+        icon: chili
+        color: red
+        base: 2
+        unit: trái
+        note: Trái xắt lát, trái để nguyên dằm nhẹ
+      - id: tieu
+        name: Tiêu xay + hành lá
+        icon: pepper
+        qtyText: Tiêu 1 muỗng cà phê · hành lá 2 nhánh
+        note: Rắc lúc tắt bếp mới thơm
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Muối · hạt nêm · dầu ăn
+        note: Nêm nếm theo bước hướng dẫn
+  - name: Dọn kèm
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        qtyText: Nhiều hơn ngày thường!
+        note: Món này "hao cơm" có tiếng
+      - id: rauluoc
+        name: Rau luộc hoặc dưa leo
+        icon: lettuce
+        color: green
+        qtyText: 1 dĩa
+        note: Chấm nước cá kho — ngon quên lối về
+
+steps:
+  - title: Sơ chế & ướp cá cho thấm
+    icon: knife
+    minutes: 35 phút
+    bullets:
+      - label: "Khử tanh:"
+        text: >-
+          cá chà xát **muối hột + nước cốt chanh**, rửa sạch, để thiệt ráo
+          (cá ướt kho dễ tanh và văng dầu).
+      - label: "Ướp:"
+        text: >-
+          [[1.5|muỗng canh|frac]] nước mắm + 1 muỗng cà phê đường + ½ muỗng cà
+          phê hạt nêm + ½ muỗng cà phê tiêu + hành tím, tỏi băm. Ướp **30
+          phút** cho thấm sâu.
+      - label: "Ba rọi:"
+        text: xắt lát mỏng, ướp chút nước mắm riêng.
+    callout:
+      type: tip
+      text: >-
+        Có thời gian thì ướp cá **1 tiếng trong ngăn mát** — kho lên miếng cá
+        đậm từ trong ra ngoài, không phải "mặn vỏ lạt lòng".
+    timer:
+      secs: 1800
+      label: Hẹn giờ ướp cá · 30:00
+      doneMsg: Cá thấm rồi — thắng nước màu thôi!
+  - title: Thắng nước màu cánh gián
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Cho [[1|muỗng canh|frac]] đường + 1 muỗng canh nước vào nồi kho,
+          **lửa vừa**, không khuấy — chỉ cầm quai nghiêng đảo nhẹ.
+      - text: >-
+          Đường chảy, sủi tăm, chuyển vàng → **cánh gián** là tắt bếp liền,
+          chế ngay 3 muỗng canh nước nóng vào (cẩn thận văng!), lắc đều.
+    callout:
+      type: warn
+      text: >-
+        Ranh giới giữa **cánh gián thơm** và **cháy đắng** chỉ chừng 10 giây.
+        Thấy khói bốc nhiều, màu sậm nhanh là quá lửa — bỏ, thắng lại mẻ khác,
+        đừng tiếc.
+  - title: Xếp cá vô tộ, châm nước kho
+    icon: claypot
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          **Lót ba rọi dưới đáy** nồi đất, xếp khúc cá lên trên (thịt mỡ ở
+          dưới vừa chống dính vừa thấm béo lên cá).
+      - text: >-
+          Rưới nước màu + toàn bộ nước ướp lên cá, thêm **nước sôi xâm xấp
+          mặt cá** (chừng [[150|ml]]), thả ớt nguyên trái vào.
+    callout:
+      type: tip
+      text: >-
+        Không có nồi đất thì nồi đáy dày nào cũng kho được — nhưng nồi đất giữ
+        nhiệt đều, cạn tới đâu thơm tới đó, đáng sắm một cái lắm nghen.
+  - title: Kho lửa liu riu, mở nắp
+    icon: flame
+    minutes: 30 phút
+    bullets:
+      - text: Đun sôi bùng một cái rồi **hạ lửa nhỏ nhất**, kho **mở nắp**.
+      - text: >-
+          Cứ 7–10 phút lại **nghiêng nồi, múc nước kho rưới lên mặt cá** cho
+          thấm đều và lên màu bóng. **Không lật trở** — cá nát.
+      - text: >-
+          Kho 25–30 phút tới khi nước kho **cạn còn một phần ba, sánh keo**,
+          bám óng lên từng khúc cá.
+    callout:
+      type: warn
+      text: >-
+        Kho lửa lớn cho mau là nước cạn xèo xèo mà cá chưa kịp thấm, dưới khét
+        trên lạt. Món kho ăn nhau ở chữ **liu riu** — ráng nhịn, đáng lắm.
+    timer:
+      secs: 1500
+      label: Hẹn giờ kho cá · 25:00
+      doneMsg: Coi nồi nghen — nước kho phải keo sánh rồi đó!
+  - title: Nêm lại & rắc tiêu hành
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Nếm nước kho: chuẩn là **mặn ngọt đậm đà, hậu hơi ngọt** — lạt thì
+          thêm chút mắm, gắt thì thêm chút nước nóng, kho thêm 2 phút.
+      - text: >-
+          Tắt bếp, rắc **tiêu xay + hành lá xắt nhỏ + ớt lát**, đậy nắp 2 phút
+          cho hơi nóng đánh thức mùi tiêu.
+      - text: Bưng nguyên tộ ra bàn cho nóng — ăn tới đâu múc tới đó.
+    doneText: Bưng tộ lên mâm — xong!
+
+tipsTitle: 4 bí quyết cho **ơ cá kho đúng điệu**
+tips:
+  - icon: claypot
+    title: Kho "hai lửa" càng ngon
+    text: >-
+      Kho lần một xong **để nguội hẳn vài tiếng** (hoặc qua đêm ngăn mát) rồi
+      kho lại lần hai cho nóng. Lúc nguội gia vị mới ngấm sâu — cá kho hôm sau
+      luôn ngon hơn hôm đầu là vì vậy.
+  - icon: jar
+    title: Nước màu tự thắng, đừng mua
+    text: >-
+      Nước màu chai tiện nhưng mùi caramel công nghiệp **át mất mùi mắm**.
+      Thắng lấy 5 phút, được màu cánh gián thơm mùi đường cháy nhẹ — hồn của
+      món kho nằm ở đây.
+  - icon: fish
+    title: Cá basa, cá hú nên chần sơ
+    text: >-
+      Cá da trơn nhiều nhớt — **chần nước sôi 20 giây** rồi rửa lại trước khi
+      ướp là hết nhớt, hết tanh, khứa cá kho lên không bị vỡ da.
+  - icon: pepper
+    title: Tiêu bỏ cuối mới cay thơm
+    text: >-
+      Tiêu kho từ đầu chỉ còn vị cay gắt mà bay hết mùi. **Rắc lúc vừa tắt
+      bếp**, hơi nóng làm dậy mùi tiêu thơm lừng — khác nhau một trời một vực.
+
+serve:
+  title: Ăn cá kho là phải **tốn cơm**
+  paras:
+    - >-
+      Cá kho tộ dọn ra là phải còn **sôi lăn tăn trong tộ**, thơm mùi tiêu với
+      nước màu. Gắp khúc cá đặt lên chén cơm nóng, chan muỗng nước kho keo óng
+      — trời mưa lâm râm mà có chén cơm này là quên hết chuyện đời.
+    - >-
+      Đúng bài Nam Bộ thì bên cạnh phải có **tô canh chua cá lóc**: húp miếng
+      canh chua thanh rồi và miếng cơm cá kho mặn ngọt — hai vị đối nhau chan
+      chát mà lại thành cặp trời sinh.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Combo huyền thoại của bếp miền Nam:"
+    items:
+      - icon: bowl
+        text: "**Canh chua cá lóc** — chua thanh cân với mặn đậm, đúng cặp trời sinh."
+      - icon: lettuce
+        text: "**Dĩa rau luộc / dưa leo** — chấm chính nước cá kho, ngon bất ngờ."
+      - icon: rice
+        text: "**Cơm trắng** — nấu dư một chén so với ngày thường, tin tôi đi."
+
+faq:
+  - q: Không có nồi đất thì kho bằng gì?
+    a: >-
+      Nồi đáy dày, chảo sâu lòng hay nồi gang đều được — quan trọng là **lửa
+      nhỏ và kho mở nắp**. Nồi mỏng dễ bén đáy thì lót thêm lớp ba rọi dày hơn
+      chút.
+  - q: Cá kho bị tanh là do đâu?
+    a: >-
+      Thường do **khử nhớt chưa kỹ** hoặc **cá chưa ráo nước đã ướp**. Chà
+      muối + chanh, rửa sạch, để ráo hẳn; ướp đủ 30 phút. Kho mở nắp cũng giúp
+      mùi tanh bay đi thay vì đọng lại trong nồi.
+  - q: Muốn kho kiểu có nước ăn với bún thì sao?
+    a: >-
+      Châm nước gấp đôi (ngập cá), kho 20 phút rồi nêm lại — thành **cá kho
+      nước** kiểu ăn bún, chan xăm xắp. Nhưng bản keo sánh vẫn là "chân ái" để
+      ăn cơm.

@@ -1,0 +1,140 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import RecipeCard from '../components/RecipeCard.astro';
+import CanhChuaArt from '../components/art/CanhChuaArt.astro';
+
+const recipes = (await getCollection('recipes')).sort(
+  (a, b) => a.data.order - b.data.order
+);
+const featured = recipes.filter((r) => r.data.featured).slice(0, 6);
+const regionCount = new Set(recipes.map((r) => r.data.region)).size;
+
+const tickerItems = [
+  { icon: 'bowl', text: 'Canh chua cá lóc miền Tây' },
+  { icon: 'claypot', text: 'Cá kho tộ lửa liu riu' },
+  { icon: 'egg', text: 'Thịt kho hột vịt ngày Tết' },
+  { icon: 'herb', text: 'Rau muống xào tỏi giòn xanh' },
+  { icon: 'shrimp', text: 'Gỏi cuốn tôm thịt thanh mát' },
+  { icon: 'pumpkin', text: 'Canh bí đỏ ngọt lành' },
+  { icon: 'rice', text: 'Cơm nhà là ngon nhất' },
+];
+---
+<Base
+  title="Món Việt Ngon — Nấu món Việt chuẩn vị, dễ như cơm nhà"
+  description="Công thức món Việt ba miền hướng dẫn cặn kẽ từng bước: bản nấu nhanh, giỏ đi chợ tự tính khẩu phần, đồng hồ đếm giờ, bí quyết của người nấu lâu năm."
+  active="home"
+>
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="home-hero" aria-label="Giới thiệu Món Việt Ngon">
+    <div class="float-bit float-bit--1" aria-hidden="true"><Icon name="flower" /></div>
+    <div class="float-bit float-bit--2" aria-hidden="true"><Icon name="chili" /></div>
+    <div class="float-bit float-bit--3" aria-hidden="true"><Icon name="herb" /></div>
+
+    <div class="home-hero__inner">
+      <div>
+        <p class="home-hero__eyebrow">Thương nhau mời về ăn cơm…</p>
+        <h1>Món <span class="gold">Việt</span> Ngon</h1>
+        <p class="home-hero__sub">
+          Kho công thức món Việt <b>chuẩn vị nhà nấu</b>: hướng dẫn cặn kẽ tới từng
+          muỗng đường, kèm <b>bản nấu nhanh</b> cho bữa vội, giỏ đi chợ tự tính
+          khẩu phần và đồng hồ đếm giờ ngay trong trang. Không quảng cáo, không
+          màu mè — chỉ có đồ ăn ngon.
+        </p>
+        <div class="home-hero__cta">
+          <a class="btn btn--gold" href="/mon/">
+            <Icon name="rice" />
+            Xem hết món ngon
+          </a>
+          <a class="btn btn--ghost" href="/bi-quyet/">
+            <Icon name="bulb" />
+            Bí quyết bếp Việt
+          </a>
+        </div>
+        <ul class="home-hero__stats">
+          <li><Icon name="bowl" /><span class="num">{recipes.length} món</span> và đang thêm hoài</li>
+          <li><Icon name="map" /><span class="num">{regionCount}</span> vùng miền</li>
+          <li><Icon name="check" />Từng bước đã nấu thử</li>
+        </ul>
+      </div>
+      <div class="home-hero__art" aria-hidden="true">
+        <CanhChuaArt />
+      </div>
+    </div>
+
+    <div class="home-hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 54" preserveAspectRatio="none">
+        <path d="M0 30 C 180 54 360 6 540 22 C 720 38 900 54 1080 38 C 1260 22 1350 10 1440 26 L 1440 54 L 0 54 Z" fill="currentColor"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      {[...tickerItems, ...tickerItems].map((t) => (
+        <span class="ticker__item"><Icon name={t.icon} />{t.text}</span>
+      ))}
+    </div>
+  </div>
+
+  <!-- ============ MÓN NỔI BẬT ============ -->
+  <section class="section" id="mon-noi-bat">
+    <div class="wrap">
+      <p class="eyebrow reveal">Mới lên mâm</p>
+      <h2 class="reveal">Món ngon <span class="accent">cả nhà đều mê</span></h2>
+      <p class="section__lead reveal">
+        Mỗi món một trang riêng: chuyện món ăn, nguyên liệu, từng bước nấu có
+        đếm giờ, và bí quyết để lần đầu nấu đã ra đúng vị.
+      </p>
+      <div class="rcard-grid">
+        {featured.map((r) => <RecipeCard recipe={r} />)}
+      </div>
+      <div class="coming reveal" style="justify-content:center">
+        <a class="btn btn--line" href="/mon/">
+          Xem tất cả {recipes.length} món
+          <Icon name="arrow-right" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="checker" aria-hidden="true"></div>
+
+  <!-- ============ VỀ TRANG ============ -->
+  <section class="section section--tint" id="ve-trang">
+    <div class="wrap">
+      <div class="home-about">
+        <div class="reveal">
+          <p class="eyebrow">Chuyện cái bếp này</p>
+          <h2>Nấu ăn ngon là <span class="accent">chuyện học được</span></h2>
+          <p class="drop">
+            Món Việt ngon không nằm ở công thức bí truyền — nằm ở mấy chi tiết nhỏ
+            mà người nấu lâu năm coi là hiển nhiên: <b>nước sôi mới thả cá</b>,
+            <b>đường nêm trước mắm nêm sau</b>, <b>rau bỏ cuối tắt bếp liền</b>.
+            Trang này gom hết mấy điều "hiển nhiên" đó viết ra rõ ràng, để ai lần
+            đầu vô bếp cũng nấu được bữa cơm ra hồn.
+          </p>
+          <p>
+            Mỗi công thức đều có <b>bản nấu nhanh</b> đọc trong 30 giây cho bữa vội,
+            và bản cặn kẽ từng bước cho cuối tuần thong thả. Khẩu phần tự tính,
+            đồng hồ đếm giờ có sẵn, giỏ đi chợ bấm là lưu — nấu tới đâu, trang
+            theo tới đó.
+          </p>
+        </div>
+        <aside class="mam-card reveal" aria-label="Trang có gì">
+          <h3>Trong mỗi trang món có gì?</h3>
+          <p>Đủ đồ nghề cho một bữa nấu suôn sẻ:</p>
+          <ul class="mam-list">
+            <li><Icon name="flame" /><span><b>Bản nấu nhanh</b> — nguyên liệu + trình tự gói trong 30 giây đọc.</span></li>
+            <li><Icon name="basket" /><span><b>Giỏ đi chợ</b> — bấm tick từng món, khẩu phần đổi là lượng đổi theo.</span></li>
+            <li><Icon name="clock" /><span><b>Đồng hồ đếm giờ</b> — bấm ngay trong bước, hết giờ có chuông báo.</span></li>
+            <li><Icon name="bulb" /><span><b>Bí quyết thiệt tình</b> — mấy mẹo chia đôi nồi "ăn được" và nồi "ăn là nhớ".</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+</main>
+</Base>

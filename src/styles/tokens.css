@@ -1,0 +1,58 @@
+/* ============================================================
+   MÓN VIỆT NGON — bảng màu & token
+   Cảm hứng: sông nước, bông điên điển, nước me, caro khăn rằn
+   ============================================================ */
+:root{
+  --paper:#F3F0E0;          /* giấy vỏ trấu ngả xanh */
+  --paper-deep:#EAE6CF;
+  --card:#FBF9EE;
+  --ink:#242B1D;
+  --muted:#5F6A52;
+  --river:#2C5234;          /* xanh sông nước đậm */
+  --river-deep:#1F3D26;
+  --leaf:#57833B;
+  --gold:#E0A32E;           /* vàng bông điên điển */
+  --gold-soft:#F2D68A;
+  --broth:#C9702A;          /* cam hổ phách nước me */
+  --broth-soft:#EEC9A0;
+  --chili:#B7402E;
+  --checker-a:#7B392C;      /* caro khăn rằn */
+  --checker-b:#F3EDD8;
+  --line:#D8D2B6;
+  --hero-ink:#F4EFDA;
+  --shadow:0 10px 30px rgba(46,58,32,.10), 0 2px 8px rgba(46,58,32,.08);
+  --shadow-lift:0 18px 44px rgba(46,58,32,.16), 0 4px 12px rgba(46,58,32,.10);
+  --radius:18px;
+  --font-display:"Paytone One","Arial Rounded MT Bold",system-ui,sans-serif;
+  --font-body:"Be Vietnam Pro",-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-script:"Dancing Script","Segoe Script",cursive;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#141A10; --paper-deep:#0F140C; --card:#1C2416; --ink:#EDE9D4;
+    --muted:#A8B096; --river:#22402A; --river-deep:#182E1E; --leaf:#7BAA58;
+    --gold:#F0BC4F; --gold-soft:#8A6B22; --broth:#E08A3C; --broth-soft:#5C3E1E;
+    --chili:#D9604A; --checker-a:#8A4234; --checker-b:#20281A; --line:#33402B;
+    --hero-ink:#F1ECD6;
+    --shadow:0 10px 30px rgba(0,0,0,.35), 0 2px 8px rgba(0,0,0,.3);
+    --shadow-lift:0 18px 44px rgba(0,0,0,.5), 0 4px 12px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="light"]{
+  --paper:#F3F0E0; --paper-deep:#EAE6CF; --card:#FBF9EE; --ink:#242B1D;
+  --muted:#5F6A52; --river:#2C5234; --river-deep:#1F3D26; --leaf:#57833B;
+  --gold:#E0A32E; --gold-soft:#F2D68A; --broth:#C9702A; --broth-soft:#EEC9A0;
+  --chili:#B7402E; --checker-a:#7B392C; --checker-b:#F3EDD8; --line:#D8D2B6;
+  --hero-ink:#F4EFDA;
+  --shadow:0 10px 30px rgba(46,58,32,.10), 0 2px 8px rgba(46,58,32,.08);
+  --shadow-lift:0 18px 44px rgba(46,58,32,.16), 0 4px 12px rgba(46,58,32,.10);
+}
+:root[data-theme="dark"]{
+  --paper:#141A10; --paper-deep:#0F140C; --card:#1C2416; --ink:#EDE9D4;
+  --muted:#A8B096; --river:#22402A; --river-deep:#182E1E; --leaf:#7BAA58;
+  --gold:#F0BC4F; --gold-soft:#8A6B22; --broth:#E08A3C; --broth-soft:#5C3E1E;
+  --chili:#D9604A; --checker-a:#8A4234; --checker-b:#20281A; --line:#33402B;
+  --hero-ink:#F1ECD6;
+  --shadow:0 10px 30px rgba(0,0,0,.35), 0 2px 8px rgba(0,0,0,.3);
+  --shadow-lift:0 18px 44px rgba(0,0,0,.5), 0 4px 12px rgba(0,0,0,.35);
+}

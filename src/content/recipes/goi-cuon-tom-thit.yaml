@@ -1,0 +1,263 @@
+title: Gỏi cuốn tôm thịt **cuốn chặt tay, chấm đã đời**
+summary: >-
+  Tôm đỏ au ẩn sau lớp bánh tráng mỏng tang, rau bún thanh mát, chấm **tương
+  đậu phộng sền sệt** — món "ăn hoài không ngán" đãi khách cực sang mà cực dễ.
+region: Miền Nam
+category: Cuốn
+time:
+  total: 50 phút
+servingsBase: 4
+difficulty: Dễ
+featured: true
+order: 5
+heroEyebrow: Cuốn là dính…
+
+quick:
+  ingredients:
+    - Tôm sú [[300|g]] · ba rọi (hoặc thịt đùi) [[300|g]]
+    - Bánh tráng [[20|cái]] · bún tươi [[300|g]]
+    - Xà lách, húng lủi, húng quế · giá [[100|g]] · hẹ [[20|cọng]]
+    - "Nước chấm: tương đen [[3|muỗng canh|frac]] + bơ đậu phộng [[1|muỗng canh|frac]] + tỏi ớt, đậu phộng rang"
+  steps:
+    - Luộc thịt với hành + muối **20 phút**, ngâm nước lạnh, xắt lát mỏng.
+    - Luộc tôm chín đỏ, bóc vỏ, **chẻ đôi theo sống lưng**, rút chỉ đen.
+    - "Pha nước chấm: phi tỏi, cho tương đen + bơ đậu phộng + [[4|muỗng canh|frac]] nước, khuấy sệt, rắc đậu phộng + ớt."
+    - Nhúng bánh tráng **lướt qua nước** thiệt nhanh, trải rau – bún – thịt, gập hai mép.
+    - Đặt **tôm úp mặt đỏ xuống bánh** + cọng hẹ ló đầu, cuốn chặt tay. Chấm và tận hưởng.
+  warning: >-
+    Bánh tráng nhúng đẫm nước là **rách và dính chùm** — chỉ lướt qua nước 1
+    giây, bánh sẽ tự mềm tiếp trong lúc xếp nhân.
+
+flavor:
+  chua: 1
+  ngot: 5
+  man: 5
+  cay: 3
+  thom: 7
+flavorNote: >-
+  **Chuẩn cuốn đẹp:** lớp bánh căng mịn ôm sát nhân, **tôm đỏ nổi rõ**, hẹ ló
+  một đầu — chấm ngập tương đậu phộng là "bao ghiền".
+storyEyebrow: Chuyện cái cuốn
+storyTitle: Món **đãi khách dễ nhất** trần đời
+story:
+  - >-
+    Gỏi cuốn là món Việt hiếm hoi **lên bàn tiệc quốc tế** mà cách làm lại
+    thuộc hàng dễ nhất: không cần canh lửa, không sợ mặn lạt — chỉ cần luộc,
+    xắt, và cuốn. Vậy nên nhà có khách, cứ bày mâm gỏi cuốn ra là vừa sang
+    vừa vui: ai cuốn nấy ăn, rôm rả cả buổi.
+  - >-
+    Cái hơn thua của gỏi cuốn nằm ở **bàn tay cuốn** và **chén nước chấm**.
+    Cuốn phải chặt để cắn không bung, tôm phải úp mặt đỏ ra ngoài cho đẹp;
+    còn nước chấm tương đậu phộng phải **sệt óng, béo bùi** — chấm tới đâu
+    cuốn trôi tới đó.
+
+ingredientGroups:
+  - name: Phần nhân cuốn
+    icon: shrimp
+    items:
+      - id: tom
+        name: Tôm sú (hoặc tôm thẻ lớn)
+        icon: shrimp
+        color: red
+        base: 300
+        unit: g
+        note: Cỡ 12–16 con — luộc lên đỏ đẹp
+      - id: thit
+        name: Ba rọi hoặc thịt đùi
+        icon: meat
+        base: 300
+        unit: g
+        note: Miếng nguyên, luộc rồi xắt lát mỏng
+      - id: bun
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 300
+        unit: g
+        note: Rũ tơi trước cho dễ cuốn
+      - id: banhtrang
+        name: Bánh tráng cuốn (22 cm)
+        icon: roll
+        color: gold
+        base: 20
+        unit: cái
+        note: Loại mỏng dẻo chuyên cuốn gỏi
+  - name: Rau xanh
+    icon: lettuce
+    items:
+      - id: xalach
+        name: Xà lách
+        icon: lettuce
+        color: green
+        base: 1
+        unit: cây
+        note: Tách lá, cắt bỏ cọng cứng
+      - id: rauthom
+        name: Húng lủi + húng quế
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Nhặt lá, rửa sạch, vẩy ráo
+      - id: gia
+        name: Giá sống
+        icon: sprout
+        color: green
+        base: 100
+        unit: g
+        note: Rửa sạch để ráo
+      - id: he
+        name: Hẹ lá
+        icon: herb
+        color: green
+        base: 20
+        unit: cọng
+        note: Mỗi cuốn 1 cọng ló đầu — chữ ký của gỏi cuốn
+  - name: Nước chấm tương đậu phộng
+    icon: jar
+    items:
+      - id: tuongden
+        name: Tương đen (hoisin)
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Xương sống của chén nước chấm
+      - id: bodauphong
+        name: Bơ đậu phộng
+        icon: pod
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Cho độ béo bùi sền sệt
+      - id: dauphong
+        name: Đậu phộng rang giã thô
+        icon: pod
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Rắc mặt — giòn bùi
+      - id: toiot
+        name: Tỏi + ớt băm
+        icon: chili
+        color: red
+        qtyText: 1 tép tỏi · 1 trái ớt
+        note: Phi tỏi cho thơm, ớt tùy độ cay
+
+steps:
+  - title: Luộc thịt mềm ngọt
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Nồi nước ngập thịt + 1 củ hành tím đập dập + 1 muỗng cà phê muối.
+          Sôi thì hạ lửa vừa, luộc **20 phút**, xiên đũa không ra nước hồng
+          là chín.
+      - text: >-
+          Vớt thịt **ngâm ngay vào nước nguội** 5 phút — thịt trắng đẹp,
+          không bị khô mặt. Để nguội hẳn rồi **xắt lát mỏng** bản to.
+    timer:
+      secs: 1200
+      label: Hẹn giờ luộc thịt · 20:00
+      doneMsg: Thịt chín rồi — ngâm nước nguội nghen!
+  - title: Luộc tôm đỏ au
+    icon: shrimp
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Tận dụng nồi nước luộc thịt: nước sôi lại thì thả tôm, luộc **2–3
+          phút** tới cong đỏ đều là vớt.
+      - text: >-
+          Để nguội, bóc vỏ bỏ đầu, **chẻ đôi con tôm theo sống lưng**, rút
+          sạch chỉ đen. Tôm chẻ đôi vừa đẹp vừa dễ cuốn.
+  - title: Pha tương chấm sền sệt
+    icon: spoon
+    minutes: 5 phút
+    bullets:
+      - text: Phi thơm tỏi băm với 1 muỗng cà phê dầu.
+      - text: >-
+          Cho [[3|muỗng canh|frac]] tương đen + [[1|muỗng canh|frac]] bơ đậu
+          phộng + [[4|muỗng canh|frac]] nước, khuấy **lửa nhỏ 1–2 phút** tới
+          sệt mượt. Nêm chút đường nếu thích ngọt kiểu miền Nam.
+      - text: Ra chén, rắc **đậu phộng rang + ớt băm** lên mặt.
+    callout:
+      type: tip
+      text: >-
+        Thích chấm **mắm nêm** đúng điệu miền Trung – Nam? Pha mắm nêm + khóm
+        băm + tỏi ớt + chút đường — đội "mắm nêm" và đội "tương đen" cãi nhau
+        vui lắm, pha cả hai cho cả nhà chọn phe.
+  - title: Cuốn chặt tay, tôm ló mặt
+    icon: roll
+    minutes: 15 phút
+    bullets:
+      - label: "Nhúng bánh:"
+        text: >-
+          **lướt bánh tráng qua nước** (dĩa nước hoặc khăn ẩm) đúng 1 giây,
+          đặt lên thớt — bánh sẽ tự mềm dần, không cần ướt sũng.
+      - label: "Xếp nhân:"
+        text: >-
+          ⅓ dưới bánh đặt xà lách → rau thơm → nhúm bún → giá → 2 lát thịt.
+          Gọn theo bề ngang chừng 3 ngón tay.
+      - label: "Cuốn:"
+        text: >-
+          gập hai mép trái phải, cuộn một vòng ôm chặt nhân; đặt **3 nửa tôm
+          úp mặt đỏ xuống bánh** + 1 cọng hẹ ló đầu, cuộn nốt tới hết — mặt
+          tôm đỏ sẽ nổi đẹp sau lớp bánh.
+    callout:
+      type: warn
+      text: >-
+        Cuốn lỏng tay là cắn phát đầu tiên **bung nhân tứ tán**. Cứ cuộn ép
+        nhẹ về phía mình cho nhân nén chặt — bánh tráng dẻo lắm, không rách
+        đâu mà sợ.
+    doneText: Xếp cuốn lên dĩa — xong!
+
+tipsTitle: 4 bí quyết cho **cuốn đẹp như tiệm**
+tips:
+  - icon: roll
+    title: Bánh tráng chỉ "lướt nước"
+    text: >-
+      Bánh nhúng đẫm sẽ **mềm nhũn ngay và dính chùm khi xếp dĩa**. Lướt 1
+      giây, bánh còn hơi cứng — tới lúc cuốn xong là vừa dẻo đẹp. Xếp dĩa nhớ
+      chừa khe hở giữa các cuốn.
+  - icon: shrimp
+    title: Tôm úp mặt đỏ xuống bánh
+    text: >-
+      Đặt mặt cắt của tôm **ngửa lên trời, lưng đỏ úp xuống bánh** ở vòng cuộn
+      cuối — cuốn xong màu đỏ cam nổi rõ sau lớp bánh trong. Chữ ký thị giác
+      của gỏi cuốn nằm ở đây.
+  - icon: lettuce
+    title: Rau phải thiệt ráo
+    text: >-
+      Rau còn đọng nước là cuốn bị **chảy nước, mau bở**. Rửa sớm, vẩy kỹ,
+      trải khăn cho khô hẳn rồi mới cuốn — cuốn xong để được 2–3 tiếng vẫn
+      ngon.
+  - icon: pod
+    title: Nước chấm sệt mới bám cuốn
+    text: >-
+      Tương chấm loãng là **trôi tuột khỏi cuốn**, mất vui. Đun nhỏ lửa tới độ
+      sệt "nhểu chậm từ muỗng" — bơ đậu phộng vừa tạo béo vừa giữ độ sánh
+      chuẩn.
+
+serve:
+  title: Bày mâm cuốn — **vui như tiệc nhỏ**
+  paras:
+    - >-
+      Gỏi cuốn ngon nhất trong **2–3 tiếng đầu**, nên bày lên dĩa lớn, phủ
+      khăn ẩm nếu chưa ăn liền. Nhà đông người thì khỏi cuốn sẵn — bày nguyên
+      liệu ra mâm, mỗi người tự cuốn theo ý, vui gấp đôi mà chủ nhà khỏe gấp
+      ba.
+    - >-
+      Đổi vị thì thay tôm thịt bằng **nem nướng, tai heo, cá hấp xé** — công
+      thức cuốn và nước chấm giữ nguyên, thành món mới liền.
+faq:
+  - q: Cuốn xong bánh bị khô cứng thì sao?
+    a: >-
+      Là do bánh phơi gió lâu. Phủ **khăn sạch hơi ẩm** lên dĩa cuốn, hoặc bọc
+      màng thực phẩm — cuốn mềm lại nhanh. Đi picnic thì lót lá chuối/xà lách
+      giữa các lớp cho khỏi dính.
+  - q: Không ăn được bơ đậu phộng, pha nước chấm sao?
+    a: >-
+      Thay bằng **nước mắm chua ngọt** (1 mắm : 1 đường : 1 chanh : 5 nước +
+      tỏi ớt) hoặc **mắm nêm pha khóm** — cả hai đều là bạn thân của gỏi cuốn,
+      chỉ là phong cách khác nhau thôi.

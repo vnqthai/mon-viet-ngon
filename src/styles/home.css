@@ -1,0 +1,130 @@
+/* ============================================================
+   Trang chủ, danh mục món, trang bí quyết
+   ============================================================ */
+
+/* ---------- Hero trang chủ ---------- */
+.home-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 500px at 82% -10%, rgba(224,163,46,.22), transparent 60%),
+    radial-gradient(700px 420px at 6% 110%, rgba(201,112,42,.25), transparent 55%),
+    linear-gradient(168deg, var(--river) 0%, var(--river-deep) 100%);
+  color:var(--hero-ink);
+}
+.home-hero__inner{
+  position:relative;z-index:2;
+  display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);
+  gap:40px;align-items:center;
+  max-width:1080px;margin:0 auto;padding:76px 24px 100px;
+}
+.home-hero__eyebrow{
+  font-family:var(--font-script);font-size:clamp(1.5rem,2.6vw,1.95rem);font-weight:600;
+  color:#F2D68A;margin:0 0 10px;
+}
+.home-hero h1{
+  font-size:clamp(2.7rem,6vw,4.4rem);
+  color:#FDFBEF;
+  text-shadow:0 3px 0 rgba(31,61,38,.9), 0 6px 24px rgba(0,0,0,.28);
+  margin:0 0 14px;
+}
+.home-hero h1 .gold{color:var(--gold)}
+.home-hero__sub{font-size:1.08rem;line-height:1.8;max-width:48ch;color:rgba(244,239,218,.88);margin:0 0 26px}
+.home-hero__sub b{color:#F7EBC8}
+.home-hero__cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:30px}
+.home-hero__stats{display:flex;flex-wrap:wrap;gap:10px;padding:0;margin:0;list-style:none}
+.home-hero__stats li{
+  display:flex;align-items:center;gap:8px;
+  font-size:.85rem;font-weight:600;
+  background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);
+  padding:8px 14px;border-radius:999px;color:#F7F3E1;
+}
+.home-hero__stats svg{width:15px;height:15px;color:var(--gold)}
+.home-hero__art{position:relative}
+.home-hero__art > svg{width:min(430px,100%);margin:0 auto;filter:drop-shadow(0 24px 40px rgba(0,0,0,.35))}
+.home-hero__wave{position:absolute;left:0;right:0;bottom:-1px;z-index:1}
+.home-hero__wave svg{width:100%;height:54px;display:block;color:var(--paper-deep)}
+
+/* ---------- Thẻ món ăn ---------- */
+.rcard-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+.rcard{
+  display:flex;flex-direction:column;
+  background:var(--card);border:1px solid var(--line);border-radius:20px;
+  overflow:hidden;text-decoration:none;color:var(--ink);
+  box-shadow:var(--shadow);
+  transition:transform .18s, box-shadow .18s, border-color .18s;
+}
+.rcard:hover{transform:translateY(-5px);box-shadow:var(--shadow-lift);border-color:color-mix(in srgb, var(--gold) 45%, var(--line))}
+.rcard__art{
+  position:relative;
+  background:
+    radial-gradient(340px 160px at 78% -20%, rgba(224,163,46,.28), transparent 60%),
+    linear-gradient(160deg, var(--river) 0%, var(--river-deep) 100%);
+  padding:22px 20px 6px;
+}
+.rcard__art svg{width:min(210px,72%);margin:0 auto}
+.rcard__badges{position:absolute;top:14px;left:14px;display:flex;gap:6px}
+.rcard__badges .badge{background:rgba(20,30,18,.55);backdrop-filter:blur(4px)}
+.rcard__badges .badge--region{color:#CFE3AE}
+.rcard__badges .badge--cat{color:#F2CE8C}
+.rcard__wave{color:var(--card);margin-top:-8px}
+.rcard__wave svg{width:100%;height:26px;display:block}
+.rcard__body{display:flex;flex-direction:column;gap:10px;padding:6px 22px 22px;flex:1}
+.rcard__body h3{font-size:1.22rem;line-height:1.3}
+.rcard__body p{font-size:.9rem;color:var(--muted);line-height:1.66;margin:0;flex:1}
+.rcard__meta{
+  display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;
+  padding-top:12px;border-top:1px dashed var(--line);
+  font-size:.82rem;font-weight:600;color:var(--muted);
+}
+.rcard__meta span{display:inline-flex;align-items:center;gap:6px}
+.rcard__meta svg{width:14px;height:14px;color:var(--broth)}
+.rcard__go{
+  margin-left:auto;display:inline-flex;align-items:center;gap:6px;
+  color:var(--broth);font-weight:700;
+}
+.rcard__go svg{transition:transform .18s}
+.rcard:hover .rcard__go svg{transform:translateX(4px)}
+
+/* ---------- Bộ lọc danh mục ---------- */
+.filter-bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:34px}
+.filter-bar__label{font-size:.85rem;font-weight:700;color:var(--muted);margin-right:2px}
+.filter-chip{
+  border:1.5px solid var(--line);background:var(--card);color:var(--muted);
+  font-weight:700;font-size:.85rem;padding:8px 16px;border-radius:999px;
+  transition:background .15s,color .15s,border-color .15s,transform .15s;
+}
+.filter-chip:hover{transform:translateY(-1px);color:var(--ink)}
+.filter-chip.is-active{background:var(--river);border-color:var(--river);color:#F4EFDA}
+:root[data-theme="dark"] .filter-chip.is-active{background:var(--leaf);border-color:var(--leaf);color:#141A10}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme]) .filter-chip.is-active{background:var(--leaf);border-color:var(--leaf);color:#141A10}
+}
+.filter-sep{width:1px;align-self:stretch;background:var(--line);margin:0 4px}
+.filter-empty{
+  display:none;padding:40px 20px;text-align:center;color:var(--muted);
+  border:1.5px dashed var(--line);border-radius:var(--radius);
+}
+.filter-empty.is-show{display:block}
+
+/* ---------- Dải "sắp lên mâm" ---------- */
+.coming{
+  margin-top:26px;
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+  padding:18px 22px;border:1.5px dashed var(--line);border-radius:var(--radius);
+  color:var(--muted);font-size:.9rem;
+}
+.coming > svg{width:20px;height:20px;color:var(--broth);flex:none}
+.coming b{color:var(--ink)}
+.coming .badge{background:var(--paper-deep);color:var(--muted)}
+
+/* ---------- Khu giới thiệu trang chủ ---------- */
+.home-about{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:start}
+.home-about b{color:var(--broth)}
+@media (max-width:900px){
+  .home-hero__inner{grid-template-columns:1fr;padding:56px 24px 88px;text-align:center}
+  .home-hero__sub{margin-inline:auto}
+  .home-hero__cta,.home-hero__stats{justify-content:center}
+  .home-hero__art{order:-1}
+  .home-hero__art > svg{width:min(320px,78%)}
+  .home-about{grid-template-columns:1fr;gap:32px}
+}

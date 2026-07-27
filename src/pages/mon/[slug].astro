@@ -1,0 +1,385 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import RecipeArt from '../../components/art/RecipeArt.astro';
+import { rich, plain } from '../../utils/rich';
+import { fmtQty } from '../../utils/qty';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  return recipes.map((r) => ({ params: { slug: r.id }, props: { recipe: r } }));
+}
+
+const { recipe } = Astro.props;
+const d = recipe.data;
+const slug = recipe.id;
+
+const FLAVOR_ROWS = [
+  { key: 'chua', label: 'Chua', cls: 'f-chua' },
+  { key: 'ngot', label: 'Ngọt', cls: 'f-ngot' },
+  { key: 'man', label: 'Mặn', cls: 'f-man' },
+  { key: 'cay', label: 'Cay', cls: 'f-cay' },
+  { key: 'thom', label: 'Thơm', cls: 'f-thom' },
+];
+const viNum = (n: number) => String(n).replace('.', ',');
+const totalItems = d.ingredientGroups.reduce((s: number, g: any) => s + g.items.length, 0);
+const hasTicker = Boolean(d.ticker?.length);
+---
+<Base
+  title={`${plain(d.title)} — Món Việt Ngon`}
+  description={plain(d.summary)}
+  showPrint={true}
+  active="mon"
+>
+<main id="recipe-root" data-slug={slug} data-servings-base={d.servingsBase}>
+
+  <!-- ============ HERO ============ -->
+  <section class:list={['hero', { 'hero--ticker': hasTicker }]} aria-label="Giới thiệu món ăn">
+    <div class="float-bit float-bit--1" aria-hidden="true"><Icon name="flower" /></div>
+    <div class="float-bit float-bit--2" aria-hidden="true"><Icon name="chili" /></div>
+    <div class="float-bit float-bit--3" aria-hidden="true"><Icon name="herb" /></div>
+
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">{d.heroEyebrow}</p>
+        <h1 set:html={rich(d.title).replace(/<b>/g, '<span class="gold">').replace(/<\/b>/g, '</span>')} />
+        <div class="hero__badges">
+          <span class="badge badge--region"><Icon name="map" />{d.region}</span>
+          <span class="badge badge--cat">Món {d.category.toLowerCase()}</span>
+        </div>
+        <p class="hero__sub" set:html={rich(d.summary)} />
+        <ul class="hero__meta">
+          <li><Icon name="clock" /><span class="num">{d.time.total}</span></li>
+          <li><Icon name="users" /><span id="metaServings" class="num">{d.servingsBase} người ăn</span></li>
+          <li><Icon name="level" />{d.difficulty}</li>
+          <li><Icon name="flame" /><span class="num">{d.steps.length} bước</span></li>
+        </ul>
+        <div class="hero__cta">
+          <a class="btn btn--gold" href="#nau-nhanh">
+            <Icon name="flame" />
+            Bản nấu nhanh
+          </a>
+          <a class="btn btn--ghost" href="#cach-nau">
+            <Icon name="pot" />
+            Từng bước chi tiết
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__art" aria-hidden="true">
+        <RecipeArt art={d.art} category={d.category} />
+      </div>
+    </div>
+
+    <div class="hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 54" preserveAspectRatio="none">
+        <path d="M0 30 C 180 54 360 6 540 22 C 720 38 900 54 1080 38 C 1260 22 1350 10 1440 26 L 1440 54 L 0 54 Z" fill="currentColor"/>
+      </svg>
+    </div>
+  </section>
+
+  {hasTicker && (
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        {[...d.ticker, ...d.ticker].map((t: any) => (
+          <span class="ticker__item"><Icon name={t.icon} />{t.text}</span>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- ============ BẢN NẤU NHANH ============ -->
+  <section class="quick" id="nau-nhanh">
+    <div class="wrap">
+      <div class="quick__card reveal">
+        <div class="quick__head">
+          <h2><span class="flash">Bản nấu nhanh</span> — cho người muốn vô bếp liền</h2>
+          <p>Đọc 30 giây là nắm được cả món. Cần cặn kẽ hơn thì xem phần chi tiết bên dưới.</p>
+        </div>
+        <div class="quick__cols">
+          <div class="quick__col">
+            <h3>Cần có gì</h3>
+            <ul class="quick__ing">
+              {d.quick.ingredients.map((line: string) => (
+                <li set:html={rich(line)} />
+              ))}
+            </ul>
+          </div>
+          <div class="quick__col">
+            <h3>Trình tự {d.quick.steps.length} nhịp</h3>
+            <ol class="quick__steps">
+              {d.quick.steps.map((line: string) => (
+                <li set:html={rich(line)} />
+              ))}
+            </ol>
+          </div>
+        </div>
+        {d.quick.warning && (
+          <div class="quick__warn">
+            <Icon name="alert" />
+            <span set:html={rich(d.quick.warning)} />
+          </div>
+        )}
+        <div class="quick__foot">
+          <a href="#nguyen-lieu"><Icon name="basket" />Giỏ đi chợ đầy đủ</a>
+          <a href="#cach-nau"><Icon name="pot" />Từng bước cặn kẽ</a>
+          <a href="#bi-quyet"><Icon name="bulb" />Bí quyết riêng của món</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="checker" aria-hidden="true"></div>
+
+  <!-- ============ CHUYỆN MÓN ĂN ============ -->
+  <section class="section" id="chuyen">
+    <div class="wrap">
+      <div class="story">
+        <div class="story__text reveal">
+          <p class="eyebrow">{d.storyEyebrow}</p>
+          {d.storyTitle && <h2 set:html={rich(d.storyTitle).replace(/<b>/g, '<span class="accent">').replace(/<\/b>/g, '</span>')} />}
+          {d.story.map((para: string, i: number) => (
+            <p class={i === 0 ? 'drop' : undefined} set:html={rich(para)} />
+          ))}
+        </div>
+        {d.flavor && (
+          <aside class="flavor-card reveal" aria-label="Bản đồ hương vị">
+            <h3>Bản đồ hương vị</h3>
+            <p>Đúng chuẩn thì cân vị thế này:</p>
+            <div class="flavor">
+              {FLAVOR_ROWS.map((row) => (
+                <div class="flavor__row">
+                  <span>{row.label}</span>
+                  <div class="flavor__bar">
+                    <div class={`flavor__fill ${row.cls}`} style={`--w:${d.flavor[row.key] * 10}%`}></div>
+                  </div>
+                  <span class="flavor__val num">{viNum(d.flavor[row.key])}/10</span>
+                </div>
+              ))}
+            </div>
+            {d.flavorNote && <p class="flavor-note" set:html={rich(d.flavorNote)} />}
+          </aside>
+        )}
+      </div>
+    </div>
+  </section>
+
+  <div class="checker" aria-hidden="true"></div>
+
+  <!-- ============ NGUYÊN LIỆU ============ -->
+  <section class="section section--tint" id="nguyen-lieu">
+    <div class="wrap">
+      <p class="eyebrow reveal">Xách giỏ đi chợ</p>
+      <h2 class="reveal">Nguyên liệu <span class="accent">tươi rói</span></h2>
+      <p class="section__lead reveal">
+        Bấm vào từng món khi đã bỏ vô giỏ — danh sách tự lưu lại, tắt trang mở lên vẫn còn.
+        Chỉnh số người ăn, lượng nguyên liệu tự tính lại cho bạn.
+      </p>
+
+      <div class="market-bar reveal">
+        <div class="servings">
+          <span class="servings__label">Nấu cho</span>
+          <div class="servings__ctrl" role="group" aria-label="Chỉnh số người ăn">
+            <button class="servings__btn" id="servDown" type="button" aria-label="Bớt 2 người">−</button>
+            <span class="servings__num num" id="servNum">{d.servingsBase} người</span>
+            <button class="servings__btn" id="servUp" type="button" aria-label="Thêm 2 người">+</button>
+          </div>
+        </div>
+        <div class="market-progress">
+          <span id="marketCount" class="num">0/{totalItems} món</span>
+          <div class="market-progress__bar"><div class="market-progress__fill" id="marketFill"></div></div>
+        </div>
+      </div>
+
+      {d.ingredientGroups.map((group: any) => (
+        <div class="ing-group reveal">
+          <div class="ing-group__head">
+            <Icon name={group.icon} />
+            <h3>{group.name}</h3>
+            <span class="count num">{group.items.length} món</span>
+          </div>
+          <div class="ing-grid">
+            {group.items.map((item: any) => (
+              <div class:list={['ing', item.color !== 'amber' ? `ing--${item.color}` : null]}>
+                <input type="checkbox" id={`ing-${item.id}`} />
+                <label for={`ing-${item.id}`}>
+                  <span class="ing__icon"><Icon name={item.icon} /></span>
+                  <span class="ing__body">
+                    <span class="ing__name">{item.name}</span>
+                    {item.base != null ? (
+                      <span
+                        class="ing__qty num"
+                        data-base={item.base}
+                        data-unit={item.unit}
+                        data-frac={item.frac ? '1' : undefined}
+                      >{fmtQty(item.base, item.unit, item.frac, 1)}</span>
+                    ) : (
+                      <span class="ing__qty">{item.qtyText}</span>
+                    )}
+                    {item.note && <span class="ing__note">{item.note}</span>}
+                  </span>
+                  <span class="ing__tick"><Icon name="check" /></span>
+                </label>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="checker" aria-hidden="true"></div>
+
+  <!-- ============ CÁCH NẤU ============ -->
+  <section class="section" id="cach-nau">
+    <div class="wrap">
+      <p class="eyebrow reveal">{d.stepsEyebrow}</p>
+      <h2 class="reveal" set:html={
+        rich(d.stepsTitle ?? `${d.steps.length} bước ra **thành phẩm để đời**`)
+          .replace(/<b>/g, '<span class="accent">').replace(/<\/b>/g, '</span>')
+      } />
+      {d.stepsLead && <p class="section__lead reveal">{d.stepsLead}</p>}
+
+      <div class="steps-progress" aria-live="polite">
+        <span class="steps-progress__label">Tiến độ nấu</span>
+        <div class="steps-progress__bar"><div class="steps-progress__fill" id="stepsFill"></div></div>
+        <span class="steps-progress__count num" id="stepsCount">0/{d.steps.length} bước</span>
+      </div>
+
+      <div class="river-line">
+        {d.steps.map((step: any, i: number) => (
+          <article class="step reveal" id={`buoc-${i + 1}`}>
+            <div class="step__node num" aria-hidden="true">{i + 1}</div>
+            <div class="step__card">
+              <div class="step__head">
+                <svg class="step-ic" viewBox="0 0 24 24" aria-hidden="true"><use href={`#ic-${step.icon}`}></use></svg>
+                <h3>{step.title}</h3>
+                {step.minutes && (
+                  <span class="chip"><Icon name="clock" /><span class="num">{step.minutes}</span></span>
+                )}
+              </div>
+              <div class="step__body">
+                {step.intro && <p set:html={rich(step.intro)} />}
+                <ul>
+                  {step.bullets.map((b: any) => (
+                    <li set:html={(b.label ? `<b>${b.label}</b> ` : '') + rich(b.text)} />
+                  ))}
+                </ul>
+                {step.callout && (
+                  <div class={`callout callout--${step.callout.type}`}>
+                    <Icon name={step.callout.type === 'warn' ? 'alert' : 'bulb'} />
+                    <span set:html={rich(step.callout.text)} />
+                  </div>
+                )}
+              </div>
+              <div class="step__foot">
+                {step.timer && (
+                  <>
+                    <button
+                      class="timer-btn num"
+                      type="button"
+                      data-secs={step.timer.secs}
+                      data-label={step.timer.label}
+                      data-step={step.timer.doneMsg}
+                    >
+                      <Icon name="clock" />
+                      <span>{step.timer.label}</span>
+                    </button>
+                    <button class="timer-reset" type="button">Đặt lại</button>
+                  </>
+                )}
+                <label class="step-done">
+                  <input type="checkbox" data-step-check />
+                  <span class="step-done__box"><Icon name="check" /></span>
+                  <span class="step-done__text">{step.doneText}</span>
+                </label>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <div class="checker" aria-hidden="true"></div>
+
+  <!-- ============ BÍ QUYẾT ============ -->
+  <section class="section section--tint" id="bi-quyet">
+    <div class="wrap">
+      <p class="eyebrow reveal">{d.tipsEyebrow}</p>
+      <h2 class="reveal" set:html={
+        rich(d.tipsTitle ?? `${d.tips.length} bí quyết cho **đúng vị nhà nấu**`)
+          .replace(/<b>/g, '<span class="accent">').replace(/<\/b>/g, '</span>')
+      } />
+      {d.tipsLead && <p class="section__lead reveal">{d.tipsLead}</p>}
+      <div class="tips-grid">
+        {d.tips.map((tip: any) => (
+          <div class="tip reveal">
+            <div class="tip__icon"><Icon name={tip.icon} /></div>
+            <h3>{tip.title}</h3>
+            <p set:html={rich(tip.text)} />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {d.serve && (
+    <>
+      <div class="checker" aria-hidden="true"></div>
+      <section class="section" id="thuong-thuc">
+        <div class="wrap">
+          <div class="serve">
+            <div class="serve__text reveal">
+              <p class="eyebrow">{d.serve.eyebrow}</p>
+              <h2 set:html={rich(d.serve.title).replace(/<b>/g, '<span class="accent">').replace(/<\/b>/g, '</span>')} />
+              {d.serve.paras.map((para: string) => <p set:html={rich(para)} />)}
+            </div>
+            {d.serve.aside && (
+              <aside class="mam-card reveal" aria-label={d.serve.aside.title}>
+                <h3>{d.serve.aside.title}</h3>
+                <p>{d.serve.aside.intro}</p>
+                <ul class="mam-list">
+                  {d.serve.aside.items.map((item: any) => (
+                    <li>
+                      <Icon name={item.icon} />
+                      <span set:html={rich(item.text)} />
+                    </li>
+                  ))}
+                </ul>
+              </aside>
+            )}
+          </div>
+        </div>
+      </section>
+    </>
+  )}
+
+  {d.faq?.length > 0 && (
+    <>
+      <div class="checker" aria-hidden="true"></div>
+      <section class="section section--tint" id="hoi-nhanh">
+        <div class="wrap">
+          <p class="eyebrow reveal">Gỡ rối cho bạn</p>
+          <h2 class="reveal">Hỏi nhanh — <span class="accent">đáp gọn</span></h2>
+          <p class="section__lead reveal">Mấy thắc mắc hay gặp nhất khi nấu món này lần đầu.</p>
+          <div class="faq reveal">
+            {d.faq.map((f: any) => (
+              <details>
+                <summary>
+                  <Icon name="question" />
+                  {f.q}
+                </summary>
+                <div class="faq__a" set:html={rich(f.a)} />
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  )}
+</main>
+
+<script src="../../scripts/recipe.js"></script>
+</Base>

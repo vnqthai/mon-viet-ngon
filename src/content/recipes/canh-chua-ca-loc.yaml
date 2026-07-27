@@ -1,0 +1,488 @@
+title: Canh chua cá lóc **chuẩn vị miền Tây**
+summary: >-
+  Nồi canh của mùa nước nổi: cá lóc đồng ngọt thịt, nước me chua thanh, khóm
+  thơm lựng, nêm **ngọt đậm đúng chất Nam Bộ** — húp một miếng là nhớ quê liền.
+region: Miền Tây
+category: Canh
+time:
+  total: 45 phút
+servingsBase: 4
+difficulty: Dễ
+featured: true
+order: 1
+art: canh-chua
+heroEyebrow: Thương lắm miền Tây ơi…
+
+quick:
+  ingredients:
+    - Cá lóc [[1|con|frac]] (700–900 g/con) — làm sạch nhớt, cắt khúc 4 cm
+    - Me vắt [[50|g]] + [[100|ml]] nước sôi — dầm lọc lấy nước cốt
+    - >-
+      Khóm ¼ trái · cà chua [[2|trái]] · đậu bắp [[150|g]] · bạc hà [[2|cây]]
+      · giá [[150|g]] · bông điên điển [[100|g]] (có thì càng đúng điệu)
+    - Ngò om + ngò gai · tỏi [[4|tép]] · hành tím [[3|củ]] · ớt [[2|trái]]
+    - >-
+      Nêm: đường [[2.5|muỗng canh|frac]] · nước mắm [[3|muỗng canh|frac]] ·
+      muối, hạt nêm, tiêu
+  steps:
+    - Cá chà muối + chanh cho sạch nhớt, cắt khúc, ướp muối – hạt nêm – tiêu – hành tím **15 phút**.
+    - Dầm me lấy nước cốt; sơ chế hết rau củ; phi vàng ⅔ chỗ tỏi, vớt ra để dành.
+    - Xào cà chua + ⅓ khóm với tỏi còn lại, châm [[1.5|lít]] nước + nước me, nấu sôi già.
+    - Thả cá vào nước **đang sôi**, không khuấy, vớt bọt, nấu 8–10 phút.
+    - Nêm **đường trước, nước mắm sau** — chua thanh, ngọt đậm, hậu mặn dịu.
+    - Lửa lớn, cho khóm + đậu bắp + bạc hà nấu 2 phút, rồi giá + điên điển — sôi bùng là tắt bếp.
+    - Rắc ngò om, ngò gai, tỏi phi, ớt. Ăn nóng với cơm + chén nước mắm ớt chấm cá.
+  warning: >-
+    Ba lỗi phá nồi canh nhiều nhất: thả cá lúc nước chưa sôi · khuấy mạnh tay ·
+    nấu rau quá lâu.
+
+flavor:
+  chua: 8
+  ngot: 8.5
+  man: 5.5
+  cay: 4
+  thom: 9
+flavorNote: >-
+  **Quy tắc vàng:** húp thử một muỗng phải thấy **chua trước, ngọt đuổi theo
+  liền, hậu mặn dịu** — thiếu một vế là nêm lại ngay.
+storyEyebrow: Chuyện tô canh
+storyTitle: Món ăn **quốc dân** của xứ sông nước
+story:
+  - >-
+    Ở miền Tây, canh chua cá lóc không phải món ăn — nó là **ký ức**. Là buổi
+    chiều mưa tháng chín, ba xách cần câu về với con cá lóc đồng còn giãy, má
+    ra sau hè hái nắm ngò om, bẻ mấy trái đậu bắp, dầm vắt me chua. Nồi canh
+    sôi lên, mùi thơm bay qua mấy nhà hàng xóm là biết nhà ai đang dọn cơm.
+  - >-
+    Cái hồn của canh chua miền Tây nằm ở sự **hào phóng của vị**: chua phải
+    thanh chứ không gắt, ngọt phải đậm chứ không lợ — người miền Tây nêm đường
+    mạnh tay hơn mọi miền khác, đó không phải sai sót mà là bản sắc. Rồi tới
+    mùa nước nổi, tô canh còn được thả thêm nhúm bông điên điển vàng ươm —
+    người ta nói vậy là **gói cả mùa lũ vô một tô canh**.
+  - >-
+    Công thức dưới đây là kiểu nấu nhà quê đúng điệu: không cầu kỳ, nhưng từng
+    bước đều có lý do. Nấu đúng, bạn sẽ có nồi canh **nước trong veo, cá ngọt
+    lừ, rau giòn rụm** — chan cơm nóng là hết nồi lúc nào không hay.
+
+ingredientGroups:
+  - name: Phần cá & vị chua
+    icon: fish
+    items:
+      - id: caloc
+        name: Cá lóc đồng
+        icon: fish
+        base: 1
+        unit: con
+        frac: true
+        note: Con 700–900 g, còn quẫy càng ngon
+      - id: me
+        name: Me chín (me vắt)
+        icon: pod
+        base: 50
+        unit: g
+        note: Khoảng 1 vắt nhỏ, hoặc 2 muỗng canh me đặc
+      - id: khom
+        name: Khóm (thơm)
+        icon: pineapple
+        color: gold
+        base: 0.25
+        unit: trái
+        frac: true
+        note: Chín vàng, thơm nức mũi
+      - id: cachua
+        name: Cà chua chín
+        icon: tomato
+        color: red
+        base: 2
+        unit: trái
+        note: Chín đỏ mới cho màu đẹp
+  - name: Rau đồng quê
+    icon: basket
+    items:
+      - id: daubap
+        name: Đậu bắp
+        icon: okra
+        color: green
+        base: 150
+        unit: g
+        note: 6–8 trái non, xanh mướt
+      - id: bacha
+        name: Bạc hà (dọc mùng)
+        icon: stem
+        color: green
+        base: 2
+        unit: cây
+        note: Cây mập, tươi, không dập
+      - id: gia
+        name: Giá sống
+        icon: sprout
+        color: green
+        base: 150
+        unit: g
+        note: Cọng mập, trắng giòn
+      - id: diendien
+        name: Bông điên điển
+        icon: flower
+        color: gold
+        base: 100
+        unit: g
+        note: Mùa nước nổi mới có — không có cũng không sao
+  - name: Rau thơm & gia vị
+    icon: herb
+    items:
+      - id: ngoom
+        name: Ngò om (rau om)
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Linh hồn của canh chua — đừng bỏ qua!
+      - id: ngogai
+        name: Ngò gai
+        icon: herb
+        color: green
+        base: 5
+        unit: lá
+        note: Xắt nhuyễn rắc sau cùng
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 4
+        unit: tép
+        note: Phi vàng — điểm mười cho tô canh
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 3
+        unit: củ
+        note: Băm nhỏ để ướp cá
+      - id: ot
+        name: Ớt sừng
+        icon: chili
+        color: red
+        base: 2
+        unit: trái
+        note: Xắt xéo, vừa cay vừa đẹp
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Loại 40 độ đạm càng đậm đà
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 2.5
+        unit: muỗng canh
+        frac: true
+        note: Miền Tây nêm ngọt đậm — đừng tiếc!
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Muối · hạt nêm · tiêu · dầu ăn
+        note: Mỗi thứ một ít, nêm theo bước hướng dẫn
+  - name: Dọn kèm cho đúng điệu
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng hoặc bún tươi
+        icon: rice
+        qtyText: Tùy sức ăn cả nhà
+        note: Chan canh vô cơm là đúng bài nhất
+      - id: cham
+        name: Chén nước mắm nguyên chất + ớt
+        icon: bottle
+        color: red
+        qtyText: 1 chén nhỏ
+        note: Để chấm cá — thiếu là mất nửa cái ngon!
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 7 bước ra **nồi canh để đời**
+stepsLead: >-
+  Làm đúng thứ tự, canh đúng lửa — mỗi bước đều có lý do riêng. Xong bước nào
+  đánh dấu bước đó, có đồng hồ đếm giờ ngay trong trang cho khỏi quên nồi.
+steps:
+  - title: Sơ chế cá lóc — khâu quyết định
+    icon: knife
+    minutes: 20 phút
+    intro: "Cá lóc ngon hay tanh là do khâu này. Làm kỹ, chậm mà chắc:"
+    bullets:
+      - label: "Làm cá:"
+        text: >-
+          đánh sạch vảy, móc bỏ mang, mổ bụng bỏ ruột. Nếu mua ở chợ, nhờ người
+          bán làm giùm rồi về chỉ việc khử nhớt.
+      - label: "Khử nhớt & tanh:"
+        text: >-
+          chà xát cá với **muối hột + nước cốt chanh** chừng 2 phút, cạo nhẹ lớp
+          nhớt trắng, rửa lại nước sạch. Cách khác của dân miền Tây: dội nước ấm
+          khoảng 70°C lên da rồi cạo nhẹ là nhớt tróc hết.
+      - label: "Cắt khúc:"
+        text: >-
+          cắt khúc dày cỡ **4 cm** (con 800 g được 4–5 khúc, giữ cả đầu và đuôi
+          nấu cho ngọt nước). Khứa nhẹ 1–2 đường trên mỗi khúc cho thấm gia vị.
+      - label: "Ướp cá:"
+        text: >-
+          ½ muỗng cà phê muối + 1 muỗng cà phê hạt nêm + ½ muỗng cà phê tiêu +
+          1 muỗng canh hành tím băm. Trộn nhẹ tay, ướp **15 phút**.
+    callout:
+      type: warn
+      text: >-
+        Đừng dội nước sôi 100°C — da cá nứt toác, mất chất ngọt. Nước ấm già tay
+        là đủ.
+    timer:
+      secs: 900
+      label: Hẹn giờ ướp cá · 15:00
+      doneMsg: Ướp cá xong rồi!
+  - title: Sơ chế rau củ & dầm nước me
+    icon: basket
+    minutes: 10 phút
+    intro: "Tranh thủ lúc chờ cá thấm gia vị, mình lo hết phần rau củ:"
+    bullets:
+      - label: "Nước me:"
+        text: >-
+          cho me vào chén, chế [[100|ml]] nước sôi, ngâm 10 phút rồi dầm nát,
+          **lọc bỏ hột và xác**, giữ lại nước cốt sánh.
+      - label: "Khóm:"
+        text: gọt vỏ, khoét sạch mắt, xắt lát mỏng hình rẻ quạt.
+      - label: "Cà chua:"
+        text: rửa sạch, bổ múi cau 6 miếng.
+      - label: "Đậu bắp:"
+        text: cắt bỏ cuống, xắt xéo dày cỡ 2 cm.
+      - label: "Bạc hà:"
+        text: >-
+          tước sạch vỏ ngoài, xắt xéo, **bóp với ½ muỗng cà phê muối 5 phút**
+          rồi rửa lại, vắt nhẹ cho ráo — hết ngứa, hết hăng.
+      - label: "Phần còn lại:"
+        text: >-
+          giá rửa để ráo; bông điên điển nhặt rửa nhẹ tay; ngò om, ngò gai xắt
+          nhỏ; ớt xắt lát xéo; tỏi băm nhuyễn.
+    callout:
+      type: tip
+      text: >-
+        Sợ ngứa tay khi tước bạc hà? Đeo bao tay ni-lông, hoặc thoa chút dầu ăn
+        lên tay trước khi tước.
+  - title: Phi tỏi vàng & xào tạo màu
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - label: "Phi tỏi:"
+        text: >-
+          bắc nồi lên bếp, cho 2 muỗng canh dầu ăn, lửa vừa. Cho **⅔ chỗ tỏi
+          băm** vào, đảo đều tới khi **vàng ươm, thơm lựng** thì vớt ra chén
+          riêng — phần này để rắc lên tô canh lúc dọn.
+      - label: "Xào tạo màu:"
+        text: >-
+          vẫn nồi dầu đó, cho chỗ tỏi còn lại + cà chua + ⅓ chỗ khóm vào xào
+          chừng 2 phút cho cà chua hơi mềm, ra màu đỏ cam óng ánh — màu đẹp của
+          nồi canh là từ đây.
+    callout:
+      type: warn
+      text: >-
+        Tỏi vừa chuyển vàng ươm là vớt ra **liền** — nán thêm 10 giây là cháy
+        đắng, mất công phi lại.
+  - title: Nấu nước dùng chua & thả cá
+    icon: pot
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Châm vào nồi **[[1.5|lít]] nước**, đổ hết nước cốt me vào, đậy nắp
+          nấu cho **sôi già**.
+      - text: >-
+          Nước sôi bùng lên mới nhẹ tay **thả từng khúc cá** vào, hạ lửa vừa.
+          Mở nắp.
+      - text: >-
+          **Tuyệt đối không khuấy đảo.** Bọt nổi lên tới đâu, lấy vá **vớt sạch
+          tới đó** — bí quyết của nồi nước trong veo.
+      - text: Nấu **8–10 phút** tới khi cá chín tới, thịt trắng ngần là đạt.
+    callout:
+      type: warn
+      text: >-
+        Thả cá vào nước lạnh hoặc khuấy mạnh tay là cá vừa **tanh** vừa **nát**
+        — hai lỗi làm hỏng nồi canh nhiều nhất!
+    timer:
+      secs: 600
+      label: Hẹn giờ nấu cá · 10:00
+      doneMsg: Cá chín tới rồi, qua bước nêm nếm!
+  - title: Nêm nếm — linh hồn vị miền Tây
+    icon: spoon
+    minutes: 3 phút
+    bullets:
+      - text: "Nêm **đường trước**: [[2.5|muỗng canh|frac]] đường cát cho tan hết."
+      - text: >-
+          Kế tới **[[3|muỗng canh|frac]] nước mắm ngon** — chế lúc nước đang
+          sôi cho mùi mắm dậy thơm chứ không gắt.
+      - text: >-
+          Thêm 1 muỗng cà phê hạt nêm, nếm rồi cân lại: thiếu chua thêm me,
+          thiếu ngọt thêm đường.
+      - text: >-
+          Chuẩn vị khi húp thử thấy: **chua thanh chạy trước, ngọt đậm đuổi
+          theo liền, hậu mặn dịu nhẹ**.
+    callout:
+      type: tip
+      text: >-
+        Bí kíp thiệt tình: cứ nêm **ngọt hơn khẩu vị của bạn một chút** — đó
+        mới là canh chua miền Tây chính gốc. Người miền Tây ăn tô canh lạt
+        đường là biết liền "không phải dân mình nấu"!
+  - title: Thả rau — nhanh tay giữ độ giòn
+    icon: okra
+    minutes: 2 phút
+    bullets:
+      - text: Mở **lửa lớn** trở lại cho nước sôi mạnh.
+      - text: "Đợt 1: cho **chỗ khóm còn lại + đậu bắp + bạc hà** vào, nấu 1–2 phút."
+      - text: >-
+          Đợt 2: cho **giá + bông điên điển** vào, lấy vá nhấn chìm nhẹ, nước
+          **vừa sôi bùng lại là tắt bếp liền**.
+      - text: Nếm lần cuối, thả ớt xắt lát vào nồi.
+    callout:
+      type: warn
+      text: >-
+        Rau nấu quá tay là mềm nhũn, mất màu — canh chua đúng điệu thì **đậu
+        bắp còn sựt, giá còn giòn, bạc hà còn xốp**.
+    timer:
+      secs: 120
+      label: Hẹn giờ thả rau · 02:00
+      doneMsg: Tắt bếp liền — rau vừa chín giòn!
+  - title: Dọn tô — rắc "linh hồn" lên trên
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Múc canh ra **tô lớn**: xếp cá vào giữa, rau củ vây quanh, chan nước
+          ngập.
+      - text: >-
+          Rắc **ngò om + ngò gai** xắt nhỏ, thêm muỗng **tỏi phi vàng ươm** và
+          mấy lát ớt đỏ lên mặt.
+      - text: >-
+          Dọn cùng cơm trắng nóng hổi và **chén nước mắm nguyên chất dằm ớt**
+          để chấm cá.
+    callout:
+      type: tip
+      text: >-
+        Tô canh đạt chuẩn nhìn là biết: **nước trong ánh vàng me, rau xanh mướt,
+        cá trắng ngần**, khói bốc nghi ngút kéo theo mùi ngò om thơm điếc mũi.
+    doneText: Múc ra tô — xong!
+
+tipsTitle: 8 bí quyết của **dân miền Tây thứ thiệt**
+tipsLead: >-
+  Công thức ai cũng có, nhưng mấy mẹo nhỏ này mới là thứ chia đôi nồi canh
+  "ăn được" và nồi canh "ăn là nhớ".
+tips:
+  - icon: fish
+    title: Nhìn cá biết cá đồng
+    text: >-
+      Cá lóc đồng **mình thon, đầu nhọn, da sậm bóng**, còn quẫy khỏe. Cá nuôi
+      mập tròn, béo nhưng thịt bở hơn. Con 700–900 g là độ ngọt thịt đỉnh nhất.
+  - icon: lime
+    title: Khử tanh đúng bài
+    text: >-
+      Muối hột chà xát + nước cốt chanh, hoặc dội nước ấm 70°C rồi cạo nhớt.
+      **Cá sạch nhớt là hết 90% mùi tanh** — đừng bỏ qua vì lười.
+  - icon: pot
+    title: Nước sôi mới thả cá
+    text: >-
+      Nước sôi già làm mặt cá **se lại tức thì, khóa chất ngọt bên trong**. Thả
+      cá vô nước lạnh là bao nhiêu vị ngọt tan hết vào nước, thịt cá lạt nhách.
+  - icon: spoon
+    title: Chăm vớt bọt
+    text: >-
+      Bọt là tạp chất nổi lên khi nấu cá. Vớt sạch, siêng tay chút xíu là được
+      nồi nước **trong veo nhìn thấu tới đáy** — dấu ấn của người nấu kỹ.
+  - icon: pod
+    title: Me là chua chủ đạo
+    text: >-
+      Chua của me **thanh và có chiều sâu**, khóm phụ họa thêm mùi thơm ngọt.
+      Tuyệt đối đừng thay bằng giấm — chua gắt, mất hết cái duyên của tô canh.
+  - icon: jar
+    title: Ngọt đậm là bản sắc
+    text: >-
+      Đường trong canh chua miền Tây **không phải tùy chọn**. Nêm mạnh tay hơn
+      khẩu vị thường một chút — vị ngọt đậm ôm lấy vị chua mới ra đúng "chất"
+      Nam Bộ.
+  - icon: sprout
+    title: Rau bỏ sau, tắt bếp liền
+    text: >-
+      Rau củ chỉ cần **sôi bùng một cái là đủ chín**. Nấu thêm phút nào là mất
+      giòn phút đó. Ăn không hết, khi hâm lại hãy nấu phần rau mới.
+  - icon: garlic
+    title: Tỏi phi + ngò om = linh hồn
+    text: >-
+      Thiếu muỗng tỏi phi vàng và nhúm ngò om rắc mặt là **"chưa phải canh chua
+      miền Tây"**. Hai thứ này đánh thức cả tô canh trong một giây.
+
+serve:
+  title: Dọn mâm **đúng điệu Nam Bộ**
+  paras:
+    - >-
+      Canh chua cá lóc phải ăn **thiệt nóng**, vừa thổi vừa húp mới đã. Gắp
+      khúc cá ra chén, **chấm ngập vô nước mắm nguyên chất dằm ớt** — miếng cá
+      ngọt lừ quyện vị mắm mặn cay, đưa cơm số một.
+    - >-
+      Còn nước canh thì cứ chan thẳng vô chén cơm nóng, lùa một hơi. Vị chua
+      thanh của me, ngọt đậm của khóm và đường, giòn rụm của đậu bắp với giá —
+      **một muỗng canh là đủ mùa nước nổi ùa về**.
+    - >-
+      Bữa cơm chiều đúng chuẩn miền Tây? Nồi canh chua này đặt cạnh **ơ cá kho
+      tộ** tiêu cay đậm đà — combo huyền thoại mà bất kỳ người con xa quê nào
+      cũng thèm tới xé lòng.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Bốn thứ này lên mâm là đủ một bữa \"ăn quên trời đất\":"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng hổi** — nấu hơi khô một chút để chan canh là vừa đẹp."
+      - icon: bottle
+        text: "**Chén nước mắm nguyên chất + ớt** — chấm cá lóc, tuyệt đối không pha loãng."
+      - icon: claypot
+        text: "**Cá kho tộ** hoặc thịt kho tiêu — mặn ngọt kề bên chua thanh, cân mâm hoàn hảo."
+      - icon: drop
+        text: >-
+          **Còn dư nước canh?** Sáng mai trụng bún tươi, thả thêm nhúm giá —
+          thành tô bún canh chua ngon quên sầu.
+
+faq:
+  - q: Không tìm được bạc hà (dọc mùng) thì sao?
+    a: >-
+      Cứ **tăng thêm đậu bắp và giá** là nồi canh vẫn đầy đặn. Đừng thay bằng
+      rau lạ — cấu trúc xốp hút nước dùng của bạc hà khá đặc biệt, thà thiếu
+      còn hơn lạc vị.
+  - q: Không có bông điên điển thì có còn là canh chua miền Tây?
+    a: >-
+      Vẫn chuẩn! Điên điển là **quà tặng theo mùa** (mùa nước nổi, khoảng tháng
+      8–11), không phải thành phần bắt buộc. Nếu muốn thay, **bông so đũa**
+      cũng rất hợp. Ngoài mùa thì cứ nấu bản "cơ bản" — ngon không kém.
+  - q: Thay cá lóc bằng cá khác được không?
+    a: >-
+      Được — **cá basa, cá hú, cá diêu hồng** đều nấu canh chua ngon. Nhưng nói
+      thiệt lòng: cái dai ngọt đằm của thịt cá lóc là "hồn" của món này. Có dịp
+      mua được cá lóc, đừng thay.
+  - q: Me vắt, me tươi hay me hộp — dùng loại nào?
+    a: >-
+      **Me vắt** (bán vỉ ở chợ, siêu thị) tiện và ổn định nhất — công thức này
+      dùng loại đó. **Me tươi** mùa me dốt thì thơm hết ý: dầm 5–7 trái với
+      nước sôi. **Me hộp cô đặc** vị rất đậm, dùng **giảm nửa lượng** rồi nếm
+      dần kẻo chua gắt.
+  - q: Canh bị đục hoặc tanh — cứu được không?
+    a: >-
+      Ba thủ phạm thường gặp: **thả cá lúc nước chưa sôi, khuấy đảo mạnh tay,
+      quên vớt bọt**. Cứu chữa: nhẹ nhàng vớt hết bọt còn lại, thêm vài lát
+      khóm và chút nước me nấu sôi thêm 2 phút — mùi thơm chua sẽ át bớt. Lần
+      sau làm đúng ba điều trên là nước trong veo ngay.
+
+ticker:
+  - icon: drop
+    text: Chua thanh nước me
+  - icon: flower
+    text: Bông điên điển mùa nước nổi
+  - icon: fish
+    text: Cá lóc đồng ngọt thịt
+  - icon: herb
+    text: Thơm lừng ngò om, ngò gai
+  - icon: pineapple
+    text: Khóm chín ngọt lựng
+  - icon: chili
+    text: Cay nồng ớt sừng
+  - icon: rice
+    text: Đúng điệu bữa cơm quê

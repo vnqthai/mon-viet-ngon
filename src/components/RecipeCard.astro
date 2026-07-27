@@ -1,0 +1,37 @@
+---
+import Icon from './Icon.astro';
+import RecipeArt from './art/RecipeArt.astro';
+import { plain } from '../utils/rich';
+
+interface Props { recipe: any }
+const { recipe } = Astro.props;
+const { id, data } = recipe;
+---
+<a
+  class="rcard reveal"
+  href={`/mon/${id}/`}
+  data-category={data.category}
+  data-region={data.region}
+>
+  <div class="rcard__art" aria-hidden="true">
+    <div class="rcard__badges">
+      <span class="badge badge--region"><Icon name="map" />{data.region}</span>
+      <span class="badge badge--cat">{data.category}</span>
+    </div>
+    <RecipeArt art={data.art} category={data.category} />
+    <div class="rcard__wave">
+      <svg viewBox="0 0 400 26" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 14 C 60 26 120 2 200 10 C 280 18 340 24 400 12 L 400 26 L 0 26 Z" fill="currentColor"/>
+      </svg>
+    </div>
+  </div>
+  <div class="rcard__body">
+    <h3>{plain(data.title)}</h3>
+    <p>{plain(data.summary)}</p>
+    <div class="rcard__meta">
+      <span class="num"><Icon name="clock" />{data.time.total}</span>
+      <span><Icon name="level" />{data.difficulty}</span>
+      <span class="rcard__go">Vô bếp <Icon name="arrow-right" /></span>
+    </div>
+  </div>
+</a>

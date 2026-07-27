@@ -1,0 +1,192 @@
+title: Canh bí đỏ thịt bằm **ngọt lành 20 phút**
+summary: >-
+  Miếng bí **dẻo bùi vàng ươm**, nước canh ngọt thanh vị thịt, rắc hành ngò
+  thơm phức — món canh "cứu bữa" nhanh gọn mà đứa nhỏ nào cũng chịu ăn.
+region: Cả nước
+category: Canh
+time:
+  total: 20 phút
+servingsBase: 4
+difficulty: Dễ
+featured: true
+order: 6
+heroEyebrow: Bữa vội có canh ngon…
+
+quick:
+  ingredients:
+    - Bí đỏ [[500|g]] — gọt vỏ, cắt miếng vuông 3 cm
+    - Thịt heo bằm [[200|g]] — ướp hạt nêm + tiêu + hành tím
+    - Hành tím [[2|củ]] · hành lá + ngò rí 1 nắm
+    - "Nêm: nước mắm [[1|muỗng canh|frac]] · hạt nêm, muối, tiêu · nước [[1|lít]]"
+  steps:
+    - Bí gọt vỏ cắt miếng; thịt bằm ướp hạt nêm – tiêu – hành tím băm **10 phút**.
+    - Phi thơm hành, cho thịt vào **xào tơi** tới săn.
+    - Châm [[1|lít]] nước sôi, sôi lại thì **hớt bọt**, thả bí vào.
+    - Nấu **10 phút** lửa vừa tới khi bí **mềm dẻo mà chưa nát**, nêm nếm lại.
+    - Tắt bếp, rắc hành lá + ngò + tiêu. Chan cơm nóng là hết ý.
+  warning: >-
+    Bí nấu quá tay là **nát tan thành súp** — xiên đũa thấy vừa qua là tắt
+    bếp, bí sẽ chín thêm trong nồi nóng.
+
+flavor:
+  chua: 0.5
+  ngot: 7
+  man: 5
+  cay: 1
+  thom: 6
+flavorNote: >-
+  **Chuẩn nồi canh bí:** nước ngọt thanh tự nhiên từ bí và thịt, miếng bí
+  **giữ dáng mà dẻo bùi** — không mặn gắt, không nát nhừ.
+storyEyebrow: Chuyện nồi canh chiều
+storyTitle: Món canh **"cứu bữa" của mọi nhà**
+story:
+  - >-
+    Chiều đi làm về trễ, mở tủ lạnh thấy khúc bí đỏ với vỉ thịt bằm — vậy là
+    đủ một nồi canh ngon. Canh bí đỏ thịt bằm là kiểu món **không cần công
+    thức vẫn nấu được, nhưng có vài mẹo nhỏ thì ngon hẳn lên**: thịt phải xào
+    săn trước cho nước ngọt trong, bí phải canh đúng độ "mềm mà chưa nát".
+  - >-
+    Bí đỏ lại là "siêu thực phẩm" giá rẻ: ngọt tự nhiên, đẹp mắt, nhiều
+    vitamin A — nồi canh vàng ươm này là cách dễ nhất để đám nhỏ trong nhà
+    **ăn rau mà không cằn nhằn**.
+
+ingredientGroups:
+  - name: Nguyên liệu chính
+    icon: pumpkin
+    items:
+      - id: bido
+        name: Bí đỏ
+        icon: pumpkin
+        color: gold
+        base: 500
+        unit: g
+        note: Chọn trái vỏ sần, cầm nặng tay — dẻo ngọt
+      - id: thitbam
+        name: Thịt heo bằm
+        icon: meat
+        base: 200
+        unit: g
+        note: Nạc dăm bằm là ngọt nước nhất
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: 1 củ băm ướp thịt, 1 củ phi thơm
+      - id: hanhngo
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Xắt nhỏ rắc sau cùng
+  - name: Gia vị
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Nêm lúc nước sôi cho thơm
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Hạt nêm · muối · tiêu · dầu ăn
+        note: Nêm nhạt tay — bí đã ngọt sẵn
+
+steps:
+  - title: Sơ chế nhanh gọn
+    icon: knife
+    minutes: 7 phút
+    bullets:
+      - label: "Bí đỏ:"
+        text: >-
+          gọt vỏ, nạo sạch ruột, cắt miếng vuông cỡ **3 cm** — đều tay cho
+          chín cùng lượt.
+      - label: "Thịt bằm:"
+        text: >-
+          ướp **1 muỗng cà phê hạt nêm + ¼ muỗng cà phê tiêu + 1 củ hành tím
+          băm**, trộn đều, để 10 phút.
+      - label: "Hành ngò:"
+        text: rửa sạch, xắt nhỏ, để riêng.
+  - title: Xào thịt săn — nước ngọt mà trong
+    icon: flame
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Phi thơm hành tím với 1 muỗng canh dầu, cho thịt bằm vào **xào tơi
+          tay** tới khi săn và thơm.
+      - text: >-
+          Xào săn trước giúp thịt **không vón cục, không ra bọt đen**, nước
+          canh ngọt mà trong veo.
+  - title: Nấu bí vừa chín tới
+    icon: pot
+    minutes: 12 phút
+    bullets:
+      - text: Châm **[[1|lít]] nước sôi** vào nồi thịt, sôi lại thì hớt bọt.
+      - text: >-
+          Thả bí vào, **lửa vừa, hé nắp**, nấu 10 phút — xiên đũa qua miếng
+          bí thấy **vừa hết cấn** là đạt.
+      - text: >-
+          Nêm [[1|muỗng canh|frac]] nước mắm + ½ muỗng cà phê hạt nêm, nếm
+          lại cho vừa miệng.
+    callout:
+      type: warn
+      text: >-
+        Đậy nắp kín + nấu quá lửa là bí **rã thành súp đặc** trong một nốt
+        nhạc. Canh đúng kiểu phải còn **miếng bí nguyên hình, dẻo bùi**.
+    timer:
+      secs: 600
+      label: Hẹn giờ nấu bí · 10:00
+      doneMsg: Thử miếng bí coi — vừa mềm là tắt bếp!
+  - title: Rắc hành ngò, dọn mâm
+    icon: bowl
+    minutes: 1 phút
+    bullets:
+      - text: Tắt bếp, rắc **hành lá + ngò rí + chút tiêu xay**.
+      - text: Múc ra tô, ăn nóng với cơm — chan thẳng vô chén cũng "hết nước chấm".
+    doneText: Múc canh ra tô — xong!
+
+tipsTitle: 3 bí quyết cho **nồi canh ngọt lành**
+tips:
+  - icon: pumpkin
+    title: Chọn bí dẻo, tránh bí sượng
+    text: >-
+      Trái bí ngon có **vỏ sần cứng, màu cam sậm, cầm nặng tay**; cắt ra thịt
+      dày, hột chắc. Bí vỏ bóng láng thường non, nấu lên sượng và lạt.
+  - icon: meat
+    title: Xào thịt trước, đừng thả sống
+    text: >-
+      Thịt bằm thả thẳng vô nước là **vón cục và ra bọt đục**. Xào săn với
+      hành phi trước — thịt tơi từng hạt, nước canh trong, thơm gấp đôi.
+  - icon: drop
+    title: Biến tấu một nồi thành ba món
+    text: >-
+      Thay thịt bằm bằng **tôm khô** (ngọt đậm đà kiểu miền Tây), **sườn non**
+      (nấu lâu hơn 20 phút), hay thêm **đậu phộng sống** nấu mềm kiểu Huế —
+      cùng một công thức nền, ba hương vị khác nhau.
+
+serve:
+  title: Bữa cơm chiều **20 phút mà ấm bụng**
+  paras:
+    - >-
+      Canh bí đỏ hợp nhất với mấy món mặn khô: **thịt kho tiêu, cá chiên sả,
+      trứng chiên** — mâm cơm 2 món 1 canh gọn gàng mà đủ chất. Màu vàng cam
+      của bí đặt cạnh dĩa rau xanh nhìn đã con mắt.
+    - >-
+      Nhà có em bé? Múc phần bí ra **dầm nhuyễn với chút nước canh** là thành
+      chén súp bí ngọt lành cho bé ăn dặm — một nồi lo được cả nhà.
+faq:
+  - q: Canh bí có nấu với tôm tươi được không?
+    a: >-
+      Quá hợp! Tôm lột vỏ băm dập, ướp chút tiêu rồi xào săn y như thịt bằm.
+      **Vỏ tôm đừng bỏ** — cho vào nồi nấu 5 phút đầu rồi vớt ra, nước canh
+      ngọt lừ như có nêm bột tôm.
+  - q: Bí đỏ mua dư để được bao lâu?
+    a: >-
+      Trái nguyên để nơi thoáng mát cả **tháng**. Đã cắt thì bỏ hột, bọc kín
+      ngăn mát ăn trong **4–5 ngày**; hoặc gọt sẵn, cắt miếng cấp đông — lúc
+      nấu thả thẳng vô nồi, tiện như đồ mua sẵn.

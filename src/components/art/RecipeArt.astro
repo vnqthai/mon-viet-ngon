@@ -1,0 +1,28 @@
+---
+/* Chọn minh họa cho món: art riêng nếu có, không thì suy từ loại món */
+import CanhChuaArt from './CanhChuaArt.astro';
+import ArtBowl from './ArtBowl.astro';
+import ArtClaypot from './ArtClaypot.astro';
+import ArtPlate from './ArtPlate.astro';
+import ArtRolls from './ArtRolls.astro';
+
+interface Props { art?: string; category: string }
+const { art, category } = Astro.props;
+
+const byCategory: Record<string, string> = {
+  'Canh': 'bowl',
+  'Kho': 'claypot',
+  'Xào': 'plate',
+  'Chiên': 'plate',
+  'Cuốn': 'rolls',
+  'Gỏi': 'rolls',
+  'Hấp': 'bowl',
+  'Bún – Phở': 'bowl',
+};
+const kind = art ?? byCategory[category] ?? 'bowl';
+---
+{kind === 'canh-chua' && <CanhChuaArt />}
+{kind === 'bowl' && <ArtBowl />}
+{kind === 'claypot' && <ArtClaypot />}
+{kind === 'plate' && <ArtPlate />}
+{kind === 'rolls' && <ArtRolls />}

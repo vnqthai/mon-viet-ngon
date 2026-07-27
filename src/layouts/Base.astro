@@ -1,0 +1,100 @@
+---
+import Sprite from '../components/Sprite.astro';
+import Icon from '../components/Icon.astro';
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/recipe.css';
+import '../styles/home.css';
+
+interface Props {
+  title: string;
+  description: string;
+  showPrint?: boolean;   // hiện nút in (trang món ăn)
+  active?: 'home' | 'mon' | 'bi-quyet';
+}
+const { title, description, showPrint = false, active } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="vi_VN" />
+  <title>{title}</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Dancing+Script:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <script is:inline>
+    // Áp theme đã lưu TRƯỚC khi vẽ trang để không chớp màu
+    (function () {
+      try {
+        var t = localStorage.getItem('mvn:theme');
+        if (t) document.documentElement.dataset.theme = JSON.parse(t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <Sprite />
+
+  <header class="site-head">
+    <div class="site-head__inner">
+      <a class="brand" href="/" aria-label="Món Việt Ngon — về trang chủ">
+        <Icon name="bowl" />
+        <span>Món <span class="brand__viet">Việt</span> Ngon</span>
+      </a>
+      <nav class="site-nav" aria-label="Điều hướng trang">
+        <a href="/" aria-current={active === 'home' ? 'page' : undefined}>Trang chủ</a>
+        <a href="/mon/" aria-current={active === 'mon' ? 'page' : undefined}>Món ngon</a>
+        <a href="/bi-quyet/" aria-current={active === 'bi-quyet' ? 'page' : undefined}>Bí quyết bếp</a>
+      </nav>
+      <div class="head-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Đổi giao diện sáng / tối" title="Giao diện sáng / tối">
+          <svg id="iconMoon" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-moon"></use></svg>
+          <svg id="iconSun" viewBox="0 0 24 24" aria-hidden="true"><use href="#ic-sun"></use></svg>
+        </button>
+        {showPrint && (
+          <button class="icon-btn" id="printBtn" type="button" aria-label="In công thức" title="In công thức">
+            <Icon name="print" />
+          </button>
+        )}
+      </div>
+    </div>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  </header>
+
+  <slot />
+
+  <div class="checker" aria-hidden="true"></div>
+  <footer class="site-foot">
+    <div class="wrap">
+      <span class="brand">
+        <Icon name="bowl" />
+        <span>Món <span class="brand__viet">Việt</span> Ngon</span>
+      </span>
+      <nav class="site-foot__nav" aria-label="Liên kết cuối trang">
+        <a href="/">Trang chủ</a>
+        <a href="/mon/">Món ngon</a>
+        <a href="/bi-quyet/">Bí quyết bếp</a>
+      </nav>
+      <p>Nấu bằng cái bụng thương quê <span class="heart">♥</span> — monvietngon.com</p>
+      <p class="fine">Trang tĩnh 100% — không backend, không theo dõi. Giỏ đi chợ và tiến độ nấu lưu ngay trên máy bạn.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <Icon name="bowl" />
+    <span id="toastMsg"></span>
+  </div>
+
+  <script src="../scripts/site.js"></script>
+</body>
+</html>

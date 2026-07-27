@@ -1,0 +1,197 @@
+title: Rau muống xào tỏi **xanh giòn như nhà hàng**
+summary: >-
+  Cọng rau **xanh mướt, giòn sựt**, thơm lừng hai tầng tỏi — món rau quốc dân
+  mà 10 người xào thì 7 người bị thâm đen, vì thiếu đúng một bí quyết.
+region: Cả nước
+category: Xào
+time:
+  total: 15 phút
+servingsBase: 4
+difficulty: Dễ
+featured: true
+order: 4
+heroEyebrow: Món rau quốc dân…
+
+quick:
+  ingredients:
+    - Rau muống [[500|g]] — nhặt cọng non, ngắt khúc 10 cm
+    - Tỏi [[6|tép]] — đập dập băm thô, chia đôi
+    - Dầu ăn [[2|muỗng canh|frac]] · muối, đường, hạt nêm (hoặc dầu hào)
+    - Nước đá 1 thau + chanh vài giọt (bí quyết xanh giòn)
+  steps:
+    - Rau nhặt rửa, ngâm nước muối loãng 10 phút, vớt ráo.
+    - "**Chần 30 giây** trong nước thiệt sôi có chút muối + dầu, vớt ra **ngâm ngay nước đá** — đây là bí quyết xanh giòn."
+    - Phi thơm **nửa chỗ tỏi** với dầu, lửa thiệt lớn.
+    - Cho rau vào **xào nhanh tay 1–2 phút**, nêm muối – đường – hạt nêm (hoặc 1 muỗng dầu hào).
+    - Tắt bếp, trộn **nửa chỗ tỏi sống còn lại**, ra dĩa ăn nóng liền.
+  warning: >-
+    Xào rau **lửa nhỏ** hoặc xào lâu là rau thâm đen, ra nước, dai nhách —
+    chảo phải thiệt nóng, tay phải thiệt nhanh.
+
+flavor:
+  chua: 0.5
+  ngot: 3
+  man: 6
+  cay: 1
+  thom: 8
+flavorNote: >-
+  **Chuẩn dĩa rau xào:** gắp lên nghe **sựt một cái**, thơm hai tầng tỏi —
+  tỏi phi dậy mùi chín, tỏi sống cay thơm nồng.
+storyEyebrow: Chuyện dĩa rau
+storyTitle: Món rau **quốc dân, mà khó không ngờ**
+story:
+  - >-
+    Mâm cơm Việt từ Bắc chí Nam, hễ bí món rau là **rau muống xào tỏi** — rẻ,
+    nhanh, đưa cơm. Vậy mà món "dễ nhất" này lại là bài kiểm tra tay nghề
+    thầm lặng: rau xào ra **xanh mướt giòn sựt** hay **thâm đen ra nước** là
+    biết liền người đứng bếp cứng cỡ nào.
+  - >-
+    Bí mật không nằm ở chảo xịn hay lửa hồng ngoại — nằm ở **nhịp chần và
+    thau nước đá**: chần sơ cho rau chín tới 70%, sốc lạnh khóa màu, rồi mới
+    xào lửa lớn thiệt nhanh. Nhà hàng nào cũng làm vậy, giờ mình làm ở nhà
+    thôi.
+
+ingredientGroups:
+  - name: Nguyên liệu chính
+    icon: basket
+    items:
+      - id: raumuong
+        name: Rau muống
+        icon: stem
+        color: green
+        base: 500
+        unit: g
+        note: Chọn bó cọng nhỏ, ngắt thử nghe giòn
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 6
+        unit: tép
+        note: Đập dập băm thô — chia đôi, nửa phi nửa trộn sống
+      - id: dau
+        name: Dầu ăn
+        icon: bottle
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Mỡ heo thì càng thơm béo
+  - name: Gia vị & đồ nghề
+    icon: jar
+    items:
+      - id: giavi
+        name: Muối · đường · hạt nêm
+        icon: jar
+        qtyText: Mỗi thứ ½ muỗng cà phê
+        note: Thích đậm đà kiểu quán thì thay bằng 1 muỗng dầu hào
+      - id: nuocda
+        name: Thau nước đá
+        icon: drop
+        color: green
+        qtyText: 1 thau
+        note: Bí quyết xanh giòn — đừng bỏ qua!
+      - id: chanh
+        name: Chanh
+        icon: lime
+        color: gold
+        base: 0.5
+        unit: trái
+        frac: true
+        note: Vắt nhẹ trước khi ăn — dậy vị bất ngờ
+
+steps:
+  - title: Nhặt rau & ngâm rửa
+    icon: basket
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Nhặt lấy **phần cọng non và lá non**, ngắt khúc cỡ 10 cm. Cọng to thì
+          chẻ đôi cho mau chín.
+      - text: >-
+          Ngâm **nước muối loãng 10 phút**, xả lại vài nước, vớt ra rổ để thiệt
+          ráo.
+  - title: Chần sơ & sốc nước đá — bí quyết nhà hàng
+    icon: pot
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Nấu nồi nước **thiệt sôi**, thêm **½ muỗng cà phê muối + vài giọt
+          dầu ăn**.
+      - text: >-
+          Thả rau vào chần **đúng 30 giây**, không đậy nắp, vớt ra **thả ngay
+          vô thau nước đá** 1 phút rồi vớt lên để ráo.
+    callout:
+      type: tip
+      text: >-
+        Muối giữ màu, dầu tạo lớp áo bóng, nước đá **khóa màu xanh và độ
+        giòn** tại chỗ. Ba thứ cộng lại — rau xanh mướt tới lúc tàn tiệc.
+  - title: Xào lửa lớn, nhanh tay
+    icon: flame
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Chảo thiệt nóng, cho dầu + **nửa chỗ tỏi**, phi vàng thơm trong 20
+          giây.
+      - text: >-
+          Trút rau vào, **lửa lớn nhất, đảo liên tục 1–2 phút**. Nêm muối –
+          đường – hạt nêm (hoặc dầu hào), đảo đều.
+      - text: Rau vừa nóng bóng dầu là **tắt bếp liền** — đừng nán.
+    callout:
+      type: warn
+      text: >-
+        Chảo chưa đủ nóng mà đã cho rau là rau **ra nước, luộc trong chảo** —
+        thà chờ thêm 30 giây cho chảo bốc khói nhẹ rồi hãy xào.
+  - title: Tầng tỏi thứ hai & ra dĩa
+    icon: garlic
+    minutes: 1 phút
+    bullets:
+      - text: >-
+          Tắt bếp rồi mới trộn **nửa chỗ tỏi sống** còn lại — hơi nóng làm tỏi
+          dậy mùi mà không cháy, thành **hai tầng hương tỏi** chín và sống.
+      - text: >-
+          Ra dĩa, thích thì vắt nhẹ **vài giọt chanh**. Ăn nóng liền, món này
+          để nguội là xuống hạng nhanh lắm.
+    doneText: Ra dĩa ăn liền — xong!
+
+tipsTitle: 3 bí quyết cho **dĩa rau xanh giòn**
+tips:
+  - icon: stem
+    title: Chọn rau muống nước, cọng nhỏ
+    text: >-
+      Bó rau **cọng nhỏ, đốt ngắn, bẻ nghe tách giòn** là rau non. Cọng to
+      trắng thì chẻ đôi; rau để tủ lạnh lâu đã héo thì ngâm nước đá 15 phút
+      trước khi làm cho tươi lại.
+  - icon: flame
+    title: Chảo phải "bốc khói nhẹ"
+    text: >-
+      Xào rau là cuộc chơi của **nhiệt lớn + thời gian ngắn**. Chảo mỏng lửa
+      yếu thì xào từng nửa mẻ — chất đầy chảo một lượt là nhiệt sụp, rau ra
+      nước ngay.
+  - icon: garlic
+    title: Tỏi hai tầng mới là cao thủ
+    text: >-
+      Tỏi phi cho mùi **thơm chín ngọt**, tỏi sống trộn cuối cho mùi **cay
+      nồng tươi** — dĩa rau thơm có chiều sâu hẳn. Mẹo này xài được cho mọi
+      món xào rau khác.
+
+serve:
+  title: Dĩa rau **cân cả mâm cơm**
+  paras:
+    - >-
+      Rau muống xào tỏi hợp với gần như mọi món mặn: cạnh **cá kho tộ** hay
+      **thịt kho hột vịt** thì thành mâm cơm miền Nam kinh điển; thêm chén
+      nước mắm ớt dầm trứng luộc là bữa cơm sinh viên huyền thoại.
+    - >-
+      Nước rau chần đừng đổ — thêm chút muối, vắt trái chanh là thành **chén
+      canh rau muống dầm chanh** thanh mát uống kèm, một công đôi món.
+faq:
+  - q: Sao rau nhà mình xào hay bị thâm đen?
+    a: >-
+      Ba lý do: **không chần + sốc đá**, **lửa nhỏ**, hoặc **xào quá lâu**.
+      Rau thâm là do enzyme oxy hóa khi nhiệt lên chậm — chần sơ diệt enzyme,
+      sốc lạnh khóa màu, xào nhanh lửa lớn là hết bệnh.
+  - q: Bỏ bước chần được không?
+    a: >-
+      Được nếu chảo bạn dày, lửa thiệt mạnh và xào **mỗi mẻ ít rau**. Bếp gia
+      đình lửa yếu thì đừng bỏ — bước chần 30 giây chính là "bảo hiểm" cho màu
+      xanh và độ giòn.

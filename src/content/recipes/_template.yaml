@@ -1,0 +1,109 @@
+# ============================================================
+# MẪU THÊM MÓN MỚI — copy file này, đổi tên thành <slug-mon-an>.yaml
+# (tên file chính là đường dẫn: /mon/<tên-file>/)
+# File bắt đầu bằng "_" sẽ bị bỏ qua khi build.
+#
+# Markup dùng được trong mọi chuỗi văn bản:
+#   **chữ đậm**              → in đậm + tô màu điểm nhấn
+#   [[500|g]]                → định lượng tự tính theo khẩu phần
+#   [[2.5|muỗng canh|frac]]  → hiện phân số (2½) thay vì số lẻ
+# Đơn vị hiểu sẵn: g, ml, lít (tự đổi kg/lít) — còn lại giữ nguyên chữ.
+#
+# Icon có sẵn (xem src/components/Sprite.astro): bowl claypot pot plate…
+#   fish shrimp meat egg | pod pineapple tomato okra stem sprout flower herb
+#   garlic chili onion pumpkin ginger lettuce | bottle jar spoon rice noodle
+#   knife flame clock drop lime basket roll pepper bulb alert question map
+# ============================================================
+title: Tên món **chữ nhấn vàng**
+summary: >-
+  Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
+region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Cả nước
+category: Canh          # Canh | Kho | Xào | Cuốn | Gỏi | Chiên | Hấp | Bún – Phở
+time:
+  total: 30 phút
+servingsBase: 4         # công thức viết cho mấy người — định lượng scale từ số này
+difficulty: Dễ          # Dễ | Vừa | Kỳ công
+featured: false         # true = hiện ở trang chủ
+order: 99               # thứ tự hiển thị, nhỏ đứng trước
+# art: bowl             # bỏ trống sẽ tự chọn theo category (bowl/claypot/plate/rolls)
+heroEyebrow: Câu dẫn viết tay trên tiêu đề…
+
+quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc
+  ingredients:
+    - Nguyên liệu chính [[500|g]] — ghi chú ngắn
+    - "Nêm: nước mắm [[2|muỗng canh|frac]] · đường, tiêu"
+  steps:
+    - Nhịp 1 — một dòng, có thể **nhấn** chỗ quan trọng.
+    - Nhịp 2 — giữ mỗi dòng một hành động chính.
+  warning: Lỗi hay gặp nhất của món này — một câu thôi.
+
+flavor:                 # tùy chọn — bản đồ hương vị (0–10, cho 0.5 được)
+  chua: 1
+  ngot: 5
+  man: 6
+  cay: 2
+  thom: 7
+flavorNote: "**Chuẩn vị:** mô tả một câu thế nào là đạt."
+storyTitle: Tiêu đề phần chuyện — **chữ nhấn xanh**
+story:
+  - Đoạn 1 kể chuyện món ăn (đoạn đầu có chữ cái to đầu dòng).
+  - Đoạn 2 — vì sao món này đáng nấu, bí quyết nằm ở đâu.
+
+ingredientGroups:
+  - name: Nhóm nguyên liệu 1
+    icon: basket
+    items:
+      - id: nl1                   # id duy nhất trong món (dùng lưu giỏ đi chợ)
+        name: Tên nguyên liệu
+        icon: fish
+        color: amber              # amber | green | red | gold
+        base: 500                 # có base+unit → tự scale theo khẩu phần
+        unit: g
+        note: Ghi chú chọn mua
+      - id: nl2
+        name: Gia vị lặt vặt
+        icon: jar
+        qtyText: Muối · tiêu · dầu ăn   # không cần scale thì dùng qtyText
+        note: Nêm theo bước hướng dẫn
+
+steps:
+  - title: Tên bước 1
+    icon: knife
+    minutes: 10 phút              # tùy chọn — chip thời gian
+    intro: "Câu dẫn trước danh sách (tùy chọn):"
+    bullets:
+      - label: "Nhãn đậm:"        # tùy chọn
+        text: Nội dung chi tiết, dùng được **đậm** và [[100|ml]].
+      - text: Gạch đầu dòng không nhãn.
+    callout:                      # tùy chọn — warn (cảnh báo) | tip (mẹo)
+      type: warn
+      text: Lỗi chí mạng của bước này.
+    timer:                        # tùy chọn — nút đếm giờ trong bước
+      secs: 600
+      label: Hẹn giờ · 10:00
+      doneMsg: Thông báo khi hết giờ!
+    # doneText: Chữ trên ô đánh dấu (mặc định "Xong bước này")
+
+tips:
+  - icon: bulb
+    title: Tên bí quyết
+    text: Nội dung — mấy mẹo chia đôi nồi "ăn được" và nồi "ăn là nhớ".
+
+serve:                            # tùy chọn — bỏ cả khối nếu chưa cần
+  title: Dọn mâm **chữ nhấn**
+  paras:
+    - Ăn món này với gì, lúc nào, kiểu gì cho đã.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Mấy thứ nên có trên mâm:"
+    items:
+      - icon: rice
+        text: "**Món kèm** — vì sao hợp."
+
+faq:                              # tùy chọn
+  - q: Câu hỏi hay gặp?
+    a: Trả lời gọn, dùng được **đậm**.
+
+# ticker:                         # tùy chọn — băng chữ chạy dưới hero
+#   - icon: drop
+#     text: Cụm từ gợi vị

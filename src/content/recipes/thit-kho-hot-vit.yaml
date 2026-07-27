@@ -1,0 +1,277 @@
+title: Thịt kho hột vịt **nước dừa vàng óng**
+summary: >-
+  Ba rọi mềm rục, hột vịt thấm nâu, nước kho **trong veo màu hổ phách** nhờ
+  nước dừa xiêm — nồi thịt kho ngày Tết mà ngày thường ăn cũng "bao ghiền".
+region: Miền Nam
+category: Kho
+time:
+  total: 1 giờ 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 3
+heroEyebrow: Nghe mùi là thấy Tết…
+
+quick:
+  ingredients:
+    - Ba rọi rút sườn [[800|g]] — cắt khúc vuông 4 cm
+    - Hột vịt [[6|trứng]] — luộc chín, bóc vỏ
+    - Nước dừa tươi [[1|lít]] (1–2 trái dừa xiêm)
+    - Hành tím [[3|củ]] + tỏi [[3|tép]] băm · ớt [[2|trái]] nguyên trái
+    - "Nêm: nước mắm [[4|muỗng canh|frac]] · đường [[2|muỗng canh|frac]] · tiêu, hạt nêm"
+  steps:
+    - Thịt chần sơ nước sôi, rửa sạch; ướp mắm – đường – hành tỏi – tiêu **30 phút**. Luộc trứng, bóc vỏ.
+    - Đảo thịt trên lửa vừa cho **săn lại, ra bớt mỡ**, thơm mùi hành tỏi.
+    - Châm **nước dừa ngập thịt**, sôi thì hớt bọt kỹ, hạ liu riu kho **45 phút** mở hé nắp.
+    - Thả hột vịt, kho thêm **15–20 phút**, thỉnh thoảng trở trứng cho thấm đều màu.
+    - Nêm lại cho **mặn ngọt cân nhau**, thả ớt nguyên trái, tắt bếp. Ăn với cơm + dưa giá / dưa cải.
+  warning: >-
+    Kho nước dừa mà để **lửa lớn sôi sùng sục** là nước bị chua và đục — món
+    này ăn nhau ở lửa liu riu và cây kiên nhẫn.
+
+flavor:
+  chua: 0.5
+  ngot: 8
+  man: 7
+  cay: 2
+  thom: 8
+flavorNote: >-
+  **Chuẩn nồi thịt kho:** nước trong màu hổ phách, ngọt dịu vị dừa, mặn đằm vị
+  mắm — miếng mỡ **trong veo, cắn tan không ngán**.
+storyEyebrow: Chuyện nồi thịt kho
+storyTitle: Nồi thịt kho — **mùi của ngày Tết**
+story:
+  - >-
+    Ở miền Nam, 28–29 Tết mà đi ngang xóm nào cũng nghe **mùi thịt kho nước
+    dừa** — cái mùi báo hiệu năm hết Tết tới còn chính xác hơn lịch. Nhà nào
+    cũng kho một nồi thiệt bự, ăn lai rai mấy ngày Tết, càng hâm càng thấm
+    càng ngon.
+  - >-
+    Bí quyết của nồi thịt kho miền Nam nằm ở **nước dừa xiêm**: vừa cho vị
+    ngọt thanh không cần nhiều đường, vừa cho màu hổ phách tự nhiên đẹp tới
+    mức không cần nước màu. Hột vịt kho lâu chuyển màu nâu bóng, cắn vô lòng
+    đỏ bùi béo quyện nước kho — thứ mà đám nhỏ giành nhau trước tiên.
+
+ingredientGroups:
+  - name: Phần thịt & trứng
+    icon: meat
+    items:
+      - id: baroi
+        name: Ba rọi rút sườn
+        icon: meat
+        base: 800
+        unit: g
+        note: Chọn miếng nạc mỡ đan xen đều
+      - id: hotvit
+        name: Hột vịt
+        icon: egg
+        color: gold
+        base: 6
+        unit: trứng
+        note: Trứng gà cũng được, nhỏ hơn thì tăng số lượng
+      - id: nuocdua
+        name: Nước dừa tươi
+        icon: drop
+        color: green
+        base: 1
+        unit: lít
+        note: 1–2 trái dừa xiêm — đừng dùng dừa già gắt dầu
+  - name: Gia vị
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 4
+        unit: muỗng canh
+        frac: true
+        note: Xương sống vị mặn của nồi kho
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Nước dừa đã ngọt — đừng quá tay
+      - id: hanhtoi
+        name: Hành tím + tỏi
+        icon: onion
+        color: red
+        qtyText: 3 củ hành · 3 tép tỏi
+        note: Băm nhuyễn ướp thịt
+      - id: ot
+        name: Ớt sừng
+        icon: chili
+        color: red
+        base: 2
+        unit: trái
+        note: Để nguyên trái — thơm mà không cay xộc
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Tiêu · hạt nêm · muối
+        note: Nêm theo bước hướng dẫn
+  - name: Dọn kèm
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        qtyText: Tùy sức ăn
+        note: Chan nước kho là hết chén lúc nào không hay
+      - id: duagia
+        name: Dưa giá hoặc dưa cải chua
+        icon: sprout
+        color: green
+        qtyText: 1 dĩa
+        note: Chua giòn cắt vị béo — cặp bài trùng của thịt kho
+
+steps:
+  - title: Sơ chế thịt & luộc trứng
+    icon: knife
+    minutes: 40 phút
+    bullets:
+      - label: "Thịt:"
+        text: >-
+          cắt khúc vuông cỡ **4 cm** (to chút mới đã miệng, kho lâu không nát).
+          **Chần nước sôi 2 phút** với chút muối, vớt ra rửa sạch — nồi kho sẽ
+          trong veo.
+      - label: "Ướp:"
+        text: >-
+          [[2|muỗng canh|frac]] nước mắm + [[1|muỗng canh|frac]] đường + hành
+          tỏi băm + ½ muỗng cà phê tiêu + 1 muỗng cà phê hạt nêm. Ướp **30
+          phút**.
+      - label: "Trứng:"
+        text: >-
+          luộc từ nước lạnh, sôi thì hạ lửa **10 phút**, ngâm nước lạnh rồi
+          bóc vỏ. Muốn trứng thấm nhanh, lấy tăm xăm nhẹ vài lỗ.
+    callout:
+      type: tip
+      text: >-
+        Nhiều nhà chiên sơ trứng cho vàng da rồi mới kho — da trứng dai dai,
+        thấm màu đẹp. Thích kiểu trứng mềm mượt thì bỏ qua bước chiên.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ướp thịt · 30:00
+      doneMsg: Thịt thấm rồi — lên bếp thôi!
+  - title: Đảo thịt săn, dậy mùi
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Nồi nóng với 1 muỗng canh dầu, cho thịt (cả nước ướp) vào **đảo lửa
+          vừa** tới khi mặt thịt săn lại, mỡ hơi trong, thơm nức mùi hành tỏi.
+      - text: Bước này giúp thịt **giữ dáng khi kho lâu**, không bị vụn.
+  - title: Kho với nước dừa — liu riu là chân ái
+    icon: claypot
+    minutes: 45 phút
+    bullets:
+      - text: Châm **nước dừa ngập mặt thịt**; thiếu thì thêm nước sôi.
+      - text: >-
+          Đun sôi bùng rồi **hớt bọt thiệt kỹ** — nồi kho trong hay đục là ở
+          nhịp này.
+      - text: >-
+          Hạ **lửa nhỏ nhất, hé nắp**, kho 45 phút. Thỉnh thoảng hớt thêm bọt
+          và mỡ nổi nếu muốn nước kho thanh.
+    callout:
+      type: warn
+      text: >-
+        Nước dừa kho lửa lớn lâu sẽ **chua và xỉn màu**. Sôi lăn tăn thôi —
+        thấy sôi sùng sục là hạ lửa liền.
+    timer:
+      secs: 2700
+      label: Hẹn giờ kho thịt · 45:00
+      doneMsg: Tới lượt hột vịt xuống nồi!
+  - title: Thả hột vịt, kho cho lên màu
+    icon: egg
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Thả trứng đã bóc vào, kho liu riu thêm **15–20 phút**, thỉnh thoảng
+          **trở trứng** cho thấm màu đều bốn mặt.
+      - text: >-
+          Thịt đạt là khi **đũa xiên qua miếng mỡ nhẹ hều**, nước kho còn
+          khoảng phân nửa, màu hổ phách trong veo.
+    timer:
+      secs: 1200
+      label: Hẹn giờ kho trứng · 20:00
+      doneMsg: Nêm lại rồi tắt bếp được rồi đó!
+  - title: Nêm lại & dọn mâm
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Nếm nước kho: **ngọt dịu của dừa đi trước, mặn đằm của mắm theo
+          sau** — lạt thì thêm mắm, gắt thì thêm nước dừa/nước sôi.
+      - text: Thả ớt nguyên trái, rắc chút tiêu, tắt bếp.
+      - text: >-
+          Múc thịt + trứng ra tô sâu lòng, chan nước kho ngập lưng — dọn với
+          cơm nóng và dĩa dưa giá.
+    doneText: Lên mâm — nghe Tết về!
+
+tipsTitle: 4 bí quyết cho **nồi kho hổ phách**
+tips:
+  - icon: meat
+    title: Chọn ba rọi rút sườn
+    text: >-
+      Miếng **nạc mỡ xen kề đều tăm tắp** kho lên mới mềm mà không bã, béo mà
+      không ngán. Ba rọi lớp mỡ dày quá thì kho xong vớt bớt mỡ nổi là được.
+  - icon: drop
+    title: Nước dừa xiêm, không dừa già
+    text: >-
+      Dừa xiêm ngọt thanh, kho lên màu hổ phách trong. **Dừa già nhiều dầu**,
+      kho lâu nước bị gắt và xỉn màu. Không có dừa tươi thì nước dừa đóng hộp
+      loại không đường cũng tạm được.
+  - icon: claypot
+    title: Kho hai lửa, ăn mấy ngày càng ngon
+    text: >-
+      Nồi thịt kho là món **càng hâm càng thấm**. Kho xong để nguội, cất ngăn
+      mát; mỗi bữa múc phần ăn ra hâm — đừng hâm cả nồi nhiều lần, thịt nát
+      nước đục.
+  - icon: egg
+    title: Trứng kho lâu bị chai
+    text: >-
+      Hột vịt chỉ cần **15–20 phút cuối** là thấm đẹp. Thả từ đầu kho cả tiếng
+      là lòng trắng dai như cao su, lòng đỏ khô bở — mất ngon phân nửa.
+
+serve:
+  title: Bữa cơm **đậm chất Nam Bộ**
+  paras:
+    - >-
+      Múc miếng thịt óng ánh với trái hột vịt nâu bóng lên chén cơm, chan
+      muỗng nước kho — **miếng mỡ trong veo tan trên đầu lưỡi**, lòng đỏ trứng
+      bùi bùi quyện vị mắm đường. Gắp đũa dưa giá chua giòn cắt béo là vòng
+      lặp hoàn hảo: và cơm, gắp thịt, gắp dưa, lặp lại.
+    - >-
+      Ngày Tết, nồi thịt kho đi với **bánh tráng cuốn rau sống** cũng là tuyệt
+      chiêu: cuốn miếng thịt xé với dưa giá, chấm nước kho — ăn hoài không
+      ngán.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Bộ tứ ngày Tết miền Nam:"
+    items:
+      - icon: sprout
+        text: "**Dưa giá / dưa cải chua** — chua giòn cắt béo, gần như bắt buộc."
+      - icon: bowl
+        text: "**Canh khổ qua nhồi thịt** — đắng thanh giải ngấy, đúng mâm Tết."
+      - icon: rice
+        text: "**Cơm trắng** hoặc bánh tét — kiểu nào cũng hợp."
+
+faq:
+  - q: Sao nước kho của mình bị đục?
+    a: >-
+      Ba nguyên nhân chính: **không chần thịt trước**, **quên hớt bọt** lúc
+      sôi, hoặc **kho lửa lớn** làm mỡ bị khuấy tan vào nước. Làm đủ ba việc
+      ngược lại là nước trong veo màu hổ phách liền.
+  - q: Không có nước dừa thì kho được không?
+    a: >-
+      Được — thay bằng nước sôi + thắng thêm nước màu cho đẹp, tăng đường chút
+      xíu. Vị sẽ theo hướng **thịt kho tiêu** đậm đà, cũng ngon nhưng thiếu
+      cái ngọt thanh đặc trưng của bản nước dừa.
+  - q: Kho một nồi lớn ăn mấy ngày Tết thì làm sao?
+    a: >-
+      Nhân đôi ba lần công thức, kho lần đầu như hướng dẫn. Mỗi ngày **múc
+      phần ăn ra hâm riêng**, phần còn lại cất ngăn mát. Trước bữa nào thấy
+      nhạt màu thì kho bồi 10 phút — nồi Tết nhà nào cũng vậy, càng về cuối
+      càng ngon.

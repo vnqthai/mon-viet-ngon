@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
+
+const recipes = (await getCollection('recipes')).sort(
+  (a, b) => a.data.order - b.data.order
+);
+const categories = [...new Set(recipes.map((r) => r.data.category))];
+const regions = [...new Set(recipes.map((r) => r.data.region))];
+---
+<Base
+  title="Món ngon — Món Việt Ngon"
+  description="Kho công thức món Việt chuẩn vị: canh, kho, xào, cuốn… hướng dẫn từng bước, có bản nấu nhanh cho người bận rộn."
+  active="mon"
+>
+<main>
+  <section class="section" id="danh-muc">
+    <div class="wrap">
+      <p class="eyebrow reveal">Hôm nay nhà mình ăn gì?</p>
+      <h2 class="reveal">Kho món ngon <span class="accent">chuẩn vị Việt</span></h2>
+      <p class="section__lead reveal">
+        Món nào cũng có bản nấu nhanh, giỏ đi chợ tự tính khẩu phần và đồng hồ
+        đếm giờ ngay trong trang. Lọc theo kiểu món hoặc theo miền cho lẹ.
+      </p>
+
+      <div class="filter-bar reveal" role="group" aria-label="Lọc món ăn">
+        <span class="filter-bar__label">Kiểu món</span>
+        <button class="filter-chip is-active" data-filter-cat="all" type="button">Tất cả</button>
+        {categories.map((c) => (
+          <button class="filter-chip" data-filter-cat={c} type="button">{c}</button>
+        ))}
+        <span class="filter-sep" aria-hidden="true"></span>
+        <span class="filter-bar__label">Miền</span>
+        <button class="filter-chip is-active" data-filter-region="all" type="button">Cả nước</button>
+        {regions.filter((r) => r !== 'Cả nước').map((r) => (
+          <button class="filter-chip" data-filter-region={r} type="button">{r}</button>
+        ))}
+      </div>
+
+      <div class="rcard-grid" id="recipeGrid">
+        {recipes.map((r) => <RecipeCard recipe={r} />)}
+      </div>
+      <div class="filter-empty" id="filterEmpty">
+        Chưa có món nào khớp bộ lọc này — thử đổi kiểu món hoặc miền nghen!
+      </div>
+
+      <div class="coming reveal">
+        <Icon name="flame" />
+        <span><b>Sắp lên mâm:</b> phở bò, bún bò Huế, bánh xèo, chả giò, canh khổ qua nhồi thịt…
+        Trang còn thêm món dài dài — ghé lại thường nghen!</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+  const catBtns = [...document.querySelectorAll('[data-filter-cat]')];
+  const regionBtns = [...document.querySelectorAll('[data-filter-region]')];
+  const cards = [...document.querySelectorAll('#recipeGrid .rcard')];
+  const empty = document.getElementById('filterEmpty');
+  let cat = 'all';
+  let region = 'all';
+
+  function apply() {
+    let shown = 0;
+    cards.forEach((card) => {
+      const ok =
+        (cat === 'all' || card.dataset.category === cat) &&
+        (region === 'all' || card.dataset.region === region || card.dataset.region === 'Cả nước');
+      card.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+    if (empty) empty.classList.toggle('is-show', shown === 0);
+  }
+  catBtns.forEach((b) =>
+    b.addEventListener('click', () => {
+      cat = b.dataset.filterCat;
+      catBtns.forEach((x) => x.classList.toggle('is-active', x === b));
+      apply();
+    })
+  );
+  regionBtns.forEach((b) =>
+    b.addEventListener('click', () => {
+      region = b.dataset.filterRegion;
+      regionBtns.forEach((x) => x.classList.toggle('is-active', x === b));
+      apply();
+    })
+  );
+</script>
+</Base>
