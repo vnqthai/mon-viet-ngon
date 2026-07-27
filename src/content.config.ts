@@ -59,7 +59,12 @@ const recipes = defineCollection({
     title: z.string(),
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Cả nước']),
+    // Vùng dự kiến mở thêm khi có món đầu tiên: 'Tây Bắc', 'Tây Nguyên'
     category: z.enum(['Canh', 'Kho', 'Xào', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Bún – Phở']),
+    // Theo dịp / đối tượng — một món gắn được nhiều nhãn, để lọc ở /mon/
+    occasions: z
+      .array(z.enum(['Nhậu lai rai', 'Ăn chơi', 'Đãi khách', 'Cho bé']))
+      .default([]),
     time: z.object({ total: z.string(), active: z.string().optional() }),
     servingsBase: z.number().default(4),
     difficulty: z.enum(['Dễ', 'Vừa', 'Kỳ công']),

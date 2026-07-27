@@ -40,7 +40,7 @@ const jsonLd = {
   inLanguage: 'vi',
   recipeCuisine: 'Việt Nam',
   recipeCategory: d.category,
-  keywords: [plain(d.title), d.region, d.category, 'món Việt', 'công thức', 'nấu ăn'].join(', '),
+  keywords: [plain(d.title), d.region, d.category, ...d.occasions, 'món Việt', 'công thức', 'nấu ăn'].join(', '),
   totalTime: viDurationToISO(d.time.total),
   recipeYield: `${d.servingsBase} người ăn`,
   recipeIngredient: d.ingredientGroups.flatMap((g: any) =>
@@ -80,6 +80,7 @@ const jsonLd = {
         <div class="hero__badges">
           <span class="badge badge--region"><Icon name="map" />{d.region}</span>
           <span class="badge badge--cat">Món {d.category.toLowerCase()}</span>
+          {d.occasions.map((o: string) => <span class="badge badge--occ">{o}</span>)}
         </div>
         <p class="hero__sub" set:html={rich(d.summary)} />
         <ul class="hero__meta">

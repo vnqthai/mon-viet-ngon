@@ -9,6 +9,8 @@ const recipes = (await getCollection('recipes')).sort(
 );
 const categories = [...new Set(recipes.map((r) => r.data.category))];
 const regions = [...new Set(recipes.map((r) => r.data.region))];
+const OCC_ORDER = ['Nhậu lai rai', 'Ăn chơi', 'Đãi khách', 'Cho bé'];
+const occasions = OCC_ORDER.filter((o) => recipes.some((r) => r.data.occasions.includes(o as any)));
 ---
 <Base
   title="Món ngon — Món Việt Ngon"
@@ -32,6 +34,13 @@ const regions = [...new Set(recipes.map((r) => r.data.region))];
           <button class="filter-chip" data-filter-cat={c} type="button">{c}</button>
         ))}
       </div>
+      <div class="filter-bar reveal" role="group" aria-label="Lọc theo dịp">
+        <span class="filter-bar__label">Theo dịp</span>
+        <button class="filter-chip is-active" data-filter-occ="all" type="button">Tất cả</button>
+        {occasions.map((o) => (
+          <button class="filter-chip" data-filter-occ={o} type="button">{o}</button>
+        ))}
+      </div>
       <div class="filter-bar filter-bar--last reveal" role="group" aria-label="Lọc theo miền">
         <span class="filter-bar__label">Miền</span>
         <button class="filter-chip is-active" data-filter-region="all" type="button">Cả nước</button>
@@ -44,7 +53,7 @@ const regions = [...new Set(recipes.map((r) => r.data.region))];
         {recipes.map((r) => <RecipeCard recipe={r} />)}
       </div>
       <div class="filter-empty" id="filterEmpty">
-        Chưa có món nào khớp bộ lọc này — thử đổi kiểu món hoặc miền nghen!
+        Chưa có món nào khớp bộ lọc này — thử nới bớt một tiêu chí nghen!
       </div>
 
       <ComingSoon />
@@ -54,17 +63,21 @@ const regions = [...new Set(recipes.map((r) => r.data.region))];
 
 <script>
   const catBtns = [...document.querySelectorAll('[data-filter-cat]')];
+  const occBtns = [...document.querySelectorAll('[data-filter-occ]')];
   const regionBtns = [...document.querySelectorAll('[data-filter-region]')];
   const cards = [...document.querySelectorAll('#recipeGrid .rcard')];
   const empty = document.getElementById('filterEmpty');
   let cat = 'all';
+  let occ = 'all';
   let region = 'all';
 
   function apply() {
     let shown = 0;
     cards.forEach((card) => {
+      const cardOccs = (card.dataset.occasions || '').split('|');
       const ok =
         (cat === 'all' || card.dataset.category === cat) &&
+        (occ === 'all' || cardOccs.includes(occ)) &&
         (region === 'all' || card.dataset.region === region || card.dataset.region === 'Cả nước');
       card.style.display = ok ? '' : 'none';
       if (ok) shown++;
@@ -77,6 +90,14 @@ const regions = [...new Set(recipes.map((r) => r.data.region))];
       const next = b.dataset.filterCat;
       cat = cat === next && next !== 'all' ? 'all' : next;
       catBtns.forEach((x) => x.classList.toggle('is-active', x.dataset.filterCat === cat));
+      apply();
+    })
+  );
+  occBtns.forEach((b) =>
+    b.addEventListener('click', () => {
+      const next = b.dataset.filterOcc;
+      occ = occ === next && next !== 'all' ? 'all' : next;
+      occBtns.forEach((x) => x.classList.toggle('is-active', x.dataset.filterOcc === occ));
       apply();
     })
   );

@@ -9,7 +9,8 @@ _Cập nhật: 2026-07-27 — site đang có **21 món**, đủ 5 vùng miền (
 - [x] 21 món, mỗi món một file YAML (`src/content/recipes/`) với bản nấu nhanh, giỏ đi chợ tự tính khẩu phần, đồng hồ đếm giờ trong từng bước, bí quyết và FAQ
 - [x] Hình minh họa SVG vẽ riêng cho từng món (`src/components/art/`)
 - [x] SEO: JSON-LD schema.org/Recipe, ảnh OG chia sẻ sinh lúc build, sitemap, robots.txt
-- [x] Trang bí quyết bếp (`/bi-quyet/`), trang danh mục `/mon/` có lọc theo vùng miền + loại món
+- [x] Trang bí quyết bếp (`/bi-quyet/`), trang danh mục `/mon/` có lọc theo kiểu món + miền
+- [x] Trục phân loại **"Theo dịp"** (`occasions`): Nhậu lai rai · Ăn chơi · Đãi khách · Cho bé — một món gắn nhiều nhãn, lọc ở `/mon/`, hiện badge trên trang món (món cơm nhà thường ngày để trống — đó là mặc định của site)
 - [x] Deploy tự động lên GitHub Pages, tên miền riêng + HTTPS, dòng bản quyền footer
 
 ## Món sắp lên mâm (đợt kế tiếp)
@@ -22,14 +23,18 @@ _Cập nhật: 2026-07-27 — site đang có **21 món**, đủ 5 vùng miền (
 |---|---|---|
 | Bún – Phở | bún thịt nướng | Nam |
 | Bún – Phở | hủ tiếu Nam Vang | Nam |
+| Bún – Phở | phở khô Gia Lai (phở hai tô) | Tây Nguyên* |
 | Cơm | cơm chiên cá mặn | Nam |
 | Kho | tôm rim nước dừa | Tây |
 | Kho | cà ri gà bánh mì | Nam |
 | Xào | mực xào thơm cần tây | Cả nước |
 | Hấp | bánh cuốn nóng chảo chống dính | Bắc |
 | Gỏi | gỏi gà bắp cải rau răm | Cả nước |
+| Nướng* | gà nướng mắc khén | Tây Bắc* |
 
-> Khi chọn đợt mới, ưu tiên món **miền Bắc / miền Trung** cho cân danh mục (đang nghiêng về Nam). Món cháo sẽ cần thêm category "Cháo" mới trong schema.
+> Khi chọn đợt mới, ưu tiên món **miền Bắc / miền Trung** cho cân danh mục (đang nghiêng về Nam).
+>
+> **(*) Vùng & kiểu món sẽ mở thêm:** đã chốt chủ trương thêm vùng **Tây Bắc** và **Tây Nguyên** — enum thêm vào schema khi ship món đầu tiên của vùng đó (món vùng cao cần tra cứu nguyên liệu/thuật ngữ kỹ hơn). Tương tự với kiểu món mới: **"Nướng"** (khi làm gà nướng mắc khén…), **"Bánh"** (khi đủ 3+ món bánh — bánh xèo đang ở "Chiên", bánh cuốn tương lai gom về đây), **"Cháo"** (khi làm cháo). Nhãn "Cơm nhà" cho trục Theo dịp chỉ thêm khi site có nhiều món ăn chơi — hiện tại cơm nhà là mặc định của cả site nên tag sẽ không lọc được gì.
 
 ## Hạ tầng để dành (làm từ từ, chưa vội)
 

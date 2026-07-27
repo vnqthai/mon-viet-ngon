@@ -19,6 +19,8 @@ summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Cả nước
 category: Canh          # Canh | Kho | Xào | Cuốn | Gỏi | Chiên | Hấp | Cơm | Bún – Phở
+# occasions: [Đãi khách]  # tùy chọn, gắn được nhiều: Nhậu lai rai | Ăn chơi | Đãi khách | Cho bé
+#                         # (món cơm nhà thường ngày thì bỏ trống — đó là mặc định của cả site)
 time:
   total: 30 phút
 servingsBase: 4         # công thức viết cho mấy người — định lượng scale từ số này

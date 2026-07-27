@@ -12,6 +12,7 @@ const { id, data } = recipe;
   href={`/mon/${id}/`}
   data-category={data.category}
   data-region={data.region}
+  data-occasions={data.occasions.join('|')}
 >
   <div class="rcard__art" aria-hidden="true">
     <div class="rcard__badges">
