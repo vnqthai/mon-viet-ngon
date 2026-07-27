@@ -21,9 +21,13 @@ _Cập nhật: 2026-07-27 — site đang có **21 món**, đủ 5 vùng miền (
 
 | Nhóm | Món | Vùng |
 |---|---|---|
-| Bún – Phở | bún thịt nướng | Nam |
-| Bún – Phở | hủ tiếu Nam Vang | Nam |
-| Bún – Phở | phở khô Gia Lai (phở hai tô) | Tây Nguyên* |
+| Món sợi | bún thịt nướng | Nam |
+| Món sợi | hủ tiếu Nam Vang | Nam |
+| Món sợi | phở khô Gia Lai (phở hai tô) | Tây Nguyên* |
+| Món sợi | miến gà | Bắc |
+| Món sợi | miến xào cua | Cả nước |
+| Món sợi | mì xào bò | Cả nước |
+| Món sợi | mì vịt tiềm | Nam |
 | Cơm | cơm chiên cá mặn | Nam |
 | Kho | tôm rim nước dừa | Tây |
 | Kho | cà ri gà bánh mì | Nam |

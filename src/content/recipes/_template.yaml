@@ -18,7 +18,7 @@ title: Tên món **chữ nhấn vàng**
 summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Cả nước
-category: Canh          # Canh | Kho | Xào | Cuốn | Gỏi | Chiên | Hấp | Cơm | Bún – Phở
+category: Canh          # Canh | Kho | Xào | Cuốn | Gỏi | Chiên | Hấp | Cơm | Món sợi
 # occasions: [Đãi khách]  # tùy chọn, gắn được nhiều: Nhậu lai rai | Ăn chơi | Đãi khách | Cho bé
 #                         # (món cơm nhà thường ngày thì bỏ trống — đó là mặc định của cả site)
 time:
