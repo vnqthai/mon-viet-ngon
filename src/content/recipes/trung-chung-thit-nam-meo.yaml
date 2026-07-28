@@ -1,0 +1,414 @@
+title: Trứng chưng thịt nấm mèo **mặt vàng óng mượt, mềm rung rinh đầu muỗng**
+summary: >-
+  Trứng đánh chung thịt băm, nấm mèo, chút miến rồi **hấp cách thủy hai mươi
+  phút**, phết lòng đỏ cho mặt vàng óng như ngoài tiệm. Anh em ruột của chả
+  trứng cơm tấm, nhưng bản này **mềm mướt kiểu cơm nhà** — vị hiền, không
+  cay, nhà có con nít càng hợp.
+region: Cả nước
+category: Hấp
+occasions: [Cho bé]
+time:
+  total: 35 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 31
+art: trung-chung
+heroEyebrow: Mâm cơm chiều có con nít…
+
+quick:
+  ingredients:
+    - Trứng gà [[5|trái]] (hoặc 4 trứng vịt — béo đậm hơn) — **chừa lại 2 lòng đỏ** để phết mặt
+    - Thịt heo băm [[150|g]] — nạc dăm cho mềm
+    - >-
+      Nấm mèo khô [[10|g]] (miền Bắc gọi mộc nhĩ) + miến dong [[20|g]] —
+      ngâm nở, cắt nhỏ
+    - Hành tím [[2|củ]] băm · hành lá [[3|cọng]] · tiêu xay
+    - >-
+      Nêm: nước mắm [[1.5|muỗng canh|frac]] · thêm [[3|muỗng canh]] nước ấm
+      cho trứng mềm mướt
+  steps:
+    - Ngâm nấm mèo nước ấm 15 phút cho nở, băm nhỏ; miến ngâm mềm, cắt khúc 2–3 cm.
+    - >-
+      Đánh trứng (chừa 2 lòng đỏ) với thịt băm, nấm, miến, hành tím, nước
+      mắm, nước ấm — **khuấy nhẹ một chiều, đừng đánh bông**.
+    - Đổ vô chén sứ sâu lòng, **đậy mặt chén**, hấp cách thủy lửa vừa 20 phút.
+    - >-
+      Xiên tăm rút ra khô là chín — phết lòng đỏ lên mặt, hấp **mở nắp**
+      thêm 3–5 phút cho mặt vàng óng.
+    - Rắc hành lá + tiêu, dọn với cơm nóng, dưa leo; ớt xắt lát để riêng cho người lớn.
+  warning: >-
+    Lửa to, nước từ nắp nhỏ giọt xuống, hay đánh trứng sủi bọt — dính một
+    trong ba là mặt trứng **rỗ tổ ong** liền.
+
+flavor:
+  chua: 0.5
+  ngot: 4
+  man: 5.5
+  cay: 0.5
+  thom: 7
+flavorNote: >-
+  **Chuẩn vị:** muỗng trứng xúc lên **mịn không lỗ rỗ, mềm còn hơi rung
+  rinh**, đậm dịu thơm tiêu hành — đứa nhỏ nhất mâm lùa cơm không cần ai
+  dỗ.
+
+storyEyebrow: Chuyện chén trứng
+storyTitle: Món "chữa cháy" **hiền nhất** của bếp Việt
+story:
+  - >-
+    Hỏi mười người giữ bếp "bữa nay lỡ cạn đồ ăn thì làm gì", dám chắc quá
+    nửa trả lời: **trứng chưng**. Mấy trái trứng, nhúm thịt băm, ít nấm mèo
+    — toàn đồ có sẵn trong tủ — đánh chung một tô, hấp cách thủy hai mươi
+    phút là có món mặn mềm mướt cứu nguyên mâm cơm. Người miền Nam kêu
+    **trứng chưng**, nhiều nhà kêu trứng hấp; còn phiên bản ép đặc nằm trên
+    dĩa cơm tấm ngoài tiệm thì mang tên **chả trứng hấp** — anh em ruột một
+    nhà cả.
+  - >-
+    Bản trong bài này là **bản cơm nhà**: mềm hơn chả trứng tiệm, xúc muỗng
+    nào mướt muỗng đó, vị hiền để đứa nhỏ nhất mâm cũng lùa được cơm. Nhưng
+    vẫn học của tiệm đúng hai chiêu: **chừa lòng đỏ phết mặt** phút chót cho
+    lớp áo vàng óng nhìn là muốn xúc liền, và **nhúm miến ngâm cắt ngắn**
+    trộn vô — miến hút nước thừa, miếng trứng xắn ra đứng dáng chứ không
+    chảy.
+  - >-
+    Món này không có gì cao siêu, chỉ có ba cái "đừng": đừng đánh bông,
+    đừng để lửa to, đừng quên đậy mặt chén. Giữ đủ ba cái đừng, chén trứng
+    ra khỏi xửng **mặt mịn như tấm lụa vàng** — và bạn sẽ hiểu vì sao món
+    giản dị này có mặt trên mâm cơm của gần như mọi nhà người Việt, từ Bắc
+    chí Nam.
+
+ingredientGroups:
+  - name: Phần trứng & thịt
+    icon: egg
+    items:
+      - id: trung
+        name: Trứng gà
+        icon: egg
+        base: 5
+        unit: trái
+        note: Trứng vịt thì 4 trái — béo đậm hơn; nhớ chừa 2 lòng đỏ phết mặt
+      - id: thitbam
+        name: Thịt heo băm
+        icon: meat
+        base: 150
+        unit: g
+        note: Nạc dăm dính chút mỡ — chưng lên mềm, không khô bã
+  - name: Nhân độn cho đứng khuôn
+    icon: noodle
+    items:
+      - id: nammeo
+        name: Nấm mèo khô
+        icon: sprout
+        base: 10
+        unit: g
+        note: Miền Bắc gọi **mộc nhĩ** — ngâm nước ấm nở gấp ba, cắt gốc cứng
+      - id: mien
+        name: Miến dong
+        icon: noodle
+        base: 20
+        unit: g
+        note: Tùy chọn mà đáng — hút nước thừa, khối trứng đứng khuôn như chả
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: Băm nhuyễn trộn vô trứng cho dậy mùi
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 3
+        unit: cọng
+        note: Xắt nhỏ rắc mặt lúc dọn
+  - name: Gia vị
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Nêm một lần từ đầu — món hấp khó nêm lại giữa chừng
+      - id: nuocam
+        name: Nước ấm
+        icon: drop
+        base: 3
+        unit: muỗng canh
+        note: Bí quyết mềm mướt — trứng pha loãng nhẹ, chưng xong không chắc nịch
+      - id: tieu
+        name: Tiêu xay + hạt nêm
+        icon: jar
+        qtyText: Mỗi thứ một nhúm
+        note: Tiêu cho thơm; nêm nhạt hơn khẩu vị một chút vì ăn với cơm
+      - id: ot
+        name: Ớt sừng
+        icon: chili
+        color: red
+        base: 1
+        unit: trái
+        note: Xắt lát **để chén riêng** — món vị hiền, người lớn ai ăn cay tự thêm
+  - name: Dọn kèm
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        qtyText: Tùy sức ăn cả nhà
+        note: Trứng chưng mà thiếu cơm nóng là mất nửa cái ngon
+      - id: dualeo
+        name: Dưa leo
+        icon: pod
+        color: green
+        base: 1
+        unit: trái
+        note: Thái lát, mát miệng — cặp hiền lành đúng bộ
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **chén trứng vàng óng**
+stepsLead: >-
+  Toàn bộ việc tay chỉ chừng mười phút, còn lại là chờ xửng hấp làm giùm.
+  Món dễ nhất site này — nhưng dễ không có nghĩa là không có mẹo.
+steps:
+  - title: Ngâm nở nấm mèo, miến
+    icon: drop
+    minutes: 15 phút
+    bullets:
+      - label: "Nấm mèo:"
+        text: >-
+          ngâm nước **ấm** 15 phút cho nở mềm hết cỡ, cắt bỏ gốc cứng, băm
+          nhỏ. Nấm mèo là chỗ vui miệng nhất chén trứng — cắn trúng nghe
+          **sần sật** mới đã.
+      - label: "Miến:"
+        text: >-
+          ngâm nước lạnh 10 phút cho dẻo mềm, vớt ra **cắt khúc 2–3 cm**
+          (lấy kéo cắt là nhanh nhất). Miến dài quá sẽ vón cục khi chưng.
+      - label: "Hành tím:"
+        text: băm nhuyễn; hành lá xắt nhỏ để riêng chờ rắc mặt.
+    callout:
+      type: tip
+      text: >-
+        Đừng ngâm nấm mèo bằng nước sôi cho nhanh — nấm nhớt, mất độ giòn.
+        Nước ấm tay là đúng độ.
+    timer:
+      secs: 900
+      label: Hẹn giờ ngâm nấm · 15:00
+      doneMsg: Nấm nở mềm rồi — băm nhỏ thôi!
+  - title: Trộn trứng — nhẹ tay thôi
+    icon: egg
+    minutes: 5 phút
+    bullets:
+      - label: "Đập trứng:"
+        text: >-
+          đập [[5|trái]] trứng, **tách riêng 2 lòng đỏ ra chén nhỏ** để dành
+          phết mặt — đây là "chữ ký" của món, đừng làm biếng bỏ qua.
+      - label: "Trộn:"
+        text: >-
+          phần trứng còn lại cho thịt băm (dằm tơi trước cho khỏi vón cục),
+          nấm mèo, miến, hành tím vô; nêm [[1.5|muỗng canh|frac]] nước mắm
+          + nhúm tiêu + [[3|muỗng canh]] nước ấm.
+      - label: "Khuấy đúng kiểu:"
+        text: >-
+          khuấy **nhẹ tay theo một chiều** cho vừa hòa quyện là dừng — trứng
+          mịn nhờ khuấy đủ, hỏng vì khuấy hăng.
+    callout:
+      type: warn
+      text: >-
+        Đánh bông kiểu làm bánh là đưa cả trời không khí vô trứng — hấp lên
+        bọt nổi lỗ chỗ, mặt **rỗ như tổ ong**. Khuấy hòa là đủ, thấy sủi bọt
+        là dừng liền.
+  - title: Hấp cách thủy lửa vừa
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - label: "Chọn chén:"
+        text: >-
+          đổ trứng vô **chén sứ sâu lòng** (một chén lớn, hoặc chia mấy chén
+          nhỏ cho mỗi người một phần — chén nhỏ chín nhanh hơn, chừng 12–15
+          phút).
+      - label: "Đậy mặt chén:"
+        text: >-
+          úp một cái dĩa nhỏ hoặc bọc màng thực phẩm chịu nhiệt lên miệng
+          chén — chắn không cho nước từ nắp nồi **nhỏ giọt làm rỗ mặt**.
+      - label: "Hấp:"
+        text: >-
+          nước trong nồi sôi mới đặt chén vô xửng, hạ **lửa vừa** cho nước
+          sôi lăn tăn, đậy nắp nồi, hấp **20 phút**.
+      - label: "Thử chín:"
+        text: >-
+          xiên cây tăm vô giữa chén, rút ra **khô ráo là chín**; còn ướt thì
+          hấp thêm 3–5 phút rồi thử lại.
+    callout:
+      type: warn
+      text: >-
+        Lửa to nước sôi bùng là trứng nở xốp rồi xẹp — vừa **chai cứng vừa
+        rỗ**. Nhớ khẩu quyết: nước sôi lăn tăn, trứng mịn màng.
+    timer:
+      secs: 1200
+      label: Hẹn giờ hấp trứng · 20:00
+      doneMsg: Xiên tăm thử coi — rút ra khô là chín rồi!
+  - title: Phết lòng đỏ — mặt vàng óng như tiệm
+    icon: sun
+    minutes: 5 phút
+    bullets:
+      - label: "Pha lòng đỏ:"
+        text: >-
+          đánh tan 2 lòng đỏ để dành với **vài giọt dầu ăn** — chút dầu cho
+          mặt trứng bóng mượt chứ không khô mốc.
+      - label: "Phết:"
+        text: >-
+          mở nắp, gỡ dĩa đậy, **phết đều lòng đỏ** phủ kín mặt trứng — quét
+          một lớp là đủ vàng óng.
+      - label: "Hấp mở nắp:"
+        text: >-
+          hấp thêm **3–5 phút không đậy nắp nồi** cho lòng đỏ vừa ráo mặt —
+          mở nắp để hơi thoát bớt, mặt trứng khô ráo óng ả chứ không đọng
+          nước loang lổ.
+    callout:
+      type: tip
+      text: >-
+        Chiêu này học thẳng của tiệm cơm tấm: trộn hết lòng đỏ từ đầu thì
+        mặt trứng lốm đốm — phải **chừa lại phết sau** mới ra lớp áo vàng
+        mượt đều tăm tắp đó.
+  - title: Dọn ra mâm
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Rắc **hành lá + tiêu xay** lên mặt trứng còn đang bốc khói — dọn
+          nguyên chén, hay khéo tay **úp ngược ra dĩa** như ngoài tiệm
+          càng đẹp mâm.
+      - text: >-
+          Lát ớt để **chén riêng** cho người lớn tự thêm — phần của mấy đứa
+          nhỏ giữ nguyên vị hiền.
+      - text: >-
+          Dọn cùng cơm trắng nóng, dưa leo thái lát; xúc muỗng trứng **úp
+          lên chén cơm** cho tụi nhỏ là đúng bài nhất.
+    callout:
+      type: tip
+      text: >-
+        Chén trứng đạt chuẩn nhìn là biết: **mặt vàng óng phẳng mịn, xắn
+        muỗng vô thấy mềm còn hơi rung rinh**, bên trong lấm tấm thịt nấm —
+        thơm nhẹ nhàng mà đưa cơm dữ dội.
+    doneText: Chén trứng lên mâm — xong!
+
+tipsTitle: 6 bí quyết cho **chén trứng mịn màng**
+tipsLead: >-
+  Trứng chưng dễ mà, sao có nhà chưng ra mịn như lụa, có nhà rỗ như tổ ong?
+  Khác nhau đúng ở mấy điều nhỏ xíu này.
+tips:
+  - icon: sun
+    title: Chừa lòng đỏ phết mặt
+    text: >-
+      Lớp áo vàng óng mượt là **chữ ký của món** — trộn hết lòng đỏ từ đầu
+      thì không cách nào có được. Chừa 2 lòng đỏ, phết phút chót, hấp mở nắp
+      vài phút là mặt trứng đẹp như tiệm.
+  - icon: spoon
+    title: Khuấy một chiều, đừng đánh bông
+    text: >-
+      Bọt khí đánh vô trứng sẽ nổi lên khi hấp, vỡ ra thành **lỗ rỗ**.
+      Khuấy nhẹ theo một chiều cho hòa quyện là dừng — món này thưởng người
+      nhẹ tay.
+  - icon: drop
+    title: Ba muỗng nước ấm cho mềm
+    text: >-
+      Trứng pha thêm chút nước sẽ chưng ra **mềm mướt, rung rinh** thay vì
+      chắc nịch. Thích kiểu chắc miếng gần với chả trứng thì bớt nước lại —
+      chỉnh được theo ý nhà mình.
+  - icon: flame
+    title: Nước sôi lăn tăn, không sôi bùng
+    text: >-
+      Nhiệt cao làm trứng nở xốp rồi xẹp xuống — thành phẩm **chai, rỗ tổ
+      ong**. Lửa vừa đủ cho nước lăn tăn là trứng chín từ từ, mịn từ đáy
+      lên mặt.
+  - icon: bowl
+    title: Đậy mặt chén khi hấp
+    text: >-
+      Hơi nước ngưng trên nắp nồi nhỏ giọt xuống là **thủ phạm số một** của
+      mặt trứng rỗ loang lổ. Úp cái dĩa nhỏ lên miệng chén là xong chuyện —
+      mẹo một giây, đẹp cả chén trứng.
+  - icon: noodle
+    title: Miến là "khung xương" giấu mặt
+    text: >-
+      Nhúm miến ngâm cắt ngắn hút hết nước thừa, giúp miếng trứng **xắn ra
+      đứng dáng** chứ không chảy xệ — bí quyết đứng bếp của mấy tiệm cơm tấm
+      lâu năm, mang về bếp nhà xài luôn.
+
+serve:
+  title: Dọn mâm **cơm nhà hiền khô**
+  paras:
+    - >-
+      Chén trứng chưng nóng đặt giữa mâm, xắn tới đâu khói thơm bay tới đó.
+      Xúc một muỗng **úp lên chén cơm nóng**, thêm lát dưa leo mát — đứa nhỏ
+      lùa hết chén cơm hồi nào không hay, người lớn thì chan thêm muỗng nước
+      mắm dằm ớt là "dậy" cả bữa.
+    - >-
+      Mâm hợp nhất với món này: trứng chưng + **canh bí đỏ thịt bằm** + dĩa
+      **rau muống xào tỏi** — bộ ba hiền lành cho nhà có con nít, nấu nhàn
+      tênh mà đủ đạm, đủ rau, đủ canh.
+    - >-
+      Món này còn là "vé thoát hiểm" cho ngày bận: 35 phút từ tủ lạnh lên
+      mâm, nguyên liệu chẳng cần đi chợ. Khách ghé bất chợt cũng kịp — mà
+      khách ăn xong thế nào cũng hỏi công thức.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Bộ ba hiền lành cho bữa chiều:"
+    items:
+      - icon: bowl
+        text: "**Canh bí đỏ thịt bằm** — ngọt lành, chung ê-kíp hiền với trứng chưng."
+      - icon: herb
+        text: "**Rau muống xào tỏi** — xanh giòn, cân lại độ mềm của trứng."
+      - icon: rice
+        text: "**Cơm trắng nóng** — nồi cơm bữa đó nhớ nấu dư một chút."
+      - icon: chili
+        text: "**Chén mắm ớt để riêng** — người lớn tự thêm, phần bé giữ vị hiền."
+
+faq:
+  - q: Trứng chưng này có phải chả trứng của cơm tấm không?
+    a: >-
+      Anh em ruột đó! **Chả trứng cơm tấm đặc và nhiều nhân hơn** (thường
+      thêm bì, ép khuôn lớn, cắt miếng đứng dáng), còn bản này mềm mướt hơn,
+      đúng kiểu chén trứng của mâm cơm nhà. Muốn tiến gần bản cơm tấm: bớt
+      nước, thêm miến và nhân.
+  - q: Sao mặt trứng bị rỗ như tổ ong?
+    a: >-
+      Ba thủ phạm quen mặt: **lửa to quá** (nước sôi bùng), **nước từ nắp
+      nhỏ giọt** (quên đậy mặt chén), **đánh trứng sủi bọt**. Lần sau né đủ
+      ba cái là mặt trứng mịn tưng ngay.
+  - q: Hấp bằng nồi cơm điện được không?
+    a: >-
+      Được, kiểu tiện nhất luôn: nấu cơm như thường, **lúc nồi vừa cạn
+      nước** thì đặt chén trứng lên mặt cơm, đậy nắp — cơm chín trứng cũng
+      chín. Mặt trứng sẽ không vàng óng bằng bản hấp xửng (khó phết lòng đỏ
+      giữa chừng), bù lại một nồi ra luôn cả cơm lẫn món mặn.
+  - q: Không có miến thì bỏ luôn được không?
+    a: >-
+      Được — trứng vẫn ngon, khối trứng chỉ **mềm "lỏng tay" hơn chút** khi
+      xắn. Nấm mèo thì ráng đừng bỏ: cái sần sật của nó là điểm vui miệng
+      nhất món này.
+  - q: Trứng gà hay trứng vịt ngon hơn?
+    a: >-
+      Trứng vịt **béo đậm, màu vàng sậm hơn**; trứng gà thanh nhẹ, thơm dịu
+      — nhà có bé thường chọn trứng gà. Quy đổi cho công thức này: 4 trứng
+      vịt tương đương 5 trứng gà.
+  - q: Làm dư, trữ được không?
+    a: >-
+      Đậy kín để **ngăn mát được 2 ngày**. Ăn lại thì hấp 5 phút hoặc quay
+      vi sóng có đậy nắp — mềm gần như mới. Đừng hâm khô không đậy: mặt
+      trứng chai lại, uổng công phết lòng đỏ.
+
+ticker:
+  - icon: sun
+    text: Mặt vàng óng mượt
+  - icon: spoon
+    text: Xúc muỗng nào mướt muỗng đó
+  - icon: sprout
+    text: Nấm mèo sần sật
+  - icon: pepper
+    text: Thơm tiêu, thơm hành lá
+  - icon: rice
+    text: Úp cơm nóng là hết chén
+  - icon: egg
+    text: Vị hiền cả nhà đều ăn

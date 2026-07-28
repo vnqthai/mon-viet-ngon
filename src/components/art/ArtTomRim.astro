@@ -1,0 +1,99 @@
+---
+/* Tôm rim nước cốt dừa — nồi đất THẤP miệng rộng quai tai hai bên (khác dáng tộ cá kho),
+   sốt nước cốt dừa TRẮNG NGÀ sánh; 5 con tôm chữ C đỏ au (geometry tôm mì Quảng đã duyệt:
+   thân C dày + vân đốt + đuôi xòe + mắt) nằm trong sốt; nửa trái dừa nạo + muỗng gỗ — xứ dừa */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Nồi đất tôm rim nước cốt dừa sốt trắng ngà, kèm nửa trái dừa nạo">
+  <defs>
+    <linearGradient id="trBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C4794A"/><stop offset="1" stop-color="#8F5230"/>
+    </linearGradient>
+    <linearGradient id="trSauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F9F0DD"/><stop offset="1" stop-color="#EAD7B2"/>
+    </linearGradient>
+    <!-- con tôm chuẩn nhà (geometry đã duyệt của mì Quảng): thân C dày,
+         3 vân đốt lưng, đuôi xòe trái, mắt chấm phải — không vẽ rời đầu/râu/chân -->
+    <g id="trShrimp">
+      <path d="M-16 16 C -30 -2 -14 -24 10 -23 C 27 -22 36 -10 32 3"
+            fill="none" stroke="#E8663C" stroke-width="15" stroke-linecap="round"/>
+      <g fill="none" stroke="#C24A22" stroke-width="2.4" stroke-linecap="round">
+        <path d="M-16 -8 q7 -7 15 -8"/>
+        <path d="M0 -17 q6 -4 13 -3"/>
+        <path d="M17 -16 q6 0 10 5"/>
+      </g>
+      <path d="M-13 11 L -34 3 L -21 17 L -37 20 L -18 23 Z" fill="#D9542E" stroke="#C24A22" stroke-width="1.8" stroke-linejoin="round"/>
+      <circle cx="33" cy="6" r="2" fill="#5E2C0C"/>
+      <path d="M-10 -16 q10 -6 20 -4" fill="none" stroke="#F2916B" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+    </g>
+  </defs>
+  <circle cx="260" cy="245" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="245" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M222 250 C 211 226 237 210 226 184 C 219 168 233 156 229 142"/>
+    <path d="M296 246 C 286 222 312 208 301 182 C 294 166 308 154 304 138"/>
+  </g>
+  <ellipse cx="260" cy="412" rx="196" ry="25" fill="rgba(15,26,14,.35)"/>
+
+  <!-- quai tai hai bên (vẽ trước, thân đè lên gốc quai) -->
+  <path d="M92 278 C 60 272 44 286 52 302 C 60 316 92 318 106 306 Z" fill="#9C5C34" stroke="#6B3A1C" stroke-width="2.6"/>
+  <path d="M428 278 C 460 272 476 286 468 302 C 460 316 428 318 414 306 Z" fill="#9C5C34" stroke="#6B3A1C" stroke-width="2.6"/>
+
+  <!-- thân nồi đất thấp, bầu rộng -->
+  <path d="M82 274 C 84 340 152 384 260 384 C 368 384 436 340 438 274 Z" fill="url(#trBody)"/>
+  <path d="M120 330 C 176 352 344 352 400 330" fill="none" stroke="#7A4526" stroke-width="6" stroke-linecap="round" opacity=".65"/>
+  <path d="M104 306 C 168 330 352 330 416 306" fill="none" stroke="#E0A32E" stroke-width="3" stroke-dasharray="2 12" stroke-linecap="round" opacity=".8"/>
+
+  <!-- miệng rộng: vành dày + lòng sốt trắng ngà đầy sát vành -->
+  <ellipse cx="260" cy="274" rx="180" ry="40" fill="#A8663A" stroke="#6B3A1C" stroke-width="3"/>
+  <ellipse cx="260" cy="270" rx="164" ry="34" fill="#5E3A1B"/>
+  <ellipse cx="260" cy="269" rx="156" ry="31" fill="url(#trSauce)"/>
+
+  <!-- sốt cốt dừa sánh: vân loang + bong bóng ở dải sốt trống phía xa -->
+  <g fill="none" stroke="#FFFDF6" stroke-linecap="round">
+    <path d="M150 262 C 172 253 204 249 232 251" stroke-width="4" opacity=".9"/>
+    <path d="M292 250 C 320 249 350 253 368 261" stroke-width="3.4" opacity=".85"/>
+    <path d="M196 291 C 214 295 236 296 254 294" stroke-width="3" opacity=".7"/>
+  </g>
+  <g fill="#FFFDF6" opacity=".9">
+    <circle cx="146" cy="272" r="3"/><circle cx="372" cy="270" r="2.6"/><circle cx="262" cy="250" r="2.4"/>
+  </g>
+
+  <!-- đàn tôm: 2 con vừa hai bên + 1 con nhỏ giữa-sau + 2 con lớn trước -->
+  <use href="#trShrimp" transform="translate(168 268) rotate(-6) scale(.72)"/>
+  <use href="#trShrimp" transform="translate(354 264) rotate(5) scale(-.7 .7)"/>
+  <use href="#trShrimp" transform="translate(252 256) rotate(-9) scale(.55)"/>
+  <use href="#trShrimp" transform="translate(220 290) rotate(4) scale(.95)"/>
+  <use href="#trShrimp" transform="translate(324 292) rotate(-6) scale(.8)"/>
+
+  <!-- tiêu đen + hành lá trên sốt -->
+  <g fill="#2E2318">
+    <circle cx="158" cy="290" r="1.9"/><circle cx="240" cy="264" r="1.9"/><circle cx="350" cy="286" r="1.9"/>
+    <circle cx="288" cy="299" r="1.7"/><circle cx="206" cy="254" r="1.7"/>
+  </g>
+  <g stroke="#7FA95B" stroke-width="3.6" stroke-linecap="round" fill="none">
+    <path d="M172 252 q10 -6 20 -4"/><path d="M312 250 q10 -5 19 -2"/><path d="M254 300 q9 -3 18 -2"/>
+  </g>
+
+  <!-- nửa trái dừa nạo: vỏ nâu xơ, cơm dừa trắng, lòng đã nạo dở -->
+  <g transform="translate(94 384)">
+    <ellipse cx="0" cy="40" rx="58" ry="14" fill="rgba(15,26,14,.32)"/>
+    <path d="M-48 6 C -46 29 -25 45 0 45 C 25 45 46 29 48 6 Z" fill="#7A4A26" stroke="#543014" stroke-width="2.5"/>
+    <path d="M-38 22 q7 9 16 13 M14 38 q11 -3 20 -11 M-12 40 q8 2 16 0" fill="none" stroke="#946038" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse cx="0" cy="6" rx="48" ry="17" fill="#543014"/>
+    <ellipse cx="0" cy="5" rx="43" ry="15" fill="#FFFDF6" stroke="#D8C8A8" stroke-width="2"/>
+    <ellipse cx="0" cy="6" rx="27" ry="9" fill="#F3EBD3"/>
+    <path d="M-20 3 q9 -4 18 -2 M-6 10 q10 -3 19 -1 M-24 8 q6 -3 12 -2" fill="none" stroke="#E3D6B8" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <!-- nhúm dừa nạo rơi cạnh -->
+  <g stroke="#FFFDF6" stroke-width="3" stroke-linecap="round" fill="none" opacity=".95">
+    <path d="M168 426 q7 -4 14 -2 M182 433 q6 -3 12 -1 M160 438 q6 -4 13 -3"/>
+  </g>
+
+  <!-- muỗng gỗ nhỏ bên phải, đầu muỗng hướng về nồi -->
+  <g transform="translate(402 408) rotate(-24)">
+    <ellipse cx="4" cy="24" rx="42" ry="10" fill="rgba(15,26,14,.28)"/>
+    <rect x="10" y="-3" width="74" height="8" rx="4" fill="#C89B5B" stroke="#8F6430" stroke-width="1.8"/>
+    <ellipse cx="-3" cy="1" rx="16" ry="11.5" fill="#C89B5B" stroke="#8F6430" stroke-width="1.8"/>
+    <ellipse cx="-3" cy="1" rx="9.5" ry="6.2" fill="#B3854A"/>
+  </g>
+</svg>

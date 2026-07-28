@@ -1,0 +1,481 @@
+title: Phở gà **nước trong ngọt dịu, thơm nức lá chanh**
+summary: >-
+  Tô phở gà chuẩn Hà Nội: nước dùng **vàng nhẹ ánh mỡ gà mà trong veo**, gà
+  ta da giòn thịt mọng, trên rắc nhúm **lá chanh thái chỉ** — thanh nhẹ mà
+  ngọt sâu, nấu gọn hơn phở bò nhiều mà đãi khách vẫn nở mặt.
+region: Miền Bắc
+category: Món sợi
+occasions: [Đãi khách]
+time:
+  total: 2 giờ
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 8
+art: pho-ga
+heroEyebrow: Sáng Hà Nội se se…
+
+quick:
+  ingredients:
+    - Gà ta [[1|con|frac]] (1,5–1,8 kg) — luộc nguyên con; xin thêm xương gà [[500|g]] ninh cho ngọt
+    - Bánh phở tươi [[1000|g]] (hoặc [[400|g]] phở khô)
+    - >-
+      Hành tây [[1|củ]] · hành tím [[4|củ]] · gừng [[1|củ]] — nướng xém;
+      hạt mùi [[1|muỗng canh|frac]] rang thơm (có rễ mùi càng quý)
+    - Lá chanh [[5|lá]] thái chỉ · hành lá [[1|bó]] (đầu hành chẻ) · ngò rí
+    - "Nêm: muối [[1|muỗng canh|frac]] · đường phèn [[15|g]] · nước mắm [[2.5|muỗng canh|frac]]"
+    - "Ăn kèm: chanh, ớt, tiêu · quẩy nếu thích"
+  steps:
+    - Gà chà muối gừng rửa sạch; nướng xém hành tây, hành tím, gừng rồi cạo vỏ cháy; rang hạt mùi cho vô túi vải.
+    - Luộc gà ngập nước lạnh với hành gừng nướng + muối — sôi hớt bọt, hạ **liu riu 25 phút**, tắt bếp ủ 10 phút.
+    - Vớt gà **ngâm nước đá 5 phút** cho da căng giòn; lọc thịt, chặt lát bản to, bộ xương trả lại nồi.
+    - Thả thêm xương gà + túi hạt mùi, ninh **lăn tăn 60 phút**, siêng hớt bọt — giữ lại lớp mỡ gà vàng óng.
+    - Nêm **đường phèn trước, nước mắm sau** lúc nước sôi — ngọt dịu, mặn thanh, không quế hồi.
+    - Trụng bánh phở, xếp gà, hành chẻ, chan nước dùng **sôi già**, rắc lá chanh thái chỉ + tiêu. Xì xụp liền cho nóng.
+  warning: >-
+    Hai lỗi giết tô phở gà: quen tay **thả quế hồi như phở bò** — mùi gà thanh
+    bị đè mất tăm; và **luộc gà sôi bùng** — da nứt toác, thịt khô xác.
+
+flavor:
+  chua: 0.5
+  ngot: 6.5
+  man: 5
+  cay: 1
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn vị:** nước vàng nhẹ ánh mỡ gà mà **trong nhìn thấu đáy**; húp một
+  muỗng thấy **ngọt dịu của gà chạy trước, mùi lá chanh vương lại sau** —
+  tuyệt không một bóng quế hồi.
+storyEyebrow: Chuyện tô phở gà
+storyTitle: Bản **thanh nhẹ** của phở Hà Nội
+story:
+  - >-
+    Người ta kể rằng phở gà ra đời khoảng cuối những năm 1930, khi Hà Nội có
+    lệ **mỗi tuần hai ngày không mổ bò** — hàng phở tiếc nồi nước, tiếc khách,
+    bèn xoay qua con gà. Ai dè cái món "chữa cháy" ấy đứng luôn thành một
+    trường phái: phở gà có hàng ruột của riêng mình, khách ruột của riêng
+    mình, kiêu hãnh chẳng kém gì đàn anh phở bò.
+  - >-
+    Cái khác của phở gà nằm ở chữ **thanh**. Nồi nước dùng chỉ cậy vào ba
+    thứ: xương gà ngọt dịu, **hành và gừng nướng xém** thơm ấm, thêm nhúm
+    **hạt mùi rang** làm mùi nền — tuyệt nhiên không quế, không hồi, không
+    thảo quả. Nhờ vậy nước trong vắt, vàng nhẹ lớp mỡ gà óng ánh, húp vào
+    thấy nhẹ bẫng mà ngọt tới hậu. Rồi chữ ký cuối cùng: nhúm **lá chanh
+    thái chỉ** rắc lên thịt gà — mùi the thơm bay lên là biết ngay, không
+    lẫn đi đâu được.
+  - >-
+    Với bếp nhà, phở gà còn có cái tình riêng: bên bài **cơm gà Hội An**,
+    nhà mình từng dặn trữ đông nước luộc gà cho phở gà sau này, "để dành
+    là vừa đẹp" — bài này chính là để giữ lời hứa đó. Một con gà, hai
+    tiếng đồng hồ, cả nhà có bữa sáng bốc khói như ngồi đầu phố cổ.
+
+ingredientGroups:
+  - name: Gà & nồi nước dùng
+    icon: pot
+    items:
+      - id: ga
+        name: Gà ta (gà thả vườn)
+        icon: meat
+        color: amber
+        base: 1
+        unit: con
+        frac: true
+        note: Con 1,5–1,8 kg, da vàng mỏng, thịt chắc — nửa tô phở nằm ở đây
+      - id: xuongga
+        name: Xương gà (cổ, lưng, chân)
+        icon: meat
+        base: 500
+        unit: g
+        note: Mua thêm để ninh ngọt sâu — không có thì ninh kỹ bộ xương con gà
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Nướng xém vỏ cho nồi nước dùng
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 4
+        unit: củ
+        note: 3 củ nướng thả nồi, 1 củ chẻ mỏng ngâm giấm nếu thích
+      - id: gung
+        name: Gừng già
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Nguyên vỏ nướng xém rồi cạo sạch, đập dập
+  - name: Gia vị thơm — không quế hồi
+    icon: jar
+    items:
+      - id: hatmui
+        name: Hạt mùi (hạt ngò rí)
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Rang thơm, gói túi vải — mùi nền kín đáo của phở gà
+      - id: remui
+        name: Rễ mùi (nếu có)
+        icon: herb
+        color: green
+        qtyText: Rễ của 1 bó ngò
+        note: Rửa sạch thả nồi — hàng phở gà xịn hay giấu bí quyết này
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        color: gold
+        base: 15
+        unit: g
+        note: Ngọt thanh, đằm hơn đường cát
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2.5
+        unit: muỗng canh
+        frac: true
+        note: Nêm sau cùng lúc nước sôi mới thơm
+      - id: muoi
+        name: Muối hột
+        icon: jar
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Cho từ đầu để nước "rút" ngọt từ xương
+  - name: Phần tô phở
+    icon: bowl
+    items:
+      - id: banhpho
+        name: Bánh phở tươi
+        icon: noodle
+        base: 1000
+        unit: g
+        note: Sợi nhỏ hợp phở gà; phở khô thì lấy 400 g
+      - id: lachanh
+        name: Lá chanh
+        icon: herb
+        color: green
+        base: 5
+        unit: lá
+        note: Chọn lá bánh tẻ (không già không non) — nhiều tinh dầu nhất
+      - id: hanhla
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Lá xắt nhỏ, phần đầu trắng chẻ sợi ngâm nước đá
+  - name: Dọn kèm
+    icon: lime
+    items:
+      - id: chanhot
+        name: Chanh + ớt tươi
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Chanh bổ múi cau, ớt xắt lát — ai ăn nấy nêm
+      - id: tieu
+        name: Tiêu bắc xay
+        icon: pepper
+        qtyText: 1 hũ nhỏ để giữa bàn
+        note: Phở gà rắc tiêu mới tròn mùi
+      - id: quay
+        name: Quẩy nóng
+        icon: roll
+        color: gold
+        qtyText: Tùy thích
+        note: Người Nam kêu giò cháo quẩy — chấm nước dùng đúng lệ Hà Nội
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 7 bước ra **tô phở gà chuẩn Hà Nội**
+stepsLead: >-
+  Mạch nấu rất xuôi tay: luộc gà xong thì nồi nước luộc thành luôn nồi nước
+  dùng, mình chỉ việc ninh tiếp và soạn phần tô. Xong bước nào đánh dấu bước
+  đó, đồng hồ đếm giờ có sẵn trong trang.
+steps:
+  - title: Sơ chế gà & nướng đồ thơm
+    icon: knife
+    minutes: 15 phút
+    intro: "Mùi nền của nồi phở gà nằm gọn trong bước này:"
+    bullets:
+      - label: "Làm gà:"
+        text: >-
+          gà chà xát **muối hột + gừng đập** trong ngoài cho sạch, rửa kỹ, để
+          ráo. Khều bỏ phần mỡ thừa trong bụng (giữ lại — lát thả nồi cho
+          nước béo thơm).
+      - label: "Nướng:"
+        text: >-
+          hành tây, hành tím, gừng để **nguyên vỏ** nướng trên lửa hoặc nồi
+          chiên không dầu 200°C chừng 10 phút tới **xém đen, thơm nức**. Cạo
+          thật sạch vỏ cháy dưới vòi nước, đập dập gừng.
+      - label: "Rang hạt mùi:"
+        text: >-
+          chảo khô, lửa nhỏ, rang [[1|muỗng canh|frac]] hạt mùi 2 phút tới
+          dậy mùi; cho vô **túi vải** cùng rễ mùi rửa sạch (nếu có).
+    callout:
+      type: tip
+      text: >-
+        Hạt mùi là "gia vị tàng hình" của phở gà — thơm dịu như vỏ cam khô,
+        nâng mùi gà lên mà không lộ mặt. Đừng thay bằng quế hồi của phở bò,
+        hai trường phái khác nhau đó nghen.
+  - title: Luộc gà — lăn tăn rồi ủ
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - text: >-
+          Cho gà vô nồi sâu lòng, châm **nước lạnh ngập con gà** (cỡ
+          [[3|lít]]), thả hành gừng nướng + [[1|muỗng canh|frac]] muối.
+      - text: >-
+          Đun lửa vừa cho sôi, **hớt sạch bọt**, rồi hạ liền xuống **liu riu
+          25 phút** — mặt nước chỉ lăn tăn, không sôi bùng.
+      - text: >-
+          Tắt bếp, đậy vung **ủ 10 phút** cho gà chín thấu tới xương mà thịt
+          vẫn mọng. Xiên đũa vô đùi không rỉ nước hồng là đạt.
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng từ đầu tới cuối là con gà **nứt da, thịt xác xơ** — phí cả
+        con gà ta. Liu riu + ủ mới ra thớ thịt ngọt mềm kiểu hàng phở.
+    timer:
+      secs: 1500
+      label: Hẹn giờ luộc gà · 25:00
+      doneMsg: Tắt bếp, ủ thêm 10 phút nghen!
+  - title: Sốc đá — da căng giòn
+    icon: drop
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Vớt gà thả ngay vô **thau nước đá 5 phút** — sốc nhiệt làm da co
+          lại, căng bóng, giòn sựt; thịt cũng săn mọng hơn hẳn.
+      - text: >-
+          Gà nguội thì lọc thịt: đùi và ức **chặt lát bản to giữ nguyên da**,
+          phần vụn xé sợi. Đậy lại kẻo khô mặt.
+      - text: Bộ xương vừa lọc **trả lại nồi nước luộc** — đừng bỏ, ngọt còn nhiều lắm.
+    callout:
+      type: tip
+      text: >-
+        Muốn miếng gà óng như ngoài hàng: gà vớt khỏi thau đá thì thoa một
+        lớp **mỡ gà** thiệt mỏng lên da — vừa bóng đẹp vừa không bị khô.
+    timer:
+      secs: 300
+      label: Hẹn giờ ngâm đá · 05:00
+      doneMsg: Vớt gà, để ráo rồi lọc thịt!
+  - title: Ninh tiếp — ngọt sâu tầng hai
+    icon: flame
+    minutes: 60 phút
+    bullets:
+      - text: >-
+          Thả [[500|g]] xương gà mua thêm (đã rửa sạch) + **túi hạt mùi** vô
+          nồi nước luộc, châm thêm nước sôi cho đủ cỡ [[2.5|lít]].
+      - text: >-
+          Giữ lửa **lăn tăn sủi tăm 45–60 phút**, hé vung, thỉnh thoảng ghé
+          hớt bọt.
+      - text: >-
+          Váng mỡ gà vàng óng thì **giữ lại một lớp mỏng** — đó là cái "ánh
+          vàng" đặc trưng của tô phở gà; chỉ hớt bớt khi thấy dày quá.
+    callout:
+      type: tip
+      text: >-
+        Nhà có sẵn **nước luộc gà trữ đông** (nồi cơm gà Hội An kỳ trước
+        chẳng hạn) thì đổ chung vô ninh — nước dùng đậm gấp rưỡi mà chẳng
+        tốn thêm đồng nào.
+    timer:
+      secs: 3600
+      label: Hẹn giờ ninh xương · 60:00
+      doneMsg: Nước dùng ngọt sâu rồi — vớt xác, nêm nếm!
+  - title: Nêm nếm — ngọt dịu, mặn thanh
+    icon: spoon
+    minutes: 5 phút
+    bullets:
+      - text: Vớt hết xương và xác hành gừng, lược nước dùng qua **rây** cho trong vắt.
+      - text: "Nêm **đường phèn trước**: [[15|g]], khuấy tan hết."
+      - text: >-
+          Nước sôi trở lại mới chế **[[2.5|muỗng canh|frac]] nước mắm** —
+          nêm mắm lúc cuối mùi mới thơm dịu. Lạt thì thêm muối từng nhúm
+          nhỏ, đừng thêm mắm nữa kẻo nặng mùi.
+      - text: >-
+          Chuẩn khi húp thử: **ngọt dịu của gà chạy trước, mặn thanh theo
+          sau**, mùi hành gừng nướng ấm ấm ở hậu.
+    callout:
+      type: warn
+      text: >-
+        Phở gà mà nêm đậm tay quá là **mất chất thanh** — thà nêm hụt một
+        chút, ra bàn còn chanh ớt mắm cứu; nêm lố là hết đường lui.
+  - title: Thái lá chanh, soạn phần tô
+    icon: herb
+    minutes: 10 phút
+    bullets:
+      - label: "Lá chanh:"
+        text: >-
+          rửa sạch, lau khô, **cuộn chồng mấy lá lại thái chỉ thiệt nhuyễn**
+          — sợi càng mảnh càng thơm, không bị đắng. Thái sát giờ ăn cho tinh
+          dầu còn nguyên.
+      - label: "Hành ngò:"
+        text: >-
+          hành lá xắt nhỏ, **đầu hành trắng chẻ sợi** ngâm nước đá cho cong
+          giòn; ngò rí xắt khúc.
+      - label: "Bánh phở:"
+        text: >-
+          tươi thì trụng nước sôi **10–15 giây** xóc thiệt ráo; khô thì ngâm
+          nước ấm 30 phút rồi mới trụng.
+    callout:
+      type: warn
+      text: >-
+        Lá chanh thái sớm để lâu là **bay hết mùi, chỉ còn vị đắng** — món
+        này "nước tới chân mới thái" lại là đúng bài.
+  - title: Ráp tô — chan sôi già, rắc lá chanh
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: Trụng tô nước sôi cho nóng, cho bánh phở vô ⅔ tô.
+      - text: >-
+          Xếp **lát gà da vàng óng** lên mặt, thêm nhúm thịt xé, hành chẻ,
+          hành lá, ngò.
+      - text: >-
+          Nước dùng vặn **sôi sùng sục** rồi chan ngập bánh — chan tới đâu
+          khói bốc tới đó.
+      - text: >-
+          Rắc **lá chanh thái chỉ + tiêu xay** lên thịt gà rồi bưng ra liền.
+          Chanh, ớt, quẩy bày giữa bàn.
+    callout:
+      type: tip
+      text: >-
+        Nhớ trình tự **chan nước rồi mới rắc lá chanh** — lá nằm trên mặt,
+        hơi nóng đẩy mùi the thơm bay thẳng lên mũi ngay muỗng đầu tiên.
+    doneText: Bưng ra bàn — xong!
+
+tipsTitle: 7 bí quyết cho **tô phở gà như ngoài hàng**
+tipsLead: >-
+  Phở gà ít gia vị hơn phở bò nên chẳng có chỗ nấp — con gà, nồi nước, nhúm
+  lá chanh, thứ nào cũng phải tới nơi. Mấy mẹo này là ranh giới giữa "cũng
+  được" và "ra chất Hà Nội".
+tips:
+  - icon: meat
+    title: Gà ta là nửa tô phở
+    text: >-
+      Chọn con **1,5–1,8 kg, da vàng mỏng, ức thon**: thịt chắc, ngọt đậm,
+      luộc lên da căng óng. Gà công nghiệp nấu vẫn được nồi nước ổn, nhưng
+      miếng thịt bở và da nhão — mất điểm ngay khâu gắp đầu tiên.
+  - icon: pot
+    title: Lăn tăn — ủ — sốc đá
+    text: >-
+      Ba nhịp luộc gà đáng thuộc lòng: **lăn tăn** cho thịt không xác, **ủ**
+      cho chín thấu tới xương, **sốc đá** cho da căng giòn. Thiếu nhịp nào
+      miếng gà "khai" ra nhịp đó liền.
+  - icon: drop
+    title: Giữ ánh mỡ gà trên mặt nước
+    text: >-
+      Phở gà đúng kiểu phải có **lớp mỡ vàng óng loang nhẹ** trên mặt — béo
+      mà thanh, thơm mùi gà không lẫn đi đâu. Hớt bọt thì siêng, nhưng váng
+      mỡ chỉ hớt bớt, đừng vét sạch kẻo tô phở "gầy" đi.
+  - icon: jar
+    title: Hạt mùi thay vai quế hồi
+    text: >-
+      Nước dùng gà nhẹ mùi, thả quế hồi vô là bị đè bẹp ngay. **Hạt mùi
+      rang** thơm dịu mới đúng vai: nâng mùi gà lên mà không tranh sân khấu
+      — bí quyết truyền đời của các hàng phở gà Hà Nội.
+  - icon: herb
+    title: Lá chanh bánh tẻ, thái chỉ nhuyễn
+    text: >-
+      Lá bánh tẻ nhiều tinh dầu nhất — già thì đắng, non thì nhạt mùi. Cuộn
+      lại thái **mảnh như sợi chỉ**: sợi to vừa đắng vừa hăng, sợi mảnh chỉ
+      còn đúng mùi the thơm. Và nhớ — **rắc lên thịt gà**, đừng trộn vô nước.
+  - icon: knife
+    title: Chặt lát bản to, giữ nguyên da
+    text: >-
+      Miếng gà đẹp là miếng **bản to, mép da vàng óng ôm lấy thịt trắng
+      ngà**. Dao bén, chặt dứt khoát một nhát — chặt nhấp nhấp là da tuột,
+      thịt vỡ vụn, tô phở kém sang hẳn.
+  - icon: moon
+    title: Nước dùng để qua đêm càng đậm
+    text: >-
+      Nấu dư cứ để nguội, cất ngăn mát: qua đêm vị lắng xuống **đậm và ngọt
+      hậu hơn hẳn**, mỡ gà đông lại thành lớp vàng hớt gọn. Sáng hôm sau đun
+      sôi, trụng bánh là có tô phở 10 phút.
+
+serve:
+  title: Tô phở sáng — **thanh mà ấm bụng**
+  paras:
+    - >-
+      Phở gà hợp nhất là **bữa sáng se se**: vắt miếng chanh, thả lát ớt,
+      rắc thêm chút tiêu rồi cắm cúi xì xụp — nước thanh nên húp tới đáy tô
+      vẫn nhẹ bụng, cái sướng rất riêng so với người anh em phở bò đậm đà.
+      Ai thích đúng lệ Hà Nội thì thêm **quẩy nóng** chấm nước dùng, cắn
+      tới đâu nước ngọt ứa tới đó.
+    - >-
+      Nhà đãi khách sáng cuối tuần, món này là "át chủ bài" đỡ mệt: nước
+      dùng và gà làm sẵn từ chiều hôm trước, khách tới chỉ trụng bánh chan
+      nước. Bữa nào muốn đổi gió đậm đà hơn thì đã có **phở bò** quế hồi
+      trầm ấm — hai anh em nhà phở, mỗi người một tính.
+    - >-
+      Gà luộc dư đừng lo: xé ra trộn **gỏi gà bắp cải** rau răm là thành
+      món mới toanh cho bữa chiều, hoặc để dành mai nấu miến. Một con gà
+      lo được hai bữa — kiểu tính toán mà má nào cũng gật gù.
+  aside:
+    title: Trên bàn phở gà
+    intro: "Đủ bộ này mới đúng điệu:"
+    items:
+      - icon: lime
+        text: "**Chanh + ớt tươi** — vắt sát giờ ăn, đừng vắt sớm mất thơm."
+      - icon: pepper
+        text: "**Tiêu bắc xay** — nhúm nhỏ trên thịt gà, dậy mùi hẳn lên."
+      - icon: roll
+        text: "**Quẩy nóng** — chấm ngập nước dùng, chữ ký bàn phở Hà Nội."
+      - icon: herb
+        text: "**Chén lá chanh thái chỉ để thêm** — ai ghiền tự rắc tiếp."
+
+faq:
+  - q: Chỉ mua được gà công nghiệp thì có nấu được không?
+    a: >-
+      Được, nhưng biết trước hai điểm yếu: **da nhão hơn và thịt bở hơn** gà
+      ta. Chữa bằng cách rút luộc còn **15–17 phút + ủ 10 phút**, sốc đá lâu
+      hơn chút cho da săn, và chặt miếng to tay kẻo vụn. Nước dùng thì cứ
+      thêm xương gà ninh kỹ là vẫn ngọt đàng hoàng.
+  - q: Phở gà khác phở bò chỗ nào ngoài con thịt?
+    a: >-
+      Khác từ gốc: phở bò cậy **túi quế hồi thảo quả** thơm trầm, hầm xương
+      bò 3 tiếng; phở gà chỉ dùng **hành gừng nướng + hạt mùi**, ninh xương
+      gà cỡ 1 tiếng — nước thanh hơn, vàng nhẹ hơn, và có **lá chanh** làm
+      chữ ký. Nấu phở gà mà rập khuôn gia vị phở bò là hỏng cả hai.
+  - q: Có sẵn nước luộc gà trữ đông — tận dụng sao cho khéo?
+    a: >-
+      Chính là "duyên nợ" của bài này đó: bên **cơm gà Hội An** nhà mình
+      từng dặn trữ đông nước luộc gà để dành. Giờ rã đông, đổ chung vô nồi
+      từ đầu bước ninh — nước dùng **đậm gấp rưỡi**, thời gian y nguyên.
+      Nồi phở gà ngon nhất là nồi "cộng dồn" hai con gà như vậy.
+  - q: Lá chanh cho nhiều hay ít — lỡ tay thì sao?
+    a: >-
+      Chuẩn là **nhúm nhỏ thái chỉ nhuyễn cho cả tô** — vừa đủ thơm the,
+      không lấn nước dùng. Lỡ rắc quá tay tô sẽ **đắng và hăng**: vớt bớt
+      sợi lá ra, chan thêm nước dùng nóng là dịu lại. Nhà có người không
+      quen mùi thì để chén lá chanh riêng, ai ăn nấy rắc.
+  - q: Muốn nước béo đậm kiểu hàng phở thì thêm gì?
+    a: >-
+      Thêm **300–500 g xương ống heo** chần kỹ, ninh chung từ đầu — nhiều
+      hàng phở gà Hà Nội vẫn làm vậy cho nước có "độ dày". Nhớ giữ tỷ lệ
+      xương heo ít hơn xương gà, không là mùi heo lấn mùi gà, mất chất
+      phở gà ngay.
+  - q: Nấu trước được những gì, bảo quản sao?
+    a: >-
+      Nước dùng nấu xong để nguội, **ngăn mát 3 ngày hoặc cấp đông cả
+      tháng**. Gà luộc chặt sẵn đậy kín ngăn mát 1–2 ngày, ăn tới đâu lấy
+      tới đó. Chỉ có **lá chanh và bánh phở là phải làm sát giờ** — hai thứ
+      đó mà làm trước là tô phở mất tươi liền.
+
+ticker:
+  - icon: drop
+    text: Nước trong vàng nhẹ mỡ gà
+  - icon: meat
+    text: Da giòn óng, thịt mọng ngọt
+  - icon: herb
+    text: Lá chanh thái chỉ the thơm
+  - icon: jar
+    text: Hạt mùi rang thơm kín đáo
+  - icon: noodle
+    text: Bánh phở mềm trụng vừa tới
+  - icon: sun
+    text: Sáng se se, húp ấm bụng

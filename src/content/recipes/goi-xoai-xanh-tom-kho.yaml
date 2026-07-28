@@ -1,0 +1,395 @@
+title: Gỏi xoài xanh tôm khô **chua giòn ứa nước miếng, trộn thau nào hết thau nấy**
+summary: >-
+  Sợi xoài xanh chua giòn quyện tôm khô ngọt đậm, nước mắm đường thắng hơi
+  kẹo bám lấy từng sợi, rau răm đậu phộng rắc rộng tay — **món mồi ruột của
+  bàn nhậu**, mà dọn ăn chơi buổi xế cũng cuốn miệng không thua.
+region: Miền Nam
+category: Gỏi
+occasions: [Nhậu lai rai, Ăn chơi]
+time:
+  total: 25 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 18
+art: goi-xoai
+heroEyebrow: Chiều mát, làm dĩa mồi nghen…
+
+quick:
+  ingredients:
+    - Xoài xanh [[2|trái]] (xoài keo hoặc xoài tượng còn cứng) — bào sợi to
+    - Tôm khô [[60|g]] loại ngon — ngâm nước ấm 10 phút, để ráo
+    - Rau răm [[1|nắm]] cắt khúc · ớt sừng [[1|trái]] xắt sợi
+    - Đậu phộng rang [[3|muỗng canh]] giã dối · hành phi [[2|muỗng canh]]
+    - >-
+      Nước trộn: nước mắm [[2|muỗng canh]] · đường [[2.5|muỗng canh|frac]] ·
+      nước cốt tắc hoặc chanh [[2|muỗng canh]] · tỏi [[2|tép]] + ớt băm
+  steps:
+    - Tôm khô ngâm nước ấm **10 phút** cho mềm, để ráo — thích đậm thì giã hơi dập cho tơi.
+    - Xoài gọt vỏ, bào hoặc xắt sợi **to cỡ đầu đũa**, cất ngăn mát cho giòn.
+    - Thắng nước mắm + đường lửa nhỏ cho tan, để nguội mới thêm nước tắc, tỏi ớt — nước trộn phải **hơi kẹo** mới bám sợi.
+    - Sát giờ ăn mới trộn — xoài + tôm khô vô thau, rưới nước trộn, **nhẹ tay nhanh tay** cho áo đều.
+    - Rắc rau răm, đậu phộng, hành phi, ớt sợi — đảo thêm hai lượt là bưng ra liền.
+  warning: >-
+    Gỏi xoài trộn xong phải ăn liền — để lâu xoài **ra nước, sợi xìu**, dĩa
+    gỏi lõng bõng là hết ngon.
+
+flavor:
+  chua: 8
+  ngot: 6.5
+  man: 6
+  cay: 5
+  thom: 7
+flavorNote: >-
+  **Chuẩn vị:** gắp thử một đũa phải thấy **bốn vị chua – cay – mặn – ngọt
+  cân nhau**, không vị nào lấn vị nào; sợi xoài còn giòn sựt, và cái hậu
+  đọng lại sau cùng là vị tôm khô ngọt đậm.
+storyEyebrow: Chuyện dĩa mồi
+storyTitle: Từ trái xoài sau hè **tới dĩa mồi bàn nhậu**
+story:
+  - >-
+    Hồi nhỏ, trái xoài xanh hái sau hè chỉ cần chén muối ớt là tụi nhỏ chia
+    nhau chấm hết veo, vừa ăn vừa nhăn mặt hít hà. Lớn lên chút, cũng trái
+    xoài đó vô tay má lại thành dĩa gỏi: sợi xoài bào giòn, nhúm tôm khô
+    trong hũ **của để dành** nhà nào cũng có, thêm nắm rau răm ngoài chậu —
+    giản dị vậy mà thành món người lớn nhắc hoài mỗi chiều trời mát.
+  - >-
+    Cái duyên của món này nằm ở chỗ **hai thứ chua mặn nương nhau**: xoài
+    càng chua giòn, tôm khô càng lộ vị ngọt đậm; tôm khô càng dai thơm,
+    miếng xoài càng thanh. Chén nước mắm đường thắng hơi kẹo kéo hai đầu
+    đó lại gần nhau, rau răm với đậu phộng đứng giữa làm chứng. Ngoài
+    quán, dĩa gỏi xoài kêu ra chưa kịp khui thêm chai bia là đã thấy đáy.
+  - >-
+    Mà đừng tưởng món quán là khó làm: gỏi xoài gần như **không đụng bếp
+    lửa** — chỉ thắng nhúm nước mắm đường — hai mươi lăm phút từ lúc gọt
+    xoài tới lúc bưng ra. Chiều cuối tuần có bạn ghé chơi, lận lưng công
+    thức này là vừa trộn vừa tám chuyện, dọn kịp trước khi đá trong ly
+    kịp tan.
+
+ingredientGroups:
+  - name: Xoài & tôm khô
+    icon: basket
+    items:
+      - id: xoai
+        name: Xoài xanh
+        icon: pod
+        color: green
+        base: 2
+        unit: trái
+        note: Xoài keo hoặc xoài tượng cầm nặng tay, vỏ xanh đậm còn cứng — trái ương vừa chua vừa bở
+      - id: tomkho
+        name: Tôm khô loại ngon
+        icon: shrimp
+        color: red
+        base: 60
+        unit: g
+        note: Size vừa, màu đỏ gạch tự nhiên — đỏ rực đều tăm tắp coi chừng hàng nhuộm
+      - id: rauram
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Nhặt lá, cắt khúc ngắn — chừa ít lá nguyên cắm mặt dĩa
+      - id: otsung
+        name: Ớt sừng
+        icon: chili
+        color: red
+        base: 1
+        unit: trái
+        note: Xắt sợi dài — cay nhẹ, chủ yếu cho dĩa gỏi rực rỡ
+  - name: Đồ rắc giòn thơm
+    icon: jar
+    items:
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        color: gold
+        base: 3
+        unit: muỗng canh
+        note: Giã dối — bể đôi bể ba là đẹp, đừng giã nát
+      - id: hanhphi
+        name: Hành phi
+        icon: onion
+        color: gold
+        base: 2
+        unit: muỗng canh
+        note: Tự phi hoặc mua loại giòn thơm, không hôi dầu
+  - name: Nước trộn gỏi
+    icon: bottle
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        note: Loại 40 độ đạm cho đậm đà
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 2.5
+        unit: muỗng canh
+        frac: true
+        note: Nhiều hơn nước chấm thường — để nước trộn hơi kẹo
+      - id: tac
+        name: Tắc hoặc chanh
+        icon: lime
+        color: green
+        base: 2
+        unit: muỗng canh
+        note: Tắc (ngoài Bắc kêu quất) thơm dịu đúng kiểu miền Nam — vắt lấy nước cốt
+      - id: toiot
+        name: Tỏi + ớt hiểm băm
+        icon: garlic
+        qtyText: 2 tép tỏi · 1–2 trái ớt
+        note: Băm nhuyễn — nhà ăn cay kém thì bớt ớt
+  - name: Dọn kèm cho xôm tụ
+    icon: moon
+    items:
+      - id: banhphong
+        name: Bánh phồng tôm chiên
+        icon: moon
+        color: gold
+        qtyText: 1 dĩa
+        note: Bẻ miếng xúc gỏi thay muỗng — giòn chồng giòn
+      - id: uong
+        name: Trà tắc hoặc bia ướp lạnh
+        icon: drop
+        qtyText: Tùy buổi
+        note: Buổi xế hay buổi lai rai, dĩa gỏi này cân được hết
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa gỏi giòn tan**
+stepsLead: >-
+  Món này không cần bếp lửa, chỉ cần đúng thứ tự: tôm ngâm trước, xoài bào
+  sau, nước trộn thắng sẵn — và nhớ kỹ một điều: khâu trộn luôn để sát giờ ăn.
+steps:
+  - title: Ngâm tôm khô cho mềm ngọt
+    icon: shrimp
+    minutes: 10 phút
+    intro: "Tôm khô là linh hồn vị đậm của dĩa gỏi, chiều nó một chút:"
+    bullets:
+      - label: "Ngâm:"
+        text: >-
+          xả sơ tôm cho sạch bụi, ngâm nước **ấm già tay** chừng 10 phút —
+          con tôm nở mềm mà vẫn giữ độ dai.
+      - label: "Để ráo:"
+        text: vớt ra rổ cho róc hẳn nước — tôm còn ướt là nước trộn loãng ngay.
+      - label: "Giã dối (tùy thích):"
+        text: >-
+          cho tôm vô cối **giã sơ vài chày cho hơi dập** — dân mình kêu là
+          giã dối — miếng tôm tơi ra, ngấm nước trộn đậm hơn. Thích nhai
+          nguyên con dai dai thì bỏ qua khâu này.
+    callout:
+      type: tip
+      text: >-
+        Nếm thử một con tôm sau khi ngâm: ngọt đậm tự nhiên là trúng hàng
+        ngon; lỡ nhạt hoặc mặn quá thì lát nêm nước trộn bù lại một chút.
+    timer:
+      secs: 600
+      label: Hẹn giờ ngâm tôm khô · 10:00
+      doneMsg: Tôm mềm rồi — vớt ra để ráo!
+  - title: Bào sợi xoài — to cỡ đầu đũa
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - label: "Gọt:"
+        text: gọt vỏ, rửa lại rồi lau khô trái xoài cho đỡ trơn tay.
+      - label: "Bào:"
+        text: >-
+          dùng dao bào lỗ lớn, bào dứt khoát từng đường dài; không có thì
+          xắt lát mỏng rồi xắt sợi — sợi **to cỡ đầu đũa ăn cơm** là chuẩn.
+      - label: "Giữ giòn:"
+        text: sợi xoài bào xong đậy kín, cất **ngăn mát** tới sát lúc trộn.
+    callout:
+      type: warn
+      text: >-
+        Đừng ham bào sợi nhuyễn — sợi mảnh quá gặp nước trộn là **xìu
+        liền**, dĩa gỏi mất cái giòn sựt sướng răng.
+  - title: Thắng nước trộn hơi kẹo
+    icon: bottle
+    minutes: 5 phút
+    intro: "Bí quyết của cả dĩa gỏi nằm nguyên trong chén nước trộn này:"
+    bullets:
+      - label: "Thắng:"
+        text: >-
+          cho [[2|muỗng canh]] nước mắm + [[2.5|muỗng canh|frac]] đường vô
+          nồi nhỏ, bật **lửa nhỏ nhất**, khuấy chừng một phút cho đường tan
+          hết rồi tắt bếp — hỗn hợp hơi **kẹo** lại, tức sánh nhẹ như mật
+          loãng.
+      - label: "Để nguội:"
+        text: >-
+          nguội bớt mới vắt [[2|muỗng canh]] nước cốt tắc (hoặc chanh) và
+          cho tỏi ớt băm vô — vắt lúc còn nóng là mùi chua thơm bay mất.
+      - label: "Nếm:"
+        text: >-
+          chấm đầu đũa nếm thử — đủ mặn – ngọt – chua – cay, và **đặc hơn
+          nước mắm chấm bún** thấy rõ là đạt.
+    callout:
+      type: tip
+      text: >-
+        Vì sao phải kẹo? Nước trộn loãng sẽ **trượt khỏi sợi xoài**, đọng
+        hết xuống đáy — gỏi trên lạt dưới mặn. Sánh nhẹ mới ôm lấy từng sợi.
+  - title: Trộn nhẹ tay, sát giờ ăn
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Khách ngồi vô bàn rồi hãy trộn: cho sợi xoài + tôm khô vô thau
+          rộng, rưới **⅔ chén nước trộn** vòng quanh thành thau.
+      - text: >-
+          Đeo bao tay hoặc dùng đũa **hất trộn từ dưới lên, nhẹ mà nhanh**,
+          chừng chục lượt cho sợi xoài áo bóng. Nếm thử, nhạt thì châm nốt
+          phần nước trộn còn lại.
+      - text: >-
+          Rắc **rau răm + phân nửa đậu phộng, hành phi**, đảo thêm hai lượt
+          là ngừng tay.
+    callout:
+      type: warn
+      text: >-
+        Trộn lâu, bóp mạnh là xoài **ra nước** — cái giòn đi đứt. Nguyên
+        tắc của gỏi xoài: nhẹ tay, nhanh tay, ăn liền.
+  - title: Lên dĩa, rắc đồ giòn
+    icon: flower
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Gắp gỏi ra dĩa, **vun ngọn cao** cho hấp dẫn, phần nước đọng dưới
+          đáy thau bỏ lại.
+      - text: >-
+          Rắc phần **đậu phộng + hành phi còn lại** lên chóp, gác mấy sợi
+          ớt sừng đỏ, cắm vài lá rau răm nguyên.
+      - text: >-
+          Dọn kèm dĩa **bánh phồng tôm** chiên — bẻ miếng bánh xúc gỏi,
+          giòn chồng giòn, vui hết biết.
+    doneText: Bưng ra liền cho giòn — xong!
+
+tipsTitle: 8 bí quyết cho **dĩa gỏi bao giòn bao thấm**
+tipsLead: >-
+  Gỏi xoài dễ mà không dễ — trộn đại thì cũng ra dĩa gỏi, nhưng mấy cái
+  "biết" nhỏ này mới làm người ta gắp không ngừng đũa.
+tips:
+  - icon: basket
+    title: Xoài keo hay xoài tượng?
+    text: >-
+      **Xoài keo** giòn, dày cơm, chua dịu, giá lại mềm — hợp gỏi nhất;
+      **xoài tượng** chua đanh hơn, ai hảo chua sẽ ghiền. Trái nào cũng
+      phải còn xanh cứng, cầm nặng tay — trái ương vừa chua vừa bở, trộn
+      lên là nhão.
+  - icon: shrimp
+    title: Tôm khô nhìn màu mà chọn
+    text: >-
+      Chọn con màu **đỏ gạch trầm tự nhiên**, khô ráo, bóp thấy dẻo chứ
+      không cứng ngắc; hàng đỏ rực đều tăm tắp coi chừng nhuộm phẩm. Mua
+      dư trữ hũ kín — nấu canh, rang cơm, món nào cũng cần tới.
+  - icon: knife
+    title: Sợi to thì giòn lâu
+    text: >-
+      Sợi cỡ đầu đũa **chậm ra nước** hơn hẳn sợi nhuyễn — mặn trong nước
+      trộn rút nước chậm hơn, trộn xong vẫn còn sựt sựt. Sợi mảnh nhìn đẹp
+      thau mà xìu trước khi kịp lên dĩa.
+  - icon: drop
+    title: Nước trộn phải kẹo
+    text: >-
+      Đường nêm mạnh hơn nước chấm thường và thắng cho **sánh nhẹ** — lớp
+      áo mặn ngọt bám lấy sợi xoài chứ không chảy tuột. Đây là khác biệt
+      lớn nhất giữa gỏi nhà làm và gỏi quán nghề.
+  - icon: clock
+    title: Sơ chế trước, trộn sau cùng
+    text: >-
+      Mọi thứ soạn sẵn để riêng được từ trưa; **chỉ khâu trộn là để sát
+      giờ**. Nhà có khách cứ bày thau ra trộn trước mặt — vừa đúng bài
+      vừa… ra dáng đầu bếp.
+  - icon: pod
+    title: Đậu phộng giã dối mới bùi
+    text: >-
+      Giã sơ cho hột **bể đôi bể ba, còn lợn cợn** — cắn trúng mới đã
+      miệng. Giã nát thành bột là chìm nghỉm trong nước trộn, uổng công
+      rang.
+  - icon: chili
+    title: Cay cho ai cần
+    text: >-
+      Nhà ăn cay lệch nhau thì **bớt ớt trong nước trộn**, dọn thêm chén ớt
+      băm riêng — ai chịu cay tự múc. Dĩa gỏi hiền, chén ớt dữ, ai cũng vui.
+  - icon: fish
+    title: Đổi mồi cho vui
+    text: >-
+      Bữa nào muốn đổi gió, thêm nhúm **khô bò xé** hay **khô cá sặc chiên
+      giòn** vô cùng dĩa — cũng bài nước trộn đó mà ra dĩa mồi mới toanh.
+
+serve:
+  title: Dọn dĩa **đúng kiểu lai rai**
+  paras:
+    - >-
+      Gỏi xoài lên bàn nhậu là phải có dĩa **bánh phồng tôm** kề bên — bẻ
+      miếng bánh xúc một đũa gỏi, cắn cái rốp, chua cay mặn ngọt bung ra
+      một lượt, ly bia lạnh tự nhiên… vơi hồi nào không hay. Món này làm
+      mồi mở màn là chuẩn không cần chỉnh.
+    - >-
+      Còn buổi xế trời mát, dĩa gỏi xoài là **món ăn chơi cứu đói** ngon
+      lành cho cả nhà: bớt ớt đi là tụi nhỏ cũng xúm vô gắp, vừa ăn vừa
+      hít hà. Nhà đãi tiệc kiểu miền Nam thì để nó đứng cạnh **chả giò**
+      nóng giòn với **gỏi cuốn** — bộ ba khai vị bao khách khen.
+    - >-
+      Và một cặp bài trùng ngoài quán mà bạn nên thử ở nhà: gỏi xoài ăn
+      kèm **cơm chiên cá mặn** — miếng cơm mặn mà béo, gắp đũa gỏi chua
+      giòn đè lên, cân nhau từng li. Bữa đó khỏi cần món thứ ba.
+  aside:
+    title: Bàn lai rai gợi ý
+    intro: "Bốn thứ này bày ra là buổi chiều xôm tụ liền:"
+    items:
+      - icon: moon
+        text: "**Bánh phồng tôm chiên** — muỗng ăn gỏi ngon nhất trần đời."
+      - icon: roll
+        text: "**Chả giò nóng** — giòn rụm béo thơm, đứng cạnh gỏi chua là hết ý."
+      - icon: rice
+        text: "**Cơm chiên cá mặn** — cặp bài trùng của gỏi xoài ngoài quán."
+      - icon: drop
+        text: "**Trà tắc hoặc bia ướp lạnh** — buổi xế hay buổi nhậu đều trọn vị."
+
+faq:
+  - q: Xoài nào làm gỏi ngon nhất?
+    a: >-
+      **Xoài keo còn xanh** là chân ái: giòn, dày cơm, chua vừa phải, giá
+      mềm. **Xoài tượng** chua gắt hơn — hợp người hảo chua, nêm đường
+      nhích tay một chút. Tránh trái ương (vỏ ngả vàng, cầm hơi mềm): vừa
+      chua vừa bở, trộn là xìu.
+  - q: Thay tôm khô bằng tôm tươi luộc được không?
+    a: >-
+      Được, nhưng thành **món khác liền**. Tôm khô mới là linh hồn ở đây:
+      vị ngọt cô đặc, càng nhai càng ra, dai dai đối lại cái giòn của xoài.
+      Tôm tươi ngọt thanh mà mọng nước, trộn vô gỏi nhanh loãng. Thèm tôm
+      tươi thì luộc dọn kèm bên cạnh — phần vị đậm cứ để tôm khô lo.
+  - q: Làm trước đãi khách được bao lâu?
+    a: >-
+      Sơ chế thì thoải mái từ trưa: xoài bào đậy kín ngăn mát, tôm ngâm để
+      ráo, nước trộn pha sẵn, đồ rắc hộp kín. Riêng **khâu trộn để sát
+      giờ** — dĩa gỏi ngon nhất trong 15–20 phút đầu, để lâu là ra nước.
+  - q: Nhà có con nít, bớt cay được không?
+    a: >-
+      Dễ lắm — **bỏ hẳn ớt khỏi nước trộn**: chua ngọt mặn vẫn đủ cuốn
+      miệng, tụi nhỏ gắp như ăn trái cây trộn. Phần người lớn gác ớt sừng
+      lên mặt hoặc dọn chén ớt băm riêng, ai ăn nấy chấm.
+  - q: Đậu phộng rang sẵn hay tự rang?
+    a: >-
+      Tự rang **lửa nhỏ tới vàng ruộm** là thơm nhất, còn ấm đem giã dối
+      luôn càng bùi. Mua sẵn cũng được — chọn gói mới rang, hột bóng giòn;
+      loại để lâu hôi dầu là dĩa gỏi lãnh đủ. Rang dư cất hũ kín xài cả
+      tuần.
+
+ticker:
+  - icon: drop
+    text: Chua thanh ứa nước miếng
+  - icon: shrimp
+    text: Tôm khô càng nhai càng ngọt
+  - icon: bottle
+    text: Nước trộn kẹo bám sợi
+  - icon: herb
+    text: Nhúm rau răm dậy vị
+  - icon: pod
+    text: Đậu phộng rang vàng giã dối
+  - icon: moon
+    text: Bánh phồng tôm xúc gỏi
+  - icon: chili
+    text: Chút cay ghẹo lưỡi

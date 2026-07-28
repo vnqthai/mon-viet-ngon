@@ -1,0 +1,452 @@
+title: Gỏi gà bắp cải **gà ngọt bắp cải giòn, đám tiệc nào cũng có mặt**
+summary: >-
+  Bắp cải bào mỏng ngâm đá giòn rôm rốp, gà luộc xé phay ngọt thịt, rau răm
+  the nồng **hào phóng đúng kiểu mâm tiệc** — dĩa gỏi mà đám giỗ đám cưới
+  ba miền đâu cũng gặp, kèm chén cháo nóng nấu từ nước luộc là trọn bài.
+region: Cả nước
+category: Gỏi
+occasions: [Đãi khách]
+time:
+  total: 45 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 19
+art: goi-ga
+heroEyebrow: Nhà có tiệc là có gỏi…
+
+quick:
+  ingredients:
+    - Gà ta [[800|g]] (nửa con hoặc 2 đùi góc tư) · gừng [[1|củ]] + hành tím [[2|củ]] để luộc
+    - Bắp cải [[400|g]] bào sợi mỏng · cà rốt [[0.5|củ|frac]] bào sợi
+    - Hành tây [[1|củ]] thái mỏng ngâm giấm đường · rau răm [[1|bó]] — đừng tiếc
+    - Đậu phộng rang [[3|muỗng canh]] giã dối · hành phi [[2|muỗng canh]] · tiêu
+    - >-
+      Nước trộn: nước mắm [[2.5|muỗng canh|frac]] · đường [[2|muỗng canh]] ·
+      nước cốt chanh [[2|muỗng canh]] · tỏi [[2|tép]] + ớt băm
+  steps:
+    - Luộc gà từ **nước lạnh** với gừng, hành tím, muối — sôi hớt bọt, hạ liu riu 15 phút, tắt bếp ủ 10 phút, vớt ngâm nước đá.
+    - Bắp cải bào mỏng, **ngâm nước đá 10 phút** cho sợi cong giòn, vẩy thật ráo; cà rốt bào sợi để riêng.
+    - Hành tây thái mỏng, ngâm giấm đường 10 phút cho hết hăng, vắt nhẹ.
+    - Gà nguội **xé phay dọc thớ** miếng vừa gắp, da thái sợi; pha nước trộn đậm tay hơn nước chấm.
+    - Trộn bắp cải + cà rốt + hành tây với ⅔ nước trộn trước, thêm gà + phần còn lại — **bóp nhẹ từng đợt** cho thấm.
+    - Rắc rau răm, đậu phộng, hành phi, tiêu — đảo đều, dọn kèm chén nước mắm tỏi ớt.
+  warning: >-
+    Bắp cải ngâm xong phải **vẩy thật ráo** — sợi còn ướt là nước trộn bị
+    pha loãng, dĩa gỏi nhạt thếch dù pha đúng công thức.
+
+flavor:
+  chua: 5.5
+  ngot: 5
+  man: 6
+  cay: 3
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** đũa gỏi gắp lên phải **giòn rôm rốp trước, ngọt thịt gà
+  theo sau**, chua mặn ngọt đằm quyện vô nhau, và cái the rau răm dậy lên
+  chốt lại — thiếu cái the đó là chưa thành gỏi gà.
+storyEyebrow: Chuyện dĩa gỏi
+storyTitle: Con gà cúng và **dĩa gỏi của ngày sum họp**
+story:
+  - >-
+    Nhà có đám giỗ, thế nào trên bàn thờ cũng có **con gà luộc nguyên con
+    da vàng óng**. Nhang tàn, gà hạ xuống, má với mấy dì xúm lại xé phay —
+    thịt xé dọc thớ từng miếng, bắp cải bào sẵn từ sớm, rau răm hái nguyên
+    rổ. Chỉ một loáng, con gà trang nghiêm trên bàn thờ đã thành dĩa gỏi
+    rôm rả giữa mâm, ai gắp cũng khen giòn khen ngọt. Món này vì vậy thành
+    **món của những ngày nhà đông người** — đám giỗ, tất niên, đãi khách
+    quý, đâu cũng gặp.
+  - >-
+    Hay ở chỗ, gỏi gà bắp cải **không thuộc riêng miền nào**: ngoài Bắc
+    kêu là "nộm gà", trong Nam kêu "gỏi gà", cách gọi khác mà bài trộn
+    giống nhau tới lạ — bắp cải sợi mỏng, hành tây, cà rốt, và nhất định
+    phải một nắm rau răm. Thứ rau the nồng đó là **linh hồn của món**: đỡ
+    cái béo của gà, đẩy cái ngọt của thịt — thiếu nó, dĩa gỏi như bàn tiệc
+    thiếu tiếng cười.
+  - >-
+    Còn một lẽ nữa để thương: món này **tận dụng khéo tới giọt cuối**. Gà
+    luộc dư bữa trước xé ra trộn là thành món mới; nồi nước luộc ngọt lừ
+    bắc lên nấu cháo hành rắc tiêu, cuối tiệc múc mỗi người một chén nóng
+    hổi. Một con gà, hai món, trọn một bữa đãi khách tươm tất.
+
+ingredientGroups:
+  - name: Gà & nồi luộc
+    icon: meat
+    items:
+      - id: ga
+        name: Gà ta
+        icon: meat
+        color: amber
+        base: 800
+        unit: g
+        note: Nửa con hoặc 2 đùi góc tư, thịt chắc xé không nát — gà luộc dư bữa trước càng tiện
+      - id: gunghanh
+        name: Gừng + hành tím
+        icon: ginger
+        color: gold
+        qtyText: 1 củ gừng · 2 củ hành
+        note: Đập giập thả nồi luộc — nước thơm, gà hết tanh
+      - id: muoi
+        name: Muối
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Nêm nhẹ thôi — nước luộc còn để nấu cháo
+  - name: Rau gỏi giòn mát
+    icon: lettuce
+    items:
+      - id: bapcai
+        name: Bắp cải trắng
+        icon: lettuce
+        color: green
+        base: 400
+        unit: g
+        note: Chọn bắp cuộn chặt, lá giòn nước — bắp xốp nhẹ tay bào ra sợi mềm oặt
+      - id: carot
+        name: Cà rốt
+        icon: pod
+        color: red
+        base: 0.5
+        unit: củ
+        frac: true
+        note: Bào sợi, cho màu là chính — nhiều quá lấn vị
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Thái mỏng — ngâm giấm đường là hết hăng, giòn ngọt
+      - id: rauram
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Linh hồn của gỏi gà — mạnh tay lên, đừng tiếc
+  - name: Nước trộn & đồ rắc
+    icon: bottle
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2.5
+        unit: muỗng canh
+        frac: true
+        note: Pha đậm hơn nước chấm — rau ra nước sẽ kéo dịu lại
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 2
+        unit: muỗng canh
+        note: Cân với chanh cho chua ngọt tròn vị
+      - id: chanh
+        name: Chanh
+        icon: lime
+        color: green
+        base: 1.5
+        unit: trái
+        frac: true
+        note: Vắt lấy chừng 2 muỗng canh nước cốt
+      - id: toiot
+        name: Tỏi + ớt băm
+        icon: garlic
+        qtyText: 2 tép tỏi · 1–2 trái ớt
+        note: Băm nhuyễn — cay nhẹ thôi cho cả bàn gắp được
+      - id: giamduong
+        name: Giấm + đường ngâm hành tây
+        icon: jar
+        qtyText: 2 muỗng canh giấm · 1 muỗng cà phê đường
+        note: Nước ngâm cho hành tây giòn ngọt hết hăng
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        color: gold
+        base: 3
+        unit: muỗng canh
+        note: Giã dối cho bể đôi bể ba — rắc lên mới bùi
+      - id: hanhphi
+        name: Hành phi
+        icon: onion
+        color: gold
+        base: 2
+        unit: muỗng canh
+        note: Rắc sau cùng cho giòn thơm
+      - id: tieu
+        name: Tiêu xay
+        icon: pepper
+        qtyText: Một nhúm
+        note: Rắc lúc lên dĩa — dậy mùi lắm
+  - name: Dọn kèm trọn bài
+    icon: bowl
+    items:
+      - id: chao
+        name: Cháo hành từ nước luộc gà
+        icon: bowl
+        qtyText: 1 nắm gạo + hành lá
+        note: Bắc nồi cháo ngay khi vớt gà — cuối tiệc mỗi người một chén
+      - id: mamcham
+        name: Chén nước mắm tỏi ớt
+        icon: bottle
+        color: red
+        qtyText: 1 chén nhỏ
+        note: Ai thích đậm chấm thêm miếng gà
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa gỏi đãi khách**
+stepsLead: >-
+  Bắc nồi luộc gà trước, rồi tranh thủ đúng 30 phút đó lo trọn phần rau —
+  gà nguội tới đâu, mọi thứ sẵn sàng tới đó, chỉ còn xé và trộn.
+steps:
+  - title: Luộc gà — liu riu, ủ, sốc đá
+    icon: pot
+    minutes: 30 phút
+    intro: "Bài luộc gà quen thuộc của bếp mình, áp vô đây y chang:"
+    bullets:
+      - text: >-
+          Gà chà muối rửa sạch, cho vô nồi **ngập nước lạnh** cùng gừng đập
+          giập, hành tím (nướng sơ càng thơm) và [[1|muỗng cà phê]] muối.
+      - text: >-
+          Nước sôi thì **hớt bọt, hạ liu riu 15 phút** — mặt nước chỉ lăn
+          tăn. Nửa con thì vậy là vừa; luộc nguyên con to thì theo bài
+          **cơm gà Hội An**, liu riu 25 phút.
+      - text: >-
+          Tắt bếp, **đậy nắp ủ 10 phút** cho chín thấu tới xương, rồi vớt
+          gà ngâm **thau nước đá** chừng 5 phút — da căng, thịt săn ngọt.
+      - text: >-
+          Nước luộc **giữ lại trọn nồi** — lát nữa nó thành nồi cháo chốt
+          tiệc.
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng từ đầu tới cuối là gà nứt da, thịt khô xác — dĩa gỏi mất
+        ngon từ con gà. Liu riu cộng ủ mới ra thớ thịt mềm mọng.
+    timer:
+      secs: 900
+      label: Hẹn giờ luộc gà · 15:00
+      doneMsg: Tắt bếp, đậy nắp ủ 10 phút nữa nghen!
+  - title: Bắp cải ngâm đá cho giòn cong
+    icon: lettuce
+    minutes: 15 phút
+    bullets:
+      - label: "Bào:"
+        text: >-
+          bắp cải bổ tư, cắt bỏ lõi, **bào hoặc thái sợi thiệt mỏng** —
+          sợi có mỏng mới cong, mới rôm rốp.
+      - label: "Ngâm đá:"
+        text: >-
+          thả sợi vô thau **nước đá 10 phút** — nhìn thấy sợi cong lại là
+          đạt chuẩn.
+      - label: "Vẩy ráo:"
+        text: >-
+          đổ ra rổ **vẩy thật ráo**, kỹ nữa thì trải lên khăn sạch thấm
+          bớt. Cà rốt bào sợi để riêng, không cần ngâm.
+    callout:
+      type: warn
+      text: >-
+        Khâu vẩy ráo quyết định dĩa gỏi — sợi còn ướt là nước trộn bị pha
+        loãng, gỏi nhạt hoài nêm không cứu nổi.
+    timer:
+      secs: 600
+      label: Hẹn giờ ngâm bắp cải · 10:00
+      doneMsg: Sợi cong giòn rồi — vẩy ráo thôi!
+  - title: Xé phay gà, ngâm hành, pha nước trộn
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Hành tây:"
+        text: >-
+          thái mỏng theo chiều dọc củ, ngâm [[2|muỗng canh]] giấm +
+          [[1|muỗng cà phê]] đường trong **10 phút**, vắt nhẹ — giòn ngọt,
+          hết hăng xộc.
+      - label: "Xé phay:"
+        text: >-
+          gà nguội thì lóc thịt, **xé tay dọc thớ thành miếng vừa gắp** —
+          dày cỡ ngón út, đừng xé chỉ nhỏ kẻo gỏi bị khô. Da thái sợi trộn
+          chung cho béo giòn.
+      - label: "Nước trộn:"
+        text: >-
+          khuấy tan [[2.5|muỗng canh|frac]] nước mắm + [[2|muỗng canh]]
+          đường + [[2|muỗng canh]] nước cốt chanh + tỏi ớt băm — nếm thấy
+          **đậm hơn nước chấm bún một nấc** là đúng.
+    callout:
+      type: tip
+      text: >-
+        "Xé phay" là xé tay dọc thớ thịt — miếng gà giữ nguyên thớ ngọt,
+        thấm nước trộn mà không nát. Lấy dao xắt ngang thớ là thịt bở vụn
+        liền.
+    timer:
+      secs: 600
+      label: Hẹn giờ ngâm hành tây · 10:00
+      doneMsg: Hành hết hăng rồi — vắt nhẹ, chuẩn bị trộn!
+  - title: Bóp gỏi từng đợt
+    icon: bowl
+    minutes: 5 phút
+    intro: "Trộn từng đợt cho thấm đều mà sợi không nát:"
+    bullets:
+      - text: >-
+          Cho bắp cải + cà rốt + hành tây vô thau rộng, rưới **⅔ nước
+          trộn**, **bóp nhẹ nhàng** chừng một phút cho ngấm — bóp kiểu nâng
+          lên thả xuống, không vò.
+      - text: >-
+          Thêm gà xé + phần nước trộn còn lại, trộn thêm một lượt. Để **3
+          phút** cho thấm rồi nghiêng thau, **chắt bớt nước** tiết ra ở đáy.
+      - text: >-
+          Rắc **rau răm cắt khúc + phân nửa đậu phộng, hành phi**, đảo hai
+          lượt chót là xong thau gỏi.
+    callout:
+      type: warn
+      text: >-
+        Đãi tiệc thì mọi thứ soạn riêng từng hộp, **khách ngồi vô bàn mới
+        trộn** — trộn sớm nửa tiếng là gỏi ra nước, xẹp lép mất vui.
+  - title: Lên dĩa kiểu mâm tiệc
+    icon: flower
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Gắp gỏi ra **dĩa lớn, vun ngọn cao**, rắc phần đậu phộng hành phi
+          còn lại + nhúm **tiêu xay**, cắm mấy lá rau răm nguyên và ít sợi
+          ớt cho rực rỡ.
+      - text: >-
+          Dọn kèm **chén nước mắm tỏi ớt** — ai thích đậm nhúng thêm miếng
+          gà.
+      - text: >-
+          Còn nồi nước luộc bắc lại lên bếp với **nắm gạo vo sạch** từ lúc
+          xé gà — tàn bữa gỏi là cháo vừa nhừ, múc chén nóng rắc hành tiêu,
+          khách nào cũng gật gù.
+    doneText: Dĩa gỏi vun ngọn lên mâm — xong!
+
+tipsTitle: 8 bí quyết cho **dĩa gỏi gà chuẩn mâm tiệc**
+tipsLead: >-
+  Nguyên liệu món này chợ nào cũng có, ăn thua là ở mấy cái "biết" nho
+  nhỏ — đọc một lượt trước khi vô bếp nghen.
+tips:
+  - icon: pot
+    title: Liu riu – ủ – sốc đá, thuộc lòng
+    text: >-
+      Ba nhịp cho con gà **chín thấu mà mọng**: liu riu để thịt không xác,
+      ủ để chín tới xương, sốc đá để da căng thịt săn. Bài này xài cho mọi
+      món gà luộc — thuộc một lần, ngon cả đời.
+  - icon: knife
+    title: Xé phay miếng vừa gắp
+    text: >-
+      Xé chỉ nhỏ nhìn tơi mà **ăn bị khô** — sợi mảnh hút cạn nước trộn.
+      Miếng dày cỡ ngón út, xé dọc thớ, cắn vô còn nghe ngọt thịt — gỏi gà
+      là món khoe thịt gà mà.
+  - icon: lettuce
+    title: Nước đá là thuốc giòn của bắp cải
+    text: >-
+      Lạnh làm sợi bắp cải **cong lại, cứng cáp** — gắp lên nghe rôm rốp.
+      Ngâm đủ 10 phút thôi, ngâm cả buổi là sợi ngậm nước, trộn ra dĩa gỏi
+      nhạt.
+  - icon: herb
+    title: Nắm rau răm quyết định
+    text: >-
+      Cái the nồng của rau răm **đỡ béo, đẩy ngọt** cho thịt gà — thiếu nó
+      chỉ còn là dĩa bắp cải trộn thịt. Cắt khúc trộn thẳng vô, chừa ít lá
+      nguyên cắm mặt cho thơm mắt thơm mũi.
+  - icon: bottle
+    title: Nước trộn đậm một nấc
+    text: >-
+      Bắp cải, hành tây kiểu gì cũng **tiết nước làm dịu vị** — pha đậm
+      hơn nước chấm một nấc là vừa khớp. Nêm "vừa miệng" ngay từ chén là
+      dĩa gỏi ra nhạt.
+  - icon: onion
+    title: Trị cái hăng của hành tây
+    text: >-
+      Mười phút ngâm giấm đường đổi lấy hành tây **giòn ngọt trong veo** —
+      người ghét hành tây nhất bàn cũng gắp được. Vắt nhẹ trước khi trộn
+      kẻo loãng gỏi.
+  - icon: bowl
+    title: Nước luộc là nửa bữa tiệc
+    text: >-
+      Đừng bao giờ đổ đi: thả nắm gạo là thành **nồi cháo hành chốt
+      tiệc**; nhà tính nấu **phở gà** thì trữ ngăn đông làm nước dùng —
+      con gà xài tới giọt cuối mới là dân bếp.
+  - icon: bulb
+    title: Cứu tinh của gà luộc dư
+    text: >-
+      Gà cúng, gà luộc dư để ngăn mát hay bị chê khô — xé phay bóp gỏi với
+      nước trộn đậm chút là **sống dậy ngon lành**, nhiều khi còn hết trước
+      nồi thịt kho.
+
+serve:
+  title: Dọn mâm — **dĩa gỏi giữa bàn, nồi cháo chờ cuối tiệc**
+  paras:
+    - >-
+      Gỏi gà bắp cải sinh ra cho **mâm đông người**: dĩa gỏi vun ngọn đặt
+      chính giữa, chén nước mắm tỏi ớt kề bên, ai ngồi đâu gắp cũng tiện.
+      Món này lên mâm thường **hết trước nhất** — giòn, mát, the the, gắp
+      lai rai nói chuyện hoài không ngán.
+    - >-
+      Đúng bài nhất là màn chốt: nồi **cháo hành nấu từ nước luộc gà** liu
+      riu chờ sẵn, tàn bữa múc mỗi người một chén nóng rắc tiêu — bụng ấm,
+      câu chuyện kéo thêm một hồi nữa mới chịu tan. Cặp "gỏi gà – cháo gà"
+      của mâm tiệc quê là vậy, thiếu một vế cứ thấy chưa trọn.
+    - >-
+      Nhà làm mâm giỗ Nam Bộ đủ lệ thì để dĩa gỏi này đứng chung với **thịt
+      kho hột vịt** và tô **canh khổ qua nhồi thịt** — mặn ngọt có, thanh
+      đắng có, giòn the có; mâm cơm cúng ông bà tươm tất mà đãi khách cũng
+      thịnh soạn.
+  aside:
+    title: Trên mâm đãi khách
+    intro: "Đủ bộ này là bữa tiệc gà tròn trịa:"
+    items:
+      - icon: bowl
+        text: "**Chén cháo hành rắc tiêu** — nấu từ nước luộc, món chốt tiệc ấm bụng."
+      - icon: bottle
+        text: "**Nước mắm tỏi ớt** — chấm thêm miếng gà cho đậm đà."
+      - icon: claypot
+        text: "**Thịt kho hột vịt** — mâm giỗ miền Nam đủ lệ là có mặt."
+      - icon: okra
+        text: "**Canh khổ qua nhồi thịt** — chén nước thanh cân lại dĩa gỏi đậm."
+
+faq:
+  - q: Gà ta hay gà công nghiệp?
+    a: >-
+      **Gà ta, gà thả vườn** thịt chắc ngọt, xé ra miếng còn nguyên thớ —
+      đúng chất gỏi. Gà công nghiệp vẫn làm được: chọn đùi góc tư, luộc còn
+      chừng 12 phút cộng ủ, xé miếng to tay hơn, và pha nước trộn đậm thêm
+      chút để bù vị.
+  - q: Bắp cải tím trộn được không?
+    a: >-
+      Được — dĩa gỏi rực rỡ hẳn lên. Bắp cải tím vị **hăng hơn một chút**,
+      ngâm nước đá kỹ hơn cho dịu. Đẹp nhất là trộn **nửa trắng nửa tím**
+      thêm cà rốt cam — dĩa gỏi đãi khách nhìn đã con mắt.
+  - q: Đãi tiệc, làm trước sao cho gỏi không ra nước?
+    a: >-
+      Chia phần **để riêng từng hộp kín** từ chiều: gà xé, bắp cải ngâm
+      vẩy ráo, hành tây ngâm, rau răm, nước trộn, đồ rắc. Khách ngồi vô
+      bàn mới đổ chung bóp trộn — **5 phút ra dĩa**, giòn y như vừa làm.
+  - q: Chua ngọt bị gắt, chỉnh sao?
+    a: >-
+      Gắt thường do đổ chanh với đường **một lượt rồi mới nếm**. Cách cứu:
+      thêm từng muỗng cà phê nước mắm cho vị mặn kéo lại; lỡ gắt cả thau
+      thì bào thêm nắm bắp cải chưa trộn vô chữa cháy là dịu ngay. Lần sau
+      pha tới đâu nếm tới đó.
+  - q: Rau răm thay được không?
+    a: >-
+      Nói thiệt lòng là **không** — cái the nồng của rau răm là hồn của
+      gỏi gà. Thay húng lủi hay ngò rí thì vẫn ra dĩa trộn ngon, nhưng gắp
+      lên không còn cái đã của "à, gỏi gà đây rồi". Chợ hết rau răm, thà
+      đổi bữa khác nấu.
+  - q: Gỏi còn dư cất được không?
+    a: >-
+      Gỏi ngon nhất **trong buổi** — sợi còn giòn, vị còn căng. Dư thì
+      chắt hết nước, cho hộp kín ngăn mát, ăn trong ngày: sợi hết cong
+      nhưng vị vẫn đậm — kẹp ổ bánh mì giòn lại thành món mới ra trò.
+
+ticker:
+  - icon: lettuce
+    text: Bắp cải giòn rôm rốp
+  - icon: meat
+    text: Gà xé phay ngọt thịt
+  - icon: herb
+    text: The nồng rau răm
+  - icon: onion
+    text: Hành tây ngâm giòn ngọt
+  - icon: lime
+    text: Chua ngọt cân tay
+  - icon: pod
+    text: Bùi bùi đậu phộng rang
+  - icon: bowl
+    text: Cháo nóng chốt tiệc

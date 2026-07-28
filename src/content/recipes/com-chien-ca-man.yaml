@@ -1,0 +1,424 @@
+title: Cơm chiên cá mặn **hạt cơm săn rời, dậy mùi là đói**
+summary: >-
+  Món "ruột" của tiệm cơm người Hoa đất Sài Gòn: cơm nguội chiên **săn từng
+  hạt áo trứng**, vụn cá mặn thơm nức mũi, gà xé cân vị — chảo vừa dậy mùi
+  là cả nhà tự động đi dọn chén.
+region: Miền Nam
+category: Cơm
+time:
+  total: 35 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 14
+art: com-chien
+heroEyebrow: Chảo lửa Chợ Lớn dậy mùi…
+
+quick:
+  ingredients:
+    - >-
+      Cá mặn (cá thu mặn) [[80|g]] — hỏi sạp khô ngoài chợ, chọn miếng thịt
+      hồng sậm còn dẻo
+    - Cơm nguội [[4|chén]] — nấu hôm trước để ngăn mát là "chuẩn bài" nhất
+    - Ức hoặc đùi gà [[250|g]] luộc xé sợi · trứng gà [[3|quả]]
+    - Tỏi [[4|tép]] băm · hành lá [[4|nhánh]] · gừng [[4|lát]] để chiên cá
+    - "Nêm nhẹ tay: đường [[1|muỗng cà phê]] · tiêu · nước tương (nếm rồi mới thêm)"
+    - "Dọn kèm: dưa leo, cà chua · xà lách trộn dầu giấm · chén xì dầu ớt"
+  steps:
+    - >-
+      Luộc gà với vài lát gừng chừng 15 phút, vớt ra để nguội, **xé sợi**;
+      nước luộc giữ lại nấu canh.
+    - >-
+      Cá mặn rửa nhanh, thấm thật khô; chiên **lửa vừa** với gừng tới vàng
+      hai mặt, để nguội.
+    - Gỡ xương thật kỹ, xé giã vụn cỡ hạt bắp.
+    - >-
+      Phi tỏi thơm, đổ trứng đánh tan vô, trứng **vừa se còn ướt** là trút
+      cơm nguội vô liền, đảo tơi.
+    - >-
+      Mở **lửa lớn**, đảo mạnh tay cho hạt cơm săn mặt nghe lạo xạo — cho
+      vụn cá + gà xé vô, đảo 2 phút cho dậy mùi.
+    - Nếm trước rồi nêm nhẹ đường – tiêu, rắc hành lá, đảo một vòng, tắt bếp.
+    - Úp chén cơm ra dĩa cho tròn vun, dọn kèm rau tươi và chén xì dầu ớt.
+  warning: >-
+    Nêm tay quen như cơm chiên thường là **mặn chát hết cứu** — cá đã gánh
+    trọn phần mặn của cả chảo, cứ nêm thiếu rồi nếm, thiếu thiệt mới thêm.
+
+flavor:
+  chua: 1
+  ngot: 3.5
+  man: 8
+  cay: 1.5
+  thom: 9
+flavorNote: >-
+  **Chuẩn vị:** hạt cơm săn rời áo trứng vàng óng, cắn trúng vụn cá là vị
+  **mặn thơm bùng lên rồi dịu liền** nhờ gà xé và cơm — muốn ăn miếng nữa
+  ngay chứ không mặn gắt đọng cổ.
+storyTitle: Từ tiệm cơm **Chợ Lớn** ra mâm cơm nhà
+story:
+  - >-
+    Ghé mấy tiệm cơm người Hoa quanh vùng Sài Gòn – Chợ Lớn, thế nào bạn
+    cũng gặp mùi này: mùi cá mặn chạm chảo dầu nóng, mặn mòi mà thơm tới
+    mức đứng ngoài cửa đã nghe đói bụng. Cơm chiên cá mặn theo chân các đầu
+    bếp người Hoa vào Nam từ thuở nào, rồi "nhập tịch" luôn vô thực đơn
+    quán cơm miền Nam — món gọi thêm mà bàn nào cũng gọi.
+  - >-
+    Cá mặn là thứ phải nói cho rõ kẻo mua lộn: đó là **cá biển muối nguyên
+    con rồi đem phơi** — thường là cá thu, có nơi làm cá chét — nằm đâu đó
+    **giữa con khô và hũ mắm**. Thịt cá màu hồng sậm, còn dẻo còn mềm chứ
+    không khô xác; ra chợ cứ hỏi sạp khô tiếng "cá thu mặn" là người ta
+    hiểu liền. Một miếng bằng hai ngón tay thôi mà chiên lên dậy mùi nguyên
+    căn bếp — gần như khỏi nêm nếm gì thêm cho cả chảo cơm.
+  - >-
+    Cái hay của món này với bếp nhà là nó **chiều mình hết mực**: cơm nguội
+    hôm qua, miếng gà luộc còn dư, khứa cá để dành trong hũ — nửa tiếng sau
+    thành dĩa cơm nóng hổi ra dáng nhà hàng. Bí quyết chỉ nằm ở hai chữ:
+    cơm phải **nguội ráo**, lửa phải **thiệt lớn**. Còn lại, cá mặn tự lo
+    phần ngon.
+
+ingredientGroups:
+  - name: Cá mặn & gà xé
+    icon: fish
+    items:
+      - id: caman
+        name: Cá mặn (cá thu mặn)
+        icon: fish
+        base: 80
+        unit: g
+        note: Miếng thịt hồng sậm, sờ còn dẻo, thơm nồng không khai
+      - id: ga
+        name: Ức hoặc đùi gà
+        icon: meat
+        base: 250
+        unit: g
+        note: Ức nhanh gọn, đùi mềm ngọt hơn — luộc chín xé sợi
+      - id: gung
+        name: Gừng
+        icon: ginger
+        color: gold
+        base: 4
+        unit: lát
+        note: Vài lát vô nồi luộc gà, vài lát chiên cùng cá
+  - name: Phần cơm chiên
+    icon: rice
+    items:
+      - id: com
+        name: Cơm nguội
+        icon: rice
+        base: 4
+        unit: chén
+        note: Nấu hôm trước, để ngăn mát — hạt ráo rời mới "nhảy" được
+      - id: trung
+        name: Trứng gà
+        icon: egg
+        color: gold
+        base: 3
+        unit: quả
+        note: Đánh tan sẵn với chút tiêu — đừng nêm muối
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 4
+        unit: tép
+        note: Băm nhuyễn, phi thơm mở màn
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 4
+        unit: nhánh
+        note: Xắt nhỏ, rắc lúc gần tắt bếp
+      - id: daun
+        name: Dầu ăn
+        icon: drop
+        qtyText: 3–4 muỗng canh
+        note: Chia hai lượt — chiên cá và chiên cơm
+  - name: Nêm — nhẹ tay thôi
+    icon: jar
+    items:
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng cà phê
+        note: Cho vị mặn dịu lại, tròn miệng
+      - id: nuoctuong
+        name: Nước tương + tiêu xay
+        icon: bottle
+        qtyText: Nếm rồi mới thêm
+        note: Vài giọt cho thơm là nhiều — cá đã mặn sẵn
+  - name: Dọn kèm kiểu tiệm
+    icon: lettuce
+    items:
+      - id: xalach
+        name: Xà lách trộn dầu giấm
+        icon: lettuce
+        color: green
+        qtyText: 1 dĩa
+        note: Xà lách + ít hành tây, rưới dầu giấm đường — chua nhẹ mát miệng
+      - id: dualeo
+        name: Dưa leo + cà chua
+        icon: tomato
+        color: red
+        qtyText: Mỗi thứ 1 trái
+        note: Xắt lát, xếp quanh ụ cơm
+      - id: xidau
+        name: Chén xì dầu ớt
+        icon: bottle
+        qtyText: 1 chén nhỏ
+        note: Dằm thêm lát ớt — ai ăn đậm tự rưới
+
+stepsTitle: 6 bước ra **ụ cơm vàng kiểu tiệm**
+stepsLead: >-
+  Trình tự khôn nhất: bắc nồi luộc gà trước rồi tranh thủ chiên cá, gỡ
+  xương — gà nguội vừa kịp xé là cơm cũng vừa lên chảo. Một mạch là xong.
+steps:
+  - title: Luộc gà, xé sợi
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Ức hoặc đùi gà rửa sạch, cho vô nồi nước **ngập mặt** cùng vài
+          lát gừng và nhúm muối.
+      - text: >-
+          Nước sôi thì hớt bọt, hạ **liu riu 12–15 phút** (ức 12, đùi 15),
+          tắt bếp đậy nắp ủ thêm 5 phút cho chín thấu.
+      - text: >-
+          Vớt gà để nguội rồi **xé sợi vừa gắp** — đừng xé chỉ nhỏ quá,
+          chiên lên khô xác mất ngon.
+      - label: "Nước luộc:"
+        text: >-
+          đừng đổ nghen — thả miếng bí, nắm cải là có chén canh ngọt kèm
+          cơm chiên, đúng bộ tiệm cơm.
+    callout:
+      type: tip
+      text: >-
+        Nhà có sẵn gà luộc dư từ bữa trước thì bước này khỏi luôn — món
+        này sinh ra để "giải cứu" đồ dư tủ lạnh mà.
+    timer:
+      secs: 900
+      label: Hẹn giờ luộc gà · 15:00
+      doneMsg: Tắt bếp, ủ 5 phút nữa nghen!
+  - title: Chiên vàng cá mặn
+    icon: fish
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Cá mặn **rửa nhanh** dưới vòi nước cho trôi bụi muối, thấm thật
+          khô bằng giấy bếp — càng khô chiên càng thơm, đỡ văng dầu.
+      - text: >-
+          Chảo dầu nóng **lửa vừa**, thả mấy lát gừng cho thơm rồi cho cá
+          vô.
+      - text: >-
+          Chiên mỗi mặt chừng **2 phút** tới vàng nâu đều, gắp ra giấy
+          thấm dầu, để nguội bớt.
+    callout:
+      type: warn
+      text: >-
+        Cá mặn ít nước, **bén lửa rất nhanh** — lửa lớn là mép cá cháy
+        đen, đắng lây cả chảo cơm. Lửa vừa thôi, đứng canh sát.
+    timer:
+      secs: 120
+      label: Hẹn giờ chiên cá · 02:00
+      doneMsg: Lật mặt cá — canh vàng đều nghen!
+  - title: Gỡ xương, xé vụn
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Cá nguội bớt thì **gỡ xương thật kỹ** dưới chỗ sáng — xương cá
+          mặn cứng và giòn, lẫn vô cơm là phiền lắm. Gỡ xong miết lại một
+          lượt bằng đầu ngón tay để dò xương sót.
+      - text: >-
+          Xé hoặc **giã sơ** cho thịt cá vụn cỡ hạt bắp — vụn nhỏ mới chia
+          đều được khắp chảo cơm, muỗng nào cũng có.
+    callout:
+      type: tip
+      text: >-
+        Giã sơ trong cối thôi, đừng giã nhuyễn — vụn cá còn lợn cợn cắn
+        mới đã miệng, nhuyễn quá thành bột mặn mất vui.
+  - title: Trứng ướt áo lấy hạt cơm
+    icon: egg
+    minutes: 4 phút
+    bullets:
+      - text: >-
+          Cơm nguội lấy ra **bóp tơi trước** cho rời mảng. Chảo lớn cho
+          [[2|muỗng canh]] dầu, nóng già thì phi **tỏi băm** vàng thơm.
+      - text: >-
+          Đổ trứng đánh tan vô, khuấy nhanh tay — trứng **vừa se mặt còn
+          hơi ướt** là trút hết cơm vô liền.
+      - text: >-
+          Đảo và dằm cho trứng ướt **áo lấy từng hạt cơm** — lớp "sơn lót"
+          vàng óng kiểu tiệm là ở nhịp này.
+    callout:
+      type: warn
+      text: >-
+        Đợi trứng chín hẳn mới cho cơm là thành cơm chiên lẫn trứng vụn —
+        muốn hạt cơm vàng óng thì cơm phải xuống chảo lúc trứng **còn
+        ướt**.
+  - title: Lửa lớn cho cơm "nhảy"
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Mở **lửa lớn nhất**, đảo mạnh và đều tay — hạt cơm phải nhảy lạo
+          xạo trong chảo, hơi nước bay tới đâu hạt săn mặt tới đó.
+      - text: >-
+          Cơm săn, rời hạt thì cho **vụn cá mặn + gà xé** vô, đảo thêm
+          chừng 2 phút cho mùi cá dậy khắp chảo, thấm vô từng hạt.
+      - text: >-
+          Múc thử một muỗng nếm — cá thường đã "nêm giùm" tới tám phần
+          rồi đó.
+    callout:
+      type: warn
+      text: >-
+        Cơm ướt + lửa yếu + đảo lười = **cơm chiên bết** — thành cơm hấp
+        dầu chứ không phải cơm chiên. Lỗi số một của món này đó.
+  - title: Nêm nhẹ, úp dĩa kiểu tiệm
+    icon: spoon
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Nếm rồi mới nêm: thường chỉ cần [[1|muỗng cà phê]] đường cho vị
+          dịu + chút tiêu xay; nhạt thiệt mới thêm **vài giọt nước tương**.
+      - text: Rắc hành lá, đảo một vòng cuối rồi tắt bếp.
+      - text: >-
+          Đơm cơm vô chén ém nhẹ, **úp ngược ra dĩa** — ụ cơm tròn vun bốc
+          khói như ngoài tiệm, xếp dưa leo cà chua quanh chân là đẹp mâm.
+    callout:
+      type: tip
+      text: >-
+        Nước tương đừng tưới thẳng vô cơm — rưới lên **thành chảo nóng**
+        cho nó xèo một cái rồi mới đảo, dậy mùi khói chảo đúng kiểu tiệm.
+    doneText: Ụ cơm vàng lên mâm — xong!
+
+tipsTitle: 7 bí quyết cho **chảo cơm chiên dậy mùi**
+tipsLead: >-
+  Món này nguyên liệu đơn giản tới bất ngờ, ăn thua nhau ở con cá, hạt cơm
+  và ngọn lửa — đọc hết mấy dòng này rồi hãy bắc chảo.
+tips:
+  - icon: fish
+    title: Nhìn cá mặn biết ngon dở
+    text: >-
+      Miếng cá ngon **thịt hồng sậm, mặt hơi bóng, bóp thấy dẻo tay**, mùi
+      thơm nồng chứ không khai. Miếng trắng mốc muối, cong queo khô xác là
+      phơi quá già nắng — chiên lên bã, kém thơm hẳn.
+  - icon: rice
+    title: Cơm nguội là "chân ái"
+    text: >-
+      Cơm qua một đêm ngăn mát ráo hẳn nước, hạt hồi cứng nhẹ — vô chảo là
+      rời ngay. Cơm mới nấu dẻo ướt, đảo kiểu gì cũng dính thành mảng. Mọi
+      chảo cơm chiên ngon trên đời đều bắt đầu từ nồi cơm... hôm qua.
+  - icon: flame
+    title: Chảo phải "giận" mới chiên
+    text: >-
+      Chảo nóng già, lửa lớn suốt từ lúc cơm xuống — hơi nước thoát nhanh,
+      hạt săn mặt không kịp bết. Bếp nhà lửa yếu thì **chia hai mẻ**, đừng
+      tham chảo đầy.
+  - icon: egg
+    title: Trứng ướt mới áo được cơm
+    text: >-
+      Trứng còn ướt bám lấy từng hạt cơm rồi chín ngay trên hạt — thành
+      lớp áo vàng óng thơm béo. Đây là khác biệt giữa "cơm chiên trứng"
+      của tiệm và cơm chiên có trứng vụn của... người vội.
+  - icon: spoon
+    title: Nêm kiểu "thiếu còn cứu được"
+    text: >-
+      Cá mặn gánh phần mặn của cả chảo rồi. Nêm thiếu thì thêm được, lỡ
+      mặn là chỉ còn nước nấu thêm cơm chữa cháy — vậy nên cứ **nếm trước,
+      nêm sau, thêm từng xíu**.
+  - icon: meat
+    title: Gà xé đóng vai "người hòa giải"
+    text: >-
+      Sợi gà nhạt ngọt xen giữa vụn cá đậm đà, muỗng cơm nào cũng có nhịp
+      **đậm rồi dịu** nên ăn hoài không gắt. Xé sợi vừa gắp thôi — nhỏ quá
+      chiên lên khô xác, uổng con gà.
+  - icon: lettuce
+    title: Xà lách dầu giấm đúng bộ tiệm
+    text: >-
+      Tiệm cơm người Hoa dọn món này luôn kèm dĩa xà lách dầu giấm — chua
+      nhẹ mát lưỡi, đổi vị giữa các muỗng cơm đậm. Có tiệm còn xắt
+      nhỏ xà lách **trộn thẳng vô chảo cơm** trước khi tắt bếp; muốn thử
+      thì nhớ để xà lách thật ráo nước.
+
+serve:
+  title: Dọn mâm **kiểu tiệm Chợ Lớn**
+  paras:
+    - >-
+      Cơm chiên phải ăn **nóng liền tay**, lúc hạt cơm còn lạo xạo. Múc
+      muỗng cơm kèm lát dưa leo mát lạnh, thỉnh thoảng gắp miếng xà lách
+      dầu giấm — đậm rồi mát, cứ thế hết dĩa lúc nào không hay.
+    - >-
+      Đúng "bộ" của tiệm: ụ cơm úp chén tròn vun, dĩa xà lách dầu giấm,
+      chén xì dầu dằm ớt, thêm chén canh nóng nấu từ nước luộc gà — bữa
+      trưa nhanh mà tươm tất, khách tới bất ngờ cũng không quê.
+    - >-
+      Còn bữa cơm nhà thong thả, dĩa cơm chiên này đứng chung mâm với
+      **canh khổ qua nhồi thịt** thanh mát là cân nhau hoàn hảo; nhà đông
+      người thêm dĩa **rau muống xào tỏi** xanh giòn nữa là đủ đầy.
+  aside:
+    title: Trên bàn tiệm cơm
+    intro: "Đủ bộ này là y chang quán quen:"
+    items:
+      - icon: lettuce
+        text: "**Xà lách dầu giấm** — chua nhẹ mát lưỡi, cân độ mặn béo của cơm."
+      - icon: bottle
+        text: "**Chén xì dầu dằm ớt** — chấm dưa leo, ai ăn đậm tự rưới thêm."
+      - icon: bowl
+        text: "**Chén canh nước luộc gà** — thả nắm cải hay miếng bí là ngọt lừ."
+      - icon: tomato
+        text: "**Dưa leo + cà chua** — giòn mát, đỡ ngán, thêm màu cho dĩa."
+
+faq:
+  - q: Mua cá mặn ở đâu? Không có thì thay bằng gì?
+    a: >-
+      Ra **sạp khô ngoài chợ** hoặc siêu thị lớn, hỏi "cá thu mặn" là
+      trúng; tiệm tạp hóa khu người Hoa càng dễ có. Kẹt quá thì thay **khô
+      cá sặc, khô cá lóc** chiên xé — vẫn ngon nhưng vị "khô" hơn, thiếu
+      cái dẻo mặn sâu của cá muối phơi. Tuyệt đối đừng thay bằng cách nêm
+      thêm nước mắm — mặn thì có mặn, mà mùi thì không có.
+  - q: Cơm mới nấu có chiên liền được không?
+    a: >-
+      Được, nếu chịu khó một nhịp: **trải cơm ra khay cho mỏng, quạt cho
+      bay hơi, rồi cho vô ngăn mát 30 phút** không đậy — hạt ráo gần như
+      cơm qua đêm. Nấu cơm định bụng để chiên thì bớt nước một chút ngay
+      từ đầu càng đẹp.
+  - q: Sao cơm chiên của tôi cứ bết dính thành mảng?
+    a: >-
+      Dò đúng bốn thủ phạm: **cơm còn ướt** (chưa đủ nguội ráo), **chảo
+      chưa đủ nóng**, **lửa nhỏ**, hoặc **tham chiên một chảo quá đầy**.
+      Sửa đủ bốn — cơm bóp tơi trước, chảo nóng già, lửa lớn, chia mẻ —
+      là hạt cơm rời ngay, không có thuốc nào khác đâu.
+  - q: Lỡ tay mặn quá thì cứu sao?
+    a: >-
+      Thêm **cơm trắng + đánh thêm quả trứng** chiên bù cho loãng vị mặn,
+      dọn kèm nhiều rau tươi hơn. Rút kinh nghiệm lần sau bớt lượng cá lại
+      — và nhớ điều răn của món này: **nếm trước, nêm sau**.
+  - q: Cơm chiên dư với cá mặn còn nguyên cất sao?
+    a: >-
+      Cơm chiên nguội cho vô hộp kín, ngăn mát được **1–2 ngày**; hâm bằng
+      **chảo nóng** đảo vài phút cho hạt săn lại, đừng quay vi sóng kẻo
+      hạt ỉu mềm. Cá mặn chưa chiên thì bọc kín cất ngăn mát để dành được
+      lâu — có sẵn trong bếp là lúc nào cũng ứng biến được một bữa.
+  - q: Nhà có con nít, sợ mặn quá thì sao?
+    a: >-
+      Dễ lắm: tới bước cho cá vô thì **xúc riêng phần cơm trứng gà xé**
+      cho bé trước, rồi mới trút cá mặn vô phần còn lại. Một chảo hai
+      phiên bản, người lớn con nít đều vui.
+
+ticker:
+  - icon: fish
+    text: Cá mặn dậy mùi nguyên bếp
+  - icon: rice
+    text: Hạt cơm săn nghe lạo xạo
+  - icon: egg
+    text: Trứng áo vàng óng từng hạt
+  - icon: meat
+    text: Gà xé ngọt cân vị
+  - icon: flame
+    text: Chảo lửa lớn cơm nhảy
+  - icon: lettuce
+    text: Xà lách dầu giấm mát lưỡi
+  - icon: bottle
+    text: Xì dầu dằm ớt đúng bộ

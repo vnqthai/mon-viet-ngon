@@ -1,0 +1,449 @@
+title: Mực xào thơm cần tây **mực giòn sần sật, chua ngọt hao cơm**
+summary: >-
+  Mực tươi khứa vảy rồng, chần sơ nước gừng rồi xào **lửa thật lớn** với
+  thơm chín giòn, cần tây, hành tây — miếng mực cuộn hoa trắng nõn, cắn
+  nghe sần sật, muỗng sốt chua ngọt rưới cơm là hao nồi.
+region: Cả nước
+category: Xào
+time:
+  total: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 22
+art: muc-xao
+heroEyebrow: Ghe mực vừa về bến…
+
+quick:
+  ingredients:
+    - >-
+      Mực ống hoặc mực lá tươi [[600|g]] — mắt trong veo, râu bám chắc,
+      thịt trắng đục chắc tay
+    - Thơm chín vừa [[0.5|trái|frac]] · cần tây cọng lớn [[150|g]] · hành tây [[1|củ]]
+    - Tỏi [[3|tép]] băm · gừng [[3|lát]] để chần mực · ớt sừng [[1|trái]]
+    - >-
+      Sốt xào: dầu hào [[1.5|muỗng canh|frac]] · nước mắm [[1|muỗng canh]]
+      · đường [[1|muỗng cà phê]] · tiêu
+  steps:
+    - >-
+      Mực làm sạch, rút túi mực; thân **khứa vảy rồng** cắt miếng, phần
+      còn lại cắt khoanh, đầu để nguyên chùm râu.
+    - >-
+      Nước sôi già thả gừng, chần mực **10–15 giây** vừa co lại trắng đục
+      là vớt ra ngay, để thật ráo.
+    - Pha sẵn chén sốt, rau củ cắt sẵn hết — xào lửa lớn không kịp đong đo.
+    - >-
+      Chảo thật nóng phi tỏi, mực vô đảo chừng **1 phút** vừa cuộn hoa là
+      trút ra dĩa chờ.
+    - Vẫn chảo đó xào hành tây + thơm 1 phút, thêm cần tây + ớt đảo 30 giây.
+    - >-
+      Mực về chảo cùng chén sốt, đảo lửa lớn **30–60 giây**, nêm lại vừa
+      miệng, tắt bếp liền.
+  warning: >-
+    Mực nằm trên lửa tổng cộng quá **3 phút là dai như cao su** — mọi thứ
+    cắt sẵn pha sẵn, vô chảo là đi một mạch tới tắt bếp.
+
+flavor:
+  chua: 3.5
+  ngot: 5.5
+  man: 5
+  cay: 2.5
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** mực trắng nõn cắn **sần sật ngọt thịt**, thơm chua ngọt
+  mọng nước, cần tây dậy mùi nồng nàn — sốt chỉ vừa đủ áo bóng mặt mực,
+  không lênh láng đọng dĩa.
+storyTitle: Món xào **"tính bằng giây"** của bếp Việt
+story:
+  - >-
+    Buổi chiều ở mấy chợ ven biển, ghe vừa cập bến là sạp mực đông người
+    nhất: mực ống da còn bóng lưỡng, mực lá dày mình ánh ngọc — ai cũng
+    biết mực tươi cỡ đó thì xào kiểu gì cũng ngọt. Mà chẳng riêng gì miền
+    biển: từ quán cơm bình dân tới bữa giỗ, dĩa **mực xào thơm cần tây**
+    gần như là "bài tủ" chung của cả nước — trắng nõn, vàng thơm, xanh cần
+    tây, nhìn đã thấy tươi.
+  - >-
+    Nghe "khứa vảy rồng" tưởng đâu chiêu thức trong truyện chưởng, thiệt
+    ra là kỹ thuật quen tay của người đứng bếp: **dao nghiêng khứa chéo
+    hai chiều thành ô ca-rô trên mặt trong thân mực**. Miếng mực gặp nóng
+    co lại, cuộn tròn nở hoa như bông, sốt len vô từng rãnh khứa — đẹp
+    dĩa mà lại thấm vị.
+    Cộng thêm cú **chần sơ nước gừng mươi giây** cho mực săn lại, ra bớt
+    nước trước — vô chảo chỉ còn mỗi việc chín thơm, không xả nước làm
+    nguội chảo.
+  - >-
+    Còn cặp thơm – cần tây là duyên nợ khó thay: một bên chua ngọt mọng
+    nước, một bên thơm nồng đánh thức mũi, đỡ trọn cái ngọt thanh của mực.
+    Món này còn dạy mình một nết bếp đáng tiền: **chuẩn bị cho đủ, ra tay
+    cho nhanh** — dĩa xào ngon thua nhau ở cái đồng hồ, không phải ở gia
+    vị.
+
+ingredientGroups:
+  - name: Mực & đồ khử tanh
+    icon: fish
+    items:
+      - id: muc
+        name: Mực ống hoặc mực lá
+        icon: fish
+        base: 600
+        unit: g
+        note: Mắt trong veo, râu bám chắc, thịt trắng đục — ươn là xào ra nước
+      - id: gung
+        name: Gừng
+        icon: ginger
+        color: gold
+        base: 3
+        unit: lát
+        note: Đập giập, thả vô nồi nước chần
+      - id: ruou
+        name: Rượu trắng (tùy chọn)
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Bóp sơ với mực cho thơm, hết mùi tanh
+  - name: Rau củ xào cùng
+    icon: basket
+    items:
+      - id: thom
+        name: Thơm (khóm)
+        icon: pineapple
+        color: gold
+        base: 0.5
+        unit: trái
+        frac: true
+        note: Chín vừa còn giòn — mắt nở, vàng au chừng hai phần trái
+      - id: cantay
+        name: Cần tây cọng lớn
+        icon: stem
+        color: green
+        base: 150
+        unit: g
+        note: Loại cọng to, đặc ruột — tước bớt xơ già cho khỏi dai
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Bổ múi cau, tách từng cánh
+      - id: ot
+        name: Ớt sừng
+        icon: chili
+        color: red
+        base: 1
+        unit: trái
+        note: Xắt lát xéo — nhà có con nít thì bỏ bớt hột
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 3
+        unit: tép
+        note: Băm nhuyễn, phi thơm mở màn
+  - name: Chén sốt xào
+    icon: jar
+    items:
+      - id: dauhao
+        name: Dầu hào
+        icon: jar
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Xương sống của sốt — mặn ngọt tròn, lên màu bóng đẹp
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Điểm nhẹ cho dậy hậu vị — đừng mạnh tay
+      - id: duongtieu
+        name: Đường + tiêu xay
+        icon: jar
+        color: gold
+        qtyText: 1 muỗng cà phê đường · tiêu
+        note: Khuấy chung với 2 muỗng canh nước lọc cho sốt dễ áo
+      - id: daun
+        name: Dầu ăn
+        icon: drop
+        qtyText: 2 muỗng canh
+        note: Chia hai lượt xào
+  - name: Dọn kèm
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        qtyText: Tùy sức ăn cả nhà
+        note: Muỗng sốt chua ngọt rưới cơm là "chân ái"
+      - id: muoitieu
+        name: Muối tiêu chanh
+        icon: lime
+        qtyText: 1 chén nhỏ
+        note: Hôm nào dọn kiểu lai rai, chấm mực đã miệng lắm
+
+stepsTitle: 6 bước ra **dĩa mực cuộn hoa**
+stepsLead: >-
+  Bốn bước đầu cứ thong thả mà làm cho kỹ; hai bước cuối trên lửa thì
+  "tính bằng giây" — đọc hết một lượt trước khi bật bếp nghen.
+steps:
+  - title: Làm sạch mực
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - label: "Tách đầu:"
+        text: >-
+          nhẹ tay kéo chùm râu, ruột theo ra hết; **rút túi mực** cẩn thận
+          kẻo bể (bể cũng đừng hoảng — xả nước là sạch, vị không đổi).
+      - label: "Thân mực:"
+        text: >-
+          rút mảnh xương trong suốt như nhựa, lột lớp da nâu tím cho thân
+          trắng đẹp, rửa sạch trong ngoài.
+      - label: "Đầu mực:"
+        text: >-
+          bỏ mắt và răng mực (nốt cứng tròn giữa chùm râu), giữ nguyên
+          chùm râu — con lớn thì bổ đôi cho vừa gắp.
+      - text: >-
+          Bóp mực với [[1|muỗng canh]] rượu trắng + gừng đập giập, xả lại
+          nước sạch, để thật ráo.
+    callout:
+      type: tip
+      text: >-
+        Mua mực ở chợ cứ nhờ người bán làm sạch giùm, về chỉ việc rửa lại
+        — tiết kiệm được chục phút, con mực vẫn tươi nguyên.
+  - title: Khứa vảy rồng, cắt miếng
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Xẻ dọc thân mực, trải phẳng, **mặt trong ngửa lên** — mặt vốn áp
+          vô ruột, màu trắng đục hơn mặt ngoài.
+      - text: >-
+          Dao **nghiêng chừng 45 độ**, khứa các đường chéo song song cách
+          nhau nửa phân, sâu chừng hai phần ba bề dày — đừng khứa đứt.
+      - text: >-
+          Xoay khứa chéo chiều ngược lại thành **ô ca-rô**, rồi cắt miếng
+          cỡ ba ngón tay.
+      - text: >-
+          Phần thân không khứa cắt **khoanh tròn** dày 1 cm — dĩa mực vừa
+          có khoanh vừa có hoa mới vui mắt.
+    callout:
+      type: tip
+      text: >-
+        Vì sao khứa mặt trong? Thớ thịt mặt trong co mạnh hơn khi gặp
+        nóng, miếng mực **cuộn về phía đường khứa mà nở hoa** — khứa lộn
+        mặt ngoài là miếng mực nằm thẳng đơ, uổng công.
+  - title: Chần sơ nước gừng
+    icon: pot
+    minutes: 3 phút
+    bullets:
+      - text: Nấu nồi nước **sôi già**, thả gừng đập giập vô.
+      - text: >-
+          Trút mực vô, đếm **10–15 giây** — miếng mực vừa co lại, chớm
+          cuộn, chuyển trắng đục là vớt ra ngay, để thật ráo.
+      - text: >-
+          Bí quyết giòn nằm ở đây: mực **săn lại và ra bớt nước trước**,
+          lát vô chảo không "xả nước" làm nguội chảo — xào mới ra xào.
+    callout:
+      type: warn
+      text: >-
+        Chần quá 20 giây là mực coi như đã chín một lần — vô chảo thành
+        chín hai lần, dai ngay từ vạch xuất phát.
+    timer:
+      secs: 15
+      label: Hẹn giờ chần mực · 00:15
+      doneMsg: Vớt mực ra liền tay!
+  - title: Rau củ + chén sốt sẵn sàng
+    icon: basket
+    minutes: 7 phút
+    bullets:
+      - label: "Thơm:"
+        text: gọt vỏ khoét mắt, cắt miếng rẻ quạt mỏng vừa gắp.
+      - label: "Cần tây:"
+        text: >-
+          tước xơ già, cắt khúc xéo chừng 4 cm; lá non giữ lại, thả vô
+          phút chót cho thơm.
+      - label: "Hành tây, ớt, tỏi:"
+        text: hành tây bổ múi tách cánh; ớt sừng xắt lát xéo; tỏi băm nhuyễn.
+      - label: "Chén sốt:"
+        text: >-
+          dầu hào + nước mắm + đường + tiêu + 2 muỗng canh nước lọc,
+          khuấy tan sẵn.
+    callout:
+      type: tip
+      text: >-
+        Xào lửa lớn là "một mạch không phanh" — mọi thứ phải nằm sẵn trong
+        tầm tay với. Đang xào mà quay đi đong sốt là y như rằng mực quá
+        lửa.
+  - title: Xào mực nhanh như chớp
+    icon: flame
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Chảo **thật nóng tới bốc khói nhẹ**, cho dầu láng đều, phi tỏi
+          vàng thơm.
+      - text: >-
+          Mực vô, đảo hất liên tục chừng **1 phút** — miếng khứa cuộn hoa,
+          khoanh co tròn lại là đủ.
+      - text: Trút ngay mực ra dĩa để chờ, kèm luôn cả tỏi phi.
+    callout:
+      type: warn
+      text: >-
+        Chảo chưa đủ nóng mà thả mực là nó **nằm im xả nước** — thành mực
+        luộc, mất giòn. Thà chờ chảo nóng thêm 30 giây còn hơn.
+  - title: Hợp chảo, rưới sốt, tắt bếp
+    icon: flame
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Vẫn chảo đó thêm xíu dầu: **hành tây + thơm** vô trước, đảo 1
+          phút cho dậy mùi mà cánh hành còn giòn.
+      - text: "**Cần tây + ớt** vô sau, đảo 30 giây — cọng cần xanh mướt là đạt."
+      - text: >-
+          Mực về chảo, rưới **chén sốt** vòng quanh, đảo lửa lớn 30–60
+          giây cho sốt áo bóng; nếm lại, rắc lá cần + tiêu, tắt bếp liền.
+    callout:
+      type: tip
+      text: >-
+        Sốt đúng chuẩn chỉ **áo bóng mặt mực**, đọng nhẹ dưới đáy dĩa —
+        thấy sền sệt lênh láng là lần sau bớt tay dầu hào lại một chút.
+    timer:
+      secs: 60
+      label: Hẹn giờ hợp chảo · 01:00
+      doneMsg: Tắt bếp — mực vừa giòn tới!
+    doneText: Nghiêng chảo ra dĩa — xong!
+
+tipsTitle: 8 bí quyết cho **dĩa mực không dai**
+tipsLead: >-
+  Mực là loại nguyên liệu "sòng phẳng": làm đúng thì giòn ngọt, lơ mơ là
+  dai liền — mấy điều dưới đây chính là ranh giới đó.
+tips:
+  - icon: fish
+    title: Ba dấu hiệu mực tươi
+    text: >-
+      **Mắt trong veo** không đục lồi, **râu và đầu bám chắc** vô thân,
+      **thịt trắng đục ánh ngọc** ấn tay thấy chắc đàn hồi. Thiếu một
+      trong ba là mực đã nằm sạp lâu — xào ra nước, tanh, đừng tiếc rẻ.
+  - icon: knife
+    title: Mực ống hay mực lá?
+    text: >-
+      **Mực lá** dày mình, ngọt đậm, khứa vảy rồng nở hoa đẹp nhất; **mực
+      ống** mỏng hơn nhưng giòn và giá mềm hơn. Món này con nào cũng ngon
+      — miễn là tươi, đừng miễn cưỡng con ươn.
+  - icon: pot
+    title: Chần sơ — ăn gian một nhịp
+    text: >-
+      Thân mực vốn mọng nước; chần sôi mươi giây ép bớt nước ra **trước
+      khi** vô chảo, nên chảo giữ được độ nóng, mực chỉ việc săn giòn.
+      Bỏ qua bước này là dĩa xào thành dĩa... canh mực.
+  - icon: flame
+    title: Chảo ít, lửa lớn
+    text: >-
+      Nhà dùng bếp điện hay lửa yếu thì **xào làm hai mẻ nhỏ** — dồn một
+      chảo đầy là nhiệt tụt cái rụp, cả dĩa thành om thay vì xào. Nhiệt
+      là gia vị số một của món này.
+  - icon: pineapple
+    title: Thơm chín vừa mới giòn
+    text: >-
+      Chín quá thì mềm nhũn, xào lên nát và ngọt gắt; còn xanh thì chua
+      rát lưỡi. Chọn trái **mắt nở, vàng au chừng hai phần trái, thơm nhẹ
+      mũi** — miếng thơm xào xong vẫn nguyên miếng, cắn sựt sựt.
+  - icon: stem
+    title: Cần tây cọng to, đừng nhầm rau cần
+    text: >-
+      Món này dùng **cần tây cọng to, đặc ruột, thơm nồng** (miền Bắc hay
+      gọi thẳng là cần tây). Đừng nhầm với **rau cần nước** cọng rỗng
+      ruột, mùi nhẹ hơn — hợp nồi lẩu hơn là chảo xào này. Nhớ tước xơ
+      già kẻo nhai dai nhách.
+  - icon: jar
+    title: Dầu hào là "nhạc trưởng" của sốt
+    text: >-
+      Dầu hào cho vị mặn ngọt tròn và lớp bóng đẹp, nước mắm chỉ điểm nhẹ
+      cho dậy hậu — hai thứ đều mạnh tay là **mặn chồng mặn**, át luôn vị
+      ngọt thanh của mực.
+  - icon: sun
+    title: Vớ được mực một nắng?
+    text: >-
+      Mực một nắng xào món này cũng hết sẩy: thịt dẻo, ngọt cô đọng hơn
+      mực tươi. Nhớ là nó đã ngậm muối sẵn — **bớt dầu hào nước mắm lại**
+      và khỏi chần, chỉ cần xào nhanh đúng lửa.
+
+serve:
+  title: Dọn dĩa **còn bốc khói**
+  paras:
+    - >-
+      Món này "tính bằng giây" tới tận lúc ăn: mực vừa ra dĩa là **gắp
+      liền** mới trọn cái sần sật, để nguội là miếng mực ỉu đi thấy rõ.
+      Rưới muỗng sốt chua ngọt lên chén cơm nóng — góc cơm "dính sốt" đó
+      kiểu gì cũng có người giành.
+    - >-
+      Mâm cơm chiều gọn mà êm: dĩa mực xào, chén **canh bí đỏ** ngọt lành,
+      cơm trắng nóng hổi — đậm nhạt nóng mát đủ cả, nấu nhanh mà nhìn mâm
+      rất "có lòng".
+    - >-
+      Còn nói thiệt lòng, món này **làm mồi cũng hết sẩy**: dọn kèm chén
+      muối tiêu chanh, thêm dĩa **gỏi xoài xanh tôm khô** chua cay nữa là
+      thành tiệc nhỏ cuối tuần — mực ngọt, gỏi chua, chuyện nổ như bắp
+      rang.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Mấy thứ này kề bên là bữa chiều êm ru:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — để hứng muỗng sốt chua ngọt, đừng bỏ phí."
+      - icon: bowl
+        text: "**Canh bí đỏ** — ngọt lành hiền hậu, cân độ đậm của đồ xào."
+      - icon: lime
+        text: "**Muối tiêu chanh** — dọn kiểu lai rai, chấm miếng mực khỏi chê."
+      - icon: shrimp
+        text: "**Gỏi xoài xanh tôm khô** — thêm vị chua cay là ra tiệc nhỏ."
+
+faq:
+  - q: Mực đông lạnh làm được không?
+    a: >-
+      Được — chọn khối mực **trắng đều, không vàng ố, không mùi khai**, rã
+      đông từ từ trong ngăn mát rồi thấm thật khô. Độ giòn kém mực tươi
+      một bậc, nhưng chần đúng và xào nhanh thì vẫn ngon lành, không dai.
+  - q: Sao dĩa mực của tôi ra nước lênh láng?
+    a: >-
+      Điểm danh ba thủ phạm: **bỏ qua bước chần sơ**, **chảo chưa đủ
+      nóng**, và **dồn chảo quá đầy**. Nước từ mực xả ra làm nguội chảo,
+      thế là cả dĩa chuyển từ "xào" sang "luộc". Sửa đủ ba là dĩa xào ráo
+      bóng ngay.
+  - q: Mực dai quá — tại sao, có cứu được không?
+    a: >-
+      Dai là do **quá lửa** — mực chỉ cần chín tới là giòn, quá thêm phút
+      nào dai thêm phút đó. Nói thiệt: đã dai rồi thì trong món xào khó
+      cứu (mực chỉ mềm lại nếu om rất lâu — thành món khác mất rồi). Lần
+      sau nhớ: chần 10–15 giây, tổng thời gian trên lửa dưới 3 phút.
+  - q: Không có dầu hào thì thay bằng gì?
+    a: >-
+      Pha **nước tương + đường** (2 muỗng canh nước tương, 1 muỗng cà phê
+      đường) hoặc nước mắm đường cũng xào được — vị vẫn đậm đà nhưng sốt
+      mỏng và kém bóng hơn một chút. Có chai dầu hào trong bếp vẫn đáng
+      nhất — món xào nào cũng cậy được nó.
+  - q: Túi mực bể đen thui — bỏ luôn hả?
+    a: >-
+      Đừng! **Xả nước lạnh vài lần là sạch**, thịt mực có ngả màu ngà
+      chút xíu cũng không sao, vị y nguyên. Túi mực còn là "gia vị" của thiên
+      hạ nữa mà — người ta nấu cả mì mực đen kia kìa. Bể túi mực không
+      phải thảm họa, đừng vì nó mà bỏ con mực tươi.
+  - q: Đổi rau củ khác được không?
+    a: >-
+      Được — biến thể quen tay: **ớt chuông, dưa leo, bông cải, nấm
+      đông cô**, hoặc tăng hành tây cho ngọt. Nhưng cặp **thơm – cần tây**
+      vẫn là "cặp bài trùng" khó thay: một chua ngọt mọng nước, một thơm
+      nồng dậy mũi — đổi rồi thấy nhớ liền.
+
+ticker:
+  - icon: fish
+    text: Mực cuộn hoa trắng nõn
+  - icon: flame
+    text: Chảo nóng già xào nhanh tay
+  - icon: pineapple
+    text: Thơm chín mọng chua ngọt
+  - icon: stem
+    text: Cần tây thơm nồng
+  - icon: onion
+    text: Hành tây giòn ngọt
+  - icon: jar
+    text: Sốt dầu hào áo bóng
+  - icon: chili
+    text: Ớt sừng cay nhẹ đưa cơm

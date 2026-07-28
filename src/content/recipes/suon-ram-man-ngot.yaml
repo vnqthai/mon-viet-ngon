@@ -1,0 +1,404 @@
+title: Sườn ram mặn ngọt **keo bóng sém cạnh, gặm tới xương còn thèm**
+summary: >-
+  Khúc sườn non áo lớp sốt keo nâu đỏ óng, mặn đằm vị mắm, ngọt hậu kẹo
+  nhẹ — "ram" kiểu miền Nam là rim tới keo, sém cạnh thơm. Món mặn tốn cơm
+  bậc nhất mâm cơm nhà, người lớn con nít gì cũng gắp không kịp.
+region: Miền Nam
+category: Kho
+occasions: [Nhậu lai rai, Cho bé]
+time:
+  total: 50 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 25
+art: suon-ram
+heroEyebrow: Xèo một tiếng, thơm cả xóm…
+
+quick:
+  ingredients:
+    - Sườn non [[800|g]] — chặt khúc 4–5 cm, chọn dẻ xương nhỏ có sụn
+    - Nước dừa tươi [[300|ml]] (không có thì thay nước lọc)
+    - Hành tím [[2|củ]] + tỏi [[3|tép]] băm · hành lá [[2|nhánh]] · ớt [[1|trái]] tùy nhà
+    - Gừng [[3|lát]] + hành tím [[1|củ]] đập giập — để chần sườn
+    - "Thắng nước màu: đường cát [[1.5|muỗng canh|frac]] + nước [[3|muỗng canh|frac]]"
+    - "Nêm: nước mắm [[2.5|muỗng canh|frac]] · đường [[1|muỗng canh|frac]] · tiêu, hạt nêm"
+  steps:
+    - Sườn chặt khúc **4–5 cm**, chần sơ nước sôi với gừng + hành đập, rửa sạch — nước ram trong veo.
+    - Ướp sườn với [[1.5|muỗng canh|frac]] nước mắm – hành tỏi băm – tiêu **20 phút** (chưa bỏ đường vội).
+    - "Thắng nước màu: đường + nước, lửa vừa, sôi tới **màu cánh gián** là hạ lửa liền."
+    - Cho sườn vô chảo nước màu, đảo lửa vừa tới **săn vàng, sém nhẹ cạnh**.
+    - Châm nước dừa **xâm xấp mặt sườn**, rim liu riu **25 phút**, thỉnh thoảng trở.
+    - Nêm chỗ mắm + đường còn lại, mở nắp cho nước **rút keo bóng bám sườn** — rắc hành lá, tiêu, ớt.
+  warning: >-
+    Cả món ăn thua ở chảo nước màu — thắng **quá lửa là khét, đắng cả nồi
+    không cứu được**. Đường vừa chớm cánh gián phải hạ lửa ngay.
+
+flavor:
+  chua: 0.5
+  ngot: 7.5
+  man: 7.5
+  cay: 1.5
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** cắn miếng sườn phải nghe **mặn đằm chạy trước, ngọt đuổi
+  theo liền, hậu kẹo nhẹ dính môi** — sốt keo bóng bám khúc sườn chứ không
+  loãng chảy tràn dĩa.
+storyEyebrow: Chuyện chảo sườn
+storyTitle: Nghe chữ **"ram"** thôi đã thấy đói
+story:
+  - >-
+    Hồi nhỏ đi học về, chưa dắt xe vô tới sân đã đánh hơi được bữa nay má
+    ram sườn: mùi đường thắng cánh gián quyện mùi nước mắm bay ra tận đầu
+    hẻm, giấu kiểu gì cũng không được. Bữa cơm dọn lên, dĩa sườn nâu đỏ
+    óng ánh đặt giữa mâm là **đũa cả nhà chụm về một hướng** — nồi cơm hôm
+    đó bao giờ cũng hết sớm hơn thường lệ.
+  - >-
+    Chữ **"ram"** là cách người miền Nam, miền Trung gọi kiểu rim cho tới
+    khi nước cạn keo lại, miếng thịt **sém nhẹ cạnh, áo một lớp sốt bóng
+    lưỡng**. Linh hồn của chảo sườn ram nằm ở hai chỗ: muỗng **nước màu
+    thắng tay** cho màu nâu đỏ tự nhiên, và thế **cân mặn – ngọt** phải
+    thiệt khéo — mặn đằm của mắm đi trước, ngọt hậu kẹo theo sau, lệch về
+    bên nào cũng mất cái duyên.
+  - >-
+    Món này dễ mà được lòng cả mâm: đám con nít mê nhất phần **ngọt kẹo
+    với mấy cục sụn giòn sựt**, nhai rào rạo tới hạt cơm cuối cùng; còn
+    người lớn thì khỏi nói — khúc sườn keo bóng **cầm tay gặm sạch tới
+    xương**, lai rai với bạn bè là bắt mồi vô cùng. Năm chục phút, một
+    cái chảo, đáng đồng tiền bát gạo lắm.
+
+ingredientGroups:
+  - name: Phần sườn & nước rim
+    icon: meat
+    items:
+      - id: suon
+        name: Sườn non
+        icon: meat
+        base: 800
+        unit: g
+        note: Chọn dẻ xương nhỏ mà dẹt, lẫn sụn trắng — nhiều thịt, nấu mau mềm
+      - id: nuocdua
+        name: Nước dừa tươi
+        icon: drop
+        color: green
+        base: 300
+        unit: ml
+        note: Cỡ 1 trái dừa xiêm — không có thì nước lọc + thêm chút đường
+      - id: chansuon
+        name: Gừng + hành tím chần sườn
+        icon: ginger
+        color: gold
+        qtyText: 3 lát gừng · 1 củ hành
+        note: Đập giập thả vô nồi nước chần cho thơm, khử mùi
+  - name: Nước màu & gia vị
+    icon: jar
+    items:
+      - id: duongmau
+        name: Đường thắng nước màu
+        icon: jar
+        color: gold
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Trái tim của món — đọc kỹ bước 3 rồi hãy bắc chảo
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2.5
+        unit: muỗng canh
+        frac: true
+        note: Xương sống vị mặn — xài chai mắm nhà mình tin nhất
+      - id: duongnem
+        name: Đường nêm
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Bồi vị ngọt lúc cuối bếp, nêm từ từ
+      - id: hanhtoi
+        name: Hành tím + tỏi
+        icon: onion
+        color: red
+        qtyText: 2 củ hành · 3 tép tỏi
+        note: Băm nhuyễn để ướp sườn
+      - id: hanhla
+        name: Hành lá + ớt sừng
+        icon: herb
+        color: green
+        qtyText: 2 nhánh hành · 1 trái ớt
+        note: Rắc cuối bếp — nhà có con nít nhỏ thì để ớt ra chén riêng
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Tiêu · hạt nêm · dầu ăn
+        note: Nêm theo bước hướng dẫn
+  - name: Dọn kèm
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        qtyText: Nấu dư một chút
+        note: Món này hao cơm có tiếng — đong gạo như mọi khi là thiếu
+      - id: canh
+        name: Tô canh thanh mát
+        icon: bowl
+        qtyText: 1 tô
+        note: Canh khổ qua hoặc canh bí đỏ — cặp mâm kinh điển với sườn ram
+      - id: dualeo
+        name: Dưa leo, cà chua xắt lát
+        icon: lettuce
+        color: green
+        qtyText: 1 dĩa nhỏ
+        note: Tươi giòn, đỡ ngán cho vị đậm của sườn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **chảo sườn keo bóng**
+stepsLead: >-
+  Trình tự khôn: sườn nằm ướp thì mình lặt hành, xắt ớt, tới phút cuối bắc
+  luôn chảo thắng nước màu — sườn thấm xong là vô chảo liền một mạch, tổng
+  vèo cái chừng 50 phút.
+steps:
+  - title: Chặt khúc & chần sườn
+    icon: knife
+    minutes: 10 phút
+    intro: "Khúc sườn gọn đẹp là đã được nửa dĩa sườn ngon:"
+    bullets:
+      - label: "Chặt khúc:"
+        text: >-
+          nhờ hàng thịt chặt sẵn khúc **4–5 cm** — cỡ này gặm vừa miệng,
+          rim lâu không khô. Về nhà rửa nước muối loãng, để ráo.
+      - label: "Chần sơ:"
+        text: >-
+          nấu nồi nước sôi với **gừng đập + hành tím**, thả sườn vô chần
+          **2 phút** cho bọt bẩn ra hết, vớt ra rửa lại nước sạch.
+    callout:
+      type: tip
+      text: >-
+        Chần sơ hay ướp thẳng đều có nhà làm — mình chọn chần: tốn thêm 5
+        phút, đổi lại nước ram **trong veo, sốt keo bóng đẹp** không lợn
+        cợn vụn xương.
+  - title: Ướp sườn — khoan bỏ đường
+    icon: spoon
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Trộn sườn với [[1.5|muỗng canh|frac]] nước mắm + hành tím tỏi
+          băm + ½ muỗng cà phê tiêu + 1 muỗng cà phê hạt nêm, ướp **20
+          phút**.
+      - text: >-
+          Đường **chưa bỏ vô lúc này** — phần ngọt để dành cho nước màu và
+          nhịp nêm cuối, ướp đường sớm là dễ cháy chảo khi đảo.
+    timer:
+      secs: 1200
+      label: Hẹn giờ ướp sườn · 20:00
+      doneMsg: Sườn thấm rồi — nước màu tới đâu rồi nè?
+  - title: Thắng nước màu — trái tim của món
+    icon: flame
+    minutes: 5 phút
+    intro: "Kỹ thuật trung tâm của mọi món ram, làm chậm và nhìn cho kỹ:"
+    bullets:
+      - label: "Bắc chảo:"
+        text: >-
+          cho [[1.5|muỗng canh|frac]] đường + [[3|muỗng canh|frac]] nước
+          vô chảo, lửa vừa. **Đừng khuấy** — chỉ cầm cán nghiêng chảo cho
+          đường tan chảy đều.
+      - label: "Nhìn màu đổi:"
+        text: >-
+          đường sôi rồi sậm dần từ **trong → vàng nhạt → vàng ươm → cánh
+          gián** (nâu đỏ ánh hổ phách, dậy mùi caramel thơm lựng).
+      - label: "Dừng đúng lúc:"
+        text: >-
+          vừa chớm cánh gián, bọt li ti ngả vàng nâu là **hạ lửa nhỏ
+          liền**, nhấc chảo khỏi bếp vài giây càng chắc — nhiệt dư còn đẩy
+          màu đậm thêm một nấc nữa.
+    callout:
+      type: warn
+      text: >-
+        Thắng quá tay là **khét — đắng cả nồi**, không gia vị nào cứu nổi.
+        Lỡ khét thì mạnh dạn đổ bỏ, rửa chảo thắng lại: tốn một muỗng
+        đường, đỡ tốn cả ký sườn.
+  - title: Đảo sườn săn vàng, sém cạnh
+    icon: meat
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Nước màu vừa tới, thêm **1 muỗng canh dầu ăn** rồi trút sườn vô
+          (gạt bớt xác hành tỏi ướp kẻo cháy đắng).
+      - text: >-
+          Lửa vừa, đảo cho **từng khúc sườn áo màu nâu đỏ óng**, mặt thịt
+          săn lại, cạnh hơi sém thơm — chữ "ram" nằm ở nhịp sém cạnh này.
+  - title: Châm nước dừa, rim liu riu
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Châm **nước dừa xâm xấp mặt sườn** (không ngập hẳn), đun sôi thì
+          hớt sạch bọt.
+      - text: >-
+          Hạ **lửa nhỏ nhất**, đậy hé nắp, rim **25 phút** — thỉnh thoảng
+          trở cho khúc nào cũng được "tắm" nước rim đều màu.
+    callout:
+      type: tip
+      text: >-
+        Nước dừa cho vị ngọt thanh và lớp keo lên màu óng đẹp — thay nước
+        lọc + ½ muỗng canh đường vẫn ngon, chỉ kém chút hậu thanh.
+    timer:
+      secs: 1500
+      label: Hẹn giờ rim sườn · 25:00
+      doneMsg: Coi chảo nghen — tới nhịp rút keo rồi!
+  - title: Rút keo & cân mặn ngọt
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Mở nắp, lên lửa vừa, nêm [[1|muỗng canh|frac]] nước mắm còn lại
+          + [[1|muỗng canh|frac]] đường, đảo đều.
+      - text: >-
+          Để nước **rút dần thành lớp sốt keo bóng** bám từng khúc sườn —
+          nghiêng chảo thấy sốt chảy chậm như mật ong là đạt.
+      - text: >-
+          Nếm thử theo đúng bài **mặn trước, ngọt sau, hậu kẹo nhẹ** —
+          thiếu vế nào bồi vế đó, từng chút một.
+      - text: >-
+          Tắt bếp, rắc hành lá xắt nhỏ + tiêu xay, thả ớt lát nếu nhà ăn
+          cay — thích kiểu quán thì thêm nhúm **mè rang** lấm tấm.
+    callout:
+      type: warn
+      text: >-
+        Nêm giữa chừng cứ **non tay một chút** — nước rút keo là vị tự đậm
+        lên một nấc. Mặn quá ở phút chót gần như hết đường lùi.
+    doneText: Sườn bóng lưỡng lên dĩa — xong!
+
+tipsTitle: 7 bí quyết cho **dĩa sườn ram đúng điệu**
+tipsLead: >-
+  Nguyên liệu món này chợ nào cũng có, ăn thua nhau ở mấy cái "biết" nho
+  nhỏ này — đọc trước khi đi chợ là vừa.
+tips:
+  - icon: meat
+    title: Sườn non dẻ nhỏ, có sụn
+    text: >-
+      Dẻ xương **nhỏ mà dẹt** là sườn nhiều thịt ít xương; lẫn mấy đoạn
+      **sụn trắng** thì nấu lên giòn sựt, con nít giành nhau gắp. Sườn già
+      xương to tròn, ít thịt, rim cỡ nào cũng dai — đừng ham rẻ.
+  - icon: knife
+    title: Nhờ hàng thịt chặt giùm
+    text: >-
+      Sườn non chặt khúc đều tay cần dao nặng thớt chắc — ngoài chợ người
+      ta chặt ba mươi giây là xong, khúc nào ra khúc nấy. Về nhà tự chặt
+      vừa mẻ dao vừa văng xương vụn, dính vô sốt keo là lợn cợn.
+  - icon: flame
+    title: Nước màu — tin mắt, đừng tin đồng hồ
+    text: >-
+      Mỗi bếp mỗi chảo nóng một kiểu, nên đừng canh phút — canh **màu cánh
+      gián và mùi caramel**. Cứ hạ lửa sớm hơn cảm giác một giây: nhiệt dư
+      của chảo sẽ đẩy màu tới đúng chỗ đẹp.
+  - icon: drop
+    title: Nước dừa là "đường thanh"
+    text: >-
+      Dừa xiêm ngọt nhẹ giúp bớt được lượng đường nêm mà hậu vị lại thanh,
+      lớp keo lên màu óng chứ không gắt. Thay nước lọc vẫn được — chỉ cần
+      nêm đường khéo tay hơn chút.
+  - icon: spoon
+    title: Mặn trước, ngọt sau
+    text: >-
+      Công thức nêm của món nằm gọn trong sáu chữ đó: mặn đằm của mắm dẫn
+      trước, ngọt đuổi theo, hậu đọng chút kẹo. Ngọt lấn mặn là thành
+      "sườn kẹo", mặn lấn ngọt thì thành sườn kho — ram đứng ngay chính
+      giữa.
+  - icon: clock
+    title: Liu riu mới mềm tới xương
+    text: >-
+      Rim lửa lớn là nước cạn nhanh mà sườn chưa kịp mềm — ngoài đậm trong
+      lạt. Lửa nhỏ 25 phút mới đủ thời gian cho mắm đường ngấm tới sát
+      xương, gặm mới đã.
+  - icon: claypot
+    title: Qua bữa càng thấm
+    text: >-
+      Như mọi món nhà họ kho, sườn ram hâm lại lần hai vị càng sâu. Múc
+      phần ăn hâm riêng với muỗng nước cho sốt bóng lại — đừng hâm nguyên
+      chảo nhiều lần, sườn nát mất đẹp.
+
+serve:
+  title: Dọn mâm — **nồi cơm hao hơn thường lệ**
+  paras:
+    - >-
+      Gắp sườn ra dĩa sâu lòng, rưới hết chỗ **sốt keo óng ánh** lên mặt.
+      Chan muỗng sốt vô chén cơm nóng trước đã — hạt cơm áo lớp mặn ngọt
+      bóng lưỡng, lùa một hơi hết nửa chén hồi nào không hay. Nhà có con
+      nít cứ lựa mấy khúc nhiều sụn gắp vô chén tụi nhỏ: món này xưa giờ
+      là **"món dụ cơm" hiệu nghiệm nhất** của các bà má.
+    - >-
+      Mâm cơm kinh điển miền Nam: dĩa sườn ram đậm đà đặt cạnh **tô canh
+      khổ qua nhồi thịt** đắng thanh, hoặc hiền hơn thì **canh bí đỏ thịt
+      bằm** ngọt bùi — một đậm một thanh, và cơm là vòng lặp không có điểm
+      dừng.
+    - >-
+      Còn chiều cuối tuần bạn bè ghé chơi? Dọn chảo sườn nóng ra liền —
+      khúc sườn keo bóng **cầm tay gặm sạch tới xương**, mặn ngọt hậu kẹo
+      càng gặm càng bắt, lai rai câu chuyện là hết chảo hồi nào không
+      biết.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Đủ bộ này là bữa cơm nhà đúng nghĩa:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng hổi** — nấu dư chút, tin mình đi."
+      - icon: bowl
+        text: "**Canh khổ qua nhồi thịt** — đắng thanh cân vị keo đậm, cặp mâm kinh điển."
+      - icon: pumpkin
+        text: "**Canh bí đỏ thịt bằm** — hiền lành ngọt bùi, mâm có con nít càng hợp."
+      - icon: lettuce
+        text: "**Dưa leo, cà chua xắt lát** — tươi giòn đỡ ngán, khỏi nấu nướng."
+
+faq:
+  - q: Sườn ram khác sườn xào chua ngọt chỗ nào?
+    a: >-
+      Khác cả vị lẫn cách nấu: **sườn xào chua ngọt** cậy vô giấm và cà
+      chua (nhiều nhà còn chiên sơ sườn), vị chua dẫn dàn. **Sườn ram**
+      không giấm, không cà chua, không áo bột — chỉ mắm, đường, nước màu
+      rim tới keo, vị mặn ngọt hậu kẹo. Thèm chua thì nấu chua ngọt, thèm
+      "cơm nhà đậm đà" thì ram.
+  - q: Dùng sườn cốt lết được không?
+    a: >-
+      Được nhưng **khô hơn** — cốt lết nạc nhiều mỡ ít, hợp nướng kiểu cơm
+      tấm hơn là rim lâu. Nếu vẫn dùng, rút thời gian rim còn cỡ 15 phút
+      và thêm chút dầu. Còn ngon nhất cho món ram, trước sau vẫn là **sườn
+      non**.
+  - q: Không có nước dừa tươi thì thay bằng gì?
+    a: >-
+      **Nước lọc + ½ muỗng canh đường** là ổn, hoặc nước dừa đóng hộp loại
+      không đường. Đừng thay bằng **nước cốt dừa** — cốt béo và đục, rim
+      lên thành món khác luôn rồi.
+  - q: Ram xong bị mặn chát, cứu sao?
+    a: >-
+      Châm thêm **3–4 muỗng canh nước sôi + ½ muỗng cà phê đường**, đun
+      lửa nhỏ 2–3 phút cho sốt loãng ra rồi keo lại là vị dịu liền. Rút
+      kinh nghiệm lần sau: nêm giữa chừng non tay thôi, chờ sốt keo rồi
+      mới chốt.
+  - q: Để tủ lạnh hâm lại có ngon không?
+    a: >-
+      Ngon — sườn ram để ngăn mát **2–3 ngày, càng để càng thấm**. Hâm
+      bằng chảo lửa nhỏ với 1–2 muỗng nước cho sốt bóng trở lại; hạn chế
+      quay vi sóng lâu, sườn bị khô xác.
+  - q: Nhà có con nít nhỏ thì nêm sao?
+    a: >-
+      Món này vốn là **món ruột của tụi nhỏ** rồi: chỉ cần bớt tiêu, khỏi
+      bỏ ớt (để ớt ra chén riêng cho người lớn), giữ vị ngọt kẹo tự nhiên
+      là bé nào cũng xúc cơm lia lịa. Lựa khúc sụn mềm, gỡ bớt xương cho
+      bé nhỏ tuổi.
+
+ticker:
+  - icon: flame
+    text: Sém cạnh thơm lựng
+  - icon: drop
+    text: Sốt keo óng ánh
+  - icon: spoon
+    text: Mặn trước ngọt sau
+  - icon: meat
+    text: Cục sụn giòn sựt
+  - icon: rice
+    text: Cơm trắng thổi không kịp
+  - icon: chili
+    text: Cay nhẹ tùy nhà

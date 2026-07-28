@@ -1,0 +1,421 @@
+title: Cà ri gà **vàng óng nước dừa, nghe mùi là biết nhà có tiệc**
+summary: >-
+  Gà ta ướp bột cà ri sả thơm lựng, om mềm trong nước dừa, khoai lang khoai
+  môn chiên sơ bùi ngọt, phút cuối rưới **nước cốt dừa béo lịm** — nồi cà ri
+  vàng óng của mọi đám tiệc miền Nam, chấm bánh mì hay chan bún đều đã đời.
+region: Miền Nam
+category: Kho
+occasions: [Đãi khách]
+time:
+  total: 1 giờ 15 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 26
+art: ca-ri-ga
+heroEyebrow: Thơm lừng từ đầu con hẻm…
+
+quick:
+  ingredients:
+    - Gà ta [[1200|g]] — ưu tiên đùi + cánh, chặt khúc to, **giữ nguyên da**
+    - >-
+      Ướp: bột cà ri [[2|muỗng canh|frac]] (hũ "cà ri Ấn Độ" của chợ Việt) ·
+      sả băm [[2|cây]] · tỏi + hành tím băm · muối, đường
+    - Khoai lang [[300|g]] + khoai môn [[300|g]] — cắt khúc to, chiên sơ vàng mặt
+    - >-
+      Nước dừa tươi [[400|ml]] · nước cốt dừa [[250|ml]] — chừa riêng phần
+      **cốt đặc**, phần lỏng (nước dão) đem om
+    - Sả [[3|cây]] đập dập · lá cà ri 1 nhánh (có càng thơm, không có không sao)
+    - "Ăn kèm: bánh mì nóng · bún tươi hoặc cơm · muối ớt chanh"
+  steps:
+    - Gà chặt khúc to, thấm khô; ướp bột cà ri + sả tỏi hành băm + muối đường **30 phút**.
+    - Khoai lang, khoai môn cắt khúc, **chiên sơ vàng mặt** — bí quyết khoai om lâu không nát.
+    - Phi sả tỏi vàng thơm, trút gà vô **xào săn** cho gia vị áo quanh dậy mùi.
+    - Châm nước dừa tươi + nước dão, thả sả đập (+ lá cà ri), om **liu riu 20 phút**.
+    - Cho khoai vô om **15 phút** tới mềm; nêm muối – đường kiểu miền Nam **béo đằm hậu ngọt**.
+    - Rưới **nước cốt đặc**, nước vừa lăn tăn là tắt bếp liền — múc tô, chấm bánh mì nóng.
+  warning: >-
+    Nước cốt dừa đặc mà **nấu sôi già là tách dầu, vị gắt** — rưới vô sau
+    cùng, thấy lăn tăn quanh mép nồi là tắt bếp ngay.
+
+flavor:
+  chua: 0.5
+  ngot: 6.5
+  man: 5.5
+  cay: 4
+  thom: 9
+flavorNote: >-
+  **Chuẩn vị:** nước cà ri vàng nghệ ánh cam, sánh nhẹ ôm lấy muỗng; húp
+  thấy **béo nước dừa – thơm sả nghệ – hậu ngọt dịu**, miếng gà mềm mọng
+  còn nguyên da, khoai bùi tan mà chưa rã.
+storyEyebrow: Chuyện nồi cà ri
+storyTitle: Nồi to nhất nhà, **để dành cho ngày vui**
+story:
+  - >-
+    Ở miền Nam, cà ri gà ít khi nấu nồi nhỏ. Nó là món của **đám giỗ, đám
+    cưới, tân gia** — mấy dịp cả họ xúm lại, bếp đỏ lửa từ sáng sớm, và cái
+    nồi to nhất nhà được khiêng ra. Mùi sả nghệ quyện nước dừa bay tới đâu,
+    con nít đánh hơi tới đó, chầu chực sẵn bên rổ bánh mì chờ giờ khui nồi.
+  - >-
+    Gốc gác món này là cà ri **theo chân người Ấn tới Sài Gòn** từ hơn trăm
+    năm trước, rồi được bếp miền Nam "nắn" lại theo ý mình: bột cà ri nhẹ
+    tay hương liệu, thiên về sả và nghệ; nồi nước ngọt béo nước dừa; thêm
+    khoai lang khoai môn cho chắc bụng. Thành ra cà ri gà xứ mình **béo mà
+    thanh, thơm mà hiền**, cay chỉ đủ ấm cổ — người già con nít ăn chung
+    một nồi.
+  - >-
+    Công thức dưới đây là bản bếp nhà đúng bài: khoai chiên sơ cho om lâu
+    không nát, nước dừa chia **hai lượt** — lượt dão om gà cho ngọt, lượt
+    cốt đặc rưới cuối cho béo dậy mùi. Nắm chắc hai điểm đó là nồi cà ri
+    của bạn đãi được cả họ, không cần đợi tới đám tiệc mới dám nấu.
+
+ingredientGroups:
+  - name: Gà & đồ ướp
+    icon: meat
+    items:
+      - id: ga
+        name: Gà ta
+        icon: meat
+        base: 1200
+        unit: g
+        note: Ưu tiên đùi + cánh, chặt khúc to và **giữ nguyên da**
+      - id: botcari
+        name: Bột cà ri
+        icon: jar
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Hũ "cà ri Ấn Độ" bán đầy chợ Việt — dạng bột hay cà ri dầu đều được
+      - id: sabam
+        name: Sả băm
+        icon: stem
+        color: green
+        base: 2
+        unit: cây
+        note: Băm nhuyễn để ướp — phần đập dập nằm nhóm dưới
+      - id: toihanh
+        name: Tỏi + hành tím
+        icon: garlic
+        qtyText: 4 tép tỏi · 3 củ hành tím
+        note: Băm nhuyễn, chia phần ướp và phần phi thơm
+      - id: giavi
+        name: Muối · đường · dầu ăn
+        icon: jar
+        qtyText: Theo bước hướng dẫn
+        note: Cà ri miền Nam nêm hơi ngọt béo — đừng sợ đường
+  - name: Khoai & nồi nước dừa
+    icon: pot
+    items:
+      - id: khoailang
+        name: Khoai lang
+        icon: pumpkin
+        color: gold
+        base: 300
+        unit: g
+        note: Khoai lang bí ruột cam — ngọt đậm, om lên óng màu
+      - id: khoaimon
+        name: Khoai môn
+        icon: pod
+        base: 300
+        unit: g
+        note: Bùi béo nhất nồi — không có thì thay khoai tây
+      - id: nuocdua
+        name: Nước dừa tươi
+        icon: drop
+        base: 400
+        unit: ml
+        note: 1 trái dừa — nền ngọt thanh của nồi cà ri
+      - id: nuoccot
+        name: Nước cốt dừa
+        icon: drop
+        color: gold
+        base: 250
+        unit: ml
+        note: Vắt tươi hoặc lon **không đường**; chừa riêng phần cốt đặc nhất
+      - id: sadap
+        name: Sả cây đập dập
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Thả nguyên cây cho thơm nước, vớt trước khi dọn
+      - id: lacari
+        name: Lá cà ri (tùy chọn)
+        icon: herb
+        color: green
+        qtyText: 1 nhánh nhỏ
+        note: Kiếm được thì nồi thơm "đúng tiệm" — không có cũng chẳng sao
+  - name: Dọn kèm đúng điệu
+    icon: roll
+    items:
+      - id: banhmi
+        name: Bánh mì nóng
+        icon: roll
+        color: gold
+        base: 4
+        unit: ổ
+        note: Vỏ giòn ruột xốp — bạn nhảy số một của cà ri
+      - id: bun
+        name: Bún tươi hoặc cơm trắng
+        icon: noodle
+        qtyText: Tùy sức ăn cả nhà
+        note: Đãi tiệc làm luôn cả hai — ai thích gì gắp nấy
+      - id: muoiot
+        name: Muối ớt chanh
+        icon: lime
+        color: red
+        qtyText: 1 chén nhỏ
+        note: Chấm riêng miếng gà — đậm đà lên một bậc
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **nồi cà ri vàng óng**
+stepsLead: >-
+  Trình tự khôn nhất: ướp gà xong là rảnh tay chiên khoai, gà om vừa mềm
+  thì khoai cũng ráo dầu chờ sẵn — mọi thứ nối nhau một mạch tới lúc khui
+  nồi.
+steps:
+  - title: Chặt gà, ướp cà ri
+    icon: knife
+    minutes: 35 phút
+    intro: "Khúc gà chặt to hay nhỏ quyết định nồi cà ri đẹp hay nát:"
+    bullets:
+      - label: "Sơ chế:"
+        text: >-
+          gà chà muối + gừng đập (hoặc chanh), rửa sạch, **thấm thật khô**.
+          Chặt khúc to: đùi làm hai, cánh chặt đôi, giữ nguyên da.
+      - label: "Ướp:"
+        text: >-
+          trộn gà với [[2|muỗng canh|frac]] bột cà ri + sả tỏi hành băm +
+          [[1|muỗng cà phê]] muối + [[1|muỗng canh|frac]] đường +
+          [[1|muỗng canh|frac]] dầu ăn. Bóp nhẹ tay, ướp **30 phút**.
+    callout:
+      type: tip
+      text: >-
+        Thấy chợ có hũ **cà ri dầu** thì múc 1 muỗng thế chỗ dầu ăn trong
+        phần ướp — màu đẹp hơn, mùi sâu hơn nữa.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ướp gà · 30:00
+      doneMsg: Gà thấm rồi — bắc nồi phi sả thôi!
+  - title: Chiên sơ khoai — khoai nào cũng nguyên khúc
+    icon: flame
+    minutes: 15 phút
+    intro: "Tranh thủ lúc chờ gà thấm, lo phần khoai:"
+    bullets:
+      - label: "Cắt khúc:"
+        text: >-
+          khoai lang, khoai môn gọt vỏ, cắt khúc to cỡ **hộp quẹt**, rửa
+          sạch mủ rồi để thật ráo.
+      - label: "Chiên sơ:"
+        text: >-
+          dầu nóng già, chiên lửa vừa tới **vàng nhẹ các mặt** (ruột chưa
+          cần chín), vớt ra giấy thấm dầu.
+    callout:
+      type: tip
+      text: >-
+        Khoai môn gọt vỏ dễ ngứa tay — đeo bao tay, hoặc giữ tay và củ
+        khoai **thật khô** rồi hẵng gọt, ngứa liền bớt hẳn.
+  - title: Phi sả, xào gà săn
+    icon: pot
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Nồi đáy dày, [[2|muỗng canh|frac]] dầu ăn, phi phần sả tỏi hành
+          còn lại tới **vàng thơm lựng**.
+      - text: >-
+          Trút gà vô, **lửa vừa lớn xào 4–5 phút** cho mặt thịt săn, da
+          hơi vàng — lớp bột cà ri áo quanh miếng gà dậy mùi là đạt.
+    callout:
+      type: warn
+      text: >-
+        Bột cà ri **rất mau khét** — thấy sém đáy nồi là hạ lửa liền.
+        Khét một chút thôi là cả nồi nhẫn đắng, khó cứu lắm.
+  - title: Om nước dừa hai lượt
+    icon: claypot
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Châm [[400|ml]] nước dừa tươi + phần **nước dão** (nước cốt vắt
+          lượt hai, lỏng hơn cốt đầu) + nước nóng cho vừa ngập mặt gà.
+      - text: >-
+          Thả sả cây đập dập + lá cà ri (nếu có). Sôi thì hớt bọt, hạ
+          **liu riu om 20 phút** cho gà chín mềm.
+    callout:
+      type: tip
+      text: >-
+        Không có nước dừa tươi thì thay bằng nước lọc + 1 muỗng cà phê
+        đường phèn — vị ngọt thanh gần giống, đừng thay bằng nước ngọt
+        có ga.
+    timer:
+      secs: 1200
+      label: Hẹn giờ om gà · 20:00
+      doneMsg: Gà mềm rồi — tới lượt khoai vô nồi!
+  - title: Khoai vô nồi, nêm vị đám tiệc
+    icon: spoon
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Cho khoai chiên vô, om liu riu thêm **15 phút** tới xiên đũa
+          qua khúc khoai thấy nhẹ tay.
+      - text: >-
+          Nêm lại: [[1|muỗng cà phê]] muối · [[1|muỗng canh|frac]] đường,
+          nếm rồi cân theo miệng nhà — chuẩn miền Nam là **mặn ngọt cân
+          nhau, béo đằm hậu ngọt**.
+    callout:
+      type: tip
+      text: >-
+        Muốn nước sánh nhẹ kiểu quán: **dầm tan 1–2 khúc khoai lang** vô
+        nước cà ri — chất sánh thiệt thà hơn bột năng nhiều.
+    timer:
+      secs: 900
+      label: Hẹn giờ om khoai · 15:00
+      doneMsg: Khoai mềm tới — rưới nước cốt thôi!
+  - title: Nước cốt đặc — chữ ký của nồi cà ri
+    icon: drop
+    minutes: 5 phút
+    bullets:
+      - text: Rưới phần **cốt đặc nhất** vô nồi, khuấy nhẹ đúng một vòng.
+      - text: >-
+          Nước **vừa lăn tăn trở lại là tắt bếp** — nêm nếm lần cuối, thả
+          ớt lát nếu nhà ăn cay.
+      - text: >-
+          Múc tô, rưới thêm muỗng nước cốt lên mặt cho **loang vệt trắng**
+          đẹp như tiệm — dọn cùng bánh mì nóng, bún tươi hoặc cơm.
+    callout:
+      type: warn
+      text: >-
+        Cho cốt đặc rồi mà nấu **sôi già là tách dầu** — mặt nồi nổi váng
+        lợn cợn, vị béo hóa gắt. Lăn tăn là dừng, nhớ nghen.
+    doneText: Khui nồi đãi cả nhà — xong!
+
+tipsTitle: 7 bí quyết cho **nồi cà ri béo mượt**
+tipsLead: >-
+  Cà ri gà nguyên liệu dễ kiếm, ăn thua nhau ở mấy cái "biết" của người
+  nấu đám lâu năm — đọc kỹ trước khi đi chợ nghen.
+tips:
+  - icon: meat
+    title: Đùi cánh giữ da mới béo
+    text: >-
+      Cà ri gà ngon nhờ **chút mỡ dưới da** tan vô nước dừa. Lột da "cho
+      đỡ ngán" là nồi cà ri lạt béo hẳn đi — sợ ngán thì bớt cốt đặc,
+      đừng bớt da.
+  - icon: jar
+    title: Bột cà ri Việt, đừng nhầm hàng xóm
+    text: >-
+      Hũ bột **"cà ri Ấn Độ" của chợ Việt** nhẹ mùi hương liệu, thiên sả
+      nghệ — nó sinh ra cho món này. Curry Nhật đóng viên sệt ngọt kiểu
+      khác, bột Ấn chính gốc lại nồng hơn nhiều — thay vô là lạc giọng
+      liền.
+  - icon: flame
+    title: Chiên sơ khoai là luật
+    text: >-
+      Mặt khoai se lại như lớp áo giáp, om 15–20 phút vẫn nguyên khúc,
+      cắn vô ruột mới bở bùi. Bỏ bước này, khoai môn rã ra là nước cà ri
+      đục lền, coi như thua.
+  - icon: drop
+    title: Nước dừa hai lượt, cốt đặc đi sau
+    text: >-
+      Nước dão chịu được lửa om lâu; cốt đặc chỉ cần **ấm tới là dậy
+      béo**, sôi già là tách dầu. Chia hai lượt là mẹo giữ béo mượt của
+      mấy dì nấu đám lâu năm.
+  - icon: stem
+    title: Sả đóng hai vai
+    text: >-
+      Sả băm ướp cho thấm vô thớ thịt, sả đập dập thả nồi cho thơm nước —
+      thiếu vai nào nồi cà ri cũng "mỏng mùi" đi một nửa.
+  - icon: spoon
+    title: Nêm kiểu miền Nam — béo đằm hậu ngọt
+    text: >-
+      Cà ri gà xứ này nêm **muối – đường là chính**, hơi ngọt hơn khẩu
+      vị thường một chút; phần mặn để dành cho chén muối ớt chanh chấm
+      gà. Nêm mặn quá là mất cái "hiền" của món.
+  - icon: clock
+    title: Nấu đãi tiệc — canh giờ kiểu nhà nghề
+    text: >-
+      Nấu tới hết bước om khoai từ sớm rồi tắt bếp; sát giờ dọn mới hâm
+      sôi nhẹ và rưới cốt đặc. Món lúc nào cũng "vừa nấu xong" dù khách
+      tới trễ cả tiếng — mẹo ruột của mấy đám tiệc miền Tây, miền Nam.
+
+serve:
+  title: Dọn cà ri — **xé bánh mì, chan bún, kiểu nào cũng đã**
+  paras:
+    - >-
+      Kinh điển nhất: tô cà ri bốc khói + **bánh mì nóng giòn**. Xé miếng
+      vỏ giòn chấm ngập tới ruột bánh, vớt theo khúc khoai bùi — kiểu ăn
+      làm ổ bánh mì hết trước cả nồi. Trong bếp nhà này, đội **bò kho**
+      với đội cà ri gà vẫn tranh nhau chức "món chấm bánh mì đỉnh nhất",
+      chưa phân thắng bại.
+    - >-
+      Đãi tiệc đúng bài miền Nam thì chan **bún tươi**: gắp nhúm bún vô
+      chén, chan nước cà ri nóng, thêm khúc khoai miếng gà — nhẹ bụng, ăn
+      được nhiều vòng, khách khen nức nở mà chủ nhà chỉ việc múc. Con nít
+      thì cứ chan cơm nóng, quẹt sạch chén hồi nào không hay.
+    - >-
+      Còn muốn ra dáng mâm tiệc trọn bộ: khai vị dĩa **chả giò** giòn rụm
+      hay **gỏi cuốn** mát lành, kế tới nồi cà ri gà nóng hổi giữa bàn —
+      thực đơn "nhà có đám" mà chuẩn bị gọn hơ trong một buổi.
+  aside:
+    title: Trên bàn cà ri
+    intro: "Đủ bộ này là bữa cà ri viên mãn:"
+    items:
+      - icon: roll
+        text: "**Bánh mì nóng giòn** — hâm lò 3 phút, xé chấm là chân ái."
+      - icon: noodle
+        text: "**Bún tươi** — đãi khách chan bún, thanh cảnh mà sang."
+      - icon: lime
+        text: "**Muối ớt chanh** — chấm riêng miếng gà, đậm lên một bậc."
+      - icon: chili
+        text: "**Ớt tươi hay sa tế** — nồi chung để hiền, ai ăn cay tự thêm."
+
+faq:
+  - q: Cà ri mà nằm kệ "Kho" là sao ta?
+    a: >-
+      Bị "soi" hoài vụ này! Kệ Kho của nhà này gom hết mấy món **rim –
+      kho – hầm đậm đà ăn với cơm, bánh mì** về một chỗ cho dễ kiếm — bò
+      kho đứng đó, cà ri gà qua đứng kế cho có bạn. Xếp kệ theo kiểu bếp
+      nhà thôi, món ngon là được, danh xưng tính sau.
+  - q: Nước cốt dừa lon dùng được không?
+    a: >-
+      Được và rất tiện — chọn lon **không đường**, và mẹo hay: **đừng
+      lắc lon**. Khui ra hớt lớp kem đặc bên trên để dành làm "cốt đặc"
+      rưới cuối, phần lỏng bên dưới chính là nước dão đem om. Một lon
+      chia hai vai, gọn hơ.
+  - q: Khoai nào om không nát? Khoai tây được không?
+    a: >-
+      Được — khoai tây là bản rất phổ biến, nhiều nhà nấu vậy. Bí quyết
+      nằm ở **chiên sơ** chứ không nằm ở giống khoai. Combo khoai lang
+      (ngọt) + khoai môn (bùi béo) là bản "đủ vị" nhất; thích thì thả
+      thêm cà rốt cho có màu.
+  - q: Nhà có con nít, cay nhiều ít tính sao?
+    a: >-
+      Nồi chung cứ nêm **hiền** như công thức — cay ở đây chỉ đủ ấm cổ.
+      Ai ăn cay dữ thì dọn kèm chén **sa tế hoặc ớt tươi**, tự nêm vô
+      chén mình; muốn cả nồi cay hẳn thì thêm 1 muỗng cà phê ớt bột ngay
+      từ lúc ướp gà.
+  - q: Nấu nồi to đãi tiệc, nhân đôi công thức được không?
+    a: >-
+      Được — chỉnh **số khẩu phần ngay trên trang này** là mọi định lượng
+      tự tính lại, khỏi bấm máy. Lưu ý nồi to lâu sôi hơn nên thời gian
+      om nhích thêm chút, và nêm cuối bằng cái lưỡi chứ đừng bằng con số
+      — nồi càng to, nếm càng phải kỹ.
+  - q: Cà ri để qua bữa, hâm sao cho khỏi tách dầu?
+    a: >-
+      Ngăn mát được **2–3 ngày**, vị còn thấm hơn. Khi hâm để **lửa nhỏ,
+      khuấy nhẹ**, vừa sôi lăn tăn là dừng — bật lửa lớn cho lẹ là lớp
+      cốt dừa tách dầu ngay. Nồi đãi tiệc còn dư, mai chan bánh mì ăn
+      sáng là hết ý.
+
+ticker:
+  - icon: sun
+    text: Vàng nghệ ánh cam
+  - icon: drop
+    text: Nước cốt dừa béo lịm
+  - icon: pumpkin
+    text: Khoai bùi tan đầu lưỡi
+  - icon: meat
+    text: Gà ta mềm mọng
+  - icon: roll
+    text: Bánh mì chấm cạn đáy nồi
+  - icon: stem
+    text: Thơm lựng sả nghệ

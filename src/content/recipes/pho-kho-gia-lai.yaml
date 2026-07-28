@@ -1,0 +1,451 @@
+title: Phở khô Gia Lai **sợi dai quyện tương đen, một món dọn hai tô**
+summary: >-
+  Đặc sản phố núi Pleiku mà dân địa phương quen kêu **"phở hai tô"**: một
+  tô phở trộn sợi nhỏ săn dai quyện tương đen, gà xé, hành phi thơm lựng —
+  kề bên một tô nước dùng ninh xương ngọt trong. Một đũa phở, một muỗng
+  nước, xen nhau tới giọt cuối cùng.
+region: Tây Nguyên
+category: Món sợi
+occasions: [Ăn chơi]
+time:
+  total: 1 giờ 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 12
+art: pho-kho
+heroEyebrow: Sáng se lạnh phố núi Pleiku…
+
+quick:
+  ingredients:
+    - >-
+      Phở khô Gia Lai [[400|g]] — sợi nhỏ, mảnh, dai; kẹt lắm thay hủ tiếu
+      khô sợi nhỏ
+    - Gà ta [[1|con]] (cỡ 1,5 kg) + xương heo [[500|g]] — vừa thịt vừa nước dùng
+    - >-
+      Bò băm [[200|g]] vo viên thả tô nước · hành tím [[6|củ]] phi vàng ·
+      tóp mỡ tùy thích
+    - >-
+      Linh hồn: **tương đen Gia Lai** [[3|muỗng canh|frac]] (tương đậu nành
+      lên men, sánh mịn) + xì dầu [[2|muỗng canh|frac]]
+    - >-
+      Rau ăn kèm: giá [[200|g]] · xà lách + húng quế · hành lá, ngò · chanh
+      [[1|trái]], ớt
+  steps:
+    - Xương heo chần rửa sạch, ninh chung nồi với gà + hành gừng nướng — **hớt bọt, liu riu**, không quế hồi.
+    - Sau 30 phút vớt gà ra xé thịt; xương ninh tiếp cho ngọt; nêm muối, đường phèn, chút nước mắm **nhẹ tay**.
+    - Hành tím thái mỏng phi vàng giòn (làm nhiều nhiều); bò băm ướp tiêu hành, vo viên nhỏ.
+    - Trụng phở **vừa tới còn dai**, xóc ráo, trộn ngay muỗng mỡ hành phi cho sợi rời; giá trụng sơ.
+    - "Tô trộn: phở + giá + gà xé + hành phi + tóp mỡ + hành ngò."
+    - "Tô nước: nước dùng sôi bùng thả viên bò, chín nổi lên là múc, rắc hành ngò tiêu."
+    - Ăn kiểu Pleiku — rưới tương đen + xì dầu vô tô phở, **trộn tách từng sợi**, một đũa phở một muỗng nước.
+  warning: >-
+    Trụng phở quá tay là sợi nở bở, bết thành tảng — sợi phở khô quý nhất
+    độ dai, trụng vừa tới, xóc ráo trộn mỡ liền.
+
+flavor:
+  chua: 1.5
+  ngot: 5.5
+  man: 6
+  cay: 2.5
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** sợi phở săn dai áo đều tương đen **mặn ngọt dịu**, cắn
+  trúng hành phi giòn thơm; húp muỗng nước dùng phải **trong veo ngọt
+  xương** — tô đậm tô thanh nương nhau, không bên nào lấn bên nào.
+storyEyebrow: Chuyện hai tô phở
+storyTitle: Gọi **một phở**, bưng ra **hai tô**
+story:
+  - >-
+    Khách lần đầu tới Pleiku, sáng se lạnh ghé quán kêu "cho một phở khô",
+    rồi ngơ ngác khi cô chủ bưng ra... **hai tô** — một tô phở trộn, một
+    tô nước dùng bốc khói. Không ai dọn nhầm đâu: dân phố núi kêu món này
+    là **"phở hai tô"**, và cái tên mộc mạc đó đã theo món đi xa — năm
+    2012, phở khô Gia Lai được Tổ chức Kỷ lục châu Á đưa vào danh sách
+    món ăn đạt **"giá trị ẩm thực châu Á"**.
+  - >-
+    Nghe chữ "phở" mà đừng chờ mùi quế hồi: sợi phở khô xay từ bột gạo —
+    dân Gia Lai chuộng gạo Phú Thiện — **nhỏ mảnh hơn cả sợi hủ tiếu**,
+    trụng xong vẫn săn dai chứ không mềm oặt; nước dùng chỉ ninh xương
+    cho ngọt trong, thơm hành gừng nướng. Còn linh hồn của tô trộn là
+    **tương đen** — đậu nành lên men với muối và mật mía, màu nâu đen,
+    sánh mịn, mặn ngọt dịu, hũ tương ủ càng lâu càng dậy thơm.
+  - >-
+    Cái thú của món nằm ở nhịp ăn: rưới tương đen, trộn cho từng sợi phở
+    tơi ra và áo đều, gắp một đũa đậm đà rồi húp một muỗng nước dùng thanh
+    ngọt — **cứ vậy xen nhau** tới cuối bữa. Nấu ở nhà không khó, chỉ cần
+    săn đúng hai thứ: gói phở khô và hũ tương đen — phần còn lại, công
+    thức này lo.
+
+ingredientGroups:
+  - name: Nồi nước dùng & thịt
+    icon: pot
+    items:
+      - id: ga
+        name: Gà ta
+        icon: meat
+        color: amber
+        base: 1
+        unit: con
+        note: Cỡ 1,4–1,6 kg — luộc lấy thịt xé, nước thêm ngọt
+      - id: xuong
+        name: Xương heo (xương ống)
+        icon: meat
+        base: 500
+        unit: g
+        note: Chần sơ rửa sạch — nước dùng mới trong
+      - id: bobam
+        name: Thịt bò băm
+        icon: meat
+        color: red
+        base: 200
+        unit: g
+        note: Chọn bò có chút mỡ, vo viên nhỏ thả tô nước
+      - id: hanhgung
+        name: Hành tím + gừng nướng
+        icon: ginger
+        color: gold
+        qtyText: 2 củ hành · 1 nhánh gừng
+        note: Nướng xém, đập giập — nước thơm mà vẫn trong
+      - id: giavi
+        name: Gia vị nêm
+        icon: jar
+        qtyText: Muối · đường phèn · nước mắm · tiêu
+        note: Nêm thanh nhẹ — để "đất diễn" cho tương đen
+  - name: Phở khô & đồ trộn
+    icon: noodle
+    items:
+      - id: pho
+        name: Phở khô Gia Lai
+        icon: noodle
+        base: 400
+        unit: g
+        note: Sợi nhỏ mảnh hơn hủ tiếu; ngoài tỉnh đặt online "phở khô Gia Lai"
+      - id: hanhphi
+        name: Hành tím làm hành phi
+        icon: onion
+        color: gold
+        base: 6
+        unit: củ
+        note: Thái mỏng đều tay — hành phi là mùi "chữ ký" của tô trộn
+      - id: topmo
+        name: Tóp mỡ (tùy thích)
+        icon: drop
+        color: gold
+        qtyText: 1 nắm nhỏ
+        note: Thắng từ mỡ heo — béo giòn đúng kiểu quán
+      - id: gia
+        name: Giá sống
+        icon: sprout
+        color: green
+        base: 200
+        unit: g
+        note: Trụng sơ, lót vô tô trộn
+      - id: hanhngo
+        name: Hành lá + ngò
+        icon: herb
+        color: green
+        qtyText: Vài nhánh
+        note: Xắt nhỏ, rắc cả hai tô
+  - name: Tương đen & nêm trộn
+    icon: jar
+    items:
+      - id: tuongden
+        name: Tương đen Gia Lai
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Đặc sản đậu nành lên men — không có thì xem FAQ cách pha thay thế
+      - id: xidau
+        name: Xì dầu
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cặp bài trùng với tương đen lúc trộn
+  - name: Rau ăn kèm
+    icon: lettuce
+    items:
+      - id: xalach
+        name: Xà lách + húng quế
+        icon: lettuce
+        color: green
+        qtyText: 1 dĩa đầy
+        note: Húng quế là rau "bắt" nhất với phở khô
+      - id: chanhot
+        name: Chanh + ớt
+        icon: lime
+        color: green
+        qtyText: 1 trái chanh · 2 trái ớt
+        note: Ai thích chua cay tự dặm — ớt xắt lát dầm xì dầu
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **cặp tô chuẩn Pleiku**
+stepsLead: >-
+  Nồi nước dùng lên bếp trước, mọi thứ khác làm trong lúc chờ — tới giờ ăn
+  chỉ còn trụng phở, ráp tô. Nhớ giùm một điều xuyên suốt: nước phải
+  trong, sợi phải dai.
+steps:
+  - title: Ninh nồi nước dùng trong veo
+    icon: pot
+    minutes: 60 phút
+    intro: "Nước dùng phở khô chỉ cần một chữ: **trong**. Ngọt từ xương, không mượn mùi gia vị:"
+    bullets:
+      - label: "Chần xương:"
+        text: >-
+          xương heo chần nước sôi 3 phút, đổ nước, rửa sạch vụn bẩn — bước
+          nhỏ quyết định nồi nước trong.
+      - label: "Bắc nồi:"
+        text: >-
+          xương + gà nguyên con + hành tím, gừng nướng đập giập +
+          [[3|lít]] nước + 1 muỗng cà phê muối; đun sôi, **hớt bọt kỹ**,
+          hạ liu riu.
+      - label: "Vớt gà:"
+        text: >-
+          sau **30 phút** gà chín tới, vớt ra ngâm thau nước đá cho da săn
+          thịt mọng; xương cứ ninh tiếp **30–45 phút** nữa.
+      - label: "Nêm:"
+        text: >-
+          muối + 1 muỗng cà phê đường phèn + chút nước mắm — nêm **thanh
+          nhẹ thôi**, vì tô phở bên kia đã có tương đen lo phần đậm.
+    callout:
+      type: warn
+      text: >-
+        **Không quế – hồi – thảo quả.** Phở khô Gia Lai không mượn mùi phở
+        Bắc: nồi nước chỉ ngọt xương, thơm hành gừng nướng — thả hồi quế
+        vô là lạc tông liền.
+    timer:
+      secs: 1800
+      label: Hẹn giờ luộc gà · 30:00
+      doneMsg: Vớt gà ra, ninh xương tiếp nghen!
+  - title: Xé gà & vo viên bò
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Xé gà:"
+        text: >-
+          gà nguội bớt thì lóc thịt, **xé dải theo thớ** miếng vừa gắp —
+          đừng xé vụn; da thái sợi trộn chung, ai thích thì để.
+      - label: "Viên bò:"
+        text: >-
+          bò băm trộn ½ muỗng cà phê tiêu + 1 muỗng canh hành tím băm + 1
+          muỗng cà phê nước mắm, **vo viên cỡ đầu ngón cái** — thả tô nước
+          lúc dọn.
+    callout:
+      type: tip
+      text: >-
+        Bộ lòng gà làm sạch, luộc chín thái miếng thả tô nước là đúng kiểu
+        nhiều quán Pleiku — nhà ăn được lòng thì đừng bỏ qua.
+  - title: Phi hành & thắng tóp mỡ
+    icon: onion
+    minutes: 15 phút
+    bullets:
+      - label: "Hành phi:"
+        text: >-
+          hành tím thái lát mỏng đều, thả vô dầu **còn ấm** rồi mới tăng
+          lửa vừa, đảo tới **vàng nhạt là vớt liền** ra giấy thấm — hành
+          còn chín tiếp, nguội là vàng ruộm giòn tan.
+      - label: "Tóp mỡ:"
+        text: >-
+          mỡ heo xắt hạt lựu, thắng lửa vừa tới vàng giòn thì vớt; **phần
+          mỡ nước giữ lại** — lát nữa trộn phở cho sợi rời, bóng đẹp.
+    callout:
+      type: warn
+      text: >-
+        Hành phi vàng sậm ngay trên chảo là ra tới dĩa thành **đắng** —
+        nhớ vớt lúc vàng nhạt. Món này hành phi là mùi chủ đạo, phi hư
+        là uổng cả tô.
+  - title: Trụng phở — khúc sống còn
+    icon: noodle
+    minutes: 10 phút
+    intro: "Sợi phở dai hay bở là quyết định ở đây:"
+    bullets:
+      - text: >-
+          Nước sôi già, thả phở vô **rũ tơi bằng đũa**, trụng chừng **1
+          phút** (coi thêm hướng dẫn trên bao bì) — nếm thử thấy sợi mềm
+          ngoài mà còn **săn dai ở lõi** là vớt.
+      - text: >-
+          Xóc thiệt ráo, trút ra thau, trộn ngay **1 muỗng mỡ hành
+          phi** (hoặc dầu ăn) cho sợi rời và bóng.
+      - text: Giá trụng nhanh 10 giây, vớt để ráo.
+    callout:
+      type: tip
+      text: >-
+        Sợi phở khô còn **hút nước tiếp sau khi vớt** — thà vớt sớm 10
+        giây còn hơn trễ 10 giây, ra tô là sợi vừa tới.
+    timer:
+      secs: 60
+      label: Hẹn giờ trụng phở · 01:00
+      doneMsg: Nếm thử — còn săn dai là vớt liền!
+  - title: Ráp tô phở trộn
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Chia phở ra tô, lót giá trụng, phủ **gà xé**, rắc **hành phi
+          hào phóng** + tóp mỡ + hành ngò + tiêu.
+      - text: >-
+          Dọn kèm chén **tương đen + xì dầu** — tương nêm lúc ăn mới đúng
+          kiểu, khỏi lo tô mặn tô lạt.
+    callout:
+      type: tip
+      text: >-
+        Tô trộn "chuẩn quán" nhìn xuống phải đủ bốn màu: sợi phở trắng
+        ngà, gà vàng nhạt, hành phi nâu óng, hành ngò xanh — thiếu màu nào
+        bổ sung màu đó.
+  - title: Tô nước dùng & dọn "hai tô"
+    icon: spoon
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Nước dùng sôi bùng, thả **viên bò** vô — viên nổi lên chừng 1–2
+          phút là chín; nếm lại lần cuối.
+      - text: >-
+          Múc ra **tô nhỏ hơn tô phở**, rắc hành ngò + tiêu, thêm lòng gà
+          nếu có.
+      - text: >-
+          Dọn mỗi người **một cặp tô kề nhau** + chén tương đen — đúng bộ
+          "phở hai tô" phố núi.
+    callout:
+      type: tip
+      text: >-
+        Cách ăn đúng điệu: rưới tương đen + xì dầu vô tô phở, **trộn tách
+        từng sợi cho tơi**, gắp một đũa phở rồi húp một muỗng nước dùng —
+        xen nhau vậy tới cuối bữa.
+    doneText: Hai tô lên mâm — xong!
+
+tipsTitle: 7 bí quyết cho **đúng chất phở phố núi**
+tipsLead: >-
+  Món này nguyên liệu không cầu kỳ, nhưng có mấy chỗ "lệch một ly đi một
+  dặm" — đọc trước cho chắc tay.
+tips:
+  - icon: noodle
+    title: Sợi phở là "căn cước" của món
+    text: >-
+      Sợi bột gạo **nhỏ mảnh, trụng xong vẫn săn dai** — đó là thứ làm phở
+      khô ra phở khô. Ngoài Gia Lai cứ đặt online gói "phở khô Gia Lai";
+      kẹt lắm thay hủ tiếu khô sợi nhỏ. Bánh phở tươi kiểu Bắc thì đừng —
+      mềm oặt, trộn là nát.
+  - icon: jar
+    title: Tương đen ủ càng lâu càng thơm
+    text: >-
+      Đậu nành lên men với muối và mật mía cho hũ tương **nâu đen sánh
+      mịn, mặn ngọt dịu** — không gắt như xì dầu, không ngọt lự như tương
+      chấm gỏi cuốn. Mua được hũ ngon cứ cất ngăn mát, ăn dần được rất
+      lâu.
+  - icon: pot
+    title: Nước trong là danh dự
+    text: >-
+      Chần xương, hớt bọt, ninh **liu riu không đậy vung** — nước dùng
+      trong veo nhìn thấu đáy tô mới đạt. Món này nước đục là mất nửa cái
+      đẹp của cặp tô.
+  - icon: onion
+    title: Hành phi phải hào phóng
+    text: >-
+      Quán Pleiku rắc hành phi **phủ vàng mặt tô** chứ không rắc lấy lệ —
+      mùi thơm của nó dẫn cả tô trộn. Tự phi thơm hơn hành mua sẵn nhiều,
+      và nhớ vớt lúc vàng nhạt.
+  - icon: clock
+    title: Trụng phở canh từng chục giây
+    text: >-
+      Sợi nhỏ nên chín rất nhanh, lại còn hút nước sau khi vớt — **canh
+      đồng hồ, nếm thử liên tục**. Vớt đúng lúc, sợi phở dai ngon tới
+      miếng cuối cùng.
+  - icon: meat
+    title: Viên bò thả lúc nước sôi bùng
+    text: >-
+      Nước sôi già làm mặt viên bò **se lại tức thì** — viên săn, ngọt,
+      không tan vụn làm đục nước. Thả vô nước chưa sôi là viên bở, nồi
+      nước lợn cợn.
+  - icon: spoon
+    title: Tô nước không phải để chan
+    text: >-
+      Đổ tô nước vô tô phở là thành món khác liền, mất cái thú sợi trộn
+      đậm đà. **Húp riêng, ăn xen kẽ** — một bên đậm một bên thanh, đó mới
+      là "phở hai tô".
+
+serve:
+  title: Dọn mâm **kiểu "hai tô" phố núi**
+  paras:
+    - >-
+      Trước mặt mỗi người là một cặp tô: tô phở trộn ấm, tô nước dùng bốc
+      khói, chén tương đen để giữa bàn ai nêm nấy. Sáng cuối tuần trời
+      mát mà dọn bộ này ra, cả nhà lạ miệng — có người ăn xong còn đòi
+      "phở gì mà vui vậy".
+    - >-
+      Nhịp ăn cứ thong thả: trộn tô phở cho từng sợi áo tương, gắp một
+      đũa, húp một muỗng nước, thêm lá húng quế bẻ đôi — ăn tới đâu ấm
+      bụng tới đó, đúng kiểu sáng se lạnh cao nguyên.
+    - >-
+      Mê kiểu "tô khô + chén nước riêng" này thì nhà mình còn bài **hủ
+      tiếu Nam Vang** — bản khô cũng dọn kèm chén nước lèo. Còn hôm nào
+      thèm phở nước nghi ngút đúng nghĩa, đã có **phở bò**, **phở gà**
+      chờ sẵn.
+  aside:
+    title: Trên mâm cho đủ bộ
+    intro: "Bộ này dọn thiếu thứ nào là kém vui thứ đó:"
+    items:
+      - icon: jar
+        text: "**Chén tương đen + xì dầu** — linh hồn, để giữa bàn ai nêm nấy."
+      - icon: lettuce
+        text: "**Dĩa xà lách, húng quế** — ngắt bỏ thẳng vô tô trộn cho mát."
+      - icon: lime
+        text: "**Chanh + ớt xắt lát** — tô nước vắt chanh, người ăn cay dầm ớt."
+      - icon: drop
+        text: "**Nhúm tóp mỡ giòn** — thêm vô tô trộn là 'tới bến' luôn."
+
+faq:
+  - q: Tên là "phở" mà sao chẳng giống phở?
+    a: >-
+      Đúng vậy — nó chỉ mượn chữ "phở" thôi: sợi **nhỏ dai** chứ không
+      mềm dẹt, nước dùng **không quế hồi**, và dọn **hai tô ăn trộn** chứ
+      không chan. Cứ coi đây là một món riêng của Tây Nguyên. Còn thèm
+      phở nước "chính chủ" thì nhà có bài phở bò, phở gà.
+  - q: Không mua được sợi phở khô Gia Lai thì sao?
+    a: >-
+      Gói phở khô để được rất lâu, nên **đặt online từ các tiệm đặc sản
+      Gia Lai một lần vài gói** là tiện nhất. Thay thế gần nhất là **hủ
+      tiếu khô sợi nhỏ dai** — hơi khác một chút nhưng vẫn ra tinh thần
+      món. Đừng dùng bánh phở tươi — mềm, trộn là nát.
+  - q: Không có tương đen Gia Lai, pha thay thế được không?
+    a: >-
+      Được, gần đúng: **[[2|muỗng canh|frac]] tương đen (hoisin) +
+      [[1|muỗng canh]] tương hột xay + chút nước**, đun nhỏ lửa cho sánh
+      mịn rồi để nguội. Nhưng nói thiệt lòng, đúng bài nhất vẫn là đặt hũ
+      tương đặc sản — để được lâu, đáng công chờ ship.
+  - q: Bản gà với bản bò khác nhau chỗ nào?
+    a: >-
+      Quán Pleiku thường có hai bản: **bản gà** như bài này (gà xé tô
+      trộn, nước ninh xương heo – gà) và **bản bò** — tô trộn phủ thịt heo
+      bằm xào hành, tô nước ninh xương bò thả **bò tái hoặc bò viên**.
+      Tô nước có viên bò băm như công thức này là kiểu nhiều quán vẫn dọn
+      kèm bản gà — gọn một nồi mà đủ vị.
+  - q: Làm trước được những gì?
+    a: >-
+      Gần hết: nước dùng ninh trước, để **ngăn mát 2–3 ngày hoặc trữ đông
+      cả tháng**; hành phi cất hũ kín 1–2 tuần; gà xé đậy kín ngăn mát 2
+      ngày. Riêng **phở thì ăn tới đâu trụng tới đó** — trụng trước để tủ
+      là bết dính, mất dai.
+  - q: Tô phở trộn bị bết thành tảng — sao vậy?
+    a: >-
+      Ba thủ phạm: trụng quá tay, **quên xóc ráo trộn mỡ**, hoặc trụng
+      xong để lâu mới ăn. Cứu liền tại bàn: chan **một muỗng nước dùng
+      nóng** vô tô, dùng đũa tách sợi trộn lên là tơi lại ngay — mẹo này
+      dân Gia Lai xài hoài.
+
+ticker:
+  - icon: bowl
+    text: Một món dọn hai tô
+  - icon: noodle
+    text: Sợi nhỏ săn dai
+  - icon: jar
+    text: Tương đen mặn ngọt dịu
+  - icon: onion
+    text: Hành phi thơm lựng
+  - icon: drop
+    text: Nước dùng trong veo ngọt xương
+  - icon: map
+    text: Đặc sản phố núi Pleiku
+  - icon: meat
+    text: Gà xé ngọt, viên bò săn

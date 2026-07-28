@@ -1,0 +1,365 @@
+title: Tôm rim nước cốt dừa **vỏ đỏ au, sốt trắng ngà quánh béo**
+summary: >-
+  Món mặn trứ danh của **Bến Tre xứ dừa**: tôm đất tươi rim lửa nhỏ trong
+  nước cốt dừa tới khi sốt keo quánh trắng ngà bám lấy vỏ tôm đỏ au — mặn
+  dịu, ngọt béo, hậu tiêu ấm. Lưu ý nghen: rim bằng **nước cốt** vắt từ
+  cơm dừa, không phải nước dừa tươi trong trái.
+region: Miền Tây
+category: Kho
+time:
+  total: 40 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 27
+art: tom-rim
+heroEyebrow: Bến Tre gửi lên mâm cơm…
+
+quick:
+  ingredients:
+    - Tôm đất tươi [[400|g]] (tôm thẻ cũng được) — cắt râu, **giữ nguyên vỏ**
+    - Nước cốt dừa [[200|ml]] — vắt từ [[300|g]] dừa nạo, hoặc lon lắc đều
+    - Hành tím [[2|củ]] + tỏi [[2|tép]] băm · hành lá [[2|nhánh]] · tiêu xay
+    - "Nêm: nước mắm [[1.5|muỗng canh|frac]] · đường phèn [[2|muỗng cà phê]] (hoặc đường cát)"
+  steps:
+    - Tôm cắt râu, chân, rút chỉ lưng bằng tăm, rửa sạch, **để thật ráo**.
+    - Ướp tôm với [[1|muỗng canh|frac]] nước mắm – hành tỏi băm – tiêu **15 phút**; tranh thủ vắt nước cốt dừa.
+    - Phi hành tỏi thơm, trút tôm vô đảo lửa vừa tới **vỏ đỏ au, thân cong lại**.
+    - Châm nước cốt dừa + đường phèn, hạ ngay **lửa nhỏ nhất**.
+    - Rim **10–12 phút**, xóc chảo nhẹ, tới khi sốt **keo quánh trắng ngà** bám vỏ tôm.
+    - Nêm lại cho mặn dịu – ngọt béo, rắc tiêu + hành lá, tắt bếp — ăn nóng với cơm.
+  warning: >-
+    Lửa lớn là nước cốt dừa **tách dầu, lợn cợn, mùi gắt** — cả món sống
+    chết ở hai chữ liu riu.
+
+flavor:
+  chua: 0.5
+  ngot: 7
+  man: 6
+  cay: 1.5
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn vị:** mặn dịu đi trước, **ngọt béo mùi dừa** ôm theo liền, hậu
+  cay ấm của tiêu đọng cuối lưỡi — sốt trắng ngà phải quánh tới mức bám
+  lưng muỗng.
+storyEyebrow: Chuyện nồi tôm rim
+storyTitle: Món tủ của **bếp nhà xứ dừa**
+story:
+  - >-
+    Về Bến Tre chơi một bữa là hiểu câu người ta hay đùa: **cây dừa lo từ
+    đầu tới cuối bữa cơm** — củi dừa chụm bếp, cơm dừa nạo vắt cốt, nước
+    dừa kho thịt, tráng miệng có kẹo dừa. Trong cái "gia tài dừa" đó, dĩa
+    tôm rim nước cốt dừa là món mặn được cưng nhất mâm: tôm đỏ au nằm gọn
+    trong lớp sốt trắng ngà, chưa ăn đã thơm béo tới mũi.
+  - >-
+    Phải nói rõ kẻo lẫn: món này rim bằng **nước cốt dừa** — thứ nước
+    trắng đục béo ngậy vắt ra từ cơm dừa nạo — chứ không phải nước dừa
+    tươi trong vắt mình hay uống. Cũng vì rim bằng cốt nên cái khéo nằm
+    trọn ở **ngọn lửa liu riu**: đủ nhỏ để nước cốt sánh dần thành lớp
+    keo mịn màng, còn nóng vội lửa lớn là cốt dừa tách dầu, công sức đổ
+    sông đổ biển.
+  - >-
+    Còn lại thì món này dễ ơi là dễ: một mớ **tôm đất con nhỏ mà ngọt
+    lịm**, chén nước cốt, bốn chục phút là xong. Không cần dịp gì hết —
+    chiều đi chợ gặp mớ tôm đất còn búng tanh tách là đủ lý do để bữa cơm
+    nhà nay có "một góc Bến Tre".
+
+ingredientGroups:
+  - name: Phần tôm
+    icon: shrimp
+    items:
+      - id: tom
+        name: Tôm đất tươi
+        icon: shrimp
+        base: 400
+        unit: g
+        note: Vỏ bóng, đầu dính chắc thân — tôm thẻ hoặc tôm đông lạnh vẫn được
+  - name: Phần dừa
+    icon: drop
+    items:
+      - id: duanao
+        name: Dừa nạo (vắt lấy nước cốt)
+        icon: drop
+        color: gold
+        base: 300
+        unit: g
+        note: Vắt với nước ấm lấy 200 ml cốt — mua lon nước cốt dừa thay cũng được
+  - name: Gia vị
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Ướp 1 muỗng, chừa lại nửa muỗng nêm bồi cuối bếp
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        color: gold
+        base: 2
+        unit: muỗng cà phê
+        note: Ngọt thanh dịu — không có thì đường cát
+      - id: hanhtoi
+        name: Hành tím + tỏi
+        icon: onion
+        color: red
+        qtyText: 2 củ hành · 2 tép tỏi
+        note: Băm nhuyễn — nửa ướp tôm, nửa phi thơm
+      - id: hanhla
+        name: Hành lá + tiêu xay
+        icon: herb
+        color: green
+        qtyText: 2 nhánh hành · tiêu rắc tay
+        note: Hậu tiêu ấm là chữ ký của món — đừng quên
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Dầu ăn · muối
+        note: Mỗi thứ chút xíu theo bước hướng dẫn
+  - name: Dọn kèm
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        qtyText: Tùy sức ăn cả nhà
+        note: Sốt dừa chan cơm là "đúng bài" nhất của món này
+      - id: dualeo
+        name: Dưa leo xắt lát
+        icon: lettuce
+        color: green
+        qtyText: 1 dĩa nhỏ
+        note: Mát giòn, cân lại vị béo của sốt dừa
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **nồi tôm rim trắng ngà**
+stepsLead: >-
+  Nhịp nấu gọn bâng: tôm nằm ướp thì mình vắt nước cốt, xong xuôi lên
+  chảo một mạch chừng hai chục phút — canh đúng ngọn lửa nhỏ là món tự
+  ngon.
+steps:
+  - title: Sơ chế tôm — giữ vỏ nghen
+    icon: knife
+    minutes: 10 phút
+    intro: "Tôm rim nguyên vỏ mới ra chất món này:"
+    bullets:
+      - label: "Tỉa gọn:"
+        text: >-
+          dùng kéo cắt râu, chân và gai nhọn trên đầu tôm; **giữ nguyên
+          vỏ và đầu** — vỏ rim keo lại vừa thơm vừa giòn, ăn được luôn.
+      - label: "Rút chỉ lưng:"
+        text: >-
+          lấy tăm xiên nhẹ vô đốt thứ hai trên lưng, khều sợi **chỉ đen**
+          ra — tôm hết lạo xạo cát, nước rim cũng sạch hơn.
+      - label: "Rửa & để ráo:"
+        text: >-
+          rửa nhanh nước muối loãng, đổ ra rổ **để thật ráo** — tôm còn
+          ướt là sốt bị loãng, rim lâu mất ngọt.
+    callout:
+      type: tip
+      text: >-
+        Ai không quen nhai vỏ thì lột, chừa đuôi cho đẹp — nhưng nhớ rút
+        ngắn thời gian rim lại kẻo thịt tôm khô, mất mọng.
+  - title: Ướp tôm cho thấm
+    icon: spoon
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Trộn tôm với [[1|muỗng canh|frac]] nước mắm + nửa chỗ hành tỏi
+          băm + ½ muỗng cà phê tiêu, ướp **15 phút**.
+      - text: >-
+          Đậy lại để ngăn mát nếu trời nóng — tôm tươi giữ lạnh thịt mới
+          săn mọng.
+    timer:
+      secs: 900
+      label: Hẹn giờ ướp tôm · 15:00
+      doneMsg: Tôm thấm rồi — bắc chảo thôi!
+  - title: Vắt nước cốt dừa
+    icon: drop
+    minutes: 10 phút
+    intro: "Tranh thủ ngay lúc tôm đang ướp:"
+    bullets:
+      - label: "Dừa nạo:"
+        text: >-
+          rưới [[150|ml]] nước ấm già vô [[300|g]] dừa nạo, nhồi bóp 2–3
+          phút cho ra hết chất béo, rồi **vắt kiệt qua rây hoặc khăn vải
+          mỏng** — được cỡ [[200|ml]] nước cốt trắng đục, sánh thơm.
+      - label: "Dùng lon:"
+        text: >-
+          lắc thật đều trước khi mở (phần béo hay đóng đặc bên trên), đong
+          đủ [[200|ml]].
+    callout:
+      type: tip
+      text: >-
+        Cốt vắt tươi thơm hơn lon một bậc rõ rệt — ghé chợ mua bịch dừa
+        nạo là hàng dừa vắt giùm tại chỗ luôn, khỏe re.
+  - title: Phi thơm, đảo tôm đỏ vỏ
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Chảo nóng với 1 muỗng canh dầu, phi **chỗ hành tỏi còn lại**
+          vàng thơm.
+      - text: >-
+          Trút tôm vô, lửa vừa, đảo nhanh tay tới khi **vỏ chuyển đỏ au,
+          thân tôm cong lại** — dấu hiệu tôm vừa chín tới, đừng đảo lâu
+          quá.
+  - title: Châm nước cốt, rim liu riu
+    icon: pot
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Châm nước cốt dừa vô ngang mặt tôm, thêm [[2|muỗng cà phê]]
+          đường phèn, và hạ ngay **lửa nhỏ nhất**.
+      - text: >-
+          Rim **10–12 phút**, thỉnh thoảng **xóc chảo nhẹ** cho tôm thấm
+          đều — sốt sẽ sánh dần, chuyển màu trắng ngà óng.
+      - text: >-
+          Đạt là khi sốt **keo quánh bám lấy vỏ tôm**, múc thử một muỗng
+          thấy sốt chảy chậm, bám lưng muỗng.
+    callout:
+      type: warn
+      text: >-
+        Sôi lăn tăn thôi — nước cốt dừa mà sôi sùng sục là **tách dầu**,
+        sốt lợn cợn mùi dầu gắt, hết cứu. Thấy sôi mạnh là hạ lửa liền.
+    timer:
+      secs: 720
+      label: Hẹn giờ rim tôm · 12:00
+      doneMsg: Coi sốt quánh chưa — nêm lại rồi tắt bếp!
+  - title: Nêm lại & dọn nóng
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Nếm thử: chuẩn là **mặn dịu – ngọt béo – thơm dừa**; lạt thì bồi
+          nửa muỗng canh nước mắm còn lại, nêm từng chút.
+      - text: >-
+          Tắt bếp, rắc **tiêu xay + hành lá xắt nhỏ** — hậu tiêu ấm chính
+          là chữ ký của món.
+      - text: >-
+          Múc ra dĩa sâu lòng hoặc dọn nguyên nồi đất nhỏ cho đúng điệu,
+          ăn nóng với cơm trắng.
+    doneText: Tôm đỏ au lên mâm — xong!
+
+tipsTitle: 6 bí quyết của **dân xứ dừa**
+tipsLead: >-
+  Món này ít nguyên liệu, nên con tôm và chén nước cốt ngon dở là lộ ra
+  hết — mấy mẹo này giúp bạn chọn trúng và rim khéo.
+tips:
+  - icon: shrimp
+    title: Tôm đất — nhỏ con mà ngọt nhất
+    text: >-
+      Tôm đất vỏ mỏng bóng, thịt chắc ngọt lịm, rim nguyên con là vừa đẹp
+      miệng. Chọn con **vỏ trong bóng, đầu dính chắc thân**, cầm lên còn
+      búng tanh tách. Tôm thẻ được; tôm đông lạnh rã đông ngăn mát rồi
+      thấm thật khô.
+  - icon: basket
+    title: Để vỏ mới đúng bài
+    text: >-
+      Vỏ tôm rim keo lại **giòn thơm, cắn nguyên con** không phải lột lách
+      gì — dân miền Tây ăn vậy đó. Vỏ còn giữ cho thịt tôm khỏi khô trong
+      lúc rim, ngọt mọng hơn hẳn tôm lột.
+  - icon: drop
+    title: Cốt tươi hơn cốt lon một bậc
+    text: >-
+      Nước cốt vắt tươi từ dừa nạo thơm béo tự nhiên, rim lên mùi dậy hơn
+      hẳn. Dùng lon thì chọn loại **hàm lượng dừa cao**, lắc đều. Và nhớ:
+      **nước dừa tươi trong trái là thứ khác** — đừng lấy nhầm.
+  - icon: flame
+    title: Lửa nhỏ là mạng sống của sốt
+    text: >-
+      Nước cốt dừa đun sôi mạnh là phần béo **tách khỏi phần nước** — sốt
+      vỡ, lợn cợn, dậy mùi dầu. Từ lúc châm cốt vô là lửa nhỏ nhất tới
+      cuối bếp, sôi lăn tăn thôi.
+  - icon: jar
+    title: Đường phèn ngọt thanh
+    text: >-
+      Đường phèn tan chậm, cho vị **ngọt dịu không gắt** rất hợp sốt dừa.
+      Không có thì đường cát bớt lại chút; vài nhà Bến Tre còn dùng đường
+      thốt nốt — sốt ngả màu mật nhẹ, thơm kiểu khác, cũng hay lắm.
+  - icon: spoon
+    title: Xóc chảo, đừng đảo mạnh
+    text: >-
+      Tôm rim đẹp là còn **nguyên dáng cong, nguyên càng râu**. Cầm cán
+      chảo xóc nhẹ cho tôm lăn đều trong sốt — lấy đũa đảo mạnh tay là
+      gãy đầu gãy càng, dĩa tôm mất duyên.
+
+serve:
+  title: Bữa cơm **đậm chất miền Tây**
+  paras:
+    - >-
+      Món này phải ăn **nóng, với cơm trắng vừa xới**: gắp con tôm đỏ au
+      còn áo sốt, cắn tới đâu vỏ giòn thịt ngọt tới đó; rồi chan muỗng
+      **sốt dừa trắng ngà** lên cơm — béo thơm dịu dàng, hậu tiêu ấm ấm,
+      và thêm chén nữa là chuyện đương nhiên.
+    - >-
+      Mâm cơm miền Tây trọn vị: tôm rim béo đậm thì phải có **tô canh
+      chua cá lóc** chua thanh kề bên — một béo một thanh đỡ nhau từng
+      đũa. Thêm dĩa **rau muống xào tỏi** xanh giòn nữa là mâm ba món
+      "chuẩn cơm nhà" không chê vô đâu được.
+    - >-
+      Đây là món cơm nhà thường ngày đúng nghĩa — không chờ dịp, không
+      cần khách. Nấu dư một chút cũng chẳng sao: để qua bữa sau tôm càng
+      thấm, cơm nguội hâm lên chan sốt vẫn ngon quên trời đất.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Bộ ba miền Tây ăn hoài không ngán:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng hổi** — để dành bụng chan sốt dừa."
+      - icon: bowl
+        text: "**Canh chua cá lóc** — chua thanh cân béo, cặp đôi ăn ý nhất của món này."
+      - icon: sprout
+        text: "**Rau muống xào tỏi** — xanh giòn thơm tỏi, đủ bộ mâm ba món."
+      - icon: lettuce
+        text: "**Dưa leo xắt lát** — lười nấu thêm thì đây, mát giòn khỏi chê."
+
+faq:
+  - q: Nước cốt dừa lon hay tự vắt — chọn sao?
+    a: >-
+      Có thời gian thì **vắt tươi** — thơm béo tự nhiên, rim lên mùi dậy
+      hơn hẳn, mà hàng dừa ngoài chợ vắt giùm tại chỗ luôn. Bận quá thì
+      **lon vẫn ngon**: chọn loại hàm lượng dừa cao, lắc đều trước khi
+      đong, tránh loại pha loãng có đường sẵn.
+  - q: Rim để vỏ hay lột vỏ?
+    a: >-
+      **Để vỏ** là bản gốc: vỏ rim keo giòn thơm ăn được luôn, thịt tôm
+      lại mọng hơn. Nhà có người ngại vỏ hoặc con nít nhỏ thì lột, chừa
+      đuôi — nhớ rút ngắn thời gian rim còn cỡ 7–8 phút kẻo thịt khô.
+  - q: Dùng tôm khô làm được không?
+    a: >-
+      Không nghen — món này cần độ **ngọt mọng của tôm tươi**, tôm khô
+      mặn và dai, rim với cốt dừa là lạc vị cả nồi. Có sẵn tôm khô thì để
+      dành làm **gỏi xoài xanh tôm khô** — đúng đất diễn của nó hơn.
+  - q: Thay bằng nước dừa tươi được không?
+    a: >-
+      Thay được nhưng ra **món khác**: tôm rim nước dừa tươi vị ngọt
+      thanh, nước rim trong — cũng ngon, mà mất trọn cái **béo trắng ngà**
+      làm nên chữ ký của bản Bến Tre này. Đã nấu thì kiếm đúng nước cốt.
+  - q: Sao sốt bị tách dầu, lợn cợn?
+    a: >-
+      Thủ phạm gần như luôn là **lửa lớn** hoặc rim quá lâu. Cứu chữa:
+      châm 2–3 muỗng canh nước ấm (hoặc chút nước cốt mới), hạ lửa nhỏ
+      nhất, xóc nhẹ cho sốt mịn trở lại rồi tắt bếp sớm. Lần sau cứ nhớ
+      sôi lăn tăn là chuẩn.
+  - q: Bảo quản được mấy ngày?
+    a: >-
+      Ngăn mát **2–3 ngày**, đậy kín — để qua bữa tôm còn thấm hơn. Hâm
+      chảo lửa nhỏ, thêm muỗng nước cho sốt mềm lại. Đừng trữ lâu hơn:
+      món có nước cốt dừa không để dai được như kho mặn thường đâu.
+
+ticker:
+  - icon: shrimp
+    text: Tôm đất đỏ au
+  - icon: drop
+    text: Sốt dừa trắng ngà
+  - icon: pepper
+    text: Hậu tiêu ấm nồng
+  - icon: flame
+    text: Liu riu mới béo mịn
+  - icon: rice
+    text: Chan sốt vô cơm nóng
+  - icon: map
+    text: Đặc sản xứ dừa Bến Tre

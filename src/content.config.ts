@@ -58,9 +58,9 @@ const recipes = defineCollection({
   schema: z.object({
     title: z.string(),
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
-    region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Cả nước']),
-    // Vùng dự kiến mở thêm khi có món đầu tiên: 'Tây Bắc', 'Tây Nguyên'
-    category: z.enum(['Canh', 'Kho', 'Xào', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Món sợi']),
+    region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Tây Bắc', 'Tây Nguyên', 'Cả nước']),
+    category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Món sợi']),
+    // Category dự kiến mở thêm khi đủ món: 'Bánh' (3+ món bánh), 'Cháo'
     // Theo dịp / đối tượng — một món gắn được nhiều nhãn, để lọc ở /mon/
     occasions: z
       .array(z.enum(['Nhậu lai rai', 'Ăn chơi', 'Đãi khách', 'Cho bé']))
@@ -76,6 +76,9 @@ const recipes = defineCollection({
         'pho-bo', 'bun-bo', 'banh-xeo', 'ca-kho', 'thit-kho', 'canh-bi-do',
         'bun-cha', 'mi-quang', 'ga-kho', 'canh-cua',
         'bun-rieu', 'com-ga', 'bo-luc-lac', 'ga-la-giang',
+        'pho-ga', 'hu-tieu', 'bun-thit-nuong', 'pho-kho', 'com-chien',
+        'goi-xoai', 'goi-ga', 'ga-nuong', 'muc-xao', 'suon-ram',
+        'ca-ri-ga', 'tom-rim', 'banh-cuon', 'trung-chung',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

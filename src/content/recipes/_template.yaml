@@ -17,8 +17,8 @@
 title: Tên món **chữ nhấn vàng**
 summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
-region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Cả nước
-category: Canh          # Canh | Kho | Xào | Cuốn | Gỏi | Chiên | Hấp | Cơm | Món sợi
+region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Tây Bắc | Tây Nguyên | Cả nước
+category: Canh          # Canh | Kho | Xào | Nướng | Cuốn | Gỏi | Chiên | Hấp | Cơm | Món sợi
 # occasions: [Đãi khách]  # tùy chọn, gắn được nhiều: Nhậu lai rai | Ăn chơi | Đãi khách | Cho bé
 #                         # (món cơm nhà thường ngày thì bỏ trống — đó là mặc định của cả site)
 time:
@@ -28,10 +28,12 @@ difficulty: Dễ          # Dễ | Vừa | Kỳ công
 featured: false         # true = hiện ở trang chủ
 order: 99               # thứ tự hiển thị, nhỏ đứng trước
 # art: bowl             # bỏ trống sẽ tự chọn theo category (bowl/claypot/plate/rolls)
-#                       # art vẽ riêng: canh-chua pho-bo bun-bo bun-cha bun-rieu mi-quang
-#                       #               com-tam com-ga ca-kho thit-kho ga-kho bo-luc-lac
-#                       #               banh-xeo cha-gio bo-kho kho-qua canh-bi-do canh-cua
-#                       #               ga-la-giang
+#                       # art vẽ riêng: canh-chua pho-bo pho-ga pho-kho bun-bo bun-cha
+#                       #               bun-rieu bun-thit-nuong hu-tieu mi-quang com-tam
+#                       #               com-ga com-chien ca-kho thit-kho ga-kho ga-nuong
+#                       #               bo-luc-lac bo-kho ca-ri-ga suon-ram tom-rim muc-xao
+#                       #               banh-xeo banh-cuon cha-gio kho-qua trung-chung
+#                       #               canh-bi-do canh-cua ga-la-giang goi-xoai goi-ga
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc

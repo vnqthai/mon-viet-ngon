@@ -2,12 +2,14 @@
 
 Kho công thức món Việt tại [www.monvietngon.com](https://www.monvietngon.com) — mục tiêu dài hạn: **~100 món** phủ đủ ba miền, món nào cũng được chăm chút như món nào.
 
-_Cập nhật: 2026-07-27 — site đang có **21 món**, đủ 5 vùng miền (Bắc / Trung / Nam / Tây / Cả nước)._
+_Cập nhật: 2026-07-28 — site đang có **35 món**, phủ **7 vùng** (Bắc / Trung / Nam / Tây / Tây Bắc / Tây Nguyên / Cả nước)._
 
 ## Đã hoàn thành
 
-- [x] 21 món, mỗi món một file YAML (`src/content/recipes/`) với bản nấu nhanh, giỏ đi chợ tự tính khẩu phần, đồng hồ đếm giờ trong từng bước, bí quyết và FAQ
+- [x] 35 món, mỗi món một file YAML (`src/content/recipes/`) với bản nấu nhanh, giỏ đi chợ tự tính khẩu phần, đồng hồ đếm giờ trong từng bước, bí quyết và FAQ
 - [x] Hình minh họa SVG vẽ riêng cho từng món (`src/components/art/`)
+- [x] Đợt lớn 2026-07-28 (14 món): phở gà, hủ tiếu Nam Vang, bún thịt nướng, phở khô Gia Lai, cơm chiên cá mặn, gỏi xoài xanh tôm khô, gỏi gà bắp cải, gà nướng mắc khén, mực xào thơm cần tây, sườn ram mặn ngọt, cà ri gà, tôm rim nước cốt dừa, bánh cuốn nóng, trứng chưng thịt nấm mèo
+- [x] Mở vùng mới **Tây Bắc** (gà nướng mắc khén) + **Tây Nguyên** (phở khô Gia Lai) và kiểu món mới **"Nướng"**
 - [x] SEO: JSON-LD schema.org/Recipe, ảnh OG chia sẻ sinh lúc build, sitemap, robots.txt
 - [x] Trang bí quyết bếp (`/bi-quyet/`), trang danh mục `/mon/` có lọc theo kiểu món + miền
 - [x] Trục phân loại **"Theo dịp"** (`occasions`): Nhậu lai rai · Ăn chơi · Đãi khách · Cho bé — một món gắn nhiều nhãn, lọc ở `/mon/`, hiện badge trên trang món (món cơm nhà thường ngày để trống — đó là mặc định của site)
@@ -15,30 +17,25 @@ _Cập nhật: 2026-07-27 — site đang có **21 món**, đủ 5 vùng miền (
 
 ## Món sắp lên mâm (đợt kế tiếp)
 
-Đang tease trong ComingSoon: **phở gà** (Bắc), **sườn ram mặn ngọt** (Nam), **gỏi xoài xanh tôm khô** (Nam), **trứng chưng thịt nấm mèo** (Cả nước).
+Đang tease trong ComingSoon: **miến gà** (Bắc), **mì vịt tiềm** (Nam), **miến xào cua** (Cả nước), **mì xào bò** (Cả nước).
 
 ## Kho ý tưởng món (chưa xếp lịch)
 
 | Nhóm | Món | Vùng |
 |---|---|---|
-| Món sợi | bún thịt nướng | Nam |
-| Món sợi | hủ tiếu Nam Vang | Nam |
-| Món sợi | phở khô Gia Lai (phở hai tô) | Tây Nguyên* |
 | Món sợi | miến gà | Bắc |
 | Món sợi | miến xào cua | Cả nước |
 | Món sợi | mì xào bò | Cả nước |
 | Món sợi | mì vịt tiềm | Nam |
-| Cơm | cơm chiên cá mặn | Nam |
-| Kho | tôm rim nước dừa | Tây |
-| Kho | cà ri gà bánh mì | Nam |
-| Xào | mực xào thơm cần tây | Cả nước |
-| Hấp | bánh cuốn nóng chảo chống dính | Bắc |
-| Gỏi | gỏi gà bắp cải rau răm | Cả nước |
-| Nướng* | gà nướng mắc khén | Tây Bắc* |
 
-> Khi chọn đợt mới, ưu tiên món **miền Bắc / miền Trung** cho cân danh mục (đang nghiêng về Nam).
+> Kho ý tưởng đã vơi sau đợt lớn — trước khi làm đợt sau nên ngồi chọn thêm món mới
+> cho cân danh mục (ưu tiên **miền Trung** và các vùng mới mở **Tây Bắc / Tây Nguyên**,
+> mỗi vùng mới đang có đúng 1 món).
 >
-> **(*) Vùng & kiểu món sẽ mở thêm:** đã chốt chủ trương thêm vùng **Tây Bắc** và **Tây Nguyên** — enum thêm vào schema khi ship món đầu tiên của vùng đó (món vùng cao cần tra cứu nguyên liệu/thuật ngữ kỹ hơn). Tương tự với kiểu món mới: **"Nướng"** (khi làm gà nướng mắc khén…), **"Bánh"** (khi đủ 3+ món bánh — bánh xèo đang ở "Chiên", bánh cuốn tương lai gom về đây), **"Cháo"** (khi làm cháo). Nhãn "Cơm nhà" cho trục Theo dịp chỉ thêm khi site có nhiều món ăn chơi — hiện tại cơm nhà là mặc định của cả site nên tag sẽ không lọc được gì.
+> **Kiểu món sẽ mở thêm khi đủ quân số:** **"Bánh"** (khi đủ 3+ món bánh — bánh xèo
+> đang ở "Chiên", bánh cuốn đang ở "Hấp", tương lai gom về đây), **"Cháo"** (khi làm
+> cháo gà, cháo lòng…). Nhãn "Cơm nhà" cho trục Theo dịp chỉ thêm khi site có nhiều
+> món ăn chơi — hiện tại cơm nhà là mặc định của cả site nên tag sẽ không lọc được gì.
 
 ## Hạ tầng để dành (làm từ từ, chưa vội)
 
