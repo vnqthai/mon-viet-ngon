@@ -150,21 +150,21 @@ Schema giờ có `.min(1)` cho `occasions` — **để trống là build gãy**,
 
 Cả 5 giai đoạn đã xong, build xanh 38 trang.
 
-## ⚠️ Nợ lại: lỗi giao diện trên điện thoại
+## ✅ Đã sửa: giao diện trên điện thoại
 
-Toàn bộ phần I chỉ được soi ở bề rộng máy tính. Kiểm sơ trên điện thoại thấy **có vài lỗi bố cục** — đã ghi nhận, **chưa sửa**, chủ ý để lại xử lý sau chứ không chặn việc ship.
+Ba lỗi Thái báo, đều đã tái hiện được và sửa xong:
 
-Chỗ đáng ngờ nhất khi ngồi vào sửa, xếp theo thứ tự nên soi:
+| Lỗi | Chữa thế nào |
+|---|---|
+| Chip lọc tràn ngang, phải cuộn mới thấy | **Bỏ hẳn kệ cuộn ngang trên điện thoại.** Ba hàng chip gộp vào một bảng **đóng/mở**, mở ra thì chip **xuống dòng hết** — bộ lọc nằm ngoài màn hình thì không ai bấm |
+| Chữ trong ô tìm kiếm không hiện hết | Rút gọn còn *"Tìm món hoặc nguyên liệu…"*; câu gợi ý gõ-không-dấu tách xuống một dòng riêng — vốn dĩ nó đáng đọc chứ không đáng nhét vào placeholder |
+| Chip dính sát mép trái | Bỏ luôn thủ thuật tràn lề `margin-inline:-24px` đi kèm kệ cuộn |
 
-1. **Kệ lọc ở `/mon/`** — dưới 560px thì nhãn xuống dòng và kệ tràn ra sát lề (`.shelf` / `.shelf__rail`). Vệt mờ ở mép phải hiện cả khi không có gì để cuộn.
-2. **Ô tìm kiếm ở hero trang chủ** (`.home-hero__find`) — nút "Tìm" nằm cùng hàng với ô nhập, hàng dễ chật.
-3. **Lưới thẻ món** — `minmax(252px,1fr)`, cần xem ở màn hẹp có bị tràn không.
-4. **Khu lối vào theo trục** (`.gates`) — hai cột `minmax(300px,1fr)` gộp thành một cột, các cửa xuống dòng nhiều.
-5. **Dòng đếm kết quả** (`.finder__count`) — tóm tắt bộ lọc + nút bỏ lọc nằm cùng hàng, dễ vỡ khi bật nhiều bộ lọc.
+Thêm **nút "lên đầu trang"** (Thái đề nghị) — đặt toàn cục, hiện sau khi cuộn quá 900px, tôn trọng `prefers-reduced-motion`, ẩn khi in. Trang chi tiết món mới là trang dài nhất nên nó có ích ở đó nhất.
 
-Lần sửa nhớ **liệt kê lỗi cụ thể trước khi đụng CSS** — danh sách trên mới là chỗ nghi, chưa phải lỗi đã xác nhận.
+**Cách soi mobile khi công cụ đổi kích thước cửa sổ không ăn:** dựng một file HTML tạm trong `public/`, nhúng trang vào `<iframe width="414">`. Iframe cho document bên trong một viewport thật nên **media query chạy đúng**; để cùng origin thì còn với vào trong tắt hiệu ứng hiện dần và bấm thử được. Xong nhớ xóa file tạm.
 
-**Bước tiếp theo sau khi ship:** vào đợt 6.
+**Bước tiếp theo:** vào đợt 6.
 
 | Nhãn mới | Nghĩa |
 |---|---|

@@ -175,10 +175,42 @@
 }
 .finder__reset:hover{color:var(--chili)}
 
-@media (max-width:560px){
-  .shelf{display:block;margin-bottom:12px}
-  .shelf__label{display:block;width:auto;margin-bottom:6px}
-  .shelf__rail{margin-inline:-24px;padding-inline:24px}
+.finder__hint{margin:8px 2px 16px;font-size:.8rem;color:var(--muted)}
+
+/* Nút mở bảng lọc — chỉ có trên điện thoại */
+.finder__toggle{display:none}
+.finder__toggle__n{
+  display:inline-grid;place-items:center;min-width:21px;height:21px;padding:0 6px;
+  border-radius:999px;background:var(--gold);color:#2A2410;font-size:.74rem;font-weight:700;
+}
+/* display: của class đè [hidden] nếu không nói rõ — bài học cũ, dễ dính lại */
+.finder__toggle__n[hidden]{display:none}
+
+/* ---- Điện thoại ----
+   Kệ cuộn ngang là sai kiểu ở đây: chip nằm ngoài màn hình thì không ai biết mà
+   bấm, lại còn dính sát mép. Đổi thành bảng đóng/mở, chip XUỐNG DÒNG hết. */
+@media (max-width:700px){
+  .finder__toggle{
+    display:inline-flex;align-items:center;gap:9px;
+    border:1.5px solid var(--line);background:var(--card);color:var(--ink);
+    font-weight:700;font-size:.9rem;padding:11px 18px;border-radius:999px;
+  }
+  .finder__toggle[aria-expanded="true"]{border-color:var(--river);background:var(--paper-deep)}
+  .finder__toggle::after{content:"▾";font-size:.7rem;opacity:.6}
+  .finder__toggle[aria-expanded="true"]::after{content:"▴"}
+
+  .finder__axes{display:none;margin-top:16px}
+  .finder__axes.is-open{display:block}
+
+  .shelf{display:block;margin-bottom:16px}
+  .shelf__label{display:block;width:auto;margin-bottom:8px}
+  .shelf__rail{
+    display:flex;flex-wrap:wrap;gap:8px;
+    overflow:visible;padding:0;margin:0;
+    -webkit-mask-image:none;mask-image:none;
+  }
+  .chip{font-size:.82rem;padding:7px 13px}
+  .finder__count{margin-top:18px}
 }
 
 .filter-empty{

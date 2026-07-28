@@ -106,3 +106,16 @@ if ('IntersectionObserver' in window) {
 } else {
   revealEls.forEach((el) => el.classList.add('is-in'));
 }
+
+/* ---------- Nút lên đầu trang ---------- */
+const toTop = document.getElementById('toTop');
+if (toTop) {
+  const SHOW_AFTER = 900; // hiện sau khi cuộn qua chừng một màn hình rưỡi
+  const sync = () => { toTop.hidden = window.scrollY < SHOW_AFTER; };
+  window.addEventListener('scroll', sync, { passive: true });
+  sync();
+  toTop.addEventListener('click', () => {
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+  });
+}

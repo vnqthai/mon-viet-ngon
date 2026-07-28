@@ -47,14 +47,23 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
           <Icon name="search" />
           <input
             type="search" id="q" autocomplete="off" spellcheck="false"
-            placeholder="Tìm món hoặc nguyên liệu — gõ “ca kho” cũng ra “cá kho”"
+            placeholder="Tìm món hoặc nguyên liệu…"
             aria-label="Tìm món hoặc nguyên liệu"
           />
           <button type="button" id="qClear" class="finder__clear" aria-label="Xóa ô tìm kiếm" hidden>
             <Icon name="close" />
           </button>
         </div>
+        <p class="finder__hint">Gõ không dấu cũng ra — “ca kho” tìm thấy “cá kho tộ”.</p>
 
+        <!-- Trên điện thoại, ba hàng chip gộp vào một bảng đóng/mở: kệ cuộn ngang
+             thì bộ lọc nằm ngoài màn hình, mà cái gì không thấy thì không ai bấm. -->
+        <button type="button" id="filterToggle" class="finder__toggle" aria-expanded="false" aria-controls="finderAxes">
+          <span>Lọc món</span>
+          <span class="finder__toggle__n num" id="filterCount" hidden></span>
+        </button>
+
+        <div class="finder__axes" id="finderAxes">
         <div class="shelf" role="group" aria-label="Lọc theo kiểu món">
           <span class="shelf__label">Kiểu món</span>
           <div class="shelf__rail">
@@ -75,6 +84,7 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
             <button class="chip is-active" data-f="region" data-v="all" type="button">Tất cả</button>
             {regions.map((r) => <button class="chip" data-f="region" data-v={r} type="button">{r}</button>)}
           </div>
+        </div>
         </div>
 
         <p class="finder__count" aria-live="polite">
@@ -109,6 +119,9 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
   const reset = document.getElementById('reset') as HTMLButtonElement | null;
   const q = document.getElementById('q') as HTMLInputElement | null;
   const qClear = document.getElementById('qClear') as HTMLButtonElement | null;
+  const toggle = document.getElementById('filterToggle');
+  const axes = document.getElementById('finderAxes');
+  const fCount = document.getElementById('filterCount');
 
   const state: Record<string, string> = { cat: 'all', occ: 'all', region: 'all' };
   let query = '';
@@ -164,6 +177,9 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
     if (query) bits.push(`“${q?.value.trim()}”`);
     if (cntWhy) cntWhy.textContent = bits.length ? ' — ' + bits.join(' · ') : '';
     if (reset) reset.hidden = bits.length === 0;
+    // Nút "Lọc món" mang theo số bộ lọc đang bật, để đóng bảng lại vẫn biết
+    const nAxis = ['cat', 'occ', 'region'].filter((a) => state[a] !== 'all').length;
+    if (fCount) { fCount.textContent = String(nAxis); fCount.hidden = nAxis === 0; }
     if (empty) empty.classList.toggle('is-show', shown === 0);
     if (qClear) qClear.hidden = query === '';
     syncUrl();
@@ -192,7 +208,18 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
     apply();
   });
 
+  toggle?.addEventListener('click', () => {
+    const open = axes?.classList.toggle('is-open') ?? false;
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+
   readUrl();
+  // Vào trang từ liên kết đã lọc sẵn thì mở bảng ra, không thì người dùng
+  // thấy danh sách ngắn mà không hiểu vì sao.
+  if (['cat', 'occ', 'region'].some((a) => state[a] !== 'all')) {
+    axes?.classList.add('is-open');
+    toggle?.setAttribute('aria-expanded', 'true');
+  }
   apply();
 </script>
 </Base>

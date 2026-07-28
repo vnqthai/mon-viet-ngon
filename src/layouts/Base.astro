@@ -104,6 +104,11 @@ const ogImageAbs = new URL(ogImage, Astro.site).href;
     <span id="toastMsg"></span>
   </div>
 
+  <!-- Trang danh mục và trang món đều dài, cuộn tay về đầu thì mỏi -->
+  <button type="button" class="totop" id="toTop" aria-label="Lên đầu trang" hidden>
+    <Icon name="arrow-up" />
+  </button>
+
   <script src="../scripts/site.js"></script>
 </body>
 </html>

@@ -173,6 +173,22 @@ section[id]{scroll-margin-top:80px}
 .toast.is-show{transform:translate(-50%,0)}
 .toast svg{width:20px;height:20px;color:var(--gold);flex:none}
 
+/* ---------- Nút lên đầu trang ---------- */
+.totop{
+  position:fixed;right:20px;bottom:20px;z-index:60;
+  display:grid;place-items:center;width:46px;height:46px;border-radius:50%;
+  border:1.5px solid var(--line);background:var(--card);color:var(--ink);
+  box-shadow:var(--shadow);
+  transition:transform .16s, border-color .16s, box-shadow .16s;
+}
+.totop[hidden]{display:none}
+.totop:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:var(--shadow-lift)}
+.totop svg{width:20px;height:20px}
+/* Né thanh điều hướng dưới của trình duyệt điện thoại */
+@supports (padding:env(safe-area-inset-bottom)){
+  .totop{bottom:calc(20px + env(safe-area-inset-bottom))}
+}
+
 /* ---------- Chuyển động & in ---------- */
 @media (max-width:720px){
   .section{padding:64px 0}
@@ -187,7 +203,7 @@ section[id]{scroll-margin-top:80px}
   .reveal{opacity:1;transform:none}
 }
 @media print{
-  .site-head,.ticker,.checker,.toast,.site-foot__nav{display:none !important}
+  .site-head,.ticker,.checker,.toast,.site-foot__nav,.totop{display:none !important}
   body{background:#fff;color:#000;font-size:11pt}
   .section{padding:20pt 0}
   .tip{box-shadow:none;border:1px solid #bbb;break-inside:avoid}
