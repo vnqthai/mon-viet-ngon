@@ -61,10 +61,29 @@ const recipes = defineCollection({
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Tây Bắc', 'Tây Nguyên', 'Cả nước']),
     category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Món sợi']),
     // Category dự kiến mở thêm khi đủ món: 'Bánh' (3+ món bánh), 'Cháo'
-    // Theo dịp / đối tượng — một món gắn được nhiều nhãn, để lọc ở /mon/
+    // Theo dịp / đối tượng — một món gắn được nhiều nhãn, để lọc ở /mon/.
+    // MỌI MÓN PHẢI CÓ ÍT NHẤT 1 NHÃN: để trống thì món đó biến mất khỏi cả trục
+    // lọc này, kể cả những món chủ lực của trang.
     occasions: z
-      .array(z.enum(['Nhậu lai rai', 'Ăn chơi', 'Đãi khách', 'Cho bé']))
+      .array(z.enum([
+        'Cơm nhà',      // món dọn cùng cơm trắng trong bữa cơm gia đình
+        'Bữa sáng',     // món điểm tâm, ăn hàng buổi sáng
+        'Đãi khách',    // món đãi tiệc, nồi lớn — KHÔNG dùng cho món ăn hàng thường ngày
+        'Nhậu lai rai',
+        'Ăn chơi',
+        'Cho bé',
+        'Cỗ Tết',       // mâm cỗ Tết – giỗ chạp
+      ]))
+      .min(1)
       .default([]),
+    // Ngày đăng lần đầu — ĐẶT MỘT LẦN RỒI KHÔNG ĐỔI. Dùng cho datePublished
+    // trong JSON-LD và để sắp thứ tự RSS sau này.
+    pubDate: z.coerce.date().optional(),
+    // Ngày sửa nội dung — chỉ đổi khi sửa có nghĩa (đổi định lượng, đổi bước,
+    // sửa sai công thức). Sửa chính tả hay chỉnh câu chữ thì để yên, không thì
+    // RSS và Google tưởng bài mới.
+    updatedDate: z.coerce.date().optional(),
+
     time: z.object({ total: z.string(), active: z.string().optional() }),
     servingsBase: z.number().default(4),
     difficulty: z.enum(['Dễ', 'Vừa', 'Kỳ công']),
@@ -79,6 +98,7 @@ const recipes = defineCollection({
         'pho-ga', 'hu-tieu', 'bun-thit-nuong', 'pho-kho', 'com-chien',
         'goi-xoai', 'goi-ga', 'ga-nuong', 'muc-xao', 'suon-ram',
         'ca-ri-ga', 'tom-rim', 'banh-cuon', 'trung-chung',
+        'goi-cuon', 'rau-muong',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

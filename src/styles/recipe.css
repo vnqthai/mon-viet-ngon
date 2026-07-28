@@ -2,13 +2,15 @@
    Trang món ăn: hero, bản nấu nhanh, nguyên liệu, các bước…
    ============================================================ */
 
-/* ---------- Hero ---------- */
+/* ---------- Hero ----------
+   --ground do trang món truyền vào theo HỌ MÓN; nơi nào không có (trang chủ,
+   trang bí quyết) thì rơi về --river xanh lá thương hiệu. */
 .hero{
   position:relative;overflow:hidden;
   background:
     radial-gradient(900px 500px at 80% -10%, rgba(224,163,46,.22), transparent 60%),
     radial-gradient(700px 420px at 8% 108%, rgba(201,112,42,.25), transparent 55%),
-    linear-gradient(168deg, var(--river) 0%, var(--river-deep) 100%);
+    linear-gradient(168deg, var(--ground, var(--river)) 0%, var(--ground-deep, var(--river-deep)) 100%);
   color:var(--hero-ink);
 }
 .hero__inner{
@@ -75,7 +77,7 @@
 .quick{padding:64px 0 76px}
 .quick__card{
   position:relative;overflow:hidden;
-  background:linear-gradient(160deg, var(--river) 0%, var(--river-deep) 100%);
+  background:linear-gradient(160deg, var(--ground, var(--river)) 0%, var(--ground-deep, var(--river-deep)) 100%);
   color:var(--hero-ink);border-radius:22px;box-shadow:var(--shadow-lift);
   padding:34px 36px 30px;
 }
@@ -332,7 +334,7 @@
 .serve__text p{margin-bottom:1em}
 .serve__text b{color:var(--broth)}
 .mam-card{
-  background:linear-gradient(160deg, var(--river) 0%, var(--river-deep) 100%);
+  background:linear-gradient(160deg, var(--ground, var(--river)) 0%, var(--ground-deep, var(--river-deep)) 100%);
   color:var(--hero-ink);border-radius:var(--radius);padding:30px;box-shadow:var(--shadow-lift);
   position:relative;overflow:hidden;
 }
@@ -425,3 +427,10 @@
   .faq details{page-break-inside:avoid}
   .faq details > .faq__a{display:block !important}
 }
+
+/* Dòng ngày cuối bài — thông tin phụ, để cuối và để nhỏ */
+.publine{
+  max-width:1080px;margin:0 auto;padding:0 24px 56px;
+  font-size:.82rem;color:var(--muted);text-align:center;
+}
+@media print{ .publine{display:none} }

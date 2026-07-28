@@ -20,7 +20,13 @@
 
   <!-- thân tộ đất -->
   <path d="M92 262 C 96 356 168 416 260 416 C 352 416 424 356 428 262 Z" fill="url(#ckBody)"/>
+  <!-- Viền sáng: tộ đất nâu đặt trên nền nâu của họ "Mặn đưa cơm" thì mất
+       đường bao. Đây là tộ to và tối nhất trong nhóm nên cần thêm viền riêng,
+       ngoài quầng sáng chung đã có ở --art-halo. -->
+  <path d="M92 262 C 96 356 168 416 260 416 C 352 416 424 356 428 262"
+        fill="none" stroke="#E9B778" stroke-width="3" stroke-linecap="round" opacity=".5"/>
   <ellipse cx="260" cy="262" rx="168" ry="38" fill="#5E3A1B"/>
+  <ellipse cx="260" cy="262" rx="168" ry="38" fill="none" stroke="#F0C48D" stroke-width="3.2" opacity=".7"/>
   <ellipse cx="260" cy="258" rx="150" ry="31" fill="url(#ckSauce)"/>
   <path d="M88 258 q-26 -6 -30 -26" fill="none" stroke="#8A5730" stroke-width="16" stroke-linecap="round"/>
   <path d="M432 258 q26 -6 30 -26" fill="none" stroke="#8A5730" stroke-width="16" stroke-linecap="round"/>

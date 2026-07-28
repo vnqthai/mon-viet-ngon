@@ -1,16 +1,31 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 import ComingSoon from '../../components/ComingSoon.astro';
 import RecipeCard from '../../components/RecipeCard.astro';
 
 const recipes = (await getCollection('recipes')).sort(
   (a, b) => a.data.order - b.data.order
 );
-const categories = [...new Set(recipes.map((r) => r.data.category))];
-const regions = [...new Set(recipes.map((r) => r.data.region))];
-const OCC_ORDER = ['Nhậu lai rai', 'Ăn chơi', 'Đãi khách', 'Cho bé'];
-const occasions = OCC_ORDER.filter((o) => recipes.some((r) => r.data.occasions.includes(o as any)));
+
+// Thứ tự chip cố định, không để phụ thuộc thứ tự món — thêm món mới không làm
+// hàng lọc nhảy lung tung.
+const CAT_ORDER = ['Món nước', 'Món sợi', 'Bún trộn', 'Canh', 'Lẩu', 'Cháo',
+  'Kho', 'Xào', 'Hấp', 'Cơm', 'Bánh', 'Chiên', 'Nướng', 'Cuốn', 'Gỏi'];
+const OCC_ORDER = ['Cơm nhà', 'Bữa sáng', 'Đãi khách', 'Nhậu lai rai', 'Ăn chơi', 'Cho bé', 'Cỗ Tết'];
+const REGION_ORDER = ['Miền Bắc', 'Miền Trung', 'Miền Nam', 'Miền Tây',
+  'Tây Bắc', 'Tây Nguyên', 'Cả nước'];
+
+const has = (list: string[], pick: (r: any) => string | string[]) =>
+  list.filter((v) => recipes.some((r) => {
+    const got = pick(r);
+    return Array.isArray(got) ? got.includes(v) : got === v;
+  }));
+
+const categories = has(CAT_ORDER, (r) => r.data.category);
+const occasions = has(OCC_ORDER, (r) => r.data.occasions);
+const regions = has(REGION_ORDER, (r) => r.data.region);
 ---
 <Base
   title="Món ngon — Món Việt Ngon"
@@ -24,36 +39,56 @@ const occasions = OCC_ORDER.filter((o) => recipes.some((r) => r.data.occasions.i
       <h2 class="reveal">Kho món ngon <span class="accent">chuẩn vị Việt</span></h2>
       <p class="section__lead reveal">
         Món nào cũng có bản nấu nhanh, giỏ đi chợ tự tính khẩu phần và đồng hồ
-        đếm giờ ngay trong trang. Lọc theo kiểu món hoặc theo miền cho lẹ.
+        đếm giờ ngay trong trang. Gõ tên món, tên nguyên liệu, hay lọc cho lẹ.
       </p>
 
-      <div class="filter-bar reveal" role="group" aria-label="Lọc theo kiểu món">
-        <span class="filter-bar__label">Kiểu món</span>
-        <button class="filter-chip is-active" data-filter-cat="all" type="button">Tất cả</button>
-        {categories.map((c) => (
-          <button class="filter-chip" data-filter-cat={c} type="button">{c}</button>
-        ))}
-      </div>
-      <div class="filter-bar reveal" role="group" aria-label="Lọc theo dịp">
-        <span class="filter-bar__label">Theo dịp</span>
-        <button class="filter-chip is-active" data-filter-occ="all" type="button">Tất cả</button>
-        {occasions.map((o) => (
-          <button class="filter-chip" data-filter-occ={o} type="button">{o}</button>
-        ))}
-      </div>
-      <div class="filter-bar filter-bar--last reveal" role="group" aria-label="Lọc theo miền">
-        <span class="filter-bar__label">Miền</span>
-        <button class="filter-chip is-active" data-filter-region="all" type="button">Cả nước</button>
-        {regions.filter((r) => r !== 'Cả nước').map((r) => (
-          <button class="filter-chip" data-filter-region={r} type="button">{r}</button>
-        ))}
+      <div class="finder reveal">
+        <div class="finder__search">
+          <Icon name="search" />
+          <input
+            type="search" id="q" autocomplete="off" spellcheck="false"
+            placeholder="Tìm món hoặc nguyên liệu — gõ “ca kho” cũng ra “cá kho”"
+            aria-label="Tìm món hoặc nguyên liệu"
+          />
+          <button type="button" id="qClear" class="finder__clear" aria-label="Xóa ô tìm kiếm" hidden>
+            <Icon name="close" />
+          </button>
+        </div>
+
+        <div class="shelf" role="group" aria-label="Lọc theo kiểu món">
+          <span class="shelf__label">Kiểu món</span>
+          <div class="shelf__rail">
+            <button class="chip is-active" data-f="cat" data-v="all" type="button">Tất cả</button>
+            {categories.map((c) => <button class="chip" data-f="cat" data-v={c} type="button">{c}</button>)}
+          </div>
+        </div>
+        <div class="shelf" role="group" aria-label="Lọc theo dịp">
+          <span class="shelf__label">Theo dịp</span>
+          <div class="shelf__rail">
+            <button class="chip is-active" data-f="occ" data-v="all" type="button">Tất cả</button>
+            {occasions.map((o) => <button class="chip" data-f="occ" data-v={o} type="button">{o}</button>)}
+          </div>
+        </div>
+        <div class="shelf" role="group" aria-label="Lọc theo miền">
+          <span class="shelf__label">Miền</span>
+          <div class="shelf__rail">
+            <button class="chip is-active" data-f="region" data-v="all" type="button">Tất cả</button>
+            {regions.map((r) => <button class="chip" data-f="region" data-v={r} type="button">{r}</button>)}
+          </div>
+        </div>
+
+        <p class="finder__count" aria-live="polite">
+          <b class="num" id="cnt">{recipes.length}</b> món
+          <span id="cntWhy"></span>
+          <button type="button" id="reset" class="finder__reset" hidden>bỏ hết lọc</button>
+        </p>
       </div>
 
       <div class="rcard-grid" id="recipeGrid">
         {recipes.map((r) => <RecipeCard recipe={r} />)}
       </div>
       <div class="filter-empty" id="filterEmpty">
-        Chưa có món nào khớp bộ lọc này — thử nới bớt một tiêu chí nghen!
+        Chưa có món nào khớp — thử nới bớt một tiêu chí, hoặc gõ tên nguyên liệu xem sao.
       </div>
 
       <ComingSoon />
@@ -62,52 +97,102 @@ const occasions = OCC_ORDER.filter((o) => recipes.some((r) => r.data.occasions.i
 </main>
 
 <script>
-  const catBtns = [...document.querySelectorAll('[data-filter-cat]')];
-  const occBtns = [...document.querySelectorAll('[data-filter-occ]')];
-  const regionBtns = [...document.querySelectorAll('[data-filter-region]')];
-  const cards = [...document.querySelectorAll('#recipeGrid .rcard')];
+  // Bỏ dấu y như utils/search.ts. NFD KHÔNG tách được đ/Đ nên phải thay tay.
+  const deaccent = (s: string) =>
+    s.normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase();
+
+  const cards = [...document.querySelectorAll<HTMLElement>('#recipeGrid .rcard')];
   const empty = document.getElementById('filterEmpty');
-  let cat = 'all';
-  let occ = 'all';
-  let region = 'all';
+  const cnt = document.getElementById('cnt');
+  const cntWhy = document.getElementById('cntWhy');
+  const reset = document.getElementById('reset') as HTMLButtonElement | null;
+  const q = document.getElementById('q') as HTMLInputElement | null;
+  const qClear = document.getElementById('qClear') as HTMLButtonElement | null;
+
+  const state: Record<string, string> = { cat: 'all', occ: 'all', region: 'all' };
+  let query = '';
+
+  // Bộ lọc phản chiếu vào URL: trang chủ trỏ thẳng vào /mon/?dip=Bữa sáng được,
+  // và người dùng lưu / gửi lại đường dẫn thì vẫn ra đúng cái đang xem.
+  const PARAM: Record<string, string> = { cat: 'kieu', occ: 'dip', region: 'mien' };
+
+  function syncUrl() {
+    const p = new URLSearchParams();
+    for (const axis of ['cat', 'occ', 'region']) {
+      if (state[axis] !== 'all') p.set(PARAM[axis], state[axis]);
+    }
+    const raw = q?.value.trim();
+    if (raw) p.set('q', raw);
+    const qs = p.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+  }
+
+  function readUrl() {
+    const p = new URLSearchParams(location.search);
+    for (const axis of ['cat', 'occ', 'region']) {
+      const v = p.get(PARAM[axis]);
+      if (v) state[axis] = v;
+    }
+    const raw = p.get('q');
+    if (raw && q) { q.value = raw; query = deaccent(raw.trim()); }
+    for (const b of document.querySelectorAll<HTMLElement>('[data-f]')) {
+      b.classList.toggle('is-active', b.dataset.v === state[b.dataset.f!]);
+    }
+  }
 
   function apply() {
     let shown = 0;
-    cards.forEach((card) => {
-      const cardOccs = (card.dataset.occasions || '').split('|');
+    for (const card of cards) {
+      const occs = (card.dataset.occasions || '').split('|');
       const ok =
-        (cat === 'all' || card.dataset.category === cat) &&
-        (occ === 'all' || cardOccs.includes(occ)) &&
-        (region === 'all' || card.dataset.region === region || card.dataset.region === 'Cả nước');
-      card.style.display = ok ? '' : 'none';
+        (state.cat === 'all' || card.dataset.category === state.cat) &&
+        (state.occ === 'all' || occs.includes(state.occ)) &&
+        // Món "Cả nước" là một miền như mọi miền khác — KHÔNG hiện ở mọi bộ lọc
+        // nữa, trước đây làm vậy nên lọc "Miền Bắc" lại lẫn cả chục món khác.
+        (state.region === 'all' || card.dataset.region === state.region) &&
+        (query === '' || (card.dataset.search || '').includes(query));
+      card.hidden = !ok;
       if (ok) shown++;
-    });
+    }
+
+    if (cnt) cnt.textContent = String(shown);
+    const bits: string[] = [];
+    if (state.cat !== 'all') bits.push(state.cat);
+    if (state.occ !== 'all') bits.push(state.occ);
+    if (state.region !== 'all') bits.push(state.region);
+    if (query) bits.push(`“${q?.value.trim()}”`);
+    if (cntWhy) cntWhy.textContent = bits.length ? ' — ' + bits.join(' · ') : '';
+    if (reset) reset.hidden = bits.length === 0;
     if (empty) empty.classList.toggle('is-show', shown === 0);
+    if (qClear) qClear.hidden = query === '';
+    syncUrl();
   }
-  // Bấm chip đang chọn lần nữa = bỏ chọn, quay về "Tất cả"/"Cả nước"
-  catBtns.forEach((b) =>
-    b.addEventListener('click', () => {
-      const next = b.dataset.filterCat;
-      cat = cat === next && next !== 'all' ? 'all' : next;
-      catBtns.forEach((x) => x.classList.toggle('is-active', x.dataset.filterCat === cat));
+
+  // Bấm lại chip đang chọn = bỏ chọn, quay về "Tất cả"
+  for (const btn of document.querySelectorAll<HTMLElement>('[data-f]')) {
+    btn.addEventListener('click', () => {
+      const axis = btn.dataset.f!, val = btn.dataset.v!;
+      state[axis] = state[axis] === val && val !== 'all' ? 'all' : val;
+      for (const b of document.querySelectorAll<HTMLElement>(`[data-f="${axis}"]`)) {
+        b.classList.toggle('is-active', b.dataset.v === state[axis]);
+      }
       apply();
-    })
-  );
-  occBtns.forEach((b) =>
-    b.addEventListener('click', () => {
-      const next = b.dataset.filterOcc;
-      occ = occ === next && next !== 'all' ? 'all' : next;
-      occBtns.forEach((x) => x.classList.toggle('is-active', x.dataset.filterOcc === occ));
-      apply();
-    })
-  );
-  regionBtns.forEach((b) =>
-    b.addEventListener('click', () => {
-      const next = b.dataset.filterRegion;
-      region = region === next && next !== 'all' ? 'all' : next;
-      regionBtns.forEach((x) => x.classList.toggle('is-active', x.dataset.filterRegion === region));
-      apply();
-    })
-  );
+    });
+  }
+
+  q?.addEventListener('input', () => { query = deaccent(q.value.trim()); apply(); });
+  qClear?.addEventListener('click', () => { if (q) q.value = ''; query = ''; apply(); q?.focus(); });
+  reset?.addEventListener('click', () => {
+    state.cat = state.occ = state.region = 'all';
+    query = ''; if (q) q.value = '';
+    for (const b of document.querySelectorAll<HTMLElement>('[data-f]')) {
+      b.classList.toggle('is-active', b.dataset.v === 'all');
+    }
+    apply();
+  });
+
+  readUrl();
+  apply();
 </script>
 </Base>

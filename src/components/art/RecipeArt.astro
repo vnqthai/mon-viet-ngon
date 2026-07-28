@@ -33,6 +33,8 @@ import ArtCaRiGa from './ArtCaRiGa.astro';
 import ArtTomRim from './ArtTomRim.astro';
 import ArtBanhCuon from './ArtBanhCuon.astro';
 import ArtTrungChung from './ArtTrungChung.astro';
+import ArtGoiCuon from './ArtGoiCuon.astro';
+import ArtRauMuong from './ArtRauMuong.astro';
 import ArtBowl from './ArtBowl.astro';
 import ArtClaypot from './ArtClaypot.astro';
 import ArtPlate from './ArtPlate.astro';
@@ -88,6 +90,8 @@ const kind = art ?? byCategory[category] ?? 'bowl';
 {kind === 'tom-rim' && <ArtTomRim />}
 {kind === 'banh-cuon' && <ArtBanhCuon />}
 {kind === 'trung-chung' && <ArtTrungChung />}
+{kind === 'goi-cuon' && <ArtGoiCuon />}
+{kind === 'rau-muong' && <ArtRauMuong />}
 {kind === 'bowl' && <ArtBowl />}
 {kind === 'claypot' && <ArtClaypot />}
 {kind === 'plate' && <ArtPlate />}

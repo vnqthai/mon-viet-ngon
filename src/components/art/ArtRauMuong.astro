@@ -1,0 +1,127 @@
+---
+/* Rau muống xào tỏi — bản 2.
+   Bài học bản 1: vẽ cọng NGẮN MẬP rời nhau + lá thưa thì ra "đậu que xào".
+   Chữ ký thật của rau muống là ĐỐNG RỐI: cọng DÀI cong vắt chéo lên nhau,
+   xen lá mũi mác to bản. Lỗ rỗng ruột chỉ là chi tiết điểm ở vài đầu cọng —
+   ở cỡ thẻ nó quá nhỏ để làm tín hiệu chính.
+   id prefix: rm */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa rau muống xào tỏi, cọng dài cong vắt chéo và lá mũi mác, rắc tỏi phi">
+  <defs>
+    <linearGradient id="rmMound" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4E7B36"/><stop offset="1" stop-color="#33511F"/>
+    </linearGradient>
+    <linearGradient id="rmLeaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5C8A3C"/><stop offset="1" stop-color="#3A5E26"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M222 218 C 211 194 237 178 226 152 C 219 136 233 124 229 110"/>
+    <path d="M292 212 C 282 188 308 174 297 148 C 290 132 304 120 300 106"/>
+  </g>
+  <ellipse cx="260" cy="400" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa -->
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="338" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="338" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="340" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- đống rau: khối nền cho có thể tích, rồi mới đắp cọng và lá lên -->
+  <ellipse cx="258" cy="312" rx="150" ry="52" fill="url(#rmMound)"/>
+
+  <!-- lá lớp sau, nhô lên khỏi đống -->
+  <g stroke="#2A4A19" stroke-width="1.8">
+    <path d="M150 296 C 158 262 182 240 208 234 C 202 268 184 292 160 302 C 152 305 148 302 150 296 Z" fill="url(#rmLeaf)"/>
+    <path d="M240 276 C 246 242 268 220 294 214 C 290 248 274 272 250 282 C 242 285 238 282 240 276 Z" fill="url(#rmLeaf)"/>
+    <path d="M330 292 C 334 260 354 238 380 232 C 378 266 362 288 340 298 C 332 301 328 298 330 292 Z" fill="url(#rmLeaf)"/>
+  </g>
+  <g fill="none" stroke="#8FBF4D" stroke-width="2.2" stroke-linecap="round" opacity=".8">
+    <path d="M158 298 C 172 278 188 258 206 238"/>
+    <path d="M248 278 C 262 258 278 238 292 218"/>
+    <path d="M338 294 C 350 274 364 254 378 236"/>
+  </g>
+
+  <!-- CỌNG DÀI CONG vắt chéo — mỗi cọng: viền sẫm dưới, ruột sáng trên -->
+  <g stroke-linecap="round" fill="none">
+    <g stroke="#3E6428" stroke-width="19">
+      <path d="M126 330 C 178 300 246 292 306 306"/>
+      <path d="M186 352 C 244 326 316 322 372 340"/>
+      <path d="M154 306 C 206 282 268 276 318 286"/>
+      <path d="M228 336 C 282 314 342 312 388 326"/>
+      <path d="M138 348 C 180 336 224 336 262 346"/>
+    </g>
+    <g stroke="#9CC463" stroke-width="13">
+      <path d="M126 330 C 178 300 246 292 306 306"/>
+      <path d="M186 352 C 244 326 316 322 372 340"/>
+      <path d="M154 306 C 206 282 268 276 318 286"/>
+      <path d="M228 336 C 282 314 342 312 388 326"/>
+      <path d="M138 348 C 180 336 224 336 262 346"/>
+    </g>
+    <g stroke="#CDE6A4" stroke-width="3.4" opacity=".75">
+      <path d="M140 326 C 186 300 244 294 298 305"/>
+      <path d="M198 348 C 250 326 314 322 364 337"/>
+      <path d="M166 303 C 212 282 266 278 312 286"/>
+    </g>
+  </g>
+  <!-- lỗ rỗng ruột ở đầu vài cọng (chi tiết điểm) -->
+  <g fill="#2A4A19" stroke="#5F8A3E" stroke-width="1.6">
+    <ellipse cx="306" cy="306" rx="4.6" ry="8" transform="rotate(14 306 306)"/>
+    <ellipse cx="372" cy="340" rx="4.4" ry="7.6" transform="rotate(18 372 340)"/>
+    <ellipse cx="126" cy="330" rx="4.4" ry="7.6" transform="rotate(-24 126 330)"/>
+  </g>
+
+  <!-- lá lớp trước nằm rạp trên cọng -->
+  <g stroke="#2A4A19" stroke-width="1.8">
+    <path d="M196 330 C 220 310 254 304 278 312 C 256 332 226 342 202 340 C 194 339 192 334 196 330 Z" fill="url(#rmLeaf)"/>
+    <path d="M296 350 C 320 334 350 330 370 338 C 350 356 322 364 300 360 C 292 359 292 353 296 350 Z" fill="url(#rmLeaf)"/>
+    <path d="M146 342 C 164 330 188 328 202 334 C 186 348 164 354 148 350 C 142 349 142 345 146 342 Z" fill="url(#rmLeaf)"/>
+  </g>
+  <g fill="none" stroke="#8FBF4D" stroke-width="2.2" stroke-linecap="round" opacity=".8">
+    <path d="M204 334 C 228 322 252 314 274 312"/>
+    <path d="M304 352 C 326 344 348 338 366 338"/>
+  </g>
+
+  <!-- tỏi phi vàng rải mặt -->
+  <g fill="#EFC163" stroke="#C9902D" stroke-width="1.5">
+    <ellipse cx="222" cy="316" rx="6.4" ry="4.6" transform="rotate(-14 222 316)"/>
+    <ellipse cx="288" cy="332" rx="6" ry="4.4" transform="rotate(20 288 332)"/>
+    <ellipse cx="186" cy="340" rx="5.4" ry="4" transform="rotate(-8 186 340)"/>
+    <ellipse cx="340" cy="344" rx="5.8" ry="4.2" transform="rotate(12 340 344)"/>
+    <ellipse cx="256" cy="300" rx="5" ry="3.8" transform="rotate(-24 256 300)"/>
+    <ellipse cx="318" cy="312" rx="5.2" ry="3.8" transform="rotate(6 318 312)"/>
+    <ellipse cx="164" cy="316" rx="4.8" ry="3.6" transform="rotate(16 164 316)"/>
+  </g>
+
+  <!-- ánh sốt bóng -->
+  <g fill="none" stroke="#F6F1E1" stroke-width="3.2" stroke-linecap="round" opacity=".45">
+    <path d="M172 330 L 190 320"/>
+    <path d="M330 328 L 348 320"/>
+  </g>
+
+  <!-- ớt lát -->
+  <g>
+    <g transform="translate(240 348)"><circle r="5.4" fill="#D64B33" stroke="#A83722" stroke-width="1.6"/><circle r="2.2" fill="#F28C6E"/></g>
+    <g transform="translate(352 306)"><circle r="4.6" fill="#D64B33" stroke="#A83722" stroke-width="1.5"/><circle r="2" fill="#F28C6E"/></g>
+  </g>
+
+  <!-- đạo cụ: củ tỏi + vài tép trên bàn -->
+  <g transform="translate(452 386)">
+    <ellipse cx="0" cy="26" rx="34" ry="9" fill="rgba(15,26,14,.3)"/>
+    <path d="M-26 6 C -26 -14 -14 -26 0 -26 C 14 -26 26 -14 26 6 C 26 18 14 24 0 24 C -14 24 -26 18 -26 6 Z"
+          fill="#F3EBD3" stroke="#C9B98E" stroke-width="2.2"/>
+    <g fill="none" stroke="#CFC098" stroke-width="1.8" stroke-linecap="round">
+      <path d="M-13 -20 C -16 -6 -16 8 -12 20"/>
+      <path d="M0 -25 C -2 -8 -2 8 0 23"/>
+      <path d="M13 -20 C 16 -6 16 8 12 20"/>
+    </g>
+    <path d="M0 -26 C 2 -34 6 -38 10 -38" fill="none" stroke="#B8A87E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="#F3EBD3" stroke="#C9B98E" stroke-width="2">
+    <path d="M52 388 C 56 378 66 376 71 382 C 76 388 73 398 65 400 C 56 402 48 396 52 388 Z"/>
+    <path d="M76 402 C 79 395 87 393 91 398 C 95 403 92 411 85 412 C 78 413 73 408 76 402 Z"/>
+  </g>
+</svg>

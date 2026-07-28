@@ -1,0 +1,139 @@
+---
+/* Gỏi cuốn tôm thịt — bản 3.
+   Bản 1: cuốn nhỏ, dồn thấp → món lọt thỏm.
+   Bản 2: phóng to rồi nhưng CUỐN TRẮNG NẰM TRÊN DĨA KEM thì chìm — đúng bài học
+   đã gặp ở tôm rim nước cốt dừa: đồ trắng trên dĩa kem phải có lớp đậm màu lót dưới.
+   Bản này: giường xà lách xanh đậm đỡ trọn hai cuốn, viền bánh tráng đậm hơn,
+   tôm hồng to rõ, cọng HẸ ló ra dài — chữ ký phân biệt với chả giò.
+   Món NGUỘI → không vẽ khói. id prefix: gc */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa gỏi cuốn tôm thịt trên giường xà lách, cọng hẹ ló ra, một cuốn cắt đôi, kèm chén tương đậu phộng">
+  <defs>
+    <linearGradient id="gcPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF8EB"/><stop offset="1" stop-color="#E8DABA"/>
+    </linearGradient>
+    <linearGradient id="gcBed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5C8A3C"/><stop offset="1" stop-color="#3A5E26"/>
+    </linearGradient>
+    <linearGradient id="gcTuong" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8A4A1E"/><stop offset="1" stop-color="#5E2F10"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="260" cy="400" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa -->
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="344" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- GIƯỜNG XÀ LÁCH xanh đậm — lớp lót để cuốn trắng không chìm vào dĩa kem.
+       Cố ý để HẸP hơn lòng dĩa: phải chừa một vành kem thấy rõ, không thì
+       dĩa lại chìm vào nền xanh của họ "Cuốn & trộn" — đổi một lỗi lấy một lỗi. -->
+  <ellipse cx="258" cy="306" rx="130" ry="42" fill="url(#gcBed)"/>
+  <g fill="#6F9C48">
+    <ellipse cx="176" cy="290" rx="42" ry="20" transform="rotate(-16 176 290)"/>
+    <ellipse cx="342" cy="318" rx="44" ry="20" transform="rotate(14 342 318)"/>
+    <ellipse cx="260" cy="276" rx="48" ry="17" transform="rotate(-4 260 276)"/>
+  </g>
+  <g fill="none" stroke="#8FBF4D" stroke-width="2.2" stroke-linecap="round" opacity=".8">
+    <path d="M146 296 C 170 284 196 280 218 282"/>
+    <path d="M308 322 C 334 312 362 308 384 310"/>
+    <path d="M218 274 C 244 266 274 266 298 272"/>
+  </g>
+
+  <!-- ===== CUỐN 1 (lớp sau) ===== -->
+  <g transform="rotate(-7 190 262)">
+    <g fill="none" stroke="#357029" stroke-width="7.5" stroke-linecap="round">
+      <path d="M284 252 C 316 242 346 244 368 256"/>
+      <path d="M284 266 C 314 264 342 270 360 282"/>
+    </g>
+    <rect x="98" y="232" width="190" height="56" rx="28" fill="url(#gcPaper)" stroke="#BFA576" stroke-width="3.2"/>
+    <path d="M110 245 C 132 236 154 236 170 245 L 170 276 C 154 285 132 285 110 276 Z" fill="#A9C87C" opacity=".95"/>
+    <path d="M118 253 q16 -5 32 0 M118 270 q16 5 32 0" fill="none" stroke="#7DAF42" stroke-width="2.8" stroke-linecap="round"/>
+    <g stroke="#E6D7B4" stroke-width="3.2" stroke-linecap="round" fill="none">
+      <path d="M178 247 q18 5 36 0 M178 260 q18 5 36 0 M178 273 q18 5 36 0"/>
+    </g>
+    <g transform="translate(216 242)">
+      <path d="M0 8 C 2 1 10 -3 20 -3 C 30 -3 38 1 40 8 L 40 27 C 38 33 30 36 20 36 C 10 36 2 33 0 27 Z"
+            fill="#F8F0E2" stroke="#CDB68C" stroke-width="2.2"/>
+      <path d="M1 7 C 5 0 12 -2 20 -2 C 28 -2 35 0 39 7" fill="none" stroke="#E7CF97" stroke-width="5.4" stroke-linecap="round"/>
+    </g>
+    <!-- TÔM chẻ đôi ép sát mặt bánh tráng -->
+    <g transform="translate(258 242)">
+      <path d="M0 6 C 1 -5 10 -11 21 -10 C 32 -9 38 0 37 12 C 36 24 26 32 15 30 C 6 28 0 19 0 6 Z"
+            fill="#EE7E6D" stroke="#C9513E" stroke-width="2.2"/>
+      <g stroke="#FCE4DA" stroke-width="3.2" stroke-linecap="round" fill="none">
+        <path d="M6 4 q12 5 22 -1 M5 13 q13 6 27 0 M7 23 q12 5 21 0"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===== CUỐN 2 (lớp trước) ===== -->
+  <g transform="rotate(6 306 314)">
+    <g fill="none" stroke="#357029" stroke-width="7.5" stroke-linecap="round">
+      <path d="M396 304 C 424 294 450 296 468 308"/>
+      <path d="M396 318 C 422 316 446 322 462 334"/>
+    </g>
+    <rect x="214" y="286" width="190" height="56" rx="28" fill="url(#gcPaper)" stroke="#BFA576" stroke-width="3.2"/>
+    <path d="M226 299 C 248 290 270 290 286 299 L 286 330 C 270 339 248 339 226 330 Z" fill="#A9C87C" opacity=".95"/>
+    <path d="M234 307 q16 -5 32 0 M234 324 q16 5 32 0" fill="none" stroke="#7DAF42" stroke-width="2.8" stroke-linecap="round"/>
+    <g stroke="#E6D7B4" stroke-width="3.2" stroke-linecap="round" fill="none">
+      <path d="M294 301 q18 5 36 0 M294 314 q18 5 36 0 M294 327 q18 5 36 0"/>
+    </g>
+    <g transform="translate(332 296)">
+      <path d="M0 8 C 2 1 10 -3 20 -3 C 30 -3 38 1 40 8 L 40 27 C 38 33 30 36 20 36 C 10 36 2 33 0 27 Z"
+            fill="#F8F0E2" stroke="#CDB68C" stroke-width="2.2"/>
+      <path d="M1 7 C 5 0 12 -2 20 -2 C 28 -2 35 0 39 7" fill="none" stroke="#E7CF97" stroke-width="5.4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(374 296)">
+      <path d="M0 6 C 1 -5 10 -11 21 -10 C 32 -9 38 0 37 12 C 36 24 26 32 15 30 C 6 28 0 19 0 6 Z"
+            fill="#EE7E6D" stroke="#C9513E" stroke-width="2.2"/>
+      <g stroke="#FCE4DA" stroke-width="3.2" stroke-linecap="round" fill="none">
+        <path d="M6 4 q12 5 22 -1 M5 13 q13 6 27 0 M7 23 q12 5 21 0"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===== CUỐN CẮT ĐÔI dựng đứng ===== -->
+  <g transform="translate(410 254) rotate(-5)">
+    <ellipse cx="0" cy="42" rx="38" ry="10" fill="rgba(15,26,14,.3)"/>
+    <circle r="38" fill="url(#gcPaper)" stroke="#BFA576" stroke-width="3.2"/>
+    <circle r="29" fill="#F5ECD6"/>
+    <path d="M-20 -15 A 25 25 0 0 1 20 -15" fill="none" stroke="#EE7E6D" stroke-width="11" stroke-linecap="round"/>
+    <path d="M-16 -16 A 21 21 0 0 1 16 -16" fill="none" stroke="#FCE4DA" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+    <path d="M-21 3 C -16 -2 -5 -4 4 0 L 4 12 C -5 16 -16 14 -21 10 Z" fill="#F8F0E2" stroke="#CDB68C" stroke-width="1.8"/>
+    <circle cx="14" cy="9" r="8.6" fill="#A9C87C"/>
+    <circle cx="-9" cy="19" r="6.4" fill="#8FBF4D"/>
+    <g stroke="#E0CFA6" stroke-width="2.8" stroke-linecap="round" fill="none">
+      <path d="M5 19 q9 4 15 0 M-19 -3 q7 3 12 0"/>
+    </g>
+    <path d="M-27 -21 a 34 34 0 0 1 16 -13" fill="none" stroke="#FFFDF4" stroke-width="3.6" stroke-linecap="round" opacity=".8"/>
+  </g>
+
+  <!-- ===== chén tương đậu phộng ===== -->
+  <g>
+    <ellipse cx="100" cy="396" rx="48" ry="14" fill="rgba(15,26,14,.3)"/>
+    <path d="M58 376 C 60 400 74 412 100 412 C 126 412 140 400 142 376 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="100" cy="376" rx="42" ry="13" fill="url(#gcTuong)"/>
+    <ellipse cx="91" cy="374" rx="15" ry="5" fill="#A9713D" opacity=".8"/>
+    <g fill="#E9C989" stroke="#C29A4E" stroke-width="1.3">
+      <ellipse cx="87" cy="375" rx="4.4" ry="3.2"/><ellipse cx="107" cy="379" rx="4" ry="3"/>
+      <ellipse cx="118" cy="373" rx="3.4" ry="2.6"/><ellipse cx="98" cy="381" rx="3.2" ry="2.6"/>
+    </g>
+    <circle cx="124" cy="379" r="3.8" fill="none" stroke="#C94434" stroke-width="2.8"/>
+  </g>
+
+  <!-- đạo cụ: nhánh hẹ + đậu phộng trên bàn -->
+  <g fill="none" stroke="#357029" stroke-width="6" stroke-linecap="round">
+    <path d="M400 404 C 424 398 448 400 464 408"/>
+    <path d="M404 416 C 428 414 448 418 464 424"/>
+  </g>
+  <g fill="#E9C989" stroke="#C29A4E" stroke-width="1.7">
+    <ellipse cx="54" cy="316" rx="8" ry="6" transform="rotate(-18 54 316)"/>
+    <ellipse cx="72" cy="330" rx="6.6" ry="5" transform="rotate(10 72 330)"/>
+  </g>
+</svg>

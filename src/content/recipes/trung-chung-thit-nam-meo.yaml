@@ -6,12 +6,13 @@ summary: >-
   cay, nhà có con nít càng hợp.
 region: Cả nước
 category: Hấp
-occasions: [Cho bé]
+occasions: [Cho bé, Cơm nhà]
+pubDate: 2026-07-28
 time:
   total: 35 phút
 servingsBase: 4
 difficulty: Dễ
-featured: false
+featured: true
 order: 31
 art: trung-chung
 heroEyebrow: Mâm cơm chiều có con nít…

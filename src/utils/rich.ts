@@ -30,6 +30,18 @@ export function rich(src: string): string {
   return out;
 }
 
+/**
+ * Chỉ lấy TÊN MÓN từ title.
+ *
+ * title viết theo lối "Bún chả Hà Nội **chả cháy cạnh, nước chấm ấm thanh**" —
+ * phần trong ** là câu quảng cho hero, đặt lên thẻ món thì vừa dài vừa lặp ý
+ * với dòng tóm tắt ngay dưới. Thẻ chỉ cần cái tên.
+ */
+export function dishName(src: string): string {
+  const before = src.split('**')[0].trim().replace(/[,–—-]\s*$/, '');
+  return before || plain(src);
+}
+
 /** Bỏ hết markup, trả chuỗi trơn — dùng cho <title>, thẻ món, mô tả meta. */
 export function plain(src: string): string {
   return src

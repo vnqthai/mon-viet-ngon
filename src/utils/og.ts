@@ -14,6 +14,16 @@ const paytone = font('PaytoneOne-Regular.ttf');
 const beVietnam = font('BeVietnamPro-Regular.ttf');
 const beVietnamSemi = font('BeVietnamPro-SemiBold.ttf');
 
+/* Nền ảnh OG theo HỌ MÓN, khớp với nền thẻ ở tokens.css — chia sẻ lên mạng
+   xã hội thì cũng đọc ra được nhóm món, và ảnh khớp với trang khi bấm vào. */
+export const OG_FAMILY: Record<string, [string, string, string]> = {
+  nuoc: ['#143A42', '#235B66', '#2E7180'],
+  man:  ['#421C06', '#6E3512', '#8A4A1E'],
+  tron: ['#3B521C', '#5B7A2E', '#71953C'],
+  banh: ['#70530C', '#A8801A', '#C39724'],
+  lua:  ['#65241A', '#9A3D2B', '#B54E38'],
+};
+
 const C = {
   riverDeep: '#1F3D26',
   river: '#2C5234',
@@ -50,9 +60,15 @@ export interface OgCard {
   title: string;
   chips?: string[];
   subtitle?: string;
+  /** Họ món — quyết định màu nền. Bỏ trống thì dùng xanh lá thương hiệu. */
+  family?: string;
 }
 
-export async function renderOgCard({ title, chips = [], subtitle }: OgCard): Promise<Buffer> {
+export async function renderOgCard({ title, chips = [], subtitle, family }: OgCard): Promise<Buffer> {
+  const g = (family && OG_FAMILY[family]) || [C.riverDeep, C.river, '#375F41'];
+  // Nền họ "Cơm & bánh" chính là sắc vàng, nên chữ thương hiệu phải đổi sang
+  // kem — vàng trên vàng thì đọc được nhưng nhạt nhòa hẳn so với bốn họ kia.
+  const brandColor = family === 'banh' ? C.ink : C.gold;
   const titleSize = title.length <= 30 ? 84 : title.length <= 40 ? 72 : title.length <= 52 ? 62 : 54;
 
   const tree = h(
@@ -62,7 +78,7 @@ export async function renderOgCard({ title, chips = [], subtitle }: OgCard): Pro
         width: '100%', height: '100%',
         display: 'flex', flexDirection: 'column', position: 'relative',
         padding: '52px 72px 0',
-        background: `linear-gradient(135deg, ${C.riverDeep} 0%, ${C.river} 60%, #375F41 100%)`,
+        background: `linear-gradient(135deg, ${g[0]} 0%, ${g[1]} 60%, ${g[2]} 100%)`,
         fontFamily: 'Be Vietnam Pro',
       },
     },
@@ -79,7 +95,7 @@ export async function renderOgCard({ title, chips = [], subtitle }: OgCard): Pro
       'div',
       { style: { display: 'flex', alignItems: 'center', gap: 18 } },
       bowlIcon(46),
-      h('div', { style: { fontFamily: 'Paytone One', fontSize: 40, color: C.gold, display: 'flex' } }, 'Món Việt Ngon')
+      h('div', { style: { fontFamily: 'Paytone One', fontSize: 40, color: brandColor, display: 'flex' } }, 'Món Việt Ngon')
     ),
     // tựa món (+ phụ đề nếu có)
     h(

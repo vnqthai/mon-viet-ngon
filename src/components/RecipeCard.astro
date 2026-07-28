@@ -1,11 +1,21 @@
 ---
 import Icon from './Icon.astro';
 import RecipeArt from './art/RecipeArt.astro';
-import { plain } from '../utils/rich';
+import { plain, dishName } from '../utils/rich';
+import { familyOf } from '../utils/family';
+import { searchText } from '../utils/search';
 
 interface Props { recipe: any }
 const { recipe } = Astro.props;
 const { id, data } = recipe;
+
+// Nền thẻ mã hóa theo HỌ MÓN — lưới 63 món đọc ra thành từng nhóm ngay từ cái
+// liếc đầu. Nhãn vẫn ghi kiểu món cụ thể; màu chỉ báo họ.
+const fam = familyOf(data.category);
+
+// Chuỗi tìm kiếm đã bỏ dấu, tính sẵn lúc build để trình duyệt khỏi phải
+// chuẩn hóa lại 63 bản ghi mỗi lần gõ phím.
+const haystack = searchText(data, plain);
 ---
 <a
   class="rcard reveal"
@@ -13,12 +23,11 @@ const { id, data } = recipe;
   data-category={data.category}
   data-region={data.region}
   data-occasions={data.occasions.join('|')}
+  data-family={fam}
+  data-search={haystack}
 >
-  <div class="rcard__art" aria-hidden="true">
-    <div class="rcard__badges">
-      <span class="badge badge--region"><Icon name="map" />{data.region}</span>
-      <span class="badge badge--cat">{data.category}</span>
-    </div>
+  <div class="rcard__art" style={`--ground:var(--fam-${fam}); --ground-deep:var(--fam-${fam}-deep)`}>
+    <span class="rcard__kind">{data.category}</span>
     <RecipeArt art={data.art} category={data.category} />
     <div class="rcard__wave">
       <svg viewBox="0 0 400 26" preserveAspectRatio="none" aria-hidden="true">
@@ -27,9 +36,10 @@ const { id, data } = recipe;
     </div>
   </div>
   <div class="rcard__body">
-    <h3>{plain(data.title)}</h3>
+    <h3>{dishName(data.title)}</h3>
     <p>{plain(data.summary)}</p>
     <div class="rcard__meta">
+      <span><Icon name="map" />{data.region}</span>
       <span class="num"><Icon name="clock" />{data.time.total}</span>
       <span><Icon name="level" />{data.difficulty}</span>
       <span class="rcard__go">Vô bếp <Icon name="arrow-right" /></span>

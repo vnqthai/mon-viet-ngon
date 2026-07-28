@@ -9,8 +9,20 @@ import CanhChuaArt from '../components/art/CanhChuaArt.astro';
 const recipes = (await getCollection('recipes')).sort(
   (a, b) => a.data.order - b.data.order
 );
-const featured = recipes.filter((r) => r.data.featured).slice(0, 6);
+const featured = recipes.filter((r) => r.data.featured).slice(0, 9);
 const regionCount = new Set(recipes.map((r) => r.data.region)).size;
+
+// Lối vào theo trục: bấm là sang /mon/ đã lọc sẵn. Kèm số món để người đọc biết
+// trước cửa nào rộng cửa nào hẹp, khỏi bấm vào rồi mới thấy có 2 món.
+const OCC_ORDER = ['Cơm nhà', 'Bữa sáng', 'Đãi khách', 'Nhậu lai rai', 'Ăn chơi', 'Cho bé', 'Cỗ Tết'];
+const REGION_ORDER = ['Miền Bắc', 'Miền Trung', 'Miền Nam', 'Miền Tây', 'Tây Bắc', 'Tây Nguyên', 'Cả nước'];
+
+const occGates = OCC_ORDER
+  .map((name) => ({ name, n: recipes.filter((r) => r.data.occasions.includes(name as any)).length }))
+  .filter((g) => g.n > 0);
+const regionGates = REGION_ORDER
+  .map((name) => ({ name, n: recipes.filter((r) => r.data.region === name).length }))
+  .filter((g) => g.n > 0);
 
 const tickerItems = [
   { icon: 'bowl', text: 'Canh chua cá lóc miền Tây' },
@@ -54,6 +66,16 @@ const tickerItems = [
           khẩu phần và đồng hồ đếm giờ ngay trong trang. Không quảng cáo, không
           màu mè — chỉ có đồ ăn ngon.
         </p>
+        <!-- Form GET thuần, không cần JS: submit là sang /mon/?q=… rồi trang đó
+             tự đọc tham số và lọc sẵn. -->
+        <form class="home-hero__find" action="/mon/" method="get" role="search">
+          <Icon name="search" />
+          <input
+            type="search" name="q" autocomplete="off" spellcheck="false"
+            placeholder="Tìm món hoặc nguyên liệu…" aria-label="Tìm món hoặc nguyên liệu"
+          />
+          <button type="submit">Tìm</button>
+        </form>
         <div class="home-hero__cta">
           <a class="btn btn--gold" href="/mon/">
             <Icon name="rice" />
@@ -112,6 +134,40 @@ const tickerItems = [
   </section>
 
   <div class="checker" aria-hidden="true"></div>
+
+  <!-- ============ LỐI VÀO THEO TRỤC ============ -->
+  <section class="section section--tint" id="loi-vao">
+    <div class="wrap">
+      <p class="eyebrow reveal">Đi lối nào cũng tới bếp</p>
+      <h2 class="reveal">Tìm món <span class="accent">theo cách của mình</span></h2>
+      <p class="section__lead reveal">
+        Nấu cho dịp gì, hay thèm vị vùng nào — bấm một cái là sang thẳng danh
+        sách đã lọc sẵn. Con số bên cạnh là số món đang có.
+      </p>
+      <div class="gates reveal">
+        <div class="gate-group">
+          <h3>Nấu cho dịp gì?</h3>
+          <div class="gate-row">
+            {occGates.map((g) => (
+              <a class="gate" href={`/mon/?dip=${encodeURIComponent(g.name)}`}>
+                {g.name}<span class="gate__n num">{g.n}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+        <div class="gate-group">
+          <h3>Thèm vị vùng nào?</h3>
+          <div class="gate-row">
+            {regionGates.map((g) => (
+              <a class="gate" href={`/mon/?mien=${encodeURIComponent(g.name)}`}>
+                <Icon name="map" />{g.name}<span class="gate__n num">{g.n}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ============ VỀ TRANG ============ -->
   <section class="section section--tint" id="ve-trang">

@@ -26,6 +26,33 @@
   --font-display:"Paytone One","Arial Rounded MT Bold",system-ui,sans-serif;
   --font-body:"Be Vietnam Pro",-apple-system,"Segoe UI",Roboto,sans-serif;
   --font-script:"Dancing Script","Segoe Script",cursive;
+
+  /* ---- Nền thẻ theo HỌ MÓN ----------------------------------------------
+     Năm họ gom theo cách ăn, để lưới danh mục đọc ra thành từng nhóm.
+     Kiểm bằng: node tools/contact-sheet.mjs
+
+       Chan & húp    Món nước · Canh · Lẩu · Cháo
+       Mặn đưa cơm   Kho · Xào · Hấp
+       Cuốn & trộn   Gỏi · Cuốn · Bún trộn
+       Cơm & bánh    Cơm · Bánh
+       Lửa           Nướng · Chiên
+
+     CỐ Ý không đổi theo nền sáng/tối: đây là màu định danh, một món kho phải
+     đọc ra cùng một họ ở cả hai chế độ. */
+  /* Chan & húp dùng LAM PHA LỤC, không dùng xanh lá thương hiệu #2C5234:
+     để khỏi lẫn với họ "Cuốn & trộn" (cũng hệ xanh). Lam thuần #22456B từng thử
+     nhưng lạc lõng — bốn họ kia đều ẤM, lam thuần là mảng LẠNH duy nhất mà lại
+     thuộc họ đông nhất (23/63 món). Pha lục vào thì bắc được cầu sang khung
+     xanh lá, mà vẫn đủ lam để tách khỏi họ Cuốn & trộn. */
+  --fam-nuoc:#235B66;  --fam-nuoc-deep:#143A42;
+  --fam-man:#6E3512;   --fam-man-deep:#421C06;
+  --fam-tron:#5B7A2E;  --fam-tron-deep:#3B521C;
+  --fam-banh:#A8801A;  --fam-banh-deep:#70530C;
+  --fam-lua:#9A3D2B;   --fam-lua-deep:#65241A;
+
+  /* Quầng sáng sau hình món — nhấc hình khỏi nền cùng sắc (tộ đất trên nền nâu).
+     Đặt ở đây thay vì sửa từng file SVG: một chỗ, mọi món, mọi họ. */
+  --art-halo:radial-gradient(closest-side, rgba(255,247,225,.22), transparent 76%);
 }
 @media (prefers-color-scheme: dark){
   :root{
