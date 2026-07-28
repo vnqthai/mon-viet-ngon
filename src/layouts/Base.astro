@@ -14,6 +14,15 @@ interface Props {
   active?: 'home' | 'mon' | 'bi-quyet';
 }
 const { title, description, ogImage = '/og/default.png', showPrint = false, active } = Astro.props;
+
+/* Menu có HAI trạng thái khác nhau, đừng gộp làm một:
+   - aria-current="page" chỉ dành cho liên kết trỏ ĐÚNG trang đang mở
+   - .is-section là "bạn đang ở trong khu này" — dùng cho trang chi tiết món,
+     nơi liên kết "Món ngon" trỏ tới /mon/ chứ không phải trang đang đọc.
+   Gộp chung thì trình đọc màn hình báo "trang hiện tại" cho một liên kết
+   dẫn đi nơi khác. */
+const here = Astro.url.pathname.replace(/\/+$/, '') || '/';
+const isPage = (href: string) => here === (href.replace(/\/+$/, '') || '/');
 const ogImageAbs = new URL(ogImage, Astro.site).href;
 ---
 <!DOCTYPE html>
@@ -60,9 +69,12 @@ const ogImageAbs = new URL(ogImage, Astro.site).href;
         <span>Món <span class="brand__viet">Việt</span> Ngon</span>
       </a>
       <nav class="site-nav" aria-label="Điều hướng trang">
-        <a href="/" aria-current={active === 'home' ? 'page' : undefined}>Trang chủ</a>
-        <a href="/mon/" aria-current={active === 'mon' ? 'page' : undefined}>Món ngon</a>
-        <a href="/bi-quyet/" aria-current={active === 'bi-quyet' ? 'page' : undefined}>Bí quyết bếp</a>
+        <a href="/" aria-current={isPage('/') ? 'page' : undefined}
+           class:list={{ 'is-section': active === 'home' }}>Trang chủ</a>
+        <a href="/mon/" aria-current={isPage('/mon/') ? 'page' : undefined}
+           class:list={{ 'is-section': active === 'mon' }}>Món ngon</a>
+        <a href="/bi-quyet/" aria-current={isPage('/bi-quyet/') ? 'page' : undefined}
+           class:list={{ 'is-section': active === 'bi-quyet' }}>Bí quyết bếp</a>
       </nav>
       <div class="head-actions">
         <button class="icon-btn" id="themeToggle" type="button" aria-label="Giao diện: theo hệ thống, bấm để đổi" title="Giao diện: theo hệ thống — bấm để đổi">
