@@ -15,10 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
       - name: Build with Astro
-        uses: withastro/action@v3
+        uses: withastro/action@v6
         with:
+          # v6 mặc định đã là 24, nhưng ghi rõ để lần sau nâng action không
+          # âm thầm đổi luôn Node build. Giữ ở bản CHẴN = LTS.
           node-version: 24
 
   deploy:
@@ -30,4 +32,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

@@ -428,7 +428,8 @@ Miền Trung từ vùng gần bét lên đồng hạng đầu; Miền Nam từ 4
 
 ## Lặt vặt
 
-- GitHub Actions cảnh báo Node 20 deprecated ở `actions/checkout@v4`, `setup-node@v4`, `upload-artifact@v4` — nâng major khi có bản mới, không gấp
+- ~~GitHub Actions cảnh báo Node 20 deprecated~~ — **xong 2026-07-29.** Ghi lại vì lần đầu đọc dễ hiểu sai: cảnh báo đó **không** nói về Node dùng để build (workflow vốn đã `node-version: 24` từ trước), mà nói về Node chạy code của bản thân mấy action. Và **2 trong 3 action bị nêu không nằm trong `deploy.yml`** — `setup-node` với `upload-artifact` được gọi bên trong `withastro/action`, nên sửa file mình không với tới; phải nâng chính `withastro/action`. Đã nâng `checkout` v4→v7, `withastro/action` v3→v6, `deploy-pages` v4→v5. `checkout@v7` có breaking change thật (chặn checkout code fork PR) nhưng repo này chỉ chạy trên `push` + `workflow_dispatch`, không dùng `pull_request_target`/`workflow_run` nên không dính.
+- **Node build giữ ở 24, đừng nâng lên 26** dù máy đang chạy 26: Node bản chẵn tới tháng 10 của năm đó mới lên LTS, nên tới giờ 26 vẫn là Current. CI nên đứng ở LTS.
 
 ---
 
