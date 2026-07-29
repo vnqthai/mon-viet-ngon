@@ -136,23 +136,24 @@
 .finder__clear:hover{background:var(--paper-deep);color:var(--ink)}
 .finder__clear svg{width:15px;height:15px}
 
-/* Kệ lọc cuộn ngang: 15 kiểu món + 7 dịp + 7 miền mà xuống dòng thì thành bức
-   tường chip, phải cuộn qua hết mới thấy món đầu tiên trên điện thoại. */
-.shelf{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+/* Kệ lọc: chip XUỐNG DÒNG ở mọi bề rộng.
+   Trước đây kệ cuộn ngang có dải mờ ở mép phải. Bỏ đi vì hai lẽ, cả hai đo được
+   (2026-07-29, harness iframe + getBoundingClientRect):
+   1. Dải mờ bôi vô điều kiện, kể cả khi rail KHÔNG tràn — hai trục "Theo dịp" và
+      "Miền" có scrollWidth = clientWidth mà chip cuối vẫn bị làm mờ. Đó là lỗi.
+   2. Cuộn ngang giấu mất chip: ở 1440px giấu 1 chip, ở 1024px giấu 2, ở 760px
+      giấu 11 trong 28. Ở mốc 63 món là 4 / 5 / 14. Cái gì không thấy thì không
+      ai bấm — đúng lý do đã bỏ kệ cuộn trên điện thoại hồi phần I.
+   Giá phải trả: khối lọc cao thêm 44px (rộng) tới 132px (hẹp). Đổi lại không
+   giấu chip nào, kể cả khi ba trục lên tới ~35 chip. */
+.shelf{display:flex;align-items:baseline;gap:12px;margin-bottom:10px}
 .shelf__label{
   flex:none;width:74px;font-size:.72rem;font-weight:700;
   letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
 }
-.shelf__rail{
-  display:flex;gap:8px;overflow-x:auto;padding:3px 2px;
-  scrollbar-width:none;-ms-overflow-style:none;
-  scroll-snap-type:x proximity;overscroll-behavior-x:contain;
-  -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);
-          mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);
-}
-.shelf__rail::-webkit-scrollbar{display:none}
+.shelf__rail{display:flex;flex-wrap:wrap;gap:8px;padding:3px 2px}
 .chip{
-  flex:none;scroll-snap-align:start;white-space:nowrap;
+  flex:none;white-space:nowrap;
   border:1.5px solid var(--line);background:var(--card);color:var(--muted);
   font-weight:700;font-size:.84rem;padding:8px 15px;border-radius:999px;
   transition:background .15s,color .15s,border-color .15s;
@@ -187,8 +188,8 @@
 .finder__toggle__n[hidden]{display:none}
 
 /* ---- Điện thoại ----
-   Kệ cuộn ngang là sai kiểu ở đây: chip nằm ngoài màn hình thì không ai biết mà
-   bấm, lại còn dính sát mép. Đổi thành bảng đóng/mở, chip XUỐNG DÒNG hết. */
+   Chip đã xuống dòng sẵn ở mọi bề rộng; ở đây chỉ thêm bảng ĐÓNG/MỞ, vì ba trục
+   xuống dòng trên màn hình hẹp chiếm gần nửa màn — mở ra khi cần thì hơn. */
 @media (max-width:700px){
   .finder__toggle{
     display:inline-flex;align-items:center;gap:9px;
@@ -204,11 +205,7 @@
 
   .shelf{display:block;margin-bottom:16px}
   .shelf__label{display:block;width:auto;margin-bottom:8px}
-  .shelf__rail{
-    display:flex;flex-wrap:wrap;gap:8px;
-    overflow:visible;padding:0;margin:0;
-    -webkit-mask-image:none;mask-image:none;
-  }
+  .shelf__rail{padding:0}
   .chip{font-size:.82rem;padding:7px 13px}
   .finder__count{margin-top:18px}
 }
