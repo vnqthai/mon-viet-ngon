@@ -1,0 +1,162 @@
+---
+/* Cháo lòng — CHỮ KÝ, vẽ lệch hẳn hai tô cháo kia:
+   1) KHOANH DỒI tròn nâu đỏ lấm tấm mỡ trắng và rau xanh — hình tròn,
+      khác hẳn sợi lươn (cháo lươn) và dải gà xé (cháo gà)
+   2) LÁT LÒNG NON cắt ngang có LỖ RỖNG giữa + lát gan nâu sẫm
+   3) nắm GIÁ trắng ló ra dưới mép cháo — chỉ tô này mới có
+   4) đạo cụ trái: đĩa lòng thái lát · phải: chén mắm gừng
+   id prefix "clo" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô cháo lòng: khoanh dồi, lát lòng non và gan, nắm giá và rau răm, bên cạnh là đĩa lòng thái lát và chén mắm gừng">
+  <defs>
+    <linearGradient id="cloChao" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE6CC"/><stop offset="1" stop-color="#D6C8A4"/>
+    </linearGradient>
+    <linearGradient id="cloBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E9E2CC"/>
+    </linearGradient>
+    <!-- KHOANH DỒI: lát tròn, ruột nâu đỏ lấm tấm mỡ trắng + rau xanh -->
+    <g id="cloDoi">
+      <circle cx="0" cy="0" r="16" fill="#7E3A34" stroke="#4E1F1B" stroke-width="2.2"/>
+      <circle cx="0" cy="0" r="16" fill="none" stroke="#C9A98E" stroke-width="2.6"/>
+      <circle cx="0" cy="0" r="12.6" fill="#8C4238"/>
+      <g fill="#EFE2CA"><circle cx="-5" cy="-4" r="2.2"/><circle cx="4" cy="2" r="2"/><circle cx="-2" cy="7" r="1.7"/><circle cx="7" cy="-6" r="1.6"/></g>
+      <g fill="#4E8B3C"><circle cx="-7" cy="4" r="1.6"/><circle cx="6" cy="-1" r="1.4"/><circle cx="1" cy="-8" r="1.3"/></g>
+      <g fill="#D9C08E"><circle cx="-9" cy="-1" r="1.2"/><circle cx="9" cy="5" r="1.1"/></g>
+    </g>
+    <!-- LÁT LÒNG NON: vòng tròn dày, rỗng giữa -->
+    <g id="cloLongNon">
+      <circle cx="0" cy="0" r="11" fill="#F2E6D2" stroke="#BFA684" stroke-width="2"/>
+      <circle cx="0" cy="0" r="4.6" fill="#DCCBAE" stroke="#BFA684" stroke-width="1.5"/>
+      <path d="M-8 -5 C -4 -8 4 -8 8 -5" fill="none" stroke="#FBF4E6" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <g id="cloRam">
+      <path d="M0 0 C 5 -4 13 -5 19 -2 C 13 2 5 4 0 0 Z" fill="#3E7B3A" stroke="#26521F" stroke-width="1.3"/>
+      <path d="M1 0 L 18 -1.6" stroke="#7FB35B" stroke-width="1" stroke-linecap="round"/>
+      <path d="M7 -1.6 L 10 0.4 L 13 -2" fill="none" stroke="#1E4218" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M196 226 C 185 202 211 186 200 160 C 193 144 207 132 203 116"/>
+    <path d="M260 220 C 250 196 276 182 265 156 C 258 140 272 128 268 112"/>
+    <path d="M324 228 C 314 204 340 190 329 164 C 322 148 336 136 332 120"/>
+  </g>
+  <ellipse cx="258" cy="420" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- tô miệng loe, thành thấp -->
+  <path d="M78 296 C 84 364 164 408 258 408 C 352 408 432 364 438 296 Z" fill="url(#cloBowl)"/>
+  <ellipse cx="258" cy="406" rx="60" ry="10" fill="#D8D0B6"/>
+  <ellipse cx="258" cy="294" rx="182" ry="45" fill="#F6F1E1"/>
+  <ellipse cx="258" cy="294" rx="182" ry="45" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="258" cy="295" rx="168" ry="39" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- MẶT CHÁO xám ngà, sánh -->
+  <ellipse cx="258" cy="297" rx="154" ry="33" fill="url(#cloChao)"/>
+  <ellipse cx="196" cy="288" rx="42" ry="7" fill="#F6EEDA" opacity=".7"/>
+  <g fill="#E8C77E" opacity=".6">
+    <ellipse cx="180" cy="306" rx="12" ry="4"/>
+    <ellipse cx="330" cy="308" rx="10" ry="3.6"/>
+  </g>
+  <!-- hạt gạo nở lấm tấm -->
+  <g fill="#F7F0DC" stroke="#CFC0A0" stroke-width=".8">
+    <ellipse cx="150" cy="300" rx="4.4" ry="2.4" transform="rotate(-16 150 300)"/>
+    <ellipse cx="186" cy="316" rx="4.2" ry="2.3" transform="rotate(12 186 316)"/>
+    <ellipse cx="234" cy="322" rx="4.4" ry="2.4" transform="rotate(-6 234 322)"/>
+    <ellipse cx="300" cy="320" rx="4.2" ry="2.3" transform="rotate(18 300 320)"/>
+    <ellipse cx="356" cy="304" rx="4.4" ry="2.4" transform="rotate(-10 356 304)"/>
+    <ellipse cx="374" cy="290" rx="4" ry="2.2" transform="rotate(6 374 290)"/>
+    <ellipse cx="128" cy="292" rx="4" ry="2.2" transform="rotate(20 128 292)"/>
+  </g>
+
+  <!-- NẮM GIÁ trắng ló ra dưới mép cháo — chữ ký riêng của cháo lòng -->
+  <g stroke="#D9D2BC" stroke-width="3.4" stroke-linecap="round" fill="none">
+    <path d="M150 314 C 166 308 184 308 198 312"/>
+    <path d="M158 322 C 174 316 194 316 208 320"/>
+    <path d="M310 322 C 326 316 344 316 358 320"/>
+    <path d="M322 312 C 336 307 352 307 364 310"/>
+  </g>
+  <g fill="#EFE9D4" stroke="#CFC5A8" stroke-width="1">
+    <circle cx="198" cy="312" r="3"/><circle cx="208" cy="320" r="2.8"/>
+    <circle cx="150" cy="314" r="2.6"/><circle cx="358" cy="320" r="2.8"/>
+    <circle cx="364" cy="310" r="2.6"/><circle cx="310" cy="322" r="2.5"/>
+  </g>
+
+  <!-- KHOANH DỒI: ba lát tròn nổi bật nhất trên mặt tô -->
+  <use href="#cloDoi" transform="translate(196 288)"/>
+  <use href="#cloDoi" transform="translate(268 300) scale(.94)"/>
+  <use href="#cloDoi" transform="translate(330 286) scale(.88)"/>
+
+  <!-- LÁT LÒNG NON có lỗ rỗng giữa -->
+  <use href="#cloLongNon" transform="translate(160 292)"/>
+  <use href="#cloLongNon" transform="translate(232 310) scale(.92)"/>
+  <use href="#cloLongNon" transform="translate(302 312) scale(.86)"/>
+  <use href="#cloLongNon" transform="translate(370 300) scale(.9)"/>
+
+  <!-- LÁT GAN: miếng nâu sẫm bản to, mặt cắt mịn -->
+  <g transform="translate(228 280) rotate(-8)">
+    <path d="M-18 -9 C -10 -14 12 -14 18 -8 C 21 -4 20 8 12 11 C 2 14 -14 12 -18 7 C -21 3 -21 -6 -18 -9 Z"
+          fill="#6B3A2E" stroke="#42211A" stroke-width="2"/>
+    <path d="M-13 -5 C -5 -9 8 -9 14 -5" fill="none" stroke="#8E5442" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M-8 4 C 0 1 8 1 13 3" fill="none" stroke="#8E5442" stroke-width="1.3" stroke-linecap="round"/>
+  </g>
+  <!-- MIẾNG TIM: khối nhỏ đỏ sẫm có rãnh -->
+  <g transform="translate(300 278) rotate(10)">
+    <path d="M-12 -7 C -6 -11 8 -11 13 -6 C 15 -2 13 7 6 9 C -2 11 -12 9 -14 5 C -16 1 -15 -5 -12 -7 Z"
+          fill="#8E3128" stroke="#5A1A14" stroke-width="1.9"/>
+    <path d="M-6 -6 C -4 -1 -3 4 -4 8" fill="none" stroke="#B15749" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- hành lá xắt nhỏ -->
+  <g fill="#4E7B36">
+    <ellipse cx="178" cy="272" rx="5.4" ry="2.4" transform="rotate(-14 178 272)"/>
+    <ellipse cx="288" cy="264" rx="5" ry="2.2" transform="rotate(10 288 264)"/>
+    <ellipse cx="352" cy="312" rx="4.6" ry="2.1" transform="rotate(-6 352 312)"/>
+    <ellipse cx="146" cy="308" rx="4.8" ry="2.2" transform="rotate(18 146 308)"/>
+  </g>
+
+  <!-- RAU RĂM rắc dày tay -->
+  <use href="#cloRam" transform="translate(200 262) rotate(-18)"/>
+  <use href="#cloRam" transform="translate(250 258) rotate(6) scale(.9)"/>
+  <use href="#cloRam" transform="translate(312 262) rotate(-6)"/>
+  <use href="#cloRam" transform="translate(354 274) rotate(16) scale(.86)"/>
+  <use href="#cloRam" transform="translate(166 278) rotate(24) scale(.84)"/>
+
+  <!-- TIÊU rắc -->
+  <g fill="#3B2A22">
+    <circle cx="214" cy="300" r="1.8"/><circle cx="262" cy="278" r="1.6"/>
+    <circle cx="336" cy="304" r="1.7"/><circle cx="180" cy="298" r="1.5"/>
+    <circle cx="290" cy="316" r="1.5"/><circle cx="368" cy="282" r="1.4"/>
+  </g>
+
+  <!-- ĐẠO CỤ TRÁI: đĩa lòng thái lát chờ gắp -->
+  <g transform="translate(92 398)">
+    <ellipse cx="0" cy="18" rx="54" ry="12" fill="rgba(15,26,14,.3)"/>
+    <ellipse cx="0" cy="6" rx="50" ry="13" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="5" rx="38" ry="9" fill="#F6F1E1"/>
+    <use href="#cloDoi" transform="translate(-22 -2) scale(.68)"/>
+    <use href="#cloLongNon" transform="translate(0 4) scale(.7)"/>
+    <use href="#cloLongNon" transform="translate(18 -4) scale(.62)"/>
+    <g transform="translate(-4 -12) rotate(-6) scale(.62)">
+      <path d="M-18 -9 C -10 -14 12 -14 18 -8 C 21 -4 20 8 12 11 C 2 14 -14 12 -18 7 C -21 3 -21 -6 -18 -9 Z"
+            fill="#6B3A2E" stroke="#42211A" stroke-width="2.6"/>
+    </g>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: chén mắm gừng ớt -->
+  <g transform="translate(438 396)">
+    <ellipse cx="0" cy="20" rx="36" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-32 -4 C -30 11 -17 20 0 20 C 17 20 30 11 32 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-4" rx="32" ry="9" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-3" rx="26" ry="6.6" fill="#8A4A16"/>
+    <!-- sợi gừng vàng nổi trên mặt mắm -->
+    <g stroke="#E5C264" stroke-width="2" stroke-linecap="round">
+      <path d="M-16 -4 L -6 -6"/><path d="M-2 -1 L 8 -3"/><path d="M6 -6 L 16 -7"/>
+    </g>
+    <g fill="#D4442A" stroke="#93230F" stroke-width="1">
+      <ellipse cx="-10" cy="0" rx="4" ry="2.2"/>
+      <ellipse cx="12" cy="-1" rx="3.6" ry="2"/>
+    </g>
+  </g>
+</svg>

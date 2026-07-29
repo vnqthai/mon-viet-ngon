@@ -1,0 +1,157 @@
+---
+/* Lẩu gà lá é Phú Yên — CHỮ KÝ, vẽ lệch hẳn hai nồi lẩu kia:
+   1) nồi có ỐNG KHÓI dựng giữa — dáng nhận ra ngay, khác nồi đất lẩu mắm
+      và nồi sâu tròn lẩu Thái
+   2) nước dùng TRONG VÀNG NHẠT, không váng đỏ, không đục nâu
+   3) LÁ É lá nhỏ có lông tơ nổi khắp mặt + ớt xiêm XANH (không phải ớt đỏ)
+   4) đạo cụ phải: CHÉN MUỐI ỚT XANH — thứ không nồi lẩu nào khác có
+   id prefix "lge" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Nồi lẩu gà lá é có ống khói: nước dùng trong, miếng gà và măng, lá é xanh nổi trên mặt, bên cạnh là chén muối ớt xanh">
+  <defs>
+    <linearGradient id="lgeBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3E7BE"/><stop offset="1" stop-color="#DCC684"/>
+    </linearGradient>
+    <!-- nồi nhôm ngả ĐỒNG ẤM: cố ý khác hẳn nồi inox lạnh của lẩu Thái, và
+         đủ sẫm để nước dùng vàng nhạt bật lên -->
+    <linearGradient id="lgePot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C4A867"/><stop offset="1" stop-color="#8A6E32"/>
+    </linearGradient>
+    <linearGradient id="lgeGa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF3DF"/><stop offset="1" stop-color="#E4D2AC"/>
+    </linearGradient>
+    <!-- lá é: lá nhỏ bầu, đầu hơi nhọn, mép răng cưa nhẹ, có lông tơ -->
+    <g id="lgeLaE">
+      <path d="M0 0 C 2 -8 10 -12 16 -9 C 20 -6.6 19 -0.6 14 2.6 C 8 6 2 5 0 0 Z"
+            fill="#4E8B3C" stroke="#2E5C22" stroke-width="1.3"/>
+      <path d="M2 0.6 C 6 -3 11 -6 15 -7.6" fill="none" stroke="#8FC163" stroke-width="1.1" stroke-linecap="round"/>
+      <path d="M5 -1.4 L 7 -4 M 9 0 L 11 -3 M 12 1 L 13.6 -1.6"
+            stroke="#2E5C22" stroke-width=".8" stroke-linecap="round"/>
+      <path d="M1 -3 L -1.6 -5 M 6 -8.6 L 5.6 -11.4 M 14 -8 L 16 -10.4"
+            stroke="#B9D89A" stroke-width=".9" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <!-- khói bốc từ MIỆNG ỐNG KHÓI, không bốc từ mặt nước -->
+  <g class="steam">
+    <path d="M244 178 C 234 156 256 142 246 120 C 240 106 252 96 248 82"/>
+    <path d="M268 174 C 258 152 280 138 270 116 C 264 102 276 92 272 78"/>
+    <path d="M292 182 C 282 160 304 146 294 124 C 288 110 300 100 296 86"/>
+  </g>
+  <ellipse cx="268" cy="418" rx="176" ry="22" fill="rgba(15,26,14,.35)"/>
+
+  <!-- chân đế nồi -->
+  <g>
+    <ellipse cx="268" cy="404" rx="76" ry="14" fill="#4A4436" stroke="#2C2820" stroke-width="2.4"/>
+    <ellipse cx="268" cy="398" rx="76" ry="14" fill="#6E6653" stroke="#38332A" stroke-width="2.4"/>
+  </g>
+
+  <!-- THÂN NỒI tròn sâu vừa -->
+  <path d="M122 300 C 128 356 190 398 268 398 C 346 398 408 356 414 300 Z" fill="url(#lgePot)"/>
+  <path d="M122 300 C 128 356 190 398 268 398 C 346 398 408 356 414 300"
+        fill="none" stroke="#6B5220" stroke-width="4"/>
+  <path d="M148 344 C 180 372 356 372 388 344" fill="none" stroke="#FFF3CE" stroke-width="3" stroke-linecap="round" opacity=".38"/>
+  <!-- quai hai bên -->
+  <path d="M122 308 C 100 308 92 320 96 332 C 100 342 112 346 124 342"
+        fill="none" stroke="#A98C42" stroke-width="12" stroke-linecap="round"/>
+  <path d="M414 308 C 436 308 444 320 440 332 C 436 342 424 346 412 342"
+        fill="none" stroke="#A98C42" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- vành miệng để SẪM hơn nước dùng: nước lẩu này vốn trong và nhạt màu,
+       phải có vành tối bao quanh thì mặt nước mới đọc ra là mặt nước -->
+  <ellipse cx="268" cy="298" rx="152" ry="38" fill="#BC9A4C"/>
+  <ellipse cx="268" cy="298" rx="152" ry="38" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="268" cy="299" rx="139" ry="32" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- NƯỚC DÙNG TRONG, vàng rất nhạt -->
+  <ellipse cx="268" cy="301" rx="129" ry="28" fill="url(#lgeBroth)"/>
+  <ellipse cx="204" cy="294" rx="38" ry="6" fill="#FAF2D8" opacity=".6"/>
+  <g fill="#F4E6B8" opacity=".85">
+    <circle cx="164" cy="302" r="2.4"/><circle cx="342" cy="310" r="2.2"/><circle cx="378" cy="296" r="2"/>
+  </g>
+
+  <!-- ỐNG KHÓI dựng giữa nồi — dấu nhận dạng chính. Ống THẤP và BỰ:
+       cao quá thì thành ống bô, mà nồi lẩu thật thì ống chỉ nhô hơn vành một chút -->
+  <g>
+    <path d="M232 296 L 236 200 L 300 200 L 304 296 Z" fill="#C4A867" stroke="#6B5220" stroke-width="3"/>
+    <path d="M248 292 L 251 204" stroke="#EBD9A2" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+    <ellipse cx="268" cy="296" rx="36" ry="9" fill="#8A6E32" stroke="#6B5220" stroke-width="2.4"/>
+    <!-- miệng loe -->
+    <path d="M224 200 L 312 200 L 304 182 L 232 182 Z" fill="#D4BB7C" stroke="#6B5220" stroke-width="3"/>
+    <ellipse cx="268" cy="182" rx="36" ry="10" fill="#7A5F26" stroke="#4E3C14" stroke-width="2.6"/>
+    <ellipse cx="268" cy="182" rx="25" ry="6.4" fill="#33280E"/>
+  </g>
+
+  <!-- MIẾNG GÀ chặt còn da: khối vuông bo góc, mép da vàng, lộ khúc xương -->
+  <g stroke="#B08F52" stroke-width="2" stroke-linejoin="round">
+    <g transform="translate(180 302) rotate(-10)">
+      <path d="M-22 -13 C -14 -18 12 -18 20 -12 C 25 -8 24 8 18 12 C 8 18 -14 17 -21 11 C -26 7 -26 -9 -22 -13 Z" fill="url(#lgeGa)"/>
+      <path d="M-21 -11 C -13 -16 11 -16 19 -10 C 22 -8 22 -3 19 -2 C 10 -6 -12 -6 -20 -3 C -23 -4 -23 -9 -21 -11 Z" fill="#E9BC63" stroke="#B08F52" stroke-width="1.6"/>
+      <ellipse cx="-2" cy="8" rx="6" ry="4" fill="#F5EEDC" stroke="#C4A874" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(330 306) rotate(8) scale(.92)">
+      <path d="M-22 -13 C -14 -18 12 -18 20 -12 C 25 -8 24 8 18 12 C 8 18 -14 17 -21 11 C -26 7 -26 -9 -22 -13 Z" fill="url(#lgeGa)"/>
+      <path d="M-21 -11 C -13 -16 11 -16 19 -10 C 22 -8 22 -3 19 -2 C 10 -6 -12 -6 -20 -3 C -23 -4 -23 -9 -21 -11 Z" fill="#E9BC63" stroke="#B08F52" stroke-width="1.6"/>
+      <ellipse cx="-1" cy="8" rx="5.6" ry="3.8" fill="#F5EEDC" stroke="#C4A874" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(268 322) rotate(-3) scale(.85)">
+      <path d="M-22 -13 C -14 -18 12 -18 20 -12 C 25 -8 24 8 18 12 C 8 18 -14 17 -21 11 C -26 7 -26 -9 -22 -13 Z" fill="url(#lgeGa)"/>
+      <path d="M-21 -11 C -13 -16 11 -16 19 -10 C 22 -8 22 -3 19 -2 C 10 -6 -12 -6 -20 -3 C -23 -4 -23 -9 -21 -11 Z" fill="#E9BC63" stroke="#B08F52" stroke-width="1.6"/>
+    </g>
+  </g>
+
+  <!-- LÁT MĂNG: dải mỏng vàng ngà, mép răng cưa -->
+  <g fill="#E4CE86" stroke="#A98C33" stroke-width="1.8">
+    <path d="M146 316 C 158 308 176 306 190 310 C 186 318 170 324 156 323 C 150 322 147 320 146 316 Z"/>
+    <path d="M356 296 C 368 289 384 288 396 292 C 392 299 378 304 366 303 C 360 303 357 300 356 296 Z"/>
+  </g>
+
+  <!-- ỚT XIÊM XANH: trái nhỏ cong, cuống xanh sẫm -->
+  <g stroke="#2E5C22" stroke-width="1.8" fill="#5FA83A">
+    <path d="M214 288 C 224 284 234 286 238 292 C 234 296 222 296 214 292 Z"/>
+    <path d="M214 288 L 209 285" stroke-linecap="round"/>
+    <path d="M320 288 C 330 284 340 287 343 292 C 338 296 327 295 320 292 Z"/>
+    <path d="M320 288 L 315 285" stroke-linecap="round"/>
+  </g>
+
+  <!-- LÁ É nổi khắp mặt nước — chữ ký số một -->
+  <use href="#lgeLaE" transform="translate(150 292) rotate(-14)"/>
+  <use href="#lgeLaE" transform="translate(196 316) rotate(10) scale(.92)"/>
+  <use href="#lgeLaE" transform="translate(190 278) rotate(-6) scale(.88)"/>
+  <use href="#lgeLaE" transform="translate(320 284) rotate(16)"/>
+  <use href="#lgeLaE" transform="translate(348 318) rotate(-10) scale(.94)"/>
+  <use href="#lgeLaE" transform="translate(384 300) rotate(4) scale(.86)"/>
+  <use href="#lgeLaE" transform="translate(252 330) rotate(22) scale(.8)"/>
+
+  <!-- ĐẠO CỤ TRÁI: dĩa lá é tươi để nhúng -->
+  <g transform="translate(88 396)">
+    <ellipse cx="0" cy="16" rx="52" ry="12" fill="rgba(15,26,14,.3)"/>
+    <ellipse cx="0" cy="4" rx="48" ry="13" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="3" rx="36" ry="9" fill="#F6F1E1"/>
+    <!-- nhánh lá é còn nguyên cọng -->
+    <path d="M-28 6 C -14 0 6 -2 24 0" fill="none" stroke="#3F7A2C" stroke-width="2.6" stroke-linecap="round"/>
+    <use href="#lgeLaE" transform="translate(-26 2) rotate(-24)"/>
+    <use href="#lgeLaE" transform="translate(-8 -4) rotate(-6) scale(1.05)"/>
+    <use href="#lgeLaE" transform="translate(10 4) rotate(14) scale(.95)"/>
+    <use href="#lgeLaE" transform="translate(-18 10) rotate(28) scale(.85)"/>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: CHÉN MUỐI ỚT XANH — nhận ra món ngay -->
+  <g transform="translate(438 392)">
+    <ellipse cx="0" cy="22" rx="38" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-34 -4 C -32 12 -18 21 0 21 C 18 21 32 12 34 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-4" rx="34" ry="9.5" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <!-- khối muối ớt xanh giã dở, sệt -->
+    <path d="M-25 -5 C -20 -12 -6 -14 4 -12 C 16 -10 25 -8 25 -3 C 22 3 8 6 -4 5 C -16 4 -25 0 -25 -5 Z"
+          fill="#4E8B3C" stroke="#2E5C22" stroke-width="1.8"/>
+    <g fill="#7FBF54">
+      <circle cx="-13" cy="-6" r="2.2"/><circle cx="2" cy="-8" r="2"/><circle cx="14" cy="-4" r="1.9"/>
+      <circle cx="-4" cy="-2" r="1.7"/>
+    </g>
+    <!-- hạt muối trắng lẫn trong -->
+    <g fill="#FFFDF4">
+      <circle cx="-18" cy="-2" r="1.4"/><circle cx="8" cy="-11" r="1.3"/><circle cx="19" cy="-6" r="1.2"/>
+    </g>
+  </g>
+</svg>

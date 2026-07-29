@@ -2,7 +2,7 @@
 
 Kho công thức món Việt tại [www.monvietngon.com](https://www.monvietngon.com) — mục tiêu dài hạn: **~100 món** phủ đủ ba miền, món nào cũng được chăm chút như món nào.
 
-_Cập nhật: 2026-07-29 — site đang có **41 món** / 7 vùng / 11 kiểu món. Phần I (thiết kế lại giao diện) đã xong; **đợt 6 đã xong**. Còn đợt 7–10 (22 món) để lên **63 món / 14 kiểu món**._
+_Cập nhật: 2026-07-29 — site đang có **47 món** / 7 vùng / 13 kiểu món. Phần I (thiết kế lại giao diện) đã xong; **đợt 6 và đợt 7 đã xong**. Còn đợt 8–10 (16 món) để lên **63 món / 14 kiểu món**._
 
 ## Đã hoàn thành
 
@@ -11,6 +11,7 @@ _Cập nhật: 2026-07-29 — site đang có **41 món** / 7 vùng / 11 kiểu m
 - [x] Đợt lớn 2026-07-28 (14 món): phở gà, hủ tiếu Nam Vang, bún thịt nướng, phở khô Gia Lai, cơm chiên cá mặn, gỏi xoài xanh tôm khô, gỏi gà bắp cải, gà nướng mắc khén, mực xào thơm cần tây, sườn ram mặn ngọt, cà ri gà, tôm rim nước cốt dừa, bánh cuốn nóng, trứng chưng thịt nấm mèo
 - [x] Mở vùng mới **Tây Bắc** + **Tây Nguyên** và kiểu món mới **"Nướng"**
 - [x] Đợt 6 (2026-07-29, 6 món): miến gà, mì vịt tiềm, miến xào cua, mì xào bò, bún đậu mắm tôm, bún bò Nam Bộ — kèm đổi tên **"Món sợi" → "Món nước"** và mở kiểu món **"Bún trộn"**
+- [x] Đợt 7 (2026-07-29, 6 món): lẩu mắm, lẩu gà lá é, lẩu Thái, cháo lươn Nghệ An, cháo gà, cháo lòng — mở **hai** kiểu món mới **"Lẩu" + "Cháo"**, và nâng trang chủ từ 9 lên **12 món nổi bật**
 - [x] SEO: JSON-LD schema.org/Recipe, ảnh OG chia sẻ sinh lúc build, sitemap, robots.txt
 - [x] Trang bí quyết bếp (`/bi-quyet/`), trang danh mục `/mon/` có lọc theo kiểu món · theo dịp · miền
 - [x] Deploy tự động lên GitHub Pages, tên miền riêng + HTTPS, dòng bản quyền footer
@@ -185,28 +186,50 @@ Thái báo: mép phải ba hàng chip bị mờ. Đo lại thì ra **hai lỗi c
 
 **Còn lo "chip quá nhiều thì sao?"** — ba trục đều là từ vựng đóng, không phình vô hạn: kiểu món 11 → 14 ở mốc 63 → nhiều lắm 16–18 (luật "mỗi kiểu ≥ 3 món" tự chặn); theo dịp 7 và miền 7 gần như cố định (roadmap đã chốt không mở vùng Đông Bắc riêng). Xấu nhất ~35 chip ≈ 4 hàng ≈ 230px. Nếu có ngày vượt thật thì đường lui là gộp trục vào `<select>`, nhưng số liệu nói là chưa cần.
 
-**Bước tiếp theo:** vào đợt 7 (mở "Lẩu" + "Cháo").
+**Bước tiếp theo:** vào đợt 8 (6 món Miền Trung).
 
 ---
 
-# 📊 Catalog sau đợt 6 — 41 món
+# 📊 Catalog sau đợt 7 — 47 món
 
-| Kiểu món | | | Vùng miền | | | Theo dịp | |
+| Kiểu món | | | Vùng miền | sau đợt 6 → nay | | Theo dịp | |
 |---|---:|---|---|---:|---|---|---:|
-| Món nước | 10 | | Miền Nam | 15 · 37% | | Cơm nhà | 14 |
-| Kho | 7 | | Miền Bắc | 9 · 22% | | Đãi khách | 13 |
-| Canh | 5 | | Cả nước | 8 · 20% | | Bữa sáng | 12 |
-| Xào | 5 | | Miền Tây | 4 · 10% | | Ăn chơi | 10 |
-| Bún trộn | 3 | | Miền Trung | 3 · 7% | | Cho bé | 6 |
-| Cơm | 3 | | Tây Bắc | 1 · 2% | | Nhậu lai rai | 6 |
-| Chiên · Gỏi · Hấp | 2 mỗi loại | | Tây Nguyên | 1 · 2% | | Cỗ Tết | 5 |
-| Cuốn · Nướng | 1 mỗi loại | | | | | **trống nhãn** | **0** |
+| Món nước | 10 | | Miền Nam | 15 → 15 · 32% | | Đãi khách | 16 |
+| Kho | 7 | | Cả nước | 8 → **11** · 23% | | Bữa sáng | 15 |
+| Canh · Xào | 5 mỗi loại | | Miền Bắc | 9 → 9 · 19% | | Cơm nhà | 15 |
+| Bún trộn · Cơm | 3 mỗi loại | | Miền Tây | 4 → **5** · 11% | | Ăn chơi | 11 |
+| **Lẩu · Cháo** | **3 mỗi loại** | | Miền Trung | 3 → **5** · 11% | | Nhậu lai rai | 9 |
+| Chiên · Gỏi · Hấp | 2 mỗi loại | | Tây Bắc | 1 · 2% | | Cho bé | 8 |
+| Cuốn · Nướng | 1 mỗi loại | | Tây Nguyên | 1 · 2% | | Cỗ Tết | 5 |
+| | | | | | | **trống nhãn** | **0** |
 
-**Độ khó:** Vừa 18 (44%) · Dễ 17 (41%) · Kỳ công 6 (15%).
-**Họ màu:** Chan & húp 15 · Mặn đưa cơm 14 · Cuốn & trộn 6 · Cơm & bánh 3 · Lửa 3.
-**Featured: giữ nguyên 9 món**, không đổi ở đợt 6. Lý do: đợt này chỉ thêm món vào ba họ đã có mặt trên trang chủ, mà trang chủ vốn đã lệch về họ *Chan & húp* (4/9) — thêm miến gà hay mì vịt tiềm là thành 5/9. Bún đậu mắm tôm xứng lên trang chủ nhưng phải hạ một món ngang cỡ, nên để đợt 7 mở Lẩu + Cháo rồi cân một thể.
+**Độ khó:** Vừa 22 (47%) · Dễ 18 (38%) · Kỳ công 7 (15%).
+**Họ màu:** Chan & húp 21 · Mặn đưa cơm 14 · Cuốn & trộn 6 · Cơm & bánh 3 · Lửa 3.
 
-**Hai ô còn mỏng cần để mắt:** *Cuốn* và *Nướng* mỗi ô mới có 1 món. Đợt 8 (bánh tráng cuốn thịt heo) và đợt 10 (nem nướng) gỡ cho Cuốn; đợt 9 (bò một nắng, cá lóc nướng trui) gỡ cho Nướng. Không ô nào tụt dưới mức đó nữa.
+**Miền Trung 3 → 5** và Miền Nam tụt từ 37% xuống 32% mà không bỏ món nào — gỡ được một phần chỗ lệch lớn nhất của catalog. Cả 13 kiểu món đang có đều **≥ 1**, hai kiểu vừa mở đều vào đúng mức tối thiểu **3 món**.
+
+**Hai ô còn mỏng cần để mắt:** *Cuốn* và *Nướng* vẫn mỗi ô 1 món — đợt 7 không đụng tới hai ô này. Đợt 8 (bánh tráng cuốn thịt heo) và đợt 10 (nem nướng) gỡ cho Cuốn; đợt 9 (bò một nắng, cá lóc nướng trui) gỡ cho Nướng.
+
+## Featured: 9 → 12 món (đổi ở đợt 7)
+
+Cả 6 món đợt 7 đều thuộc **một họ màu duy nhất** (*Chan & húp*), nên với 9 ô thì mọi cách xếp đều phải hy sinh một thứ — đã thử hết bốn cách trước khi quyết:
+
+| Cách xếp trong 9 ô | Hỏng chỗ nào |
+|---|---|
+| + lẩu mắm + bún đậu, − canh chua − trứng chưng | 1 Dễ / 5 Vừa / 3 Kỳ công — trang chủ toàn món khó |
+| + lẩu mắm, − mì Quảng | **Miền Trung 0 món**, ngay trong đợt kéo Miền Trung lên |
+| + lẩu gà lá é, − canh chua | **Miền Tây 0 món** — mất vùng làm nên nhận diện khăn rằn |
+| + lẩu mắm + bún đậu, − trứng chưng − gỏi xoài | họ *Chan & húp* lên 5/9, đúng cái muốn tránh |
+
+9 ô không chứa nổi cùng lúc: Miền Trung + Miền Tây + Cả nước + Tây Bắc + đủ 5 họ màu + một món mở màn kiểu món mới + bún đậu (đã hoãn từ đợt 6). Nên **giữ nguyên cả 9 món cũ và thêm 3**: **lẩu mắm** (mở màn kiểu món mới), **bún đậu mắm tôm** (nợ từ đợt 6), **chả giò** — món nổi tiếng nhất còn đứng ngoài trang chủ, và nó gỡ luôn chuyện họ *Lửa* chỉ có 1/9.
+
+Kết quả 12 món: **họ** Chan & húp 5 · Mặn đưa cơm 2 · Cuốn & trộn 2 · Lửa 2 · Cơm & bánh 1 (tỷ lệ 42% cho họ đông nhất, đúng bằng tỷ lệ của nó trong catalog) · **vùng** 6/7 (thiếu Tây Nguyên) · **độ khó** 3 Dễ / 6 Vừa / 3 Kỳ công · không kiểu món nào quá 3.
+
+> **Một lý do phụ nhưng đo được:** lưới `auto-fill minmax(252px, 1fr)` cho 2–4 cột tuỳ bề rộng. **12 chia hết cho cả 2, 3 và 4**, còn 9 thì ở 4 cột ra hàng cụt 4+4+1. Đã đếm lại trên trang thật: 12 thẻ, 3 cột, 4 hàng đầy, dư 0.
+
+**Cháo cố ý không lên trang chủ:** cháo lòng kén người ăn, cháo gà nhìn nhạt — hai món đó sống tốt hơn ở chip lọc và dải "Sắp lên mâm". Featured là chỗ để món mạnh nhất, không phải chỗ trưng đủ mặt kiểu món.
+
+**Dung lượng `/mon/` ở 47 món: 491 KB thô · 111 KB gzip.** Mốc kích hoạt việc tách hình ra `.svg` riêng vẫn là **gzip vượt ~150 KB** — còn xa, khớp với đường chiếu 136 KB ở mốc 63 món.
 
 ## ⚠️ Đính chính: mọi con số dung lượng trước đây đều là **CHƯA NÉN**
 
@@ -217,6 +240,7 @@ Thái báo: mép phải ba hàng chip bị mờ. Đo lại thì ra **hai lỗi c
 | khung trang | 63 KB | **17 KB** | |
 | 257 thẻ `<svg>` nhúng thẳng | 363 KB (85%) | 78 KB | |
 | **`/mon/` ở 41 món** | 426 KB | **95 KB** | 71 KB |
+| **`/mon/` ở 47 món** *(đo lại sau đợt 7)* | 491 KB | **111 KB** | |
 | chiếu ở 63 món | 620 KB | 136 KB | ~104 KB |
 | chiếu ở 100 món | 948 KB | 206 KB | ~157 KB |
 | **nếu tách `.svg` ra ngoài** | | **~34 KB, không đổi theo số món** | |
@@ -279,18 +303,44 @@ Thứ tự các đợt được xếp sao cho **mỗi kiểu món mới chỉ m�
 - Chuỗi thường **bắt đầu bằng `*`** bị hiểu là YAML alias. Vd `- **Chiên ngập dầu** cho da vàng…`
 - Cách kiểm nhanh trước khi build: chạy `js-yaml` trên cả thư mục rồi soi xem có trường nào đáng lẽ là chuỗi mà ra object không.
 
-### Đợt 7 — 6 món · mở "Lẩu" + "Cháo"
+### ✅ Đợt 7 — XONG 2026-07-29 · 6 món · mở "Lẩu" + "Cháo"
 
-| Món | Vùng | Kiểu món | Độ khó |
-|---|---|---|---|
-| Lẩu mắm | Miền Tây | Lẩu | Kỳ công |
-| Lẩu gà lá é | Miền Trung | Lẩu | Vừa |
-| Lẩu Thái | Cả nước | Lẩu | Vừa |
-| Cháo lươn Nghệ An | Miền Trung | Cháo | Vừa |
-| Cháo gà | Cả nước | Cháo | Dễ |
-| Cháo lòng | Cả nước | Cháo | Vừa |
+| Món | Vùng | Kiểu món | Độ khó | Theo dịp |
+|---|---|---|---|---|
+| Lẩu mắm | Miền Tây | Lẩu | Kỳ công | Đãi khách · Nhậu lai rai |
+| Lẩu gà lá é | Miền Trung | Lẩu | Vừa | Đãi khách · Nhậu lai rai |
+| Lẩu Thái | Cả nước | Lẩu | Vừa | Đãi khách · Ăn chơi |
+| Cháo lươn Nghệ An | Miền Trung | Cháo | Vừa | Bữa sáng · Cho bé |
+| Cháo gà | Cả nước | Cháo | Dễ | Cơm nhà · Bữa sáng · Cho bé |
+| Cháo lòng | Cả nước | Cháo | Vừa | Bữa sáng · Nhậu lai rai |
 
-*Lẩu gà lá é gốc Phú Yên (Miền Trung), nổi tiếng nhờ Đà Lạt — kể chuyện đó trong bài. Lẩu Thái viết ở dạng "lẩu Thái kiểu Việt", không nhận là món Việt gốc.*
+*Lẩu gà lá é gốc Phú Yên (Miền Trung), nổi tiếng nhờ Đà Lạt — đã kể chuyện đó trong bài. Lẩu Thái viết ở dạng "lẩu Thái kiểu Việt", nói thẳng gốc là **tom yum** của Thái Lan ngay đoạn đầu phần chuyện món ăn.*
+
+**Mở kiểu món lần này chỉ phải sửa 4/7 chỗ — Phần I đã đi trước 3 chỗ.** Kiểm từng chỗ trước khi viết chứ đừng tin trí nhớ:
+
+| Chỗ | Trạng thái khi vào đợt 7 |
+|---|---|
+| `content.config.ts` enum `category` | phải thêm (kèm 6 giá trị `art` mới) |
+| `RecipeArt.astro` `byCategory` | phải thêm — `Lẩu` → `claypot`, `Cháo` → `bowl` |
+| `_template.yaml` | phải thêm (nhân tiện sửa chú thích `occasions` vẫn ghi "tùy chọn" trong khi schema đã `.min(1)` từ giai đoạn 5) |
+| ROADMAP | phải sửa |
+| `utils/family.ts` · `CAT_ORDER` · `contact-sheet.mjs` | **đã có sẵn từ Phần I** |
+
+**Thứ tự `order` nối 42–47, không đánh số lại file nào.** Khối `Canh` vốn nằm cuối dãy (38–41), nên nối Lẩu → Cháo ngay sau đó vừa đúng thứ tự trong `CAT_ORDER` (Canh · Lẩu · Cháo) vừa gom cùng họ màu. Đợt 6 phải renumber 25 file vì chèn vào giữa; đợt này 0 file.
+
+**Bẫy YAML lại dính đúng một lần** — `- **Gỡ thịt bằng tay**, tước dọc…` trong `quick.steps` bị hiểu là alias vì mở đầu bằng `*`. Script quét (`js-yaml` + soi trường nào đáng lẽ chuỗi mà ra object) bắt được trước khi build, đúng như cách ghi ở đợt 6.
+
+**Hình:** 6 art riêng. Rủi ro thật của đợt này là **3 nồi lẩu giống nhau và 3 tô cháo giống nhau**, nên mỗi hình được gắn một chữ ký tách bạch: nồi đất thấp + rổ rau (lẩu mắm) · nồi đồng có **ống khói** + chén muối ớt xanh (lá é) · nồi inox nước đỏ + tôm (lẩu Thái); cháo nâu cánh gián + sợi lươn (cháo lươn) · cháo trắng + gà xé + gừng sợi (cháo gà) · khoanh dồi tròn + lát lòng rỗng ruột + giá (cháo lòng).
+
+> **Soi bằng resvg mới thấy, contact sheet không đủ.** Bản vẽ đầu có ba lỗi chỉ lộ ra khi render PNG rồi nhìn: **ống khói lẩu gà lá é cao gấp rưỡi mức cần** nên thành cái ống bô; **nồi inox lẩu Thái quá nhợt** khiến mảng nước đỏ không bật lên được; và **thịt gà xé trong cháo gà gần trùng màu mặt cháo** nên cả tô nhìn trống trơn. Chữa bằng ba việc: hạ ống khói và đổi nồi sang sắc đồng ấm (tách hẳn khỏi inox lạnh của lẩu Thái), sẫm nồi inox xuống một bậc, và hạ tông thịt gà xé sẫm hơn nền một bậc rõ rệt.
+
+**Sửa sau khi Thái duyệt — từ có thật vẫn có thể khó hiểu.** Thái hỏi *"ngải bún là gì?"*, *"bánh mướt là bánh gì?"* Cả hai đều đã WebSearch kiểm chứng và **đã chú giải kỹ ở phần nguyên liệu** — nhưng lại xuất hiện trần trụi ở `summary`, tức là chữ hiện trên thẻ món và hero, chỗ người đọc gặp đầu tiên. Rút ra: **chú giải phải đi cùng lần xuất hiện ĐẦU TIÊN, không phải lần giải thích kỹ nhất.** Đã chữa: bỏ "ngải bún" khỏi summary lẩu mắm và khỏi ticker (băng chữ chạy không có chỗ giải thích), gloss ngay ở `quick.ingredients` — "một loại củ họ gừng"; bánh mướt gloss thành "**thứ bánh cuốn không nhân của xứ Nghệ**". Soi lại toàn đợt thì còn hai từ dính đúng tật đó nhưng chưa ai kêu, sửa luôn: **lá é** ("rau thơm họ húng quế") và **hành tăm** ("củ nhỏ cỡ đầu ngón tay, nồng hơn hành tím").
+
+> Nhân đó bắt được một mô tả **sai**: bánh mướt bị viết là "bánh tráng mỏng cuộn lại". Bánh tráng là bánh phơi khô; bánh mướt tráng bột gạo tẻ trên tấm vải căng miệng nồi hơi — tức là **bánh cuốn không nhân**. Đã sửa cả 3 chỗ và bỏ câu thay thế bị vòng tròn ("không mua được bánh mướt thì thay bằng bánh cuốn không nhân").
+
+**Tiêu đề cháo lòng bỏ "khoanh dồi mềm"** — dồi là món phụ trong tô, không phải thứ định nghĩa món. Title còn *"Cháo lòng ngọt nước luộc, lòng giòn sựt"*, và summary + heroEyebrow + ticker trang chủ cũng thôi mở đầu bằng dồi.
+
+**Hai script QA nên giữ lại cho đợt sau:** một cái quét bẫy YAML cả thư mục, một cái **soi trùng `id` chéo giữa các file art** — cả 47 hình cùng nhúng thẳng vào `/mon/` nên hai file dùng chung một `id` là hỏng âm thầm. Lần này: 137 id, không trùng chéo file nào.
 
 ### Đợt 8 — 6 món · Miền Trung
 
@@ -348,17 +398,17 @@ Thứ tự các đợt được xếp sao cho **mỗi kiểu món mới chỉ m�
 
 **Vùng miền:**
 
-| Vùng | Trước đợt 6 | Hiện tại (41 món) | Sau đợt 10 |
+| Vùng | Trước đợt 6 | Hiện tại (47 món) | Sau đợt 10 |
 |---|---:|---:|---:|
-| Miền Nam | 14 (40%) | 15 (37%) | 16 (25%) |
-| Miền Trung | 3 (9%) | 3 (7%) | **12 (19%)** |
-| Cả nước | 6 | 8 | 12 |
+| Miền Nam | 14 (40%) | 15 (32%) | 16 (25%) |
+| Miền Trung | 3 (9%) | 5 (11%) | **12 (19%)** |
+| Cả nước | 6 | 11 | 12 |
 | Miền Bắc | 6 | 9 | 10 |
-| Miền Tây | 4 | 4 | 8 |
+| Miền Tây | 4 | 5 | 8 |
 | Tây Nguyên | 1 | 1 | 3 |
 | Tây Bắc | 1 | 1 | 2 |
 
-> Đợt 6 toàn món Bắc và món "cả nước" nên **Miền Trung vẫn đứng nguyên ở 3 món** — cả chín món Trung dồn hết vào đợt 8–10. Đó là chỗ lệch lớn nhất còn lại của catalog.
+> Đợt 6 toàn món Bắc và món "cả nước" nên Miền Trung đứng nguyên ở 3 món suốt đợt đó. **Đợt 7 kéo được lên 5** nhờ lẩu gà lá é và cháo lươn Nghệ An; bảy món Trung còn lại dồn vào đợt 8–10. Đây vẫn là chỗ lệch lớn nhất còn lại của catalog.
 
 Miền Trung từ vùng gần bét lên đồng hạng đầu; Miền Nam từ 40% xuống 25% mà không phải bỏ món nào.
 

@@ -1,0 +1,412 @@
+title: Cháo gà **gạo rang thơm, nước luộc gà ngọt lịm**
+summary: >-
+  Nồi cháo quen nhất của mọi nhà, nấu cho ra tấm ra món: **gạo rang vàng trước
+  khi ninh** nên hạt tơi và dậy mùi, nước dùng lấy nguyên từ nồi luộc gà, thịt
+  xé phay trộn muối tiêu chanh để riêng. Rắc gừng sợi với hành lá, thêm cây
+  quẩy là xong bữa sáng.
+region: Cả nước
+category: Cháo
+occasions: [Cơm nhà, Bữa sáng, Cho bé]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 10 phút
+  active: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 46
+art: chao-ga
+heroEyebrow: Nồi cháo sôi lăn tăn, mùi gừng thoảng lên…
+
+quick:
+  ingredients:
+    - Gà ta [[1|con|frac]] (1,2–1,5 kg) — hoặc [[800|g]] đùi góc tư cho gọn
+    - Gạo tẻ [[180|g]] + gạo nếp [[40|g]] — **rang vàng trước khi ninh**
+    - Gừng [[1|củ]] · hành tím [[4|củ]] · hành lá · ngò rí
+    - "Trộn gà xé: muối [[1|thìa cà phê|frac]] · tiêu · chanh [[1|trái]] · lá chanh thái chỉ"
+    - "Nêm: nước mắm [[2|thìa canh|frac]] · muối · tiêu"
+    - Quẩy ăn kèm · hành phi
+  steps:
+    - Luộc gà từ **nước lạnh** với gừng hành nướng — sôi hớt bọt, liu riu 25 phút, ủ 10 phút.
+    - Rang gạo với chút dầu tới khi **hạt vàng nhạt và dậy mùi cốm**, chừng 5 phút.
+    - Trút gạo rang vào **nước luộc gà**, ninh liu riu 40 phút cho nở mềm.
+    - Vớt gà ngâm nước đá, xé phay, trộn muối tiêu chanh + lá chanh thái chỉ.
+    - Nêm nồi cháo, thả gừng thái sợi, chan mỡ hành cho thơm.
+    - Múc ra tô, xếp gà xé lên mặt, rắc hành lá, ngò, tiêu; dọn kèm quẩy.
+  warning: >-
+    **Đừng ninh gà quá lâu để lấy nước ngọt.** Gà luộc 25 phút rồi ủ là vừa
+    chín tới, xé ra còn mọng. Ninh cả tiếng thì nước có ngọt thêm chút nhưng
+    thịt xác xơ, mà thịt mới là thứ đáng ăn nhất trong tô.
+
+flavor:
+  chua: 0.5
+  ngot: 6
+  man: 5
+  cay: 1
+  thom: 7
+flavorNote: >-
+  **Chuẩn vị:** cháo sánh nhẹ, **hạt gạo nở tơi chứ không dính bết**, húp vào
+  thấy ngọt nước gà đi trước rồi mùi gừng ấm theo sau. Thịt gà xé phay phải
+  **còn mọng, thấm muối tiêu chanh**, ăn riêng cũng ngon.
+storyEyebrow: Chuyện nồi cháo gà
+storyTitle: Món **ai cũng biết nấu**, nhưng ngon thì hiếm
+story:
+  - >-
+    Cháo gà là món hầu như nhà nào cũng từng nấu: có con gà, có nắm gạo, thế
+    là xong. Chính vì dễ nên nó hay bị nấu qua loa — thả gạo sống vào nồi nước
+    luộc, ninh cho nhừ rồi múc ra. Ăn thì vẫn ăn được, nhưng tô cháo ra một
+    thứ **sền sệt nhạt nhòa**, hạt gạo bết vào nhau, thịt gà thì khô vì bị
+    luộc quá tay.
+  - >-
+    Khác biệt giữa nồi cháo cho qua bữa và nồi cháo đáng ngồi xuống ăn nằm ở
+    hai việc nhỏ. Một là **rang gạo trước khi ninh**: hạt gạo được áo qua dầu
+    nóng thì lúc nở ra sẽ **tơi và rời nhau**, lại có mùi thơm như mùi cốm.
+    Hai là **luộc gà cho đúng giờ rồi ngâm nước đá**, để miếng thịt săn lại và
+    còn mọng nước, xé ra thành thớ đẹp.
+  - >-
+    Còn lại thì cứ để nồi cháo tự làm việc của nó. Nước luộc gà đã đủ ngọt nên
+    không cần thêm gì; gừng thái sợi cho ấm miệng, hành lá và tiêu rắc lúc
+    bưng ra. Nhà nào thích đậm thì trộn thêm đĩa gà xé phay với muối tiêu
+    chanh và lá chanh thái chỉ, ăn xen với cháo. Một con gà nấu được cả nồi
+    cháo lẫn đĩa gỏi — đó là lý do món này có mặt trong bếp Việt lâu tới vậy.
+
+ingredientGroups:
+  - name: Gà & nồi nước
+    icon: meat
+    items:
+      - id: ga
+        name: Gà ta
+        icon: meat
+        color: amber
+        base: 1
+        unit: con
+        frac: true
+        note: Con 1,2–1,5 kg, da vàng mỏng, thịt chắc — xé ra mới thành thớ đẹp
+      - id: gung
+        name: Gừng
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Nửa củ nướng xém thả nồi luộc, nửa còn lại thái sợi thật mảnh rắc tô
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 4
+        unit: củ
+        note: 2 củ nướng xém thả nồi, 2 củ thái lát phi lấy mỡ hành
+      - id: muoiluoc
+        name: Muối hột
+        icon: jar
+        base: 1
+        unit: thìa cà phê
+        frac: true
+        note: Cho vào nồi luộc từ đầu để nước rút ngọt từ xương
+  - name: Gạo nấu cháo
+    icon: rice
+    items:
+      - id: gaote
+        name: Gạo tẻ
+        icon: rice
+        base: 180
+        unit: g
+        note: Vo nhẹ tay rồi để **thật ráo** — gạo còn ướt thì rang không vàng đều
+      - id: gaonep
+        name: Gạo nếp
+        icon: rice
+        color: gold
+        base: 40
+        unit: g
+        note: Trộn chung cho cháo sánh nhẹ; tỷ lệ cỡ 1 nếp 4 tẻ là vừa
+      - id: dauan
+        name: Dầu ăn
+        icon: bottle
+        base: 1
+        unit: thìa canh
+        frac: true
+        note: Áo qua gạo lúc rang — đây là cách giữ cho hạt gạo nở tơi
+  - name: Trộn gà xé
+    icon: lime
+    items:
+      - id: chanh
+        name: Chanh
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Vắt vào chén muối tiêu, trộn với gà xé
+      - id: lachanh
+        name: Lá chanh
+        icon: herb
+        color: green
+        base: 5
+        unit: lá
+        note: Thái chỉ thật mảnh — trộn vào gà xé, đừng thả vào nồi cháo
+      - id: tieu
+        name: Tiêu xay
+        icon: pepper
+        qtyText: Trộn gà + rắc tô
+        note: Trộn vào gà xé một phần, rắc mặt tô một phần
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Nêm nồi cháo lúc gần xong, nước sôi mới dậy mùi
+  - name: Rắc mặt & ăn kèm
+    icon: herb
+    items:
+      - id: hanhla
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Hành lá xắt nhỏ (giữ lại phần đầu trắng để phi mỡ hành), ngò cắt khúc
+      - id: hanhphi
+        name: Hành phi
+        icon: onion
+        color: gold
+        qtyText: 2 thìa canh
+        note: Rắc lúc bưng ra, để ráo mỡ cho giòn lâu
+      - id: quay
+        name: Quẩy
+        icon: roll
+        color: amber
+        base: 4
+        unit: cây
+        note: Cắt khúc ngắn, dọn riêng đĩa — nhúng tới đâu ăn tới đó cho khỏi ỉu
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi cháo gà đúng kiểu**
+stepsLead: >-
+  Cả món xoay quanh một nồi nước: luộc gà xong thì chính nồi đó thành nồi
+  cháo. Hai việc đáng chú tâm là **rang gạo** và **canh giờ luộc gà** — làm
+  đúng hai chỗ đó thì phần còn lại gần như không sai được.
+steps:
+  - title: Luộc gà, ủ rồi ngâm đá
+    icon: pot
+    minutes: 40 phút
+    intro: "Con gà quyết định cả nồi nước lẫn đĩa thịt, nên làm cho tới:"
+    bullets:
+      - label: "Làm sạch:"
+        text: >-
+          Chà xát **muối hột với gừng đập dập** trong ngoài con gà, rửa lại
+          kỹ, để ráo.
+      - label: "Luộc:"
+        text: >-
+          Xếp gà vào nồi, châm **nước lạnh** ngập (cỡ [[2.2|lít]]), thả gừng
+          và hành tím nướng xém + [[1|thìa cà phê|frac]] muối. Sôi thì **hớt
+          sạch bọt**, hạ liu riu **25 phút**.
+      - label: "Ủ và ngâm:"
+        text: >-
+          Tắt bếp, đậy vung **ủ 10 phút**, rồi vớt gà thả vào **thau nước đá
+          5 phút** cho da săn và thịt mọng.
+    callout:
+      type: warn
+      text: >-
+        Để nồi sôi bùng suốt là **da nứt, thịt xác xơ, nước đục**. Mặt nước
+        chỉ lăn tăn từ đầu tới cuối — nồi cháo lấy chính nước này nên nước đục
+        thì tô cháo cũng xỉn màu.
+    timer:
+      secs: 1500
+      label: Hẹn giờ luộc gà · 25:00
+      doneMsg: Tắt bếp, ủ thêm 10 phút nghen!
+  - title: Rang gạo cho dậy mùi
+    icon: flame
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Vo [[180|g]] gạo tẻ + [[40|g]] gạo nếp **nhẹ tay một lượt**, để
+          thật ráo — gạo còn ướt thì rang không vàng.
+      - text: >-
+          Bắc chảo khô, cho [[1|thìa canh|frac]] dầu, trút gạo vào **đảo đều
+          tay 4–5 phút** trên lửa vừa.
+      - text: >-
+          Đạt là khi hạt gạo **ngả vàng nhạt và dậy mùi thơm như mùi cốm**.
+          Đừng rang tới nâu — nâu là cháo sẽ đắng và ngả màu.
+    callout:
+      type: tip
+      text: >-
+        Rang gạo là chỗ chia đôi nồi cháo "ăn được" và nồi cháo "ăn là nhớ".
+        Hạt gạo được áo dầu thì lúc ninh **nở tơi và rời nhau** thay vì bết
+        thành hồ, lại thơm sẵn từ trước khi vào nồi.
+  - title: Ninh cháo bằng nước luộc gà
+    icon: rice
+    minutes: 40 phút
+    bullets:
+      - text: >-
+          Lọc nồi nước luộc gà qua rây cho trong, bỏ xác gừng hành. Trút gạo
+          rang vào, đun sôi rồi **hạ liu riu**.
+      - text: >-
+          Ninh **40 phút**, thỉnh thoảng khuấy nhẹ từ đáy lên cho khỏi khê.
+          Đạt là hạt gạo nở mềm mà vẫn còn tơi.
+      - text: >-
+          Bộ xương gà đã lọc thịt **thả lại nồi** ninh chung cho ngọt, gần
+          xong thì vớt ra.
+      - text: >-
+          Nêm [[2|thìa canh|frac]] nước mắm và chút muối; đặc quá thì châm
+          **nước sôi**, đừng châm nước lạnh.
+    timer:
+      secs: 2400
+      label: Hẹn giờ ninh cháo · 40:00
+      doneMsg: Nếm thử — hạt gạo nở mềm là được!
+  - title: Xé gà, trộn muối tiêu chanh
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Lọc thịt khỏi xương, **xé tay theo thớ** thành miếng to bằng ngón
+          tay — xé chứ đừng thái, thớ xù xì mới bám gia vị.
+      - text: >-
+          Pha chén **muối + tiêu + nước cốt chanh**, rưới vào gà xé, bóp nhẹ
+          cho thấm.
+      - text: >-
+          Thái [[5|lá]] lá chanh thành chỉ thật mảnh, trộn vào sau cùng.
+      - text: >-
+          Muốn ăn kiểu gỏi thì trộn thêm hành tây thái mỏng đã ngâm giấm —
+          thành đĩa gà xé phay ăn xen với cháo.
+    callout:
+      type: tip
+      text: >-
+        Lá chanh chỉ nên **trộn vào thịt, đừng thả vào nồi cháo**. Nấu trong
+        nồi thì lá chanh ngả đắng và mùi lấn hết cái ngọt của nước gà.
+  - title: Ráp tô, rắc gừng sợi
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Phi thơm hành tím thái lát với chút mỡ gà lấy từ nồi luộc, được
+          **mỡ hành** để chan mặt tô.
+      - text: >-
+          Múc cháo nóng ra tô, **xếp gà xé lên mặt**, rắc gừng thái sợi thật
+          mảnh.
+      - text: >-
+          Rắc hành lá, ngò rí, hành phi rồi **rắc tiêu**; chan một muỗng mỡ
+          hành lên trên cùng.
+      - text: >-
+          Dọn kèm đĩa quẩy cắt khúc — để riêng, ai ăn tới đâu thả vào tô tới
+          đó cho khỏi ỉu.
+    doneText: Bưng ra bàn — xong!
+
+tipsTitle: 5 mẹo cho **nồi cháo gà không nhạt nhòa**
+tipsLead: >-
+  Món dễ nên ít ai để ý mấy chi tiết nhỏ. Mà chính mấy chi tiết đó tạo ra
+  khác biệt rõ nhất giữa tô cháo ở nhà và tô cháo ngoài hàng.
+tips:
+  - icon: flame
+    title: Rang gạo — mẹo đáng giá nhất
+    text: >-
+      Bốn phút rang gạo đổi lấy hai thứ: **hạt cháo nở tơi rời nhau** thay vì
+      bết dính, và **mùi thơm như cốm** ngấm sẵn trong từng hạt. Rang tới vàng
+      nhạt là dừng; rang tới nâu thì cháo đắng và ngả màu xỉn.
+  - icon: drop
+    title: Nấu bằng nước luộc gà, không nước lã
+    text: >-
+      Cả vị ngọt của nồi cháo nằm ở nồi nước luộc. Lọc cho trong rồi dùng
+      nguyên, và **thả bộ xương đã lọc thịt vào ninh chung** để rút thêm chất
+      ngọt. Nấu bằng nước lã rồi nêm bột ngọt cho đậm là ra vị gắt, không
+      giống nữa.
+  - icon: clock
+    title: Luộc 25 phút rồi ủ, đừng ninh lâu
+    text: >-
+      Nhiều người ninh gà cả tiếng để lấy nước ngọt — được chút nước mà **mất
+      cả đĩa thịt**. Luộc liu riu 25 phút, ủ 10 phút, ngâm nước đá 5 phút là
+      thịt vừa chín tới, săn và mọng. Xiên đũa vào đùi không rỉ nước hồng là
+      đạt.
+  - icon: ginger
+    title: Gừng thái sợi, không phải gừng băm
+    text: >-
+      Gừng băm chìm vào cháo và cho vị nồng đều đều. **Thái sợi thật mảnh rắc
+      lên mặt tô** thì mỗi muỗng gặp một chút, cái ấm bật lên rồi tan — vừa
+      đẹp mắt vừa đúng vị. Gừng nướng thả nồi luộc là việc khác, đừng lẫn hai
+      thứ.
+  - icon: rice
+    title: Cháo đặc thì châm nước sôi
+    text: >-
+      Cháo để một lúc là đặc lại, nhất là khi hâm nồi hôm trước. Châm **nước
+      sôi** rồi khuấy nhẹ; châm nước lạnh thì hạt gạo bị "sốc" và cháo mất độ
+      sánh, mặt nồi tách nước trông rất mất ngon.
+
+serve:
+  title: Tô cháo nóng — **bữa sáng chắc dạ, bữa khuya nhẹ bụng**
+  paras:
+    - >-
+      Cháo gà hợp cả hai đầu ngày: sáng ra một tô nóng cho ấm bụng trước khi
+      đi làm, khuya về đói thì hâm lại nồi là có ngay. Đây cũng là nồi **nấu
+      một lần ăn được hai bữa** — cháo để ngăn mát, sáng hôm sau hâm lên châm
+      thêm nước sôi là vừa.
+    - >-
+      Nhà có bé thì múc riêng một tô trước khi rắc tiêu và gừng, xé thịt nhỏ
+      hơn chút, cháo múc loãng hơn một chút là vừa miệng. Người lớn thì cứ
+      rắc tiêu dày tay và thêm gừng sợi cho dậy.
+    - >-
+      Một con gà nấu được cả nồi cháo lẫn **đĩa gà xé phay** — trộn thêm hành
+      tây ngâm giấm và rau răm là thành món gỏi ăn xen. Muốn đổi hướng hẳn thì
+      dùng phần ức làm **gỏi gà bắp cải**, phần đùi với nước luộc để nấu cháo.
+  aside:
+    title: Trên bàn cháo gà
+    intro: "Mấy thứ nên có sẵn:"
+    items:
+      - icon: roll
+        text: "**Đĩa quẩy cắt khúc** — thả vào tô tới đâu ăn tới đó."
+      - icon: ginger
+        text: "**Chén gừng thái sợi** — ai thích ấm miệng tự rắc thêm."
+      - icon: bottle
+        text: "**Chén muối tiêu chanh** — chấm gà xé, đậm hơn hẳn."
+      - icon: pepper
+        text: "**Hũ tiêu xay** — rắc sát lúc ăn cho thơm."
+
+faq:
+  - q: Có cần rang gạo không, bỏ qua được không?
+    a: >-
+      Bỏ qua vẫn ra nồi cháo, nhưng đây là **mẹo đáng giá nhất của món** nên
+      tiếc lắm. Bốn phút rang đổi lấy hạt gạo nở tơi và mùi thơm sẵn. Nếu thật
+      sự vội thì ít nhất hãy **để gạo thật ráo và trộn qua chút dầu** trước
+      khi cho vào nồi — được một phần tác dụng.
+  - q: Gà công nghiệp nấu được không?
+    a: >-
+      Được. Chỉnh hai chỗ: **rút thời gian luộc còn 15–17 phút** rồi ủ 10 phút
+      (thịt gà công nghiệp mềm sẵn, luộc lâu là bở), và mua thêm [[300|g]]
+      xương gà ninh chung cho nước dùng có chiều sâu. Xé thịt cũng nên xé
+      miếng to hơn kẻo vụn.
+  - q: Nấu bằng nồi cơm điện hay nồi áp suất được không?
+    a: >-
+      Được cả hai. **Nồi áp suất**: sau khi rang gạo, cho vào với nước luộc
+      gà, nấu áp suất **15 phút** rồi xả tự nhiên — nhanh hơn nhiều nhưng hạt
+      gạo nở đều tới mức hơi bết. **Nồi cơm điện** chế độ nấu cháo thì cứ để
+      máy chạy, chỉ cần nhớ khuấy một lần giữa chừng.
+  - q: Muốn thêm đậu xanh thì cho lúc nào?
+    a: >-
+      Cho **đậu xanh cà vỏ** đã ngâm 2 tiếng vào **cùng lúc với gạo**, cỡ
+      [[50|g]] cho nồi [[4|người]]. Đậu xanh làm cháo sánh và bùi hơn, hợp
+      với nhà có trẻ nhỏ. Nhớ giảm gạo nếp xuống một nửa, không thì nồi cháo
+      đặc quánh.
+  - q: Cháo để tủ lạnh hâm lại thế nào cho ngon?
+    a: >-
+      Để nguội hẳn rồi cất ngăn mát, dùng trong **2–3 ngày**. Hâm thì bắc lên
+      bếp lửa nhỏ, **châm nước sôi** từng chút và khuấy nhẹ cho về độ sánh cũ.
+      Phần gà xé nên để hộp riêng và chỉ xếp lên tô lúc ăn — trộn sẵn vào cháo
+      rồi cất là thịt bị khô xác.
+  - q: Vì sao cháo bị bết dính thành hồ?
+    a: >-
+      Hai lý do quen thuộc: **không rang gạo** và **khuấy quá nhiều**. Khuấy
+      làm hạt gạo vỡ ra nhả tinh bột, càng khuấy càng đặc quánh. Chỉ khuấy khi
+      sợ khê đáy nồi, mỗi lần một vòng nhẹ. Lỡ bết rồi thì châm nước sôi khuấy
+      loãng ra, ăn vẫn ngon nhưng hạt không tơi lại được.
+
+ticker:
+  - icon: rice
+    text: Gạo rang vàng thơm mùi cốm
+  - icon: drop
+    text: Ninh bằng chính nước luộc gà
+  - icon: meat
+    text: Gà xé phay trộn muối tiêu chanh
+  - icon: ginger
+    text: Gừng thái sợi rắc mặt tô
+  - icon: roll
+    text: Quẩy cắt khúc thả vào tới đâu ăn tới đó
+  - icon: herb
+    text: Lá chanh thái chỉ trộn vào thịt

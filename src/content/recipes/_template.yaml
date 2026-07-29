@@ -19,11 +19,16 @@ summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Tây Bắc | Tây Nguyên | Cả nước
 category: Canh          # Canh | Kho | Xào | Nướng | Cuốn | Gỏi | Chiên | Hấp | Cơm
-#                       # | Món nước | Bún trộn
+#                       # | Món nước | Bún trộn | Lẩu | Cháo
 #                       # Món nước = một tô là xong bữa (kể cả tô nước lèo dọn riêng)
 #                       # Canh     = món trong mâm cơm, ăn với cơm trắng
-# occasions: [Đãi khách]  # tùy chọn, gắn được nhiều: Nhậu lai rai | Ăn chơi | Đãi khách | Cho bé
-#                         # (món cơm nhà thường ngày thì bỏ trống — đó là mặc định của cả site)
+#                       # Lẩu      = nồi đặt giữa bàn, ăn tới đâu nhúng tới đó
+#                       # Cháo     = gạo ninh nhừ
+occasions: [Cơm nhà]    # BẮT BUỘC ít nhất 1 nhãn — để trống là build gãy.
+#                       # Cơm nhà | Bữa sáng | Đãi khách | Nhậu lai rai | Ăn chơi
+#                       # | Cho bé | Cỗ Tết
+#                       # "Đãi khách" chỉ dùng cho món đãi tiệc, KHÔNG dùng cho
+#                       # món ăn hàng thường ngày
 time:
   total: 30 phút
 servingsBase: 4         # công thức viết cho mấy người — định lượng scale từ số này
@@ -39,6 +44,8 @@ order: 99               # thứ tự hiển thị, nhỏ đứng trước
 #                       #               canh-bi-do canh-cua ga-la-giang goi-xoai goi-ga
 #                       #               goi-cuon rau-muong mien-ga mi-vit-tiem
 #                       #               mien-xao-cua mi-xao-bo bun-dau bun-bo-nam-bo
+#                       #               lau-mam lau-ga-la-e lau-thai
+#                       #               chao-luon chao-ga chao-long
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc

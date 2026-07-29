@@ -9,7 +9,10 @@ import CanhChuaArt from '../components/art/CanhChuaArt.astro';
 const recipes = (await getCollection('recipes')).sort(
   (a, b) => a.data.order - b.data.order
 );
-const featured = recipes.filter((r) => r.data.featured).slice(0, 9);
+// 12 thẻ ở mốc 47 món (trước là 9). Lý do đổi: đợt 7 toàn món họ "Chan & húp",
+// mà 9 ô thì không cùng lúc chứa nổi đủ 5 họ màu + 6 vùng + một món mở màn kiểu
+// món mới. 12 cũng chia hết cho 2·3·4 cột nên lưới không còn hàng cụt.
+const featured = recipes.filter((r) => r.data.featured).slice(0, 12);
 const regionCount = new Set(recipes.map((r) => r.data.region)).size;
 
 // Lối vào theo trục: bấm là sang /mon/ đã lọc sẵn. Kèm số món để người đọc biết
@@ -45,6 +48,12 @@ const tickerItems = [
   { icon: 'meat', text: 'Mì vịt tiềm đùi vịt giòn da' },
   { icon: 'noodle', text: 'Miến gà sợi dai nước ngọt thanh' },
   { icon: 'shrimp', text: 'Miến xào cua thớ ngọt nguyên' },
+  { icon: 'fish', text: 'Lẩu mắm rổ rau chất núi' },
+  { icon: 'herb', text: 'Lẩu gà lá é thơm the muối ớt xanh' },
+  { icon: 'chili', text: 'Lẩu Thái chua cay dậy sả' },
+  { icon: 'rice', text: 'Cháo lươn xứ Nghệ hạt gạo nở bung' },
+  { icon: 'ginger', text: 'Cháo gà gạo rang, gừng thái sợi' },
+  { icon: 'roll', text: 'Cháo lòng ngọt nước luộc, lòng giòn sựt' },
   { icon: 'rice', text: 'Cơm nhà là ngon nhất' },
 ];
 ---

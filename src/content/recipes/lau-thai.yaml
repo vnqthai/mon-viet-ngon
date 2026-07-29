@@ -1,0 +1,482 @@
+title: Lẩu Thái kiểu Việt **chua cay dậy sả, nhúng gì cũng hợp**
+summary: >-
+  Nồi lẩu chua cay quen mặt ở mọi bàn tiệc Việt: **sả, riềng, lá chanh** làm
+  nền, me và chanh cho vị chua, sa tế cho cái cay đỏ. Hải sản với thịt bò
+  nhúng tới đâu ăn tới đó, cuối bữa thả vắt mì vào là hết sạch nồi.
+region: Cả nước
+category: Lẩu
+occasions: [Đãi khách, Ăn chơi]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 15 phút
+  active: 45 phút
+servingsBase: 6
+difficulty: Vừa
+featured: false
+order: 44
+art: lau-thai
+heroEyebrow: Nồi đỏ au sôi lục bục, mùi sả bốc lên…
+
+quick:
+  ingredients:
+    - Xương ống heo [[700|g]] — ninh [[2.5|lít]] nước lấy nền ngọt
+    - Sả [[6|cây]] · riềng [[1|củ]] · lá chanh [[10|lá]] · tỏi [[1|củ]] · hành tím [[4|củ]]
+    - Cà chua [[3|trái]] · thơm (dứa) [[0.5|trái|frac]] · nấm rơm [[200|g]]
+    - Tôm sú [[400|g]] · mực [[300|g]] · nghêu [[500|g]] · thịt bò [[300|g]] thái mỏng
+    - "Chua & cay: nước cốt me [[3|thìa canh|frac]] · chanh [[2|trái]] · sa tế [[2|thìa canh|frac]] · ớt"
+    - "Nêm: nước mắm · đường · hạt nêm"
+    - Rau nhúng — cải thảo, rau muống, nấm kim châm · bún hoặc mì gói
+  steps:
+    - Ninh xương [[45|phút]] lấy nước trong; hớt bọt kỹ ngay từ lúc mới sôi.
+    - Phi tỏi, hành tím, **sả băm + riềng thái lát**, cho cà chua và thơm vào xào mềm.
+    - Trút chỗ xào vào nồi nước xương, thả **sả đập dập + lá chanh vò**.
+    - Nêm nước cốt me, sa tế, nước mắm, đường — **nếm theo thứ tự cay → chua → mặn**.
+    - Vắt chanh **lúc gần bưng ra**, không vắt sớm kẻo nước đắng.
+    - Bắc lên bàn, nhúng hải sản trước, thịt bò sau, rau cuối; hết thì thả mì.
+  warning: >-
+    **Đừng vắt chanh vào nồi đang sôi lâu.** Nước cốt chanh đun lâu sẽ ngả
+    đắng và mất mùi thơm. Vị chua nền lấy từ **me**, còn chanh chỉ vắt sát
+    giờ ăn để dậy hương.
+
+flavor:
+  chua: 7
+  ngot: 5
+  man: 6
+  cay: 7
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** nước lèo **đỏ cam có váng sa tế**, húp vào chua trước, cay
+  theo sau, hậu ngọt của xương và thơm. Mùi phải nhận ra ngay là **sả và lá
+  chanh** — thiếu lá chanh thì nồi chỉ còn là canh chua cay thường.
+storyEyebrow: Chuyện nồi lẩu Thái
+storyTitle: Món **gốc Thái Lan**, nấu theo lối bàn tiệc Việt
+story:
+  - >-
+    Cần nói ngay cho rõ: đây **không phải món Việt**. Gốc của nó là *tom yum*
+    — món canh chua cay của Thái Lan, nấu với sả, riềng, lá chanh và ớt.
+    Người Việt gặp món này rồi giữ lại đúng bộ ba mùi đó, nhưng đổi cách ăn:
+    thay vì một tô canh dọn trong mâm, nó thành **nồi lẩu đặt giữa bàn**,
+    nhúng tới đâu ăn tới đó. Cái tên "lẩu Thái" ra đời từ chỗ đó, và giờ nó
+    có mặt ở gần như mọi quán lẩu từ Bắc vào Nam.
+  - >-
+    So với bản gốc thì bản Việt khác vài chỗ thấy rõ. Nồi **to hơn hẳn** vì
+    phải nuôi cả bàn ăn suốt buổi, nên nước dùng ninh từ **xương heo** cho có
+    nền ngọt thay vì chỉ dùng nước luộc tôm. Người Việt cũng hay cho thêm
+    **cà chua và thơm** — hai thứ vừa cho màu đỏ cam vừa cho vị chua ngọt
+    dịu, và **rau nhúng thì nhiều gấp mấy lần**, đúng thói quen ăn lẩu ở đây.
+  - >-
+    Vì vậy nấu nồi này ở nhà đừng cố đuổi theo bản Thái chính gốc, cũng đừng
+    coi thường nó vì là món mượn. Cứ nấu cho đúng cái nó đang là: **một nồi
+    chua cay dễ tính**, nhúng gì cũng hợp, ai cũng ăn được, và tới cuối bữa
+    thả vắt mì vào thì cả bàn im lặng một lúc. Điều duy nhất phải giữ cho
+    đúng là **bộ ba sả – riềng – lá chanh**; bỏ mất một thứ là nồi mất chữ ký.
+
+ingredientGroups:
+  - name: Nồi nước dùng
+    icon: pot
+    items:
+      - id: xuong
+        name: Xương ống heo
+        icon: meat
+        color: red
+        base: 700
+        unit: g
+        note: Chần nước sôi rồi rửa lại cho sạch bọt bẩn — nền ngọt của cả nồi
+      - id: sa
+        name: Sả cây
+        icon: stem
+        color: green
+        base: 6
+        unit: cây
+        note: 4 cây đập dập cắt khúc thả nồi, 2 cây băm nhuyễn để phi thơm
+      - id: rieng
+        name: Riềng
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: >-
+          Thái lát mỏng — riềng chứ không phải gừng. Gừng cho mùi ấm nồng,
+          riềng cho mùi thơm hắc nhẹ đặc trưng của nồi lẩu này
+      - id: lachanh
+        name: Lá chanh
+        icon: herb
+        color: green
+        base: 10
+        unit: lá
+        note: Vò nhẹ cho dập rồi thả nồi — thiếu lá chanh là mất nửa mùi
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 1
+        unit: củ
+        note: Băm nhuyễn phi vàng làm nền
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 4
+        unit: củ
+        note: Băm nhuyễn phi chung với tỏi
+      - id: cachua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 3
+        unit: trái
+        note: Bổ múi cau, xào trước cho ra màu đỏ tự nhiên
+      - id: thom
+        name: Thơm (dứa)
+        icon: pineapple
+        color: gold
+        base: 0.5
+        unit: trái
+        frac: true
+        note: Thái lát mỏng — cho vị chua ngọt dịu và mùi thơm nền
+      - id: namrom
+        name: Nấm rơm
+        icon: pod
+        base: 200
+        unit: g
+        note: Bổ đôi, thả vào nồi lúc gần xong cho khỏi teo
+  - name: Chua & cay
+    icon: chili
+    items:
+      - id: me
+        name: Nước cốt me
+        icon: jar
+        color: amber
+        base: 3
+        unit: thìa canh
+        frac: true
+        note: >-
+          Me vắt dằm nước ấm rồi lọc bỏ hột. Đây là vị chua **nền** — chịu
+          được lửa lâu, khác với chanh
+      - id: chanh
+        name: Chanh tươi
+        icon: lime
+        color: green
+        base: 2
+        unit: trái
+        note: Vắt sát giờ bưng ra để dậy mùi; vắt sớm là nước ngả đắng
+      - id: satetom
+        name: Sa tế
+        icon: chili
+        color: red
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Cho màu đỏ cam và cái cay béo — nêm từ từ, nếm rồi mới thêm
+      - id: ot
+        name: Ớt hiểm
+        icon: chili
+        color: red
+        base: 5
+        unit: trái
+        note: Đập dập thả nồi 2 trái, còn lại thái lát để riêng ai ăn cay tự thêm
+  - name: Đồ nhúng
+    icon: shrimp
+    items:
+      - id: tom
+        name: Tôm sú
+        icon: shrimp
+        color: red
+        base: 400
+        unit: g
+        note: Cắt râu, chừa vỏ cho ngọt — nhúng vừa đỏ vỏ là vớt
+      - id: muc
+        name: Mực ống
+        icon: fish
+        base: 300
+        unit: g
+        note: Khứa vảy rồng cắt miếng, nhúng chừng 30 giây kẻo dai
+      - id: ngheu
+        name: Nghêu
+        icon: fish
+        color: gold
+        base: 500
+        unit: g
+        note: Ngâm nước muối có ớt cho nhả cát ít nhất 2 tiếng, chà sạch vỏ
+      - id: thitbo
+        name: Thịt bò
+        icon: meat
+        color: red
+        base: 300
+        unit: g
+        note: Bắp hoa hoặc ba chỉ bò, **thái thật mỏng** ngang thớ, nhúng vài giây
+      - id: chaca
+        name: Chả cá viên (tùy chọn)
+        icon: fish
+        base: 200
+        unit: g
+        note: Mua sẵn, thả vào nồi từ đầu bữa cho thấm
+  - name: Rau nhúng & ăn kèm
+    icon: lettuce
+    items:
+      - id: caithao
+        name: Cải thảo
+        icon: lettuce
+        color: green
+        base: 400
+        unit: g
+        note: Cắt khúc — cọng dày thả trước, lá thả sau
+      - id: raumuong
+        name: Rau muống
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Ngắt khúc hoặc chẻ nhỏ, nhúng nhanh cho còn giòn
+      - id: namkim
+        name: Nấm kim châm
+        icon: pod
+        base: 200
+        unit: g
+        note: Cắt gốc, tách nhỏ — nhúng 1 phút là chín
+      - id: mi
+        name: Mì gói hoặc bún tươi
+        icon: noodle
+        color: gold
+        base: 5
+        unit: vắt
+        note: Mì thả vào cuối bữa lúc nước lèo đậm nhất là ngon nhất
+      - id: nemnem
+        name: Nước mắm · đường · hạt nêm
+        icon: jar
+        qtyText: Nêm theo bước hướng dẫn
+        note: Nồi này nêm nhiều lần chứ không nêm một lượt
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi lẩu Thái đỏ au**
+stepsLead: >-
+  Nồi này dễ nấu nhưng dễ nêm hỏng, vì có tới ba vị mạnh cùng lúc — chua, cay,
+  mặn. Cách chắc ăn là **nêm theo thứ tự và nếm sau mỗi lần**, đừng đổ hết vào
+  rồi mới nếm.
+steps:
+  - title: Ninh xương lấy nước trong
+    icon: pot
+    minutes: 50 phút
+    bullets:
+      - text: >-
+          Chần [[700|g]] xương ống qua nước sôi **2–3 phút**, đổ bỏ nước đó
+          rồi rửa lại xương dưới vòi cho sạch bọt bẩn.
+      - text: >-
+          Châm [[2.5|lít]] nước lạnh, đun sôi rồi hạ liu riu ninh **45 phút**,
+          hớt bọt trong 10 phút đầu.
+      - text: >-
+          Lọc qua rây, giữ lại nước. Nước xương trong thì nồi lẩu lên màu đỏ
+          cam đẹp; nước đục thì màu ra nâu xỉn.
+    callout:
+      type: tip
+      text: >-
+        Vội thì thay bằng **nước luộc gà hoặc nước dùng đóng hộp**, nhưng
+        đừng dùng nước lã — nồi lẩu Thái không có gì bù được phần ngọt nền,
+        và nêm bột ngọt cho đậm thì vị bị gắt.
+    timer:
+      secs: 2700
+      label: Hẹn giờ ninh xương · 45:00
+      doneMsg: Lọc lấy nước, bắt đầu xào đồ thơm!
+  - title: Phi sả riềng, xào cà chua và thơm
+    icon: flame
+    minutes: 12 phút
+    intro: "Đây là bước tạo cả mùi lẫn màu cho nồi lẩu:"
+    bullets:
+      - label: "Phi thơm:"
+        text: >-
+          Bắc chảo dầu, phi **tỏi + hành tím băm** cho vàng, rồi cho **sả băm
+          và riềng thái lát** vào đảo tới khi dậy mùi.
+      - label: "Xào màu:"
+        text: >-
+          Cho cà chua bổ múi cau vào xào **mềm rục ra màu**, rồi tới thơm
+          thái lát, đảo thêm 2 phút.
+      - label: "Vào sa tế:"
+        text: >-
+          Hạ lửa nhỏ, cho [[2|thìa canh|frac]] sa tế vào đảo đều **30 giây**
+          — sa tế gặp dầu nóng mới bung màu đỏ cam.
+    callout:
+      type: warn
+      text: >-
+        Sa tế cho vào lửa lớn là **cháy khét và đắng**. Hạ lửa trước khi cho
+        vào, đảo nhanh rồi trút liền vào nồi nước dùng.
+  - title: Ráp nồi, nêm theo thứ tự
+    icon: drop
+    minutes: 15 phút
+    intro: "Nêm từng thứ một và nếm sau mỗi lần — đây là bước dễ hỏng nhất:"
+    bullets:
+      - label: "Ráp nồi:"
+        text: >-
+          Trút chỗ xào vào nồi nước xương, thả **4 cây sả đập dập** và
+          [[10|lá]] lá chanh vò dập. Đun sôi rồi hạ liu riu **10 phút**.
+      - label: "Cay trước:"
+        text: >-
+          Nếm độ cay, thiếu thì thêm sa tế hoặc 2 trái ớt hiểm đập dập.
+      - label: "Chua sau:"
+        text: >-
+          Cho [[3|thìa canh|frac]] nước cốt me, nếm lại. Chua vừa là thấy
+          **ứa nước miếng chứ không nhăn mặt**.
+      - label: "Mặn ngọt cuối:"
+        text: >-
+          Nêm nước mắm và một chút đường cho cân, rồi mới chỉnh hạt nêm nếu
+          cần.
+    callout:
+      type: tip
+      text: >-
+        Nêm nồi lẩu **đậm hơn tô canh** một bậc, vì lát nữa rau và mì sẽ hút
+        vị rất nhanh. Nhưng đừng nêm tới mức mặn gắt — giữa bữa còn châm thêm
+        nước sôi thì lại vừa.
+  - title: Soạn dĩa nhúng
+    icon: knife
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Nghêu ngâm nước muối có thả vài lát ớt **ít nhất 2 tiếng** cho nhả
+          hết cát, chà sạch vỏ.
+      - text: >-
+          Tôm cắt râu chừa vỏ; mực khứa vảy rồng cắt miếng; thịt bò **thái
+          thật mỏng ngang thớ**, xếp dĩa riêng.
+      - text: >-
+          Rau nhặt rửa để ráo, nấm kim châm cắt gốc tách nhỏ. Cải thảo tách
+          riêng phần cọng và phần lá.
+      - text: >-
+          Bày mỗi thứ một dĩa chứ đừng dồn chung — nhúng đúng thứ tự thì món
+          nào cũng vừa chín tới.
+    callout:
+      type: warn
+      text: >-
+        Nghêu chưa nhả hết cát là **cả nồi lạo xạo**, không cứu được. Ngâm đủ
+        giờ, và con nào há miệng sẵn mà gõ vào không khép lại thì bỏ đi.
+  - title: Bắc lên bàn, nhúng đúng thứ tự
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Vắt [[2|trái]] chanh vào nồi **ngay trước khi bưng ra**, đảo nhẹ,
+          nếm phát cuối.
+      - text: >-
+          Nhúng theo thứ tự: **nghêu và chả cá trước** (lâu chín), rồi tôm
+          mực, thịt bò nhúng vài giây là gắp.
+      - text: >-
+          Rau thả sau cùng và **thả từng đũa**, cọng cải thảo trước lá sau.
+      - text: >-
+          Cuối bữa nước lèo đậm nhất thì **thả mì gói vào**, chờ 2 phút là
+          vớt — đây là lượt được mong nhất của nồi lẩu.
+    doneText: Dọn lên bàn — xong!
+
+tipsTitle: 5 mẹo cho **nồi lẩu Thái không bị nêm hỏng**
+tipsLead: >-
+  Ba vị mạnh cùng lúc là chỗ khó duy nhất của món này. Mấy mẹo dưới đây xoay
+  quanh việc giữ cho chúng không đè lên nhau.
+tips:
+  - icon: herb
+    title: Sả – riềng – lá chanh, đủ cả ba
+    text: >-
+      Đây là chữ ký của nồi lẩu, thiếu thứ nào cũng nhận ra ngay. **Riềng
+      không thay được bằng gừng** (gừng ấm nồng, riềng thơm hắc nhẹ), và **lá
+      chanh không thay được bằng vỏ chanh**. Nếu chỉ mua được hai trong ba thì
+      tăng phần sả lên, nồi vẫn ngon nhưng biết là đang thiếu.
+  - icon: lime
+    title: Chua nền bằng me, chua mùi bằng chanh
+    text: >-
+      Hai thứ làm hai việc khác nhau. **Me** chịu được lửa nên cho vào lúc
+      nấu, làm nên vị chua nền của cả nồi. **Chanh** vắt sát giờ ăn để lấy
+      mùi thơm — vắt sớm rồi đun lâu là nước ngả đắng, mà mùi cũng bay mất.
+  - icon: flame
+    title: Sa tế phải phi trong dầu nóng vừa
+    text: >-
+      Đổ thẳng sa tế vào nồi nước thì màu không bung, nổi lều bều trên mặt.
+      Cách đúng là **hạ lửa nhỏ, cho vào chảo dầu đang xào, đảo 30 giây** cho
+      màu đỏ cam tan ra rồi mới trút vào nồi. Lửa lớn thì cháy khét và đắng.
+  - icon: pineapple
+    title: Thơm và cà chua cho màu, đừng cho nhiều
+    text: >-
+      Hai thứ này vừa tạo màu đỏ cam tự nhiên vừa cho vị chua ngọt dịu. Nhưng
+      quá tay thì **nồi ngả sang ngọt** và mất cái sắc bén của chua cay. Cỡ
+      [[3|trái]] cà chua với **nửa trái thơm** cho nồi [[6|người]] là vừa.
+  - icon: noodle
+    title: Để dành mì cho lượt cuối
+    text: >-
+      Thả mì từ đầu là nó hút hết nước lèo và nở bung thành một nồi bột. Đợi
+      tới lúc đã nhúng gần hết hải sản và rau, nước lèo lúc đó **đậm và ngọt
+      nhất**, mới thả mì vào chần 2 phút rồi vớt ra chén.
+
+serve:
+  title: Nồi giữa bàn — **món dễ tính nhất của mọi bữa đông người**
+  paras:
+    - >-
+      Lẩu Thái được chuộng vì nó **không kén ai**: người thích hải sản, người
+      chỉ ăn rau, người cần cay, người sợ cay — mỗi người nhúng thứ mình muốn
+      vào cùng một nồi. Nhà có khách đông mà chưa biết nấu gì thì đây là
+      phương án chắc tay nhất.
+    - >-
+      Muốn nhẹ nhàng hơn thì bớt sa tế còn [[1|thìa canh|frac]] và tăng thơm
+      lên, nồi sẽ nghiêng về chua ngọt. Muốn đậm đà hơn thì thêm chả cá viên
+      và nấm rơm ngay từ đầu bữa cho nước lèo dày vị.
+    - >-
+      Ăn không hết thì lọc bỏ rau thừa, để nguội cất ngăn mát **2 ngày**. Hôm
+      sau đun lại, thả ít nấm và vắt mì là có tô mì chua cay cho bữa sáng.
+      Nhớ **vắt lại chanh mới** vì mùi chanh hôm trước đã bay hết.
+  aside:
+    title: Trên bàn lẩu Thái
+    intro: "Mấy thứ nên có sẵn:"
+    items:
+      - icon: chili
+        text: "**Chén sa tế và ớt xắt** — ai ăn cay tự thêm, đừng tăng trong nồi."
+      - icon: lime
+        text: "**Chanh cắt miếng** — vắt vào chén riêng cho tươi mùi."
+      - icon: bottle
+        text: "**Chén muối tiêu chanh** — chấm hải sản, hợp hơn nước mắm."
+      - icon: noodle
+        text: "**Mì gói để sẵn** — thả lượt cuối, đừng thả sớm."
+
+faq:
+  - q: Đây có phải món Việt không?
+    a: >-
+      Không. Gốc là **tom yum của Thái Lan** — canh chua cay nấu với sả,
+      riềng, lá chanh. Sang Việt Nam nó được nấu thành **nồi lẩu đặt giữa bàn**
+      với nước dùng ninh xương heo, thêm cà chua, thơm và rất nhiều rau nhúng.
+      Bài này viết theo đúng lối đang phổ biến ở Việt Nam, gọi cho đúng tên là
+      **lẩu Thái kiểu Việt**, chứ không nhận là món Việt gốc.
+  - q: Dùng gói gia vị lẩu Thái bán sẵn được không?
+    a: >-
+      Được, và rất nhiều nhà làm vậy. Nhưng gói gia vị chỉ cho vị chua cay
+      nền — **vẫn nên phi thêm sả, riềng, lá chanh tươi** thì nồi mới có mùi
+      thật. Nếu dùng gói thì nêm nhạt tay lại vì trong gói đã có sẵn muối và
+      bột ngọt, nếm rồi mới thêm nước mắm.
+  - q: Nồi bị đắng là do đâu?
+    a: >-
+      Ba nguyên nhân thường gặp: **sa tế phi cháy** ở lửa lớn, **vắt chanh
+      quá sớm** rồi đun lâu, hoặc **lá chanh để trong nồi cả buổi**. Chữa
+      bằng cách châm thêm nước dùng nóng và một chút đường; lần sau thì hạ lửa
+      lúc cho sa tế, vắt chanh sát giờ, và vớt lá chanh ra sau khi nồi đã dậy
+      mùi.
+  - q: Không ăn được cay thì nấu sao?
+    a: >-
+      Giảm sa tế xuống [[1|thìa canh|frac]] và **bỏ hẳn ớt hiểm trong nồi**,
+      màu vẫn đỏ cam nhờ cà chua và sa tế. Cái cay để riêng ra chén cho ai
+      muốn: một chén sa tế, một chén ớt xắt. Cách này chắc ăn hơn nhiều so với
+      nấu cay sẵn rồi tìm cách chữa.
+  - q: Thay hải sản bằng gì cho rẻ?
+    a: >-
+      **Thịt gà chặt miếng** hoặc **thịt bò thái mỏng** đều hợp với nồi này,
+      thêm đậu hũ non và chả cá viên là đủ đầy. Nếu bỏ hết hải sản thì nên
+      tăng nấm rơm và nấm kim châm lên để nước lèo vẫn có chiều sâu.
+  - q: Nấu trước được phần nào?
+    a: >-
+      Nước dùng nấu tới hết bước 3 (chưa vắt chanh) rồi để nguội, cất ngăn mát
+      **2 ngày** — hôm sau đun lại, vắt chanh mới là xong. Đồ nhúng sơ chế
+      trước nửa ngày, riêng **nghêu nên ngâm sát bữa** và thịt bò thì thái sát
+      giờ cho khỏi thâm.
+
+ticker:
+  - icon: stem
+    text: Sả, riềng, lá chanh làm nền mùi
+  - icon: chili
+    text: Sa tế phi dầu bung màu đỏ cam
+  - icon: lime
+    text: Me cho chua nền, chanh cho chua mùi
+  - icon: shrimp
+    text: Tôm mực nghêu nhúng tới đâu ăn tới đó
+  - icon: pineapple
+    text: Thơm với cà chua cho màu tự nhiên
+  - icon: noodle
+    text: Vắt mì thả lượt cuối, đậm nhất nồi

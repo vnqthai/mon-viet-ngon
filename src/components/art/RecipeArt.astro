@@ -41,6 +41,12 @@ import ArtMienXaoCua from './ArtMienXaoCua.astro';
 import ArtMiXaoBo from './ArtMiXaoBo.astro';
 import ArtBunDau from './ArtBunDau.astro';
 import ArtBunBoNamBo from './ArtBunBoNamBo.astro';
+import ArtLauMam from './ArtLauMam.astro';
+import ArtLauGaLaE from './ArtLauGaLaE.astro';
+import ArtLauThai from './ArtLauThai.astro';
+import ArtChaoLuon from './ArtChaoLuon.astro';
+import ArtChaoGa from './ArtChaoGa.astro';
+import ArtChaoLong from './ArtChaoLong.astro';
 import ArtBowl from './ArtBowl.astro';
 import ArtClaypot from './ArtClaypot.astro';
 import ArtPlate from './ArtPlate.astro';
@@ -61,6 +67,8 @@ const byCategory: Record<string, string> = {
   'Cơm': 'plate',
   'Món nước': 'bowl',
   'Bún trộn': 'bowl',
+  'Lẩu': 'claypot',
+  'Cháo': 'bowl',
 };
 const kind = art ?? byCategory[category] ?? 'bowl';
 ---
@@ -105,6 +113,12 @@ const kind = art ?? byCategory[category] ?? 'bowl';
 {kind === 'mi-xao-bo' && <ArtMiXaoBo />}
 {kind === 'bun-dau' && <ArtBunDau />}
 {kind === 'bun-bo-nam-bo' && <ArtBunBoNamBo />}
+{kind === 'lau-mam' && <ArtLauMam />}
+{kind === 'lau-ga-la-e' && <ArtLauGaLaE />}
+{kind === 'lau-thai' && <ArtLauThai />}
+{kind === 'chao-luon' && <ArtChaoLuon />}
+{kind === 'chao-ga' && <ArtChaoGa />}
+{kind === 'chao-long' && <ArtChaoLong />}
 {kind === 'bowl' && <ArtBowl />}
 {kind === 'claypot' && <ArtClaypot />}
 {kind === 'plate' && <ArtPlate />}

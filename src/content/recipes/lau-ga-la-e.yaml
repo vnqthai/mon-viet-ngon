@@ -1,0 +1,443 @@
+title: Lẩu gà lá é **nước trong ngọt thịt, lá é thơm the**
+summary: >-
+  Nồi lẩu gốc Phú Yên: **gà thả vườn ướp ớt xiêm xanh**, nước dùng trong veo
+  không màu mè, tới lúc ăn mới thả nắm lá é xuống cho dậy mùi the the. Chén
+  chấm là **muối ớt xanh giã với lá é** — thiếu nó thì món này mất một nửa.
+region: Miền Trung
+category: Lẩu
+occasions: [Đãi khách, Nhậu lai rai]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 20 phút
+  active: 40 phút
+servingsBase: 6
+difficulty: Vừa
+featured: false
+order: 43
+art: lau-ga-la-e
+heroEyebrow: Nắm lá é vừa thả xuống, mùi bốc lên tới mặt…
+
+quick:
+  ingredients:
+    - Gà thả vườn [[1|con|frac]] (1,2–1,5 kg) — chặt miếng vừa gắp
+    - Lá é [[300|g]] — **rau thơm họ húng quế**; nửa giã lấy mùi, nửa để nhúng
+    - Ớt xiêm xanh [[15|trái]] · sả [[3|cây]] · hành tím [[5|củ]]
+    - Măng tươi [[300|g]] hoặc măng le — luộc kỹ 2–3 nước
+    - Nấm bào ngư [[200|g]] · bún tươi [[800|g]]
+    - "Chén chấm: muối hột · ớt xiêm xanh · lá é · chanh"
+    - "Nêm: nước mắm · hạt nêm · đường · tiêu"
+  steps:
+    - Gà chặt miếng, ướp **ớt xiêm xanh giã + hành tím + nước mắm** để 30 phút.
+    - Măng luộc **2–3 lần nước sôi**, xả lại cho hết vị đắng và mùi hăng.
+    - Nấu nồi nước với sả đập dập, thả măng vào nấu 20 phút, hớt bọt.
+    - Thả gà đã ướp vào, hầm **liu riu 20–25 phút** cho thịt mềm mà chưa rã.
+    - Giã một nửa chỗ lá é với chút muối, thả vào nồi ngay trước khi bưng ra.
+    - Giã **muối ớt xanh với lá é** làm chén chấm; ăn tới đâu nhúng lá é tươi tới đó.
+  warning: >-
+    **Lá é không được nấu lâu.** Thả xuống rồi để sôi vài phút là mùi bay hết
+    mà nước lại ngả đắng. Đúng cách là thả sát giờ ăn, và phần lá để nhúng thì
+    chỉ dìm xuống nước sôi vài giây rồi gắp lên liền.
+
+flavor:
+  chua: 1
+  ngot: 6
+  man: 5
+  cay: 6
+  thom: 9
+flavorNote: >-
+  **Chuẩn vị:** nước dùng **trong, không váng màu**, ngọt của gà đi trước rồi
+  tới cái the mát của lá é. Cay phải là **cay xanh của ớt xiêm** — nồng mà
+  tan nhanh, khác hẳn cái cay đỏ rát của ớt bột.
+storyEyebrow: Chuyện nồi lẩu gà lá é
+storyTitle: Món của **Phú Yên**, nổi tiếng nhờ **Đà Lạt**
+story:
+  - >-
+    Lá é là thứ rau thơm họ húng quế, người ta còn gọi là **é trắng** hay
+    **trà tiên**. Lá nhỏ, có lông tơ, ăn sống thì the the, mà thả vào nước
+    nóng là dậy lên một mùi rất riêng — không ngọt gắt như húng quế, cũng
+    không hắc như tía tô. Ở Phú Yên, cây é mọc được quanh vùng nắng gió, và
+    bếp nhà ở đó dùng lá é nấu gà từ lâu, ban đầu chỉ là **nồi gà nấu kiểu
+    vùng núi**, đơn sơ, ăn tại chỗ.
+  - >-
+    Rồi món này đi lên cao nguyên. Đà Lạt lạnh, mà nồi lẩu nóng có mùi the
+    thì hợp thời tiết tới mức người ta kéo nhau đi ăn quanh năm — tới giờ đi
+    Đà Lạt vẫn thấy hàng loạt quán treo bảng "lẩu gà lá é Phú Yên". Điều thú
+    vị là **cái tên vẫn giữ chữ Phú Yên**: gà thì nuôi đâu cũng có, nhưng lá é
+    thơm đúng kiểu thì người bán vẫn nói phải là lá chở từ Phú Yên lên.
+  - >-
+    Nấu ở nhà thì món này dễ hơn vẻ ngoài của nó rất nhiều. Nước dùng **không
+    quế hồi, không sa tế, không màu điều** — chỉ có sả, măng và con gà. Cái
+    khó duy nhất là **giữ mùi lá é**, mà giữ mùi thì chỉ có một luật: thả thật
+    trễ. Ai quen tay nấu lẩu kiểu đậm đà sẽ thấy nồi này nhạt lúc mới nếm —
+    đó là đúng, vì vị đậm nằm ở chén muối ớt xanh bên cạnh chứ không nằm
+    trong nồi.
+
+ingredientGroups:
+  - name: Gà & đồ ướp
+    icon: meat
+    items:
+      - id: ga
+        name: Gà thả vườn
+        icon: meat
+        color: amber
+        base: 1
+        unit: con
+        frac: true
+        note: Con 1,2–1,5 kg, thịt chắc — gà công nghiệp nấu lẩu này dễ bở và nước nhạt
+      - id: otxiem
+        name: Ớt xiêm xanh
+        icon: chili
+        color: green
+        base: 15
+        unit: trái
+        note: >-
+          Trái nhỏ, xanh, cay nồng mà tan nhanh. Một nửa giã ướp gà, một nửa
+          để dành giã chén muối chấm — không thay được bằng ớt sừng
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 5
+        unit: củ
+        note: 3 củ đập dập ướp gà, 2 củ thái lát phi thơm
+      - id: sa
+        name: Sả cây
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Đập dập cắt khúc thả nồi — mùi nền duy nhất của nước dùng
+  - name: Lá é & rau nhúng
+    icon: herb
+    items:
+      - id: lae
+        name: Lá é
+        icon: herb
+        color: green
+        base: 300
+        unit: g
+        note: >-
+          Lá nhỏ có lông tơ, hái cả cọng non. Rửa nhẹ tay rồi vẩy ráo —
+          vò mạnh là dập lá, mùi bay trước khi vào nồi
+      - id: mang
+        name: Măng tươi (hoặc măng le)
+        icon: sprout
+        color: gold
+        base: 300
+        unit: g
+        note: Thái lát mỏng, luộc 2–3 lần nước sôi rồi xả kỹ cho hết vị đắng
+      - id: nam
+        name: Nấm bào ngư
+        icon: pod
+        base: 200
+        unit: g
+        note: Cắt gốc, ngâm nước muối loãng 10 phút, xé miếng vừa gắp
+      - id: raumui
+        name: Ngò gai + hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Ngò gai thái nhỏ cho vào chén chấm, hành lá cắt khúc thả nồi
+  - name: Nêm nếm
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Ướp gà một nửa, nêm nồi một nửa
+      - id: hatnem
+        name: Hạt nêm
+        icon: jar
+        base: 1
+        unit: thìa canh
+        frac: true
+        note: Nêm nhẹ tay — nồi này lấy ngọt từ gà chứ không từ gia vị
+      - id: duong
+        name: Đường
+        icon: jar
+        base: 1
+        unit: thìa cà phê
+        frac: true
+        note: Một nhúm cho cân vị, đừng để nồi ngả ngọt
+      - id: tieu
+        name: Tiêu xay
+        icon: pepper
+        qtyText: Rắc lúc ướp và lúc ăn
+        note: Ướp gà cho thấm, rắc lại lúc bưng ra
+  - name: Chén chấm & ăn kèm
+    icon: bowl
+    items:
+      - id: muoihot
+        name: Muối hột
+        icon: jar
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Giã cùng ớt xiêm xanh và lá é — chén chấm này mới là linh hồn món
+      - id: chanh
+        name: Chanh
+        icon: lime
+        color: green
+        base: 2
+        unit: trái
+        note: Vắt vào chén muối ớt xanh, vắt sát giờ ăn cho khỏi đắng
+      - id: bun
+        name: Bún tươi
+        icon: noodle
+        base: 800
+        unit: g
+        note: Trụng lại nước sôi cho nóng; ai thích thì thay bằng mì gói
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **nồi lẩu gà lá é**
+stepsLead: >-
+  Mạch nấu đơn giản tới bất ngờ — ướp gà, luộc măng, hầm, thả lá. Việc đáng
+  chú tâm nhất không phải nấu mà là **canh lúc thả lá é** và **giã cho khéo
+  chén muối ớt xanh**. Hai thứ đó làm nên món này.
+steps:
+  - title: Chặt gà, ướp ớt xiêm xanh
+    icon: knife
+    minutes: 30 phút
+    intro: "Ướp trước là để miếng gà tự đậm, khỏi phải nêm nồi cho mặn:"
+    bullets:
+      - label: "Làm gà:"
+        text: >-
+          Chà muối hột với gừng cho sạch, rửa lại, để ráo rồi **chặt miếng
+          vừa gắp** — cỡ hai đốt tay, còn nguyên da.
+      - label: "Giã đồ ướp:"
+        text: >-
+          Giã [[7|trái]] ớt xiêm xanh với [[3|củ]] hành tím và chút muối cho
+          dập, đừng giã nhuyễn thành nước.
+      - label: "Ướp:"
+        text: >-
+          Trộn gà với chỗ giã đó + [[1|thìa canh|frac]] nước mắm + chút hạt
+          nêm, đường, tiêu. Để **30 phút** cho thấm.
+    callout:
+      type: tip
+      text: >-
+        Ướp bằng **ớt xiêm xanh giã dập chứ không phải ớt bột** — cái cay
+        xanh thấm vào thịt gà rất hợp với mùi lá é, còn ớt bột đỏ sẽ làm nước
+        dùng đục và ngả sang vị lẩu Thái.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ướp gà · 30:00
+      doneMsg: Gà thấm rồi, bắc nồi nước lên nghen!
+  - title: Luộc măng cho hết đắng
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Măng tươi gọt vỏ, **thái lát mỏng** rồi luộc nước sôi, đổ bỏ nước,
+          làm lại **2–3 lần** tới khi nước luộc trong.
+      - text: >-
+          Xả lại nước lạnh, vắt nhẹ cho ráo. Măng le khô thì ngâm nở qua đêm
+          rồi cũng luộc y vậy.
+      - text: >-
+          Nếm thử một lát — còn đắng hoặc còn mùi hăng thì luộc thêm một nước
+          nữa, đừng tiếc thời gian.
+    callout:
+      type: warn
+      text: >-
+        Măng luộc chưa kỹ là **cả nồi lẩu đắng**, mà đắng rồi thì không chữa
+        được vì măng nằm sẵn trong nước dùng. Đây là bước duy nhất của món này
+        không được đi tắt.
+  - title: Nấu nước dùng với sả và măng
+    icon: drop
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Phi thơm [[2|củ]] hành tím thái lát, châm [[2.5|lít]] nước, thả
+          **3 cây sả đập dập** cắt khúc.
+      - text: >-
+          Nước sôi thì cho măng đã luộc vào, hạ lửa nấu **20 phút**, hớt bọt
+          cho nước trong.
+      - text: >-
+          Nêm [[1|thìa canh|frac]] nước mắm + [[1|thìa canh|frac]] hạt nêm +
+          một nhúm đường. Nếm thấy **hơi nhạt là đúng** — vị đậm nằm ở chén
+          chấm.
+    timer:
+      secs: 1200
+      label: Hẹn giờ nấu măng · 20:00
+      doneMsg: Măng mềm rồi, thả gà vào nồi!
+  - title: Hầm gà — mềm mà chưa rã
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Trút gà đã ướp vào nồi nước đang sôi, **hớt sạch bọt lần nữa** rồi
+          hạ liu riu.
+      - text: >-
+          Hầm **20–25 phút**. Xiên đũa vào miếng đùi thấy vào ngọt là được —
+          gà thả vườn dai hơn nên đừng nóng ruột tăng lửa.
+      - text: >-
+          Thả nấm bào ngư vào **5 phút cuối**, nấu lâu hơn là nấm mềm nhũn và
+          nhả nước chua.
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng suốt thì **da gà tróc ra, nước dùng đục** — mà nồi này không
+        có màu điều hay sa tế nào che được. Giữ mặt nước chỉ lăn tăn từ đầu
+        tới cuối.
+    timer:
+      secs: 1500
+      label: Hẹn giờ hầm gà · 25:00
+      doneMsg: Gà mềm rồi, chuẩn bị giã lá é!
+  - title: Giã chén muối ớt xanh
+    icon: bowl
+    minutes: 5 phút
+    intro: "Chén chấm mới là chỗ để vị đậm — làm sát giờ ăn cho tươi:"
+    bullets:
+      - text: >-
+          Cho [[2|thìa canh|frac]] muối hột + [[8|trái]] ớt xiêm xanh + một
+          nắm lá é + chút ngò gai vào cối, **giã cho dập chứ đừng nhuyễn**.
+      - text: >-
+          Vắt chanh vào, nêm chút đường cho cân, quậy đều. Chén chấm đúng
+          phải **xanh sẫm, sệt sệt, cay xộc lên mũi**.
+      - text: >-
+          Chia ra từng chén nhỏ cho mỗi người — ai thích cay thì giã riêng
+          một chén đậm hơn.
+    callout:
+      type: tip
+      text: >-
+        Giã lá é chung với muối ngay trong cối là cách lấy hết mùi ra: **hạt
+        muối làm nhiệm vụ chà xát**, lá dập tới đâu tinh dầu ra tới đó. Cho
+        muối bột mịn thì không có tác dụng đó.
+  - title: Thả lá é, bắc lên bàn
+    icon: herb
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Giã dập **một nửa chỗ lá é** với chút muối, thả vào nồi rồi tắt bếp
+          ngay — mùi bốc lên là lúc bưng ra.
+      - text: >-
+          Nửa còn lại để nguyên trên dĩa, ai ăn tới đâu **nhúng tới đó, chỉ
+          vài giây** rồi gắp lên liền.
+      - text: >-
+          Bắc nồi lên bếp giữa bàn, để lửa nhỏ. Gắp gà chấm muối ớt xanh, ăn
+          kèm bún và măng, chan chút nước dùng cho nóng.
+      - text: >-
+          Ăn tới giữa bữa thấy nhạt thì **thả thêm nắm lá é mới** chứ đừng
+          nêm thêm mắm muối vào nồi.
+    doneText: Dọn lên bàn — xong!
+
+tipsTitle: 5 chỗ quyết định **nồi lẩu gà lá é**
+tipsLead: >-
+  Món này ít nguyên liệu nên không có chỗ nào giấu được lỗi. Năm điều dưới
+  đây gần như là toàn bộ bí quyết.
+tips:
+  - icon: herb
+    title: Lá é thả trễ, luôn luôn
+    text: >-
+      Đây là luật số một. Lá é nấu quá **2–3 phút** là mùi bay sạch mà nước
+      ngả đắng. Cách đúng: nửa chỗ lá **giã dập thả vào rồi tắt bếp liền**,
+      nửa còn lại để tươi trên dĩa nhúng từng đũa. Ăn tới đâu thơm tới đó.
+  - icon: chili
+    title: Ớt xiêm xanh, không phải ớt đỏ
+    text: >-
+      Cái cay của món này là **cay xanh** — nồng, xộc lên mũi rồi tan nhanh,
+      hợp với mùi the của lá é. Ớt bột đỏ hay sa tế cho vào là nước dùng đục,
+      màu đỏ lên, và món tự nhiên nghiêng sang kiểu lẩu Thái.
+  - icon: sprout
+    title: Măng luộc ba nước rồi hẵng nấu
+    text: >-
+      Măng tươi chưa luộc kỹ vừa đắng vừa hăng, mà nó nằm trong nước dùng nên
+      hỏng là hỏng cả nồi. Luộc **2–3 lần nước sôi, mỗi lần đổ bỏ nước**, tới
+      khi nước luộc trong và nếm lát măng không còn đắng.
+  - icon: meat
+    title: Gà thả vườn, chặt miếng còn da
+    text: >-
+      Gà công nghiệp nấu nồi này ra thịt bở và nước nhạt thếch, vì nồi không
+      có gia vị nào bù lại. Chọn **gà thả vườn 1,2–1,5 kg**, chặt miếng cỡ hai
+      đốt tay và **giữ nguyên da** — da gà giữ cho miếng thịt khỏi khô trong
+      lúc hầm.
+  - icon: bowl
+    title: Vị đậm nằm ở chén chấm
+    text: >-
+      Người quen nấu lẩu đậm đà hay nêm nồi này cho vừa miệng — làm vậy là
+      hỏng. Nồi phải **hơi nhạt** để giữ cái ngọt trong của gà, còn vị mặn cay
+      thì lấy từ **chén muối ớt xanh giã lá é**. Chấm miếng gà vào chén là
+      vừa đủ đậm.
+
+serve:
+  title: Nồi nóng ngày trời lạnh — **ăn chậm cho thấm**
+  paras:
+    - >-
+      Lẩu gà lá é hợp nhất với bữa **đông người ngồi lâu**: nồi sôi lăn tăn
+      giữa bàn, ai đói thì nhúng, ai thích cay thì giã thêm chén muối ớt riêng.
+      Trời se lạnh mà có nồi này thì cả bàn ngồi tới khuya.
+    - >-
+      Ăn kèm chuẩn là **bún tươi**, gắp vào chén rồi chan nước dùng nóng. Ai
+      thích no chắc thì thay bằng mì gói thả thẳng vào nồi ở cuối bữa — nước
+      dùng lúc đó đã đủ ngọt của gà và măng, mì hút vào là ngon nhất.
+    - >-
+      Còn dư nước dùng thì đừng bỏ. Lọc bỏ xác lá é (lá để lâu trong nước sẽ
+      đắng), để nguội cất ngăn mát **2 ngày**; hôm sau đun lại, thả nắm lá é
+      mới và ít nấm là có tô canh gà thơm y như hôm trước.
+  aside:
+    title: Trên bàn lẩu gà lá é
+    intro: "Mấy thứ phải có sẵn:"
+    items:
+      - icon: bowl
+        text: "**Chén muối ớt xanh giã lá é** — mỗi người một chén, đừng dùng chung."
+      - icon: herb
+        text: "**Dĩa lá é tươi** — nhúng từng đũa, vài giây rồi gắp lên."
+      - icon: noodle
+        text: "**Bún tươi hoặc mì gói** — mì thả cuối bữa là ngon nhất."
+      - icon: lime
+        text: "**Chanh và ớt xiêm** — ai ăn cay tự giã thêm."
+
+faq:
+  - q: Không mua được lá é thì thay bằng gì?
+    a: >-
+      Thành thật thì **không thay được** — mùi the mát của lá é là toàn bộ lý
+      do món này tồn tại. Húng quế gần nhất về họ nhưng ngọt và hắc hơn, thả
+      vào ra một nồi gà nấu húng quế chứ không phải lẩu gà lá é. Chợ lớn và
+      hàng rau miền Trung có bán; mua được thì nên mua dư, phần thừa cắm vào
+      ly nước để ngăn mát dùng được vài ngày.
+  - q: Vì sao nồi của mình bị đắng?
+    a: >-
+      Hai thủ phạm quen thuộc. Một là **măng luộc chưa kỹ** — phải luộc 2–3
+      nước, đổ bỏ nước từng lần. Hai là **lá é nấu quá lâu**, hoặc để xác lá
+      nằm trong nồi suốt bữa. Lá é thả xong là tắt bếp, và ăn xong lượt nào
+      thì vớt xác lá ra lượt đó.
+  - q: Gà công nghiệp nấu được không?
+    a: >-
+      Được, nhưng phải chỉnh hai chỗ. **Rút thời gian hầm còn 12–15 phút** kẻo
+      thịt rã, và mua thêm [[300|g]] xương gà ninh trước cho nước có chiều
+      sâu. Miếng gà cũng nên chặt to hơn chút để lúc hầm khỏi nát.
+  - q: Nồi nếm thấy nhạt, có nên nêm đậm thêm không?
+    a: >-
+      Không — nhạt là **đúng thiết kế** của món này. Vị mặn và cay để dành cho
+      chén muối ớt xanh, còn nồi giữ cái ngọt trong của gà. Nếu thấy thiếu
+      thật thì thêm chút nước mắm chứ đừng thêm hạt nêm, và nhớ nếm lại sau
+      khi đã chấm thử một miếng gà.
+  - q: Món này gốc Phú Yên hay Đà Lạt?
+    a: >-
+      Gốc **Phú Yên** — vùng đó trồng được cây é và có sẵn lối nấu gà với lá é
+      từ lâu. Đà Lạt là nơi món này nổi tiếng rộng ra, vì nồi lẩu nóng có mùi
+      the rất hợp khí hậu trên đó. Tới nay các quán ở Đà Lạt vẫn để nguyên
+      chữ **Phú Yên** trên bảng hiệu, và lá é thì vẫn được chở từ Phú Yên lên.
+  - q: Nấu trước được phần nào?
+    a: >-
+      Ướp gà trước **nửa ngày** để ngăn mát thì càng thấm. Măng luộc sẵn từ
+      hôm trước, nước dùng nấu tới hết bước 3 rồi để nguội cất tủ. Tới bữa
+      chỉ việc đun sôi, thả gà hầm 25 phút. **Riêng lá é thì mua và rửa sát
+      giờ**, để qua đêm là lá thâm và mất mùi.
+
+ticker:
+  - icon: herb
+    text: Lá é the mát thả sát giờ ăn
+  - icon: chili
+    text: Ớt xiêm xanh cay nồng tan nhanh
+  - icon: meat
+    text: Gà thả vườn chặt miếng còn da
+  - icon: drop
+    text: Nước dùng trong veo, ngọt thịt
+  - icon: bowl
+    text: Chén muối ớt xanh giã lá é
+  - icon: sprout
+    text: Măng le luộc kỹ, giòn ngọt

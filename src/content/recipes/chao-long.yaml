@@ -1,0 +1,499 @@
+title: Cháo lòng **ngọt nước luộc, lòng giòn sựt**
+summary: >-
+  Tô cháo của hàng sáng: **gạo rang ninh ngay trong nước luộc lòng** nên ngọt
+  đậm mà không cần nêm nhiều, mặt tô xếp lòng non giòn sựt, lát gan bùi, miếng
+  cật ngọt. Thêm nắm giá, rau răm, cây quẩy và chén mắm gừng ớt là đủ bộ.
+region: Cả nước
+category: Cháo
+occasions: [Bữa sáng, Nhậu lai rai]
+pubDate: 2026-07-29
+time:
+  total: 2 giờ
+  active: 1 giờ 10 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 47
+art: chao-long
+heroEyebrow: Tô cháo nóng, nắm giá vừa chan là chín tới…
+
+quick:
+  ingredients:
+    - Bộ lòng heo [[800|g]] — lòng non, dạ dày, tim, gan, cật
+    - Ruột non [[200|g]] để làm dồi · huyết heo [[400|ml]] · mỡ heo [[100|g]]
+    - Gạo tẻ [[180|g]] + gạo nếp [[40|g]] — **rang vàng trước khi ninh**
+    - Xương ống [[500|g]] ninh nước · hành tím [[5|củ]] · gừng [[1|củ]]
+    - "Khử mùi: muối hột · chanh hoặc giấm · rượu trắng · bột mì"
+    - "Nhồi dồi: hành lá · húng quế · đậu phộng rang · tiêu"
+    - Giá · rau răm · hành lá · quẩy · chén mắm gừng ớt
+  steps:
+    - Bóp lòng với **muối hột + chanh + bột mì**, rửa nhiều lần, chần nước sôi có gừng và rượu.
+    - Nhồi dồi — huyết pha loãng + mỡ hạt lựu + hành + húng quế + đậu phộng, buộc từng khúc.
+    - Luộc dồi lửa nhỏ **20 phút**, **châm kim vài chỗ** cho khỏi vỡ, vớt ra ngâm nước lạnh.
+    - Luộc lòng và các món khác trong nồi nước xương, vớt ra **ngâm nước đá** cho giòn.
+    - Rang gạo vàng thơm rồi ninh trong **nước luộc lòng** chừng 40 phút.
+    - Múc cháo, xếp dồi và lòng thái lát lên mặt, rắc rau răm, tiêu; dọn kèm giá và quẩy.
+  warning: >-
+    **Luộc dồi phải để lửa nhỏ và châm kim.** Nước sôi bùng thì vỏ ruột căng
+    lên rồi nứt, huyết trào ra làm đục cả nồi nước — mà nồi nước đó chính là
+    nồi cháo.
+
+flavor:
+  chua: 0.5
+  ngot: 6
+  man: 6
+  cay: 2
+  thom: 7
+flavorNote: >-
+  **Chuẩn vị:** cháo sánh nhẹ, ngọt đậm vị nước luộc chứ không phải vị bột
+  ngọt. Lòng non **giòn sựt, cắn nghe tiếng**; khoanh dồi mềm ẩm, cắt ra
+  không rỗng ruột; miếng gan bùi mà không bở nát.
+storyEyebrow: Chuyện tô cháo lòng
+storyTitle: Nồi cháo nấu từ **chính nước luộc lòng**
+story:
+  - >-
+    Cháo lòng là món của những hàng dọn sớm: nồi nước sôi lăn tăn từ tờ mờ,
+    rổ lòng luộc để sẵn, người bán vừa thái vừa múc. Cái khéo của món này nằm
+    ở chỗ **không có gì bị bỏ phí** — luộc lòng xong thì nồi nước ấy thành nồi
+    cháo, mỡ nổi lên thì vớt ra phi hành, ruột non thì nhồi thành dồi. Một bộ
+    lòng ra được cả tô cháo lẫn đĩa lòng.
+  - >-
+    Mỗi vùng nấu một kiểu. Ngoài Bắc nồi cháo nổi vị **gừng, hành hoa và
+    tiêu**, ăn với quẩy. Miền Nam chuộng **rang gạo trước** cho hạt tơi, dọn
+    kèm giá sống và rau răm. Miền Tây thì đánh **huyết vào nồi cháo** nên tô
+    cháo có màu nâu nhạt chứ không trắng ngà. Bài này đi theo lối chung dễ nấu
+    nhất: rang gạo, ninh bằng nước luộc, còn huyết thì luộc riêng thái miếng
+    để ai thích thì gắp.
+  - >-
+    Món này không khó về kỹ thuật, cái khó nằm ở **khâu làm sạch**. Lòng làm
+    ẩu thì cả nồi có mùi, mà mùi đó không gia vị nào che nổi. Người bán lâu
+    năm có một bộ động tác gần như bất di bất dịch: bóp muối hột với chanh,
+    rồi bóp lại lần nữa với bột mì, rửa tới khi nước trong, chần qua nước sôi
+    có gừng và rượu, **vớt ra ngâm ngay vào nước đá**. Làm đủ chừng đó thì
+    lòng vừa sạch mùi vừa giòn — hai việc trong một.
+
+ingredientGroups:
+  - name: Bộ lòng
+    icon: meat
+    items:
+      - id: longnon
+        name: Lòng non
+        icon: meat
+        color: amber
+        base: 300
+        unit: g
+        note: >-
+          Chọn khúc **căng tròn, màu trắng hồng, có dịch trắng sữa bên trong**
+          — khúc đó mới giòn và ngọt, khúc dẹp lép thì dai và đắng
+      - id: dciday
+        name: Dạ dày
+        icon: meat
+        base: 200
+        unit: g
+        note: Bóp muối và bột mì thật kỹ ở mặt trong, đây là chỗ nhiều mùi nhất
+      - id: tim
+        name: Tim heo
+        icon: meat
+        color: red
+        base: 150
+        unit: g
+        note: Bổ đôi rửa hết máu đọng trong buồng tim
+      - id: gan
+        name: Gan heo
+        icon: meat
+        color: red
+        base: 150
+        unit: g
+        note: Ngâm sữa tươi hoặc nước muối loãng 20 phút cho ra hết máu, luộc vừa chín tới
+      - id: cat
+        name: Cật heo
+        icon: meat
+        color: red
+        base: 200
+        unit: g
+        note: Bổ đôi, **lạng bỏ hết phần trắng bên trong** — không bỏ là khai
+  - name: Làm dồi
+    icon: roll
+    items:
+      - id: ruotnon
+        name: Ruột non làm vỏ dồi
+        icon: roll
+        color: amber
+        base: 200
+        unit: g
+        note: Khúc ruột to đều, lộn mặt trong rửa sạch rồi lộn lại — đừng cạo mỏng quá kẻo rách
+      - id: huyet
+        name: Huyết heo tươi
+        icon: drop
+        color: red
+        base: 400
+        unit: ml
+        note: >-
+          Pha loãng với nước luộc theo tỷ lệ **2 huyết 1 nước** rồi mới nhồi —
+          nhồi huyết đặc nguyên chất thì dồi cứng và bở
+      - id: mo
+        name: Mỡ heo
+        icon: meat
+        base: 100
+        unit: g
+        note: Thái hạt lựu nhỏ, trộn vào nhân cho khoanh dồi mềm ẩm
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        color: amber
+        base: 50
+        unit: g
+        note: Giã dập, trộn vào nhân cho có cái bùi và tiếng sựt
+      - id: raunhoi
+        name: Hành lá + húng quế
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Thái nhỏ trộn vào nhân dồi — húng quế là mùi đặc trưng của khoanh dồi
+  - name: Nồi cháo
+    icon: rice
+    items:
+      - id: gaote
+        name: Gạo tẻ
+        icon: rice
+        base: 180
+        unit: g
+        note: Vo nhẹ tay, để thật ráo rồi rang vàng — hạt cháo mới tơi
+      - id: gaonep
+        name: Gạo nếp
+        icon: rice
+        color: gold
+        base: 40
+        unit: g
+        note: Trộn chung cho cháo sánh nhẹ
+      - id: xuong
+        name: Xương ống heo
+        icon: meat
+        color: red
+        base: 500
+        unit: g
+        note: Chần nước sôi rồi rửa lại, ninh trước lấy nước nền
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 5
+        unit: củ
+        note: 2 củ nướng xém thả nồi, 3 củ thái lát phi lấy mỡ hành
+      - id: gung
+        name: Gừng
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Nửa thả nồi chần lòng, nửa băm nhỏ pha chén mắm chấm
+  - name: Khử mùi & ăn kèm
+    icon: jar
+    items:
+      - id: muoihot
+        name: Muối hột + chanh (hoặc giấm)
+        icon: jar
+        qtyText: Bóp rửa lòng
+        note: Bóp lần một — muối hột nhám mới chà được nhớt
+      - id: botmi
+        name: Bột mì
+        icon: jar
+        base: 3
+        unit: thìa canh
+        frac: true
+        note: Bóp lần hai — bột mì kéo hết nhớt còn sót, mẹo của hàng quán
+      - id: ruou
+        name: Rượu trắng
+        icon: bottle
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Thả vào nồi nước chần cùng gừng đập dập
+      - id: gia
+        name: Giá đỗ
+        icon: sprout
+        color: green
+        base: 200
+        unit: g
+        note: Để sống, trụng nhanh hoặc thả thẳng vào tô cháo nóng
+      - id: rauram
+        name: Rau răm + hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Rau răm thái nhỏ — cặp đôi bắt buộc của cháo lòng
+      - id: quay
+        name: Quẩy
+        icon: roll
+        color: amber
+        base: 4
+        unit: cây
+        note: Cắt khúc, dọn đĩa riêng cho khỏi ỉu
+      - id: mamgung
+        name: Nước mắm gừng ớt
+        icon: bottle
+        qtyText: Pha 1 chén
+        note: Nước mắm + gừng băm + ớt + chút chanh đường — chấm lòng và dồi
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **tô cháo lòng đủ bộ**
+stepsLead: >-
+  Món này dài chứ không khó. Thứ tự khôn ngoan là **làm sạch lòng trước, nhồi
+  dồi, rồi mới bắc nồi** — vì nồi nước luộc lòng chính là nồi nấu cháo, nên
+  mọi thứ phải sạch trước khi chạm vào nước.
+steps:
+  - title: Làm sạch lòng — bước quyết định
+    icon: knife
+    minutes: 30 phút
+    intro: "Lòng sạch mùi hay không quyết định cả nồi, làm kỹ đừng vội:"
+    bullets:
+      - label: "Bóp lần một:"
+        text: >-
+          Bóp lòng với **muối hột + nước cốt chanh** (hoặc giấm), chà kỹ cả
+          mặt trong dạ dày, rồi rửa nhiều lần nước.
+      - label: "Bóp lần hai:"
+        text: >-
+          Rắc [[3|thìa canh|frac]] **bột mì** vào bóp tiếp — bột mì kéo nốt
+          phần nhớt còn sót. Rửa tới khi nước trong hẳn.
+      - label: "Cật và gan:"
+        text: >-
+          Cật bổ đôi, **lạng sạch phần trắng bên trong** rồi ngâm nước muối
+          loãng. Gan ngâm sữa tươi hoặc nước muối 20 phút cho ra máu.
+      - label: "Chần thơm:"
+        text: >-
+          Đun nồi nước với gừng đập dập + [[2|thìa canh|frac]] rượu trắng,
+          **chần lòng 2 phút** rồi vớt ra rửa lại.
+    callout:
+      type: warn
+      text: >-
+        Bỏ qua bước bóp bột mì là chỗ hay hỏng nhất. Rửa nước không thôi
+        **không lấy hết nhớt**, mà nhớt còn sót thì nồi cháo có mùi — và mùi
+        đó thì tiêu, gừng hay rau răm đều không che nổi.
+  - title: Nhồi dồi
+    icon: roll
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Ruột non lộn mặt trong rửa sạch rồi lộn lại, **buộc chặt một đầu**
+          bằng chỉ.
+      - text: >-
+          Trộn nhân: huyết pha loãng (**2 phần huyết 1 phần nước luộc**) +
+          mỡ thái hạt lựu + hành lá và húng quế thái nhỏ + đậu phộng giã dập
+          + tiêu + chút nước mắm.
+      - text: >-
+          Dùng phễu **nhồi chừng 70% khúc ruột thôi** — nhồi căng là lúc luộc
+          nở ra sẽ nứt. Buộc lại thành từng khúc cỡ gang tay.
+    callout:
+      type: tip
+      text: >-
+        Nhân dồi ngon nằm ở **tỷ lệ mỡ**: thiếu mỡ thì khoanh dồi khô và bở,
+        đủ mỡ thì mềm ẩm, cắt ra còn ánh mỡ. Cỡ [[100|g]] mỡ cho [[400|ml]]
+        huyết là vừa.
+  - title: Luộc dồi — lửa nhỏ, châm kim
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Thả dồi vào nồi nước đang **nóng già chứ chưa sôi**, giữ lửa nhỏ
+          suốt, mặt nước chỉ lăn tăn.
+      - text: >-
+          Luộc chừng **20 phút**. Sau 10 phút thì **dùng tăm hoặc kim châm vài
+          lỗ** dọc khúc dồi cho hơi thoát ra.
+      - text: >-
+          Châm thử thấy **không còn nước hồng chảy ra** là chín. Vớt ra thả
+          vào nước lạnh cho khỏi nhăn, để nguội rồi mới cắt khoanh.
+    callout:
+      type: warn
+      text: >-
+        Nước sôi bùng là **vỏ dồi nứt, huyết trào ra** làm đục nồi nước — mà
+        đó là nồi nấu cháo. Nếu lỡ vỡ thì vớt hết phần huyết vụn ra rồi lọc
+        lại nước trước khi ninh gạo.
+    timer:
+      secs: 1200
+      label: Hẹn giờ luộc dồi · 20:00
+      doneMsg: Châm thử không ra nước hồng là vớt được!
+  - title: Luộc lòng, ngâm nước đá
+    icon: drop
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Ninh [[500|g]] xương ống với [[2|lít]] nước trong **30 phút**, hớt
+          bọt, thả 2 củ hành tím nướng.
+      - text: >-
+          Luộc lần lượt trong nồi đó: **dạ dày 25 phút**, **lòng non 7–10
+          phút**, **tim 15 phút**, **cật 5 phút**, **gan 10 phút**.
+      - text: >-
+          Vớt từng thứ ra **thả ngay vào thau nước đá** — đây là chỗ làm nên
+          tiếng giòn sựt của lòng.
+      - text: >-
+          Để ráo rồi thái lát vừa gắp, xếp ra đĩa chung với dồi đã cắt khoanh.
+    callout:
+      type: tip
+      text: >-
+        Mỗi món một giờ luộc riêng, đừng thả chung một lượt. **Lòng non luộc
+        quá 10 phút là dai như cao su**, còn dạ dày chưa đủ 25 phút thì cắn
+        không đứt.
+  - title: Rang gạo, ninh cháo
+    icon: rice
+    minutes: 45 phút
+    bullets:
+      - text: >-
+          Vo gạo nhẹ tay, để **thật ráo**, rang với chút dầu tới khi hạt ngả
+          vàng nhạt và dậy mùi — chừng 5 phút.
+      - text: >-
+          Lọc nồi nước luộc lòng qua rây cho trong, trút gạo rang vào, đun
+          sôi rồi hạ liu riu **40 phút**.
+      - text: >-
+          Nêm nước mắm và muối cho vừa — nồi này đã ngọt sẵn nên **nêm nhẹ
+          tay**, nếm rồi hãy thêm.
+      - text: >-
+          Phi hành tím thái lát với mỡ vớt từ nồi luộc, chan vào nồi cháo cho
+          thơm.
+    timer:
+      secs: 2400
+      label: Hẹn giờ ninh cháo · 40:00
+      doneMsg: Nếm thử — hạt gạo nở mềm là được!
+  - title: Ráp tô, dọn kèm giá và quẩy
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Trải một nắm **giá sống** dưới đáy tô rồi múc cháo nóng chan lên —
+          giá tự chín tới, còn giòn.
+      - text: >-
+          Xếp **khoanh dồi, lát lòng, gan, tim, cật** lên mặt tô.
+      - text: >-
+          Rắc rau răm thái nhỏ, hành lá, hành phi rồi **rắc tiêu dày tay**.
+      - text: >-
+          Dọn kèm đĩa quẩy cắt khúc và **chén mắm gừng ớt** để chấm lòng.
+    doneText: Bưng ra bàn — xong!
+
+tipsTitle: 6 bí quyết cho **tô cháo lòng không mùi, lòng giòn**
+tipsLead: >-
+  Cháo lòng ngon hay dở gần như chỉ phụ thuộc vào khâu sơ chế và canh giờ
+  luộc. Sáu điều dưới đây là toàn bộ chỗ dễ sai.
+tips:
+  - icon: jar
+    title: Bóp muối rồi bóp bột mì
+    text: >-
+      Đây là mẹo của hàng quán và nó thật sự hiệu quả. Muối hột nhám để **chà
+      nhớt**, còn **bột mì kéo nốt phần nhớt còn sót** mà nước rửa không lấy
+      đi được. Bóp hai lần, rửa tới khi nước trong hẳn thì lòng gần như hết
+      mùi trước cả khi chần.
+  - icon: drop
+    title: Vớt ra là thả ngay vào nước đá
+    text: >-
+      Tiếng giòn sựt của lòng đến từ chỗ này chứ không phải từ thời gian luộc.
+      Lòng đang nóng gặp nước đá thì **co lại đột ngột, thớ săn và giòn**. Bỏ
+      qua bước này thì dù luộc đúng giờ, miếng lòng vẫn mềm oặt.
+  - icon: clock
+    title: Mỗi món một giờ luộc riêng
+    text: >-
+      Thả chung một lượt là chắc chắn có thứ quá lửa. Nhớ đại khái theo độ dày:
+      **dạ dày 25 phút · tim 15 · gan 10 · lòng non 7–10 · cật 5**. Riêng cật
+      luộc lâu là vừa dai vừa nặng mùi, nên vớt sớm nhất.
+  - icon: roll
+    title: Nhồi dồi 70%, châm kim khi luộc
+    text: >-
+      Hai lỗi làm vỡ dồi là nhồi căng quá và luộc sôi bùng. Nhồi chừng **70%
+      khúc ruột** để chừa chỗ cho nhân nở, luộc lửa nhỏ, và sau 10 phút thì
+      **châm vài lỗ** cho hơi thoát. Huyết nhớ pha loãng 2 huyết 1 nước, đặc
+      quá thì khoanh dồi cứng.
+  - icon: meat
+    title: Chọn khúc lòng non căng tròn
+    text: >-
+      Ngoài chợ hai khúc lòng nhìn giống nhau nhưng ăn khác hẳn. Khúc **căng
+      tròn, trắng hồng, bên trong có dịch trắng sữa** là khúc giòn ngọt. Khúc
+      **dẹp lép, ngả xám** thì dai và đắng, luộc kiểu gì cũng không cứu được.
+  - icon: rice
+    title: Nêm nhẹ tay vì nước đã ngọt sẵn
+    text: >-
+      Nồi cháo này ninh bằng nước luộc xương và luộc lòng nên đã đậm đà sẵn.
+      Nêm như nồi cháo thường là **mặn gắt**. Cho một nửa lượng mắm muối quen
+      dùng, nếm, rồi mới thêm — và nhớ rằng lát nữa còn chén mắm gừng bên cạnh.
+
+serve:
+  title: Tô cháo hàng sáng — **ăn nóng, chấm mắm gừng**
+  paras:
+    - >-
+      Cháo lòng là món của **buổi sáng và của bàn lai rai**. Sáng ra một tô
+      nóng với cây quẩy là chắc dạ tới trưa; chiều muộn thì đĩa lòng luộc chấm
+      mắm gừng ăn kèm tô cháo lại thành món ngồi lâu được.
+    - >-
+      Cách ăn quen thuộc là **trải giá sống dưới đáy tô** rồi chan cháo nóng
+      lên — giá chín tới mà vẫn giòn. Rau răm thì rắc dày tay, tiêu cũng vậy.
+      Ai thích đậm thì gắp miếng lòng chấm vào **chén mắm gừng ớt** rồi mới ăn
+      cùng cháo.
+    - >-
+      Nấu một lần được hai món: nồi cháo và **đĩa lòng luộc thái lát**. Lòng
+      còn dư đậy kín để ngăn mát được 1 ngày, hôm sau đem xào với hành và rau
+      răm là thành món khác. Riêng dồi thì nên ăn trong ngày, để lâu là khoanh
+      dồi khô lại.
+  aside:
+    title: Trên bàn cháo lòng
+    intro: "Mấy thứ phải có sẵn:"
+    items:
+      - icon: bottle
+        text: "**Chén mắm gừng ớt** — chấm lòng và dồi, đừng thiếu."
+      - icon: sprout
+        text: "**Rổ giá sống** — trải dưới đáy tô rồi chan cháo lên."
+      - icon: herb
+        text: "**Chén rau răm thái nhỏ** — rắc dày tay hơn ta tưởng."
+      - icon: roll
+        text: "**Đĩa quẩy cắt khúc** — thả vào tô tới đâu ăn tới đó."
+
+faq:
+  - q: Làm sao hết mùi lòng?
+    a: >-
+      Làm đủ ba lớp thì gần như hết hẳn. **Bóp muối hột với chanh**, rồi **bóp
+      lại với bột mì**, rửa tới khi nước trong. Sau đó **chần qua nước sôi có
+      gừng đập dập và rượu trắng** rồi rửa lại lần nữa. Riêng cật phải lạng
+      sạch phần trắng bên trong, còn dạ dày thì chà thật kỹ mặt trong — hai
+      chỗ đó là nguồn mùi chính.
+  - q: Ngại làm dồi thì bỏ được không?
+    a: >-
+      Bỏ được, tô cháo vẫn đầy đủ với lòng, gan, tim, cật. Nhưng nếu muốn có
+      dồi mà ngại nhồi thì **mua dồi làm sẵn** ngoài hàng lòng rồi luộc lại
+      trong nồi nước xương chừng 10 phút. Chỉ cần nhớ luộc lửa nhỏ và châm kim
+      như dồi tự làm.
+  - q: Vì sao dồi bị vỡ khi luộc?
+    a: >-
+      Ba nguyên nhân: **nhồi căng quá** (chỉ nên nhồi 70%), **nước sôi bùng**
+      (phải giữ lăn tăn), và **quên châm kim** cho hơi thoát ra. Lỡ vỡ rồi thì
+      vớt phần huyết vụn ra, lọc lại nước trước khi ninh gạo — không thì nồi
+      cháo đục và có mùi tanh.
+  - q: Lòng bị dai thì do đâu?
+    a: >-
+      Gần như luôn là do **luộc quá lâu** hoặc **không ngâm nước đá**. Lòng
+      non chỉ cần 7–10 phút; quá 10 phút là dai như cao su và không cứu được.
+      Vớt ra là thả ngay vào thau nước đá cho thớ co lại — đó mới là chỗ tạo
+      tiếng giòn.
+  - q: Cháo lòng ba miền khác nhau chỗ nào?
+    a: >-
+      **Miền Bắc** nổi vị gừng, hành hoa và tiêu, ăn kèm quẩy. **Miền Nam**
+      rang gạo cho hạt tơi, dọn kèm giá sống và rau răm. **Miền Tây** đánh
+      huyết vào nồi nên cháo có màu nâu nhạt chứ không trắng ngà, và cháo
+      thường loãng hơn. Bài này đi lối chung: rang gạo, ninh bằng nước luộc,
+      huyết luộc riêng thái miếng để ai thích thì gắp.
+  - q: Nấu trước được phần nào?
+    a: >-
+      Lòng luộc và dồi làm trước **từ tối hôm trước**, để nguội đậy kín ngăn
+      mát; sáng ra hâm nóng lại trong nồi cháo vài phút là được. Nồi cháo cũng
+      nấu trước được, sáng hâm lại và **châm nước sôi** cho về độ sánh. Riêng
+      giá, rau răm và quẩy thì để sát giờ ăn.
+
+ticker:
+  - icon: rice
+    text: Gạo rang ninh trong nước luộc lòng
+  - icon: roll
+    text: Khoanh dồi mềm ẩm, thơm húng quế
+  - icon: meat
+    text: Lòng non ngâm đá cho giòn sựt
+  - icon: sprout
+    text: Nắm giá trải đáy tô rồi chan cháo nóng
+  - icon: herb
+    text: Rau răm thái nhỏ rắc dày tay
+  - icon: bottle
+    text: Chén mắm gừng ớt chấm lòng

@@ -58,7 +58,7 @@ src/
 - Chuỗi **bắt đầu bằng `*`** bị hiểu là YAML alias. Vd `- **Chiên ngập dầu**…`
   → quote lại. (Dùng block scalar `>-` thì cả hai bẫy đều không dính.)
 
-### Thêm một KIỂU MÓN mới (vd "Lẩu")
+### Thêm một KIỂU MÓN mới (vd "Bánh")
 
 Không phải một chỗ mà **bảy chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:
 
