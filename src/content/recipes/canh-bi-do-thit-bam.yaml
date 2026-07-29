@@ -11,7 +11,7 @@ time:
 servingsBase: 4
 difficulty: Dễ
 featured: false
-order: 35
+order: 41
 art: canh-bi-do
 heroEyebrow: Bữa vội có canh ngon…
 
@@ -49,9 +49,9 @@ story:
     thức vẫn nấu được, nhưng có vài mẹo nhỏ thì ngon hẳn lên**: thịt phải xào
     săn trước cho nước ngọt trong, bí phải canh đúng độ "mềm mà chưa nát".
   - >-
-    Bí đỏ lại là "siêu thực phẩm" giá rẻ: ngọt tự nhiên, đẹp mắt, nhiều
-    vitamin A — nồi canh vàng ươm này là cách dễ nhất để đám nhỏ trong nhà
-    **ăn rau mà không cằn nhằn**.
+    Bí đỏ lại là thứ rau củ dễ chiều nhất chợ: **ngọt sẵn nên khỏi nêm
+    nhiều**, nấu lên vàng ươm bắt mắt — nồi canh này là cách dễ nhất để đám
+    nhỏ trong nhà **ăn rau mà không cằn nhằn**.
 
 ingredientGroups:
   - name: Nguyên liệu chính

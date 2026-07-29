@@ -1,0 +1,455 @@
+title: Miến gà **sợi dai bóng mướt, nước ngọt thanh nhẹ bụng**
+summary: >-
+  Tô miến gà kiểu Bắc: **sợi miến dong trong mờ, dai mà mềm**, gà ta xé tay
+  từng thớ, thêm mộc nhĩ giòn sựt với nấm hương thơm ngầm, rắc rau răm the
+  the. Nhẹ bụng hơn tô phở mà vẫn ấm người — bữa sáng hay bữa khuya đều hợp.
+region: Miền Bắc
+category: Món nước
+occasions: [Bữa sáng, Cho bé]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 30 phút
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 11
+art: mien-ga
+heroEyebrow: Bát miến nóng, khói bay ngang mặt…
+
+quick:
+  ingredients:
+    - Gà ta [[1|con|frac]] (1,2–1,5 kg) — hoặc [[800|g]] đùi góc tư nếu nấu gọn
+    - Miến dong [[200|g]] — sợi suôn nhỏ, **màu xám nhạt hơi đục**
+    - Mộc nhĩ [[30|g]] · nấm hương [[20|g]] — ngâm nở, thái sợi
+    - Bộ lòng gà [[1|bộ]] (tùy chọn) — mề, tim, gan, tràng
+    - Gừng [[1|củ]] · hành tím [[4|củ]] nướng xém · hành tây [[1|củ]]
+    - "Nêm: muối [[2|thìa cà phê|frac]] · nước mắm [[2|thìa canh|frac]] · tiêu"
+    - "Rắc: hành hoa · rau răm · hành phi"
+  steps:
+    - Gà chà muối gừng cho sạch; nướng xém gừng và hành tím rồi cạo vỏ cháy.
+    - Luộc gà từ **nước lạnh** với gừng hành nướng — sôi hớt bọt, hạ **liu riu 25 phút**, tắt bếp ủ 10 phút.
+    - Vớt gà ngâm nước đá, **xé tay theo thớ**; bộ xương trả lại nồi ninh tiếp cho ngọt.
+    - Mộc nhĩ, nấm hương ngâm nở thái sợi, **xào riêng** với hành tím cho thơm và ráo.
+    - Miến dong ngâm **nước lạnh 10–15 phút** rồi cắt khúc — tuyệt đối không ngâm nước nóng.
+    - Nêm nước dùng, trụng miến **10–15 giây** trong chính nồi nước dùng, xếp tô, chan sôi già, rắc rau răm + hành phi.
+  warning: >-
+    Miến dong nở rất nhanh. **Ngâm nước nóng hoặc trụng quá 20 giây là nhũn
+    nát**, tô miến biến thành tô cháo — sợi miến ngon phải còn dai khi húp
+    tới muỗng cuối.
+
+flavor:
+  chua: 0.5
+  ngot: 6
+  man: 5
+  cay: 1
+  thom: 7
+flavorNote: >-
+  **Chuẩn vị:** nước dùng trong, ngọt thanh của gà chứ không đậm gắt; sợi
+  miến **trong mờ, cắn thấy dai mà không cứng**; mộc nhĩ giòn sựt cắt ngang
+  cái mềm của thịt gà xé.
+storyEyebrow: Chuyện bát miến gà
+storyTitle: Sợi miến làm từ **củ dong riềng**
+story:
+  - >-
+    Miến gà là món "anh em họ" của phở gà, nhưng gốc gác sợi thì khác hẳn.
+    Bánh phở làm từ gạo, còn **miến dong kéo từ tinh bột củ dong riềng** —
+    thứ củ trồng ở vùng trung du, đào lên mài lấy bột, lọc rồi tráng phơi
+    thành sợi. Vì vậy sợi miến không trắng đục như bánh phở mà **xám nhạt,
+    hơi trong**, nấu lên thì bóng mướt và dai, húp vào nhẹ bụng hơn hẳn.
+  - >-
+    Trong bếp Bắc, miến là sợi của những dịp cần **nhẹ mà tinh**: bát miến
+    gà cho đứa nhỏ biếng ăn, cho bữa khuya không muốn nặng bụng, cho những
+    hôm chỉ thèm ăn nhẹ mà vẫn phải có miếng thịt trong tô. Bát miến đúng
+    kiểu không cần nhiều thứ — con gà ta, nắm mộc
+    nhĩ, mấy cánh nấm hương, thế là đủ. Cái ngon nằm ở chỗ **ba kết cấu chạm
+    nhau trong một muỗng**: sợi miến dai, thịt gà mềm, mộc nhĩ giòn sựt.
+  - >-
+    Cũng nhờ vậy mà nấu miến gà không phải là làm lại phở gà. Nồi nước dùng
+    ở đây **không quế hồi, không hạt mùi, không lá chanh** — chỉ hành gừng
+    nướng và chính con gà. Càng ít gia vị thì con gà càng phải tới nơi, và
+    nồi nước càng phải trong. Đổi lại, món này **nấu gọn hơn phở gà một
+    tiếng đồng hồ**.
+
+ingredientGroups:
+  - name: Gà & nồi nước dùng
+    icon: pot
+    items:
+      - id: ga
+        name: Gà ta (gà thả vườn)
+        icon: meat
+        color: amber
+        base: 1
+        unit: con
+        frac: true
+        note: Con 1,2–1,5 kg, da vàng mỏng — thịt chắc mới xé ra thớ đẹp
+      - id: longga
+        name: Bộ lòng gà (tùy chọn)
+        icon: meat
+        color: red
+        base: 1
+        unit: bộ
+        frac: true
+        note: Mề, tim, gan, tràng — bóp muối hột rửa thật kỹ; không thích thì bỏ hẳn
+      - id: gung
+        name: Gừng già
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Nướng xém nguyên vỏ rồi cạo sạch, đập dập
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 4
+        unit: củ
+        note: 3 củ nướng thả nồi, 1 củ thái lát phi thơm để xào nấm
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Bổ múi cau thả nồi lúc ninh — nước ngọt dịu hơn
+  - name: Sợi miến & cái độn
+    icon: noodle
+    items:
+      - id: mien
+        name: Miến dong
+        icon: noodle
+        color: gold
+        base: 200
+        unit: g
+        note: >-
+          Chọn sợi suôn nhỏ đều, màu xám nhạt hơi đục — đó là màu thật của bột
+          dong riềng. Sợi trắng tinh thường pha bột khác, nấu lên dễ bở
+      - id: mocnhi
+        name: Mộc nhĩ
+        icon: pod
+        base: 30
+        unit: g
+        note: Ngâm nước lạnh cho nở hết, cắt chân, thái sợi — thứ tạo tiếng giòn sựt
+      - id: namhuong
+        name: Nấm hương khô
+        icon: pod
+        color: amber
+        base: 20
+        unit: g
+        note: Ngâm nở, giữ lại nước ngâm lắng trong để chế vào nồi
+  - name: Nêm nếm
+    icon: jar
+    items:
+      - id: muoi
+        name: Muối hột
+        icon: jar
+        base: 2
+        unit: thìa cà phê
+        frac: true
+        note: Cho từ đầu để nước rút ngọt từ xương gà
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Nêm sau cùng lúc nước sôi mới dậy mùi
+      - id: tieu
+        name: Tiêu bắc xay
+        icon: pepper
+        qtyText: Rắc lúc bưng ra
+        note: Miến gà thiếu tiêu là mất một tầng ấm
+  - name: Rau rắc & đồ kèm
+    icon: herb
+    items:
+      - id: rauram
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm nhỏ
+        note: Thái nhỏ rắc mặt tô — vị the nồng đặc trưng của bát miến gà
+      - id: hanhhoa
+        name: Hành hoa + rau mùi
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Hành hoa xắt nhỏ, rau mùi cắt khúc
+      - id: hanhphi
+        name: Hành phi
+        icon: onion
+        color: gold
+        qtyText: 2–3 thìa canh
+        note: Phi từ hành tím thái lát, để thật ráo mỡ cho giòn lâu
+      - id: chanhot
+        name: Chanh + ớt tươi
+        icon: lime
+        color: green
+        base: 1
+        unit: trái
+        note: Bày giữa bàn, ai ăn nấy nêm
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **bát miến gà kiểu Bắc**
+stepsLead: >-
+  Mạch nấu xuôi tay: luộc gà xong thì nồi nước luộc thành luôn nồi nước dùng.
+  Việc khó nhất của món này không phải nấu mà là **canh đúng vài chục giây
+  trụng miến** — nên soạn sẵn mọi thứ rồi mới đụng tới sợi miến.
+steps:
+  - title: Sơ chế gà, nướng gừng hành
+    icon: knife
+    minutes: 15 phút
+    intro: "Nước dùng miến gà rất ít gia vị, nên bước làm sạch quyết định mùi nồi:"
+    bullets:
+      - label: "Làm gà:"
+        text: >-
+          chà xát **muối hột + gừng đập dập** trong ngoài con gà, rửa lại
+          thật kỹ, để ráo. Giữ lại phần mỡ trong bụng để lát phi hành.
+      - label: "Bộ lòng:"
+        text: >-
+          nếu dùng thì bóp **muối hột** rồi rửa nhiều lần nước; mề lột lớp
+          màng vàng bên trong, tim bổ đôi rửa hết máu đọng.
+      - label: "Nướng thơm:"
+        text: >-
+          gừng và [[3|củ]] hành tím để nguyên vỏ nướng tới **xém đen, thơm
+          nức**, rồi cạo sạch vỏ cháy dưới vòi nước.
+    callout:
+      type: tip
+      text: >-
+        Đừng thả quế hồi hay hạt mùi vào nồi này — đó là gia vị của phở. Bát
+        miến gà lấy **cái mộc của con gà** làm chính, thêm mùi lạ vào là hỏng
+        chất thanh.
+  - title: Luộc gà — liu riu rồi ủ
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - text: >-
+          Xếp gà vào nồi sâu lòng, châm **nước lạnh ngập con gà** (cỡ
+          [[2.5|lít]]), thả gừng hành nướng + [[2|thìa cà phê|frac]] muối.
+      - text: >-
+          Đun lửa vừa cho sôi, **hớt sạch bọt**, hạ ngay xuống liu riu **25
+          phút** — mặt nước chỉ lăn tăn.
+      - text: >-
+          Tắt bếp, đậy vung **ủ 10 phút**. Xiên đũa vào đùi không rỉ nước
+          hồng là gà chín tới.
+      - text: >-
+          Bộ lòng gà thả vào nồi luộc chung **12–15 phút** ở nhịp liu riu rồi
+          vớt ra trước, thái miếng vừa ăn.
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng suốt là **da nứt, thịt xác xơ** và nước dùng đục ngầu. Món
+        này không có gia vị nào che được nồi nước đục.
+    timer:
+      secs: 1500
+      label: Hẹn giờ luộc gà · 25:00
+      doneMsg: Tắt bếp, ủ thêm 10 phút nghen!
+  - title: Xé gà, ninh tiếp bộ xương
+    icon: drop
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Vớt gà thả vào **thau nước đá 5 phút** cho da săn lại, thịt mọng,
+          gỡ cũng dễ hơn.
+      - text: >-
+          Lọc thịt rồi **xé tay theo thớ** thành sợi to bằng ngón út — miến
+          hợp với thịt xé, không hợp thịt chặt lát như phở.
+      - text: >-
+          Bộ xương vừa lọc **trả lại nồi**, thả thêm hành tây bổ múi cau,
+          ninh lăn tăn **20 phút** nữa rồi lược qua rây cho nước thật trong.
+    callout:
+      type: tip
+      text: >-
+        Xé tay chứ đừng dùng dao: thớ thịt tước ra **xù xì nên bám nước dùng**,
+        gắp lên đũa vẫn còn ngọt. Thái dao thì miếng thịt nhẵn, trôi tuột.
+    timer:
+      secs: 300
+      label: Hẹn giờ ngâm đá · 05:00
+      doneMsg: Vớt gà ra, để ráo rồi xé thịt!
+  - title: Xào mộc nhĩ nấm hương
+    icon: pot
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Mộc nhĩ và nấm hương ngâm **nước lạnh** cho nở hết (30 phút), cắt
+          chân, rửa sạch, **thái sợi**. Nước ngâm nấm hương để lắng rồi chắt
+          phần trong vào nồi nước dùng.
+      - text: >-
+          Phi thơm hành tím thái lát với chút mỡ gà, cho mộc nhĩ + nấm hương
+          vào **xào lửa lớn 2–3 phút**, nêm chút nước mắm và tiêu.
+      - text: >-
+          Xào riêng để ráo rồi mới xếp lên tô — thả thẳng vào nồi thì mộc
+          nhĩ nhả nước, nước dùng đục và mất tiếng giòn.
+    callout:
+      type: tip
+      text: >-
+        Nước ngâm nấm hương là **nước dùng miễn phí**: chắt nhẹ phần trong,
+        bỏ lại phần cặn dưới đáy, chế vào nồi là dậy hẳn mùi nấm.
+  - title: Ngâm miến — bước dễ hỏng nhất
+    icon: noodle
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Miến dong ngâm **nước lạnh 10–15 phút**, tới khi sợi mềm dẻo là
+          vớt ra để ráo, dùng kéo **cắt khúc cỡ gang tay** cho dễ ăn.
+      - text: >-
+          Nếm nồi nước dùng: nêm [[2|thìa canh|frac]] nước mắm lúc nước
+          đang sôi, thiếu mặn thì thêm muối từng nhúm nhỏ.
+      - text: >-
+          Chuẩn khi húp thử là **ngọt thanh của gà đi trước, mặn nhẹ theo
+          sau** — nêm hụt một chút vẫn hơn nêm lố.
+    callout:
+      type: warn
+      text: >-
+        **Nước nóng là kẻ thù của miến dong.** Ngâm nước sôi cho nhanh thì
+        sợi trương phồng rồi đứt vụn ngay khi chan. Nước lạnh, đủ giờ, không
+        có đường tắt.
+    timer:
+      secs: 780
+      label: Hẹn giờ ngâm miến · 13:00
+      doneMsg: Vớt miến để ráo, cắt khúc là vừa!
+  - title: Trụng nhanh, ráp tô, rắc rau răm
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Cho miến vào vợt, **nhúng vào chính nồi nước dùng đang sôi 10–15
+          giây**, nhấc lên xóc ráo rồi trút thẳng vào tô.
+      - text: >-
+          Xếp **gà xé** một bên, **mộc nhĩ nấm hương** một bên, thêm lát
+          lòng mề nếu có.
+      - text: >-
+          Chan nước dùng **sôi già** ngập miến, rắc hành hoa, rau mùi, rồi
+          **rau răm thái nhỏ + hành phi + tiêu** lên trên cùng.
+      - text: Bưng ra ăn liền — miến để lâu trong nước nóng sẽ nở tiếp và mềm oặt.
+    callout:
+      type: tip
+      text: >-
+        Trụng miến trong **nồi nước dùng** chứ không phải nồi nước lã: sợi
+        miến hút nước lúc trụng, hút nước dùng thì đậm, hút nước lã thì
+        nhạt thếch.
+    doneText: Bưng ra bàn — xong!
+
+tipsTitle: 6 bí quyết cho **bát miến gà không nát**
+tipsLead: >-
+  Miến gà nhìn thì đơn giản, nhưng sợi miến là loại sợi ít khoan dung nhất
+  trong các loại sợi. Mấy mẹo này chủ yếu xoay quanh việc giữ cho nó dai.
+tips:
+  - icon: noodle
+    title: Chọn miến xám, tránh miến trắng
+    text: >-
+      Miến dong thật có **màu xám nhạt hơi đục** — đúng màu bột củ dong
+      riềng. Sợi trắng tinh bóng bẩy thường đã pha thêm bột khác, nấu lên
+      mềm oặt và đứt vụn. Sợi phải suôn, đều dày, bẻ thấy giòn khô.
+  - icon: drop
+    title: Nước lạnh ngâm, nước dùng trụng
+    text: >-
+      Hai lần miến gặp nước là hai luật khác nhau: **ngâm bằng nước lạnh**
+      cho nở đều từ trong ra, **trụng bằng nước dùng sôi** chỉ trong chục
+      giây cho nóng và đậm. Đảo ngược hai thứ này là hỏng cả tô.
+  - icon: knife
+    title: Cắt khúc trước khi chan
+    text: >-
+      Sợi miến dài lê thê thì gắp lên là kéo cả tô theo. Ngâm xong **cắt
+      khúc cỡ gang tay** bằng kéo — vừa dễ gắp vừa dễ chia đều vào các tô.
+  - icon: pod
+    title: Mộc nhĩ phải xào riêng
+    text: >-
+      Mộc nhĩ ngâm xong còn ngậm rất nhiều nước. Thả thẳng vào nồi là nước
+      dùng vừa **đục vừa nhạt**, mà mộc nhĩ cũng mất luôn tiếng giòn sựt.
+      Xào riêng cho ráo, xếp lên mặt tô là gọn.
+  - icon: meat
+    title: Xé tay, đừng thái dao
+    text: >-
+      Thớ gà xé tay **xù xì nên giữ được nước dùng**, ăn tới đâu ngọt tới
+      đó. Đây cũng là chỗ miến gà khác phở gà: phở cần lát thịt bản to còn
+      nguyên da cho đẹp tô, miến cần sợi thịt bám vào sợi miến.
+  - icon: herb
+    title: Rau răm mới là chữ ký
+    text: >-
+      Phở gà nhận ra nhờ **lá chanh**, miến gà nhận ra nhờ **rau răm**. Vị
+      the nồng của rau răm cắt cái béo của mỡ gà rất gọn. Thái nhỏ, rắc sát
+      giờ ăn, đừng trộn vào nồi kẻo nước dùng ngả đắng.
+
+serve:
+  title: Bát miến nóng — **ăn lúc nào cũng vừa**
+  paras:
+    - >-
+      Miến gà là món hiếm hoi **ăn giờ nào cũng không sai**: sáng ra một bát
+      cho ấm bụng đi làm, trưa ăn thay cơm cho nhẹ, khuya về đói bụng nấu
+      lại nồi nước dùng là có ngay. Vắt chút chanh, thả lát ớt cho ai thích
+      cay, còn lại cứ để nguyên vị mà húp.
+    - >-
+      Đây cũng là **món dễ chiều đứa nhỏ biếng ăn** — sợi mềm dễ gắp, nhẹ
+      bụng, mà vẫn có thịt có nấm chứ không lưng lửng. Nhà nào có bé thì bớt tiêu,
+      bớt rau răm, xé thịt nhỏ hơn chút là vừa miệng.
+    - >-
+      Nấu một con gà mà ăn được hai bữa: phần ức xé làm **gỏi gà bắp cải**
+      cho bữa chiều, phần đùi và nước dùng để dành nấu miến. Ai muốn đổi
+      sang tô đậm đà hơn thì có **phở gà** bên cạnh — cùng một con gà, hai
+      hướng đi khác hẳn.
+  aside:
+    title: Trên bàn miến gà
+    intro: "Mấy thứ nên có sẵn:"
+    items:
+      - icon: herb
+        text: "**Chén rau răm thái nhỏ** — ai ghiền tự rắc thêm."
+      - icon: onion
+        text: "**Hũ hành phi** — rắc lúc chan, giòn được vài phút đầu là ngon nhất."
+      - icon: lime
+        text: "**Chanh + ớt tươi** — vắt sát giờ ăn."
+      - icon: pepper
+        text: "**Tiêu bắc xay** — nhúm nhỏ trên mặt tô, ấm hẳn lên."
+
+faq:
+  - q: Miến gà với phở gà khác nhau chỗ nào?
+    a: >-
+      Khác cả sợi lẫn nồi. Sợi phở làm từ **gạo**, sợi miến kéo từ **bột củ
+      dong riềng** nên trong mờ và dai. Nồi phở gà có **hành gừng nướng +
+      hạt mùi rang**, rắc **lá chanh**; nồi miến gà chỉ hành gừng nướng, đồ
+      độn là **mộc nhĩ + nấm hương**, rắc **rau răm**. Thịt cũng khác: phở
+      chặt lát còn da, miến xé tay theo thớ.
+  - q: Miến bị nát rồi thì cứu được không?
+    a: >-
+      Nát thật thì **không cứu được**, sợi đã đứt là đứt. Cách duy nhất là
+      phòng: ngâm nước lạnh, trụng đúng 10–15 giây, và **chỉ trụng ngay
+      trước khi chan**. Nếu ăn nhiều đợt thì để nguyên miến đã ngâm trong
+      rổ, ai ăn tới đâu trụng tới đó.
+  - q: Không mua được gà ta thì sao?
+    a: >-
+      Gà công nghiệp vẫn nấu được, chỉ cần biết hai điểm yếu: **thịt bở
+      hơn, nước nhạt hơn**. Chữa bằng cách rút luộc còn **15–17 phút + ủ
+      10 phút**, và mua thêm [[300|g]] xương gà ninh chung cho nước có
+      chiều sâu. Xé thịt cũng nên xé sợi to hơn kẻo vụn.
+  - q: Có nên cho măng vào không?
+    a: >-
+      Có — thả măng khô đã luộc kỹ vào thì thành **miến măng gà**, cũng là
+      một bát quen thuộc của bếp Bắc, hay gặp trong mâm cỗ. Nhưng măng ngậm
+      nhiều vị nên phải xào riêng cho thấm rồi mới xếp lên tô, và nước dùng
+      cần nêm nhỉnh hơn một chút.
+  - q: Nấu trước được phần nào?
+    a: >-
+      Gần như tất cả trừ sợi miến. **Nước dùng** để nguội cất ngăn mát 3
+      ngày hoặc cấp đông cả tháng; **gà xé** và **mộc nhĩ nấm hương xào**
+      đậy kín ngăn mát 1–2 ngày. Tới bữa chỉ đun sôi nước dùng, ngâm miến,
+      trụng, chan — chừng 20 phút là có bát nóng.
+  - q: Bộ lòng gà có bắt buộc không?
+    a: >-
+      Không bắt buộc. Bát miến gà chỉ có thịt xé vẫn đủ đầy. Nhưng nếu
+      thích thì bộ lòng thêm được một tầng kết cấu khác hẳn — **mề giòn,
+      gan bùi** — và đó chính là bát *miến lòng mề gà* mà hàng quán miền
+      Bắc hay bán. Chỉ cần bóp muối rửa cho thật kỹ.
+
+ticker:
+  - icon: noodle
+    text: Sợi miến dong trong mờ, dai mướt
+  - icon: drop
+    text: Nước gà trong, ngọt thanh nhẹ bụng
+  - icon: meat
+    text: Gà ta xé tay từng thớ
+  - icon: pod
+    text: Mộc nhĩ giòn sựt, nấm hương thơm ngầm
+  - icon: herb
+    text: Rau răm the the rắc mặt tô
+  - icon: onion
+    text: Hành phi vàng giòn rắc sau cùng

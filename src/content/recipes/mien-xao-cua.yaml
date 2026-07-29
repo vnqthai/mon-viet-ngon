@@ -1,0 +1,421 @@
+title: Miến xào cua **sợi tơi bóng, thớ cua ngọt nguyên**
+summary: >-
+  Đĩa miến xào **sợi nào ra sợi nấy, không dính chùm**, quyện thịt cua bể
+  gỡ nguyên thớ với gạch cua vàng ươm, thêm mộc nhĩ giòn và giá đỗ ngọt
+  nước. Món đủ sang để đặt lên mâm cỗ mà nấu thì chỉ hết một buổi chiều.
+region: Cả nước
+category: Xào
+occasions: [Cỗ Tết, Đãi khách]
+pubDate: 2026-07-29
+time:
+  total: 45 phút
+  active: 35 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 26
+art: mien-xao-cua
+heroEyebrow: Chảo nóng già, tay đảo cho lẹ…
+
+quick:
+  ingredients:
+    - Cua bể sống [[600|g]] — chừng 2 con vừa, chắc thịt
+    - Miến dong [[200|g]] — sợi nhỏ suôn, **màu xám nhạt hơi đục**
+    - Trứng gà [[2|quả]] — bí quyết cho miến tơi rời
+    - Mộc nhĩ [[30|g]] · nấm hương [[30|g]] · giá đỗ [[150|g]]
+    - Hành tây [[1|củ]] · cà rốt [[1|củ]] · hành lá · rau mùi
+    - "Nêm: nước mắm [[2|thìa canh|frac]] · tiêu · hành phi · mỡ lợn (hoặc dầu)"
+  steps:
+    - Hấp cua chín, **gỡ thịt lúc còn ấm** để thớ cua trượt ra nguyên miếng; gạch để riêng.
+    - Miến ngâm **nước lạnh 10–15 phút**, vớt ráo, cắt khúc.
+    - Phi hành, xào **gạch cua** cho vàng thơm rồi trút thịt cua vào đảo nhẹ, nêm mắm tiêu — múc ra bát.
+    - Xào riêng mộc nhĩ, nấm hương, cà rốt, hành tây, giá đỗ cho ráo — múc ra.
+    - Chảo nóng, **tráng trứng đánh tan** rồi trút miến vào đảo ngay ở lửa vừa — trứng bọc sợi miến, miến hết dính.
+    - Trả rau củ và cua vào, đảo đều nhanh tay, tắt bếp, rắc hành phi + rau mùi + tiêu.
+  warning: >-
+    **Xào tất tật một lượt trong một chảo là hỏng.** Rau nhả nước, cua nát
+    thành xác, miến bết lại thành khối. Món này phải xào từng phần rồi mới
+    trộn chung ở nhịp cuối.
+
+flavor:
+  chua: 0.5
+  ngot: 6.5
+  man: 5.5
+  cay: 1
+  thom: 7.5
+flavorNote: >-
+  **Chuẩn vị:** gắp lên thấy **sợi miến rời nhau, bóng chứ không ướt**, cắn
+  vào còn dai; thịt cua vẫn ra thớ chứ không tơi thành bột; hậu vị ngọt của
+  cua đi sau mùi thơm của gạch phi hành.
+storyEyebrow: Chuyện đĩa miến xào
+storyTitle: Đĩa **quen mặt trên mâm cỗ**, nâng lên bằng con cua bể
+story:
+  - >-
+    Trong mâm cỗ Bắc dựng theo lệ **bốn bát bốn đĩa**, gần như bao giờ cũng
+    có một đĩa miến xào. Bản phổ thông là **miến xào thập cẩm** — miến với
+    mộc nhĩ, nấm hương, cà rốt, su hào, có nhà thêm lòng gà. Nó ở đó vì
+    mâm cỗ cần một món **khô, tơi và nhiều màu** để cân lại mấy bát canh
+    và mấy đĩa thịt.
+  - >-
+    Miến xào cua là bản được nâng lên. Thay vì thập cẩm, cả đĩa dồn vào
+    một thứ đạm duy nhất: **thịt cua bể gỡ nguyên thớ**, thêm chút **gạch
+    cua** phi thơm làm màu và làm mùi. Cua bể ngọt đậm hơn cua đồng và cho
+    ra **thớ thịt to, chắc** — gắp lên còn thấy hình miếng thịt chứ không
+    tan ra như thịt cua giã.
+  - >-
+    Cái khó của món không nằm ở con cua mà ở **sợi miến**. Miến dong hút
+    nước rất nhanh, gặp nước rau tiết ra là trương lên rồi dính bết thành
+    khối. Người nấu quen tay giải bài đó bằng một mẹo cũ: **tráng trứng
+    trước rồi mới trút miến vào** — lớp trứng bọc quanh từng sợi, sợi nào
+    ra sợi nấy cho tới lúc bưng lên mâm.
+
+ingredientGroups:
+  - name: Cua bể
+    icon: shrimp
+    items:
+      - id: cua
+        name: Cua bể sống
+        icon: shrimp
+        color: red
+        base: 600
+        unit: g
+        note: >-
+          Chọn con **yếm chắc, ấn vào không lún**, càng còn đủ. Cua chắc thịt
+          gỡ ra được nhiều, cua ốp thì toàn nước
+      - id: gach
+        name: Gạch cua (lấy từ mai)
+        icon: jar
+        color: gold
+        qtyText: Toàn bộ gạch của số cua trên
+        note: Khều sạch từ mai, để riêng — phi lên là ra màu và mùi cho cả đĩa
+  - name: Sợi miến & rau củ
+    icon: noodle
+    items:
+      - id: mien
+        name: Miến dong
+        icon: noodle
+        color: gold
+        base: 200
+        unit: g
+        note: >-
+          Sợi nhỏ suôn thẳng, màu xám nhạt hơi đục — màu thật của bột củ dong
+          riềng. Sợi trắng bóng thường pha bột khác, xào là nát
+      - id: trung
+        name: Trứng gà
+        icon: egg
+        color: gold
+        base: 2
+        unit: quả
+        note: Đánh tan, tráng trước khi trút miến vào — mẹo giữ miến tơi rời
+      - id: mocnhi
+        name: Mộc nhĩ
+        icon: pod
+        base: 30
+        unit: g
+        note: Ngâm nở, cắt chân, thái sợi — tiếng giòn sựt của đĩa miến
+      - id: namhuong
+        name: Nấm hương khô
+        icon: pod
+        color: amber
+        base: 30
+        unit: g
+        note: Ngâm nở, thái sợi; nước ngâm để lắng chắt lấy phần trong
+      - id: giado
+        name: Giá đỗ
+        icon: sprout
+        color: green
+        base: 150
+        unit: g
+        note: Cho vào cuối cùng, đảo vài đảo là tắt bếp cho còn giòn
+      - id: carot
+        name: Cà rốt
+        icon: stem
+        color: amber
+        base: 1
+        unit: củ
+        note: Thái sợi bằng que diêm — chủ yếu để lấy màu cam cho đĩa đẹp
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Thái múi cau mỏng, xào tái cho còn ngọt
+  - name: Nêm & rắc
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Chia hai lần — một lần nêm cua, một lần nêm miến
+      - id: molon
+        name: Mỡ lợn (hoặc dầu ăn)
+        icon: bottle
+        color: gold
+        qtyText: 3–4 thìa canh
+        note: Mỡ lợn cho đĩa miến bóng và thơm hơn hẳn dầu
+      - id: hanhkho
+        name: Hành khô (hành tím)
+        icon: onion
+        color: red
+        base: 4
+        unit: củ
+        note: 2 củ băm để phi, 2 củ thái lát phi giòn rắc mặt
+      - id: hanhngo
+        name: Hành lá + rau mùi
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Hành lá cắt khúc, rau mùi để nguyên cọng rắc lúc bưng ra
+      - id: tieuot
+        name: Tiêu xay + ớt tươi
+        icon: pepper
+        qtyText: Tùy khẩu vị
+        note: Tiêu rắc lúc tắt bếp, ớt thái lát bày lên mặt cho có màu
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **đĩa miến xào cua tơi rời**
+stepsLead: >-
+  Nguyên tắc duy nhất của món này: **xào riêng từng phần, trộn chung ở nhịp
+  cuối**. Nghe rườm rà nhưng thật ra mỗi phần chỉ vài phút, và đó là khác
+  biệt giữa một đĩa miến tơi và một khối miến bết.
+steps:
+  - title: Hấp cua, gỡ thịt lúc còn ấm
+    icon: pot
+    minutes: 20 phút
+    intro: "Thịt cua gỡ đúng lúc thì ra thớ, gỡ sai lúc thì nát vụn:"
+    bullets:
+      - label: "Làm cua:"
+        text: >-
+          cho cua vào ngăn đá 15 phút cho **lịm đi** rồi mới tháo dây, chà
+          rửa sạch mai và kẽ càng bằng bàn chải.
+      - label: "Hấp:"
+        text: >-
+          hấp cách thủy với vài lát gừng và mấy cọng sả chừng **12–15 phút**
+          tính từ lúc nước sôi, tới khi mai chuyển đỏ cam.
+      - label: "Gỡ thịt:"
+        text: >-
+          để nguội bớt nhưng **gỡ lúc còn ấm tay** — thịt còn ấm thì trượt
+          ra khỏi vỏ dễ và **giữ nguyên thớ**. Càng thì dùng chày dần nhẹ
+          cho nứt rồi khều.
+      - label: "Gạch:"
+        text: khều hết phần gạch trong mai để riêng một chén nhỏ.
+    callout:
+      type: tip
+      text: >-
+        Cua để nguội hẳn rồi mới gỡ thì thịt bám chặt vào vỏ, càng cạy càng
+        vụn. Còn hấp quá tay thì thịt khô xác. **Ấm tay là đúng lúc.**
+    timer:
+      secs: 840
+      label: Hẹn giờ hấp cua · 14:00
+      doneMsg: Nhấc ra, để nguội bớt rồi gỡ thịt liền nghen!
+  - title: Ngâm miến, soạn rau củ
+    icon: noodle
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Miến dong ngâm **nước lạnh 10–15 phút** tới khi sợi mềm dẻo là vớt
+          ra để **thật ráo**, cắt khúc cỡ gang tay.
+      - text: >-
+          Mộc nhĩ và nấm hương ngâm nước lạnh cho nở hết, cắt chân, thái
+          sợi. Cà rốt thái sợi, hành tây thái múi cau, giá đỗ rửa để ráo.
+      - text: >-
+          Chắt phần trong của nước ngâm nấm hương ra một chén — lát dùng
+          thay nước để nêm miến.
+    callout:
+      type: warn
+      text: >-
+        **Đừng ngâm miến bằng nước nóng** cho nhanh: sợi trương phồng rồi
+        đứt vụn ngay khi đảo chảo. Và ngâm xong phải để **ráo hết nước**,
+        miến còn ướt là vào chảo thành hồ.
+  - title: Xào gạch, xào cua — ra bát riêng
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Phi thơm hành khô băm với mỡ lợn, cho **gạch cua** vào đảo lửa vừa
+          chừng 1 phút tới khi gạch nổi màu vàng cam và dậy mùi.
+      - text: >-
+          Trút **thịt cua** vào, nêm [[1|thìa canh|frac]] nước mắm và chút
+          tiêu, **đảo nhẹ tay bằng đũa** chừng 1 phút rồi múc ra bát ngay.
+      - text: >-
+          Chừa lại chút gạch trong chảo để lát xào miến — cả đĩa lên màu
+          vàng nhờ đó.
+    callout:
+      type: warn
+      text: >-
+        Đảo mạnh tay hay xào lâu là **thớ cua vỡ ra thành bột**, ăn không
+        còn cảm giác miếng thịt. Cua đã chín từ lúc hấp rồi, ở đây chỉ là
+        cho thấm và cho thơm.
+  - title: Xào rau củ — cũng ra bát riêng
+    icon: pot
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Chảo nóng, xào **cà rốt và hành tây** trước 1 phút, thêm **mộc nhĩ
+          + nấm hương** đảo tiếp 2 phút, nêm nhạt tay.
+      - text: >-
+          Cho **giá đỗ** vào sau cùng, đảo đúng vài đảo rồi múc hết ra bát
+          — giá còn giòn, và quan trọng hơn là **rau đã nhả bớt nước ngoài
+          chảo miến**.
+    callout:
+      type: tip
+      text: >-
+        Nếu chảo còn đọng nước rau thì lau khô hoặc chắt bỏ trước khi xào
+        miến. Toàn bộ bài toán của món này là **giữ chảo khô lúc miến vào**.
+  - title: Tráng trứng, xào miến, trộn chung
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - label: "Tráng trứng:"
+        text: >-
+          chảo nóng láng mỡ, đổ [[2|quả]] trứng đánh tan, dàn mỏng, **để
+          trứng vừa se mặt là trút miến vào ngay** rồi đảo cho trứng bám
+          quanh sợi.
+      - label: "Xào miến:"
+        text: >-
+          giữ **lửa vừa**, đảo đều tay 2–3 phút, nêm [[1|thìa canh|frac]]
+          nước mắm và vài thìa nước ngâm nấm cho miến mềm đều. Miến khô quá
+          thì rưới thêm từng thìa nhỏ, đừng chan.
+      - label: "Trộn chung:"
+        text: >-
+          trả rau củ và thịt cua vào chảo, **đảo nhẹ 30 giây** cho hòa rồi
+          tắt bếp. Rắc hành lá, tiêu, đảo lần cuối bằng hơi nóng còn lại.
+      - text: >-
+          Trút ra đĩa, rắc **hành phi** và rau mùi, bày mấy lát ớt lên mặt
+          cho có màu. Ăn nóng.
+    callout:
+      type: tip
+      text: >-
+        Dùng **đũa dài đảo miến** thay cho xẻng: đũa xới được từ đáy lên mà
+        không cắt đứt sợi. Đảo bằng xẻng thì sợi miến gãy vụn hết.
+    doneText: Bưng lên mâm — xong!
+
+tipsTitle: 6 bí quyết cho **đĩa miến xào không dính chùm**
+tipsLead: >-
+  Cả món chỉ có một kẻ thù: **nước**. Nước trong sợi miến chưa ráo, nước
+  rau tiết ra, nước nêm chan quá tay — mỗi thứ một ít là thành khối bết.
+  Sáu mẹo dưới đây đều xoay quanh chuyện đó.
+tips:
+  - icon: egg
+    title: Trứng là thứ giữ sợi miến rời nhau
+    text: >-
+      Đây là mẹo đáng nhớ nhất của món: **tráng trứng trước rồi trút miến
+      vào lúc trứng vừa se mặt**. Lớp trứng mỏng bọc quanh từng sợi, ngăn
+      sợi dính vào nhau suốt cả buổi ngồi trên mâm. Đổ trứng sau khi miến
+      đã vào chảo thì không có tác dụng này.
+  - icon: drop
+    title: Ráo nước rồi hãy vào chảo
+    text: >-
+      Miến ngâm xong phải để **ráo thật kỹ** — dốc rổ, xóc vài lần, thậm chí
+      trải ra mâm cho bay hơi. Miến còn đọng nước gặp chảo nóng là **hồ hóa
+      ngay lập tức**, không cứu được.
+  - icon: pot
+    title: Xào riêng từng phần, trộn ở nhịp cuối
+    text: >-
+      Rau củ nhả nước, cua thì chín sẵn và dễ nát, miến thì cần chảo khô và
+      lửa vừa — ba thứ ba yêu cầu khác nhau. Xào riêng rồi trộn chung 30
+      giây cuối là cách duy nhất **chiều được cả ba**.
+  - icon: shrimp
+    title: Gỡ cua lúc còn ấm tay
+    text: >-
+      Cua vừa hấp xong, **để nguội bớt nhưng vẫn còn ấm** thì thịt trượt ra
+      nguyên thớ. Nguội hẳn thì thịt bám vỏ, cạy ra là vụn. Cả đĩa được
+      hay mất nằm ở mấy phút này.
+  - icon: flame
+    title: Gạch cua phi trước làm màu và mùi
+    text: >-
+      Đừng trộn gạch chung với thịt cua rồi xào một lượt. **Phi gạch riêng
+      với hành khô** cho nổi màu vàng cam và dậy mùi trước, sau đó mới cho
+      thịt vào. Màu của cả đĩa miến đến từ đúng bước này.
+  - icon: noodle
+    title: Đảo bằng đũa, đừng dùng xẻng
+    text: >-
+      Sợi miến dong dai nhưng giòn khi bị cắt ngang. **Đũa dài xới từ đáy
+      lên** giữ được sợi nguyên vẹn; xẻng thì vừa xúc vừa cắt, đảo mấy
+      vòng là đĩa miến toàn sợi ngắn.
+
+serve:
+  title: Đĩa miến **lên mâm là hết trước**
+  paras:
+    - >-
+      Miến xào cua hợp nhất là **món giữa mâm** — mọi người gắp chung, ăn
+      kèm cơm hoặc ăn không đều được. Trên mâm cỗ, nó giữ đúng vai của đĩa
+      miến xào truyền thống: **món khô, tơi, nhiều màu** để cân lại mấy
+      bát canh và đĩa thịt, chỉ khác là sang hơn nhờ con cua bể.
+    - >-
+      Bữa thường ngày thì đây là **món đãi khách gọn nhất trong nhóm hải
+      sản**: mua cua từ sáng, hấp và gỡ thịt để sẵn, khách tới chỉ mất
+      mười phút đứng chảo. Vắt thêm miếng chanh cho ai thích, còn lại cứ
+      để nguyên vị ngọt của cua.
+    - >-
+      Cùng họ xào, nếu muốn một đĩa nhẹ hơn thì có **mực xào thơm cần tây**
+      chua ngọt, còn thèm chắc bụng thì bên cạnh có **mì xào bò**. Ba đĩa
+      xào, ba tính nết.
+  aside:
+    title: Bày cùng đĩa miến xào cua
+    intro: "Mấy thứ hợp mâm:"
+    items:
+      - icon: lime
+        text: "**Chanh + ớt tươi** — vắt vài giọt cho dậy vị ngọt của cua."
+      - icon: pepper
+        text: "**Tiêu xay** — rắc lúc tắt bếp và để hũ trên bàn."
+      - icon: herb
+        text: "**Rau mùi để nguyên cọng** — vừa thơm vừa làm đẹp mặt đĩa."
+      - icon: bowl
+        text: "**Bát canh nóng** — mâm có đĩa xào khô thì phải có bát canh đi kèm."
+
+faq:
+  - q: Cua bể với cua đồng dùng thay nhau được không?
+    a: >-
+      Không thay được cho món này. **Cua bể cho thớ thịt to và chắc**, gỡ ra
+      còn thấy hình miếng — đó chính là thứ món này cần. Cua đồng thịt
+      nhuyễn, giã lọc lấy nước là hợp lý hơn, nên nó về bát **canh cua rau
+      đay** hay nồi **bún riêu cua** chứ không lên chảo xào.
+  - q: Miến bị dính thành khối rồi thì làm sao?
+    a: >-
+      Chữa được phần nào: **tắt bếp**, rưới một thìa dầu hoặc mỡ, dùng hai
+      chiếc đũa gỡ tơi từng mảng khi miến còn ấm, rồi bật lửa vừa đảo lại
+      30 giây. Nhưng đừng thêm nước — thêm nước là bết nặng hơn. Lần sau
+      nhớ ráo miến kỹ và tráng trứng trước.
+  - q: Nấu cho mâm cỗ thì làm trước được tới đâu?
+    a: >-
+      Làm trước được gần hết: **hấp cua, gỡ thịt, xào gạch, xào rau củ,
+      ngâm và ráo miến** đều để sẵn từ sáng trong ngăn mát. Chỉ chừa lại
+      khúc **tráng trứng — xào miến — trộn chung**, mất đúng năm phút, làm
+      sát giờ bưng lên mâm. Miến xào để nguội rồi hâm lại là mất hẳn độ tơi.
+  - q: Mua cua thế nào cho chắc thịt?
+    a: >-
+      Lật ngửa con cua, **ấn vào yếm thấy cứng, không lún** là cua chắc.
+      Nhấc lên thấy nặng tay so với kích cỡ, chân càng còn đủ và cử động
+      khỏe. Cua ốp thì yếm mềm, ấn vào lõm xuống, hấp ra toàn nước — mua
+      1 kg mà gỡ được rất ít thịt.
+  - q: Không mua được cua sống thì sao?
+    a: >-
+      Dùng **thịt cua đã gỡ sẵn cấp đông** cũng được, rã đông chậm trong
+      ngăn mát rồi **vắt nhẹ cho ráo nước** trước khi xào — đây là bước
+      quan trọng, thịt cua đông lạnh ngậm rất nhiều nước. Nhớ mua thêm một
+      hộp gạch cua riêng, vì đĩa miến mất gạch là mất cả màu lẫn mùi.
+  - q: Ăn chay hay không ăn được hải sản thì thay bằng gì?
+    a: >-
+      Bỏ cua và gạch, giữ nguyên phần còn lại thì thành **miến xào thập
+      cẩm** — bản phổ thông vẫn hay có trên mâm cỗ. Muốn đầy đặn hơn thì
+      thêm **đậu phụ rán thái sợi** và tăng mộc nhĩ nấm hương. Mọi mẹo về
+      trứng, ráo nước và xào riêng vẫn giữ nguyên.
+
+ticker:
+  - icon: noodle
+    text: Sợi miến tơi rời, bóng mà không ướt
+  - icon: shrimp
+    text: Thịt cua bể gỡ nguyên thớ
+  - icon: jar
+    text: Gạch cua phi thơm lên màu vàng
+  - icon: pod
+    text: Mộc nhĩ giòn sựt, nấm hương đậm
+  - icon: sprout
+    text: Giá đỗ thả sau cùng cho còn giòn
+  - icon: egg
+    text: Trứng tráng bọc sợi, miến hết dính

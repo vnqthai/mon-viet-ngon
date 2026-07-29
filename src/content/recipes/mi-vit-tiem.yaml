@@ -1,0 +1,490 @@
+title: Mì vịt tiềm **da vàng giòn, nước nâu thơm thảo mộc**
+summary: >-
+  Tô mì trứng vàng óng úp dưới một **cái đùi vịt chiên giòn da**, chan thứ
+  nước dùng **nâu sậm thơm mùi thảo mộc** — ngọt hậu, ấm bụng, thoảng vị
+  táo tàu và nấm đông cô. Món của người Hoa Chợ Lớn, nấu kỳ công nhưng đãi
+  khách thì khỏi bàn.
+region: Miền Nam
+category: Món nước
+occasions: [Đãi khách]
+pubDate: 2026-07-29
+time:
+  total: 2 giờ 30 phút (+ ướp 3 giờ)
+  active: 1 giờ
+servingsBase: 4
+difficulty: Kỳ công
+featured: false
+order: 12
+art: mi-vit-tiem
+heroEyebrow: Mùi thảo mộc bay ra tới đầu hẻm…
+
+quick:
+  ingredients:
+    - Đùi vịt góc tư [[4|cái]] (cỡ 350 g/cái) — hoặc [[1|con|frac]] vịt chặt tư
+    - Mì trứng tươi [[600|g]] — sợi nhỏ, vàng ươm
+    - >-
+      Ướp vịt: xì dầu [[2|thìa canh|frac]] · dầu hào [[1|thìa canh|frac]] ·
+      ngũ vị hương [[1|thìa cà phê|frac]] · rượu Mai Quế Lộ [[1|thìa canh|frac]]
+    - >-
+      Gói gia vị tiềm [[1|gói]] mua sẵn · táo tàu [[10|trái]] · kỷ tử [[10|g]] ·
+      trần bì [[5|g]] · thảo quả [[1|trái]] · hoa hồi [[2|cánh]]
+    - Nấm đông cô khô [[60|g]] · đường phèn [[20|g]] · gừng [[1|củ]] nướng
+    - Cải thìa [[500|g]] · hành lá · ngò rí · dầu ăn để chiên vịt
+  steps:
+    - Bóp vịt với **gừng giã + rượu trắng** cho hết mùi, rửa sạch, lau thật khô.
+    - Ướp vịt với xì dầu, dầu hào, ngũ vị hương, rượu Mai Quế Lộ — **ngăn mát tối thiểu 3 giờ**.
+    - "**Chiên ngập dầu** cho da vàng nâu giòn đều, vớt ra để ráo."
+    - Rang thơm gói gia vị, cho vô túi vải; ninh cùng gừng nướng + nước [[2.5|lít]].
+    - Thả vịt đã chiên vào **hầm liu riu 60 phút**, nêm đường phèn + xì dầu cho nước nâu ngọt hậu.
+    - Trụng cải thìa 15 giây, trụng mì, xếp tô, đặt đùi vịt lên, chan nước dùng nóng già.
+  warning: >-
+    Hai lỗi hay gặp: **không lau khô vịt trước khi chiên** — dầu bắn tung
+    tóe mà da vẫn không giòn; và **hầm sôi bùng** — da vừa chiên xong bở
+    bục ra, mất sạch công đoạn khó nhất.
+
+flavor:
+  chua: 0.5
+  ngot: 7
+  man: 5.5
+  cay: 1
+  thom: 9
+flavorNote: >-
+  **Chuẩn vị:** nước dùng **màu nâu hổ phách, trong chứ không đục**, húp
+  vào thấy ngọt hậu của vịt và táo tàu, mùi thảo mộc **ấm ở hậu vị chứ
+  không xộc lên mũi**. Da vịt còn giòn khi gắp lên khỏi tô.
+storyEyebrow: Chuyện tô mì vịt tiềm
+storyTitle: Tô mì của **người Hoa Chợ Lớn**
+story:
+  - >-
+    Mì vịt tiềm là món của cộng đồng **người Hoa ở Chợ Lớn**, gốc từ vùng
+    **Quảng Đông**, theo chân người di cư vào Sài Gòn từ trước năm 1975.
+    Kiểu nấu này rất Quảng Đông: hầm con vịt cùng một túi gia vị khô, lấy
+    mùi thảo mộc làm nền cho vị thịt thay vì lấn át nó.
+  - >-
+    Cái hay của món nằm ở **hai kết cấu chỏi nhau mà lại hợp**. Đùi vịt
+    được **chiên vàng giòn da trước**, rồi mới thả vào nồi hầm — nên khi
+    bưng ra, phần thịt đã mềm rục tới xương mà lớp da vẫn còn giữ được độ
+    dai giòn. Chan nước dùng ngập mì nhưng **đùi vịt đặt cao lên trên**,
+    cốt để cái da đó không bị ngâm mềm.
+  - >-
+    Nước dùng thì đi con đường ngược với phở: không cần trong veo, mà cần
+    **nâu sậm và thơm ngầm**. Túi gia vị — **táo tàu, kỷ tử, trần bì, hoa
+    hồi** — ninh cùng xương vịt và nấm đông cô cho ra thứ nước **ngọt hậu
+    và thơm ấm**, húp tới đâu thấy mùi thảo mộc dâng lên tới đó. Cũng vì
+    đậm đà mà không ngán, đây là món các hàng mì người Hoa bán suốt đêm.
+
+ingredientGroups:
+  - name: Vịt & đồ ướp
+    icon: meat
+    items:
+      - id: vit
+        name: Đùi vịt góc tư
+        icon: meat
+        color: amber
+        base: 4
+        unit: cái
+        note: >-
+          Cỡ 350 g mỗi cái, còn nguyên da. Không có thì mua nguyên con
+          1,5–1,8 kg chặt tư, phần xương cổ và lưng để ninh nước
+      - id: xidau
+        name: Xì dầu (nước tương)
+        icon: bottle
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Vừa ướp vừa phết lên da cho lên màu vàng nâu
+      - id: dauhao
+        name: Dầu hào
+        icon: bottle
+        color: amber
+        base: 1
+        unit: thìa canh
+        frac: true
+        note: Cho vị đậm và độ bóng
+      - id: nguvihuong
+        name: Ngũ vị hương
+        icon: jar
+        color: red
+        base: 1
+        unit: thìa cà phê
+        frac: true
+        note: Đừng cho quá tay — nhiều là át hết mùi thảo mộc
+      - id: maiquelo
+        name: Rượu Mai Quế Lộ
+        icon: bottle
+        color: red
+        base: 1
+        unit: thìa canh
+        frac: true
+        note: Rượu ướp thịt của bếp Hoa; không có thì thay bằng rượu trắng + chút quế
+      - id: gung
+        name: Gừng già
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Nửa củ giã bóp khử mùi vịt, nửa củ nướng xém thả nồi
+  - name: Túi gia vị tiềm
+    icon: jar
+    items:
+      - id: taotau
+        name: Táo tàu (táo đỏ) khô
+        icon: jar
+        color: red
+        base: 10
+        unit: trái
+        note: Nguồn ngọt hậu chính của nồi — đừng bỏ qua
+      - id: kytu
+        name: Kỷ tử
+        icon: jar
+        color: red
+        base: 10
+        unit: g
+        note: Thả lúc gần xong, ninh lâu là nát và chua
+      - id: goitiem
+        name: Gói gia vị tiềm vịt (mua sẵn)
+        icon: jar
+        color: amber
+        base: 1
+        unit: gói
+        note: >-
+          Hỏi mua **gói tiềm vịt** làm sẵn ở tiệm thuốc bắc, đừng tự cân lẻ. Tỷ lệ đã
+          có người cân giúp, mà cũng khỏi phải đoán vị nào bao nhiêu
+      - id: tranbi
+        name: Trần bì (vỏ quýt khô)
+        icon: jar
+        color: amber
+        base: 5
+        unit: g
+        note: Rang thơm rồi thả cùng — cho hậu vị the nhẹ, cắt bớt béo của vịt
+      - id: haihoi
+        name: Hoa hồi + thảo quả
+        icon: flower
+        color: amber
+        qtyText: 2 cánh hồi · 1 trái thảo quả
+        note: Rang khô cho thơm rồi mới cho vô túi vải
+      - id: namdongco
+        name: Nấm đông cô khô
+        icon: pod
+        color: amber
+        base: 60
+        unit: g
+        note: >-
+          Ngâm nở, cắt chân; giữ nước ngâm lắng trong chế vô nồi. Đây cũng
+          chính là nấm hương, tên gọi quen của bếp Hoa và bếp Nam
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        color: gold
+        base: 20
+        unit: g
+        note: Ngọt đằm, hợp nồi tiềm hơn đường cát
+  - name: Phần tô
+    icon: bowl
+    items:
+      - id: mitrung
+        name: Mì trứng tươi
+        icon: noodle
+        color: gold
+        base: 600
+        unit: g
+        note: Sợi nhỏ vàng ươm, dai. Mì khô thì lấy 300 g, luộc theo hướng dẫn gói
+      - id: caithia
+        name: Cải thìa
+        icon: lettuce
+        color: green
+        base: 500
+        unit: g
+        note: Chẻ đôi cây nhỏ; cải ngọt cũng được, trụng nhanh cho còn xanh
+      - id: hanhngo
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Xắt nhỏ rắc mặt tô
+      - id: dauan
+        name: Dầu ăn để chiên
+        icon: bottle
+        qtyText: Đủ ngập vịt trong chảo sâu
+        note: Chiên xong lược lại dùng tiếp được — đừng tiếc mà chiên cạn dầu
+  - name: Dọn kèm
+    icon: lime
+    items:
+      - id: xidauot
+        name: Xì dầu + ớt xắt
+        icon: bottle
+        qtyText: 1 chén nhỏ
+        note: Chấm miếng vịt, đúng lệ hàng mì người Hoa
+      - id: tuongot
+        name: Tương ớt
+        icon: chili
+        color: red
+        qtyText: Tùy thích
+        note: Ai ăn cay thì thêm, nước dùng vốn không cay
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **tô mì vịt tiềm như hàng người Hoa**
+stepsLead: >-
+  Món này dài giờ chứ không khó tay, và phần lớn thời gian là **chờ**: chờ
+  ướp, chờ hầm. Chỉ có đúng một khúc đòi tập trung là lúc chiên vịt — làm
+  tới nơi khúc đó thì cả tô coi như xong.
+steps:
+  - title: Khử mùi vịt cho sạch
+    icon: knife
+    minutes: 20 phút
+    intro: "Vịt không khử kỹ thì nồi nước dùng quý mấy cũng hỏng:"
+    bullets:
+      - label: "Bóp gừng rượu:"
+        text: >-
+          giã nhuyễn nửa củ gừng, trộn với chút **rượu trắng**, chà xát khắp
+          trong ngoài miếng vịt, để 10 phút rồi rửa lại nhiều lần nước.
+      - label: "Tỉa sạch:"
+        text: >-
+          cắt bỏ **phao câu** và các túm lông măng còn sót; lạng bớt phần
+          mỡ dày dưới da nếu thích ăn thanh.
+      - label: "Lau khô:"
+        text: >-
+          dùng khăn giấy thấm **thật khô mặt da**, để hở trong ngăn mát
+          30 phút cho da se lại — đây là bước quyết định độ giòn sau này.
+    callout:
+      type: tip
+      text: >-
+        Da vịt càng khô thì lúc chiên càng giòn và càng ít bắn dầu. Nhà nào
+        không vội thì để hở trong ngăn mát qua đêm, da se lại như da vịt
+        quay ngoài tiệm.
+  - title: Ướp vịt — tối thiểu 3 giờ
+    icon: jar
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Trộn [[2|thìa canh|frac]] xì dầu, [[1|thìa canh|frac]] dầu hào,
+          [[1|thìa cà phê|frac]] ngũ vị hương, [[1|thìa canh|frac]] rượu Mai
+          Quế Lộ, chút tiêu và tỏi hành băm.
+      - text: >-
+          **Phết đều lên khắp mặt da và mặt trong**, xoa cho ngấm, bọc kín
+          rồi cất **ngăn mát ít nhất 3 giờ** — để qua đêm càng đậm.
+      - text: >-
+          Trước khi chiên, lấy vịt ra để về nhiệt độ phòng 20 phút và **lau
+          lại mặt da cho khô ráo**.
+    callout:
+      type: warn
+      text: >-
+        Ngũ vị hương mạnh mùi, cho quá tay là **đè bẹp cả túi gia vị** ở
+        bước sau. Đúng một thìa cà phê cho bốn cái đùi, không hơn.
+  - title: Chiên vịt — vàng giòn mặt da
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Đun chảo sâu lòng, dầu **nóng già** (thả đầu đũa vào thấy sủi tăm
+          quanh đũa là được).
+      - text: >-
+          Thả vịt **úp mặt da xuống trước**, chiên lửa vừa cho vàng nâu đều,
+          rồi trở mặt kia. Cỡ 5–7 phút mỗi mặt.
+      - text: >-
+          Vớt ra **để lên vỉ cho ráo dầu**, đừng để nằm trên giấy thấm — hơi
+          nước đọng lại là da mềm ngay.
+    callout:
+      type: warn
+      text: >-
+        Vịt còn ướt gặp dầu nóng là **bắn tung tóe rất nguy hiểm**. Lau khô,
+        hạ miếng vịt xuống từ từ nghiêng theo thành chảo, và đậy hờ nắp
+        chống bắn trong 30 giây đầu.
+    timer:
+      secs: 420
+      label: Hẹn giờ chiên mặt da · 07:00
+      doneMsg: Trở mặt bên kia, chiên tiếp cho vàng đều!
+  - title: Rang gia vị, dựng nồi nước dùng
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Chảo khô, lửa nhỏ, rang **hoa hồi + thảo quả + trần bì** chừng
+          2 phút cho dậy mùi. Cho tất cả gia vị khô (trừ kỷ tử) vào **túi
+          vải** buộc miệng.
+      - text: >-
+          Nồi lớn: cho [[2.5|lít]] nước, gừng nướng xém, xương cổ và lưng
+          vịt (nếu có), túi gia vị, **táo tàu** và **nấm đông cô** đã
+          ngâm nở.
+      - text: >-
+          Đun sôi, **hớt bọt**, hạ nhỏ lửa ninh **30 phút** cho nước ăn hết
+          vị thuốc rồi mới thả vịt.
+    callout:
+      type: tip
+      text: >-
+        Cho gia vị khô vào **túi vải** thay vì thả rời: nước dùng khỏi lợn
+        cợn, và ninh xong nhấc nguyên túi ra là gọn — vớt từng mẩu rễ cây
+        trong nồi thì rất mất công.
+  - title: Hầm vịt — liu riu, không sôi bùng
+    icon: flame
+    minutes: 60 phút
+    bullets:
+      - text: >-
+          Thả **vịt đã chiên** vào nồi sao cho nước xâm xấp mặt thịt, hầm
+          **liu riu 60 phút** — mặt nước chỉ lăn tăn.
+      - text: >-
+          Nêm [[20|g]] đường phèn và thêm xì dầu từng chút cho tới khi nước
+          **ngả màu nâu hổ phách**, nếm thấy mặn nhẹ và ngọt hậu.
+      - text: >-
+          Thả **kỷ tử** vào 10 phút cuối. Xong thì **nhấc túi gia vị ra ngay**, để lâu nước sẽ ngả đắng.
+      - text: "Thử bằng đũa: xiên vào chỗ dày nhất thấy vào ngọt là vịt đã mềm tới xương."
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng là hỏng đúng cái công vừa bỏ ra: **lớp da chiên giòn sẽ bở
+        bục và tróc khỏi thịt**. Cả nồi này chỉ cần một nhịp lửa duy nhất —
+        liu riu.
+    timer:
+      secs: 3600
+      label: Hẹn giờ hầm vịt · 60:00
+      doneMsg: Vớt túi gia vị ra, nếm lại nước rồi ráp tô!
+  - title: Trụng cải, trụng mì, ráp tô
+    icon: bowl
+    minutes: 10 phút
+    bullets:
+      - label: "Cải thìa:"
+        text: >-
+          trụng nước sôi có chút muối và dầu ăn đúng **10–15 giây**, vớt ra
+          ngay — cải phải còn xanh và giòn.
+      - label: "Mì trứng:"
+        text: >-
+          trụng nước sôi **30–40 giây**, xóc thật ráo. Trụng lâu là mì trương,
+          chan nước vào thành nhão.
+      - label: "Ráp tô:"
+        text: >-
+          mì xuống trước, xếp cải quanh thành tô, **đặt đùi vịt lên trên
+          cùng**, thả vài cái nấm đông cô và mấy trái táo tàu, chan nước
+          dùng **sôi già** ngập mì.
+      - text: Rắc hành lá, ngò rí, chút tiêu; dọn kèm chén xì dầu ớt.
+    callout:
+      type: tip
+      text: >-
+        Chan nước **ngập mì nhưng đừng ngập đùi vịt** — cái da vừa chiên
+        vừa hầm cả buổi mà đem ngâm trong nước dùng thì mềm oặt trong vài
+        phút. Đặt cao lên, để người ăn tự dìm từng miếng.
+    doneText: Bưng ra bàn — xong!
+
+tipsTitle: 6 bí quyết cho **tô mì vịt tiềm ra chất tiệm Hoa**
+tipsLead: >-
+  Món này có hai thứ dễ hỏng và một thứ dễ làm quá tay: da vịt, nồi nước
+  hầm, và bàn tay nêm ngũ vị hương. Nắm được ba chỗ đó là xong.
+tips:
+  - icon: drop
+    title: Da khô mới ra da giòn
+    text: >-
+      Chín phần mười độ giòn quyết định ở việc **lau khô mặt da và để se
+      trong ngăn mát** trước khi chiên. Da còn ẩm thì dầu chỉ làm nó chín
+      chứ không làm nó giòn, chiên bao lâu cũng vậy.
+  - icon: flame
+    title: Chiên trước, hầm sau — không đảo thứ tự
+    text: >-
+      Chiên trước thì lớp da đã **se cứng lại**, chịu được cả tiếng hầm mà
+      không rã. Hầm trước rồi mới chiên thì thịt đã mềm rục, thả vào chảo
+      dầu là nát bét và bắn dữ dội.
+  - icon: jar
+    title: Mua gói làm sẵn, đừng cân lẻ từng vị
+    text: >-
+      Hỏi mua **gói gia vị tiềm vịt** đóng sẵn là xong — tỷ lệ đã có người
+      cân giúp. Tự mua lẻ rất dễ nặng tay một vị nào đó, mà chỉ cần lố một
+      thứ là cả nồi **đắng và nồng**, không cứu được.
+  - icon: pot
+    title: Vớt túi gia vị đúng lúc
+    text: >-
+      Túi gia vị ngâm càng lâu càng nhả **chát và đắng**. Canh đủ 90 phút
+      tổng cộng là nhấc ra, đừng để nguyên trong nồi cho tới lúc ăn. Nồi
+      hâm lại lần sau cũng không cần thả túi mới.
+  - icon: pod
+    title: Nước ngâm nấm là nước dùng thứ hai
+    text: >-
+      Nấm đông cô khô ngâm ra thứ nước nâu **rất đậm mùi**. Để lắng, chắt
+      lấy phần trong chế vào nồi, bỏ phần cặn đáy. Riêng thứ nước đó đã
+      nâng nồi hầm lên một bậc mà không tốn thêm đồng nào.
+  - icon: noodle
+    title: Mì trụng sát giờ, cải trụng riêng
+    text: >-
+      Mì trứng chỉ cần **30–40 giây** nước sôi, và phải trụng ngay trước
+      khi chan. Cải thìa trụng riêng nồi nước khác — trụng trong nồi nước
+      dùng là nước ngả màu xanh và có mùi ngái.
+
+serve:
+  title: Tô mì đêm — **đậm mà không ngán**
+  paras:
+    - >-
+      Mì vịt tiềm là **tô của bữa tối muộn**: nước dùng nâu sậm, mùi thảo
+      mộc thoảng lên ngay khi bưng ra. Ăn đúng điệu thì gắp đùi vịt ra chén
+      riêng, **chấm xì dầu ớt**, xé từng miếng ăn kèm mì — chứ dìm luôn vào
+      tô thì cái da giòn chẳng còn.
+    - >-
+      Đây cũng là món **đãi khách rất được lòng**, vì nhìn tô là thấy công.
+      Hầm sẵn nồi từ chiều, khách tới chỉ trụng mì trụng cải rồi ráp tô,
+      mà bưng ra thì sang như hàng người Hoa. Nồi nước hầm để tủ lạnh hôm
+      sau còn đậm hơn.
+    - >-
+      Muốn một tô nước trong và nhẹ hơn hẳn thì bên cạnh đã có **phở gà**
+      hay **miến gà**; còn thèm kiểu Hoa mà nhanh gọn hơn thì có **hủ tiếu
+      Nam Vang**. Ba tô, ba tính nết khác nhau.
+  aside:
+    title: Trên bàn mì vịt tiềm
+    intro: "Đủ bộ này là đúng điệu:"
+    items:
+      - icon: bottle
+        text: "**Chén xì dầu + ớt xắt** — để chấm miếng vịt, không chan vào tô."
+      - icon: lettuce
+        text: "**Đĩa cải thìa trụng thêm** — ăn tới đâu thả tới đó cho còn xanh."
+      - icon: chili
+        text: "**Tương ớt** — nước dùng vốn không cay, ai thích thì tự thêm."
+      - icon: pepper
+        text: "**Tiêu xay** — rắc lên mặt tô lúc bưng ra."
+
+faq:
+  - q: Vì sao phải chiên vịt rồi mới hầm, làm vậy có khô thịt không?
+    a: >-
+      Không khô, vì sau đó vịt còn hầm cả tiếng trong nước. Chiên trước là
+      để **lớp da se cứng lại** — nhờ vậy nó chịu nổi thời gian hầm mà vẫn
+      giữ được độ dai giòn, và mỡ dưới da cũng chảy bớt nên miếng vịt đỡ
+      ngậy. Đây chính là chỗ mì vịt tiềm khác một nồi vịt hầm thường.
+  - q: Không có rượu Mai Quế Lộ thì thay bằng gì?
+    a: >-
+      Thay bằng **rượu trắng** cộng một mẩu quế nhỏ giã chung khi ướp. Mùi
+      không giống hệt nhưng vẫn làm được đúng hai việc của rượu ướp: khử
+      mùi vịt và giúp gia vị thấm nhanh. Đừng thay bằng rượu vang hay bia,
+      hai thứ đó lạc hẳn hướng.
+  - q: Nước dùng bị đắng thì chữa sao?
+    a: >-
+      Đắng gần như luôn do **để túi gia vị trong nồi quá lâu**, hoặc mua nhằm gói
+      nặng mùi. Vớt túi ra ngay, thêm chút **đường phèn** và mấy trái
+      **táo tàu** rồi đun thêm 10 phút — vị ngọt hậu sẽ kéo lại được phần
+      nào. Lần sau canh đủ 90 phút là nhấc túi.
+  - q: Mua vịt thế nào cho đỡ hôi?
+    a: >-
+      Chọn vịt **da vàng ngà, ức đầy, chân khô ráo**, tránh con quá non vì
+      thịt nhão. Về nhà nhớ cắt bỏ **phao câu** — đó là nguồn mùi mạnh nhất
+      — rồi bóp kỹ với **gừng giã + rượu trắng**. Làm đủ hai việc đó thì
+      nồi hầm không còn mùi hôi nào.
+  - q: Nấu trước được tới đâu?
+    a: >-
+      Hầm xong cả nồi rồi để nguội, cất ngăn mát **2–3 ngày** hoặc cấp đông
+      cả tháng — vị còn đậm thêm. Tới bữa hâm nóng lại, nhưng đừng đun sôi
+      bùng. Muốn da giòn lại như mới thì vớt đùi vịt ra **áp chảo nóng mặt
+      da 1–2 phút** trước khi ráp tô. Mì và cải thì bắt buộc làm sát giờ.
+  - q: Nhà có người không quen mùi thảo mộc thì sao?
+    a: >-
+      Bỏ hẳn gói gia vị làm sẵn, chỉ giữ **táo tàu + kỷ tử + nấm đông cô +
+      hoa hồi**. Nước dùng sẽ ngọt dịu và thơm nhẹ, gần với một nồi vịt hầm
+      nấm hơn. Vẫn ngon, chỉ là nhạt mất cái nét riêng làm nên tô mì vịt
+      tiềm ngoài hàng.
+
+ticker:
+  - icon: meat
+    text: Đùi vịt chiên vàng giòn da
+  - icon: drop
+    text: Nước dùng nâu hổ phách, ngọt hậu
+  - icon: jar
+    text: Túi gia vị thơm ấm
+  - icon: pod
+    text: Nấm đông cô mềm đậm
+  - icon: noodle
+    text: Mì trứng vàng sợi dai
+  - icon: lettuce
+    text: Cải thìa trụng còn xanh giòn

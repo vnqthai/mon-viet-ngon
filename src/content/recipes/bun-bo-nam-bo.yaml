@@ -1,0 +1,480 @@
+title: Bún bò Nam Bộ **bò xào nóng hổi, trộn lên là mát rượi**
+summary: >-
+  Tô bún không có nước dùng: bún trắng lót dưới, rau sống và đồ chua giòn
+  xếp quanh, trên cùng là **thịt bò xào tỏi sả còn bốc khói**, rắc lạc rang
+  với hành phi rồi chan nước mắm chua ngọt. Trộn đều lên — **nóng gặp mát**
+  ngay trong một đũa. Món của Hà Nội, bốn mươi phút là xong.
+region: Miền Bắc
+category: Bún trộn
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-29
+time:
+  total: 40 phút
+  active: 35 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 16
+art: bun-bo-nam-bo
+heroEyebrow: Trưa Hà Nội, ngồi ghế nhựa vỉa hè…
+
+quick:
+  ingredients:
+    - Thịt bò thăn [[500|g]] — thái lát mỏng **ngang thớ**
+    - Bún rối [[1000|g]] — chần lại nước sôi cho tơi
+    - Giá đỗ [[300|g]] · hành tây [[1|củ]] · xà lách · húng quế · rau mùi
+    - "Đồ chua: đu đủ xanh [[300|g]] · cà rốt [[1|củ]] — ngâm giấm đường"
+    - Lạc rang giã dập [[100|g]] · hành phi [[4|thìa canh|frac]]
+    - >-
+      Ướp bò: nước mắm · xì dầu · sả băm [[2|cây]] · tỏi băm · tiêu ·
+      dầu ăn [[1|thìa canh|frac]]
+    - "Nước mắm chan: mắm · đường · giấm · nước theo tỷ lệ **1 : 1 : 1 : 4** + tỏi ớt băm"
+  steps:
+    - Đu đủ và cà rốt thái sợi, **xóc muối 10 phút cho ra nước**, rửa lại rồi ngâm giấm đường.
+    - "Pha nước mắm theo tỷ lệ **1 mắm : 1 đường : 1 giấm : 4 nước**, khuấy tan rồi thả tỏi ớt băm."
+    - Bò thái mỏng ngang thớ, ướp mắm + xì dầu + **sả tỏi băm** + dầu ăn, để 15 phút.
+    - Giá chần sơ nước sôi; rau sống rửa sạch để ráo; bún chần lại cho tơi.
+    - Phi thơm tỏi sả, **xào bò lửa lớn tới 80% chín**, cho hành tây rồi giá vào đảo nhanh, tắt bếp.
+    - "Xếp tô: bún → rau sống → đồ chua → **bò xào còn nóng** → lạc rang + hành phi, chan nước mắm, trộn đều ăn liền."
+  warning: >-
+    Bò phải **còn nóng bốc khói lúc đổ lên tô**. Xào trước để nguội rồi mới
+    ráp là mất hẳn cái hay của món — cả tô này sống nhờ khoảnh khắc thịt
+    nóng chạm rau mát.
+
+flavor:
+  chua: 6
+  ngot: 5
+  man: 6
+  cay: 3
+  thom: 7
+flavorNote: >-
+  **Chuẩn vị:** trộn xong nếm thấy **chua trước, ngọt theo sau, mặn đỡ phía
+  dưới**; miếng bò còn mềm và ứa nước; rau vẫn giòn chứ chưa kịp héo; đáy
+  tô còn đọng chút nước mắm chứ không ngập thành canh.
+storyEyebrow: Chuyện tô bún bò Nam Bộ
+storyTitle: Món Hà Nội mang **cái tên gây hiểu nhầm**
+story:
+  - >-
+    Nghe tên thì ai cũng tưởng đây là món miền Nam ra Bắc. Thật ra ngược
+    lại: **bún bò Nam Bộ là món của Hà Nội**. Chữ "Nam Bộ" trong tên món
+    là **tên một con phố ở Hà Nội** — nơi hàng bún đầu tiên dọn ra vỉa hè
+    hồi những năm 1980 — chứ không phải chỉ vùng miền nào cả.
+  - >-
+    Giai thoại kể rằng ban đầu người ta gọi món đó đơn giản là **bún bò
+    trộn**. Khách ăn quen, hẹn nhau đi ăn "bún bò ở phố Nam Bộ", rồi nói
+    tắt dần thành **bún bò Nam Bộ** — cái tên dính luôn từ đó và theo món
+    đi khắp nơi. Nguồn gốc chính xác tới nay vẫn còn tranh cãi, nên chuyện
+    này nên nghe như một giai thoại hơn là một mốc lịch sử.
+  - >-
+    Gạt tên gọi sang một bên thì đây là một tô rất khéo. Nó **không có
+    nước dùng** — thứ mà gần như mọi món bún khác đều dựa vào — mà thay
+    bằng một chén nước mắm chua ngọt chan xâm xấp đáy tô. Cái khéo nằm ở
+    **tương phản**: thịt bò xào vừa nhấc khỏi chảo còn bốc khói đổ thẳng
+    lên rau sống mát lạnh và đồ chua giòn tan. Trộn lên, một đũa có đủ
+    nóng và mát, mềm và giòn, béo và chua.
+
+ingredientGroups:
+  - name: Thịt bò & đồ ướp
+    icon: meat
+    items:
+      - id: bo
+        name: Thịt bò thăn
+        icon: meat
+        color: red
+        base: 500
+        unit: g
+        note: >-
+          Cho vào ngăn đông **30 phút cho cứng lại** rồi mới thái — lát sẽ
+          mỏng đều. Nhớ thái **ngang thớ**, cắt dọc thớ là dai
+      - id: sa
+        name: Sả cây
+        icon: stem
+        color: green
+        base: 2
+        unit: cây
+        note: Băm nhuyễn phần gốc trắng — mùi sả là chữ ký của đĩa bò xào này
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 5
+        unit: tép
+        note: Một nửa băm ướp bò, một nửa để phi thơm và cho vào chén nước mắm
+      - id: xidau
+        name: Xì dầu (nước tương)
+        icon: bottle
+        base: 1
+        unit: thìa canh
+        frac: true
+        note: Cùng nước mắm tạo vị đậm cho miếng thịt, và giúp lên màu nâu đẹp
+      - id: dauan
+        name: Dầu ăn
+        icon: bottle
+        base: 1
+        unit: thìa canh
+        frac: true
+        note: >-
+          Rưới vào lúc ướp để các lát thịt không dính chùm và giữ nước khi
+          xào; thay bằng một thìa cà phê bột bắp cũng được
+  - name: Đồ chua & rau sống
+    icon: lettuce
+    items:
+      - id: dudu
+        name: Đu đủ xanh
+        icon: stem
+        color: green
+        base: 300
+        unit: g
+        note: >-
+          Thái sợi hoặc lát mỏng, **xóc muối 10 phút cho ra bớt nước** rồi
+          mới ngâm — làm vậy đồ chua mới giòn và không nhả nước ra tô. Su
+          hào thay được
+      - id: carot
+        name: Cà rốt
+        icon: stem
+        color: amber
+        base: 1
+        unit: củ
+        note: Ngâm chung với đu đủ, chủ yếu lấy màu cam cho tô đẹp
+      - id: giam
+        name: Giấm + đường (ngâm chua)
+        icon: bottle
+        qtyText: Giấm và đường tỷ lệ 1:1
+        note: Thêm chút muối, tỏi ớt; ngâm 20 phút là ăn được
+      - id: giado
+        name: Giá đỗ
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Chần sơ nước sôi rồi xả lạnh — chín tới mà vẫn giòn
+      - id: xalach
+        name: Xà lách
+        icon: lettuce
+        color: green
+        base: 1
+        unit: cây
+        note: Thái sợi to bản, để thật ráo — lớp lót mát của cả tô
+      - id: rauthom
+        name: Húng quế + rau mùi
+        icon: herb
+        color: green
+        base: 1
+        unit: mớ
+        note: Nhặt lá, thái nhỏ trộn lẫn vào rau xà lách
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Thái múi cau mỏng, thả vào chảo lúc bò gần chín cho còn ngọt giòn
+  - name: Bún & thứ rắc mặt
+    icon: noodle
+    items:
+      - id: bun
+        name: Bún rối
+        icon: noodle
+        base: 1000
+        unit: g
+        note: >-
+          Sợi nhỏ, tươi. Chần lại nước sôi rồi xóc ráo cho tơi sợi — bún để
+          lâu bị bết thì tô trộn không đều
+      - id: lacrang
+        name: Lạc rang (đậu phộng rang)
+        icon: pod
+        color: amber
+        base: 100
+        unit: g
+        note: >-
+          Người Bắc gọi là lạc, người Nam gọi là đậu phộng — cùng một thứ.
+          Rang rồi xát vỏ, **giã dập chứ đừng giã nhuyễn** cho còn nghe bùi
+      - id: hanhphi
+        name: Hành phi
+        icon: onion
+        color: gold
+        base: 4
+        unit: thìa canh
+        frac: true
+        note: Phi từ hành tím thái lát, vớt lúc vàng nhạt vì nó còn vàng thêm khi ráo
+  - name: Chén nước mắm chan
+    icon: bowl
+    items:
+      - id: nuocmam
+        name: Nước mắm ngon
+        icon: bottle
+        base: 4
+        unit: thìa canh
+        frac: true
+        note: >-
+          Đây là "1" trong tỷ lệ **1 mắm : 1 đường : 1 giấm : 4 nước** — cứ
+          theo đó mà nhân lên cho đủ tô
+      - id: duong
+        name: Đường
+        icon: jar
+        color: gold
+        base: 4
+        unit: thìa canh
+        frac: true
+        note: Khuấy tan hết trong nước ấm rồi mới cho mắm và giấm vào
+      - id: giamchan
+        name: Giấm (hoặc nước cốt chanh)
+        icon: bottle
+        base: 4
+        unit: thìa canh
+        frac: true
+        note: Giấm cho vị chua thẳng; thích thơm hơn thì thay một nửa bằng nước cốt chanh
+      - id: toiot
+        name: Tỏi + ớt băm
+        icon: chili
+        color: red
+        qtyText: 2 tép tỏi · 2 trái ớt
+        note: >-
+          Băm nhuyễn thả sau cùng để **nổi lên mặt chén** — băm sớm rồi
+          khuấy mạnh thì chìm hết xuống đáy
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **tô bún bò Nam Bộ trộn tại bàn**
+stepsLead: >-
+  Món này gần như không có bước nào khó, chỉ có một luật phải giữ: **thịt
+  bò là thứ làm sau cùng**. Mọi thứ khác — đồ chua, nước mắm, rau, bún —
+  soạn xong xuôi rồi mới bật bếp xào bò.
+steps:
+  - title: Làm đồ chua và pha nước mắm
+    icon: jar
+    minutes: 20 phút
+    intro: "Hai thứ này cần thời gian ngấm nên làm trước tiên:"
+    bullets:
+      - label: "Đồ chua:"
+        text: >-
+          đu đủ xanh và cà rốt gọt vỏ, thái sợi hoặc lát mỏng. **Xóc với
+          chút muối hột, để 10 phút** cho ra bớt nước rồi rửa sạch, vắt
+          nhẹ. Ngâm với **giấm và đường tỷ lệ 1:1**, thêm chút muối, tỏi
+          ớt — 20 phút là ăn được.
+      - label: "Nước mắm chan:"
+        text: >-
+          hòa tan đường trong nước ấm trước, rồi mới cho nước mắm và giấm
+          vào theo tỷ lệ **1 mắm : 1 đường : 1 giấm : 4 nước**. Nếm lại,
+          chua ngọt phải rõ hơn nước chấm thường vì lát nữa còn bị bún và
+          rau làm nhạt đi.
+      - label: "Tỏi ớt:"
+        text: >-
+          băm nhuyễn, **thả vào sau cùng và chỉ khuấy nhẹ** để nổi lên mặt
+          chén cho đẹp.
+    callout:
+      type: tip
+      text: >-
+        Bước **xóc muối** cho đu đủ đừng bỏ qua: nó rút bớt nước trong sợi
+        đu đủ nên đồ chua vừa giòn hơn vừa ngấm giấm đường nhanh hơn, mà
+        lúc trộn tô cũng không nhả nước làm loãng nước mắm.
+  - title: Thái và ướp thịt bò
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Thịt bò cho vào **ngăn đông 30 phút** cho hơi cứng rồi thái lát
+          mỏng — nhớ **đặt dao vuông góc với vân thịt**.
+      - text: >-
+          Ướp với nước mắm, [[1|thìa canh|frac]] xì dầu, **sả băm và tỏi
+          băm**, chút hạt nêm và tiêu; trộn đều rồi rưới
+          [[1|thìa canh|frac]] dầu ăn, để **15 phút**.
+      - text: >-
+          Trong lúc chờ: hành tây thái múi cau, giá đỗ chần sơ nước sôi rồi
+          xả lạnh, rau sống rửa sạch **vẩy thật ráo** và thái sợi.
+    callout:
+      type: tip
+      text: >-
+        Sả là thứ tách tô bún này khỏi mọi tô bún trộn khác — nó cho **mùi
+        thơm the ấm** rất hợp với nước mắm chua ngọt. Băm thật nhuyễn phần
+        gốc trắng, phần lá già thì bỏ vì xơ và đắng.
+  - title: Chần bún, soạn tô
+    icon: noodle
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Bún rối chần nhanh qua nước sôi cho **tơi sợi và nóng lại**, xóc
+          thật ráo.
+      - text: >-
+          Xếp sẵn từng tô: **bún xuống đáy**, rau sống thái sợi và giá đỗ
+          quanh thành tô, đồ chua vắt ráo đặt một bên.
+      - text: Chừa hẳn khoảng trống ở giữa mặt tô — chỗ đó dành cho thịt bò.
+    callout:
+      type: warn
+      text: >-
+        Soạn tô **trước khi xào bò**, không phải sau. Bò ra khỏi chảo là
+        phải có tô sẵn để đổ lên ngay; loay hoay xếp rau lúc đó thì thịt
+        nguội mất.
+  - title: Xào bò — lửa lớn, một lượt
+    icon: flame
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Chảo **thật nóng già**, cho dầu, phi thơm chỗ tỏi và sả băm còn
+          lại chừng 20 giây.
+      - text: >-
+          Trút bò vào **dàn một lớp**, để yên 20 giây rồi đảo nhanh tay
+          trên lửa lớn tới khi thịt **chín chừng 80%**.
+      - text: >-
+          Cho **hành tây** vào đảo 20 giây, rồi tới **giá đỗ**, đảo thêm
+          vài đảo là tắt bếp ngay — hơi nóng còn lại sẽ làm chín nốt.
+    callout:
+      type: warn
+      text: >-
+        Xào tới khi chín hẳn trong chảo là **thịt co lại và dai**, mà giá
+        thì mềm nhũn hết. Nhấc chảo sớm hơn một nhịp bao giờ cũng đúng hơn
+        muộn một nhịp.
+    timer:
+      secs: 90
+      label: Hẹn giờ xào bò · 01:30
+      doneMsg: Tắt bếp, đổ ngay lên tô bún nghen!
+  - title: Ráp tô — đổ nóng, chan mắm, trộn liền
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Múc **bò xào còn bốc khói** đổ vào giữa tô, cả phần nước tiết ra
+          trong chảo cũng trút theo.
+      - text: >-
+          Rắc **lạc rang giã dập và hành phi** lên mặt — rắc lúc này thì
+          lạc còn giòn.
+      - text: >-
+          Chan nước mắm chua ngọt quanh thành tô, chừng **4–5 thìa canh**
+          mỗi tô, đủ xâm xấp đáy chứ không ngập.
+      - text: >-
+          Bưng ra bàn, **trộn đều rồi ăn ngay**. Ai muốn chua cay hơn thì
+          tự chan thêm.
+    callout:
+      type: tip
+      text: >-
+        Chan nước mắm **quanh thành tô** chứ đừng dội thẳng lên đống lạc
+        rang — dội trúng là lạc ỉu ngay, mất tiếng giòn đáng ra phải nghe
+        thấy ở đũa đầu tiên.
+    doneText: Trộn lên ăn liền — xong!
+
+tipsTitle: 6 bí quyết cho **tô bún bò Nam Bộ đúng điệu**
+tipsLead: >-
+  Không có nước dùng nghĩa là không có chỗ nào che được sai sót: chén nước
+  mắm nhạt là biết ngay, rau ướt là biết ngay, thịt nguội là biết ngay.
+tips:
+  - icon: flame
+    title: Nóng gặp mát — cả món nằm ở đó
+    text: >-
+      Thứ làm nên tô bún này là **khoảnh khắc thịt bò nóng bốc khói chạm
+      vào rau sống mát và đồ chua lạnh**. Vì vậy bò phải xào sau cùng và
+      đổ lên tô ngay. Xào trước rồi để đó, dù chỉ mươi phút, là tô bún
+      thành một tô bún trộn nguội bình thường.
+  - icon: knife
+    title: Ngăn đông 30 phút rồi hãy thái
+    text: >-
+      Thịt bò mềm thì dao trượt, lát dày mỏng không đều. Để **ngăn đông 30
+      phút** cho khối thịt cứng lại là thái được lát mỏng đều tăm tắp. Và
+      luôn nhớ **thái ngang thớ** — đây là luật chung của mọi món bò xào.
+  - icon: stem
+    title: Sả băm nhuyễn, đừng băm dối
+    text: >-
+      Sả cho **mùi the ấm** làm nên nét riêng của đĩa bò xào này, nhưng chỉ
+      khi được băm thật nhuyễn phần gốc trắng. Băm dối thì gặp phải mẩu sả
+      xơ trong miệng, còn dùng cả phần lá già thì vừa xơ vừa đắng.
+  - icon: drop
+    title: Rau vẩy ráo, đồ chua vắt ráo
+    text: >-
+      Món này chỉ có xâm xấp nước mắm dưới đáy tô, nên **mọi giọt nước thừa
+      đều làm loãng vị**. Rau rửa xong vẩy thật ráo (có rổ quay càng tốt),
+      đồ chua vớt khỏi hũ thì vắt nhẹ cho ráo giấm rồi mới xếp vào tô.
+  - icon: bottle
+    title: Nước mắm pha đậm hơn bình thường
+    text: >-
+      Chén nước mắm nếm riêng thấy hơi gắt mới là vừa, vì khi vào tô nó còn
+      bị **bún, rau và đồ chua kéo nhạt đi**. Pha theo tỷ lệ **1 : 1 : 1 :
+      4** rồi nếm — nhạt thì thêm mắm và đường, đừng thêm nước.
+  - icon: pod
+    title: Lạc giã dập, rắc sát giờ
+    text: >-
+      **Giã dập chứ đừng giã nhuyễn**: mảnh lạc còn to mới nghe bùi và
+      giòn khi cắn. Rắc lên ngay trước lúc bưng ra, và chan nước mắm vòng
+      quanh thành tô để lạc không bị ngâm.
+
+serve:
+  title: Tô trộn — **ăn nhanh lúc còn nóng lạnh lẫn nhau**
+  paras:
+    - >-
+      Bún bò Nam Bộ là món **ăn ngay khi vừa bưng ra**: trộn đều một lượt
+      từ đáy lên rồi ăn liền, đừng ngồi ngắm. Để chừng mười phút là rau
+      héo, lạc ỉu, và cái tương phản nóng - mát mà cả tô dựa vào sẽ biến
+      mất hoàn toàn.
+    - >-
+      Vì không có nước dùng nên món này **nhẹ bụng và nhanh gọn**, hợp bữa
+      trưa hoặc bữa sáng muốn đổi vị. Nhà đông người thì cứ soạn sẵn từng
+      tô bún rau, để chảo bò xào trên bếp, ai ăn tới đâu múc tới đó — cách
+      này giữ được đúng nhịp nóng của món.
+    - >-
+      Cùng nhóm bún trộn, **bún thịt nướng** cũng chan nước mắm chua ngọt
+      nhưng lấy thịt nướng xém cạnh và mỡ hành làm chính; còn **bún đậu mắm
+      tôm** thì đi hẳn hướng khác — chấm chứ không chan. Ba tô, ba tính nết.
+  aside:
+    title: Trên bàn bún bò Nam Bộ
+    intro: "Mấy thứ nên để sẵn:"
+    items:
+      - icon: bottle
+        text: "**Bình nước mắm chua ngọt** — ai thích ướt hơn thì tự chan thêm."
+      - icon: chili
+        text: "**Chén tỏi ớt băm** — để riêng cho người ăn cay."
+      - icon: pod
+        text: "**Hũ lạc rang giã dập** — rắc thêm giữa chừng cho lại tiếng giòn."
+      - icon: lime
+        text: "**Chanh cắt múi** — vắt vào nếu muốn chua thanh hơn vị giấm."
+
+faq:
+  - q: Bún bò Nam Bộ có phải món miền Nam không?
+    a: >-
+      Không — đây là **món của Hà Nội**. Chữ "Nam Bộ" trong tên là **tên
+      một con phố ở Hà Nội**, nơi hàng bún đầu tiên dọn ra vỉa hè hồi
+      những năm 1980, chứ không chỉ vùng miền. Khách quen gọi tắt "bún bò
+      ở phố Nam Bộ" thành "bún bò Nam Bộ" rồi thành tên món luôn. Nguồn
+      gốc chính xác vẫn còn tranh cãi nên chuyện này nên nghe như giai
+      thoại.
+  - q: Món này khác bún thịt nướng chỗ nào?
+    a: >-
+      Cùng là bún trộn chan nước mắm chua ngọt, nhưng khác ở phần đạm và
+      phần rắc. **Bún bò Nam Bộ** dùng **bò xào tỏi sả** đổ nóng lên tô,
+      kèm giá chần và rau sống thái sợi. **Bún thịt nướng** dùng **thịt
+      ướp sả nướng xém cạnh**, thêm **mỡ hành** béo và đồ chua kiểu Nam.
+      Một bên là chảo xào, một bên là vỉ nướng.
+  - q: Không có đu đủ xanh thì làm đồ chua bằng gì?
+    a: >-
+      **Su hào** là thứ thay gần nhất — cũng giòn, cũng ngấm giấm đường
+      nhanh. Ngoài ra dùng **cà rốt kèm củ cải trắng** cũng được. Cách làm
+      giữ nguyên: thái sợi, **xóc muối 10 phút cho ra nước**, rửa lại rồi
+      ngâm giấm đường tỷ lệ 1:1.
+  - q: Thịt bò xào ra nước, tô bị nhão thì sao?
+    a: >-
+      Do **chảo chưa đủ nóng** hoặc **xào quá nhiều một lượt** nên thịt bị
+      hầm trong nước của chính nó. Đun chảo tới thật nóng già, và nếu nấu
+      cho đông người thì **xào làm hai ba mẻ**. Chút nước tiết ra là bình
+      thường và nên trút vào tô, nhưng nếu nhiều tới mức đọng thành vũng
+      thì chảo đã sai nhiệt.
+  - q: Nấu cho đông người thì tổ chức thế nào?
+    a: >-
+      Soạn trước **tất cả trừ thịt bò**: đồ chua ngâm từ sớm, nước mắm pha
+      sẵn để tủ lạnh, rau rửa để ráo, bún chần để đó. Tới bữa xếp sẵn các
+      tô bún rau, rồi **để chảo bò xào ngay trên bếp**, ai ăn tới đâu múc
+      tới đó. Đừng xào hết một lượt rồi để nguội chờ.
+  - q: Ăn chay hoặc không ăn bò thì thay bằng gì?
+    a: >-
+      Thay bò bằng **thịt gà** hoặc **tôm** xào cùng tỏi sả theo đúng cách
+      trên — gà cần thêm chừng một phút, tôm thì vừa cong mình đỏ vỏ là
+      tắt bếp. Ăn chay thì dùng **nấm bào ngư xé sợi** xào tỏi sả cho xém
+      cạnh, và pha nước chan bằng **xì dầu thay nước mắm** với cùng tỷ lệ
+      chua ngọt.
+
+ticker:
+  - icon: meat
+    text: Bò xào tỏi sả còn bốc khói
+  - icon: lettuce
+    text: Rau sống mát, giá chần còn giòn
+  - icon: stem
+    text: Đu đủ ngâm chua giòn tan
+  - icon: pod
+    text: Lạc rang giã dập bùi thơm
+  - icon: bottle
+    text: Nước mắm chua ngọt chan xâm xấp
+  - icon: noodle
+    text: Bún trắng tơi sợi, trộn là ăn

@@ -12,14 +12,12 @@
 export type FamilyId = 'nuoc' | 'man' | 'tron' | 'banh' | 'lua';
 
 export const FAMILIES: Record<FamilyId, { name: string; cats: string[] }> = {
-  nuoc: { name: 'Chan & húp',  cats: ['Món nước', 'Món sợi', 'Canh', 'Lẩu', 'Cháo'] },
+  nuoc: { name: 'Chan & húp',  cats: ['Món nước', 'Canh', 'Lẩu', 'Cháo'] },
   man:  { name: 'Mặn đưa cơm', cats: ['Kho', 'Xào', 'Hấp'] },
   tron: { name: 'Cuốn & trộn', cats: ['Gỏi', 'Cuốn', 'Bún trộn'] },
   banh: { name: 'Cơm & bánh',  cats: ['Cơm', 'Bánh'] },
   lua:  { name: 'Lửa',         cats: ['Nướng', 'Chiên'] },
 };
-
-// 'Món sợi' là tên cũ của 'Món nước' — giữ cả hai để đợt 6 đổi tên không gãy.
 
 const BY_CAT = new Map<string, FamilyId>();
 for (const [id, fam] of Object.entries(FAMILIES)) {

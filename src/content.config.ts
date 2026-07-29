@@ -59,8 +59,11 @@ const recipes = defineCollection({
     title: z.string(),
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Tây Bắc', 'Tây Nguyên', 'Cả nước']),
-    category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Món sợi']),
-    // Category dự kiến mở thêm khi đủ món: 'Bánh' (3+ món bánh), 'Cháo'
+    category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm',
+      'Món nước', 'Bún trộn']),
+    // Định nghĩa để không lẫn: Món nước = một tô là xong bữa (kể cả tô nước lèo
+    // dọn riêng như phở khô, bún chả) · Canh = món trong mâm cơm, ăn với cơm trắng.
+    // Category dự kiến mở thêm khi đủ món: 'Lẩu' + 'Cháo' (đợt 7), 'Bánh' (đợt 10)
     // Theo dịp / đối tượng — một món gắn được nhiều nhãn, để lọc ở /mon/.
     // MỌI MÓN PHẢI CÓ ÍT NHẤT 1 NHÃN: để trống thì món đó biến mất khỏi cả trục
     // lọc này, kể cả những món chủ lực của trang.
@@ -99,6 +102,7 @@ const recipes = defineCollection({
         'goi-xoai', 'goi-ga', 'ga-nuong', 'muc-xao', 'suon-ram',
         'ca-ri-ga', 'tom-rim', 'banh-cuon', 'trung-chung',
         'goi-cuon', 'rau-muong',
+        'mien-ga', 'mi-vit-tiem', 'mien-xao-cua', 'mi-xao-bo', 'bun-dau', 'bun-bo-nam-bo',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

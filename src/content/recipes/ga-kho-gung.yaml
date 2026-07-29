@@ -12,7 +12,7 @@ time:
 servingsBase: 4
 difficulty: Dễ
 featured: false
-order: 28
+order: 34
 art: ga-kho
 heroEyebrow: Gừng cay muối mặn xin đừng quên nhau…
 
@@ -288,11 +288,12 @@ tips:
       vô mâm thành lạt. Cứ đậm hơn một bậc, có chén cơm nóng gánh là tròn
       vị. Đây cũng là lý do món kho luôn cần tô canh đi cặp.
   - icon: bulb
-    title: Trở trời, cảm mạo — kho nồi này
+    title: Nồi kho để qua đêm mới tới độ
     text: >-
-      Gừng ấm tỳ vị, món kho nóng đậm đà — người mệt, cảm lạnh, bà đẻ ăn
-      cơm với gà kho gừng là **ấm từ trong bụng ấm ra**. Không phải thuốc
-      thang gì đâu, nhưng là "liều an ủi" mà bếp Việt truyền đời.
+      Kho xong ăn liền đã ngon, nhưng để **nguội rồi hâm lại bữa sau** thì
+      nước kho sánh hơn, vị gừng ngấm sâu vào tận thớ thịt chứ không còn
+      nằm ở lớp ngoài. Nhiều nhà cố ý kho dư từ chiều hôm trước vì vậy —
+      hâm nhớ để **lửa liu riu**, đảo nhẹ tay kẻo miếng gà nát.
 
 serve:
   title: Bữa cơm **kho quẹt mưa dầm** đúng nghĩa

@@ -11,7 +11,7 @@ const recipes = (await getCollection('recipes')).sort(
 
 // Thứ tự chip cố định, không để phụ thuộc thứ tự món — thêm món mới không làm
 // hàng lọc nhảy lung tung.
-const CAT_ORDER = ['Món nước', 'Món sợi', 'Bún trộn', 'Canh', 'Lẩu', 'Cháo',
+const CAT_ORDER = ['Món nước', 'Bún trộn', 'Canh', 'Lẩu', 'Cháo',
   'Kho', 'Xào', 'Hấp', 'Cơm', 'Bánh', 'Chiên', 'Nướng', 'Cuốn', 'Gỏi'];
 const OCC_ORDER = ['Cơm nhà', 'Bữa sáng', 'Đãi khách', 'Nhậu lai rai', 'Ăn chơi', 'Cho bé', 'Cỗ Tết'];
 const REGION_ORDER = ['Miền Bắc', 'Miền Trung', 'Miền Nam', 'Miền Tây',

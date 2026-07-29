@@ -16,7 +16,8 @@ const ART_DIR = path.join(ROOT, 'src/components/art');
 const RECIPE_DIR = path.join(ROOT, 'src/content/recipes');
 const OUT = path.join(ROOT, 'tools/contact-sheet.html');
 
-/* ---------- Năm họ màu (Thái chốt 2026-07-28) ---------- */
+/* ---------- Năm họ màu (Thái chốt 2026-07-28) ----------
+   Bảng gốc nằm ở src/utils/family.ts — mở thêm kiểu món thì sửa cả hai chỗ. */
 const FAMILIES = [
   { id: 'nuoc', name: 'Chan & húp',  from: '#235B66', to: '#143A42', cats: ['Món nước', 'Canh', 'Lẩu', 'Cháo'] },
   { id: 'man',  name: 'Mặn đưa cơm', from: '#6E3512', to: '#421C06', cats: ['Kho', 'Xào', 'Hấp'] },
@@ -75,11 +76,9 @@ const HALO = [
 /* 4 món tộ nâu + 3 món tô trắng — để thấy quầng có làm hỏng nhóm trắng không */
 const HALO_SAMPLES = ['ca-kho-to', 'thit-kho-hot-vit', 'ga-kho-gung', 'tom-rim-nuoc-cot-dua', 'bo-kho', 'muc-xao-thom-can-tay', 'suon-ram-man-ngot'];
 
-/* Kiểu món hiện tại -> kiểu món sau khi đổi tên ở đợt 6 */
-const CAT_RENAME = { 'Món sợi': 'Món nước' };
-/* Món chuyển kiểu, không suy được từ tên category */
+/* Món sẽ chuyển kiểu ở đợt sau — soi trước hình trên nền họ màu tương lai,
+   để khỏi phải vẽ lại lúc gom. Đợt 10 gom "Bánh": bánh xèo + bánh cuốn. */
 const SLUG_RECAT = {
-  'bun-thit-nuong': 'Bún trộn',
   'banh-xeo-mien-tay': 'Bánh',
   'banh-cuon-nong': 'Bánh',
 };
@@ -102,7 +101,7 @@ const recipes = fs
     const src = fs.readFileSync(path.join(RECIPE_DIR, f), 'utf8');
     const slug = f.replace(/\.yaml$/, '');
     const rawCat = field(src, 'category');
-    const cat = SLUG_RECAT[slug] || CAT_RENAME[rawCat] || rawCat;
+    const cat = SLUG_RECAT[slug] || rawCat;
     // Tiêu đề dạng "Bún bò Huế **cay nồng sả ruốc…**" — tên món là phần trước **
     const rawTitle = field(src, 'title');
     return {

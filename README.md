@@ -42,15 +42,39 @@ src/
 ## Thêm một món mới
 
 1. Copy `src/content/recipes/_template.yaml` → `ten-mon-moi.yaml` (tên file = URL).
-2. Điền nội dung theo chú thích trong file mẫu. Ba điều đáng nhớ:
+2. Điền nội dung theo chú thích trong file mẫu. Bốn điều đáng nhớ:
    - `**chữ đậm**` để nhấn; `[[500|g]]` để định lượng tự tính theo khẩu phần;
      thêm `|frac` (vd `[[2.5|muỗng canh|frac]]`) để hiện phân số ¼ ½ ¾.
    - `quick:` là **bản nấu nhanh** đầu trang — bắt buộc, viết mỗi nhịp một dòng.
-   - `featured: true` để món hiện ở trang chủ.
+   - `occasions:` **bắt buộc ít nhất 1 nhãn** — để trống là build gãy.
+   - `featured: true` để món hiện ở trang chủ (trang chủ lấy 9 món đầu theo `order`).
 3. `npm run build` — schema sẽ báo lỗi rõ ràng nếu thiếu/sai trường nào.
 
-Loại món mới (vd "Nướng")? Thêm vào enum `category` trong `src/content.config.ts`
-và (nếu muốn) mapping minh họa trong `src/components/art/RecipeArt.astro`.
+### Hai cái bẫy YAML hay dính
+
+- Chuỗi **không quote** mà chứa `": "` sẽ bị YAML nuốt thành object. Có khi gãy
+  build, có khi *im lặng* biến chuỗi thành map rồi mới gãy ở Zod với thông báo
+  khó hiểu. Vd `- Đồ chua: đu đủ xanh…` → phải quote: `- "Đồ chua: đu đủ xanh…"`
+- Chuỗi **bắt đầu bằng `*`** bị hiểu là YAML alias. Vd `- **Chiên ngập dầu**…`
+  → quote lại. (Dùng block scalar `>-` thì cả hai bẫy đều không dính.)
+
+### Thêm một KIỂU MÓN mới (vd "Lẩu")
+
+Không phải một chỗ mà **bảy chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:
+
+| File | Sửa gì | Sót thì sao |
+|---|---|---|
+| `src/content.config.ts` | enum `category` | build gãy — chỗ duy nhất *có* báo lỗi |
+| `src/utils/family.ts` | xếp kiểu món vào 1 trong 5 họ màu | rơi về họ `nuoc`, **nền thẻ sai màu, không báo gì** |
+| `src/pages/mon/index.astro` | thêm vào `CAT_ORDER` | **không có chip lọc**, món thành không lọc được |
+| `src/components/art/RecipeArt.astro` | `byCategory` (hình dự phòng) | món chưa có art riêng rơi về `bowl` |
+| `src/content/recipes/_template.yaml` | dòng chú thích | người sau chép nhầm |
+| `tools/contact-sheet.mjs` | bảng `FAMILIES` | contact sheet soi sai nền |
+| ROADMAP.md | bảng kế hoạch | — |
+
+Thêm **hình vẽ riêng** cho món: `ArtTenMon.astro` + giá trị mới trong enum `art`
+(`content.config.ts`) + import & dòng render trong `RecipeArt.astro`. Soi hình
+trên đúng nền họ màu bằng `node tools/contact-sheet.mjs`.
 
 ## Deploy lên GitHub Pages + domain monvietngon.com
 

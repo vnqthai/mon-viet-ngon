@@ -1,0 +1,425 @@
+title: Mì xào bò **sợi vàng săn cháy cạnh, thịt mềm mọng**
+summary: >-
+  Đĩa mì trứng xào **săn sợi, xém vàng vài chỗ**, thịt bò mềm mọng còn ứa
+  nước ngọt, cải thìa xanh giòn cắt ngang cái đậm đà. Nửa tiếng từ lúc mở
+  tủ lạnh tới lúc bưng ra bàn — món cứu đói tối muộn quen mặt nhất.
+region: Cả nước
+category: Xào
+occasions: [Ăn chơi, Cho bé]
+pubDate: 2026-07-29
+time:
+  total: 30 phút
+  active: 25 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 27
+art: mi-xao-bo
+heroEyebrow: Tối muộn, mở tủ lạnh ra là có…
+
+quick:
+  ingredients:
+    - Thịt bò thăn hoặc bắp hoa [[400|g]] — thái lát mỏng **ngang thớ**
+    - Mì trứng tươi [[500|g]] (hoặc [[250|g]] mì khô)
+    - Cải thìa [[300|g]] · hành tây [[1|củ]] · cà rốt [[1|củ]]
+    - >-
+      Ướp bò: dầu hào [[1|thìa canh|frac]] · xì dầu [[1|thìa canh|frac]] ·
+      bột bắp [[1|thìa cà phê|frac]] · tỏi băm · tiêu · dầu ăn [[1|thìa canh|frac]]
+    - "Nước xào: dầu hào [[1|thìa canh|frac]] · xì dầu [[1|thìa canh|frac]] · đường [[1|thìa cà phê|frac]] · nước [[60|ml]]"
+    - Tỏi [[4|tép]] · hành lá · rau mùi · tiêu xay
+  steps:
+    - Bò thái **ngang thớ**, ướp dầu hào + xì dầu + **bột bắp** + dầu ăn, để 15 phút.
+    - Mì trụng nước sôi **1–2 phút**, xả nước lạnh, để thật ráo, xóc chút dầu cho khỏi dính.
+    - Chảo nóng già, **xào bò lửa lớn 1 phút**, thịt vừa tái là trút ra bát ngay.
+    - Xào cà rốt, hành tây, cải thìa — cọng trước lá sau, giữ cải còn xanh.
+    - Trút mì vào, rưới nước xào pha sẵn, **để yên 30 giây cho xém cạnh** rồi mới đảo.
+    - Trả bò và rau vào, đảo nhanh, tắt bếp, rắc hành lá + rau mùi + tiêu.
+  warning: >-
+    Xào bò chung với mì từ đầu là **thịt dai như cao su**: bò chỉ chịu được
+    đúng một phút trên lửa lớn, mà mì thì cần bốn năm phút. Xào riêng rồi
+    trả vào cuối, không có cách nào khác.
+
+flavor:
+  chua: 0.5
+  ngot: 4.5
+  man: 6
+  cay: 1
+  thom: 6.5
+flavorNote: >-
+  **Chuẩn vị:** sợi mì **săn và ráo, có vài chỗ xém vàng**, không ướt nhẫy
+  cũng không khô cứng; miếng bò cắn vào còn mềm và ứa nước; cải thìa vẫn
+  xanh, cọng còn nghe giòn.
+storyEyebrow: Chuyện đĩa mì xào
+storyTitle: Đĩa mì của những **tối không muốn nấu**
+story:
+  - >-
+    Mì xào bò không có quê. Nó là món **cả nước cùng nấu**, mỗi nhà một
+    kiểu, ra đời từ chỗ giao nhau giữa chảo xào của bếp Hoa và cái tủ lạnh
+    của nhà mình: một vắt mì, miếng thịt bò còn lại từ hôm trước, nắm rau
+    nào cũng được. Đúng ba mươi phút, đủ no, không phải nấu cơm.
+  - >-
+    Dễ nấu không có nghĩa là dễ ngon. Đĩa mì xào hỏng thường hỏng theo hai
+    kiểu quen thuộc: **mì bết thành khối** vì trụng quá tay và không xả
+    nguội, hoặc **bò dai nhách** vì bị quăng chung vào chảo với mì rồi xào
+    tới lúc mì chín. Cả hai lỗi đều đến từ cùng một thói quen — muốn gọn
+    nên dồn hết vào một chảo một lượt.
+  - >-
+    Bí quyết thì lại rất đơn giản và mượn thẳng từ bếp Hoa: **bột bắp** áo
+    quanh miếng bò để giữ nước ngọt bên trong, **lửa lớn và tay nhanh** để
+    thịt vừa tái là ra khỏi chảo, rồi **để yên cho mì xém cạnh** thay vì
+    đảo liên tục. Ba mẹo đó biến một đĩa mì qua loa thành đĩa mì đáng ngồi
+    xuống ăn tử tế.
+
+ingredientGroups:
+  - name: Thịt bò & đồ ướp
+    icon: meat
+    items:
+      - id: bo
+        name: Thịt bò thăn (hoặc bắp hoa)
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: >-
+          Thái lát mỏng **ngang thớ** — cắt dọc thớ là dai bất kể ướp giỏi
+          cỡ nào. Thịt hơi đông đá thì thái càng dễ mỏng
+      - id: botbap
+        name: Bột bắp (bột ngô)
+        icon: jar
+        base: 1
+        unit: thìa cà phê
+        frac: true
+        note: >-
+          Lớp bột áo quanh thịt giữ nước ngọt lại bên trong — mẹo mềm thịt
+          của bếp Hoa. Bột năng cũng thay được
+      - id: dauhao
+        name: Dầu hào
+        icon: bottle
+        color: amber
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Chia đôi — một nửa ướp bò, một nửa pha nước xào
+      - id: xidau
+        name: Xì dầu (nước tương)
+        icon: bottle
+        base: 2
+        unit: thìa canh
+        frac: true
+        note: Cũng chia đôi như dầu hào
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 4
+        unit: tép
+        note: Một nửa băm ướp bò, một nửa để phi thơm lúc xào rau
+  - name: Sợi mì & rau
+    icon: noodle
+    items:
+      - id: mi
+        name: Mì trứng tươi
+        icon: noodle
+        color: gold
+        base: 500
+        unit: g
+        note: >-
+          Sợi vừa, vàng ươm. Mì khô lấy 250 g và luộc theo đúng giờ ghi trên
+          gói rồi trừ đi 1 phút, vì lát còn xào tiếp
+      - id: caithia
+        name: Cải thìa
+        icon: lettuce
+        color: green
+        base: 300
+        unit: g
+        note: >-
+          Tách rời từng bẹ, **cắt đôi phần cọng và phần lá** để xào so le.
+          Cải ngọt hay bông cải xanh đều thay được
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Thái múi cau, xào tái cho còn ngọt và giòn
+      - id: carot
+        name: Cà rốt
+        icon: stem
+        color: amber
+        base: 1
+        unit: củ
+        note: Thái lát chéo mỏng — chủ yếu lấy màu và tiếng giòn
+      - id: hanhngo
+        name: Hành lá + rau mùi
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Hành lá cắt khúc, rau mùi cắt ngắn rắc lúc tắt bếp
+  - name: Nêm nếm
+    icon: jar
+    items:
+      - id: duong
+        name: Đường
+        icon: jar
+        base: 1
+        unit: thìa cà phê
+        frac: true
+        note: Một chút cho nước xào tròn vị và giúp mì lên màu đẹp
+      - id: dauan
+        name: Dầu ăn
+        icon: bottle
+        qtyText: 3–4 thìa canh
+        note: Một thìa cho vào ướp bò, còn lại để xào; chảo phải đủ dầu mì mới không dính
+      - id: tieu
+        name: Tiêu xay
+        icon: pepper
+        qtyText: Rắc lúc tắt bếp
+        note: Rắc lúc còn nóng, hơi nóng đẩy mùi tiêu lên
+      - id: tuongot
+        name: Tương ớt (tùy thích)
+        icon: chili
+        color: red
+        qtyText: Bày ra bàn
+        note: Nhà có bé thì để riêng, ai ăn cay tự chấm
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **đĩa mì xào bò săn sợi**
+stepsLead: >-
+  Món này nhanh nên phải **soạn hết mọi thứ ra sẵn trước khi bật bếp** —
+  thái xong, ướp xong, pha nước xào xong, mì đã ráo. Lúc chảo nóng rồi thì
+  không còn thời gian đi tìm chai dầu hào nữa.
+steps:
+  - title: Thái và ướp thịt bò
+    icon: knife
+    minutes: 15 phút
+    intro: "Miếng bò mềm hay dai quyết định gần hết ở bước này:"
+    bullets:
+      - label: "Thái ngang thớ:"
+        text: >-
+          nhìn kỹ đường vân trên miếng thịt rồi **đặt dao cắt vuông góc với
+          vân**, lát mỏng cỡ 3 mm. Để thịt vào ngăn đá 15 phút cho hơi cứng
+          thì thái mỏng dễ hơn nhiều.
+      - label: "Ướp:"
+        text: >-
+          trộn bò với [[1|thìa canh|frac]] dầu hào, [[1|thìa canh|frac]] xì
+          dầu, tỏi băm, chút tiêu; bóp nhẹ cho ngấm rồi rắc
+          [[1|thìa cà phê|frac]] **bột bắp** trộn đều.
+      - label: "Khóa lại bằng dầu:"
+        text: >-
+          cuối cùng rưới [[1|thìa canh|frac]] dầu ăn, trộn lần nữa — lớp dầu
+          giúp **các lát thịt không dính vào nhau** khi thả vào chảo. Để 15
+          phút.
+    callout:
+      type: tip
+      text: >-
+        Bột bắp áo quanh miếng thịt như một lớp màng: gặp chảo nóng nó se
+        lại ngay, **giữ nước ngọt ở bên trong** thay vì để nước chảy ra
+        chảo. Đây là lý do thịt bò ngoài hàng lúc nào cũng mềm mọng.
+  - title: Trụng mì rồi xả nước lạnh
+    icon: noodle
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Đun nồi nước sôi, thả mì trứng vào **trụng 1–2 phút** — vừa tơi
+          sợi là được, đừng đợi mềm hẳn vì lát còn xào tiếp.
+      - text: >-
+          Đổ ra rổ, **xả ngay dưới vòi nước lạnh** cho ngắt độ nóng, xóc thật
+          ráo.
+      - text: >-
+          Rưới [[1|thìa canh|frac]] dầu ăn vào mì, dùng đũa xới cho dầu bám
+          đều từng sợi — mì để chờ cả buổi cũng không dính chùm.
+      - text: >-
+          Pha sẵn chén nước xào: [[1|thìa canh|frac]] dầu hào +
+          [[1|thìa canh|frac]] xì dầu + [[1|thìa cà phê|frac]] đường +
+          [[60|ml]] nước, khuấy tan.
+    callout:
+      type: warn
+      text: >-
+        Bỏ qua bước **xả nước lạnh** là sợi mì tiếp tục chín bằng hơi nóng
+        của chính nó, tới lúc vào chảo đã mềm nhũn. Nước lạnh cũng rửa trôi
+        lớp bột dư — thứ làm mì dính bết.
+  - title: Xào bò — một phút rồi ra chảo
+    icon: flame
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Chảo (hoặc chảo sâu lòng) đun **thật nóng già**, cho dầu, phi
+          nhanh chút tỏi băm.
+      - text: >-
+          Trút bò vào **dàn một lớp mỏng**, để yên 20 giây cho áp mặt rồi
+          mới đảo. Tổng cộng chừng **1 phút**.
+      - text: >-
+          Thịt **vừa chuyển màu, mặt trong còn hồng** là trút hết ra bát —
+          nó sẽ chín nốt bằng nhiệt còn lại và chín thêm lần nữa lúc trả
+          vào chảo.
+    callout:
+      type: warn
+      text: >-
+        Bò chỉ chịu được đúng nhịp này. Xào tới lúc chín kỹ trong chảo là
+        **thớ thịt co lại, nước ngọt chảy hết ra**, miếng thịt thành xác
+        khô — ướp kiểu gì cũng không cứu được.
+    timer:
+      secs: 60
+      label: Hẹn giờ xào bò · 01:00
+      doneMsg: Trút bò ra bát ngay, đừng để thêm giây nào!
+  - title: Xào rau củ, cọng trước lá sau
+    icon: pot
+    minutes: 4 phút
+    bullets:
+      - text: >-
+          Vẫn chảo đó, thêm chút dầu, phi nốt chỗ tỏi còn lại cho thơm.
+      - text: >-
+          Cho **cà rốt và cọng cải thìa** vào trước, đảo lửa lớn 1–2 phút;
+          rồi tới **hành tây**, cuối cùng mới là **phần lá cải**.
+      - text: >-
+          Đảo thêm 30 giây cho lá vừa héo mà vẫn xanh, nêm nhạt tay rồi múc
+          hết ra bát để riêng.
+    callout:
+      type: tip
+      text: >-
+        Cọng cải dày gấp mấy lần lá nên cần nhiều thời gian hơn. **Tách cọng
+        và lá thả so le** là cách duy nhất để cọng chín tới mà lá không nát
+        thành mớ xanh nhũn.
+  - title: Xào mì cho xém cạnh rồi trộn chung
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - label: "Để yên cho xém:"
+        text: >-
+          chảo nóng, thêm dầu, trút mì vào **dàn phẳng ra và để yên 30 giây**
+          — đừng đảo. Mặt tiếp chảo sẽ **xém vàng và dậy mùi thơm**, đó là
+          thứ hương mà đảo liên tục không bao giờ có.
+      - label: "Rưới nước xào:"
+        text: >-
+          rưới chén nước xào pha sẵn quanh thành chảo, đảo bằng **đũa dài**
+          cho ngấm đều, lặp lại nhịp "dàn phẳng — để yên — đảo" thêm một
+          lượt nữa.
+      - label: "Trộn chung:"
+        text: >-
+          trả **rau củ** rồi tới **thịt bò** cùng nước tiết ra trong bát,
+          đảo nhanh 30 giây là tắt bếp.
+      - text: >-
+          Rắc hành lá, rau mùi và tiêu, đảo lần cuối bằng hơi nóng còn lại
+          rồi trút ra đĩa. Ăn nóng.
+    callout:
+      type: tip
+      text: >-
+        Rưới nước xào **vòng quanh thành chảo** chứ đừng đổ thẳng vào giữa
+        đống mì: chạm thành nóng thì nước bốc hơi bớt và tỏa đều, đổ vào
+        giữa thì chỗ đó ướt nhẫy còn chỗ khác vẫn nhạt.
+    doneText: Trút ra đĩa — xong!
+
+tipsTitle: 5 bí quyết cho **đĩa mì xào như ngoài hàng**
+tipsLead: >-
+  Mì xào là món ai cũng nấu được nhưng ít người nấu ngon, và khoảng cách
+  giữa hai bên chỉ nằm ở mấy thói quen nhỏ dưới đây.
+tips:
+  - icon: knife
+    title: Ngang thớ — luật đầu tiên của thịt bò
+    text: >-
+      Nhìn vân thịt rồi **đặt dao vuông góc với vân** mà cắt. Cắt ngang thớ
+      là cắt đứt sẵn các sợi cơ dài, miếng thịt mềm ngay cả khi hơi quá
+      lửa. Cắt dọc thớ thì ướp kỹ tới đâu, xào khéo tới đâu vẫn dai.
+  - icon: jar
+    title: Bột bắp giữ nước ngọt trong thịt
+    text: >-
+      Một thìa cà phê **bột bắp** trộn vào lúc ướp tạo lớp màng mỏng quanh
+      từng lát thịt. Gặp chảo nóng, màng đó se lại và khóa nước ngọt ở bên
+      trong. Thêm một thìa dầu ăn sau cùng nữa thì các lát thịt cũng không
+      dính chùm khi vào chảo.
+  - icon: drop
+    title: Xả nước lạnh, xóc dầu, để ráo
+    text: >-
+      Ba việc liền nhau sau khi trụng mì: **xả lạnh** để ngắt độ chín,
+      **xóc dầu** để sợi không dính, **để ráo** để chảo không bị úng nước.
+      Bỏ bất kỳ việc nào trong ba việc đó là đĩa mì bết.
+  - icon: flame
+    title: Để yên cho mì xém, đừng đảo suốt
+    text: >-
+      Mùi thơm đặc trưng của đĩa mì xào ngoài hàng đến từ **mặt mì áp vào
+      chảo nóng**. Muốn có nó thì phải dàn phẳng và **để yên nửa phút**,
+      chịu khó không đụng đũa. Đảo liên tục thì mì chỉ nóng lên chứ chẳng
+      thơm hơn chút nào.
+  - icon: pot
+    title: Ba thứ, ba chảo riêng, trộn ở cuối
+    text: >-
+      Bò cần một phút lửa lớn, rau cần bốn phút, mì cần năm phút và chảo
+      khô. Ba yêu cầu chọi nhau nên **xào riêng rồi trộn ở nhịp cuối** là
+      cách duy nhất để cả ba đều đúng — đây cũng chính là cách bếp hàng
+      quán vẫn làm.
+
+serve:
+  title: Đĩa mì nóng — **ăn ngay khỏi bày biện**
+  paras:
+    - >-
+      Mì xào bò là món **ăn ngay tại chảo**: trút ra đĩa lớn để giữa bàn,
+      mỗi người một cái đĩa con, gắp tới đâu ăn tới đó cho còn nóng. Ai
+      thích cay thì có tương ớt, ai thích chua thì vắt miếng chanh — nhưng
+      đừng chan gì thêm vào, nước xào đã đủ đậm rồi.
+    - >-
+      Đây cũng là món **hợp với đứa nhỏ**: sợi mì dễ ăn, thịt bò mềm, rau
+      thì trốn sẵn trong đĩa nên không phải nài. Nấu cho bé thì bớt tiêu,
+      thái bò nhỏ hơn và cắt mì ngắn lại một chút.
+    - >-
+      Cùng chảo xào mà muốn sang hơn để đãi khách thì có **miến xào cua**;
+      muốn nhẹ và chua ngọt thì có **mực xào thơm cần tây**. Còn thèm sợi
+      mì trứng trong tô nước thì bên cạnh có **mì vịt tiềm** — cùng một
+      loại sợi, hai thế giới khác nhau.
+  aside:
+    title: Bày cùng đĩa mì xào bò
+    intro: "Mấy thứ nên có trên bàn:"
+    items:
+      - icon: chili
+        text: "**Tương ớt** — để riêng chén, nhà có bé thì khỏi trộn vào đĩa."
+      - icon: lime
+        text: "**Chanh cắt múi** — vắt vài giọt cho đỡ ngán."
+      - icon: pepper
+        text: "**Tiêu xay** — rắc thêm lúc ăn, dậy mùi hẳn."
+      - icon: bowl
+        text: "**Bát canh rau đơn giản** — có đĩa xào đậm thì nên có món nước cho cân."
+
+faq:
+  - q: Thịt bò xào ra bị dai, sai ở đâu?
+    a: >-
+      Gần như luôn là một trong ba lỗi: **cắt dọc thớ** thay vì ngang thớ,
+      **xào quá một phút**, hoặc **chảo chưa đủ nóng** nên thịt bị luộc
+      trong nước của chính nó. Sửa cả ba: thái vuông góc với vân thịt, đun
+      chảo tới thật nóng già, và trút bò ra khi mặt trong còn hồng.
+  - q: Muốn ăn "mì xào giòn" thì làm khác chỗ nào?
+    a: >-
+      Mì xào giòn là bản khác: mì trụng xong để **thật ráo rồi chiên ngập
+      dầu** hoặc áp chảo cho vàng giòn thành một bánh mì, xếp ra đĩa, sau
+      đó **rưới phần bò và rau xào có nước sốt sánh lên trên**. Sốt sẽ làm
+      mềm dần lớp mì bên dưới trong lúc ăn — đó chính là cái thú của bản
+      này. Bài trên đây là **bản xào mềm**, nhanh và gọn hơn.
+  - q: Không có mì trứng thì thay bằng gì?
+    a: >-
+      Thay được bằng **mì gói** (bỏ gói gia vị, trụng rồi xả lạnh y như
+      trên), **hủ tiếu mềm**, hay **phở khô** bản nhỏ. Mỗi loại sợi hút
+      nước khác nhau nên cứ rưới nước xào từng ít một, nếm rồi thêm — đừng
+      đổ hết một lượt.
+  - q: Xào cho đông người thì làm sao khỏi bết?
+    a: >-
+      **Chia làm nhiều mẻ.** Chảo chứa quá nhiều thì nhiệt tụt xuống, mì
+      không xém được mà chỉ hấp trong hơi nước rồi bết lại. Nấu cho 6–8
+      người thì xào hai mẻ mì riêng, phần bò và rau vẫn xào chung một lần
+      được, rồi trộn từng mẻ.
+  - q: Thay thịt bò bằng thứ khác được không?
+    a: >-
+      Được hết: **thịt gà** thái lát, **tôm** bóc vỏ, hay **thịt heo** nạc
+      vai đều xào theo đúng cách trên. Chỉ chỉnh thời gian: gà và heo cần
+      thêm chừng một phút, tôm thì ngược lại — **vừa cong mình đỏ vỏ là
+      trút ra ngay**, để lâu là dai.
+
+ticker:
+  - icon: noodle
+    text: Sợi mì săn ráo, xém vàng cạnh chảo
+  - icon: meat
+    text: Bò thái ngang thớ, mềm mọng nước
+  - icon: lettuce
+    text: Cải thìa xanh, cọng còn nghe giòn
+  - icon: flame
+    text: Lửa lớn, tay nhanh, một phút là ra
+  - icon: bottle
+    text: Dầu hào xì dầu đậm mà không mặn gắt
+  - icon: clock
+    text: Ba mươi phút từ tủ lạnh tới bàn ăn
