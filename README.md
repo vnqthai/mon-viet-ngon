@@ -93,8 +93,28 @@ Không phải một chỗ mà **bảy chỗ** — sót chỗ nào cũng hỏng �
 | ROADMAP.md | bảng kế hoạch | — |
 
 Thêm **hình vẽ riêng** cho món: `ArtTenMon.astro` + giá trị mới trong enum `art`
-(`content.config.ts`) + import & dòng render trong `RecipeArt.astro`. Soi hình
-trên đúng nền họ màu bằng `node tools/contact-sheet.mjs`.
+(`content.config.ts`) + import & dòng render trong `RecipeArt.astro`.
+
+### Soi hình: hai công cụ, KHÔNG thay nhau được
+
+```bash
+npm run contact-sheet                              # trang HTML: mọi hình trên nền họ màu
+npm run art-png -- --sheet --cat Nướng             # PNG ghép: soi chống-đụng ⟵ cái này mới bắt lỗi
+npm run art-png -- ca-loc-nuong-trui                # 1 hình, 520px, xem chi tiết
+```
+
+`contact-sheet` trả lời "hình có chìm vào nền không". Nó **không** trả lời được
+"hai món có nhìn na ná nhau không" — đợt 7 và đợt 8 đều có lỗi hình lọt qua nó
+rồi mới lộ ra khi render PNG (ống khói thành ống bô, lát chả thành khuôn mặt hai
+con mắt, hai lát thịt nhập thành miếng thịt xông khói).
+
+`art-png --sheet` xếp nhiều hình **cạnh nhau**, mỗi ô **260px — đúng cỡ thumbnail
+trên `/mon/`**, chỗ duy nhất lỗi đó lộ ra. Nhận cả slug món lẫn tên `art`; chọn
+theo `--cat <kiểu món>` hoặc `--fam <họ>` cho nhanh. Ra `tools/art-png/`
+(đã gitignore). Luật `.steam` được bơm vào SVG vì resvg không với được CSS ngoài.
+
+> Luật rút ra từ đợt 8: **thứ gì trong tô cũng phải khác thứ bên cạnh ở CẢ sắc
+> lẫn DÁNG.** Đổi mỗi màu mà giữ nguyên dáng thì ở cỡ thumbnail vẫn lẫn.
 
 ## Deploy lên GitHub Pages + domain monvietngon.com
 

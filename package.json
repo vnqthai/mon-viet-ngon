@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "qa": "node tools/check-recipes.mjs && node tools/check-art-ids.mjs",
-    "contact-sheet": "node tools/contact-sheet.mjs"
+    "contact-sheet": "node tools/contact-sheet.mjs",
+    "art-png": "node tools/art-png.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
