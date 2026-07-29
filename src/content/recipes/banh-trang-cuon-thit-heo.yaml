@@ -1,0 +1,361 @@
+title: Bánh tráng cuốn thịt heo **lát nào cũng hai đầu da**
+summary: >-
+  Món Đà Nẵng bày cả mâm cho cả nhà tự cuốn: lát thịt luộc **có da ở cả hai
+  đầu**, hai lớp bánh chồng lên nhau, một rổ rau đủ vị, và chén **mắm nêm**
+  pha thơm đậm đà.
+region: Miền Trung
+category: Cuốn
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 10 phút
+servingsBase: 4
+difficulty: Dễ
+featured: true
+order: 26
+art: banh-trang-cuon
+heroEyebrow: Cả nhà xúm lại cuốn…
+
+quick:
+  ingredients:
+    - Thịt mông có da, miếng **cong tự nhiên** [[1|kg]] — chỗ làm nên "hai đầu da"
+    - Bánh tráng khô mỏng [[20|cái]] · mì lá [[20|lá]] — lá bánh ướt mềm, lót trong
+    - Rau đủ thứ [[600|g]] — xà lách, húng quế, tía tô, diếp cá, giá, chuối chát, khế, dưa leo
+    - Mắm nêm [[6|muỗng canh|frac]] · thơm băm [[3|muỗng canh|frac]] · tỏi ớt sả
+    - "Luộc thịt: hành tím [[3|củ]] · muối · chút giấm cho thịt trắng"
+  steps:
+    - Buộc chặt miếng thịt bằng dây, luộc **lửa liu riu 45 phút**, xiên đũa không ra nước hồng là chín.
+    - Vớt thịt **thả ngay vào nước đá 10 phút** — da giòn, thịt trắng, không khô mặt.
+    - Xắt **ngang bề rộng miếng thịt**, lát mỏng — miếng cong nên dao cắt qua da ở cả hai đầu.
+    - "Pha mắm nêm: phi tỏi sả, cho mắm + thơm băm + đường + chút nước, khuấy sôi nhẹ, tắt bếp vắt tắc."
+    - Bày mâm rau, xếp thịt, dọn bánh tráng và mì lá — ai nấy tự cuốn, chấm ngập mắm nêm.
+  warning: >-
+    Luộc xong mà để nguội tự nhiên là **da nhăn và thịt khô mặt**. Thịt vừa vớt
+    phải thả thẳng vào nước đá, không có ngoại lệ.
+
+flavor:
+  chua: 4
+  ngot: 4
+  man: 7
+  cay: 4
+  thom: 8
+flavorNote: >-
+  **Chuẩn cuốn:** cắn một miếng phải nghe đủ ba tầng — **da sần sật**, nạc mềm
+  ngọt, rau tươi mát — rồi mắm nêm ập lên sau cùng, mặn thơm mà không gắt.
+storyEyebrow: Chuyện món ăn
+storyTitle: Cái duyên nằm ở **hai vành da**
+story:
+  - >-
+    Ở Đà Nẵng, quán bánh tráng cuốn thịt heo nào cũng dọn ra mâm na ná nhau —
+    rau, bánh, mắm nêm. Thứ để người ta so hơn thua là **dĩa thịt**: lát thịt
+    phải có **hai vành da ở hai đầu**, nạc và mỡ xen giữa. Nhìn ra ngay từ xa,
+    và làm được thì mới gọi là đúng bài.
+  - >-
+    Bí quyết không nằm ở dao mà nằm ở **miếng thịt mua về**. Phải chọn miếng
+    mông hoặc vai còn nguyên da, dày dặn và **cong tự nhiên như lưỡi liềm**.
+    Luộc nguyên miếng, để nguội, rồi xắt **ngang bề rộng** — vì miếng cong nên
+    lưỡi dao đi qua lớp da ở cả hai đầu lát. Miếng thịt vuông vức thì xắt kiểu
+    gì cũng chỉ ra một đầu da.
+  - >-
+    Chỗ đặc biệt thứ hai là **hai lớp bánh**. Ngoài lớp bánh tráng khô mỏng để
+    cuốn, người Đà Nẵng lót thêm một lá **mì lá** — lá bánh ướt mềm, cùng thứ bột
+    gạo tráng như bánh cuốn nhưng không nhân. Lớp khô giữ cho cuốn chắc tay, lớp
+    ướt làm cuốn mềm và dẻo; thiếu một lớp là hụt hẳn.
+  - >-
+    Và không thể thiếu **mắm nêm** — mắm ủ từ cá cơm, thơm nồng và mặn đậm, khác
+    hẳn nước mắm pha chua ngọt của miền Nam. Pha mắm nêm với **thơm băm** là bước
+    làm dịu: cái ngọt của thơm kéo vị mặn xuống, để mắm còn thơm mà không còn gắt.
+
+ingredientGroups:
+  - name: Thịt luộc
+    icon: meat
+    items:
+      - id: thit
+        name: Thịt mông (hoặc vai) còn da
+        icon: meat
+        color: red
+        base: 1
+        unit: kg
+        note: >-
+          Chọn miếng dày 5–6 cm, còn nguyên da và **cong tự nhiên** — đó mới
+          là miếng xắt ra được hai đầu da
+      - id: hanhtim
+        name: Hành tím đập dập
+        icon: onion
+        base: 3
+        unit: củ
+        note: Thả vào nồi luộc cho thịt thơm
+      - id: muoiluoc
+        name: Muối + giấm
+        icon: jar
+        qtyText: 1 muỗng canh muối · 1 muỗng canh giấm
+        note: Chút giấm giúp thịt luộc ra trắng, không xỉn
+      - id: daylat
+        name: Dây lạt hoặc chỉ buộc thực phẩm
+        icon: stem
+        qtyText: 1 cuộn
+        note: Buộc chặt miếng thịt để nó giữ dáng cong khi luộc
+  - name: Hai lớp bánh
+    icon: roll
+    items:
+      - id: banhtrang
+        name: Bánh tráng khô mỏng
+        icon: roll
+        color: gold
+        base: 20
+        unit: cái
+        note: Loại mỏng dẻo, không nhúng nước vẫn cuốn được
+      - id: mila
+        name: Mì lá (bánh ướt lá)
+        icon: rice
+        base: 20
+        unit: lá
+        note: >-
+          Lá bánh ướt mềm, cùng thứ bột gạo như bánh cuốn nhưng không nhân —
+          hàng bánh cuốn nào cũng có
+  - name: Rổ rau
+    icon: lettuce
+    items:
+      - id: xalach
+        name: Xà lách + húng quế + tía tô + diếp cá
+        icon: lettuce
+        color: green
+        base: 400
+        unit: g
+        note: Càng nhiều thứ càng đúng vị — mâm ở Đà Nẵng có cả chục loại
+      - id: chuoichat
+        name: Chuối chát xắt lát
+        icon: stem
+        color: green
+        base: 1
+        unit: trái
+        note: Ngâm nước chanh cho khỏi thâm — vị chát này là chất kết dính cả cuốn
+      - id: khe
+        name: Khế chua xắt lát
+        icon: flower
+        color: green
+        base: 2
+        unit: trái
+        note: Xắt ngang cho ra hình ngôi sao, chua nhẹ và giòn
+      - id: dualeo
+        name: Dưa leo + giá sống
+        icon: sprout
+        color: green
+        base: 200
+        unit: g
+        note: Dưa leo xắt que dài bằng ngón tay cho dễ cuốn
+  - name: Chén mắm nêm
+    icon: jar
+    items:
+      - id: mamnem
+        name: Mắm nêm
+        icon: jar
+        base: 6
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Mắm ủ từ cá cơm, thơm nồng và mặn đậm — khác mắm ruốc (làm từ con
+          ruốc) và khác hẳn nước mắm pha chua ngọt
+      - id: thomnem
+        name: Thơm (dứa) băm nhuyễn
+        icon: pineapple
+        color: gold
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Thứ kéo vị mặn xuống — thiếu là chén mắm gắt ngay
+      - id: toiotsa
+        name: Tỏi + ớt + sả băm
+        icon: chili
+        color: red
+        qtyText: 3 tép tỏi · 3 trái ớt · 1 cây sả
+        note: Sả băm thật nhuyễn, phi thơm trước khi cho mắm vào
+      - id: duongtac
+        name: Đường + tắc (quất)
+        icon: lime
+        qtyText: 2 muỗng canh đường · 2 trái tắc
+        note: Vắt tắc lúc đã tắt bếp, nóng quá thì mất mùi
+
+steps:
+  - title: Buộc và luộc nguyên miếng
+    icon: pot
+    minutes: 50 phút
+    intro: "Luộc nguyên miếng, đừng cắt nhỏ — cắt nhỏ là mất luôn hai đầu da:"
+    bullets:
+      - label: "Buộc:"
+        text: >-
+          Cạo rửa sạch da, dùng dây buộc quanh miếng thịt cho **chặt và giữ được
+          dáng cong**. Buộc chặt thì lát thịt sau này gọn mặt, không tở ra.
+      - label: "Luộc:"
+        text: >-
+          Nồi nước ngập thịt + hành tím đập dập + [[1|muỗng canh|frac]] muối +
+          [[1|muỗng canh|frac]] giấm. Sôi thì **hớt sạch bọt**, hạ lửa liu riu,
+          luộc **45 phút** cho miếng [[1|kg]].
+      - label: "Thử chín:"
+        text: >-
+          Xiên đũa vào chỗ dày nhất, **không ra nước hồng** là được. Ra nước hồng
+          thì luộc thêm 5 phút rồi thử lại.
+    timer:
+      secs: 2700
+      label: Hẹn giờ luộc thịt · 45:00
+      doneMsg: Xiên thử đi — chín rồi thì thả nước đá liền nghen!
+    callout:
+      type: warn
+      text: >-
+        Nước **sôi bùng** suốt buổi là thịt co lại, ăn khô và bã. Giữ nồi ở mức
+        lăn tăn, mặt nước chỉ hơi động là đúng.
+  - title: Thả nước đá — bước không được bỏ
+    icon: drop
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Chuẩn bị sẵn thau nước đá **trước khi** thịt chín. Vớt thịt ra là thả
+          thẳng vào, ngâm **10 phút**.
+      - text: >-
+          Lạnh đột ngột làm **lớp da co lại và giòn sần sật**, thịt trắng, mặt
+          cắt mịn. Vớt ra để ráo, tháo dây, đợi nguội hẳn mới xắt.
+    timer:
+      secs: 600
+      label: Hẹn giờ ngâm nước đá · 10:00
+      doneMsg: Vớt ra để ráo — đợi nguội hẳn mới xắt nghen!
+    callout:
+      type: tip
+      text: >-
+        Làm trước một buổi thì càng tiện: thịt để nguyên miếng trong ngăn mát,
+        lúc dọn mới xắt. Thịt lạnh **xắt ra lát mỏng và gọn** hơn thịt còn ấm
+        nhiều.
+  - title: Xắt cho ra hai đầu da
+    icon: knife
+    minutes: 10 phút
+    intro: "Cả món trông cậy vào mấy nhát dao này:"
+    bullets:
+      - label: "Đặt miếng thịt:"
+        text: >-
+          Để miếng thịt nằm sao cho **bề cong hướng lên**, phần da ôm ra ngoài
+          hai phía.
+      - label: "Nhát dao:"
+        text: >-
+          Dao thật bén, **xắt ngang bề rộng miếng thịt** thành lát mỏng chừng
+          3 mm. Vì miếng cong nên mỗi nhát đi qua lớp da ở **cả hai đầu** — ra
+          đúng lát "hai đầu da", nạc và mỡ xen ở giữa.
+      - label: "Bày dĩa:"
+        text: >-
+          Xếp lát thịt **lợp mí như vảy cá** trên dĩa dài, hai vành da quay ra
+          ngoài cho nhìn thấy rõ.
+    callout:
+      type: tip
+      text: >-
+        Không mua được miếng cong thì dùng **ba chỉ** — lát chỉ có một đầu da,
+        ăn vẫn ngon lành, chỉ là thiếu cái duyên để khoe. Đừng vì vậy mà bỏ món.
+  - title: Pha chén mắm nêm
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Phi thơm **sả + tỏi băm** với chút dầu tới vàng nhạt.
+      - text: >-
+          Cho [[6|muỗng canh|frac]] mắm nêm + [[3|muỗng canh|frac]] thơm băm +
+          [[2|muỗng canh|frac]] đường + [[3|muỗng canh|frac]] nước, khuấy đều,
+          để **sôi lăn tăn 2 phút** rồi tắt bếp.
+      - text: >-
+          Nguội bớt thì vắt tắc, rắc ớt băm. Nếm lại — **mặn đậm, ngọt theo sau,
+          thơm dậy lên trên**; còn gắt thì thêm thơm chứ đừng thêm nước.
+    callout:
+      type: warn
+      text: >-
+        Đun sôi bùng là mắm nêm **bốc mùi nồng khắp nhà** mà vị lại nhạt đi. Chỉ
+        cần nóng tới lăn tăn cho tan đường và bớt hăng là đủ.
+  - title: Bày mâm, ai nấy tự cuốn
+    icon: basket
+    minutes: 10 phút
+    bullets:
+      - label: "Bày:"
+        text: >-
+          Giữa mâm là dĩa thịt, quanh là rổ rau, chồng bánh tráng khô và xấp mì
+          lá để riêng, chén mắm nêm đặt vừa tầm tay mọi người.
+      - label: "Cuốn:"
+        text: >-
+          Trải **bánh tráng khô** xuống trước, đặt **một lá mì lá** lên trên, rồi
+          mới tới rau — thịt — chuối chát — khế. Gập hai mép, cuộn chặt tay.
+      - text: Chấm ngập mắm nêm, cắn một miếng lớn. Cuốn tới đâu ăn tới đó.
+    doneText: Mâm dọn xong — mời cả nhà!
+
+tipsTitle: 4 chỗ **hơn thua** của mâm cuốn
+tips:
+  - icon: meat
+    title: Chọn miếng thịt trước, rồi mới nói chuyện dao
+    text: >-
+      Người ta hay tưởng "hai đầu da" là kỹ thuật xắt. Thật ra **90% nằm ở miếng
+      thịt mua về**: phải là miếng còn nguyên da, dày dặn, **cong tự nhiên**. Ra
+      hàng thịt cứ nói rõ "lấy miếng cong để cuốn bánh tráng", người bán hiểu ngay.
+  - icon: drop
+    title: Nước đá làm nên miếng da
+    text: >-
+      Cùng một miếng thịt, luộc xong để nguội tự nhiên thì da mềm oặt và nhăn;
+      thả nước đá thì da **co giòn sần sật**, mặt cắt mịn như hàng. Cùng công
+      sức, khác hẳn kết quả — chỉ tốn thêm một thau đá.
+  - icon: pineapple
+    title: Thơm băm quyết định chén mắm
+    text: >-
+      Mắm nêm nguyên chất quá mặn và nồng, chấm vào là át hết mọi thứ khác. Thơm
+      băm vừa kéo vị mặn xuống vừa thêm tầng thơm ngọt. Chén mắm còn gắt thì
+      **thêm thơm, đừng thêm nước** — thêm nước là nhạt toẹt mà vẫn nồng.
+  - icon: lettuce
+    title: Rau phải nhiều thứ, và phải thật ráo
+    text: >-
+      Mâm ở Đà Nẵng có cả chục loại rau, không phải để trưng mà vì mỗi thứ giữ
+      một vai: xà lách cho mát, húng quế và tía tô cho thơm, **chuối chát cho
+      chát**, **khế cho chua**, giá cho giòn. Rửa sớm, vẩy thật ráo — rau còn
+      đọng nước là cuốn nhão và mắm bị loãng.
+
+serve:
+  title: Mâm cuốn — **cứ để mỗi người tự lo**
+  paras:
+    - >-
+      Món này dọn ra là xong việc của người nấu. Không cần cuốn sẵn, cũng đừng
+      cuốn sẵn — cuốn để lâu là bánh khô cứng và rau ra nước. Bày nguyên liệu ra
+      mâm, mỗi người tự cuốn theo ý mình, người thích nhiều rau thì nhiều rau,
+      người thích dày thịt thì dày thịt.
+    - >-
+      Nhà đông thì luộc luôn [[1.5|kg]] thịt, phần dư để ngăn mát ăn hôm sau —
+      xắt mỏng chấm mắm nêm ăn với cơm nóng cũng hết veo.
+  aside:
+    title: Bày sao cho gọn mâm
+    intro: "Bốn thứ để riêng, đừng trộn chung:"
+    items:
+      - icon: meat
+        text: "**Dĩa thịt** — xếp lợp mí, hai vành da quay ra ngoài."
+      - icon: roll
+        text: "**Bánh tráng và mì lá** — chồng riêng hai xấp, đừng để chồng lên nhau kẻo dính."
+      - icon: lettuce
+        text: "**Rổ rau** — chuối chát và khế để một góc riêng cho dễ tìm."
+      - icon: jar
+        text: "**Mắm nêm** — chia hai ba chén nhỏ, khỏi phải với qua bàn."
+
+faq:
+  - q: Mì lá tìm không ra thì thay bằng gì?
+    a: >-
+      Ra hàng bánh cuốn hỏi **bánh ướt tráng lá, không nhân** là đúng thứ đó.
+      Vẫn không có thì cuốn bằng mỗi bánh tráng khô cũng được — cuốn sẽ dai hơn
+      và ít mềm, nhưng không mất vị. Đừng thay bằng bún, cuốn sẽ bung.
+  - q: Bánh tráng khô có phải nhúng nước không?
+    a: >-
+      **Không.** Bánh tráng dùng cho món này là loại mỏng, dẻo sẵn, cuốn thẳng
+      chứ không nhúng — đó là chỗ khác với gỏi cuốn. Nếu mua nhằm loại dày cứng
+      thì chỉ **phẩy nhẹ tay ướt** lên mặt bánh, đừng nhúng vào nước.
+  - q: Nhà có người không ăn được mắm nêm thì sao?
+    a: >-
+      Pha thêm một chén **nước mắm chua ngọt** (1 mắm : 1 đường : 1 chanh : 5
+      nước + tỏi ớt) để bên cạnh. Chuyện thường ở mâm cuốn miền Trung, không ai
+      thấy lạ — chỉ cần đừng bắt cả mâm theo một chén.
+  - q: Luộc thịt bao lâu cho miếng nhỏ hơn?
+    a: >-
+      Tính theo bề dày chứ đừng tính theo cân. Miếng dày 5–6 cm cần **45 phút**;
+      mỏng chừng 3 cm thì **30 phút** là đủ. Cách chắc ăn nhất vẫn là xiên đũa
+      vào chỗ dày nhất xem có ra nước hồng không.
+
+ticker:
+  - icon: meat
+    text: Lát thịt luộc hai đầu da
+  - icon: jar
+    text: Mắm nêm pha thơm băm

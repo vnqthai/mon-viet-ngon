@@ -1,0 +1,195 @@
+---
+/* Bún mắm nêm — họ "Cuốn & trộn", đứng cạnh BÚN ĐẬU MẮM TÔM và BÚN THỊT NƯỚNG,
+   nên phải tránh cả hai:
+   · Bún đậu bày MẸT TRE lót lá chuối, mắm TÍM SIM đánh bông → món này dùng TÔ,
+     và mắm nêm dội lên là NÂU XÁM, không phải tím.
+   · Bún thịt nướng có LÁT thịt nướng dẹt, đồ chua sợi cam → món này là KHỐI THỊT
+     HEO QUAY có LỚP DA VÀNG RỘP nổi bong bóng, thứ không tô nào khác trên trang có.
+   Chữ ký thứ hai cũng độc nhất: SỢI MÍT NON kem nhạt, xé dọc thớ nên có vân —
+   người ăn lần đầu hay tưởng là măng.
+   Món NGUỘI, trộn khô → không vẽ khói, không vẽ nước lèo.
+   id prefix: bmn */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô bún mắm nêm: bún tươi, khối thịt heo quay da vàng rộp, sợi mít non xé, rau bào và đậu phộng, mắm nêm nâu xám dội lên, kèm chén mắm nêm có xác thơm">
+  <defs>
+    <linearGradient id="bmnBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E9E2CC"/>
+    </linearGradient>
+    <linearGradient id="bmnMam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9C7F5C"/><stop offset="1" stop-color="#6B5136"/>
+    </linearGradient>
+    <!-- KHỐI THỊT HEO QUAY: ba tầng rõ rệt từ dưới lên —
+         nạc sẫm · lằn mỡ trắng · DA VÀNG RỘP nổi bong bóng. Tầng da là chữ ký. -->
+    <g id="bmnQuay">
+      <path d="M-20 20 L -20 -2 L 20 -6 L 20 16 Z" fill="#A85F28" stroke="#6E3A12" stroke-width="1.9" stroke-linejoin="round"/>
+      <path d="M-20 -2 L 20 -6 L 20 -10 L -20 -6 Z" fill="#F3E2C4" stroke="#6E3A12" stroke-width="1.4" stroke-linejoin="round"/>
+      <path d="M-22 -8 L -2 -18 L 22 -14 L 20 -8 Z" fill="#E8B44C" stroke="#A9700F" stroke-width="1.9" stroke-linejoin="round"/>
+      <path d="M-20 -12 L 20 -16 L 22 -14 L -22 -8 Z" fill="#F2CB6E"/>
+      <g fill="#FAE3A4" stroke="#C79320" stroke-width=".9">
+        <circle cx="-13" cy="-12" r="2.6"/><circle cx="-4" cy="-15" r="2.8"/><circle cx="6" cy="-14" r="2.5"/>
+        <circle cx="15" cy="-12" r="2.3"/><circle cx="-8" cy="-10" r="2"/><circle cx="2" cy="-10" r="1.9"/>
+      </g>
+      <g fill="none" stroke="#6E3A12" stroke-width="1.3" stroke-linecap="round" opacity=".75">
+        <path d="M-11 1 L -10 17"/><path d="M0 0 L 1 16"/><path d="M11 -2 L 12 14"/>
+      </g>
+    </g>
+    <!-- SỢI MÍT NON XÉ: sợi dài thon, hai đầu tướp, có thớ dọc — dáng y như thịt
+         xé sợi, vì mít non luộc rồi xé ra đúng như vậy.
+         Hai lần vẽ hỏng trước đó, cả hai chỉ lộ khi render PNG:
+         · kem nhạt (#EDE1C4) → mất hút trên nền bún trắng, không còn thấy sợi nào;
+         · đổi sang KHỐI bầu có gân cong → thành mấy con sò nằm trong tô.
+         Sợi thon mới vừa nổi được trên bún, vừa không lẫn thành thứ khác. -->
+    <g id="bmnMit">
+      <path d="M-26 2 C -18 -3 -4 -5 8 -4 C 18 -3.4 24 -2 27 0 C 24 2.6 18 3.6 8 4 C -4 4.6 -18 5 -26 2 Z"
+            fill="#E0CC96" stroke="#8E7C40" stroke-width="1.6"/>
+      <path d="M-22 1 C -14 -2 -2 -3.4 10 -2.6" fill="none" stroke="#F4EDD0" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-16 3 C -6 1.4 8 1 20 1.6" fill="none" stroke="#A8945A" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M-26 2 l -5 -1.6 M-26 2 l -5 2 M27 0 l 5 -1.4 M27 0 l 4.6 1.8"
+            fill="none" stroke="#B8A468" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="244" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="244" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="258" cy="412" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- TÔ -->
+  <path d="M 88 296 C 98 358 172 396 260 396 C 348 396 422 358 432 296 Z" fill="url(#bmnBowl)"/>
+  <ellipse cx="260" cy="394" rx="56" ry="10" fill="#D8D0B6"/>
+  <ellipse cx="260" cy="292" rx="174" ry="46" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="292" rx="174" ry="46" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="260" cy="293" rx="158" ry="39" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- BÚN cuộn sợi phủ nền tô -->
+  <ellipse cx="260" cy="294" rx="158" ry="38" fill="#F7F1DE"/>
+  <g transform="translate(172 288) rotate(-6)">
+    <ellipse cx="0" cy="0" rx="42" ry="16" fill="#FBF5E3" stroke="#D2C494" stroke-width="2"/>
+    <path d="M-34 -4 a 34 11 0 0 1 62 -2 M -26 5 a 27 9 0 0 1 50 -1 M -15 -10 a 17 6 0 0 1 32 -1 M -19 11 a 20 7 0 0 1 38 -1"
+          fill="none" stroke="#D2C494" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(252 278) rotate(3)">
+    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#FDFAF0" stroke="#D2C494" stroke-width="2"/>
+    <path d="M-32 -4 a 32 10 0 0 1 58 -2 M -24 5 a 26 9 0 0 1 48 -1 M -14 -9 a 16 6 0 0 1 30 -1"
+          fill="none" stroke="#D2C494" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(214 316) rotate(-3)">
+    <ellipse cx="0" cy="0" rx="44" ry="16" fill="#FFFDF6" stroke="#D2C494" stroke-width="2"/>
+    <path d="M-36 -4 a 36 11 0 0 1 66 -2 M -27 5 a 28 9 0 0 1 52 -1 M -15 -10 a 17 6 0 0 1 32 -1"
+          fill="none" stroke="#D2C494" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- MẮM NÊM: vẽ tô ở đúng khoảnh khắc mắm VỪA DỘI XUỐNG GIỮA, CHƯA TRỘN —
+       một VŨNG gọn, có xác thơm nổi lên và một vệt óng.
+
+       Ba bản trước đều sai theo ba kiểu khác nhau, và cả ba chỉ lộ khi render PNG:
+       (1) hai mảng đặc vắt ngang tô → nhìn ra con lươn;
+       (2) mấy vệt mảnh → cùng bề ngang với sợi bún nên đọc thành bún màu xám;
+       (3) phủ mờ cả mặt tô cho "áo đều" → cả tô thành một vũng bùn, mất sạch
+           chi tiết sợi bún lẫn sợi mít.
+       Vũng gọn thì không lẫn được với sợi nào, mà vẫn nói đúng chuyện: mắm nêm
+       dội vào tô rồi mới trộn. -->
+  <g transform="translate(258 300)">
+    <path d="M-52 -4 C -46 -18 -18 -24 8 -21 C 36 -18 52 -8 50 4 C 46 16 12 22 -14 19 C -40 16 -56 8 -52 -4 Z"
+          fill="url(#bmnMam)" opacity=".9"/>
+    <path d="M-38 -8 C -30 -16 -8 -19 12 -17" fill="none" stroke="#C0A57E" stroke-width="3.4" stroke-linecap="round" opacity=".75"/>
+    <path d="M-30 10 C -12 15 18 14 36 8" fill="none" stroke="#B79B72" stroke-width="2.4" stroke-linecap="round" opacity=".6"/>
+    <g fill="#EEC85E" stroke="#C79E30" stroke-width="1.1">
+      <ellipse cx="-30" cy="-2" rx="4.6" ry="3" transform="rotate(-14 -30 -2)"/>
+      <ellipse cx="-8" cy="-10" rx="4.2" ry="2.8" transform="rotate(10 -8 -10)"/>
+      <ellipse cx="14" cy="-4" rx="4.4" ry="2.9" transform="rotate(-6 14 -4)"/>
+      <ellipse cx="32" cy="1" rx="3.8" ry="2.5" transform="rotate(18 32 1)"/>
+      <ellipse cx="-16" cy="8" rx="4" ry="2.6" transform="rotate(-10 -16 8)"/>
+      <ellipse cx="8" cy="10" rx="3.6" ry="2.4" transform="rotate(6 8 10)"/>
+    </g>
+    <g><circle cx="26" cy="-12" r="3.6" fill="#D64B33" stroke="#A83722" stroke-width="1.3"/><circle cx="26" cy="-12" r="1.5" fill="#F28C6E"/></g>
+  </g>
+
+  <!-- RAU BÀO xắt sợi nhỏ — món trộn nên rau xắt sợi, không để lá nguyên -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M118 286 q17 -7 34 -2" stroke="#5C9440" stroke-width="4.6"/>
+    <path d="M126 300 q17 -7 33 -2" stroke="#6F9C48" stroke-width="4.2"/>
+    <path d="M114 312 q15 -6 30 -2" stroke="#4E7B36" stroke-width="4"/>
+    <path d="M134 272 q16 -6 31 -2" stroke="#6F9C48" stroke-width="4"/>
+    <path d="M300 260 q17 -6 33 -2" stroke="#5C9440" stroke-width="3.8"/>
+    <path d="M330 330 q16 -6 31 -2" stroke="#6F9C48" stroke-width="3.6"/>
+  </g>
+  <!-- đu đủ / dưa leo bào sợi, xanh nhạt hơn -->
+  <g stroke-linecap="round" fill="none" stroke="#CFE0A8" stroke-width="4">
+    <path d="M140 300 q17 -6 33 -2"/><path d="M148 316 q16 -6 31 -2"/><path d="M132 288 q16 -6 31 -2"/>
+  </g>
+
+  <!-- SỢI MÍT NON — chữ ký. Dồn thành MỘT CỤM ở mé trái vũng mắm, trên nền bún
+       trắng sạch, để cái sắc nâu vàng và mép xé xù xì của nó đọc ra ngay. -->
+  <use href="#bmnMit" transform="translate(188 264) rotate(-11)"/>
+  <use href="#bmnMit" transform="translate(228 256) rotate(6)"/>
+  <use href="#bmnMit" transform="translate(176 280) rotate(4)"/>
+  <use href="#bmnMit" transform="translate(220 274) rotate(-15)"/>
+  <use href="#bmnMit" transform="translate(190 296) rotate(13)"/>
+  <use href="#bmnMit" transform="translate(236 290) rotate(-3)"/>
+  <use href="#bmnMit" transform="translate(206 312) rotate(9) scale(.94)"/>
+  <use href="#bmnMit" transform="translate(258 268) rotate(17) scale(.92)"/>
+  <use href="#bmnMit" transform="translate(160 306) rotate(-7) scale(.9)"/>
+
+  <!-- KHỐI THỊT HEO QUAY — chữ ký lớn nhất, xếp mé phải trên cho lớp da bắt sáng -->
+  <use href="#bmnQuay" transform="translate(318 272) rotate(-6)"/>
+  <use href="#bmnQuay" transform="translate(366 288) rotate(7) scale(.95)"/>
+  <use href="#bmnQuay" transform="translate(286 292) rotate(3) scale(.92)"/>
+  <use href="#bmnQuay" transform="translate(346 316) rotate(-4) scale(.88)"/>
+
+  <!-- ĐẬU PHỘNG rang giã thô + HÀNH PHI rắc mặt -->
+  <g fill="#D9A050" stroke="#A9711F" stroke-width="1.4">
+    <ellipse cx="196" cy="278" rx="5.4" ry="4" transform="rotate(-20 196 278)"/>
+    <ellipse cx="248" cy="292" rx="5" ry="3.8" transform="rotate(14 248 292)"/>
+    <ellipse cx="330" cy="298" rx="4.8" ry="3.6" transform="rotate(8 330 298)"/>
+    <ellipse cx="288" cy="324" rx="4.6" ry="3.4" transform="rotate(-10 288 324)"/>
+    <ellipse cx="382" cy="308" rx="4.6" ry="3.4" transform="rotate(24 382 308)"/>
+    <ellipse cx="168" cy="322" rx="4.4" ry="3.2" transform="rotate(-6 168 322)"/>
+  </g>
+  <g fill="#E5A63C" stroke="#B4761C" stroke-width="1">
+    <path d="M224 274 q7 -4 13 0 q-6 4 -13 0 Z"/>
+    <path d="M300 286 q7 -4 13 0 q-6 4 -13 0 Z"/>
+    <path d="M186 306 q7 -4 13 0 q-6 4 -13 0 Z"/>
+    <path d="M262 318 q6 -4 12 0 q-6 4 -12 0 Z"/>
+    <path d="M356 280 q6 -4 12 0 q-6 4 -12 0 Z"/>
+  </g>
+  <g stroke="#4E7B36" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M210 254 l10 -2 M320 254 l9 -2 M232 330 l9 -2 M372 292 l8 -2"/>
+  </g>
+
+  <!-- ===== CHÉN MẮM NÊM đặt riêng, thấy rõ xác thơm băm ===== -->
+  <g transform="translate(102 380)">
+    <ellipse cx="0" cy="28" rx="52" ry="13" fill="rgba(15,26,14,.32)"/>
+    <path d="M-46 0 C -44 21 -27 34 0 34 C 27 34 44 21 46 0 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="0" rx="46" ry="14" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="38" ry="11" fill="url(#bmnMam)"/>
+    <ellipse cx="-9" cy="-2" rx="14" ry="4.2" fill="#B29470" opacity=".8"/>
+    <g fill="#EEC85E" stroke="#C79E30" stroke-width="1.2">
+      <ellipse cx="-17" cy="1" rx="4.2" ry="2.8" transform="rotate(-16 -17 1)"/>
+      <ellipse cx="-3" cy="3" rx="4" ry="2.6" transform="rotate(12 -3 3)"/>
+      <ellipse cx="10" cy="-1" rx="4" ry="2.7" transform="rotate(-8 10 -1)"/>
+      <ellipse cx="21" cy="2" rx="3.4" ry="2.3" transform="rotate(20 21 2)"/>
+    </g>
+    <g><circle cx="15" cy="4" r="4" fill="#D64B33" stroke="#A83722" stroke-width="1.4"/><circle cx="15" cy="4" r="1.7" fill="#F28C6E"/></g>
+    <g><circle cx="-25" cy="4" r="3.4" fill="#D64B33" stroke="#A83722" stroke-width="1.3"/><circle cx="-25" cy="4" r="1.4" fill="#F28C6E"/></g>
+  </g>
+
+  <!-- ĐẠO CỤ: nửa trái thơm — thứ pha vào mắm nêm, và cũng là chỗ dịu vị -->
+  <g transform="translate(412 384) rotate(-10)">
+    <ellipse cx="0" cy="30" rx="46" ry="12" fill="rgba(15,26,14,.3)"/>
+    <path d="M-30 20 C -34 -4 -20 -20 0 -20 C 20 -20 34 -4 30 20 C 16 28 -16 28 -30 20 Z"
+          fill="#E4B93C" stroke="#A9791C" stroke-width="2.2"/>
+    <g fill="none" stroke="#B4881C" stroke-width="1.5">
+      <path d="M-24 8 L 24 8 M-28 -2 L 28 -2 M-20 18 L 20 18"/>
+      <path d="M-14 -18 L -14 24 M0 -20 L 0 26 M14 -18 L 14 24"/>
+    </g>
+    <g fill="#F6DC8C">
+      <circle cx="-7" cy="3" r="2.6"/><circle cx="7" cy="3" r="2.6"/><circle cx="0" cy="13" r="2.4"/>
+      <circle cx="-7" cy="-7" r="2.4"/><circle cx="7" cy="-7" r="2.4"/>
+    </g>
+    <g stroke="#4E8B3A" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M-8 -20 C -14 -34 -12 -46 -6 -54"/>
+      <path d="M2 -20 C 2 -36 6 -48 14 -56"/>
+      <path d="M-2 -20 C -4 -32 -2 -44 4 -52"/>
+    </g>
+  </g>
+</svg>

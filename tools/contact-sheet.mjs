@@ -77,10 +77,11 @@ const HALO = [
 const HALO_SAMPLES = ['ca-kho-to', 'thit-kho-hot-vit', 'ga-kho-gung', 'tom-rim-nuoc-cot-dua', 'bo-kho', 'muc-xao-thom-can-tay', 'suon-ram-man-ngot'];
 
 /* Món sẽ chuyển kiểu ở đợt sau — soi trước hình trên nền họ màu tương lai,
-   để khỏi phải vẽ lại lúc gom. Đợt 10 gom "Bánh": bánh xèo + bánh cuốn. */
+   để khỏi phải vẽ lại lúc gom. Đợt 10 gom "Bánh": bánh xèo + bánh cuốn + bánh khoái. */
 const SLUG_RECAT = {
   'banh-xeo-mien-tay': 'Bánh',
   'banh-cuon-nong': 'Bánh',
+  'banh-khoai-hue': 'Bánh',
 };
 
 /* ---------- Đọc mapping art -> component từ RecipeArt.astro ---------- */

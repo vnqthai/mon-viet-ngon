@@ -46,6 +46,8 @@ order: 99               # thứ tự hiển thị, nhỏ đứng trước
 #                       #               mien-xao-cua mi-xao-bo bun-dau bun-bo-nam-bo
 #                       #               lau-mam lau-ga-la-e lau-thai
 #                       #               chao-luon chao-ga chao-long
+#                       #               bun-cha-ca bun-mam-nem com-hen
+#                       #               banh-khoai banh-trang-cuon mam-ruoc-xao
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc

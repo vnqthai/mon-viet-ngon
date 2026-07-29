@@ -105,6 +105,7 @@ const recipes = defineCollection({
         'goi-cuon', 'rau-muong',
         'mien-ga', 'mi-vit-tiem', 'mien-xao-cua', 'mi-xao-bo', 'bun-dau', 'bun-bo-nam-bo',
         'lau-mam', 'lau-ga-la-e', 'lau-thai', 'chao-luon', 'chao-ga', 'chao-long',
+        'bun-cha-ca', 'bun-mam-nem', 'com-hen', 'banh-khoai', 'banh-trang-cuon', 'mam-ruoc-xao',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

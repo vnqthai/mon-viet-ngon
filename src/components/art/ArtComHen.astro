@@ -1,0 +1,178 @@
+---
+/* Cơm hến Huế — họ "Cơm & bánh", nền vàng đất, phải tách khỏi cơm tấm / cơm gà / cơm chiên.
+   CHỮ KÝ ĐẮT NHẤT lại là một chi tiết ĐÚNG THỰC TẾ: cơm hến ăn CƠM NGUỘI, nên
+   TÔ CƠM KHÔNG CÓ KHÓI — khói chỉ bốc từ BÁT NƯỚC HẾN đục đặt riêng. Không món cơm
+   nào khác trên trang có kiểu "một tô nguội + một bát nóng".
+
+   Hai lỗi của bản 1, chỉ render PNG mới thấy:
+   · Gò cơm trắng và lòng tô trắng CÙNG MỘT SẮC nên nhập thành một khối oval to
+     tướng, nhìn ra con cá chứ không ra tô cơm. Bản này hạ gò cơm xuống ngà ấm
+     (#F3EAD0) và viền hẳn một nét, để nó nổi lên trên lòng tô.
+   · Bát nước hến đặt ngang tầm và sát cạnh nên dính vào tô như cái vòi ấm. Bản này
+     hạ xuống thấp và cho CHỒNG LÊN mép tô — chồng thì đọc ra chiều sâu, sát thì
+     đọc ra dính liền.
+   id prefix: cmh */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Cơm hến Huế: tô cơm nguội rắc ruột hến, tóp mỡ, đậu phộng, bắp chuối bào và ớt chưng, phía trước là bát nước hến đục còn bốc khói, vỏ hến rải quanh">
+  <defs>
+    <linearGradient id="cmhBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E4DCC2"/>
+    </linearGradient>
+    <linearGradient id="cmhCom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF6E6"/><stop offset="1" stop-color="#EADFBE"/>
+    </linearGradient>
+    <linearGradient id="cmhNuoc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9E7DA"/><stop offset="1" stop-color="#BDBCAC"/>
+    </linearGradient>
+    <!-- ruột hến: mẩu thịt nhỏ nâu vàng, có vệt sáng -->
+    <g id="cmhHen">
+      <path d="M-8 1 C -8 -5 -3 -8 2 -8 C 8 -8 10 -4 9 1 C 8 6 2 8 -2 7 C -6 6 -8 5 -8 1 Z"
+            fill="#A87438" stroke="#6E4718" stroke-width="1.5"/>
+      <path d="M-4 -3 C -1 -6 5 -6 7 -3" fill="none" stroke="#D7A461" stroke-width="1.7" stroke-linecap="round"/>
+    </g>
+    <!-- tóp mỡ: khối vuông nhỏ vàng ruộm, mặt trên sáng -->
+    <g id="cmhTop">
+      <path d="M-7 6 L -7 -2 L 7 -6 L 7 2 Z" fill="#A96B12" stroke="#6E4108" stroke-width="1.3" stroke-linejoin="round"/>
+      <path d="M-8 -2 L -1 -7 L 8 -6 L 1 -1 Z" fill="#F2C264" stroke="#8E5A0E" stroke-width="1.3" stroke-linejoin="round"/>
+    </g>
+    <!-- lá rau má: lá tròn khuyết một góc. Bản 1 vẽ gân toả nan quạt cho đúng
+         hình thật, nhưng ở cỡ nhỏ này render ra thành cái bánh xe có nan hoa —
+         nên chỉ giữ một gân giữa mờ. -->
+    <g id="cmhRauMa">
+      <path d="M0 -1 C -10 -3 -14 -10 -10 -16 C -5 -22 6 -22 11 -16 C 15 -10 12 -3 2 -1 C 1 -4 -1 -4 0 -1 Z"
+            fill="#4E8B3A" stroke="#2F5D24" stroke-width="1.5"/>
+      <path d="M0 -3 C 1 -8 1 -13 1 -17" fill="none" stroke="#8FC067" stroke-width="1.2" stroke-linecap="round" opacity=".85"/>
+    </g>
+    <!-- vỏ hến: vỏ hai mảnh nhỏ, gân toả nan quạt -->
+    <g id="cmhVo">
+      <path d="M-17 6 C -15 -6 -8 -12 0 -12 C 8 -12 15 -6 17 6 C 8 10 -8 10 -17 6 Z"
+            fill="#CFC6AE" stroke="#7E7458" stroke-width="1.8"/>
+      <g fill="none" stroke="#9A9074" stroke-width="1.2" stroke-linecap="round">
+        <path d="M0 -11 L 0 7"/><path d="M-7 -9 L -10 6"/><path d="M7 -9 L 10 6"/>
+        <path d="M-13 -3 L -15 5"/><path d="M13 -3 L 15 5"/>
+      </g>
+      <path d="M-13 0 C -8 -8 8 -8 13 0" fill="none" stroke="#EFE8D6" stroke-width="1.6" stroke-linecap="round" opacity=".8"/>
+    </g>
+  </defs>
+
+  <circle cx="258" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="258" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <!-- KHÓI CHỈ Ở BÁT NƯỚC HẾN — cố ý không có trên tô cơm vì cơm hến ăn cơm nguội -->
+  <g class="steam">
+    <path d="M400 316 C 392 294 412 282 404 260 C 399 245 410 235 407 222"/>
+    <path d="M438 322 C 431 302 449 290 442 270 C 437 256 447 247 444 235"/>
+  </g>
+  <ellipse cx="252" cy="404" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ===== TÔ CƠM (nguội, không khói) ===== -->
+  <path d="M 84 286 C 94 348 164 384 246 384 C 328 384 398 348 408 286 Z" fill="url(#cmhBowl)"/>
+  <ellipse cx="246" cy="382" rx="52" ry="10" fill="#D8D0B6"/>
+  <ellipse cx="246" cy="284" rx="162" ry="44" fill="#F6F1E1"/>
+  <ellipse cx="246" cy="284" rx="162" ry="44" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="246" cy="285" rx="147" ry="37" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- GÒ CƠM: ngà ấm và CÓ VIỀN, để nổi hẳn lên trên lòng tô trắng -->
+  <ellipse cx="246" cy="288" rx="141" ry="34" fill="#DCD1AF" opacity=".7"/>
+  <path d="M108 286 C 122 250 176 232 246 232 C 316 232 370 250 384 286 C 356 310 136 310 108 286 Z"
+        fill="url(#cmhCom)" stroke="#CFC2A0" stroke-width="2.4"/>
+  <g fill="none" stroke="#DBCFAB" stroke-width="2.6" stroke-linecap="round">
+    <path d="M136 282 q14 -5 28 -1"/><path d="M174 268 q14 -5 28 -1"/><path d="M218 256 q14 -5 28 -1"/>
+    <path d="M268 254 q14 -5 28 -1"/><path d="M312 264 q14 -5 28 -1"/><path d="M344 280 q13 -5 26 -1"/>
+    <path d="M154 296 q14 -5 28 -1"/><path d="M202 284 q14 -5 28 -1"/><path d="M252 278 q14 -5 28 -1"/>
+    <path d="M300 284 q14 -5 28 -1"/><path d="M330 296 q13 -5 26 -1"/><path d="M186 302 q14 -5 28 -1"/>
+    <path d="M242 298 q14 -5 28 -1"/><path d="M290 300 q14 -5 26 -1"/>
+  </g>
+  <path d="M124 278 C 150 250 196 238 246 238" fill="none" stroke="#FFFDF4" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+
+  <!-- BẮP CHUỐI BÀO: sợi nâu vàng nhạt, đủ sẫm để nổi trên nền cơm ngà -->
+  <g stroke-linecap="round" fill="none" stroke="#E0C79C" stroke-width="4.6">
+    <path d="M136 276 q20 -8 40 -3"/><path d="M152 290 q20 -8 40 -3"/><path d="M128 296 q18 -7 36 -2"/>
+    <path d="M170 272 q20 -8 38 -3"/>
+  </g>
+  <g stroke-linecap="round" fill="none" stroke="#C0A472" stroke-width="1.9">
+    <path d="M140 280 q19 -7 37 -2"/><path d="M156 294 q19 -7 37 -2"/><path d="M174 276 q18 -7 35 -2"/>
+  </g>
+  <use href="#cmhRauMa" transform="translate(146 268) rotate(-14)"/>
+  <use href="#cmhRauMa" transform="translate(180 258) rotate(10) scale(.92)"/>
+  <use href="#cmhRauMa" transform="translate(124 292) rotate(20) scale(.88)"/>
+  <use href="#cmhRauMa" transform="translate(206 274) rotate(-6) scale(.86)"/>
+  <use href="#cmhRauMa" transform="translate(164 300) rotate(6) scale(.82)"/>
+  <!-- lát khế hình sao lẫn trong rau -->
+  <g transform="translate(210 296) rotate(12)">
+    <path d="M0 -12 L 3.6 -3.9 L 12 -3.7 L 5.4 1.8 L 7.8 10 L 0 5.2 L -7.8 10 L -5.4 1.8 L -12 -3.7 L -3.6 -3.9 Z"
+          fill="#E4ECB2" stroke="#8FA84E" stroke-width="1.7" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ỚT CHƯNG: vệt đỏ óng, đặt lệch chứ không giữa tô (giữa tô thì đọc thành con cua) -->
+  <g transform="translate(288 266) rotate(-8)">
+    <path d="M-24 0 C -20 -8 -6 -11 6 -9 C 18 -7 24 -2 22 4 C 12 9 -12 9 -24 0 Z" fill="#C4402C" opacity=".92"/>
+    <path d="M-16 -2 C -10 -7 0 -8 8 -6" fill="none" stroke="#E4674A" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+    <path d="M-14 4 C -4 7 8 6 16 3" fill="none" stroke="#F2A24A" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+  </g>
+
+  <!-- RUỘT HẾN rải mặt cơm -->
+  <use href="#cmhHen" transform="translate(248 258) rotate(-12)"/>
+  <use href="#cmhHen" transform="translate(276 286) rotate(14)"/>
+  <use href="#cmhHen" transform="translate(238 288) rotate(4)"/>
+  <use href="#cmhHen" transform="translate(310 252) rotate(-6)"/>
+  <use href="#cmhHen" transform="translate(266 302) rotate(22)"/>
+  <use href="#cmhHen" transform="translate(306 288) rotate(-16)"/>
+  <use href="#cmhHen" transform="translate(222 272) rotate(8)"/>
+  <use href="#cmhHen" transform="translate(336 268) rotate(18)"/>
+  <use href="#cmhHen" transform="translate(298 306) rotate(-4)"/>
+  <use href="#cmhHen" transform="translate(348 292) rotate(10)"/>
+
+  <!-- TÓP MỠ vàng ruộm, mé phải -->
+  <use href="#cmhTop" transform="translate(330 246) rotate(-8)"/>
+  <use href="#cmhTop" transform="translate(358 264) rotate(10)"/>
+  <use href="#cmhTop" transform="translate(322 300) rotate(-4)"/>
+  <use href="#cmhTop" transform="translate(356 286) rotate(16)"/>
+  <use href="#cmhTop" transform="translate(286 244) rotate(6)"/>
+  <use href="#cmhTop" transform="translate(258 278) rotate(-12)"/>
+
+  <!-- ĐẬU PHỘNG rang nguyên hạt + mè -->
+  <g fill="#D9A050" stroke="#A9711F" stroke-width="1.4">
+    <ellipse cx="262" cy="246" rx="5.4" ry="4" transform="rotate(-20 262 246)"/>
+    <ellipse cx="312" cy="302" rx="5" ry="3.8" transform="rotate(14 312 302)"/>
+    <ellipse cx="226" cy="250" rx="4.8" ry="3.6" transform="rotate(8 226 250)"/>
+    <ellipse cx="342" cy="306" rx="4.6" ry="3.4" transform="rotate(-10 342 306)"/>
+    <ellipse cx="366" cy="256" rx="4.6" ry="3.4" transform="rotate(24 366 256)"/>
+    <ellipse cx="240" cy="308" rx="4.6" ry="3.4" transform="rotate(-6 240 308)"/>
+  </g>
+  <g fill="#F0E2B4">
+    <circle cx="290" cy="292" r="1.8"/><circle cx="252" cy="264" r="1.7"/><circle cx="330" cy="278" r="1.7"/>
+    <circle cx="216" cy="292" r="1.6"/><circle cx="368" cy="284" r="1.6"/>
+  </g>
+  <!-- bánh tráng nướng bóp vụn rắc mặt -->
+  <g fill="#F6EACA" stroke="#C2AC7E" stroke-width="1.2">
+    <path d="M204 242 l10 -3 l3 7 l-9 3 Z" transform="rotate(-14 208 244)"/>
+    <path d="M340 234 l9 -3 l3 6 l-8 3 Z" transform="rotate(10 344 236)"/>
+    <path d="M166 250 l8 -3 l3 6 l-8 3 Z" transform="rotate(20 170 252)"/>
+  </g>
+
+  <!-- ===== BÁT NƯỚC HẾN — đặt THẤP và CHỒNG lên mép tô cho ra chiều sâu ===== -->
+  <g transform="translate(414 348)">
+    <ellipse cx="0" cy="52" rx="60" ry="15" fill="rgba(15,26,14,.34)"/>
+    <path d="M-54 -4 C -51 26 -31 48 0 48 C 31 48 51 26 54 -4 Z" fill="url(#cmhBowl)" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="47" rx="23" ry="6" fill="#D8D0B6"/>
+    <ellipse cx="0" cy="-4" rx="54" ry="17" fill="#F6F1E1"/>
+    <ellipse cx="0" cy="-4" rx="54" ry="17" fill="none" stroke="#2C5234" stroke-width="4"/>
+    <ellipse cx="0" cy="-3" rx="45" ry="13" fill="none" stroke="#E0A32E" stroke-width="2" stroke-dasharray="2 9" stroke-linecap="round"/>
+    <!-- nước hến ĐỤC — đục là đúng, đó chính là chỗ ngọt của con hến -->
+    <ellipse cx="0" cy="-3" rx="45" ry="13" fill="url(#cmhNuoc)"/>
+    <ellipse cx="-13" cy="-6" rx="17" ry="4.6" fill="#F5F3E9" opacity=".8"/>
+    <use href="#cmhHen" transform="translate(15 -2) scale(.92)"/>
+    <use href="#cmhHen" transform="translate(-19 0) scale(.8) rotate(18)"/>
+    <g stroke="#6F9C48" stroke-width="2.4" stroke-linecap="round" fill="none">
+      <path d="M-4 -9 l8 -1 M23 -7 l7 -1"/>
+    </g>
+    <g fill="#C9A46A"><circle cx="32" cy="0" r="2.2"/><circle cx="-31" cy="-3" r="2"/></g>
+  </g>
+
+  <!-- ĐẠO CỤ: vỏ hến rải bàn — nói luôn con hến là con gì -->
+  <use href="#cmhVo" transform="translate(104 396) rotate(-14)"/>
+  <use href="#cmhVo" transform="translate(150 414) rotate(12) scale(.88)"/>
+  <use href="#cmhVo" transform="translate(70 420) rotate(24) scale(.78)"/>
+  <use href="#cmhVo" transform="translate(240 424) rotate(-18) scale(.84)"/>
+  <use href="#cmhVo" transform="translate(292 434) rotate(8) scale(.72)"/>
+</svg>

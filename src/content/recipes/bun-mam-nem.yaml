@@ -1,0 +1,354 @@
+title: Bún mắm nêm **thịt quay da giòn, mít non xé sợi**
+summary: >-
+  Tô bún trộn kiểu Đà Nẵng: bún tươi, **thịt heo quay còn giòn da**, **mít non
+  luộc xé sợi**, cả nắm rau bào — rồi dội thẳng chén **mắm nêm pha thơm** lên
+  mà trộn.
+region: Miền Trung
+category: Bún trộn
+occasions: [Ăn chơi]
+pubDate: 2026-07-29
+time:
+  total: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 18
+art: bun-mam-nem
+heroEyebrow: Trộn lên là dậy mùi…
+
+quick:
+  ingredients:
+    - Bún tươi sợi nhỏ [[800|g]]
+    - Thịt heo quay [[400|g]] — mua sẵn ở hàng quay, phần có da giòn
+    - Mít non [[400|g]] — luộc mềm rồi xé sợi
+    - Mắm nêm [[6|muỗng canh|frac]] — mắm ủ từ cá cơm, thơm nồng và mặn đậm
+    - Thơm băm [[3|muỗng canh|frac]] · sả, tỏi, ớt băm · đường [[2|muỗng canh|frac]]
+    - Rau bào [[400|g]] — xà lách, húng lủi, ngò gai, dưa leo, đu đủ xanh
+    - Đậu phộng rang [[100|g]] · hành phi [[3|muỗng canh|frac]]
+  steps:
+    - Gọt mít non, **ngâm nước chanh** cho khỏi thâm và bớt mủ, luộc [[20|phút]] tới mềm.
+    - Vớt mít ra để nguội, **xé dọc thớ** thành sợi cỡ đầu đũa.
+    - "Pha mắm nêm: phi sả tỏi, cho mắm + thơm băm + đường + chút nước, đun lăn tăn rồi tắt bếp."
+    - Thịt quay xắt miếng vuông vừa ăn, **giữ nguyên mảng da giòn** ở trên.
+    - "Xếp tô: bún — rau bào — mít — thịt quay, rắc đậu phộng và hành phi, dội mắm nêm, trộn đều."
+  warning: >-
+    Xắt thịt quay quá sớm là **da mềm oặt** vì hơi nước. Xắt ngay trước lúc dọn,
+    và đừng bao giờ đậy kín miếng thịt còn ấm.
+
+flavor:
+  chua: 4
+  ngot: 4
+  man: 8
+  cay: 5
+  thom: 9
+flavorNote: >-
+  **Chuẩn tô:** trộn xong sợi bún **áo đều màu nâu nhạt** chứ không đọng nước
+  dưới đáy; cắn miếng thịt quay còn nghe **rắc** ở lớp da, sợi mít non thì mềm
+  mà vẫn có thớ.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món ăn **đứng hay ngồi cũng được**
+story:
+  - >-
+    Ở Đà Nẵng, bún mắm nêm là món quà chiều — bán trong những gánh nhỏ, tô bún
+    trộn xong đưa ra là ăn ngay, không cần bàn ghế gì nhiều. Nó nhanh, mặn đậm,
+    thơm nức, và **không có nước lèo** — đó là chỗ khác căn bản với những món
+    bún khác cùng vùng.
+  - >-
+    Thứ làm nên tô bún là **mắm nêm** — mắm ủ từ **cá cơm** hoặc cá biển nhỏ,
+    lên men tới khi dậy mùi và mặn đậm. Đừng lẫn với **mắm ruốc** (làm từ con
+    ruốc, đặc sệt, màu nâu tím) hay **mắm tôm** miền Bắc. Mắm nêm loãng hơn cả
+    hai, và pha xong thì có hậu chua nhẹ rất riêng.
+  - >-
+    Pha mắm nêm chỉ có một bí quyết: **thơm băm**. Mắm nguyên chất quá mặn và
+    nồng, chấm vào là át hết; thơm băm nhuyễn kéo vị mặn xuống, thêm tầng ngọt
+    và mùi trái cây. Người bán hàng nào cũng có tỷ lệ riêng, nhưng chưa ai bỏ
+    thơm ra khỏi công thức.
+  - >-
+    Còn hai thứ ít nơi khác có: **thịt heo quay** với mảng da giòn rôm rốp, và
+    **mít non luộc xé sợi**. Mít non nghe lạ nhưng vào tô lại hợp không ngờ —
+    nó mềm, hơi bùi, và **hút mắm nêm** như miếng bọt biển, nên miếng nào cũng
+    đậm đà. Ai ăn lần đầu thường tưởng là măng.
+
+ingredientGroups:
+  - name: Thịt và mít
+    icon: meat
+    items:
+      - id: thitquay
+        name: Thịt heo quay
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: >-
+          Mua ở hàng quay, dặn lấy **phần ba chỉ có da giòn**. Đây là cách cả
+          Đà Nẵng vẫn làm — không ai quay một miếng ở nhà chỉ để ăn tô bún
+      - id: thitluoc
+        name: Thịt ba chỉ luộc
+        icon: meat
+        qtyText: 200 g (tùy chọn)
+        note: Nhiều hàng dọn cả hai — quay cho giòn, luộc cho mềm ngọt
+      - id: mitnon
+        name: Mít non
+        icon: pod
+        color: green
+        base: 400
+        unit: g
+        note: >-
+          Trái mít còn non, ruột trắng, chưa có múi. Hàng rau ngoài chợ hay bán
+          sẵn miếng đã gọt
+  - name: Chén mắm nêm
+    icon: jar
+    items:
+      - id: mamnem
+        name: Mắm nêm
+        icon: jar
+        base: 6
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Mắm ủ từ cá cơm — loãng hơn mắm ruốc, mùi nồng hơn nước mắm. Loại
+          nguyên con thì lọc bỏ xác trước khi pha
+      - id: thom
+        name: Thơm (dứa) băm nhuyễn
+        icon: pineapple
+        color: gold
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Băm thật nhuyễn — thứ kéo vị mặn xuống, thiếu là chén mắm gắt
+      - id: satoiot
+        name: Sả + tỏi + ớt băm
+        icon: chili
+        color: red
+        qtyText: 1 cây sả · 3 tép tỏi · 3 trái ớt
+        note: Phi sả tỏi cho thơm trước khi cho mắm vào
+      - id: duongtac
+        name: Đường + tắc (quất)
+        icon: lime
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Vắt tắc lúc mắm đã tắt bếp và nguội bớt
+  - name: Bún và rau bào
+    icon: lettuce
+    items:
+      - id: bun
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 800
+        unit: g
+        note: Rũ tơi trước khi xếp tô — bún vón cục thì mắm không áo đều
+      - id: xalach
+        name: Xà lách + húng lủi + ngò gai
+        icon: lettuce
+        color: green
+        base: 250
+        unit: g
+        note: Xắt sợi nhỏ chứ đừng để lá nguyên — món này là món trộn
+      - id: dualeo
+        name: Dưa leo bào sợi
+        icon: sprout
+        color: green
+        base: 1
+        unit: trái
+        note: Bào sợi to, bỏ ruột cho khỏi ra nước
+      - id: dudu
+        name: Đu đủ xanh bào sợi
+        icon: pumpkin
+        color: gold
+        base: 150
+        unit: g
+        note: Bóp chút muối rồi vắt ráo cho giòn
+  - name: Rắc mặt
+    icon: pod
+    items:
+      - id: dauphong
+        name: Đậu phộng rang giã thô
+        icon: pod
+        color: gold
+        base: 100
+        unit: g
+        note: Giã dối, còn thấy nửa hạt
+      - id: hanhphi
+        name: Hành phi
+        icon: onion
+        color: gold
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Rắc lúc sắp bưng ra, để lâu là ỉu
+
+steps:
+  - title: Luộc mít non, xé sợi
+    icon: pot
+    minutes: 30 phút
+    intro: "Làm mít trước vì nó cần thời gian nguội:"
+    bullets:
+      - label: "Gọt:"
+        text: >-
+          Gọt sạch vỏ xanh, xắt miếng lớn, **thả ngay vào thau nước pha chanh**
+          (hoặc giấm) — vừa đỡ thâm vừa bớt mủ dính tay.
+      - label: "Luộc:"
+        text: >-
+          Luộc với chút muối **20 phút** tới khi xiên đũa qua dễ dàng. Vớt ra,
+          xả nước lạnh, để nguội hẳn.
+      - label: "Xé:"
+        text: >-
+          **Xé dọc thớ** thành sợi cỡ đầu đũa. Xé chứ đừng xắt — sợi xé có mặt
+          xù xì nên ngậm mắm tốt hơn hẳn miếng xắt mặt trơn.
+    timer:
+      secs: 1200
+      label: Hẹn giờ luộc mít non · 20:00
+      doneMsg: Xả nước lạnh, để nguội rồi xé sợi nghen!
+    callout:
+      type: tip
+      text: >-
+        Xoa chút dầu ăn lên tay và dao trước khi gọt thì **mủ mít không bám**.
+        Mẹo cũ của hàng rau, hiệu nghiệm ngay.
+  - title: Pha chén mắm nêm
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - label: "Lọc:"
+        text: >-
+          Mắm nêm loại nguyên con thì **lọc qua rây**, bỏ xác, chỉ lấy nước.
+          Loại đã xay sẵn thì dùng thẳng.
+      - label: "Phi thơm:"
+        text: >-
+          Phi sả và tỏi băm với chút dầu tới vàng nhạt.
+      - label: "Nấu:"
+        text: >-
+          Cho [[6|muỗng canh|frac]] mắm nêm + [[3|muỗng canh|frac]] thơm băm +
+          [[2|muỗng canh|frac]] đường + [[4|muỗng canh|frac]] nước. Đun **lăn
+          tăn 2 phút** rồi tắt bếp.
+      - label: "Nêm lại:"
+        text: >-
+          Nguội bớt thì vắt tắc, cho ớt băm. Nếm thử: **mặn đậm, ngọt theo sau,
+          chua nhẹ ở cuối**. Còn gắt thì thêm thơm, đừng thêm nước.
+    callout:
+      type: warn
+      text: >-
+        Đun sôi bùng là mắm nêm **bốc mùi nồng khắp nhà** mà vị lại nhạt đi. Chỉ
+        cần nóng tới lăn tăn cho tan đường và bớt hăng.
+  - title: Chuẩn bị rau bào
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Xà lách, húng lủi, ngò gai **xắt sợi nhỏ** — đây là món trộn, để lá
+          nguyên thì trộn không đều.
+      - text: >-
+          Dưa leo bỏ ruột, bào sợi to. Đu đủ xanh bào sợi, **bóp chút muối rồi
+          vắt ráo** cho giòn và bớt hăng.
+      - text: Để riêng từng thứ trong rổ, tới lúc xếp tô mới lấy.
+  - title: Xắt thịt quay — làm sau cùng
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Đặt miếng thịt **da hướng lên**, dùng dao bén xắt thành miếng vuông
+          chừng 2 cm, cắt dứt khoát một nhát qua lớp da.
+      - text: >-
+          Xắt xong dọn liền. Miếng thịt quay để ngoài càng lâu, hoặc bị đậy kín
+          lúc còn ấm, thì **da hút ẩm và mềm oặt**.
+    callout:
+      type: tip
+      text: >-
+        Thịt quay mua từ sáng mà chiều mới ăn thì hong lại trong nồi chiên không
+        dầu hoặc lò **4–5 phút ở lửa lớn**, da giòn trở lại như mới.
+  - title: Xếp tô và trộn
+    icon: bowl
+    minutes: 5 phút
+    intro: "Xếp theo thứ tự này thì trộn lên mới đều:"
+    bullets:
+      - text: >-
+          Đáy tô là **bún** rũ tơi. Kế đến lớp **rau bào**, rồi **mít non xé
+          sợi**, trên cùng là **thịt quay**.
+      - text: >-
+          Rắc đậu phộng và hành phi, **dội mắm nêm** quanh thành tô chừng
+          [[3|muỗng canh|frac]] mỗi tô.
+      - text: >-
+          Trộn từ dưới lên, nhẹ tay, tới khi sợi bún **áo đều màu nâu nhạt**.
+          Thiếu mặn thì thêm mắm chứ đừng chan nước.
+    doneText: Trộn xong là ăn liền — đừng để lâu!
+
+tipsTitle: 4 chỗ **hơn thua** của tô bún mắm nêm
+tips:
+  - icon: pineapple
+    title: Thơm băm quyết định chén mắm
+    text: >-
+      Mắm nêm nguyên chất mặn và nồng tới mức chấm vào là át hết mọi thứ. Thơm
+      băm nhuyễn vừa kéo mặn xuống vừa thêm tầng ngọt thơm. Chén mắm còn gắt thì
+      **thêm thơm, đừng thêm nước** — thêm nước là nhạt toẹt mà vẫn nồng.
+  - icon: pod
+    title: Mít non phải xé, không được xắt
+    text: >-
+      Sợi xé có mặt xù xì, ngậm mắm nêm rất tốt nên miếng nào cũng đậm. Miếng
+      xắt mặt trơn thì mắm trôi tuột, ăn tới đó lại thấy nhạt. Luộc mềm rồi để
+      nguội hẳn hãy xé — còn nóng mà xé là nát.
+  - icon: meat
+    title: Da giòn là thứ hỏng nhanh nhất trong tô
+    text: >-
+      Cả tô có một thứ giòn duy nhất, mà nó lại mất giòn chỉ trong mươi phút.
+      Vậy nên **xắt thịt sau cùng**, không đậy kín khi còn ấm, và trộn tô xong
+      là bưng ra ngay. Ăn chậm thì cứ để miếng thịt trên mặt, trộn tới đâu gắp
+      tới đó.
+  - icon: bowl
+    title: Đừng chan mắm như chan nước lèo
+    text: >-
+      Bún mắm nêm là **món trộn khô**. Chan nhiều là đáy tô đọng một vũng mặn,
+      bún nhão mà mặt trên vẫn nhạt. Chừng ba muỗng canh mỗi tô, trộn đều, thiếu
+      thì thêm — chứ đọng nước rồi thì không rút lại được.
+
+serve:
+  title: Dọn bún mắm nêm — **mỗi người một tô, tự trộn**
+  paras:
+    - >-
+      Món này ngon nhất trong năm phút đầu sau khi trộn. Nên đừng trộn sẵn cả
+      mâm: bày bún, rau, mít, thịt ra tô cho từng người, để chén mắm nêm giữa
+      bàn, ai ăn tới đâu dội tới đó. Người ăn mặn dội nhiều, người ăn nhạt dội
+      ít — một chén vừa lòng cả nhà.
+    - >-
+      Không kịp mua thịt quay thì **luộc miếng ba chỉ** thay vào cũng ổn: mất
+      lớp da giòn nhưng vẫn ngọt và mềm. Nhiều hàng ở Đà Nẵng vốn dọn cả hai
+      thứ trong một tô.
+  aside:
+    title: Trên bàn nên có
+    intro: "Ba thứ để bên cạnh cho ai muốn thêm:"
+    items:
+      - icon: chili
+        text: "**Ớt xiêm băm** — mắm nêm cay mới đúng, nhưng cay tới đâu tùy người."
+      - icon: lime
+        text: "**Tắc cắt đôi** — vắt thêm lúc gần cuối tô cho bừng vị."
+      - icon: pod
+        text: "**Đậu phộng rang** — rắc thêm giữa chừng cho giòn lại."
+
+faq:
+  - q: Mắm nêm khác mắm ruốc và mắm tôm thế nào?
+    a: >-
+      **Mắm nêm** ủ từ **cá cơm** hoặc cá biển nhỏ, loãng, mùi nồng, pha xong có
+      hậu chua nhẹ. **Mắm ruốc** ủ từ **con ruốc**, đặc sệt, màu nâu ngả tím,
+      mặn mà có hậu ngọt. **Mắm tôm** thì tím đậm, loãng vừa, mùi mạnh nhất
+      trong ba thứ. Không thay nhau được — đổi một cái là ra món khác hẳn.
+  - q: Mít non thay bằng gì được?
+    a: >-
+      **Măng luộc** là thứ gần nhất về kết cấu, nhiều người ăn còn tưởng mít non
+      chính là măng. **Đu đủ xanh luộc** cũng dùng được. Nhưng mít non có cái
+      bùi riêng mà hai thứ kia không có, nên nếu chợ có thì đáng công đi tìm.
+  - q: Mắm nêm nồng quá, nhà có người không chịu được mùi?
+    a: >-
+      Ba cách, dùng chung càng tốt: tăng **thơm băm** lên gấp rưỡi; **đun lăn
+      tăn** cho bay bớt phần hăng nhất; và vắt **tắc** lúc mắm đã nguội. Vẫn
+      không ổn thì pha thêm một chén nước mắm chua ngọt để bên cạnh — chuyện
+      thường ở mâm miền Trung.
+  - q: Làm trước được phần nào?
+    a: >-
+      Mắm nêm pha trước **2–3 ngày** để ngăn mát thì càng ngấm. Mít non luộc và
+      xé sợi để được **1 ngày**. Riêng rau bào và thịt quay thì làm trong ngày,
+      và xắt thịt ngay trước lúc dọn.
+
+ticker:
+  - icon: meat
+    text: Bún mắm nêm thịt quay da giòn
+  - icon: pod
+    text: Mít non xé sợi ngậm đầy mắm

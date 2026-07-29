@@ -1,0 +1,370 @@
+title: Bánh khoái Huế **nhỏ, dày, giòn — chấm nước lèo**
+summary: >-
+  Không phải bánh xèo thu nhỏ: bánh khoái đổ khuôn gang nhỏ, **dày và giòn rụm**,
+  có trứng, và chấm bằng **nước lèo** — thứ sốt sánh đặc từ gan heo, mè và đậu phộng.
+region: Miền Trung
+category: Chiên
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 15 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 24
+art: banh-khoai
+heroEyebrow: Nghe tên đã thấy khoái…
+
+quick:
+  ingredients:
+    - Bột gạo [[250|g]] · trứng gà [[2|quả]] · bột nghệ [[0.5|muỗng cà phê|frac]]
+    - Tôm đất [[200|g]] · thịt nạc dăm [[200|g]] · giá [[200|g]]
+    - "Nước lèo: gan heo [[100|g]] · thịt nạc xay [[100|g]] · tương đậu nành [[3|muỗng canh|frac]]"
+    - Mè rang [[3|muỗng canh|frac]] · đậu phộng rang giã [[4|muỗng canh|frac]]
+    - Rau kèm — xà lách, trái vả, chuối chát, khế, rau thơm [[400|g]]
+  steps:
+    - Pha bột gạo + trứng + nghệ + nước, để **nghỉ 30 phút** cho bột nở.
+    - "Làm nước lèo: xào gan + thịt xay, cho tương, thêm mè và đậu phộng, khuấy tới sánh."
+    - Khuôn gang thật nóng, tráng dầu, đổ bột **dày hơn bánh xèo**, xếp tôm thịt lên.
+    - Rắc giá, đậy nắp **2 phút**, mở ra chiên tiếp cho **rìa vàng giòn**, gấp đôi.
+    - Cắt bánh làm đôi, kẹp rau, chan hoặc chấm ngập nước lèo.
+  warning: >-
+    Khuôn chưa đủ nóng mà đổ bột là bánh **dính đáy và mềm oặt**. Nhỏ một giọt
+    bột xuống, nghe **xèo** và se lại ngay thì mới đổ mẻ đầu.
+
+flavor:
+  chua: 3
+  ngot: 5
+  man: 6
+  cay: 3
+  thom: 8
+flavorNote: >-
+  **Chuẩn bánh:** bẻ đôi nghe **rắc**, rìa vàng sậm và giòn tan, giữa còn mềm
+  ẩm; chan nước lèo lên thì sánh bám vào mặt bánh chứ không chảy tuột.
+storyEyebrow: Chuyện món ăn
+storyTitle: Có thể **cái tên đến từ làn khói**
+story:
+  - >-
+    Người Huế kể rằng ngày trước bánh này đổ trên bếp củi, mà Huế thì mưa dầm,
+    củi ẩm — đổ bánh là **khói mù cả gian bếp, xè cay mắt**. Vậy nên gọi là
+    "bánh khói"; giọng Huế đọc chữ *khói* nghe gần như *khoái*, lâu dần thành
+    **bánh khoái**. Cũng có người bảo đơn giản là bánh ăn khoái miệng nên gọi
+    vậy. Cả hai đều là giai thoại, chưa ai chốt được.
+  - >-
+    Điều chắc chắn hơn là **bánh khoái không phải bánh xèo**, dù nhìn thoáng qua
+    hao hao. Bánh xèo miền Tây đổ chảo lớn, mỏng tang, rộng cả gang tay, cuốn với
+    bánh tráng. Bánh khoái đổ trong **khuôn gang nhỏ**, dày gấp đôi, nhiều dầu
+    hơn nên **giòn rụm tới giữa bánh**, và trong bột có **trứng** nên mặt bánh
+    vàng đậm và chắc tay.
+  - >-
+    Nhưng chỗ khác nhau lớn nhất nằm ở chén chấm. Bánh xèo chấm **nước mắm chua
+    ngọt** loãng, trong. Bánh khoái chấm **nước lèo** — mà "nước lèo" ở đây
+    không phải nước dùng như thường hiểu, mà là **một thứ sốt sánh đặc** nấu từ
+    gan heo băm, thịt nạc xay, tương đậu nành, mè rang và đậu phộng giã. Màu nâu
+    đục, sánh như cháo đặc, mặn bùi và thơm ngậy.
+  - >-
+    Người Huế nói không có nước lèo thì bánh khoái không còn là bánh khoái nữa —
+    và quả thật, mất chén nước lèo thì nó chỉ còn là một cái bánh chiên giòn.
+    Nên nếu chỉ làm được một nửa công thức này, hãy làm nửa nước lèo.
+
+ingredientGroups:
+  - name: Bột bánh
+    icon: rice
+    items:
+      - id: botgao
+        name: Bột gạo
+        icon: rice
+        base: 250
+        unit: g
+        note: Bột gạo tẻ — đừng dùng bột nếp, bánh sẽ dẻo chứ không giòn
+      - id: trung
+        name: Trứng gà
+        icon: egg
+        color: gold
+        base: 2
+        unit: quả
+        note: Đánh tan vào bột — đây là chỗ khác bánh xèo
+      - id: botnghe
+        name: Bột nghệ
+        icon: jar
+        color: gold
+        base: 0.5
+        unit: muỗng cà phê
+        frac: true
+        note: Chỉ để lấy màu vàng, cho nhiều là đắng
+      - id: hanhla
+        name: Hành lá xắt nhỏ
+        icon: herb
+        color: green
+        base: 1
+        unit: nhúm
+        note: Trộn vào bột lúc sắp đổ
+  - name: Nhân bánh
+    icon: shrimp
+    items:
+      - id: tom
+        name: Tôm đất còn vỏ
+        icon: shrimp
+        color: red
+        base: 200
+        unit: g
+        note: Tôm nhỏ để nguyên con, cắt râu — nướng lên đỏ đẹp
+      - id: thit
+        name: Thịt nạc dăm xắt lát mỏng
+        icon: meat
+        base: 200
+        unit: g
+        note: Ướp chút nước mắm tiêu trước 15 phút
+      - id: gia
+        name: Giá sống
+        icon: sprout
+        color: green
+        base: 200
+        unit: g
+        note: Rắc lên lúc bánh gần se mặt
+  - name: Nước lèo
+    icon: spoon
+    items:
+      - id: gan
+        name: Gan heo
+        icon: meat
+        color: red
+        base: 100
+        unit: g
+        note: Rửa sạch, băm thật nhuyễn — thứ tạo độ sánh và vị bùi đặc trưng
+      - id: thitxay
+        name: Thịt nạc xay
+        icon: meat
+        base: 100
+        unit: g
+        note: Xào chung với gan cho nước lèo có cái để nhai
+      - id: tuong
+        name: Tương đậu nành
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Loại tương hột ủ từ đậu nành, mặn đậm — xương sống của nước lèo
+      - id: melac
+        name: Mè rang + đậu phộng rang giã
+        icon: pod
+        color: gold
+        base: 7
+        unit: muỗng canh
+        frac: true
+        note: Giã thô, cho vào cuối — vừa làm sánh vừa cho bùi
+      - id: botnang
+        name: Bột năng hòa nước
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Chỉ dùng nếu nước lèo chưa đủ sánh, cho từng chút một
+  - name: Rau ăn kèm
+    icon: lettuce
+    items:
+      - id: xalach
+        name: Xà lách + rau thơm
+        icon: lettuce
+        color: green
+        base: 250
+        unit: g
+        note: Lá to để cuốn miếng bánh, lá nhỏ để kẹp
+      - id: va
+        name: Trái vả xắt lát
+        icon: flower
+        color: green
+        base: 2
+        unit: trái
+        note: >-
+          Trái họ với sung, người Huế ăn sống — giòn, chát nhẹ. Xắt lát ngâm
+          nước chanh cho khỏi thâm; không có thì thay bằng chuối chát
+      - id: chuoichat
+        name: Chuối chát + khế chua
+        icon: stem
+        color: green
+        base: 150
+        unit: g
+        note: Xắt lát mỏng, ngâm nước chanh
+
+steps:
+  - title: Pha bột, để bột nghỉ
+    icon: spoon
+    minutes: 35 phút
+    bullets:
+      - text: >-
+          Hòa [[250|g]] bột gạo với [[500|ml]] nước, đánh tan **2 quả trứng** và
+          [[0.5|muỗng cà phê|frac]] bột nghệ vào, thêm chút muối. Khuấy cho hết
+          lợn cợn.
+      - text: >-
+          Để bột **nghỉ 30 phút**. Bột nghỉ thì hạt bột nở đều, đổ ra bánh mới
+          mịn mặt và giòn lâu; đổ ngay là bánh lợn cợn và mau ỉu.
+      - text: Trước khi đổ mới trộn hành lá vào — trộn sớm thì hành thâm đen.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ủ bột · 30:00
+      doneMsg: Bột nghỉ đủ rồi — trộn hành lá vào là đổ được!
+    callout:
+      type: tip
+      text: >-
+        Bột phải **loãng vừa** — múc lên chảy thành dòng liền chứ không nhểu
+        từng giọt. Đặc quá thì bánh nặng và bết; loãng quá thì không đủ dày để
+        gọi là bánh khoái.
+  - title: Nấu nước lèo — làm trước cho thong thả
+    icon: pot
+    minutes: 25 phút
+    intro: "Đây là phần quan trọng nhất, nên làm trước rồi hẵng đổ bánh:"
+    bullets:
+      - label: "Xào:"
+        text: >-
+          Phi thơm hành tỏi băm, cho **gan heo băm nhuyễn** vào xào lửa lớn cho
+          săn và hết mùi tanh, rồi tới **thịt nạc xay**, đảo tới khi tơi ra.
+      - label: "Cho tương:"
+        text: >-
+          Thêm [[3|muỗng canh|frac]] tương đậu nành + [[1|muỗng canh|frac]]
+          đường + chừng [[300|ml]] nước. Hạ lửa nhỏ, **riu 10 phút** cho quyện.
+      - label: "Làm sánh:"
+        text: >-
+          Cho **mè rang và đậu phộng giã** vào, khuấy đều — tự nó sẽ sánh lại.
+          Còn loãng thì rưới từng chút bột năng hòa nước, khuấy tới khi **múc
+          lên nhểu chậm từ muỗng**.
+    timer:
+      secs: 600
+      label: Hẹn giờ riu nước lèo · 10:00
+      doneMsg: Cho mè và đậu phộng vào, khuấy cho sánh nghen!
+    callout:
+      type: warn
+      text: >-
+        Nước lèo **loãng là hỏng cả món** — chan lên bánh sẽ chảy tuột xuống dĩa,
+        miếng bánh nhạt thếch. Thà đặc hơi quá rồi pha loãng ra, còn hơn ngược lại.
+  - title: Làm nóng khuôn cho đúng
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Dùng **khuôn gang nhỏ** đường kính 16–18 cm, hoặc chảo đáy dày cỡ đó.
+          Khuôn gang giữ nhiệt đều nên bánh giòn từ rìa vào giữa.
+      - text: >-
+          Đun khuôn **thật nóng** rồi mới tráng dầu. Thử bằng cách nhỏ một giọt
+          bột: nghe **xèo** và se lại ngay là được.
+      - text: >-
+          Bánh khoái cần **nhiều dầu hơn bánh xèo** — tráng chừng 2 muỗng canh,
+          láng khắp lòng khuôn.
+  - title: Đổ bánh — dày, và đậy nắp một lần
+    icon: flame
+    minutes: 20 phút
+    intro: "Mỗi bánh chừng 4 phút, làm lần lượt:"
+    bullets:
+      - label: "Xếp nhân:"
+        text: >-
+          Cho vài con tôm và mấy lát thịt vào khuôn, đảo nhanh cho tôm đỏ, dàn
+          đều ra lòng khuôn.
+      - label: "Đổ bột:"
+        text: >-
+          Múc một vá bột đổ vào, nghiêng khuôn cho bột láng đều. **Đổ dày hơn
+          bánh xèo** — chừng 4–5 mm, không tráng mỏng dính.
+      - label: "Đậy nắp:"
+        text: >-
+          Rắc giá lên mặt, **đậy nắp 2 phút** cho giá chín và mặt bánh se lại.
+      - label: "Mở nắp làm giòn:"
+        text: >-
+          Mở nắp, rưới thêm chút dầu quanh rìa, chiên tiếp **2 phút lửa vừa**
+          tới khi **rìa vàng sậm và cong lên**. Gấp đôi bánh lại, xúc ra dĩa.
+    timer:
+      secs: 120
+      label: Hẹn giờ đậy nắp · 02:00
+      doneMsg: Mở nắp ra, rưới dầu rìa cho giòn nghen!
+    callout:
+      type: warn
+      text: >-
+        Đậy nắp lâu quá là **bánh hấp chứ không phải bánh chiên** — mềm oặt, mất
+        hết cái giòn. Đúng 2 phút rồi mở nắp, phần còn lại để lửa lo.
+  - title: Dọn — cắt đôi, kẹp rau
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Bánh ra dĩa là **cắt làm đôi** ngay cho dễ gắp. Đừng chồng bánh lên
+          nhau, hơi nóng hấp ngược làm ỉu hết.
+      - text: >-
+          Cách ăn ở Huế: gắp nửa cái bánh vào chén, thêm xà lách, vả, chuối chát,
+          khế, rồi **chan nước lèo lên** — hoặc chấm ngập, tùy người.
+    doneText: Ăn ngay khi còn nóng — để nguội là uổng!
+
+tipsTitle: 4 chỗ **phân biệt** bánh khoái với bánh xèo
+tips:
+  - icon: flame
+    title: Khuôn nhỏ, bột dày, nhiều dầu
+    text: >-
+      Ba thứ này đi với nhau. Khuôn gang nhỏ giữ nhiệt đều; bột đổ dày 4–5 mm để
+      bánh có **ruột mềm bên trong lớp vỏ giòn**; dầu nhiều để rìa bánh chiên
+      chứ không nướng khô. Đổ mỏng như bánh xèo trong khuôn nhỏ thì ra một cái
+      bánh xèo bé, không phải bánh khoái.
+  - icon: egg
+    title: Trứng trong bột, không phải trên mặt
+    text: >-
+      Trứng đánh thẳng vào bột từ đầu — đó là lý do mặt bánh khoái **vàng đậm và
+      chắc tay** hơn hẳn. Đập trứng lên mặt bánh lúc đang chiên là cách của món
+      khác; làm vậy bánh sẽ ướt và khó giòn.
+  - icon: spoon
+    title: Nước lèo là cả món, không phải đồ chấm phụ
+    text: >-
+      Dành thời gian cho nồi nước lèo hơn là cho cái bánh. Gan phải băm thật
+      nhuyễn và xào cho **săn hẳn** trước khi cho tương, không thì còn mùi tanh.
+      Mè và đậu phộng cho vào **sau cùng** — cho sớm là chúng nở bung, nước lèo
+      bã ra.
+  - icon: lettuce
+    title: Rau chát mới cân được vị bùi
+    text: >-
+      Nước lèo bùi và mặn đậm, ăn vài miếng là ngán nếu chỉ có xà lách. **Trái
+      vả, chuối chát, khế** mới là bộ ba kéo lại — chát và chua cắt ngang cái
+      béo. Không kiếm được vả thì tăng chuối chát lên, đừng bỏ luôn.
+
+serve:
+  title: Dọn bánh khoái — **đổ tới đâu ăn tới đó**
+  paras:
+    - >-
+      Bánh khoái không đợi được. Ra khỏi khuôn chừng năm phút là lớp vỏ bắt đầu
+      mềm, mà cái giòn chính là lý do người ta làm món này. Nên đừng đổ sẵn cả
+      chồng rồi mới gọi cả nhà — cứ đổ một cái, ăn một cái, người đổ ăn sau cùng
+      cũng vui.
+    - >-
+      Muốn dọn cho đông người thì chia việc: một người đổ bánh, một người lo dĩa
+      rau và chén nước lèo. Nước lèo nấu sẵn từ trước, hâm nóng lại là được — nó
+      còn ngon hơn khi để qua vài giờ cho các vị quyện vào nhau.
+  aside:
+    title: Trên bàn cần có
+    intro: "Ba thứ, thiếu thứ nào cũng thấy trống:"
+    items:
+      - icon: spoon
+        text: "**Chén nước lèo** — mỗi người một chén riêng, chan cho thoải mái."
+      - icon: lettuce
+        text: "**Dĩa rau chát** — vả, chuối chát, khế xếp riêng góc."
+      - icon: chili
+        text: "**Ớt xanh xắt lát** — cắn một miếng giữa chừng cho tỉnh vị."
+
+faq:
+  - q: Không ăn được gan heo thì nấu nước lèo sao?
+    a: >-
+      Thay gan bằng **thịt nạc xay gấp đôi** cộng thêm một muỗng bột năng cho
+      sánh. Sẽ mất phần bùi đặc trưng, nhưng vẫn ra một chén nước lèo tử tế —
+      hơn hẳn việc đổi sang nước mắm chua ngọt, vì như vậy là ăn bánh xèo mất rồi.
+  - q: Không có khuôn gang thì dùng gì?
+    a: >-
+      **Chảo chống dính đáy dày, cỡ 18 cm** là gần nhất. Chảo mỏng cũng đổ được
+      nhưng nhiệt không đều, rìa giòn mà giữa còn mềm — chữa bằng cách hạ lửa
+      nhỏ hơn và chiên lâu hơn chút.
+  - q: Bánh cứ bị mềm, không giòn được, vì sao?
+    a: >-
+      Ba nguyên nhân theo thứ tự hay gặp: **khuôn chưa đủ nóng** lúc đổ; **đậy
+      nắp quá lâu** nên bánh bị hấp; và **ít dầu**. Sửa cả ba, đặc biệt là mở nắp
+      đúng sau 2 phút rồi rưới thêm dầu quanh rìa.
+  - q: Trái vả là trái gì, thay được không?
+    a: >-
+      **Vả** là trái cùng họ với sung, to hơn, người Huế xắt lát ăn sống — giòn
+      và chát nhẹ. Miền Nam ít bán; thay bằng **chuối chát** hoặc **sung** đều
+      được, cốt là giữ lại vị chát để cân với nước lèo béo bùi.
+
+ticker:
+  - icon: flame
+    text: Bánh khoái giòn rụm chấm nước lèo
+  - icon: pod
+    text: Nước lèo sánh đặc mè với đậu phộng

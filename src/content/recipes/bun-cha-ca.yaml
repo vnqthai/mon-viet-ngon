@@ -1,0 +1,353 @@
+title: Bún chả cá **chả chiên vàng, chả hấp trắng**
+summary: >-
+  Nước lèo nấu từ **xương và đầu cá**, không phải xương heo — ngọt thanh mà
+  không ngán. Một tô có đủ hai thứ chả: **chiên vàng giòn rìa** và **hấp trắng
+  mềm dai**.
+region: Miền Trung
+category: Món nước
+occasions: [Bữa sáng]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 14
+art: bun-cha-ca
+heroEyebrow: Dọc bờ biển miền Trung…
+
+quick:
+  ingredients:
+    - Phi lê cá thu (hoặc cá mối, cá cờ) [[500|g]] — làm chả
+    - Xương + đầu cá [[600|g]] — nấu nước lèo, xin thêm khi mua cá
+    - Bún tươi sợi nhỏ [[800|g]] · thơm [[0.25|trái|frac]] · cà chua [[2|trái]]
+    - Hành tím [[4|củ]] · gừng [[1|nhánh]] — nướng sém rồi mới thả nồi
+    - "Nêm: nước mắm [[2|muỗng canh|frac]] · đường [[1|muỗng cà phê|frac]] · muối"
+    - "Dọn kèm: giá, xà lách, bắp chuối bào, hành ngò · chén mắm ruốc + ớt tỏi giã"
+  steps:
+    - Quết cá với hành tỏi tiêu cho **dẻo quánh**, chia đôi — nửa hấp, nửa chiên.
+    - Nướng hành tím và gừng tới sém vỏ, rửa sạch tro.
+    - Hầm xương cá **25 phút thôi**, lọc lấy nước trong.
+    - Thả thơm + cà chua, nêm mắm muối đường, hớt bọt cho tới khi nước trong lại.
+    - Trụng bún, xếp hai thứ chả lên, chan nước sôi, rắc hành ngò.
+  warning: >-
+    Hầm xương cá quá tay là nước **đắng và tanh ngược** — xương cá không chịu
+    lửa lâu như xương heo. Canh đúng 25 phút rồi lọc liền.
+
+flavor:
+  chua: 3
+  ngot: 6
+  man: 6
+  cay: 3
+  thom: 7
+flavorNote: >-
+  **Chuẩn tô:** nước lèo **trong nhìn thấy đáy**, húp vào ngọt mà hậu vị nhẹ
+  tênh; miếng chả chiên cắn nghe **sựt**, miếng chả hấp thì mềm mà vẫn dai tay.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món **không có quê**, vì cả dải biển đều nhận
+story:
+  - >-
+    Đi dọc miền Trung, tỉnh nào có biển là tỉnh đó có bún chả cá — và tỉnh nào
+    cũng tin món của mình mới đúng. Vậy nên trang này **cố ý không gắn địa danh
+    vào tên món**: gắn một cái tên là mặc nhiên chê ba cái tên còn lại, trong
+    khi khác nhau nằm ở chỗ nêm chứ không phải chỗ đúng sai.
+  - >-
+    **Đà Nẵng** thả thêm rau củ vào nồi — **bí đỏ, bắp cải, cà chua, thơm** —
+    nên nước lèo ngọt dày hơn, thoảng chua, màu hơi cam. **Nha Trang** và **Quy
+    Nhơn** đi hướng ngược lại: nước chỉ nấu từ xương cá với hành tím nướng, để
+    **trong veo**, ai nêm thêm gì thì tự nêm ở tô. **Quảng Ngãi** nghiêng về chả
+    chiên, miếng dày và đậm hơn.
+  - >-
+    Công thức dưới đây nấu **nồi nước gốc** — xương cá, hành nướng, thơm, cà
+    chua — rồi ở bước cuối chỉ ra chỗ rẽ: muốn lối Đà Nẵng thì thả bí đỏ với
+    bắp cải, muốn lối Nha Trang – Quy Nhơn thì dừng lại và lọc cho thật trong.
+    Cùng một nồi, hai đường về.
+  - >-
+    Còn thứ làm nên món thì cả bốn nơi giống nhau: **chả cá phải quết tay**.
+    Cá xay máy nhuyễn quá thì miếng chả bở, cắn không có gì để nhớ. Quết cho
+    tới lúc khối cá dẻo dính, vỗ xuống thớt nghe **bộp** là được.
+
+ingredientGroups:
+  - name: Làm chả cá
+    icon: fish
+    items:
+      - id: cathu
+        name: Phi lê cá thu
+        icon: fish
+        color: amber
+        base: 500
+        unit: g
+        note: Cá mối, cá cờ, cá nhồng đều được — miễn thịt chắc
+      - id: hanhtoi
+        name: Hành tím + tỏi băm
+        icon: garlic
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cho vào lúc quết, thơm ngay từ trong miếng chả
+      - id: thila
+        name: Thì là + hành lá xắt nhuyễn
+        icon: herb
+        color: green
+        base: 1
+        unit: nhúm
+        note: Trộn vào chả hấp cho có màu xanh lấm tấm
+      - id: tieutrang
+        name: Tiêu trắng + đường + nước mắm
+        icon: jar
+        qtyText: 1 muỗng cà phê tiêu · 1 muỗng cà phê đường
+        note: Tiêu trắng thơm mà không làm chả đen mặt
+  - name: Nồi nước lèo
+    icon: pot
+    items:
+      - id: xuongca
+        name: Xương + đầu cá
+        icon: fish
+        base: 600
+        unit: g
+        note: Mua phi lê thì xin luôn xương — thường được cho không
+      - id: hanhtim
+        name: Hành tím nướng
+        icon: onion
+        base: 4
+        unit: củ
+        note: Nướng tới sém vỏ, đó là chỗ nước lèo có mùi
+      - id: gung
+        name: Gừng nướng
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Nướng rồi cạo vỏ cháy, đập dập
+      - id: thom
+        name: Thơm (dứa)
+        icon: pineapple
+        color: gold
+        base: 0.25
+        unit: trái
+        frac: true
+        note: Xắt lát dày — vị chua ngọt nền của cả nồi
+      - id: cachua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 2
+        unit: trái
+        note: Bổ múi cau, thả sau cùng cho khỏi nát
+      - id: bido
+        name: Bí đỏ + bắp cải
+        icon: pumpkin
+        color: gold
+        base: 200
+        unit: g
+        note: Chỉ dùng nếu nấu theo lối Đà Nẵng — xem bước 4
+  - name: Dọn tô
+    icon: bowl
+    items:
+      - id: bun
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 800
+        unit: g
+        note: Trụng lại nước sôi ngay trước khi chan
+      - id: rausong
+        name: Giá · xà lách · bắp chuối bào
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Bắp chuối bào ngâm nước chanh cho khỏi thâm
+      - id: mamruoc
+        name: Mắm ruốc
+        icon: jar
+        qtyText: 2 muỗng canh
+        note: >-
+          Mắm làm từ con ruốc (con moi) — đặc, nâu ngả tím, khác mắm tôm.
+          Dọn một chén riêng, ai thích đậm thì tự cho
+      - id: ottoi
+        name: Ớt tỏi giã
+        icon: chili
+        color: red
+        qtyText: 3 trái ớt · 2 tép tỏi
+        note: Giã thô trong cối, đừng xay — xay ra nước, mất cái sựt
+
+steps:
+  - title: Quết chả cá cho dẻo tay
+    icon: knife
+    minutes: 25 phút
+    intro: "Đây là bước quyết định — làm dối ở đây thì cả tô hỏng:"
+    bullets:
+      - label: "Lóc và ướp:"
+        text: >-
+          Phi lê cá lạng bỏ da, xắt miếng nhỏ, ướp với hành tỏi băm, [[1|muỗng
+          cà phê|frac]] tiêu trắng, [[1|muỗng cà phê|frac]] đường và chút nước
+          mắm. Để **15 phút** trong ngăn mát.
+      - label: "Quết:"
+        text: >-
+          Xay từng mẻ nhỏ, xay **nhấp nhả** chứ đừng xay liền một hơi — máy nóng
+          làm thịt cá chảy nhão. Trút ra tô, dùng muỗng **quết mạnh một chiều**
+          chừng 5 phút tới khi khối cá dẻo dính, vỗ xuống thớt nghe **bộp**.
+      - label: "Chia đôi:"
+        text: >-
+          Một nửa trộn thêm thì là + hành lá để **hấp**; nửa còn lại để trơn,
+          dành **chiên**.
+    callout:
+      type: warn
+      text: >-
+        Cá xay quá nhuyễn thành **bột cá**, miếng chả bở như bánh. Xay tới khi
+        còn thấy lợn cợn sợi thịt là dừng — phần dẻo do quết mà ra, không phải
+        do xay.
+  - title: Hấp một nửa, chiên một nửa
+    icon: flame
+    minutes: 25 phút
+    bullets:
+      - label: "Chả hấp:"
+        text: >-
+          Ém khối cá vào tô lòng nông, dàn dày chừng 2 cm, **hấp 15 phút**. Để
+          nguội hẳn rồi mới xắt miếng vuông — nóng mà xắt là nát mặt.
+      - label: "Chả chiên:"
+        text: >-
+          Nặn khối còn lại thành viên tròn dẹt dày 1 cm, chiên **lửa vừa** tới
+          vàng hai mặt. Vớt ra giấy thấm dầu.
+    timer:
+      secs: 900
+      label: Hẹn giờ hấp chả · 15:00
+      doneMsg: Chả chín rồi — để nguội hẳn mới xắt nghen!
+    callout:
+      type: tip
+      text: >-
+        Nhúng tay vào nước lạnh trước khi nặn thì cá không dính tay, viên chả ra
+        mặt láng đẹp.
+  - title: Nướng hành gừng, hầm xương cá
+    icon: pot
+    minutes: 30 phút
+    bullets:
+      - label: "Nướng:"
+        text: >-
+          Hành tím và gừng nướng trực tiếp trên lửa tới **sém vỏ**, rửa sạch tro
+          rồi đập dập. Bỏ qua bước này là nước lèo nhạt mùi thấy rõ.
+      - label: "Rửa xương:"
+        text: >-
+          Xương và đầu cá rửa muối, **trụng qua nước sôi** rồi xả lại — bước này
+          lấy đi phần lớn mùi tanh.
+      - label: "Hầm:"
+        text: >-
+          Cho xương cá + hành + gừng vào [[2.5|lít]] nước lạnh, sôi thì hạ nhỏ
+          lửa, hớt bọt, hầm **đúng 25 phút**. Lọc qua rây, bỏ xác.
+    timer:
+      secs: 1500
+      label: Hẹn giờ hầm xương cá · 25:00
+      doneMsg: Lọc liền nghen — để lâu là nước đắng!
+    callout:
+      type: warn
+      text: >-
+        Đừng bao giờ để nồi **sôi bùng**. Xương cá sôi mạnh là nước đục ngầu và
+        tanh, mà đã đục thì không cứu lại được.
+  - title: Nêm nồi — và chỗ rẽ hai lối
+    icon: spoon
+    minutes: 15 phút
+    intro: "Tới đây nồi nước gốc đã xong, chọn một trong hai đường:"
+    bullets:
+      - label: "Lối Đà Nẵng:"
+        text: >-
+          Thả **bí đỏ xắt khối + bắp cải cắt khúc** vào nấu [[10|phút]], rồi mới
+          tới thơm và cà chua. Nước ngọt dày hơn, ngả màu cam nhạt, thoảng chua.
+      - label: "Lối Nha Trang – Quy Nhơn:"
+        text: >-
+          Bỏ qua rau củ, chỉ thả thơm và cà chua, nấu [[5|phút]] rồi vớt ra.
+          Nước **trong veo**, vị nhẹ, để người ăn tự nêm ở tô.
+      - label: "Nêm chung:"
+        text: >-
+          [[2|muỗng canh|frac]] nước mắm + [[1|muỗng cà phê|frac]] đường + muối.
+          Nếm tới khi **ngọt trước, mặn sau, hậu vị nhẹ** là đạt.
+      - text: >-
+          Thả chả hấp và chả chiên vào nồi trước khi dọn **5 phút** cho chả ngấm
+          nước — đừng thả sớm, chả chiên sẽ mất rìa giòn.
+  - title: Dọn tô nóng
+    icon: bowl
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Bún trụng nước sôi, xóc ráo, cho vào tô. Xếp **chả chiên một bên, chả
+          hấp một bên** cho nhìn ra hai thứ.
+      - text: >-
+          Chan nước lèo đang sôi, rắc hành ngò xắt nhỏ và chút tiêu. Dọn kèm dĩa
+          rau sống, chén mắm ruốc và chén ớt tỏi giã.
+    doneText: Xong — bưng lên khi còn bốc khói!
+
+tipsTitle: 4 chỗ **quyết định** nồi bún chả cá
+tips:
+  - icon: fish
+    title: Xin bằng được xương và đầu cá
+    text: >-
+      Nấu nước lèo bằng xương heo thì ra một món khác hẳn — béo và nặng. Cái
+      ngọt **thanh, hơi mảnh** của bún chả cá chỉ có khi nấu từ chính con cá đã
+      lấy thịt làm chả. Mua phi lê nhớ xin xương, hàng cá thường cho không.
+  - icon: clock
+    title: 25 phút, không hơn
+    text: >-
+      Xương heo càng hầm càng ngọt, xương cá thì ngược lại: qua mốc 30–40 phút
+      là **chất đắng ra nước** và mùi tanh quay trở lại. Hẹn giờ đàng hoàng rồi
+      lọc, đừng ước chừng.
+  - icon: onion
+    title: Hành tím nướng là cái mùi người ta nhớ
+    text: >-
+      Hành tím sống thả vào chỉ cho vị. Nướng tới **sém vỏ** rồi mới thả thì nồi
+      nước có thêm tầng mùi khói ngọt — đó chính là thứ làm tô bún ăn ở nhà khác
+      tô mua ngoài hàng.
+  - icon: spoon
+    title: Mắm ruốc để riêng, đừng cho vào nồi
+    text: >-
+      Nêm mắm ruốc thẳng vào nồi là cả nồi đục và nồng, ai không quen sẽ bỏ tô.
+      Dọn một chén riêng — người ăn quen thì khuấy một muỗng vào tô mình, người
+      lạ vị thì để nguyên. Một nồi vừa lòng cả nhà.
+
+serve:
+  title: Tô bún sáng — **dọn nhanh, ăn nóng**
+  paras:
+    - >-
+      Bún chả cá là món ăn sáng, mà ăn sáng thì không ai chờ. Nấu nồi nước từ
+      tối hôm trước, chả cũng làm sẵn để ngăn mát — sáng ra chỉ việc bắc nồi lên
+      cho sôi lại, trụng bún là có tô nóng trong mười phút.
+    - >-
+      Rau sống đừng bỏ vào tô sẵn. Để một dĩa riêng, ai muốn ăn tới đâu bốc tới
+      đó — bắp chuối bào bỏ vào nước nóng sớm là mềm oặt, mất hết cái giòn.
+  aside:
+    title: Trên bàn nên có
+    intro: "Ba thứ dọn kèm, thiếu thì tô bún hụt một góc:"
+    items:
+      - icon: chili
+        text: "**Ớt tỏi giã** — giã thô trong cối, cay mà còn nghe sựt."
+      - icon: jar
+        text: "**Mắm ruốc** — một chén nhỏ, ai quen vị thì khuấy vào tô mình."
+      - icon: lime
+        text: "**Chanh và ớt xắt lát** — vắt vào lúc gần cuối tô, nước lèo bừng lên."
+
+faq:
+  - q: Không mua được cá thu thì thay bằng cá gì?
+    a: >-
+      **Cá mối, cá cờ, cá nhồng, cá rựa** đều làm chả ngon — miền biển vẫn dùng
+      lẫn lộn. Nguyên tắc chung là chọn **cá thịt chắc, ít mỡ**; cá thịt bở như
+      cá basa thì quết cách mấy cũng không dẻo.
+  - q: Lười quết thì mua chả cá làm sẵn được không?
+    a: >-
+      Được, ngoài chợ có bán cả chả chiên lẫn chả hấp. Nhưng vẫn nên **tự nấu
+      nồi nước lèo từ xương cá** — đó mới là phần làm nên món. Mua chả sẵn thì
+      thả vào nồi trước khi dọn 5 phút cho ngấm.
+  - q: Nước lèo bị đục thì chữa sao?
+    a: >-
+      Nếu do sôi mạnh thì khó cứu, nhưng vớt vát được: lọc qua rây lót khăn
+      xô, rồi đun lại **thật nhỏ lửa** và hớt bọt liên tục. Lần sau nhớ hai
+      điều — trụng xương trước khi hầm, và giữ nồi ở mức **lăn tăn**, không bao
+      giờ sôi bùng.
+  - q: Nấu lối Đà Nẵng hay lối Nha Trang thì ngon hơn?
+    a: >-
+      Không có lối nào hơn, chỉ có lối hợp bữa. Nhà có trẻ nhỏ hoặc ăn thay bữa
+      chính thì **lối Đà Nẵng** no và ngọt hơn nhờ bí đỏ, bắp cải. Muốn một tô
+      nhẹ buổi sáng, húp xong còn thấy nhẹ bụng thì **lối Nha Trang – Quy Nhơn**
+      đúng bài hơn.
+
+ticker:
+  - icon: fish
+    text: Chả chiên vàng, chả hấp trắng
+  - icon: drop
+    text: Nước lèo xương cá trong veo

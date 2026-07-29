@@ -1,0 +1,162 @@
+---
+/* Bún chả cá — tô nước thứ 11 của trang, nên chữ ký phải là thứ không tô nào khác có:
+   HAI THỨ CHẢ CÙNG MỘT TÔ. Chả CHIÊN vẽ thành LÁT CẮT: vành ngoài nâu vàng là lớp
+   vỏ chiên, ruột trong nhạt kem — chính cái vành đó phân biệt nó với viên thịt
+   (bản 1 vẽ khoanh tròn đặc, render ra nhìn y như thịt viên). Chả HẤP trắng ngà
+   vuông, lấm tấm thì là. Thêm MIẾNG BÍ ĐỎ có vỏ xanh và BẸ BẮP CẢI gân trắng nổi
+   trong nước hổ phách (lối Đà Nẵng) — không tô nào trên trang có rau củ nổi kiểu này.
+   Đạo cụ: dĩa mắm ruốc + ớt tỏi giã, thứ luôn có bên tô bún miền Trung.
+   id prefix: bcc */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô bún chả cá: lát chả cá chiên vành vàng ruột nhạt và chả cá hấp trắng, miếng bí đỏ và bẹ bắp cải nổi trong nước lèo, kèm dĩa mắm ruốc ớt tỏi">
+  <defs>
+    <linearGradient id="bccBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E9E2CC"/>
+    </linearGradient>
+    <linearGradient id="bccBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0AE58"/><stop offset="1" stop-color="#BE8630"/>
+    </linearGradient>
+    <linearGradient id="bccCrust" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#F0B855"/><stop offset="1" stop-color="#B4661C"/>
+    </linearGradient>
+    <!-- CHẢ CHIÊN — LÁT CẮT: vành ngoài là vỏ chiên vàng nâu, RUỘT TRONG nhạt kem.
+         Cái vành đó là chữ ký; vẽ khoanh đặc thì thành viên thịt ngay. -->
+    <g id="bccChaChien">
+      <ellipse cx="0" cy="4" rx="30" ry="17" fill="#7E3F0D"/>
+      <ellipse cx="0" cy="0" rx="30" ry="17" fill="url(#bccCrust)" stroke="#7E3F0D" stroke-width="2.4"/>
+      <ellipse cx="0" cy="0.5" rx="22" ry="10.5" fill="#F6E9C6" stroke="#D9B26C" stroke-width="1.6"/>
+      <!-- Ruột chả để TRƠN. Bản 2 chấm hai đốm sáng trong ruột, render ra thì mỗi
+           lát chả thành một khuôn mặt có hai con mắt — chỉ nhìn PNG mới thấy. -->
+      <path d="M-15 -4 C -8 -7 6 -7 14 -3" fill="none" stroke="#FDF6E2" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      <path d="M-24 -8 C -14 -14 12 -14 23 -9" fill="none" stroke="#FBE3AC" stroke-width="2.6" stroke-linecap="round" opacity=".85"/>
+    </g>
+    <!-- CHẢ HẤP: khối vuông trắng ngà, mặt phẳng, lấm tấm thì là xanh -->
+    <g id="bccChaHap">
+      <path d="M-24 8 L -24 -3 L 24 -9 L 24 2 Z" fill="#DED6BA" stroke="#B0A681" stroke-width="1.9" stroke-linejoin="round"/>
+      <path d="M-26 -3 L -5 -14 L 26 -9 L 5 1 Z" fill="#F9F4E4" stroke="#B0A681" stroke-width="1.9" stroke-linejoin="round"/>
+      <g fill="#5E8B3A">
+        <ellipse cx="-12" cy="-5" rx="2.8" ry="1.6" transform="rotate(-18 -12 -5)"/>
+        <ellipse cx="3" cy="-8" rx="2.6" ry="1.5" transform="rotate(12 3 -8)"/>
+        <ellipse cx="15" cy="-7" rx="2.2" ry="1.4" transform="rotate(-6 15 -7)"/>
+        <ellipse cx="-4" cy="-2" rx="2.3" ry="1.4" transform="rotate(22 -4 -2)"/>
+      </g>
+      <path d="M-19 -4 L 3 -13" stroke="#FFFDF4" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M198 236 C 187 210 213 194 202 166 C 195 148 209 136 205 120"/>
+    <path d="M262 230 C 252 204 278 190 267 162 C 260 144 274 132 270 114"/>
+    <path d="M326 238 C 316 214 340 200 330 174 C 324 158 336 146 333 132"/>
+  </g>
+  <ellipse cx="258" cy="416" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- TÔ sâu lòng -->
+  <path d="M 82 300 C 92 362 168 400 260 400 C 352 400 428 362 438 300 Z" fill="url(#bccBowl)"/>
+  <ellipse cx="260" cy="398" rx="58" ry="10" fill="#D8D0B6"/>
+  <ellipse cx="260" cy="296" rx="180" ry="46" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="296" rx="180" ry="46" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="260" cy="297" rx="164" ry="39" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- mặt nước lèo hổ phách -->
+  <ellipse cx="260" cy="299" rx="166" ry="39" fill="url(#bccBroth)"/>
+  <ellipse cx="200" cy="312" rx="46" ry="10" fill="#EFC77C" opacity=".26"/>
+  <ellipse cx="332" cy="308" rx="40" ry="9" fill="#EFC77C" opacity=".2"/>
+
+  <!-- sợi bún trắng ló lên mặt nước, mé trái dưới -->
+  <g fill="none" stroke="#FBF5E3" stroke-width="5" stroke-linecap="round" opacity=".95">
+    <path d="M124 306 C 150 299 178 306 202 300"/>
+    <path d="M136 317 C 160 311 186 317 208 312"/>
+    <path d="M154 326 C 176 321 198 326 218 322"/>
+  </g>
+  <g fill="none" stroke="#E4D9B4" stroke-width="2.2" stroke-linecap="round" opacity=".9">
+    <path d="M130 311 C 154 305 178 311 200 306"/>
+    <path d="M146 322 C 168 317 190 322 210 318"/>
+  </g>
+
+  <!-- RAU CỦ NỔI — chữ ký lối Đà Nẵng.
+       MIẾNG BÍ ĐỎ: múi cong có VỎ XANH SẪM chạy theo lưng, ruột cam vân dọc.
+       Bản 1 vẽ khối chữ nhật cam trơn, render ra nhìn như miếng phô mai. -->
+  <g transform="translate(158 280) rotate(-10)">
+    <path d="M-30 10 C -26 -8 -10 -18 8 -17 C 24 -16 32 -8 32 3 C 18 12 -8 16 -30 10 Z"
+          fill="#E88A20" stroke="#A9550C" stroke-width="2.2"/>
+    <path d="M-30 10 C -26 -8 -10 -18 8 -17 C 24 -16 32 -8 32 3 C 22 5 20 -6 6 -9 C -8 -12 -22 -2 -30 10 Z"
+          fill="#F5AC44"/>
+    <path d="M-30 10 C -20 14 6 16 32 3 L 32 8 C 8 20 -20 17 -31 13 Z" fill="#3E6B2A" stroke="#2C4E1D" stroke-width="1.6"/>
+    <g fill="none" stroke="#FBD08A" stroke-width="2" stroke-linecap="round" opacity=".85">
+      <path d="M-16 6 C -14 -4 -8 -10 0 -12"/>
+      <path d="M0 8 C 2 -2 8 -9 16 -11"/>
+      <path d="M15 8 C 17 0 22 -5 28 -6"/>
+    </g>
+  </g>
+  <!-- BẸ BẮP CẢI: gân trắng đậm nét. Đặt ở mé phải DƯỚI, không phải ngang hàng
+       với chả chiên — bản 2 để ngang hàng nên bị hai lát chả đè khuất gần hết. -->
+  <g transform="translate(358 318) rotate(12)">
+    <path d="M-28 8 C -24 -12 -6 -22 12 -20 C 28 -18 34 -6 30 8 C 16 15 -10 16 -28 8 Z"
+          fill="#CFDFAB" stroke="#93AC69" stroke-width="2.2"/>
+    <g fill="none" stroke="#FBFDF2" stroke-width="3.4" stroke-linecap="round">
+      <path d="M-18 9 C -16 -4 -9 -13 0 -16"/>
+      <path d="M-1 12 C 1 -1 8 -11 18 -14"/>
+      <path d="M14 11 C 17 2 23 -4 29 -6"/>
+    </g>
+    <g fill="none" stroke="#A7BE7C" stroke-width="1.7" stroke-linecap="round">
+      <path d="M-9 10 C -7 -2 -1 -11 8 -15"/>
+      <path d="M6 12 C 9 1 15 -7 24 -11"/>
+    </g>
+  </g>
+  <!-- múi cà chua, đặt hẳn lên mặt nước -->
+  <g transform="translate(246 322) rotate(-14)">
+    <path d="M-19 6 A 21 21 0 0 1 19 6 Z" fill="#D4472F" stroke="#A63220" stroke-width="2"/>
+    <path d="M-12 5 A 14 14 0 0 1 12 5 Z" fill="#EE7A5C" opacity=".9"/>
+    <g fill="#F7C2AE"><circle cx="-5" cy="1" r="2"/><circle cx="5" cy="1" r="2"/></g>
+  </g>
+
+  <!-- HAI THỨ CHẢ — chiên bên phải trên, hấp bên trái trên: cố ý tách hẳn hai bên
+       để cái vành vỏ chiên và mặt trắng của chả hấp đọc ra là hai thứ khác nhau -->
+  <use href="#bccChaHap" transform="translate(196 272) rotate(-5)"/>
+  <use href="#bccChaHap" transform="translate(248 282) rotate(4) scale(.96)"/>
+  <use href="#bccChaChien" transform="translate(326 266) rotate(-4)"/>
+  <use href="#bccChaChien" transform="translate(388 282) rotate(7) scale(.92)"/>
+  <use href="#bccChaChien" transform="translate(300 300) rotate(-2) scale(.86)"/>
+
+  <!-- hành lá + ngò rắc mặt -->
+  <g stroke="#4E7B36" stroke-width="3.4" stroke-linecap="round" fill="none">
+    <path d="M176 292 l12 -3 M286 258 l11 -2 M228 302 l10 -3 M344 322 l10 -3 M404 268 l9 -3"/>
+  </g>
+  <g fill="#3E6B2A">
+    <circle cx="212" cy="258" r="2.3"/><circle cx="300" cy="326" r="2.3"/><circle cx="356" cy="252" r="2.1"/>
+  </g>
+  <g fill="#4A3A20" opacity=".7">
+    <circle cx="266" cy="262" r="1.7"/><circle cx="322" cy="332" r="1.6"/><circle cx="192" cy="326" r="1.6"/>
+  </g>
+
+  <!-- ĐẠO CỤ: dĩa mắm ruốc + ớt tỏi giã — thứ luôn nằm cạnh tô bún miền Trung.
+       Vẽ to hẳn ra, bản 1 nhỏ quá nên chỉ đọc thành hai cái chấm. -->
+  <g transform="translate(102 400)">
+    <ellipse cx="0" cy="20" rx="56" ry="14" fill="rgba(15,26,14,.32)"/>
+    <ellipse cx="0" cy="8" rx="54" ry="17" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="6" rx="45" ry="13" fill="none" stroke="#E0A32E" stroke-width="1.8" stroke-dasharray="2 9" stroke-linecap="round"/>
+    <g transform="translate(-20 5)">
+      <ellipse cx="0" cy="0" rx="19" ry="9" fill="#6E4350" stroke="#472730" stroke-width="1.8"/>
+      <ellipse cx="-5" cy="-2" rx="8" ry="3.4" fill="#8E5D6C" opacity=".85"/>
+      <path d="M-12 4 C -4 7 8 6 14 3" fill="none" stroke="#A87C88" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+    </g>
+    <g transform="translate(22 5)">
+      <ellipse cx="0" cy="0" rx="19" ry="9" fill="#C4402C" stroke="#932C1C" stroke-width="1.8"/>
+      <g fill="#EA6E52"><ellipse cx="-7" cy="-1.4" rx="5" ry="2.6"/><ellipse cx="5" cy="1.6" rx="4" ry="2.2"/></g>
+      <g fill="#F6EDD4"><circle cx="9" cy="-2.4" r="2.4"/><circle cx="-2" cy="3" r="2"/><circle cx="13" cy="2.4" r="1.7"/></g>
+    </g>
+  </g>
+
+  <!-- ĐẠO CỤ: chanh cắt đôi + ớt trên bàn -->
+  <g transform="translate(420 410)">
+    <path d="M-17 5 A18 18 0 0 1 17 5 Z" fill="#E4ECB2" stroke="#9CB25C" stroke-width="2.2"/>
+    <path d="M0 5 0 -11 M0 5 -12 -3 M0 5 12 -3" stroke="#9CB25C" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(330 428) rotate(-10)">
+    <path d="M0 0 C 16 3 30 -2 38 -14" fill="none" stroke="#C0392B" stroke-width="8.5" stroke-linecap="round"/>
+    <path d="M38 -16 c 3 -5 8 -6 12 -5" fill="none" stroke="#4E7B36" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

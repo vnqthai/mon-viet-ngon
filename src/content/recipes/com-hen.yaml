@@ -1,0 +1,355 @@
+title: Cơm hến **cơm để nguội, nước hến chan nóng**
+summary: >-
+  Món Huế lạ ở chỗ **cơm không hâm lại** — cơm nguội trộn hến xào **mắm ruốc**,
+  tóp mỡ, đậu phộng và cả rổ rau bào, rồi chan bát **nước luộc hến** đục ngọt
+  còn bốc khói.
+region: Miền Trung
+category: Cơm
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 21
+art: com-hen
+heroEyebrow: Sáng ở xứ Huế…
+
+quick:
+  ingredients:
+    - Hến tươi [[2|kg]] — **ngâm trước 3 giờ** cho nhả hết cát
+    - Cơm trắng [[4|chén]] — nấu từ hôm trước, **để nguội hẳn**
+    - Mắm ruốc [[2|muỗng canh|frac]] — mắm đặc làm từ con ruốc, đặc sản xứ Huế
+    - Tóp mỡ [[100|g]] · đậu phộng rang [[100|g]] · mè rang [[2|muỗng canh|frac]]
+    - Bắp chuối bào, rau má, bạc hà (dọc mùng) xắt sợi, khế chua [[400|g]]
+    - "Nêm: hành tím, sả băm, ớt bột chưng dầu, gừng lát"
+  steps:
+    - Ngâm hến với nước vo gạo + vài lát ớt **3 giờ**, chà rửa nhiều lần cho sạch cát.
+    - Luộc hến tới khi **há miệng đều**, đãi lấy ruột — giữ lại toàn bộ nước luộc.
+    - Để nước luộc **lắng 20 phút**, gạn nhẹ lấy phần trong, bỏ cặn dưới đáy.
+    - Phi hành sả, xào ruột hến với mắm ruốc cho **săn và thấm**, để riêng.
+    - Đun nước hến với gừng lát, nêm nhạt tay — nước này để chan, không phải để nêm đậm.
+    - Xới cơm nguội ra tô, xếp hến, rau, tóp mỡ, đậu phộng, chan nước hến nóng.
+  warning: >-
+    Hến không ngâm đủ giờ là **cả tô sạn cát**, hỏng không cứu được. Ngâm 3 giờ,
+    thay nước 2–3 lần, và chà kỹ vỏ trước khi luộc.
+
+flavor:
+  chua: 4
+  ngot: 4
+  man: 7
+  cay: 7
+  thom: 7
+flavorNote: >-
+  **Chuẩn tô:** cơm mát, hến mặn thơm, rau giòn, tóp mỡ béo — húp một ngụm nước
+  hến nóng là mọi thứ ráp lại. Cay phải **cay thật**, đó là tô cơm cay nhất mâm Huế.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món sang trọng làm từ **những thứ rẻ nhất**
+story:
+  - >-
+    Cơm hến bắt đầu từ chỗ khiêm nhường: con hến bé xíu bắt ở bãi bồi trên sông,
+    tô cơm nguội còn lại từ bữa trước, ít rau vườn, ít tóp mỡ. Không thứ nào
+    đắt tiền. Vậy mà xếp chung vào một tô thì thành món ăn được nhắc tới mỗi khi
+    người ta kể về bếp Huế — vùng **Cồn Hến** giữa sông còn lấy luôn con hến
+    làm tên.
+  - >-
+    Chỗ khiến người lần đầu ngạc nhiên: **cơm không hâm nóng**. Cơm nguội, để
+    nguyên nhiệt độ phòng, xới ra tô rồi mới chan nước hến đang sôi. Đó không
+    phải sự cẩu thả mà là cách giữ cho **hạt cơm rời và săn**; cơm nóng mềm sẽ
+    hút nước, nhão ra, và tô cơm hến mất hết cái lạo xạo vốn có của nó.
+  - >-
+    Tô cơm hến đúng bài có tới hơn chục thứ, mỗi thứ một việc: **mắm ruốc** đưa vị
+    mặn nền, **tóp mỡ** cho béo, **đậu phộng và mè** cho bùi, **bắp chuối, rau
+    má, bạc hà** cho giòn mát, **khế** cho chua, **ớt** cho cay. Không thứ nào
+    đủ sức đứng một mình — nhưng bỏ bớt vài thứ là thấy hụt liền.
+  - >-
+    Và cay. Cơm hến nổi tiếng là món **cay nhất** trong mâm cơm Huế; hàng quán ở
+    Huế dọn ra là mặc định cay xé. Nấu ở nhà thì cứ nêm cay vừa sức mình, để hũ
+    ớt chưng bên cạnh cho ai muốn thêm.
+
+ingredientGroups:
+  - name: Hến và nước hến
+    icon: fish
+    items:
+      - id: hen
+        name: Hến tươi còn vỏ
+        icon: fish
+        color: amber
+        base: 2
+        unit: kg
+        note: >-
+          [[2|kg]] hến vỏ cho ra chừng [[250|g]] ruột. Chọn con còn khép miệng,
+          rờ vào thì ngậm lại
+      - id: gung
+        name: Gừng xắt lát
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Thả vào nồi nước hến lúc đun lại
+      - id: sabam
+        name: Sả + hành tím băm
+        icon: garlic
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Phi thơm trước khi xào hến
+      - id: mamruoc
+        name: Mắm ruốc
+        icon: jar
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Mắm đặc, nâu ngả tím, ủ từ con ruốc (con moi) — không phải mắm tôm,
+          cũng không phải ruốc bông ăn với cháo
+  - name: Cơm và đồ béo bùi
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nấu từ hôm trước
+        icon: rice
+        base: 4
+        unit: chén
+        note: Để nguội hẳn, xới rời hạt — tuyệt đối không hâm lại
+      - id: topmo
+        name: Tóp mỡ
+        icon: meat
+        color: gold
+        base: 100
+        unit: g
+        note: Thắng từ mỡ heo, để thật ráo cho giòn lâu
+      - id: dauphong
+        name: Đậu phộng rang giã thô
+        icon: pod
+        color: gold
+        base: 100
+        unit: g
+        note: Giã dối thôi, còn thấy nửa hạt là vừa
+      - id: me
+        name: Mè rang
+        icon: pod
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Rang tới lúc nghe nổ lách tách là đủ
+      - id: banhtrangbop
+        name: Bánh tráng nướng bóp vụn
+        icon: roll
+        color: gold
+        qtyText: 1 cái
+        note: Rắc mặt tô cho có tiếng rôm rốp — có thì hay, thiếu vẫn được
+  - name: Rổ rau bào
+    icon: lettuce
+    items:
+      - id: bapchuoi
+        name: Bắp chuối bào
+        icon: flower
+        color: green
+        base: 200
+        unit: g
+        note: Bào xong ngâm nước chanh ngay, để lâu là thâm đen
+      - id: rauma
+        name: Rau má
+        icon: herb
+        color: green
+        base: 100
+        unit: g
+        note: Nhặt lá, rửa sạch, để ráo
+      - id: bacha
+        name: Bạc hà (dọc mùng)
+        icon: stem
+        color: green
+        base: 100
+        unit: g
+        note: >-
+          Cọng xốp của cây môn nước, **không phải rau bạc hà thơm** — tước vỏ,
+          xắt xéo, bóp muối rồi xả kỹ
+      - id: khe
+        name: Khế chua
+        icon: flower
+        color: green
+        base: 2
+        unit: trái
+        note: Xắt lát mỏng hình ngôi sao
+      - id: otchung
+        name: Ớt bột chưng dầu
+        icon: chili
+        color: red
+        qtyText: 3 muỗng canh
+        note: Phi ớt bột với dầu nóng — vừa cay vừa cho tô màu đỏ óng
+
+steps:
+  - title: Ngâm hến cho nhả cát
+    icon: drop
+    minutes: 3 giờ
+    intro: "Chậm nhưng không được cắt bớt — cả món hỏng hay không nằm ở đây:"
+    bullets:
+      - label: "Ngâm:"
+        text: >-
+          Đổ hến vào thau nước vo gạo, thả vài lát ớt, ngâm **3 giờ**. Thay nước
+          2–3 lần; nước nào cũng thấy lắng một lớp cát dưới đáy.
+      - label: "Chà rửa:"
+        text: >-
+          Dùng tay chà mạnh vỏ hến vào nhau dưới vòi nước, rửa lại tới khi nước
+          trong. Bỏ con nào **há miệng sẵn mà không ngậm lại** khi chạm vào.
+    callout:
+      type: warn
+      text: >-
+        Ngâm cho có lệ là tô cơm **sạn cát**, ăn một miếng là bỏ đũa. Không có
+        cách nào cứu ở bước sau, nên thà chờ đủ 3 giờ.
+  - title: Luộc hến, giữ bằng được nước luộc
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - label: "Luộc:"
+        text: >-
+          Cho hến vào nồi với [[2|lít]] nước lạnh, đun tới khi **hến há miệng
+          đều** thì tắt bếp ngay — chừng 8–10 phút. Luộc quá là ruột hến teo lại
+          và dai.
+      - label: "Đãi ruột:"
+        text: >-
+          Trút hến ra rổ đặt trong thau nước, **đãi và khuấy** cho ruột rơi
+          xuống, vỏ nổi lên hớt bỏ. Nhặt lại lần nữa cho hết mảnh vỏ vụn.
+      - label: "Gạn nước:"
+        text: >-
+          Nước luộc để **lắng 20 phút**, rồi nghiêng nồi **gạn nhẹ lấy phần
+          trong**, bỏ lớp cặn dưới đáy. Đây là bát nước chan của cả món — đừng
+          đổ đi.
+    timer:
+      secs: 1200
+      label: Hẹn giờ để nước hến lắng · 20:00
+      doneMsg: Gạn nhẹ tay lấy phần trong nghen — chừa cặn lại!
+    callout:
+      type: tip
+      text: >-
+        Mua được **hến đã đãi sẵn** ngoài chợ thì đỡ hẳn hai bước, nhưng nhớ xin
+        thêm một bịch **nước luộc hến** — không có nước đó thì không thành cơm hến.
+  - title: Xào hến với mắm ruốc
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Phi thơm [[3|muỗng canh|frac]] sả + hành tím băm với chút dầu.
+      - text: >-
+          Cho ruột hến vào xào **lửa lớn** cho ráo nước, rồi hạ lửa, thêm
+          [[2|muỗng canh|frac]] mắm ruốc đã hòa loãng với chút nước hến.
+      - text: >-
+          Đảo tới khi hến **săn lại, thấm màu nâu và dậy mùi**, chừng 5 phút.
+          Nêm chút đường và tiêu. Trút ra tô để riêng.
+    callout:
+      type: warn
+      text: >-
+        Cho mắm ruốc thẳng vào chảo mà chưa hòa loãng thì ruốc **vón cục và
+        cháy khét**, cả mẻ hến thành đắng. Hòa với nước hến trước, luôn luôn.
+  - title: Đun nồi nước hến
+    icon: pot
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Bắc phần nước trong đã gạn lên bếp, thả **gừng lát**, đun sôi rồi hạ
+          nhỏ lửa giữ nóng.
+      - text: >-
+          Nêm **rất nhạt tay** — chút muối, chút nước mắm là đủ. Nước này chan
+          vào tô đã có mắm ruốc, có tóp mỡ, nêm đậm là cả tô mặn chát.
+    callout:
+      type: tip
+      text: >-
+        Nước hến đục là **đúng**, không phải nấu hỏng. Cái đục sữa nhạt đó chính
+        là vị ngọt của con hến — nồi nước trong veo mới là nồi đã bị gạn quá tay.
+  - title: Xếp tô — thứ tự có lý của nó
+    icon: bowl
+    minutes: 10 phút
+    intro: "Xếp theo lớp, đừng trộn sẵn:"
+    bullets:
+      - text: >-
+          Đáy tô: **cơm nguội** xới rời. Trên cơm: bắp chuối bào, rau má, bạc
+          hà, khế — trải thành lớp rau.
+      - text: >-
+          Kế đến **hến xào**, rồi rắc tóp mỡ, đậu phộng, mè, bánh tráng bóp vụn.
+          Thêm một muỗng ớt chưng lên mặt.
+      - text: >-
+          Chan **nước hến đang sôi** quanh thành tô, chừng nửa tô. Trộn đều rồi
+          ăn ngay — trộn sớm quá thì rau mềm và bánh tráng ỉu.
+    doneText: Trộn đều lên — ăn liền nghen!
+
+tipsTitle: 4 điều **đừng làm khác** với cơm hến
+tips:
+  - icon: rice
+    title: Đừng hâm nóng cơm
+    text: >-
+      Đây là chỗ ai nấu lần đầu cũng muốn "sửa lại cho đúng" — và sửa là hỏng.
+      Cơm nóng gặp nước hến sẽ **hút nước và nhão**, tô cơm bết lại thành cháo
+      loãng. Cơm nguội thì hạt rời, thấm mà vẫn săn. Nấu cơm hơi khô hơn thường
+      ngày một chút là vừa.
+  - icon: drop
+    title: Nước luộc hến quý hơn con hến
+    text: >-
+      Nhiều người luộc xong đổ nước đi, chỉ giữ ruột — thế là mất phần hồn. Vị
+      ngọt của cơm hến nằm gần hết trong **nồi nước đục** ấy. Gạn lấy phần
+      trong, bỏ cặn, và đừng pha thêm nước lã cho nhiều.
+  - icon: jar
+    title: Mắm ruốc hòa loãng trước khi vào chảo
+    text: >-
+      Mắm ruốc đặc quánh, thả nguyên vào chảo nóng là **vón cục rồi cháy**, cả
+      mẻ hến đắng. Múc ruốc ra chén, hòa với vài muỗng nước hến cho tan đều, rồi
+      mới đổ vào — mất mười giây mà cứu cả món.
+  - icon: lettuce
+    title: Rau bào xong là ngâm chanh ngay
+    text: >-
+      Bắp chuối bào để ngoài không khí chừng vài phút là **thâm đen**, nhìn hết
+      muốn ăn. Bào tới đâu thả ngay vào thau nước pha chanh tới đó, lúc dọn mới
+      vớt ra vẩy ráo. Bạc hà thì tước vỏ, bóp muối rồi **xả thật kỹ** cho hết ngứa.
+
+serve:
+  title: Ăn cơm hến — **tô cơm và bát nước**
+  paras:
+    - >-
+      Ở Huế, cơm hến thường dọn hai phần: **tô cơm đã xếp đủ thứ** và **bát nước
+      hến nóng để riêng**. Ai thích ăn khô thì chan ít, húp nước riêng; ai thích
+      ướt thì chan ngập rồi trộn. Dọn ở nhà cứ theo cách đó — người ăn tự liệu
+      lấy độ ướt của mình.
+    - >-
+      Cùng nồi hến ấy còn ra được **bún hến** và **cháo hến**: đổi cơm nguội
+      lấy bún tươi, hoặc nấu nước hến với gạo cho nhừ. Ngâm hến một lần, ăn
+      được ba kiểu.
+  aside:
+    title: Trên mâm nên có
+    intro: "Ba thứ để bên cạnh, ai thích thì tự thêm:"
+    items:
+      - icon: chili
+        text: "**Hũ ớt chưng** — cơm hến vốn cay, nhưng cay tới đâu để người ăn quyết."
+      - icon: lime
+        text: "**Khế và chanh** — chua thêm một nấc là tô cơm bừng lên."
+      - icon: bowl
+        text: "**Bát nước hến nóng** — dọn riêng, húp giữa chừng cho ấm bụng."
+
+faq:
+  - q: Không mua được hến thì thay bằng gì?
+    a: >-
+      **Nghêu hoặc chem chép** thay được, cách làm y hệt — luộc, đãi ruột, giữ
+      nước. Vị sẽ đậm và to miếng hơn, không mảnh và thanh như hến, nhưng vẫn ra
+      đúng tinh thần món. Nhớ ngâm nhả cát kỹ như với hến.
+  - q: Mắm ruốc khác mắm tôm thế nào?
+    a: >-
+      **Mắm ruốc** ủ từ con ruốc (miền Bắc gọi là con moi) trong nửa năm trở
+      lên, đặc sệt, màu nâu ngả tím, mặn mà có hậu ngọt. **Mắm tôm** ủ nhanh
+      hơn, loãng hơn, màu tím đậm và mùi mạnh hơn hẳn. Hai thứ không thay nhau
+      được — đổi là ra món khác.
+  - q: Bạc hà trong công thức có phải lá bạc hà pha trà không?
+    a: >-
+      Không, đây là chỗ dễ nhầm nhất. **Bạc hà** ở miền Trung – Nam là **dọc
+      mùng**: cọng xốp của một loại cây họ môn, tước vỏ rồi xắt xéo, ăn giòn và
+      hút nước dùng. Không liên quan gì tới rau bạc hà thơm. Nhớ **bóp muối và
+      xả thật kỹ**, làm dối là ngứa cổ.
+  - q: Nấu trước được bao lâu?
+    a: >-
+      Hến xào và nước hến để ngăn mát được **2 ngày**. Rau bào thì làm trong
+      ngày, để qua đêm là mềm oặt và thâm. Sáng ra chỉ việc hâm nóng nước hến,
+      bào rau mới, xới cơm nguội ra là xong tô.
+
+ticker:
+  - icon: rice
+    text: Cơm hến — cơm nguội chan nước nóng
+  - icon: chili
+    text: Tô cơm cay nhất mâm Huế

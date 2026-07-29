@@ -1,0 +1,307 @@
+title: Mắm ruốc xào thịt ba chỉ **sả nhiều, ăn hao cơm**
+summary: >-
+  Thịt ba chỉ xắt que xào săn với **thật nhiều sả băm** rồi rim trong mắm ruốc
+  cho khô ráo, bóng mỡ. Một hũ để tủ lạnh, bữa nào lười thì xới cơm nóng ra là
+  xong bữa.
+region: Miền Trung
+category: Xào
+occasions: [Cơm nhà]
+pubDate: 2026-07-29
+time:
+  total: 40 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 35
+art: mam-ruoc-xao
+heroEyebrow: Hũ mặn để dành…
+
+quick:
+  ingredients:
+    - Thịt ba chỉ [[500|g]] — xắt que cỡ ngón út
+    - Mắm ruốc [[3|muỗng canh|frac]] — mắm đặc màu nâu tím, ủ từ con ruốc
+    - Sả [[5|cây]] băm nhuyễn · hành tím [[3|củ]] · tỏi [[1|củ]]
+    - Ớt sừng [[3|trái]] · ớt bột [[1|muỗng cà phê|frac]] — tùy sức ăn cay
+    - Đường [[2|muỗng canh|frac]] · dầu ăn — **không thêm muối hay nước mắm**
+  steps:
+    - Chà thịt với muối, rửa sạch, để thật ráo rồi xắt que.
+    - Hòa mắm ruốc với [[4|muỗng canh|frac]] nước, khuấy tan, để lắng rồi gạn lấy phần nước.
+    - Phi hành tỏi, cho thịt vào xào **lửa lớn** tới săn và tứa mỡ.
+    - Cho sả băm vào, đảo tới khi **sả khô ráo và dậy mùi** mới tới ớt.
+    - Rót nước mắm ruốc vào, hạ lửa, rim tới khi cạn và thịt **bóng lên**; cho đường sau cùng.
+  warning: >-
+    Cho sả vào cùng lúc với thịt là sả **hấp trong nước thịt rồi ỉu**, mất sạch
+    mùi thơm. Đợi thịt săn và tứa mỡ ra rồi mới thả sả.
+
+flavor:
+  chua: 0
+  ngot: 3
+  man: 8
+  cay: 6
+  thom: 9
+flavorNote: >-
+  **Chuẩn chảo:** thịt khô ráo và **bóng lên chứ không ướt nước**, sả vàng lấm
+  tấm bám quanh que thịt, gắp lên không nhểu. Mặn đậm nhưng có hậu ngọt kéo lại.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món của **những ngày không đi chợ**
+story:
+  - >-
+    Bếp miền Trung nào cũng có một hũ mắm ruốc — thứ mắm đặc sệt, màu nâu ngả
+    tím, ủ từ **con ruốc** (miền Bắc gọi là con moi) suốt nửa năm trở lên. Nó
+    mặn, nó nồng, và nó là chỗ dựa của cả gian bếp vào những ngày mưa dầm không
+    ra chợ được.
+  - >-
+    Đem hũ mắm ấy xào với thịt ba chỉ và một nắm sả băm là ra món này. Cách làm
+    gần như không có gì để sai: xào, rim, cạn nước. Nhưng chỗ tinh nằm ở **thứ
+    tự** — sả phải vào sau khi thịt đã tứa mỡ, và mắm ruốc phải hòa loãng trước
+    khi rót vào chảo. Đảo hai thứ tự đó thì món vẫn ăn được, chỉ là thành một
+    món khác, nhạt mùi hơn hẳn.
+  - >-
+    Đây cũng là món **để dành** đúng nghĩa. Rim cho thật khô, cho vào hũ sạch,
+    cất ngăn mát thì ăn được cả tuần lễ mà càng để càng thấm. Nhà có người đi
+    học đi làm xa, mẹ hay gói theo một hũ — mở ra là có ngay bữa cơm.
+  - >-
+    Ăn thì đơn giản: **cơm nóng, dưa leo xắt lát, ít rau sống**. Vị mặn của mắm
+    và cái nồng của sả cần cơm trắng để dịu lại; ăn không với cơm thì gắt.
+
+ingredientGroups:
+  - name: Thịt và mắm
+    icon: meat
+    items:
+      - id: bachi
+        name: Thịt ba chỉ
+        icon: meat
+        color: red
+        base: 500
+        unit: g
+        note: >-
+          Chọn miếng nạc mỡ xen đều, còn da càng ngon — mỡ là thứ giữ cho món
+          bóng chứ không khô cứng
+      - id: mamruoc
+        name: Mắm ruốc
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Mắm đặc màu nâu ngả tím, ủ từ con ruốc — không phải mắm tôm (loãng và
+          tím đậm hơn), cũng không phải ruốc bông
+      - id: duong
+        name: Đường
+        icon: jar
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cho vào cuối cùng — kéo vị mặn xuống và làm thịt bóng lên
+  - name: Sả, hành, ớt
+    icon: herb
+    items:
+      - id: sa
+        name: Sả băm nhuyễn
+        icon: stem
+        color: green
+        base: 5
+        unit: cây
+        note: >-
+          Băm càng nhuyễn càng thơm. Chỉ lấy phần gốc trắng và xanh nhạt, phần
+          lá già xơ thì bỏ
+      - id: hanhtim
+        name: Hành tím băm
+        icon: onion
+        base: 3
+        unit: củ
+        note: Phi trước cho thơm chảo
+      - id: toi
+        name: Tỏi băm
+        icon: garlic
+        base: 1
+        unit: củ
+        note: Phi cùng hành tím
+      - id: ot
+        name: Ớt sừng xắt lát + ớt bột
+        icon: chili
+        color: red
+        base: 3
+        unit: trái
+        note: Ớt bột cho màu đỏ đẹp, ớt tươi cho vị cay tươi — nên có cả hai
+  - name: Dọn cùng
+    icon: rice
+    items:
+      - id: com
+        name: Cơm trắng nóng
+        icon: rice
+        base: 4
+        unit: chén
+        note: Món này sinh ra để ăn với cơm nóng, không phải ăn không
+      - id: dualeo
+        name: Dưa leo xắt lát
+        icon: sprout
+        color: green
+        base: 1
+        unit: trái
+        note: Cắt ngang cái mặn, ăn kèm là hết ngán
+      - id: rausong
+        name: Rau sống các loại
+        icon: lettuce
+        color: green
+        base: 100
+        unit: g
+        note: Xà lách, húng quế, tía tô — có gì dùng nấy
+
+steps:
+  - title: Sơ chế thịt cho thật ráo
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - label: "Rửa:"
+        text: >-
+          Chà miếng thịt với **muối hột**, rửa lại vài lần nước. Trụng nhanh qua
+          nước sôi rồi xả lại nếu muốn kỹ hơn.
+      - label: "Để ráo:"
+        text: >-
+          Thấm khô bằng khăn giấy. Thịt còn ướt là **vào chảo bắn dầu** và lâu
+          săn — chỗ này đừng vội.
+      - label: "Xắt:"
+        text: >-
+          Xắt **que cỡ ngón út**, dài chừng 4 cm. Xắt que chứ đừng xắt lát mỏng:
+          lát mỏng rim xong teo lại và khô xác, que thì còn giữ được thớ.
+  - title: Hòa mắm ruốc, gạn lấy nước
+    icon: spoon
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Múc [[3|muỗng canh|frac]] mắm ruốc ra chén, thêm [[4|muỗng canh|frac]]
+          nước, **khuấy cho tan hết** không còn vón.
+      - text: >-
+          Để lắng 2–3 phút rồi **gạn lấy phần nước**, bỏ lại chút cặn sạn dưới
+          đáy chén.
+    callout:
+      type: warn
+      text: >-
+        Múc mắm ruốc đặc thả thẳng vào chảo nóng là **vón cục rồi cháy khét**,
+        cả chảo thành đắng và có mùi khê. Bước hòa loãng này mất một phút mà
+        cứu cả món.
+  - title: Xào thịt cho săn và tứa mỡ
+    icon: flame
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Bắc chảo, cho chút dầu, **phi hành tím và tỏi** tới vàng thơm.
+      - text: >-
+          Trút thịt vào, để **lửa lớn**, đảo đều tới khi thịt săn lại, các mặt
+          ngả vàng và **mỡ bắt đầu tứa ra chảo** — chừng 7–8 phút.
+      - text: >-
+          Nếu mỡ ra nhiều quá thì chắt bớt, chừa lại chừng hai muỗng canh cho
+          đủ bóng.
+    callout:
+      type: tip
+      text: >-
+        Chảo chật thì thịt **hấp trong nước của chính nó** thay vì áp chảo. Nhà
+        ít người cứ xào một mẻ; làm gấp đôi công thức thì chia hai mẻ, đừng dồn.
+  - title: Sả vào — rồi mới tới mắm
+    icon: herb
+    minutes: 8 phút
+    intro: "Thứ tự ở bước này quyết định mùi của cả món:"
+    bullets:
+      - label: "Sả:"
+        text: >-
+          Cho hết sả băm vào, đảo **lửa vừa** cho tới khi sả **khô ráo, ngả vàng
+          và dậy mùi** — chừng 3 phút. Đây là lúc bếp thơm nhất.
+      - label: "Ớt:"
+        text: >-
+          Thả ớt lát và ớt bột vào, đảo nhanh 30 giây cho ớt bột ra màu đỏ.
+      - label: "Mắm ruốc:"
+        text: >-
+          Rót chén nước mắm ruốc đã gạn vào, hạ **lửa nhỏ**, rim cho tới khi
+          nước cạn hẳn và thịt **bóng lên**, chừng 4–5 phút.
+      - label: "Đường:"
+        text: >-
+          Rắc [[2|muỗng canh|frac]] đường vào sau cùng, đảo thêm 1 phút cho tan
+          và bám đều. Nếm lại — mặn đậm mà có hậu ngọt là đạt.
+    callout:
+      type: warn
+      text: >-
+        **Không thêm muối hay nước mắm** vào món này. Mắm ruốc đã mặn sẵn; nêm
+        thêm là mặn tới mức không ăn nổi, mà mặn rồi thì chỉ còn cách xào thêm
+        thịt vào chữa.
+    doneText: Tắt bếp — để nguội rồi cho vô hũ!
+
+tipsTitle: 4 mẹo cho **hũ mắm ruốc xào** để dành
+tips:
+  - icon: herb
+    title: Sả phải nhiều hơn mình tưởng
+    text: >-
+      Năm cây sả cho nửa ký thịt nghe như quá tay, nhưng sả xào xong teo lại còn
+      một nhúm nhỏ. Sả ít thì mùi mắm ruốc **trần trụi và nồng**; sả nhiều thì
+      cả chảo thơm ngát, mắm chỉ còn đóng vai vị mặn. Thiếu thứ gì cũng được,
+      đừng thiếu sả.
+  - icon: flame
+    title: Rim cho thật khô mới để dành được
+    text: >-
+      Còn đọng nước là hũ **mau chua** dù cất tủ lạnh. Rim tới khi nghiêng chảo
+      không thấy nước chảy, chỉ còn lớp mỡ bóng bám quanh thịt. Khô đúng mức thì
+      ngăn mát giữ được **cả tuần lễ**, càng để càng thấm.
+  - icon: jar
+    title: Vào hũ khi đã nguội hẳn
+    text: >-
+      Cho thịt còn nóng vào hũ đậy kín là hơi nước đọng lại trên nắp rồi rơi
+      xuống — đúng cái ẩm mình vừa rim khô để đuổi đi. Để nguội hoàn toàn, hũ
+      phải **sạch và khô**, múc bằng muỗng khô.
+  - icon: pepper
+    title: Mặn quá thì thêm thịt, đừng thêm nước
+    text: >-
+      Lỡ tay mắm ruốc thì cách chữa duy nhất là **xào thêm một mớ thịt** rồi
+      trộn chung. Thêm nước chỉ làm món loãng ra mà vẫn mặn, lại mất luôn độ khô
+      ráo — hỏng cả hai đường.
+
+serve:
+  title: Dọn mâm — **một hũ mặn, một tô canh**
+  paras:
+    - >-
+      Món này đứng đúng vai của nó khi có cơm trắng nóng và một tô canh nhạt bên
+      cạnh. Mặn đậm gặp cơm nóng thì vừa; gặp canh rau nhạt thì cả mâm cân lại.
+      Dưa leo xắt lát để một dĩa riêng, ăn xen vào giữa cho đỡ gắt.
+    - >-
+      Còn dư thì đừng hâm lại nhiều lần. Múc ra bao nhiêu ăn bấy nhiêu, phần
+      trong hũ để yên trong ngăn mát — hâm đi hâm lại là thịt khô xác và sả mất
+      mùi.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Ba món ráp lại là bữa cơm đủ đầy:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — bắt buộc, món này không ăn không được."
+      - icon: bowl
+        text: "**Canh rau nhạt** — canh bí đao, canh rau ngót, gì cũng được miễn nhạt."
+      - icon: sprout
+        text: "**Dưa leo và rau sống** — cắt ngang vị mặn, ăn hoài không ngán."
+
+faq:
+  - q: Mắm ruốc và mắm tôm thay nhau được không?
+    a: >-
+      Không nên. **Mắm ruốc** đặc, nâu ngả tím, ủ lâu nên mặn mà có hậu ngọt;
+      **mắm tôm** loãng hơn, tím đậm, mùi mạnh hơn nhiều. Xào bằng mắm tôm thì
+      món nồng gắt hẳn lên và không còn giống món miền Trung nữa. Cần lắm thì
+      dùng nhưng giảm còn hai phần ba lượng.
+  - q: Ăn chay thì làm được không?
+    a: >-
+      Có phiên bản chay dùng **nấm bào ngư xé sợi** thay thịt và **chao** thay
+      mắm ruốc. Cách làm giữ nguyên: xào nấm cho ráo nước và săn lại, rồi mới
+      cho sả. Vị khác đi nhưng cái thơm của sả thì vẫn còn nguyên.
+  - q: Thịt bị khô cứng, không bóng, là do đâu?
+    a: >-
+      Hoặc là **xắt lát quá mỏng**, hoặc là **chắt hết mỡ**. Món này trông cậy
+      vào lớp mỡ tứa ra để bọc lấy que thịt cho bóng và mềm. Xắt que dày cỡ ngón
+      út, và chừa lại ít nhất hai muỗng canh mỡ trong chảo.
+  - q: Ăn với gì ngoài cơm trắng?
+    a: >-
+      Cuốn bánh tráng với rau sống và dưa leo cũng rất hợp — mặn của mắm gặp rau
+      tươi là vừa. Có người còn xúc bánh tráng nướng ăn chơi. Nhưng ăn không thì
+      gắt, luôn cần một thứ nhạt đi cùng.
+
+ticker:
+  - icon: herb
+    text: Mắm ruốc xào sả thơm nức bếp
+  - icon: rice
+    text: Hũ mặn để dành, cơm nóng là xong bữa
