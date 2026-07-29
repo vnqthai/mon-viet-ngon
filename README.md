@@ -47,7 +47,7 @@ src/
      thêm `|frac` (vd `[[2.5|muỗng canh|frac]]`) để hiện phân số ¼ ½ ¾.
    - `quick:` là **bản nấu nhanh** đầu trang — bắt buộc, viết mỗi nhịp một dòng.
    - `occasions:` **bắt buộc ít nhất 1 nhãn** — để trống là build gãy.
-   - `featured: true` để món hiện ở trang chủ (trang chủ lấy 9 món đầu theo `order`).
+   - `featured: true` để món hiện ở trang chủ (trang chủ lấy **12** món đầu theo `order`).
 3. `npm run build` — schema sẽ báo lỗi rõ ràng nếu thiếu/sai trường nào.
 
 ### Hai cái bẫy YAML hay dính
@@ -57,6 +57,26 @@ src/
   khó hiểu. Vd `- Đồ chua: đu đủ xanh…` → phải quote: `- "Đồ chua: đu đủ xanh…"`
 - Chuỗi **bắt đầu bằng `*`** bị hiểu là YAML alias. Vd `- **Chiên ngập dầu**…`
   → quote lại. (Dùng block scalar `>-` thì cả hai bẫy đều không dính.)
+
+### `npm run qa` — chạy trước mỗi lần build
+
+```bash
+npm run qa      # = check-recipes.mjs + check-art-ids.mjs
+```
+
+Hai script này bắt những lỗi **Zod không bắt được** — build vẫn xanh, trang vẫn
+dựng, chỉ là sai:
+
+| `tools/check-recipes.mjs` | `tools/check-art-ids.mjs` |
+|---|---|
+| hai bẫy YAML ở trên, báo đúng dòng | `id` trùng **chéo giữa hai file art** — cả 50+ hình cùng nhúng vào `/mon/` nên `url(#…)` ăn nhầm gradient của hình khác |
+| hai món trùng `order` | tham chiếu `#id` trỏ ra ngoài file của nó |
+| hai nguyên liệu trùng `id` (giỏ đi chợ tick nhầm ô) | enum `art` ⟷ `RecipeArt.astro` ⟷ file component lệch nhau |
+| nhãn timer `MM:SS` lệch với `secs` | món chưa gắn art riêng |
+| `occasions` rỗng · `[[số\|đơn vị]]` sai cú pháp | art khai rồi mà chưa món nào dùng |
+
+Cả hai đọc enum và từ vựng khoá **thẳng từ `content.config.ts`**, nên sửa schema
+là script tự theo, không phải cập nhật tay.
 
 ### Thêm một KIỂU MÓN mới (vd "Bánh")
 

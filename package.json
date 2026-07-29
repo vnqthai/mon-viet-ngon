@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "qa": "node tools/check-recipes.mjs && node tools/check-art-ids.mjs",
+    "contact-sheet": "node tools/contact-sheet.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
+    "js-yaml": "^4.3.0",
     "satori": "^0.29.0"
   }
 }
