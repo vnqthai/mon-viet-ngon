@@ -1,0 +1,327 @@
+title: Ốc len xào dừa **chặt đuôi cho thấm, ăn thì hút**
+summary: >-
+  **Ốc len** — con ốc nhỏ cỡ ngón tay, vỏ nâu vân trắng, sống bám rễ đước trong
+  rừng ngập mặn miền Tây. Chặt bỏ chóp đuôi rồi rim với nước cốt dừa, sả và ớt;
+  ăn thì **hút một cái** là ruột ốc tự trôi ra, không cần lể.
+region: Miền Tây
+category: Xào
+occasions: [Nhậu lai rai, Ăn chơi]
+pubDate: 2026-07-29
+time:
+  total: 3 giờ 30 phút
+  active: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 40
+art: oc-len-xao-dua
+heroEyebrow: Dưới tán rừng đước…
+
+quick:
+  ingredients:
+    - Ốc len [[1|kg]] — chọn con còn bò, vỏ không sứt
+    - Nước cốt dừa [[400|ml]] — chia làm **hai lần cho vào**
+    - Nước dừa tươi [[200|ml]] · lá dứa [[2|lá]] buộc túm
+    - "Phi thơm: sả băm [[3|muỗng canh|frac]] · tỏi băm [[1|muỗng canh|frac]] · ớt [[4|trái]]"
+    - Sả đập dập [[3|cây]] · rau răm [[1|nắm]]
+    - "Nêm: đường [[2|muỗng cà phê|frac]] · muối [[1|muỗng cà phê|frac]] · hạt nêm"
+  steps:
+    - Ngâm ốc nước vo gạo có vài lát ớt **2–3 tiếng** cho nhả hết bùn, rửa lại nhiều lần.
+    - >-
+      **Chặt bỏ chóp đuôi** từng con bằng kìm bấm hoặc sống dao.
+    - Phi sả tỏi ớt cho thơm, trút ốc vào xào lửa lớn **5 phút** cho săn.
+    - Chan nước dừa tươi + **nửa chỗ nước cốt dừa**, thả sả đập dập và lá dứa, rim nhỏ lửa 15–20 phút.
+    - Cho **nửa nước cốt dừa còn lại** vào, nêm lại, rắc rau răm rồi tắt bếp ngay.
+  warning: >-
+    Đừng đổ hết nước cốt dừa ngay từ đầu rồi rim lâu — nước cốt đun quá tay sẽ
+    **tách dầu**, mặt chảo nổi váng mà nước lại lạt. Chia hai lần, lần sau cho
+    vào sát lúc tắt bếp.
+
+flavor:
+  chua: 1
+  ngot: 6
+  man: 5
+  cay: 6
+  thom: 8
+flavorNote: >-
+  **Chuẩn dĩa:** nước sốt **sánh và bám vào vỏ ốc**, không loãng cũng không nổi
+  váng dầu; hút một cái là ruột ốc ra gọn, ăn vào béo trước, cay và thơm sả
+  theo sau.
+storyEyebrow: Chuyện món ăn
+storyTitle: Con ốc **leo cây** và cái mẹo chặt đuôi
+story:
+  - >-
+    Ốc len sống trong rừng ngập mặn — Cà Mau, Bạc Liêu, Cần Giờ là ba vùng có
+    nhiều nhất. Nó nhỏ, dài chừng 3–4 phân, vỏ nâu sẫm có vân trắng vắt ngang,
+    và điều lạ là **nó bò lên bám thân với rễ cây đước, cây mắm** chứ không nằm
+    dưới bùn. Người đi bắt ốc len lội rừng lúc nước ròng, nhặt từng con trên rễ
+    cây.
+  - >-
+    Cả món xoay quanh một cái mẹo rất nhỏ: **chặt bỏ chóp đuôi từng con ốc**.
+    Việc đó làm hai chuyện cùng lúc. Một là mở đường cho nước cốt dừa chui vào
+    tận trong ruột ốc, nên con ốc đậm từ trong chứ không chỉ dính vị ngoài vỏ.
+    Hai là tạo lỗ thông hơi — nhờ vậy khi ăn, bạn **kê miệng vào đầu vỏ hút một
+    cái** là ruột ốc trôi ra nguyên con, khỏi cần que lể.
+  - >-
+    Ruột ốc len nhỏ, mà nếu phải lể từng con bằng gai chanh hay tăm thì ăn một
+    dĩa mất cả buổi. Cái mẹo chặt đuôi biến món này từ chỗ nhọc nhằn thành món
+    **ngồi lai rai được** — và đó có lẽ là lý do nó thành món nhậu quen thuộc
+    của miền Tây chứ không phải món dọn mâm cơm.
+  - >-
+    Nước cốt dừa ở đây không phải để làm ngọt. Con ốc len vốn mặn mòi và hơi
+    nồng mùi bùn rừng; **cái béo của dừa làm dịu chỗ nồng đó lại**, còn sả và ớt
+    kéo mùi lên. Ba thứ thiếu một là dĩa ốc lệch hẳn: thiếu dừa thì gắt, thiếu
+    sả thì tanh, thiếu ớt thì ngán.
+
+ingredientGroups:
+  - name: Con ốc
+    icon: shrimp
+    items:
+      - id: oclen
+        name: Ốc len
+        icon: shrimp
+        color: amber
+        base: 1
+        unit: kg
+        note: >-
+          Chọn con **còn bò, thò mày ra ngoài**, vỏ lành không sứt. Con nào nổi
+          lềnh bềnh hoặc có mùi thì bỏ. Chợ hải sản và hàng đông lạnh đều có
+      - id: nuocvogao
+        name: Nước vo gạo · ớt
+        icon: rice
+        qtyText: Đủ ngập ốc · 3 lát ớt
+        note: >-
+          Ngâm cho ốc nhả bùn. Vài lát ớt làm ốc nhả nhanh hơn — mẹo cũ của
+          người bán ốc
+  - name: Phần nước dừa
+    icon: bottle
+    items:
+      - id: nuoccotdua
+        name: Nước cốt dừa
+        icon: bottle
+        base: 400
+        unit: ml
+        note: >-
+          **Chia làm hai lần cho vào** — nửa lúc rim, nửa lúc sắp tắt bếp. Đun
+          lâu cả chỗ là bị tách dầu
+      - id: nuocduatuoi
+        name: Nước dừa tươi
+        icon: drop
+        base: 200
+        unit: ml
+        note: Ngọt thanh, giúp ốc thấm mà không bị gắt như thêm đường
+      - id: ladua
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 2
+        unit: lá
+        note: Buộc túm lại thả vào, vớt ra trước khi dọn
+  - name: Phi thơm và nêm
+    icon: chili
+    items:
+      - id: saabam
+        name: Sả băm
+        icon: stem
+        color: green
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Băm nhuyễn để phi, khác với sả đập dập thả nguyên cây
+      - id: sadap
+        name: Sả đập dập
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Đập dập cắt khúc, thả vào lúc rim cho dậy mùi rồi vớt bỏ
+      - id: toi
+        name: Tỏi băm
+        icon: garlic
+        base: 1
+        unit: muỗng canh
+        frac: true
+      - id: ot
+        name: Ớt sừng · ớt hiểm
+        icon: chili
+        color: red
+        base: 4
+        unit: trái
+        note: Món này phải cay mới đúng vị; ớt sừng xắt lát cho đẹp, ớt hiểm cho cay
+      - id: rauram
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Rắc lúc tắt bếp — nấu chung là rau thâm và mất mùi
+      - id: nemoc
+        name: Đường · muối · hạt nêm
+        icon: jar
+        qtyText: 2 muỗng cà phê đường · 1 muỗng cà phê muối
+        note: Nêm nhẹ tay, bản thân con ốc đã mặn sẵn vị biển
+
+stepsTitle: Bốn nhịp — mà **nhịp chặt đuôi** là chỗ ai cũng bỏ qua
+steps:
+  - title: Ngâm cho ốc nhả bùn
+    icon: drop
+    minutes: 2–3 giờ
+    bullets:
+      - text: >-
+          Rửa sơ ốc rồi ngâm ngập trong nước vo gạo, thả vài lát ớt vào. Ngâm
+          **2–3 tiếng**, giữa chừng thay nước một lần.
+      - text: >-
+          Vớt ra, xả lại nhiều lần dưới vòi cho tới khi nước trong hẳn. Chà nhẹ
+          hai nắm ốc vào nhau cho sạch rong bám ngoài vỏ.
+      - label: "Loại con hỏng:"
+        text: >-
+          Con nào nổi lên mặt nước hoặc thò ruột ra mà không co lại là đã chết —
+          bỏ đi, một con hỏng làm cả chảo có mùi.
+    timer:
+      secs: 3600
+      label: Hẹn giờ ngâm ốc · 60:00
+      doneMsg: Thay nước rồi ngâm tiếp một tiếng nữa nghen!
+    callout:
+      type: warn
+      text: >-
+        Đừng ngâm ốc trong nước muối đặc hay ngâm quá lâu — ốc chết hết trong
+        chậu thì thịt bở và có mùi, ngâm cách mấy cũng không cứu lại.
+  - title: Chặt đuôi từng con
+    icon: knife
+    minutes: 15 phút
+    intro: "Hơi mất công nhưng bỏ qua là hỏng cả cách ăn của món:"
+    bullets:
+      - label: "Chặt chỗ nào:"
+        text: >-
+          Chặt bỏ **phần chóp nhọn ở đuôi vỏ**, chỉ lấy đi một đoạn ngắn cỡ hạt
+          gạo. Dùng kìm bấm móng tay, kìm nhỏ hoặc kê sống dao gõ nhẹ.
+      - label: "Vì sao phải làm:"
+        text: >-
+          Mở lỗ ở đuôi thì nước cốt dừa mới chui vào tận trong ruột ốc, và lúc
+          ăn mới **hút được** — kê miệng vào đầu vỏ hút một cái là ruột ra
+          nguyên con.
+      - text: >-
+          Chặt xong rửa lại lần nữa cho trôi hết mảnh vỏ vụn, để ráo.
+    callout:
+      type: tip
+      text: >-
+        Ngồi chặt trước một hôm rồi cất ngăn mát cũng được. Rủ thêm người ngồi
+        chặt cùng thì mười lăm phút xong — đây là món vốn dĩ đông người làm mới
+        vui.
+  - title: Xào săn rồi rim nước dừa
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - label: "Phi thơm:"
+        text: >-
+          Bắc chảo sâu lòng, phi sả băm và tỏi băm với chút dầu tới vàng thơm,
+          cho ớt vào đảo nhanh.
+      - label: "Xào săn:"
+        text: >-
+          Trút ốc vào, **xào lửa lớn 5 phút**, đảo đều cho con ốc săn lại và ăn
+          mùi sả tỏi.
+      - label: "Rim:"
+        text: >-
+          Chan [[200|ml]] nước dừa tươi và **một nửa chỗ nước cốt dừa**, thả sả
+          đập dập với lá dứa, nêm đường muối hạt nêm. Đậy vung, rim **lửa nhỏ
+          15–20 phút** cho ốc thấm.
+    timer:
+      secs: 1080
+      label: Hẹn giờ rim ốc · 18:00
+      doneMsg: Nếm thử một con — thấm rồi thì cho nốt nước cốt dừa!
+  - title: Cho nốt nước cốt dừa, rắc rau răm
+    icon: spoon
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Vớt bỏ lá dứa và sả đập dập. Cho **nửa nước cốt dừa còn lại** vào, đảo
+          đều, đun thêm **2–3 phút** cho sốt sánh lại và bám vào vỏ ốc.
+      - text: >-
+          Nếm lại lần cuối. Rắc rau răm cắt khúc, đảo một vòng rồi **tắt bếp
+          ngay** — rau răm gặp lửa lâu là thâm và mất mùi.
+      - text: >-
+          Trút ra dĩa sâu lòng cùng hết phần sốt. Dọn thêm một chén không để bỏ
+          vỏ.
+    doneText: Xong — hút lúc còn nóng mới đã!
+
+tipsTitle: 4 chỗ **quyết định** dĩa ốc len xào dừa
+tips:
+  - icon: knife
+    title: Chặt đuôi là bắt buộc, không phải mẹo cho vui
+    text: >-
+      Không chặt thì hai chuyện xảy ra: nước cốt dừa không vào được trong ruột
+      ốc nên con ốc nhạt, và lúc ăn phải lể từng con bằng tăm — một dĩa ốc thành
+      một buổi lao động. Đây là bước tốn công nhất mà cũng đáng nhất của cả món.
+  - icon: bottle
+    title: Nước cốt dừa chia hai lần
+    text: >-
+      Đun nước cốt dừa lâu là nó **tách dầu**: mặt chảo nổi váng vàng, phần nước
+      còn lại thì lạt và lợn cợn. Nửa đầu cho vào lúc rim để ngấm vào ốc, nửa
+      sau cho lúc sắp tắt bếp để lấy độ sánh và độ béo. Cùng chừng ấy dừa mà
+      khác hẳn.
+  - icon: chili
+    title: Cay là một phần của món
+    text: >-
+      Ốc len xào dừa mà không cay thì béo trở nên nặng nề, ăn tới con thứ mười
+      là ngán. Ớt ở đây không phải để thêm màu — nó là thứ **cân lại nước cốt
+      dừa**. Nhà có trẻ nhỏ thì để riêng một phần nhạt trước khi cho ớt vào.
+  - icon: herb
+    title: Rau răm cho lúc tắt bếp
+    text: >-
+      Rau răm là mùi kết của dĩa ốc. Cho vào sớm thì nó nhũn, thâm và mùi bay
+      hết, coi như không có. Cắt khúc ngắn, rắc lên, đảo đúng một vòng rồi bắc
+      xuống — hơi nóng còn lại trong chảo đủ làm nó dậy mùi.
+
+serve:
+  title: Dĩa ốc **để giữa bàn** — món của ngồi lâu
+  paras:
+    - >-
+      Ốc len xào dừa hiếm khi được dọn trong mâm cơm. Nó là món đặt giữa bàn, ai
+      cũng với tới được, vừa hút vừa nói chuyện. Nhớ để thêm một cái chén không
+      để bỏ vỏ và mấy tờ giấy — món này ăn bằng tay, không có cách nào lịch sự
+      hơn.
+    - >-
+      Còn dư phần sốt dưới đáy dĩa thì đừng bỏ. Nó là nước cốt dừa đã rim với
+      nước ốc, mặn ngọt và thơm sả — chấm bánh mì hoặc rưới lên chén cơm nóng
+      đều hết veo.
+  aside:
+    title: Ăn thế nào cho đúng
+    intro: "Ba việc, làm theo là con nào cũng ra gọn:"
+    items:
+      - icon: shrimp
+        text: "**Kê miệng vào đầu vỏ**, hút một cái dứt khoát — ruột ốc trôi ra nguyên con."
+      - icon: drop
+        text: "**Hút cả phần sốt** đọng trong vỏ trước, đó mới là chỗ đậm nhất."
+      - icon: bowl
+        text: "**Một chén không để bỏ vỏ** — dĩa ốc mà lẫn vỏ thì không ai gắp nữa."
+
+faq:
+  - q: Không mua được ốc len thì thay bằng ốc gì?
+    a: >-
+      Nói thật là món này gắn với đúng con ốc đó — vỏ dài, ruột nhỏ, hút được.
+      Ốc bươu hay ốc mỡ thì ruột to, phải lể, và cách ăn đổi hẳn. Nếu chợ không
+      có thì tìm **hàng đông lạnh** (ốc len đông lạnh giữ vị khá tốt), hoặc để
+      dịp khác. Nước cốt dừa không cứu được con ốc sai.
+  - q: Ốc bị dai và teo lại thì do đâu?
+    a: >-
+      Do rim quá lâu hoặc lửa quá lớn. Con ốc len nhỏ, chỉ cần **15–20 phút lửa
+      nhỏ** là thấm; qua mốc đó thịt co lại và dai như cao su. Rim liu riu, đậy
+      vung, và nếm thử một con ở phút thứ 15 rồi hãy quyết định.
+  - q: Ăn còn thấy mùi bùn thì chữa sao?
+    a: >-
+      Là do ngâm chưa đủ. Lần sau ngâm đủ **2–3 tiếng, thay nước một lần**, và
+      chà hai nắm ốc vào nhau cho sạch rong bám ngoài vỏ. Chảo đang làm dở thì
+      cứu bằng cách thêm sả đập dập và một chút gừng đập dập vào rim thêm 5
+      phút.
+  - q: Làm trước rồi hâm lại được không?
+    a: >-
+      Được, nhưng hâm nhẹ tay. Rim xong phần ốc rồi cất ngăn mát, tới bữa bắc
+      lên **đun nhỏ lửa cho ấm** rồi mới cho nốt nước cốt dừa và rau răm. Đừng
+      hâm cả phần nước cốt dừa lần hai — đun lại lần nữa là nó tách dầu chắc
+      chắn.
+
+ticker:
+  - icon: shrimp
+    text: Chặt chóp đuôi cho thấm, ăn thì hút
+  - icon: bottle
+    text: Nước cốt dừa chia hai lần cho khỏi tách dầu

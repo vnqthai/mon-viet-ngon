@@ -1,0 +1,169 @@
+---
+/* Pa pỉnh tộp — CON CÁ GẬP ĐÔI KẸP TRE, nằm ngang trên dĩa.
+   Ba bản trước đều hỏng ở chỗ vẽ sai CƠ CHẾ chứ không phải vẽ xấu:
+     1. Hai thanh tre dựng ĐỨNG chắn trước mặt cá → đọc ra cái hàng rào / cái cũi.
+     2. Hai thanh nằm ngang nhưng chụm lại thành hình "<" ở một đầu → đọc ra
+        cái mũi tên clip-art.
+     3. Thân vẽ oval đều tăm tắp, đầu không tách khỏi mình → đọc ra CỦ KHOAI
+        có gắn cái đuôi.
+   Thực tế: ống tre CHẺ DỌC, kẹp cá vào khe, buộc lạt hai đầu. Hai nửa ống ôm
+   lấy con cá rồi CHỤM VÀO NHAU Ở CẢ HAI ĐẦU — tức là một hình hạt hạnh nhân
+   bao quanh con cá, buộc lạt ở hai chóp. Vẽ đúng vậy thì nhìn ra ngay cái vỉ kẹp.
+   Thân cá: gáy cao ở giữa (vì gập đôi) nhưng THUÔN DẦN về cuống đuôi hẹp bên
+   trái và có ĐẦU RIÊNG bên phải, tách bằng đường nắp mang. Lưng đã xẻ nên
+   không có vây lưng — thay vào đó là đường mép gập với rau thơm ló ra. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Pa pỉnh tộp: con cá gập đôi kẹp giữa hai nửa ống tre chẻ dọc buộc lạt hai đầu, da nâu vàng sém vệt nướng, rau thơm ló ra dọc sống lưng, kèm nắm xôi nếp và rau luộc">
+  <defs>
+    <linearGradient id="pptDa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D68E3C"/><stop offset="0.5" stop-color="#A85C20"/><stop offset="1" stop-color="#763712"/>
+    </linearGradient>
+    <linearGradient id="pptTre" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFDFAC"/><stop offset="1" stop-color="#B4914F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="246" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="246" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M228 176 C 217 152 243 136 232 110 C 225 94 239 82 235 68"/>
+    <path d="M306 170 C 296 146 322 132 311 106 C 304 90 318 78 314 64"/>
+  </g>
+  <ellipse cx="260" cy="418" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa sứ dài -->
+  <ellipse cx="258" cy="374" rx="198" ry="52" fill="#F6F1E1"/>
+  <ellipse cx="258" cy="370" rx="198" ry="52" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="258" cy="370" rx="198" ry="52" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="258" cy="372" rx="164" ry="38" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- ===== NỬA ỐNG TRE DƯỚI (vẽ trước, nằm sau cá) ===== -->
+  <path d="M84 284 C 118 348 178 372 258 372 C 338 372 400 348 436 284"
+        fill="none" stroke="#8A6A32" stroke-width="15" stroke-linecap="round"/>
+  <path d="M84 284 C 118 348 178 372 258 372 C 338 372 400 348 436 284"
+        fill="none" stroke="url(#pptTre)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M100 302 C 132 350 182 366 258 366" fill="none" stroke="#F7ECC8" stroke-width="2.4" opacity=".7"/>
+
+  <!-- ===== NỬA ỐNG TRE TRÊN (vẽ trước, nằm sau cá) ===== -->
+  <path d="M84 284 C 118 216 178 194 258 194 C 338 194 400 216 436 284"
+        fill="none" stroke="#8A6A32" stroke-width="15" stroke-linecap="round"/>
+  <path d="M84 284 C 118 216 178 194 258 194 C 338 194 400 216 436 284"
+        fill="none" stroke="url(#pptTre)" stroke-width="11" stroke-linecap="round"/>
+  <path d="M100 264 C 132 218 182 200 258 200" fill="none" stroke="#F7ECC8" stroke-width="2.4" opacity=".7"/>
+
+  <!-- ===================== CON CÁ GẬP ĐÔI ===================== -->
+  <g transform="rotate(-2 268 286)">
+    <!-- ĐUÔI xòe bên trái, nối liền cuống đuôi -->
+    <path d="M178 264 C 158 248 138 238 124 236 C 130 260 130 312 124 336
+             C 138 334 158 324 178 308 Z"
+          fill="#94501C" stroke="#4E2408" stroke-width="2.6"/>
+    <g stroke="#CE9250" stroke-width="1.8" opacity=".85" fill="none">
+      <path d="M138 250 C 152 256 166 264 174 270"/>
+      <path d="M134 286 C 150 286 166 286 176 286"/>
+      <path d="M138 322 C 152 316 166 308 174 302"/>
+    </g>
+
+    <!-- vây ngực nhỏ dưới đầu -->
+    <path d="M344 314 C 360 322 370 334 370 344 C 354 342 340 330 336 318 Z"
+          fill="#94501C" stroke="#4E2408" stroke-width="2.2"/>
+
+    <!-- THÂN: gáy cao ở giữa, THUÔN DẦN về cuống đuôi hẹp, có ĐẦU riêng bên phải -->
+    <path d="M404 284
+             C 402 266, 392 252, 374 242
+             C 342 224, 292 218, 246 226
+             C 212 232, 188 246, 178 264
+             C 173 272, 171 279, 171 286
+             C 171 295, 174 305, 180 313
+             C 194 333, 218 347, 252 352
+             C 296 358, 344 349, 376 329
+             C 393 318, 402 300, 404 284 Z"
+          fill="url(#pptDa)" stroke="#4E2408" stroke-width="3"/>
+
+    <!-- vệt nướng: nét CONG VẮT NGANG mình cá (như vạch vỉ), không phải gạch bừa -->
+    <g stroke="#5E2C0E" stroke-width="5.6" stroke-linecap="round" fill="none" opacity=".8">
+      <path d="M228 242 C 222 272 224 306 236 336"/>
+      <path d="M272 232 C 266 266 268 304 280 344"/>
+      <path d="M316 236 C 312 268 314 302 324 338"/>
+    </g>
+    <g stroke="#5E2C0E" stroke-width="3.4" stroke-linecap="round" fill="none" opacity=".55">
+      <path d="M250 236 C 245 268 246 304 257 340"/>
+      <path d="M294 233 C 289 267 291 303 302 341"/>
+    </g>
+    <!-- cháy xém mảng + lấm tấm mắc khén -->
+    <g fill="#4A2208" opacity=".4">
+      <ellipse cx="204" cy="288" rx="14" ry="10" transform="rotate(-8 204 288)"/>
+      <ellipse cx="330" cy="330" rx="16" ry="7" transform="rotate(12 330 330)"/>
+      <ellipse cx="268" cy="344" rx="18" ry="6"/>
+    </g>
+    <g fill="#3E2008">
+      <circle cx="234" cy="288" r="1.8"/><circle cx="268" cy="278" r="1.7"/><circle cx="304" cy="286" r="1.8"/>
+      <circle cx="336" cy="298" r="1.6"/><circle cx="246" cy="320" r="1.7"/><circle cx="288" cy="328" r="1.8"/>
+      <circle cx="322" cy="314" r="1.6"/><circle cx="212" cy="302" r="1.5"/><circle cx="356" cy="288" r="1.5"/>
+      <circle cx="220" cy="266" r="1.5"/><circle cx="300" cy="308" r="1.6"/>
+    </g>
+    <!-- mảng da bóng trên gáy -->
+    <path d="M212 254 C 240 236 286 228 326 232 L 326 240 C 288 238 246 246 220 262 Z" fill="#F0B972" opacity=".45"/>
+
+    <!-- ĐẦU: đường nắp mang tách hẳn đầu khỏi mình, mắt to, miệng rộng -->
+    <path d="M356 240 C 374 258 376 314 356 332" fill="none" stroke="#5E2C0E" stroke-width="3"/>
+    <path d="M344 246 C 360 262 361 310 344 326" fill="none" stroke="#5E2C0E" stroke-width="1.8" opacity=".55"/>
+    <circle cx="381" cy="266" r="9.4" fill="#F4EAD2" stroke="#3E1D06" stroke-width="2.4"/>
+    <circle cx="382" cy="266" r="4.2" fill="#241407"/>
+    <circle cx="379" cy="263" r="1.7" fill="#FFFDF6"/>
+    <path d="M404 286 C 396 295 384 300 370 300" fill="none" stroke="#4E2408" stroke-width="2.8" stroke-linecap="round"/>
+
+    <!-- ĐƯỜNG MÉP GẬP dọc sống lưng (chỗ xẻ lưng rồi úp lại) -->
+    <path d="M198 250 C 250 230 318 226 372 248" fill="none" stroke="#5E2C0E" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M204 258 C 254 240 316 236 366 256" fill="none" stroke="#EDB067" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+
+    <!-- RAU THƠM nhồi bên trong ló hẳn ra ở đường mép -->
+    <g fill="#4E7B36" stroke="#2E5220" stroke-width="1.4">
+      <path d="M214 248 C 218 233 234 225 245 231 C 240 246 226 254 214 248 Z"/>
+      <path d="M256 236 C 260 221 279 215 288 222 C 283 237 268 243 256 236 Z"/>
+      <path d="M300 232 C 305 218 323 214 331 221 C 325 235 312 240 300 232 Z"/>
+      <path d="M340 240 C 346 227 362 225 368 234 C 361 246 349 248 340 240 Z"/>
+    </g>
+    <g fill="#7FB44E" stroke="#4E7B36" stroke-width="1.1">
+      <path d="M234 254 C 238 242 252 237 259 243 C 254 254 243 258 234 254 Z"/>
+      <path d="M278 245 C 283 233 297 230 303 236 C 297 247 286 250 278 245 Z"/>
+      <path d="M320 244 C 326 233 339 231 344 238 C 338 247 328 249 320 244 Z"/>
+    </g>
+    <g fill="none" stroke="#4E7B36" stroke-width="2.6" stroke-linecap="round">
+      <path d="M248 232 C 246 219 242 209 236 202"/>
+      <path d="M302 224 C 304 212 308 203 314 197"/>
+      <path d="M354 238 C 358 228 364 221 372 217"/>
+    </g>
+  </g>
+
+  <!-- ===== LẠT BUỘC ở hai chóp, chỗ hai nửa ống chụm lại ===== -->
+  <g>
+    <path d="M92 268 C 80 278 80 292 92 302" fill="none" stroke="#8A6A32" stroke-width="7" stroke-linecap="round"/>
+    <path d="M94 272 C 85 280 85 290 94 298" fill="none" stroke="#E4CE92" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M74 276 L 60 268 M74 292 L 60 300" stroke="#B08A44" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M428 268 C 440 278 440 292 428 302" fill="none" stroke="#8A6A32" stroke-width="7" stroke-linecap="round"/>
+    <path d="M426 272 C 435 280 435 290 426 298" fill="none" stroke="#E4CE92" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M446 276 L 460 268 M446 292 L 460 300" stroke="#B08A44" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- NẮM XÔI NẾP trên miếng lá dong (góc trái dưới) -->
+  <g transform="translate(92 414)">
+    <ellipse cx="0" cy="14" rx="44" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-42 5 C -36 -10 -16 -18 2 -17 C 22 -16 40 -8 42 6 C 24 15 -22 15 -42 5 Z" fill="#4E7B36" stroke="#375A24" stroke-width="2"/>
+    <path d="M-36 5 L 38 3" stroke="#8FBF4D" stroke-width="2" opacity=".8"/>
+    <path d="M-24 -4 C -28 -16 -10 -25 4 -23 C 20 -21 28 -10 23 -1 C 12 5 -12 5 -24 -4 Z" fill="#FBF6E6" stroke="#DFD3B2" stroke-width="2"/>
+    <g fill="#EFE6CB">
+      <circle cx="-12" cy="-11" r="2.4"/><circle cx="-2" cy="-16" r="2.2"/><circle cx="9" cy="-10" r="2.4"/>
+      <circle cx="0" cy="-5" r="2.2"/><circle cx="-18" cy="-4" r="2"/><circle cx="16" cy="-4" r="2"/>
+    </g>
+  </g>
+
+  <!-- RAU CẢI LUỘC (góc phải dưới) -->
+  <g transform="translate(430 414)">
+    <ellipse cx="0" cy="13" rx="38" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-30 -2 C -28 12 -16 21 0 21 C 16 21 28 12 30 -2 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-2" rx="25" ry="7.4" fill="#EDE6CE"/>
+    <path d="M-20 -4 C -16 -13 -6 -16 0 -11 C 6 -16 16 -13 18 -4 C 8 2 -10 2 -20 -4 Z" fill="#5C8A3C" stroke="#3F6A28" stroke-width="1.4"/>
+    <g fill="none" stroke="#8FBF4D" stroke-width="2" stroke-linecap="round">
+      <path d="M-12 -6 C -8 -10 -4 -11 -1 -9 M4 -9 C 8 -11 12 -10 14 -6"/>
+    </g>
+  </g>
+</svg>

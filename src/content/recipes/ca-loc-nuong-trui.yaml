@@ -1,0 +1,345 @@
+title: Cá lóc nướng trui **để nguyên vảy, không ướp gì**
+summary: >-
+  Con cá lóc xiên que nướng nguyên vảy, không mổ bụng, không nêm một hạt muối —
+  lớp vảy cháy đen chính là cái áo giữ cho thịt bên trong **trắng và ngọt**. Cạo
+  vảy ra, rưới mỡ hành, cuốn bánh tráng chấm nước mắm me.
+region: Miền Tây
+category: Nướng
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-07-29
+time:
+  total: 50 phút
+  active: 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 33
+art: ca-loc-nuong-trui
+heroEyebrow: Ngoài đồng miền Tây…
+
+quick:
+  ingredients:
+    - Cá lóc [[1|con]] cỡ [[800|g]] — còn sống càng tốt, **không đánh vảy**
+    - Que tre hoặc que sả to [[1|que]] — xiên từ miệng xuống đuôi
+    - "Mỡ hành: hành lá [[1|bó]] · dầu ăn [[3|muỗng canh|frac]] · đậu phộng rang [[50|g]]"
+    - "Nước mắm me: me vắt [[40|g]] · nước mắm [[2|muỗng canh|frac]] · đường [[2|muỗng canh|frac]] · tỏi ớt"
+    - "Cuốn kèm: bánh tráng, bún tươi [[300|g]], xà lách, húng quế, chuối chát, khế chua, dưa leo"
+  steps:
+    - Rửa sạch nhớt bằng nước muối, **giữ nguyên vảy và nguyên con**.
+    - Xiên que từ miệng chạy dọc thân xuống tới đuôi cho cá thẳng.
+    - Nướng lửa to đều tới khi vảy cháy đen giòn — than hoa 20–25 phút, trở đều.
+    - Cạo bỏ lớp vảy cháy, lộ thịt trắng; rưới mỡ hành, rắc đậu phộng.
+    - Cuốn bánh tráng với bún và rau, chấm nước mắm me.
+  warning: >-
+    Đừng đánh vảy và đừng mổ bụng. Lớp vảy là thứ **chắn lửa** cho miếng thịt —
+    bỏ nó đi thì cá cháy sém bên ngoài mà bên trong vừa khô vừa nhạt.
+
+flavor:
+  chua: 4
+  ngot: 5
+  man: 4
+  cay: 3
+  thom: 6
+flavorNote: >-
+  **Chuẩn con cá:** gỡ ra thấy thịt **trắng, tách thành từng thớ to**, không
+  nát; ăn vào ngọt trơn của cá đồng, mặn là do chén mắm me chứ không phải do
+  ướp.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món nấu **không cần cái bếp nào**
+story:
+  - >-
+    Cá lóc nướng trui sinh ra ngoài đồng chứ không sinh ra trong bếp. Mùa gặt
+    xong, rơm chất đầy ruộng; bắt được con cá dưới mương là cắm cái que, phủ
+    rơm lên, châm lửa. Cháy hết đống rơm thì cá cũng vừa chín. Không dao thớt,
+    không nồi niêu, không gia vị — nên nó là món **ai cũng làm được ở bất cứ
+    đâu**, và đó mới là lý do nó sống lâu tới giờ.
+  - >-
+    Rơm hợp với con cá không phải vì mùi khói, mà vì **cách nó cháy**: bùng lên
+    rất nhanh, bao kín con cá từ mọi phía, rồi tàn cũng nhanh. Con cá chín đều
+    trong mươi lăm phút, chưa kịp mất nước. Hiểu được cơ chế đó thì ở bếp nhà
+    bạn biết mình cần gì — **lửa to, đều, và ngắn**. Than hoa cho đúng thứ đó;
+    lò nướng bật hết cỡ cũng làm được, chỉ chậm hơn.
+  - >-
+    Chuyện "không ướp" cũng có lý riêng. Cá lóc đồng thịt ngọt sẵn, mà nêm vào
+    thì gia vị nằm hết ở lớp vảy — chỗ sẽ bị cạo bỏ. Người ta dồn hết phần nêm
+    nếm sang **chén nước mắm me và dĩa rau**, để miếng cá giữ nguyên vị của nó.
+    Cùng một con cá, mỗi cuốn lại ra một vị tuỳ tay người cuốn.
+  - >-
+    Cái que xiên cũng có chuyện. Ngoài đồng người ta chuốt một que tre tươi,
+    xiên từ miệng cá chạy suốt xuống đuôi rồi cắm xuống đất cho cá đứng thẳng.
+    Que tươi không cháy nhanh, và cá đứng thì nước trong mình cá chảy dần xuống
+    chứ không đọng lại. Ở nhà, một **cây sả to** hoặc que tre ngâm nước làm được
+    đúng việc đó.
+
+ingredientGroups:
+  - name: Con cá
+    icon: fish
+    items:
+      - id: caloc
+        name: Cá lóc
+        icon: fish
+        color: green
+        base: 800
+        unit: g
+        note: >-
+          Cỡ 700–1000 g là vừa. Mua con còn bơi, nhờ hàng cá **chỉ làm sạch nhớt,
+          dặn giữ nguyên vảy và đừng mổ bụng**
+      - id: quexien
+        name: Que tre hoặc cây sả to
+        icon: stem
+        color: green
+        qtyText: 1 que dài hơn con cá một gang
+        note: Que tre ngâm nước 15 phút trước cho khỏi cháy
+      - id: muoihat
+        name: Muối hột
+        icon: jar
+        qtyText: 2 muỗng canh
+        note: Chỉ để chà rửa nhớt, không phải để ướp
+  - name: Mỡ hành và đậu phộng
+    icon: herb
+    items:
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Xắt nhuyễn cả phần trắng lẫn phần xanh
+      - id: dauan
+        name: Dầu ăn
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Đun thật nóng rồi mới dội vào hành, hành mới xanh
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        color: amber
+        base: 50
+        unit: g
+        note: Rang rồi xát vỏ, giã thô — đừng giã mịn thành bột
+  - name: Chén nước mắm me
+    icon: jar
+    items:
+      - id: me
+        name: Me vắt
+        icon: pod
+        color: amber
+        base: 40
+        unit: g
+        note: Dầm với nước ấm rồi lọc bỏ hạt và xơ
+      - id: mamme
+        name: Nước mắm · đường
+        icon: bottle
+        qtyText: 2 muỗng canh mắm · 2 muỗng canh đường
+        note: Nêm tới khi chua ngọt cân nhau, hơi sánh là đạt
+      - id: toiot
+        name: Tỏi ớt băm
+        icon: chili
+        color: red
+        qtyText: 3 tép tỏi · 2 trái ớt
+        note: Cho vào lúc chén mắm đã nguội thì tỏi mới nổi lên mặt
+  - name: Cuốn kèm
+    icon: basket
+    items:
+      - id: banhtrang
+        name: Bánh tráng cuốn
+        icon: roll
+        base: 20
+        unit: cái
+        note: Loại mỏng dẻo, nhúng nước là cuốn được ngay
+      - id: bun
+        name: Bún tươi
+        icon: noodle
+        base: 300
+        unit: g
+        note: Xóc cho tơi, để ráo hẳn kẻo bánh tráng bị ướt
+      - id: rauthom
+        name: Xà lách · húng quế · dưa leo
+        icon: lettuce
+        color: green
+        base: 400
+        unit: g
+        note: Rửa sạch, vẩy thật ráo
+      - id: chuoikhe
+        name: Chuối chát · khế chua
+        icon: pod
+        color: green
+        base: 1
+        unit: trái mỗi loại
+        note: >-
+          Hai thứ này mới là linh hồn của cuốn cá — chát và chua kéo lại vị béo
+          của mỡ hành
+
+stepsTitle: Bốn nhịp, mà **ba nhịp đầu chỉ là đừng làm gì cả**
+stepsLead: >-
+  Món này khó ở chỗ ngược đời: hầu hết công đoạn là **không làm**. Không đánh
+  vảy, không mổ, không ướp. Việc thật chỉ có canh lửa.
+steps:
+  - title: Làm cá — chỉ rửa, không hơn
+    icon: fish
+    minutes: 10 phút
+    bullets:
+      - label: "Rửa nhớt:"
+        text: >-
+          Chà con cá với muối hột cho sạch nhớt, xả lại nước cho thật sạch. Chỉ
+          làm tới đó.
+      - label: "Giữ nguyên vảy:"
+        text: >-
+          **Không đánh vảy.** Lớp vảy sẽ cháy thành cái vỏ chắn lửa, giữ hơi
+          nước lại bên trong.
+      - label: "Nếu ngại không mổ bụng:"
+        text: >-
+          Bản gốc để nguyên con. Ở nhà mà ngại, có thể **moi ruột qua mang** bằng
+          một chiếc đũa — bụng cá vẫn kín, vảy vẫn nguyên. Đừng rạch bụng ra.
+    callout:
+      type: tip
+      text: >-
+        Khứa **2–3 đường nông** ở lưng con cá phía sau đầu. Không phải để ngấm
+        gia vị, mà để hơi nước thoát bớt cho da khỏi nứt toác lúc gặp lửa.
+  - title: Xiên que
+    icon: stem
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Đưa que **từ miệng cá chạy dọc theo xương sống xuống tới đuôi**, ghim
+          ra ngoài. Con cá phải thẳng đơ như cái que — cong thì lúc nướng chín
+          không đều.
+      - text: >-
+          Que dài hơn con cá một gang để còn chỗ cầm trở. Que tre nhớ ngâm nước
+          trước; cây sả to thì dùng luôn được.
+  - title: Nướng — chọn một trong ba
+    icon: flame
+    minutes: 20–35 phút
+    intro: "Cả ba đường đều cần một thứ: lửa to, đều, và không kéo dài."
+    bullets:
+      - label: "Than hoa (đường dễ nhất ở nhà):"
+        text: >-
+          Đốt than cho **cháy đượm, phủ tro trắng**, gạt thành một lớp dày và
+          đều. Gác cá cách than một gang tay, nướng **20–25 phút**, trở đều mỗi
+          5 phút. Xong khi vảy đen giòn và tróc khỏi thịt.
+      - label: "Lò nướng:"
+        text: >-
+          Bật **250 °C** (hoặc mức cao nhất), có quạt thì bật quạt, đặt cá lên
+          vỉ có khay hứng bên dưới. Nướng **30–35 phút**, lật một lần giữa
+          chừng, rồi bật **lửa trên 5 phút cuối** cho lớp vảy khô và cháy hẳn.
+      - label: "Rơm (nếu bạn đang ở quê):"
+        text: >-
+          Cắm que xuống đất cho cá đứng, phủ rơm khô kín con cá rồi châm lửa.
+          Cháy hết đống rơm là xong, chừng **10–15 phút**. Rơm phải khô và đủ
+          nhiều — thiếu rơm thì lửa tắt giữa chừng, cá sống bên trong.
+      - label: "Sao là chín:"
+        text: >-
+          Xiên đũa vào chỗ dày nhất sau đầu, rút ra **không thấy nước hồng** là
+          được. Vảy cháy đen và bong lên là dấu hiệu đi kèm.
+    timer:
+      secs: 1500
+      label: Hẹn giờ nướng than · 25:00
+      doneMsg: Kiểm thử bằng đũa xem trong đã chín chưa nghen!
+    callout:
+      type: warn
+      text: >-
+        Lửa nhỏ mà nướng lâu là hỏng chắc: vảy không cháy tới nơi nên cạo không
+        ra, còn thịt thì mất nước, bở và nhạt. Thà lửa hơi già một chút — lớp
+        vảy cháy thêm cũng bỏ đi thôi.
+  - title: Cạo vảy, rưới mỡ hành, dọn cuốn
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - label: "Mỡ hành:"
+        text: >-
+          Hành lá xắt nhuyễn cho vào chén, đun [[3|muỗng canh|frac]] dầu tới bốc
+          khói nhẹ rồi **dội thẳng vào hành**, thêm chút muối. Nghe xèo một
+          tiếng là đúng.
+      - label: "Cạo vảy:"
+        text: >-
+          Đặt cá ra dĩa, dùng sống dao **cạo hết lớp vảy cháy** cho lộ thịt
+          trắng. Cạo lúc còn nóng thì vảy tróc thành từng mảng.
+      - text: >-
+          Rưới mỡ hành khắp mình cá, rắc đậu phộng giã thô. Dọn kèm dĩa bánh
+          tráng, bún, rau và chén nước mắm me.
+    doneText: Xong — gỡ tới đâu cuốn tới đó!
+
+tipsTitle: 4 điều **quyết định** con cá nướng trui
+tips:
+  - icon: alert
+    title: Cái vảy là dụng cụ nấu, không phải rác
+    text: >-
+      Đây là chỗ người mới hay làm sai nhất — thấy vảy thì đánh sạch theo thói
+      quen. Nhưng con cá này **không có nồi, không có giấy bạc**: lớp vảy chính
+      là thứ giữ hơi nước và chắn lửa. Đánh vảy trước khi nướng thì món ăn đổi
+      hẳn, thành cá nướng thường và khô hơn nhiều.
+  - icon: flame
+    title: Lửa to và ngắn, đừng liu riu
+    text: >-
+      Nướng trui không phải nướng chậm. Đống rơm cháy hết trong mươi lăm phút —
+      cứ lấy đó làm chuẩn. Ở bếp nhà nghĩa là **than thật đượm hoặc lò thật
+      nóng**, làm một mạch rồi thôi, chứ không phải để cá trên lửa nhỏ suốt
+      nửa tiếng.
+  - icon: pod
+    title: Chuối chát và khế đừng bỏ
+    text: >-
+      Cuốn cá lóc mà thiếu hai thứ này thì nhạt hẳn. Miếng cá ngọt, mỡ hành béo,
+      đậu phộng bùi — cả cuốn đang đi về một phía. **Chát của chuối và chua của
+      khế** kéo ngược lại, nên ăn cuốn thứ năm vẫn còn thấy ngon.
+  - icon: drop
+    title: Nước mắm me nêm hơi đậm một chút
+    text: >-
+      Vì con cá hoàn toàn không ướp, chén chấm phải gánh phần mặn cho cả cuốn.
+      Nêm tới khi nếm riêng thấy **hơi đậm hơn mức bạn muốn** là vừa — vào cuốn
+      có bún và rau, nó loãng ra đúng độ.
+
+serve:
+  title: Dọn cả mâm ra giữa bàn — **ai cuốn nấy ăn**
+  paras:
+    - >-
+      Đừng gỡ sẵn cá ra dĩa rồi mới bưng lên. Để nguyên con giữa mâm, đặt cái
+      nĩa hay đôi đũa bên cạnh, ai ăn tới đâu gỡ tới đó. Thịt cá nằm trong mình
+      con cá thì giữ nóng lâu hơn nhiều so với gỡ sẵn ra dĩa.
+    - >-
+      Mâm bày kiểu miền Tây là bày rộng: một rổ rau lớn, dĩa bánh tráng, tô bún,
+      chén nước mắm me để giữa. Cuốn là việc của người ăn — cuốn chặt hay lỏng,
+      nhiều rau hay nhiều cá, tuỳ tay mỗi người.
+  aside:
+    title: Rổ rau nên có gì
+    intro: "Bốn thứ này gánh bốn vị khác nhau, có đủ thì cuốn nào cũng tròn:"
+    items:
+      - icon: lettuce
+        text: "**Xà lách và húng quế** — nền mát và mùi thơm."
+      - icon: pod
+        text: "**Chuối chát** — vị chát, thứ cân lại mỡ hành."
+      - icon: star
+        text: "**Khế chua** xắt lát hình sao — chua thanh, khác cái chua của me."
+      - icon: okra
+        text: "**Dưa leo** chẻ que — giòn và mọng nước."
+
+faq:
+  - q: Nhà chung cư không có than, nướng lò có ra không?
+    a: >-
+      Ra được, và ra khá gần. Cái phải giữ là **nhiệt thật cao**: bật 250 °C hay
+      mức cao nhất của lò, nướng 30–35 phút, năm phút cuối bật lửa trên cho lớp
+      vảy khô cứng lại. Chỗ khác biệt còn lại là lớp vảy cháy không đều bằng
+      nướng than, nên cạo hơi lâu hơn.
+  - q: Không mua được cá lóc thì thay bằng cá gì?
+    a: >-
+      **Cá rô phi, cá diêu hồng, cá trê** đều nướng kiểu này được — chọn con
+      **thịt chắc và có vảy**, cỡ 700–1000 g. Cá da trơn không vảy như cá basa
+      thì không hợp, vì mất đúng cái lớp áo chắn lửa làm nên món.
+  - q: Có nên ướp một chút cho đậm không?
+    a: >-
+      Không cần, mà cũng gần như vô ích: gia vị chỉ bám ở lớp vảy, mà lớp đó sẽ
+      bị cạo bỏ. Muốn đậm hơn thì **nêm chén nước mắm me đậm tay hơn**, hoặc rắc
+      chút muối ớt lên thịt sau khi cạo vảy.
+  - q: Cá bị nứt da, chảy hết nước ra ngoài thì sao?
+    a: >-
+      Thường là do lửa quá sát hoặc không khứa lưng trước. Lần sau nhớ hai điều:
+      **khứa 2–3 đường nông ở lưng** cho hơi thoát, và gác cá cách than ít nhất
+      một gang tay. Con đang nướng dở thì hạ thấp lửa xuống, trở mặt nứt lên
+      trên cho nước khỏi chảy tiếp.
+
+ticker:
+  - icon: fish
+    text: Để nguyên vảy, không ướp một hạt muối
+  - icon: flame
+    text: Lửa to và ngắn, cạo vảy lộ thịt trắng

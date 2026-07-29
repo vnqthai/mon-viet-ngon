@@ -1,0 +1,361 @@
+title: Bún đỏ Buôn Ma Thuột **nấu thẳng trong nồi, sợi ăn màu**
+summary: >-
+  Tô bún cọng to hơn bún thường, **thả thẳng vào nồi nước lèo** nên sợi ngấm đỏ
+  cam từ trong ra chứ không phải chỉ chan nước đỏ lên trên. Màu ấy là **gạch cua
+  và dầu điều**, không phải phẩm màu.
+region: Tây Nguyên
+category: Món nước
+occasions: [Ăn chơi]
+pubDate: 2026-07-29
+time:
+  total: 2 giờ 30 phút
+  active: 1 giờ
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 15
+art: bun-do
+heroEyebrow: Phố núi lên đèn…
+
+quick:
+  ingredients:
+    - Bún cọng to [[800|g]] — cỡ bằng chiếc đũa; thay được bằng bún bò Huế cọng lớn
+    - Cua đồng xay [[500|g]] · tôm khô hoặc tép [[80|g]] · thịt heo bằm [[200|g]]
+    - Xương ống heo [[600|g]] — hầm lấy nước ngọt
+    - "Lên màu: dầu điều [[3|muỗng canh|frac]] · cà chua [[3|trái]] · gạch cua vớt được"
+    - Trứng cút [[16|trái]] luộc bóc vỏ · tóp mỡ [[80|g]] · hành phi
+    - "Rau trụng: rau cần nước [[200|g]] · cải ngọt [[200|g]] · giá [[150|g]]"
+    - "Dọn kèm: mắm tôm, ớt chưng, chanh"
+  steps:
+    - Hầm xương ống [[2|lít]] nước trong 1 giờ, hớt bọt cho nước trong.
+    - Lọc cua đồng lấy nước, nấu lửa vừa cho riêu **kết tảng rồi vớt ra**.
+    - Phi hành tím với dầu điều, xào cà chua và gạch cua cho ra màu, trút vào nồi.
+    - Trộn riêu với tôm xay + thịt bằm, vo viên, thả vào nồi nấu chín.
+    - Thả bún vào **nấu thẳng trong nồi 8–10 phút** cho sợi ăn màu, rồi múc ra tô.
+  warning: >-
+    Đừng trụng bún riêng rồi chan nước lên như mấy tô bún khác — làm vậy sợi bún
+    vẫn **trắng**, tô ra chỉ có nước đỏ. Cái tên "bún đỏ" nằm ở chính sợi bún.
+
+flavor:
+  chua: 3
+  ngot: 6
+  man: 6
+  cay: 4
+  thom: 6
+flavorNote: >-
+  **Chuẩn tô:** sợi bún đỏ cam từ ngoài vào, cắn thấy **mềm mà còn hơi sựt**;
+  nước lèo ngọt đậm mùi cua, thoảng chua cà chua, ăn tới đâu thấy no tới đó.
+storyEyebrow: Chuyện món ăn
+storyTitle: Tô bún **của buổi chiều tối** trên phố núi
+story:
+  - >-
+    Bún đỏ là món của Buôn Ma Thuột, và là món **ăn theo giờ**. Hàng quán dọn
+    ra lúc xế chiều, đông nhất khi trời tối hẳn, bán tới khuya. Có nguyên một
+    khúc phố tối nào cũng chi chít quán bún đỏ, khách ngồi ghế nhựa thấp quanh
+    nồi nước lèo đỏ au. Đi Buôn Ma Thuột mà tìm ăn bún đỏ vào buổi sáng thì
+    thường là hụt.
+  - >-
+    Ba thứ làm nên cái tô này. Thứ nhất là **sợi bún**: to hơn sợi bún thường
+    chừng gấp rưỡi, cỡ bằng chiếc đũa — xấp xỉ sợi bún bò Huế loại lớn chứ chưa
+    tới mức sợi bánh canh, và mỗi hàng lại nhỉnh hơn kém nhau đôi chút. Thứ hai
+    là cách nấu: bún **thả thẳng vào nồi nước lèo** chứ không trụng riêng, nên
+    nó vừa nở ra vừa ngấm màu, ngấm vị. Thứ ba là màu đỏ, đến từ **gạch cua, cà
+    chua và dầu điều**.
+  - >-
+    Nói cho rõ chỗ hay bị hiểu nhầm: **hạt điều màu** dùng nấu dầu điều là loại
+    hạt nhỏ màu cam đỏ, đun nóng thì tiết ra dầu đỏ óng để lên màu món ăn — nó
+    **không phải hạt điều rang muối** người ta vẫn ăn chơi, dù hai thứ cùng tên
+    gọi tắt. Cùng thứ dầu này là cái làm nồi bún bò Huế và nồi cà ri có màu.
+  - >-
+    Nền vị thì quen thuộc với người Việt: **riêu cua đồng**. Nhưng riêu ở đây
+    được trộn thêm tôm xay và thịt bằm rồi vo thành viên, nên không tơi như tảng
+    riêu trong tô bún riêu mà chắc và đậm hơn. Cộng với sợi bún to, tô bún đỏ ăn
+    no hơn hẳn — đúng kiểu một bữa tối gọn nhẹ mà chắc bụng.
+
+ingredientGroups:
+  - name: Nồi nước lèo
+    icon: pot
+    items:
+      - id: xuongong
+        name: Xương ống heo
+        icon: meat
+        base: 600
+        unit: g
+        note: Chần qua nước sôi rồi xả sạch, nước mới trong
+      - id: cuadong
+        name: Cua đồng xay
+        icon: shrimp
+        color: amber
+        base: 500
+        unit: g
+        note: >-
+          Mua loại xay sẵn ngoài chợ, nhớ xin phần **gạch cua** để riêng — đó là
+          nửa phần màu đỏ của nồi
+      - id: cachua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 3
+        unit: trái
+        note: Bổ múi cau, xào cho ra nước trước khi trút vào nồi
+      - id: daudieu
+        name: Dầu điều
+        icon: bottle
+        color: gold
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Nấu từ **hạt điều màu** (hạt nhỏ màu cam đỏ chuyên để lên màu), không
+          phải hạt điều rang muối. Chợ nào cũng bán, hoặc tự đun hạt với dầu
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        base: 5
+        unit: củ
+        note: Băm nhuyễn, phi thơm với dầu điều
+  - name: Viên riêu
+    icon: shrimp
+    items:
+      - id: tomkho
+        name: Tôm khô hoặc tép tươi
+        icon: shrimp
+        color: red
+        base: 80
+        unit: g
+        note: Ngâm mềm rồi xay nhuyễn, trộn chung với riêu cho viên chắc tay
+      - id: thitbam
+        name: Thịt heo bằm
+        icon: meat
+        color: red
+        base: 200
+        unit: g
+        note: Chọn nạc dăm có chút mỡ, viên mới không bị khô
+      - id: trungcut
+        name: Trứng cút
+        icon: egg
+        base: 16
+        unit: trái
+        note: Luộc chín, bóc vỏ, thả vào nồi trước khi dọn cho ngấm màu
+      - id: nemrieu
+        name: Hành tím băm · tiêu · nước mắm
+        icon: jar
+        qtyText: 2 muỗng canh hành · 1 muỗng cà phê tiêu
+        note: Trộn vào riêu, giúp viên thơm từ bên trong
+  - name: Tô bún
+    icon: noodle
+    items:
+      - id: bunto
+        name: Bún cọng to
+        icon: noodle
+        base: 800
+        unit: g
+        note: >-
+          Sợi bún đỏ chính gốc chỉ có ở Đắk Lắk. Ở nơi khác thì **bún bò Huế
+          cọng lớn** là gần nhất; bánh canh bột gạo cũng dùng được, sợi hơi dai
+          hơn
+      - id: raucan
+        name: Rau cần nước
+        icon: stem
+        color: green
+        base: 200
+        unit: g
+        note: Cắt khúc, trụng nhanh trong nồi rồi vớt ra ngay cho còn giòn
+      - id: caingot
+        name: Cải ngọt · giá
+        icon: sprout
+        color: green
+        base: 350
+        unit: g
+        note: Trụng riêng, để dưới đáy tô trước khi cho bún lên
+      - id: topmo
+        name: Tóp mỡ · hành phi
+        icon: jar
+        color: gold
+        base: 80
+        unit: g
+        note: Rắc lúc dọn, đừng rắc sớm kẻo mềm oặt
+      - id: mamtom
+        name: Mắm tôm · ớt chưng · chanh
+        icon: chili
+        color: red
+        qtyText: Mỗi thứ một chén nhỏ
+        note: >-
+          Dọn riêng để ai thích thì tự cho — mắm tôm đánh thẳng vào nồi là cả nồi
+          nồng, người lạ vị bỏ tô
+
+stepsTitle: Năm nhịp — và nhịp cuối là **chỗ khác mọi tô bún khác**
+steps:
+  - title: Hầm xương lấy nước ngọt
+    icon: pot
+    minutes: 1 giờ
+    bullets:
+      - label: "Chần trước:"
+        text: >-
+          Xương ống chần qua nước sôi 3 phút, đổ bỏ nước đó rồi xả lại thật
+          sạch. Bỏ bước này là nồi đục suốt.
+      - text: >-
+          Cho xương vào [[2|lít]] nước lạnh, đun sôi rồi hạ nhỏ lửa, hầm **1
+          giờ**, hớt bọt vài lần. Lọc lấy nước, bỏ xương.
+    timer:
+      secs: 3600
+      label: Hẹn giờ hầm xương · 60:00
+      doneMsg: Lọc lấy nước trong rồi qua phần cua nghen!
+  - title: Lọc cua, gạn riêu
+    icon: shrimp
+    minutes: 20 phút
+    intro: "Bước này quyết định nồi có mùi cua thật hay không:"
+    bullets:
+      - label: "Lọc:"
+        text: >-
+          Cua xay hoà với [[1|lít]] nước, bóp kỹ rồi lọc qua rây, bỏ xác. Làm
+          hai lần nước cho hết chất.
+      - label: "Gạn riêu:"
+        text: >-
+          Bắc nước cua lên bếp, **lửa vừa và tuyệt đối không khuấy**. Riêu sẽ tự
+          nổi lên kết thành tảng. Vớt riêu ra tô để riêng, giữ lại phần nước.
+      - label: "Gạch cua:"
+        text: >-
+          Phần gạch vàng cam chưng riêng với chút dầu điều — đây là nửa phần màu
+          của nồi, đừng để lẫn vào nước rồi tan mất.
+    callout:
+      type: warn
+      text: >-
+        Khuấy trong lúc riêu đang nổi là **tan hết thành lợn cợn**, vớt không
+        được. Thấy mặt nồi lăn tăn thì hạ lửa xuống nữa, cứ để yên.
+  - title: Lên màu và nêm nồi
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - label: "Phi thơm:"
+        text: >-
+          Phi hành tím băm với [[3|muỗng canh|frac]] dầu điều, cho cà chua vào
+          xào tới khi mềm nát, trút cả gạch cua đã chưng vào đảo đều.
+      - text: >-
+          Trút hỗn hợp đó vào nồi nước xương + nước cua. Nêm nước mắm, muối, chút
+          đường. Nếm tới khi **ngọt đậm, mặn vừa, thoảng chua** là đạt.
+      - text: >-
+          Màu nồi lúc này phải là **đỏ cam trong**, không phải đỏ đục. Nhạt quá
+          thì thêm dầu điều từng thìa một, đừng đổ ào.
+  - title: Vo viên riêu, thả trứng cút
+    icon: spoon
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Trộn riêu đã vớt với tôm xay, thịt bằm, hành tím băm, tiêu và chút
+          nước mắm. Trộn tới khi khối riêu dẻo dính tay.
+      - text: >-
+          Vo viên cỡ trái nhãn, thả nhẹ vào nồi đang sôi lăn tăn. Viên nổi lên
+          là chín. Thả trứng cút vào cùng cho ngấm màu.
+    callout:
+      type: tip
+      text: >-
+        Nhúng tay vào nước lạnh trước khi vo thì riêu không dính tay, viên ra
+        tròn và mặt láng.
+  - title: Nấu bún **thẳng trong nồi** — nhịp làm nên cái tên
+    icon: noodle
+    minutes: 10 phút
+    intro: "Tới đây thì đừng làm giống mọi tô bún khác:"
+    bullets:
+      - label: "Thả thẳng:"
+        text: >-
+          Cho bún cọng to vào **chính nồi nước lèo**, nấu lửa vừa **8–10 phút**.
+          Sợi bún nở ra, ngấm màu và ngấm vị từ trong ra ngoài.
+      - label: "Trụng rau riêng:"
+        text: >-
+          Rau cần và cải ngọt trụng nhanh rồi vớt ra ngay — bỏ vào nồi chung là
+          rau vàng úa và nước lèo hoá chát.
+      - label: "Múc tô:"
+        text: >-
+          Lót rau trụng và giá dưới đáy tô, múc bún cùng nước lèo lên, xếp viên
+          riêu và trứng cút, rắc tóp mỡ với hành phi. Dọn kèm chén mắm tôm, ớt
+          chưng và miếng chanh.
+    timer:
+      secs: 600
+      label: Hẹn giờ nấu bún trong nồi · 10:00
+      doneMsg: Sợi bún đỏ rồi — múc ra tô liền nghen!
+    doneText: Xong — húp lúc còn bốc khói!
+
+tipsTitle: 4 chỗ **quyết định** tô bún đỏ
+tips:
+  - icon: noodle
+    title: Bún càng to càng dễ, vì nó phải nấu trong nồi
+    text: >-
+      Hai điều này đi liền nhau. Sợi bún thường mảnh quá, nấu trong nồi mươi
+      phút là **nát thành cháo** — chỉ sợi to và chắc mới chịu được, và cũng chỉ
+      nó mới ngấm màu mà vẫn còn cái sựt khi cắn. Cỡ đũa là vừa; nhỉnh hơn kém
+      một chút không sao, nhưng đừng dùng bún sợi nhỏ thông thường.
+  - icon: alert
+    title: Nồi nấu bún là nồi dùng một lần
+    text: >-
+      Bún nhả tinh bột ra nước, nên nấu vài mẻ là nồi **đặc lại và hơi chua**.
+      Nhà hàng bán cả buổi thì châm nước lèo dự trữ liên tục. Ở nhà, cách gọn
+      nhất là chia nồi làm hai: giữ một phần nước lèo trong để châm thêm vào tô,
+      phần còn lại mới dùng để nấu bún.
+  - icon: jar
+    title: Mắm tôm để chén riêng
+    text: >-
+      Bún đỏ ăn với mắm tôm là đúng bài, nhưng đánh thẳng vào nồi thì cả nhà
+      phải theo. Dọn một chén nhỏ bên cạnh: người quen vị khuấy một muỗng vào tô
+      mình, người lạ vị để nguyên. Ớt chưng cũng vậy — cay là chuyện của từng
+      người.
+  - icon: drop
+    title: Đỏ là do gạch cua và dầu điều, đừng đổ nhiều một lúc
+    text: >-
+      Dầu điều cho từng thìa rồi nhìn màu, vì màu còn đậm thêm khi bún nhả tinh
+      bột và khi nồi cạn bớt. Đổ ào một lần thì nước đục và **có váng dầu đỏ nổi
+      lềnh bềnh** — nhìn là biết ngay bị lạm màu.
+
+serve:
+  title: Tô bún **chiều tối** — no mà không nặng
+  paras:
+    - >-
+      Bún đỏ hợp bữa tối muộn hơn là bữa chính. Sợi to nên ăn một tô là chắc
+      bụng, mà nước lèo cua thì nhẹ chứ không béo như nước xương suông. Ở Buôn
+      Ma Thuột người ta ngồi ghế thấp quanh nồi, ăn xong đi tiếp — đúng kiểu quà
+      chiều tối chứ không phải bữa cơm.
+    - >-
+      Nấu ở nhà thì nên nấu nồi vừa đủ ăn trong ngày. Riêu và nước lèo để tủ
+      lạnh qua đêm được, nhưng **bún thì phải nấu tới đâu ăn tới đó** — sợi bún
+      ngâm trong nồi qua đêm sẽ trương lên và bở.
+  aside:
+    title: Trên bàn nên có
+    intro: "Ba thứ để mỗi người tự chỉnh tô của mình:"
+    items:
+      - icon: jar
+        text: "**Mắm tôm** — một chén nhỏ, ai quen vị thì khuấy vào tô."
+      - icon: chili
+        text: "**Ớt chưng** — cay và thơm, khác hẳn ớt tươi xắt."
+      - icon: lime
+        text: "**Chanh** — vắt lúc gần cuối tô, nước lèo bừng lên."
+
+faq:
+  - q: Không mua được bún cọng to thì làm sao?
+    a: >-
+      Dùng **bún bò Huế cọng lớn** là gần nhất, hoặc **bánh canh bột gạo** (sợi
+      dai hơn một chút nhưng chịu nấu rất tốt). Điều duy nhất đừng làm là dùng
+      bún sợi nhỏ thông thường — nấu mười phút trong nồi là nó nát thành cháo.
+  - q: Nhà không ăn được cua đồng thì thay bằng gì?
+    a: >-
+      Thay bằng **tôm khô xay + thịt bằm** cho phần viên riêu, và nấu nước lèo
+      từ xương heo với tôm khô. Vẫn ra một tô ngon, chỉ là mất cái mùi cua đồng
+      vốn là nền của món. Màu đỏ thì không ảnh hưởng gì, vì phần lớn đến từ dầu
+      điều và cà chua.
+  - q: Vì sao tô của tôi nước đỏ mà sợi bún vẫn trắng?
+    a: >-
+      Vì bún được trụng riêng rồi mới chan nước lên. Đó chính là chỗ khác biệt
+      của món này: bún phải **nấu thẳng trong nồi nước lèo 8–10 phút**. Sợi bún
+      nở trong nước màu thì mới ăn màu vào ruột sợi, chứ nhúng qua thì chỉ dính
+      màu ngoài rồi trôi.
+  - q: Dầu điều tự nấu ở nhà được không?
+    a: >-
+      Được và rẻ hơn nhiều. Cho [[2|muỗng canh|frac]] hạt điều màu vào
+      [[100|ml]] dầu ăn, đun **lửa nhỏ** tới khi dầu chuyển đỏ cam thì tắt bếp,
+      vớt bỏ hạt. Đừng để dầu bốc khói — hạt cháy thì dầu ngả nâu và đắng. Lọc
+      vào lọ dùng dần được cả tháng.
+
+ticker:
+  - icon: noodle
+    text: Bún nấu thẳng trong nồi, sợi ăn màu từ ruột
+  - icon: shrimp
+    text: Riêu cua vo viên, trứng cút ngấm đỏ

@@ -48,6 +48,8 @@ order: 99               # thứ tự hiển thị, nhỏ đứng trước
 #                       #               chao-luon chao-ga chao-long
 #                       #               bun-cha-ca bun-mam-nem com-hen
 #                       #               banh-khoai banh-trang-cuon mam-ruoc-xao
+#                       #               bun-do pa-pinh-top bo-mot-nang
+#                       #               ca-loc-nuong-trui oc-len-xao-dua
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc

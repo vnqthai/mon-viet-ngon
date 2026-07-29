@@ -1,0 +1,353 @@
+title: Bò một nắng **xé tay, chấm muối kiến vàng**
+summary: >-
+  Thịt bò ướp sả ớt rồi **phơi đúng một buổi nắng** — khô mặt ngoài mà trong còn
+  ẩm, nên nướng xong xé tay vẫn mềm. Chấm **muối kiến vàng**: thứ muối Tây Nguyên
+  giã từ kiến vàng rừng với ớt và muối hột, chua nhẹ trước rồi mới cay.
+region: Tây Nguyên
+category: Nướng
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-07-29
+time:
+  total: 7 giờ
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 32
+art: bo-mot-nang
+heroEyebrow: Nắng gió Krông Pa…
+
+quick:
+  ingredients:
+    - Thịt bò bắp hoặc thăn [[600|g]] — thái miếng to bản, dày cỡ đốt ngón tay
+    - "Ướp: sả băm [[2|muỗng canh|frac]] · tỏi băm [[1|muỗng canh|frac]] · ớt bột [[1|muỗng cà phê|frac]]"
+    - "Nêm: nước mắm [[1.5|muỗng canh|frac]] · đường [[1|muỗng canh|frac]] · dầu điều [[1|muỗng canh|frac]] · tiêu"
+    - Muối kiến vàng [[3|muỗng canh|frac]] — hũ bán sẵn ở hàng đặc sản Gia Lai · Phú Yên
+    - "Dọn kèm: dưa leo, chuối chát, rau răm · một chén muối ớt chanh cho ai chưa quen vị kiến"
+  steps:
+    - Thái bò **to bản, ngang thớ**, dày cỡ đốt ngón tay — mỏng quá là phơi xong hết mềm.
+    - Ướp sả tỏi ớt và gia vị, để ngăn mát **1 giờ**.
+    - Phơi **một nắng** 5–6 tiếng, trở mặt hai lần. Không nắng thì sấy lò 80 °C trong 2–3 giờ.
+    - Nướng than hoa lửa vừa, mỗi mặt 3–4 phút — mặt se lại là được, đừng nướng tới khô.
+    - Đập nhẹ cho tơi thớ rồi **xé dọc thớ** bằng tay, chấm muối kiến vàng.
+  warning: >-
+    Phơi quá tay là thành **khô bò**, dai nhách và mất hẳn cái ngọt. Món này chỉ
+    khô mặt ngoài — bấm vào giữa miếng vẫn phải thấy mềm. Hết một nắng là cất,
+    đừng tiếc thêm một tiếng.
+
+flavor:
+  chua: 2
+  ngot: 4
+  man: 6
+  cay: 5
+  thom: 7
+flavorNote: >-
+  **Chuẩn miếng:** rìa hơi dai, giữa còn mềm và mọng nước; chấm muối vào thì
+  **chua bật lên trước**, cay theo sau, mặn đi sau cùng.
+storyEyebrow: Chuyện món ăn
+storyTitle: Miếng thịt của **vùng nắng**, và hũ muối không nơi nào khác có
+story:
+  - >-
+    **Krông Pa** (Gia Lai) với **Sơn Hòa** (Phú Yên) nằm sát nhau, cùng một
+    thung lũng nắng chang chang và gió khô — vùng nuôi bò lâu đời. Trước khi có
+    tủ lạnh, thịt ăn không hết thì đem phơi. Phơi kiệt thành khô bò để dành được
+    hàng tháng; phơi **đúng một buổi nắng** rồi ăn ngay thì miếng thịt vẫn còn
+    mềm và ngọt. Cái tên **"một nắng"** nói đúng nghĩa đen như vậy.
+  - >-
+    Người Ê Đê ở Sơn Hòa được cho là đã làm kiểu thịt này từ lâu; sau đó nó lan
+    dần lên thị trấn Phú Túc của huyện Krông Pa và thành nghề ở đó. Nên hỏi món
+    này quê đâu thì câu thật thà nhất là **của cả một vùng giáp ranh**, không
+    phải của riêng tỉnh nào. Trang này xếp vào Tây Nguyên vì Krông Pa là nơi nó
+    thành cái tên ai cũng biết.
+  - >-
+    Thứ đi kèm mới là chỗ lạ. **Kiến vàng** là loài kiến làm tổ trên cây rừng,
+    kết lá lại thành tổ treo lơ lửng. Người ta lấy tổ về, làm sạch, rang hoặc
+    phơi cho khô rồi **giã chung với ớt và muối hột**. Con kiến vàng vốn có vị
+    chua tự nhiên, nên hũ muối làm ra chua nhẹ, cay, mặn — ba vị cùng lúc.
+  - >-
+    Vì sao hai thứ đó hợp nhau: miếng bò một nắng đậm và hơi ngọt, tự nó thiếu
+    một nhịp chua để đỡ ngán. Chanh thì làm ướt miếng thịt, còn **muối kiến vàng
+    đưa cái chua vào ở dạng khô** — chấm bao nhiêu ăn bấy nhiêu, miếng thịt vẫn
+    ráo. Đó là lý do người ta không đổi nó lấy chén muối ớt chanh thường.
+
+ingredientGroups:
+  - name: Miếng thịt
+    icon: meat
+    items:
+      - id: thitbo
+        name: Thịt bò bắp hoặc thăn
+        icon: meat
+        color: red
+        base: 600
+        unit: g
+        note: >-
+          Chọn khối nạc dày, ít gân. Bắp hoa, thăn, mông đều được — miễn thái ra
+          được miếng to bản
+      - id: sa
+        name: Sả băm
+        icon: stem
+        color: green
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Băm thật nhuyễn, băm thô là phơi xong cháy sém từng mẩu
+      - id: toi
+        name: Tỏi băm
+        icon: garlic
+        base: 1
+        unit: muỗng canh
+        frac: true
+      - id: otbot
+        name: Ớt bột
+        icon: chili
+        color: red
+        base: 1
+        unit: muỗng cà phê
+        frac: true
+        note: Ớt bột Tây Nguyên thơm và không gắt; thiếu thì dùng ớt tươi băm
+      - id: daudieu
+        name: Dầu điều
+        icon: bottle
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Nấu từ **hạt điều màu** — thứ hạt nhỏ màu cam dùng để lên màu, không
+          phải hạt điều rang muối để ăn. Chỉ để miếng thịt lên màu cho đẹp
+      - id: nemthit
+        name: Nước mắm · đường · tiêu
+        icon: jar
+        qtyText: 1½ muỗng canh mắm · 1 muỗng canh đường
+        note: Đường vừa phải thôi — nhiều đường thì phơi nắng dễ bị sạm mặt
+  - name: Chén chấm
+    icon: jar
+    items:
+      - id: muoikien
+        name: Muối kiến vàng
+        icon: jar
+        color: red
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Bán sẵn theo hũ ở hàng đặc sản Gia Lai · Phú Yên và các chợ mạng. Mở
+          ra thấy màu nâu đỏ lợn cợn, mùi hơi chua — đúng là nó
+      - id: muoiotchanh
+        name: Muối ớt chanh
+        icon: lime
+        color: green
+        qtyText: 1 chén nhỏ
+        note: >-
+          Dọn thêm một chén cho ai chưa quen vị kiến. Nói thẳng là **không thay
+          được** — chỉ là thứ gần nhất kiếm được ở bếp nhà
+  - name: Dọn kèm
+    icon: basket
+    items:
+      - id: dualeo
+        name: Dưa leo
+        icon: okra
+        color: green
+        base: 1
+        unit: trái
+        note: Chẻ que dài, ăn xen cho đỡ khát
+      - id: chuoichat
+        name: Chuối chát
+        icon: pod
+        color: green
+        base: 1
+        unit: trái
+        note: Xắt lát mỏng ngâm nước chanh cho khỏi thâm
+      - id: rauram
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: nhúm
+        note: Vị hăng của rau răm hợp với thịt phơi nắng
+
+stepsTitle: Năm nhịp — mà **nhịp phơi** quyết định tất cả
+steps:
+  - title: Thái miếng cho đúng
+    icon: knife
+    minutes: 15 phút
+    intro: "Miếng thái sai thì mấy bước sau cứu không nổi:"
+    bullets:
+      - label: "To bản:"
+        text: >-
+          Thái miếng rộng cỡ lòng bàn tay, **dày cỡ đốt ngón tay**. Miếng mỏng
+          phơi một nắng là khô kiệt luôn, không còn chỗ nào mềm.
+      - label: "Ngang thớ:"
+        text: >-
+          Nhìn kỹ chiều sợi thịt rồi **cắt ngang qua nó**. Cắt dọc thớ thì lát
+          nào cũng dai, mà lát dai thì xé tay ra cũng không tơi.
+      - text: >-
+          Lạng bỏ gân trắng và mỡ dày. Gân phơi xong cứng như dây thun, mỡ thì
+          bị hôi nắng.
+    callout:
+      type: tip
+      text: >-
+        Để khối thịt vào ngăn đá **20 phút** cho hơi cứng mặt rồi mới thái — dao
+        đi ngọt hơn hẳn và miếng ra đều dày.
+  - title: Ướp một giờ
+    icon: spoon
+    minutes: 1 giờ
+    bullets:
+      - text: >-
+          Trộn sả băm, tỏi băm, ớt bột, [[1.5|muỗng canh|frac]] nước mắm,
+          [[1|muỗng canh|frac]] đường, tiêu và dầu điều cho tan đều rồi mới bóp
+          vào thịt.
+      - label: "Bóp kỹ:"
+        text: >-
+          Bóp cho gia vị bám đều **hai mặt từng miếng**, xếp chồng lại, đậy kín,
+          để ngăn mát **1 giờ**.
+    timer:
+      secs: 3600
+      label: Hẹn giờ ướp · 60:00
+      doneMsg: Ngấm rồi — mang ra phơi thôi!
+    callout:
+      type: warn
+      text: >-
+        Đừng ướp qua đêm. Muối rút nước ra khỏi thịt suốt đêm thì mai đem phơi,
+        miếng thịt teo lại và mặn gắt.
+  - title: Phơi **một nắng** — hoặc sấy lò
+    icon: flame
+    minutes: 5–6 giờ
+    intro: "Đây là bước làm nên cái tên. Hai đường, chọn một:"
+    bullets:
+      - label: "Phơi nắng:"
+        text: >-
+          Xếp miếng thịt rời nhau trên vỉ, phơi chỗ nắng gắt và thoáng gió,
+          **5–6 tiếng** (cỡ 9 giờ sáng tới 3 giờ chiều). Trở mặt hai lần. Đậy
+          lồng bàn hoặc lưới cho kín.
+      - label: "Sấy lò:"
+        text: >-
+          Trời không có nắng thì bật lò **80 °C, chế độ quạt, hé cửa lò**, sấy
+          2–3 giờ. Nồi chiên không dầu để 80–100 °C cũng được, canh chừng vì nó
+          nóng nhanh hơn lò.
+      - label: "Thế nào là đạt:"
+        text: >-
+          Mặt ngoài **ráo và sậm màu**, sờ không dính tay; bấm vào giữa miếng
+          vẫn thấy mềm và hơi lún. Miếng cứng đều từ ngoài vào trong là đã quá.
+    callout:
+      type: warn
+      text: >-
+        Đây là chỗ hỏng của hầu hết người làm lần đầu — thấy còn mềm nên phơi
+        thêm. Nhớ là **nướng ở bước sau còn làm khô thêm một lần nữa**, nên cứ
+        để hơi non một chút.
+  - title: Nướng than, lửa vừa
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - label: "Than hoa:"
+        text: >-
+          Chờ than **tàn hết lửa ngọn, phủ tro trắng** rồi mới nướng. Gác vỉ
+          cách than một gang tay, mỗi mặt **3–4 phút**.
+      - label: "Bếp nhà:"
+        text: >-
+          Không có than thì áp chảo gang thật nóng, mỗi mặt 2 phút; hoặc nồi
+          chiên không dầu 200 °C trong 6–8 phút, lật giữa chừng.
+      - text: >-
+          Miếng thịt phồng nhẹ, mép hơi quăn, dậy mùi sả là xong. Nướng lâu hơn
+          chỉ đổi lại một miếng dai.
+    timer:
+      secs: 420
+      label: Hẹn giờ nướng · 07:00
+      doneMsg: Lấy ra liền — để lâu trên than là khô đó!
+  - title: Đập, xé tay, chấm
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - label: "Đập nhẹ:"
+        text: >-
+          Đặt miếng thịt lên thớt, dùng sống dao hoặc chày **đập nhẹ vài cái**
+          cho thớ thịt tơi ra. Đừng đập mạnh, nát mất.
+      - label: "Xé dọc thớ:"
+        text: >-
+          Xé bằng tay **theo chiều sợi thịt**, thành dải cỡ ngón tay. Xé tay chứ
+          đừng cắt dao — cắt ra lát phẳng lì, miếng nào cũng giống miếng nào và
+          muối không bám được vào mặt xé.
+      - text: >-
+          Bày ra thớt hoặc dĩa, dọn kèm chén muối kiến vàng, dưa leo, chuối chát
+          và rau răm.
+    doneText: Xong — ăn ngay lúc còn ấm nghen!
+
+tipsTitle: 4 chỗ **quyết định** miếng bò một nắng
+tips:
+  - icon: sun
+    title: Một nắng là một nắng
+    text: >-
+      Cả món nằm ở chữ đó. Miếng đạt là **khô mặt, ẩm ruột** — cắn xuống rìa hơi
+      dai rồi tới phần giữa mềm. Phơi sang nắng thứ hai thì bạn đang làm khô bò,
+      một món khác hẳn, ngon theo kiểu khác nhưng không phải món này.
+  - icon: knife
+    title: Xé tay, đừng cắt dao
+    text: >-
+      Mặt xé bằng tay xù xì và nhiều ngóc ngách, nên **muối bám vào được**. Lát
+      cắt dao thì phẳng và trơn, chấm bao nhiêu muối cũng rơi hết xuống chén.
+      Cùng miếng thịt đó, xé tay ăn đậm hơn thấy rõ.
+  - icon: jar
+    title: Muối kiến vàng để riêng một chén
+    text: >-
+      Đừng rắc sẵn lên thịt và cũng đừng trộn vào lúc ướp. Cái chua của nó bay
+      đi khi gặp lửa, mà rắc sẵn thì người không quen vị không có đường lui.
+      Dọn một chén riêng, thêm một chén muối ớt chanh bên cạnh là vừa lòng cả
+      bàn.
+  - icon: clock
+    title: Làm sẵn được, nhưng dừng trước bước nướng
+    text: >-
+      Phơi xong thì bọc kín để ngăn mát được **3–4 ngày**, ngăn đá được vài
+      tuần. Tới bữa mới lấy ra nướng. Nướng sẵn rồi để đó thì hâm lại lần nào
+      cũng khô thêm một chút.
+
+serve:
+  title: Dọn ra thớt — **món của bàn ngồi lâu**
+  paras:
+    - >-
+      Bò một nắng không phải món dọn ra mâm cơm rồi ăn vội. Nó hợp với cái bàn
+      có người ngồi lâu: thịt xé sẵn để giữa, ai gắp lúc nào thì gắp, chấm tới
+      đâu ăn tới đó.
+    - >-
+      Nếu nhà đông, đừng nướng hết một lượt. Nướng từng mẻ nhỏ, ăn hết mẻ này
+      mới nướng mẻ sau — miếng thịt ra khỏi than chừng mười phút là bắt đầu khô
+      lại.
+  aside:
+    title: Trên bàn nên có
+    intro: "Ba thứ dọn kèm, thiếu thì miếng thịt bị đơn độc:"
+    items:
+      - icon: okra
+        text: "**Dưa leo chẻ que** — ăn xen vào cho đỡ khát, món này mặn."
+      - icon: pod
+        text: "**Chuối chát xắt lát** — vị chát kéo lại cái đậm của thịt."
+      - icon: herb
+        text: "**Rau răm** — hăng nhẹ, hợp với thịt phơi nắng hơn rau thơm khác."
+
+faq:
+  - q: Không mua được muối kiến vàng thì chấm gì?
+    a: >-
+      Gần nhất là **muối ớt chanh** giã thô, hoặc muối ớt xanh. Nhưng nói thật
+      là nó không thay được: cái chua của muối kiến là chua **khô**, đến từ
+      chính con kiến, còn chanh thì làm ướt miếng thịt. Nếu định làm món này cho
+      đúng, đặt một hũ trước là đáng.
+  - q: Phơi ngoài trời sợ bụi và ruồi thì làm sao?
+    a: >-
+      Đậy **lồng bàn lưới** hoặc căng một lớp vải màn cách mặt thịt vài phân —
+      đừng để vải chạm vào thịt. Ban công có nắng và gió là đủ, không cần sân
+      rộng. Ngại quá thì đi thẳng đường sấy lò 80 °C, kết quả chênh nhau ít.
+  - q: Thịt bò nào làm cũng được không?
+    a: >-
+      Cần khối **nạc dày, ít gân**, thái ra được miếng to bản — bắp hoa, thăn,
+      mông đều đạt. Tránh phần nhiều gân như nạm, gầu: gân phơi xong cứng lại,
+      xé không ra. Thịt quá nạc và mỏng như thăn nội thì dễ khô, phải rút bớt
+      thời gian phơi.
+  - q: Làm được với thịt heo hay gà không?
+    a: >-
+      Heo thì được, làm y hệt, chỉ nướng kỹ hơn một chút. Gà thì không hợp —
+      thịt gà mỏng thớ, phơi xong bở ra chứ không thành dải xé được. Ở vùng
+      Krông Pa người ta cũng làm **heo một nắng** bán song song với bò.
+
+ticker:
+  - icon: sun
+    text: Phơi đúng một nắng, khô mặt mà ẩm ruột
+  - icon: meat
+    text: Đập nhẹ rồi xé dọc thớ bằng tay

@@ -1,0 +1,344 @@
+title: Pa pỉnh tộp **cá nướng gập, kẹp tre**
+summary: >-
+  Tiếng Thái, **"pa pỉnh tộp" nghĩa là cá nướng gập**. Con cá mổ dọc sống lưng
+  chứ không mổ bụng, nhồi đầy sả gừng rau thơm và **mắc khén** — hạt rừng Tây
+  Bắc thơm nồng, ăn vào tê nhẹ đầu lưỡi — rồi gập úp lại, kẹp hai thanh tre đem
+  nướng than.
+region: Tây Bắc
+category: Nướng
+occasions: [Đãi khách, Nhậu lai rai]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 31
+art: pa-pinh-top
+heroEyebrow: Bên bếp lửa nhà sàn…
+
+quick:
+  ingredients:
+    - Cá chép hoặc cá trắm, cá trôi [[1|con]] cỡ [[800|g]] — đánh sạch vảy
+    - "Nhồi bụng: sả [[3|cây]] · gừng [[1|nhánh]] · hành lá [[1|bó]] · rau thơm (mùi tàu, thì là, húng) [[1|nắm]]"
+    - Mắc khén [[1|muỗng canh|frac]] — rang thơm rồi giã; không có thì dùng hạt sẻn
+    - "Nêm: tỏi băm [[1|muỗng canh|frac]] · ớt tươi [[3|trái]] · muối [[1|muỗng cà phê|frac]]"
+    - Hai thanh tre chẻ đôi + lạt buộc — hoặc một cái vỉ nướng kẹp
+    - "Ăn kèm: xôi nếp nóng · rau cải luộc"
+  steps:
+    - Đánh vảy, **mổ dọc sống lưng** từ đầu tới đuôi, giữ nguyên bụng cá.
+    - Băm nhỏ sả gừng tỏi ớt rau thơm, trộn với mắc khén giã và muối.
+    - Nhồi một nửa vào trong thân cá, một nửa xát đều mặt ngoài. Ướp **30 phút**.
+    - >-
+      **Gập đôi con cá** cho đầu chạm đuôi, kẹp giữa hai thanh tre, buộc lạt hai đầu.
+    - Nướng than hoa lửa vừa **25–30 phút**, trở đều tay tới khi da vàng sém.
+  warning: >-
+    Mổ bụng là hỏng cả món — bụng cá rách thì **gập lại không giữ được nhân**,
+    gia vị chảy hết xuống than. Đường dao phải đi **dọc sống lưng**, và chỉ xẻ
+    tới xương chứ đừng cắt đứt đôi con cá.
+
+flavor:
+  chua: 2
+  ngot: 5
+  man: 5
+  cay: 5
+  thom: 9
+flavorNote: >-
+  **Chuẩn con cá:** da vàng sém và khô ráo, gỡ ra thấy thịt trắng chắc; mùi sả
+  gừng xộc lên trước, mắc khén để lại cái **tê nhẹ ở đầu lưỡi** sau cùng.
+storyEyebrow: Chuyện món ăn
+storyTitle: Ba chữ, ba việc — và món **đãi khách quý** của người Thái
+story:
+  - >-
+    Tên món nói đúng cách làm. Tiếng Thái, **"pa" là cá suối, "pỉnh" là nướng,
+    "tộp" là gập úp lại** — ghép lại thành "cá nướng gập". Hiếm có món nào mà
+    đọc tên xong là biết phải làm gì như vậy.
+  - >-
+    Chỗ tinh của món nằm ở **đường dao dọc sống lưng**. Mổ bụng như thói quen
+    thì con cá thành hai mảnh phẳng, gia vị nhồi vào sẽ rơi ra hết khi gặp lửa.
+    Xẻ dọc lưng thì con cá mở ra như quyển sách mà **bụng vẫn liền**, gập lại là
+    thành một cái túi kín — nhân nằm yên bên trong, thấm ngược vào thịt suốt
+    thời gian nướng.
+  - >-
+    Nhân ấy gần như là cả một rổ rau: sả, gừng, hành, tỏi, ớt, mùi tàu, thì là,
+    húng — và **mắc khén**, hạt của một loài cây rừng Tây Bắc, rang lên rồi giã.
+    Mắc khén không cay theo kiểu ớt; nó thơm nồng và để lại cảm giác **tê nhẹ ở
+    đầu lưỡi**, giống hạt sẻn. Chính nó làm người ta nhận ra ngay đây là món của
+    vùng cao chứ không phải cá nướng miền xuôi.
+  - >-
+    Trong nhà người Thái, pa pỉnh tộp là món dọn khi có **khách quý**. Có hẳn
+    một câu nói lưu truyền trong vùng, đại ý rằng đem gà tới biếu cũng không quý
+    bằng đem cho nhau con pa pỉnh tộp. Dịp Tết, nhiều nhà còn làm để đặt lên bàn
+    thờ. Cá nướng xong ăn cùng **xôi nếp nóng và rau luộc** — không có cơm
+    trắng, không có nước chấm cầu kỳ, vì bản thân con cá đã đủ đậm.
+
+ingredientGroups:
+  - name: Con cá
+    icon: fish
+    items:
+      - id: ca
+        name: Cá chép, cá trắm hoặc cá trôi
+        icon: fish
+        color: green
+        base: 800
+        unit: g
+        note: >-
+          Bản gốc dùng cá suối. Ở xuôi thì cá chép là gần nhất — chọn con
+          700–900 g, **thân dẹp** để gập lại dễ
+      - id: trekep
+        name: Hai thanh tre chẻ đôi + lạt
+        icon: stem
+        qtyText: 2 thanh dài hơn con cá
+        note: >-
+          Không có tre thì dùng **vỉ nướng kẹp** hai mặt, cùng tác dụng giữ cho
+          con cá khép lại
+  - name: Nhân nhồi bụng
+    icon: herb
+    items:
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Băm thật nhuyễn phần gốc, phần lá cắt khúc lót dưới
+      - id: gung
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Gọt vỏ, băm nhuyễn
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: Cắt khúc ngắn, cho nhiều một chút
+      - id: rauthom
+        name: Mùi tàu · thì là · húng
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: >-
+          Ba thứ này là phần hồn của nhân — thiếu thì con cá chỉ còn mùi sả
+          gừng, mất hẳn nét Tây Bắc
+      - id: mackhen
+        name: Mắc khén
+        icon: pepper
+        color: amber
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Hạt rừng Tây Bắc, thơm nồng và làm **tê nhẹ đầu lưỡi**. Rang trên chảo
+          khô cho dậy mùi rồi giã. Không mua được thì dùng **hạt sẻn**, gần nhất
+      - id: toiot
+        name: Tỏi băm · ớt tươi · muối
+        icon: chili
+        color: red
+        qtyText: 1 muỗng canh tỏi · 3 trái ớt · 1 muỗng cà phê muối
+        note: Muối vừa tay thôi, nhân đã đậm sẵn nhờ mắc khén
+  - name: Ăn kèm
+    icon: basket
+    items:
+      - id: xoi
+        name: Xôi nếp
+        icon: rice
+        color: amber
+        base: 500
+        unit: g
+        note: >-
+          Nếp ngâm 6 tiếng rồi đồ chín. Cá nướng ăn với xôi chứ không ăn với cơm
+          — đó là cách của người Thái
+      - id: raucai
+        name: Rau cải luộc
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Luộc vừa chín tới, để nguyên cọng dài
+
+stepsTitle: Năm nhịp — nhịp một **quyết định cả món**
+steps:
+  - title: Mổ dọc sống lưng
+    icon: knife
+    minutes: 15 phút
+    intro: "Đây là nhịp làm nên món, làm sai thì bốn nhịp sau vô nghĩa:"
+    bullets:
+      - label: "Đánh vảy:"
+        text: >-
+          Cá này **có đánh vảy** — khác với cá lóc nướng trui vốn để nguyên vảy.
+          Đánh sạch, rửa muối cho hết nhớt.
+      - label: "Đường dao:"
+        text: >-
+          Dùng dao nhọn, **rạch dọc theo sống lưng từ mang xuống tới đuôi**, đi
+          sát một bên xương sống. Xẻ tới khi con cá mở ra được như quyển sách,
+          nhưng **phần bụng phải còn liền**.
+      - label: "Đừng mổ bụng:"
+        text: >-
+          Moi mang và ruột ra qua chính đường xẻ lưng đó. Rửa lại, để thật ráo.
+      - text: >-
+          Khứa vài đường nông trên hai bên thân cá cho gia vị ăn vào và cho hơi
+          nước thoát bớt lúc nướng.
+    callout:
+      type: warn
+      text: >-
+        Đừng xẻ đứt hẳn hai mảnh. Con cá còn dính nhau ở bụng thì gập lại mới
+        thành cái túi giữ nhân — đó là toàn bộ ý nghĩa của chữ **"tộp"**.
+  - title: Trộn nhân, ướp 30 phút
+    icon: herb
+    minutes: 35 phút
+    bullets:
+      - label: "Rang mắc khén:"
+        text: >-
+          Cho mắc khén lên chảo khô, đảo lửa nhỏ tới khi dậy mùi thì đổ ra giã.
+          Rang rồi mới giã thì thơm hơn hẳn giã sống.
+      - label: "Trộn:"
+        text: >-
+          Băm nhỏ sả, gừng, tỏi, ớt và rau thơm, trộn chung với mắc khén giã và
+          [[1|muỗng cà phê|frac]] muối.
+      - label: "Chia đôi:"
+        text: >-
+          **Một nửa nhồi vào trong thân cá** qua đường xẻ lưng, nhồi cho đầy.
+          Nửa còn lại xát đều lên hai mặt ngoài. Ướp **30 phút**.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ướp cá · 30:00
+      doneMsg: Ngấm rồi — gập cá lại và kẹp tre thôi!
+  - title: Gập đôi, kẹp tre, buộc lạt
+    icon: stem
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Gập con cá lại theo chiều ngang cho **đầu chạm đuôi**, phần lưng đã xẻ
+          nằm phía ngoài, nhân nằm gọn bên trong.
+      - text: >-
+          Đặt con cá đã gập vào giữa hai thanh tre, **buộc lạt hai đầu** cho
+          chắc. Buộc vừa tay thôi — chặt quá thì thịt cá bị ép nát.
+      - text: >-
+          Không có tre thì kẹp vào vỉ nướng hai mặt. Việc cần làm chỉ là giữ cho
+          con cá khép và trở được cả khối mà không rơi nhân.
+  - title: Nướng than, trở đều tay
+    icon: flame
+    minutes: 30 phút
+    bullets:
+      - label: "Than:"
+        text: >-
+          Đốt than cho **tàn lửa ngọn, phủ tro trắng**. Gác cá cách than chừng
+          một gang tay — gần quá thì da cháy mà trong còn sống.
+      - label: "Trở:"
+        text: >-
+          Nướng **25–30 phút**, cứ 4–5 phút trở một lần. Cầm hai đầu thanh tre
+          mà lật cả khối, đừng động vào con cá.
+      - label: "Sao là chín:"
+        text: >-
+          Da vàng sém đều, khô ráo, mùi sả và mắc khén bốc lên rõ. Xiên đũa vào
+          chỗ dày nhất, rút ra không thấy nước hồng là được.
+      - text: >-
+          Không có than thì lò nướng **220 °C trong 30–35 phút**, lật một lần
+          giữa chừng, năm phút cuối bật lửa trên cho da khô mặt.
+    timer:
+      secs: 1680
+      label: Hẹn giờ nướng than · 28:00
+      doneMsg: Thử bằng đũa xem chỗ dày nhất chín chưa nghen!
+    callout:
+      type: tip
+      text: >-
+        Lúc gần xong, phết một lượt dầu ăn mỏng lên hai mặt rồi nướng thêm 2
+        phút — da căng bóng và không bị dính vào thanh tre khi tháo ra.
+  - title: Tháo lạt, dọn với xôi
+    icon: rice
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Cắt lạt, gỡ hai thanh tre ra, đặt nguyên con cá đã gập lên dĩa. Mở ra
+          thì cả nhân bên trong lộ ra, còn nguyên màu xanh của rau thơm.
+      - text: >-
+          Dọn kèm **xôi nếp nóng** và dĩa rau cải luộc. Gỡ thịt cá ăn cùng xôi,
+          quệt luôn phần nhân trong bụng cá.
+    doneText: Xong — ăn nóng cùng xôi nếp!
+
+tipsTitle: 4 chỗ **quyết định** con pa pỉnh tộp
+tips:
+  - icon: knife
+    title: Dao đi dọc lưng, không đi dọc bụng
+    text: >-
+      Nhắc lại vì đây là lỗi hay gặp nhất: tay quen mổ cá là tự động rạch bụng.
+      Mổ bụng thì con cá không gập kín được, nhân rơi xuống than và bạn còn lại
+      một con cá nướng thường. **Xẻ lưng, giữ bụng liền** — cả món nằm ở chỗ đó.
+  - icon: pepper
+    title: Mắc khén phải rang trước khi giã
+    text: >-
+      Hạt sống giã ra thơm rất nhạt và hơi hăng. Rang chảo khô chừng hai phút
+      tới khi nghe mùi bốc lên rồi mới giã, mùi bật lên gấp mấy lần. Rang xong
+      để nguội rồi giã, nóng mà giã thì hạt bết lại.
+  - icon: herb
+    title: Rau thơm cho nhiều hơn bạn tưởng
+    text: >-
+      Nhân của món này gần như là một nắm rau chứ không phải một thìa gia vị.
+      Mùi tàu, thì là, hành lá cho rộng tay — chúng vừa là mùi, vừa là thứ **giữ
+      ẩm cho thịt cá** trong suốt thời gian nướng. Nhồi ít thì cá khô và nhạt.
+  - icon: flame
+    title: Trở bằng thanh tre, đừng trở bằng đũa
+    text: >-
+      Cả cái kẹp tre sinh ra để làm việc đó. Cầm hai đầu thanh tre lật cả khối
+      thì con cá không xê dịch, da không rách, nhân không rơi. Thọc đũa vào lật
+      từng bên là kiểu gì cũng làm nát một mặt.
+
+serve:
+  title: Ăn với **xôi nếp**, không ăn với cơm
+  paras:
+    - >-
+      Đây không phải chuyện câu nệ. Con cá đậm và thơm gắt, mà xôi nếp thì dẻo
+      và ngọt nhạt — nắm một miếng xôi, gỡ chút thịt cá đặt lên, quệt thêm phần
+      nhân trong bụng cá là một miếng tròn vị. Cơm trắng tơi rời không "bắt" được
+      miếng cá theo cách đó.
+    - >-
+      Rau cải luộc để nguyên cọng dài, không thái nhỏ. Ăn xen vào giữa những
+      miếng cá đậm, nó làm nhiệm vụ của một ngụm nước — nhẹ và mát, để miếng sau
+      vẫn thấy ngon như miếng đầu.
+  aside:
+    title: Mâm gợi ý
+    intro: "Ba thứ là đủ một mâm Tây Bắc gọn gàng:"
+    items:
+      - icon: rice
+        text: "**Xôi nếp nóng** — nắm bằng tay, ăn cùng thịt cá."
+      - icon: sprout
+        text: "**Rau cải luộc** — để nguyên cọng, không cần nước chấm."
+      - icon: chili
+        text: "**Chẳm chéo** — chén muối ớt giã của người Thái, nếu có sẵn."
+
+faq:
+  - q: Không mua được mắc khén thì thay bằng gì?
+    a: >-
+      Gần nhất là **hạt sẻn** (cùng họ, cũng tê nhẹ đầu lưỡi), bán ở hàng gia vị
+      vùng cao và chợ mạng. Không có nữa thì dùng **tiêu sọ rang giã thô** — vẫn
+      thơm và cay, nhưng mất cái tê đặc trưng, tức là mất phần khiến người ta
+      nhận ra đây là món Tây Bắc.
+  - q: Cá nào làm được, có nhất thiết cá suối không?
+    a: >-
+      Không nhất thiết. Bản gốc dùng cá suối vì đó là thứ sẵn có ở bản, nhưng
+      **cá chép, cá trắm, cá trôi** đều làm được và ngon. Điều cần là con cá
+      **thân dẹp, cỡ 700–900 g** để gập lại vừa tay. Cá quá to thì gập không
+      nổi, cá tròn mình thì gập xong bị bung ra.
+  - q: Không có thanh tre thì kẹp bằng gì?
+    a: >-
+      **Vỉ nướng kẹp hai mặt** là thay thế tốt nhất — đúng chức năng, lại dễ trở.
+      Hoặc dùng hai chiếc đũa cả buộc dây hai đầu. Nếu nướng lò thì có khi không
+      cần kẹp: đặt con cá đã gập nằm nghiêng trên vỉ, chèn hai bên cho khỏi bung
+      là được.
+  - q: Nướng lò có ra giống nướng than không?
+    a: >-
+      Khá gần, chỉ khác ở lớp da. Lò cho nhiệt đều nên thịt chín ngon, nhưng da
+      không sém thành từng mảng như trên than. Cách kéo lại gần: nướng **220 °C
+      trong 30–35 phút**, rồi bật **lửa trên 5 phút cuối** cho mặt da khô và
+      sém lại.
+
+ticker:
+  - icon: fish
+    text: Mổ dọc sống lưng, gập úp lại kẹp tre
+  - icon: herb
+    text: Nhồi đầy sả gừng rau thơm và mắc khén

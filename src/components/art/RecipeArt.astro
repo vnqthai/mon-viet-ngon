@@ -53,6 +53,11 @@ import ArtComHen from './ArtComHen.astro';
 import ArtBanhKhoai from './ArtBanhKhoai.astro';
 import ArtBanhTrangCuon from './ArtBanhTrangCuon.astro';
 import ArtMamRuocXao from './ArtMamRuocXao.astro';
+import ArtBunDo from './ArtBunDo.astro';
+import ArtBoMotNang from './ArtBoMotNang.astro';
+import ArtCaLocNuongTrui from './ArtCaLocNuongTrui.astro';
+import ArtPaPinhTop from './ArtPaPinhTop.astro';
+import ArtOcLenXaoDua from './ArtOcLenXaoDua.astro';
 import ArtBowl from './ArtBowl.astro';
 import ArtClaypot from './ArtClaypot.astro';
 import ArtPlate from './ArtPlate.astro';
@@ -131,6 +136,11 @@ const kind = art ?? byCategory[category] ?? 'bowl';
 {kind === 'banh-khoai' && <ArtBanhKhoai />}
 {kind === 'banh-trang-cuon' && <ArtBanhTrangCuon />}
 {kind === 'mam-ruoc-xao' && <ArtMamRuocXao />}
+{kind === 'bun-do' && <ArtBunDo />}
+{kind === 'bo-mot-nang' && <ArtBoMotNang />}
+{kind === 'ca-loc-nuong-trui' && <ArtCaLocNuongTrui />}
+{kind === 'pa-pinh-top' && <ArtPaPinhTop />}
+{kind === 'oc-len-xao-dua' && <ArtOcLenXaoDua />}
 {kind === 'bowl' && <ArtBowl />}
 {kind === 'claypot' && <ArtClaypot />}
 {kind === 'plate' && <ArtPlate />}
