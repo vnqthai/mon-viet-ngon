@@ -254,7 +254,11 @@ Roadmap cũ dựa vào bê chao để gom "Bánh" ở đợt 10 mà không ô n�
 
 Độ dốc thật của đợt 9 là **2,59 KB/món**, khớp gần khít độ dốc dài hạn 41→58 là **2,66 KB/món** — nên con số chiếu giờ đáng tin.
 
-⚠️ **Mốc ~150 KB rơi vào GIỮA đợt 10, không phải cuối.** Cụ thể là quanh **món thứ 62**. Nghĩa là việc **tách hình ra `.svg` riêng** (endpoint `src/pages/art/[kind].svg.ts` theo khuôn `og/[slug].png.ts`, chi tiết ở mục đính chính bên dưới) nên làm **ngay trước hoặc trong đợt 10**, chứ đừng để sau.
+> ⚠️ **Đính chính sau khi deploy: máy đo THIẾU so với thứ máy chủ trả về.** Cột gzip ở trên đo bằng `gzip -c` trên máy. Đo lại bằng `curl -sI -H 'Accept-Encoding: gzip'` trên www.monvietngon.com thì `/mon/` là **147.301 byte = 143,8 KB**, tức **hơn 2,9 KB (+2,1%)** so với 140,9 KB đo ở máy — GitHub Pages nén ở mức khác. **Con số đáng dùng là con số của máy chủ**, vì đó mới là thứ người đọc tải về.
+>
+> ⚠️ **Chiếu lại theo số thật: mốc ~150 KB rơi vào khoảng món thứ 60**, tức là **ngay món thứ hai hoặc ba của đợt 10**, không phải món thứ 62 như ước lúc chưa deploy. Nghĩa là việc **tách hình ra `.svg` riêng** (endpoint `src/pages/art/[kind].svg.ts` theo khuôn `og/[slug].png.ts`, chi tiết ở mục đính chính bên dưới) nên làm **TRƯỚC khi viết món nào của đợt 10**.
+>
+> Bài học đo đạc: **đo dung lượng thì đo trên máy chủ thật, đừng đo `gzip -c` ở máy** — cùng một lỗi họ hàng với vụ "mọi con số trước đây đều là chưa nén" ở mục đính chính bên dưới.
 
 ---
 
