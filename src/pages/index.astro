@@ -151,9 +151,10 @@ const tickerItems = [
         đếm giờ, và bí quyết để lần đầu nấu đã ra đúng vị.
       </p>
       <div class="rcard-grid">
-        {/* 3 thẻ đầu là 3 ô nằm sẵn trên màn hình đầu ở màn rộng — để lazy thì
-            trình duyệt hoãn đúng mấy cái hình người đọc thấy trước tiên. */}
-        {featured.map((r, i) => <RecipeCard recipe={r} eager={i < 3} />)}
+        {/* Cả 12 thẻ để `lazy`. Đã thử cho 3 thẻ đầu `eager` rồi gỡ ra: đo mới
+            biết thẻ đầu bắt đầu ở 1165px, không ô nào nằm trên màn hình đầu —
+            xem mục "Đo LCP" trong ROADMAP. */}
+        {featured.map((r) => <RecipeCard recipe={r} />)}
       </div>
       <ComingSoon>
         <a class="btn btn--line" href="/mon/" style="margin-left:auto">

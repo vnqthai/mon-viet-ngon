@@ -64,7 +64,7 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 
 1. **Trang 404** — `src/pages/404.astro`, ra đúng `dist/404.html` ở gốc (đã kiểm, không bị đẩy thành `404/index.html`). Có ô tìm món, ba đường về, sáu món gợi ý. **Chỉ nghiệm thu được trên máy chủ sau khi deploy.**
 2. **Liên kết chéo** — mỗi trang món có dải **6 món**, chọn theo 2 cùng vùng + 2 cùng kiểu món + 2 cùng nhãn theo dịp. Đo trên HTML đã build: **0 mồ côi · 0 dải trùng · 1 mảnh liền · 384 liên kết**. Giữ bằng `npm run link-audit`.
-3. **3 ô đầu trang chủ `eager`** — 3 eager + 9 lazy. ⚠️ Vẫn **chưa đo LCP thật**, mới chỉ suy từ cấu trúc.
+3. **~~3 ô đầu trang chủ `eager`~~ — làm rồi GỠ RA cùng ngày.** Đo xong mới biết giả định đằng sau nó sai: **không ô nào nằm trên màn hình đầu**, và **LCP của trang chủ là chữ `<h1>` chứ không phải ảnh nào**. Xem mục *"Đo LCP trang chủ"* trong phần Nhật ký — ở đó có cả việc đáng làm mọc ra từ số đo này.
 
 ## Hạ tầng, theo thứ tự đáng làm
 
@@ -163,6 +163,8 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Phân vân giữa các phương án giao diện thì dựng harness iframe rồi đo `getBoundingClientRect()`**, đừng bàn cảm tính.
 - **Contact sheet không đủ để soi hình** — phải render PNG ghép ở cỡ thumbnail (`npm run art-png -- --sheet`). Đợt 7, 8, 9, 10 đều có lỗi lọt qua contact sheet.
 - **File `.svg` rời đọc bằng XML nghiêm** — chú thích cấm chứa `--`, cấm `&` trần. Endpoint tự bỏ chú thích; `qa` chặn hai lỗi kia. **Tool soi phải đọc đúng thứ endpoint xuất ra.**
+- **"Nằm trên màn hình đầu" là thứ PHẢI ĐO, không được suy.** Lưới món trang chủ trông như ở gần đầu trang, thật ra bắt đầu ở **1165px** — không ô nào lọt màn hình đầu ở mọi khung thường gặp. Một dòng `getBoundingClientRect().top` là biết, mà không đo thì đẻ ra cả một việc sai.
+- **Trước khi tối ưu ảnh, xem phần tử LCP có phải ảnh không.** Trang chủ có LCP là chữ `<h1>`; **`<svg>` nhúng thẳng không phải ứng viên LCP** (chỉ `<img>`, `<image>` trong svg, poster video, `background-image`, và khối chữ mới là). Ứng viên LCP do bố cục quyết định chứ không do mạng — nên kết luận đó đúng ở mọi tốc độ, dù con số mili giây đo ở máy thì vô nghĩa.
 - **Soi thứ đã build, đừng gọi lại hàm sinh ra nó.** `link-audit` đọc HTML trong `dist/` chứ không gọi `relatedFor()`: gọi lại chính hàm đó rồi đo là tự chấm điểm mình, hỏng ở khâu dựng trang thì không thấy.
 
 **Sinh liên kết tự động**
@@ -239,6 +241,32 @@ Ba điều rút ra, đã chép lên phần *Luật đã chốt*:
 **Một chỗ sửa sau khi nhìn tận mắt.** Bản đầu vét cạn nhãn hiếm nhất trước khi sang nhãn sau, nên pa pỉnh tộp ra **ba thẻ liền nhau cùng đeo chip "Hợp Nhậu lai rai"** — đúng nhưng đọc như trang bị lỗi lặp. Đổi sang vòng lần lượt qua từng nhãn, mỗi lượt một món: cả 64 trang giờ **không trang nào có quá 2 chip giống nhau liền nhau**, và in-degree còn đều hơn (2–13 → **3–11**).
 
 Dựng thêm `tools/link-audit.mjs` (`npm run link-audit`) — đọc HTML trong `dist/`, canh bốn con số. Chạy sau mỗi đợt món: thêm món là thế cân của dải gợi ý đổi.
+
+### Đo LCP trang chủ — và gỡ lại việc `eager`
+
+Việc "cho 3 ô đầu `eager`" đã làm, đã ship, rồi **gỡ ra cùng ngày** sau khi đo. Ghi lại đầy đủ vì cái sai nằm ở chỗ khó thấy: giả định *"2–3 ô nằm trên màn hình đầu"* nghe hợp lý tới mức không ai nghĩ tới việc kiểm.
+
+**Đo 1 — mép trên thẻ featured đầu tiên** (iframe ở đúng bề rộng thật):
+
+| khung | cao màn hình | mép trên ô đầu |
+|---|---:|---:|
+| 1440×900 · 1366×768 · 1280×800 | 900 / 768 / 800 | **1165** |
+| 414×896 | 896 | **1531** |
+| 390×844 | 844 | **1626** |
+
+Hero cao quá: hình canh chua hết ở 615px, rồi ticker, rồi `.section` đệm 88px + eyebrow + h2 + câu dẫn — 1165px mới tới thẻ đầu. **Phải có cửa sổ cao hơn 1165px** (màn 1440p mở toàn màn hình) thì hàng đầu mới ló vào.
+
+**Đo 2 — LCP là gì:** `LCP = 284 ms · phần tử <h1> · không phải ảnh` (trùng luôn FCP). Và chỗ quyết định: **hình hero là `<svg>` nhúng thẳng, toàn `<path>`, không `<img>`/`<image>` nào** — SVG nhúng **không phải ứng viên LCP** theo đặc tả. Nên trên trang chủ **không tấm ảnh nào có thể là phần tử LCP**, mạng nhanh hay chậm cũng vậy.
+
+Kết luận: `eager` **không thể** cải thiện LCP ở đây; nó chỉ kéo 3 lượt tải vào cửa sổ trước LCP (bắt đầu 182ms, LCP ở 284ms), mạng chậm thì giành băng thông với stylesheet Google Fonts vốn đã chặn render. Đã gỡ.
+
+**Một chuyện lòi ra bên lề:** cả 12 file art đều được tải dù 9 cái để `lazy` — ngưỡng lazy của Chrome trên mạng nhanh là ~1250px mà ô đầu ở 1165px. Ở desktop `lazy` vốn cũng không tiết kiệm mấy; chỗ nó có ích thật là mạng chậm, khi ngưỡng nới rộng.
+
+**Cùng thuộc tính đó ở trang món thì ĐÚNG — giữ nguyên.** Hero trang chi tiết là `<img loading="eager">` thật, **mép trên 231px, cao 398px**, nằm gọn trên màn hình đầu và là ứng viên LCP đàng hoàng. Cùng một thuộc tính, sai ở trang chủ mà đúng ở trang món — chỉ có đo mới phân biệt được. *(Chưa chộp được phần tử LCP của trang món: API chỉ ghi khi tab đang hiện.)*
+
+**Việc mọc ra từ số đo này — chưa làm:** nếu muốn lưới món thật sự nằm trên màn hình đầu thì phải **rút ngắn hero trang chủ**, chứ không phải chỉnh thuộc tính `loading`. Đó là câu hỏi thiết kế (hero đang gánh h1, câu dẫn, ô tìm, 2 nút, 3 con số thống kê và một hình lớn), không phải câu hỏi hiệu năng — và **cần đo trước khi cắt**, đừng cắt theo cảm tính.
+
+⚠️ 284ms đo trên máy, mạng nhanh — **con số tuyệt đối vô nghĩa với người dùng thật**, thứ đáng tin là *phần tử nào là LCP* vì cái đó do bố cục quyết định. Chưa có số bóp băng thông từ bên thứ ba: PSI API trả 429 vì không có API key, muốn thì mở `pagespeed.web.dev` gõ tay.
 
 ### Số đo dung lượng
 
