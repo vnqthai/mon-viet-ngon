@@ -55,14 +55,7 @@ Miền Trung từ vùng gần bét lên đồng hạng đầu; Miền Nam từ 4
 
 # 2 · Việc còn lại
 
-## Dọn dẹp còn treo sau đợt 10
-
-| | Việc | Vì sao |
-|---|---|---|
-| 1 | `pubDate` của 6 món đợt 10 ghi `2026-07-29`, live thật `2026-07-30` | Quy ước là ngày đăng lần đầu, **đặt một lần rồi không đổi**; nó vào `datePublished` của JSON-LD và sẽ dùng sắp thứ tự RSS |
-| 2 | `npm run qa` còn một cảnh báo: id `cgGa` trong `ArtComGaHoiAn.astro` khai mà không ai dùng | Có từ trước đợt 10. Để `qa` sạch trắng thì lần sau mới không tập quen bỏ qua cảnh báo |
-| 3 | `tools/contact-sheet.mjs` còn giàn giáo Phần I đã hết việc: `TRIALS`, `HALO`, `HALO_SAMPLES`, `OLD_GROUND`, `SLUG_RECAT` rỗng | Người sau đọc vào tưởng còn đang thử màu. Chỉ xoá phần đã chốt, giữ phần soi |
-| 4 | `_template.yaml` liệt kê tay 68 tên art trên 16 dòng chú thích | Mỗi đợt phải thêm tay mà không ai kiểm nó khớp `utils/art.ts` — nên trỏ tới file đó thay vì chép |
+> **Dọn dẹp sau đợt 10: xong cả 5 việc** (2026-07-30) — `pubDate` 6 món về đúng ngày live · id `cgGa` chết đã gỡ nên `npm run qa` giờ **sạch trắng, không còn cảnh báo nào** · `contact-sheet.mjs` bỏ giàn giáo Phần I (465 → 327 dòng) · `_template.yaml` thôi chép tay 68 tên art · ROADMAP cấu trúc lại. Không còn nợ dọn dẹp nào.
 
 ## Hạ tầng, theo thứ tự đáng làm
 

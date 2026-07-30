@@ -19,6 +19,9 @@ const OUT = path.join(ROOT, 'tools/contact-sheet.html');
 
 /* ---------- Năm họ màu (Thái chốt 2026-07-28) ----------
    Bảng gốc nằm ở src/utils/family.ts — mở thêm kiểu món thì sửa cả hai chỗ. */
+/* Kiểu món lạ rơi về đâu — khớp với familyOf() trong src/utils/family.ts */
+const FALLBACK_ID = 'nuoc';
+
 const FAMILIES = [
   { id: 'nuoc', name: 'Chan & húp',  from: '#235B66', to: '#143A42', cats: ['Món nước', 'Canh', 'Lẩu', 'Cháo'] },
   { id: 'man',  name: 'Mặn đưa cơm', from: '#6E3512', to: '#421C06', cats: ['Kho', 'Xào', 'Hấp'] },
@@ -26,62 +29,6 @@ const FAMILIES = [
   { id: 'banh', name: 'Cơm & bánh',  from: '#A8801A', to: '#70530C', cats: ['Cơm', 'Bánh'] },
   { id: 'lua',  name: 'Lửa',         from: '#9A3D2B', to: '#65241A', cats: ['Nướng', 'Chiên'] },
 ];
-/* Sắc độ đang cân nhắc — chọn xong thì sửa thẳng vào FAMILIES ở trên.
-   Mỗi mục: họ nào, thử mấy sắc, và lấy món nào ra thử (ưu tiên món khó nhất). */
-const TRIALS = [
-  {
-    famId: 'nuoc',
-    title: 'Họ “Chan & húp” — có nên bỏ xanh lá sang xanh nước?',
-    note: 'Đang có HAI họ cùng hệ xanh (Chan & húp và Cuốn & trộn), tách nhau chủ yếu nhờ độ sáng chứ không nhờ sắc. Chuyển sang xanh nước thì năm họ mới thật sự phủ đủ vòng màu. Lưu ý: 34/40 file hình vẽ VÀNH TÔ bằng đúng #2C5234 — xem vành xanh lá đặt trên nền lam có chỏi không.',
-    prefer: ['pho-bo', 'bun-bo-hue', 'canh-chua-ca-loc', 'hu-tieu-nam-vang', 'mi-quang-tom-thit'],
-    options: [
-      { label: 'X0 · xanh sông hiện tại', from: '#2C5234', to: '#1F3D26' },
-      { label: 'X1 · xanh lục biển',      from: '#1E4A4C', to: '#123033' },
-      { label: 'X2 · xanh lam đậm',       from: '#22456B', to: '#152B44' },
-      { label: 'X3 · xanh lam nhạt hơn',  from: '#3E6E96', to: '#27506F' },
-    ],
-  },
-  {
-    famId: 'man',
-    title: 'Họ “Mặn đưa cơm” — nồi đất đang chìm vào nền',
-    note: 'Bốn món kho dùng tộ đất màu nâu, đặt trên nền nâu là mất hẳn đường viền. Thử nền sâu hơn để tộ nổi lên.',
-    prefer: ['ca-kho-to', 'ga-kho-gung', 'thit-kho-hot-vit', 'tom-rim-nuoc-cot-dua', 'bo-kho'],
-    options: [
-      { label: 'N1 · nâu hiện tại', from: '#8A4A1E', to: '#5E3113' },
-      { label: 'N2 · nâu sâu',      from: '#6E3512', to: '#421C06' },
-      { label: 'N3 · nâu gần đen',  from: '#57280C', to: '#301503' },
-    ],
-  },
-  {
-    famId: 'banh',
-    title: 'Họ “Cơm & bánh” — chưa chốt sắc, lại đang quá gần họ nâu',
-    note: 'Vàng #8F6410 và nâu #8A4A1E nhìn thoáng qua gần như một màu, hai họ không tách ra được. Sắc càng sáng càng tách.',
-    prefer: [],
-    options: [
-      { label: 'V1 · nghệ đậm',      from: '#8F6410', to: '#5E4108' },
-      { label: 'V2 · vàng đất sáng', from: '#A8801A', to: '#70530C' },
-      { label: 'V3 · vàng rêu trầm', from: '#7A6420', to: '#4F4114' },
-    ],
-  },
-];
-const OLD_GROUND = { from: '#2C5234', to: '#1F3D26' }; // nền xanh đậm hiện tại, để so sánh
-
-/* Quầng sáng sau hình — làm trong CSS thẻ, KHÔNG sửa file SVG.
-   Chữa được cái gốc: tộ đất nâu trùng sắc với nền nâu. */
-const HALO = [
-  { label: 'Q0 · không quầng (hiện tại)', css: 'none' },
-  { label: 'Q1 · quầng nhẹ',  css: 'radial-gradient(closest-side, rgba(255,247,225,.13), transparent 74%)' },
-  { label: 'Q2 · quầng vừa',  css: 'radial-gradient(closest-side, rgba(255,247,225,.22), transparent 76%)' },
-  { label: 'Q3 · quầng rõ',   css: 'radial-gradient(closest-side, rgba(255,247,225,.32), transparent 78%)' },
-];
-/* 4 món tộ nâu + 3 món tô trắng — để thấy quầng có làm hỏng nhóm trắng không */
-const HALO_SAMPLES = ['ca-kho-to', 'thit-kho-hot-vit', 'ga-kho-gung', 'tom-rim-nuoc-cot-dua', 'bo-kho', 'muc-xao-thom-can-tay', 'suon-ram-man-ngot'];
-
-/* Món sẽ chuyển kiểu ở đợt sau — soi trước hình trên nền họ màu tương lai, để
-   khỏi phải vẽ lại lúc gom. Đang RỖNG: ba món của đợt 10 (bánh xèo · bánh cuốn ·
-   bánh khoái) đã chuyển thật sang "Bánh" nên đọc category từ file YAML là đủ. */
-const SLUG_RECAT = {};
-
 /* ---------- Đọc mapping art -> component từ src/utils/art.ts ---------- */
 const artToComponent = readArtMap(path.join(ROOT, 'src/utils/art.ts'));
 
@@ -97,7 +44,7 @@ const recipes = fs
     const src = fs.readFileSync(path.join(RECIPE_DIR, f), 'utf8');
     const slug = f.replace(/\.yaml$/, '');
     const rawCat = field(src, 'category');
-    const cat = SLUG_RECAT[slug] || rawCat;
+    const cat = rawCat;
     // Tiêu đề dạng "Bún bò Huế **cay nồng sả ruốc…**" — tên món là phần trước **
     const rawTitle = field(src, 'title');
     return {
@@ -146,7 +93,7 @@ function tile(r) {
   const warn = !r.art ? 'chưa gắn art' : !comp ? `art "${r.art}" không có trong utils/art.ts` : !svg ? 'không đọc được svg' : null;
   return `
     <figure class="tile" data-family="${r.family ? r.family.id : 'none'}">
-      <div class="tile__art" style="--ground:${grad(r.family || OLD_GROUND)}">
+      <div class="tile__art" style="--ground:${grad(r.family || FAMILIES.find((f) => f.id === FALLBACK_ID))}">
         ${svg || `<div class="tile__missing">${esc(warn)}</div>`}
       </div>
       <figcaption>
@@ -178,58 +125,22 @@ const sections = FAMILIES.map((fam) => {
 const genericSection = `
   <section class="fam">
     <header class="fam__head">
-      <span class="fam__chip" style="background:${grad(OLD_GROUND)}"></span>
       <h2>Hình dùng chung &amp; chưa dùng tới</h2>
-      <span class="fam__meta">Không thuộc họ nào — hiện trên nền xanh cũ để tham chiếu</span>
+      <span class="fam__meta">Không thuộc họ nào — hiện trên nền họ dự phòng để tham chiếu</span>
     </header>
     <div class="grid">
       ${[...GENERIC, ...orphanArts]
         .map((k) => {
           const svg = svgOf(artToComponent[k]);
-          return `<figure class="tile"><div class="tile__art" style="--ground:${grad(OLD_GROUND)}">${svg || ''}</div>
+          return `<figure class="tile"><div class="tile__art" style="--ground:${grad(FAMILIES.find((f) => f.id === FALLBACK_ID))}">${svg || ''}</div>
             <figcaption><b>${esc(k)}</b><span>${GENERIC.includes(k) ? 'dự phòng' : 'chưa món nào dùng'}</span></figcaption></figure>`;
         })
         .join('')}
     </div>
   </section>`;
 
-/* Các bảng thử sắc độ — mỗi bảng lấy vài món của họ đó render trên từng sắc */
-const trialSections = TRIALS.map((t) => {
-  const pool = recipes.filter((r) => r.family && r.family.id === t.famId && r.art && artToComponent[r.art]);
-  const picked = [
-    ...t.prefer.map((s) => pool.find((r) => r.slug === s)).filter(Boolean),
-    ...pool.filter((r) => !t.prefer.includes(r.slug)),
-  ].slice(0, 5);
-  return `
-  <section class="fam fam--pick">
-    <header class="fam__head">
-      <h2>${t.title}</h2>
-    </header>
-    <p class="fam__note">${t.note}</p>
-    ${t.options
-      .map(
-        (opt) => `
-      <div class="pick">
-        <div class="pick__label"><span class="fam__chip" style="background:${grad(opt)}"></span>
-          <b>${esc(opt.label)}</b> <code>${opt.from}</code></div>
-        <div class="grid grid--sm">
-          ${picked
-            .map((r) => {
-              const svg = svgOf(artToComponent[r.art]);
-              return `<figure class="tile"><div class="tile__art" style="--ground:${grad(opt)}">${svg || ''}</div>
-                <figcaption><b>${esc(r.title)}</b></figcaption></figure>`;
-            })
-            .join('')}
-        </div>
-      </div>`
-      )
-      .join('')}
-  </section>`;
-}).join('');
-
 /* ---------- Lưới danh mục thử: thẻ món thật, trộn đủ 5 họ ----------
-   Đây mới là thứ để quyết màu — ô màu trơn không cho thấy màu sống thế nào
-   khi nằm trong thẻ và xếp cạnh nhau. */
+   Ô màu trơn không cho thấy màu sống thế nào khi nằm trong thẻ và xếp cạnh nhau. */
 const MIX = [
   'pho-bo', 'ca-kho-to', 'goi-xoai-xanh-tom-kho', 'com-tam-suon-nuong', 'ga-nuong-mac-khen',
   'bun-bo-hue', 'thit-kho-hot-vit', 'bun-thit-nuong', 'banh-xeo-mien-tay', 'cha-gio',
@@ -237,7 +148,7 @@ const MIX = [
 ];
 function realCard(r) {
   const svg = svgOf(artToComponent[r.art]);
-  const fam = r.family || OLD_GROUND;
+  const fam = r.family || FAMILIES.find((f) => f.id === FALLBACK_ID);
   return `
   <a class="rc" href="#" onclick="return false">
     <div class="rc__art" style="--ground:${grad(fam)}">
@@ -256,61 +167,21 @@ const mixCards = MIX.map((s) => recipes.find((r) => r.slug === s)).filter((r) =>
 const previewSection = `
   <section class="fam fam--preview">
     <header class="fam__head"><h2>Lưới danh mục thử — thẻ món thật</h2>
-      <span class="fam__meta">15 món trộn đủ 5 họ, xếp như trang danh mục. <b>Đây là chỗ để quyết màu.</b></span></header>
+      <span class="fam__meta">15 món trộn đủ 5 họ, xếp như trang danh mục</span></header>
     <p class="fam__note">Nhìn xem: năm họ có đọc ra thành từng nhóm không, hay chỉ thành một mảng lộn xộn?
-      Có màu nào nhảy ra chói hơn hẳn phần còn lại không? Bấm “So với nền cũ” ở thanh trên để thấy lưới hiện tại toàn xanh đậm.</p>
+      Có màu nào nhảy ra chói hơn hẳn phần còn lại không?</p>
     <div class="rcgrid">${mixCards.map(realCard).join('')}</div>
   </section>`;
 
-/* ---------- Thử quầng sáng: chữa trùng sắc mà không đụng file SVG ---------- */
-const famMan = FAMILIES.find((f) => f.id === 'man');
-const haloSection = `
-  <section class="fam fam--pick">
-    <header class="fam__head"><h2>Quầng sáng sau hình — chữa gốc, không sửa SVG</h2></header>
-    <p class="fam__note">Tộ đất nâu chìm vào nền nâu là do <b>trùng sắc</b>, tối thêm chỉ giảm chứ không chữa.
-      Một quầng sáng mờ đặt sau hình — làm trong CSS của thẻ, <b>không đụng file SVG nào</b> — nhấc mọi món khỏi mọi nền.
-      Bốn món đầu là tộ nâu, ba món cuối là tô/đĩa trắng: xem quầng có làm nhóm trắng bị bệt không.</p>
-    ${HALO.map(
-      (h) => `
-      <div class="pick">
-        <div class="pick__label"><b>${esc(h.label)}</b></div>
-        <div class="grid grid--sm">
-          ${HALO_SAMPLES.map((s) => recipes.find((r) => r.slug === s))
-            .filter((r) => r && r.art && artToComponent[r.art])
-            .map((r) => {
-              const svg = svgOf(artToComponent[r.art]);
-              const bg = h.css === 'none' ? grad(famMan) : `${h.css}, ${grad(famMan)}`;
-              return `<figure class="tile"><div class="tile__art" style="--ground:${bg}">${svg || ''}</div>
-                <figcaption><b>${esc(r.title)}</b></figcaption></figure>`;
-            })
-            .join('')}
-        </div>
-      </div>`
-    ).join('')}
-  </section>`;
-
-/* Dải năm nền đặt cạnh nhau — kiểm xem năm họ có tách nhau ra không.
-   Kèm dải giả lập cho từng phương án đang thử của họ "Chan & húp". */
+/* Dải năm nền đặt cạnh nhau — kiểm xem năm họ có tách nhau ra không */
 const stripFor = (list) =>
   `<div class="strip">${list.map((f) => `<div class="strip__cell" style="background:${grad(f)}"><b>${esc(f.name)}</b><code>${f.from}</code></div>`).join('')}</div>`;
 
-const nuocTrial = TRIALS.find((t) => t.famId === 'nuoc');
 const paletteStrip = `
   <section class="fam">
     <header class="fam__head"><h2>Năm nền đặt cạnh nhau</h2>
       <span class="fam__meta">Nếu hai ô nào nhìn thoáng qua giống nhau thì hai họ đó chưa tách được</span></header>
     ${stripFor(FAMILIES)}
-    ${nuocTrial
-      ? `<p class="fam__note" style="margin-top:22px">Thử đổi họ <b>Chan &amp; húp</b> sang xanh nước — xem năm họ có phủ đều vòng màu hơn không:</p>
-         ${nuocTrial.options
-           .slice(1)
-           .map(
-             (opt) =>
-               `<div class="pick"><div class="pick__label"><span class="fam__chip" style="background:${grad(opt)}"></span><b>${esc(opt.label)}</b> <code>${opt.from}</code></div>
-                ${stripFor(FAMILIES.map((f) => (f.id === 'nuoc' ? { ...f, from: opt.from, to: opt.to } : f)))}</div>`
-           )
-           .join('')}`
-      : ''}
   </section>`;
 
 const counts = FAMILIES.map((f) => `${f.name}: ${recipes.filter((r) => r.family && r.family.id === f.id).length}`).join(' · ');
@@ -378,7 +249,6 @@ header.top .tally{margin-top:14px;font-size:.82rem;color:var(--gold)}
 .tile figcaption span{font-size:.74rem;color:var(--muted)}
 .tile figcaption i{font-style:normal;opacity:.7}
 .tile figcaption .warn{color:var(--chili);font-weight:700}
-body.compare .tile__art{background:linear-gradient(160deg,#2C5234 0%,#1F3D26 100%)}
 
 .pick{margin-bottom:22px}
 .rcgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:16px}
@@ -398,7 +268,6 @@ body.compare .tile__art{background:linear-gradient(160deg,#2C5234 0%,#1F3D26 100
 .rc__body p{margin:0;font-size:.79rem;color:var(--muted);line-height:1.5;flex:1}
 .rc__meta{display:flex;flex-wrap:wrap;gap:4px 12px;padding-top:9px;border-top:1px dashed var(--line);
   font-size:.72rem;font-weight:600;color:var(--muted)}
-body.compare .rc__art{background:linear-gradient(160deg,#2C5234 0%,#1F3D26 100%)}
 .fam__note{margin:0 0 16px;font-size:.9rem;color:var(--muted);max-width:78ch}
 .strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
 .strip__cell{border-radius:12px;padding:26px 14px 16px;color:#F4EFDA;display:flex;flex-direction:column;gap:4px}
@@ -414,13 +283,13 @@ footer{padding:40px 0 60px;color:var(--muted);font-size:.84rem}
     <h1>Contact sheet — hình món trên nền họ màu</h1>
     <p>Mỗi hình được render trên đúng nền họ màu mà món đó sẽ dùng sau khi thiết kế lại.
        Việc cần làm: soi tìm hình nào <b>chìm vào nền</b> hoặc <b>chọi màu</b> — chỉ những hình đó mới phải sửa.
-       Bấm “So với nền cũ” để đối chiếu với nền xanh đậm hiện tại.</p>
+       Công cụ này <b>không đủ</b> để bắt lỗi “hai món nhìn na ná”: chuyện đó phải soi bằng
+       <code>npm run art-png -- --sheet</code>, ghép cạnh nhau ở cỡ thumbnail.</p>
     <p class="tally">${esc(counts)} · tổng ${recipes.length} món · ${uid} hình</p>
   </div>
 </header>
 
 <div class="bar">
-  <button type="button" id="cmp">So với nền cũ</button>
   <button type="button" id="thm">Đổi nền sáng/tối</button>
   <span class="hint">Sinh bởi <code>node tools/contact-sheet.mjs</code> — file này là kết quả, đừng sửa tay</span>
 </div>
@@ -428,22 +297,16 @@ footer{padding:40px 0 60px;color:var(--muted);font-size:.84rem}
 <div class="wrap">
   ${paletteStrip}
   ${previewSection}
-  ${haloSection}
   ${sections}
-  ${trialSections}
   ${genericSection}
 </div>
 
 <footer class="wrap">
-  Chạy lại sau mỗi đợt món để soi hình mới. Sửa danh sách họ màu ở đầu <code>tools/contact-sheet.mjs</code>.
+  Chạy lại sau mỗi đợt món để soi hình mới. Bảng họ màu ở đầu <code>tools/contact-sheet.mjs</code> — sửa thì sửa cả <code>src/utils/family.ts</code> và <code>tools/art-png.mjs</code>.
 </footer>
 
 <script>
-  var b=document.body,r=document.documentElement;
-  document.getElementById('cmp').addEventListener('click',function(){
-    b.classList.toggle('compare');
-    this.textContent=b.classList.contains('compare')?'Về nền mới':'So với nền cũ';
-  });
+  var r=document.documentElement;
   document.getElementById('thm').addEventListener('click',function(){
     var dark=r.getAttribute('data-theme')==='dark'||(!r.hasAttribute('data-theme')&&matchMedia('(prefers-color-scheme: dark)').matches);
     r.setAttribute('data-theme',dark?'light':'dark');
