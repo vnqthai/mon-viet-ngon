@@ -433,6 +433,16 @@ Việc mọc ra từ đợt đo LCP: lưới món không nằm trên màn hình 
 
 Quãng cuộn trên điện thoại từ **1,9 màn xuống 1,2 màn**. Chưa lọt màn hình đầu ở khung nào — chuyện đó cần bản C, mà C đang chờ GA4.
 
+**Đã live 2026-07-30** (`3662bc6`). Nghiệm thu trên máy chủ: chữ mới có, câu cũ *"Không quảng cáo, không màu mè"* **0 lần**, và cả bốn giá trị CSS đều nằm trong `/_astro/Base.*.css` đã deploy. Dung lượng gzip đo trên máy chủ trước và sau:
+
+| | trước | sau | |
+|---|---:|---:|---|
+| Trang chủ | 13.117 B | **13.048 B** | −69 B |
+| `/mon/` | 24.684 B | 24.684 B | không đụng tới |
+| Trang món | 16.699 B | 16.698 B | không đụng tới |
+
+Rút hero là chuyện bố cục, không phải chuyện dung lượng — 69 byte chỉ là hệ quả của việc bớt chữ. Ghi lại để lần sau khỏi tưởng đây là một việc tối ưu tốc độ.
+
 **Ba thứ rút ra, đã chép lên phần 4:**
 
 - **`document.fonts.ready` không đủ để đo bố cục.** Lần đo đầu ra 990/1006 rồi lần sau **đảo ngược đúng hai khung** — tưởng là hiệu ứng bề rộng, hoá ra mỗi iframe rơi vào một trạng thái font khác nhau. Phải `fonts.load()` từng nét rồi mới đo, và kiểm `[...d.fonts].filter(f => f.status === 'loaded').length === 15`.
