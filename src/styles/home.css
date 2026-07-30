@@ -210,6 +210,17 @@
   .finder__count{margin-top:18px}
 }
 
+/* Nhóm "chỉ dính ở nguyên liệu" nằm sau nút này, để mấy món trúng TÊN không bị
+   chìm giữa đám món chỉ tình cờ có chung một thứ trong giỏ đi chợ. */
+.finder__more{
+  display:block;width:100%;margin-top:22px;padding:14px 18px;
+  border:1.5px dashed var(--line);border-radius:var(--radius);
+  background:none;color:var(--broth);font-weight:700;font-size:.88rem;
+}
+.finder__more:hover{border-color:var(--river);background:var(--paper-deep);color:var(--ink)}
+/* display: của class đè [hidden] nếu không nói rõ — y như .finder__toggle__n */
+.finder__more[hidden]{display:none}
+
 .filter-empty{
   display:none;padding:40px 20px;text-align:center;color:var(--muted);
   border:1.5px dashed var(--line);border-radius:var(--radius);

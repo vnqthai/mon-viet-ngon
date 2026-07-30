@@ -95,8 +95,9 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
       </div>
 
       <div class="rcard-grid" id="recipeGrid">
-        {recipes.map((r) => <RecipeCard recipe={r} />)}
+        {recipes.map((r) => <RecipeCard recipe={r} search />)}
       </div>
+      <button type="button" id="moreBtn" class="finder__more" hidden></button>
       <div class="filter-empty" id="filterEmpty">
         Chưa có món nào khớp — thử nới bớt một tiêu chí, hoặc gõ tên nguyên liệu xem sao.
       </div>
@@ -107,11 +108,14 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
 </main>
 
 <script>
-  // Bỏ dấu y như utils/search.ts. NFD KHÔNG tách được đ/Đ nên phải thay tay.
+  // Bỏ dấu + bỏ dấu câu y hệt utils/search.ts. NFD KHÔNG tách được đ/Đ nên phải
+  // thay tay. Hai chỗ này phải giống nhau từng nét, lệch một cái là tìm trật.
   const deaccent = (s: string) =>
     s.normalize('NFD').replace(/[̀-ͯ]/g, '')
       .replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase();
+  const tidy = (s: string) => deaccent(s).replace(/[^a-z0-9]+/g, ' ').trim();
 
+  const grid = document.getElementById('recipeGrid');
   const cards = [...document.querySelectorAll<HTMLElement>('#recipeGrid .rcard')];
   const empty = document.getElementById('filterEmpty');
   const cnt = document.getElementById('cnt');
@@ -122,9 +126,24 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
   const toggle = document.getElementById('filterToggle');
   const axes = document.getElementById('finderAxes');
   const fCount = document.getElementById('filterCount');
+  const moreBtn = document.getElementById('moreBtn') as HTMLButtonElement | null;
+
+  // Cắt sẵn âm tiết một lần lúc vào trang, khỏi cắt lại 64 lần mỗi phím gõ.
+  const items = cards.map((el, i) => ({
+    i, el,
+    name: (el.dataset.n || '').split(' ').filter(Boolean),
+    meta: (el.dataset.m || '').split(' ').filter(Boolean),
+    ing: (el.dataset.i || '').split(' ').filter(Boolean),
+    nameStr: el.dataset.n || '',
+    ingStr: el.dataset.i || '',
+  }));
+  type Item = (typeof items)[number];
 
   const state: Record<string, string> = { cat: 'all', occ: 'all', region: 'all' };
   let query = '';
+  // Mở "xem thêm" là chuyện của riêng một lần tìm — gõ tiếp thì đóng lại.
+  let moreOpen = false;
+  let lastOrder = '';
 
   // Bộ lọc phản chiếu vào URL: trang chủ trỏ thẳng vào /mon/?dip=Bữa sáng được,
   // và người dùng lưu / gửi lại đường dẫn thì vẫn ra đúng cái đang xem.
@@ -148,28 +167,100 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
       if (v) state[axis] = v;
     }
     const raw = p.get('q');
-    if (raw && q) { q.value = raw; query = deaccent(raw.trim()); }
+    if (raw && q) { q.value = raw; query = tidy(raw); }
     for (const b of document.querySelectorAll<HTMLElement>('[data-f]')) {
       b.classList.toggle('is-active', b.dataset.v === state[b.dataset.f!]);
     }
   }
 
+  /**
+   * Chấm điểm THEO TRƯỜNG chứ không dò chuỗi: trúng nguyên âm tiết trong TÊN
+   * MÓN (12đ) phải ăn đứt trúng trong nguyên liệu (4đ) — bản cũ gộp một chuỗi
+   * rồi includes() nên gõ "ca" ra 58/64 món, "hanh" ra 60/64.
+   *
+   * Chỉ chữ CUỐI — chữ đang gõ dở — mới được khớp đầu chữ; mấy chữ trước phải
+   * khớp trọn âm tiết. Bỏ luật này thì "ca kho" lôi cả "canh khổ qua" về.
+   *
+   * Thiếu một chữ là loại luôn (AND), không cộng dồn kiểu OR.
+   */
+  function score(it: Item, toks: string[]): number {
+    let total = 0;
+    for (let i = 0; i < toks.length; i++) {
+      const t = toks[i], last = i === toks.length - 1;
+      let best = 0;
+      for (const s of it.name) best = Math.max(best, s === t ? 12 : last && s.startsWith(t) ? 9 : 0);
+      for (const s of it.meta) best = Math.max(best, s === t ? 6 : last && s.startsWith(t) ? 5 : 0);
+      for (const s of it.ing) best = Math.max(best, s === t ? 4 : last && s.startsWith(t) ? 3 : 0);
+      if (best === 0) return 0;
+      total += best;
+    }
+    // Trúng nguyên cụm liền mạch mới là thứ người ta thật sự gõ ra: "pho bo"
+    // phải bỏ xa món chỉ có "bò" nằm trong nguyên liệu.
+    if (it.nameStr.includes(query)) total += 30;
+    else if (it.ingStr.includes(query)) total += 6;
+    return total;
+  }
+
+  /**
+   * Mọi chữ đều trúng TÊN MÓN → nhóm trên, hiện ngay; còn lại xuống nhóm dưới,
+   * giấu sau nút "xem thêm".
+   *
+   * Đây là chỗ thay cho một con số ngưỡng: đo trên 64 món thì nhóm trên luôn
+   * cao hơn nhóm dưới ít nhất 8 điểm, không món nào ngoại lệ — nên hỏi thẳng
+   * "có trúng tên không" vừa gọn vừa khỏi phải chỉnh tay khi thêm món.
+   * Luật khớp phải y hệt score(), lệch một chút là chia nhóm sai.
+   */
+  const inName = (it: Item, toks: string[]) =>
+    toks.every((t, i) =>
+      it.name.some((s) => s === t || (i === toks.length - 1 && s.startsWith(t))));
+
   function apply() {
-    let shown = 0;
-    for (const card of cards) {
-      const occs = (card.dataset.occasions || '').split('|');
-      const ok =
-        (state.cat === 'all' || card.dataset.category === state.cat) &&
+    const toks = query ? query.split(' ') : [];
+
+    // Chip lọc trước, xếp hạng sau — xếp hạng chỉ chạy trên số món còn lại.
+    const pass = items.filter(({ el }) => {
+      const occs = (el.dataset.occasions || '').split('|');
+      return (state.cat === 'all' || el.dataset.category === state.cat) &&
         (state.occ === 'all' || occs.includes(state.occ)) &&
         // Món "Cả nước" là một miền như mọi miền khác — KHÔNG hiện ở mọi bộ lọc
         // nữa, trước đây làm vậy nên lọc "Miền Bắc" lại lẫn cả chục món khác.
-        (state.region === 'all' || card.dataset.region === state.region) &&
-        (query === '' || (card.dataset.search || '').includes(query));
-      card.hidden = !ok;
-      if (ok) shown++;
+        (state.region === 'all' || el.dataset.region === state.region);
+    });
+
+    let show = pass;
+    let tucked: Item[] = [];
+    if (toks.length) {
+      const hit = pass.map((it) => ({ it, s: score(it, toks) }))
+        .filter((x) => x.s > 0)
+        .sort((a, b) => b.s - a.s || a.it.i - b.it.i)
+        .map((x) => x.it);
+      const named = hit.filter((it) => inName(it, toks));
+      // Không món nào trúng tên thì nguyên liệu là tất cả những gì có — hiện
+      // thẳng ra, đừng bắt bấm thêm một nút nữa mới thấy.
+      tucked = named.length ? hit.filter((it) => !inName(it, toks)) : [];
+      show = named.length && !moreOpen ? named : hit;
     }
 
-    if (cnt) cnt.textContent = String(shown);
+    const vis = new Set(show.map((it) => it.el));
+    for (const it of items) it.el.hidden = !vis.has(it.el);
+
+    // Xếp lại DOM thật, không dùng CSS `order`: thứ tự Tab phải đi đúng thứ tự
+    // mắt nhìn thấy. 64 thẻ nên đổi chỗ thoải mái, và chỉ đụng khi thứ tự đổi.
+    const seq = toks.length ? show : items;
+    const sig = seq.map((it) => it.i).join(',');
+    if (sig !== lastOrder) {
+      const frag = document.createDocumentFragment();
+      for (const it of seq) frag.appendChild(it.el);
+      grid?.appendChild(frag);
+      lastOrder = sig;
+    }
+
+    const nAxis = ['cat', 'occ', 'region'].filter((a) => state[a] !== 'all').length;
+    // Thẻ nhảy lên đầu mà chưa từng lọt vào màn hình thì vẫn đang opacity:0 —
+    // observer bên site.js chưa kịp bắn. Đang lọc thì cho hiện luôn, khỏi nháy.
+    if (toks.length || nAxis) for (const it of show) it.el.classList.add('is-in');
+
+    if (cnt) cnt.textContent = String(show.length);
     const bits: string[] = [];
     if (state.cat !== 'all') bits.push(state.cat);
     if (state.occ !== 'all') bits.push(state.occ);
@@ -178,9 +269,14 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
     if (cntWhy) cntWhy.textContent = bits.length ? ' — ' + bits.join(' · ') : '';
     if (reset) reset.hidden = bits.length === 0;
     // Nút "Lọc món" mang theo số bộ lọc đang bật, để đóng bảng lại vẫn biết
-    const nAxis = ['cat', 'occ', 'region'].filter((a) => state[a] !== 'all').length;
     if (fCount) { fCount.textContent = String(nAxis); fCount.hidden = nAxis === 0; }
-    if (empty) empty.classList.toggle('is-show', shown === 0);
+    if (moreBtn) {
+      moreBtn.hidden = tucked.length === 0;
+      moreBtn.textContent = moreOpen
+        ? 'Thu gọn — chỉ xem món trúng tên'
+        : `Còn ${tucked.length} món có “${q?.value.trim()}” trong nguyên liệu — xem thêm`;
+    }
+    if (empty) empty.classList.toggle('is-show', show.length === 0);
     if (qClear) qClear.hidden = query === '';
     syncUrl();
   }
@@ -197,11 +293,16 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
     });
   }
 
-  q?.addEventListener('input', () => { query = deaccent(q.value.trim()); apply(); });
-  qClear?.addEventListener('click', () => { if (q) q.value = ''; query = ''; apply(); q?.focus(); });
+  // Gõ tiếp là một lượt tìm khác — thu "xem thêm" lại, không thì nhóm nguyên
+  // liệu của từ khóa cũ còn dính lại ở từ khóa mới.
+  q?.addEventListener('input', () => { query = tidy(q.value); moreOpen = false; apply(); });
+  qClear?.addEventListener('click', () => {
+    if (q) q.value = ''; query = ''; moreOpen = false; apply(); q?.focus();
+  });
+  moreBtn?.addEventListener('click', () => { moreOpen = !moreOpen; apply(); });
   reset?.addEventListener('click', () => {
     state.cat = state.occ = state.region = 'all';
-    query = ''; if (q) q.value = '';
+    query = ''; moreOpen = false; if (q) q.value = '';
     for (const b of document.querySelectorAll<HTMLElement>('[data-f]')) {
       b.classList.toggle('is-active', b.dataset.v === 'all');
     }

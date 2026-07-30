@@ -131,6 +131,7 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 ## Lặt vặt
 
 - ~~GitHub Actions cảnh báo Node 20 deprecated~~ — **xong 2026-07-29.** Ghi lại vì lần đầu đọc dễ hiểu sai: cảnh báo đó **không** nói về Node dùng để build (workflow vốn đã `node-version: 24` từ trước), mà nói về Node chạy code của bản thân mấy action. Và **2 trong 3 action bị nêu không nằm trong `deploy.yml`** — `setup-node` với `upload-artifact` được gọi bên trong `withastro/action`, nên sửa file mình không với tới; phải nâng chính `withastro/action`. Đã nâng `checkout` v4→v7, `withastro/action` v3→v6, `deploy-pages` v4→v5. `checkout@v7` có breaking change thật (chặn checkout code fork PR) nhưng repo này chỉ chạy trên `push` + `workflow_dispatch`, không dùng `pull_request_target`/`workflow_run` nên không dính.
+- **Đo lại `/mon/` trên máy chủ sau khi deploy đợt tìm kiếm.** Bỏ `summary` khỏi chỉ mục làm trang nhẹ đi ~6 KB gzip *đo ở máy*; mốc **29,6 KB** ở bảng trạng thái là số máy chủ của bản đang chạy nên vẫn đúng cho tới lúc deploy. Deploy xong thì `curl -sI -H 'Accept-Encoding: gzip'` rồi sửa bảng (và câu "~30 KB" ở `README.md`).
 - **Node build giữ ở 24, đừng nâng lên 26** dù máy đang chạy 26: Node bản chẵn tới tháng 10 của năm đó mới lên LTS, nên tới giờ 26 vẫn là Current. CI nên đứng ở LTS.
 
 ---
@@ -189,6 +190,14 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Khai thừa `@font-face` KHÔNG tốn request.** Trình duyệt chỉ tải những face mà nội dung thật sự khớp — khai 24 face mà chỉ dùng 15 thì vẫn chỉ tải 15. Cắt bớt danh sách nét là chuyện gọn gàng, **không phải chuyện hiệu năng**; đừng lấy "bớt request" ra biện minh.
 - **Nghi hai bản khác nhau thì DỰNG CẢ HAI CẠNH NHAU rồi so chữ ký hình học**, đừng so bằng mắt và đừng so với trí nhớ. Cách làm: build bản A, `cp -R dist dist-old`, sửa, build bản B, chạy hai máy chủ hai cổng (`astro preview` và `python3 -m http.server`), rồi lấy `getBoundingClientRect()` + `getComputedStyle()` của một dãy phần tử ở cả hai bên nối thành một chuỗi mà so. Trùng khít tới 2 số lẻ thì kết thúc tranh luận. Cũng đếm luôn `[...document.fonts].filter(f => f.status === 'loaded')` — đó mới là số font **thật sự tải**, khác hẳn số face khai báo.
 - **Soi thứ đã build, đừng gọi lại hàm sinh ra nó.** `link-audit` đọc HTML trong `dist/` chứ không gọi `relatedFor()`: gọi lại chính hàm đó rồi đo là tự chấm điểm mình, hỏng ở khâu dựng trang thì không thấy.
+
+**Ô tìm kiếm**
+- **KHÔNG đưa `summary` vào chỉ mục tìm kiếm.** Summary là văn xuôi và cố ý nhắc tên món khác ("cùng họ với canh chua cá lóc") — gộp vào thì gõ đúng tên món này lại lòi ra món kia. Chỉ lấy **tên món · miền/kiểu món/dịp · nguyên liệu**, mỗi thứ một trường riêng.
+- **Xếp hạng chứ đừng lọc.** Tiếng Việt bỏ dấu thì âm tiết ngắn và đụng nhau dày đặc ("ca" nằm trong cà/canh/cay/cải) — mọi phép bật/tắt đều sẽ ra hoặc quá nhiều hoặc quá ít. Cái quyết định chất lượng là **thứ tự**, không phải ngưỡng.
+- **Khớp theo ÂM TIẾT, không theo chuỗi con.** Và chỉ chữ **cuối** — chữ đang gõ dở — mới được khớp đầu chữ; các chữ trước phải khớp trọn âm tiết, không thì "ca kho" lôi cả "canh khổ qua" về.
+- **Hai trường phải bỏ dấu giống hệt nhau ở cả hai đầu** (`src/utils/search.ts` lúc build và bản chép trong `mon/index.astro` lúc chạy). Lệch một nét là tìm trật mà không có gì báo.
+- **Chia nhóm bằng câu hỏi "có trúng tên món không", đừng bằng con số ngưỡng.** Đo trên 64 món: nhóm trúng tên luôn cao hơn nhóm chỉ-có-trong-nguyên-liệu **ít nhất 8 điểm**, không món nào ngoại lệ — nên phép thử thẳng vừa gọn vừa khỏi phải chỉnh tay khi thêm món.
+- **Xếp lại DOM thật, đừng dùng CSS `order`** — `order` chỉ đổi chỗ về mặt nhìn, phím Tab vẫn đi theo thứ tự cũ.
 
 **Sinh liên kết tự động**
 - **Chọn bằng XOAY VÒNG, đừng lấy N món đầu khối.** Cùng một trục "cùng vùng", lấy 3 món đầu khối để lại **38/64 món mồ côi** và **44 món có dải y hệt món khác**; xoay vòng đưa cả hai về **0** mà không tốn gì. Luật này đúng cho mọi thứ sinh danh sách từ một khối đã sắp thứ tự.
@@ -336,6 +345,40 @@ Khởi từ thư Search Console báo 4 vấn đề Recipe. Kết luận sau khi 
 **Kiểm đã làm:** `qa` sạch · `link-audit` sạch · ghép 64 ảnh 1:1 thành một tấm rồi **nhìn bằng mắt** (khói ra nét sáng chứ không đen, đủ 5 nền họ màu, không ô nào trắng) · diff `/art/*.svg` mới build với **bản đang chạy trên máy chủ** → giống hệt từng byte, tức việc gom `art-src.ts` không đổi hình nào · thử xoá 1 ảnh và cắt cụt 1 ảnh để chắc `seo-audit` **bắt được thật** chứ không phải phép kiểm luôn xanh.
 
 > **Vì sao `seo-audit` tách riêng khỏi `link-audit`:** `link-audit` có một việc và tự giới thiệu rõ ở đầu file là soi **liên kết chéo**; nhét thêm phép kiểm ảnh vào đó là làm mờ nó đi.
+
+## Làm lại ô tìm kiếm `/mon/` — 2026-07-30
+
+Thái báo "tìm kiếm work rất tệ, kết quả không ăn khớp từ khoá gì cả". Đúng, và đo ra thì tệ hơn tưởng.
+
+**Bản cũ sai ở đâu.** `searchText()` gộp tên món + `summary` + miền + kiểu món + dịp + **mọi** nguyên liệu thành một chuỗi bỏ dấu, rồi client làm đúng một phép `haystack.includes(query)`. Bốn hệ quả, đo trên đúng 64 món đang có:
+
+| Gõ | Ra |
+|---|---|
+| `hanh` | **60/64 món** — "hành" ở gần hết nguyên liệu, "t**hanh**" trong summary cũng dính |
+| `ca` | **58/64** — "ca" nằm trong cà, canh, cay, cải; chỉ 14 món có trong tên |
+| `cha` | **54/64** — dính cả "nước c**hấm**" |
+| `canh chua ca loc` | ra **cả Canh gà lá giang** — summary món đó viết "cùng họ với canh chua cá lóc" |
+| `loc ca`, `kho bo`, `cha bun` | **0 món** — đảo thứ tự chữ là trắng bảng |
+
+Và **không có xếp hạng nào cả**: gõ `ca` thì "Cá kho tộ" nằm thứ 6, sau Canh chua cá lóc / Phở bò / Bún chả Hà Nội. Đây mới là thứ làm nó *cảm thấy* hỏng — mấy món khớp thật bị chôn giữa đám khớp nhầm.
+
+**Đã làm.** Tách `data-search` thành ba trường (`data-n` tên món · `data-m` miền/kiểu/dịp · `data-i` nguyên liệu), bỏ hẳn `summary`. Client chấm điểm theo trường — trúng nguyên âm tiết trong tên 12đ, meta 6đ, nguyên liệu 4đ, trúng nguyên cụm trong tên +30đ; thiếu một chữ là loại (AND). Rồi xếp theo điểm và **xếp lại DOM thật**. Món trúng tên hiện ngay, món chỉ dính ở nguyên liệu gom sau nút *"Còn N món có … trong nguyên liệu — xem thêm"*.
+
+| Gõ | Cũ | Mới |
+|---|---|---|
+| `hanh` | 60 | **1** — Gà hấp hành |
+| `ca` | 58, Cá kho tộ thứ 6 | **14**, Canh chua cá lóc → Cá kho tộ → Bún chả cá |
+| `pho bo` | 2 (lẫn Phở gà) | **1** |
+| `loc ca` | 0 | **4** |
+| `bun b` (gõ dở) | 27 lộn xộn | **9**, Bún bò Huế đứng đầu |
+| `nuoc mam` | 44 | **1** hiện + 44 sau nút xem thêm |
+
+- **Đã cân nhắc rồi bỏ: ngưỡng "40% điểm cao nhất".** Đó là đề xuất ban đầu, nhưng đo phân bố điểm thì thấy không cần con số nào — hai nhóm cách nhau ít nhất 8 điểm ở mọi truy vấn thử. Một phép thử thẳng ("mọi chữ có trúng tên món không") cho đúng kết quả đó mà không đẻ ra hằng số phải chỉnh tay.
+- **Ba trường chỉ xuất ở `/mon/`** — `RecipeCard` nhận prop `search`; trang chủ với dải "món cùng họ" không có ô tìm nên khỏi gánh. Bỏ `summary` + tách trường làm **`/mon/` nhẹ đi ~6 KB gzip** (đo ở máy: 29,6 → 23,6 KB; số thật phải đo trên máy chủ).
+- **Bẫy đã dính:** phép thử chia nhóm lúc đầu lỏng hơn phép chấm điểm (cho khớp-đầu-chữ ở *mọi* chữ chứ không riêng chữ cuối), làm khoảng cách hai nhóm ở `ca kho` ra **−2 điểm** và suýt kết luận nhầm là "ngưỡng không đáng tin". Sửa cho khớp thì ra +36. **Hai chỗ cùng một luật khớp thì phải viết cùng một luật.**
+- **Chỗ dễ quên:** `.finder__more[hidden]{display:none}` — `display:` của class đè `[hidden]`, y như bài học cũ ở `.finder__toggle__n`.
+
+**Kiểm đã làm:** `qa` sạch · `build` sạch · `link-audit` sạch · `seo-audit` sạch · chạy `astro preview` rồi bắn 20 truy vấn qua chính ô input thật trên trình duyệt, đọc lại DOM để so số món và thứ tự · thử nút xem thêm/thu gọn (`tom`: 7 ⇄ 16, ranh giới đúng ở món thứ 8) · thử chip lọc + gõ cùng lúc (`Canh` + `ga` → 1 món) · thử trạng thái rỗng (`xyzzy`) · thử vào thẳng `?q=tôm` có dấu.
 
 ---
 

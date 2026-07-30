@@ -3,19 +3,20 @@ import Icon from './Icon.astro';
 import ArtImg from './art/ArtImg.astro';
 import { plain, dishName } from '../utils/rich';
 import { familyOf } from '../utils/family';
-import { searchText } from '../utils/search';
+import { searchFields } from '../utils/search';
 
-interface Props { recipe: any }
-const { recipe } = Astro.props;
+interface Props { recipe: any; search?: boolean }
+const { recipe, search = false } = Astro.props;
 const { id, data } = recipe;
 
 // Nền thẻ mã hóa theo HỌ MÓN — lưới 63 món đọc ra thành từng nhóm ngay từ cái
 // liếc đầu. Nhãn vẫn ghi kiểu món cụ thể; màu chỉ báo họ.
 const fam = familyOf(data.category);
 
-// Chuỗi tìm kiếm đã bỏ dấu, tính sẵn lúc build để trình duyệt khỏi phải
-// chuẩn hóa lại 63 bản ghi mỗi lần gõ phím.
-const haystack = searchText(data, plain);
+// Ba trường tìm kiếm đã bỏ dấu, tính sẵn lúc build để trình duyệt khỏi phải
+// chuẩn hóa lại 64 bản ghi mỗi lần gõ phím. CHỈ /mon/ mới cần — trang chủ với
+// dải "món cùng họ" không có ô tìm nên khỏi phải gánh.
+const sf = search ? searchFields(data) : null;
 ---
 <a
   class="rcard reveal"
@@ -24,7 +25,9 @@ const haystack = searchText(data, plain);
   data-region={data.region}
   data-occasions={data.occasions.join('|')}
   data-family={fam}
-  data-search={haystack}
+  data-n={sf?.name}
+  data-m={sf?.meta}
+  data-i={sf?.ing}
 >
   <div class="rcard__art" style={`--ground:var(--fam-${fam}); --ground-deep:var(--fam-${fam}-deep)`}>
     <span class="rcard__kind">{data.category}</span>
