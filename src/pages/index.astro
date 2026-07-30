@@ -111,11 +111,12 @@ const siteLd = {
       <div>
         <p class="home-hero__eyebrow">Thương nhau mời về ăn cơm…</p>
         <h1>Món <span class="gold">Việt</span> Ngon</h1>
+        {/* Hai dòng, không phải bốn. Đoạn cũ nói lại đúng những gì lưới món và
+            trang món tự chứng minh ở dưới, mà lại đẩy thẻ món đầu tiên xuống
+            sâu thêm — xem ROADMAP phần 5, mục "Rút ngắn hero trang chủ". */}
         <p class="home-hero__sub">
-          Kho công thức món Việt <b>chuẩn vị nhà nấu</b>: hướng dẫn cặn kẽ tới từng
-          muỗng đường, kèm <b>bản nấu nhanh</b> cho bữa vội, giỏ đi chợ tự tính
-          khẩu phần và đồng hồ đếm giờ ngay trong trang. Không quảng cáo, không
-          màu mè — chỉ có đồ ăn ngon.
+          Công thức món Việt <b>chuẩn vị nhà nấu</b> — có <b>bản nấu nhanh</b> cho
+          bữa vội, giỏ đi chợ tự tính khẩu phần và đồng hồ đếm giờ ngay trong trang.
         </p>
         <!-- Form GET thuần, không cần JS: submit là sang /mon/?q=… rồi trang đó
              tự đọc tham số và lọc sẵn. -->
@@ -169,8 +170,7 @@ const siteLd = {
       <p class="eyebrow reveal">Mới lên mâm</p>
       <h2 class="reveal">Món ngon <span class="accent">cả nhà đều mê</span></h2>
       <p class="section__lead reveal">
-        Mỗi món một trang riêng: chuyện món ăn, nguyên liệu, từng bước nấu có
-        đếm giờ, và bí quyết để lần đầu nấu đã ra đúng vị.
+        Mỗi món một trang riêng, từng bước có đếm giờ và bí quyết đi kèm.
       </p>
       <div class="rcard-grid">
         {/* Cả 12 thẻ để `lazy`. Đã thử cho 3 thẻ đầu `eager` rồi gỡ ra: đo mới

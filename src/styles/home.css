@@ -11,11 +11,13 @@
     linear-gradient(168deg, var(--river) 0%, var(--river-deep) 100%);
   color:var(--hero-ink);
 }
+/* Đệm siết lại từ 76/100. Thẻ món đầu tiên vốn bắt đầu ở 1165px trên desktop —
+   quá một màn hình — nên hero phải nhường chỗ. Số đo ở ROADMAP phần 5. */
 .home-hero__inner{
   position:relative;z-index:2;
   display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);
   gap:40px;align-items:center;
-  max-width:1080px;margin:0 auto;padding:76px 24px 100px;
+  max-width:1080px;margin:0 auto;padding:52px 24px 72px;
 }
 .home-hero__eyebrow{
   font-family:var(--font-script);font-size:clamp(1.5rem,2.6vw,1.95rem);font-weight:600;
@@ -28,7 +30,7 @@
   margin:0 0 14px;
 }
 .home-hero h1 .gold{color:var(--gold)}
-.home-hero__sub{font-size:1.08rem;line-height:1.8;max-width:48ch;color:rgba(244,239,218,.88);margin:0 0 26px}
+.home-hero__sub{font-size:1.08rem;line-height:1.8;max-width:48ch;color:rgba(244,239,218,.88);margin:0 0 20px}
 .home-hero__sub b{color:#F7EBC8}
 .home-hero__cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:30px}
 /* Ô tìm ngay ở hero — form GET thuần, không JS vẫn chạy */
@@ -64,6 +66,12 @@
 .home-hero__art > svg{width:min(430px,100%);margin:0 auto;filter:drop-shadow(0 24px 40px rgba(0,0,0,.35))}
 .home-hero__wave{position:absolute;left:0;right:0;bottom:-1px;z-index:1}
 .home-hero__wave svg{width:100%;height:54px;display:block;color:var(--paper-deep)}
+
+/* Khối món nổi bật đứng ngay sau hero nên nó gánh phần đệm cuối cùng trước khi
+   tới lưới. Siết riêng khối này chứ KHÔNG đụng `.section` / `.section__lead`
+   toàn cục — hai class đó còn dùng ở /mon/, /bi-quyet/, trang món và dải gợi ý. */
+#mon-noi-bat{padding-top:56px}
+#mon-noi-bat .section__lead{margin-bottom:28px}
 
 /* ---------- Thẻ món ăn ---------- */
 .rcard-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(252px,1fr));gap:20px}
@@ -265,11 +273,14 @@
 .home-about{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:start}
 .home-about b{color:var(--broth)}
 @media (max-width:900px){
-  .home-hero__inner{grid-template-columns:1fr;padding:56px 24px 88px;text-align:center}
+  /* Khung hẹp siết mạnh hơn desktop: hình nhảy lên đầu (order:-1) nên nó đứng
+     chắn giữa mép trên và mọi thứ còn lại. Ở 390×844 hero từng cao 1142px —
+     một mình nó đã hơn một màn hình. */
+  .home-hero__inner{grid-template-columns:1fr;padding:28px 24px 44px;text-align:center}
   .home-hero__sub{margin-inline:auto}
   .home-hero__cta,.home-hero__stats{justify-content:center}
   .home-hero__art{order:-1}
-  .home-hero__art > svg{width:min(320px,78%)}
+  .home-hero__art > svg{width:min(210px,54%)}
   .home-about{grid-template-columns:1fr;gap:32px}
 }
 

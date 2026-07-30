@@ -64,13 +64,27 @@ Miền Trung từ vùng gần bét lên đồng hạng đầu; Miền Nam từ 4
 
 Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục *"Trang 404 và liên kết chéo"* trong phần Nhật ký; đây chỉ ghi kết quả:
 
-1. **Trang 404** — `src/pages/404.astro`, ra đúng `dist/404.html` ở gốc (đã kiểm, không bị đẩy thành `404/index.html`). Có ô tìm món, ba đường về, sáu món gợi ý. **Chỉ nghiệm thu được trên máy chủ sau khi deploy.**
+1. **Trang 404** — `src/pages/404.astro`, ra đúng `dist/404.html` ở gốc (đã kiểm, không bị đẩy thành `404/index.html`). Có ô tìm món, ba đường về, sáu món gợi ý. **Đã nghiệm thu trên máy chủ 2026-07-30:** `curl -sI https://www.monvietngon.com/khong-ton-tai/` trả về **404**, không phải 200.
 2. **Liên kết chéo** — mỗi trang món có dải **6 món**, chọn theo 2 cùng vùng + 2 cùng kiểu món + 2 cùng nhãn theo dịp. Đo trên HTML đã build: **0 mồ côi · 0 dải trùng · 1 mảnh liền · 384 liên kết**. Giữ bằng `npm run link-audit`.
 3. **~~3 ô đầu trang chủ `eager`~~ — làm rồi GỠ RA cùng ngày.** Đo xong mới biết giả định đằng sau nó sai: **không ô nào nằm trên màn hình đầu**, và **LCP của trang chủ là chữ `<h1>` chứ không phải ảnh nào**. Xem mục *"Đo LCP trang chủ"* trong phần Nhật ký — ở đó có cả việc đáng làm mọc ra từ số đo này.
 
 ## Hạ tầng, theo thứ tự đáng làm
 
-1. **Thống kê truy cập nhẹ ([GoatCounter](https://www.goatcounter.com)) — nên làm TRƯỚC mấy việc đoán mò.** Hiện không biết người đọc thật sự dùng gì, nên mọi quyết định về 12 ô featured, thứ tự chip lọc, món nào lên ticker đều đang dựa trên suy luận. Miễn phí, không cookie, một dòng script trong `src/layouts/Base.astro`. ⚠️ **Cần Thái lập tài khoản trước** rồi mới gắn được.
+1. **Thống kê truy cập — Thái đã chốt dùng [Google Analytics 4](https://analytics.google.com), KHÔNG dùng GoatCounter (2026-07-30).** Chưa làm, và cố ý chưa làm ngay — nhưng **sẽ làm sớm**, nên đừng gỡ mục này xuống.
+
+   Vì sao vẫn đáng làm: hiện không biết người đọc thật sự dùng gì, nên mọi quyết định về 12 ô featured, thứ tự chip lọc, món nào lên ticker đều đang dựa trên suy luận. **Đã có một việc bị chặn vì thiếu nó**: phương án C/D của hero (bỏ 2 nút CTA) — xem mục *"Rút ngắn hero trang chủ"* phần Nhật ký.
+
+   > **Đã cân GoatCounter rồi mới chọn GA4 — đừng bàn lại, nhưng phải biết mình đang trả gì.** Số đo thật (`curl` + `content-encoding: gzip`, 2026-07-30):
+   >
+   > | | tải về gzip | so với `/mon/` (24,1 KB) |
+   > |---|---:|---|
+   > | `gtag.js` (GA4) | **148.650 B ≈ 145 KB** | **gấp 6 lần cả trang** |
+   > | `count.js` (GoatCounter) | 3.327 B ≈ 3,3 KB | 1/7 trang |
+   >
+   > GA4 mạnh hơn hẳn (sự kiện, phễu, nối thẳng Search Console) và **Thái muốn ở trong hệ sinh thái Google** — đó là lý do chốt. Ba điều phải nhớ khi gắn:
+   > - **145 KB sẽ là thứ nặng nhất site**, trên một trang mà cả câu chuyện kỹ thuật từ đợt 10 tới giờ là *"24,1 KB và không tăng theo số món"*. Nạp `async`/`defer`, đừng để nó chặn.
+   > - **GA4 đặt cookie ⇒ cần dải xin phép** nếu có khách EU. Dải đó sẽ nằm đúng trên cái hero vừa mất công rút ngắn — hai việc đá nhau, tính trước.
+   > - **Search Console đã trả lời sẵn một phần, miễn phí, không cần một dòng JS nào**: người ta gõ gì để ra site, trang nào được hiện, trang nào được bấm. Xem hết bên đó trước khi dựng báo cáo GA cho cùng câu hỏi.
 2. ~~**RSS feed**~~ — **xong 2026-07-30**, `/rss.xml`, 64 món sắp theo `pubDate` mới nhất trước.
 3. **Tự host font, bỏ Google Fonts — CHƯA LÀM, và cố ý hoãn.** Hiện là một stylesheet chặn render từ bên thứ ba. Repo **đã có sẵn** `BeVietnamPro-Regular/SemiBold.ttf` + `PaytoneOne-Regular.ttf` trong `src/assets/fonts/` (dùng sinh ảnh OG).
 
@@ -79,7 +93,9 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
    > - **Lợi ích KHÔNG phải là LCP.** URL đã có `&display=swap` nên chữ vẽ ngay bằng font dự phòng — *file font* không chặn vẽ chữ. Cái chặn là **bản thân cái stylesheet**: không một chữ nào xuất hiện trước khi `fonts.googleapis.com` trả lời. Lợi ích thật là **bỏ điểm hỏng đơn lẻ duy nhất của site**, bỏ 2 vòng DNS+TLS, và bớt nháy chữ.
    > - **Chưa định lượng được.** Không có số bóp băng thông nào (PSI API trả 429 vì thiếu key). Đo lượt đầu mạng chậm rồi hãy quyết, đừng làm vì nghe hay.
 
-4. **Hero trang chủ đang dài — cân nhắc rút ngắn.** Không phải việc hiệu năng, mà là câu hỏi bố cục, và **có số đo đứng sau**: thẻ món nổi bật đầu tiên bắt đầu ở **1165px** (mọi bề rộng desktop) và **1531–1626px** trên điện thoại, trong khi màn hình cao 768–900px — nên **người đọc phải cuộn một màn rưỡi mới thấy món đầu tiên**. Hero đang gánh h1, câu dẫn, ô tìm, 2 nút, 3 con số thống kê và một hình lớn. ⚠️ **Đo lại trước khi cắt, đừng cắt theo cảm tính** — và đừng đụng vào thuộc tính `loading` nữa, chỗ đó đã thử và đã gỡ (xem mục *"Đo LCP trang chủ"* phần Nhật ký).
+4. ~~**Hero trang chủ đang dài — cân nhắc rút ngắn.**~~ — **XONG 2026-07-30, ship bản B + phần điện thoại của F.** Thẻ món đầu tiên **1164 → 1006px** desktop (−158) và **1624 → 1309px** điện thoại (−315); hero **738 → 649px** và **1142 → 899px**. Không bỏ một thành phần nào khỏi trang. Chi tiết + 6 phương án đã đo ở mục *"Rút ngắn hero trang chủ"* phần Nhật ký.
+
+   > **Còn phần chưa làm, và nó chờ GA4:** phương án **C** (bỏ 2 nút *"Xem hết món ngon"* + *"Bí quyết bếp Việt"*, gộp 3 pill thống kê thành một dòng) đo được **−294px desktop / −485px điện thoại** và là bản duy nhất đưa thẻ món lọt màn hình đầu ở 1440×900. **Cố ý chưa làm** vì cái giá là hai đích bấm lớn nhất trang mà chưa ai biết có bao nhiêu người bấm. Gắn GA4 xong, nhìn số một tuần rồi quyết. Phương án **D** (bỏ thêm eyebrow + câu dẫn khối món) thì đắt hơn nữa, để sau C.
 5. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng. Mở một giá trị enum mới là phải **rà gắn lại cả 64 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
 
 ## ~~SEO còn thiếu~~ — XONG 2026-07-30
@@ -109,7 +125,7 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 
 ## Mốc dung lượng cũ đã hết hiệu lực
 
-> **"~150 KB gzip" giờ vô nghĩa, đừng dùng lại.** Từ đợt 10 độ dốc xuống còn ~0,2 KB/món (chỉ còn phần chữ của cái thẻ) thay vì 2,6 KB/món, nên ở 100 món `/mon/` ước chừng **37 KB** — chưa đo, suy từ 29,5 KB đo được ở 64 món. **Không còn rào dung lượng nào chặn đường lên 100 món.**
+> **"~150 KB gzip" giờ vô nghĩa, đừng dùng lại.** Từ đợt 10 độ dốc xuống còn ~0,2 KB/món (chỉ còn phần chữ của cái thẻ) thay vì 2,6 KB/món, nên ở 100 món `/mon/` ước chừng **31 KB** — chưa đo, suy từ **24,1 KB** đo trên máy chủ ở 64 món. **Không còn rào dung lượng nào chặn đường lên 100 món.** *(Con số ước cũ ghi 37 KB vì suy từ mốc 29,5 KB trước khi làm lại ô tìm kiếm — mốc đó đã hết hiệu lực.)*
 
 ## Việc lớn nhất, và nó cần Thái
 
@@ -184,10 +200,12 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Phân vân giữa các phương án giao diện thì dựng harness iframe rồi đo `getBoundingClientRect()`**, đừng bàn cảm tính.
 - **Contact sheet không đủ để soi hình** — phải render PNG ghép ở cỡ thumbnail (`npm run art-png -- --sheet`). Đợt 7, 8, 9, 10 đều có lỗi lọt qua contact sheet.
 - **File `.svg` rời đọc bằng XML nghiêm** — chú thích cấm chứa `--`, cấm `&` trần. Endpoint tự bỏ chú thích; `qa` chặn hai lỗi kia. **Tool soi phải đọc đúng thứ endpoint xuất ra.**
-- **"Nằm trên màn hình đầu" là thứ PHẢI ĐO, không được suy.** Lưới món trang chủ trông như ở gần đầu trang, thật ra bắt đầu ở **1165px** — không ô nào lọt màn hình đầu ở mọi khung thường gặp. Một dòng `getBoundingClientRect().top` là biết, mà không đo thì đẻ ra cả một việc sai.
+- **"Nằm trên màn hình đầu" là thứ PHẢI ĐO, không được suy.** Lưới món trang chủ trông như ở gần đầu trang, thật ra hồi đó bắt đầu ở **1165px** — không ô nào lọt màn hình đầu ở mọi khung thường gặp. Một dòng `getBoundingClientRect().top` là biết, mà không đo thì đẻ ra cả một việc sai. *(Rút hero 2026-07-30 kéo xuống còn **1006px** — vẫn chưa lọt màn hình đầu; muốn lọt phải làm tiếp bản C.)*
 - **Trước khi tối ưu ảnh, xem phần tử LCP có phải ảnh không.** Trang chủ có LCP là chữ `<h1>`; **`<svg>` nhúng thẳng không phải ứng viên LCP** (chỉ `<img>`, `<image>` trong svg, poster video, `background-image`, và khối chữ mới là). Ứng viên LCP do bố cục quyết định chứ không do mạng — nên kết luận đó đúng ở mọi tốc độ, dù con số mili giây đo ở máy thì vô nghĩa.
 - **Khai thừa `@font-face` KHÔNG tốn request.** Trình duyệt chỉ tải những face mà nội dung thật sự khớp — khai 24 face mà chỉ dùng 15 thì vẫn chỉ tải 15. Cắt bớt danh sách nét là chuyện gọn gàng, **không phải chuyện hiệu năng**; đừng lấy "bớt request" ra biện minh.
 - **Nghi hai bản khác nhau thì DỰNG CẢ HAI CẠNH NHAU rồi so chữ ký hình học**, đừng so bằng mắt và đừng so với trí nhớ. Cách làm: build bản A, `cp -R dist dist-old`, sửa, build bản B, chạy hai máy chủ hai cổng (`astro preview` và `python3 -m http.server`), rồi lấy `getBoundingClientRect()` + `getComputedStyle()` của một dãy phần tử ở cả hai bên nối thành một chuỗi mà so. Trùng khít tới 2 số lẻ thì kết thúc tranh luận. Cũng đếm luôn `[...document.fonts].filter(f => f.status === 'loaded')` — đó mới là số font **thật sự tải**, khác hẳn số face khai báo.
+- **Đo bố cục thì phải NẠP HẲN FONT rồi mới đo — `document.fonts.ready` KHÔNG đủ.** Nó chỉ hứa "hết việc đang chờ", mà font Google có thể chưa kịp được yêu cầu lúc nó resolve. Đo mà không nạp hẳn thì **mỗi iframe rơi vào một trạng thái font khác nhau**, số nhảy **±16px** giữa hai lần chạy và có lần còn đảo thứ tự hai khung màn hình — tưởng là hiệu ứng bề rộng, thật ra là nhiễu. Cách đúng: `await Promise.all([...].map(f => d.fonts.load(f)))` liệt đủ các nét thật sự dùng, rồi mới `fonts.ready`, rồi mới đo. **Kiểm bằng `[...d.fonts].filter(f => f.status === 'loaded').length` — phải ra đúng 15 và giống nhau ở mọi khung.**
+- **Chênh lệch giữa hai bản thì đáng tin hơn con số tuyệt đối.** Đợt hero: mockup báo 990/1293, bản ship thật đo lại ra 1006/1309 — lệch đều 16px vì nhiễu font ở trên, nhưng **phần bớt được (−158 / −315) thì trùng khít**, vì hai bản cùng đo trong một điều kiện. Khi số tuyệt đối và số chênh lệch mâu thuẫn nhau, tin số chênh lệch.
 - **Soi thứ đã build, đừng gọi lại hàm sinh ra nó.** `link-audit` đọc HTML trong `dist/` chứ không gọi `relatedFor()`: gọi lại chính hàm đó rồi đo là tự chấm điểm mình, hỏng ở khâu dựng trang thì không thấy.
 
 **Ô tìm kiếm**
@@ -229,6 +247,7 @@ Chuyện đã qua, xếp theo thứ tự thời gian.
 - [x] Đợt 10 (2026-07-30, 6 món): nem nướng Nha Trang, cá tai tượng chiên xù, ốc hấp lá gừng, gà hấp hành, gỏi ngó sen tôm thịt, cánh gà chiên nước mắm — mở kiểu món **"Bánh"** (chuyển bánh xèo · bánh cuốn · bánh khoái sang), **14 kiểu món tất cả ≥ 3**
 - [x] **Tách hình ra file `.svg` riêng** — `/mon/` từ 143,8 KB gzip xuống ~30 KB và thôi tăng theo số món
 - [x] **Trang 404 + liên kết chéo giữa 64 món** (2026-07-30) — xem mục ngay dưới
+- [x] **Rút ngắn hero trang chủ** (2026-07-30) — thẻ món đầu tiên 1164 → **1006px** desktop, 1624 → **1309px** điện thoại, không bỏ thành phần nào
 
 ## Trang 404 và liên kết chéo — 2026-07-30
 
@@ -297,7 +316,7 @@ Kết luận: `eager` **không thể** cải thiện LCP ở đây; nó chỉ k�
 
 **Cùng thuộc tính đó ở trang món thì ĐÚNG — giữ nguyên.** Hero trang chi tiết là `<img loading="eager">` thật, **mép trên 231px, cao 398px**, nằm gọn trên màn hình đầu và là ứng viên LCP đàng hoàng. Cùng một thuộc tính, sai ở trang chủ mà đúng ở trang món — chỉ có đo mới phân biệt được. *(Chưa chộp được phần tử LCP của trang món: API chỉ ghi khi tab đang hiện.)*
 
-**Việc mọc ra từ số đo này:** muốn lưới món thật sự nằm trên màn hình đầu thì phải **rút ngắn hero trang chủ**, chứ không phải chỉnh thuộc tính `loading`. **Đã đưa lên phần 2 · mục "Hạ tầng" số 4** — đừng để nó nằm lại đây, phần Nhật ký không ai đọc như việc cần làm.
+**Việc mọc ra từ số đo này:** muốn lưới món thật sự nằm trên màn hình đầu thì phải **rút ngắn hero trang chủ**, chứ không phải chỉnh thuộc tính `loading`. → **Đã làm 2026-07-30**, xem mục *"Rút ngắn hero trang chủ"* ngay dưới. Con số 1165px ở bảng trên là mốc **trước** khi rút; nay là 1006px.
 
 ⚠️ 284ms đo trên máy, mạng nhanh — **con số tuyệt đối vô nghĩa với người dùng thật**, thứ đáng tin là *phần tử nào là LCP* vì cái đó do bố cục quyết định. Chưa có số bóp băng thông từ bên thứ ba: PSI API trả 429 vì không có API key, muốn thì mở `pagespeed.web.dev` gõ tay.
 
@@ -323,7 +342,7 @@ Bốn việc "đều rẻ" trong phần SEO cùng với RSS, làm một lượt.
 | | |
 |---|---|
 | `/mon/` | **không đổi một byte** — 149.389 thô cả trước lẫn sau, nên **29,5 KB gzip trên máy chủ giữ nguyên**. Việc này không đụng trang danh mục. |
-| Trang chi tiết món | **+4,35 KB thô · ~+570 B gzip** cho 6 liên kết (ước ở máy; đo lại trên máy chủ sau deploy) |
+| Trang chi tiết món | **+4,35 KB thô · ~+570 B gzip** cho 6 liên kết (ước ở máy). **Đo lại trên máy chủ 2026-07-30: 16.699 byte gzip = 16,3 KB** cho `/mon/canh-chua-ca-loc/` — số tuyệt đối, đã gồm cả 6 liên kết. |
 | `/404.html` | 23,4 KB thô |
 
 ## Ảnh món cho công cụ tìm kiếm — 2026-07-30
@@ -378,6 +397,51 @@ Và **không có xếp hạng nào cả**: gõ `ca` thì "Cá kho tộ" nằm th
 - **Chỗ dễ quên:** `.finder__more[hidden]{display:none}` — `display:` của class đè `[hidden]`, y như bài học cũ ở `.finder__toggle__n`.
 
 **Kiểm đã làm:** `qa` sạch · `build` sạch · `link-audit` sạch · `seo-audit` sạch · chạy `astro preview` rồi bắn 20 truy vấn qua chính ô input thật trên trình duyệt, đọc lại DOM để so số món và thứ tự · thử nút xem thêm/thu gọn (`tom`: 7 ⇄ 16, ranh giới đúng ở món thứ 8) · thử chip lọc + gõ cùng lúc (`Canh` + `ga` → 1 món) · thử trạng thái rỗng (`xyzzy`) · thử vào thẳng `?q=tôm` có dấu.
+
+## Rút ngắn hero trang chủ — 2026-07-30
+
+Việc mọc ra từ đợt đo LCP: lưới món không nằm trên màn hình đầu, mà cách chữa là **rút hero** chứ không phải chỉnh thuộc tính `loading`.
+
+**Dựng 6 phương án rồi mới chọn.** Không vẽ mockup rời — sửa thẳng `dist/index.html` **đã build** thành 6 bản, để mọi con số là số của trang thật. Đo trong iframe đúng bề rộng cần đo.
+
+| Bản | Bỏ gì | thẻ đầu desktop | điện thoại |
+|---|---|---:|---:|
+| **A** hiện tại | — | 1164 | 1624 |
+| **B** gọn chữ | không bỏ gì | **1006** | 1396 |
+| **F** B + thu hình điện thoại | không bỏ gì | 1006 | **1309** |
+| **C** bỏ phần trùng | 2 nút CTA + 3 pill | 870 | 1139 |
+| **D** lưới lên thẳng | thêm eyebrow + câu dẫn khối | 758 | 998 |
+| **E** D + thu hình | thêm câu "Thương nhau mời…" | 758 | 843 |
+
+*(Cột C/D/E là số đo trong harness mockup, chưa nạp hẳn font nên thấp giả ~16px — xem luật ở phần 4. Cột A/B/F là số đo lại đàng hoàng trên hai bản build thật.)*
+
+**Thái chốt B + phần điện thoại của F** — nhánh không đánh đổi nội dung nào. Đã ship:
+
+- Đoạn giới thiệu hero rút còn **2 câu**; câu dẫn khối món rút còn 1 dòng.
+- Đệm hero **76/100 → 52/72px**, khung hẹp **56/88 → 28/44px**; `.home-hero__sub` **26 → 20px**.
+- Hình hero ở khung hẹp **78% → 54%** bề rộng.
+- `#mon-noi-bat{padding-top:56px}` và `#mon-noi-bat .section__lead{margin-bottom:28px}` — **cố ý khoá theo id**, không đụng `.section`/`.section__lead` toàn cục vì hai class đó còn dùng ở `/mon/`, `/bi-quyet/`, trang món và dải gợi ý.
+
+**Kết quả, đo lại trên hai bản build thật (stash → build → đo → pop → build → đo):**
+
+| | trước | sau | |
+|---|---:|---:|---|
+| Thẻ món đầu, desktop (1440 và 1366 như nhau) | 1164 | **1006** | −158 |
+| Thẻ món đầu, 390×844 | 1624 | **1309** | −315 |
+| Chiều cao hero, desktop | 738 | **649** | −89 |
+| Chiều cao hero, điện thoại | 1142 | **899** | −243 |
+
+Quãng cuộn trên điện thoại từ **1,9 màn xuống 1,2 màn**. Chưa lọt màn hình đầu ở khung nào — chuyện đó cần bản C, mà C đang chờ GA4.
+
+**Ba thứ rút ra, đã chép lên phần 4:**
+
+- **`document.fonts.ready` không đủ để đo bố cục.** Lần đo đầu ra 990/1006 rồi lần sau **đảo ngược đúng hai khung** — tưởng là hiệu ứng bề rộng, hoá ra mỗi iframe rơi vào một trạng thái font khác nhau. Phải `fonts.load()` từng nét rồi mới đo, và kiểm `[...d.fonts].filter(f => f.status === 'loaded').length === 15`.
+- **Số chênh lệch đáng tin hơn số tuyệt đối.** Mockup báo 990/1293, bản thật 1006/1309 — lệch đều 16px, nhưng **phần bớt được thì trùng khít**.
+- **"Thủ phạm là cái hình" là đoán sai.** Ai cũng nghĩ hero điện thoại dài vì hình tô canh chua. Đo ra: thu hình chỉ bớt **103px**, còn bỏ 2 nút + gộp 3 pill bớt **273px**.
+
+**Một chỗ ghi lại cho khỏi lặp:** bản mockup mô tả là *"câu dẫn 4 dòng → 2 dòng"*. Sai — đo ra là **4 → 3 dòng** ở desktop (và 4 dòng ở khung điện thoại vì cột hẹp hơn). Số đo thì đúng, chỉ lời mô tả sai; sửa lại đây cho khớp.
+
+**Kiểm đã làm:** `qa` sạch · `build` sạch · `link-audit` sạch (384 liên kết, 0 mồ côi, 1 mảnh) · `seo-audit` sạch (192 URL ảnh) · đo lại 2 lượt liên tiếp ra **y hệt nhau** ở cả 3 khung · kiểm `scrollWidth` không tràn ngang ở khung 390 · chụp lại hero desktop + điện thoại nhìn tận mắt.
 
 ---
 
@@ -1131,5 +1195,5 @@ vẫn còn nguyên trong chính file `.svg`.
 ## Hạ tầng còn để dành (sau phần I & II)
 
 - ~~Tách hình ra `.svg` riêng~~ — **xong ở đợt 10**.
-- **RSS feed** — `@astrojs/rss`, endpoint `/rss.xml`. Phụ thuộc `pubDate` ở giai đoạn 5.
-- **Thống kê truy cập nhẹ** — [GoatCounter](https://www.goatcounter.com), miễn phí, không cookie, hợp tinh thần "không quảng cáo" của trang. Chỉ cần 1 dòng script trong `src/layouts/Base.astro`.
+- ~~**RSS feed**~~ — **xong 2026-07-30**, `/rss.xml`.
+- ~~**Thống kê truy cập nhẹ — GoatCounter**~~ — **đã bỏ ý này.** Thái chốt dùng **Google Analytics 4** (2026-07-30); lý do và cái giá phải trả ghi ở **phần 2, mục "Hạ tầng" số 1**. Dòng cũ ở đây giữ lại chỉ để khỏi ai đọc lướt rồi tưởng GoatCounter vẫn là kế hoạch.
