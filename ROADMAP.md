@@ -78,7 +78,8 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
    > - **Lợi ích KHÔNG phải là LCP.** URL đã có `&display=swap` nên chữ vẽ ngay bằng font dự phòng — *file font* không chặn vẽ chữ. Cái chặn là **bản thân cái stylesheet**: không một chữ nào xuất hiện trước khi `fonts.googleapis.com` trả lời. Lợi ích thật là **bỏ điểm hỏng đơn lẻ duy nhất của site**, bỏ 2 vòng DNS+TLS, và bớt nháy chữ.
    > - **Chưa định lượng được.** Không có số bóp băng thông nào (PSI API trả 429 vì thiếu key). Đo lượt đầu mạng chậm rồi hãy quyết, đừng làm vì nghe hay.
 
-4. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng. Mở một giá trị enum mới là phải **rà gắn lại cả 64 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
+4. **Hero trang chủ đang dài — cân nhắc rút ngắn.** Không phải việc hiệu năng, mà là câu hỏi bố cục, và **có số đo đứng sau**: thẻ món nổi bật đầu tiên bắt đầu ở **1165px** (mọi bề rộng desktop) và **1531–1626px** trên điện thoại, trong khi màn hình cao 768–900px — nên **người đọc phải cuộn một màn rưỡi mới thấy món đầu tiên**. Hero đang gánh h1, câu dẫn, ô tìm, 2 nút, 3 con số thống kê và một hình lớn. ⚠️ **Đo lại trước khi cắt, đừng cắt theo cảm tính** — và đừng đụng vào thuộc tính `loading` nữa, chỗ đó đã thử và đã gỡ (xem mục *"Đo LCP trang chủ"* phần Nhật ký).
+5. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng. Mở một giá trị enum mới là phải **rà gắn lại cả 64 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
 
 ## ~~SEO còn thiếu~~ — XONG 2026-07-30
 
@@ -275,7 +276,7 @@ Kết luận: `eager` **không thể** cải thiện LCP ở đây; nó chỉ k�
 
 **Cùng thuộc tính đó ở trang món thì ĐÚNG — giữ nguyên.** Hero trang chi tiết là `<img loading="eager">` thật, **mép trên 231px, cao 398px**, nằm gọn trên màn hình đầu và là ứng viên LCP đàng hoàng. Cùng một thuộc tính, sai ở trang chủ mà đúng ở trang món — chỉ có đo mới phân biệt được. *(Chưa chộp được phần tử LCP của trang món: API chỉ ghi khi tab đang hiện.)*
 
-**Việc mọc ra từ số đo này — chưa làm:** nếu muốn lưới món thật sự nằm trên màn hình đầu thì phải **rút ngắn hero trang chủ**, chứ không phải chỉnh thuộc tính `loading`. Đó là câu hỏi thiết kế (hero đang gánh h1, câu dẫn, ô tìm, 2 nút, 3 con số thống kê và một hình lớn), không phải câu hỏi hiệu năng — và **cần đo trước khi cắt**, đừng cắt theo cảm tính.
+**Việc mọc ra từ số đo này:** muốn lưới món thật sự nằm trên màn hình đầu thì phải **rút ngắn hero trang chủ**, chứ không phải chỉnh thuộc tính `loading`. **Đã đưa lên phần 2 · mục "Hạ tầng" số 4** — đừng để nó nằm lại đây, phần Nhật ký không ai đọc như việc cần làm.
 
 ⚠️ 284ms đo trên máy, mạng nhanh — **con số tuyệt đối vô nghĩa với người dùng thật**, thứ đáng tin là *phần tử nào là LCP* vì cái đó do bố cục quyết định. Chưa có số bóp băng thông từ bên thứ ba: PSI API trả 429 vì không có API key, muốn thì mở `pagespeed.web.dev` gõ tay.
 
