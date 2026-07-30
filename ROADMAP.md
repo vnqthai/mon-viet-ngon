@@ -15,7 +15,7 @@ _Cập nhật 2026-07-30. Site đang **64 món / 7 vùng / 14 kiểu món**, kh�
 | **Nội dung** | 64 món · 7 vùng · 14 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo 5 họ màu, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
-| **Dung lượng** | `/mon/` **29,6 KB** gzip (đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
+| **Dung lượng** | `/mon/` **24,1 KB** gzip (đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh** |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
@@ -131,7 +131,6 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 ## Lặt vặt
 
 - ~~GitHub Actions cảnh báo Node 20 deprecated~~ — **xong 2026-07-29.** Ghi lại vì lần đầu đọc dễ hiểu sai: cảnh báo đó **không** nói về Node dùng để build (workflow vốn đã `node-version: 24` từ trước), mà nói về Node chạy code của bản thân mấy action. Và **2 trong 3 action bị nêu không nằm trong `deploy.yml`** — `setup-node` với `upload-artifact` được gọi bên trong `withastro/action`, nên sửa file mình không với tới; phải nâng chính `withastro/action`. Đã nâng `checkout` v4→v7, `withastro/action` v3→v6, `deploy-pages` v4→v5. `checkout@v7` có breaking change thật (chặn checkout code fork PR) nhưng repo này chỉ chạy trên `push` + `workflow_dispatch`, không dùng `pull_request_target`/`workflow_run` nên không dính.
-- **Đo lại `/mon/` trên máy chủ sau khi deploy đợt tìm kiếm.** Bỏ `summary` khỏi chỉ mục làm trang nhẹ đi ~6 KB gzip *đo ở máy*; mốc **29,6 KB** ở bảng trạng thái là số máy chủ của bản đang chạy nên vẫn đúng cho tới lúc deploy. Deploy xong thì `curl -sI -H 'Accept-Encoding: gzip'` rồi sửa bảng (và câu "~30 KB" ở `README.md`).
 - **Node build giữ ở 24, đừng nâng lên 26** dù máy đang chạy 26: Node bản chẵn tới tháng 10 của năm đó mới lên LTS, nên tới giờ 26 vẫn là Current. CI nên đứng ở LTS.
 
 ---
@@ -374,7 +373,7 @@ Và **không có xếp hạng nào cả**: gõ `ca` thì "Cá kho tộ" nằm th
 | `nuoc mam` | 44 | **1** hiện + 44 sau nút xem thêm |
 
 - **Đã cân nhắc rồi bỏ: ngưỡng "40% điểm cao nhất".** Đó là đề xuất ban đầu, nhưng đo phân bố điểm thì thấy không cần con số nào — hai nhóm cách nhau ít nhất 8 điểm ở mọi truy vấn thử. Một phép thử thẳng ("mọi chữ có trúng tên món không") cho đúng kết quả đó mà không đẻ ra hằng số phải chỉnh tay.
-- **Ba trường chỉ xuất ở `/mon/`** — `RecipeCard` nhận prop `search`; trang chủ với dải "món cùng họ" không có ô tìm nên khỏi gánh. Bỏ `summary` + tách trường làm **`/mon/` nhẹ đi ~6 KB gzip** (đo ở máy: 29,6 → 23,6 KB; số thật phải đo trên máy chủ).
+- **Ba trường chỉ xuất ở `/mon/`** — `RecipeCard` nhận prop `search`; trang chủ với dải "món cùng họ" không có ô tìm nên khỏi gánh. Bỏ `summary` + tách trường làm **`/mon/` nhẹ đi 5.591 byte**: **30.275 → 24.684 byte gzip, tức 29,6 → 24,1 KB (−18,5%)**, đo trên máy chủ sau khi deploy. Bảng trạng thái và `README.md` đã sửa theo. (Số đo ở máy trước đó là 23,6 KB — lại thiếu ~2% so với máy chủ, đúng như luật đã ghi.)
 - **Bẫy đã dính:** phép thử chia nhóm lúc đầu lỏng hơn phép chấm điểm (cho khớp-đầu-chữ ở *mọi* chữ chứ không riêng chữ cuối), làm khoảng cách hai nhóm ở `ca kho` ra **−2 điểm** và suýt kết luận nhầm là "ngưỡng không đáng tin". Sửa cho khớp thì ra +36. **Hai chỗ cùng một luật khớp thì phải viết cùng một luật.**
 - **Chỗ dễ quên:** `.finder__more[hidden]{display:none}` — `display:` của class đè `[hidden]`, y như bài học cũ ở `.finder__toggle__n`.
 

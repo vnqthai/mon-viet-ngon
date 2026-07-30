@@ -188,7 +188,8 @@ một món ăn"*. Từng miếng vẽ đúng cả, lỗi nằm ở **cách bày*
 Từ đợt 10, hình **không** nhúng thẳng vào trang nữa. Endpoint
 `src/pages/art/[kind].svg.ts` xuất mỗi hình ra `/art/<kind>.svg` lúc build, còn
 thẻ món gọi bằng `<img loading="lazy">` (`art/ArtImg.astro`). Kết quả: `/mon/`
-từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**;
+từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**
+(nay là **24,1 KB**, sau khi bỏ `summary` khỏi chỉ mục tìm kiếm);
 ba trang (`/mon/`, trang chủ, trang chi tiết) dùng chung một file đã cache.
 
 Ba ràng buộc mới với file art, `npm run qa` chặn cả ba:
