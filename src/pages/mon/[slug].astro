@@ -3,17 +3,19 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import ArtImg from '../../components/art/ArtImg.astro';
+import RelatedStrip from '../../components/RelatedStrip.astro';
 import { rich, plain } from '../../utils/rich';
 import { fmtQty } from '../../utils/qty';
 import { viDurationToISO, stepToPlainText } from '../../utils/seo';
 import { familyOf } from '../../utils/family';
+import { relatedFor } from '../../utils/related';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
-  return recipes.map((r) => ({ params: { slug: r.id }, props: { recipe: r } }));
+  return recipes.map((r) => ({ params: { slug: r.id }, props: { recipe: r, all: recipes } }));
 }
 
-const { recipe } = Astro.props;
+const { recipe, all } = Astro.props;
 const d = recipe.data;
 const slug = recipe.id;
 
@@ -28,6 +30,8 @@ const FLAVOR_ROWS = [
 // lam, bấm thẻ đỏ thì rơi vào trang đỏ — chuyển cảnh liền mạch, và người đọc
 // nhớ được "món kho thì trang màu nâu".
 const fam = familyOf(d.category);
+// 6 món gợi ý cuối trang — luật chọn và số đo nằm ở src/utils/related.ts
+const related = relatedFor(recipe, all);
 
 const viNum = (n: number) => String(n).replace('.', ',');
 const totalItems = d.ingredientGroups.reduce((s: number, g: any) => s + g.items.length, 0);
@@ -435,6 +439,9 @@ const jsonLd = {
       </section>
     </>
   )}
+
+  <div class="checker" aria-hidden="true"></div>
+  <RelatedStrip items={related} />
 
   {published && (
     <p class="publine">

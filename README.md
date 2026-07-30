@@ -81,6 +81,25 @@ dựng, chỉ là sai:
 Cả hai đọc enum và từ vựng khoá **thẳng từ `content.config.ts`**, nên sửa schema
 là script tự theo, không phải cập nhật tay.
 
+### `npm run link-audit` — chạy SAU build, mỗi khi thêm món
+
+```bash
+npm run build && npm run link-audit
+```
+
+Soi dải "Nấu gì tiếp đây?" ở cuối mỗi trang món (6 liên kết chéo — luật chọn ở
+`src/utils/related.ts`). Nó **đọc HTML trong `dist/`**, không gọi lại hàm sinh ra
+liên kết: tự chấm điểm mình thì hỏng ở khâu dựng trang cũng không thấy.
+
+Bốn con số phải giữ, thêm món mới là dễ phá nhất:
+
+| Đo gì | Phải là | Vỡ ra thì sao |
+|---|---|---|
+| món **mồ côi** (không ai trỏ tới) | 0 | món đó chỉ vào được từ `/mon/`, coi như nằm ngoài mạng liên kết |
+| hai món có **dải y hệt** nhau | 0 | đọc hai trang thấy chung một dải, tưởng trang lỗi |
+| **mảnh đồ thị** | 1 | catalog vỡ thành đảo, lang thang tới đó là hết đường |
+| mỗi dải đủ **6 ô** | 64/64 | vùng hoặc kiểu món quá mỏng, dải bị cụt |
+
 ### Thêm một KIỂU MÓN mới (vd "Bánh")
 
 Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:

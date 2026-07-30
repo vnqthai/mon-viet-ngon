@@ -16,7 +16,8 @@ _Cập nhật 2026-07-30. Site đang **64 món / 7 vùng / 14 kiểu món**, kh�
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo 5 họ màu, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
 | **Dung lượng** | `/mon/` **29,5 KB** gzip (đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
-| **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
+| **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh** |
+| **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **Hạ tầng** | JSON-LD Recipe · ảnh OG sinh lúc build · sitemap · robots.txt · deploy tự động GitHub Pages + HTTPS |
 
 ## Catalog hôm nay
@@ -57,28 +58,13 @@ Miền Trung từ vùng gần bét lên đồng hạng đầu; Miền Nam từ 4
 
 > **Dọn dẹp sau đợt 10: xong cả 5 việc** (2026-07-30) — `pubDate` 6 món về đúng ngày live · id `cgGa` chết đã gỡ nên `npm run qa` giờ **sạch trắng, không còn cảnh báo nào** · `contact-sheet.mjs` bỏ giàn giáo Phần I (465 → 327 dòng) · `_template.yaml` thôi chép tay 68 tên art · ROADMAP cấu trúc lại. Không còn nợ dọn dẹp nào.
 
-## Người đọc gặp ngay — làm trước
+## ~~Người đọc gặp ngay~~ — XONG cả ba 2026-07-30
 
-Ba chỗ này soi ra 2026-07-30, đều đo được, đều chưa có ai đụng tới.
+Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục *"Trang 404 và liên kết chéo"* trong phần Nhật ký; đây chỉ ghi kết quả:
 
-**1 · Chưa có trang 404.** Khách bấm link cũ hoặc gõ sai là rơi hẳn ra ngoài site — GitHub Pages trả trang mặc định của nó, không một chữ "Món Việt Ngon", không đường về:
-
-```
-curl https://www.monvietngon.com/khong-ton-tai/
-<title>Page not found · GitHub Pages</title>
-```
-
-Chữa bằng một file `public/404.html` — GitHub Pages tự dùng. Rẻ nhất danh sách, mà là chỗ **duy nhất** người đọc bị đẩy ra khỏi site.
-
-**2 · Không có một liên kết nào giữa các món — việc đáng làm nhất hiện giờ.**
-
-```
-số link tới /mon/<slug>/ trong một trang chi tiết món: 0
-```
-
-64 món mà đọc xong một món thì không có đường nào sang món khác ngoài quay lại `/mon/`. Mất hai thứ cùng lúc: người đọc không biết nấu gì tiếp, và Google không có đường bò sâu vào catalog. **Dữ liệu đã có sẵn** — `region`, `category`, `occasions` — chỉ cần một dải 3–4 món ở cuối trang chi tiết ("cùng vùng" / "cùng mâm cơm"), **không phải thêm field nào vào schema**.
-
-**3 · Trang chủ để cả 12 ảnh `loading="lazy"`**, kể cả 2–3 ô nằm trên màn hình đầu — nên cho 3 ô đầu `eager`. ⚠️ Suy từ cấu trúc, **chưa đo LCP thật**.
+1. **Trang 404** — `src/pages/404.astro`, ra đúng `dist/404.html` ở gốc (đã kiểm, không bị đẩy thành `404/index.html`). Có ô tìm món, ba đường về, sáu món gợi ý. **Chỉ nghiệm thu được trên máy chủ sau khi deploy.**
+2. **Liên kết chéo** — mỗi trang món có dải **6 món**, chọn theo 2 cùng vùng + 2 cùng kiểu món + 2 cùng nhãn theo dịp. Đo trên HTML đã build: **0 mồ côi · 0 dải trùng · 1 mảnh liền · 384 liên kết**. Giữ bằng `npm run link-audit`.
+3. **3 ô đầu trang chủ `eager`** — 3 eager + 9 lazy. ⚠️ Vẫn **chưa đo LCP thật**, mới chỉ suy từ cấu trúc.
 
 ## Hạ tầng, theo thứ tự đáng làm
 
@@ -108,7 +94,7 @@ Soi schema sẽ thấy hai chỗ trông như thiếu, nhưng là chủ ý:
 
 64 → ~100 món là **còn ~36 món**, mà kho ý tưởng dưới đây chỉ có ~11 món đã tra sẵn. Tức là việc lớn nhất còn lại của dự án là **ngồi chọn thêm chừng 25 món** — không tự mở đợt được. Hai ô mỏng nhất là Tây Bắc (2 món) và Tây Nguyên (3), nhưng Tây Bắc đã cạn món nấu-được-ở-nhà (xem kho ý tưởng).
 
-> **Nếu chỉ làm một thứ:** trang 404 + liên kết chéo giữa các món. Cùng một buổi, và là hai chỗ duy nhất trong cả danh sách mà người đọc cảm nhận được liền.
+> **Nếu chỉ làm một thứ:** ~~trang 404 + liên kết chéo~~ — đã làm 2026-07-30. Việc còn lại mà người đọc cảm nhận được liền thì hết; những gì còn trong danh sách đều là hạ tầng hoặc SEO, không ai nhìn thấy.
 
 ## Kho ý tưởng để dành — **chưa xếp vào đợt nào**
 
@@ -177,6 +163,13 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Phân vân giữa các phương án giao diện thì dựng harness iframe rồi đo `getBoundingClientRect()`**, đừng bàn cảm tính.
 - **Contact sheet không đủ để soi hình** — phải render PNG ghép ở cỡ thumbnail (`npm run art-png -- --sheet`). Đợt 7, 8, 9, 10 đều có lỗi lọt qua contact sheet.
 - **File `.svg` rời đọc bằng XML nghiêm** — chú thích cấm chứa `--`, cấm `&` trần. Endpoint tự bỏ chú thích; `qa` chặn hai lỗi kia. **Tool soi phải đọc đúng thứ endpoint xuất ra.**
+- **Soi thứ đã build, đừng gọi lại hàm sinh ra nó.** `link-audit` đọc HTML trong `dist/` chứ không gọi `relatedFor()`: gọi lại chính hàm đó rồi đo là tự chấm điểm mình, hỏng ở khâu dựng trang thì không thấy.
+
+**Sinh liên kết tự động**
+- **Chọn bằng XOAY VÒNG, đừng lấy N món đầu khối.** Cùng một trục "cùng vùng", lấy 3 món đầu khối để lại **38/64 món mồ côi** và **44 món có dải y hệt món khác**; xoay vòng đưa cả hai về **0** mà không tốn gì. Luật này đúng cho mọi thứ sinh danh sách từ một khối đã sắp thứ tự.
+- **Trộn nhiều trục, đừng dùng một trục.** Một trục thì catalog vỡ thành đảo (cùng vùng → 3 mảnh, cùng kiểu món → 7 mảnh); trộn ba trục cho một mảnh liền.
+- **Nhãn phải đi theo TỪNG THẺ, không gom thành tiêu đề nhóm cứng.** Số món mỗi trục co giãn theo món (Tây Bắc chỉ 2 món nên trục vùng chỉ ra 1 thẻ) — tiêu đề nhóm cứng sẽ có lúc nói sai.
+- **Vòng lần lượt qua các nhãn, đừng vét cạn nhãn đầu.** Vét cạn thì ra ba thẻ liền nhau cùng một chip, đọc như trang bị lỗi lặp; vòng lần lượt còn kéo in-degree từ 2–13 về **3–11**.
 
 ---
 
@@ -201,6 +194,59 @@ Chuyện đã qua, xếp theo thứ tự thời gian.
 - [x] Deploy tự động lên GitHub Pages, tên miền riêng + HTTPS, dòng bản quyền footer
 - [x] Đợt 10 (2026-07-30, 6 món): nem nướng Nha Trang, cá tai tượng chiên xù, ốc hấp lá gừng, gà hấp hành, gỏi ngó sen tôm thịt, cánh gà chiên nước mắm — mở kiểu món **"Bánh"** (chuyển bánh xèo · bánh cuốn · bánh khoái sang), **14 kiểu món tất cả ≥ 3**
 - [x] **Tách hình ra file `.svg` riêng** — `/mon/` từ 143,8 KB gzip xuống ~30 KB và thôi tăng theo số món
+- [x] **Trang 404 + liên kết chéo giữa 64 món** (2026-07-30) — xem mục ngay dưới
+
+## Trang 404 và liên kết chéo — 2026-07-30
+
+Hai chỗ cuối cùng mà người đọc cảm nhận được liền, làm cùng một buổi.
+
+### Trang 404
+
+Làm bằng `src/pages/404.astro` chứ không phải `public/404.html` như dự tính ban đầu — đi qua `Base.astro` thì được luôn header, footer, nút đổi giao diện, không phải chép tay một bản HTML thứ hai rồi để nó mốc dần.
+
+**Kiểm cái bẫy đã lo:** Astro có xử lý riêng cho `404.astro` nên nó ra thẳng `dist/404.html`, **không** bị `trailingSlash` đẩy thành `dist/404/index.html`. Đã kiểm tận nơi (`ls dist/404.html` có, `dist/404/` không có) — nhưng **kiểm lại sau mỗi lần nâng Astro**, vì sai chỗ đó thì trang im lặng không bao giờ được dùng, mà ở máy vẫn thấy bình thường.
+
+Hai thứ ghi lại cho lần sau:
+
+- **`astro preview` CÓ phục vụ 404.html cho đường dẫn lạ** — trái với điều đã tưởng, soi thử ở máy được. Nhưng nó vẫn là máy chủ khác GitHub Pages, nên **nghiệm thu thật vẫn phải trên máy chủ** sau khi deploy: `curl -sI https://www.monvietngon.com/khong-ton-tai/` phải trả **404**, không phải 200.
+- **`astro preview` phục vụ theo danh mục lúc build, không phải theo thư mục.** File thả thêm vào `dist/` sau khi build thì nó trả 404 — harness soi mobile phải nhét bằng JS vào trang đang mở, hoặc để trong `public/` rồi build lại. File tên bắt đầu bằng `_` thì càng không được phục vụ.
+
+Trang chưa gắn `noindex`: GitHub Pages trả đúng mã 404 cho đường dẫn lạ, sitemap không liệt kê nó, và không chỗ nào trong site trỏ tới `/404.html`. Muốn chắc hơn thì phải thêm prop vào `Base.astro` — đụng mọi trang cho một chuyện chưa xảy ra.
+
+### Liên kết chéo — đo 6 phương án rồi mới chọn
+
+Từ 0 liên kết lên **384** (64 món × 6). Ba trục có sẵn trong schema, **không thêm field nào**.
+
+Đo trước khi code, mỗi phương án một dòng (mốc 64 món, 3 gợi ý/món):
+
+| Phương án | mồ côi | qua lại | dải trùng | in-deg | mảnh |
+|---|---:|---:|---:|---:|---:|
+| Cùng vùng, lấy 3 món đầu khối | **38** | 34 | **44 món** | 0–15 | 3 |
+| Cùng vùng, xoay vòng | 0 | 4 | 0 | 1–6 | **3** |
+| Cùng kiểu món, xoay vòng | 0 | 4 | 0 | 2–6 | **7** |
+| Cùng nhãn theo dịp, xoay vòng | 4 | 0 | 0 | 0–9 | 1 |
+| **Trộn ba trục** | 0 | 9 | 0 | 1–6 | 1 |
+| Điểm tổng hợp có trọng số | 8 | **61** | 10 món | 0–11 | 1 |
+
+Ba điều rút ra, đã chép lên phần *Luật đã chốt*:
+
+- **Cách chọn quan trọng ngang cái trục chọn.** Hai dòng đầu cùng là "cùng vùng", khác mỗi chỗ xoay vòng: 38 món mồ côi → 0, 44 dải trùng → 0.
+- **Trục đơn cắt catalog thành đảo** — 3 mảnh với vùng, 7 mảnh với kiểu món. Không phải lỗi crawl (sitemap và `/mon/` vẫn trỏ đủ 64), mà là **người đọc lang thang tới đó là hết đường**.
+- **Điểm tổng hợp nhìn thông minh nhưng dồn cục:** 61 cặp qua lại = 122/192 liên kết là vòng A↔B, bấm sang rồi bấm về đúng chỗ cũ.
+
+**Thái chốt trộn ba trục, và gấp đôi lên 6 món (2+2+2).** Đo lại bản 6: mồ côi 0 · dải trùng 0 · 1 mảnh · nhãn đúng 100% — giữ nguyên mọi thứ đáng giá, chỉ có cặp qua lại 9 → 37. Chấp nhận được vì ở dải 6 ô một cặp qua lại chỉ ăn 1/6 lối ra thay vì 1/3.
+
+**Một chỗ sửa sau khi nhìn tận mắt.** Bản đầu vét cạn nhãn hiếm nhất trước khi sang nhãn sau, nên pa pỉnh tộp ra **ba thẻ liền nhau cùng đeo chip "Hợp Nhậu lai rai"** — đúng nhưng đọc như trang bị lỗi lặp. Đổi sang vòng lần lượt qua từng nhãn, mỗi lượt một món: cả 64 trang giờ **không trang nào có quá 2 chip giống nhau liền nhau**, và in-degree còn đều hơn (2–13 → **3–11**).
+
+Dựng thêm `tools/link-audit.mjs` (`npm run link-audit`) — đọc HTML trong `dist/`, canh bốn con số. Chạy sau mỗi đợt món: thêm món là thế cân của dải gợi ý đổi.
+
+### Số đo dung lượng
+
+| | |
+|---|---|
+| `/mon/` | **không đổi một byte** — 149.389 thô cả trước lẫn sau, nên **29,5 KB gzip trên máy chủ giữ nguyên**. Việc này không đụng trang danh mục. |
+| Trang chi tiết món | **+4,35 KB thô · ~+570 B gzip** cho 6 liên kết (ước ở máy; đo lại trên máy chủ sau deploy) |
+| `/404.html` | 23,4 KB thô |
 
 ---
 

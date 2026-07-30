@@ -1,0 +1,52 @@
+---
+/* Dải "Nấu gì tiếp đây?" ở cuối trang chi tiết — 6 món khác, mỗi món kèm CHIP
+   LÝ DO ("Cùng Miền Tây" · "Cũng món kho" · "Hợp Cơm nhà").
+   Cách chọn 6 món đó và vì sao: xem src/utils/related.ts.
+
+   Chip đi theo từng thẻ chứ không gom thành ba tiêu đề nhóm, vì số món mỗi trục
+   co giãn theo món (vùng mỏng thì lấy ít hơn) — tiêu đề nhóm cứng sẽ nói sai.
+
+   Hình để `alt=""`: tên món nằm ngay cạnh trong cùng một liên kết, đọc lại lần
+   nữa chỉ làm trình đọc màn hình lải nhải. */
+import Icon from './Icon.astro';
+import ArtImg from './art/ArtImg.astro';
+import { dishName } from '../utils/rich';
+import { familyOf } from '../utils/family';
+import type { RelatedItem } from '../utils/related';
+
+interface Props { items: RelatedItem[] }
+const { items } = Astro.props;
+---
+<section class="section related" aria-labelledby="nau-tiep">
+  <div class="wrap">
+    <p class="eyebrow reveal">Ăn hết nồi rồi tính tiếp</p>
+    <h2 id="nau-tiep" class="reveal">Nấu gì <span class="accent">tiếp đây?</span></h2>
+    <p class="section__lead reveal">
+      Sáu món hàng xóm của món này — cùng vùng, cùng kiểu nấu, hoặc hợp cùng một
+      bữa. Chữ nhỏ trên mỗi thẻ nói rõ vì sao nó nằm ở đây.
+    </p>
+    <div class="rel-grid">
+      {items.map(({ entry, reason }) => (
+        <a class="rel" href={`/mon/${entry.id}/`}>
+          <span
+            class="rel__art"
+            style={`--ground:var(--fam-${familyOf(entry.data.category)}); --ground-deep:var(--fam-${familyOf(entry.data.category)}-deep)`}
+          >
+            <ArtImg art={entry.data.art} category={entry.data.category} />
+          </span>
+          <span class="rel__body">
+            <span class="rel__why">{reason}</span>
+            <span class="rel__name">{dishName(entry.data.title)}</span>
+            <span class="rel__meta">
+              <span class="num"><Icon name="clock" />{entry.data.time.total}</span>
+              <span><Icon name="level" />{entry.data.difficulty}</span>
+            </span>
+          </span>
+        </a>
+      ))}
+    </div>
+    <p class="rel__all">
+      <a class="btn btn--line" href="/mon/">Xem hết món ngon<Icon name="arrow-right" /></a>
+    </p>
+  </div>
+</section>

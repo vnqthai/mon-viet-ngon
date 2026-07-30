@@ -1,0 +1,99 @@
+---
+/* TRANG 404.
+ *
+ * GitHub Pages chỉ nhận đúng MỘT file: `404.html` ở GỐC site. Astro có xử lý
+ * riêng cho `src/pages/404.astro` nên nó ra `dist/404.html` chứ không bị đẩy
+ * thành `dist/404/index.html` như mọi trang khác — nhưng ĐỪNG TIN, kiểm bằng
+ *     ls dist/404.html
+ * sau mỗi lần nâng Astro. Sai chỗ đó thì trang này im lặng không bao giờ được
+ * dùng tới, mà ở localhost vẫn thấy bình thường.
+ *
+ * Trang này KHÔNG tái hiện được ở máy: `astro dev` và `astro preview` tự bắt
+ * đường dẫn lạ theo cách riêng của chúng. Chỉ đo được thật trên máy chủ:
+ *     curl -sI https://www.monvietngon.com/khong-ton-tai/   → phải là HTTP/2 404
+ *     curl -s  https://www.monvietngon.com/khong-ton-tai/ | grep -o '<title>[^<]*'
+ *
+ * Mọi đường dẫn trong trang phải TUYỆT ĐỐI (bắt đầu bằng `/`): file này được
+ * đem ra phục vụ ở bất kỳ độ sâu URL nào, `../` là gãy.
+ */
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import ArtImg from '../components/art/ArtImg.astro';
+import { dishName } from '../utils/rich';
+import { familyOf } from '../utils/family';
+
+const recipes = (await getCollection('recipes')).sort((a, b) => a.data.order - b.data.order);
+const picks = recipes.filter((r) => r.data.featured).slice(0, 6);
+---
+<Base
+  title="Không tìm thấy món này — Món Việt Ngon"
+  description="Đường dẫn này không có trong bếp. Tìm lại món bạn cần, hoặc quay về trang chủ Món Việt Ngon."
+>
+<main>
+  <section class="home-hero nf" aria-label="Không tìm thấy trang">
+    <div class="float-bit float-bit--1" aria-hidden="true"><Icon name="flower" /></div>
+    <div class="float-bit float-bit--2" aria-hidden="true"><Icon name="chili" /></div>
+    <div class="float-bit float-bit--3" aria-hidden="true"><Icon name="herb" /></div>
+
+    <div class="nf__inner">
+      <p class="home-hero__eyebrow">Lạc đường xuống bếp rồi…</p>
+      <h1>Không có <span class="gold">món này</span> trong bếp</h1>
+      <p class="home-hero__sub">
+        Đường dẫn bạn vừa mở không còn, hoặc lỡ sai một chữ. Bếp vẫn đỏ lửa —
+        gõ tên món hay tên nguyên liệu vào đây là tìm lại được ngay.
+      </p>
+
+      <form class="home-hero__find" action="/mon/" method="get" role="search">
+        <Icon name="search" />
+        <input
+          type="search" name="q" autocomplete="off" spellcheck="false"
+          placeholder="Tìm món hoặc nguyên liệu…" aria-label="Tìm món hoặc nguyên liệu"
+        />
+        <button type="submit">Tìm</button>
+      </form>
+      <p class="nf__hint">Gõ không dấu cũng ra — <b>dau phong</b> vẫn tìm thấy <b>đậu phộng</b>.</p>
+
+      <div class="home-hero__cta">
+        <a class="btn btn--gold" href="/"><Icon name="bowl" />Về trang chủ</a>
+        <a class="btn btn--ghost" href="/mon/"><Icon name="rice" />Xem hết {recipes.length} món</a>
+        <a class="btn btn--ghost" href="/bi-quyet/"><Icon name="bulb" />Bí quyết bếp</a>
+      </div>
+    </div>
+
+    <div class="home-hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 54" preserveAspectRatio="none">
+        <path d="M0 30 C 180 54 360 6 540 22 C 720 38 900 54 1080 38 C 1260 22 1350 10 1440 26 L 1440 54 L 0 54 Z" fill="currentColor"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- section--tint để khớp màu với đuôi sóng của hero ngay trên -->
+  <section class="section section--tint">
+    <div class="wrap">
+      <p class="eyebrow">Hay là nấu thử món này</p>
+      <h2>Mấy món <span class="accent">bếp nhà đang mời</span></h2>
+      <div class="rel-grid">
+        {picks.map((r) => (
+          <a class="rel" href={`/mon/${r.id}/`}>
+            <span
+              class="rel__art"
+              style={`--ground:var(--fam-${familyOf(r.data.category)}); --ground-deep:var(--fam-${familyOf(r.data.category)}-deep)`}
+            >
+              <ArtImg art={r.data.art} category={r.data.category} />
+            </span>
+            <span class="rel__body">
+              <span class="rel__why">{r.data.region}</span>
+              <span class="rel__name">{dishName(r.data.title)}</span>
+              <span class="rel__meta">
+                <span class="num"><Icon name="clock" />{r.data.time.total}</span>
+                <span><Icon name="level" />{r.data.difficulty}</span>
+              </span>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</main>
+</Base>

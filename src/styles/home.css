@@ -261,3 +261,19 @@
   .home-hero__art > svg{width:min(320px,78%)}
   .home-about{grid-template-columns:1fr;gap:32px}
 }
+
+/* ---------- Trang 404 ---------- */
+/* Dùng lại nền + ô tìm của hero trang chủ, chỉ đổi lưới hai cột thành một cột
+   giữa: trang này không có hình lớn bên phải, chỉ có đường về. */
+.nf__inner{
+  position:relative;z-index:2;
+  max-width:720px;margin:0 auto;padding:84px 24px 104px;text-align:center;
+}
+.nf__inner h1{font-size:clamp(2.1rem,5vw,3.4rem)}
+.nf__inner .home-hero__sub{margin-inline:auto}
+.nf__inner .home-hero__find{margin-inline:auto}
+.nf__inner .home-hero__cta{justify-content:center;margin-bottom:0}
+.nf__hint{font-size:.86rem;color:rgba(244,239,218,.7);margin:0 0 24px}
+.nf__hint b{color:var(--gold-soft);font-weight:600}
+/* "món này" là một cụm, đừng để ngắt dòng xé đôi nó giữa chữ vàng */
+.nf__inner h1 .gold{white-space:nowrap}

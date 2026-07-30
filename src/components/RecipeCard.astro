@@ -5,8 +5,11 @@ import { plain, dishName } from '../utils/rich';
 import { familyOf } from '../utils/family';
 import { searchText } from '../utils/search';
 
-interface Props { recipe: any }
-const { recipe } = Astro.props;
+/* eager: dành cho vài thẻ ĐẦU của lưới, những ô nằm sẵn trên màn hình đầu.
+   Trình duyệt không biết ô nào ở trên màn hình khi HTML còn đang tải, nên
+   loading="lazy" ở đó chỉ tổ hoãn đúng cái hình người đọc thấy trước tiên. */
+interface Props { recipe: any; eager?: boolean }
+const { recipe, eager = false } = Astro.props;
 const { id, data } = recipe;
 
 // Nền thẻ mã hóa theo HỌ MÓN — lưới 63 món đọc ra thành từng nhóm ngay từ cái
@@ -28,7 +31,7 @@ const haystack = searchText(data, plain);
 >
   <div class="rcard__art" style={`--ground:var(--fam-${fam}); --ground-deep:var(--fam-${fam}-deep)`}>
     <span class="rcard__kind">{data.category}</span>
-    <ArtImg art={data.art} category={data.category} alt={`Minh họa ${dishName(data.title)}`} />
+    <ArtImg art={data.art} category={data.category} alt={`Minh họa ${dishName(data.title)}`} eager={eager} />
     <div class="rcard__wave">
       <svg viewBox="0 0 400 26" preserveAspectRatio="none" aria-hidden="true">
         <path d="M0 14 C 60 26 120 2 200 10 C 280 18 340 24 400 12 L 400 26 L 0 26 Z" fill="currentColor"/>
