@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "qa": "node tools/check-recipes.mjs && node tools/check-art-ids.mjs",
     "link-audit": "node tools/link-audit.mjs",
+    "seo-audit": "node tools/check-seo-images.mjs",
     "contact-sheet": "node tools/contact-sheet.mjs",
     "art-png": "node tools/art-png.mjs"
   },
@@ -25,6 +26,7 @@
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
     "js-yaml": "^4.3.0",
-    "satori": "^0.29.0"
+    "satori": "^0.29.0",
+    "sharp": "^0.35.3"
   }
 }

@@ -40,6 +40,13 @@ const hasTicker = Boolean(d.ticker?.length);
 /* schema.org Recipe → Google hiện rich result (thời gian, nguyên liệu…) */
 const pageUrl = new URL(`/mon/${slug}/`, Astro.site).href;
 const ogImage = `/og/${slug}.png`;
+/* Ảnh cho JSON-LD KHÁC ảnh og: — xem đầu file src/pages/anh-mon/[shot].jpg.ts.
+   Tóm tắt: /og/ là tấm thiệp có tên món, hợp để chia sẻ mạng xã hội nhưng làm
+   thumbnail kết quả tìm kiếm thì thua ảnh đồ ăn của mọi trang khác. Ba tỉ lệ
+   theo khuyến nghị của Google, để mỗi chỗ hiển thị tự chọn khung. */
+const searchImages = ['1x1', '4x3', '16x9'].map(
+  (r) => new URL(`/anh-mon/${slug}-${r}.jpg`, Astro.site).href
+);
 // Ngày cho JSON-LD + dòng "cập nhật" cuối bài. Chỉ ghi khi có — món chưa điền
 // thì bỏ hẳn field, đừng bịa ngày hôm nay.
 const iso = (v: any) => (v ? new Date(v).toISOString().slice(0, 10) : undefined);
@@ -55,7 +62,7 @@ const jsonLd = {
   description: plain(d.summary),
   ...(published ? { datePublished: published } : {}),
   ...(modified ? { dateModified: modified } : {}),
-  image: [new URL(ogImage, Astro.site).href],
+  image: searchImages,
   author: { '@type': 'Organization', name: 'Món Việt Ngon', url: Astro.site?.href },
   inLanguage: 'vi',
   recipeCuisine: 'Việt Nam',

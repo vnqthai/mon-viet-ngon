@@ -17,8 +17,9 @@ _Cập nhật 2026-07-30. Site đang **64 món / 7 vùng / 14 kiểu món**, kh�
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
 | **Dung lượng** | `/mon/` **29,6 KB** gzip (đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh** |
-| **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
+| **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
+| **Ảnh tìm kiếm** | `/anh-mon/<slug>-{1x1,4x3,16x9}.jpg` — hình món trên nền họ màu, sinh lúc build. **Khác `/og/`**: `/og/` là thẻ chữ để chia sẻ, `/anh-mon/` là ảnh cho bot |
 | **Hạ tầng** | JSON-LD Recipe · ảnh OG sinh lúc build · sitemap · robots.txt · deploy tự động GitHub Pages + HTTPS |
 
 ## Catalog hôm nay
@@ -87,12 +88,24 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 - ~~`BreadcrumbList`~~ — có, **kèm breadcrumb nhìn thấy được** trong hero trang món; Google chỉ hiện đường dẫn phân cấp khi trang có breadcrumb thật.
 - ~~`WebSite`~~ — có ở trang chủ, kèm `SearchAction` trỏ `/mon/?q=` (khai được vì trang có tìm kiếm thật, form GET thuần).
 
-## Cố ý KHÔNG có — đừng "bổ sung"
+## Bốn cảnh báo Recipe của Search Console — **cố ý để nguyên**
 
-Soi schema sẽ thấy hai chỗ trông như thiếu, nhưng là chủ ý:
+Search Console gửi thư (2026-07-29, mã WNC-10030322) báo 4 vấn đề Recipe. **Cả bốn đều là trường `recommended`, không phải `required`** — chính thư đó ghi *"non-critical… don't prevent the page or feature from appearing on Google"*. Đánh dấu của site hợp lệ và vẫn đủ điều kiện hiện rich result. Ba trong bốn cái **không được** sửa:
 
-- **`nutrition`** — vi phạm luật không quảng cáo dinh dưỡng (xem phần 4).
-- **`aggregateRating`** — trang không có đánh giá thật, gắn vào là bịa số.
+| Cảnh báo | Vì sao để nguyên |
+|---|---|
+| **`aggregateRating`** | Điểm đánh giá bắt buộc phải đến từ người dùng thật. Google ghi rõ: nếu bên được đánh giá tự kiểm soát đánh giá về chính mình thì trang **mất quyền** hiện sao, và bịa số là lỗi ăn manual action. Site tĩnh trên GitHub Pages, không có tài khoản, không có chỗ nhận đánh giá — gắn vào là **đánh đổi rich result đang có lấy một con số bịa**. Muốn có thật thì cần backend, là việc khác hẳn. |
+| **`nutrition`** | Vi phạm luật không quảng cáo dinh dưỡng (phần 4, nhóm 4: *đếm calo/canxi/chất xơ*). `nutrition.calories` đúng là cái bị cấm. Chưa kể số sẽ là số ước. **Cảnh báo này để mở vĩnh viễn.** |
+| **`video`** | Không có video. Chỉ sửa được bằng cách quay thật. |
+| **`image`/`video` trong `recipeInstructions`** | Sửa cho tử tế = mỗi bước một hình riêng: 64 món × ~6–8 bước ≈ **hơn 400 hình**. Dán ảnh món vào mọi bước thì tắt được cảnh báo nhưng người đọc chẳng được gì — đó là nhồi đánh dấu. Để mở, trừ khi có ngày ngồi vẽ hình từng bước thật. |
+
+> **Đọc đúng con số "Items: 4".** Báo cáo ghi 4 mục cho mỗi dòng, mà site có 64 món / 67 URL trong sitemap — nghĩa là Google mới đọc được đánh dấu Recipe của **4 trang**, không phải chỉ 4 trang bị dính. Site mới live 2026-07-27. Mọi trang món dùng chung một khuôn nên con số này sẽ **bò dần lên 64**; đó không phải hỏng thêm.
+
+## ~~Ảnh `image` của Recipe là thẻ chữ~~ — XONG 2026-07-30
+
+Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở trường `image` — trường Google **bắt buộc**, và không bị báo lỗi vì nó *có* giá trị hợp lệ. Nó trỏ vào `/og/<slug>.png`, tức tấm thẻ chia sẻ: nền họ màu, tên món chữ Paytone One, bốn chip, viền caro — **không có tí hình món nào**. Mà đúng ảnh đó là thumbnail của kết quả công thức và của Google Hình ảnh, nên món của mình đi thi trong băng chuyền toàn ảnh đồ ăn bằng một tấm thiệp chữ.
+
+Đã sửa: thêm endpoint `src/pages/anh-mon/[shot].jpg.ts` sinh **hình vẽ món trên đúng nền họ màu**, ba tỉ lệ 1:1 · 4:3 · 16:9 theo khuyến nghị của Google. `/og/` giữ nguyên nhiệm vụ cũ — chia sẻ mạng xã hội, chỗ đó tên món nằm trên ảnh lại là đúng.
 
 ## Mốc dung lượng cũ đã hết hiệu lực
 
@@ -304,6 +317,25 @@ Bốn việc "đều rẻ" trong phần SEO cùng với RSS, làm một lượt.
 | `/mon/` | **không đổi một byte** — 149.389 thô cả trước lẫn sau, nên **29,5 KB gzip trên máy chủ giữ nguyên**. Việc này không đụng trang danh mục. |
 | Trang chi tiết món | **+4,35 KB thô · ~+570 B gzip** cho 6 liên kết (ước ở máy; đo lại trên máy chủ sau deploy) |
 | `/404.html` | 23,4 KB thô |
+
+## Ảnh món cho công cụ tìm kiếm — 2026-07-30
+
+Khởi từ thư Search Console báo 4 vấn đề Recipe. Kết luận sau khi tra tài liệu Google: **ba trong bốn cái không được sửa, cái thứ tư không đáng** — bảng lý do nằm ở phần 2, mục *"Bốn cảnh báo Recipe"*. Nhưng lần soi đó lòi ra chỗ hỏng thật mà **Search Console không hề báo**, vì trường vẫn có giá trị hợp lệ: `image` trỏ vào thẻ chữ `/og/`.
+
+**Bài học chung, đáng nhớ hơn cả việc đã làm:** báo cáo của Search Console chỉ soi *có hay không có trường*, nó **không soi trường đó đựng gì**. Trường bắt buộc đựng sai thứ thì im lặng tuyệt đối. Đừng lấy "0 lỗi critical" làm bằng chứng đánh dấu đang tốt.
+
+**Đã làm:**
+
+- **`src/pages/anh-mon/[shot].jpg.ts`** — 64 món × 3 tỉ lệ = **192 ảnh, 8,5 MB, ~44 KB/ảnh**, build thêm ~7 s (24,6 s tổng). Hình lấy từ chính file art của món, đặt trên nền gradient họ màu + quầng `--art-halo`, chiếm 86% khung, canh giữa.
+- **JPEG chứ không PNG.** Đo thật: nền gradient mượt làm PNG phình lên **201 KB/ảnh → cả site ~38 MB**; JPEG q84 xuống **~44 KB** mà mắt không phân biệt được (hình vẽ phẳng, không có chữ nhỏ để lộ artifact). WebP còn nhẹ hơn nhưng JPEG là thứ **mọi** bot đều đọc — Google, Bing, Facebook, Pinterest. Ảnh này sinh ra chỉ để bot xem, người đọc không bao giờ tải nó, nên `dist/` nặng thêm 8,5 MB **không ảnh hưởng gì tới tốc độ trang** (và `dist/` vốn gitignore, không phình repo).
+- **Khoá theo `slug` chứ không theo `kind`** như `/art/`: nền phải mang màu họ của chính món đó, mà họ suy từ `category` của món chứ không từ tên hình.
+- **`sharp` khai thẳng vào `devDependencies`.** Trước đó nó chỉ là dep bắc cầu của Astro — dùng ké thì một ngày nâng Astro là build gãy.
+- **Gom chỗ rút mã SVG vào `src/utils/art-src.ts`** — hai endpoint (`/art/*.svg` cho web, `/anh-mon/*.jpg` cho bot) cùng cần "rút `<svg>` + bỏ chú thích", nhưng bơm CSS khác nhau: bản web có animation khói, bản render ảnh thì không (resvg không chạy animation, mà thiếu luật `.steam` thì **mọi path khói đổ fill đen**).
+- **`npm run seo-audit`** (`tools/check-seo-images.mjs`) — chạy sau build, cạnh `link-audit`. Parse JSON-LD trong `dist/` rồi đi tìm file thật cho từng URL ảnh.
+
+**Kiểm đã làm:** `qa` sạch · `link-audit` sạch · ghép 64 ảnh 1:1 thành một tấm rồi **nhìn bằng mắt** (khói ra nét sáng chứ không đen, đủ 5 nền họ màu, không ô nào trắng) · diff `/art/*.svg` mới build với **bản đang chạy trên máy chủ** → giống hệt từng byte, tức việc gom `art-src.ts` không đổi hình nào · thử xoá 1 ảnh và cắt cụt 1 ảnh để chắc `seo-audit` **bắt được thật** chứ không phải phép kiểm luôn xanh.
+
+> **Vì sao `seo-audit` tách riêng khỏi `link-audit`:** `link-audit` có một việc và tự giới thiệu rõ ở đầu file là soi **liên kết chéo**; nhét thêm phép kiểm ảnh vào đó là làm mờ nó đi.
 
 ---
 

@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { ART_COMPONENT } from '../../utils/art';
+import { artSvgSource } from '../../utils/art-src';
 
 /**
  * HÌNH MÓN THÀNH FILE RIÊNG — sinh lúc build: /art/<kind>.svg
@@ -12,19 +13,6 @@ import { ART_COMPONENT } from '../../utils/art';
  * .steam của recipe.css phải nằm trong file svg. Bơm MỘT LẦN ở đây trong code,
  * không chép vào 62 file art.
  */
-
-/* Đọc thẳng mã nguồn file art. Vẽ vẫn giữ nguyên là .astro cho tiện sửa; ở đây
-   chỉ cần phần <svg>…</svg> nên đọc raw là đủ, khỏi phải dựng component. */
-const RAW = import.meta.glob('../../components/art/*.astro', {
-  query: '?raw',
-  import: 'default',
-  eager: true,
-}) as Record<string, string>;
-
-const byName: Record<string, string> = {};
-for (const [file, src] of Object.entries(RAW)) {
-  byName[file.slice(file.lastIndexOf('/') + 1, -'.astro'.length)] = src;
-}
 
 /* Luật .steam chép từ src/styles/recipe.css — KHÔNG được lệch với bản đó.
    Kể cả @keyframes: animation trong SVG vẫn chạy khi nhúng bằng <img>.
@@ -44,18 +32,12 @@ const STEAM_CSS = `
     }
     @media (prefers-reduced-motion:reduce){.steam path{animation:none}}`;
 
-/** Rút <svg>…</svg> khỏi file .astro, thêm xmlns (file rời bắt buộc) + luật .steam */
+/** Rút <svg>…</svg> khỏi file .astro, thêm xmlns (file rời bắt buộc) + luật .steam.
+    Phần rút mã + bỏ chú thích nằm ở utils/art-src.ts vì endpoint ảnh JPEG cũng cần. */
 function svgFile(kind: string): string | null {
-  const src = byName[ART_COMPONENT[kind]];
-  if (!src) return null;
-  const m = src.match(/<svg[\s\S]*<\/svg>/);
-  if (!m) return null;
-  /* BỎ HẾT CHÚ THÍCH. Không phải để cho gọn mà vì file .svg rời được đọc bằng
-     bộ phân tích XML NGHIÊM, khác hẳn HTML dễ dãi: chú thích XML cấm chứa "--",
-     mà chú thích trong file art thì hay nhắc tên biến kiểu --art-halo. Nhúng
-     thẳng vào HTML thì không sao, tách ra file riêng là hình đó chết hẳn (gặp
-     thật ở ca-kho khi tách). Bản gốc trong .astro vẫn giữ nguyên chú thích. */
-  return m[0].replace(/<!--[\s\S]*?-->\s*/g, '').replace(
+  const svg = artSvgSource(ART_COMPONENT[kind]);
+  if (!svg) return null;
+  return svg.replace(
     /^<svg([^>]*)>/,
     (_, attrs) =>
       `<svg xmlns="http://www.w3.org/2000/svg"${attrs}>\n  <style>${STEAM_CSS}\n  </style>`

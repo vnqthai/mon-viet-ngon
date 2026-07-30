@@ -19,6 +19,22 @@ export const FAMILIES: Record<FamilyId, { name: string; cats: string[] }> = {
   lua:  { name: 'Lửa',         cats: ['Nướng', 'Chiên'] },
 };
 
+/**
+ * Cặp màu nền thẻ của mỗi họ — GƯƠNG của --fam-* / --fam-*-deep trong
+ * tokens.css. Sửa một bên phải sửa bên kia.
+ *
+ * Có bản TS ở đây vì endpoint /anh-mon/ render ảnh bằng resvg, mà resvg không
+ * với được vào CSS của site. (tools/art-png.mjs giữ bản chép thứ ba của riêng
+ * nó vì là node thuần, không import được file .ts này.)
+ */
+export const FAM_GROUND: Record<FamilyId, [string, string]> = {
+  nuoc: ['#235B66', '#143A42'],
+  man:  ['#6E3512', '#421C06'],
+  tron: ['#5B7A2E', '#3B521C'],
+  banh: ['#A8801A', '#70530C'],
+  lua:  ['#9A3D2B', '#65241A'],
+};
+
 const BY_CAT = new Map<string, FamilyId>();
 for (const [id, fam] of Object.entries(FAMILIES)) {
   for (const c of fam.cats) BY_CAT.set(c, id as FamilyId);

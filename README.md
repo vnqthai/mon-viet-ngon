@@ -100,6 +100,22 @@ Bốn con số phải giữ, thêm món mới là dễ phá nhất:
 | **mảnh đồ thị** | 1 | catalog vỡ thành đảo, lang thang tới đó là hết đường |
 | mỗi dải đủ **6 ô** | 64/64 | vùng hoặc kiểu món quá mỏng, dải bị cụt |
 
+### `npm run seo-audit` — chạy SAU build, cùng lúc với `link-audit`
+
+```bash
+npm run build && npm run link-audit && npm run seo-audit
+```
+
+Parse khối JSON-LD trong `dist/` rồi đi tìm **file thật** cho từng URL ảnh của
+`Recipe.image`. Bắt đúng một loại lỗi, nhưng là loại không ai thấy: trang vẫn
+hiện bình thường, `npm run qa` vẫn sạch, chỉ có bot đi lấy ảnh là ăn 404 — rồi
+vài tháng sau Search Console mới nhắn. Đổi slug một món, hay đụng vào
+`src/pages/anh-mon/[shot].jpg.ts`, là đủ để lệch.
+
+> Nó **không** kiểm `aggregateRating` · `video` · `nutrition`. Search Console có
+> nhắc ba trường đó nhưng site **cố ý bỏ trống** — lý do từng cái ở ROADMAP phần 2,
+> mục *"Bốn cảnh báo Recipe"*. Đừng thấy cảnh báo mà thêm vào.
+
 ### Thêm một KIỂU MÓN mới (vd "Bánh")
 
 Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:
@@ -186,7 +202,21 @@ Ba ràng buộc mới với file art, `npm run qa` chặn cả ba:
 > Chú thích trong file art **được giữ nguyên** — endpoint tự bỏ hết chú thích
 > khi xuất. Cần thế vì chú thích XML cấm chứa `--`, mà chú thích trong art thì
 > hay nhắc tên biến kiểu `--art-halo`; nhúng vào HTML thì không sao, tách ra file
-> riêng là hình đó chết hẳn (gặp thật ở `ca-kho` lúc tách).
+> riêng là hình đó chết hẳn (gặp thật ở `ca-kho` lúc tách). Phần rút mã + bỏ
+> chú thích nằm ở `src/utils/art-src.ts` vì endpoint ảnh JPEG cũng cần y hệt.
+
+### Ba đường ra của cùng một hình món — đừng lẫn
+
+| Đường ra | Ai xem | Nội dung |
+|---|---|---|
+| `/art/<kind>.svg` | **người đọc** — thẻ món, hero | hình vẽ, nền trong suốt (nền màu do CSS của trang lo) |
+| `/anh-mon/<slug>-{1x1,4x3,16x9}.jpg` | **bot** — `image` của JSON-LD Recipe | hình vẽ **đã ghép sẵn nền họ màu**, 1200px, ba tỉ lệ |
+| `/og/<slug>.png` | **mạng xã hội** — `og:image` | thẻ chữ: tên món + 4 chip, **không có hình món** |
+
+Ba thứ này từng bị lẫn: `image` của JSON-LD trỏ vào `/og/`, tức Google lấy tấm
+thẻ chữ làm thumbnail kết quả tìm kiếm. Sửa 2026-07-30 — xem ROADMAP phần 5.
+Ảnh `/anh-mon/` khoá theo **slug** chứ không theo **kind** như `/art/`, vì nền
+phải mang màu họ của chính món đó, mà họ suy từ `category`.
 
 ## Deploy lên GitHub Pages + domain monvietngon.com
 
