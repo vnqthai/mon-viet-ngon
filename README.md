@@ -71,9 +71,9 @@ dựng, chỉ là sai:
 
 | `tools/check-recipes.mjs` | `tools/check-art-ids.mjs` |
 |---|---|
-| hai bẫy YAML ở trên, báo đúng dòng | `id` trùng **chéo giữa hai file art** — cả 50+ hình cùng nhúng vào `/mon/` nên `url(#…)` ăn nhầm gradient của hình khác |
+| hai bẫy YAML ở trên, báo đúng dòng | `id` trùng **chéo giữa hai file art** — từ đợt 10 mỗi hình là một file `.svg` riêng nên id hết đè nhau trên `/mon/`; phép kiểm giữ lại vì `art-png --sheet` vẫn ghép nhiều hình vào MỘT tài liệu |
 | hai món trùng `order` | tham chiếu `#id` trỏ ra ngoài file của nó |
-| hai nguyên liệu trùng `id` (giỏ đi chợ tick nhầm ô) | enum `art` ⟷ `RecipeArt.astro` ⟷ file component lệch nhau |
+| hai nguyên liệu trùng `id` (giỏ đi chợ tick nhầm ô) | enum `art` ⟷ `ART_COMPONENT` (`utils/art.ts`) ⟷ file component lệch nhau |
 | nhãn timer `MM:SS` lệch với `secs` | món chưa gắn art riêng |
 | `occasions` rỗng · `[[số\|đơn vị]]` sai cú pháp | art khai rồi mà chưa món nào dùng |
 | | `viewBox` lệch `0 0 520 470` · `&` trần trong `<svg>` |

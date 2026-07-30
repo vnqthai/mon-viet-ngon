@@ -37,22 +37,11 @@ difficulty: Dễ          # Dễ | Vừa | Kỳ công
 featured: false         # true = hiện ở trang chủ
 order: 99               # thứ tự hiển thị, nhỏ đứng trước
 # art: bowl             # bỏ trống sẽ tự chọn theo category (bowl/claypot/plate/rolls)
-#                       # art vẽ riêng: canh-chua pho-bo pho-ga pho-kho bun-bo bun-cha
-#                       #               bun-rieu bun-thit-nuong hu-tieu mi-quang com-tam
-#                       #               com-ga com-chien ca-kho thit-kho ga-kho ga-nuong
-#                       #               bo-luc-lac bo-kho ca-ri-ga suon-ram tom-rim muc-xao
-#                       #               banh-xeo banh-cuon cha-gio kho-qua trung-chung
-#                       #               canh-bi-do canh-cua ga-la-giang goi-xoai goi-ga
-#                       #               goi-cuon rau-muong mien-ga mi-vit-tiem
-#                       #               mien-xao-cua mi-xao-bo bun-dau bun-bo-nam-bo
-#                       #               lau-mam lau-ga-la-e lau-thai
-#                       #               chao-luon chao-ga chao-long
-#                       #               bun-cha-ca bun-mam-nem com-hen
-#                       #               banh-khoai banh-trang-cuon mam-ruoc-xao
-#                       #               bun-do pa-pinh-top bo-mot-nang
-#                       #               ca-loc-nuong-trui oc-len-xao-dua
-#                       #               nem-nuong ca-tai-tuong oc-hap-la-gung
-#                       #               ga-hap-hanh goi-ngo-sen canh-ga-chien
+#                       # DANH SÁCH tên art vẽ riêng: xem bảng ART_COMPONENT trong
+#                       # src/utils/art.ts — đó là nguồn sự thật, đừng chép lại ở đây.
+#                       # Thêm hình mới = 3 việc: file Art<Ten>.astro · một dòng trong
+#                       # ART_COMPONENT · một giá trị trong enum art của content.config.ts.
+#                       # `npm run qa` soi cả ba chỗ có khớp nhau không.
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc
