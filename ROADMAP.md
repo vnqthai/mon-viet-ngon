@@ -57,13 +57,58 @@ Miền Trung từ vùng gần bét lên đồng hạng đầu; Miền Nam từ 4
 
 > **Dọn dẹp sau đợt 10: xong cả 5 việc** (2026-07-30) — `pubDate` 6 món về đúng ngày live · id `cgGa` chết đã gỡ nên `npm run qa` giờ **sạch trắng, không còn cảnh báo nào** · `contact-sheet.mjs` bỏ giàn giáo Phần I (465 → 327 dòng) · `_template.yaml` thôi chép tay 68 tên art · ROADMAP cấu trúc lại. Không còn nợ dọn dẹp nào.
 
+## Người đọc gặp ngay — làm trước
+
+Ba chỗ này soi ra 2026-07-30, đều đo được, đều chưa có ai đụng tới.
+
+**1 · Chưa có trang 404.** Khách bấm link cũ hoặc gõ sai là rơi hẳn ra ngoài site — GitHub Pages trả trang mặc định của nó, không một chữ "Món Việt Ngon", không đường về:
+
+```
+curl https://www.monvietngon.com/khong-ton-tai/
+<title>Page not found · GitHub Pages</title>
+```
+
+Chữa bằng một file `public/404.html` — GitHub Pages tự dùng. Rẻ nhất danh sách, mà là chỗ **duy nhất** người đọc bị đẩy ra khỏi site.
+
+**2 · Không có một liên kết nào giữa các món — việc đáng làm nhất hiện giờ.**
+
+```
+số link tới /mon/<slug>/ trong một trang chi tiết món: 0
+```
+
+64 món mà đọc xong một món thì không có đường nào sang món khác ngoài quay lại `/mon/`. Mất hai thứ cùng lúc: người đọc không biết nấu gì tiếp, và Google không có đường bò sâu vào catalog. **Dữ liệu đã có sẵn** — `region`, `category`, `occasions` — chỉ cần một dải 3–4 món ở cuối trang chi tiết ("cùng vùng" / "cùng mâm cơm"), **không phải thêm field nào vào schema**.
+
+**3 · Trang chủ để cả 12 ảnh `loading="lazy"`**, kể cả 2–3 ô nằm trên màn hình đầu — nên cho 3 ô đầu `eager`. ⚠️ Suy từ cấu trúc, **chưa đo LCP thật**.
+
 ## Hạ tầng, theo thứ tự đáng làm
 
-1. **RSS feed** `/rss.xml` (`@astrojs/rss`) — việc nhỏ nhất còn lại, và **giờ mới đủ điều kiện**: cả 64 món đã có `pubDate`.
-2. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng. Mở một giá trị enum mới là phải **rà gắn lại cả 64 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
-3. **Thống kê truy cập nhẹ** — [GoatCounter](https://www.goatcounter.com), miễn phí, không cookie, hợp tinh thần "không quảng cáo" của trang. Một dòng script trong `src/layouts/Base.astro`.
+1. **Thống kê truy cập nhẹ ([GoatCounter](https://www.goatcounter.com)) — nên làm TRƯỚC mấy việc đoán mò.** Hiện không biết người đọc thật sự dùng gì, nên mọi quyết định về 12 ô featured, thứ tự chip lọc, món nào lên ticker đều đang dựa trên suy luận. Miễn phí, không cookie, một dòng script trong `src/layouts/Base.astro`.
+2. **RSS feed** `/rss.xml` (`@astrojs/rss`) — việc nhỏ nhất còn lại, và đã đủ điều kiện: cả 64 món có `pubDate`.
+3. **Tự host font, bỏ Google Fonts.** Hiện là một stylesheet chặn render từ bên thứ ba. Repo **đã có sẵn** `BeVietnamPro-Regular/SemiBold.ttf` + `PaytoneOne-Regular.ttf` trong `src/assets/fonts/` (dùng sinh ảnh OG) — thiếu mỗi **Dancing Script**, cần tải thêm. Bỏ được thì nhanh hơn, hết phụ thuộc bên thứ ba, và hợp tinh thần "không theo dõi" của trang hơn.
+4. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng. Mở một giá trị enum mới là phải **rà gắn lại cả 64 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
 
-> **Mốc dung lượng cũ "~150 KB gzip" giờ vô nghĩa, đừng dùng lại.** Từ đợt 10 độ dốc xuống còn ~0,2 KB/món (chỉ còn phần chữ của cái thẻ) thay vì 2,6 KB/món, nên ở 100 món `/mon/` ước chừng **37 KB** — chưa đo, suy từ 29,5 KB đo được ở 64 món. **Không còn rào dung lượng nào chặn đường lên 100 món.**
+## SEO còn thiếu — đều rẻ
+
+- Không có `rel="canonical"`.
+- Không có `BreadcrumbList` — Google hiện breadcrumb trong kết quả tìm kiếm cho recipe, mà trang chi tiết cũng không có breadcrumb nhìn thấy được.
+- Đã có `Organization`, chưa có `WebSite`.
+
+## Cố ý KHÔNG có — đừng "bổ sung"
+
+Soi schema sẽ thấy hai chỗ trông như thiếu, nhưng là chủ ý:
+
+- **`nutrition`** — vi phạm luật không quảng cáo dinh dưỡng (xem phần 4).
+- **`aggregateRating`** — trang không có đánh giá thật, gắn vào là bịa số.
+
+## Mốc dung lượng cũ đã hết hiệu lực
+
+> **"~150 KB gzip" giờ vô nghĩa, đừng dùng lại.** Từ đợt 10 độ dốc xuống còn ~0,2 KB/món (chỉ còn phần chữ của cái thẻ) thay vì 2,6 KB/món, nên ở 100 món `/mon/` ước chừng **37 KB** — chưa đo, suy từ 29,5 KB đo được ở 64 món. **Không còn rào dung lượng nào chặn đường lên 100 món.**
+
+## Việc lớn nhất, và nó cần Thái
+
+64 → ~100 món là **còn ~36 món**, mà kho ý tưởng dưới đây chỉ có ~11 món đã tra sẵn. Tức là việc lớn nhất còn lại của dự án là **ngồi chọn thêm chừng 25 món** — không tự mở đợt được. Hai ô mỏng nhất là Tây Bắc (2 món) và Tây Nguyên (3), nhưng Tây Bắc đã cạn món nấu-được-ở-nhà (xem kho ý tưởng).
+
+> **Nếu chỉ làm một thứ:** trang 404 + liên kết chéo giữa các món. Cùng một buổi, và là hai chỗ duy nhất trong cả danh sách mà người đọc cảm nhận được liền.
 
 ## Kho ý tưởng để dành — **chưa xếp vào đợt nào**
 
