@@ -60,7 +60,13 @@ const canonical = canonPath === '/404' ? null : new URL(canonPath ? `${canonPath
   {/* Chỉ xin đúng nét CSS thật sự dùng. Trước đây xin dư ba nét — Be Vietnam Pro
       500 và nghiêng 400, Dancing Script 700 — không chỗ nào trong site đụng tới
       (đếm bằng `grep -oh "font-weight:[0-9]*" src/styles/*.css`, và không có
-      một `<em>`/`font-style:italic` nào). Thêm một nét là thêm request font. */}
+      một `<em>`/`font-style:italic` nào).
+
+      ĐỪNG TƯỞNG cắt nét thừa là bớt được request font — ĐO RỒI, KHÔNG PHẢI:
+      trình duyệt chỉ tải những face mà nội dung thật sự khớp, nên bản cũ khai
+      24 @font-face cũng vẫn chỉ tải đúng 15 file, y như bản này. Cắt chỉ làm
+      file CSS của Google nhỏ đi vài trăm byte, và giữ khai báo khớp thực tế.
+      Hiển thị hai bản giống nhau tới từng phần trăm pixel. */}
   <link
     href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Be+Vietnam+Pro:wght@400;600;700&family=Dancing+Script:wght@600&display=swap"
     rel="stylesheet"

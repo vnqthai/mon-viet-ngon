@@ -172,6 +172,8 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **File `.svg` rời đọc bằng XML nghiêm** — chú thích cấm chứa `--`, cấm `&` trần. Endpoint tự bỏ chú thích; `qa` chặn hai lỗi kia. **Tool soi phải đọc đúng thứ endpoint xuất ra.**
 - **"Nằm trên màn hình đầu" là thứ PHẢI ĐO, không được suy.** Lưới món trang chủ trông như ở gần đầu trang, thật ra bắt đầu ở **1165px** — không ô nào lọt màn hình đầu ở mọi khung thường gặp. Một dòng `getBoundingClientRect().top` là biết, mà không đo thì đẻ ra cả một việc sai.
 - **Trước khi tối ưu ảnh, xem phần tử LCP có phải ảnh không.** Trang chủ có LCP là chữ `<h1>`; **`<svg>` nhúng thẳng không phải ứng viên LCP** (chỉ `<img>`, `<image>` trong svg, poster video, `background-image`, và khối chữ mới là). Ứng viên LCP do bố cục quyết định chứ không do mạng — nên kết luận đó đúng ở mọi tốc độ, dù con số mili giây đo ở máy thì vô nghĩa.
+- **Khai thừa `@font-face` KHÔNG tốn request.** Trình duyệt chỉ tải những face mà nội dung thật sự khớp — khai 24 face mà chỉ dùng 15 thì vẫn chỉ tải 15. Cắt bớt danh sách nét là chuyện gọn gàng, **không phải chuyện hiệu năng**; đừng lấy "bớt request" ra biện minh.
+- **Nghi hai bản khác nhau thì DỰNG CẢ HAI CẠNH NHAU rồi so chữ ký hình học**, đừng so bằng mắt và đừng so với trí nhớ. Cách làm: build bản A, `cp -R dist dist-old`, sửa, build bản B, chạy hai máy chủ hai cổng (`astro preview` và `python3 -m http.server`), rồi lấy `getBoundingClientRect()` + `getComputedStyle()` của một dãy phần tử ở cả hai bên nối thành một chuỗi mà so. Trùng khít tới 2 số lẻ thì kết thúc tranh luận. Cũng đếm luôn `[...document.fonts].filter(f => f.status === 'loaded')` — đó mới là số font **thật sự tải**, khác hẳn số face khai báo.
 - **Soi thứ đã build, đừng gọi lại hàm sinh ra nó.** `link-audit` đọc HTML trong `dist/` chứ không gọi `relatedFor()`: gọi lại chính hàm đó rồi đo là tự chấm điểm mình, hỏng ở khâu dựng trang thì không thấy.
 
 **Sinh liên kết tự động**
@@ -287,7 +289,9 @@ Bốn việc "đều rẻ" trong phần SEO cùng với RSS, làm một lượt.
 
 **Nhân tiện cắt 3 nét font xin dư.** Đếm ra thì CSS chỉ dùng `700` (21 chỗ), `600` (18 chỗ), `400` (1 chỗ) và **không một chỗ nào nghiêng**, mà URL đang xin cả `Be Vietnam Pro 500`, `nghiêng 400` và `Dancing Script 700`. Đã bỏ. Cũng sửa một chỗ khai `font-weight:800` trong khi không xin nét 800 — trình duyệt đang tự bôi đậm giả; đổi về `700` cho thật.
 
-> **Cách kiểm lại khi đổi font:** `grep -oh "font-weight:[0-9]*" src/styles/*.css | sort | uniq -c` và `grep -rn "font-style\|<em>" src/`. Xin thừa một nét là thừa một request font.
+> **Cách kiểm lại khi đổi font:** `grep -oh "font-weight:[0-9]*" src/styles/*.css | sort | uniq -c` và `grep -rn "font-style\|<em>" src/`.
+>
+> ⚠️ **Đính chính — việc cắt này KHÔNG bớt được request font nào.** Bản ghi đầu tiên ở đây viết "xin thừa một nét là thừa một request font"; dựng hai bản cạnh nhau đo lại thì **sai**: trình duyệt chỉ tải những face mà nội dung thật sự khớp, nên bản cũ khai **24 `@font-face` cũng vẫn chỉ tải đúng 15 file** — y hệt bản mới. Chữ ký hình học của 10 phần tử **trùng khít tới 2 số lẻ**. Lợi ích thật chỉ là file CSS của Google nhỏ đi vài trăm byte và khai báo khớp thực tế. **Đừng dùng lý do "bớt request" để biện minh cho việc chỉnh danh sách nét.**
 
 ### Số đo dung lượng
 
