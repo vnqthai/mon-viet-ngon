@@ -15,7 +15,7 @@ _Cập nhật 2026-07-30. Site đang **64 món / 7 vùng / 14 kiểu món**, kh�
 | **Nội dung** | 64 món · 7 vùng · 14 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo 5 họ màu, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
-| **Dung lượng** | `/mon/` **29,5 KB** gzip (đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
+| **Dung lượng** | `/mon/` **29,6 KB** gzip (đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh** |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
@@ -288,6 +288,8 @@ Bốn việc "đều rẻ" trong phần SEO cùng với RSS, làm một lượt.
 - **`WebSite` + `SearchAction`** ở trang chủ, trỏ `/mon/?q=`. Khai được vì trang **có tìm kiếm thật** — form GET thuần, không JS vẫn chạy.
 
 **Nhân tiện cắt 3 nét font xin dư.** Đếm ra thì CSS chỉ dùng `700` (21 chỗ), `600` (18 chỗ), `400` (1 chỗ) và **không một chỗ nào nghiêng**, mà URL đang xin cả `Be Vietnam Pro 500`, `nghiêng 400` và `Dancing Script 700`. Đã bỏ. Cũng sửa một chỗ khai `font-weight:800` trong khi không xin nét 800 — trình duyệt đang tự bôi đậm giả; đổi về `700` cho thật.
+
+**Giá của đợt SEO này: `/mon/` 30.232 → 30.275 byte gzip (+43 byte), tức 29,52 → 29,57 KB.** Ba thẻ mới trong `<head>` của mọi trang: `canonical`, `og:url`, và `<link rel="alternate">` trỏ RSS. Mốc trong bảng trạng thái đã sửa từ 29,5 lên 29,6 KB cho khớp.
 
 > **Cách kiểm lại khi đổi font:** `grep -oh "font-weight:[0-9]*" src/styles/*.css | sort | uniq -c` và `grep -rn "font-style\|<em>" src/`.
 >
