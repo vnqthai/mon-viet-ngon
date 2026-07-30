@@ -221,7 +221,8 @@ Làm bằng `src/pages/404.astro` chứ không phải `public/404.html` như d�
 Hai thứ ghi lại cho lần sau:
 
 - **`astro preview` CÓ phục vụ 404.html cho đường dẫn lạ** — trái với điều đã tưởng, soi thử ở máy được. Nhưng nó vẫn là máy chủ khác GitHub Pages, nên **nghiệm thu thật vẫn phải trên máy chủ** sau khi deploy: `curl -sI https://www.monvietngon.com/khong-ton-tai/` phải trả **404**, không phải 200.
-- **`astro preview` phục vụ theo danh mục lúc build, không phải theo thư mục.** File thả thêm vào `dist/` sau khi build thì nó trả 404 — harness soi mobile phải nhét bằng JS vào trang đang mở, hoặc để trong `public/` rồi build lại. File tên bắt đầu bằng `_` thì càng không được phục vụ.
+- **KIỂM XEM `astro preview` THẬT SỰ ĐỨNG Ở CỔNG NÀO — đừng mặc định 4321.** Phiên này có một `astro dev` bỏ quên từ hôm trước vẫn đang giữ 4321, nên mọi lần `npm run preview` **âm thầm nhảy sang 4322/4323** mà không báo gì ầm ĩ, còn mọi lệnh gõ `localhost:4321` lại rơi vào máy chủ dev đó. Cách kiểm: đọc dòng `localhost:<cổng>` trong log của chính lệnh preview, hoặc `lsof -ti:4321`.
+  > Một kết luận sai đã sinh ra từ đây và **đã sửa**: bản ghi đầu tiên viết *"`astro preview` phục vụ theo danh mục lúc build, file thả thêm vào `dist/` sau khi build thì trả 404"*. **Không đúng** — thử lại đàng hoàng thì preview trả **200** cho file mới thả vào `dist/`. Cái trả 404 hôm đó là `astro dev`, vốn phục vụ từ `public/` + `src/` chứ không đụng `dist/`.
 
 Trang chưa gắn `noindex`: GitHub Pages trả đúng mã 404 cho đường dẫn lạ, sitemap không liệt kê nó, và không chỗ nào trong site trỏ tới `/404.html`. Muốn chắc hơn thì phải thêm prop vào `Base.astro` — đụng mọi trang cho một chuyện chưa xảy ra.
 
