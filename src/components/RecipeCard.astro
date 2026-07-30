@@ -1,6 +1,6 @@
 ---
 import Icon from './Icon.astro';
-import RecipeArt from './art/RecipeArt.astro';
+import ArtImg from './art/ArtImg.astro';
 import { plain, dishName } from '../utils/rich';
 import { familyOf } from '../utils/family';
 import { searchText } from '../utils/search';
@@ -28,7 +28,7 @@ const haystack = searchText(data, plain);
 >
   <div class="rcard__art" style={`--ground:var(--fam-${fam}); --ground-deep:var(--fam-${fam}-deep)`}>
     <span class="rcard__kind">{data.category}</span>
-    <RecipeArt art={data.art} category={data.category} />
+    <ArtImg art={data.art} category={data.category} alt={`Minh họa ${dishName(data.title)}`} />
     <div class="rcard__wave">
       <svg viewBox="0 0 400 26" preserveAspectRatio="none" aria-hidden="true">
         <path d="M0 14 C 60 26 120 2 200 10 C 280 18 340 24 400 12 L 400 26 L 0 26 Z" fill="currentColor"/>

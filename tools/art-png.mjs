@@ -19,12 +19,13 @@
  * Nền vẽ đúng như thẻ thật: gradient họ màu 160deg + quầng --art-halo, và luật
  * .steam được bơm vào SVG (resvg không với được CSS ngoài).
  *
- * Mapping art -> component đọc thẳng từ RecipeArt.astro nên không lệch khi thêm món.
+ * Mapping art -> component đọc thẳng từ src/utils/art.ts nên không lệch khi thêm món.
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Resvg } from '@resvg/resvg-js';
+import { readArtMap } from './art-map.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ART_DIR = path.join(ROOT, 'src/components/art');
@@ -62,10 +63,7 @@ for (let i = 0; i < argv.length; i++) {
 }
 
 /* ---------- Đọc mapping art -> component ---------- */
-const recipeArtSrc = fs.readFileSync(path.join(ART_DIR, 'RecipeArt.astro'), 'utf8');
-const artToComponent = Object.fromEntries(
-  [...recipeArtSrc.matchAll(/kind === '([^']+)' && <(\w+)\s*\/>/g)].map((m) => [m[1], m[2]])
-);
+const artToComponent = readArtMap(path.join(ROOT, 'src/utils/art.ts'));
 
 /* ---------- Đọc các món ---------- */
 const field = (src, key) => {
@@ -103,7 +101,7 @@ function resolve(token) {
       cat: user ? user.cat : '(dự phòng)',
     };
   }
-  return { err: `${token}: không phải slug món, cũng không phải tên art trong RecipeArt.astro` };
+  return { err: `${token}: không phải slug món, cũng không phải tên art trong utils/art.ts` };
 }
 
 let tokens = targets;
@@ -123,7 +121,7 @@ const tiles = [];
 for (const t of tokens) {
   const r = resolve(t);
   if (r.err) { console.error('  ⚠ ' + r.err); continue; }
-  if (!artToComponent[r.art]) { console.error(`  ⚠ ${t}: art "${r.art}" không có dòng render trong RecipeArt.astro`); continue; }
+  if (!artToComponent[r.art]) { console.error(`  ⚠ ${t}: art "${r.art}" không có trong bảng ART_COMPONENT`); continue; }
   tiles.push(r);
 }
 if (!tiles.length) process.exit(1);
@@ -138,7 +136,11 @@ function artSvg(kind) {
   if (!fs.existsSync(file)) return null;
   const m = fs.readFileSync(file, 'utf8').match(/<svg[\s\S]*<\/svg>/);
   if (!m) return null;
-  let svg = m[0];
+  /* Bỏ chú thích y như endpoint src/pages/art/[kind].svg.ts làm: resvg đọc SVG
+     bằng bộ phân tích XML nghiêm, mà chú thích XML cấm chứa "--" (rất hay gặp
+     trong chú thích file art: "--art-halo", "---- lớp sau ----"). Không bỏ thì
+     tool gãy trên đúng những file vẫn ship ra web bình thường. */
+  let svg = m[0].replace(/<!--[\s\S]*?-->\s*/g, '');
   const suffix = '_t' + ++uid;
   for (const id of new Set([...svg.matchAll(/\bid="([^"]+)"/g)].map((x) => x[1]))) {
     const esc = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

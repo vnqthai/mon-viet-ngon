@@ -1,0 +1,21 @@
+---
+/* Hình món gọi bằng <img> tới /art/<kind>.svg, KHÔNG nhúng SVG thẳng vào HTML.
+   Lý do và cái giá: xem chú thích ở src/utils/art.ts và src/pages/art/[kind].svg.ts.
+
+   width/height đặt cứng 520×470 vì mọi file art đều dùng đúng viewBox đó —
+   `npm run qa` chặn file nào lệch. Có sẵn kích thước thì chỗ hình giữ đúng ô
+   ngay từ lúc dựng trang, chữ bên dưới không bị đẩy khi hình tải xong. */
+import { artKind } from '../../utils/art';
+
+interface Props { art?: string; category: string; alt?: string; eager?: boolean }
+const { art, category, alt = '', eager = false } = Astro.props;
+const kind = artKind(art, category);
+---
+<img
+  src={`/art/${kind}.svg`}
+  alt={alt}
+  width="520"
+  height="470"
+  loading={eager ? 'eager' : 'lazy'}
+  decoding="async"
+/>

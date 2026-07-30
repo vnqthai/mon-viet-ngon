@@ -27,16 +27,18 @@ src/
     Sprite.astro         ← kho icon SVG (thêm icon mới vào đây)
     Icon.astro           ← <Icon name="fish"/>
     RecipeCard.astro     ← thẻ món ngoài danh mục/trang chủ
-    art/                 ← minh họa SVG (theo loại món + minh họa riêng)
+    art/                 ← minh họa SVG, mỗi món một file Art<Ten>.astro
+    art/ArtImg.astro     ← gọi hình bằng <img src="/art/<kind>.svg">
   layouts/Base.astro     ← khung trang: header, footer, fonts, theme
   pages/
     index.astro          ← trang chủ
     mon/index.astro      ← danh mục món + bộ lọc
     mon/[slug].astro     ← template trang món (render từ YAML)
+    art/[kind].svg.ts    ← xuất mỗi hình ra 1 file .svg lúc build
     bi-quyet.astro       ← bí quyết bếp Việt
   scripts/               ← JS client: theme/reveal (site.js), khẩu phần/giờ (recipe.js)
   styles/                ← tokens (màu) / base / recipe / home
-  utils/                 ← qty.ts (tính khẩu phần), rich.ts (mini markup)
+  utils/                 ← qty.ts (khẩu phần), rich.ts (mini markup), art.ts (bảng tra hình)
 ```
 
 ## Thêm một món mới
@@ -74,26 +76,32 @@ dựng, chỉ là sai:
 | hai nguyên liệu trùng `id` (giỏ đi chợ tick nhầm ô) | enum `art` ⟷ `RecipeArt.astro` ⟷ file component lệch nhau |
 | nhãn timer `MM:SS` lệch với `secs` | món chưa gắn art riêng |
 | `occasions` rỗng · `[[số\|đơn vị]]` sai cú pháp | art khai rồi mà chưa món nào dùng |
+| | `viewBox` lệch `0 0 520 470` · `&` trần trong `<svg>` |
 
 Cả hai đọc enum và từ vựng khoá **thẳng từ `content.config.ts`**, nên sửa schema
 là script tự theo, không phải cập nhật tay.
 
 ### Thêm một KIỂU MÓN mới (vd "Bánh")
 
-Không phải một chỗ mà **bảy chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:
+Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:
 
 | File | Sửa gì | Sót thì sao |
 |---|---|---|
 | `src/content.config.ts` | enum `category` | build gãy — chỗ duy nhất *có* báo lỗi |
 | `src/utils/family.ts` | xếp kiểu món vào 1 trong 5 họ màu | rơi về họ `nuoc`, **nền thẻ sai màu, không báo gì** |
 | `src/pages/mon/index.astro` | thêm vào `CAT_ORDER` | **không có chip lọc**, món thành không lọc được |
-| `src/components/art/RecipeArt.astro` | `byCategory` (hình dự phòng) | món chưa có art riêng rơi về `bowl` |
+| `src/utils/art.ts` | `BY_CATEGORY` (hình dự phòng) | món chưa có art riêng rơi về `bowl` |
 | `src/content/recipes/_template.yaml` | dòng chú thích | người sau chép nhầm |
 | `tools/contact-sheet.mjs` | bảng `FAMILIES` | contact sheet soi sai nền |
+| `tools/art-png.mjs` | bảng `FAMILIES` | PNG ghép soi sai nền |
 | ROADMAP.md | bảng kế hoạch | — |
 
-Thêm **hình vẽ riêng** cho món: `ArtTenMon.astro` + giá trị mới trong enum `art`
-(`content.config.ts`) + import & dòng render trong `RecipeArt.astro`.
+> Bảng này từng ghi **bảy** chỗ — thiếu `art-png.mjs`, thêm vào từ đợt 9 mà quên
+> cập nhật. Đợt nào mở kiểu món cũng **kiểm lại từng dòng**, đừng suy từ đợt trước.
+
+Thêm **hình vẽ riêng** cho món: `Art<Ten>.astro` + một dòng trong bảng
+`ART_COMPONENT` (`src/utils/art.ts`) + giá trị mới trong enum `art`
+(`content.config.ts`). `npm run qa` soi cả ba chỗ có khớp nhau không.
 
 ### Soi hình: hai công cụ, KHÔNG thay nhau được
 
@@ -115,6 +123,51 @@ theo `--cat <kiểu món>` hoặc `--fam <họ>` cho nhanh. Ra `tools/art-png/`
 
 > Luật rút ra từ đợt 8: **thứ gì trong tô cũng phải khác thứ bên cạnh ở CẢ sắc
 > lẫn DÁNG.** Đổi mỗi màu mà giữ nguyên dáng thì ở cỡ thumbnail vẫn lẫn.
+>
+> Và từ đợt 10: **vẽ hỏng thường là do chưa hiểu vật, không phải tay kém.** Con
+> ốc thiếu chóp xoắn thì thành cây nấm; miếng gà chặt mà chỉ vẽ da thì thành củ
+> khoai; con cá dựng đứng mà vẽ hai mắt thì thành cái mặt côn trùng. Chữa được
+> đều bắt đầu bằng việc đọc lại *vật đó cấu tạo thế nào*, không phải chỉnh màu.
+
+#### Bốn luật bố cục — rút ra ở vòng duyệt thứ hai của đợt 10
+
+Bốn hình bị trả lại cùng một nhận xét: *"rời rạc, mảnh này mảnh kia, không giống
+một món ăn"*. Từng miếng vẽ đúng cả, lỗi nằm ở **cách bày**.
+
+1. **Món ăn phải là MỘT KHỐI.** Vẽ **một path khối liền** làm nền đống trước
+   (`ArtGoiXoai`, `ArtGoiGa`, `ArtChaGio` đều làm vậy), rồi mới vẽ chi tiết **đè
+   lên** nó. Miếng nào cũng phải **chồng mép** lên miếng khác. Rải từng miếng
+   cách nhau là hở nền — và hở nền thì mắt đọc ra mấy vật lẻ, không ra dĩa đồ ăn.
+2. **Đúng thực tế chưa đủ, hình còn phải đọc ra món ăn.** Cá tai tượng dọn thật
+   là **dựng đứng** con cá, vẽ đúng vậy thì lại ra vật trưng bày. Cho nằm xuống
+   dĩa mới ra món.
+3. **Đừng bày đối xứng hai bên.** Hai miếng bánh phồng tôm kê cân đối hai mép
+   dĩa, hai con tôm đặt bằng nhau trên đỉnh — đều bị nhận xét "nhìn kỳ". Lệch cỡ,
+   lệch góc, lệch độ cao.
+4. **Cảm giác GIÒN nằm ở ĐƯỜNG BAO GỒ GHỀ, không nằm ở màu.** Gắn một chuỗi cục
+   nhỏ **vẽ TRƯỚC khối thịt** để chúng chỉ nhô ra ở mép — vẽ sau thì thành vòng
+   hạt cườm quây quanh miếng.
+
+### Hình nằm ở file `.svg` riêng, không nhúng vào HTML
+
+Từ đợt 10, hình **không** nhúng thẳng vào trang nữa. Endpoint
+`src/pages/art/[kind].svg.ts` xuất mỗi hình ra `/art/<kind>.svg` lúc build, còn
+thẻ món gọi bằng `<img loading="lazy">` (`art/ArtImg.astro`). Kết quả: `/mon/`
+từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**;
+ba trang (`/mon/`, trang chủ, trang chi tiết) dùng chung một file đã cache.
+
+Ba ràng buộc mới với file art, `npm run qa` chặn cả ba:
+
+| Ràng buộc | Vì sao |
+|---|---|
+| `viewBox` phải là `0 0 520 470` | `ArtImg` đặt cứng `width`/`height` theo đó để trang khỏi nhảy |
+| không `currentColor`, không `var(--…)` | CSS ngoài không với vào trong `<img>` được |
+| không `&` trần trong `<svg>` | file `.svg` rời đọc bằng XML **nghiêm**, một dấu `&` là chết cả hình mà build vẫn xanh |
+
+> Chú thích trong file art **được giữ nguyên** — endpoint tự bỏ hết chú thích
+> khi xuất. Cần thế vì chú thích XML cấm chứa `--`, mà chú thích trong art thì
+> hay nhắc tên biến kiểu `--art-halo`; nhúng vào HTML thì không sao, tách ra file
+> riêng là hình đó chết hẳn (gặp thật ở `ca-kho` lúc tách).
 
 ## Deploy lên GitHub Pages + domain monvietngon.com
 

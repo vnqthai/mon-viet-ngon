@@ -1,0 +1,310 @@
+title: Cánh gà chiên nước mắm **giòn tới miếng cuối**
+summary: >-
+  Cánh gà chiên vàng rồi áo một lớp nước mắm đường kẹo lại, rắc tỏi phi.
+  Mẹo giữ giòn nằm ở chỗ **nấu sốt riêng một chảo** rồi mới trút cánh vào đảo
+  đúng hai phút — chiên xong đổ mắm thẳng vào chảo là da mềm oặt ngay.
+region: Cả nước
+category: Chiên
+occasions: [Cơm nhà, Nhậu lai rai, Cho bé]
+pubDate: 2026-07-29
+time:
+  total: 50 phút
+  active: 35 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 28
+art: canh-ga-chien
+heroEyebrow: Bữa cơm chiều nhà mình…
+
+quick:
+  ingredients:
+    - Cánh gà [[800|g]] — chặt đôi ở khớp thành cánh giữa và tỏi gà
+    - "Ướp: muối [[1|muỗng cà phê|frac]] · tiêu · [[1|muỗng canh|frac]] rượu trắng hoặc nước gừng"
+    - Bột chiên giòn [[3|muỗng canh|frac]] — áo một lớp **thật mỏng**
+    - "Sốt mắm: nước mắm [[3|muỗng canh|frac]] · đường [[3|muỗng canh|frac]] · nước [[2|muỗng canh|frac]]"
+    - Tỏi [[1|củ]] băm · ớt [[2|trái]] · hành lá
+    - Dầu ăn để chiên ngập nửa miếng cánh
+  steps:
+    - Rửa cánh gà với muối gừng, **lau thật khô**, ướp muối tiêu rượu **20 phút**.
+    - Xóc một lớp bột chiên giòn thật mỏng, phủi bớt chỗ thừa.
+    - Chiên dầu nóng **170–180 °C** tới vàng, vớt ra để ráo. Chiên lại lần hai **1 phút** cho giòn lâu.
+    - >-
+      **Chảo khác**: phi tỏi ớt tới vàng thì vớt riêng, cho mắm đường nước vào
+      đun tới khi sốt sánh và nổi bọt to.
+    - Trút cánh gà vào đảo **2 phút** cho áo đều, rắc tỏi phi và hành lá, tắt bếp ngay.
+  warning: >-
+    Đừng phi tỏi rồi để nguyên trong chảo mà nấu sốt và đảo gà. Tỏi nằm trong
+    sốt đường nóng vài phút là **cháy đen và đắng**, cả chảo hỏng vị. Phi vàng
+    thì vớt ra ngay, để dành rắc lên sau cùng.
+
+flavor:
+  chua: 1
+  ngot: 7
+  man: 7
+  cay: 4
+  thom: 8
+flavorNote: >-
+  **Chuẩn dĩa:** lớp áo ngoài **bóng như kẹo và vẫn còn nghe rắc**, không ướt
+  nhẹp; thịt trong mềm mọng, sát xương còn ngọt. Mặn ngọt phải đi cùng nhau chứ
+  không bên nào lấn — và mùi tỏi phi dậy lên trên cùng.
+
+storyEyebrow: Chuyện món ăn
+storyTitle: Chiên xong rồi **đừng đổ mắm vào chảo đó**
+story:
+  - >-
+    Cánh gà chiên nước mắm là món của bếp nhà: nguyên liệu ra chợ nào cũng có,
+    làm chừng nửa tiếng, và hợp cả mâm cơm lẫn bàn nhậu. Nhưng nó cũng là món
+    hay hỏng nhất theo đúng một kiểu — **chiên giòn xong mà bưng ra thì đã mềm
+    oặt**.
+  - >-
+    Lý do gần như luôn giống nhau: người nấu tiếc công rửa chảo nên chiên gà
+    xong, chắt bớt dầu rồi đổ thẳng nước mắm đường vào chính cái chảo đó. Nước
+    trong sốt gặp lớp vỏ giòn là nó thấm ngược vào, và không có cách nào lấy lại.
+    Cách chữa nằm ở chỗ tách hẳn hai việc: **một chảo chiên, một chảo nấu sốt**.
+    Sốt phải sánh lại tới mức gần thành kẹo rồi mới cho gà vào, đảo đúng hai
+    phút cho áo ngoài — vừa đủ bám, chưa kịp ngấm.
+  - >-
+    Chỗ thứ hai hay hỏng là củ tỏi. Tỏi băm phi vàng rất thơm, nhưng thả nó nằm
+    trong chảo đường nóng thêm vài phút nữa là đen và đắng. Người quen tay bao
+    giờ cũng **phi tỏi trước, vớt ra để riêng**, rồi rắc lên sau cùng — vừa giữ
+    được màu vàng đẹp, vừa còn nguyên mùi.
+  - >-
+    Còn cái mẹo **chiên hai lần** thì mượn từ nghề chiên gà: lần đầu cho chín và
+    vàng, vớt ra để nguội chừng năm phút cho hơi ẩm bên trong thoát bớt, rồi thả
+    lại chảo dầu nóng già đúng một phút. Lớp vỏ sau lần hai giòn lâu hơn hẳn —
+    đủ để chịu được lớp sốt mà không xẹp.
+
+ingredientGroups:
+  - name: Cánh gà
+    icon: meat
+    items:
+      - id: canhga
+        name: Cánh gà
+        icon: meat
+        base: 800
+        unit: g
+        note: >-
+          Chặt đôi ở khớp thành **cánh giữa** và **tỏi gà** cho vừa miếng và
+          nhanh chín. Cánh giữa nhiều da hơn nên giòn hơn, tỏi gà nhiều thịt hơn
+      - id: khumuiga
+        name: Muối hột · gừng · rượu trắng
+        icon: ginger
+        qtyText: 1 muỗng canh muối · 1 nhánh gừng · 1 muỗng canh rượu
+        note: Bóp rửa cho sạch mùi hôi, xả lại nước lạnh rồi lau khô
+      - id: uopcanh
+        name: Muối · tiêu
+        icon: jar
+        qtyText: 1 muỗng cà phê muối · 1/2 muỗng cà phê tiêu
+        note: >-
+          Ướp **khô và nhạt tay** thôi — lát nữa còn cả lớp sốt mắm đường phủ
+          lên, ướp đậm là mặn chát
+      - id: botchien
+        name: Bột chiên giòn
+        icon: basket
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Xóc **một lớp thật mỏng rồi phủi bớt**. Bột dày thì lớp áo bong ra
+          khỏi da lúc đảo sốt, nhìn lem nhem
+  - name: Sốt mắm đường
+    icon: jar
+    items:
+      - id: mamduong
+        name: Nước mắm · đường
+        icon: jar
+        qtyText: 3 muỗng canh mỗi thứ
+        note: >-
+          Tỉ lệ **một mắm một đường** là chỗ dễ nhớ. Nước mắm ngon thì sốt thơm
+          hẳn, đây là món để nước mắm lên tiếng
+      - id: nuocsot
+        name: Nước lọc
+        icon: drop
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Chỉ để đường tan đều và sốt khỏi cháy lúc đầu — sẽ bay hết khi đun
+      - id: toiphi
+        name: Tỏi băm
+        icon: garlic
+        base: 1
+        unit: củ
+        note: >-
+          Phi vàng rồi **vớt ra để riêng**, rắc lên sau cùng. Để trong chảo sốt
+          là cháy đắng
+      - id: otcanhga
+        name: Ớt
+        icon: chili
+        color: red
+        base: 2
+        unit: trái
+        note: Thái lát. Nhà có trẻ nhỏ thì để riêng một phần không ớt trước khi cho vào
+      - id: hanhlaga
+        name: Hành lá
+        icon: herb
+        color: green
+        qtyText: 3 cây
+        note: Thái nhỏ, rắc lúc tắt bếp cho có màu xanh và mùi tươi
+
+stepsTitle: Bốn nhịp — **hai cái chảo** là chỗ khác biệt duy nhất
+stepsLead: >-
+  Cả món chỉ có một bí quyết, và nó nằm ở nhịp thứ tư: nấu sốt ở một chảo khác,
+  đun cho sánh rồi mới trút gà vào đảo hai phút.
+steps:
+  - title: Rửa, lau khô, ướp
+    icon: knife
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Chặt cánh gà làm đôi ở khớp. Bóp với muối hột và gừng đập dập, xối
+          rượu trắng, rửa lại dưới vòi.
+      - label: "Lau khô là bắt buộc:"
+        text: >-
+          Thấm giấy cho **thật khô cả trong nếp da**. Còn ẩm thì dầu bắn dữ và
+          lớp vỏ không giòn nổi.
+      - text: >-
+          Ướp muối tiêu (và chút nước gừng nếu thích) **20 phút**. Ướp nhạt tay
+          vì còn lớp sốt mặn ngọt phủ lên sau.
+    timer:
+      secs: 1200
+      label: Ướp cánh gà · 20:00
+      doneMsg: Xóc bột rồi bắc chảo dầu lên nghen!
+  - title: Xóc bột, chiên lần một
+    icon: flame
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Xóc cánh gà với bột chiên giòn cho **áo một lớp mỏng**, cầm từng miếng
+          phủi bớt chỗ bột thừa.
+      - label: "Dầu đúng độ:"
+        text: >-
+          Đun dầu tới **170–180 °C** — thả một chút bột vào thấy nổi lên ngay và
+          sủi tăm đều là được. Dầu nguội thì gà ngậm dầu, dầu quá già thì cháy
+          ngoài sống trong.
+      - text: >-
+          Chiên từng mẻ, đừng chất chật chảo. Mỗi mẻ chừng **7–8 phút** tới khi
+          vàng đều. Vớt ra rổ có lót giấy.
+    callout:
+      type: warn
+      text: >-
+        Chất đầy chảo một lượt là nhiệt độ dầu tụt xuống, cả mẻ chiên trong dầu
+        nguội và ngậm dầu. Thà chiên hai ba mẻ còn hơn một mẻ ỉu.
+  - title: Chiên lần hai cho giòn lâu
+    icon: flame
+    minutes: 6 phút
+    bullets:
+      - text: >-
+          Để cánh gà nghỉ ngoài rổ **5 phút** cho hơi ẩm bên trong thoát bớt.
+      - text: >-
+          Tăng lửa cho dầu nóng già hơn lần đầu, thả gà vào chiên lại đúng **1
+          phút** rồi vớt ra ngay.
+      - text: >-
+          Sờ thấy lớp vỏ khô ráo và cứng hơn hẳn là đạt. Đây là bước đổi lấy độ
+          giòn chịu được lớp sốt.
+    timer:
+      secs: 300
+      label: Để gà nghỉ trước khi chiên lại · 05:00
+      doneMsg: Dầu nóng già rồi thả vào một phút thôi nghen!
+  - title: Nấu sốt chảo riêng, đảo hai phút
+    icon: pot
+    minutes: 8 phút
+    intro: "Đây là nhịp quyết định giòn hay mềm:"
+    bullets:
+      - label: "Phi tỏi rồi vớt ra:"
+        text: >-
+          Chảo sạch, chút dầu, phi tỏi băm tới **vàng nhạt** thì vớt ra chén để
+          riêng. Cho ớt lát vào đảo nhanh rồi cũng vớt ra.
+      - label: "Nấu sốt:"
+        text: >-
+          Cho nước mắm, đường và nước vào chảo, đun lửa vừa tới khi sốt **sánh
+          lại và nổi bọt to chậm** — chừng 2–3 phút.
+      - label: "Đảo đúng hai phút:"
+        text: >-
+          Trút cánh gà vào, đảo nhanh tay cho sốt áo đều mặt ngoài. **Đúng 2
+          phút rồi tắt bếp** — đảo lâu là sốt ngấm vào và vỏ mềm.
+      - text: Rắc tỏi phi, ớt và hành lá, xóc một vòng cuối rồi trút ra dĩa ngay.
+    timer:
+      secs: 120
+      label: Đảo gà với sốt · 02:00
+      doneMsg: Tắt bếp, rắc tỏi phi lên là xong!
+    doneText: Xong — dọn ra lúc còn nghe rắc!
+
+tipsTitle: 4 chỗ **quyết định** dĩa cánh gà
+tips:
+  - icon: pot
+    title: Hai cái chảo, không phải một
+    text: >-
+      Đây là toàn bộ bí quyết của món. Chiên xong đổ mắm thẳng vào chảo đang có
+      gà thì nước trong sốt thấm ngược vào lớp vỏ, và không cứu lại được. Nấu
+      sốt riêng cho tới khi sánh gần thành kẹo, rồi mới trút gà vào áo hai phút.
+  - icon: garlic
+    title: Tỏi phi xong vớt ra ngay
+    text: >-
+      Tỏi băm để trong chảo sốt đường nóng chỉ vài phút là đen và đắng, kéo cả
+      dĩa xuống. Phi tới **vàng nhạt** thôi rồi vớt ra — nó còn vàng thêm một
+      chút nữa nhờ nhiệt dư. Rắc lên sau cùng thì vừa giữ màu vừa giữ mùi.
+  - icon: flame
+    title: Chiên hai lần, nghỉ năm phút ở giữa
+    text: >-
+      Lần một cho chín vàng, để nghỉ cho hơi ẩm bên trong thoát ra, lần hai
+      trong dầu nóng già đúng một phút. Lớp vỏ sau lần hai khô và cứng hơn hẳn,
+      đủ sức chịu lớp sốt. Bỏ bước này thì gà vẫn ăn được, chỉ là mềm nhanh hơn.
+  - icon: jar
+    title: Ướp nhạt tay vì còn lớp sốt
+    text: >-
+      Sai lầm hay gặp là ướp đậm như kho rồi lại phủ thêm sốt mắm đường — dĩa gà
+      mặn chát, ăn hai miếng là phải với ly nước. Ướp chỉ cần muối tiêu nhẹ để
+      thịt có nền, còn vị chính để dành cho lớp sốt bên ngoài.
+
+serve:
+  title: Dĩa cánh gà — **ăn bằng tay, và ăn ngay**
+  paras:
+    - >-
+      Món này không chờ được. Trút ra dĩa là bưng lên, vì mỗi phút để đó lớp vỏ
+      lại mềm thêm một chút. Bày dĩa nông trải rộng chứ đừng chất đống — chất
+      cao thì hơi nóng bốc lên hấp ngược làm miếng dưới ỉu.
+    - >-
+      Ăn bằng tay là đúng nhất, nên nhớ để sẵn giấy hoặc khăn ướt. Trong mâm cơm
+      thì nó là món mặn đưa cơm; trên bàn nhậu thì tự nó đứng riêng, thêm dĩa
+      dưa leo thái lát cho đỡ ngán là đủ.
+  aside:
+    title: Dọn cùng gì cho hợp
+    intro: "Ba thứ đi cùng dĩa cánh gà:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — phần sốt còn dính dĩa vét vào chén cơm là hết sạch."
+      - icon: lime
+        text: "**Dưa leo, cà chua thái lát** cho mát miệng giữa các miếng."
+      - icon: bowl
+        text: "**Một bát canh rau thanh** nếu dọn trong mâm cơm — món này đậm nên cần chỗ nhẹ đi kèm."
+
+faq:
+  - q: Không có bột chiên giòn thì sao?
+    a: >-
+      Xóc một lớp **bột bắp** hoặc **bột năng** thật mỏng cũng ra vỏ giòn tương
+      tự. Hoặc bỏ hẳn bột: lau gà thật khô rồi chiên trần, vỏ da vẫn giòn được —
+      chỉ là mỏng hơn và mềm nhanh hơn một chút, nên bù bằng cách chiên hai lần.
+  - q: Làm bằng nồi chiên không dầu được không?
+    a: >-
+      Được. Xóc chút dầu rồi nướng **200 °C khoảng 18–20 phút**, trở một lần
+      giữa chừng. Phần sốt vẫn nấu ở chảo riêng như hướng dẫn rồi trút cánh gà
+      vào đảo. Vỏ sẽ không giòn bằng chiên ngập dầu, nhưng cách áo sốt thì giống
+      hệt.
+  - q: Sốt bị cháy đắng hoặc vón thành kẹo cứng?
+    a: >-
+      Đường cháy quá tay. Đun **lửa vừa** thôi và canh tới lúc bọt nổi to chậm
+      là trút gà vào ngay, đừng đợi sốt đổi màu nâu sẫm. Lỡ đặc quá thì thêm một
+      muỗng nước nóng khuấy đều là loãng lại — nhưng cháy đắng rồi thì phải đổ
+      đi nấu chén khác.
+  - q: Làm trước cho bữa tối được không?
+    a: >-
+      Chiên trước lần một rồi để nguội, cất ngăn mát. Tới bữa **chiên lại lần
+      hai** rồi mới nấu sốt và đảo — cách này thậm chí tiện hơn làm một mạch.
+      Đừng áo sốt trước rồi hâm lại, hâm lần nào là mềm thêm lần đó.
+
+ticker:
+  - icon: flame
+    text: Nấu sốt chảo riêng rồi mới trút gà vào đảo hai phút
+  - icon: garlic
+    text: Tỏi phi vàng thì vớt ra, rắc lên sau cùng

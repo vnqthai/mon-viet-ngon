@@ -1,0 +1,150 @@
+---
+/* Gà hấp hành — BẢN 2, vẽ lại bố cục.
+   Bản 1 đặt từng miếng gà cách nhau trên dĩa, hở nền xanh giữa các miếng, nên
+   Thái xem thấy "chỉ là mấy cục thịt, rời rạc, không giống một món ăn".
+
+   Lỗi không nằm ở từng miếng mà ở CÁCH BÀY. Mấy hình đọc ra "một dĩa đồ ăn" trên
+   site (gỏi xoài, gỏi gà, chả giò) đều làm chung một kiểu: **vẽ MỘT PATH KHỐI
+   LIỀN làm nền đống trước, rồi mới vẽ chi tiết ĐÈ LÊN** — nên không đâu hở nền.
+   Bản này làm đúng vậy:
+     1. một khối HÀNH LÁ liền lấp kín lòng dĩa (không phải mấy khúc rời)
+     2. miếng gà xếp CHỒNG MÉP LÊN NHAU thành gò, miếng nào cũng chạm miếng khác
+     3. cái ĐÙI GÀ đặt trên đỉnh gò, xương chìa ra — chữ ký làm cả dĩa đọc ra "gà"
+
+   Miếng gà chặt vẽ đúng ba lớp (rút ra ở bản 1 sau hai lần hỏng): mặt trên là DA
+   VÀNG có nếp · MẶT CẮT thịt trắng chỉ lộ ở mép dưới trước · một MẨU XƯƠNG chìa
+   ra khỏi mặt cắt. Thiếu mẩu xương là đọc ra củ khoai.
+
+   Vẫn tách bạch khỏi ba món gà khác: gà nướng mắc khén (nguyên con trên mẹt tre,
+   nền đỏ) · gà kho gừng (miếng chìm trong nước kho trong tộ đất) · cơm gà Hội An
+   (gà xé sợi trên gò cơm, nền vàng). Chữ ký riêng ở đây là mảng XANH của hành lá
+   chiếm gần nửa hình. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Đĩa gà hấp hành: gò miếng gà chặt da vàng xếp chồng trên lớp hành lá xanh dày, một đùi gà lộ xương trên đỉnh, kèm chén muối tiêu chanh">
+  <defs>
+    <linearGradient id="ghhDa" x1="0.1" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#F5D479"/><stop offset="1" stop-color="#D9A233"/>
+    </linearGradient>
+    <linearGradient id="ghhDa2" x1="0.1" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#EFC862"/><stop offset="1" stop-color="#C8912A"/>
+    </linearGradient>
+    <linearGradient id="ghhHanh" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#5E9436"/><stop offset="1" stop-color="#345C1D"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="244" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="244" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M216 190 C 205 166 231 150 220 124 C 213 108 227 96 223 82"/>
+    <path d="M292 184 C 282 160 308 146 297 120 C 290 104 304 92 300 78"/>
+  </g>
+  <ellipse cx="258" cy="416" rx="196" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- DĨA SỨ TRẮNG -->
+  <path d="M58 330 C 64 388 152 416 258 416 C 364 416 452 388 458 330 Z" fill="#EFE9D6"/>
+  <ellipse cx="258" cy="328" rx="200" ry="56" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="258" cy="328" rx="200" ry="56" fill="none" stroke="#2C5234" stroke-width="4.5"/>
+  <ellipse cx="258" cy="329" rx="178" ry="46" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+  <ellipse cx="256" cy="320" rx="146" ry="26" fill="#3B5A20" opacity=".3"/>
+
+  <!-- ===== LỚP HÀNH LÁ: MỘT KHỐI LIỀN, không phải mấy khúc rời =====
+       Đây là chỗ chữa gốc: khối này lấp kín lòng dĩa nên không có kẽ hở nền
+       giữa các miếng gà nằm trên. Khúc hành riêng chỉ vẽ ở MÉP khối cho tơi. -->
+  <path d="M112 318 C 116 296 148 278 196 270 C 240 262 288 262 330 270
+           C 378 279 404 296 406 316 C 408 332 386 342 340 346
+           C 292 350 214 350 168 346 C 126 342 110 332 112 318 Z"
+        fill="url(#ghhHanh)" stroke="#2E5220" stroke-width="2.4"/>
+  <!-- khúc hành ló ra mép khối, chồng lên vành dĩa cho khỏi thành đường viền cứng -->
+  <g fill="#4E7F2C" stroke="#2E5220" stroke-width="2">
+    <rect x="76" y="312" width="64" height="14" rx="7" transform="rotate(-9 108 319)"/>
+    <rect x="384" y="318" width="66" height="14" rx="7" transform="rotate(7 417 325)"/>
+    <rect x="150" y="340" width="72" height="13" rx="6.5" transform="rotate(5 186 346)"/>
+    <rect x="286" y="342" width="80" height="13" rx="6.5" transform="rotate(-4 326 348)"/>
+    <rect x="200" y="256" width="60" height="12" rx="6" transform="rotate(-8 230 262)"/>
+  </g>
+  <!-- sống lá sáng vẽ trên mặt khối, cho ra "nhiều cọng hành" mà không cắt khối -->
+  <g stroke="#A8D178" stroke-width="2.4" fill="none" opacity=".8" stroke-linecap="round">
+    <path d="M128 322 C 158 306 196 296 236 292"/>
+    <path d="M148 336 C 182 322 220 314 260 312"/>
+    <path d="M270 292 C 310 294 348 302 380 314"/>
+    <path d="M262 316 C 300 318 336 326 366 336"/>
+    <path d="M186 274 C 216 268 248 266 278 268"/>
+  </g>
+
+  <!-- ===== GÒ MIẾNG GÀ: xếp chồng mép lên nhau, không miếng nào đứng lẻ ===== -->
+  <g stroke="#8A5A10" stroke-width="2.6" stroke-linejoin="round">
+    <!-- lớp sau -->
+    <g transform="translate(180 282) rotate(-9) scale(0.92)">
+      <path d="M-38 -8 L -28 -24 L -4 -30 L 22 -25 L 40 -10 L 40 6 L 15 19 L -13 18 L -34 8 Z" fill="url(#ghhDa)"/>
+      <path d="M-34 8 L -13 18 L 15 19 L 40 6 L 38 19 L 11 32 L -15 30 L -34 18 Z" fill="#F6EAC9"/>
+      <path d="M-28 -18 C -14 -27 8 -28 26 -20" fill="none" stroke="#FCEFC0" stroke-width="6.4" stroke-linecap="round" opacity=".85"/>
+      <path d="M-24 17 C -8 25 12 26 30 19" fill="none" stroke="#D8C093" stroke-width="1.8" opacity=".95"/>
+      <path d="M-22 -6 C -6 0 14 0 32 -6" fill="none" stroke="#B8871C" stroke-width="1.9" opacity=".6"/>
+    </g>
+    <g transform="translate(268 268) rotate(6) scale(0.94)">
+      <path d="M-38 -8 L -28 -24 L -4 -30 L 22 -25 L 40 -10 L 40 6 L 15 19 L -13 18 L -34 8 Z" fill="url(#ghhDa2)"/>
+      <path d="M-34 8 L -13 18 L 15 19 L 40 6 L 38 19 L 11 32 L -15 30 L -34 18 Z" fill="#F6EAC9"/>
+      <path d="M-28 -18 C -14 -27 8 -28 26 -20" fill="none" stroke="#FCEFC0" stroke-width="6.4" stroke-linecap="round" opacity=".85"/>
+      <path d="M-24 17 C -8 25 12 26 30 19" fill="none" stroke="#D8C093" stroke-width="1.8" opacity=".95"/>
+      <path d="M-22 -6 C -6 0 14 0 32 -6" fill="none" stroke="#B8871C" stroke-width="1.9" opacity=".6"/>
+    </g>
+    <g transform="translate(348 288) rotate(17) scale(0.88)">
+      <path d="M-38 -8 L -28 -24 L -4 -30 L 22 -25 L 40 -10 L 40 6 L 15 19 L -13 18 L -34 8 Z" fill="#EDBF57"/>
+      <path d="M-34 8 L -13 18 L 15 19 L 40 6 L 38 19 L 11 32 L -15 30 L -34 18 Z" fill="#F2E4C0"/>
+      <path d="M-28 -18 C -14 -27 8 -28 26 -20" fill="none" stroke="#FCEFC0" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+      <path d="M-24 17 C -8 25 12 26 30 19" fill="none" stroke="#D8C093" stroke-width="1.7" opacity=".95"/>
+    </g>
+
+    <!-- lớp trước: miếng chồng lên chân gò, bịt kín khe giữa lớp sau và mép dĩa -->
+    <g transform="translate(212 322) rotate(4) scale(0.96)">
+      <path d="M-38 -8 L -28 -24 L -4 -30 L 22 -25 L 40 -10 L 40 6 L 15 19 L -13 18 L -34 8 Z" fill="url(#ghhDa)"/>
+      <path d="M-34 8 L -13 18 L 15 19 L 40 6 L 38 19 L 11 32 L -15 30 L -34 18 Z" fill="#FBF2DA"/>
+      <path d="M-28 -18 C -14 -27 8 -28 26 -20" fill="none" stroke="#FCEFC0" stroke-width="6.4" stroke-linecap="round" opacity=".9"/>
+      <path d="M-24 17 C -8 25 12 26 30 19" fill="none" stroke="#D8C093" stroke-width="1.8" opacity=".95"/>
+      <path d="M-22 -6 C -6 0 14 0 32 -6" fill="none" stroke="#B8871C" stroke-width="1.9" opacity=".6"/>
+    </g>
+
+    <!-- ĐÙI GÀ trên đỉnh gò: khối giọt + xương chìa dài có hai khớp tròn -->
+    <g transform="translate(286 306) rotate(6) scale(0.95)">
+      <g transform="rotate(66)">
+        <rect x="-104" y="-9" width="72" height="18" rx="9" fill="#FDF8EA"/>
+        <circle cx="-102" cy="-9" r="11" fill="#FDF8EA"/><circle cx="-102" cy="9" r="11" fill="#FDF8EA"/>
+        <path d="M-96 -6 L -50 -6" fill="none" stroke="#D8C79E" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <path d="M-40 -24 C -26 -38 0 -42 22 -34 C 44 -26 52 -4 46 15 C 40 34 16 44 -8 40 C -32 36 -46 20 -46 2 C -46 -10 -44 -19 -40 -24 Z" fill="url(#ghhDa2)"/>
+      <path d="M-32 -20 C -18 -32 4 -35 22 -30" fill="none" stroke="#FCEFC0" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+      <g fill="none" stroke="#B8871C" stroke-width="2.2" opacity=".7">
+        <path d="M-30 12 C -12 22 14 24 36 15"/><path d="M-20 27 C -4 35 16 36 32 28"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- HÀNH LÁ phủ TRÊN gò gà: vắt qua mặt thịt cho hai lớp lồng vào nhau -->
+  <g stroke="#2E5220" stroke-width="1.9" fill="#4E7F2C">
+    <rect x="158" y="256" width="62" height="10" rx="5" transform="rotate(-24 189 261)"/>
+    <rect x="302" y="252" width="58" height="10" rx="5" transform="rotate(20 331 257)"/>
+    <rect x="232" y="298" width="66" height="10" rx="5" transform="rotate(-7 265 303)"/>
+  </g>
+  <g stroke="#A8D178" stroke-width="1.8" fill="none" opacity=".9">
+    <path d="M165 262 L 213 240"/><path d="M307 257 L 353 270"/><path d="M238 304 L 292 298"/>
+  </g>
+
+  <!-- GỪNG SỢI + LÁ CHANH THÁI CHỈ rắc trên gò -->
+  <g fill="#F0DFA4" stroke="#C8A85E" stroke-width="1.2">
+    <path d="M204 292 l22 -5 1 4 -22 5 Z"/><path d="M262 282 l20 -6 1 4 -20 6 Z"/>
+    <path d="M330 300 l21 -4 1 4 -21 4 Z"/><path d="M176 312 l19 -6 1 4 -19 6 Z"/>
+  </g>
+  <g fill="#2E5220">
+    <path d="M244 268 l18 -3 0 3 -18 3 Z"/><path d="M310 286 l16 -3 0 3 -16 3 Z"/><path d="M198 326 l17 -3 0 3 -17 3 Z"/>
+  </g>
+
+  <!-- CHÉN MUỐI TIÊU CHANH — chỉ một bên, cố ý không đối xứng -->
+  <g transform="translate(104 372)">
+    <ellipse cx="0" cy="18" rx="48" ry="12" fill="rgba(15,26,14,.32)"/>
+    <path d="M-40 -8 C -38 12 -22 25 0 25 C 22 25 38 12 40 -8 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-8" rx="33" ry="10" fill="#F2EDDC" stroke="#CFC7AC" stroke-width="1.8"/>
+    <g fill="#3A3227"><circle cx="-14" cy="-9" r="1.8"/><circle cx="-2" cy="-6" r="1.6"/><circle cx="10" cy="-10" r="1.9"/><circle cx="20" cy="-6" r="1.5"/><circle cx="-22" cy="-5" r="1.4"/></g>
+    <path d="M-30 -14 C -22 -22 -6 -24 4 -20 C -6 -12 -20 -10 -30 -14 Z" fill="#9AC46A" stroke="#4E7B36" stroke-width="1.8"/>
+    <circle cx="16" cy="-14" r="4" fill="#D64B33" stroke="#A83722" stroke-width="1.4"/>
+  </g>
+</svg>

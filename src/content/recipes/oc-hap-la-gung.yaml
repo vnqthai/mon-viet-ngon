@@ -1,0 +1,353 @@
+title: Ốc hấp lá gừng **cuốn lại, nhét ngược vào vỏ**
+summary: >-
+  Món cỗ mùa thu của bếp Bắc: thịt **ốc nhồi** băm trộn giò sống, nấm hương và
+  mộc nhĩ, gói trong tàu lá gừng non rồi nhét ngược vào chính cái vỏ ốc mà hấp.
+  Mở nắp xửng là mùi lá gừng xông lên trước cả mùi ốc.
+region: Miền Bắc
+category: Hấp
+occasions: [Đãi khách, Nhậu lai rai]
+pubDate: 2026-07-29
+time:
+  total: 3 giờ 30 phút
+  active: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 53
+art: oc-hap-la-gung
+heroEyebrow: Cỗ mùa thu đất Bắc…
+
+quick:
+  ingredients:
+    - Ốc nhồi [[1|kg]] — con to, vỏ dày có vằn ngang, **không phải ốc bươu vàng**
+    - Giò sống [[100|g]] · thịt nạc vai xay [[100|g]]
+    - Lá gừng non [[25|lá]] — vừa để gói vừa để lót
+    - Nấm hương [[6|cái]] · mộc nhĩ [[5|tai]] — ngâm nở, băm nhỏ
+    - "Nêm nhân: nước gừng [[2|muỗng canh|frac]] · tiêu · hạt nêm · hành hoa"
+    - "Hấp cùng: sả đập dập · lá chanh · gừng thái lát"
+    - "Nước chấm: nước mắm · đường · giấm · gừng tỏi ớt giã · lá chanh thái chỉ"
+  steps:
+    - Ngâm ốc nước vo gạo có vài lát ớt **2–3 tiếng** cho nhả hết nhớt và bùn.
+    - >-
+      **Đập nhẹ trôn ốc** khều lấy thịt, bỏ phần ruột đen; bóp chanh với muối
+      hột cho hết nhớt rồi rửa lại thật sạch. Rửa và giữ lại phần vỏ.
+    - Băm thịt ốc, trộn với giò sống, thịt xay, nấm hương, mộc nhĩ, nước gừng và gia vị.
+    - Trải lá gừng, đặt viên nhân lên, cuốn lại rồi **nhét ngược vào vỏ ốc**, chừa đuôi lá ló ra.
+    - Xếp vào xửng, rắc sả lá chanh gừng lên trên, **hấp 15 phút** là chín.
+  warning: >-
+    Đừng bỏ qua khâu bóp chanh muối cho thịt ốc. Con ốc nhồi nhiều nhớt, rửa
+    nước không thôi là **nhân vẫn nhớt và tanh** — hấp lên mới phát hiện thì
+    không cứu được nữa.
+
+flavor:
+  chua: 2
+  ngot: 5
+  man: 6
+  cay: 4
+  thom: 9
+flavorNote: >-
+  **Chuẩn đĩa:** mở xửng ra là mùi **lá gừng** dậy lên trước; cắn vào viên nhân
+  thấy **giòn sần sật của thịt ốc** lẫn trong chỗ mềm mịn của giò sống, không
+  nhớt, không tanh. Chấm nước mắm gừng chua ngọt có lá chanh thái chỉ.
+
+storyEyebrow: Chuyện món ăn
+storyTitle: Cái vỏ ốc làm **cái nồi con**, tàu lá gừng làm **cái nắp thơm**
+story:
+  - >-
+    Ốc hấp lá gừng là món cỗ cũ của người Hà Nội, hay gặp nhất vào **mùa thu** —
+    lúc trời trở mát và con ốc nhồi béo nhất trong năm. Nó thuộc loại món bày
+    trên mâm cỗ để nhìn cho vui mắt chứ không phải món ăn cho no: mỗi người vài
+    con, gỡ ra nhấm nháp.
+  - >-
+    Cách làm có một chỗ rất khéo. Thịt ốc gỡ ra, băm lên rồi trộn với giò sống —
+    tức là đã rời khỏi cái vỏ — vậy mà người ta **nhét ngược trở lại vào chính
+    cái vỏ đó** để hấp. Cái vỏ thành một cái nồi con: hơi nước không chạm thẳng
+    vào nhân, viên chả chín từ từ trong hơi nóng của chính nó, nên giữ được nước
+    ngọt thay vì nhão ra.
+  - >-
+    Tàu lá gừng gói bên ngoài viên nhân thì làm hai việc. Một là ngăn nhân dính
+    vào lòng vỏ, gỡ ra nguyên viên. Hai — và đây mới là chính — là **ướp mùi**:
+    lá gừng non gặp hơi nóng tỏa ra một mùi thơm the và ấm, khác hẳn mùi củ
+    gừng già, và mùi đó ngấm thẳng vào viên chả trong lúc hấp.
+  - >-
+    Người ta cố ý để **một đầu lá thò ra khỏi miệng vỏ**. Nhìn thì tưởng để cho
+    đẹp, nhưng thật ra đó là cái quai: cầm đầu lá kéo một cái là cả viên nhân
+    trôi ra gọn, khỏi phải lể bằng tăm. Món cỗ nhà ai cũng có mẹo riêng, mẹo của
+    món này nằm ở cọng lá thò ra ấy.
+
+ingredientGroups:
+  - name: Con ốc
+    icon: shrimp
+    items:
+      - id: ocnhoi
+        name: Ốc nhồi
+        icon: shrimp
+        base: 1
+        unit: kg
+        note: >-
+          Còn gọi là **ốc bươu đen**. Vỏ dày, có vằn ngang mờ, con to cỡ [[5|cm]]
+          trở lên. Phân biệt với **ốc bươu vàng** (vỏ mỏng bóng, tròn hơn, thịt
+          có một cục màu cam) — mua nhầm là thịt bở và không ngọt
+      - id: ngamoc
+        name: Nước vo gạo · ớt
+        icon: rice
+        qtyText: Đủ ngập ốc · 3 lát ớt
+        note: Ngâm 2–3 tiếng cho ốc nhả hết nhớt và bùn. Ngâm qua đêm càng sạch
+      - id: chanhmuoi
+        name: Chanh · muối hột
+        icon: lime
+        qtyText: 2 trái chanh · 2 muỗng canh muối
+        note: >-
+          Bóp kỹ với thịt ốc đã gỡ rồi rửa lại nhiều lần — đây là bước khử nhớt,
+          bỏ là hỏng cả đĩa
+  - name: Nhân chả ốc
+    icon: meat
+    items:
+      - id: giosongoc
+        name: Giò sống
+        icon: meat
+        base: 100
+        unit: g
+        note: >-
+          Chất kết dính làm viên nhân **mịn và giữ dáng**. Thiếu nó thì nhân rời
+          ra khi hấp, kéo lá gừng là rơi vãi
+      - id: thitxayoc
+        name: Thịt nạc vai xay
+        icon: meat
+        base: 100
+        unit: g
+        note: Cho viên nhân đằm lại, đừng dùng thịt quá nạc kẻo khô
+      - id: namhuong
+        name: Nấm hương
+        icon: basket
+        base: 6
+        unit: cái
+        note: Ngâm nở, vắt ráo rồi băm nhỏ. Nấm hương là mùi nền của mọi món chả cỗ Bắc
+      - id: mocnhi
+        name: Mộc nhĩ
+        icon: basket
+        base: 5
+        unit: tai
+        note: Ngâm nở, băm nhỏ — nó cho cái **giòn sựt** trong viên nhân
+      - id: nuocgung
+        name: Nước gừng
+        icon: ginger
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Gừng già giã vắt lấy nước, trộn vào nhân để khử nốt mùi tanh
+      - id: hanhhoa
+        name: Hành hoa · tiêu · hạt nêm
+        icon: herb
+        color: green
+        qtyText: 1 nắm hành hoa · 1/2 muỗng cà phê tiêu
+        note: Tiêu xay dối cho nổi vị, hành hoa thái nhỏ trộn lúc cuối
+  - name: Lá gừng và đồ hấp
+    icon: herb
+    items:
+      - id: lagung
+        name: Lá gừng non
+        icon: herb
+        color: green
+        base: 25
+        unit: lá
+        note: >-
+          Thứ làm nên tên món. Chợ quê và hàng rau thơm lớn có bán theo mớ; nhà
+          nào trồng chậu gừng thì hái luôn. **Chọn lá non và dài**, lá già thì
+          giòn gãy, gói không kín
+      - id: dohap
+        name: Sả đập dập · lá chanh · gừng lát
+        icon: stem
+        color: green
+        qtyText: 3 cây sả · 10 lá chanh · 1 củ gừng
+        note: Rắc lên trên xửng lúc hấp cho hơi nước mang mùi thơm xuống
+  - name: Chén nước chấm
+    icon: bowl
+    items:
+      - id: nchamoc
+        name: Nước mắm · đường · giấm
+        icon: jar
+        qtyText: 2 muỗng canh mắm · 2 muỗng đường · 1 muỗng giấm
+        note: Pha loãng với 2 muỗng nước, nếm cho chua ngọt cân nhau
+      - id: gungtoiot
+        name: Gừng · tỏi · ớt giã
+        icon: ginger
+        qtyText: 1 nhánh gừng · 3 tép tỏi · 2 trái ớt
+        note: >-
+          Giã chứ đừng băm — giã ra mới tiết chất và nổi lên mặt chén. Gừng ở
+          đây phải nhiều, nó nối với mùi lá gừng của viên chả
+      - id: lachanhchi
+        name: Lá chanh thái chỉ
+        icon: herb
+        color: green
+        qtyText: 3 lá
+        note: Rắc lên mặt chén lúc dọn
+
+stepsTitle: Bốn nhịp — nhịp **khều thịt ốc** cần kiên nhẫn nhất
+stepsLead: >-
+  Ngâm ốc mất vài tiếng nên tính giờ từ hôm trước là gọn nhất. Ba nhịp còn lại
+  gói trong chừng một tiếng.
+steps:
+  - title: Ngâm và khều thịt ốc
+    icon: drop
+    minutes: 2–3 giờ + 25 phút
+    bullets:
+      - text: >-
+          Kì cọ vỏ ốc cho sạch rêu, ngâm ngập nước vo gạo với vài lát ớt **2–3
+          tiếng**, giữa chừng thay nước một lần.
+      - label: "Lấy thịt:"
+        text: >-
+          **Đập nhẹ phần trôn ốc** (chóp nhọn ở đáy) cho thủng một lỗ, rồi dùng
+          que khều kéo cả con thịt ra từ miệng vỏ. Cắt bỏ phần ruột đen ở đuôi,
+          chỉ giữ phần thịt trắng và mày ốc.
+      - label: "Khử nhớt:"
+        text: >-
+          Bóp thịt ốc với muối hột và nước cốt chanh, chà nhẹ tay rồi rửa lại
+          **ba bốn lần** tới khi tay sờ không còn thấy nhớt. Để thật ráo.
+      - label: "Giữ lại vỏ:"
+        text: >-
+          Rửa sạch trong lòng vỏ, luộc sơ nước sôi 2 phút rồi úp cho ráo — lát
+          nữa nhét nhân vào chính những cái vỏ này.
+    timer:
+      secs: 3600
+      label: Hẹn giờ ngâm ốc · 60:00
+      doneMsg: Thay nước rồi ngâm thêm một tiếng nữa nghen!
+    callout:
+      type: warn
+      text: >-
+        Con nào ngâm xong vẫn đóng mày kín, đập ra thấy có mùi thì bỏ hẳn. Thịt
+        ốc chết trộn vào nhân là cả mẻ có mùi, mà lúc hấp xong mới biết.
+  - title: Trộn nhân
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Băm thịt ốc **dối tay** — để còn miếng cỡ hạt đậu chứ đừng băm nhuyễn,
+          cái giòn sần sật của ốc nằm ở đó.
+      - text: >-
+          Trộn thịt ốc với giò sống, thịt xay, nấm hương và mộc nhĩ băm, nước
+          gừng, tiêu, hạt nêm và hành hoa. Trộn đều tay cho quyện.
+      - text: Để nghỉ **15 phút** cho ngấm rồi mới gói.
+    callout:
+      type: tip
+      text: >-
+        Muốn chắc ăn thì lấy một thìa nhân **hấp thử 3 phút** rồi nếm trước khi
+        gói cả mẻ. Nhạt thì thêm hạt nêm, còn thấy tanh thì thêm nước gừng và
+        tiêu — chữa lúc này còn kịp.
+  - title: Gói lá gừng, nhét vào vỏ
+    icon: roll
+    minutes: 20 phút
+    intro: "Đây là nhịp làm nên hình dáng của món:"
+    bullets:
+      - label: "Lót trước:"
+        text: >-
+          Nhét một mẩu lá gừng vào sâu trong lòng vỏ để nhân không dính đáy.
+      - label: "Gói:"
+        text: >-
+          Trải một tàu lá gừng, đặt viên nhân cỡ quả quất lên gần cuống lá, cuốn
+          lá lại quanh viên nhân thành một gói thon.
+      - label: "Nhét ngược vào vỏ:"
+        text: >-
+          Đẩy phần viên nhân vào trước, để **đầu lá thò ra ngoài miệng vỏ** chừng
+          [[3|cm]]. Đó là cái quai để kéo ra lúc ăn.
+      - text: Làm lần lượt cho hết, xếp đứng miệng vỏ lên trên vào xửng hấp.
+  - title: Hấp và pha nước chấm
+    icon: pot
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Rắc sả đập dập, lá chanh và gừng thái lát lên trên mặt xửng. Đậy vung,
+          **hấp lửa vừa 15 phút** kể từ lúc nước sôi.
+      - text: >-
+          Trong lúc chờ, pha nước chấm: nước mắm, đường, giấm và nước khuấy tan,
+          cho gừng tỏi ớt giã vào, rắc lá chanh thái chỉ.
+      - text: >-
+          Ốc chín khi đầu lá gừng ngả màu xanh sẫm và viên nhân se mặt. Dọn ra
+          đĩa **lúc còn nóng**, miệng vỏ hướng lên.
+    timer:
+      secs: 900
+      label: Hẹn giờ hấp ốc · 15:00
+      doneMsg: Mở vung ra — mùi lá gừng lên là được rồi!
+    doneText: Xong — kéo đầu lá là cả viên nhân ra gọn!
+
+tipsTitle: 4 chỗ **quyết định** đĩa ốc hấp lá gừng
+tips:
+  - icon: shrimp
+    title: Mua đúng ốc nhồi, đừng nhầm ốc bươu vàng
+    text: >-
+      Ốc nhồi (ốc bươu đen) vỏ dày, có vằn ngang mờ, con to; ốc bươu vàng vỏ
+      mỏng bóng và tròn trịa hơn, thịt có một cục màu cam mà ốc nhồi không có.
+      Ốc bươu vàng rẻ hơn nên hay bị trộn vào. Thịt nó bở và nhạt, băm ra trộn
+      nhân là mất hẳn cái sần sật vốn là điểm của món.
+  - icon: lime
+    title: Bóp chanh muối kỹ — nhớt là hỏng cả mẻ
+    text: >-
+      Con ốc nhồi rất nhiều nhớt, và nhớt thì không bay đi trong lúc hấp. Bóp
+      muối hột với chanh, chà nhẹ, rửa lại ba bốn lần cho tới khi sờ thấy ráo
+      tay. Đây là bước tốn công nhất mà cũng là bước ai làm ẩu cũng bị lộ.
+  - icon: knife
+    title: Băm dối tay, đừng băm nhuyễn
+    text: >-
+      Nếu băm thịt ốc nhuyễn như thịt xay thì viên nhân ra một khối mềm đều —
+      ngon nhưng không còn nhận ra đó là ốc. Băm còn miếng cỡ hạt đậu thì cắn
+      vào gặp chỗ sần sật xen trong chỗ mịn của giò sống, đúng cái tương phản
+      làm nên món.
+  - icon: herb
+    title: Lá gừng non, và phải để một đầu thò ra
+    text: >-
+      Lá già gói dễ gãy và mùi kém hẳn. Chọn lá non dài, gói xong chừa **một đầu
+      lá thò khỏi miệng vỏ** — vừa để nhận ra con nào đã nhồi, vừa làm cái quai
+      kéo viên nhân ra. Không có nó thì lại phải lể bằng tăm, mất hết cái gọn
+      gàng của món cỗ.
+
+serve:
+  title: Đĩa ốc **bày miệng lên** — món của mâm cỗ, ăn thong thả
+  paras:
+    - >-
+      Ốc hấp lá gừng bày ra đĩa, tất cả quay miệng vỏ lên trên cho thấy những
+      đầu lá xanh thò ra. Nó là món khai vị của mâm cỗ chứ không phải món ăn no
+      — mỗi người vài con, cầm vỏ lên, kéo đầu lá, chấm rồi ăn cả viên.
+    - >-
+      Ăn nóng là bắt buộc. Nguội đi thì mùi lá gừng bay mất và viên nhân se lại.
+      Nếu chưa dọn ngay thì **cứ để nguyên trong xửng đậy vung**, tới lúc ăn hấp
+      lại 3 phút là như mới.
+  aside:
+    title: Ăn thế nào cho gọn
+    intro: "Ba việc nhỏ, làm theo là con nào cũng ra nguyên viên:"
+    items:
+      - icon: herb
+        text: "**Cầm đầu lá gừng kéo thẳng ra** — cả viên nhân trôi theo, không cần tăm."
+      - icon: bowl
+        text: "**Chấm nước mắm gừng** rồi ăn cả gói, đừng bóc lá bỏ đi — mùi nằm ở đó."
+      - icon: drop
+        text: "**Một bát không để bỏ vỏ**, và một đĩa nhỏ đựng lá đã ăn."
+
+faq:
+  - q: Không kiếm được lá gừng thì thay bằng gì?
+    a: >-
+      Không có thứ thay đúng — mùi lá gừng là tên của món. Gần nhất là **lá
+      chanh non xếp chồng hai lá** để gói, mùi cũng the nhưng gắt hơn và hơi
+      đắng. Nhà nào hay làm món này thì trồng một chậu gừng ngoài ban công, hái
+      quanh năm.
+  - q: Nhân bị rời ra khi kéo lá?
+    a: >-
+      Do thiếu giò sống hoặc trộn chưa quyện. Giò sống là chất kết dính duy nhất
+      trong viên nhân; ít quá thì nó không giữ được thịt ốc băm dối. Trộn đều
+      tay tới khi hỗn hợp dính thành khối, và nhồi cho **nén chặt** vào vỏ chứ
+      đừng để lỏng lẻo.
+  - q: Ăn vẫn thấy hơi tanh thì chữa sao?
+    a: >-
+      Hai chỗ hay thiếu: **ngâm chưa đủ giờ** và **bóp chanh muối chưa kỹ**. Lần
+      sau ngâm 2–3 tiếng có thay nước, bóp muối chanh ba bốn lần. Mẻ đang làm dở
+      thì tăng nước gừng và tiêu trong nhân, rắc thêm lá chanh lên xửng lúc hấp.
+  - q: Làm trước rồi hấp sau được không?
+    a: >-
+      Được, và nên vậy nếu làm cỗ. Nhồi xong xếp vào hộp, cất ngăn mát **trong
+      ngày**, tới bữa mới hấp 15 phút. Đừng hấp trước rồi hâm lại — hấp hai lần
+      thì viên nhân se lại và lá gừng ngả vàng, mùi bay gần hết.
+
+ticker:
+  - icon: herb
+    text: Gói lá gừng rồi nhét ngược vào vỏ ốc
+  - icon: shrimp
+    text: Băm dối tay cho còn sần sật

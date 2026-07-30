@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
-import RecipeArt from '../../components/art/RecipeArt.astro';
+import ArtImg from '../../components/art/ArtImg.astro';
 import { rich, plain } from '../../utils/rich';
 import { fmtQty } from '../../utils/qty';
 import { viDurationToISO, stepToPlainText } from '../../utils/seo';
@@ -124,7 +124,7 @@ const jsonLd = {
       </div>
 
       <div class="hero__art" aria-hidden="true">
-        <RecipeArt art={d.art} category={d.category} />
+        <ArtImg art={d.art} category={d.category} eager />
       </div>
     </div>
 

@@ -1,0 +1,317 @@
+title: Cá tai tượng chiên xù **dựng đứng, vảy giòn như áo giáp**
+summary: >-
+  Món dọn tiệc quen thuộc của miền Tây: con cá tai tượng để **nguyên vảy** thả
+  chảo dầu, vảy dựng hết lên vàng rộm và giòn tan, thịt trong vẫn trắng ngọt.
+  Dựng đứng con cá lên giá, gỡ từng miếng cuốn bánh tráng chấm mắm me.
+region: Miền Tây
+category: Chiên
+occasions: [Đãi khách, Nhậu lai rai]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 15 phút
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 27
+art: ca-tai-tuong
+heroEyebrow: Mâm tiệc miệt vườn…
+
+quick:
+  ingredients:
+    - Cá tai tượng [[1|con]] chừng [[1|kg]] — **để nguyên vảy, nguyên vây, nguyên đuôi**
+    - Muối hột · gừng đập dập · rượu trắng — để khử tanh
+    - Dầu ăn — đủ ngập nửa con cá, chừng [[1|lít]]
+    - "Mắm me: me vắt [[50|g]] · nước mắm [[3|muỗng canh|frac]] · đường [[3|muỗng canh|frac]] · tỏi ớt băm"
+    - Bánh tráng cuốn · bún rối [[300|g]]
+    - Rau sống · dưa leo · chuối chát · khế chua · xoài xanh
+  steps:
+    - >-
+      **Chỉ mổ bụng lấy ruột và mang** — tuyệt đối không đánh vảy, không cắt vây
+      và đuôi.
+    - Chà muối hột với gừng đập dập khắp mình cá, xối rượu trắng, rửa lại rồi lau **thật khô**.
+    - Bắc chảo sâu, dầu nóng già, nghiêng chảo chiên từng mặt **8–10 phút**, chan dầu lên lưng cá.
+    - Vớt ra dựng đứng con cá lên giá hoặc dựa vào tô úp, để ráo dầu.
+    - Pha mắm me, dọn kèm mẹt bánh tráng · bún · rau — gỡ tới đâu cuốn tới đó.
+  warning: >-
+    Cá còn ướt mà thả vào chảo dầu là **dầu bắn tung tóe**. Lau khô từng kẽ vảy
+    bằng giấy thấm, và khi thả cá thì để nghiêng chảo, thả từ mép cho cá trượt
+    xuống chứ đừng thả úp từ trên cao.
+
+flavor:
+  chua: 6
+  ngot: 5
+  man: 6
+  cay: 4
+  thom: 6
+flavorNote: >-
+  **Chuẩn con cá:** vảy **dựng hết lên và giòn rào rạo** khi bẻ, màu vàng rơm
+  chứ không nâu sậm; thịt bên trong **còn trắng và mọng**, gỡ ra thành miếng
+  chứ không tơi bở. Chén mắm me phải **chua trước, ngọt sau**, sánh nhẹ.
+
+storyEyebrow: Chuyện món ăn
+storyTitle: Cả món nằm ở chỗ **không đánh vảy**
+story:
+  - >-
+    Cá tai tượng là loài cá nước ngọt mình dẹp và bè ra hai bên, nuôi nhiều ở
+    ao mương miền Tây. Người ta gọi tên vậy vì hai vây ngực dài thượt thò ra như
+    hai sợi râu, còn thân thì tròn bè trông đúng như cái tai. Con cỡ một ký là
+    vừa đẹp cho một mâm.
+  - >-
+    Món này có một điều trái với mọi phản xạ trong bếp: **không được đánh vảy**.
+    Vảy cá tai tượng to, cứng và xếp chồng lên nhau; thả vào chảo dầu nóng già
+    thì từng lớp vảy **dựng hết lên và giòn tan**, thành một lớp áo bao ngoài
+    giữ cho thịt bên trong khỏi khô. Đánh vảy đi là mất luôn thứ làm nên tên
+    "chiên xù".
+  - >-
+    Và vì lớp áo đó chịu được lửa, con cá mới chiên được lâu tới mức chín tận
+    xương mà thịt vẫn mọng. Người miền Tây dựng đứng con cá lên giá khi dọn —
+    một phần để khoe, một phần rất thật là **để dầu chảy hết xuống** và hai mặt
+    vảy đều ráo, không bị mặt dưới ỉu vì nằm đọng dầu.
+  - >-
+    Đây là món của bàn đông người. Cá dọn nguyên con, ai cũng gỡ được phần mình,
+    ăn tới đâu cuốn tới đó — nên nó hay xuất hiện ở đám tiệc miệt vườn hơn là
+    trong mâm cơm hằng ngày. Cuốn kèm luôn có **khế chua và chuối chát**, hai
+    thứ cắt hẳn chỗ ngậy của cá chiên.
+
+ingredientGroups:
+  - name: Con cá
+    icon: fish
+    items:
+      - id: catt
+        name: Cá tai tượng
+        icon: fish
+        base: 1
+        unit: con
+        note: >-
+          Chọn con **còn bơi khỏe**, cỡ [[800|g]]–[[1.2|kg]] là vừa chảo nhà.
+          Nhờ hàng cá **chỉ mổ bụng lấy ruột và mang**, dặn kỹ đừng đánh vảy,
+          đừng cắt vây đuôi
+      - id: khutanh
+        name: Muối hột · gừng · rượu trắng
+        icon: jar
+        qtyText: 2 muỗng canh muối · 1 củ gừng · 3 muỗng canh rượu
+        note: >-
+          Chà muối hột với gừng đập dập khắp mình và trong bụng, xối rượu rồi
+          rửa lại. Cá nước ngọt hay có mùi bùn, bước này bỏ là ăn thấy ngay
+      - id: dauchien
+        name: Dầu ăn
+        icon: bottle
+        base: 1
+        unit: lít
+        note: >-
+          Đủ ngập chừng nửa con cá là được, không cần ngập hẳn — chiên một mặt
+          rồi trở. Dầu dùng xong lọc lại vẫn chiên món khác được
+  - name: Chén mắm me
+    icon: lime
+    items:
+      - id: mevat
+        name: Me vắt
+        icon: lime
+        base: 50
+        unit: g
+        note: >-
+          Dầm với [[100|ml]] nước nóng rồi lọc bỏ hạt và xơ. Me vắt cho vị chua
+          dày hơn nước cốt chanh, đây là chén chấm gốc của món
+      - id: nemmamme
+        name: Nước mắm · đường
+        icon: jar
+        qtyText: 3 muỗng canh mỗi thứ
+        note: Nêm sao cho **chua trước ngọt sau**, nếm rồi mới thêm chứ đừng đổ hết một lần
+      - id: toiotmam
+        name: Tỏi · ớt băm
+        icon: chili
+        color: red
+        qtyText: 1 muỗng canh mỗi thứ
+        note: Băm nhuyễn, cho vào sau cùng để nổi lên mặt chén cho đẹp
+  - name: Mẹt cuốn
+    icon: herb
+    items:
+      - id: btcuon
+        name: Bánh tráng cuốn
+        icon: roll
+        qtyText: 1 xấp
+        note: Loại mềm dẻo, vuốt ẩm là cuốn được
+      - id: bunroica
+        name: Bún rối
+        icon: noodle
+        base: 300
+        unit: g
+        note: Một nhúm mỏng trong mỗi cuốn, chủ yếu để thấm bớt dầu
+      - id: rauca
+        name: Xà lách · rau thơm · hẹ
+        icon: herb
+        color: green
+        qtyText: 1 mẹt
+        note: Húng quế, tía tô, diếp cá — mẹt rau miền Tây càng nhiều loại càng đúng
+      - id: khechuoi
+        name: Khế chua · chuối chát · xoài xanh · dưa leo
+        icon: lime
+        color: green
+        qtyText: Mỗi thứ 1 trái
+        note: >-
+          **Khế chua và chuối chát là cặp không thể thiếu** — chúng cắt chỗ ngậy
+          của cá chiên. Chuối chát thái lát ngâm nước chanh cho khỏi thâm
+
+stepsTitle: Bốn nhịp — nhịp **lau khô** quyết định cả chảo dầu
+steps:
+  - title: Sơ chế mà không đánh vảy
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Chỉ bỏ ruột và mang:"
+        text: >-
+          Rạch một đường ở bụng, lấy sạch ruột và mang. **Giữ nguyên vảy, vây và
+          đuôi** — vảy là lớp áo giòn, vây đuôi xòe ra mới đẹp lúc dựng cá.
+      - label: "Khử mùi bùn:"
+        text: >-
+          Chà muối hột với gừng đập dập khắp mình cá và trong bụng, để [[10|phút]],
+          xối rượu trắng rồi rửa lại dưới vòi.
+      - label: "Khứa mình cá:"
+        text: >-
+          Khứa vài đường xéo sâu tới xương ở hai bên mình để cá chín đều tận
+          trong. Xát chút muối vào các đường khứa.
+    callout:
+      type: warn
+      text: >-
+        Đừng ướp cá bằng nước mắm hay hỗn hợp ướt trước khi chiên. Mình cá ẩm là
+        vảy không dựng nổi, mà dầu thì bắn dữ. Muối khô xát vào đường khứa là đủ.
+  - title: Lau thật khô
+    icon: drop
+    minutes: 10 phút
+    intro: "Nghe nhỏ nhưng đây là chỗ hỏng nhiều nhất:"
+    bullets:
+      - text: >-
+          Dùng giấy thấm lau khắp mình cá, **lau cả trong bụng và giữa các kẽ
+          vảy**. Lau đi lau lại tới khi tờ giấy áp vào không còn ẩm.
+      - text: >-
+          Để cá nằm trên rổ chừng [[10|phút]] cho khô thêm ngoài không khí trước
+          khi chiên.
+    timer:
+      secs: 600
+      label: Hong cá cho ráo · 10:00
+      doneMsg: Sờ thấy khô ráo là bắc chảo được rồi!
+    callout:
+      type: tip
+      text: >-
+        Nhà nào sợ dầu bắn thì rắc một lớp **bột chiên giòn thật mỏng** lên mình
+        cá rồi phủi bớt. Nó hút nốt phần ẩm còn lại và làm vảy giòn thêm, miễn
+        là mỏng tới mức gần như không thấy.
+  - title: Chiên nghiêng chảo, chan dầu lên lưng
+    icon: flame
+    minutes: 20 phút
+    bullets:
+      - label: "Dầu phải nóng già:"
+        text: >-
+          Đun dầu tới khi thả đầu đũa gỗ vào thấy sủi tăm quanh đũa. Dầu chưa đủ
+          nóng thì cá **ngậm dầu** và vảy nằm bẹp.
+      - label: "Thả cá:"
+        text: >-
+          Nghiêng chảo, đặt cá ở mép rồi cho trượt xuống — đừng thả úp từ trên
+          cao. Chiên **8–10 phút** một mặt, lửa vừa.
+      - label: "Chan dầu:"
+        text: >-
+          Phần lưng cá nhô khỏi dầu thì dùng muôi **múc dầu nóng chan lên liên
+          tục** cho vảy lưng cũng dựng và vàng.
+      - text: >-
+          Trở mặt, chiên tiếp **8–10 phút**. Cá chín khi vây đuôi cong xòe cứng
+          lại và xiên đũa vào chỗ dày nhất thấy thịt tơi ra.
+    timer:
+      secs: 540
+      label: Chiên mặt thứ nhất · 09:00
+      doneMsg: Vàng rộm rồi — trở mặt nhẹ tay bằng hai cái xẻng nghen!
+  - title: Dựng cá, pha mắm me, dọn mẹt
+    icon: bowl
+    minutes: 10 phút
+    bullets:
+      - label: "Dựng đứng:"
+        text: >-
+          Vớt cá ra, dựng đứng dựa vào một cái tô úp hoặc kẹp giữa hai chén cho
+          đứng vững. Dầu chảy hết xuống, hai mặt vảy đều ráo và giòn.
+      - label: "Mắm me:"
+        text: >-
+          Dầm me vắt với nước nóng, lọc bỏ hạt. Đun me với nước mắm và đường tới
+          khi hơi sánh, để nguội bớt rồi cho tỏi ớt băm vào.
+      - text: >-
+          Dọn mẹt bánh tráng, bún, rau sống, khế, chuối chát cạnh con cá. Gỡ thịt
+          bằng đũa từ lưng xuống, **ăn tới đâu gỡ tới đó** cho cá khỏi nguội.
+    doneText: Xong — cuốn miếng đầu tiên khi vảy còn kêu rào rạo!
+
+tipsTitle: 4 chỗ **quyết định** con cá chiên xù
+tips:
+  - icon: fish
+    title: Không đánh vảy — dặn kỹ hàng cá
+    text: >-
+      Đây là chỗ hỏng phổ biến nhất, và hỏng ngay từ ngoài chợ: hàng cá quen tay
+      đánh vảy sạch trước khi đưa. Dặn rõ **"để nguyên vảy, chỉ mổ bụng"**. Cá
+      đã đánh vảy thì vẫn chiên ăn được, nhưng nó thành cá chiên bình thường,
+      không còn lớp áo giòn nào để gọi là chiên xù.
+  - icon: drop
+    title: Khô ráo là điều kiện, không phải lời khuyên
+    text: >-
+      Vảy chỉ dựng lên khi gặp dầu nóng già mà bản thân nó khô. Còn ẩm thì hơi
+      nước bốc lên đội ngược, vảy nằm bẹp và dầu bắn khắp bếp. Lau kỹ từng kẽ,
+      rồi hong thêm mười phút — mười phút đó đổi lấy cả cái vảy giòn.
+  - icon: flame
+    title: Chan dầu lên lưng thay vì đổ đầy chảo
+    text: >-
+      Không cần cả chảo dầu ngập con cá. Chiên nửa dưới rồi **múc dầu nóng chan
+      liên tục lên phần lưng nhô ra** là vảy trên cũng vàng đều, mà tốn chưa tới
+      một nửa lượng dầu. Cách này cũng dễ trở cá hơn vì chảo không quá đầy.
+  - icon: lime
+    title: Chén mắm me phải chua trước
+    text: >-
+      Cá chiên ngậy, nên chén chấm phải nghiêng hẳn về chua mới cân được. Nêm
+      theo thứ tự: me trước, nước mắm sau, đường cho vào từ từ và nếm liên tục.
+      Chén nào ngọt lấn thì cuốn thứ ba là thấy ngán.
+
+serve:
+  title: Con cá **dựng giữa bàn** — gỡ tới đâu cuốn tới đó
+  paras:
+    - >-
+      Cá chiên xù dọn nguyên con, dựng đứng, và không ai xẻ sẵn. Mỗi người gắp
+      lấy phần mình: gỡ một miếng thịt trắng, bẻ theo một mảng vảy giòn nếu
+      thích, đặt lên lá bánh tráng đã trải rau, cuốn lại rồi chấm mắm me.
+    - >-
+      Phần thịt hai bên lườn là chỗ ngọt nhất, còn **phần má và vây** thì dành
+      cho người biết ăn. Gỡ hết một bên rồi mới trở qua bên kia, đừng xới lung
+      tung — con cá sẽ nát và mất luôn dáng dựng.
+  aside:
+    title: Cuốn thế nào cho ngon
+    intro: "Ba thứ không được thiếu trong một cuốn:"
+    items:
+      - icon: fish
+        text: "**Một miếng thịt cá và một mảnh vảy giòn** — mềm và giòn cùng lúc mới đúng món."
+      - icon: lime
+        text: "**Lát khế chua với lát chuối chát** — hai thứ này cắt hẳn chỗ ngậy của cá chiên."
+      - icon: noodle
+        text: "**Một nhúm bún mỏng** để thấm dầu, đừng nhiều tới mức lấn vị cá."
+
+faq:
+  - q: Không mua được cá tai tượng thì thay con gì?
+    a: >-
+      Cách chiên này hợp với **cá mình dẹp, vảy to và cứng**. Cá diêu hồng hay
+      cá rô phi cỡ một ký là gần nhất, cũng để nguyên vảy chiên y vậy. Cá lóc
+      thì không hợp — mình tròn, vảy nhỏ, chiên xù không ra được lớp áo giòn đó.
+  - q: Vảy không dựng lên mà nằm bẹp là do đâu?
+    a: >-
+      Gần như luôn là hai lỗi: **cá còn ẩm**, hoặc **dầu chưa đủ nóng**. Dầu
+      nguội thì cá ngậm dầu trước khi kịp giòn. Thử lại bằng đầu đũa gỗ: sủi tăm
+      quanh đũa mới thả cá. Đang chiên dở mà thấy nằm bẹp thì tăng lửa và chan
+      dầu nóng lên lưng nhiều hơn.
+  - q: Chiên xong để lâu có bị ỉu không?
+    a: >-
+      Có, và ỉu nhanh. Vì vậy mới có cái mẹo **dựng đứng con cá** — dầu chảy hết
+      xuống, không mặt nào nằm đọng. Dựng được thì giữ giòn thêm chừng nửa
+      tiếng. Chiên sát giờ dọn vẫn là tốt nhất.
+  - q: Nhà không có chảo sâu lòng thì sao?
+    a: >-
+      Dùng chảo thường loại to, đổ dầu chừng [[3|cm]] và chiên từng mặt, chan
+      dầu lên phần nhô ra như hướng dẫn. Cách này còn đỡ tốn dầu hơn. Chỉ cần
+      chảo đủ rộng để con cá nằm lọt, đừng để đuôi cong vênh ra ngoài mà cháy.
+
+ticker:
+  - icon: fish
+    text: Để nguyên vảy — vảy dựng lên mới gọi là chiên xù
+  - icon: lime
+    text: Chấm mắm me chua trước ngọt sau

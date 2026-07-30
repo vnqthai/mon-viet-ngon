@@ -19,11 +19,12 @@ summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Tây Bắc | Tây Nguyên | Cả nước
 category: Canh          # Canh | Kho | Xào | Nướng | Cuốn | Gỏi | Chiên | Hấp | Cơm
-#                       # | Món nước | Bún trộn | Lẩu | Cháo
+#                       # | Món nước | Bún trộn | Lẩu | Cháo | Bánh
 #                       # Món nước = một tô là xong bữa (kể cả tô nước lèo dọn riêng)
 #                       # Canh     = món trong mâm cơm, ăn với cơm trắng
 #                       # Lẩu      = nồi đặt giữa bàn, ăn tới đâu nhúng tới đó
 #                       # Cháo     = gạo ninh nhừ
+#                       # Bánh     = vỏ tráng/đổ từ bột gạo, dù chiên hay hấp
 occasions: [Cơm nhà]    # BẮT BUỘC ít nhất 1 nhãn — để trống là build gãy.
 #                       # Cơm nhà | Bữa sáng | Đãi khách | Nhậu lai rai | Ăn chơi
 #                       # | Cho bé | Cỗ Tết
@@ -50,6 +51,8 @@ order: 99               # thứ tự hiển thị, nhỏ đứng trước
 #                       #               banh-khoai banh-trang-cuon mam-ruoc-xao
 #                       #               bun-do pa-pinh-top bo-mot-nang
 #                       #               ca-loc-nuong-trui oc-len-xao-dua
+#                       #               nem-nuong ca-tai-tuong oc-hap-la-gung
+#                       #               ga-hap-hanh goi-ngo-sen canh-ga-chien
 heroEyebrow: Câu dẫn viết tay trên tiêu đề…
 
 quick:                  # BẢN NẤU NHANH — bắt buộc, cho người lười đọc

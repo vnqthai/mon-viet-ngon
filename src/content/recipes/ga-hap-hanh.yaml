@@ -1,0 +1,311 @@
+title: Gà hấp hành **da vàng ươm, thịt ngọt nguyên**
+summary: >-
+  Con gà không đụng tới một giọt nước: đặt trên một lớp hành lá dày, hấp cách
+  thủy cho chín bằng chính hơi của nó. Thịt ngọt đậm hơn gà luộc hẳn một bậc,
+  da vàng ươm, và dưới đáy đĩa còn đọng lại thứ nước gà nguyên chất.
+region: Cả nước
+category: Hấp
+occasions: [Cơm nhà, Đãi khách, Cỗ Tết]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 10 phút
+  active: 20 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 54
+art: ga-hap-hanh
+heroEyebrow: Mâm cơm nhà có khách…
+
+quick:
+  ingredients:
+    - Gà ta [[1|con]] chừng [[1.4|kg]] — gà mái tơ thì thịt mềm và ngọt
+    - Hành lá [[2|bó]] — cắt khúc dài, **một nửa lót dưới một nửa phủ trên**
+    - Gừng [[1|củ]] thái sợi · hành tây [[1|củ]] bổ múi cau · sả [[2|cây]] đập dập
+    - "Xoa gà: muối [[1|muỗng cà phê|frac]] · đường [[1|muỗng cà phê|frac]] · hạt nêm · tiêu"
+    - "Muối chấm: muối [[1|muỗng canh|frac]] · tiêu · ớt · chanh · lá chanh thái chỉ"
+  steps:
+    - Xát muối hột với gừng khắp mình gà, rửa lại, **lau thật khô** cả trong bụng.
+    - Xoa hỗn hợp muối đường tiêu khắp trong ngoài, nhét gừng sả hành tây vào bụng, ướp **30 phút**.
+    - Trải nửa chỗ hành lá xuống đĩa sâu lòng, đặt gà lên, phủ nốt hành còn lại.
+    - Hấp cách thủy **lửa vừa 40 phút**, trở gà một lần ở phút thứ 30.
+    - Chặt miếng, xếp lại lên đĩa, rưới nước gà đọng dưới đáy, chấm muối tiêu chanh.
+  warning: >-
+    Đừng để nước trong nồi sôi ục ục và trào lên đĩa. Gà hấp mà **ngập nước
+    thành gà luộc** — da bợt, thịt nhạt, và chỗ nước ngọt đáng lẽ đọng lại dưới
+    đáy đĩa thì loãng ra hết. Nước chỉ cần đủ sôi bốc hơi, đĩa kê cao khỏi mặt
+    nước.
+
+flavor:
+  chua: 2
+  ngot: 7
+  man: 5
+  cay: 3
+  thom: 8
+flavorNote: >-
+  **Chuẩn đĩa:** da **vàng ươm và căng**, chặt ra thấy thịt sát xương còn hồng
+  nhạt là vừa chín tới; nước đọng dưới đáy đĩa **trong và ngọt gắt** chứ không
+  đục. Mùi lên là mùi hành lá chín tới quyện gừng, không phải mùi luộc.
+
+storyEyebrow: Chuyện món ăn
+storyTitle: Cùng một con gà — **hấp thì đậm, luộc thì nhạt đi một nửa**
+story:
+  - >-
+    Gà luộc là món quen tới mức ít ai hỏi lại. Nhưng đem một con gà y hệt mà
+    **hấp** thay vì luộc thì khác hẳn, và lý do rất đơn giản: luộc là thả thịt
+    vào nước, nên chất ngọt trong thịt tan ra nồi nước dùng; hấp thì thịt không
+    chạm nước, chất ngọt ở lại trong thớ, phần chảy ra cũng chỉ đọng xuống đáy
+    đĩa chứ không đi đâu mất.
+  - >-
+    Đó là lý do đĩa gà hấp bao giờ cũng có **một ít nước sánh dưới đáy** — thứ
+    nước gà nguyên chất, mặn ngọt sẵn, rưới ngược lên thịt lúc dọn. Người quen
+    nấu còn để dành chỗ nước đó chan cơm, và nó đậm hơn nước luộc gà nhiều lần.
+  - >-
+    Lớp hành lá lót dưới không phải để trang trí. Nó **kê con gà lên khỏi mặt
+    đĩa**, cho hơi nóng luồn được xuống dưới nên gà chín đều hai mặt; đồng thời
+    hành gặp hơi nóng thì tiết mùi lên thẳng vào da gà. Cùng lý do đó mà nửa còn
+    lại được phủ lên trên — mùi đi từ cả hai phía.
+  - >-
+    Món này hợp mâm cơm có khách hơn là bữa thường, vì nó cần một con gà nguyên
+    và một cái nồi to. Bù lại nó gần như không thể hỏng: canh đúng giờ, không
+    đụng tới nữa, mở vung ra là xong. Trong mâm cỗ, đây là món **thay chỗ gà
+    luộc** mà không ai thấy thiếu.
+
+ingredientGroups:
+  - name: Con gà
+    icon: meat
+    items:
+      - id: gata
+        name: Gà ta
+        icon: meat
+        base: 1.4
+        unit: kg
+        frac: true
+        note: >-
+          Gà ta hoặc gà thả vườn, **gà mái tơ** thì thịt mềm ngọt và da mỏng. Gà
+          công nghiệp cũng làm được nhưng thịt bở, hấp xong dễ nát
+      - id: khumui
+        name: Muối hột · gừng
+        icon: ginger
+        qtyText: 2 muỗng canh muối · 1 củ gừng
+        note: >-
+          Xát khắp mình gà rồi rửa lại — vừa sạch nhớt vừa bớt mùi hôi lông. Có
+          rượu trắng thì xối thêm một lượt
+      - id: xoaga
+        name: Muối · đường · hạt nêm · tiêu
+        icon: jar
+        qtyText: 1 muỗng cà phê muối · 1 muỗng cà phê đường
+        note: >-
+          Trộn khô rồi **xoa đều cả trong bụng lẫn ngoài da**. Không dùng nước
+          mắm hay hỗn hợp ướt — ướt thì da không căng vàng được
+  - name: Lớp hành và đồ nhét bụng
+    icon: herb
+    items:
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 2
+        unit: bó
+        note: >-
+          Cắt khúc dài [[5|cm]]. **Một nửa lót dưới, một nửa phủ trên** — lót
+          dưới để kê gà cho hơi luồn xuống, phủ trên để mùi đi từ hai phía
+      - id: gungsoi
+        name: Gừng thái sợi
+        icon: ginger
+        base: 1
+        unit: củ
+        note: Một phần nhét bụng, một phần rắc lên mình gà
+      - id: hanhtay
+        name: Hành tây
+        icon: basket
+        base: 1
+        unit: củ
+        note: Bổ múi cau nhét vào bụng gà — nó tiết nước ngọt trong lúc hấp
+      - id: sadap
+        name: Sả đập dập
+        icon: stem
+        color: green
+        base: 2
+        unit: cây
+        note: Đập dập cắt khúc, nhét bụng. Cho vừa phải thôi kẻo lấn mùi hành
+  - name: Chén muối tiêu chanh
+    icon: lime
+    items:
+      - id: muoitieu
+        name: Muối · tiêu
+        icon: jar
+        qtyText: 1 muỗng canh muối · 1/2 muỗng cà phê tiêu
+        note: Rang muối cho khô rồi giã với tiêu — muối rang chấm đậm hơn hẳn muối sống
+      - id: otchanh
+        name: Ớt · chanh
+        icon: lime
+        color: green
+        qtyText: 2 trái ớt · 1 trái chanh
+        note: Giã ớt với muối tiêu, vắt chanh vào **ngay lúc dọn** kẻo đắng
+      - id: lachanhga
+        name: Lá chanh thái chỉ
+        icon: herb
+        color: green
+        qtyText: 4 lá
+        note: >-
+          Rắc lên đĩa gà và cả vào chén muối. Lá chanh với thịt gà là cặp đi
+          liền, thiếu là thấy trống
+
+stepsTitle: Bốn nhịp — mà nhịp nào cũng **không cần trông nồi**
+stepsLead: >-
+  Món này gần như tự nấu lấy: ướp xong đặt vào nồi rồi canh giờ. Chỗ cần để ý
+  chỉ có hai — lau khô con gà, và giữ cho nước đừng trào lên đĩa.
+steps:
+  - title: Làm sạch và lau khô
+    icon: drop
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Xát muối hột với gừng đập dập khắp mình gà và trong bụng, chà kỹ chỗ
+          nách cánh và khe đùi. Rửa lại dưới vòi cho sạch.
+      - label: "Lau khô là bắt buộc:"
+        text: >-
+          Dùng giấy thấm lau khắp da và **lau cả trong bụng**. Da còn ẩm thì
+          hấp xong bợt trắng chứ không vàng căng.
+      - text: >-
+          Cắt bỏ phần phao câu và mấy đầu móng chân cho gọn mắt.
+  - title: Ướp khô 30 phút
+    icon: jar
+    minutes: 30 phút
+    bullets:
+      - text: >-
+          Trộn muối, đường, hạt nêm và tiêu thành hỗn hợp khô. **Xoa đều khắp
+          ngoài da và cả trong bụng**, xoa kỹ để gia vị bám vào.
+      - text: >-
+          Nhét gừng sợi, hành tây bổ múi cau và sả đập dập vào bụng gà. Gài hai
+          chân gà chéo vào nhau cho con gà gọn dáng.
+      - text: Để ướp **30 phút** ở nhiệt độ phòng, hoặc bọc kín để ngăn mát vài tiếng.
+    timer:
+      secs: 1800
+      label: Ướp gà · 30:00
+      doneMsg: Bắc nồi nước lên là vừa!
+    callout:
+      type: tip
+      text: >-
+        Muốn da vàng đậm hơn thì hòa chút nghệ tươi giã vắt nước vào hỗn hợp
+        xoa, hoặc quét một lớp mỡ gà lên da trước khi hấp. Đừng dùng phẩm màu —
+        chính hơi nóng và lớp da khô đã cho màu vàng rồi.
+  - title: Xếp hành, hấp cách thủy
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - label: "Xếp:"
+        text: >-
+          Trải **một nửa chỗ hành lá** thành lớp dày xuống đĩa sâu lòng, đặt gà
+          nằm nghiêng lên trên, rắc gừng sợi rồi phủ nốt nửa hành còn lại.
+      - label: "Đặt nồi:"
+        text: >-
+          Kê đĩa lên giá trong nồi to, đổ nước dưới đáy nồi **thấp hơn mặt đĩa**.
+          Đậy vung kín, hấp lửa vừa.
+      - label: "Trở một lần:"
+        text: >-
+          Ở phút thứ 30, mở vung trở gà sang mặt kia, chan chút nước đọng trong
+          đĩa lên mình gà rồi hấp tiếp [[10|phút]].
+      - label: "Thử chín:"
+        text: >-
+          Xiên đũa vào chỗ dày nhất của đùi, nước chảy ra **trong** là chín. Còn
+          hồng thì hấp thêm 5 phút.
+    timer:
+      secs: 2400
+      label: Hẹn giờ hấp gà · 40:00
+      doneMsg: Xiên thử đùi gà xem nước có trong chưa nghen!
+  - title: Chặt miếng, rưới nước gà
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Vớt gà ra, **để nghỉ [[10|phút]]** rồi mới chặt — chặt ngay lúc còn
+          nóng già thì nước ngọt chảy hết ra thớt.
+      - text: >-
+          Chặt miếng vừa ăn, xếp lại theo dáng con gà lên đĩa có lót hành đã hấp.
+      - label: "Đừng bỏ nước đáy đĩa:"
+        text: >-
+          Chỗ nước gà đọng dưới đáy **rưới ngược lên thịt**, hoặc chan vào chén
+          cơm. Đó là phần đậm nhất của cả món.
+      - text: Rắc lá chanh thái chỉ, dọn với chén muối tiêu chanh.
+    doneText: Xong — rưới nước gà lên rồi mới bưng ra!
+
+tipsTitle: 4 chỗ **quyết định** đĩa gà hấp hành
+tips:
+  - icon: drop
+    title: Nước trong nồi phải thấp hơn đĩa
+    text: >-
+      Đây là ranh giới giữa gà hấp và gà luộc. Nước sôi trào lên ngập đĩa thì da
+      bợt, thịt nhạt, và chỗ nước gà quý giá dưới đáy loãng ra thành nước lã. Đổ
+      nước vừa phải, kê đĩa lên giá cho cao, và để lửa vừa chứ đừng lửa lớn.
+  - icon: herb
+    title: Hành lá lót dưới, đừng chỉ rắc lên trên
+    text: >-
+      Lớp hành dưới đáy làm hai việc cùng lúc: kê con gà lên cho hơi nóng luồn
+      xuống mặt dưới, và tiết mùi lên thẳng vào da. Chỉ rắc hành lên trên thì mặt
+      dưới con gà nằm áp đĩa, chín chậm hơn và da chỗ đó bị hấp trong nước đọng.
+  - icon: jar
+    title: Ướp khô, không ướp ướt
+    text: >-
+      Nhiều người quen ướp thịt bằng nước mắm hay dầu hào. Với món này thì không:
+      hỗn hợp ướt làm da gà ẩm, hấp xong bợt trắng và mềm oặt. Muối đường tiêu
+      trộn khô, xoa thật kỹ cả trong bụng — đủ đậm mà da vẫn căng vàng.
+  - icon: clock
+    title: Để gà nghỉ 10 phút rồi mới chặt
+    text: >-
+      Vừa vớt ra mà chặt ngay thì nước ngọt trong thớ thịt còn đang căng, chảy
+      hết ra thớt và miếng gà khô lại. Để nghỉ mười phút cho thớ thịt lắng
+      xuống, chặt ra miếng nào cũng mọng. Đây là mẹo dùng chung cho mọi món thịt
+      nguyên khối.
+
+serve:
+  title: Đĩa gà **xếp lại nguyên dáng** — món giữa mâm
+  paras:
+    - >-
+      Gà hấp hành chặt xong nên xếp lại theo dáng con gà trên đĩa, phủ hành đã
+      hấp và rắc lá chanh thái chỉ. Nó là món giữa mâm: có cơm trắng, có bát
+      canh, và ai cũng gắp tới được.
+    - >-
+      Phần **nước gà đọng dưới đáy đĩa** đừng bỏ. Rưới một nửa lên thịt cho
+      bóng, còn một nửa để riêng ra chén nhỏ — chan cơm trắng thì hết veo, và
+      trẻ nhỏ thường thích chỗ đó hơn cả miếng thịt.
+  aside:
+    title: Dọn cùng gì cho hợp
+    intro: "Ba thứ đi cùng đĩa gà hấp:"
+    items:
+      - icon: lime
+        text: "**Chén muối tiêu chanh có lá chanh** — vắt chanh ngay lúc dọn, vắt sớm là đắng."
+      - icon: rice
+        text: "**Cơm trắng nóng** chan nước gà dưới đáy đĩa."
+      - icon: bowl
+        text: "**Một bát canh thanh** — canh cải hoặc canh bí đao cho cân với chỗ đậm của gà."
+
+faq:
+  - q: Không có nồi hấp to thì làm sao?
+    a: >-
+      Chặt gà làm đôi hoặc làm tư rồi hấp trong nồi thường: kê một cái giá hoặc
+      úp một cái chén dưới đáy nồi để kê đĩa lên khỏi mặt nước. Gà chặt sẵn thì
+      hấp nhanh hơn, chừng **25–30 phút**. Cái mất là không dọn được nguyên con.
+  - q: Da gà bị bợt trắng chứ không vàng?
+    a: >-
+      Ba nguyên nhân theo thứ tự hay gặp: **lau chưa khô**, **ướp bằng hỗn hợp
+      ướt**, hoặc **nước sôi trào lên ngập đĩa**. Lần sau lau kỹ, ướp khô, và hạ
+      mực nước xuống. Đang hấp dở mà thấy vậy thì mở vung, chắt bớt nước trong
+      đĩa ra rồi hấp tiếp.
+  - q: Gà công nghiệp hấp có được không?
+    a: >-
+      Được, nhưng rút giờ xuống còn **30 phút** vì thịt mềm sẵn, hấp lâu là nát.
+      Thịt sẽ nhạt hơn gà ta thấy rõ, nên nêm nhỉnh tay hơn một chút và tăng
+      gừng với hành lá để bù mùi.
+  - q: Còn dư thì hâm lại thế nào?
+    a: >-
+      Cất cả thịt lẫn phần nước đáy đĩa vào hộp, để ngăn mát. Tới bữa **hấp lại
+      5 phút** cùng chỗ nước đó là miếng gà mềm như mới. Đừng quay lò vi sóng —
+      thịt gà hấp quay lại là khô xác và dai.
+
+ticker:
+  - icon: herb
+    text: Lót hành lá dưới đáy cho hơi luồn xuống
+  - icon: drop
+    text: Nước đọng dưới đáy đĩa là chỗ ngọt nhất

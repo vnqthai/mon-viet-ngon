@@ -1,0 +1,376 @@
+title: Nem nướng Nha Trang **cuốn bánh tráng, chấm tương**
+summary: >-
+  Bản gốc xứ Ninh Hòa: viên thịt quết nướng xiên que, cuốn bánh tráng với rau
+  sống và **một ống bánh tráng chiên phồng giòn rụm** giấu bên trong, chấm thứ
+  sốt sánh màu cam nâu người ta gọi là **tương** — không phải nước mắm chua ngọt.
+region: Miền Trung
+category: Cuốn
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-07-29
+time:
+  total: 1 giờ 40 phút
+  active: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 31
+art: nem-nuong
+heroEyebrow: Từ Ninh Hòa ra tới biển…
+
+quick:
+  ingredients:
+    - Thịt nạc vai xay [[500|g]] · mỡ heo [[100|g]] xắt hạt lựu
+    - Giò sống [[200|g]] — thứ làm viên nem dai và mịn
+    - "Ướp nem: đường [[2|muỗng canh|frac]] · nước mắm [[1|muỗng canh|frac]] · tỏi + hành tím băm · tiêu"
+    - "Tương chấm: thịt xay [[100|g]] · tôm bóc vỏ [[100|g]] · tương đậu nành xay [[3|muỗng canh|frac]]"
+    - Đậu phộng rang giã [[50|g]] · gạo nếp [[2|muỗng canh|frac]] rang xay
+    - Bánh tráng cuốn · bánh tráng mỏng để chiên · bún rối
+    - Rau sống · dưa leo · chuối chát · xoài xanh · hẹ
+  steps:
+    - Trộn thịt xay + giò sống + mỡ hạt lựu với gia vị, **quết cho thật dẻo**, ướp lạnh 1 tiếng.
+    - Nặn thành thỏi dài quanh que tre, nướng than hoa hoặc lò 220 °C tới khi vàng đều.
+    - >-
+      **Cuốn ống bánh tráng rồi chiên** — cắt bánh tráng mỏng thành dải, thấm
+      chút nước cho dẻo, cuốn thành ống nhỏ rồi chiên tới phồng giòn.
+    - "Nấu tương: phi hành tỏi, xào thịt + tôm, cho tương đậu nành và bột nếp vào nấu cho sánh."
+    - Dọn mẹt rau, bún, nem, ống bánh tráng chiên — mỗi người tự cuốn tự chấm.
+  warning: >-
+    Đừng chiên ống bánh tráng quá sớm. Chiên xong để quá nửa tiếng là nó **hút
+    ẩm và dai lại**, mất đúng cái tiếng rắc trong cuốn nem. Chiên sát giờ ăn,
+    để nguyên trong rổ có lót giấy, không đậy kín.
+
+flavor:
+  chua: 3
+  ngot: 7
+  man: 6
+  cay: 3
+  thom: 8
+flavorNote: >-
+  **Chuẩn cuốn:** cắn xuống nghe **rắc** trước — đó là ống bánh tráng chiên —
+  rồi mới tới viên nem mềm dai; chén tương phải **sánh bám vào cuốn**, béo bùi
+  đậu phộng, mặn ngọt nhẹ chứ không chua gắt như nước mắm pha.
+
+storyEyebrow: Chuyện món ăn
+storyTitle: Món của **Ninh Hòa**, nổi tiếng dưới tên **Nha Trang**
+story:
+  - >-
+    Nem nướng vốn là món của **Ninh Hòa**, một vùng phía bắc tỉnh Khánh Hòa. Cái
+    tên đi ra thế giới lại là "nem nướng Nha Trang" — đơn giản vì Nha Trang là
+    nơi khách phương xa dừng chân, và hàng nem nướng ở đó đông hơn. Người trong
+    vùng vẫn gọi đúng tên gốc, còn tấm biển ngoài đường thì viết theo tên khách
+    biết.
+  - >-
+    Điểm nhận dạng chắc chắn nhất của bản gốc **không nằm ở viên nem** mà nằm ở
+    **cái ống bánh tráng chiên** cuốn kèm. Bánh tráng mỏng được cắt dải, cuốn
+    thành ống nhỏ rồi thả chảo dầu cho phồng lên giòn tan. Cuốn nem nướng đúng
+    kiểu bao giờ cũng có một ống nằm giữa — nó là tiếng động của món ăn này.
+  - >-
+    Chỗ khác nữa là chén chấm. Nhiều nơi trong Nam dọn nem nướng với nước mắm
+    chua ngọt, nhưng bản Ninh Hòa chấm **tương** — một thứ sốt nấu, sánh và đục,
+    màu cam nâu, nấu từ thịt và tôm xay với tương đậu nành, đậu phộng rang giã,
+    và một chút bột gạo nếp cho sánh. Nó ngọt bùi chứ không chua, nên vị cả cuốn
+    nghiêng hẳn sang béo và thơm.
+  - >-
+    Còn một bản nữa hay gặp ở Sài Gòn: nem nướng xắt khúc bỏ vào **tô bún** chan
+    nước mắm, ăn bằng đũa. Bản đó tiện và no bụng, nhưng nó là món khác. Bài này
+    làm **bản cuốn** — mẹt rau để giữa bàn, ai nấy tự cuốn lấy phần mình, vì đó
+    mới là cách món này sinh ra.
+
+ingredientGroups:
+  - name: Viên nem
+    icon: meat
+    items:
+      - id: thitnac
+        name: Thịt nạc vai xay
+        icon: meat
+        base: 500
+        unit: g
+        note: >-
+          Nạc vai có sẵn chút mỡ giắt nên viên nem không khô. Nhờ hàng thịt
+          **xay hai lần** cho thật mịn
+      - id: mopheo
+        name: Mỡ heo
+        icon: meat
+        base: 100
+        unit: g
+        note: >-
+          Xắt hạt lựu nhỏ, chần sơ nước sôi rồi xóc chút đường. Đây là chỗ làm
+          viên nem **mọng nước** khi nướng — bỏ mỡ đi là nem khô xác
+      - id: giosong
+        name: Giò sống
+        icon: meat
+        base: 200
+        unit: g
+        note: >-
+          Mua sẵn ở hàng giò chả. Nó là thứ kết dính làm viên nem **dai và mịn**
+          thay vì bở như thịt viên
+      - id: uopnem
+        name: Đường · nước mắm · tiêu
+        icon: jar
+        qtyText: 2 muỗng canh đường · 1 muỗng canh nước mắm
+        note: Đường hơi nhiều so với món mặn thường — nem nướng ngọt nhẹ mới đúng
+      - id: hanhtoi
+        name: Tỏi · hành tím băm
+        icon: garlic
+        qtyText: 2 muỗng canh mỗi thứ
+        note: Băm thật nhuyễn, không thì lúc nướng cháy thành đốm đen
+      - id: dauhat
+        name: Dầu màu điều
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Cho viên nem lên màu cam đỏ đẹp. Dầu nấu từ **hạt điều màu** — hạt nhỏ
+          màu cam chuyên lên màu, không phải hạt điều rang muối
+  - name: Chén tương chấm
+    icon: bowl
+    items:
+      - id: thittuong
+        name: Thịt xay · tôm bóc vỏ
+        icon: shrimp
+        qtyText: 100 g mỗi thứ
+        note: Băm nhỏ, xào chín trước khi nấu sốt. Tôm cho vị ngọt, thịt cho độ đậm
+      - id: ganheo
+        name: Gan heo
+        icon: meat
+        base: 60
+        unit: g
+        note: >-
+          Bản Ninh Hòa xưa có gan heo băm — nó làm chén tương đậm và sánh hơn
+          hẳn. **Bỏ qua cũng được**, chỉ cần tăng thịt xay lên bù lại
+      - id: tuonghot
+        name: Tương đậu nành xay
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Loại tương hột xay nhuyễn bán hũ ở chợ. Đây là gốc vị của chén tương,
+          thay bằng tương ớt hay tương cà là ra món khác
+      - id: gaonepr
+        name: Gạo nếp rang xay
+        icon: rice
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Rang vàng rồi xay mịn — thứ làm sốt **sánh tự nhiên**. Không có thì
+          thay bằng 1 muỗng bột năng pha nước
+      - id: dauphongt
+        name: Đậu phộng rang giã
+        icon: basket
+        base: 50
+        unit: g
+        note: Giã dập chứ đừng xay mịn, còn hạt mới bùi
+  - name: Cuốn và rau
+    icon: herb
+    items:
+      - id: banhtrangcuon
+        name: Bánh tráng cuốn
+        icon: roll
+        qtyText: 1 xấp
+        note: Loại mềm dẻo dùng cuốn gỏi cuốn, nhúng nước là cuốn được
+      - id: banhtrangchien
+        name: Bánh tráng mỏng để chiên
+        icon: roll
+        qtyText: 4–5 lá
+        note: >-
+          Loại **mỏng** (bánh tráng cuốn thường cũng được). Cắt dải, thấm ẩm,
+          cuốn ống rồi chiên — chính là chỗ tạo tiếng giòn của cuốn nem
+      - id: bunroi
+        name: Bún rối
+        icon: noodle
+        base: 300
+        unit: g
+        note: Một nhúm nhỏ trong mỗi cuốn cho đỡ ngán, đừng nhiều quá
+      - id: rausong
+        name: Xà lách · rau thơm · hẹ
+        icon: herb
+        color: green
+        qtyText: 1 mẹt
+        note: Tía tô, kinh giới, húng lủi. Cọng hẹ để dài, ló ra ngoài cuốn
+      - id: chuoichat
+        name: Chuối chát · xoài xanh · dưa leo
+        icon: lime
+        color: green
+        qtyText: Mỗi thứ 1 trái
+        note: >-
+          Chuối chát (chuối xanh) thái lát mỏng ngâm nước chanh cho khỏi thâm.
+          Ba thứ này là phần **chát và chua** cân lại chỗ béo của tương
+
+stepsTitle: Bốn việc — làm **ống bánh tráng chiên** trước là đúng thứ tự
+stepsLead: >-
+  Trộn nem cần thời gian ướp lạnh, nên bắt tay vào đó đầu tiên rồi mới quay
+  sang nấu tương và chiên bánh tráng.
+steps:
+  - title: Trộn và quết viên nem
+    icon: knife
+    minutes: 20 phút + 1 giờ ướp
+    bullets:
+      - label: "Xử lý mỡ trước:"
+        text: >-
+          Mỡ heo xắt hạt lựu cỡ hạt đậu, chần nước sôi 1 phút rồi xóc với 1
+          muỗng đường, để riêng.
+      - text: >-
+          Trộn thịt xay, giò sống, tỏi hành tím băm, đường, nước mắm, tiêu và
+          dầu màu điều. **Quết mạnh tay 10 phút** hoặc đánh bằng máy tới khi hỗn
+          hợp dẻo quánh, nhấc lên thấy dính khối.
+      - label: "Cho mỡ vào sau cùng:"
+        text: >-
+          Trộn nhẹ phần mỡ hạt lựu vào, đừng quết tiếp — mỡ phải còn nguyên hạt
+          thì lúc nướng mới chảy ra làm viên nem mọng.
+      - text: Bọc kín, để ngăn mát **1 tiếng** cho thịt nghỉ và ngấm.
+    timer:
+      secs: 3600
+      label: Ướp lạnh viên nem · 60:00
+      doneMsg: Lấy ra nặn que là vừa đẹp!
+    callout:
+      type: tip
+      text: >-
+        Quết là công đoạn quyết định. Trộn qua loa thì viên nem bở ra khi nướng,
+        rơi khỏi que. Thịt càng lạnh càng dễ quết dẻo — để chén thịt trên một
+        chậu đá trong lúc quết.
+  - title: Nấu chén tương
+    icon: pot
+    minutes: 25 phút
+    intro: "Đây là thứ làm nên bản Ninh Hòa, đáng dành thời gian:"
+    bullets:
+      - text: >-
+          Phi thơm hành tím tỏi băm với dầu màu điều. Cho thịt xay, tôm băm (và
+          gan heo băm nếu có) vào **xào tới chín săn**.
+      - text: >-
+          Cho tương đậu nành xay vào đảo đều, chan [[300|ml]] nước, nêm đường và
+          chút nước mắm. Đun **lửa nhỏ 10 phút**.
+      - label: "Làm sánh:"
+        text: >-
+          Rắc bột gạo nếp rang từ từ, khuấy đều tay tới khi sốt sánh như sữa
+          đặc. Tắt bếp, rắc đậu phộng giã.
+      - text: >-
+          Nếm lại: phải **ngọt bùi mặn nhẹ**, không chua. Lạt quá thì thêm nước
+          mắm, đặc quá thì pha thêm nước nóng.
+    timer:
+      secs: 600
+      label: Đun tương liu riu · 10:00
+      doneMsg: Rắc bột nếp vào cho sánh nghen!
+  - title: Cuốn ống bánh tráng rồi chiên
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Cắt bánh tráng mỏng thành dải rộng chừng [[5|cm]]. Nhúng ngón tay vào
+          nước, **vuốt nhẹ một đường** cho dải bánh dẻo lại — ướt quá là nhão,
+          không cuốn được.
+      - text: >-
+          Cuốn từng dải thành ống nhỏ cỡ ngón tay, để mí xuống dưới cho khỏi bung.
+      - label: "Chiên:"
+        text: >-
+          Dầu nóng già, thả ống vào chiên **20–30 giây** là phồng lên vàng giòn.
+          Vớt ra rổ có lót giấy thấm dầu.
+    callout:
+      type: warn
+      text: >-
+        Chiên sát giờ ăn thôi. Để lâu ống bánh tráng hút ẩm không khí và dai
+        lại, mà cái ống hết giòn thì cuốn nem mất nửa cái hay của nó.
+  - title: Nướng nem và dọn mẹt
+    icon: flame
+    minutes: 20 phút
+    bullets:
+      - label: "Nặn que:"
+        text: >-
+          Thoa chút dầu vào tay, lấy một nắm thịt vuốt quanh que tre thành thỏi
+          dài chừng [[10|cm]], bóp cho chặt vào que.
+      - label: "Than hoa:"
+        text: >-
+          Nướng trên than hồng vừa, trở đều **10–12 phút** tới khi mặt ngoài
+          vàng xém, thoa chút dầu cho bóng.
+      - label: "Lò nướng:"
+        text: >-
+          Đặt vỉ giữa lò, **220 °C trong 15 phút**, trở một lần giữa chừng, bật
+          lửa trên 2 phút cuối cho xém mặt.
+      - text: >-
+          Dọn mẹt: rau sống, bún rối, chuối chát, xoài xanh, dưa leo, nem nướng
+          còn nóng, ống bánh tráng chiên và chén tương.
+    timer:
+      secs: 720
+      label: Nướng nem trở đều · 12:00
+      doneMsg: Vàng xém mặt là được — dọn ra lúc còn nóng!
+    doneText: Xong — cuốn ngay khi nem còn nóng!
+
+tipsTitle: 4 chỗ **quyết định** mẹt nem nướng
+tips:
+  - icon: knife
+    title: Quết cho dẻo, đừng chỉ trộn
+    text: >-
+      Viên nem nướng dai mà mịn là nhờ quết chứ không nhờ nguyên liệu đắt. Trộn
+      sơ sài thì thịt rời rạc, nướng tới nửa chừng là rơi khỏi que và ăn bở như
+      thịt viên. Quết mạnh tay 10 phút, thịt càng lạnh càng dễ dẻo.
+  - icon: roll
+    title: Ống bánh tráng chiên không phải thứ trang trí
+    text: >-
+      Nhiều nhà bỏ qua bước này cho nhanh, và cuốn nem mất đúng cái làm nó khác
+      mọi món cuốn khác: **tiếng giòn ở giữa**. Cuốn có ống thì cắn xuống nghe
+      rắc trước, rồi mới tới thịt mềm và rau mát — ba lớp một nhịp.
+  - icon: bowl
+    title: Tương phải sánh, không phải nước chấm loãng
+    text: >-
+      Chén tương đúng là **sánh bám vào cuốn**, nhúng lên không chảy ròng ròng.
+      Chỗ làm sánh là bột gạo nếp rang, cho từ từ và khuấy đều tay. Sánh quá thì
+      pha thêm nước nóng — chứ đừng nấu đặc rồi để nguội mới chữa, lúc đó nó vón.
+  - icon: lime
+    title: Chuối chát và xoài xanh là phần cân vị
+    text: >-
+      Nem ngọt, tương béo — nếu cuốn chỉ có thịt với rau thơm thì tới cuốn thứ
+      ba là ngán. Lát chuối chát và que xoài xanh mang cái **chát và chua** vào,
+      kéo cả cuốn nhẹ lại. Thiếu hai thứ này ăn vẫn được, nhưng ăn ít hơn hẳn.
+
+serve:
+  title: Mẹt để giữa bàn — **ai nấy tự cuốn phần mình**
+  paras:
+    - >-
+      Nem nướng không dọn sẵn từng cuốn. Cả mẹt đặt giữa bàn, mỗi người trải một
+      lá bánh tráng, gắp rau, đặt viên nem, bẻ một khúc ống bánh tráng chiên rồi
+      cuốn lấy — cuốn to nhỏ tùy người, và đó là một phần của bữa ăn.
+    - >-
+      Bánh tráng cuốn loại dẻo thì chỉ cần **vuốt ẩm hai mặt** chứ đừng nhúng
+      ngập nước, không thì lá bánh nhão và rách lúc cuốn. Để một chén nước lã
+      với cái khăn ẩm cạnh mẹt là gọn nhất.
+  aside:
+    title: Thứ tự xếp trong một cuốn
+    intro: "Xếp đúng thứ tự thì cuốn chặt tay và không bung:"
+    items:
+      - icon: herb
+        text: "**Lá xà lách trải trước** — nó là lớp giữ cho mọi thứ khỏi đâm rách bánh tráng."
+      - icon: noodle
+        text: "**Một nhúm bún nhỏ**, rồi rau thơm, dưa leo, chuối chát, xoài xanh."
+      - icon: meat
+        text: "**Nem nướng và ống bánh tráng đặt cuối cùng**, nằm dọc theo cuốn rồi mới cuộn lại."
+
+faq:
+  - q: Không có than hoa thì nướng bằng gì?
+    a: >-
+      Lò nướng **220 °C trong 15 phút**, trở một lần, hai phút cuối bật lửa trên
+      cho xém mặt. Nồi chiên không dầu cũng được: 200 °C khoảng 12 phút. Cái mất
+      là mặt ngoài không xém loang lổ như nướng than, nên nhớ **thoa dầu cho
+      bóng** trước khi dọn.
+  - q: Nem bị rơi khỏi que lúc nướng?
+    a: >-
+      Hai lý do. Một là thịt chưa quết đủ dẻo nên không bám. Hai là que tre khô
+      quá trơn — **ngâm que trong nước 15 phút** trước khi nặn, và bóp thịt chặt
+      quanh que chứ đừng chỉ vuốt ngoài.
+  - q: Làm trước được tới đâu?
+    a: >-
+      Viên nem trộn xong cất ngăn mát được **một ngày**, nặn que rồi nướng lúc
+      ăn. Chén tương nấu trước cũng được, hâm lại thì pha thêm chút nước nóng
+      cho loãng ra đúng độ. Riêng **ống bánh tráng chiên phải làm sát giờ**.
+  - q: Ăn kiểu tô bún có được không?
+    a: >-
+      Được, và đó là bản quen thuộc ở Sài Gòn: nem xắt khúc, bún, rau, chan nước
+      mắm chua ngọt. Nhưng nếu đã nấu chén tương Ninh Hòa thì đừng đổi sang nước
+      mắm — hai thứ chấm đó dành cho hai cách ăn khác nhau.
+
+ticker:
+  - icon: roll
+    text: Ống bánh tráng chiên giòn giấu trong cuốn
+  - icon: bowl
+    text: Chấm tương sánh chứ không phải nước mắm pha

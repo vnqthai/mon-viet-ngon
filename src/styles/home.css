@@ -87,7 +87,7 @@
   background:var(--art-halo), linear-gradient(160deg, var(--ground) 0%, var(--ground-deep) 100%);
   padding:20px 18px 6px;
 }
-.rcard__art svg{width:min(196px,74%);margin:0 auto}
+.rcard__art img{display:block;width:min(196px,74%);height:auto;margin:0 auto}
 .rcard__kind{
   position:absolute;top:13px;left:13px;z-index:2;
   font-size:.66rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;

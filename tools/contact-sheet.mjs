@@ -5,11 +5,12 @@
  * họ màu của món đó, để phát hiện hình nào bị chọi màu / chìm vào nền.
  * Chạy lại sau mỗi đợt món mới:  node tools/contact-sheet.mjs
  *
- * Mapping art -> component đọc thẳng từ RecipeArt.astro nên không lệch khi thêm món.
+ * Mapping art -> component đọc thẳng từ src/utils/art.ts nên không lệch khi thêm món.
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readArtMap } from './art-map.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ART_DIR = path.join(ROOT, 'src/components/art');
@@ -76,19 +77,13 @@ const HALO = [
 /* 4 món tộ nâu + 3 món tô trắng — để thấy quầng có làm hỏng nhóm trắng không */
 const HALO_SAMPLES = ['ca-kho-to', 'thit-kho-hot-vit', 'ga-kho-gung', 'tom-rim-nuoc-cot-dua', 'bo-kho', 'muc-xao-thom-can-tay', 'suon-ram-man-ngot'];
 
-/* Món sẽ chuyển kiểu ở đợt sau — soi trước hình trên nền họ màu tương lai,
-   để khỏi phải vẽ lại lúc gom. Đợt 10 gom "Bánh": bánh xèo + bánh cuốn + bánh khoái. */
-const SLUG_RECAT = {
-  'banh-xeo-mien-tay': 'Bánh',
-  'banh-cuon-nong': 'Bánh',
-  'banh-khoai-hue': 'Bánh',
-};
+/* Món sẽ chuyển kiểu ở đợt sau — soi trước hình trên nền họ màu tương lai, để
+   khỏi phải vẽ lại lúc gom. Đang RỖNG: ba món của đợt 10 (bánh xèo · bánh cuốn ·
+   bánh khoái) đã chuyển thật sang "Bánh" nên đọc category từ file YAML là đủ. */
+const SLUG_RECAT = {};
 
-/* ---------- Đọc mapping art -> component từ RecipeArt.astro ---------- */
-const recipeArtSrc = fs.readFileSync(path.join(ART_DIR, 'RecipeArt.astro'), 'utf8');
-const artToComponent = Object.fromEntries(
-  [...recipeArtSrc.matchAll(/kind === '([^']+)' && <(\w+)\s*\/>/g)].map((m) => [m[1], m[2]])
-);
+/* ---------- Đọc mapping art -> component từ src/utils/art.ts ---------- */
+const artToComponent = readArtMap(path.join(ROOT, 'src/utils/art.ts'));
 
 /* ---------- Đọc các món ---------- */
 const field = (src, key) => {
@@ -128,7 +123,9 @@ function svgOf(componentName) {
   if (!fs.existsSync(file)) return null;
   const m = fs.readFileSync(file, 'utf8').match(/<svg[\s\S]*<\/svg>/);
   if (!m) return null;
-  let svg = m[0];
+  /* Bỏ chú thích y như endpoint src/pages/art/[kind].svg.ts — để cái tool soi
+     hình và bản ship ra web đọc đúng cùng một thứ. */
+  let svg = m[0].replace(/<!--[\s\S]*?-->\s*/g, '');
   const suffix = '_c' + ++uid;
   for (const id of new Set([...svg.matchAll(/\bid="([^"]+)"/g)].map((x) => x[1]))) {
     const esc = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -146,7 +143,7 @@ const grad = (g) => `linear-gradient(160deg, ${g.from} 0%, ${g.to} 100%)`;
 function tile(r) {
   const comp = artToComponent[r.art];
   const svg = comp ? svgOf(comp) : null;
-  const warn = !r.art ? 'chưa gắn art' : !comp ? `art "${r.art}" không có trong RecipeArt` : !svg ? 'không đọc được svg' : null;
+  const warn = !r.art ? 'chưa gắn art' : !comp ? `art "${r.art}" không có trong utils/art.ts` : !svg ? 'không đọc được svg' : null;
   return `
     <figure class="tile" data-family="${r.family ? r.family.id : 'none'}">
       <div class="tile__art" style="--ground:${grad(r.family || OLD_GROUND)}">

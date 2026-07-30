@@ -1,0 +1,159 @@
+---
+/* Cá tai tượng chiên xù — BẢN 2, vẽ lại toàn bộ.
+   Bản 1 dựng đứng con cá (đúng cách dọn thật) nhưng Thái xem thì "nhìn kỳ quá":
+   một con cá chổng ngược trên giá đọc ra vật trưng bày chứ không ra dĩa đồ ăn.
+   Luật rút ra: **đúng thực tế chưa đủ, hình còn phải đọc ra MỘT MÓN ĂN.**
+
+   Bản này cho cá NẰM trên dĩa oval, và chống đụng CÁ LÓC NƯỚNG TRUI bằng bốn thứ
+   khác nhau cùng lúc chứ không nhờ hướng đặt:
+     cá lóc   : thân ỐNG DÀI thuôn (cao/dài ≈ 0,3) · da CHÁY ĐEN ám khói · nằm trên
+                TÀU LÁ CHUỐI xanh · xiên que tre suốt thân
+     tai tượng: thân DẸP BÈ gần tròn (cao/dài ≈ 0,6) · VÀNG RƠM, vảy dựng từng lớp ·
+                nằm trên DĨA SỨ TRẮNG · không que
+
+   Thêm hai thứ để cả hình đọc ra "món đang ăn" chứ không phải con cá:
+     · một MẢNG THỊT TRẮNG lộ ra chỗ vừa gỡ miếng đầu tiên — vừa cho tương phản
+       giòn/mềm, vừa nói món này ăn bằng cách gỡ
+     · một CUỐN ĐÃ CUỐN XONG nằm cạnh, cùng xấp bánh tráng và chén mắm me */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa cá tai tượng chiên xù nằm nguyên con, thân dẹp bè vảy vàng dựng lên, lộ mảng thịt trắng chỗ vừa gỡ, kèm cuốn bánh tráng và chén mắm me">
+  <defs>
+    <linearGradient id="cttMinh" x1="0.15" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#EFBB61"/><stop offset="0.5" stop-color="#CE8829"/><stop offset="1" stop-color="#8E5310"/>
+    </linearGradient>
+    <linearGradient id="cttDuoi" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#C48522"/><stop offset="1" stop-color="#9A6018"/>
+    </linearGradient>
+    <linearGradient id="cttThit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF7E6"/><stop offset="1" stop-color="#EADFC2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="244" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="244" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M222 132 C 211 108 237 92 226 66 C 219 50 233 38 229 24"/>
+    <path d="M296 126 C 286 102 312 88 301 62 C 294 46 308 34 304 20"/>
+  </g>
+  <ellipse cx="258" cy="418" rx="198" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- DĨA OVAL LỚN -->
+  <path d="M56 336 C 62 392 152 418 258 418 C 364 418 454 392 460 336 Z" fill="#EFE9D6"/>
+  <ellipse cx="258" cy="334" rx="202" ry="56" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="258" cy="334" rx="202" ry="56" fill="none" stroke="#2C5234" stroke-width="4.5"/>
+  <ellipse cx="258" cy="335" rx="180" ry="46" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+  <ellipse cx="252" cy="328" rx="172" ry="27" fill="#7A5A18" opacity=".26"/>
+
+  <!-- ===== CON CÁ: một khối liền, nằm chéo nhẹ ===== -->
+  <g transform="translate(246 254) rotate(-5) scale(1.23)">
+    <!-- vây lưng chạy suốt sống lưng, gai dựng -->
+    <path d="M-96 -46 C -60 -78 -6 -86 52 -70 C 40 -58 6 -52 -34 -50 C -60 -48 -82 -44 -96 -46 Z"
+          fill="#B0731F" stroke="#5E3A0C" stroke-width="2.6"/>
+    <!-- vây hậu môn dưới -->
+    <path d="M-70 44 C -34 66 14 70 56 58 C 44 48 12 44 -24 42 C -46 40 -60 40 -70 44 Z"
+          fill="#C08029" stroke="#5E3A0C" stroke-width="2.4"/>
+
+    <!-- THÂN: DẸP BÈ, cao gần bằng 0,6 chiều dài — chỗ tách khỏi cá lóc -->
+    <path d="M-118 -8 C -118 -46 -78 -70 -22 -70 C 42 -70 88 -44 100 -6 C 104 8 100 24 88 38
+             C 66 62 24 74 -22 74 C -78 74 -118 48 -118 12 Z"
+          fill="url(#cttMinh)" stroke="#5E3A0C" stroke-width="3.4"/>
+
+    <!-- VẢY DỰNG: cung xếp ngói, thưa dần về phía bụng, chừa mảng thân trơn -->
+    <g stroke="#7A4E12" stroke-width="1.9" fill="#EFC271" opacity=".95">
+      <path d="M-62 -46 C -50 -58 -30 -58 -18 -46 C -30 -38 -50 -38 -62 -46 Z"/>
+      <path d="M-16 -52 C -4 -64 16 -64 28 -52 C 16 -44 -4 -44 -16 -52 Z"/>
+      <path d="M30 -44 C 42 -55 60 -55 70 -44 C 60 -37 42 -37 30 -44 Z"/>
+      <path d="M-78 -16 C -66 -28 -46 -28 -34 -16 C -46 -8 -66 -8 -78 -16 Z"/>
+      <path d="M-30 -22 C -18 -34 2 -34 14 -22 C 2 -14 -18 -14 -30 -22 Z"/>
+      <path d="M18 -16 C 30 -28 50 -28 62 -16 C 50 -8 30 -8 18 -16 Z"/>
+      <path d="M64 -10 C 74 -20 88 -20 96 -10 C 88 -3 74 -3 64 -10 Z"/>
+      <path d="M-70 14 C -58 3 -40 3 -30 14 C -40 21 -58 21 -70 14 Z"/>
+      <path d="M22 16 C 34 5 52 5 62 16 C 52 23 34 23 22 16 Z"/>
+      <path d="M-52 40 C -42 31 -26 31 -18 40 C -26 46 -42 46 -52 40 Z"/>
+      <path d="M4 44 C 14 35 30 35 38 44 C 30 50 14 50 4 44 Z"/>
+    </g>
+    <!-- mảng sáng dọc sống lưng: cắt ngang lưới vảy cho khỏi thành hoa văn lặp -->
+    <path d="M-104 -18 C -88 -48 -50 -62 0 -62 C -30 -52 -62 -34 -80 -8 C -92 8 -96 24 -92 38 C -108 20 -110 -2 -104 -18 Z"
+          fill="#F5D48F" opacity=".4"/>
+
+    <!-- ĐUÔI xòe sang phải, chẻ hai thùy có khe giữa -->
+    <path d="M92 -18 C 122 -44 152 -52 168 -44 C 150 -30 134 -16 128 -4 L 96 -2 Z"
+          fill="url(#cttDuoi)" stroke="#5E3A0C" stroke-width="3"/>
+    <path d="M94 6 C 124 20 152 34 166 48 C 148 52 122 42 100 26 L 92 12 Z"
+          fill="#B57A1C" stroke="#5E3A0C" stroke-width="3"/>
+    <path d="M128 -4 C 122 4 120 8 128 12" fill="#8E5310" stroke="#5E3A0C" stroke-width="2.2"/>
+    <g stroke="#7A4E12" stroke-width="1.8" fill="none" opacity=".85">
+      <path d="M104 -14 L 148 -40"/><path d="M108 -6 L 142 -22"/>
+      <path d="M104 10 L 146 34"/><path d="M100 18 L 130 32"/>
+    </g>
+
+    <!-- ĐẦU bên trái: nắp mang tách đầu khỏi mình, một mắt, miệng nhỏ chúm -->
+    <path d="M-118 -8 C -118 -40 -104 -58 -84 -64 C -78 -40 -78 22 -84 50 C -104 42 -118 22 -118 12 Z"
+          fill="#B4741D" stroke="#5E3A0C" stroke-width="3"/>
+    <path d="M-84 -64 C -78 -40 -78 22 -84 50" fill="none" stroke="#6E4410" stroke-width="2.6"/>
+    <circle cx="-100" cy="-24" r="10" fill="#FBF3DE" stroke="#3E2607" stroke-width="2.4"/>
+    <circle cx="-101" cy="-24" r="4.6" fill="#22160A"/>
+    <path d="M-116 4 C -122 10 -120 18 -112 20" fill="none" stroke="#3E2607" stroke-width="2.8" stroke-linecap="round"/>
+    <!-- vây bụng kéo dài thành sợi — chữ ký giải phẫu của cá tai tượng -->
+    <path d="M-80 46 C -66 66 -44 76 -18 78" fill="none" stroke="#6E4410" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-16" cy="78" rx="7" ry="4" fill="#C48522" stroke="#5E3A0C" stroke-width="2"/>
+  </g>
+
+  <!-- MỘT MIẾNG THỊT CÁ ĐÃ GỠ nằm trên dĩa: thớ trắng, còn dính một mảng vảy
+       vàng ở mép — đây là chỗ cho tương phản GIÒN / MỀM mà không phải khoét một
+       cái lỗ vào mình cá (hai bản trước làm vậy, ra quả trứng ốp la rồi ra cái
+       lỗ dán sticker). -->
+  <g transform="translate(178 366) rotate(-12)">
+    <ellipse cx="0" cy="16" rx="44" ry="9" fill="rgba(15,26,14,.24)"/>
+    <path d="M-40 4 C -36 -12 -18 -20 4 -18 C 26 -16 40 -6 40 6 C 40 16 22 22 -2 21 C -26 20 -42 14 -40 4 Z"
+          fill="url(#cttThit)" stroke="#B99A62" stroke-width="2.4"/>
+    <g stroke="#DCCBA2" stroke-width="2.4" fill="none" opacity=".95">
+      <path d="M-32 6 C -14 -2 14 -2 32 6"/><path d="M-28 14 C -10 7 14 7 32 13"/>
+    </g>
+    <path d="M-40 4 C -36 -12 -18 -20 4 -18 C 12 -14 6 -8 -6 -6 C -20 -4 -32 0 -36 8 Z"
+          fill="#DFA653" stroke="#A87A2E" stroke-width="2"/>
+    <g fill="#EFC271" stroke="#A87A2E" stroke-width="1.4">
+      <path d="M-26 -8 C -20 -14 -10 -14 -4 -9 C -10 -5 -20 -4 -26 -8 Z"/>
+      <path d="M-8 -14 C -2 -19 8 -18 12 -13 C 6 -10 -2 -10 -8 -14 Z"/>
+    </g>
+  </g>
+
+  <!-- CUỐN ĐÃ CUỐN XONG: ống tròn, đầu cuốn xoắn, cọng rau ló ra một đầu -->
+  <g transform="translate(300 378) rotate(8)">
+    <ellipse cx="0" cy="15" rx="52" ry="9" fill="rgba(15,26,14,.24)"/>
+    <rect x="-48" y="-14" width="96" height="28" rx="14" fill="#F7F2E4" stroke="#D3CCB4" stroke-width="2.4"/>
+    <path d="M-40 -8 C -18 -12 18 -12 40 -7" fill="none" stroke="#FFFDF6" stroke-width="4.4" opacity=".9"/>
+    <ellipse cx="48" cy="0" rx="7" ry="14" fill="#EFE9D6" stroke="#D3CCB4" stroke-width="2.2"/>
+    <path d="M48 -10 C 43 -5 43 5 48 10" fill="none" stroke="#CFC7AC" stroke-width="2"/>
+    <g fill="#4E7F2C" opacity=".9">
+      <ellipse cx="-22" cy="4" rx="15" ry="5" transform="rotate(-5 -22 4)"/>
+      <ellipse cx="14" cy="7" rx="13" ry="4.6"/>
+    </g>
+    <ellipse cx="-4" cy="-4" rx="16" ry="5" fill="#DFA653" opacity=".9"/>
+    <path d="M-48 -6 C -60 -12 -70 -12 -76 -6" fill="none" stroke="#5E9436" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-48 2 C -58 4 -66 8 -70 14" fill="none" stroke="#6F9C48" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- XẤP BÁNH TRÁNG + CHÉN MẮM ME — cố ý lệch, không đối xứng hai bên -->
+  <g transform="translate(78 344)">
+    <ellipse cx="0" cy="12" rx="46" ry="11" fill="rgba(15,26,14,.28)"/>
+    <ellipse cx="0" cy="0" rx="42" ry="12" fill="#F2ECDC" stroke="#D3CCB4" stroke-width="2"/>
+    <ellipse cx="0" cy="-8" rx="42" ry="12" fill="#FBF7EC" stroke="#D3CCB4" stroke-width="2"/>
+    <ellipse cx="0" cy="-8" rx="26" ry="6" fill="none" stroke="#E2DBC4" stroke-width="1.6"/>
+  </g>
+  <g transform="translate(424 362)">
+    <ellipse cx="0" cy="18" rx="48" ry="12" fill="rgba(15,26,14,.3)"/>
+    <path d="M-40 -8 C -38 12 -22 25 0 25 C 22 25 38 12 40 -8 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-8" rx="33" ry="10" fill="#6E3A14" stroke="#4A2409" stroke-width="1.8"/>
+    <ellipse cx="-10" cy="-10" rx="12" ry="3.2" fill="#C2622A" opacity=".85"/>
+    <g fill="#E05A3E"><circle cx="12" cy="-7" r="3"/><circle cx="-18" cy="-6" r="2.6"/></g>
+  </g>
+
+  <!-- rau sống nhét vào khe giữa cá và mép dĩa, cho khỏi hở nền -->
+  <g fill="#4E7B36" stroke="#2E5220" stroke-width="2">
+    <path d="M348 330 C 362 312 392 306 408 316 C 394 332 368 338 348 330 Z"/>
+    <path d="M300 348 C 312 332 338 328 352 336 C 340 350 318 354 300 348 Z"/>
+  </g>
+  <g fill="#9AC46A" stroke="#4E7B36" stroke-width="1.6">
+    <path d="M212 336 C 222 324 240 322 250 328 C 240 340 224 342 212 336 Z"/>
+  </g>
+</svg>

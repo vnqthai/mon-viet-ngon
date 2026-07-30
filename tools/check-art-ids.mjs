@@ -3,26 +3,29 @@
  *
  *   node tools/check-art-ids.mjs
  *
- * Vì sao cần: trang /mon/ nhúng THẲNG cả 50+ hình vào cùng một tài liệu HTML.
- * `id` trong SVG là toàn cục cho cả trang, nên hai file art lỡ đặt trùng một
- * `id` là `url(#…)` của file sau sẽ ăn nhầm gradient/clipPath của file trước.
- * Hỏng hoàn toàn âm thầm: build xanh, trang món (chỉ nhúng 1 hình) vẫn đúng,
- * chỉ riêng trang danh mục sai màu — mà lại sai ở đúng cái hình mình không mở ra xem.
+ * Vì sao cần: `id` trong SVG là toàn cục cho cả tài liệu, nên hai file art lỡ
+ * đặt trùng một `id` là `url(#…)` của file sau ăn nhầm gradient/clipPath của
+ * file trước. Hỏng hoàn toàn âm thầm — build xanh, chỉ có màu là sai.
  *
- * Contact sheet không bắt được lỗi này: nó tự thêm hậu tố _c1.._cN vào mọi id
- * để tự cứu mình. Nên phải soi trên file gốc, ở đây.
+ * ⚠️ Từ đợt 10, hình ra file .svg riêng (/art/<kind>.svg) nên mỗi hình là một
+ * tài liệu riêng, id hết đè nhau trên /mon/. Giữ phép kiểm này làm chốt phòng
+ * xa vì nó vẫn bắt lỗi thật ở hai chỗ: `art-png.mjs --sheet` ghép nhiều hình
+ * vào MỘT tài liệu, và nếu có ngày quay lại nhúng thẳng thì lỗi tái xuất ngay.
  *
- * Kiểm luôn ba chỗ nối dễ đứt khi thêm món:
- *   art trong enum ⟷ dòng render trong RecipeArt.astro ⟷ file component có thật
+ * Kiểm luôn bốn chỗ nối dễ đứt khi thêm món:
+ *   art trong enum ⟷ ART_COMPONENT trong utils/art.ts ⟷ file component có thật
+ *   ⟷ viewBox "0 0 520 470" (ArtImg đặt cứng width/height theo đó)
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readArtMap } from './art-map.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ART_DIR = path.join(ROOT, 'src/components/art');
 const RECIPE_DIR = path.join(ROOT, 'src/content/recipes');
 const CONFIG = path.join(ROOT, 'src/content.config.ts');
+const ART_TS = path.join(ROOT, 'src/utils/art.ts');
 
 const problems = [];
 const warnings = [];
@@ -32,7 +35,7 @@ const warn = (msg) => warnings.push(msg);
 /* ---------- Đọc mọi file hình ---------- */
 const artFiles = fs
   .readdirSync(ART_DIR)
-  .filter((f) => f.endsWith('.astro') && f !== 'RecipeArt.astro');
+  .filter((f) => f.endsWith('.astro') && f !== 'ArtImg.astro');
 
 const owners = new Map();   // id -> [file, …]
 let totalIds = 0;
@@ -40,6 +43,23 @@ let totalIds = 0;
 for (const f of artFiles) {
   const src = fs.readFileSync(path.join(ART_DIR, f), 'utf8');
   const ids = [...src.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]);
+
+  /* Soi đúng thứ endpoint xuất ra: phần <svg>…</svg>, đã bỏ chú thích. */
+  const body = ((src.match(/<svg[\s\S]*<\/svg>/) || [''])[0]).replace(/<!--[\s\S]*?-->/g, '');
+  if (!body) fail(`${f}: không tìm thấy khối <svg>…</svg>`);
+
+  /* Hình ra file .svg riêng rồi thì <img> phải biết trước tỉ lệ, không thì chữ
+     dưới thẻ bị đẩy lúc hình tải xong. ArtImg đặt cứng 520×470 cho mọi hình. */
+  const vb = (body.match(/viewBox="([^"]+)"/) || [])[1];
+  if (vb !== '0 0 520 470') fail(`${f}: viewBox "${vb}" — mọi hình phải là "0 0 520 470" (ArtImg.astro đặt cứng width/height theo đó)`);
+  if (/currentColor|var\(--/.test(body)) fail(`${f}: dùng currentColor / var(--…) — CSS ngoài không với vào trong <img> được`);
+
+  /* File .svg rời được đọc bằng bộ phân tích XML NGHIÊM, khác HTML dễ dãi: một
+     dấu & trần (vd trong aria-label) là cả hình chết, mà build vẫn xanh.
+     Chú thích chứa "--" cũng từng làm chết ca-kho.svg — chỗ đó chữa tận gốc rồi
+     (endpoint bỏ hết chú thích), còn dấu & thì phải soi ở đây. */
+  if (/&(?!(#\d+|#x[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);)/.test(body))
+    fail(`${f}: có dấu & trần trong <svg> — file .svg rời là hỏng cả hình, phải viết &amp;`);
 
   const seenHere = new Set();
   for (const id of ids) {
@@ -70,29 +90,21 @@ for (const [id, list] of owners) {
   }
 }
 
-/* ---------- enum art ⟷ RecipeArt.astro ⟷ file component ---------- */
+/* ---------- enum art ⟷ utils/art.ts ⟷ file component ---------- */
 const configSrc = fs.readFileSync(CONFIG, 'utf8');
 const at = configSrc.indexOf('art: z');
 const open = configSrc.indexOf('.enum([', at);
 const close = configSrc.indexOf('])', open);
 const artEnum = [...configSrc.slice(open, close).matchAll(/'([^']+)'/g)].map((m) => m[1]);
 
-const recipeArtSrc = fs.readFileSync(path.join(ART_DIR, 'RecipeArt.astro'), 'utf8');
-const rendered = Object.fromEntries(
-  [...recipeArtSrc.matchAll(/kind === '([^']+)' && <(\w+)\s*\/>/g)].map((m) => [m[1], m[2]])
-);
-const imported = new Set(
-  [...recipeArtSrc.matchAll(/^import\s+(\w+)\s+from\s+'\.\/(\w+)\.astro'/gm)].map((m) => m[1])
-);
+const rendered = readArtMap(ART_TS);
 
 for (const k of artEnum) {
-  if (!rendered[k]) fail(`art "${k}" có trong enum nhưng RecipeArt.astro không có dòng render`);
+  if (!rendered[k]) fail(`art "${k}" có trong enum nhưng ART_COMPONENT (utils/art.ts) không có dòng nào`);
 }
 for (const k of Object.keys(rendered)) {
-  if (!artEnum.includes(k)) fail(`RecipeArt.astro render "${k}" nhưng enum art không có giá trị đó`);
-  const comp = rendered[k];
-  if (!imported.has(comp)) fail(`RecipeArt.astro render <${comp}/> mà quên import`);
-  if (!fs.existsSync(path.join(ART_DIR, comp + '.astro'))) fail(`không có file ${comp}.astro`);
+  if (!artEnum.includes(k)) fail(`utils/art.ts khai "${k}" nhưng enum art không có giá trị đó`);
+  if (!fs.existsSync(path.join(ART_DIR, rendered[k] + '.astro'))) fail(`không có file ${rendered[k]}.astro`);
 }
 
 /* ---------- Món nào chưa gắn art riêng ---------- */
