@@ -2,7 +2,7 @@
 
 Kho công thức món Việt tại [www.monvietngon.com](https://www.monvietngon.com) — mục tiêu dài hạn: **~100 món** phủ đủ ba miền, món nào cũng được chăm chút như món nào.
 
-_Cập nhật: 2026-07-29 — site đang có **64 món** / 7 vùng / **14 kiểu món**, không kiểu món nào dưới 3. Phần I (thiết kế lại giao diện) đã xong; **đợt 6 → 10 đã xong**, Phần II khép lại. Hình đã tách ra file `.svg` riêng._
+_Cập nhật: 2026-07-30 — site đang có **64 món** / 7 vùng / **14 kiểu món**, không kiểu món nào dưới 3. Phần I (thiết kế lại giao diện) đã xong; **đợt 6 → 10 đã xong**, Phần II khép lại. Hình đã tách ra file `.svg` riêng._
 
 ## Đã hoàn thành
 
@@ -256,12 +256,19 @@ chính đợt này.
 
 **Kết quả đo được** (`/mon/`, gzip):
 
-| | thô | gzip máy | máy chủ |
+| | thô | gzip máy | **máy chủ (đo thật)** |
 |---|---:|---:|---:|
-| 58 món, hình nhúng thẳng | 634 KB | 141 KB | **143,8 KB** *(đo thật)* |
-| **64 món, hình ra file riêng** | **149 KB** | **29 KB** | **~29,8 KB** *(ước ×1,021)* |
+| 58 món, hình nhúng thẳng | 634 KB | 141 KB | **143,8 KB** |
+| **64 món, hình ra file riêng** | **149 KB** | **29 KB** | **29,5 KB** |
 
-**Giảm 79%, và quan trọng hơn: dung lượng trang thôi tăng theo số món.** Thêm
+> Đo lại sau khi deploy 2026-07-30: `/mon/` **30.232 byte = 29,5 KB** — sát con
+> số ước 29,8 KB, tức hệ số ×1,021 giữa máy và máy chủ vẫn đúng. Trang chủ
+> **15,1 KB**, trang chi tiết món mới **13,0 KB**. GitHub Pages **có nén cả
+> file `.svg`** (`content-encoding: gzip`, `cache-control: max-age=600`), nên
+> chỗ dùng chung hình giữa ba trang là ăn thật.
+
+**Giảm 79,5% (143,8 → 29,5 KB), và quan trọng hơn: dung lượng trang thôi tăng
+theo số món.** Thêm
 một món giờ chỉ thêm phần chữ của cái thẻ. Trang chủ 36,8 → 14,9 KB gzip; trang
 chi tiết món 19,0 → 16,8 KB. Cả bộ 68 hình cộng lại 161 KB gzip nhưng **tải theo
 nhu cầu** (`loading="lazy"` bỏ qua hình ngoài màn hình) và **dùng chung cho cả
