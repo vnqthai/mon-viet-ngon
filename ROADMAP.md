@@ -18,6 +18,7 @@ _Cập nhật 2026-07-30. Site đang **64 món / 7 vùng / 14 kiểu món**, kh�
 | **Dung lượng** | `/mon/` **29,5 KB** gzip (đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh** |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
+| **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
 | **Hạ tầng** | JSON-LD Recipe · ảnh OG sinh lúc build · sitemap · robots.txt · deploy tự động GitHub Pages + HTTPS |
 
 ## Catalog hôm nay
@@ -68,16 +69,22 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 
 ## Hạ tầng, theo thứ tự đáng làm
 
-1. **Thống kê truy cập nhẹ ([GoatCounter](https://www.goatcounter.com)) — nên làm TRƯỚC mấy việc đoán mò.** Hiện không biết người đọc thật sự dùng gì, nên mọi quyết định về 12 ô featured, thứ tự chip lọc, món nào lên ticker đều đang dựa trên suy luận. Miễn phí, không cookie, một dòng script trong `src/layouts/Base.astro`.
-2. **RSS feed** `/rss.xml` (`@astrojs/rss`) — việc nhỏ nhất còn lại, và đã đủ điều kiện: cả 64 món có `pubDate`.
-3. **Tự host font, bỏ Google Fonts.** Hiện là một stylesheet chặn render từ bên thứ ba. Repo **đã có sẵn** `BeVietnamPro-Regular/SemiBold.ttf` + `PaytoneOne-Regular.ttf` trong `src/assets/fonts/` (dùng sinh ảnh OG) — thiếu mỗi **Dancing Script**, cần tải thêm. Bỏ được thì nhanh hơn, hết phụ thuộc bên thứ ba, và hợp tinh thần "không theo dõi" của trang hơn.
+1. **Thống kê truy cập nhẹ ([GoatCounter](https://www.goatcounter.com)) — nên làm TRƯỚC mấy việc đoán mò.** Hiện không biết người đọc thật sự dùng gì, nên mọi quyết định về 12 ô featured, thứ tự chip lọc, món nào lên ticker đều đang dựa trên suy luận. Miễn phí, không cookie, một dòng script trong `src/layouts/Base.astro`. ⚠️ **Cần Thái lập tài khoản trước** rồi mới gắn được.
+2. ~~**RSS feed**~~ — **xong 2026-07-30**, `/rss.xml`, 64 món sắp theo `pubDate` mới nhất trước.
+3. **Tự host font, bỏ Google Fonts — CHƯA LÀM, và cố ý hoãn.** Hiện là một stylesheet chặn render từ bên thứ ba. Repo **đã có sẵn** `BeVietnamPro-Regular/SemiBold.ttf` + `PaytoneOne-Regular.ttf` trong `src/assets/fonts/` (dùng sinh ảnh OG).
+
+   > **Đọc kỹ trước khi làm — mấy chỗ dễ hiểu sai:**
+   > - **Ba file `.ttf` sẵn có KHÔNG dùng thẳng được.** Google đang phục vụ `woff2` đã cắt bộ ký tự; `.ttf` đầy đủ nặng 112–134 KB nên thay thẳng là **nặng hơn hiện tại**. Cần `woff2`, và **thiếu hẳn hai face**: Be Vietnam Pro **700** và Dancing Script **600**.
+   > - **Lợi ích KHÔNG phải là LCP.** URL đã có `&display=swap` nên chữ vẽ ngay bằng font dự phòng — *file font* không chặn vẽ chữ. Cái chặn là **bản thân cái stylesheet**: không một chữ nào xuất hiện trước khi `fonts.googleapis.com` trả lời. Lợi ích thật là **bỏ điểm hỏng đơn lẻ duy nhất của site**, bỏ 2 vòng DNS+TLS, và bớt nháy chữ.
+   > - **Chưa định lượng được.** Không có số bóp băng thông nào (PSI API trả 429 vì thiếu key). Đo lượt đầu mạng chậm rồi hãy quyết, đừng làm vì nghe hay.
+
 4. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng. Mở một giá trị enum mới là phải **rà gắn lại cả 64 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
 
-## SEO còn thiếu — đều rẻ
+## ~~SEO còn thiếu~~ — XONG 2026-07-30
 
-- Không có `rel="canonical"`.
-- Không có `BreadcrumbList` — Google hiện breadcrumb trong kết quả tìm kiếm cho recipe, mà trang chi tiết cũng không có breadcrumb nhìn thấy được.
-- Đã có `Organization`, chưa có `WebSite`.
+- ~~`rel="canonical"`~~ — có ở mọi trang trừ 404 (trang 404 không có bản chuẩn nào để trỏ tới). Kèm `og:url`.
+- ~~`BreadcrumbList`~~ — có, **kèm breadcrumb nhìn thấy được** trong hero trang món; Google chỉ hiện đường dẫn phân cấp khi trang có breadcrumb thật.
+- ~~`WebSite`~~ — có ở trang chủ, kèm `SearchAction` trỏ `/mon/?q=` (khai được vì trang có tìm kiếm thật, form GET thuần).
 
 ## Cố ý KHÔNG có — đừng "bổ sung"
 
@@ -192,6 +199,7 @@ Chuyện đã qua, xếp theo thứ tự thời gian.
 - [x] Hai script QA thường trực trong `tools/` (`npm run qa`): quét bẫy YAML cả thư mục + soi trùng `id` chéo giữa các file art
 - [x] **Harness render hình ra PNG** (`npm run art-png`) — chế độ `--sheet` ghép nhiều hình một tấm ở cỡ thumbnail để soi chống-đụng; thứ contact sheet không làm được
 - [x] SEO: JSON-LD schema.org/Recipe, ảnh OG chia sẻ sinh lúc build, sitemap, robots.txt
+- [x] **RSS + nốt phần SEO còn thiếu** (2026-07-30) — `/rss.xml`, `canonical`, `BreadcrumbList` kèm breadcrumb thật, `WebSite` + `SearchAction`; nhân tiện cắt 3 nét font xin dư
 - [x] Trang bí quyết bếp (`/bi-quyet/`), trang danh mục `/mon/` có lọc theo kiểu món · theo dịp · miền
 - [x] Deploy tự động lên GitHub Pages, tên miền riêng + HTTPS, dòng bản quyền footer
 - [x] Đợt 10 (2026-07-30, 6 món): nem nướng Nha Trang, cá tai tượng chiên xù, ốc hấp lá gừng, gà hấp hành, gỏi ngó sen tôm thịt, cánh gà chiên nước mắm — mở kiểu món **"Bánh"** (chuyển bánh xèo · bánh cuốn · bánh khoái sang), **14 kiểu món tất cả ≥ 3**
@@ -267,6 +275,19 @@ Kết luận: `eager` **không thể** cải thiện LCP ở đây; nó chỉ k�
 **Việc mọc ra từ số đo này — chưa làm:** nếu muốn lưới món thật sự nằm trên màn hình đầu thì phải **rút ngắn hero trang chủ**, chứ không phải chỉnh thuộc tính `loading`. Đó là câu hỏi thiết kế (hero đang gánh h1, câu dẫn, ô tìm, 2 nút, 3 con số thống kê và một hình lớn), không phải câu hỏi hiệu năng — và **cần đo trước khi cắt**, đừng cắt theo cảm tính.
 
 ⚠️ 284ms đo trên máy, mạng nhanh — **con số tuyệt đối vô nghĩa với người dùng thật**, thứ đáng tin là *phần tử nào là LCP* vì cái đó do bố cục quyết định. Chưa có số bóp băng thông từ bên thứ ba: PSI API trả 429 vì không có API key, muốn thì mở `pagespeed.web.dev` gõ tay.
+
+### RSS + SEO — 2026-07-30
+
+Bốn việc "đều rẻ" trong phần SEO cùng với RSS, làm một lượt.
+
+- **`/rss.xml`** — 64 món, sắp theo `pubDate` **mới nhất trước** chứ không theo `order`: `order` là thứ tự bày trên trang (gom theo kiểu món, cân cho lưới đẹp), người theo dõi feed thì chỉ muốn biết bếp mới ra món gì. Món thiếu `pubDate` thì **bỏ qua chứ không lấy ngày hôm nay** — đặt ngày giả là mỗi lần build feed lại đảo lộn, ai theo dõi cũng tưởng có bài mới. (Hiện đủ 64 nên không món nào rớt.)
+- **`canonical`** — mọi trang trừ 404. Máy chủ vốn đã 301 dạng thiếu `/` và dạng không `www` (đã kiểm), nên **canonical ở đây lo phần redirect KHÔNG lo được: tham số truy vấn.** `/mon/?kieu=Kho`, `/mon/?q=bún` và link chia sẻ dính `?fbclid=` đều là cùng một trang.
+- **`BreadcrumbList` + breadcrumb nhìn thấy được** trong hero trang món. Hai thứ này phải đi cùng nhau — Google chỉ hiện đường dẫn phân cấp thay cho URL trần **khi trang có breadcrumb thật**. Mắt xích cuối không có `item` vì đó là trang đang đọc.
+- **`WebSite` + `SearchAction`** ở trang chủ, trỏ `/mon/?q=`. Khai được vì trang **có tìm kiếm thật** — form GET thuần, không JS vẫn chạy.
+
+**Nhân tiện cắt 3 nét font xin dư.** Đếm ra thì CSS chỉ dùng `700` (21 chỗ), `600` (18 chỗ), `400` (1 chỗ) và **không một chỗ nào nghiêng**, mà URL đang xin cả `Be Vietnam Pro 500`, `nghiêng 400` và `Dancing Script 700`. Đã bỏ. Cũng sửa một chỗ khai `font-weight:800` trong khi không xin nét 800 — trình duyệt đang tự bôi đậm giả; đổi về `700` cho thật.
+
+> **Cách kiểm lại khi đổi font:** `grep -oh "font-weight:[0-9]*" src/styles/*.css | sort | uniq -c` và `grep -rn "font-style\|<em>" src/`. Xin thừa một nét là thừa một request font.
 
 ### Số đo dung lượng
 

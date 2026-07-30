@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 import ArtImg from '../../components/art/ArtImg.astro';
 import RelatedStrip from '../../components/RelatedStrip.astro';
-import { rich, plain } from '../../utils/rich';
+import { rich, plain, dishName } from '../../utils/rich';
 import { fmtQty } from '../../utils/qty';
 import { viDurationToISO, stepToPlainText } from '../../utils/seo';
 import { familyOf } from '../../utils/family';
@@ -76,6 +76,26 @@ const jsonLd = {
     url: `${pageUrl}#buoc-${i + 1}`,
   })),
 };
+
+/* Breadcrumb. Google hiện đường dẫn phân cấp thay cho URL trần trong kết quả
+   tìm kiếm — nhưng chỉ khi trang CÓ breadcrumb nhìn thấy được, nên phần đánh
+   dấu bên dưới đi kèm dải chữ thật trong hero, không đứng một mình.
+   Mắt xích cuối là trang đang đọc nên KHÔNG có `item` — đó là dạng đúng. */
+const crumbs = [
+  { name: 'Trang chủ', href: '/' },
+  { name: 'Món ngon', href: '/mon/' },
+  { name: dishName(d.title), href: null },
+];
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: crumbs.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.name,
+    ...(c.href ? { item: new URL(c.href, Astro.site).href } : {}),
+  })),
+};
 ---
 <Base
   title={`${plain(d.title)} — Món Việt Ngon`}
@@ -85,6 +105,7 @@ const jsonLd = {
   active="mon"
 >
 <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+<script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
 <main
   id="recipe-root"
   data-slug={slug}
@@ -101,6 +122,16 @@ const jsonLd = {
 
     <div class="hero__inner">
       <div class="hero__copy">
+        <nav class="crumb" aria-label="Đường dẫn phân cấp">
+          {crumbs.map((c, i) => (
+            <>
+              {i > 0 && <span class="crumb__sep" aria-hidden="true">›</span>}
+              {c.href
+                ? <a href={c.href}>{c.name}</a>
+                : <span aria-current="page">{c.name}</span>}
+            </>
+          ))}
+        </nav>
         <p class="hero__eyebrow">{d.heroEyebrow}</p>
         <h1 set:html={rich(d.title).replace(/<b>/g, '<span class="gold">').replace(/<\/b>/g, '</span>')} />
         <div class="hero__badges">

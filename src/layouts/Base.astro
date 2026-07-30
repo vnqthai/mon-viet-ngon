@@ -24,6 +24,15 @@ const { title, description, ogImage = '/og/default.png', showPrint = false, acti
 const here = Astro.url.pathname.replace(/\/+$/, '') || '/';
 const isPage = (href: string) => here === (href.replace(/\/+$/, '') || '/');
 const ogImageAbs = new URL(ogImage, Astro.site).href;
+
+/* Đường dẫn chuẩn của trang. Máy chủ đã 301 dạng thiếu "/" và dạng không "www",
+   nên canonical ở đây lo phần redirect KHÔNG lo được: tham số truy vấn.
+   `/mon/?kieu=Kho`, `/mon/?q=bún` và link chia sẻ dính `?fbclid=…` đều là cùng
+   một trang — không có canonical thì Google có thể xếp chúng thành nhiều trang.
+   Dạng viết phải khớp sitemap: luôn có dấu "/" cuối, trừ trang chủ.
+   Trang 404 không có bản chuẩn nào để trỏ tới, nên bỏ hẳn thẻ này. */
+const canonPath = Astro.url.pathname.replace(/\/+$/, '');
+const canonical = canonPath === '/404' ? null : new URL(canonPath ? `${canonPath}/` : '/', Astro.site).href;
 ---
 <!DOCTYPE html>
 <html lang="vi">
@@ -31,6 +40,8 @@ const ogImageAbs = new URL(ogImage, Astro.site).href;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content={description} />
+  {canonical && <link rel="canonical" href={canonical} />}
+  {canonical && <meta property="og:url" content={canonical} />}
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
@@ -43,10 +54,15 @@ const ogImageAbs = new URL(ogImage, Astro.site).href;
   <meta name="twitter:image" content={ogImageAbs} />
   <title>{title}</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/rss+xml" title="Món Việt Ngon — món mới" href="/rss.xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  {/* Chỉ xin đúng nét CSS thật sự dùng. Trước đây xin dư ba nét — Be Vietnam Pro
+      500 và nghiêng 400, Dancing Script 700 — không chỗ nào trong site đụng tới
+      (đếm bằng `grep -oh "font-weight:[0-9]*" src/styles/*.css`, và không có
+      một `<em>`/`font-style:italic` nào). Thêm một nét là thêm request font. */}
   <link
-    href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Dancing+Script:wght@600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Be+Vietnam+Pro:wght@400;600;700&family=Dancing+Script:wght@600&display=swap"
     rel="stylesheet"
   />
   <script is:inline>

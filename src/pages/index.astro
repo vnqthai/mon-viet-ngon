@@ -72,12 +72,34 @@ const tickerItems = [
   { icon: 'flame', text: 'Cánh gà chiên nước mắm, tỏi phi rắc sau cùng' },
   { icon: 'rice', text: 'Cơm nhà là ngon nhất' },
 ];
+
+/* WebSite + SearchAction. Khai SearchAction chỉ hợp lệ khi trang CÓ tìm kiếm
+   thật — site này có: `/mon/?q=…` là form GET thuần, không JS vẫn chạy. */
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Món Việt Ngon',
+  alternateName: 'monvietngon.com',
+  url: Astro.site?.href,
+  inLanguage: 'vi',
+  description: 'Kho công thức món Việt ba miền, hướng dẫn cặn kẽ từng bước.',
+  publisher: { '@type': 'Organization', name: 'Món Việt Ngon', url: Astro.site?.href },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: new URL('/mon/?q={search_term_string}', Astro.site).href,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 <Base
   title="Món Việt Ngon — Nấu món Việt chuẩn vị, dễ như cơm nhà"
   description="Công thức món Việt ba miền hướng dẫn cặn kẽ từng bước: bản nấu nhanh, giỏ đi chợ tự tính khẩu phần, đồng hồ đếm giờ, bí quyết của người nấu lâu năm."
   active="home"
 >
+<script type="application/ld+json" is:inline set:html={JSON.stringify(siteLd)} />
 <main>
   <!-- ============ HERO ============ -->
   <section class="home-hero" aria-label="Giới thiệu Món Việt Ngon">
