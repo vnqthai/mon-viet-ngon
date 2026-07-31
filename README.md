@@ -208,7 +208,7 @@ Từ đợt 10, hình **không** nhúng thẳng vào trang nữa. Endpoint
 `src/pages/art/[kind].svg.ts` xuất mỗi hình ra `/art/<kind>.svg` lúc build, còn
 thẻ món gọi bằng `<img loading="lazy">` (`art/ArtImg.astro`). Kết quả: `/mon/`
 từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**
-(nay là **~31,1 KB** ở 95 món — ước từ số cục bộ 30,4 KB ×1,02, tức
+(nay là **30,9 KB** ở 95 món — đo trên máy chủ, tức
 **0,21 KB/món** cho 13 món của đợt 13);
 ba trang (`/mon/`, trang chủ, trang chi tiết) dùng chung một file đã cache.
 
@@ -238,6 +238,13 @@ Ba thứ này từng bị lẫn: `image` của JSON-LD trỏ vào `/og/`, tức 
 thẻ chữ làm thumbnail kết quả tìm kiếm. Sửa 2026-07-30 — xem ROADMAP phần 5.
 Ảnh `/anh-mon/` khoá theo **slug** chứ không theo **kind** như `/art/`, vì nền
 phải mang màu họ của chính món đó, mà họ suy từ `category`.
+
+> **`/anh-mon/` KHÔNG hiện ở đâu cho người đọc thấy** — không trang nào trỏ
+> `href` tới nó, không nằm trong sitemap, không bấm vào từ giao diện. Nó chỉ tồn
+> tại để **bot đi lấy**. Đó là chủ đích, nhưng cũng có nghĩa là **mở trang web
+> lên xem thì không bao giờ gặp** — muốn coi thì gõ thẳng URL, ví dụ
+> `https://www.monvietngon.com/anh-mon/che-buoi-4x3.jpg`. Ghi rõ ở đây vì đã có
+> lần chủ trang không biết là site có thứ này.
 
 ## Deploy lên GitHub Pages + domain monvietngon.com
 

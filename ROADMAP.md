@@ -1,8 +1,10 @@
 # Lộ trình Món Việt Ngon
 
-Kho công thức món Việt tại [www.monvietngon.com](https://www.monvietngon.com) — mục tiêu dài hạn: **~100 món** phủ đủ ba miền, món nào cũng được chăm chút như món nào.
+Kho công thức món Việt tại [www.monvietngon.com](https://www.monvietngon.com) — mục tiêu dài hạn: **200 món** phủ đủ ba miền, món nào cũng được chăm chút như món nào.
 
 _Cập nhật 2026-07-31 (sau đợt 13). Site đang **95 món / 7 vùng / 16 kiểu món**, không kiểu món nào dưới 3._
+
+> **Mục tiêu nâng từ ~100 lên 200 món — Thái chốt 2026-07-31**, ngay sau khi đợt 13 lên. Mốc 100 vẫn đi qua trước (đợt 14 thêm ~10 món là vượt), nhưng từ đây kế hoạch tính theo đường tới 200. **Chỗ chặn đường đó không phải dung lượng hay công viết — mà là đụng hình**; phân tích bằng số ở phần 2, mục *"Đường tới 200 món"*. Đọc mục đó trước khi mở đợt mới.
 
 **Cách đọc file này:** bốn phần đầu là **thứ còn dùng** — trạng thái, việc còn lại, quy trình, luật đã chốt. Phần **Nhật ký** ở cuối là **chuyện đã qua**, giữ lại vì phần lý lẽ đằng sau mỗi quyết định mới là chỗ đáng giá; đừng đọc nó như chỉ dẫn, và vài con số trong đó chỉ đúng ở thời điểm viết.
 
@@ -15,7 +17,7 @@ _Cập nhật 2026-07-31 (sau đợt 13). Site đang **95 món / 7 vùng / 16 ki
 | **Nội dung** | 95 món · 7 vùng · 16 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo **6 họ màu**, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
-| **Dung lượng** | `/mon/` **~31,1 KB** gzip ở 95 món (**ước từ số cục bộ 30,4 KB ×1,02**, không đi đo máy chủ) — 13 món thêm 2,7 KB, tức **0,21 KB/món**, vẫn đúng chuyện "không tăng theo số món" |
+| **Dung lượng** | `/mon/` **30,9 KB** gzip ở 95 món (31.674 B, **đo trên máy chủ**) — 13 món thêm 2,7 KB, tức **0,21 KB/món**, vẫn đúng chuyện "không tăng theo số món" |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 570 liên kết |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
@@ -145,14 +147,35 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 
 > **"~150 KB gzip" giờ vô nghĩa, đừng dùng lại.** Từ đợt 10 độ dốc xuống còn ~0,2 KB/món (chỉ còn phần chữ của cái thẻ) thay vì 2,6 KB/món, nên ở 100 món `/mon/` ước chừng **31 KB** — chưa đo, suy từ **24,1 KB** đo trên máy chủ ở 64 món. **Không còn rào dung lượng nào chặn đường lên 100 món.** *(Con số ước cũ ghi 37 KB vì suy từ mốc 29,5 KB trước khi làm lại ô tìm kiếm — mốc đó đã hết hiệu lực.)*
 
-## Việc lớn nhất, và nó cần Thái
+## Đường tới 200 món
 
-**95 → 100 món là còn ĐÚNG 5 MÓN.** Mục tiêu dài hạn của dự án gần như đã tới nơi — mà kho ý tưởng dưới đây còn **10 món đã tra sẵn** cộng 2 món Tây đang hoãn, tức là **thừa quân**. Việc còn lại không phải nghĩ ra món nữa, mà là **chọn 5 món nào cho tròn 100**, và đó là quyết định của Thái.
+**Đợt 14 (~10 món, Thái đã nhận) là vượt mốc 100.** Từ đó còn ~95 món nữa mới tới 200 — tức là **8–10 đợt cỡ đợt 13**. Con số dưới đây tính từ số đo thật ở 95 món, để biết cái gì gánh được và cái gì không.
 
-> **Ba điều nên cân khi chọn 5 món cuối** — cả ba đều đã có số ở phần trên:
-> - **Đừng lấy thêm món "Cả nước"** — ô đó đang 23/95 (24%), sát nút Miền Nam.
-> - **Tây Bắc vẫn 2 món** và là ô mỏng nhất từ đầu dự án tới giờ. Muốn chữa thì phải chấp nhận **xôi ngũ sắc** (xếp vào *Cơm* hơi gượng) hoặc **canh cải mèo** — hai món còn lại trong kho sau khi đã loại bê chao, thịt trâu gác bếp, nộm da trâu.
-> - **Mốc 100 món là mốc tròn duy nhất còn lại** để đi **đo dung lượng thật trên máy chủ** (luật ở phần 4). Ước hiện tại là ~31,1 KB ở 95 món; con số dự đoán cũ cho 100 món cũng là ~31 KB, nên lần đo đó sẽ trả lời được luôn cả hai câu.
+**Không vỡ chỗ nào — nền kỹ thuật làm được 100 thì làm được 200:**
+
+| | Nay (95 món) | Ước ở 200 món |
+|---|---|---|
+| `/mon/` gzip | **30,9 KB** (đo máy chủ) | **~53 KB** — vẫn xa mốc cũ 150 KB |
+| Build | 36,2 s / 99 trang | **~75 s** (phần sinh ảnh chiếm chủ yếu) |
+| `/anh-mon/` | 12 MB · 285 ảnh | ~25 MB · 600 ảnh — artifact, không nằm trong repo |
+| 12 ô featured | 13% catalog | 6% — **chọn lọc hơn**, không tệ hơn |
+| Ô mỏng nhất | 3 món | 6 món — không kiểu món nào tụt dưới luật ≥3 |
+
+**Chỗ vỡ là ĐỤNG HÌNH, và nó không tăng tuyến tính.** Mỗi hình mới phải khác **mọi** hình cũ ở cỡ 260px, nên cái quyết định độ khó là **hàng xóm đông cỡ nào**, không phải tổng số món:
+
+- Họ **"Chan & húp"** đi từ 31 lên **~65 hình**, tất cả đều là tô hoặc nồi nước trên nền teal. **Món nước 13 → 27**, **Kho 10 → 21**.
+- Đợt 13 đã phải bịa chiêu mới tách nổi **7 nồi lẩu** (quai xách vòng cung · bếp cồn có lửa · ổ bánh mì · dĩa thịt sống bày ngoài nồi). Tới **15 nồi lẩu** là cạn chiêu.
+- Viết nội dung thì tuyến tính — 17,8 KB/món, có khuôn sẵn. Vẽ hình thì không.
+
+**Ba việc phải đổi TRƯỚC khi đi tiếp, không phải để dành tới lúc kẹt:**
+
+1. **Cách soi đụng hình.** Hiện là tự tay chọn "mấy hình dễ đụng" rồi ghép sheet — hết đáng tin khi hàng xóm là 30+ hình. Cần quét **cả họ màu** một cách hệ thống.
+2. **Vốn từ bố cục phải mở rộng.** Gần như mọi hình đang cùng một khuôn: *vật đựng, đặt giữa, nhìn chếch từ trên, một hai đạo cụ trên bàn*. Ở 65 tô teal thì thứ phân biệt được không còn là món ăn nữa mà là **khung hình** — cắt cận, nhìn thẳng từ trên, có tay/đũa gắp, mặt cắt ngang. Đòn bẩy này chưa hề dùng.
+3. **Trục vùng miền.** Tây Bắc 2 món và đã khai là cạn món nấu-được-ở-nhà. Ở 200 món mà vùng đó vẫn 4 thì trục vùng miền thành nói dối. Ba đường: chấp nhận lệch và nói thẳng · nới luật *"mua được ở chợ thường"* cho vài món · gộp Tây Bắc vào Miền Bắc như đã làm với Đông Bắc. **Chốt ở mốc 100 rẻ hơn nhiều so với chốt ở 180.**
+
+> **Hai điều vẫn đúng khi chọn món, dù mục tiêu đã đổi:**
+> - **Đừng lấy thêm món "Cả nước"** — ô đó đang 23/95 (24%), chỉ kém Miền Nam hai món.
+> - Kho ý tưởng dưới đây có **10 món đã tra sẵn** + 2 món Tây đang hoãn. Đủ cho đợt 14, nhưng **không đủ cho đường tới 200** — từ đợt 15 trở đi phải có nguồn món mới.
 
 > **Nếu chỉ làm một thứ:** ~~trang 404 + liên kết chéo~~ — đã làm 2026-07-30. Việc còn lại mà người đọc cảm nhận được liền thì hết; những gì còn trong danh sách đều là hạ tầng hoặc SEO, không ai nhìn thấy.
 
@@ -255,7 +278,9 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
   - **Chỉ bỏ công đo thật khi con số còn nói được điều gì mới**: có thay đổi cấu trúc (thêm loại tài nguyên, nhúng lại nội dung vào trang), tới mốc tròn (100 món), hoặc khi số ước nhảy khác dự đoán.
   - **Lúc có đo thật thì gộp vào commit thực chất kế tiếp**, đừng đứng một mình.
 
-  > **Vì sao ×1,02 là đủ:** hai lần so trực tiếp cục-bộ ↔ máy-chủ đều lệch cùng chiều và cùng cỡ — 23,6 → **24,1** (+2,1%) và 25,1 → **25,5** (+1,6%), cục bộ luôn *thấp hơn*. Nhân 1,02 vào hai lần đó ra 24,07 và 25,60, tức **sai dưới 0,1 KB**. Mà con số này chỉ phục vụ đúng một luận điểm — *"dung lượng thôi tăng theo số món"* — nên sai 2% không đụng gì tới kết luận. *(Mới 2 điểm dữ liệu, chưa đủ gọi là hằng số: nếu lần nào đó số ước lệch quá 3% thì bỏ luật này, quay lại đo thật.)*
+  > **Vì sao ×1,02 là đủ — nay đã có BỐN điểm dữ liệu, luật đứng vững:** lệch cục-bộ ↔ máy-chủ luôn cùng chiều và cùng cỡ, cục bộ luôn *thấp hơn*: **+2,1% · +1,6% · +1,7% · +1,57%**. Hệ số thật quanh **1,016**, tức ×1,02 hơi cao một chút nhưng **sai luôn dưới 0,15 KB**. Lần thứ tư (đợt 13): cục bộ 31.183 B → ước 31.807 B → đo thật **31.674 B**, lệch **0,42%**. Con số này chỉ phục vụ đúng một luận điểm — *"dung lượng thôi tăng theo số món"* — nên sai 2% không đụng gì tới kết luận. *(Chốt thoát vẫn giữ: nếu lần nào đó số ước lệch quá 3% thì bỏ luật này, quay lại đo thật.)*
+  >
+  > **Cách đo ĐÚNG luật, rút ra ở đợt 13:** gộp `curl` đo dung lượng vào **cùng loạt curl kiểm production sau khi deploy** (kiểm trang 200, kiểm chip lọc, kiểm số món…). Làm vậy thì phép đo gần như miễn phí và **không đẻ ra chuyến đi riêng nào** — chỗ sinh ra thói quen 2-commit chính là coi việc đo như một việc tách rời.
 - **Phân vân giữa các phương án giao diện thì dựng harness iframe rồi đo `getBoundingClientRect()`**, đừng bàn cảm tính.
 - **Contact sheet không đủ để soi hình** — phải render PNG ghép ở cỡ thumbnail (`npm run art-png -- --sheet`). Đợt 7, 8, 9, 10 đều có lỗi lọt qua contact sheet.
 - **Render thử NGAY SAU NHÓM HÌNH ĐẦU TIÊN, đừng vẽ hết rồi mới soi.** Đợt 13 vẽ 5 món chè rồi render liền: **4/5 sai** — trái bưởi đọc thành quả bơ có hột, củ khoai môn thành hòn đá, nồi chè quá nhạt thành bát cháo yến mạch, ly chè đậu đỏ thành ly champagne. Sửa xong mới vẽ tiếp 8 hình còn lại, và 8 hình đó chỉ còn **1 lỗi**. Vẽ hết 13 rồi mới soi thì cùng ngần ấy lỗi hệ thống sẽ lặp lại ở cả 13. (đợt 13)
