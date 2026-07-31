@@ -1,0 +1,117 @@
+---
+/* Canh sườn bí đao — CHỮ KÝ, phải tách khỏi CẢ canh bí đỏ (cam đục) LẪN
+   canh sườn khoai tây cà rốt (cùng đợt, cùng nền xanh họ "nuoc"):
+   1) MIẾNG BÍ ĐAO là THANH CHỮ NHẬT TRONG, xanh nhạt gần trắng, có vệt sáng
+      chạy dọc cho ra chất "trong như ngọc" — khác hẳn múi cong đục màu cam
+      của canh bí đỏ và khối vuông đặc của canh khoai tây
+   2) MẶT NƯỚC ĐỂ TRỐNG NHIỀU, màu nhạt nhất trong mọi tô của site — cả món
+      bán chữ "nước trong thấy đáy", bày ít thứ là cố ý
+   3) khúc sườn lộ ĐỐM XƯƠNG tròn trắng
+   4) đạo cụ: khúc bí đao dài bên trái, nhúm tôm khô bên phải
+   id prefix "csb" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô canh sườn bí đao: nước trong, thanh bí đao xanh nhạt trong veo và khúc sườn lộ xương">
+  <defs>
+    <linearGradient id="csbBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F2DA"/><stop offset="1" stop-color="#E7DDB8"/>
+    </linearGradient>
+    <linearGradient id="csbBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E9E2CC"/>
+    </linearGradient>
+    <!-- KHÚC SƯỜN: khối thịt + ĐẦU XƯƠNG TRẮNG LÒI HẲN RA khỏi đường bao.
+         Bản đầu vẽ đốm xương tròn trên mặt khối, ở cỡ 260px chỉ còn là ô vuông nâu. -->
+    <g id="csbSuon">
+      <path d="M6 -18 C 6 -26 12 -31 19 -31 C 24 -31 27 -28 27 -24 C 30 -25 34 -23 34 -18
+               C 34 -13 30 -10 25 -11 L 20 -4 L 4 -8 Z"
+            fill="#FBF4E2" stroke="#A8834A" stroke-width="2.2" stroke-linejoin="round"/>
+      <rect x="-24" y="-10" width="46" height="34" rx="8" fill="#CE9153" stroke="#8A5A22" stroke-width="2.5"/>
+      <path d="M-22 -4 C -10 -11 10 -12 20 -8 L 20 -2 C 10 -6 -10 -5 -20 1 Z" fill="#F0DDB4"/>
+      <path d="M-14 6 L -17 18" stroke="#A96F2E" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M-2 8 L -5 19" stroke="#A96F2E" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+      <path d="M10 6 L 8 17" stroke="#A96F2E" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    </g>
+    <!-- THANH BÍ ĐAO: chữ nhật bo góc, ruột trong xanh nhạt, một mép còn vỏ -->
+    <g id="csbBiDao">
+      <rect x="-22" y="-12" width="44" height="24" rx="6" fill="#D7E8C6" stroke="#8FAE76" stroke-width="2.1" opacity=".95"/>
+      <rect x="-18" y="-8" width="36" height="16" rx="4" fill="#EAF4DE" opacity=".9"/>
+      <path d="M-16 -5 C -6 -8 8 -8 16 -5" fill="none" stroke="#FBFEF6" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M-22 -6 C -25 -2 -25 2 -22 6" fill="none" stroke="#6F9C48" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M212 228 C 201 204 227 188 216 162 C 209 146 223 134 219 118"/>
+    <path d="M296 224 C 286 200 312 186 301 160 C 294 144 308 132 304 116"/>
+  </g>
+  <ellipse cx="258" cy="420" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- tô -->
+  <path d="M76 296 C 82 366 162 410 258 410 C 354 410 434 366 440 296 Z" fill="url(#csbBowl)"/>
+  <ellipse cx="258" cy="408" rx="60" ry="10" fill="#D8D0B6"/>
+  <ellipse cx="258" cy="294" rx="184" ry="45" fill="#F6F1E1"/>
+  <ellipse cx="258" cy="294" rx="184" ry="45" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="258" cy="295" rx="170" ry="39" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- NƯỚC CANH nhạt nhất site, để trống nhiều cho đọc ra "trong veo" -->
+  <ellipse cx="258" cy="297" rx="156" ry="33" fill="url(#csbBroth)"/>
+  <ellipse cx="200" cy="288" rx="56" ry="9" fill="#FCF8E8" opacity=".9"/>
+  <ellipse cx="334" cy="304" rx="38" ry="6.4" fill="#FCF8E8" opacity=".7"/>
+  <!-- vài giọt mỡ trong nổi li ti, đủ nói "có ninh xương" -->
+  <g fill="#F3E2AE" opacity=".75">
+    <circle cx="166" cy="302" r="3"/><circle cx="352" cy="292" r="2.6"/>
+    <circle cx="272" cy="318" r="2.4"/><circle cx="228" cy="284" r="2.2"/>
+  </g>
+
+  <!-- KHÚC SƯỜN lộ đầu xương -->
+  <use href="#csbSuon" transform="translate(196 284) rotate(-8)"/>
+  <use href="#csbSuon" transform="translate(332 294) rotate(9) scale(.9)"/>
+
+  <!-- THANH BÍ ĐAO trong veo. Vẫn để thưa cho ra chữ "trong", nhưng bản đầu
+       thưa quá thành tô vơi — kéo rộng ra mép và thêm một thanh cho đầy đặn. -->
+  <use href="#csbBiDao" transform="translate(258 296) rotate(-6) scale(1.06)"/>
+  <use href="#csbBiDao" transform="translate(158 306) rotate(10)"/>
+  <use href="#csbBiDao" transform="translate(298 318) rotate(-12) scale(.98)"/>
+  <use href="#csbBiDao" transform="translate(372 300) rotate(6) scale(.9)"/>
+  <use href="#csbBiDao" transform="translate(222 320) rotate(16) scale(.94)"/>
+  <use href="#csbBiDao" transform="translate(132 290) rotate(-14) scale(.82)"/>
+
+  <!-- hành lá cắt khúc + ngò rí, rắc thưa -->
+  <g stroke="#6F9C48" stroke-width="3.4" stroke-linecap="round" fill="none">
+    <path d="M232 272 q11 -5 20 -3"/><path d="M300 276 q11 -4 19 -2"/>
+    <path d="M150 292 q10 -4 18 -2"/><path d="M334 328 q10 -3 18 -2"/>
+  </g>
+  <g fill="#4E7B36">
+    <ellipse cx="272" cy="266" rx="6" ry="2.8" transform="rotate(-14 272 266)"/>
+    <ellipse cx="190" cy="330" rx="5.6" ry="2.6" transform="rotate(12 190 330)"/>
+    <ellipse cx="352" cy="316" rx="5.2" ry="2.4" transform="rotate(-8 352 316)"/>
+  </g>
+  <g fill="#2E2318"><circle cx="248" cy="308" r="1.5"/><circle cx="316" cy="300" r="1.4"/></g>
+
+  <!-- ĐẠO CỤ TRÁI: khúc bí đao dài phủ phấn + một khoanh đã cắt -->
+  <g transform="translate(84 402) rotate(-8)">
+    <ellipse cx="6" cy="30" rx="54" ry="11" fill="rgba(15,26,14,.32)"/>
+    <rect x="-46" y="-16" width="84" height="34" rx="17" fill="#6F9C48" stroke="#41611F" stroke-width="2.6"/>
+    <path d="M-38 -6 C -20 -12 10 -12 30 -6" fill="none" stroke="#9DC46A" stroke-width="3.4" stroke-linecap="round"/>
+    <g fill="#CDE0A8" opacity=".7">
+      <ellipse cx="-22" cy="4" rx="7" ry="3"/><ellipse cx="4" cy="8" rx="6" ry="2.6"/><ellipse cx="22" cy="2" rx="5" ry="2.2"/>
+    </g>
+    <g transform="translate(56 6)">
+      <ellipse cx="0" cy="0" rx="17" ry="18" fill="#D7E8C6" stroke="#6F9C48" stroke-width="2.4"/>
+      <ellipse cx="0" cy="0" rx="11" ry="12" fill="#EFF7E4" stroke="#A8C48C" stroke-width="1.6"/>
+      <g fill="#C3D6A2"><circle cx="-3" cy="-2" r="1.6"/><circle cx="3" cy="2" r="1.5"/><circle cx="1" cy="-5" r="1.3"/></g>
+    </g>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: nhúm tôm khô trên dĩa nhỏ -->
+  <g transform="translate(442 404)">
+    <ellipse cx="0" cy="16" rx="40" ry="10" fill="rgba(15,26,14,.3)"/>
+    <ellipse cx="0" cy="6" rx="36" ry="10" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="5" rx="26" ry="6.6" fill="#F6F1E1"/>
+    <g fill="#E07A3C" stroke="#A9491A" stroke-width="1.4">
+      <path d="M-16 2 C -14 -4 -8 -6 -4 -3 C -1 -1 -2 4 -7 5 C -12 6 -15 5 -16 2 Z"/>
+      <path d="M-2 6 C 0 0 6 -2 10 1 C 13 3 12 8 7 9 C 2 10 -1 9 -2 6 Z"/>
+      <path d="M6 -2 C 8 -8 14 -10 18 -7 C 21 -5 20 0 15 1 C 10 2 7 1 6 -2 Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,415 @@
+title: Ốc om chuối đậu **béo bùi, thơm nức tía tô lá lốt**
+summary: >-
+  Nồi om vàng nghệ sánh quánh: con ốc giòn sần sật, khúc chuối xanh bùi bở,
+  miếng đậu phụ rán vàng hút đẫm nước, ba chỉ béo ngậy — chua dịu vị **mẻ**,
+  thơm nồng tía tô lá lốt. Món đồng quê miền Bắc, ăn với bún hay cơm đều đã.
+region: Miền Bắc
+category: Kho
+occasions: [Cơm nhà, Nhậu lai rai]
+pubDate: 2026-07-30
+time:
+  total: 1 giờ 30 phút
+  active: 50 phút
+servingsBase: 4
+difficulty: Kỳ công
+featured: false
+order: 55
+art: oc-chuoi-dau
+heroEyebrow: Nồi om thơm nức cả gian bếp…
+
+quick:
+  ingredients:
+    - Ốc bươu (ốc nhồi) [[1|kg]] — ngâm nước vo gạo **4 tiếng** cho nhả sạch bùn
+    - Chuối xanh [[5|trái]] · đậu phụ [[3|bìa]] · thịt ba chỉ [[300|g]]
+    - Cà chua [[3|trái]] · nghệ tươi [[1|củ]] · hành tím [[3|củ]] + tỏi [[4|tép]]
+    - Tía tô + lá lốt [[1|nắm]] mỗi thứ · hành lá [[3|nhánh]]
+    - "Nêm: mẻ [[3|muỗng canh|frac]] · mắm tôm [[1|muỗng canh|frac]] · nước mắm, hạt nêm"
+  steps:
+    - Ốc ngâm nước vo gạo + vài lát ớt **4 tiếng**, luộc vừa há miệng, **khêu lấy ruột**, bỏ phần đuôi đen.
+    - Chuối xanh tước vỏ, cắt khúc, **ngâm nước pha chút giấm** cho khỏi thâm và bớt chát.
+    - Đậu phụ cắt miếng, rán vàng hai mặt. Ba chỉ thái con chì, ướp nghệ giã.
+    - Phi hành tỏi, xào ba chỉ săn, cho chuối + cà chua vào, châm **nước luộc ốc** om **20 phút**.
+    - Nước sánh lại thì thả **đậu rán + ruột ốc**, om thêm **5 phút** thôi — ốc dai là hỏng.
+    - Nêm mẻ đã lọc + mắm tôm, tắt bếp, rắc tía tô + lá lốt + hành lá thái rối.
+  warning: >-
+    Ốc thả vào sớm là **dai như cao su**. Ốc chỉ được vào nồi ở **5 phút
+    cuối**, khi chuối đã mềm và nước đã sánh — đây là lỗi hỏng món số một.
+
+flavor:
+  chua: 4.5
+  ngot: 4
+  man: 6
+  cay: 1
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn nồi ốc om:** nước om **sánh sệt bám đũa**, màu vàng nghệ ngả nâu
+  đỏ của cà chua. Chua dịu nền vị mẻ, mặn ngầm mùi mắm tôm — và trên hết là
+  **mùi tía tô lá lốt xộc lên khi vừa mở vung**. Ốc phải giòn, chuối phải bở.
+storyEyebrow: Chuyện nồi om đồng quê
+storyTitle: Món của **ruộng đồng**, ba thứ rẻ tiền thành một nồi ngon
+
+story:
+  - >-
+    Nhìn vào nồi ốc om chuối đậu là thấy cả cái khôn của bếp quê Bắc Bộ: con
+    ốc bắt ngoài ruộng, buồng chuối chặt sau nhà, bìa đậu mua đầu ngõ — ba
+    thứ rẻ nhất chợ, mà nấu chung lại thành món ai ăn cũng nhớ. Bí quyết
+    nằm ở chỗ **ba thứ đó bù nhau**: ốc giòn, chuối bùi, đậu mềm hút nước;
+    thiếu một là nồi om mất cân.
+  - >-
+    Món này thuộc loại **kén tay hơn kén nguyên liệu**. Ốc phải ngâm cho nhả
+    hết bùn rồi khêu ruột, bỏ đúng phần đuôi; chuối xanh phải ngâm không thì
+    thâm xì và chát; **mẻ** — thứ men chua nuôi từ cơm nguội, đặc sản riêng
+    của bếp Bắc — phải lọc bỏ bã. Rườm rà thật, nhưng làm đủ một lần là
+    hiểu vì sao người ta chịu khó.
+  - >-
+    Và rồi có một khoảnh khắc đáng để bỏ công: lúc tắt bếp, rắc nắm **tía tô
+    lá lốt** thái rối lên mặt nồi đang sôi lăn tăn, hơi nóng bốc lên kéo
+    theo mùi thơm nồng đặc trưng, đậy vung một phút rồi mở ra. Cả gian bếp
+    thơm nức. Ai từng ăn món này ở quê đều nhớ đúng cái mùi đó.
+
+ingredientGroups:
+  - name: Phần ốc
+    icon: bowl
+    items:
+      - id: oc
+        name: Ốc bươu (ốc nhồi)
+        icon: bowl
+        base: 1
+        unit: kg
+        note: Con to bằng ngón chân cái, miệng đầy đặn — nhiều ruột, giòn
+      - id: ngamoc
+        name: Nước vo gạo + ớt ngâm ốc
+        icon: drop
+        color: gold
+        qtyText: 1 thau · vài lát ớt
+        note: Ngâm 4 tiếng, thay nước 2 lần — ốc nhả hết bùn đất
+  - name: Chuối, đậu, thịt
+    icon: basket
+    items:
+      - id: chuoixanh
+        name: Chuối xanh
+        icon: pod
+        color: green
+        base: 5
+        unit: trái
+        note: Chuối tiêu hoặc chuối sứ già mà còn xanh, ruột chưa lên vàng
+      - id: dauphu
+        name: Đậu phụ
+        icon: jar
+        qtyText: 3 bìa
+        note: Loại đậu chắc tay, rán vàng mới không nát trong nồi om
+      - id: bachi
+        name: Thịt ba chỉ
+        icon: meat
+        base: 300
+        unit: g
+        note: Thái con chì — phần mỡ tan ra làm nước om béo ngậy
+      - id: cachua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 3
+        unit: trái
+        note: Bổ múi cau, cho màu đỏ và vị chua nền
+  - name: Thơm & màu
+    icon: herb
+    items:
+      - id: nghe
+        name: Nghệ tươi
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Giã nhỏ — cho màu vàng và mùi thơm ấm, đừng thay bột nghệ nếu có tươi
+      - id: hanhtoi
+        name: Hành tím + tỏi
+        icon: garlic
+        color: red
+        qtyText: 3 củ hành · 4 tép tỏi
+        note: Băm nhuyễn, phi mở màn
+      - id: tiatolalot
+        name: Tía tô + lá lốt
+        icon: herb
+        color: green
+        qtyText: 1 nắm mỗi thứ
+        note: Thái rối, rắc lúc tắt bếp — linh hồn mùi thơm của món
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 3
+        unit: nhánh
+        note: Cắt khúc, rắc cùng tía tô lá lốt
+  - name: Nêm nếm
+    icon: jar
+    items:
+      - id: me
+        name: Mẻ
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Men chua nuôi từ cơm nguội — lọc qua rây, bỏ bã
+      - id: mamtom
+        name: Mắm tôm
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Đứng nền phía sau, không nổi lên mặt — thiếu nó là món nhạt nhòa
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Nước mắm · hạt nêm · muối · dầu ăn
+        note: Nêm nhạt tay, mắm tôm và mẻ đã mặn chua sẵn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **nồi om sánh quánh thơm nức**
+stepsLead: >-
+  Ngâm ốc 4 tiếng là phần chờ, làm từ sáng hoặc từ tối hôm trước. Còn lại
+  gói gọn trong 50 phút, mà nhịp then chốt chỉ vỏn vẹn 5 phút cuối — cả nồi
+  hay dở nằm ở đó.
+steps:
+  - title: Ngâm & khêu ốc
+    icon: bowl
+    minutes: 20 phút
+    intro: "Phần tốn công nhất, nhưng làm ẩu là cả nồi lạo xạo cát:"
+    bullets:
+      - label: "Ngâm:"
+        text: >-
+          thả ốc vào thau **nước vo gạo + vài lát ớt**, ngâm **4 tiếng**,
+          thay nước 2 lần. Ớt cay làm ốc nhả bùn nhanh hơn hẳn.
+      - label: "Luộc vừa há:"
+        text: >-
+          xóc ốc với muối, rửa lại, luộc với vài lát gừng chừng **5–7 phút**
+          — thấy **vảy miệng vừa bung ra** là vớt liền. **Giữ lại nước
+          luộc**, để lắng rồi gạn lấy phần trong.
+      - label: "Khêu ruột:"
+        text: >-
+          dùng tăm hoặc que nhọn khêu ruột ra, **bỏ phần đuôi đen** (chỗ
+          xoắn cuối), chỉ giữ phần thịt trắng và mình ốc.
+      - label: "Bóp sạch:"
+        text: >-
+          bóp ruột ốc với **muối hạt + chút giấm**, rửa lại 2–3 lượt cho hết
+          nhớt, để ráo. Ướp với chút nghệ giã + hạt nêm.
+    callout:
+      type: warn
+      text: >-
+        Luộc quá tay là ốc **co rúm lại và dai ngay từ đầu**, sau đó om kiểu
+        gì cũng không cứu. Vảy miệng vừa bung là tắt bếp, vớt ra liền.
+  - title: Chuối xanh — ngâm cho khỏi thâm
+    icon: pod
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Tước vỏ chuối (nên đeo găng, nhựa chuối dính tay đen sì), cắt khúc
+          **3 cm**, bổ đôi theo chiều dọc nếu trái to.
+      - text: >-
+          Thả ngay vào **thau nước pha 2 muỗng canh giấm** (hoặc nước vo
+          gạo), ngâm **10 phút** — vừa giữ màu, vừa rút bớt vị chát.
+      - text: Vớt ra rửa lại, để ráo.
+    callout:
+      type: tip
+      text: >-
+        Chuối phải là **chuối xanh già**: ruột còn trắng ngà, chưa ngả vàng.
+        Chuối ương om lên sẽ **ngọt và nhũn**, mất cái bùi bở đặc trưng.
+  - title: Rán đậu, ướp thịt
+    icon: flame
+    minutes: 12 phút
+    bullets:
+      - label: "Đậu phụ:"
+        text: >-
+          cắt miếng vuông cỡ **3 cm**, thấm khô, rán vàng đều hai mặt rồi
+          vớt ra. Rán trước thì miếng đậu **giữ dáng và hút nước om** mà
+          không vỡ nát.
+      - label: "Ba chỉ:"
+        text: >-
+          thái con chì, ướp với **½ củ nghệ giã + 1 muỗng cà phê hạt nêm +
+          chút nước mắm**, để **10 phút**.
+  - title: Xào thịt, om chuối
+    icon: pot
+    minutes: 22 phút
+    bullets:
+      - text: >-
+          Phi thơm hành tỏi băm, trút ba chỉ vào **xào săn** tới khi mỡ tiết
+          ra trong và thịt ngả vàng nghệ.
+      - text: >-
+          Cho **cà chua** vào đảo mềm mép, rồi trút **chuối xanh** vào đảo
+          đều cho áo màu.
+      - text: >-
+          Châm **nước luộc ốc đã gạn trong** xâm xấp mặt chuối, đun sôi rồi
+          hạ **lửa nhỏ, đậy vung, om 20 phút**.
+      - label: "Đúng độ:"
+        text: >-
+          xiên đũa qua khúc chuối thấy mềm, nước rút còn **sánh sệt bám
+          đũa** là tới nhịp thả ốc.
+    timer:
+      secs: 1200
+      label: Hẹn giờ om chuối · 20:00
+      doneMsg: Chuối mềm chưa? Chuẩn bị thả ốc và đậu nè!
+  - title: Thả ốc & đậu — chỉ 5 phút
+    icon: clock
+    minutes: 6 phút
+    intro: "Nhịp quyết định cả nồi. Bấm giờ, đừng ước lượng:"
+    bullets:
+      - text: >-
+          Thả **đậu phụ rán + ruột ốc** vào nồi, đảo nhẹ tay cho ngập nước
+          om, để sôi lại.
+      - text: >-
+          Om đúng **5 phút** rồi tắt bếp. Ốc chỉ cần nóng và ngấm, **không
+          cần chín thêm** — nó đã chín từ lúc luộc rồi.
+      - label: "Nêm cuối:"
+        text: >-
+          rưới **mẻ đã lọc** + [[1|muỗng canh|frac]] mắm tôm, nếm lại. Chua
+          nhạt thì thêm mẻ từng thìa; đậm rồi thì thôi.
+    callout:
+      type: warn
+      text: >-
+        Quá 5 phút là ốc **bắt đầu dai**, quá 10 phút thì thành cao su. Đây
+        là lý do duy nhất khiến nồi ốc om của người mới nấu thất bại — mọi
+        thứ khác đều dễ.
+    timer:
+      secs: 300
+      label: Hẹn giờ om ốc · 05:00
+      doneMsg: Tắt bếp ngay! Rắc tía tô lá lốt vô là xong.
+  - title: Rắc rau thơm, đậy vung một phút
+    icon: herb
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Bếp vừa tắt, rắc **tía tô + lá lốt thái rối + hành lá** phủ kín
+          mặt nồi.
+      - text: >-
+          **Đậy vung 1 phút** cho hơi nóng làm rau tái xuống và mùi thơm
+          xộc đều khắp nồi — đừng đảo, để nguyên vậy.
+      - text: Mở vung, đảo nhẹ một lượt rồi múc ra tô sâu lòng, ăn nóng.
+    doneText: Mở vung — thơm nức rồi, xong!
+
+tipsTitle: 6 bí quyết cho **nồi ốc om đúng vị quê**
+tipsLead: >-
+  Món nhiều nguyên liệu nên cũng nhiều chỗ sảy tay — mấy điều dưới đây gom
+  đúng những chỗ hay hỏng nhất.
+tips:
+  - icon: bowl
+    title: Ốc bươu, đừng ốc vặn
+    text: >-
+      **Ốc bươu (ốc nhồi)** con to, ruột dày, khêu ra được miếng thịt đầy
+      đặn — đúng thứ món này cần. Ốc vặn con nhỏ xíu, khêu mỏi tay mà ăn
+      chẳng đã; ốc len thì là ốc nước mặn miền Nam, vị khác hẳn.
+  - icon: knife
+    title: Nhớ bỏ phần đuôi đen
+    text: >-
+      Chỗ xoắn cuối con ốc là ruột chứa bùn — **bỏ đi, đừng tiếc**. Giữ lại
+      thì cả nồi nhân nhẫn đắng và lạo xạo. Phần giữ lại là khối thịt trắng
+      ngà ở đầu, chắc và giòn.
+  - icon: jar
+    title: Không có mẻ thì thay bằng gì
+    text: >-
+      Mẻ cho vị chua **dịu và dày**, rất riêng. Không có thì thay **giấm bỗng**
+      (gần nhất), hoặc **nước cơm mẻ đóng hũ** bán sẵn ở hàng khô. Cùng lắm
+      thì **me vắt** — chua hơi khác nhưng vẫn ra món. Đừng dùng chanh:
+      chua sắc, lạc quẻ với mắm tôm.
+  - icon: drop
+    title: Nước luộc ốc là nước dùng, đừng đổ đi
+    text: >-
+      Đây là chỗ nhiều người phí của: nước luộc ốc **ngọt đậm vị ốc**, gạn
+      lấy phần trong dùng om thì nồi đậm đà hẳn lên. Nhớ **để lắng 10 phút
+      rồi mới gạn**, phần cặn dưới đáy thì bỏ.
+  - icon: flame
+    title: Rán đậu trước, đừng thả sống
+    text: >-
+      Đậu sống thả vào nồi om là **nát bấy**, nước đục lều phều. Rán vàng
+      hai mặt thì miếng đậu có lớp vỏ dai giữ dáng, mà bên trong vẫn xốp để
+      **hút đẫm nước om** — cắn vào là nước ứa ra, ngon nhất nồi.
+  - icon: herb
+    title: Tía tô lá lốt cho vào lúc tắt bếp
+    text: >-
+      Hai thứ lá này thơm bằng **tinh dầu**, đun lên là bay mất và lá thâm
+      đen. Rắc lúc bếp vừa tắt rồi đậy vung một phút là vừa đủ: lá tái
+      xuống, mùi thơm giữ nguyên. Thiếu hai thứ này thì nồi om **mất một
+      nửa cái hồn**.
+
+serve:
+  title: Múc ra tô sâu lòng — **ăn với bún hay cơm đều đã**
+  paras:
+    - >-
+      Múc ra tô sâu lòng cho ngập nước om, gắp sao cho mỗi tô đủ bộ: mấy con
+      ốc, vài khúc chuối, hai ba miếng đậu, ít ba chỉ. Nước om sánh quánh
+      màu vàng nghệ ngả đỏ, trên mặt lấm tấm tía tô tím — nhìn thôi đã thấy
+      **ấm bụng**.
+    - >-
+      Ngoài Bắc hay ăn với **bún rối**: chan nước om lên bún, húp một thìa
+      rồi gắp con ốc nhai giòn sần sật. Trong bữa cơm thì dọn nguyên nồi
+      giữa mâm, chan vào chén cơm nóng — nước om đậm và béo, hao cơm phải
+      biết.
+    - >-
+      Còn chiều mát trời bạn bè ghé chơi thì đây là món lai rai rất được:
+      ngồi khêu từng con ốc, chấm miếng đậu vào nước om, câu chuyện dài ra
+      lúc nào không hay. Nồi om càng để lâu trên bếp ủ càng thấm — chỉ cần
+      **đừng đun lại tới sôi**, ốc sẽ dai.
+  aside:
+    title: Dọn kèm cho đủ bộ
+    intro: "Mấy thứ nên có bên cạnh nồi om:"
+    items:
+      - icon: noodle
+        text: "**Bún rối** — cách ăn quen thuộc nhất ngoài Bắc."
+      - icon: rice
+        text: "**Cơm trắng nóng** — nước om đậm, chan vào là hết chén."
+      - icon: herb
+        text: "**Rau thơm để riêng** — thêm tía tô tươi cho ai thích nồng."
+      - icon: chili
+        text: "**Ớt tươi** — nồi om vốn không cay, ai thích thì thả vài lát."
+
+faq:
+  - q: Ốc om chuối đậu khác ốc len xào dừa với ốc hấp lá gừng chỗ nào?
+    a: >-
+      Khác cả loại ốc lẫn hướng vị. **Ốc len xào dừa** dùng ốc len nước mặn
+      miền Nam, vị **béo ngọt nước cốt dừa**, ăn bằng cách mút. **Ốc hấp lá
+      gừng** giữ nguyên con trong vỏ, hấp lên thơm mùi lá gừng, chấm nước
+      mắm gừng. Còn **ốc om chuối đậu** thì khêu ruột ra hẳn, om trong nồi
+      nước sánh **chua mặn vị mẻ và mắm tôm** — là một món ăn no chứ không
+      phải món nhấm nháp.
+  - q: Ngâm ốc 4 tiếng có lâu quá không, rút ngắn được không?
+    a: >-
+      Rút được nhưng đừng dưới **2 tiếng**. Mẹo tăng tốc: ngâm nước vo gạo
+      **thả thêm vài lát ớt hoặc con dao sắt** vào thau — ốc nhả bùn nhanh
+      hơn thấy rõ. Còn nếu mua được **ốc đã nhả sẵn** ở hàng quen thì chỉ
+      cần xóc muối rửa lại là luộc được.
+  - q: Dùng ốc đông lạnh làm sẵn được không?
+    a: >-
+      Được, và tiết kiệm cả tiếng đồng hồ — hàng đông lạnh thường đã khêu
+      ruột, làm sạch. Đổi lại **kém giòn hơn ốc tươi** một bậc. Nếu dùng thì
+      rã đông chậm trong ngăn mát, bóp lại với muối và giấm cho sạch nhớt,
+      và **giảm thời gian om xuống 3 phút**.
+  - q: Chuối bị thâm đen hết, có ăn được không?
+    a: >-
+      Ăn được, chỉ xấu mã. Thâm là do **nhựa chuối gặp không khí** — lần sau
+      cắt tới đâu thả ngay vào nước giấm tới đó, đừng cắt hết rồi mới ngâm.
+      Nếu đã lỡ thâm thì cứ om bình thường, màu nghệ và cà chua sẽ phủ lên
+      kha khá.
+  - q: Nhà không ăn được mắm tôm thì sao?
+    a: >-
+      Thay bằng **[[2|muỗng canh|frac]] nước mắm ngon** cộng thêm nửa muỗng
+      mẻ cho đủ đậm. Món vẫn ngon, chỉ là **nhạt tầng hơn** — mắm tôm ở đây
+      không nổi mùi lên mặt mà đứng nền phía sau, làm dày vị cả nồi. Ai ăn
+      quen sẽ nhận ra chỗ thiếu.
+  - q: Om xong ăn không hết, hâm lại thế nào cho ốc khỏi dai?
+    a: >-
+      Múc riêng phần ăn ra, hâm **lửa nhỏ, vừa nóng là tắt** — đừng đun sôi
+      lại. Hoặc khôn hơn: lúc nấu thì **để riêng phần ốc ra chén**, chỉ om
+      chuối đậu; bữa sau hâm nồi chuối đậu rồi mới thả ốc vào 2 phút. Cách
+      này ốc lần nào cũng giòn như mới.
+
+ticker:
+  - icon: bowl
+    text: Ốc giòn sần sật
+  - icon: pod
+    text: Chuối xanh bùi bở
+  - icon: herb
+    text: Tía tô lá lốt thơm nồng
+  - icon: jar
+    text: Chua dịu vị mẻ
+  - icon: drop
+    text: Nước om sánh quánh
+  - icon: ginger
+    text: Vàng nghệ ngả đỏ

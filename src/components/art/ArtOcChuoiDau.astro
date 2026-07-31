@@ -1,0 +1,170 @@
+---
+/* Ốc om chuối đậu — CHỮ KÝ, vẽ lệch hẳn khỏi hai món ốc đã có:
+   1) KHÔNG CÓ VỎ ỐC TRONG NỒI. Ốc len xào dừa và ốc hấp lá gừng đều là đống
+      vỏ xoắn; món này khêu ruột ra hẳn nên trong nồi chỉ có RUỘT ỐC cuộn
+      hình dấu phẩy, xám ngà. Một cái vỏ rỗng để làm đạo cụ trên bàn thôi.
+   2) KHOANH CHUỐI XANH: tròn, ruột trắng ngà, viền vỏ xanh sẫm, giữa có hàng
+      chấm hột — hình tròn có viền, không lẫn với thứ gì khác họ nâu
+   3) MIẾNG ĐẬU RÁN vuông vàng sém cạnh
+   4) LÁ TÍA TÔ TÍM phủ trên mặt — cả họ màu nâu không món nào có màu tím
+   5) nước om VÀNG NGHỆ sánh đặc, khác sốt nâu đỏ của các món kho
+   id prefix "ocd" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Nồi ốc om chuối đậu: ruột ốc, khoanh chuối xanh, đậu phụ rán trong nước om vàng nghệ, phủ lá tía tô tím">
+  <defs>
+    <linearGradient id="ocdSauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DFA02A"/><stop offset="1" stop-color="#A96A13"/>
+    </linearGradient>
+    <!-- Nồi đất phải SÁNG hơn nền họ "Mặn đưa cơm" (#6E3512 -> #421C06), không
+         thì cả ô thumbnail là nâu trên nâu và mất hẳn đường bao cái nồi. -->
+    <linearGradient id="ocdPot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B87C4C"/><stop offset="1" stop-color="#8A5228"/>
+    </linearGradient>
+    <!-- KHOANH CHUỐI XANH: tròn, viền vỏ xanh, hàng chấm hột giữa.
+         Ruột đổi từ trắng ngà sang KEM ẤM và chấm hột to hơn: bản đầu render
+         ra một đống khoanh trắng tròn nằm trong nước vàng, đọc thành mấy cái
+         cúc áo chứ không ra khoanh chuối om. -->
+    <g id="ocdChuoi">
+      <circle cx="0" cy="0" r="17" fill="#4E7B36" stroke="#2F5220" stroke-width="2.2"/>
+      <circle cx="0" cy="0" r="13" fill="#E7D2A0" stroke="#B09C64" stroke-width="1.8"/>
+      <g fill="#7A6636"><circle cx="-5.4" cy="0" r="2.3"/><circle cx="0" cy="1.8" r="2.2"/><circle cx="5.4" cy="0" r="2.1"/></g>
+      <path d="M-9 -6 C -4 -9 5 -9 9 -6" fill="none" stroke="#F6E9C4" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- RUỘT ỐC: khối cuộn hình dấu phẩy, xám ngà, có nếp -->
+    <g id="ocdRuot">
+      <path d="M-13 -4 C -12 -12 -2 -16 7 -13 C 15 -10 18 -1 14 6 C 10 13 0 15 -6 11 C -11 8 -13 2 -13 -4 Z"
+            fill="#E4D8BE" stroke="#A8956C" stroke-width="2"/>
+      <path d="M-6 -6 C -1 -10 7 -9 11 -4 C 13 0 11 6 6 8" fill="none" stroke="#BDAB80" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M-9 3 C -4 6 3 6 8 3" fill="none" stroke="#8E7C54" stroke-width="1.6" stroke-linecap="round"/>
+      <ellipse cx="-3" cy="-2" rx="4" ry="2.6" fill="#F6EED8" transform="rotate(-18 -3 -2)"/>
+    </g>
+    <!-- MIẾNG ĐẬU RÁN: vuông bo góc, mặt vàng sém, ruột xốp nhạt -->
+    <g id="ocdDau">
+      <rect x="-15" y="-13" width="30" height="26" rx="4" fill="#E8B44E" stroke="#A97615" stroke-width="2.2"/>
+      <rect x="-11" y="-9" width="22" height="18" rx="3" fill="#F5DFA0" stroke="#D4B366" stroke-width="1.4"/>
+      <path d="M-8 -4 L 8 -5 M-8 2 L 7 1" stroke="#DCC489" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+    <!-- LÁ TÍA TÔ: lá tím răng cưa, gân nổi -->
+    <g id="ocdTiaTo">
+      <path d="M0 0 C 6 -10 20 -13 28 -8 C 32 -2 27 8 16 11 C 7 13 1 8 0 0 Z"
+            fill="#7B4A82" stroke="#4E2A56" stroke-width="1.8"/>
+      <path d="M2 0 C 10 -3 20 -5 27 -7" fill="none" stroke="#B084B8" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M8 -3 L 10 -7 M15 -4 L 17 -8 M21 -5 L 23 -9" stroke="#4E2A56" stroke-width="1" stroke-linecap="round"/>
+      <path d="M9 2 L 11 6 M16 1 L 18 5" stroke="#4E2A56" stroke-width="1" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M206 226 C 195 202 221 186 210 160 C 203 144 217 132 213 116"/>
+    <path d="M268 218 C 258 194 284 180 273 154 C 266 138 280 126 276 110"/>
+    <path d="M330 228 C 320 204 346 190 335 164 C 328 148 342 136 338 120"/>
+  </g>
+  <ellipse cx="258" cy="422" rx="192" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- NỒI ĐẤT thành thấp, hai quai — khác tô sứ của mấy món nước -->
+  <path d="M74 300 C 80 372 160 414 258 414 C 356 414 436 372 442 300 Z" fill="url(#ocdPot)"/>
+  <path d="M92 336 C 120 366 186 386 258 386 C 330 386 396 366 424 336"
+        fill="none" stroke="#8A5228" stroke-width="3" opacity=".7"/>
+  <ellipse cx="258" cy="412" rx="58" ry="10" fill="#70401C"/>
+  <!-- quai nồi hai bên -->
+  <path d="M76 300 C 52 302 44 316 52 328 C 58 336 70 336 76 330" fill="none" stroke="#A66C3E" stroke-width="11" stroke-linecap="round"/>
+  <path d="M444 300 C 468 302 476 316 468 328 C 462 336 450 336 444 330" fill="none" stroke="#A66C3E" stroke-width="11" stroke-linecap="round"/>
+  <!-- vành nồi -->
+  <ellipse cx="258" cy="298" rx="186" ry="46" fill="#C68F58"/>
+  <ellipse cx="258" cy="298" rx="186" ry="46" fill="none" stroke="#2C5234" stroke-width="5"/>
+  <ellipse cx="258" cy="299" rx="172" ry="40" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- MỘT KHỐI: mặt nước om vàng nghệ sánh đặc phủ kín lòng nồi -->
+  <ellipse cx="258" cy="301" rx="158" ry="34" fill="url(#ocdSauce)"/>
+  <ellipse cx="200" cy="292" rx="46" ry="8" fill="#F0BF5C" opacity=".55"/>
+  <ellipse cx="336" cy="310" rx="32" ry="6" fill="#F0BF5C" opacity=".4"/>
+  <!-- váng mỡ óng nổi lấm tấm -->
+  <g fill="#F6D385" opacity=".7">
+    <ellipse cx="164" cy="306" rx="7" ry="3"/><ellipse cx="300" cy="288" rx="6" ry="2.6"/>
+    <ellipse cx="372" cy="298" rx="5.4" ry="2.4"/><ellipse cx="236" cy="320" rx="6" ry="2.6"/>
+  </g>
+  <!-- bóng các miếng hằn xuống nước om -->
+  <g fill="rgba(88,48,4,.3)">
+    <ellipse cx="186" cy="300" rx="26" ry="7"/><ellipse cx="264" cy="294" rx="28" ry="7"/>
+    <ellipse cx="334" cy="302" rx="24" ry="6"/><ellipse cx="220" cy="322" rx="26" ry="7"/>
+    <ellipse cx="308" cy="324" rx="26" ry="7"/>
+  </g>
+
+  <!-- BA CHỈ: dải thịt vằn mỡ, nằm chìm một nửa -->
+  <g transform="translate(160 300) rotate(-12)">
+    <rect x="-20" y="-9" width="40" height="18" rx="5" fill="#C0764A" stroke="#8A4A28" stroke-width="2"/>
+    <path d="M-17 -3 L 17 -4" stroke="#F2DEC0" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M-16 3 L 15 2" stroke="#F2DEC0" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(344 306) rotate(9)">
+    <rect x="-18" y="-8" width="36" height="16" rx="4.5" fill="#C0764A" stroke="#8A4A28" stroke-width="2"/>
+    <path d="M-15 -2.5 L 15 -3.5" stroke="#F2DEC0" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-14 3 L 13 2" stroke="#F2DEC0" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- KHOANH CHUỐI XANH: ba khoanh, chồng mép lên nhau -->
+  <use href="#ocdChuoi" transform="translate(196 294) rotate(-8)"/>
+  <use href="#ocdChuoi" transform="translate(268 288) rotate(6) scale(.94)"/>
+  <use href="#ocdChuoi" transform="translate(232 320) rotate(12) scale(.9)"/>
+  <use href="#ocdChuoi" transform="translate(348 296) rotate(-5) scale(.86)"/>
+
+  <!-- MIẾNG ĐẬU RÁN vuông vàng -->
+  <use href="#ocdDau" transform="translate(310 300) rotate(-7)"/>
+  <use href="#ocdDau" transform="translate(158 320) rotate(10) scale(.9)"/>
+  <use href="#ocdDau" transform="translate(376 316) rotate(6) scale(.84)"/>
+
+  <!-- RUỘT ỐC cuộn — nhân vật chính, đặt nổi nhất trên mặt -->
+  <use href="#ocdRuot" transform="translate(226 284) rotate(-14)"/>
+  <use href="#ocdRuot" transform="translate(300 318) rotate(12) scale(.94)"/>
+  <use href="#ocdRuot" transform="translate(178 312) rotate(-4) scale(.88)"/>
+  <use href="#ocdRuot" transform="translate(330 274) rotate(20) scale(.82)"/>
+  <use href="#ocdRuot" transform="translate(266 330) rotate(-20) scale(.86)"/>
+
+  <!-- LÁ TÍA TÔ TÍM phủ trên mặt — điểm màu không món nâu nào có -->
+  <use href="#ocdTiaTo" transform="translate(180 272) rotate(-14)"/>
+  <use href="#ocdTiaTo" transform="translate(288 264) rotate(6) scale(.9)"/>
+  <use href="#ocdTiaTo" transform="translate(346 330) rotate(-160) scale(.84)"/>
+  <use href="#ocdTiaTo" transform="translate(206 336) rotate(170) scale(.8)"/>
+
+  <!-- LÁ LỐT xanh sẫm hình tim, xen giữa tía tô -->
+  <g transform="translate(250 268) rotate(-8) scale(.9)">
+    <path d="M0 0 C -2 -10 6 -17 14 -16 C 22 -15 26 -6 22 2 C 18 9 8 10 0 0 Z"
+          fill="#2F5F22" stroke="#1E4218" stroke-width="1.8"/>
+    <path d="M2 -2 C 8 -6 14 -10 18 -13" fill="none" stroke="#5B8A3E" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(318 296) rotate(14) scale(.82)">
+    <path d="M0 0 C -2 -10 6 -17 14 -16 C 22 -15 26 -6 22 2 C 18 9 8 10 0 0 Z"
+          fill="#2F5F22" stroke="#1E4218" stroke-width="1.8"/>
+    <path d="M2 -2 C 8 -6 14 -10 18 -13" fill="none" stroke="#5B8A3E" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- hành lá cắt khúc -->
+  <g stroke="#6F9C48" stroke-width="3.4" stroke-linecap="round" fill="none">
+    <path d="M214 306 q10 -5 19 -3"/><path d="M292 306 q10 -4 18 -2"/><path d="M158 288 q10 -4 18 -2"/>
+  </g>
+
+  <!-- ĐẠO CỤ TRÁI: một cái VỎ ỐC RỖNG trên bàn — nói "đây là món ốc"
+       mà vẫn giữ nồi sạch bóng vỏ -->
+  <g transform="translate(88 402) rotate(-14)">
+    <ellipse cx="4" cy="26" rx="42" ry="10" fill="rgba(15,26,14,.32)"/>
+    <path d="M-26 6 C -30 -14 -12 -30 10 -28 C 30 -26 40 -8 34 8 C 28 22 10 28 -4 24 C -16 21 -24 16 -26 6 Z"
+          fill="#8C6A3E" stroke="#5A4020" stroke-width="2.6"/>
+    <path d="M-16 6 C -18 -6 -8 -17 6 -16 C 18 -15 25 -5 21 5 C 17 14 5 18 -4 15 C -11 13 -15 11 -16 6 Z"
+          fill="none" stroke="#5A4020" stroke-width="2"/>
+    <path d="M-6 5 C -7 -1 -1 -7 6 -7 C 12 -6 15 -1 13 4" fill="none" stroke="#5A4020" stroke-width="1.8"/>
+    <path d="M-26 8 C -20 20 -6 26 6 24 L 2 30 C -12 30 -24 22 -28 12 Z" fill="#6E5230" stroke="#48331A" stroke-width="2"/>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: chén mắm tôm nhỏ + nhánh tía tô tươi -->
+  <g transform="translate(438 400)">
+    <ellipse cx="0" cy="20" rx="34" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-30 -4 C -28 10 -16 19 0 19 C 16 19 28 10 30 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-4" rx="30" ry="8.4" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-3" rx="24" ry="6.2" fill="#6E4A78"/>
+    <g fill="#D4442A" stroke="#93230F" stroke-width="1">
+      <ellipse cx="-8" cy="-3" rx="3.6" ry="2"/><ellipse cx="9" cy="-4" rx="3.2" ry="1.8"/>
+    </g>
+  </g>
+  <use href="#ocdTiaTo" transform="translate(396 434) rotate(-24) scale(.9)"/>
+</svg>

@@ -1,0 +1,322 @@
+title: Cà tím nướng mỡ hành **mềm mướt, thơm lừng đậu phộng rang**
+summary: >-
+  Trái cà tím nướng tới **mềm rục như kem**, xé dọc ra rưới mỡ hành xanh
+  óng, rắc đậu phộng rang giã dập, chan muỗng nước mắm chua ngọt. Món rẻ
+  nhất chợ mà ai ăn cũng gắp thêm — làm chay hay mặn đều được.
+region: Miền Nam
+category: Nướng
+occasions: [Cơm nhà, Ăn chơi]
+pubDate: 2026-07-30
+time:
+  total: 30 phút
+  active: 20 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 40
+art: ca-tim-nuong
+heroEyebrow: Món rẻ tiền mà sang miệng…
+
+quick:
+  ingredients:
+    - Cà tím [[4|trái]] — loại dài, vỏ tím bóng căng, cầm nhẹ tay
+    - Hành lá [[6|nhánh]] — chỉ lấy phần xanh, xắt thật nhỏ
+    - Dầu ăn [[4|muỗng canh|frac]] — đun già để dội lên hành
+    - Đậu phộng rang [[50|g]] — giã dập, đừng giã nhuyễn
+    - "Nước mắm chua ngọt: nước mắm [[2|muỗng canh|frac]] · đường [[2|muỗng canh|frac]] · chanh, tỏi, ớt"
+  steps:
+    - Cà tím rửa sạch, **xăm vài lỗ bằng nĩa** cho hơi thoát — không thì nổ trong lúc nướng.
+    - Nướng **12–15 phút**, trở đều, tới khi **vỏ nhăn sém và bóp thấy mềm rục**.
+    - Thả vào thau nước lạnh vài phút cho dễ lột, lột sạch vỏ, xé dọc thành sợi to.
+    - "Mỡ hành: hành lá xắt nhỏ + chút muối, **dội dầu đang sôi già lên**, khuấy nhanh."
+    - Xếp cà ra dĩa, rưới mỡ hành, rắc đậu phộng, chan nước mắm chua ngọt.
+  warning: >-
+    Không xăm lỗ trước khi nướng là trái cà **nổ bung**, văng ruột nóng
+    khắp bếp. Ba nhát nĩa mất năm giây, đừng bỏ qua.
+
+flavor:
+  chua: 3.5
+  ngot: 4
+  man: 5
+  cay: 2
+  thom: 7.5
+flavorNote: >-
+  **Chuẩn dĩa cà tím nướng:** ruột cà **mềm mướt tới mức tan trong miệng**,
+  không còn chút sượng nào. Mỡ hành phải **xanh óng chứ không thâm**, đậu
+  phộng còn giòn rôm rốp, và muỗng nước mắm chua ngọt kéo tất cả lại với nhau.
+storyEyebrow: Chuyện trái cà tím
+storyTitle: Trái cà **nhạt nhất chợ**, và đó lại là điểm mạnh
+
+story:
+  - >-
+    Cà tím sống thì chẳng có gì: nhạt, hơi chát, ruột xốp như bọt biển. Đúng
+    cái xốp đó lại là chỗ hay — nướng lên, ruột cà **sụp xuống thành một
+    khối mềm mướt** biết hút mọi thứ rưới lên nó. Cho nên món này thực chất
+    không phải món cà tím, mà là món **mỡ hành và nước mắm**, còn trái cà là
+    cái nền hoàn hảo để chở hai thứ đó.
+  - >-
+    Cũng vì vậy mà nó dễ nấu tới mức khó tin: bốn trái cà, một nắm hành lá,
+    ít đậu phộng. Tiền chợ chẳng đáng bao nhiêu, làm chưa tới nửa tiếng, mà
+    dọn lên mâm thì trông lại **sang miệng** — dĩa cà tím tím sẫm rưới mỡ
+    hành xanh, lấm tấm đậu phộng vàng, nhìn tươm tất hơn nhiều món cầu kỳ hơn.
+  - >-
+    Có mỗi hai chỗ phải làm cho đúng. Một là **nướng cho tới**: bóp trái cà
+    thấy mềm rục hẳn, không còn cảm giác cứng ở lõi — non tay là ruột sượng,
+    ăn mất hết cái mướt. Hai là **cách làm mỡ hành**: dội dầu nóng lên hành,
+    chứ không phải bỏ hành vào chảo dầu mà phi.
+
+ingredientGroups:
+  - name: Phần cà nướng
+    icon: basket
+    items:
+      - id: catim
+        name: Cà tím
+        icon: pod
+        color: red
+        base: 4
+        unit: trái
+        note: Loại dài, vỏ tím bóng căng, cầm nhẹ tay — nhẹ là ít hột, ruột mướt
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 6
+        unit: nhánh
+        note: Chỉ lấy phần lá xanh, xắt thật nhỏ — phần trắng để dành món khác
+      - id: dauan
+        name: Dầu ăn
+        icon: bottle
+        base: 4
+        unit: muỗng canh
+        frac: true
+        note: Đun cho thật già rồi mới dội lên hành, đó là cả bí quyết
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: jar
+        color: gold
+        base: 50
+        unit: g
+        note: Rang xong xát vỏ, giã DẬP thôi — giã nhuyễn là mất độ giòn
+  - name: Chén nước mắm chua ngọt
+    icon: bottle
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Làm chay thì thay bằng nước tương, pha y hệt
+      - id: duong
+        name: Đường
+        icon: jar
+        color: gold
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cân với mắm theo tỉ lệ 1–1, rồi chỉnh theo khẩu vị nhà
+      - id: chanhtoiot
+        name: Chanh + tỏi + ớt
+        icon: lime
+        color: green
+        qtyText: 1 trái chanh · 2 tép tỏi · 1 trái ớt
+        note: Tỏi ớt băm nhuyễn thì mới nổi lên mặt chén
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Muối · tiêu
+        note: Chút muối cho vào chén mỡ hành, tiêu rắc sau cùng
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **dĩa cà tím mềm mướt**
+stepsLead: >-
+  Nướng cà là lúc rảnh tay — tranh thủ xắt hành, giã đậu phộng, pha chén
+  nước mắm. Tới lúc cà chín là chỉ còn việc lắp ráp, chừng ba phút.
+steps:
+  - title: Xăm lỗ rồi mới nướng
+    icon: flame
+    minutes: 15 phút
+    intro: "Cả món chỉ có đúng một cái bẫy, nằm ngay ở bước này:"
+    bullets:
+      - label: "Xăm lỗ:"
+        text: >-
+          rửa sạch cà, để nguyên cuống, lấy **nĩa xăm 5–6 lỗ** quanh thân
+          trái. Hơi nước bên trong có đường thoát thì mới không nổ.
+      - label: "Nướng:"
+        text: >-
+          nướng **12–15 phút**, trở đều các mặt. Bếp than, vỉ trên bếp gas,
+          lò nướng ở **220 °C**, hay nồi chiên không dầu **200 °C** đều ra
+          món — chỉ khác chút mùi.
+      - label: "Dấu hiệu chín:"
+        text: >-
+          **vỏ nhăn nheo và sém từng mảng, bóp vào thấy mềm rục hẳn**, không
+          còn lõi cứng ở giữa. Cầm lên thấy trái cà xẹp xuống là đạt.
+    callout:
+      type: warn
+      text: >-
+        Nướng non tay là **ruột còn sượng và hơi chát** — lỗi phổ biến nhất
+        của món này. Thà nướng quá một chút còn hơn thiếu; cà nướng kỹ chỉ
+        mềm thêm chứ không hỏng.
+    timer:
+      secs: 840
+      label: Hẹn giờ nướng cà · 14:00
+      doneMsg: Bóp thử coi — mềm rục hẳn là được rồi!
+  - title: Lột vỏ, xé dọc thành sợi
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Thả cà vừa nướng vào **thau nước lạnh 2 phút** — vỏ co lại, lột ra
+          nhẹ như bóc chuối.
+      - text: >-
+          Lột sạch vỏ, cắt bỏ cuống, rồi **xé dọc thành sợi to** bằng tay
+          hoặc bằng đầu đũa. Xé chứ đừng cắt: mặt xé sần sùi giữ được mỡ
+          hành và nước mắm hơn hẳn mặt dao cắt phẳng lì.
+      - text: Xếp ra dĩa, dàn đều, cho ráo bớt nước.
+    callout:
+      type: tip
+      text: >-
+        Cà nướng ra nhiều nước, để nguyên trên dĩa thì lát nữa nước mắm bị
+        loãng. Nghiêng dĩa chắt bớt, hoặc lót một lớp giấy thấm bên dưới
+        chừng một phút rồi rút ra.
+  - title: Mỡ hành — dội dầu, đừng phi
+    icon: bottle
+    minutes: 3 phút
+    intro: "Nghe thì nhỏ mà đây là chỗ phân biệt mỡ hành ngon với mỡ hành thâm:"
+    bullets:
+      - text: >-
+          Cho **hành lá xắt nhỏ + ¼ muỗng cà phê muối** vào chén chịu nhiệt,
+          trộn đều.
+      - text: >-
+          Đun [[4|muỗng canh|frac]] dầu cho **thật già** — thả một cọng hành
+          vào thấy xèo mạnh là được — rồi **dội thẳng lên chén hành**, khuấy
+          nhanh tay vài vòng.
+      - text: >-
+          Hành sẽ xanh óng lên, dậy mùi thơm ngay. Để nguội bớt là dùng được.
+    callout:
+      type: warn
+      text: >-
+        **Đừng bỏ hành vào chảo dầu mà phi.** Hành lá mỏng, gặp chảo nóng
+        là **thâm đen và có vị đắng** trong vài giây. Dội dầu nóng lên hành
+        thì nhiệt vừa đủ làm chín và giữ nguyên màu xanh.
+  - title: Pha nước mắm, ráp dĩa
+    icon: plate
+    minutes: 4 phút
+    bullets:
+      - label: "Chén nước mắm:"
+        text: >-
+          khuấy tan [[2|muỗng canh|frac]] nước mắm + [[2|muỗng canh|frac]]
+          đường + 2 muỗng canh nước ấm, vắt chanh, thả **tỏi ớt băm** sau
+          cùng cho nổi lên mặt.
+      - label: "Ráp dĩa:"
+        text: >-
+          rưới **mỡ hành** khắp mặt cà, rắc **đậu phộng giã dập**, rắc chút
+          tiêu. Chan một phần nước mắm lên, phần còn lại để chén riêng.
+      - text: Ăn ngay khi còn ấm — để nguội hẳn thì mỡ hành đông lại, kém ngon.
+    doneText: Dĩa cà lên bàn — xong!
+
+tipsTitle: 5 bí quyết cho **dĩa cà tím nướng đúng điệu**
+tips:
+  - icon: pod
+    title: Chọn trái nhẹ tay, vỏ căng bóng
+    text: >-
+      Hai trái cùng cỡ thì **lấy trái nhẹ hơn** — nhẹ nghĩa là ít hột, ruột
+      xốp mướt. Vỏ phải căng bóng, ấn vào đàn hồi lại; vỏ nhăn hoặc ấn để
+      lại vết lõm là trái để lâu, ruột đã xốp khô và đắng.
+  - icon: flame
+    title: Nướng cả trái, đừng bổ đôi
+    text: >-
+      Để nguyên trái thì hơi nước bị giữ bên trong, ruột cà **hấp chín trong
+      chính lớp vỏ của nó** nên mềm mướt. Bổ đôi ra nướng thì mặt cắt khô
+      lại và thâm, ăn bã. Nếu dùng nồi chiên không dầu cũng cứ để nguyên trái.
+  - icon: herb
+    title: Chỉ lấy phần lá xanh làm mỡ hành
+    text: >-
+      Phần trắng của hành dày và nhiều nước, dội dầu nóng lên **không chín
+      kịp** mà lại làm dầu bắn. Cắt riêng để dành xào món khác. Mỡ hành ngon
+      là **xanh đều một màu**, không lẫn khúc trắng.
+  - icon: jar
+    title: Đậu phộng giã dập, rắc lúc cuối
+    text: >-
+      Giã nhuyễn thành bột là mất hết công dụng — cái hay của đậu phộng ở
+      đây là **độ giòn tương phản** với miếng cà mềm nhũn. Giã dập thành
+      mảnh to, và rắc ngay trước khi bưng ra bàn, đừng rắc sớm kẻo ỉu.
+  - icon: bowl
+    title: Làm chay chỉ cần đổi một thứ
+    text: >-
+      Thay nước mắm bằng **nước tương**, pha y hệt tỉ lệ, là thành món chay
+      trọn vẹn — mỡ hành và đậu phộng vốn đã chay sẵn. Nhiều nhà còn rắc
+      thêm hành phi cho dậy mùi. Đây là một trong những món chay dễ làm mà
+      được lòng nhất.
+
+serve:
+  title: Dọn mâm — **món phụ mà ai cũng gắp thêm**
+  paras:
+    - >-
+      Dĩa cà tím nướng thường đóng vai món phụ, nhưng hay bị gắp hết trước
+      cả món chính. Ăn với cơm trắng thì chan luôn muỗng nước mắm vào chén,
+      lùa với miếng cà mềm là hết cơm hồi nào không hay. Đặt cạnh món mặn
+      đậm như **thịt kho** hay **cá kho tộ** là mâm cơm cân hẳn.
+    - >-
+      Chiều mát trời thì đây cũng là món nhấm nháp rất được: để nguyên dĩa
+      giữa bàn, mỗi người gắp một đũa, cắn miếng cà mềm lẫn hạt đậu phộng
+      giòn. Rẻ, nhanh, mà bày ra trông tươm tất — hợp cả bữa cơm thường lẫn
+      bữa có khách ghé chơi.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Ghép với mấy món này là hợp nhất:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — chan nước mắm vào là xong bữa."
+      - icon: claypot
+        text: "**Thịt kho hột vịt** — đậm đà, cân với vị nhẹ của cà nướng."
+      - icon: bowl
+        text: "**Canh sườn bí đao** — mâm ba món nhẹ nhàng cho ngày oi."
+      - icon: herb
+        text: "**Rau sống** — thêm chút xanh, ăn kèm cho đỡ ngán."
+
+faq:
+  - q: Không có bếp than thì nướng bằng gì?
+    a: >-
+      Cách nào cũng ra món. **Lò nướng 220 °C** trong 20–25 phút là tiện và
+      đều nhất. **Nồi chiên không dầu 200 °C** chừng 15 phút, nhớ trở giữa
+      chừng. **Vỉ đặt thẳng trên bếp gas** thì nhanh nhất nhưng phải đứng
+      canh trở liên tục. Dấu hiệu chín vẫn y nguyên: bóp thấy mềm rục hẳn.
+  - q: Vì sao ruột cà bị thâm đen sau khi lột vỏ?
+    a: >-
+      Ruột cà tím gặp không khí là **sẫm màu lại**, chuyện bình thường, ăn
+      vẫn ngon. Muốn đẹp mã thì lột xong **xé và rưới mỡ hành ngay** — lớp
+      dầu phủ lên ngăn cách với không khí. Hoặc vắt vài giọt chanh lên mặt
+      cà lúc vừa xé.
+  - q: Cà nướng xong ra nhiều nước, có sao không?
+    a: >-
+      Không sao, nhưng nên **chắt bớt** kẻo nước mắm bị loãng và dĩa nhìn
+      lõng bõng. Nghiêng dĩa đổ đi, hoặc lót giấy thấm dưới lớp cà chừng
+      một phút. Đừng vắt kiệt — vắt mạnh tay là miếng cà bị nát và mất luôn
+      cái mướt.
+  - q: Thêm được gì cho món đầy đặn hơn?
+    a: >-
+      Nhiều nhà rắc thêm **tôm khô xé nhỏ** hoặc **thịt bằm xào săn** lên
+      mặt trước khi rưới mỡ hành — thành món mặn hẳn, ăn với cơm rất được.
+      Thêm **hành phi** cũng hợp. Còn nếu giữ chay thì chỉ mỡ hành với đậu
+      phộng đã đủ, đừng thêm cho rối.
+  - q: Làm sẵn trước được không?
+    a: >-
+      Nướng và lột vỏ trước được — cất ngăn mát **1 ngày**, lúc ăn hâm ấm
+      lại rồi mới rưới. Nhưng **mỡ hành phải làm mới** và **đậu phộng rắc
+      sát giờ ăn**: mỡ hành để lâu thì hành ngả vàng, đậu phộng gặp nước là
+      ỉu ngay. Hai thứ đó làm mất có ba phút.
+
+ticker:
+  - icon: herb
+    text: Mỡ hành xanh óng
+  - icon: flame
+    text: Ruột cà mềm rục
+  - icon: jar
+    text: Đậu phộng giòn rôm rốp
+  - icon: bottle
+    text: Nước mắm chua ngọt
+  - icon: pod
+    text: Xé dọc chứ đừng cắt
+  - icon: lime
+    text: Chay mặn đều được

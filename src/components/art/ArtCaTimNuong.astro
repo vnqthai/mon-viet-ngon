@@ -1,0 +1,172 @@
+---
+/* Cà tím nướng mỡ hành — CHỮ KÝ, tách khỏi cả họ "Lửa" (gà nướng, bò một
+   nắng, cá lóc nướng trui, pa pỉnh tộp, nem nướng, chả giò, cá tai tượng,
+   cánh gà chiên):
+   1) MÀU TÍM. Cả site không món nào tím — vỏ cà tím sẫm là dấu nhận diện
+      mạnh nhất, thấy ngay ở cỡ thumbnail dù nền đỏ họ Lửa
+   2) DÁNG THUÔN DÀI BỔ ĐÔI nằm ngang, ruột kem xé thành SỢI — mọi món nướng
+      kia đều là khối thịt hoặc con cá, không món nào có dáng thuôn xẻ dọc
+   3) MỠ HÀNH xanh óng đọng thành vũng trên mặt ruột, lấm tấm ĐẬU PHỘNG vàng
+   4) giữ CUỐNG XANH ở một nửa để đọc ngay ra "trái cà tím"
+   5) đạo cụ: trái cà tím sống bóng bên trái, chén nước mắm chua ngọt bên phải
+   id prefix "ctn" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa cà tím nướng bổ đôi, ruột kem xé sợi rưới mỡ hành xanh và đậu phộng rang giã">
+  <defs>
+    <linearGradient id="ctnSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6B3A78"/><stop offset="1" stop-color="#3E1F48"/>
+    </linearGradient>
+    <linearGradient id="ctnFlesh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6EAD2"/><stop offset="1" stop-color="#DFCBA6"/>
+    </linearGradient>
+    <linearGradient id="ctnPlate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E9E2CC"/>
+    </linearGradient>
+    <!-- HẠT ĐẬU PHỘNG GIÃ DẬP: mảnh vàng bờ gãy, không tròn đều -->
+    <g id="ctnDauPhong">
+      <path d="M-5 -3 L 2 -5 L 6 -1 L 4 4 L -3 4 L -6 1 Z" fill="#E8C071" stroke="#B08A33" stroke-width="1.2" stroke-linejoin="round"/>
+      <path d="M-2 -2 L 3 0" stroke="#F6DFA8" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <circle cx="260" cy="248" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="248" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M214 250 C 203 226 229 210 218 184 C 211 168 225 156 221 142"/>
+    <path d="M300 246 C 290 222 316 208 305 182 C 298 166 312 154 308 138"/>
+  </g>
+  <ellipse cx="260" cy="400" rx="198" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- DĨA BẸT bản rộng -->
+  <ellipse cx="260" cy="346" rx="200" ry="52" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="340" rx="200" ry="52" fill="url(#ctnPlate)" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="340" rx="200" ry="52" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="341" rx="174" ry="42" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- vũng nước cà tiết ra + mỡ hành loang dưới đáy, giữ hai nửa thành MỘT KHỐI -->
+  <path d="M112 340 C 118 326 154 316 206 312 C 262 308 330 310 372 318
+           C 398 324 406 334 400 342 C 388 354 330 360 256 360
+           C 178 360 110 352 112 340 Z" fill="#C9A96E" opacity=".55"/>
+
+  <!-- NỬA CÀ SAU: nằm chếch, còn cuống xanh bên trái.
+       Bản đầu đặt ruột ĐỒNG TÂM trong vỏ nên chừa viền tím đều nhau bốn phía —
+       render ra đọc thành cái vòng tím dẹt, không ra trái cà bổ đôi. Sửa: ruột
+       ĐẨY LÊN TRÊN, chỉ chừa vỏ dày ở ĐÁY, thành cái thuyền vỏ đỡ đống ruột. -->
+  <g transform="translate(232 306) rotate(-7)">
+    <path d="M-118 0 C -114 -22 -80 -30 -30 -31 C 26 -32 82 -26 108 -14 C 122 -7 122 7 108 14
+             C 82 26 26 32 -30 31 C -80 30 -114 22 -118 0 Z"
+          fill="url(#ctnSkin)" stroke="#2C1436" stroke-width="2.6"/>
+    <!-- mảng sém trên vỏ, dồn xuống mép đáy vì đó là chỗ vỏ còn nhìn thấy -->
+    <g fill="#26102E" opacity=".7">
+      <ellipse cx="-60" cy="22" rx="26" ry="6" transform="rotate(6 -60 22)"/>
+      <ellipse cx="34" cy="24" rx="28" ry="6" transform="rotate(-4 34 24)"/>
+      <ellipse cx="92" cy="4" rx="14" ry="7"/>
+    </g>
+    <!-- RUỘT KEM đùn lên: mép trên sát vỏ, mép dưới hở hẳn để lộ lòng vỏ -->
+    <path d="M-107 -7 C -103 -25 -70 -30 -28 -30 C 24 -31 78 -25 101 -15
+             C 109 -10 106 -2 96 1 C 70 9 20 13 -28 12 C -70 11 -101 5 -107 -7 Z"
+          fill="url(#ctnFlesh)" stroke="#BFA57C" stroke-width="2"/>
+    <!-- bóng đổ chỗ ruột gối lên lòng vỏ, cho ra chiều sâu -->
+    <path d="M-104 2 C -74 12 -22 16 30 14 C 62 13 84 9 97 5"
+          fill="none" stroke="#B08F63" stroke-width="3.4" stroke-linecap="round" opacity=".55"/>
+    <g stroke="#CDB68F" stroke-width="2.2" stroke-linecap="round" fill="none">
+      <path d="M-90 -14 C -50 -21 10 -22 70 -15"/>
+      <path d="M-88 -6 C -48 -13 12 -14 76 -7"/>
+      <path d="M-84 2 C -44 -4 16 -5 82 0"/>
+      <path d="M-62 -20 C -20 -25 32 -25 64 -20"/>
+    </g>
+    <!-- CUỐNG XANH giữ lại ở đầu trái -->
+    <path d="M-118 -2 C -132 -8 -142 -6 -148 2 C -142 10 -130 12 -118 6 Z"
+          fill="#3E6428" stroke="#2C4A1E" stroke-width="2.2"/>
+    <path d="M-124 0 L -140 -2 M-124 3 L -138 6" stroke="#5B8A3E" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- NỬA CÀ TRƯỚC: to hơn, chồng mép lên nửa sau -->
+  <g transform="translate(268 342) rotate(5)">
+    <path d="M-126 0 C -122 -24 -86 -33 -32 -34 C 28 -35 88 -28 116 -15 C 131 -8 131 8 116 15
+             C 88 28 28 35 -32 34 C -86 33 -122 24 -126 0 Z"
+          fill="url(#ctnSkin)" stroke="#2C1436" stroke-width="2.8"/>
+    <g fill="#26102E" opacity=".7">
+      <ellipse cx="-56" cy="25" rx="28" ry="7" transform="rotate(5 -56 25)"/>
+      <ellipse cx="44" cy="26" rx="30" ry="7" transform="rotate(-5 44 26)"/>
+      <ellipse cx="100" cy="4" rx="15" ry="8"/>
+    </g>
+    <path d="M-114 -6 C -110 -26 -74 -32 -30 -32 C 26 -33 82 -26 108 -14
+             C 117 -9 115 1 104 6 C 76 16 22 21 -30 20 C -74 19 -108 9 -114 -6 Z"
+          fill="url(#ctnFlesh)" stroke="#BFA57C" stroke-width="2.1"/>
+    <path d="M-111 2 C -78 14 -22 19 34 17 C 68 16 92 11 104 6"
+          fill="none" stroke="#B08F63" stroke-width="3.8" stroke-linecap="round" opacity=".55"/>
+    <g stroke="#CDB68F" stroke-width="2.4" stroke-linecap="round" fill="none">
+      <path d="M-98 -16 C -56 -24 10 -25 78 -17"/>
+      <path d="M-96 -7 C -54 -15 14 -16 86 -8"/>
+      <path d="M-92 2 C -50 -5 18 -6 92 1"/>
+      <path d="M-68 -22 C -22 -28 36 -28 72 -22"/>
+    </g>
+  </g>
+
+  <!-- MỠ HÀNH: vũng dầu óng đọng trên ruột, hành lá xanh nổi trong dầu.
+       Món mang tên mỡ hành mà bản đầu vẽ hành nhỏ và thưa quá — ở cỡ 260px
+       gần như không thấy, cả ô chỉ còn tím với kem. Phóng to hạt hành, rải
+       dày lên, và cho vũng dầu đậm hẳn để nó ra một LỚP nằm trên mặt ruột. -->
+  <path d="M152 334 C 172 322 214 315 264 315 C 316 315 356 322 374 333
+           C 360 347 316 354 264 354 C 212 354 166 347 152 334 Z"
+        fill="#E8C463" opacity=".8"/>
+  <path d="M180 326 C 202 316 240 311 284 312" fill="none" stroke="#F7E4A8" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <g fill="#5B9A3A" stroke="#2F5F1C" stroke-width="1.4">
+    <ellipse cx="182" cy="336" rx="10" ry="4.6" transform="rotate(-12 182 336)"/>
+    <ellipse cx="214" cy="345" rx="9.4" ry="4.3" transform="rotate(8 214 345)"/>
+    <ellipse cx="248" cy="334" rx="10" ry="4.6" transform="rotate(-6 248 334)"/>
+    <ellipse cx="284" cy="346" rx="9.6" ry="4.4" transform="rotate(14 284 346)"/>
+    <ellipse cx="316" cy="335" rx="9.2" ry="4.2" transform="rotate(-10 316 335)"/>
+    <ellipse cx="348" cy="342" rx="8.4" ry="3.9" transform="rotate(6 348 342)"/>
+    <ellipse cx="200" cy="322" rx="8.8" ry="4" transform="rotate(16 200 322)"/>
+    <ellipse cx="266" cy="318" rx="9.4" ry="4.3" transform="rotate(-4 266 318)"/>
+    <ellipse cx="332" cy="320" rx="8.4" ry="3.8" transform="rotate(10 332 320)"/>
+    <ellipse cx="232" cy="308" rx="8.2" ry="3.7" transform="rotate(-16 232 308)"/>
+    <ellipse cx="300" cy="304" rx="7.8" ry="3.5" transform="rotate(12 300 304)"/>
+    <ellipse cx="164" cy="326" rx="7.6" ry="3.5" transform="rotate(22 164 326)"/>
+    <ellipse cx="360" cy="328" rx="7.2" ry="3.3" transform="rotate(-18 360 328)"/>
+  </g>
+
+  <!-- ĐẬU PHỘNG rang giã dập rắc khắp mặt -->
+  <use href="#ctnDauPhong" transform="translate(198 330) rotate(-18)"/>
+  <use href="#ctnDauPhong" transform="translate(232 344) rotate(24)"/>
+  <use href="#ctnDauPhong" transform="translate(262 328) rotate(-8)"/>
+  <use href="#ctnDauPhong" transform="translate(296 346) rotate(14)"/>
+  <use href="#ctnDauPhong" transform="translate(326 330) rotate(-22)"/>
+  <use href="#ctnDauPhong" transform="translate(352 344) rotate(8) scale(.9)"/>
+  <use href="#ctnDauPhong" transform="translate(216 312) rotate(30) scale(.88)"/>
+  <use href="#ctnDauPhong" transform="translate(284 308) rotate(-14) scale(.9)"/>
+  <use href="#ctnDauPhong" transform="translate(172 344) rotate(18) scale(.86)"/>
+  <use href="#ctnDauPhong" transform="translate(312 312) rotate(6) scale(.84)"/>
+
+  <!-- vài lát ớt đỏ điểm cho khỏi chìm hết vào tím và vàng -->
+  <g fill="#D4442A" stroke="#93230F" stroke-width="1.1">
+    <ellipse cx="180" cy="318" rx="5" ry="2.4" transform="rotate(-16 180 318)"/>
+    <ellipse cx="338" cy="352" rx="4.6" ry="2.2" transform="rotate(12 338 352)"/>
+  </g>
+
+  <!-- ĐẠO CỤ TRÁI: trái cà tím sống, vỏ bóng còn cuống -->
+  <g transform="translate(76 396) rotate(-16)">
+    <ellipse cx="6" cy="34" rx="44" ry="10" fill="rgba(15,26,14,.32)"/>
+    <path d="M-30 14 C -38 -4 -26 -22 -2 -26 C 22 -30 40 -18 42 2 C 44 20 30 32 8 34 C -12 36 -24 28 -30 14 Z"
+          fill="#6B3A78" stroke="#2C1436" stroke-width="2.8"/>
+    <path d="M-20 6 C -24 -6 -14 -18 4 -20" fill="none" stroke="#A473B0" stroke-width="4.4" stroke-linecap="round" opacity=".85"/>
+    <path d="M-2 -26 C -6 -36 0 -44 12 -44 C 18 -38 18 -30 10 -26 Z" fill="#3E6428" stroke="#2C4A1E" stroke-width="2.2"/>
+    <path d="M4 -30 L -6 -40 M8 -30 L 14 -42" stroke="#5B8A3E" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: chén nước mắm chua ngọt, tỏi ớt nổi mặt -->
+  <g transform="translate(442 398)">
+    <ellipse cx="0" cy="22" rx="36" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-32 -4 C -30 12 -17 21 0 21 C 17 21 30 12 32 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-4" rx="32" ry="9" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-3" rx="26" ry="6.6" fill="#C98A2E"/>
+    <ellipse cx="-5" cy="-5" rx="14" ry="3" fill="#E3AC55" opacity=".8"/>
+    <g fill="#F6EBD2" stroke="#CDB88A" stroke-width=".9">
+      <circle cx="-11" cy="-4" r="2.2"/><circle cx="-2" cy="-6" r="1.9"/><circle cx="7" cy="-3" r="2"/>
+    </g>
+    <g fill="#D4442A" stroke="#93230F" stroke-width="1">
+      <ellipse cx="-8" cy="1" rx="3.6" ry="2"/><ellipse cx="11" cy="-1" rx="3.2" ry="1.8"/>
+    </g>
+  </g>
+</svg>

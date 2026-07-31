@@ -1,0 +1,417 @@
+title: Lòng heo luộc **trắng giòn sần sật, chấm mắm tôm dậy mùi**
+summary: >-
+  Dĩa lòng thái xéo trắng ngà, cắn vào nghe **giòn sần sật** chứ không dai
+  không bở, xếp cạnh nắm húng quế với chén mắm tôm đánh bông sủi tăm. Bí
+  quyết gói gọn trong hai chữ: **luộc đúng phút, thả ngay vào nước đá**.
+region: Miền Bắc
+category: Hấp
+occasions: [Nhậu lai rai, Ăn chơi]
+pubDate: 2026-07-30
+time:
+  total: 1 giờ
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 59
+art: long-luoc
+heroEyebrow: Chiều mát trời, bày dĩa lòng ra…
+
+quick:
+  ingredients:
+    - Lòng non [[500|g]] · dạ dày [[300|g]] · gan [[200|g]] — mua buổi sáng cho tươi
+    - Muối hạt + chanh (hoặc giấm) [[2|trái]] — để bóp rửa
+    - Gừng [[1|củ]] + hành tím [[3|củ]] + rượu trắng [[2|muỗng canh|frac]] — cho nồi nước luộc
+    - Một thau **nước đá thật lạnh** — thứ quan trọng nhất của món
+    - "Chén chấm: mắm tôm [[3|muỗng canh|frac]] · đường [[1|muỗng canh|frac]] · rượu trắng · chanh · ớt"
+    - Húng quế, rau mùi, hành lá chần · vài lát khế chua và chuối chát
+  steps:
+    - Lòng non **tuốt sạch, không lộn trái**; bóp muối hạt + chanh 2–3 lượt, rửa kỹ.
+    - Nước sôi già thả gừng đập + hành + rượu trắng. Thả **dạ dày trước 20 phút**, gan 12 phút.
+    - Lòng non thả sau cùng, luộc **đúng 5–7 phút** — vớt ra là ngâm ngay **nước đá**.
+    - Ngâm đá **5 phút** cho trắng và giòn; ai kỹ thì nhúng lại **nước ấm 1 phút** rồi mới thái.
+    - Thái xéo miếng vừa gắp, xếp dĩa cùng rau thơm và khế chuối chát.
+    - "Pha mắm tôm: mắm + đường + rượu, đánh bông rồi vắt chanh, thả ớt, rưới thìa mỡ nóng."
+  warning: >-
+    Luộc quá tay là **dai như cao su**, không cứu được. Lòng non chỉ **5–7
+    phút**. Và bỏ khâu nước đá thì miếng lòng vừa xỉn màu vừa mất hẳn độ giòn.
+
+flavor:
+  chua: 3
+  ngot: 2.5
+  man: 7
+  cay: 3
+  thom: 7
+flavorNote: >-
+  **Chuẩn dĩa lòng luộc:** miếng lòng **trắng ngà chứ không xám**, cắn vào
+  giòn sần sật rồi mới tới cái béo ngậy ở giữa. Không hôi, không đắng, không
+  dai. Chén mắm tôm phải **bông sủi tăm**, dậy mùi mà vẫn dịu nhờ chanh đường.
+storyEyebrow: Chuyện dĩa lòng
+storyTitle: Món **đơn giản nhất mà khó nhất** — chỉ có luộc thôi
+
+story:
+  - >-
+    Nghe tên thì tưởng dễ: luộc lên rồi thái ra, hết. Nhưng ai đã từng bưng
+    lên một dĩa lòng dai nhách, xám xịt, ăn còn thoảng mùi khó chịu thì hiểu
+    — món này **không có chỗ nào để giấu**. Không nước sốt, không gia vị
+    ướp, không lửa lớn để chữa. Chỉ có miếng lòng và tay người làm.
+  - >-
+    Cả món ăn thua ở **ba chỗ, đúng ba chỗ thôi**. Một là làm sạch: bóp muối
+    hạt với chanh cho hết nhớt, mà **tuyệt đối không lộn trái lòng non** —
+    lộn ra là mất sạch phần béo ngậy bên trong, thứ làm nên miếng lòng ngon.
+    Hai là canh phút luộc, mỗi loại một thời gian khác nhau. Ba là **thau
+    nước đá** chờ sẵn bên cạnh bếp.
+  - >-
+    Cái thau nước đá đó mới là chỗ nhiều người bỏ qua nhất, mà lại quyết
+    định nhiều nhất. Miếng lòng vừa vớt khỏi nồi đang nóng rẫy, thả cái ùm
+    vào nước đá — **co lại đột ngột nên thớ thịt săn giòn**, đồng thời màu
+    trắng sáng lên trông thấy. Không có bước này thì luộc chuẩn tới đâu,
+    miếng lòng vẫn cứ mềm oặt và ngả xám.
+
+ingredientGroups:
+  - name: Bộ lòng
+    icon: meat
+    items:
+      - id: longnon
+        name: Lòng non
+        icon: meat
+        base: 500
+        unit: g
+        note: Ống căng tròn, ngả hồng, bóp thấy chắc tay — phần chính của dĩa
+      - id: daday
+        name: Dạ dày
+        icon: meat
+        base: 300
+        unit: g
+        note: Dày và giòn nhất, nhưng cũng lâu chín nhất — luộc riêng thời gian
+      - id: gan
+        name: Gan
+        icon: meat
+        color: red
+        base: 200
+        unit: g
+        note: Chọn miếng màu đều, mặt láng; thái dày cỡ 1 cm mới không bở
+      - id: boprua
+        name: Muối hạt + chanh
+        icon: lime
+        color: green
+        qtyText: 1 nắm muối · 2 trái chanh
+        note: Bóp rửa 2–3 lượt — giấm gạo thay chanh cũng được
+  - name: Nồi nước luộc
+    icon: pot
+    items:
+      - id: gunghanh
+        name: Gừng + hành tím
+        icon: ginger
+        color: gold
+        qtyText: 1 củ gừng · 3 củ hành
+        note: Nướng sơ cho thơm rồi đập giập thả vào nồi
+      - id: ruou
+        name: Rượu trắng
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cho vào nồi nước luộc — khử mùi, nước luộc thơm hẳn
+      - id: nuocda
+        name: Nước đá
+        icon: drop
+        qtyText: 1 thau đầy
+        note: Chuẩn bị SẴN bên cạnh bếp trước khi luộc — không phải đi làm sau
+  - name: Chén mắm tôm
+    icon: bottle
+    items:
+      - id: mamtom
+        name: Mắm tôm
+        icon: bottle
+        color: red
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Loại sánh mịn, màu sim chín — không lấy loại lỏng và đen sẫm
+      - id: duongcham
+        name: Đường
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng canh
+        frac: true
+        note: Cân lại vị mặn của mắm, đừng bỏ qua
+      - id: ruoucham
+        name: Rượu trắng + chanh
+        icon: lime
+        color: green
+        qtyText: 1 muỗng rượu · 1 trái chanh
+        note: Rượu làm dịu mùi, chanh giúp đánh bông lên
+      - id: ot
+        name: Ớt tươi
+        icon: chili
+        color: red
+        qtyText: 2 trái
+        note: Băm nhỏ, thả vào chén sau cùng
+  - name: Rau và đồ ăn kèm
+    icon: lettuce
+    items:
+      - id: rauthom
+        name: Húng quế + rau mùi
+        icon: herb
+        color: green
+        qtyText: 1 nắm mỗi thứ
+        note: Húng quế là cặp đôi kinh điển của lòng luộc, đừng thiếu
+      - id: hanhchan
+        name: Hành lá chần
+        icon: herb
+        color: green
+        base: 4
+        unit: nhánh
+        note: Chần qua nước luộc 10 giây, xếp lên dĩa cho đẹp và thơm
+      - id: khechuoi
+        name: Khế chua + chuối chát
+        icon: pod
+        color: green
+        qtyText: 1 trái mỗi thứ
+        note: Thái lát mỏng — chua chát cắt cái béo, ăn hoài không ngán
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa lòng trắng giòn**
+stepsLead: >-
+  Trước khi bật bếp, làm hai việc: thái sẵn rau, và **chuẩn bị xong thau
+  nước đá**. Từ lúc thả lòng vào nồi là không còn thời gian đi lấy đá nữa —
+  chậm một phút là hỏng cả mẻ.
+steps:
+  - title: Làm sạch — đừng lộn trái lòng non
+    icon: knife
+    minutes: 20 phút
+    intro: "Chỗ này làm ẩu thì mọi bước sau đều vô nghĩa:"
+    bullets:
+      - label: "Tuốt lòng non:"
+        text: >-
+          dùng sống dao hoặc hai ngón tay **tuốt dọc theo ống** cho chất bên
+          trong ra bớt — nhưng **chừa lại một phần**, đó chính là chỗ béo
+          ngậy. Tuốt sạch trơn thì miếng lòng nhạt thếch.
+      - label: "Bóp muối chanh:"
+        text: >-
+          bóp kỹ với **muối hạt + nước cốt chanh**, xả nước, làm lại **2–3
+          lượt** tới khi hết nhớt và nước xả trong.
+      - label: "Dạ dày:"
+        text: >-
+          lộn trái, cạo sạch màng nhớt, bóp muối hạt thật mạnh tay rồi rửa
+          lại. Dạ dày thì **phải lộn**, khác lòng non.
+      - label: "Gan:"
+        text: rửa qua, ngâm nước lạnh **10 phút** cho ra hết máu đọng, để ráo.
+    callout:
+      type: warn
+      text: >-
+        **Không lộn trái lòng non** — đây là lỗi làm hỏng món phổ biến nhất
+        của người mới. Lộn ra rửa cho "sạch bong" là vứt đi đúng cái phần
+        làm nên vị của miếng lòng, còn lại chỉ là cái ống dai.
+  - title: Nồi nước luộc — thả theo thứ tự
+    icon: pot
+    minutes: 25 phút
+    intro: "Mỗi thứ một thời gian, thả chung một lượt là hỏng cả nồi:"
+    bullets:
+      - label: "Bắc nồi:"
+        text: >-
+          nước sôi già, thả **gừng nướng đập giập + hành tím + [[2|muỗng
+          canh|frac]] rượu trắng** + 1 muỗng cà phê muối.
+      - label: "Dạ dày trước — 20 phút:"
+        text: dày và dai nhất, thả vào đầu tiên, luộc **20–25 phút**.
+      - label: "Gan — 12 phút:"
+        text: >-
+          thả sau, luộc **12 phút**, xiên đũa thấy không còn nước hồng ứa
+          ra là được.
+      - label: "Lòng non — 5 tới 7 phút:"
+        text: >-
+          thả sau cùng vào nồi đang **sôi bùng**, canh đúng **5–7 phút** tùy
+          ống to nhỏ. Thấy ống **căng tròn lại và ngả trắng ngà** là vớt.
+    callout:
+      type: warn
+      text: >-
+        Lòng non quá **8 phút** là bắt đầu dai, quá 10 phút thì thành cao su
+        — và không có cách nào chữa. Đứng canh bên nồi, đừng đi làm việc khác.
+    timer:
+      secs: 420
+      label: Hẹn giờ luộc lòng non · 07:00
+      doneMsg: Vớt ra thả vào nước đá NGAY — đừng để nguội trong nồi!
+  - title: Thả ngay vào nước đá
+    icon: drop
+    minutes: 6 phút
+    intro: "Nhịp quyết định độ giòn và màu trắng của cả dĩa:"
+    bullets:
+      - text: >-
+          Vớt tới đâu **thả thẳng vào thau nước đá** tới đó — không để nằm
+          chờ trên rổ, vì nhiệt dư còn làm chín tiếp.
+      - text: >-
+          Ngâm **5 phút** cho thật lạnh. Miếng lòng co lại, thớ săn giòn,
+          màu trắng sáng lên thấy rõ so với lúc mới vớt.
+      - label: "Mẹo của hàng quán:"
+        text: >-
+          ngâm đá xong, nhúng nhanh qua **nước ấm cỡ 40–45 °C trong 1 phút**
+          rồi mới vớt ra thái. Miếng lòng bớt lạnh cứng, giữ được độ đàn hồi
+          — cắn vào giòn mà không cứng.
+    callout:
+      type: tip
+      text: >-
+        Cho vào thau đá **vài lát chanh hoặc chút nước cốt** thì miếng lòng
+        trắng thêm một bậc nữa. Nhiều hàng lòng ngon giữ đúng mẹo nhỏ này.
+  - title: Thái xéo, xếp dĩa
+    icon: knife
+    minutes: 8 phút
+    bullets:
+      - label: "Thái xéo:"
+        text: >-
+          để miếng lòng ráo hẳn rồi thái **chéo dao** thành khúc **2 cm** —
+          thái xéo cho mặt cắt rộng, nhìn đầy đặn và dễ chấm hơn thái ngang.
+      - label: "Dạ dày và gan:"
+        text: dạ dày thái miếng mỏng vừa, gan thái dày cỡ **1 cm** cho khỏi bở.
+      - label: "Xếp dĩa:"
+        text: >-
+          xếp lòng non ở giữa, dạ dày và gan hai bên, rải **húng quế + rau
+          mùi**, gác mấy nhánh **hành lá chần**, kèm lát khế chua và chuối
+          chát ở mép dĩa.
+    doneText: Dĩa lòng xếp xong — pha mắm thôi!
+  - title: Pha chén mắm tôm đánh bông
+    icon: bottle
+    minutes: 3 phút
+    intro: "Nửa cái ngon của món nằm ở cái chén này:"
+    bullets:
+      - text: >-
+          Cho [[3|muỗng canh|frac]] mắm tôm + [[1|muỗng canh|frac]] đường +
+          1 muỗng canh rượu trắng vào chén, **đánh mạnh tay bằng đũa**.
+      - text: >-
+          Vắt **nước cốt chanh** vào, đánh tiếp — hỗn hợp sẽ **nổi bông lên
+          và sủi tăm**, màu ngả tím hồng. Đó là lúc đạt.
+      - text: >-
+          Thả ớt băm, rưới lên mặt **một thìa mỡ hoặc dầu vừa phi hành cho
+          nóng** — mắm dậy mùi hẳn lên và dịu đi.
+    callout:
+      type: tip
+      text: >-
+        Rượu trắng làm mùi mắm bớt gắt, đường và chanh cân lại vị mặn. Thiếu
+        cả ba thì chén mắm **mặn chát và nồng**, chấm miếng nào cũng át hết
+        vị lòng.
+    doneText: Bưng cả dĩa lẫn chén ra bàn — xong!
+
+tipsTitle: 6 bí quyết cho **dĩa lòng trắng giòn không hôi**
+tipsLead: >-
+  Món chỉ có luộc, nên toàn bộ kỹ thuật dồn vào khâu chọn và khâu canh giờ.
+  Đọc trước khi ra chợ là vừa.
+tips:
+  - icon: basket
+    title: Mua buổi sáng sớm, chọn ống căng hồng
+    text: >-
+      Lòng ngon là **ống căng tròn, ngả hồng nhạt, bóp vào chắc tay và có
+      độ đàn hồi**. Tránh ống xẹp lép, nhợt nhạt hoặc ngả xanh xám, sờ vào
+      nhũn. Hàng lòng bán chạy nhất chợ thường là hàng đáng tin nhất — cứ
+      hỏi người bán quen.
+  - icon: meat
+    title: Khấu đuôi — phần được tranh nhau nhất
+    text: >-
+      **Khấu đuôi** là đoạn cuối của lòng già: ngắn, tròn, nhiều mỡ, luộc
+      lên béo ngậy và giòn theo một kiểu rất riêng. Ai biết ăn thì dặn hàng
+      lòng để dành. Nó dày hơn lòng non nên **luộc lâu hơn, cỡ 12–15 phút**.
+  - icon: drop
+    title: Nước đá phải sẵn TRƯỚC khi bật bếp
+    text: >-
+      Nghe đơn giản mà là lỗi thường gặp: luộc xong mới đi lấy đá thì miếng
+      lòng đã nằm chờ mất mấy phút, nhiệt dư làm chín tiếp và mất luôn cơ
+      hội giòn. Thau đá phải **đứng sẵn cạnh bếp** từ đầu.
+  - icon: clock
+    title: Mỗi phần một giờ luộc, đừng thả chung
+    text: >-
+      Dạ dày **20–25 phút**, khấu đuôi **12–15**, gan **12**, lòng non chỉ
+      **5–7**. Thả chung một lượt thì hoặc dạ dày còn dai, hoặc lòng non đã
+      thành cao su — không có điểm chung nào cả.
+  - icon: lime
+    title: Chanh và muối hạt, đừng dùng bột giặt rửa nào khác
+    text: >-
+      **Muối hạt to** có độ nhám nên bóp mới sạch nhớt; muối bột mịn bóp hoài
+      không ăn thua. Chanh hoặc giấm gạo khử mùi tốt và an toàn. Bột mì cũng
+      là mẹo quen của nhiều nhà — bóp với bột mì rồi xả, nhớt ra rất nhanh.
+  - icon: herb
+    title: Húng quế, không phải rau nào cũng thay được
+    text: >-
+      Húng quế mùi hắc và ấm, đứng cạnh mắm tôm thì vừa vặn — đây là cặp đôi
+      kinh điển. Rau mùi thêm vào cho thanh. Còn tía tô hay kinh giới thì
+      thơm theo hướng khác, ăn cũng được nhưng **lạc vị** so với dĩa lòng.
+
+serve:
+  title: Bày dĩa ra bàn — **món của những buổi ngồi lâu**
+  paras:
+    - >-
+      Dĩa lòng luộc là món **ăn ngay khi vừa thái**, đừng để nguội hẳn. Gắp
+      miếng lòng non, chấm ngập vào chén mắm tôm đang sủi bông, kèm lá húng
+      quế và một lát khế chua — cắn một cái là đủ ba tầng: giòn của lòng,
+      nồng của mắm, chua chát của khế cắt ngang cái béo.
+    - >-
+      Đây là món của những buổi ngồi lâu. Không ai ăn vội một dĩa lòng: gắp
+      một miếng, nói một câu, rồi lại gắp. Chiều mát trời bạn bè ghé chơi,
+      bày dĩa lòng với rổ rau thơm ra giữa bàn là câu chuyện tự khắc dài ra.
+    - >-
+      Nhà nào ăn no thì dọn kèm **bún lá** — gắp bún, gắp lòng, chấm chung
+      một chén mắm, thành bữa luôn. Còn nước luộc lòng thì đừng đổ: nêm lại,
+      thả nắm hành lá là được **bát nước dùng ngọt** húp cuối bữa.
+  aside:
+    title: Dọn kèm cho đủ bộ
+    intro: "Bốn thứ này thiếu cái nào cũng tiếc:"
+    items:
+      - icon: herb
+        text: "**Húng quế** — cặp đôi kinh điển với mắm tôm, gắp kèm từng miếng."
+      - icon: pod
+        text: "**Khế chua + chuối chát** — chua chát cắt béo, ăn hoài không ngán."
+      - icon: noodle
+        text: "**Bún lá** — muốn thành bữa no thì thêm thứ này."
+      - icon: bowl
+        text: "**Bát nước luộc nêm hành** — húp cuối bữa, đừng đổ đi phí."
+
+faq:
+  - q: Vì sao lòng luộc xong bị dai và xỉn màu?
+    a: >-
+      Hai nguyên nhân, thường đi cùng nhau. Một là **luộc quá lâu** — lòng
+      non quá 8 phút là dai. Hai là **không ngâm nước đá** ngay khi vớt, nên
+      thớ không co lại đột ngột để săn giòn, và bề mặt ngả xám thay vì trắng
+      sáng. Lần sau canh đúng phút và để sẵn thau đá cạnh bếp.
+  - q: Nên lộn trái lòng non ra rửa cho sạch không?
+    a: >-
+      **Không.** Đây là chỗ nhiều người làm ngược. Phần bên trong lòng non
+      chính là chỗ béo ngậy làm nên vị của món; lộn ra rửa trôi hết thì còn
+      lại cái ống nhạt và dai. Chỉ **tuốt bớt** cho vừa, rồi bóp muối chanh
+      rửa mặt ngoài cho hết nhớt là đủ. Dạ dày thì ngược lại — phải lộn.
+  - q: Lòng còn mùi thì xử lý sao?
+    a: >-
+      Thường do rửa chưa tới. Bóp lại với **muối hạt + chanh** (hoặc bột mì)
+      thêm một lượt nữa, xả cho nước trong hẳn. Và nồi nước luộc nhớ đủ bộ
+      **gừng nướng + hành tím + rượu trắng** — ba thứ này khử mùi rất ăn
+      thua. Nướng gừng cho sém vỏ rồi mới đập, thơm hơn gừng sống nhiều.
+  - q: Món này khác cháo lòng chỗ nào?
+    a: >-
+      Cùng nguyên liệu nhưng khác hẳn cách ăn. **Cháo lòng** là gạo ninh
+      nhừ trong nước luộc lòng, lòng thái nhỏ thả vào tô cháo, ăn nóng bằng
+      thìa, hợp bữa sáng. **Lòng luộc** thì lòng là nhân vật chính, bày dĩa,
+      chấm mắm tôm, ăn với rau thơm — món để nhấm nháp và ngồi lâu.
+  - q: Không ăn được mắm tôm thì chấm gì?
+    a: >-
+      **Nước mắm gừng** là lựa chọn hay nhất: nước mắm ngon + gừng giã +
+      đường + chanh + ớt, vị ấm và thơm, hợp với miếng lòng. Hoặc đơn giản
+      là **muối tiêu chanh**. Chấm kiểu nào cũng ngon, chỉ là mắm tôm mới ra
+      đúng dĩa lòng kiểu Bắc.
+  - q: Luộc sẵn từ sáng, chiều ăn được không?
+    a: >-
+      Được, và không mất mấy độ giòn nếu làm đúng: luộc, ngâm đá, **để ráo
+      rồi bọc kín cất ngăn mát nguyên khúc** — đừng thái sẵn, thái ra là khô
+      mặt. Trước khi ăn mới thái, và nếu thích ấm thì **nhúng nhanh qua nước
+      nóng 30 giây** rồi vớt ra liền.
+
+ticker:
+  - icon: drop
+    text: Thả ngay vào nước đá
+  - icon: clock
+    text: Lòng non đúng 5–7 phút
+  - icon: bottle
+    text: Mắm tôm đánh bông sủi tăm
+  - icon: herb
+    text: Húng quế gắp kèm
+  - icon: pod
+    text: Khế chua cắt béo
+  - icon: knife
+    text: Thái xéo cho mặt cắt rộng

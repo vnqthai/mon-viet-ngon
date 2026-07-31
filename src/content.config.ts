@@ -109,6 +109,8 @@ const recipes = defineCollection({
         'bun-cha-ca', 'bun-mam-nem', 'com-hen', 'banh-khoai', 'banh-trang-cuon', 'mam-ruoc-xao',
         'bun-do', 'pa-pinh-top', 'bo-mot-nang', 'ca-loc-nuong-trui', 'oc-len-xao-dua',
         'nem-nuong', 'ca-tai-tuong', 'oc-hap-la-gung', 'ga-hap-hanh', 'goi-ngo-sen', 'canh-ga-chien',
+        'suon-xao-chua-ngot', 'bun-suon-sau', 'oc-chuoi-dau', 'long-luoc',
+        'canh-suon-bi-dao', 'canh-suon-khoai-tay', 'ca-tim-nuong',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

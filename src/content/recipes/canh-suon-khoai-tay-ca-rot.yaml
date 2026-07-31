@@ -1,0 +1,311 @@
+title: Canh sườn khoai tây cà rốt **ngọt bùi, đứa nhỏ nào cũng chịu**
+summary: >-
+  Nước canh ngọt lịm từ sườn ninh, miếng khoai tây **bở tơi tan trong
+  miệng**, khoanh cà rốt cam tươi còn giữ dáng. Món canh hiền lành nhất mâm
+  cơm nhà — nấu một nồi là cả người lớn lẫn con nít đều có phần.
+region: Cả nước
+category: Canh
+occasions: [Cho bé, Cơm nhà]
+pubDate: 2026-07-30
+time:
+  total: 50 phút
+  active: 15 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 64
+art: canh-suon-khoai-tay
+heroEyebrow: Nồi canh hiền lành của mọi nhà…
+
+quick:
+  ingredients:
+    - Sườn non [[500|g]] — chặt khúc 4 cm, chần sơ cho nước trong
+    - Khoai tây [[400|g]] · cà rốt [[200|g]] — cắt miếng to cỡ ngón cái
+    - Hành tím [[2|củ]] · hành lá + ngò rí [[1|nắm]]
+    - "Nêm: nước mắm [[1.5|muỗng canh|frac]] · hạt nêm, muối, tiêu · nước [[1.8|lít]]"
+  steps:
+    - Sườn chần sơ với gừng – hành đập, rửa lại — bước này quyết định nước trong hay đục.
+    - Ninh sườn với [[1.8|lít]] nước **30 phút** lửa nhỏ, hớt bọt cho kỹ.
+    - Cà rốt vào **trước 8 phút**, khoai tây vào sau — đừng thả chung một lượt.
+    - Nấu thêm **10 phút** tới khi xiên đũa qua khoai vừa hết cấn, nêm nếm.
+    - Tắt bếp, rắc hành lá + ngò + tiêu. Múc ra tô, ăn nóng với cơm.
+  warning: >-
+    Khoai tây nấu quá tay là **rã hết thành nước đục sền sệt**. Xiên đũa
+    thấy vừa qua là tắt bếp liền — khoai còn chín thêm trong nồi nóng.
+
+flavor:
+  chua: 0
+  ngot: 7.5
+  man: 5
+  cay: 0.5
+  thom: 5.5
+flavorNote: >-
+  **Chuẩn nồi canh:** nước **ngọt sâu vị xương** chứ không ngọt gắt vị bột
+  nêm, màu hơi ngả vàng nhạt chứ không đục lờ. Miếng khoai **giữ được dáng
+  mà bẻ ra thì bở tơi**, cà rốt mềm mà chưa nhũn.
+storyEyebrow: Chuyện nồi canh chiều
+storyTitle: Nồi canh **ai cũng biết nấu**, mà nấu ngon thì có mẹo
+
+story:
+  - >-
+    Đây là nồi canh của những buổi chiều bình thường nhất. Không lễ lạt,
+    không đãi ai — chỉ là đi chợ thấy dẻ sườn tươi, tiện tay lấy thêm củ
+    khoai củ cà rốt, về nhà bắc nồi lên là xong bữa. Vị của nó cũng vậy:
+    **ngọt hiền, không có góc cạnh nào**, ăn hoài không chán, và là món
+    hiếm hoi mà đứa nhỏ khó tính nhất cũng chịu húp.
+  - >-
+    Nấu thì ai cũng nấu được, nhưng ngon hay không nằm ở hai chỗ nhỏ. Một
+    là **chần sườn trước khi ninh** — mất năm phút, đổi lại nồi nước trong
+    veo thay vì lờ đờ bọt xám. Hai là **thứ tự thả rau củ**: cà rốt cứng
+    hơn nên vào trước, khoai tây bở hơn nên vào sau. Thả chung một lượt
+    thì hoặc cà rốt còn sượng, hoặc khoai đã rã.
+  - >-
+    Nồi canh này còn có một cái tiện ít ai để ý: nó **chia được làm hai**.
+    Phần nước trong với miếng sườn thì người lớn ăn với cơm; phần khoai
+    tây cà rốt dầm nhuyễn với chút nước canh thì thành chén cho em bé. Một
+    nồi, hai kiểu ăn, khỏi phải nấu riêng.
+
+ingredientGroups:
+  - name: Nguyên liệu chính
+    icon: basket
+    items:
+      - id: suon
+        name: Sườn non
+        icon: meat
+        base: 500
+        unit: g
+        note: Dẻ nhỏ dẹt có sụn, chặt khúc 4 cm — vừa ngọt nước vừa còn miếng gắp
+      - id: khoaitay
+        name: Khoai tây
+        icon: pumpkin
+        color: gold
+        base: 400
+        unit: g
+        note: Củ chắc tay, vỏ láng, không mọc mầm — cắt miếng to cỡ ngón cái
+      - id: carot
+        name: Cà rốt
+        icon: pumpkin
+        color: red
+        base: 200
+        unit: g
+        note: Củ nhỏ vừa thì ngọt hơn củ to; cắt khoanh dày hoặc tỉa múi cho đẹp
+      - id: chansuon
+        name: Gừng + hành tím chần sườn
+        icon: ginger
+        color: gold
+        qtyText: 3 lát gừng · 1 củ hành
+        note: Đập giập thả nồi nước chần, khử mùi
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: 1 củ chần sườn, 1 củ phi thơm thả vào nồi canh
+      - id: hanhngo
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Xắt nhỏ, rắc lúc tắt bếp
+  - name: Gia vị
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Nêm ở nhịp cuối cho dậy mùi
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Hạt nêm · muối · tiêu · dầu ăn
+        note: Nêm nhạt tay — khoai và cà rốt đã ngọt sẵn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **nồi canh nước trong ngọt lịm**
+stepsLead: >-
+  Ninh sườn 30 phút là lúc rảnh tay nhất — tranh thủ gọt khoai, tỉa cà rốt,
+  nhặt hành ngò. Tổng cộng đứng bếp chỉ chừng mười lăm phút.
+steps:
+  - title: Chần sườn — gốc của nước trong
+    icon: knife
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Sườn rửa nước muối loãng, chặt khúc **4 cm** (nhờ hàng thịt chặt
+          giùm cho đều).
+      - label: "Chần sơ:"
+        text: >-
+          nấu nồi nước sôi với **gừng đập + hành tím**, thả sườn chần **2–3
+          phút** cho bọt bẩn ra hết, đổ bỏ nước rồi **rửa lại dưới vòi nước
+          lạnh**.
+    callout:
+      type: tip
+      text: >-
+        Năm phút bỏ ra cho bước này đổi lấy **nồi nước trong suốt** thay vì
+        lờ đờ bọt xám. Đây là chênh lệch lớn nhất giữa nồi canh nhà nấu và
+        nồi canh "nhìn là muốn ăn".
+  - title: Ninh sườn, hớt bọt
+    icon: pot
+    minutes: 30 phút
+    bullets:
+      - text: >-
+          Cho sườn vào nồi với **[[1.8|lít]] nước lạnh** + ½ muỗng cà phê
+          muối, đun sôi rồi **hạ lửa nhỏ liu riu**, hé nắp.
+      - text: Ninh **30 phút**, mười phút đầu ngồi cạnh hớt bọt cho kỹ.
+      - label: "Trong lúc chờ:"
+        text: >-
+          gọt khoai tây, cắt miếng **to cỡ ngón cái**, **thả ngay vào thau
+          nước lạnh**. Cà rốt gọt, cắt khoanh dày cỡ 1 cm.
+    callout:
+      type: warn
+      text: >-
+        Khoai gọt xong để ngoài không khí là **thâm xì**. Thả vào nước lạnh
+        vừa giữ màu, vừa rút bớt tinh bột — nồi canh sẽ trong hơn.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ninh sườn · 30:00
+      doneMsg: Sườn mềm chưa? Thả cà rốt vô trước nghen!
+  - title: Cà rốt trước, khoai tây sau
+    icon: pumpkin
+    minutes: 18 phút
+    intro: "Hai thứ này chín không cùng lúc — đây là chỗ hay sai nhất:"
+    bullets:
+      - label: "Cà rốt vào trước:"
+        text: thả cà rốt vào nồi, nấu **8 phút** lửa vừa.
+      - label: "Khoai tây vào sau:"
+        text: >-
+          vớt khoai khỏi thau nước, thả vào nồi, nấu tiếp **10 phút** nữa.
+      - label: "Đúng độ:"
+        text: >-
+          xiên đũa qua miếng khoai thấy **vừa hết cấn** là tắt bếp. Đừng đợi
+          tới lúc đũa xuyên qua ngọt xớt.
+      - text: >-
+          Nêm [[1.5|muỗng canh|frac]] nước mắm + 1 muỗng cà phê hạt nêm,
+          nếm lại cho vừa miệng.
+    callout:
+      type: warn
+      text: >-
+        Thả chung một lượt là **hoặc cà rốt còn sượng, hoặc khoai đã rã**.
+        Và đừng khuấy nhiều tay trong lúc nấu — cứ để yên, khoai mới giữ
+        được dáng.
+    timer:
+      secs: 600
+      label: Hẹn giờ nấu khoai · 10:00
+      doneMsg: Xiên thử miếng khoai — vừa mềm là tắt bếp!
+  - title: Rắc hành ngò, dọn mâm
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Phi thơm 1 củ hành tím băm với chút dầu, rưới vào nồi cho dậy mùi
+          (bước này bỏ qua cũng được, nhưng có thì thơm hẳn).
+      - text: Tắt bếp, rắc **hành lá + ngò rí xắt nhỏ + chút tiêu xay**.
+      - text: Múc ra tô, ăn nóng với cơm.
+    doneText: Múc canh ra tô — xong!
+
+tipsTitle: 5 bí quyết cho **nồi canh sườn ngọt trong**
+tips:
+  - icon: pumpkin
+    title: Khoai tây cắt miếng TO, đừng cắt nhỏ
+    text: >-
+      Miếng **to cỡ ngón cái** mới chịu được 10 phút trong nồi mà còn giữ
+      dáng. Cắt hạt lựu cho "dễ ăn" là tính toán ngược: khoai tan hết vào
+      nước, tô canh còn mỗi nước đục sền sệt mà chẳng còn miếng nào để gắp.
+  - icon: drop
+    title: Ngâm khoai vào nước ngay sau khi gọt
+    text: >-
+      Vừa chống thâm, vừa **rút bớt tinh bột ở mặt cắt** nên nồi canh trong
+      hơn thấy rõ. Ngâm chừng 10 phút là đủ, ngâm lâu quá thì miếng khoai
+      lại nhạt.
+  - icon: meat
+    title: Nước lạnh mới ninh được ngọt
+    text: >-
+      Cho sườn vào **nước lạnh rồi mới bật bếp** — chất ngọt trong xương có
+      thời gian tiết dần ra nước. Thả vào nồi đang sôi thì mặt ngoài se lại
+      ngay, nước dùng nhạt mà sườn cũng chẳng mềm hơn.
+  - icon: clock
+    title: Nấu trước một nồi, hâm lại vẫn ngon
+    text: >-
+      Món này **để qua bữa được**, khác canh rau. Cất ngăn mát 2 ngày, hâm
+      sôi nhẹ là ăn. Chỉ lưu ý hâm **lửa nhỏ và đừng khuấy**, khoai đã mềm
+      sẵn rồi, khuấy mạnh là nát hết.
+  - icon: bowl
+    title: Một nồi chia được hai kiểu ăn
+    text: >-
+      Người lớn ăn nước trong với miếng sườn. Còn em bé thì múc riêng phần
+      **khoai tây cà rốt dầm nhuyễn với chút nước canh** là thành chén ăn
+      dặm ngọt lành — khỏi nấu riêng một nồi nữa.
+
+serve:
+  title: Bữa cơm chiều **có tô canh là đủ ấm**
+  paras:
+    - >-
+      Tô canh này hợp nhất với mấy món mặn đậm đà: **thịt kho hột vịt, cá
+      kho tộ, sườn ram mặn ngọt** — một đậm một thanh, và cơm cứ thế mà
+      vơi. Màu vàng cam của khoai và cà rốt đặt cạnh dĩa rau xanh nhìn cũng
+      đã con mắt.
+    - >-
+      Nhà có con nít thì đây là **món canh dễ dụ nhất**: ngọt tự nhiên,
+      không cay, không chua, miếng khoai mềm dễ nhai. Gắp cho bé mấy khúc
+      sườn nhiều sụn, dầm miếng khoai vào chén cơm là xong bữa mà khỏi phải
+      dỗ dành.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Ghép với món mặn nào cũng hợp:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — nền của mọi bữa cơm nhà."
+      - icon: claypot
+        text: "**Thịt kho hột vịt** — đậm đà, cân với vị canh ngọt hiền."
+      - icon: meat
+        text: "**Sườn ram mặn ngọt** — nếu đã mua sườn thì mua luôn một thể."
+      - icon: lettuce
+        text: "**Rau muống xào tỏi** — thêm màu xanh cho mâm."
+
+faq:
+  - q: Nên nấu canh sườn khoai tây hay canh sườn bí đao?
+    a: >-
+      Tùy mâm cơm hôm đó. **Khoai tây cà rốt** ngọt bùi, đặc đà, no bụng
+      hơn — hợp mâm có con nít, hợp ngày mát trời. **Bí đao** thì nước trong
+      và nhẹ hơn hẳn, miếng bí mềm mát — hợp ngày oi, hợp khi món mặn đã
+      nhiều dầu mỡ. Cùng một cách ninh sườn, đổi mỗi thứ rau củ.
+  - q: Có cần chần sườn không, ninh thẳng được không?
+    a: >-
+      Ninh thẳng vẫn ra canh, nhưng nước sẽ **đục và có bọt xám** phải hớt
+      liên tục. Chần 3 phút rồi rửa lại là xong chuyện, nước trong hẳn. Nếu
+      thật sự vội thì ít nhất hãy **hớt bọt thật kỹ trong 10 phút đầu**.
+  - q: Thêm được rau củ gì nữa không?
+    a: >-
+      Được nhiều: **su hào** (cắt miếng, thả cùng cà rốt), **bắp ngọt** cắt
+      khúc (thả từ đầu lúc ninh sườn cho ngọt nước), **củ cải trắng** (thả
+      cùng cà rốt). Chỉ cần nhớ luật chung: **thứ cứng vào trước, thứ bở
+      vào sau**, và đừng thả quá ba loại kẻo tô canh thành nồi lẩu.
+  - q: Nồi canh bị đục sền sệt, cứu được không?
+    a: >-
+      Đục do khoai rã thì **không gạn lại trong được** — nhưng vẫn ngon,
+      cứ coi như nồi canh đặc kiểu súp, dầm luôn cho nhuyễn rồi rắc tiêu là
+      thành món khác cũng ổn. Lần sau: cắt khoai to hơn, ngâm nước sau khi
+      gọt, và tắt bếp sớm hơn cảm giác một chút.
+  - q: Dùng nồi áp suất cho nhanh được không?
+    a: >-
+      Được cho phần **ninh sườn** — 12 phút áp suất bằng 30 phút nồi thường.
+      Nhưng **đừng bỏ rau củ vào nồi áp suất**: khoai tây ra là nát bấy.
+      Ninh sườn xong, xả áp, mở nắp rồi mới thả cà rốt và khoai tây nấu
+      bình thường.
+
+ticker:
+  - icon: drop
+    text: Nước trong ngọt xương
+  - icon: pumpkin
+    text: Khoai bở tơi trong miệng
+  - icon: meat
+    text: Sườn mềm rời xương
+  - icon: clock
+    text: Cà rốt trước, khoai sau
+  - icon: bowl
+    text: Một nồi hai kiểu ăn

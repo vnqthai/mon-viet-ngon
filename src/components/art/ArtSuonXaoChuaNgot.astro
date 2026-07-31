@@ -1,0 +1,184 @@
+---
+/* Sườn xào chua ngọt — CHỮ KÝ, vẽ lệch hẳn khỏi ArtSuonRam (cùng nền nâu họ "man"):
+   1) SƯỜN RAM là đơn sắc nâu caramel; tô này phải RỰC RỠ NHIỀU MÀU — ớt chuông đỏ
+      và xanh, miếng thơm vàng, múi hành tây trắng ngà nằm xen giữa khúc sườn
+   2) sốt ĐỎ CAM tươi (không phải nâu đỏ cánh gián), bóng và loãng hơn
+   3) dĩa CẠN LÒNG bản rộng, khác dĩa sâu lòng của sườn ram
+   4) đạo cụ: khoanh thơm bổ dở bên phải, nửa trái ớt chuông bên trái
+      (sườn ram dùng chén cơm gác đũa, tránh trùng)
+   Vẽ MỘT KHỐI: path đống nền trước, mọi miếng chồng mép lên nhau.
+   id prefix "sxc" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa sườn xào chua ngọt sốt đỏ cam, xen ớt chuông đỏ xanh, miếng thơm vàng và hành tây">
+  <defs>
+    <linearGradient id="sxcSauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E2622C"/><stop offset="1" stop-color="#B03D18"/>
+    </linearGradient>
+    <linearGradient id="sxcRib2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E87838"/><stop offset="1" stop-color="#B44C1C"/>
+    </linearGradient>
+    <linearGradient id="sxcPlate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E9E2CC"/>
+    </linearGradient>
+    <!-- MIẾNG THƠM: tam giác bo góc vàng, có rãnh mắt thơm -->
+    <g id="sxcThom">
+      <path d="M-15 -10 C -6 -15 9 -14 15 -7 C 18 -1 13 10 3 13 C -7 15 -16 9 -17 1 C -18 -4 -18 -8 -15 -10 Z"
+            fill="#F2C244" stroke="#C08A15" stroke-width="2"/>
+      <path d="M-11 -6 C -3 -10 7 -9 12 -4" fill="none" stroke="#F8DE8C" stroke-width="2" stroke-linecap="round"/>
+      <g fill="#C89A22"><circle cx="-6" cy="2" r="1.5"/><circle cx="3" cy="5" r="1.4"/><circle cx="6" cy="-4" r="1.3"/></g>
+    </g>
+  </defs>
+  <circle cx="260" cy="248" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="248" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M212 244 C 201 220 227 204 216 178 C 209 162 223 150 219 136"/>
+    <path d="M300 240 C 290 216 316 202 305 176 C 298 160 312 148 308 132"/>
+  </g>
+  <ellipse cx="260" cy="398" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- DĨA CẠN LÒNG bản rộng: vành bẹt, lòng nông -->
+  <ellipse cx="260" cy="342" rx="202" ry="52" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="336" rx="202" ry="52" fill="url(#sxcPlate)" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="336" rx="202" ry="52" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="337" rx="176" ry="42" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- MỘT KHỐI: vũng sốt đỏ cam làm nền cả đống, mép loang tự nhiên -->
+  <path d="M124 330 C 128 314 154 302 192 296 C 234 289 312 288 352 295
+           C 386 301 400 314 396 329 C 392 350 344 364 260 366
+           C 176 367 122 350 124 330 Z" fill="url(#sxcSauce)"/>
+  <path d="M144 322 C 166 312 202 306 242 304" fill="none" stroke="#F4A05C" stroke-width="3.4" stroke-linecap="round" opacity=".6"/>
+  <path d="M306 352 C 340 350 368 342 382 332" fill="none" stroke="#F4A05C" stroke-width="2.6" stroke-linecap="round" opacity=".45"/>
+  <g fill="#F7B471" opacity=".8">
+    <circle cx="150" cy="338" r="3.2"/><circle cx="378" cy="320" r="2.8"/><circle cx="248" cy="360" r="3"/>
+  </g>
+
+  <!-- bóng các miếng hằn xuống sốt, giữ đống liền khối -->
+  <g fill="rgba(88,30,6,.28)">
+    <ellipse cx="176" cy="314" rx="34" ry="9"/><ellipse cx="256" cy="308" rx="36" ry="9"/>
+    <ellipse cx="332" cy="314" rx="32" ry="8"/><ellipse cx="204" cy="344" rx="36" ry="9"/>
+    <ellipse cx="292" cy="348" rx="36" ry="9"/><ellipse cx="356" cy="340" rx="30" ry="8"/>
+  </g>
+
+  <!-- HÀNG SAU: ớt chuông xanh + múi hành tây nhô sau khúc sườn.
+       Miếng rau củ vẽ TO HẲN so với bản đầu: ở cỡ thumbnail 260px, miếng nhỏ
+       chỉ đọc ra hạt lấm tấm nên món mất đúng cái nét "rực rỡ nhiều màu" vốn
+       là chỗ tách nó khỏi sườn ram đơn sắc nâu. -->
+  <g transform="rotate(-8 156 292)">
+    <path d="M132 274 C 146 266 172 268 180 279 C 185 289 177 305 161 309 C 144 312 130 303 128 291 Z"
+          fill="#4E8B3C" stroke="#2F5F22" stroke-width="2.5"/>
+    <path d="M138 282 C 150 275 168 276 176 283" fill="none" stroke="#7BB55E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(6 226 284)">
+    <path d="M202 270 C 216 262 240 265 246 276 C 250 286 239 299 222 301 C 207 302 197 293 197 282 Z"
+          fill="#F3EBD6" stroke="#C8B98F" stroke-width="2.5"/>
+    <path d="M208 278 C 219 271 234 272 241 278" fill="none" stroke="#FBF6E6" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <use href="#sxcThom" transform="translate(300 284) rotate(-12) scale(1.24)"/>
+  <g transform="rotate(-5 360 290)">
+    <path d="M336 274 C 350 266 376 268 383 279 C 388 289 379 305 363 308 C 346 311 334 302 332 290 Z"
+          fill="#D3452E" stroke="#9B2617" stroke-width="2.5"/>
+    <path d="M342 282 C 354 275 372 276 379 283" fill="none" stroke="#EE7B5E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- KHÚC SƯỜN hàng sau: nhỏ hơn, ló lên giữa rau củ -->
+  <g transform="rotate(-9 194 296)">
+    <rect x="174" y="276" width="40" height="40" rx="7.5" fill="url(#sxcRib2)" stroke="#8A3A11" stroke-width="2.4"/>
+    <path d="M176 283 C 186 278 204 277 212 280 L 212 285 C 204 282 186 283 178 287 Z" fill="#F3DBAE"/>
+    <circle cx="194" cy="282" r="4.6" fill="#F8EFD9" stroke="#BE8F52" stroke-width="1.8"/>
+    <path d="M186 298 L 182 309" stroke="#FBB877" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(4 266 292)">
+    <rect x="246" y="272" width="42" height="41" rx="8" fill="url(#sxcRib2)" stroke="#8A3A11" stroke-width="2.4"/>
+    <path d="M248 279 C 258 274 277 273 286 276 L 286 281 C 277 278 258 279 250 283 Z" fill="#F3DBAE"/>
+    <circle cx="266" cy="278" r="4.7" fill="#F8EFD9" stroke="#BE8F52" stroke-width="1.8"/>
+    <path d="M258 294 L 254 305" stroke="#FBB877" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- KHÚC SƯỜN hàng trước: to hơn, chân ngập sốt, mặt bên tối tạo khối -->
+  <g transform="rotate(7 196 330)">
+    <rect x="172" y="306" width="48" height="46" rx="8.5" fill="#EE7C33" stroke="#8A3A11" stroke-width="2.6"/>
+    <path d="M213 310 C 218 320 219 336 215 349 L 206 351 C 211 338 211 321 207 309 Z" fill="#A34412" opacity=".55"/>
+    <path d="M174 314 C 185 308 207 307 218 310 L 218 316 C 207 312 185 314 176 318 Z" fill="#F3DBAE"/>
+    <circle cx="194" cy="313" r="5.2" fill="#F8EFD9" stroke="#BE8F52" stroke-width="1.9"/>
+    <path d="M184 331 L 180 345" stroke="#FBB877" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M195 329 L 191 341" stroke="#FBB877" stroke-width="2.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse cx="204" cy="336" rx="2.4" ry="1.5" fill="#FDF6E4" transform="rotate(22 204 336)"/>
+  </g>
+  <g transform="rotate(-4 278 336)">
+    <rect x="252" y="310" width="51" height="48" rx="9" fill="#F08639" stroke="#8A3A11" stroke-width="2.6"/>
+    <path d="M296 314 C 301 325 302 342 298 355 L 289 357 C 294 343 294 326 290 313 Z" fill="#A34412" opacity=".55"/>
+    <path d="M254 319 C 266 312 289 311 300 314 L 300 320 C 289 316 266 318 256 323 Z" fill="#F3DBAE"/>
+    <circle cx="275" cy="317" r="5.4" fill="#F8EFD9" stroke="#BE8F52" stroke-width="1.9"/>
+    <path d="M264 336 L 260 350" stroke="#FBB877" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M276 334 L 272 346" stroke="#FBB877" stroke-width="2.2" stroke-linecap="round" opacity=".85"/>
+    <ellipse cx="286" cy="342" rx="2.4" ry="1.5" fill="#FDF6E4" transform="rotate(-26 286 342)"/>
+  </g>
+  <!-- khúc NẰM NGANG phá nhịp, mặt cắt xương quay trái -->
+  <g transform="rotate(-8 348 332)">
+    <rect x="322" y="312" width="54" height="37" rx="8" fill="#E87838" stroke="#8A3A11" stroke-width="2.5"/>
+    <path d="M329 314 C 324 322 323 336 327 347 L 333 348 C 329 337 330 323 334 315 Z" fill="#F3DBAE"/>
+    <circle cx="331" cy="331" r="5" fill="#F8EFD9" stroke="#BE8F52" stroke-width="1.9"/>
+    <path d="M346 320 L 342 334" stroke="#FBB877" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M360 319 L 356 332" stroke="#FBB877" stroke-width="2.1" stroke-linecap="round" opacity=".85"/>
+  </g>
+
+  <!-- RAU CỦ hàng trước: chồng mép lên khúc sườn cho đống liền -->
+  <g transform="rotate(12 152 332)">
+    <path d="M130 316 C 144 308 168 310 175 321 C 180 331 171 345 155 348 C 139 350 127 342 126 331 Z"
+          fill="#D3452E" stroke="#9B2617" stroke-width="2.5"/>
+    <path d="M136 324 C 147 317 163 318 170 325" fill="none" stroke="#EE7B5E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <use href="#sxcThom" transform="translate(238 354) rotate(14) scale(1.28)"/>
+  <g transform="rotate(-10 322 356)">
+    <path d="M300 340 C 314 332 338 334 345 345 C 350 355 340 370 324 373 C 308 375 296 366 295 355 Z"
+          fill="#4E8B3C" stroke="#2F5F22" stroke-width="2.5"/>
+    <path d="M306 348 C 317 341 333 342 340 349" fill="none" stroke="#7BB55E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(8 386 334)">
+    <path d="M366 320 C 379 313 400 315 405 325 C 409 334 399 347 385 349 C 371 351 361 343 360 333 Z"
+          fill="#F3EBD6" stroke="#C8B98F" stroke-width="2.5"/>
+    <path d="M371 328 C 381 322 394 323 400 329" fill="none" stroke="#FBF6E6" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <use href="#sxcThom" transform="translate(146 350) rotate(-16) scale(1.06)"/>
+
+  <!-- sốt keo dâng ôm chân đống -->
+  <path d="M162 352 C 186 360 230 364 260 364 C 302 365 342 360 366 352"
+        fill="none" stroke="#A03A14" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+
+  <!-- hành lá khúc rắc trên mặt -->
+  <g stroke="#6F9C48" stroke-width="3.8" stroke-linecap="round" fill="none">
+    <path d="M216 300 q11 -6 21 -4"/><path d="M300 322 q11 -5 20 -2"/>
+    <path d="M186 358 q10 -3 19 -2"/><path d="M348 300 q10 -4 19 -2"/>
+  </g>
+  <g fill="#2E2318"><circle cx="232" cy="330" r="1.7"/><circle cx="322" cy="336" r="1.6"/></g>
+
+  <!-- ĐẠO CỤ TRÁI: trái ớt chuông đỏ NGUYÊN QUẢ.
+       Bản đầu vẽ nửa quả bổ dọc (viền đỏ, ruột trắng, hột vàng) — render ra
+       đọc thành quả táo bổ đôi. Ớt chuông nhận ra được là nhờ ĐƯỜNG BAO VUÔNG
+       VỨC CÓ BA MÚI DƯỚI ĐÁY và cuống mập, nên vẽ nguyên quả mới đúng. -->
+  <g transform="translate(84 394) rotate(-10)">
+    <ellipse cx="0" cy="34" rx="42" ry="10" fill="rgba(15,26,14,.32)"/>
+    <path d="M-30 -18 C -30 -27 -16 -31 0 -31 C 16 -31 30 -27 30 -18
+             C 32 -4 30 8 26 18 C 23 26 16 29 12 22 C 9 16 7 16 4 22
+             C 1 29 -6 29 -9 22 C -12 16 -14 16 -17 22 C -21 29 -27 26 -29 18
+             C -32 8 -32 -4 -30 -18 Z"
+          fill="#CE4230" stroke="#8E2110" stroke-width="2.8" stroke-linejoin="round"/>
+    <path d="M-19 -18 C -21 -4 -20 8 -17 17" fill="none" stroke="#EE7B5E" stroke-width="4.4" stroke-linecap="round" opacity=".85"/>
+    <path d="M8 -16 C 7 -4 8 6 10 15" fill="none" stroke="#A32B18" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+    <path d="M-14 -28 C -6 -34 8 -34 15 -29" fill="#3E6428" stroke="#2C4A1E" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M0 -30 C -1 -38 3 -43 10 -43" fill="none" stroke="#4E7B36" stroke-width="5.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: khoanh thơm bổ dở, vỏ gai nâu và ruột vàng có lõi -->
+  <g transform="translate(438 400) rotate(9)">
+    <ellipse cx="0" cy="26" rx="48" ry="11" fill="rgba(15,26,14,.32)"/>
+    <circle cx="0" cy="0" r="36" fill="#F2C244" stroke="#B8830F" stroke-width="2.8"/>
+    <circle cx="0" cy="0" r="36" fill="none" stroke="#9A6A0E" stroke-width="5" stroke-dasharray="4 7"/>
+    <circle cx="0" cy="0" r="27" fill="#F7D468" stroke="#C79419" stroke-width="2"/>
+    <circle cx="0" cy="0" r="8" fill="#EBBE4E" stroke="#C79419" stroke-width="1.8"/>
+    <g stroke="#D8A526" stroke-width="1.8" stroke-linecap="round">
+      <path d="M0 -26 L 0 -10"/><path d="M22 -13 L 7 -5"/><path d="M22 13 L 7 5"/>
+      <path d="M0 26 L 0 10"/><path d="M-22 13 L -7 5"/><path d="M-22 -13 L -7 -5"/>
+    </g>
+  </g>
+</svg>

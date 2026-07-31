@@ -1,0 +1,402 @@
+title: Sườn xào chua ngọt **chua dẫn trước, sốt bóng áo từng khúc**
+summary: >-
+  Khúc sườn chiên vàng giòn rìa, áo lớp sốt **đỏ cam bóng lưỡng** chua thanh
+  ngọt dịu, xen miếng thơm vàng với ớt chuông đỏ xanh còn giòn sựt. Món xào
+  bắt mắt nhất mâm cơm nhà, dọn ra là chén cơm nào cũng vơi nhanh.
+region: Cả nước
+category: Xào
+occasions: [Cơm nhà, Cho bé, Đãi khách]
+pubDate: 2026-07-30
+time:
+  total: 45 phút
+  active: 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: true
+order: 45
+art: suon-xao-chua-ngot
+heroEyebrow: Món xào rực rỡ nhất mâm…
+
+quick:
+  ingredients:
+    - Sườn non [[600|g]] — chặt khúc 3–4 cm, chần sơ rồi để thật ráo
+    - Thơm (dứa) [[150|g]] · ớt chuông đỏ + xanh [[1|trái]] mỗi màu · hành tây [[1|củ]]
+    - Tỏi [[4|tép]] + hành tím [[2|củ]] băm · hành lá [[2|nhánh]]
+    - Bột bắp [[2|muỗng canh|frac]] — áo sườn trước khi chiên
+    - "Sốt chua ngọt: giấm gạo [[3|muỗng canh|frac]] · đường [[3|muỗng canh|frac]] · tương cà [[2|muỗng canh|frac]] · nước mắm [[1.5|muỗng canh|frac]] · nước [[100|ml]]"
+  steps:
+    - Sườn chần sơ với gừng – hành đập, rửa lại, **để thật ráo** rồi ướp 20 phút.
+    - Lăn sườn qua **bột bắp mỏng tang**, chiên lửa vừa tới **vàng rìa**, vớt ra.
+    - Pha sẵn chén sốt chua ngọt, khuấy tan đường — **nếm trước khi đổ vô chảo**.
+    - Phi tỏi hành, cho hành tây + thơm vào đảo nhanh, trút sườn vô.
+    - Rưới sốt, đảo lửa lớn tới khi **sốt keo bám áo từng khúc**, thả ớt chuông vào chót.
+    - Tắt bếp, rắc hành lá + tiêu. Ớt chuông còn giòn là đúng bài.
+  warning: >-
+    Sườn còn ướt mà thả vô chảo dầu là **văng bỏng tay và bột bong hết**.
+    Chần xong phải để ráo hẳn, lấy giấy thấm khô mặt sườn rồi mới lăn bột.
+
+flavor:
+  chua: 6.5
+  ngot: 7
+  man: 5
+  cay: 1
+  thom: 7
+flavorNote: >-
+  **Chuẩn vị:** chua thanh **chạy trước** rồi ngọt đuổi theo liền, mặn chỉ
+  đứng nền — sốt sánh bóng **bám áo khúc sườn** chứ không loãng đọng đáy dĩa.
+  Ớt chuông phải còn giòn, thơm còn dai chứ không nhũn.
+storyEyebrow: Chuyện chảo sườn
+storyTitle: Món xào **được lòng con nít nhất** mâm cơm
+
+story:
+  - >-
+    Trong họ nhà sườn, đây là món **dễ dụ con nít** nhất. Sườn ram thì đậm
+    đà kiểu người lớn, sườn nướng thì phải chờ than — còn sườn xào chua ngọt
+    có cái màu đỏ cam bóng lưỡng, có miếng thơm ngọt lịm, có ớt chuông đỏ
+    xanh vui mắt. Dọn lên bàn là đám nhỏ chỉ trỏ trước cả khi nếm.
+  - >-
+    Món này khác sườn ram ở chỗ căn bản: **sườn được chiên sơ trước**, nên
+    rìa khúc giòn nhẹ và lớp sốt bám ngoài chứ không thấm sâu vô thớ thịt.
+    Nhờ vậy cắn miếng sườn nghe **ba tầng** — giòn ở rìa, mềm ở trong, chua
+    ngọt ở lớp áo. Đổi lại, phải chịu khó bắc thêm một chảo dầu.
+  - >-
+    Cái khó duy nhất nằm ở **chén sốt**. Chua nhiều một chút là gắt, đường
+    nhiều một chút là thành món tráng miệng. Mẹo của mình: pha sốt ra chén
+    riêng, **nếm thử bằng đầu đũa trước khi đổ vô chảo** — lúc đó còn sửa
+    được, chứ đổ vô rồi thì chỉ còn cách chữa cháy.
+
+ingredientGroups:
+  - name: Phần sườn
+    icon: meat
+    items:
+      - id: suon
+        name: Sườn non
+        icon: meat
+        base: 600
+        unit: g
+        note: Dẻ nhỏ dẹt, lẫn sụn — chặt khúc 3–4 cm cho vừa gắp
+      - id: chansuon
+        name: Gừng + hành tím chần sườn
+        icon: ginger
+        color: gold
+        qtyText: 3 lát gừng · 1 củ hành
+        note: Đập giập thả nồi nước chần cho thơm
+      - id: botbap
+        name: Bột bắp
+        icon: jar
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Áo mỏng tang thôi — dày là thành món tẩm bột
+  - name: Rau củ xào cùng
+    icon: basket
+    items:
+      - id: thom
+        name: Thơm (dứa)
+        icon: pineapple
+        color: gold
+        base: 150
+        unit: g
+        note: Chọn trái chín vàng mà còn cứng tay — chín rục là nát trong chảo
+      - id: otchuong
+        name: Ớt chuông đỏ + xanh
+        icon: pepper
+        color: red
+        qtyText: 1 trái mỗi màu
+        note: Cắt miếng vuông cỡ 3 cm, thả sau chót cho còn giòn
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        color: gold
+        base: 1
+        unit: củ
+        note: Bổ múi cau, đảo nhanh tay giữ độ ngọt giòn
+      - id: toihanh
+        name: Tỏi + hành tím
+        icon: garlic
+        color: red
+        qtyText: 4 tép tỏi · 2 củ hành
+        note: Băm nhuyễn, phi thơm mở màn
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 2
+        unit: nhánh
+        note: Xắt khúc, rắc cuối bếp
+  - name: Chén sốt chua ngọt
+    icon: bottle
+    items:
+      - id: giam
+        name: Giấm gạo
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Trục chính của vị chua — thay bằng nước cốt chanh cũng được
+      - id: duong
+        name: Đường cát
+        icon: jar
+        color: gold
+        base: 3
+        unit: muỗng canh
+        frac: true
+        note: Cân đúng với giấm, lệch một muỗng là đổi hẳn món
+      - id: tuongca
+        name: Tương cà
+        icon: tomato
+        color: red
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Cho màu đỏ cam và vị chua nền, đừng thay bằng sốt cà chua nấu mì
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Kéo món về phía mặn đằm, khỏi bị ngọt lơ lửng
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Tiêu · hạt nêm · dầu ăn
+        note: Dầu chiên đong cỡ nửa chảo, chiên xong chắt lại xài tiếp
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **dĩa sườn chua ngọt bóng lưỡng**
+stepsLead: >-
+  Trình tự khôn: lúc sườn nằm ướp thì cắt rau củ và pha sẵn chén sốt — tới
+  nhịp bắc chảo là chạy một mạch không kịp quay đầu, chuẩn bị sẵn mới kịp tay.
+steps:
+  - title: Chần sườn & để thật ráo
+    icon: knife
+    minutes: 12 phút
+    intro: "Bước quyết định miếng sườn có giòn rìa được hay không:"
+    bullets:
+      - label: "Chần sơ:"
+        text: >-
+          nấu nồi nước sôi với **gừng đập + hành tím**, thả sườn chần **2
+          phút** cho bọt bẩn ra hết, vớt ra rửa lại nước sạch.
+      - label: "Để ráo hẳn:"
+        text: >-
+          trải sườn ra rổ **10 phút**, rồi lấy giấy thấm **lau khô mặt từng
+          khúc**. Đây là chỗ nhiều nhà bỏ qua rồi than sao bột bong hết.
+    callout:
+      type: warn
+      text: >-
+        Sườn còn đọng nước mà thả vô chảo dầu nóng là **dầu văng tung tóe**,
+        bỏng tay như chơi. Khô mặt sườn vừa an toàn vừa giòn.
+  - title: Ướp sườn — nhạt tay thôi
+    icon: spoon
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Trộn sườn với **1 muỗng cà phê hạt nêm + ½ muỗng cà phê tiêu +
+          1 muỗng cà phê nước mắm**, ướp **20 phút**.
+      - text: >-
+          Ướp nhạt tay vì **lớp sốt bên ngoài đã đậm rồi** — ướp mặn nữa là
+          hai lớp chồng lên nhau, ăn gắt.
+    timer:
+      secs: 1200
+      label: Hẹn giờ ướp sườn · 20:00
+      doneMsg: Sườn thấm rồi — rau củ cắt xong chưa nè?
+  - title: Pha chén sốt & nếm trước
+    icon: bottle
+    minutes: 3 phút
+    intro: "Linh hồn của món nằm gọn trong cái chén này:"
+    bullets:
+      - text: >-
+          Khuấy tan [[3|muỗng canh|frac]] giấm + [[3|muỗng canh|frac]]
+          đường + [[2|muỗng canh|frac]] tương cà + [[1.5|muỗng canh|frac]]
+          nước mắm + [[100|ml]] nước.
+      - label: "Nếm thử:"
+        text: >-
+          chấm đầu đũa nếm — phải nghe **chua trước, ngọt theo sau**, mặn
+          chỉ thoáng qua. Chua yếu thì thêm giấm, gắt quá thì thêm đường,
+          từng nửa muỗng một.
+      - text: >-
+          Chừa sẵn **1 muỗng cà phê bột bắp hòa 2 muỗng nước** để bên cạnh
+          — lát nữa sốt loãng thì có cái mà cứu.
+    callout:
+      type: tip
+      text: >-
+        Sốt nếm ở chén bao giờ cũng **đậm hơn lúc đã áo lên sườn**, vì trong
+        chảo còn nước từ thơm và hành tây tiết ra. Cứ pha đậm hơn khẩu vị
+        một chút là vừa.
+  - title: Chiên sườn vàng rìa
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Lăn từng khúc sườn qua [[2|muỗng canh|frac]] bột bắp, **giũ bớt
+          cho lớp bột mỏng tang**, đừng để đóng bánh ở kẽ xương.
+      - text: >-
+          Chảo dầu nóng già, thả sườn vô **lửa vừa**, chiên **7–8 phút** trở
+          đều tới khi mặt ngoài vàng và rìa hơi sém.
+      - text: Vớt ra rổ có lót giấy cho ráo dầu. Chắt dầu ra, chừa lại cỡ 2 muỗng canh trong chảo.
+    callout:
+      type: warn
+      text: >-
+        Lửa lớn là **ngoài cháy trong còn đỏ**. Sườn non khúc 3–4 cm cần
+        lửa vừa và đủ 7–8 phút mới chín tới xương.
+    timer:
+      secs: 480
+      label: Hẹn giờ chiên sườn · 08:00
+      doneMsg: Vớt sườn ra ráo dầu — tới nhịp xào rồi!
+  - title: Xào áo sốt — chạy một mạch
+    icon: pot
+    minutes: 6 phút
+    intro: "Từ đây trở đi lửa lớn, tay nhanh, mắt không rời chảo:"
+    bullets:
+      - label: "Phi thơm:"
+        text: cho tỏi + hành tím băm vô chảo còn dầu, phi tới dậy mùi.
+      - label: "Rau củ trước:"
+        text: >-
+          trút **hành tây + thơm** vào đảo **1 phút** — hành tây vừa trong
+          mép là được, đừng để nhũn.
+      - label: "Sườn rồi sốt:"
+        text: >-
+          trút sườn vô đảo đều, rưới chén sốt quanh thành chảo, để sôi bùng
+          rồi đảo liên tục **2–3 phút** cho sốt rút lại.
+      - label: "Ớt chuông chót:"
+        text: >-
+          thả ớt chuông vào **30 giây cuối**, đảo vài cái là tắt bếp — giữ
+          nguyên màu tươi và độ giòn sựt.
+      - text: >-
+          Sốt loãng thì rưới từ từ chỗ bột bắp đã hòa, đảo tới khi **nghiêng
+          chảo thấy sốt chảy chậm và bám áo khúc sườn**.
+  - title: Rắc hành, dọn nóng
+    icon: plate
+    minutes: 1 phút
+    bullets:
+      - text: Rắc **hành lá xắt khúc + chút tiêu xay**, đảo nhẹ tay cho khỏi gãy ớt chuông.
+      - text: >-
+          Trút ra dĩa **ngay khi còn nóng** — để lâu trong chảo là hơi nước
+          làm mềm lớp vỏ giòn, uổng công chiên.
+    doneText: Sườn lên dĩa bóng lưỡng — xong!
+
+tipsTitle: 6 bí quyết cho **dĩa sườn chua ngọt đúng điệu**
+tipsLead: >-
+  Nguyên liệu chợ nào cũng có, ăn thua nhau ở mấy cái "biết" nho nhỏ này —
+  đọc trước khi đi chợ là vừa.
+tips:
+  - icon: meat
+    title: Sườn non dẻ nhỏ, chặt khúc ngắn
+    text: >-
+      Món này khúc **ngắn hơn sườn ram** — cỡ 3–4 cm — vì phải chiên cho
+      chín tới xương trong thời gian ngắn. Dẻ nhỏ dẹt lẫn sụn là ngon nhất;
+      xương to tròn thì chiên xong ngoài giòn trong vẫn dai.
+  - icon: jar
+    title: Bột bắp, đừng bột chiên giòn
+    text: >-
+      Bột bắp cho lớp áo **mỏng và trong**, sốt bám lên vẫn thấy màu thịt.
+      Bột chiên giòn pha sẵn tạo lớp vỏ dày xốp, gặp sốt là **ỉu và bong ra
+      từng mảng**, nhìn lem nhem.
+  - icon: pineapple
+    title: Thơm vừa chín, cắt miếng dày
+    text: >-
+      Thơm chín vàng mà **cầm còn cứng tay** thì vào chảo mới giữ được dáng.
+      Cắt miếng dày cỡ 1 cm — mỏng quá là tan mất trong sốt, chỉ còn lại vị
+      chua mà không còn miếng để gắp.
+  - icon: pepper
+    title: Ớt chuông là thứ vô sau cùng
+    text: >-
+      Đây là lỗi hay gặp nhất: thả ớt chuông cùng lúc với hành tây, xào tới
+      lúc xong thì nó **mềm oặt và xỉn màu**. Ba mươi giây cuối là đủ chín,
+      mà vẫn đỏ tươi, vẫn giòn.
+  - icon: bottle
+    title: Giấm gạo hay nước cốt chanh đều được
+    text: >-
+      Giấm gạo cho vị chua **tròn và đằm**, hợp món xào nóng. Nước cốt chanh
+      chua **sắc và thơm hơn** nhưng vắt vào chảo nóng lâu là đắng — nếu
+      dùng chanh thì vắt vào ở **nhịp cuối**, tắt bếp rồi mới rưới.
+  - icon: clock
+    title: Ăn liền, đừng hâm lại
+    text: >-
+      Khác sườn ram càng để càng thấm, món này **ngon nhất trong mười lăm
+      phút đầu**. Hâm lại thì lớp vỏ giòn đi luôn và ớt chuông ngả màu. Nấu
+      vừa đủ ăn một bữa là hơn.
+
+serve:
+  title: Dọn mâm — **dĩa màu rực rỡ nhất bàn**
+  paras:
+    - >-
+      Trút sườn ra dĩa cạn lòng, dàn cho miếng ớt chuông đỏ xanh nổi lên
+      trên mặt. Đây là món **ăn bằng mắt trước**: cả mâm cơm thường một màu
+      nâu vàng, tự nhiên có dĩa đỏ cam bóng lưỡng đặt giữa là bữa cơm vui
+      hẳn lên.
+    - >-
+      Chan muỗng sốt vô chén cơm nóng trước đã — hạt cơm áo lớp chua ngọt,
+      lùa với miếng thơm là hết chén hồi nào không hay. Nhà có con nít thì
+      đây là **món dụ cơm hạng nhất**: gắp cho bé mấy khúc nhiều sụn với vài
+      miếng thơm, khỏi cần dỗ.
+    - >-
+      Mâm cơm cân vị: dĩa sườn chua ngọt đậm màu đặt cạnh **tô canh sườn bí
+      đao** nước trong, thêm dĩa **rau muống xào tỏi** xanh mướt — một đậm
+      một nhạt, mắt nhìn cũng đã.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Đủ bộ này là bữa cơm nhà đúng nghĩa:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng hổi** — món này hao cơm, đong dư chút."
+      - icon: bowl
+        text: "**Canh sườn bí đao** — nước trong ngọt nhẹ, cân lại vị chua ngọt đậm."
+      - icon: lettuce
+        text: "**Rau muống xào tỏi** — xanh mướt, đỡ ngán cho cả mâm."
+      - icon: lime
+        text: "**Dưa leo xắt lát** — tươi mát, khỏi nấu nướng gì thêm."
+
+faq:
+  - q: Món này khác sườn ram mặn ngọt chỗ nào?
+    a: >-
+      Khác từ gốc. **Sườn ram** không chiên, không giấm — rim thẳng với nước
+      màu và mắm cho tới khi keo, vị mặn đằm dẫn trước, thấm sâu vô thớ
+      thịt. **Sườn xào chua ngọt** thì chiên sơ trước rồi mới áo sốt, nên
+      rìa giòn, sốt nằm ngoài, và **chua là vị dẫn dàn**. Thèm đậm đà cơm
+      nhà thì ram, thèm rực rỡ bắt mắt thì xào chua ngọt.
+  - q: Không chiên sườn được không, xào thẳng thôi?
+    a: >-
+      Được, nhanh hơn cỡ 10 phút — nhưng ra **món khác**: sườn mềm hẳn,
+      không có rìa giòn, sốt thấm vô thịt nhiều hơn. Nếu bỏ bước chiên thì
+      nhớ **xào sườn cho săn vàng mặt** rồi châm chút nước, đậy nắp om
+      **15 phút** cho mềm, xong mới rưới sốt.
+  - q: Thay thơm bằng gì nếu nhà không có?
+    a: >-
+      **Cà chua bổ múi** là thay dễ nhất — chua sẵn, chỉ cần bớt giấm đi
+      nửa muỗng. Hoặc dùng **xoài xanh** cắt miếng cho chua sắc kiểu khác.
+      Còn nếu bỏ hẳn phần trái cây thì tăng tương cà lên **3 muỗng canh**
+      cho đủ độ chua nền.
+  - q: Sốt bị loãng, chan lênh láng dĩa thì cứu sao?
+    a: >-
+      Hòa **1 muỗng cà phê bột bắp với 2 muỗng canh nước**, rưới từ từ vào
+      chảo đang sôi, đảo đều — sốt sánh lại trong vòng nửa phút. Đừng đổ
+      bột khô thẳng vô chảo, vón cục ngay. Lần sau nhớ để rau củ ráo nước
+      trước khi xào.
+  - q: Nấu sẵn cho bữa trưa mang đi làm được không?
+    a: >-
+      Được, nhưng chấp nhận **mất phần vỏ giòn**. Mẹo: chiên sườn sẵn từ
+      tối, cất ngăn mát; sáng ra mới bắc chảo xào sốt trong **5 phút** là
+      xong. Đừng để sườn ngâm trong sốt qua đêm — sáng ra lớp bột nở ra,
+      ăn bở.
+  - q: Nhà có con nít nhỏ thì chỉnh sao?
+    a: >-
+      Món này vốn hợp tụi nhỏ rồi. Chỉ cần **bớt tiêu, khỏi bỏ ớt**, và
+      giảm giấm xuống còn **2 muỗng canh** cho vị chua dịu lại. Ớt chuông
+      thì cắt miếng nhỏ hơn, còn sườn thì lựa khúc nhiều sụn gỡ bớt xương
+      cho bé.
+
+ticker:
+  - icon: drop
+    text: Sốt đỏ cam bóng lưỡng
+  - icon: bottle
+    text: Chua trước ngọt sau
+  - icon: pineapple
+    text: Thơm vàng ngọt lịm
+  - icon: pepper
+    text: Ớt chuông giòn sựt
+  - icon: flame
+    text: Rìa sườn giòn nhẹ
+  - icon: rice
+    text: Món dụ cơm hạng nhất

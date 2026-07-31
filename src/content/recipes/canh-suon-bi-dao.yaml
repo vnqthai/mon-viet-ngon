@@ -1,0 +1,310 @@
+title: Canh sườn bí đao **nước trong veo, ngọt mà nhẹ**
+summary: >-
+  Nước canh trong tới mức nhìn thấy đáy tô, ngọt sâu từ sườn ninh; miếng bí
+  đao **mềm mướt, trong như ngọc** mà vẫn giữ nguyên dáng. Tô canh mát miệng
+  nhất mâm cơm ngày oi — nấu nhanh, nêm nhạt, ăn hoài không ngán.
+region: Cả nước
+category: Canh
+occasions: [Cơm nhà]
+pubDate: 2026-07-30
+time:
+  total: 45 phút
+  active: 12 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 65
+art: canh-suon-bi-dao
+heroEyebrow: Ngày oi bức, mâm cơm cần một tô nhẹ…
+
+quick:
+  ingredients:
+    - Sườn non [[500|g]] — chặt khúc 4 cm, chần sơ cho nước trong
+    - Bí đao [[600|g]] — gọt vỏ, bỏ ruột nếu trái già, cắt miếng dày 1,5 cm
+    - Tôm khô [[20|g]] (tùy chọn) — ngâm mềm, cho nước ngọt đậm thêm một tầng
+    - Hành tím [[2|củ]] · hành lá + ngò rí [[1|nắm]]
+    - "Nêm: nước mắm [[1.5|muỗng canh|frac]] · hạt nêm, muối, tiêu · nước [[1.8|lít]]"
+  steps:
+    - Sườn chần sơ với gừng – hành đập, rửa lại cho sạch bọt.
+    - Ninh sườn với [[1.8|lít]] nước **30 phút** lửa liu riu, hớt bọt kỹ. Có tôm khô thì thả cùng.
+    - Bí đao gọt vỏ, cắt miếng **dày 1,5 cm** — mỏng quá là tan mất.
+    - Thả bí vào, nấu **7–10 phút** tới khi miếng bí **chuyển trong** là được.
+    - Nêm nhạt tay, tắt bếp, rắc hành lá + ngò + tiêu.
+  warning: >-
+    Bí đao chín **nhanh hơn tưởng tượng rất nhiều** — quá 12 phút là nhũn
+    rồi rã ra thành nước đục. Thấy miếng bí vừa chuyển từ trắng đục sang
+    **trong** là tắt bếp ngay.
+
+flavor:
+  chua: 0
+  ngot: 6.5
+  man: 4.5
+  cay: 0.5
+  thom: 5
+flavorNote: >-
+  **Chuẩn tô canh bí đao:** nước **trong tới mức nhìn rõ khúc sườn dưới
+  đáy**, vị ngọt đến từ xương chứ không từ bột nêm — nêm phải nhạt hơn mọi
+  món canh khác. Miếng bí **trong veo, mềm mướt mà còn nguyên khối**.
+storyEyebrow: Chuyện tô canh ngày oi
+storyTitle: Tô canh **nêm nhạt nhất mâm**, và đó là chủ ý
+
+story:
+  - >-
+    Trong nhà bí đao là thứ rau củ hiền nhất: không mùi mạnh, không màu nổi,
+    vị nhạt gần như trung tính. Chính vì vậy mà nó **để cho nước xương lên
+    tiếng**. Nấu canh bí đao với sườn là kiểu nấu ăn tối giản — hai nguyên
+    liệu, không gia vị màu mè, cả tô chỉ có một việc phải làm cho đúng là
+    **giữ nước cho trong và nêm cho nhạt**.
+  - >-
+    Nói "nêm nhạt" nghe dễ mà nhiều người không quen tay. Ta hay có phản xạ
+    nêm cho tô canh "đậm đà" như món mặn — làm vậy với bí đao là **giết
+    chết món**: vị mặn phủ lên hết, còn miếng bí thì chẳng còn gì để nói.
+    Nêm đúng là nhạt hơn khẩu vị thường một bậc, đủ để tôn cái ngọt của
+    xương, rồi thôi.
+  - >-
+    Miếng bí nấu đạt có một dấu hiệu rất dễ nhìn: nó **chuyển từ trắng đục
+    sang trong**, gần như trong suốt, mà cạnh miếng vẫn sắc nét. Đó là
+    khoảnh khắc phải tắt bếp. Chậm thêm ba phút thôi là cạnh miếng bắt đầu
+    tròn đi, rồi nhũn, rồi rã — và nước canh đang trong veo bỗng đục lờ.
+
+ingredientGroups:
+  - name: Nguyên liệu chính
+    icon: basket
+    items:
+      - id: suon
+        name: Sườn non
+        icon: meat
+        base: 500
+        unit: g
+        note: Dẻ nhỏ dẹt có sụn, chặt khúc 4 cm
+      - id: bidao
+        name: Bí đao
+        icon: pumpkin
+        color: green
+        base: 600
+        unit: g
+        note: Trái phủ lớp phấn trắng, cầm nặng tay, vỏ chưa cứng — non và mướt
+      - id: tomkho
+        name: Tôm khô
+        icon: shrimp
+        color: red
+        base: 20
+        unit: g
+        note: Tùy chọn — ngâm nước ấm 15 phút, thả cùng lúc ninh sườn
+      - id: chansuon
+        name: Gừng + hành tím chần sườn
+        icon: ginger
+        color: gold
+        qtyText: 3 lát gừng · 1 củ hành
+        note: Đập giập thả nồi nước chần, khử mùi
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: 1 củ chần sườn, 1 củ phi thơm rưới vào cuối
+      - id: hanhngo
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Xắt nhỏ, rắc lúc tắt bếp
+  - name: Gia vị
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: Nêm ở nhịp cuối — và nêm nhạt hơn thói quen một bậc
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Hạt nêm · muối · tiêu · dầu ăn
+        note: Dùng dè tay, cả món dựa vào vị ngọt của xương
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **tô canh trong veo**
+stepsLead: >-
+  Ba mươi phút ninh sườn là lúc rảnh, gọt bí lúc nào cũng kịp. Nhịp cần chú
+  ý duy nhất là mười phút cuối — thả bí vào rồi thì đứng gần nồi mà canh.
+steps:
+  - title: Chần sườn cho nước trong
+    icon: knife
+    minutes: 8 phút
+    bullets:
+      - text: Sườn rửa nước muối loãng, chặt khúc **4 cm**, để ráo.
+      - label: "Chần sơ:"
+        text: >-
+          nước sôi thả **gừng đập + hành tím**, cho sườn vào chần **2–3
+          phút**, đổ bỏ nước rồi **rửa lại dưới vòi nước lạnh**.
+      - text: Có dùng tôm khô thì ngâm nước ấm **15 phút** cho mềm, giữ lại nước ngâm.
+    callout:
+      type: tip
+      text: >-
+        Món này **sống chết ở chữ "trong"** — bí đao vốn không có màu gì để
+        che, nước đục là nhìn thấy ngay. Đừng bỏ bước chần.
+  - title: Ninh sườn liu riu
+    icon: pot
+    minutes: 30 phút
+    bullets:
+      - text: >-
+          Cho sườn vào **[[1.8|lít]] nước lạnh** + ½ muỗng cà phê muối, đun
+          sôi rồi hạ **lửa nhỏ liu riu**, hé nắp, ninh **30 phút**.
+      - text: >-
+          Có tôm khô thì thả vào cùng lúc này (kèm cả nước ngâm đã gạn) —
+          nước ngọt thêm hẳn một tầng.
+      - text: Mười phút đầu ngồi cạnh **hớt bọt** cho kỹ.
+      - label: "Trong lúc chờ:"
+        text: >-
+          gọt vỏ bí đao, nạo bỏ ruột nếu là trái già, cắt miếng **dày 1,5
+          cm** — hoặc cắt khoanh, hoặc bổ dọc rồi cắt lát vát cho đẹp.
+    timer:
+      secs: 1800
+      label: Hẹn giờ ninh sườn · 30:00
+      doneMsg: Sườn mềm rồi — tới nhịp thả bí, đứng gần nồi nghen!
+  - title: Thả bí — canh cho đúng phút
+    icon: pumpkin
+    minutes: 10 phút
+    intro: "Cả tô canh ăn thua ở mười phút này:"
+    bullets:
+      - text: Thả bí vào nồi đang sôi nhẹ, **lửa vừa, không đậy nắp**.
+      - label: "Nhìn màu miếng bí:"
+        text: >-
+          nấu **7–10 phút** cho tới khi miếng bí **chuyển từ trắng đục sang
+          trong**, cạnh vẫn còn sắc nét. Đó là lúc tắt bếp.
+      - text: >-
+          Nêm [[1.5|muỗng canh|frac]] nước mắm + ½ muỗng cà phê hạt nêm.
+          Nếm rồi **dừng lại sớm** — nhạt hơn thói quen một bậc mới đúng.
+      - text: Đừng khuấy nhiều tay, cứ để yên miếng bí trong nồi.
+    callout:
+      type: warn
+      text: >-
+        Bí đao mềm nhanh hơn mọi thứ rau củ khác trong nhà. Quá **12 phút**
+        là cạnh miếng tròn đi và bắt đầu rã, kéo theo nước đục lờ — công
+        ninh sườn 30 phút cho trong coi như bỏ.
+    timer:
+      secs: 480
+      label: Hẹn giờ nấu bí · 08:00
+      doneMsg: Nhìn miếng bí — trong rồi thì tắt bếp liền!
+  - title: Rắc hành ngò, dọn mâm
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Phi thơm 1 củ hành tím băm với chút dầu, rưới lên mặt nồi cho dậy
+          mùi.
+      - text: Tắt bếp, rắc **hành lá + ngò rí + chút tiêu xay**.
+      - text: Múc ra tô, ăn nóng với cơm.
+    doneText: Múc canh ra tô — xong!
+
+tipsTitle: 5 bí quyết cho **tô canh bí đao trong veo**
+tips:
+  - icon: pumpkin
+    title: Chọn trái phủ phấn trắng
+    text: >-
+      Bí đao ngon là trái **phủ lớp phấn trắng như sương**, vỏ còn mềm, cầm
+      nặng tay. Loại đó ruột non, hột nhỏ, nấu lên mềm mướt và trong. Trái
+      vỏ cứng bóng, gõ nghe rỗng thì già rồi — ruột xốp, hột to, nấu lên
+      xơ và nhạt.
+  - icon: knife
+    title: Cắt dày 1,5 cm, đừng thái mỏng
+    text: >-
+      Đây là lỗi hay gặp nhất. Thái mỏng cho "nhanh chín" thì miếng bí
+      **tan biến trong nồi** trước cả khi kịp ngấm nước xương — tô canh chỉ
+      còn nước đục mà không còn gì để gắp. Dày 1,5 cm là vừa: chín trong 8
+      phút mà vẫn nguyên khối.
+  - icon: shrimp
+    title: Nắm tôm khô đổi hẳn tầng vị
+    text: >-
+      Không bắt buộc, nhưng thả nắm tôm khô vào ninh cùng sườn thì nước
+      canh ngọt sâu thêm một tầng, mùi cũng thơm hơn. **Giữ lại nước ngâm
+      tôm** gạn trong mà đổ vào nồi — bỏ đi là phí nửa cái ngọt.
+  - icon: spoon
+    title: Nêm nhạt hơn thói quen một bậc
+    text: >-
+      Bí đao gần như không có vị riêng, nên nó **phản chiếu đúng thứ mình
+      nêm vào**. Nêm đậm là cả tô chỉ còn vị mắm. Cứ nếm rồi dừng sớm hơn
+      cảm giác — ăn với cơm là vừa, mà nếu nhạt quá thật thì thêm ở chén
+      cũng được.
+  - icon: clock
+    title: Không để qua bữa
+    text: >-
+      Khác canh khoai tây, tô canh bí đao **không để dành được**. Miếng bí
+      ngâm trong nước nóng tiếp tục mềm ra, sáng hôm sau là nhũn hết. Nấu
+      vừa đủ một bữa; nếu lỡ dư thì **vớt riêng bí ra** khỏi nước ngay khi
+      nguội.
+
+serve:
+  title: Tô canh **cân lại cả mâm cơm**
+  paras:
+    - >-
+      Đây là tô canh sinh ra để đứng cạnh món mặn đậm. Mâm có **sườn xào
+      chua ngọt** rực rỡ, **thịt kho hột vịt** đậm đà hay **cá kho tộ** mặn
+      mòi thì tô bí đao trong veo này là chỗ để cái miệng nghỉ ngơi — húp
+      một thìa là thấy **mát miệng**, rồi lại gắp món mặn tiếp được.
+    - >-
+      Ngày oi bức không muốn ăn gì nhiều thì chỉ cần tô canh này với chén
+      cơm trắng và dĩa **cà pháo mắm tôm** cũng thành bữa. Miếng bí mềm
+      mướt, nước ngọt nhẹ, ăn xong không thấy nặng nề — đó là lý do món này
+      có mặt trên mâm cơm Việt quanh năm.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Ghép với món mặn càng đậm càng hợp:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — nền của mọi bữa cơm nhà."
+      - icon: meat
+        text: "**Sườn xào chua ngọt** — đậm và rực rỡ, cân đúng với tô canh nhạt."
+      - icon: claypot
+        text: "**Cá kho tộ** — mặn mòi, cặp mâm kinh điển với canh bí đao."
+      - icon: lettuce
+        text: "**Dưa leo hoặc cà pháo** — giòn mát, khỏi nấu thêm gì."
+
+faq:
+  - q: Bí đao khác bí xanh, bí đao chanh chỗ nào?
+    a: >-
+      **Bí đao và bí xanh là một thứ**, chỉ khác cách gọi theo vùng — trong
+      Nam quen gọi bí đao, ngoài Bắc hay gọi bí xanh. Còn **bí đao chanh**
+      là giống trái tròn ngắn, vỏ xanh nhạt, ruột đặc hơn — nấu canh cũng
+      ngon, chỉ hơi lâu mềm hơn chút, cứ cộng thêm 2–3 phút.
+  - q: Có cần bỏ ruột bí không?
+    a: >-
+      Trái **non thì để nguyên ruột**, ăn mềm và ngọt. Trái **già thì phải
+      nạo bỏ** — ruột xốp, hột cứng, nấu lên rời ra lều phều trong nước
+      trông rất kém. Nhìn mặt cắt là biết: ruột còn đặc và trắng thì giữ,
+      ruột đã xốp và ngả vàng thì bỏ.
+  - q: Nấu bí đao với gì khác ngoài sườn được không?
+    a: >-
+      Được nhiều. **Tôm tươi bóc vỏ** (nấu rất nhanh, thả cùng lúc với bí),
+      **thịt bằm** (xào săn trước rồi mới châm nước), hay **tôm khô không**
+      cũng thành một nồi canh nhẹ nhàng. Sườn thì cho nước ngọt sâu nhất,
+      nhưng cũng là lâu nhất — tùy hôm đó có bao nhiêu thời gian.
+  - q: Nên nấu canh sườn bí đao hay canh sườn khoai tây cà rốt?
+    a: >-
+      **Bí đao** nhẹ, nước trong, hợp ngày oi và hợp khi mâm đã nhiều món
+      dầu mỡ. **Khoai tây cà rốt** ngọt bùi, đặc đà, no bụng hơn, hợp mâm có
+      con nít. Cách ninh sườn y hệt nhau, chỉ đổi thứ thả vào cuối — nên
+      biết nấu món này là biết luôn món kia.
+  - q: Nước canh bị nhạt quá thì làm sao?
+    a: >-
+      Đừng vội thêm mắm — thử **thêm ½ muỗng cà phê muối** trước, muối làm
+      nổi vị ngọt của xương mà không đem mùi lạ vào. Nếu vẫn thiếu thì mới
+      nêm thêm nước mắm từng nửa muỗng. Còn nhạt vì **ninh chưa đủ lâu** thì
+      lần sau ninh sườn thêm 10 phút, hoặc thêm nắm tôm khô.
+
+ticker:
+  - icon: drop
+    text: Nước trong thấy đáy tô
+  - icon: pumpkin
+    text: Miếng bí trong như ngọc
+  - icon: meat
+    text: Ngọt sâu vị xương
+  - icon: spoon
+    text: Nêm nhạt hơn một bậc
+  - icon: clock
+    text: Bí chín trong 8 phút

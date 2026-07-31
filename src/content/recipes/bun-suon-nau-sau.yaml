@@ -1,0 +1,384 @@
+title: Bún sườn nấu sấu **chua thanh mát miệng, nước trong veo**
+summary: >-
+  Tô bún nước trong nhìn thấy đáy, chua dịu từ **quả sấu** — thứ quả tròn
+  nhỏ vỏ xanh của mùa hè miền Bắc — chua thanh chứ không gắt như chanh.
+  Khúc sườn ninh mềm rời xương, cà chua đỏ au, rắc hành mùi thơm nức.
+region: Miền Bắc
+category: Món nước
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-30
+time:
+  total: 1 giờ 15 phút
+  active: 25 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 16
+art: bun-suon-sau
+heroEyebrow: Ngày oi bức thèm một tô chua…
+
+quick:
+  ingredients:
+    - Sườn non [[700|g]] — chặt khúc 4 cm, chần sơ cho nước dùng trong
+    - Sấu tươi [[8|quả]] — cạo vỏ, khía nhẹ quanh thân
+    - Cà chua [[4|trái]] · hành tím [[3|củ]] · hành lá + mùi tàu [[1|nắm]]
+    - Bún rối [[800|g]] · rau sống ăn kèm tùy nhà
+    - "Nêm: nước mắm [[2|muỗng canh|frac]] · muối, hạt nêm · nước [[2.5|lít]]"
+  steps:
+    - Sườn chần sơ với gừng – hành đập, rửa sạch — đây là gốc của nồi nước trong.
+    - Ninh sườn với [[2.5|lít]] nước **45 phút** lửa nhỏ, **hớt bọt đều tay**.
+    - Sấu cạo vỏ, khía quanh thân, thả vào nồi **10 phút** cho ra chua.
+    - Vớt sấu ra chén, **dầm nát rồi lọc lấy nước chua** trả về nồi — bỏ hột và xác.
+    - Cà chua bổ múi xào sơ với hành phi cho lên màu, trút vào nồi, nêm nếm.
+    - Chan lên tô bún, xếp sườn, rắc hành lá + mùi tàu. Ăn nóng.
+  warning: >-
+    Đừng dầm sấu ngay trong nồi — **xác sấu và hột làm nước đục ngầu** và
+    chua gắt không gỡ lại được. Vớt ra chén dầm riêng rồi lọc, luôn luôn.
+
+flavor:
+  chua: 6
+  ngot: 5
+  man: 5
+  cay: 0.5
+  thom: 6
+flavorNote: >-
+  **Chuẩn tô bún sườn sấu:** nước dùng **trong tới mức nhìn thấy sợi bún
+  dưới đáy**, chua dịu ở đầu lưỡi rồi tan đi chứ không đọng gắt, hậu ngọt
+  từ xương. Miếng sườn mềm rời xương mà **không bã**.
+storyEyebrow: Chuyện tô bún mùa hè
+storyTitle: Mùa sấu về, **cả Hà Nội đổi vị**
+
+story:
+  - >-
+    Ngoài Bắc có một thứ quả mà hễ thấy bày ở chợ là biết hè đã tới: **quả
+    sấu**. Tròn nhỏ bằng đầu ngón tay cái, vỏ xanh sần, chua thanh một kiểu
+    rất riêng — không sắc như chanh, không đằm như me, mà chua xong thì
+    **tan đi nhẹ nhõm**. Bún sườn nấu sấu là món ăn theo mùa đúng nghĩa:
+    hết mùa sấu là hết món, ai thèm thì đợi năm sau.
+  - >-
+    Cái khéo của tô bún này nằm ở chỗ **chua mà nước vẫn phải trong**. Đây
+    là hai thứ hay đá nhau: nấu chua thì dễ đục. Người nấu quen tay xử lý
+    bằng ba nhịp rất cụ thể — chần sườn trước khi ninh, hớt bọt đều tay, và
+    **vớt sấu ra dầm riêng rồi lọc** thay vì dầm thẳng trong nồi.
+  - >-
+    Món này cũng là cách hay nhất để hiểu chữ **"thanh"** trong bếp Bắc.
+    Không nước màu, không sả ớt, không mắm ruốc — chỉ sườn, sấu, cà chua và
+    hành mùi. Ít thứ tới mức không giấu được lỗi nào, nên nấu ngon một tô
+    bún sườn sấu khó hơn vẻ ngoài giản dị của nó.
+
+ingredientGroups:
+  - name: Nước dùng
+    icon: pot
+    items:
+      - id: suon
+        name: Sườn non
+        icon: meat
+        base: 700
+        unit: g
+        note: Dẻ nhỏ có sụn, chặt khúc 4 cm — vừa ngọt nước vừa còn miếng để gắp
+      - id: sau
+        name: Sấu tươi
+        icon: pod
+        color: green
+        base: 8
+        unit: quả
+        note: Quả già vỏ hơi sần thì chua đậm; quả non chua nhạt, phải thêm quả
+      - id: cachua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 4
+        unit: trái
+        note: Chín đỏ, bổ múi cau — cho màu và vị chua nền
+      - id: chansuon
+        name: Gừng + hành tím chần sườn
+        icon: ginger
+        color: gold
+        qtyText: 3 lát gừng · 1 củ hành
+        note: Đập giập thả nồi nước chần, khử mùi
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 3
+        unit: củ
+        note: 1 củ chần sườn, 2 củ băm phi thơm xào cà chua
+  - name: Rau thơm & bún
+    icon: herb
+    items:
+      - id: hanhmui
+        name: Hành lá + mùi tàu
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Xắt nhỏ rắc lên tô — mùi tàu là nét rất Bắc của món này
+      - id: bun
+        name: Bún rối
+        icon: noodle
+        base: 800
+        unit: g
+        note: Sợi nhỏ, chần lại nước sôi cho nóng trước khi chan
+      - id: rausong
+        name: Rau sống ăn kèm
+        icon: lettuce
+        color: green
+        qtyText: 1 dĩa
+        note: Xà lách, tía tô, kinh giới — tùy nhà, không có cũng không sao
+  - name: Gia vị
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Nêm ở nhịp cuối cho thơm
+      - id: giavi
+        name: Gia vị cơ bản
+        icon: jar
+        qtyText: Muối · hạt nêm · dầu ăn
+        note: Nêm nhạt tay, để vị chua và ngọt xương dẫn dàn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi nước chua mà trong veo**
+stepsLead: >-
+  Ninh sườn chiếm gần hết thời gian mà lại là lúc rảnh tay nhất — trong 45
+  phút đó cứ thong thả cạo sấu, bổ cà chua, nhặt rau. Nhịp bận rộn chỉ dồn
+  vào mươi phút cuối.
+steps:
+  - title: Chần sườn — gốc của nước trong
+    icon: knife
+    minutes: 10 phút
+    intro: "Bỏ bước này là chấp nhận nồi nước đục, không cứu được về sau:"
+    bullets:
+      - label: "Rửa & chặt:"
+        text: >-
+          sườn rửa nước muối loãng, để ráo, chặt khúc **4 cm** (nhờ hàng
+          thịt chặt sẵn cho đều tay).
+      - label: "Chần sơ:"
+        text: >-
+          nấu nồi nước sôi với **gừng đập + hành tím**, thả sườn chần **2–3
+          phút** cho bọt bẩn nổi hết, đổ bỏ nước đó rồi **rửa lại sườn dưới
+          vòi nước lạnh**.
+    callout:
+      type: tip
+      text: >-
+        Rửa lại bằng nước lạnh sau khi chần là chi tiết nhỏ mà hiệu quả —
+        trôi sạch bọt bám ngoài khúc sườn, nồi ninh về sau gần như không
+        phải hớt.
+  - title: Ninh sườn, hớt bọt đều tay
+    icon: pot
+    minutes: 45 phút
+    bullets:
+      - text: >-
+          Cho sườn vào nồi với **[[2.5|lít]] nước lạnh** và ½ muỗng cà phê
+          muối, đun sôi rồi **hạ lửa nhỏ liu riu**.
+      - text: >-
+          Ninh **45 phút**, mười phút đầu ngồi cạnh **hớt bọt** cho kỹ. Hé
+          nắp chứ đừng đậy kín.
+      - label: "Đúng độ:"
+        text: >-
+          xiên đũa vào khúc sườn thấy qua dễ, thịt **bắt đầu rời khỏi xương
+          mà chưa bở** là được.
+    callout:
+      type: warn
+      text: >-
+        **Đun sôi sùng sục là nước đục ngay**, có hớt bọt cỡ nào cũng không
+        trong lại. Nước chỉ được lăn tăn ở mép nồi — đó là "liu riu".
+    timer:
+      secs: 2700
+      label: Hẹn giờ ninh sườn · 45:00
+      doneMsg: Sườn mềm chưa? Tới lượt quả sấu rồi!
+  - title: Sấu vào nồi — rồi vớt ra dầm riêng
+    icon: pod
+    minutes: 12 phút
+    intro: "Đây là bước quyết định món, làm chậm và đúng thứ tự:"
+    bullets:
+      - label: "Sơ chế sấu:"
+        text: >-
+          cạo sạch lớp vỏ xanh mỏng bên ngoài, rửa lại. Lấy dao **khía vài
+          đường quanh thân quả** cho chua ra nhanh và đều.
+      - label: "Thả vào nồi:"
+        text: >-
+          thả **[[8|quả]] sấu** vào nồi nước đang liu riu, nấu **10 phút**
+          tới khi quả mềm, ấn nhẹ thấy nứt ra.
+      - label: "Vớt ra dầm:"
+        text: >-
+          vớt hết sấu ra chén, **dầm nát bằng thìa**, chan một muôi nước
+          dùng vào chén rồi **lọc qua rây** trả nước chua về nồi. Hột và
+          xác thì bỏ.
+      - text: >-
+          Nếm thử. Chua chưa tới thì dầm thêm quả, chua quá thì châm thêm
+          nước sôi — **chỉnh ở bước này, đừng đợi lúc chan tô**.
+    callout:
+      type: warn
+      text: >-
+        Dầm sấu thẳng trong nồi là lỗi phổ biến nhất: **xác quả tan ra làm
+        nước đục ngầu**, hột lẫn vào tô, mà độ chua thì vọt lên không kiểm
+        soát nổi. Mất thêm hai phút vớt ra dầm riêng, đổi lấy cả nồi nước
+        trong.
+    timer:
+      secs: 600
+      label: Hẹn giờ nấu sấu · 10:00
+      doneMsg: Vớt sấu ra dầm — nhớ lọc rồi mới trả vô nồi!
+  - title: Cà chua xào lên màu, nêm nếm
+    icon: tomato
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Phi thơm **2 củ hành tím băm** với 1 muỗng canh dầu, cho **cà chua
+          bổ múi** vào xào **2 phút** cho mềm mép và ra màu đỏ au.
+      - text: >-
+          Trút cả chảo cà chua vào nồi, đun thêm **5 phút** cho màu tan đều
+          vào nước dùng.
+      - text: >-
+          Nêm [[2|muỗng canh|frac]] nước mắm + 1 muỗng cà phê hạt nêm, nếm
+          lại cho **vừa miệng mà vẫn nhạt hơn khẩu vị một chút** — lát chan
+          lên bún là vừa.
+    callout:
+      type: tip
+      text: >-
+        Xào cà chua riêng rồi mới trút vào cho **màu đẹp và trong**; thả cà
+        chua sống thẳng vào nồi thì miếng nát ra, nước ngả đục mà màu lại
+        nhợt.
+  - title: Chan tô, rắc hành mùi
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: Bún rối chần qua nước sôi cho nóng, để ráo rồi cho vào tô.
+      - text: >-
+          Xếp **2–3 khúc sườn** lên mặt, gắp mấy múi cà chua, chan nước dùng
+          **thật nóng** ngập bún.
+      - text: >-
+          Rắc **hành lá + mùi tàu xắt nhỏ**, thêm chút tiêu. Dọn kèm dĩa rau
+          sống và chén nước mắm ớt cho ai thích đậm.
+    doneText: Tô bún nóng lên bàn — xong!
+
+tipsTitle: 6 bí quyết cho **tô bún sườn sấu chuẩn vị**
+tipsLead: >-
+  Món ít nguyên liệu nên không giấu được lỗi nào — mấy điều dưới đây là chỗ
+  ăn thua giữa tô "cũng được" và tô "đúng vị".
+tips:
+  - icon: pod
+    title: Chọn sấu — già hay non khác nhau nhiều
+    text: >-
+      Quả **già vỏ hơi sần, cầm chắc tay** thì chua đậm và thơm, dùng 8 quả
+      là đủ cho nồi [[2.5|lít]]. Quả **non vỏ láng bóng** chua nhạt, phải
+      thêm 3–4 quả nữa. Sấu mua về chưa nấu ngay thì cạo vỏ, cấp đông — để
+      được cả năm, nấu thả thẳng vào nồi.
+  - icon: drop
+    title: Không có sấu thì thay bằng gì
+    text: >-
+      Trong Nam khó kiếm sấu tươi. Thay được: **me vắt** (chua đằm hơn, nước
+      hơi ngả nâu), **quả dọc nướng** (rất gần vị sấu, cũng của miền Bắc),
+      hoặc **dứa xanh** cắt miếng nấu cùng. Vắt chanh là **hạ sách** — chua
+      sắc và mất hẳn cái hậu thanh làm nên món.
+  - icon: pot
+    title: Nước lạnh mới ninh được ngọt
+    text: >-
+      Cho sườn vào **nước lạnh rồi mới bật bếp** — chất ngọt trong xương có
+      thời gian tiết dần ra nước. Thả sườn vào nồi nước đang sôi thì mặt
+      ngoài se lại tức thì, nước dùng nhạt mà miếng sườn cũng chẳng mềm hơn.
+  - icon: flame
+    title: "Liu riu nghĩa là: chỉ lăn tăn mép nồi"
+    text: >-
+      Đây là chỗ nhiều người hiểu sai. Nước **sôi lăn tăn ở mép nồi, mặt
+      nước hầu như phẳng** mới là liu riu. Hễ thấy bọt trào lên giữa nồi là
+      lửa còn to — hạ tiếp, không thì nước đục.
+  - icon: herb
+    title: Mùi tàu, đừng thay bằng ngò rí
+    text: >-
+      Mùi tàu (ngò gai) lá dài răng cưa, mùi hắc và sâu, là mùi đặc trưng
+      của tô bún sườn chua ngoài Bắc. Ngò rí thơm nhẹ và thanh — ngon theo
+      kiểu khác, nhưng chan vào tô này thì **mất nét**.
+  - icon: clock
+    title: Nấu dư nước dùng, chan tới đâu chần bún tới đó
+    text: >-
+      Bún ngâm trong nước dùng chỉ vài phút là **nở bở và hút hết nước**,
+      tô để dành sang bữa sau coi như hỏng. Nước dùng thì để nguội cất ngăn
+      mát được **2–3 ngày**, càng để vị chua càng dịu; lúc ăn đun sôi lại,
+      chần mẻ bún mới.
+
+serve:
+  title: Tô bún **chua dịu cho ngày oi**
+  paras:
+    - >-
+      Món này ăn nóng mới đúng, dù trời đang nóng — chua và nóng đi với nhau
+      lại thành ra dễ chịu, húp một thìa nước dùng là thấy **mát miệng**
+      chứ không ngán. Bữa sáng ngày hè ngoài Bắc, một tô bún sườn sấu với
+      dĩa rau sống là đủ nhẹ nhàng cho tới trưa.
+    - >-
+      Gắp khúc sườn ra chén riêng, **chấm chút nước mắm ớt** rồi gặm — thịt
+      ninh 45 phút mềm rời xương, chấm mắm vào là đậm hẳn lên, khác hẳn vị
+      thanh của nước dùng. Nhiều nhà ăn kiểu đó: nước dùng thì thanh, miếng
+      sườn thì đậm, hai vị đổi qua đổi lại cho đỡ chán.
+    - >-
+      Nhà nào thích đầy đặn hơn thì thả thêm **dọc mùng** tước vỏ bóp muối
+      vào nồi ở phút cuối — sợi dọc mùng xốp hút nước dùng, cắn vào nghe
+      rào rạo, là cách ăn quen thuộc của tô bún sườn chua ngoài Bắc.
+  aside:
+    title: Dọn kèm cho đủ bộ
+    intro: "Mấy thứ nên có bên cạnh tô bún:"
+    items:
+      - icon: lettuce
+        text: "**Rau sống** — xà lách, tía tô, kinh giới; ăn tới đâu thả tới đó."
+      - icon: bottle
+        text: "**Chén nước mắm ớt** — để chấm riêng khúc sườn."
+      - icon: stem
+        text: "**Dọc mùng bóp muối** — thả phút cuối, xốp giòn hút nước dùng."
+      - icon: chili
+        text: "**Ớt tươi xắt lát** — tùy người, nước dùng vốn không cay."
+
+faq:
+  - q: Mùa sấu là khi nào, mua ở đâu?
+    a: >-
+      Sấu tươi rộ vào **khoảng tháng 6 tới tháng 8** ngoài Bắc, chợ nào cũng
+      bày. Ngoài mùa thì tìm **sấu đông lạnh** ở hàng đồ khô hoặc siêu thị —
+      chất lượng gần như sấu tươi vì sấu vốn được cấp đông lúc còn xanh.
+      Sấu ngâm đường thì **không dùng được** cho món này, ngọt hết rồi.
+  - q: Sườn ninh 45 phút mà vẫn chưa mềm?
+    a: >-
+      Thường là do **dẻ sườn già** — xương to tròn, thịt dày. Cứ ninh thêm
+      **15–20 phút** nữa, thịt sẽ mềm. Lần sau chọn dẻ **nhỏ và dẹt, lẫn
+      sụn trắng**. Nếu vội thì dùng nồi áp suất: 15 phút là xong, nhưng
+      nước dùng sẽ đục hơn một chút.
+  - q: Nước bị chua quá thì chữa sao?
+    a: >-
+      Châm thêm **nước sôi** rồi nêm lại — cách duy nhất thực sự hiệu quả.
+      Bỏ thêm đường chỉ làm vị chua thành chua ngọt lửng lơ, không còn ra
+      món Bắc nữa. Rút kinh nghiệm: dầm sấu **từng quả một**, nếm sau mỗi
+      quả rồi mới dầm tiếp.
+  - q: Nấu bằng xương ống thay sườn được không?
+    a: >-
+      Nước sẽ ngọt hơn nhưng **mất hẳn miếng sườn để gắp** — mà miếng sườn
+      mềm rời xương là nửa cái thú của món. Nếu muốn nước đậm, cứ dùng
+      **cả hai**: một khúc xương ống ninh cùng, còn sườn non thì giữ nguyên
+      phần chính.
+  - q: Bún sườn sấu khác canh chua trong Nam thế nào?
+    a: >-
+      Cùng là món chua nhưng đi hai hướng. **Canh chua miền Nam** chua từ
+      me hoặc dứa, có bạc hà, đậu bắp, giá, rắc rau om — vị đậm và nhiều
+      tầng, ăn với cơm. **Bún sườn sấu** chua từ sấu, gần như không có rau
+      củ gì ngoài cà chua, **cốt ở nước trong và vị thanh**, và tự nó là
+      một bữa chứ không phải món trong mâm.
+  - q: Ăn thừa để tủ lạnh được không?
+    a: >-
+      Nước dùng và sườn thì để riêng, cất ngăn mát **2–3 ngày**, hâm sôi lại
+      là ăn được — vị chua để qua đêm còn dịu và ngấm hơn. Nhưng **bún thì
+      chần mới**, đừng để bún ngâm trong nước qua đêm.
+
+ticker:
+  - icon: pod
+    text: Quả sấu mùa hè
+  - icon: drop
+    text: Nước trong thấy đáy
+  - icon: bottle
+    text: Chua thanh không gắt
+  - icon: meat
+    text: Sườn mềm rời xương
+  - icon: tomato
+    text: Cà chua đỏ au
+  - icon: herb
+    text: Mùi tàu rắc nóng
