@@ -1,0 +1,212 @@
+---
+/* Bún măng vịt — giữ khuôn tô nhìn chếch (ba hình kia của đợt này đã đổi khung
+   hình rồi, đợt nào cũng phải còn chỗ đứng cho khuôn quen), nhưng RUỘT tô là
+   thứ không hình nào trong họ có.
+
+   CHỮ KÝ nhận dạng, cố ý vẽ lệch hẳn mì vịt tiềm (hình gần nhất — cũng con vịt):
+   1) SỢI MĂNG VÀNG ÓNG nằm TRẢI NGANG kín mặt tô — dáng "lớp sợi dài trải đều"
+      này cả 35 hình họ "Chan & húp" chưa hình nào có. Mì vịt tiềm là ĐÙI VỊT
+      NGUYÊN CÁI nằm úp, khác hẳn.
+      BẢN 1 BỊ THÁI TRẢ LẠI: vun măng thành ĐỐNG CAO MÀU NÂU vượt vành tô —
+      nhìn ra một đống nâu chứ không ra món ăn. Tra lại thành phẩm thật mới thấy
+      sai hai chỗ cùng lúc: măng nấu vịt là **vàng óng** chứ không nâu sẫm, và
+      nó **nằm trải** trên mặt nước cùng miếng vịt chứ không đắp thành gò.
+   2) nước dùng TRONG VÀNG NHẠT, không phải nước NÂU SẬM thảo mộc của mì vịt tiềm
+   3) MIẾNG VỊT CHẶT lộ MẶT CẮT BA TẦNG: da nâu vàng MỎNG · mỡ kem mảnh · thịt
+      nâu đỏ sẫm — và một mẩu xương lòi ra ngoài đường bao (luật đợt 11)
+   4) đạo cụ: CHÉN MẮM GỪNG có gừng giã lấm tấm nổi lên — chén chấm là nửa cái
+      ngon của món, và không món nào trong họ dùng chén màu nâu hổ phách này
+   5) lá MÙI TÀU dài có RĂNG CƯA hai mép, khác hẳn hành ngò thái nhỏ của cả họ
+   id prefix "bmvi" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô bún măng vịt: sợi măng vàng óng dài trải kín mặt tô nước dùng trong, hai miếng vịt luộc thịt xám hồng viền da vàng và mẩu xương lòi ra, rắc lá mùi tàu, bên cạnh là chén nước mắm gừng và củ gừng bổ đôi">
+  <defs>
+    <linearGradient id="bmviBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3E6BC"/><stop offset="1" stop-color="#DBC489"/>
+    </linearGradient>
+    <linearGradient id="bmviBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E2DAC2"/>
+    </linearGradient>
+    <linearGradient id="bmviSauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B5722A"/><stop offset="1" stop-color="#7E4A12"/>
+    </linearGradient>
+
+    <!-- LÁ MÙI TÀU: dải dài thuôn, hai mép RĂNG CƯA, gân giữa rõ -->
+    <g id="bmviMuiTau">
+      <path d="M0 0 L 6 -4 L 12 -1 L 19 -5 L 26 -2 L 33 -6 L 40 -2 L 40 3 L 33 7 L 26 3 L 19 7 L 12 4 L 6 8 L 0 4 Z"
+            fill="#3F7233" stroke="#255020" stroke-width="1.4" stroke-linejoin="round"/>
+      <path d="M2 2 L 38 0.5" fill="none" stroke="#7FB35B" stroke-width="1.3" stroke-linecap="round"/>
+    </g>
+
+    <!-- SỢI MĂNG: dải dẹt hơi cong, mép hơi tưa. Màu VÀNG ÓNG (không phải nâu
+         sẫm như bản 1) — tra lại thành phẩm thật thì măng nấu vịt "vàng óng
+         bắt mắt", nâu sẫm là măng cháy hoặc măng chưa rửa. -->
+    <g id="bmviMang">
+      <path d="M0 0 C 22 -9 52 -11 78 -6 C 84 -5 85 -1 81 1 C 55 7 22 9 3 5 C -1 4 -2 1 0 0 Z"
+            fill="#E8B54A" stroke="#A87C1C" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M7 1 C 28 -5 56 -7 76 -3" fill="none" stroke="#FADD94" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+
+  <g class="steam">
+    <path d="M190 190 C 180 166 204 152 194 126 C 187 110 200 98 196 82"/>
+    <path d="M262 176 C 252 152 276 138 266 112 C 259 96 272 84 268 68"/>
+    <path d="M334 194 C 324 170 348 156 338 130 C 331 114 344 102 340 86"/>
+  </g>
+
+  <ellipse cx="256" cy="422" rx="192" ry="23" fill="rgba(15,26,14,.35)"/>
+
+  <!-- TÔ: thành thẳng và sâu hơn tô của cả họ, chân đế thấp -->
+  <path d="M92 288 C 96 372 168 414 256 414 C 344 414 416 372 420 288 Z" fill="url(#bmviBowl)"/>
+  <ellipse cx="256" cy="412" rx="56" ry="10" fill="#D6CDB2"/>
+  <ellipse cx="256" cy="286" rx="168" ry="42" fill="#F7F2E2"/>
+  <ellipse cx="256" cy="286" rx="168" ry="42" fill="none" stroke="#2C5234" stroke-width="5.4"/>
+  <ellipse cx="256" cy="288" rx="152" ry="35" fill="none" stroke="#E0A32E" stroke-width="2.6" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- NƯỚC DÙNG trong, vàng nhạt -->
+  <ellipse cx="256" cy="290" rx="142" ry="31" fill="url(#bmviBroth)"/>
+  <ellipse cx="196" cy="282" rx="46" ry="8" fill="#F8EFD2" opacity=".55"/>
+  <g fill="#F2DFA8" opacity=".9">
+    <circle cx="134" cy="292" r="2.8"/><circle cx="164" cy="312" r="2.3"/>
+    <circle cx="352" cy="296" r="2.6"/><circle cx="330" cy="316" r="2.2"/>
+  </g>
+
+  <!-- SỢI BÚN trắng dưới đáy, chỉ hé ra ở hai rìa -->
+  <g fill="none" stroke="#FAF4E2" stroke-width="5.6" stroke-linecap="round">
+    <path d="M126 292 C 156 280 190 279 216 287"/>
+    <path d="M300 300 C 330 288 364 287 388 295"/>
+    <path d="M136 310 C 164 300 194 299 218 305"/>
+  </g>
+  <g fill="none" stroke="#CFC2A0" stroke-width="1.5" stroke-linecap="round" opacity=".8">
+    <path d="M128 296 C 158 284 192 283 218 291"/>
+    <path d="M302 304 C 332 292 366 291 390 299"/>
+  </g>
+
+  <!-- SỢI MĂNG: TRẢI NGANG mặt tô, KHÔNG vun thành đống cao.
+       Bản 1 vun thành búi nâu sẫm cao vượt vành tô — Thái trả lại, và đúng:
+       tra lại thì thành phẩm thật là "măng vàng óng bắt mắt", sợi dài NẰM TRẢI
+       trên mặt nước cùng miếng vịt, không phải một đống. Hai chỗ sửa: đổi màu
+       từ nâu sang VÀNG ÓNG, và đổi bố cục từ đống cao sang lớp mỏng nằm ngang. -->
+  <use href="#bmviMang" transform="translate(126 262) rotate(-7) scale(1.02)"/>
+  <use href="#bmviMang" transform="translate(148 242) rotate(-13) scale(1.1)"/>
+  <use href="#bmviMang" transform="translate(206 232) rotate(-3) scale(1.14)"/>
+  <use href="#bmviMang" transform="translate(268 232) rotate(6) scale(1.06)"/>
+  <use href="#bmviMang" transform="translate(140 284) rotate(5) scale(1)"/>
+  <use href="#bmviMang" transform="translate(178 300) rotate(-5) scale(1.1)"/>
+  <use href="#bmviMang" transform="translate(244 306) rotate(8) scale(1.04)"/>
+  <use href="#bmviMang" transform="translate(170 262) rotate(1) scale(1.16)"/>
+  <use href="#bmviMang" transform="translate(232 258) rotate(-8) scale(1.1)"/>
+  <use href="#bmviMang" transform="translate(288 268) rotate(12) scale(.96)"/>
+
+  <!-- MIẾNG VỊT CHẶT: mặt cắt ba tầng, mẩu xương lòi ra ngoài đường bao -->
+  <g transform="translate(172 264) rotate(-10)">
+    <!-- khối thịt: đường bao GỒ GHỀ do chặt tay, không phải khối chữ nhật
+         (bản 1 vẽ vuông vắn + tầng mỡ kem dày = đọc ra CỤC GẠCH có mặt kem) -->
+    <!-- VỊT LUỘC: thịt XÁM HỒNG NHẠT (bản 2 tô nâu đỏ sẫm = đọc ra thịt kho),
+         thớ thịt chạy dọc rõ, DA VÀNG mỏng viền trên, xương lòi ra ngoài -->
+    <path d="M-46 10 C -48 0 -44 -8 -36 -13 C -26 -19 -8 -21 8 -20 C 24 -19 38 -15 44 -8
+             C 49 -2 48 8 42 15 C 34 24 12 27 -8 26 C -28 25 -43 20 -46 10 Z"
+          fill="#D8B896" stroke="#9A7248" stroke-width="2.3" stroke-linejoin="round"/>
+    <g fill="none" stroke="#B99270" stroke-width="1.8" stroke-linecap="round">
+      <path d="M-36 -4 C -20 -8 14 -8 38 -3"/>
+      <path d="M-38 4 C -20 0 16 0 40 5"/>
+      <path d="M-36 12 C -18 8 14 8 38 13"/>
+      <path d="M-30 20 C -14 17 10 17 32 21"/>
+    </g>
+    <!-- vạch MỠ kem MẢNH rồi DA VÀNG mỏng đè lên trên cùng -->
+    <path d="M-38 -12 C -26 -18 -8 -20 8 -19 C 24 -18 36 -14 42 -9
+             C 36 -12 24 -14 8 -15 C -8 -16 -26 -15 -38 -12 Z" fill="#FBF2DA"/>
+    <path d="M-37 -14.5 C -25 -21 -7 -23 9 -22 C 25 -21 37 -16.5 43 -11
+             C 42 -14 39 -17 34 -19.5 C 26 -23.5 8 -26 -6 -25.5 C -22 -25 -33 -20 -37 -14.5 Z"
+          fill="#EFC152" stroke="#B98A22" stroke-width="1.8" stroke-linejoin="round"/>
+    <!-- xương lòi hẳn ra ngoài đường bao -->
+    <path d="M40 16 L 66 27 C 71 29 72 34 68 36 C 63 38 56 35 52 31 L 38 24 Z" fill="#FBF6E6" stroke="#C4B694" stroke-width="2.2" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(336 276) rotate(14) scale(.84)">
+    <path d="M-42 8 C -44 -1 -40 -8 -32 -13 C -22 -19 -6 -20 8 -19 C 22 -18 34 -14 40 -8
+             C 45 -2 44 7 38 13 C 30 21 10 24 -8 23 C -26 22 -39 17 -42 8 Z"
+          fill="#D8B896" stroke="#9A7248" stroke-width="2.6" stroke-linejoin="round"/>
+    <g fill="none" stroke="#B99270" stroke-width="2" stroke-linecap="round">
+      <path d="M-34 -3 C -18 -7 12 -7 34 -2"/>
+      <path d="M-34 6 C -18 2 14 2 36 7"/>
+      <path d="M-30 15 C -14 12 10 12 30 16"/>
+    </g>
+    <path d="M-34 -12 C -22 -18 -6 -19 8 -18 C 22 -17 32 -13 38 -9
+             C 32 -12 22 -13 8 -14 C -6 -15 -22 -14 -34 -12 Z" fill="#FBF2DA"/>
+    <path d="M-33 -14.5 C -21 -21 -5 -22 9 -21 C 23 -20 33 -15.5 39 -10.5
+             C 38 -13.5 35 -16.5 30 -19 C 22 -23 6 -25 -6 -24.5 C -20 -24 -29 -19.5 -33 -14.5 Z"
+          fill="#EFC152" stroke="#B98A22" stroke-width="2"/>
+  </g>
+
+  <!-- LÁ MÙI TÀU rắc lên trên -->
+  <use href="#bmviMuiTau" transform="translate(190 250) rotate(-16)"/>
+  <use href="#bmviMuiTau" transform="translate(262 244) rotate(9) scale(.92)"/>
+  <use href="#bmviMuiTau" transform="translate(296 288) rotate(-6) scale(.86)"/>
+  <use href="#bmviMuiTau" transform="translate(170 300) rotate(14) scale(.8)"/>
+
+  <!-- hành lá cắt khúc, thưa -->
+  <g fill="#4E7B36">
+    <ellipse cx="240" cy="240" rx="6" ry="2.6" transform="rotate(-14 240 240)"/>
+    <ellipse cx="312" cy="286" rx="5.6" ry="2.4" transform="rotate(12 312 286)"/>
+    <ellipse cx="172" cy="292" rx="5.4" ry="2.4" transform="rotate(-8 172 292)"/>
+  </g>
+
+  <!-- ĐẠO CỤ: chén nước mắm gừng, gừng giã lấm tấm nổi lên -->
+  <g transform="translate(422 372)">
+    <ellipse cx="0" cy="34" rx="56" ry="13" fill="rgba(15,26,14,.32)"/>
+    <path d="M-52 -4 C -50 22 -28 36 0 36 C 28 36 50 22 52 -4 Z" fill="#FDFAF0" stroke="#D2C9AC" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-5" rx="52" ry="15" fill="#F5F0DE" stroke="#D2C9AC" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-4" rx="44" ry="11.5" fill="url(#bmviSauce)"/>
+    <!-- gừng và tỏi giã lấm tấm -->
+    <g fill="#F0DFAE" stroke="#C9A65E" stroke-width="1">
+      <ellipse cx="-22" cy="-6" rx="6" ry="3" transform="rotate(-16 -22 -6)"/>
+      <ellipse cx="-4" cy="-8" rx="5" ry="2.6" transform="rotate(10 -4 -8)"/>
+      <ellipse cx="14" cy="-2" rx="5.6" ry="2.8" transform="rotate(-6 14 -2)"/>
+      <ellipse cx="28" cy="-7" rx="4.4" ry="2.4" transform="rotate(18 28 -7)"/>
+      <ellipse cx="2" cy="1" rx="4.8" ry="2.4" transform="rotate(-20 2 1)"/>
+      <ellipse cx="-14" cy="1" rx="4" ry="2.2" transform="rotate(6 -14 1)"/>
+    </g>
+    <g fill="#CE3B22">
+      <ellipse cx="-30" cy="0" rx="4" ry="2" transform="rotate(-10 -30 0)"/>
+      <ellipse cx="22" cy="3" rx="3.6" ry="1.8" transform="rotate(14 22 3)"/>
+      <ellipse cx="8" cy="-11" rx="3.2" ry="1.6" transform="rotate(-6 8 -11)"/>
+    </g>
+    <path d="M-38 -10 C -22 -15 18 -15 36 -10" fill="none" stroke="#FFFDF4" stroke-width="2.4" stroke-linecap="round" opacity=".4"/>
+  </g>
+
+  <!-- ĐẠO CỤ: CỦ GỪNG có nhánh chìa ra, cắt một nhát lộ RUỘT VÀNG NGHỆ, kèm hai
+       lát gừng thái. Bản 1 dùng nhúm bắp chuối bào — ở 260px đọc ra CÁI VỎ SÒ.
+       Củ gừng vừa không thể nhầm, vừa nói thẳng ra chén mắm gừng bên kia khung.
+       Theo luật đợt 13: mặt cắt phải NGỬA LÊN và ruột phải có màu rực. -->
+  <g transform="translate(84 396)">
+    <ellipse cx="6" cy="26" rx="56" ry="12" fill="rgba(15,26,14,.3)"/>
+    <!-- thân củ + hai nhánh chìa lệch, không nhánh nào giống nhánh nào -->
+    <path d="M-38 12 C -44 2 -38 -8 -26 -12 C -16 -15 -6 -12 2 -14
+             C 10 -16 16 -24 26 -24 C 36 -24 42 -17 40 -8
+             C 38 0 30 3 24 3 C 16 3 12 8 16 14 C 20 20 18 26 10 27
+             C -2 29 -14 26 -24 22 C -32 19 -35 17 -38 12 Z"
+          fill="#D9B87A" stroke="#9A7636" stroke-width="2.4" stroke-linejoin="round"/>
+    <g fill="none" stroke="#B08F4E" stroke-width="1.8" stroke-linecap="round">
+      <path d="M-30 2 C -22 -2 -12 -3 -4 -6"/>
+      <path d="M-26 12 C -16 9 -6 8 2 5"/>
+      <path d="M20 -18 C 26 -20 32 -19 36 -15"/>
+    </g>
+    <!-- mặt cắt ngửa lên, ruột vàng nghệ rực -->
+    <path d="M-38 12 C -44 2 -38 -8 -26 -12 C -22 -13.4 -18 -13.6 -14 -13.4
+             C -20 -8 -23 0 -21 8 C -20 13 -17 17 -13 20 C -17 21 -21 22 -24 22
+             C -32 19 -35 17 -38 12 Z" fill="#F2C64E" stroke="#9A7636" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-33 10 C -35 3 -32 -3 -26 -6" fill="none" stroke="#FBE8A4" stroke-width="2" stroke-linecap="round"/>
+    <!-- hai lát gừng thái mỏng nằm cạnh -->
+    <g transform="translate(56 16)">
+      <ellipse cx="0" cy="0" rx="15" ry="10" transform="rotate(-16)" fill="#F0D48E" stroke="#B08F4E" stroke-width="2"/>
+      <ellipse cx="0" cy="0" rx="9" ry="5.6" transform="rotate(-16)" fill="#F8E7B2"/>
+    </g>
+    <g transform="translate(74 4) scale(.82)">
+      <ellipse cx="0" cy="0" rx="15" ry="10" transform="rotate(18)" fill="#E8CA80" stroke="#B08F4E" stroke-width="2.4"/>
+      <ellipse cx="0" cy="0" rx="9" ry="5.6" transform="rotate(18)" fill="#F4E0A8"/>
+    </g>
+  </g>
+</svg>

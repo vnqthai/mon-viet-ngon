@@ -1,0 +1,143 @@
+---
+/* Bún ốc nguội — HAI VẬT ĐẶT CẠNH NHAU, cố ý KHÔNG dùng khuôn "mẹt tròn nhìn
+   từ trên" vì bún đậu mắm tôm đã chiếm khuôn đó trong cùng họ màu xanh.
+
+   CHỮ KÝ nhận dạng:
+   1) BÁT SÀNH NÂU MEN SẪM, TO HẲN — cả họ "Cuốn & trộn" (11 hình) dùng toàn tô
+      dĩa trắng kem; một cái bát nâu sẫm tách ra ngay từ cái liếc đầu.
+      Bản 1 vẽ bát bằng cỡ dĩa bún, Thái chỉnh "bát nên to hơn ít nhất gấp rưỡi"
+      — đúng, vì bát nước mới là thứ chính của món, dĩa bún chỉ là thứ để chấm
+   2) BÚN VẮT CON: ba nắm bún dẹt RỜI NHAU, thấy rõ sợi, xếp trên lá chuối —
+      khác hẳn đống bún rối xới vào tô của bún bò Nam Bộ, bún thịt nướng
+   3) KHÔNG CÓ KHÓI. Đây là chữ ký quan trọng nhất, vì nó tách hình này khỏi
+      bún ốc nóng cùng đợt: một bên bốc khói, một bên nguội hẳn
+   4) VÁNG ỚT CHƯNG đỏ nổi trên mặt bát — thứ đầu tiên người ta thấy của món
+   5) đạo cụ: GAI BƯỞI (que nhọn) gác ngang và THÌA GỖ — hai vật của nếp ăn
+      riêng món này, không hình nào trong họ có
+   id prefix "bocn" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Mâm bún ốc nguội: bát sành nâu to đựng nước ốc nguội nổi váng ớt chưng đỏ và mấy con ốc, bên cạnh là ba miếng bún lá trắng xếp trên lá chuối, có gai bưởi và thìa gỗ">
+  <defs>
+    <linearGradient id="bocnSanh" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#8A5A34"/><stop offset="1" stop-color="#4A2C13"/>
+    </linearGradient>
+    <linearGradient id="bocnNuoc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E6C98E"/><stop offset="1" stop-color="#C7A365"/>
+    </linearGradient>
+    <linearGradient id="bocnLa" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#4E8A38"/><stop offset="1" stop-color="#2E5A20"/>
+    </linearGradient>
+    <linearGradient id="bocnGo" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#C4995E"/><stop offset="1" stop-color="#8E6633"/>
+    </linearGradient>
+
+    <!-- VẮT BÚN CON: nắm bún dẹt hình gối, mặt trên thấy rõ sợi vắt ngang -->
+    <g id="bocnVat">
+      <path d="M-42 8 C -44 -6 -34 -16 -18 -18 C 0 -20 22 -19 36 -14 C 46 -10 48 0 44 8
+               C 40 16 22 20 2 20 C -18 20 -38 17 -42 8 Z"
+            fill="#FBF6E8" stroke="#C9BC98" stroke-width="2.3" stroke-linejoin="round"/>
+      <!-- SỢI BÚN vắt ngang phải thấy rõ, không thì ba nắm trắng trên lá chuối
+           đọc thành BA QUẢ TRỨNG. Nét sẫm hơn hẳn + vài đầu sợi thò khỏi mép. -->
+      <g fill="none" stroke="#BFB18A" stroke-width="2.8" stroke-linecap="round">
+        <path d="M-36 2 C -20 -4 6 -5 28 -1"/>
+        <path d="M-34 10 C -18 5 10 4 34 8"/>
+        <path d="M-26 -8 C -10 -13 12 -13 32 -9"/>
+        <path d="M-30 -14 C -16 -17 6 -18 22 -15"/>
+        <path d="M-24 15 C -8 12 14 12 30 14"/>
+      </g>
+      <g fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity=".9">
+        <path d="M-32 0 C -16 -6 8 -7 26 -3"/>
+        <path d="M-28 8 C -12 3 12 2 30 6"/>
+        <path d="M-22 -10 C -8 -14 12 -15 28 -11"/>
+      </g>
+      <!-- đầu sợi thò hẳn ra ngoài đường bao hai bên -->
+      <g fill="none" stroke="#E4D8B6" stroke-width="2.4" stroke-linecap="round">
+        <path d="M-42 3 l -7 -1.4 M-44 -6 l -7 -1 M-41 11 l -7 1"/>
+        <path d="M44 5 l 7 -1 M46 -3 l 7 -1.4 M43 12 l 7 1"/>
+      </g>
+    </g>
+    <!-- RUỘT ỐC trong bát: PHẢI khai trong <defs>, không thì nó vẽ luôn một
+           bản ở gốc toạ độ và lòi ra góc trái trên khung -->
+      <g id="bocnOcCon">
+      <g fill="#CFC0A4" stroke="#6E5B3E" stroke-width="2.2">
+        <path d="M-16 3 C -18 -7 -10 -16 1 -15 C 12 -14 19 -5 16 5 C 13 13 3 17 -6 15 C -13 13 -16 9 -16 3 Z"/>
+      </g>
+      <path d="M10 -5 C 2 -11 -9 -8 -10 0 C -11 8 -4 12 2 9 C 6 7 6 3 3 2"
+            fill="none" stroke="#4A3A26" stroke-width="3.6" stroke-linecap="round"/>
+      <path d="M-8 -8 C -3 -12 4 -13 9 -11" fill="none" stroke="#F2E9D4" stroke-width="1.8" stroke-linecap="round" opacity=".9"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+
+  <!-- KHÔNG vẽ khói: món ăn nguội, và đó là chỗ tách khỏi bún ốc nóng -->
+
+  
+
+  <!-- LÁ CHUỐI lót, trải sang trái -->
+  <path d="M24 388 C 28 344 72 322 132 322 C 186 322 216 340 220 372
+           C 223 396 186 408 122 410 C 64 411 21 404 24 388 Z"
+        fill="url(#bocnLa)" stroke="#20461A" stroke-width="2.4"/>
+  <path d="M38 384 C 58 356 100 342 150 342 C 186 342 210 350 216 366"
+        fill="none" stroke="#7FB35B" stroke-width="2.2" stroke-linecap="round" opacity=".8"/>
+  <g fill="none" stroke="#3B6B2A" stroke-width="1.4" stroke-linecap="round" opacity=".9">
+    <path d="M52 390 L 60 364"/><path d="M88 396 L 96 360"/><path d="M124 398 L 130 356"/>
+    <path d="M158 396 L 164 356"/><path d="M190 388 L 194 358"/>
+  </g>
+
+  <!-- BA MIẾNG BÚN LÁ xếp rời nhau trên lá chuối — cố ý NHỎ hơn bát nước -->
+  <use href="#bocnVat" transform="translate(86 366) rotate(-7) scale(.72)"/>
+  <use href="#bocnVat" transform="translate(152 354) rotate(5) scale(.68)"/>
+  <use href="#bocnVat" transform="translate(122 392) rotate(-2) scale(.64)"/>
+
+  <!-- BÁT SÀNH NÂU: men sẫm, dáng thấp và loe, khác hẳn tô trắng của cả họ -->
+  <ellipse cx="342" cy="392" rx="152" ry="24" fill="rgba(15,26,14,.34)"/>
+  <path d="M204 250 C 210 348 268 390 342 390 C 416 390 474 348 480 250 Z" fill="url(#bocnSanh)"/>
+  <ellipse cx="342" cy="386" rx="44" ry="9" fill="#3A210E"/>
+  <ellipse cx="342" cy="248" rx="140" ry="37" fill="#6B421F"/>
+  <ellipse cx="342" cy="248" rx="140" ry="37" fill="none" stroke="#3A210E" stroke-width="5"/>
+  <ellipse cx="342" cy="250" rx="124" ry="31" fill="#503012"/>
+  <path d="M226 232 C 250 214 296 204 342 204" fill="none" stroke="#C08B54" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+
+  <!-- NƯỚC ỐC NGUỘI: vàng nhạt, mặt phẳng lặng (không gợn, không khói) -->
+  <ellipse cx="342" cy="252" rx="117" ry="28" fill="url(#bocnNuoc)"/>
+
+  <!-- VÁNG ỚT CHƯNG đỏ loang lệch trên mặt nước -->
+  <path d="M266 248 C 284 234 320 228 352 232 C 384 236 406 250 398 262
+           C 388 276 350 282 314 277 C 284 273 260 260 266 248 Z" fill="#D4551C" opacity=".92"/>
+  <path d="M288 242 C 314 234 346 234 370 242" fill="none" stroke="#F2933C" stroke-width="3.4" stroke-linecap="round" opacity=".9"/>
+  <g fill="#E8752A" opacity=".9">
+    <ellipse cx="424" cy="248" rx="15" ry="6" transform="rotate(-10 424 248)"/>
+    <ellipse cx="252" cy="266" rx="12" ry="5" transform="rotate(8 252 266)"/>
+    <ellipse cx="392" cy="272" rx="11" ry="4.6" transform="rotate(-4 392 272)"/>
+  </g>
+
+  <!-- vài con ốc nổi trong bát -->
+  <!-- Ốc PHẢI nằm gọn trong lòng bát: mặt nước là ellipse (342,252) rx117 ry28,
+       nên mọi con phải lùi vào trong biên đó cộng thêm bán kính của chính nó —
+       bản trước có mấy con rớt hẳn ra ngoài vành. -->
+  <use href="#bocnOcCon" transform="translate(300 250) rotate(-14) scale(.92)"/>
+  <use href="#bocnOcCon" transform="translate(342 242) rotate(9) scale(.88)"/>
+  <use href="#bocnOcCon" transform="translate(382 250) rotate(-6) scale(.84)"/>
+  <use href="#bocnOcCon" transform="translate(276 262) rotate(6) scale(.86)"/>
+  <use href="#bocnOcCon" transform="translate(318 266) rotate(-20) scale(.94)"/>
+  <use href="#bocnOcCon" transform="translate(360 262) rotate(12) scale(.88)"/>
+  <use href="#bocnOcCon" transform="translate(398 262) rotate(-9) scale(.76)"/>
+  <use href="#bocnOcCon" transform="translate(296 276) rotate(3) scale(.82)"/>
+  <use href="#bocnOcCon" transform="translate(340 278) rotate(-16) scale(.86)"/>
+
+  <!-- ĐẠO CỤ: gai bưởi (que nhọn) gác chéo qua mép lá chuối -->
+  <g transform="translate(150 428) rotate(-10)">
+    <path d="M-84 0 L 62 -5 L 78 0 L 62 5 Z" fill="url(#bocnGo)" stroke="#6E4A1E" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M-78 -1.6 L 58 -4" fill="none" stroke="#E0BB80" stroke-width="1.6" stroke-linecap="round" opacity=".7"/>
+  </g>
+
+  <!-- ĐẠO CỤ: thìa gỗ nằm bên phải, cán chìa ra -->
+  <g transform="translate(452 426) rotate(-20)">
+    <path d="M-52 0 L 8 -3 L 10 3 L -52 4 Z" fill="url(#bocnGo)" stroke="#6E4A1E" stroke-width="1.8" stroke-linejoin="round"/>
+    <ellipse cx="26" cy="0" rx="22" ry="15" fill="#B98E52" stroke="#6E4A1E" stroke-width="2.2"/>
+    <ellipse cx="27" cy="0" rx="15" ry="9.4" fill="#8E6633"/>
+    <path d="M12 -6 C 20 -11 34 -11 40 -6" fill="none" stroke="#E0BB80" stroke-width="1.8" stroke-linecap="round" opacity=".7"/>
+  </g>
+</svg>

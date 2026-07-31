@@ -70,7 +70,9 @@ const recipes = defineCollection({
     //   gốc (bột MÌ nướng lò, không phải bột gạo tráng/đổ) và khác cách ăn (cầm
     //   tay, một ổ là xong bữa). Cùng trục "hình thức món" với Cơm · Cháo · Bánh,
     //   KHÔNG phải trục xuất xứ — đừng lấy nhóm này làm cớ mở nhóm theo xuất xứ.
-    // · Chè = món NGỌT nấu đường, ăn bằng muỗng, dọn ngoài bữa cơm. Đây là kiểu
+    // · Chè = món NGỌT, ăn bằng muỗng, dọn ngoài bữa cơm. Ngọt do nấu đường là
+    //   thường, nhưng KHÔNG bắt buộc: cơm rượu ngọt do ủ men, vẫn thuộc nhóm
+    //   này vì cách ăn và chỗ đứng trong bữa giống hệt. Đây là kiểu
     //   món đầu tiên tách theo VỊ chứ không theo hình thức — và nó có họ màu
     //   riêng ("Ngọt & mát", tím sen) đúng vì lý do đó: một ly chè đứng lẫn giữa
     //   lưới món mặn thì màu nền phải nói ngay "cái này ngọt".
@@ -126,6 +128,8 @@ const recipes = defineCollection({
         'che-buoi', 'che-ba-ba', 'che-thai', 'che-dau-xanh-bot-bang', 'che-dau-do',
         'lau-de-chao', 'lau-de-me', 'lau-bo-da-lat', 'lau-bo-giam',
         'bo-xao-thien-ly', 'kho-qua-xao-trung', 'canh-ca-chua-trung', 'cua-hap-bia',
+        'bun-mang-vit', 'bun-sua', 'bun-moc', 'bun-oc', 'bun-oc-nguoi',
+        'com-chay-cha-bong', 'com-lam', 'com-rang-dua-bo', 'com-ruou',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

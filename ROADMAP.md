@@ -2,9 +2,11 @@
 
 Kho công thức món Việt tại [www.monvietngon.com](https://www.monvietngon.com) — mục tiêu dài hạn: **200 món** phủ đủ ba miền, món nào cũng được chăm chút như món nào.
 
-_Cập nhật 2026-07-31 (sau đợt 13). Site đang **95 món / 7 vùng / 16 kiểu món**, không kiểu món nào dưới 3._
+_Cập nhật 2026-07-31 (sau đợt 14). Site đang **104 món / 7 vùng / 16 kiểu món**, không kiểu món nào dưới 3._
 
-> **Mục tiêu nâng từ ~100 lên 200 món — Thái chốt 2026-07-31**, ngay sau khi đợt 13 lên. Mốc 100 vẫn đi qua trước (đợt 14 thêm ~10 món là vượt), nhưng từ đây kế hoạch tính theo đường tới 200. **Chỗ chặn đường đó không phải dung lượng hay công viết — mà là đụng hình**; phân tích bằng số ở phần 2, mục *"Đường tới 200 món"*. Đọc mục đó trước khi mở đợt mới.
+> 🎉 **ĐÃ QUA MỐC 100 MÓN** ở đợt 14 (95 → 104). Mục tiêu tiếp theo là **200 món — Thái chốt 2026-07-31**. **Chỗ chặn đường đó không phải dung lượng hay công viết — mà là đụng hình**; phân tích bằng số ở phần 2, mục *"Đường tới 200 món"*. Đọc mục đó trước khi mở đợt mới.
+>
+> **Còn nợ đúng một phép đo:** mốc 100 là mốc tròn nên `/mon/` **đáng đo thật trên máy chủ** (luật ở phần 4, mục *Đo đạc*). Chưa đo được vì phải deploy xong mới đo. Con số hiện ghi là **ước từ cục bộ ×1,02**. **Gộp phép đo vào commit thực chất kế tiếp — đừng đẻ commit riêng.**
 
 **Cách đọc file này:** bốn phần đầu là **thứ còn dùng** — trạng thái, việc còn lại, quy trình, luật đã chốt. Phần **Nhật ký** ở cuối là **chuyện đã qua**, giữ lại vì phần lý lẽ đằng sau mỗi quyết định mới là chỗ đáng giá; đừng đọc nó như chỉ dẫn, và vài con số trong đó chỉ đúng ở thời điểm viết.
 
@@ -14,11 +16,11 @@ _Cập nhật 2026-07-31 (sau đợt 13). Site đang **95 món / 7 vùng / 16 ki
 
 | | |
 |---|---|
-| **Nội dung** | 95 món · 7 vùng · 16 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
+| **Nội dung** | 104 món · 7 vùng · 16 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo **6 họ màu**, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
-| **Dung lượng** | `/mon/` **30,9 KB** gzip ở 95 món (31.674 B, **đo trên máy chủ**) — 13 món thêm 2,7 KB, tức **0,21 KB/món**, vẫn đúng chuyện "không tăng theo số món" |
-| **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 570 liên kết |
+| **Dung lượng** | `/mon/` **~32,9 KB** gzip ở 104 món (33.764 B, ***ước từ cục bộ ×1,02***) — 9 món thêm 2,0 KB, tức **0,22 KB/món**, khớp 0,21 KB/món đo thật ở đợt 13 |
+| **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 624 liên kết |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
 | **Ảnh tìm kiếm** | `/anh-mon/<slug>-{1x1,4x3,16x9}.jpg` — hình món trên nền họ màu, sinh lúc build. **Khác `/og/`**: `/og/` là thẻ chữ để chia sẻ, `/anh-mon/` là ảnh cho bot |
@@ -30,17 +32,19 @@ _Cập nhật 2026-07-31 (sau đợt 13). Site đang **95 món / 7 vùng / 16 ki
 
 | | | | |
 |---|---:|---|---:|
-| Món nước | 13 | Cơm | 6 |
-| Kho | 10 | **Chè** | **5** |
+| **Món nước** | **17** | Chè | 6 |
+| Kho | 10 | Bánh | 6 |
 | Xào | 10 | Hấp | 5 |
-| Canh | 8 | Bún trộn | 4 |
-| Lẩu | 7 | Bánh mì | 3 |
-| Bánh | 6 | Cháo | 3 |
+| **Cơm** | **9** | **Bún trộn** | **5** |
+| Canh | 8 | Bánh mì | 3 |
+| Lẩu | 7 | Cháo | 3 |
 | Nướng | 6 | Chiên | 3 |
 | | | Cuốn | 3 |
 | | | Gỏi | 3 |
 
-*Đợt 13 **mở kiểu món "Chè"** (5 món) và **mở luôn họ màu thứ SÁU** — xem khung dưới. Ngoài ra: **Lẩu** 3 → 7 (bốn nồi lẩu dê/bò), **Xào** 8 → 10, **Canh** 7 → 8, **Hấp** 4 → 5.*
+*Đợt 14 **không mở kiểu món nào** — lần thứ hai một đợt đi qua mà bảng 8 chỗ của README không phải sửa dòng nào (lần đầu là đợt 11). Bù lại nó dồn hết vào ba ô sẵn có: **Món nước 13 → 17**, **Cơm 6 → 9**, **Bún trộn 4 → 5**, **Chè 5 → 6**.*
+
+> ⚠️ **Món nước giờ là ô to gấp đôi ô thứ nhì (17 vs 10), và họ màu "Chan & húp" lên 35/104 món.** Đây đúng là chỗ phần 2 đã cảnh báo. Đợt sau **đừng lấy thêm món nước** trừ khi có lý do mạnh — kho ý tưởng còn bánh canh cá lóc Quảng Trị và phở chua Lạng Sơn thì cân nhắc hoãn.
 
 > **Vì sao "Chè" phải có họ màu riêng, không nhét vào họ nào đang có.** Mười lăm kiểu món cũ đều là món **mặn**, khác nhau ở *hình thức* hoặc *cách nấu*. Chè là kiểu món đầu tiên tách theo **VỊ** — và đúng vì lý do đó nên nó không có chỗ trong năm họ cũ: để chung *"Chan & húp"* thì ly chè bưởi mang đúng nền teal của phở bò, màu thôi làm thông tin và thành trang trí; để chung *"Cơm & bánh"* thì họ đó phình lên 15 món và mất nghĩa. Mở họ **"Ngọt & mát"** màu **tím sen `#5E3A6E`** — hệ màu duy nhất chưa dùng, vì bốn họ kia đều ấm còn họ thứ năm là teal.
 >
@@ -50,21 +54,21 @@ _Cập nhật 2026-07-31 (sau đợt 13). Site đang **95 món / 7 vùng / 16 ki
 
 **Vùng miền:**
 
-| Vùng | Trước đợt 6 | Sau đợt 9 (58 món) | Sau đợt 10 (64) | Sau đợt 11 (71) | Sau đợt 12 (82) | **Nay (95 món)** |
-|---|---:|---:|---:|---:|---:|---:|
-| Miền Nam | 14 (40%) | 15 (26%) | 16 (25%) | 17 (24%) | 21 (26%) | **25 (26%)** |
-| Cả nước | 6 | 11 | 13 (20%) | 16 (23%) | 18 (22%) | **23 (24%)** |
-| Miền Bắc | 6 | 9 | 10 (16%) | 13 (18%) | 14 (17%) | **15 (16%)** |
-| Miền Trung | 3 (9%) | 11 (19%) | 12 (19%) | 12 (17%) | 15 (18%) | **15 (16%)** |
-| Miền Tây | 4 | 7 | 8 (13%) | 8 (11%) | 8 (10%) | **10 (11%)** |
-| Tây Nguyên | 1 | 3 | 3 (5%) | 3 (4%) | 4 (5%) | **5 (5%)** |
-| Tây Bắc | 1 | 2 | 2 (3%) | 2 (3%) | 2 (2%) | **2 (2%)** |
+| Vùng | Trước đợt 6 | Sau đợt 9 (58 món) | Sau đợt 10 (64) | Sau đợt 11 (71) | Sau đợt 12 (82) | Sau đợt 13 (95) | **Nay (104 món)** |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Miền Nam | 14 (40%) | 15 (26%) | 16 (25%) | 17 (24%) | 21 (26%) | 25 (26%) | **27 (26%)** |
+| Cả nước | 6 | 11 | 13 (20%) | 16 (23%) | 18 (22%) | 23 (24%) | **23 (22%)** |
+| Miền Bắc | 6 | 9 | 10 (16%) | 13 (18%) | 14 (17%) | 15 (16%) | **20 (19%)** |
+| Miền Trung | 3 (9%) | 11 (19%) | 12 (19%) | 12 (17%) | 15 (18%) | 15 (16%) | **16 (15%)** |
+| Miền Tây | 4 | 7 | 8 (13%) | 8 (11%) | 8 (10%) | 10 (11%) | **10 (10%)** |
+| Tây Nguyên | 1 | 3 | 3 (5%) | 3 (4%) | 4 (5%) | 5 (5%) | **5 (5%)** |
+| Tây Bắc | 1 | 2 | 2 (3%) | 2 (3%) | 2 (2%) | 2 (2%) | **3 (3%)** |
 
-> **Đợt 13 làm ô mỏng đỡ mỏng, nhưng đẩy "Cả nước" lên gần đỉnh bảng.** Miền Tây 8 → **10** (chè bưởi, chè bà ba), Tây Nguyên 4 → **5** (lẩu bò Đà Lạt), Miền Bắc 14 → **15** (lẩu dê nhúng mẻ Ninh Bình). Nhưng bốn món cuối đợt — bò xào bông thiên lý, khổ qua xào trứng, canh cà chua trứng, cua hấp bia — đều là **món cả nước nấu**, không gán vùng nào cho thật được, nên **Cả nước lên 23 (24%)** và giờ chỉ kém Miền Nam hai món.
+> **Đợt 14 chữa đúng hai chỗ đợt 13 để lại.** ① **"Cả nước" đứng nguyên ở 23 và tụt từ 24% xuống 22%** — chín món của đợt không có món nào gán "Cả nước", đúng chủ ý. ② **Tây Bắc 2 → 3** nhờ **cơm lam**, lần đầu vùng này nhúc nhích kể từ đợt 9. Ngoài ra **Miền Bắc 15 → 20** (5 món: bún măng vịt, bún mọc, bún ốc, bún ốc nguội, cơm rang dưa bò), nhảy lên hạng ba và bỏ xa Miền Trung.
 >
-> **Đây là chỗ đáng để mắt cho đợt sau.** "Cả nước" không sai — mấy món đó đúng là nhà nào cũng nấu — nhưng một trang lấy *vùng miền* làm trục chính mà gần một phần tư catalog không thuộc vùng nào thì trục đó loãng dần. Đợt tới nên ưu tiên món **có địa chỉ rõ**, và đừng nhận thêm nhóm "món cơm nhà chung chung" nào nữa trừ khi Thái muốn.
+> **Chỗ cần để mắt đã đổi.** "Cả nước" tạm ổn; giờ mỏng nhất là **Tây Nguyên (5) và Tây Bắc (3)**. Xem phần 2, mục *"Đường tới 200 món"* việc số 3 — ở 200 món mà Tây Bắc vẫn 4–5 thì trục vùng miền thành nói dối, và **chốt hướng ở đây rẻ hơn chốt ở mốc 180**.
 >
-> **Tây Bắc vẫn kẹt ở 2**, vẫn vì lý do cũ: đã cạn món nấu-được-ở-nhà (xem kho ý tưởng). Đợt 13 không có món nào chạm tới vùng này.
+> **Cơm lam là tiền lệ cho câu hỏi đó.** Nó là món Tây Bắc đầu tiên **hơi lấn luật "nguyên liệu chính phải mua được ở chợ thường"** — ống nứa không phải chợ nào cũng có. Đã xử bằng cách nói thẳng trong FAQ (mua ở đâu) và cho hẳn cách thay bằng lá chuối + giấy bạc, kèm câu *"nói thẳng là không giống bản gốc"*. **Nếu Thái đồng ý lối này thì mở được thêm vài món vùng cao đang bị luật đó chặn** (xôi ngũ sắc chẳng hạn); nếu không thì cơm lam là ngoại lệ duy nhất.
 
 > Đợt 12 là đợt món đường phố / quà sáng, nghiêng hẳn về Nam nên **Miền Nam quay lại 26%** sau khi vừa xuống 24%. Bù lại **bộ ba bánh ướt rơi vào ba vùng khác nhau** — chả lụa (Nam) · lòng gà Đà Lạt (Tây Nguyên) · tôm chấy Huế (Trung) — nên Tây Nguyên lần đầu lên **4** và Miền Trung lên **15**.
 
@@ -116,7 +120,7 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 4. ~~**Hero trang chủ đang dài — cân nhắc rút ngắn.**~~ — **XONG 2026-07-30, ship bản B + phần điện thoại của F.** Thẻ món đầu tiên **1164 → 1006px** desktop (−158) và **1624 → 1309px** điện thoại (−315); hero **738 → 649px** và **1142 → 899px**. Không bỏ một thành phần nào khỏi trang. Chi tiết + 6 phương án đã đo ở mục *"Rút ngắn hero trang chủ"* phần Nhật ký.
 
    > **Còn phần chưa làm, và nó chờ GA4:** phương án **C** (bỏ 2 nút *"Xem hết món ngon"* + *"Bí quyết bếp Việt"*, gộp 3 pill thống kê thành một dòng) đo được **−294px desktop / −485px điện thoại** và là bản duy nhất đưa thẻ món lọt màn hình đầu ở 1440×900. **Cố ý chưa làm** vì cái giá là hai đích bấm lớn nhất trang mà chưa ai biết có bao nhiêu người bấm. Gắn GA4 xong, nhìn số một tuần rồi quyết. Phương án **D** (bỏ thêm eyebrow + câu dẫn khối món) thì đắt hơn nữa, để sau C.
-5. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng. Mở một giá trị enum mới là phải **rà gắn lại cả 64 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
+5. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: **bún ốc nguội** (món quà chiều rõ nhất của cả catalog — chính bài viết của nó gọi vậy), bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng, cơm cháy chà bông. Mở một giá trị enum mới là phải **rà gắn lại cả 104 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
 
 ## ~~SEO còn thiếu~~ — XONG 2026-07-30
 
@@ -145,45 +149,47 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 
 ## Mốc dung lượng cũ đã hết hiệu lực
 
-> **"~150 KB gzip" giờ vô nghĩa, đừng dùng lại.** Từ đợt 10 độ dốc xuống còn ~0,2 KB/món (chỉ còn phần chữ của cái thẻ) thay vì 2,6 KB/món, nên ở 100 món `/mon/` ước chừng **31 KB** — chưa đo, suy từ **24,1 KB** đo trên máy chủ ở 64 món. **Không còn rào dung lượng nào chặn đường lên 100 món.** *(Con số ước cũ ghi 37 KB vì suy từ mốc 29,5 KB trước khi làm lại ô tìm kiếm — mốc đó đã hết hiệu lực.)*
+> **"~150 KB gzip" giờ vô nghĩa, đừng dùng lại.** Từ đợt 10 độ dốc xuống còn ~0,2 KB/món (chỉ còn phần chữ của cái thẻ) thay vì 2,6 KB/món. **Đã đi qua mốc 100 và số khớp dự đoán:** hồi ở 64 món ước "100 món ≈ 31 KB", nay 104 món ra **~32,9 KB** — đúng độ dốc, chỉ lệch vì hơn 4 món. **Không còn rào dung lượng nào trên đường tới 200** (ước ~54 KB).
 
 ## Đường tới 200 món
 
-**Đợt 14 (~10 món, Thái đã nhận) là vượt mốc 100.** Từ đó còn ~95 món nữa mới tới 200 — tức là **8–10 đợt cỡ đợt 13**. Con số dưới đây tính từ số đo thật ở 95 món, để biết cái gì gánh được và cái gì không.
+**Mốc 100 đã qua ở đợt 14 (104 món).** Còn ~96 món nữa mới tới 200 — tức là **8–10 đợt cỡ đợt 13–14**.
 
 **Không vỡ chỗ nào — nền kỹ thuật làm được 100 thì làm được 200:**
 
-| | Nay (95 món) | Ước ở 200 món |
+| | Nay (104 món) | Ước ở 200 món |
 |---|---|---|
-| `/mon/` gzip | **30,9 KB** (đo máy chủ) | **~53 KB** — vẫn xa mốc cũ 150 KB |
-| Build | 36,2 s / 99 trang | **~75 s** (phần sinh ảnh chiếm chủ yếu) |
-| `/anh-mon/` | 12 MB · 285 ảnh | ~25 MB · 600 ảnh — artifact, không nằm trong repo |
-| 12 ô featured | 13% catalog | 6% — **chọn lọc hơn**, không tệ hơn |
+| `/mon/` gzip | **~32,9 KB** (ước cục bộ ×1,02) | **~54 KB** — vẫn xa mốc cũ 150 KB |
+| Build | 40,2 s / 108 trang | **~75 s** (phần sinh ảnh chiếm chủ yếu) |
+| `/anh-mon/` | 13 MB · 312 ảnh | ~25 MB · 600 ảnh — artifact, không nằm trong repo |
+| 12 ô featured | 12% catalog | 6% — **chọn lọc hơn**, không tệ hơn |
 | Ô mỏng nhất | 3 món | 6 món — không kiểu món nào tụt dưới luật ≥3 |
 
 **Chỗ vỡ là ĐỤNG HÌNH, và nó không tăng tuyến tính.** Mỗi hình mới phải khác **mọi** hình cũ ở cỡ 260px, nên cái quyết định độ khó là **hàng xóm đông cỡ nào**, không phải tổng số món:
 
-- Họ **"Chan & húp"** đi từ 31 lên **~65 hình**, tất cả đều là tô hoặc nồi nước trên nền teal. **Món nước 13 → 27**, **Kho 10 → 21**.
-- Đợt 13 đã phải bịa chiêu mới tách nổi **7 nồi lẩu** (quai xách vòng cung · bếp cồn có lửa · ổ bánh mì · dĩa thịt sống bày ngoài nồi). Tới **15 nồi lẩu** là cạn chiêu.
+- Họ **"Chan & húp"** đã lên **35 hình** (đợt 14 thêm 4) và trên đường tới **~65**. **Món nước 17 → ~27**, **Kho 10 → 21**.
+- Đợt 13 đã phải bịa chiêu mới tách nổi **7 nồi lẩu**. Tới **15 nồi lẩu** là cạn chiêu.
 - Viết nội dung thì tuyến tính — 17,8 KB/món, có khuôn sẵn. Vẽ hình thì không.
 
-**Ba việc phải đổi TRƯỚC khi đi tiếp, không phải để dành tới lúc kẹt:**
+**Ba việc phải đổi TRƯỚC — đợt 14 đã làm xong hai, còn một:**
 
-1. **Cách soi đụng hình.** Hiện là tự tay chọn "mấy hình dễ đụng" rồi ghép sheet — hết đáng tin khi hàng xóm là 30+ hình. Cần quét **cả họ màu** một cách hệ thống.
-2. **Vốn từ bố cục phải mở rộng.** Gần như mọi hình đang cùng một khuôn: *vật đựng, đặt giữa, nhìn chếch từ trên, một hai đạo cụ trên bàn*. Ở 65 tô teal thì thứ phân biệt được không còn là món ăn nữa mà là **khung hình** — cắt cận, nhìn thẳng từ trên, có tay/đũa gắp, mặt cắt ngang. Đòn bẩy này chưa hề dùng.
-3. **Trục vùng miền.** Tây Bắc 2 món và đã khai là cạn món nấu-được-ở-nhà. Ở 200 món mà vùng đó vẫn 4 thì trục vùng miền thành nói dối. Ba đường: chấp nhận lệch và nói thẳng · nới luật *"mua được ở chợ thường"* cho vài món · gộp Tây Bắc vào Miền Bắc như đã làm với Đông Bắc. **Chốt ở mốc 100 rẻ hơn nhiều so với chốt ở 180.**
+1. ~~**Cách soi đụng hình.**~~ — **XONG ở đợt 14.** Trước khi vẽ dòng nào, render **cả họ màu** bằng `npm run art-png -- --sheet --fam <họ>` rồi mới quyết bố cục. Làm thế mới thấy được thứ mà soi từng cặp không bao giờ thấy: **31/31 hình họ teal dùng chung đúng một khuôn**. Đây giờ là bước bắt buộc, đã ghi vào quy trình phần 3.
+2. **Vốn từ bố cục — MỞ ĐƯỢC MỘT NỬA, và nửa kia đã bị bác.** Đợt 14 thử bốn hướng cùng lúc rồi đưa Thái duyệt. **Đổi VẬT ĐỰNG đậu hết** (chảo gang · ống nứa · miếng tròn không vật đựng · hũ thuỷ tinh · bát sành nâu) và **đổi ĐỘNG TÁC cũng đậu** (đũa đang gắp). Nhưng **đổi GÓC NHÌN bị trả lại cả hai lần** — nhìn thẳng từ trên và cắt cận đều đọc ra "hình lỗi" chứ không ra "góc chụp khác", vì lưới 104 ô cùng khuôn đã biến quy ước cũ thành ngữ pháp của cả trang. Lý lẽ đầy đủ ở phần 4, mục đầu của nhóm *Màu và hình*. **Đòn bẩy còn lại cho đường tới 200: vật đựng + động tác + ruột.**
+3. **Trục vùng miền — CÒN NGUYÊN, và giờ là việc lớn nhất.** Tây Bắc mới 3, Tây Nguyên 5. Ba đường vẫn như cũ: chấp nhận lệch và nói thẳng · nới luật *"mua được ở chợ thường"* · gộp Tây Bắc vào Miền Bắc như đã làm với Đông Bắc. **Cơm lam của đợt 14 là phép thử đường thứ hai** — xem khung ở bảng vùng miền phần 1. Chốt bây giờ rẻ hơn chốt ở 180.
 
-> **Hai điều vẫn đúng khi chọn món, dù mục tiêu đã đổi:**
-> - **Đừng lấy thêm món "Cả nước"** — ô đó đang 23/95 (24%), chỉ kém Miền Nam hai món.
-> - Kho ý tưởng dưới đây có **10 món đã tra sẵn** + 2 món Tây đang hoãn. Đủ cho đợt 14, nhưng **không đủ cho đường tới 200** — từ đợt 15 trở đi phải có nguồn món mới.
+> **Hai điều vẫn đúng khi chọn món:**
+> - **"Cả nước" đã hạ xuống 22%** nhờ đợt 14 không nhận món nào vào ô đó — giữ nếp này.
+> - **Kho ý tưởng đã gần cạn: còn 8 món tra sẵn** + 2 món Tây đang hoãn. **Từ đợt 15 phải có nguồn món mới**, đây là việc đáng làm trước khi ngồi chọn món.
 
 > **Nếu chỉ làm một thứ:** ~~trang 404 + liên kết chéo~~ — đã làm 2026-07-30. Việc còn lại mà người đọc cảm nhận được liền thì hết; những gì còn trong danh sách đều là hạ tầng hoặc SEO, không ai nhìn thấy.
 
 ## Kho ý tưởng để dành — **chưa xếp vào đợt nào**
 
-> **Đợt 13 đã xong (2026-07-31) — không có đợt 14 nào được xếp lịch.** Đợt 13 cũng do Thái ngồi chọn món rồi giao: 10 món nêu ra, trong đó 3 chỗ Thái chốt **làm cả hai bản** (lẩu dê chao *và* nhúng mẻ · lẩu bò Đà Lạt *và* nhúng giấm · chè đậu xanh đánh *và* bột báng), thành 13 món. **Muốn làm tiếp phải ngồi chọn món với Thái trước, đừng tự mở đợt.**
+> **Đợt 14 đã xong (2026-07-31) — không có đợt 15 nào được xếp lịch.** Thái nêu 10 món; 1 món (**bún chả cá**) trùng thẳng với món đã có từ đợt 8 và 1 món (**bún mắm**) bị bỏ vì nấu đúng nồi nước mắm cá linh + cá sặc của **lẩu mắm** đã có — chốt lại **9 món**. **Muốn làm tiếp phải ngồi chọn món với Thái trước, đừng tự mở đợt.**
 >
-> **Cách "làm cả hai bản" hoá ra rất được, đáng nhớ để dùng lại.** Ba cặp món đó vừa rẻ (đã tra một lần thì tra tiếp bản kia gần như miễn phí) vừa đắt giá về nội dung: mỗi cặp tự nó là một bài so sánh vùng miền — cùng con dê mà Nam nấu chao béo còn Bắc nhúng mẻ chua; cùng nắm đậu xanh mà Bắc đánh nhuyễn còn Nam để nguyên hạt. Và nó **kéo được vùng** mà không phải đi tìm món mới: ba bản "kia" rơi vào Miền Bắc ×2 và Tây Nguyên ×1.
+> **Cách "làm cả hai bản" vẫn rất được, đợt 14 dùng lại một lần:** **bún ốc nóng ↔ bún ốc nguội** — cùng con ốc, cùng giấm bỗng, cùng ớt chưng, mà ra hai món khác hẳn và rơi vào **hai kiểu món khác nhau** (Món nước ↔ Bún trộn), nên còn đỡ được một tô cho họ teal đang chật. Trước đó đợt 13 làm ba cặp (dê chao ↔ dê mẻ · bò Đà Lạt ↔ bò nhúng giấm · đậu xanh đánh ↔ bột báng).
+>
+> **Và một luật mới rút ra ở đợt 14: SOI TRÙNG TRƯỚC KHI TRA MÓN.** Hai trong mười món Thái nêu đã có sẵn hoặc trùng nồi với món có sẵn. `ls src/content/recipes/` mất năm giây, mà bỏ qua thì tra xong mới biết công đi đâu.
 
 - **Tây Bắc** — sau gà nướng mắc khén và pa pỉnh tộp thì vùng này còn rất ít món nấu-được-ở-nhà. Đã lọc bằng luật *"nguyên liệu chính phải mua được ở chợ thường"*:
   - **Loại hẳn:** bê chao Mộc Châu (bê sữa ngoài vùng không mua được), thịt trâu gác bếp (thịt trâu khó mua, lại đụng luật khói), nộm da trâu (da trâu không mua nổi, sơ chế quá kỳ công).
@@ -191,7 +197,7 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 - **Đông Bắc** (Lạng Sơn, Cao Bằng, Hà Giang) — **không mở vùng riêng**; nếu sau này làm thì gắn vào "Miền Bắc". Món đã tra sẵn: khâu nhục, vịt quay lá mắc mật, phở chua Lạng Sơn.
 - **Miền Trung còn dư ý tưởng:** chả ram tôm đất Bình Định, cá nục hấp cuốn bánh tráng, bánh canh cá lóc Quảng Trị.
   - **Loại hẳn: cơm âm phủ Huế** — Thái chốt không làm (2026-07-30). Đã gỡ khỏi cả kho ý tưởng lẫn dải "Sắp lên mâm" ở `ComingSoon.astro`; chỗ trống trên dải thay bằng **cá nục hấp cuốn bánh tráng**. **Đừng đề xuất lại.**
-- **Bún trộn** đã đủ quân; nếu mở rộng thì có bún ốc nguội, bún nem cua bể.
+- **Bún trộn** lên 5 món sau đợt 14 (thêm **bún ốc nguội**); còn để dành **bún nem cua bể**.
 - **Món Tây — HOÃN, chưa quyết, đừng tự làm.** Thái nêu **bò bít tết** và **mì Ý sốt cà chua** ở đợt 11 rồi chốt *"khoan tất cả các món Tây, để sau, giờ tập trung vô làm món Việt"* (2026-07-31). Hai món vẫn còn trên bàn, nhưng **phải giải xong bài toán xếp loại trước khi viết một dòng nào**:
 
   | | |
@@ -210,12 +216,14 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 
 # 3 · Quy trình thêm một đợt món mới
 
+0. **SOI TRÙNG TRƯỚC TIÊN** — `ls src/content/recipes/` và đọc `summary` của mấy món nghe giống. Đợt 14 có 2/10 món Thái nêu bị loại ở bước này (bún chả cá đã có; bún mắm nấu đúng nồi nước của lẩu mắm đã có). Năm giây, và nó quyết định cả đợt gồm mấy món
 1. Mỗi món 1 YAML — copy `src/content/recipes/_template.yaml` (tên file = slug URL); dòng có `": "` phải quote, timer label dạng `MM:SS`, định lượng viết `[[số|đơn vị]]` để tự scale theo khẩu phần
 2. **Mỗi món phải có ít nhất 1 nhãn `occasions`** — không để trống
 3. Vẽ art riêng ngay từ đầu: `src/components/art/Art<Ten>.astro` + một dòng trong `ART_COMPONENT` (`src/utils/art.ts`) + giá trị mới trong enum `art` (`content.config.ts`). **Vẽ và soi trên đúng nền họ màu của món** (hình phải giống món thật, không trùng nhau, xương đúng loài). Ba ràng buộc của file art — `viewBox` phải là `0 0 520 470`, không `currentColor`/`var(--…)`, không `&` trần — `npm run qa` chặn cả ba
 4. Cân lại `order` + `featured` toàn danh sách — trang chủ lấy **12 món featured đầu tiên theo order**
 5. Cập nhật danh sách tease trong `ComingSoon.astro` (bỏ món đã ship, thêm từ kho ý tưởng) + ticker ở `index.astro` nếu món đáng lên
 6. **`npm run qa`** trước đã — bắt bẫy YAML, `order` trùng, `id` nguyên liệu trùng, `id` art trùng chéo file (những thứ Zod không bắt được). Rồi `npm run build` để schema tự kiểm, rồi `npm run preview` mở xem từng trang mới
+3b. **TRƯỚC KHI VẼ DÒNG NÀO: render CẢ HỌ MÀU** — `npm run art-png -- --sheet --fam <họ>` cho mỗi họ mà đợt này đụng tới. Đây là thứ soi từng cặp không bao giờ thấy: đợt 14 render họ teal ra mới biết **31/31 hình dùng chung đúng một khuôn** ("vật đựng đặt giữa, nhìn chếch từ trên, ba sợi khói, đạo cụ dưới chân"), và họ vàng thì **18/18 là dĩa bầu dục dẹt**. Biết vậy rồi mới chọn được khung hình chưa ai dùng, thay vì vẽ xong mới phát hiện na ná
 6b. **Soi hình bằng PNG ghép, không chỉ contact sheet** — `npm run art-png -- --sheet <món…>` (hoặc `--cat <kiểu món>` / `--fam <họ>`) xếp hình mới **cạnh hình dễ đụng** của nó, mỗi ô 260px đúng cỡ thumbnail trên `/mon/`. Hai luật:
     - thứ gì trong tô cũng phải khác thứ bên cạnh ở **cả sắc lẫn dáng** — đổi mỗi màu mà giữ nguyên dáng thì vẫn lẫn (đợt 8)
     - **đạo cụ cũng phải khác**, không riêng món chính: hai món cùng họ màu mà cùng có lát chanh + chén chấm giống nhau thì vẫn đọc ra na ná (đợt 9)
@@ -239,6 +247,12 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Không mở vùng "Đông Bắc"** — gộp vào Miền Bắc. Enum vùng đứng ở 7 giá trị.
 - **Mọi món phải có ≥ 1 nhãn `occasions`** — schema đã `.min(1)`, để trống là build gãy.
 
+**Viết nội dung**
+- **⭐ TẢ MÓN BẰNG CÁI NÓ CÓ, ĐỪNG TẢ BẰNG CÁI NÓ KHÔNG CÓ.** Thái chốt 2026-08-01, và **áp cho cả món cũ lẫn món sau này**. Bún ốc viết *"Bát này **không có riêu, không có đậu**"* — đúng sự thật, nhưng người đọc phải biết bún riêu là gì mới hiểu, mà phần lớn khách vào thẳng từ Google thì không có ngữ cảnh đó. Viết lại thành *"gọn trong ba thứ: con ốc giòn sần sật, nước chua thanh màu đỏ nhạt, một thìa ớt chưng nổi váng đỏ cam"* — cùng một ý, mà đọc xong là hình dung được bát bún. **Đã rà lại cả 104 món**, sửa 7 chỗ: `bun-oc` · `bun-sua-nha-trang` · `bun-oc-nguoi` · `bun-bo-nam-bo` (*"tô bún không có nước dùng"* → *"tô bún trộn khô"*) · `goi-ngo-sen-tom-thit` (*"dĩa không ra nước"* → *"dĩa ráo tới miếng cuối"*) · `cua-hap-bia` (*"không rụng càng"* → *"càng nguyên vẹn"*) · `ca-loc-nuong-trui` (*"không ướp gì"* → *"nướng mộc bằng rơm"*) · `ca-thu-sot-ca-chua` (*"gần như không có xương dăm"* → *"lành xương"*).
+  > **Chỗ KHÔNG áp luật này:** câu **đính chính** dạng *"X chứ không phải Y"* thì giữ, vì nó chặn một lỗi nấu có thật — *"nấu từ xương cá, không phải xương heo"* · *"chất chua là lá giang, không phải me"* · *"nước cốt dừa, không phải nước dừa tươi"*. Khác nhau ở chỗ: đính chính nói **món này là gì**, còn *"món này không có X"* thì bắt người đọc phải biết món khác.
+- **⭐ MỖI TRANG PHẢI ĐỨNG ĐƯỢC MỘT MÌNH.** Cùng buổi, cùng lý do. Bún ốc nguội mở bài bằng *"Bản 'kia' của bún ốc…"* và bún sứa mở bài bằng *"Cùng họ với bún chả cá…"* — cả hai bắt người đọc phải biết một món khác trước đã. **Phần lớn khách tìm Google rồi vào thẳng trang món, không đi qua trang chủ hay `/mon/`.** Cách đúng: `summary` và đoạn story đầu **tả thẳng món đó**; muốn trỏ sang món họ hàng thì để xuống FAQ hoặc phần dọn mâm, và chỉ một lần.
+- **Từ khó thì chú giải NGAY LẦN ĐẦU, và đừng để ở title/summary/ticker.** `giấm bỗng` dùng **25 lần trên site mà chưa từng được chú giải lần nào** — kể cả bún riêu cua đã live từ lâu. Thái đọc bún ốc mới hỏi *"nước chua giấm bỗng là gì?"*. Đã bỏ khỏi title + summary + ticker và chú giải ở dòng nguyên liệu đầu tiên (*"bã nếp còn lại sau khi cất rượu"*).
+
 **Chọn món**
 - **Nguyên liệu chính phải mua được ở chợ thường**, dù món nổi tiếng tới đâu (luật rút ra khi gỡ bê chao Mộc Châu; cùng luật đã loại thịt trâu gác bếp và nộm da trâu).
 - **Cái gì đưa lên `title` phải là chỗ chắc nhất của món** — tiêu đề không có chỗ rào đón mà lại là câu đi xa nhất (thẻ món, hero, kết quả tìm kiếm, ảnh OG).
@@ -258,6 +272,13 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Thứ mà món mang TÊN thì phải nhìn thấy ở cỡ thumbnail.** Cà tím nướng *mỡ hành* mà hạt hành vẽ nhỏ quá thì ô hình không nói được nó là món gì. (đợt 11) — đợt 12 dính lại y hệt ở **bánh ướt tôm chấy**: sợi tôm chấy vẽ mảnh quá, ở 260px gần như mất, phải tăng nét lên gấp đôi mới đọc ra.
 - **Vành tròn + chấm giữa = CÁI MẶT, ở cỡ thumbnail luôn luôn vậy.** Khúc cá thu vẽ đúng giải phẫu (mặt cắt tròn, vành da sẫm, lỗ xương sống ở giữa) mà ba ô xếp cạnh nhau thì đọc ra ba cái ống nhòm. Khoét sâu khe bụng cũng không cứu — càng giống cái cằm. Chữa bằng cách **đổi hẳn góc nhìn**: cho khúc cá nằm nghiêng, khoe viền da và thớ cá tách mảng, bỏ hẳn mặt cắt nhìn thẳng. (đợt 12)
 - **Miếng thịt khối phải lộ MẶT CẮT NHIỀU TẦNG, đừng chỉ vẽ mặt trên.** Heo quay vẽ vòng 1 chỉ có mặt da quay lên → ra năm cái bánh nướng lấm tấm. Vẽ thêm mặt trước với ba dải chồng nhau (viền da vàng mỏng · mỡ trắng dày · nạc nâu hồng) là nhận ra ngay. Và **dải da phải MỎNG** — để dày bằng dải mỡ thì cả miếng ngả vàng, mất luôn cái tương phản. (đợt 12)
+- **⭐ CÙNG MỘT NGUYÊN LIỆU ĐÃ VẼ ĐẠT Ở MÓN KHÁC → CHÉP NGUYÊN GLYPH, ĐỪNG NGHĨ LẠI.** Luật này có từ đợt 12 (ba ổ bánh mì) nhưng đợt 14 vẫn dính, và dính đắt: **lát bò của cơm rang dưa bò sai BA vòng liên tiếp** — tròn vo + đỏ mận → tròn vo + nâu ngả xám → dẹt dài nhẵn nhụi + nâu bóng — trong khi `ArtBoXaoThienLy` đã có sẵn một lát bò Thái duyệt từ đợt 13, cũng sau ba vòng. Chép nó sang, chỉ dẹt bớt theo chiều đứng (×0,72), là xong ngay. **Trước khi vẽ một nguyên liệu, grep xem site đã vẽ nó ở đâu chưa** — `grep -l "Beef\|Bo\b" src/components/art/*.astro` — rồi mở file đó ra chép. Vừa nhanh vừa làm cả site nhất quán: cùng con bò thì phải ra cùng một miếng.
+  > **Và đây là chỗ chốt lại vì sao ba bản kia sai:** cả ba đều vẽ đường bao bằng **lệnh `C` (đường cong)**, nên ra vật nhẵn nhụi — cục thịt, rồi dăm bào. Bản đã duyệt vẽ toàn **lệnh `L` (đoạn thẳng gãy khúc)**: lát thịt mỏng gặp chảo nóng thì **co rúm**, không cạnh nào cong đều. **Đồ ăn co rúm vì nhiệt thì vẽ bằng đoạn thẳng, đừng vẽ bằng đường cong.**
+- **Vật có CÁN/QUAI chìa ra thì kiểm xem có lọt khung không.** Cán chảo cơm rang chạm mép phải khung và bị cắt cụt — ở `viewBox` 520 thì mọi thứ phải nằm trong khoảng ~20…500. Cách chữa rẻ nhất là **bọc cả cụm trong một `<g transform="translate(…)">`** rồi dời, đừng đi sửa từng toạ độ. (đợt 14)
+- **Vẽ SAI MÀU vì suy từ cách nấu khác.** Đợt 14 dính hai lần trong một hình: **miếng vịt LUỘC** tô nâu đỏ sẫm (Thái: *"rất không giống vịt"*) — thịt luộc phải **xám hồng nhạt, da vàng**, nâu đỏ là màu thịt kho; và **sợi măng** tô nâu (Thái: *"nhìn giống đống shit"*) — măng nấu vịt là **vàng óng**. Cả hai đều là lỗi lấy bảng màu của một cách nấu khác gán cho món này. **Tra ảnh thành phẩm thật rồi mới chọn màu**, đừng suy từ "thịt thì nâu". (đợt 14)
+- **Sợi thì phải DÀI.** Sợi măng vẽ dài 48 đơn vị trong một cái tô rộng 290 — ở 260px đọc thành mấy mẩu ngắn cụt. Thứ gì mang chữ *sợi* thì chiều dài phải chiếm ít nhất **1/4 bề ngang vật đựng**, không thì nó thành hạt. (đợt 14)
+- **Cắt cận và đổi góc nhìn: ĐỪNG.** Xem mục ⭐ ở đầu nhóm này.
+- **Khai `<g id="…">` PHẢI nằm trong `<defs>`.** Để ngoài thân `<svg>` thì trình duyệt vẽ luôn một bản ở gốc toạ độ — lòi ra một vệt lạ ở góc trái trên khung mà `npm run qa` không bắt (cú pháp vẫn đúng). Dính ở bún ốc nguội đợt 14, chỉ thấy khi render PNG. (đợt 14)
 - **Chưa tra thì đừng vẽ.** Bốn hình của đợt 12 sai chỉ vì tôi vẽ theo trí nhớ: bánh ướt lòng gà Đà Lạt **phải có trứng gà non** cắt đôi đặt trên cùng · xôi mặn gói **lá chuối** chứ không phải hộp giấy · bánh ướt tôm chấy là **cuốn xếp thành hàng ngay ngắn** · cá nục sốt cà là cá **đã chiên vàng nâu**, tô màu xanh bạc là thành cá sống. Một lượt tra trước khi mở file art rẻ hơn hẳn một vòng duyệt. (đợt 12)
 - **Món nào có "họ hàng" trên site thì mượn luôn bố cục đã duyệt, chỉ đổi RUỘT.** Ba ổ bánh mì: hai ổ dùng bố cục "ổ nằm ngang bổ dọc" thì qua ngay, ổ thứ ba tôi cố nghĩ bố cục riêng (dựng đứng nửa ổ) và bị trả lại hai lần. Phân biệt bằng **nhân**, đừng phân biệt bằng cách bày. (đợt 12)
 - **Đừng vẽ path trong hệ toạ độ ĐÃ XOAY.** Vẽ ổ bánh mì bên trong `rotate(-38)` rồi canh toạ độ bằng mắt thì ổ co lại thành cục tròn — số trong path không còn khớp với chiều dài mình tưởng. Cách đúng: **vẽ vật nằm ngang cho đúng tỉ lệ trước**, rồi mới bọc một lớp `rotate` ở ngoài. (đợt 12)
@@ -269,6 +290,16 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Đạo cụ củ quả phải nằm NGỬA MẶT CẮT LÊN.** Củ khoai môn vẽ đứng nguyên củ thì ở 260px đọc thành hòn đá; bổ đôi đặt ngửa, lộ ruột, là nhận ra ngay. Và **ruột phải có màu rực** — thêm nửa củ khoai lang ruột cam bên cạnh thì cả cụm đạo cụ mới đọc được. Nhưng coi chừng: củ bổ đôi vẽ thành **hình bầu dục cân đối thì lại ra lát cam** — phải thuôn dài, hai đầu nhỏ dần và **không đầu nào giống đầu nào**. (đợt 13)
 - **Lá dứa, hành lá, rau thơm vẽ rời trên bàn thì đọc thành TRÁI ỚT.** Dính hai lần trong một hình ở đợt 13. Hai cách chữa: vẽ **dải dẹt có gân song song, nằm ngang** (ra lá), hoặc **đổi hẳn sang đạo cụ khác không thể nhầm** — chè đậu xanh bột báng cuối cùng thay bó lá dứa bằng **nửa gáo dừa**, vừa hết nhầm vừa nói luôn ra vị của nồi chè. (đợt 13)
 - **Món "nhúng" và món "cuốn" thì chữ ký nằm NGOÀI nồi, không nằm trong nồi.** Bảy nồi lẩu mà chỉ vẽ nồi thì tới nồi thứ tư là hết cách phân biệt. Thứ tách được chúng ra là vật đặt **cạnh** nồi: ổ bánh mì (Đà Lạt) · dĩa thịt thái lát sống (nhúng mẻ) · bếp cồn có ngọn lửa xanh (dê chao) · dĩa cuốn bánh tráng (nhúng giấm). (đợt 13)
+- **⭐ Đổi VẬT ĐỰNG thì được. Đổi CHỖ ĐỨNG CỦA NGƯỜI XEM thì KHÔNG.** Đây là bài học lớn nhất của đợt 14, và nó bác một nửa cái kế hoạch mà chính phần 2 đã kê ra. Họ teal đã cạn cách phân biệt bằng ruột, nên đợt 14 thử **bốn** khung hình mới cùng lúc. Kết quả Thái duyệt:
+  - **Đổi vật đựng — ĐẬU HẾT:** chảo gang đen (cơm rang) · ống nứa nằm ngang (cơm lam) · một miếng tròn không vật đựng (cơm cháy) · hũ thuỷ tinh có nắp (cơm rượu) · bát sành nâu (bún ốc nguội).
+  - **Đổi động tác — ĐẬU:** đôi đũa đang gắp viên mọc lên (bún mọc).
+  - **Đổi góc nhìn — TRẢ LẠI CẢ HAI:** nhìn thẳng từ trên (bún ốc) → *"nhìn từ trên xuống kỳ quá"*; cắt cận cho tô tràn khỏi khung (bún sứa, bún mọc) → *"cái tô bị lệch, mất cạnh bên trái"*.
+  - **Vì sao:** lưới `/mon/` xếp **104 ô cạnh nhau cùng một cỡ, cùng một khuôn**. Trong ngữ cảnh đó, quy ước "vật đựng nguyên vẹn, nhìn chếch từ trên" không còn là một lựa chọn thẩm mỹ mà đã thành **ngữ pháp của cả trang**. Ô nào phá quy ước đó thì người xem không đọc ra "một góc chụp khác", mà đọc ra **"hình này bị lỗi"** — nhất là cắt cận một bên, vì mắt tìm ngay cái cạnh bị thiếu. Còn đổi vật đựng thì vẫn nằm trong ngữ pháp cũ, chỉ thay danh từ.
+  - **Kết luận cho đường tới 200:** đòn bẩy thật sự còn lại là **vật đựng + động tác + ruột**, không phải góc máy. Vẫn đủ dùng — nhưng phần 2 mục 2 phải đọc theo nghĩa đã sửa này.
+- **Đồ ăn TRONG MỜ phải vẽ bằng fill nửa trong, đừng vẽ bằng màu nhạt.** Miếng sứa tô trắng đục ở 260px đọc ra **hòn sỏi**; để `opacity=".64"` cho lớp rau xanh bên dưới ló qua thì lập tức ra miếng sứa. Đây là luật chung cho mọi thứ trong suốt — cùi bưởi, bánh lọt, thạch. (đợt 14)
+- **Chấm tròn rải đều trên một khối tròn = CÁI BÁNH QUY; nét cong rải thưa = CÁI MẶT CƯỜI.** Viên mọc mất ba vòng mới xong: chấm tròn đều → bánh quy chấm sô-cô-la; đổi sang mấy nét cong → hai nét trên thành lông mày, nét dưới thành miệng; đổi sang **mảnh GÃY GÓC, nhiều, kích thước khác nhau, rải LỆCH hẳn về một phía** mới đọc ra viên giò trộn mộc nhĩ. Ba việc phải làm cùng lúc: **gãy góc · nhiều · lệch**. (đợt 14)
+- **Đồ ăn nhô lên khỏi vành tô phải CHỒNG MÉP lên vành, đừng để nổi tự do.** Bún sứa bản 1 vẽ đống đồ lơ lửng trên vành, mấy dải sứa trắng tách khỏi khối và nổi trên nền teal — đọc thành **mấy cái lông chim bay**. Cùng luật "món ăn phải là MỘT KHỐI" của đợt 10, nhưng lần này lỗi nằm ở chỗ tiếp giáp với **vật đựng** chứ không phải giữa các miếng với nhau. (đợt 14)
+- **Nắm cơm/nắm nếp vo chặt thì mặt gần NHẴN, chỉ gợn hạt.** Viên cơm rượu bản 1 mượn cách vẽ "hạt nếp nhô hẳn ra đường bao" của xôi xéo — ra **bỏng ngô**. Xôi xéo là gò xôi xới tơi nên hạt phải lởm chởm; viên cơm rượu là nắm **vo chặt trong lòng bàn tay** nên chỉ được gợn. Cùng nguyên liệu, khác cách làm ⇒ khác đường bao. (đợt 14)
 - **Nhưng đạo cụ đó KHÔNG được to hơn nồi.** Lẩu bò nhúng giấm vòng 1 vẽ cái cuốn bánh tráng dài hết khung → đọc thành khúc dồi trắng; vòng 2 cho cuốn dựng đứng chổng mặt cắt lên → đọc thành mấy ống giấy. Vòng 3 mới đúng: **trả nồi về làm vật chính** như sáu nồi kia, cuốn hạ xuống cỡ đạo cụ, và **mượn đúng cách vẽ đã duyệt của `ArtGoiCuon`** (cuốn nằm ngang, nhân hiện xuyên qua vỏ, cọng rau ló ra một đầu, có giường xà lách lót dưới cho vỏ trắng khỏi chìm vào dĩa kem). Lại một lần nữa: **mượn bố cục đã duyệt rẻ hơn nghĩ bố cục mới.** (đợt 13)
 
 **Đo đạc**
@@ -348,6 +379,38 @@ Chuyện đã qua, xếp theo thứ tự thời gian.
   Còn một chỗ **cố ý chưa chữa, để lại cho đợt sau**: bốn món cuối đợt (bò xào bông thiên lý, khổ qua xào trứng, canh cà chua trứng, cua hấp bia) đều thật sự là món **cả nước nấu**, gán vùng nào cũng là bịa — nên **"Cả nước" lên 23/95 (24%)**, chỉ còn kém Miền Nam một món. Đã ghi cảnh báo ở bảng vùng miền phần 1.
 
   > **Ba chỗ đáng ghi lại.** ① Bộ ba bánh ướt hoá ra nằm ở **ba vùng khác nhau** chứ không phải đều là món Nam như tưởng lúc chọn — **tôm chấy là món Huế**, lòng gà là món Đà Lạt; nhờ vậy Tây Nguyên lên 4 và Miền Trung lên 15. ② **Hình phải đi qua BA vòng duyệt** — vòng 1 tôi tự trả lại 4/11, vòng 2 Thái trả lại **9/11**, chỉ bánh mì thịt và bánh mì chả cá đi thẳng. Cả chín cái đều lọt `qa` sạch trơn vì đây là lỗi *đọc ra cái gì*, không phải lỗi cú pháp. Chỗ đáng nhớ nhất: **bốn trong chín cái sai vì tôi chưa đi tra món đó trông ra sao** — bánh ướt lòng gà thiếu hẳn **trứng gà non** (dấu nhận diện của bản Đà Lạt), xôi mặn phải gói **lá chuối** chứ không phải hộp giấy, bánh ướt tôm chấy phải là **cuốn xếp thành hàng**, cá nục phải là cá **đã chiên vàng** chứ không phải cá tươi xanh bạc. Đúng luật cũ của repo: *vẽ hỏng thường do chưa hiểu vật*. Luật rút ra nằm ở phần 4. ③ **Bẫy hex lại dính 3 lần** trong lúc vẽ (`#E3Aköz`, `#F0B košz`, `#D19madeup`) — lần này `npm run qa` chặn đúng như thiết kế từ đợt 11, không lọt cái nào ra bản build.
+- [x] **Đợt 14 (2026-07-31, 9 món) — VƯỢT MỐC 100, catalog 95 → 104.** Thái nêu 10 món, soi trùng loại 2, thay 1: **bún măng vịt · bún sứa Nha Trang · bún mọc · bún ốc · bún ốc nguội · cơm cháy chà bông · cơm lam · cơm rang dưa bò · cơm rượu**. **Không mở kiểu món nào** — bảng 8 chỗ của README không phải sửa dòng nào (lần thứ hai, sau đợt 11).
+
+  **Ba món bị soi ở khâu chọn, trước khi tra một chữ nào:**
+  - **Bún chả cá — TRÙNG THẲNG**, đã có từ đợt 8 (`bun-cha-ca.yaml`, Miền Trung, chả chiên vàng + chả hấp trắng). Bỏ. Chỗ trống Thái chốt thay bằng **bún ốc nguội** — vừa là bản "kia" của bún ốc, vừa rơi vào **Bún trộn** nên đỡ được một tô cho họ teal.
+  - **Bún mắm — Thái chốt BỎ.** Nó nấu đúng nồi **mắm cá linh + mắm cá sặc** của `lau-mam.yaml` đã có; khác mỗi chỗ dọn ra tô thay vì nồi giữa bàn. Hai bài sẽ trùng nhau nguyên đoạn nấu nước.
+  - **Bún sứa Nha Trang thì GIỮ** dù cùng nồi nước cá với bún chả cá — vì thứ người ta tới ăn là **con sứa chân**, không phải miếng chả; hai bài viết chỉ giao nhau ở đoạn nấu nước, và bài bún sứa trỏ thẳng sang bún chả cá thay vì kể lại.
+
+  **Đây là đợt đầu tiên chữa được cả hai chỗ đợt 13 để lại:** *"Cả nước"* đứng nguyên 23 món và tụt xuống **22%** (không món nào của đợt gán vùng đó), còn **Tây Bắc 2 → 3** nhờ cơm lam — lần đầu vùng này nhúc nhích kể từ đợt 9. Miền Bắc 15 → **20**.
+
+  **Chuyện lớn nhất của đợt là HÌNH.** Render cả họ teal trước khi vẽ mới thấy: **31/31 hình dùng chung đúng một khuôn** — vật đựng đặt giữa, nhìn chếch từ trên, ba sợi khói, đạo cụ dưới chân. Thêm 4 tô nữa mà chỉ đổi ruột thì chắc chắn lẫn. Nên đợt này thử **bốn hướng đổi khung hình cùng lúc** rồi đưa Thái duyệt — và kết quả là bài học lớn nhất của đợt:
+
+  | Hướng | Món | Thái duyệt |
+  |---|---|---|
+  | **Đổi vật đựng** | chảo gang đen (cơm rang) · ống nứa (cơm lam) · miếng tròn không vật đựng (cơm cháy) · hũ thuỷ tinh (cơm rượu) · bát sành nâu (bún ốc nguội) | ✅ đậu hết |
+  | **Đổi động tác** | đũa đang gắp viên mọc (bún mọc) | ✅ đậu |
+  | **Đổi góc nhìn** | nhìn thẳng từ trên (bún ốc) | ❌ *"nhìn từ trên xuống kỳ quá"* |
+  | **Cắt cận** | tô tràn khỏi khung (bún sứa, bún mọc) | ❌ *"cái tô bị lệch, mất cạnh bên trái"* |
+
+  **Luật rút ra — đã ghi vào phần 4:** lưới `/mon/` xếp 104 ô cùng cỡ cùng khuôn, nên quy ước "vật đựng nguyên vẹn, nhìn chếch từ trên" đã thành **ngữ pháp của cả trang**; phá nó thì người xem đọc ra *"hình lỗi"* chứ không ra *"góc chụp khác"*. Đổi vật đựng thì vẫn nằm trong ngữ pháp cũ, chỉ thay danh từ — nên đậu.
+
+  **Render sau nhóm hình đầu tiên lại cứu một lần nữa** (luật đợt 13): vẽ 4 tô teal rồi soi liền — **4/4 sai**. Sứa bay lơ lửng như lông chim · ruột ốc thành cái nấm · viên mọc thành bánh quy · miếng vịt thành cục gạch. Riêng viên mọc mất **ba vòng** (bánh quy → mặt cười → đạt).
+
+  **Vòng duyệt của Thái còn bắt thêm 5 lỗi "vẽ theo suy đoán, chưa tra":**
+  - **Bún măng vịt** vun măng thành đống NÂU cao → *"nhìn giống đống shit"*. Tra lại: măng nấu vịt là **vàng óng** và **nằm trải** trên mặt nước, không đắp gò. Sai cả màu lẫn bố cục.
+  - **Cơm cháy chà bông** xếp ba miếng chữ nhật chồng lên nhau → *"giống một đống bánh"*. Tra lại: bán ra là **một miếng TRÒN 20–25 cm**.
+  - **Cơm rang dưa bò** → *"giống cái nồi hơn cái chảo"* + *"không nhìn ra miếng bò, miếng dưa"*. Chảo phải **lòng nông vành loe** (nồi thì thành cao dựng thẳng); và sợi dưa tô vàng óng thì **lẫn hẳn vào hạt cơm cũng vàng** — đổi sang **vàng ngả xanh** mới tách, mà dưa cải muối thật cũng ngả xanh ô liu.
+  - **Cơm rượu** quấn dải **lá chuối xanh** quanh mỗi viên → *"cơm rượu đâu có màu xanh lá trong món ăn"*. Đúng: lá chuối là thứ dùng lúc **ủ**, tới lúc múc ra ăn đã bỏ. Bịa một màu không có thật.
+  - **Cơm lam** để ống chưa bẻ nằm trên ống đã bẻ, và có một khúc dựng đứng lạc lõng. Thỏi cơm mới là món nên phải nằm trên.
+
+  **Và 3 lỗi chữ:** *"nước chua giấm bỗng"* ở title bún ốc khó hiểu (giấm bỗng dùng **25 lần trên site mà chưa từng chú giải lần nào**, kể cả bún riêu cua — nay đã chú giải ở hai bài mới) · *"bún con"* là **tự chế**, từ chuẩn là **"bún lá"** (mỗi miếng gọi là một *vắt bún*, khác **bún rối** xới tơi vào tô) · *"sứa chân"* bỏ khỏi title và summary theo ý Thái, nhưng **giữ ở phần chọn mua** vì đó là chỗ nó còn làm việc — mua nhầm **sứa tai** thì miếng sứa mềm nhũn và nhạt.
+
+  **Ba chỗ nội dung đáng ghi:** ① **cơm rượu xếp vào kiểu món "Chè"** — phải nới định nghĩa ở `content.config.ts` và `_template.yaml` từ *"món ngọt nấu đường"* thành *"món ngọt, ngọt do nấu đường hay do ủ men đều được"*; cơm rượu ngọt do lên men chứ không do nấu, mà cách ăn và chỗ đứng trong bữa thì giống hệt mấy nồi chè. ② **cơm lam là món đầu tiên hơi lấn luật "nguyên liệu chính phải mua được ở chợ thường"** (ống nứa) — xử bằng cách nói thẳng trong FAQ và cho hẳn cách thay bằng lá chuối + giấy bạc, kèm câu *"nói thẳng là không giống bản gốc"*. ③ **cơm rượu gắn với Tết Đoan Ngọ** nhưng **chỉ nhắc đó là ngày trong lịch**, không đụng một chữ nào tới chuyện "giết sâu bọ" — cùng cách xử đã dùng cho chè đậu đỏ và Thất tịch ở đợt 13.
 - [x] Hai script QA thường trực trong `tools/` (`npm run qa`): quét bẫy YAML cả thư mục + soi trùng `id` chéo giữa các file art
 - [x] **Harness render hình ra PNG** (`npm run art-png`) — chế độ `--sheet` ghép nhiều hình một tấm ở cỡ thumbnail để soi chống-đụng; thứ contact sheet không làm được
 - [x] SEO: JSON-LD schema.org/Recipe, ảnh OG chia sẻ sinh lúc build, sitemap, robots.txt

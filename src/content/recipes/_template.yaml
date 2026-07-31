@@ -27,9 +27,11 @@ category: Canh          # Canh | Kho | Xào | Nướng | Cuốn | Gỏi | Chiên
 #                       # Bánh     = vỏ tráng/đổ từ bột gạo, dù chiên hay hấp
 #                       # Bánh mì  = ổ bánh mì kẹp nhân (bột MÌ nướng lò) — khác
 #                       #            hẳn "Bánh", đừng xếp lẫn
-#                       # Chè      = món NGỌT nấu đường, ăn bằng muỗng, dọn ngoài
-#                       #            bữa cơm. Kiểu món duy nhất tách theo VỊ, và
-#                       #            là kiểu món duy nhất của họ màu "Ngọt & mát"
+#                       # Chè      = món NGỌT, ăn bằng muỗng, dọn ngoài bữa cơm.
+#                       #            Ngọt do nấu đường là thường, nhưng không bắt
+#                       #            buộc — cơm rượu ngọt do ủ men vẫn xếp ở đây.
+#                       #            Kiểu món duy nhất tách theo VỊ, và là kiểu
+#                       #            món duy nhất của họ màu "Ngọt & mát"
 occasions: [Cơm nhà]    # BẮT BUỘC ít nhất 1 nhãn — để trống là build gãy.
 #                       # Cơm nhà | Bữa sáng | Đãi khách | Nhậu lai rai | Ăn chơi
 #                       # | Cho bé | Cỗ Tết

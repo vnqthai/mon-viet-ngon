@@ -1,0 +1,345 @@
+title: Cơm rượu **viên nếp ủ men, ngâm nước ngọt cay**
+summary: >-
+  Xôi nếp để nguội âm ấm, rắc **men ngọt** rồi vo thành từng viên tròn, ủ ba
+  ngày cho tiết nước. Múc ra chén, viên cơm mềm dẻo nằm trong thứ nước **ngọt
+  thanh, cay nồng nhẹ** do chính nó tự làm ra.
+region: Miền Nam
+category: Chè
+occasions: [Ăn chơi, Cỗ Tết]
+pubDate: 2026-07-31
+time:
+  total: 4 ngày (ủ men) — bắt tay làm chừng 1 giờ
+  active: 1 giờ
+servingsBase: 6
+difficulty: Vừa
+featured: false
+order: 104
+art: com-ruou
+heroEyebrow: Hũ thuỷ tinh để góc bếp, ngày thứ ba…
+
+quick:
+  ingredients:
+    - Nếp [[600|g]] — nếp trắng, hoặc **nếp cẩm** cho màu tím
+    - Men ngọt [[3|viên]] — loại men làm cơm rượu, mua ở hàng khô ngoài chợ
+    - Lá chuối [[3|tàu]] — lót hũ và quấn quanh viên
+    - Đường [[150|g]] — nấu với nước cơm rượu tiết ra
+    - Muối [[1|muỗng cà phê|frac]] — xóc vào nếp lúc đồ xôi
+  steps:
+    - Ngâm nếp **6 tiếng**, đồ thành xôi, dàn ra mâm cho nguội **âm ấm**.
+    - Giã men thật mịn, **rây đều** hai mặt xôi. Chia hai lượt cho khỏi sót chỗ.
+    - Vo viên tròn cỡ quả quất, quấn dải lá chuối quanh thân từng viên.
+    - Xếp vào hũ lót lá chuối, đậy hờ, ủ **3 ngày** nơi ấm, kê hứng nước.
+    - Gạn nước tiết ra, nấu với đường, để nguội rồi đổ lại, ủ thêm 1 ngày.
+  warning: >-
+    Rắc men lúc xôi còn nóng là **men chết**, ủ mấy ngày cũng không lên — mẻ đó
+    chua thiu rồi bỏ. Sờ tay vào xôi thấy **âm ấm như nước tắm** mới được rắc.
+
+flavor:
+  chua: 3
+  ngot: 7
+  man: 0
+  cay: 3
+  thom: 7
+flavorNote: >-
+  **Chuẩn hũ:** viên cơm **còn nguyên hình**, bấm vào mềm mà không nát thành
+  bột; nước tiết ra **trong, hơi sánh**, nếm thấy ngọt trước rồi cay nồng nhẹ
+  dâng lên mũi; ngửi thơm mùi men chứ không chua gắt.
+storyEyebrow: Chuyện món ăn
+storyTitle: Cùng nắm nếp, **ba miền làm ra ba thứ khác nhau**
+story:
+  - >-
+    Cơm rượu là món của **mùng 5 tháng 5** — Tết Đoan Ngọ — và là một trong số
+    ít món Việt mà cả ba miền đều làm, mỗi nơi một kiểu, khác nhau tới mức đặt
+    cạnh nhau khó nhận ra là họ hàng.
+  - >-
+    **Miền Nam** vo thành **viên tròn** như quả quất, mỗi viên quấn một dải lá
+    chuối, ủ xong ngập trong nước ngọt — múc ra chén ăn bằng muỗng, ngọt nhiều
+    và mềm. **Miền Bắc** gọi là **rượu nếp**, để **nguyên hạt rời**, gần như
+    không có nước, vị nhạt hơn mà mùi men nồng hơn, thường làm bằng nếp lứt hoặc
+    nếp cẩm. **Miền Trung** thì ép thành **khối vuông** rồi cắt thành miếng.
+  - >-
+    Ba kiểu ấy đều chạy trên cùng một nguyên lý: men ăn tinh bột của hạt nếp và
+    đổi nó thành đường, rồi đổi tiếp một phần đường thành rượu. Vậy nên vị của
+    hũ cơm rượu **thay đổi từng ngày** — ngày thứ hai còn ngọt gắt, ngày thứ ba
+    vừa, để tới ngày thứ năm là cay rõ và bớt ngọt. Ăn ngày nào là chuyện khẩu
+    vị, không có ngày nào sai.
+  - >-
+    Trên site này cơm rượu được xếp vào nhóm **Chè** — cùng chỗ với chè bưởi, chè
+    bà ba. Đúng chỗ của nó: món ngọt, ăn bằng muỗng, dọn ngoài bữa cơm. Chỉ khác
+    một điều so với mấy nồi chè kia — cái ngọt ở đây **không do mình nấu**, mà
+    do men làm ra trong ba ngày mình không đụng tới.
+
+ingredientGroups:
+  - name: Nếp và men
+    icon: rice
+    items:
+      - id: nepcru
+        name: Nếp
+        icon: rice
+        color: gold
+        base: 600
+        unit: g
+        note: >-
+          Nếp trắng hạt to đều là chuẩn. Dùng **nếp cẩm** (nếp than) thì hũ cơm
+          rượu lên màu tím sẫm rất đẹp và thơm hơn, đổi lại hạt cứng hơn nên
+          phải ngâm lâu hơn chừng 2 tiếng
+      - id: mencru
+        name: Men ngọt
+        icon: jar
+        base: 3
+        unit: viên
+        note: >-
+          Hỏi **men làm cơm rượu** ở hàng khô ngoài chợ — viên tròn dẹt màu
+          trắng ngà. Đừng lấy men nấu rượu, loại đó lên cay gắt. Chọn viên khô
+          ráo, không mốc xanh, không vụn nát
+      - id: muoicru
+        name: Muối
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Xóc vào nếp trước khi đồ — chút mặn nền làm vị ngọt sau này rõ hơn
+  - name: Lót và gói
+    icon: herb
+    items:
+      - id: lachuoicru
+        name: Lá chuối
+        icon: herb
+        color: green
+        base: 3
+        unit: tàu
+        note: >-
+          Rửa sạch, trụng nước sôi cho mềm rồi lau khô. Cắt dải nhỏ quấn quanh
+          từng viên, phần còn lại lót đáy hũ
+      - id: huthuytinhcru
+        name: Hũ thuỷ tinh hoặc thố sứ
+        icon: bottle
+        qtyText: 1 hũ miệng rộng
+        note: >-
+          Rửa sạch, tráng nước sôi, **lau thật khô**. Đừng dùng đồ kim loại —
+          men gặp kim loại thì hũ dễ hỏng
+      - id: rakecru
+        name: Rá hoặc rổ kê trên thau
+        icon: basket
+        qtyText: 1 bộ
+        note: Xếp viên lên rá, kê trên thau sạch để hứng nước tiết ra trong lúc ủ
+  - name: Nước chan
+    icon: drop
+    items:
+      - id: duongcru
+        name: Đường
+        icon: jar
+        base: 150
+        unit: g
+        note: >-
+          Nấu với nước cơm rượu đã hứng được. Đường phèn cho nước trong hơn,
+          đường cát thì nhanh tan hơn — cái nào cũng được
+      - id: nuoclocru
+        name: Nước lọc
+        icon: drop
+        qtyText: 100–200 ml
+        note: Chỉ thêm nếu nước tiết ra quá ít — đừng pha loãng nhiều kẻo mất vị
+
+steps:
+  - title: Ngâm và đồ xôi
+    icon: rice
+    minutes: 1 tiếng
+    intro: "Xôi phải chín tới mà hạt còn rời — nhão là hỏng cả mẻ:"
+    bullets:
+      - label: "Ngâm:"
+        text: >-
+          Vo nếp 2–3 nước, ngâm ngập nước lạnh **6 tiếng** (nếp cẩm thì
+          **8 tiếng**). Bấm thử hạt vỡ ra bột trắng là đủ.
+      - label: "Đồ xôi:"
+        text: >-
+          Để ráo [[15|phút]], xóc [[1|muỗng cà phê|frac]] muối, đồ trong chõ
+          hoặc xửng **35–40 phút** tới khi hạt trong và dẻo. Nếu dùng nồi cơm
+          điện thì cho nước **ít hơn nấu cơm thường**, chỉ xâm xấp mặt nếp.
+      - label: "Kiểm:"
+        text: >-
+          Hạt xôi phải **chín đều, rời, không bết**. Xôi nhão thì lát nữa vo
+          viên là nát, và ủ ra nước đục.
+    callout:
+      type: warn
+      text: >-
+        Xôi khô sượng cũng hỏng chứ không riêng xôi nhão — men không ăn được vào
+        lõi hạt còn sống, ủ ba ngày vẫn cứng nguyên. Bấm thử vài hạt ở giữa chõ
+        trước khi tắt bếp.
+  - title: Để nguội âm ấm rồi rắc men
+    icon: clock
+    minutes: 30 phút
+    intro: "Bước quyết định mẻ cơm rượu sống hay chết:"
+    bullets:
+      - label: "Dàn ra cho nguội:"
+        text: >-
+          Trút xôi ra mâm rộng, dàn mỏng, để nguội tự nhiên chừng
+          **25–30 phút**. Đích đến là **âm ấm như nước tắm** — sờ mu bàn tay vào
+          thấy ấm mà không nóng.
+      - label: "Giã men:"
+        text: >-
+          Bóc bỏ lớp trấu bám ngoài viên men, giã hoặc xay thật mịn, **rây qua
+          rây** cho hết cục.
+      - label: "Rắc hai lượt:"
+        text: >-
+          Rây một nửa men lên mặt xôi, trộn nhẹ, lật mặt rồi rây nốt nửa còn
+          lại. Chia hai lượt thì men phủ đều, không chỗ dày chỗ sót.
+    callout:
+      type: warn
+      text: >-
+        Nóng thì **men chết**, lạnh hẳn thì **men ngủ**. Cả hai đều cho ra một
+        mẻ không lên, để ba ngày chỉ thấy chua thiu. Nếu lỡ để nguội quá thì hong
+        lại cho ấm nhẹ rồi mới rắc, đừng rắc lên xôi lạnh.
+  - title: Vo viên, quấn lá chuối
+    icon: knife
+    minutes: 25 phút
+    bullets:
+      - label: "Vo viên:"
+        text: >-
+          Nhúng tay vào **nước muối loãng** rồi véo xôi vo tròn cỡ **quả quất**.
+          Nhúng tay lại sau mỗi vài viên cho khỏi dính. Nén vừa tay thôi — chặt
+          quá thì men không vào được lõi.
+      - label: "Quấn lá:"
+        text: >-
+          Cắt lá chuối thành dải rộng chừng 2 cm, quấn một vòng quanh thân mỗi
+          viên. Đây là lối miền Nam: lá chuối vừa giữ viên khỏi dính nhau, vừa
+          cho hũ cơm rượu thêm mùi.
+      - text: >-
+          Xếp viên lên **rá kê trên thau sạch**, đặt cách nhau chút, phủ lá
+          chuối lên trên.
+    callout:
+      type: tip
+      text: >-
+        Muốn nhanh thì bỏ khâu quấn lá, chỉ **lót lá chuối ở đáy và phủ lên
+        trên**. Viên sẽ hơi dính nhau nhưng gỡ ra được, và vị gần như không khác.
+        Khâu quấn lá là để đẹp và thơm hơn, không phải bắt buộc.
+  - title: Ủ ba ngày
+    icon: pot
+    minutes: 3 ngày
+    bullets:
+      - label: "Đặt chỗ ấm:"
+        text: >-
+          Để nguyên bộ rá-thau ở góc bếp **ấm, kín gió, tránh nắng gắt**. Đậy
+          bằng khăn hoặc vung để hờ — cần thoáng khí, đừng bịt kín.
+      - label: "Ngày thứ nhất:"
+        text: >-
+          Chưa thấy gì nhiều, có thể thoảng mùi men. Không đụng vào.
+      - label: "Ngày thứ hai:"
+        text: >-
+          Bắt đầu **rỉ nước xuống thau**, mùi men dậy rõ. Viên cơm mềm xuống.
+      - label: "Ngày thứ ba:"
+        text: >-
+          Nước ra nhiều, nếm thử thấy **ngọt và hơi cay nồng** là đạt. Chuyển
+          hết viên vào hũ thuỷ tinh, đổ nước đã hứng vào.
+    timer:
+      secs: 3600
+      label: Hẹn giờ ghé xem hũ · 60:00
+      doneMsg: Ghé nhìn xem đã rỉ nước chưa nghen — đừng mở ra nhiều!
+    callout:
+      type: warn
+      text: >-
+        **Đừng mở ra ngó nhiều lần.** Mỗi lần mở là hơi ấm thoát và bụi vào,
+        men chậm lại còn hũ thì dễ hỏng. Ngày một lần, nhìn nhanh rồi đậy.
+  - title: Nấu nước đường, để thêm một ngày
+    icon: spoon
+    minutes: 15 phút
+    bullets:
+      - label: "Gạn nước:"
+        text: >-
+          Gạn phần nước cơm rượu đã hứng dưới thau, lọc qua rây cho trong.
+      - label: "Nấu đường:"
+        text: >-
+          Đun nước đó với [[150|g]] đường cho tan, **đừng đun sôi già** — sôi
+          lâu là bay hết mùi men. Nếu nước quá ít thì thêm chút nước lọc.
+      - label: "Để nguội rồi đổ lại:"
+        text: >-
+          Để **nguội hẳn** mới rót vào hũ đựng viên cơm rượu. Rót lúc còn nóng
+          là làm chín viên và giết nốt men còn lại.
+      - label: "Ủ thêm:"
+        text: >-
+          Đậy hũ, để thêm **1 ngày** cho viên ngấm nước ngọt. Sau đó cất ngăn
+          mát và ăn dần.
+    doneText: Xong — múc ra chén, ăn mát mới đã!
+
+tipsTitle: 4 chỗ **quyết định** hũ cơm rượu
+tips:
+  - icon: alert
+    title: "\"Âm ấm\" là mốc quan trọng nhất của cả món"
+    text: >-
+      Không có nhiệt kế thì dùng mu bàn tay: đặt lên mặt xôi thấy **ấm dễ chịu,
+      giữ được lâu mà không phải rụt tay** là đúng. Nóng tới mức phải rụt tay
+      thì men chết; nguội bằng nhiệt độ phòng thì men ì. Cả mẻ ba ngày phụ thuộc
+      vào đúng một cái chạm tay này.
+  - icon: bulb
+    title: Rây men, đừng rắc thẳng
+    text: >-
+      Viên men giã ra luôn còn cục. Rắc thẳng thì chỗ dính cục men lên rất mạnh
+      và **cay gắt**, chỗ không có men thì cứng nguyên — một hũ mà hai kiểu. Rây
+      qua rây lọc, chia hai lượt hai mặt, là cả hũ lên đều.
+  - icon: clock
+    title: Nếm thử mỗi ngày rồi tự chọn ngày dừng
+    text: >-
+      Ngày thứ hai còn ngọt gắt và ít cay; ngày thứ ba là chỗ đa số người thích;
+      ngày thứ tư, thứ năm thì cay rõ và bớt ngọt dần. Không có mốc đúng — cứ
+      **nếm mỗi ngày một viên**, tới lúc vừa miệng thì cho vào ngăn mát để hãm
+      lại.
+  - icon: drop
+    title: Đồ dùng phải khô ráo tuyệt đối
+    text: >-
+      Một giọt nước lã dính trong hũ hay trên tay là đủ để mẻ cơm rượu **nổi mốc
+      và chua thiu** thay vì lên men ngọt. Tráng hũ bằng nước sôi rồi úp cho khô
+      hẳn, lau tay khô trước khi vo viên. Đây là lỗi làm hỏng mẻ nhiều thứ hai,
+      sau lỗi rắc men lúc xôi nóng.
+
+serve:
+  title: Múc ra chén nhỏ — **ăn mát mới đã**
+  paras:
+    - >-
+      Cơm rượu ăn lạnh mới đúng: cất hũ trong ngăn mát, lúc ăn múc vài viên ra
+      chén nhỏ, chan ngập nước của chính nó. Ăn bằng muỗng, viên cơm mềm tan
+      trong miệng rồi mới tới cái cay nồng nhẹ dâng lên.
+    - >-
+      Miền Nam có lối ăn kèm rất được: xúc một muỗng cơm rượu ăn cùng một muỗng
+      **xôi vò** — xôi khô tơi gặp viên cơm ướt ngọt, hai kết cấu bù cho nhau.
+      Ngày mùng 5 tháng 5 nhà nào cũng dọn hai thứ đó cạnh nhau.
+  aside:
+    title: Dọn thế nào cho đúng
+    intro: "Ba điều nhỏ mà đổi hẳn cách ăn:"
+    items:
+      - icon: bowl
+        text: "**Chén nhỏ, ăn bằng muỗng** — đây là món nhấm nháp, không phải món no."
+      - icon: rice
+        text: "**Xôi vò ăn kèm** — khô tơi đi với viên cơm ướt, lối miền Nam."
+      - icon: drop
+        text: "**Chan ngập nước** — phần nước là nửa cái ngon, đừng gạn bỏ."
+
+faq:
+  - q: Ba ngày rồi mà hũ không ra nước, viên vẫn cứng?
+    a: >-
+      Gần như chắc chắn là **men không sống**. Ba nguyên nhân thường gặp: rắc
+      men lúc xôi còn nóng, để hũ ở chỗ quá lạnh, hoặc viên men mua về đã cũ và
+      mốc. Mẻ đó không cứu được. Lần sau kiểm ba chỗ đó, và mua men ở hàng bán
+      chạy để chắc men còn mới.
+  - q: Mở hũ ra thấy mốc xanh hoặc mùi chua gắt thì sao?
+    a: >-
+      **Bỏ cả mẻ**, đừng tiếc và đừng gạt lớp mốc đi rồi ăn phần dưới. Nguyên
+      nhân gần như luôn là dụng cụ hoặc tay còn ẩm, hoặc hũ đậy quá kín nên đọng
+      hơi nước. Cơm rượu đạt thì ngửi **thơm mùi men**, chua nhẹ; chua gắt và
+      xộc mũi là đã hỏng.
+  - q: Cơm rượu có nhiều rượu không, trẻ con ăn được không?
+    a: >-
+      Lượng rượu rất ít ở ngày thứ ba và **tăng dần** những ngày sau. Trẻ nhỏ ăn
+      một hai viên thì bình thường, nhưng nên lấy từ hũ mới ủ xong chứ đừng lấy
+      hũ đã để cả tuần, và đừng cho ăn nhiều. Muốn nhẹ hẳn thì cho vào ngăn mát
+      sớm từ ngày thứ ba — lạnh làm men gần như dừng lại.
+  - q: Làm bản miền Bắc thì khác chỗ nào?
+    a: >-
+      Bỏ hẳn khâu vo viên: xôi rắc men xong cứ **để nguyên hạt rời** trong thố,
+      lót lá chuối hoặc lá sen, ủ 2–3 ngày. Ra thành phẩm ít nước hơn nhiều, vị
+      nhạt hơn và mùi men nồng hơn. Ngoài Bắc gọi là **rượu nếp**, hay dùng
+      **nếp lứt** hoặc nếp cẩm chứ ít khi dùng nếp trắng.
+
+ticker:
+  - icon: rice
+    text: Xôi để âm ấm mới được rắc men
+  - icon: clock
+    text: Ủ ba ngày, nếm mỗi ngày một viên
+  - icon: drop
+    text: Nước ngọt cay là do chính nó tiết ra

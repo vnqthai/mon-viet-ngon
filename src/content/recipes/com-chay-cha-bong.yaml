@@ -1,0 +1,325 @@
+title: Cơm cháy chà bông **giòn rụm, mỡ hành sóng sánh**
+summary: >-
+  Cơm nguội ép mỏng, **phơi cho thật khô** rồi thả vào chảo dầu nóng già — miếng
+  cơm nở bung, giòn tan. Rưới mỡ hành, rắc chà bông, chan chút sốt mắm đường
+  cay: món ăn vặt làm từ đúng thứ nhà nào cũng có dư.
+region: Miền Nam
+category: Cơm
+occasions: [Ăn chơi, Cho bé]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ (+ phơi khô 4 giờ)
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 101
+art: com-chay-cha-bong
+heroEyebrow: Nồi cơm còn dư từ tối qua…
+
+quick:
+  ingredients:
+    - Cơm nguội [[800|g]] — cơm hơi khô, để qua đêm là tốt nhất
+    - Chà bông [[100|g]] — heo hoặc gà, loại sợi bông tơi
+    - Hành lá [[1|nắm]] + dầu ăn [[4|muỗng canh|frac]] — làm mỡ hành
+    - Dầu chiên [[500|ml]] — chiên ngập, dùng lại được
+    - "Sốt: nước mắm [[2|muỗng canh|frac]] · đường [[2|muỗng canh|frac]] · ớt bột · tỏi"
+  steps:
+    - Ép cơm thành miếng mỏng **dưới 5 mm**, càng mỏng càng dễ giòn.
+    - Sấy hoặc phơi tới khi miếng cơm **cứng như bìa**, bẻ nghe rắc.
+    - Dầu nóng già (thả hạt cơm nổi liền) mới thả — chiên tới vàng nở.
+    - Chưng mỡ hành, nấu sốt mắm đường cho hơi sánh.
+    - Rưới sốt, rưới mỡ hành, rắc chà bông. Ăn liền lúc còn giòn.
+  warning: >-
+    Cơm chưa khô hẳn mà thả vào chảo là **bắn dầu tung toé** và miếng cơm không
+    nở, ăn vừa dai vừa ngấm dầu. Bẻ thử một miếng: gãy giòn nghe "rắc" mới được
+    chiên.
+
+flavor:
+  chua: 1
+  ngot: 5
+  man: 6
+  cay: 3
+  thom: 6
+flavorNote: >-
+  **Chuẩn miếng:** cắn nghe **giòn rụm** rồi vỡ vụn chứ không dai; mặt cơm vàng
+  nhạt đều, không chỗ nâu chỗ trắng; sốt thấm mỏng ở mặt trên mà **đáy miếng vẫn
+  khô ráo** — sốt nhiều quá thì miếng cơm ỉu trong năm phút.
+storyEyebrow: Chuyện món ăn
+storyTitle: Từ **lớp cháy đáy nồi** thành món ăn vặt bán cả thùng
+story:
+  - >-
+    Cơm cháy vốn không phải món ai nấu ra cả — nó là **lớp cơm sém dưới đáy nồi
+    gang**, thứ ngày xưa gạt ra để riêng. Vùng Ninh Bình lấy lớp cháy đó phơi
+    khô rồi chiên phồng lên, ăn với **sốt tim cật** đậm và béo; đó là bản cổ,
+    và tới giờ vẫn là đặc sản của vùng.
+  - >-
+    Vào tới Sài Gòn thì món đổi vai hẳn. Người ta thôi chờ đáy nồi mà **chủ động
+    làm ra miếng cơm cháy** từ cơm nguội, ép mỏng cho đều, và thay chén sốt đậm
+    bằng ba thứ nhẹ hơn: **mỡ hành, chà bông, chút sốt mắm đường cay**. Từ món
+    ăn kèm bữa cơm, nó thành **món ăn vặt** — đóng bịch, để lâu, mang đi được.
+  - >-
+    Cái hay nằm ở chỗ nó giải quyết một chuyện có thật trong mọi bếp: nồi cơm
+    hôm qua còn dư. Cơm nguội để tủ lạnh thì hạt se lại, **mất nước, rời ra** —
+    đúng thứ tính chất cần để miếng cơm cháy nở giòn. Nấu cơm mới mà làm thì
+    ngược lại, phải hong khô mất công hơn nhiều.
+  - >-
+    Trên site đã có **cơm chiên cá mặn** cũng là món cứu cơm nguội. Nhưng cơm
+    chiên giữ hạt rời và ăn thay bữa; còn cơm cháy thì ép hạt **dính thành
+    mảng** rồi làm cho giòn — cùng một nắm cơm nguội, hai đường đi ngược nhau.
+
+ingredientGroups:
+  - name: Miếng cơm cháy
+    icon: rice
+    items:
+      - id: comnguoiccb
+        name: Cơm nguội
+        icon: rice
+        color: gold
+        base: 800
+        unit: g
+        note: >-
+          Cơm để qua đêm trong ngăn mát là hợp nhất — hạt se, rời, ít nước.
+          Cơm nấu nhão thì ép không thành miếng, làm mẻ này coi như hỏng
+      - id: muoiccb
+        name: Muối
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Trộn vào cơm trước khi ép — nêm sẵn thì miếng cơm tự nó đã có vị
+      - id: dauchienccb
+        name: Dầu chiên
+        icon: bottle
+        base: 500
+        unit: ml
+        note: >-
+          Chiên ngập nên cần nhiều, nhưng lọc lại dùng tiếp được. Chọn dầu
+          chịu nhiệt tốt như dầu đậu nành hoặc dầu cọ
+  - name: Mỡ hành và sốt
+    icon: pot
+    items:
+      - id: hanhlaccb
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Cắt nhỏ phần lá xanh, chừa phần trắng xào riêng cho thơm
+      - id: dauhanhccb
+        name: Dầu ăn (làm mỡ hành)
+        icon: bottle
+        base: 4
+        unit: muỗng canh
+        frac: true
+        note: Đun nóng già rồi **tắt bếp** mới đổ vào hành, đừng đun hành trên lửa
+      - id: mamduongccb
+        name: Nước mắm + đường
+        icon: bottle
+        qtyText: 2 muỗng canh mắm · 2 muỗng canh đường
+        note: Nấu cho hơi sánh lại thành sốt, để nguội bớt mới rưới
+      - id: otoiccb
+        name: Ớt bột + tỏi băm
+        icon: chili
+        color: red
+        qtyText: 1 muỗng cà phê ớt · 2 tép tỏi
+        note: Phi tỏi trước rồi mới cho ớt bột, tắt bếp ngay kẻo cháy
+  - name: Rắc lên trên
+    icon: basket
+    items:
+      - id: chabongccb
+        name: Chà bông
+        icon: meat
+        color: amber
+        base: 100
+        unit: g
+        note: >-
+          Ngoài Bắc gọi là **ruốc**. Chọn loại sợi bông tơi, khô ráo; loại ẩm
+          và bết thì rắc lên miếng cơm là hút hơi, làm ỉu cả miếng
+      - id: hanhphiccb
+        name: Hành phi
+        icon: onion
+        qtyText: 2 muỗng canh
+        note: Rắc sau cùng cho có thêm một tầng giòn khác kiểu
+
+steps:
+  - title: Ép cơm thành miếng mỏng
+    icon: knife
+    minutes: 20 phút
+    intro: "Độ mỏng quyết định miếng cơm có nở giòn hay không:"
+    bullets:
+      - label: "Trộn muối:"
+        text: >-
+          Cơm nguội bóp cho tơi, trộn [[1|muỗng cà phê|frac]] muối. Nếu cơm quá
+          khô rời thì rưới một hai muỗng nước cho hạt chịu dính nhau.
+      - label: "Ép:"
+        text: >-
+          Trải giấy nến lên khay, đổ cơm lên, phủ thêm một lớp giấy nến rồi
+          **cán hoặc miết cho thật phẳng**, dày **dưới 5 mm**. Ép càng chặt thì
+          miếng càng liền, chiên xong không vỡ vụn.
+      - label: "Chia miếng:"
+        text: >-
+          Dùng dao rạch sẵn thành miếng vuông cỡ bàn tay hoặc hình tròn. Rạch
+          lúc còn ẩm, khô rồi thì bẻ ra lởm chởm.
+    callout:
+      type: warn
+      text: >-
+        Ép dày quá thì bên ngoài cháy mà lõi còn dai — đây là lỗi hay gặp nhất.
+        Thà làm hai khay mỏng còn hơn một khay dày.
+  - title: Làm khô miếng cơm
+    icon: clock
+    minutes: 4 tiếng
+    intro: "Chọn một trong ba cách, đích đến giống nhau:"
+    bullets:
+      - label: "Phơi nắng:"
+        text: >-
+          Phơi **4–6 tiếng** dưới nắng gắt, lật một lần giữa chừng. Cách rẻ nhất
+          và cho miếng cơm nở đẹp nhất.
+      - label: "Lò hoặc nồi chiên không dầu:"
+        text: >-
+          Sấy **100 °C trong 40–60 phút**, lật giữa chừng. Nhanh hơn nhiều và
+          không phụ thuộc trời.
+      - label: "Chảo:"
+        text: >-
+          Đặt miếng cơm lên chảo chống dính **không dầu**, lửa nhỏ, **miết muỗng
+          xuống mặt cơm** cho khô dần rồi lật mặt kia. Cách này vừa làm khô vừa
+          làm miếng cơm kết dính chắc hơn.
+      - label: "Thử:"
+        text: >-
+          Bẻ một góc: gãy **giòn nghe "rắc"**, mặt bẻ khô ráo là được. Còn dẻo
+          hay còn dai thì làm tiếp.
+    callout:
+      type: tip
+      text: >-
+        Sấy khô xong để nguội rồi cất hộp kín được **cả tuần** — tới lúc muốn ăn
+        mới chiên. Làm sẵn một mẻ lớn rồi chiên dần là cách đỡ công nhất.
+  - title: Chiên ngập dầu
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - label: "Đun dầu:"
+        text: >-
+          Đổ dầu ngập chừng 3 cm, đun **nóng già**. Thử bằng cách thả một hạt
+          cơm: hạt **nổi lên và sủi ngay** là đạt; hạt chìm xuống đáy là dầu
+          còn nguội.
+      - label: "Chiên:"
+        text: >-
+          Thả từng miếng, chiên **30–60 giây mỗi mặt** tới khi cơm nở phồng và
+          ngả **vàng nhạt**. Đừng chờ tới vàng nâu — lúc vớt ra nó còn sẫm thêm.
+      - label: "Ráo dầu:"
+        text: >-
+          Vớt ra vỉ hoặc giấy thấm, dựng nghiêng cho dầu chảy hết. Để nguội hẳn
+          thì miếng cơm mới giòn tới đỉnh.
+    callout:
+      type: warn
+      text: >-
+        Dầu chưa đủ nóng là miếng cơm **hút dầu** thay vì nở — ăn vào vừa nặng
+        vừa ỉu, mà đã ngấm rồi thì chiên lại cũng không cứu. Chiên từng mẻ ít,
+        đừng thả nhiều một lúc làm tụt nhiệt chảo.
+  - title: Mỡ hành, sốt, rồi rắc
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - label: "Mỡ hành:"
+        text: >-
+          Hành lá cắt nhỏ cho vào tô. Đun [[4|muỗng canh|frac]] dầu **thật nóng
+          rồi tắt bếp**, đổ ào lên hành, đảo nhanh. Hành xanh đậm lại và dậy
+          mùi là được.
+      - label: "Sốt:"
+        text: >-
+          Phi tỏi băm thơm, cho [[2|muỗng canh|frac]] nước mắm + [[2|muỗng
+          canh|frac]] đường + chút nước, đun nhỏ lửa tới khi **hơi sánh**. Tắt
+          bếp rồi mới rắc ớt bột vào.
+      - label: "Hoàn thiện:"
+        text: >-
+          Xếp cơm cháy ra dĩa, **phết mỏng** sốt lên mặt, rưới mỡ hành, rắc chà
+          bông rồi rắc hành phi. Ăn ngay.
+    callout:
+      type: warn
+      text: >-
+        **Đừng chan sốt như chan cơm.** Chỉ phết một lớp mỏng ở mặt trên; sốt
+        thấm xuống là miếng cơm mềm oặt trong vài phút. Muốn để dành thì để sốt
+        riêng một chén, ăn tới đâu chấm tới đó.
+    doneText: Xong — ăn liền lúc còn nghe rụm!
+
+tipsTitle: 4 chỗ **quyết định** mẻ cơm cháy
+tips:
+  - icon: rice
+    title: Cơm nguội qua đêm, không phải cơm mới
+    text: >-
+      Cơm vừa nấu còn nhiều nước, ép ra miếng bết và sấy rất lâu. Cơm để ngăn
+      mát qua đêm thì hạt **se lại và rời** — ép thành miếng vẫn dính nhau nhờ
+      tinh bột, mà sấy nhanh hơn hẳn. Đây là món sinh ra để dùng cơm dư, đừng
+      nấu nồi mới cho nó.
+  - icon: alert
+    title: Bẻ thử trước khi chiên, đừng đoán bằng mắt
+    text: >-
+      Nhìn thì miếng cơm khô lâu rồi, nhưng lõi có thể vẫn ẩm. Bẻ một góc: gãy
+      **giòn nghe rắc**, mặt bẻ khô ráo mới thả vào chảo. Bỏ qua phép thử này
+      là vừa bắn dầu vừa ra mẻ cơm dai — mất cả buổi phơi.
+  - icon: flame
+    title: Vớt ra lúc còn vàng nhạt
+    text: >-
+      Miếng cơm **sẫm thêm sau khi vớt** vì còn nóng. Chiên tới vàng nâu trong
+      chảo thì lên dĩa thành nâu sậm và đắng. Canh ở mức **vàng nhạt** rồi vớt,
+      để nguội sẽ vừa đúng.
+  - icon: spoon
+    title: Sốt để riêng nếu không ăn hết trong ngày
+    text: >-
+      Cơm cháy đã rưới sốt thì chỉ giòn được chừng nửa tiếng. Làm nhiều thì cất
+      cơm không vào hộp kín, mỡ hành và sốt để hai hũ riêng trong ngăn mát —
+      lúc ăn mới rưới. Miếng cơm giữ được cả tuần bằng cách đó.
+
+serve:
+  title: Món để **nhâm nhi**, không phải để no
+  paras:
+    - >-
+      Cơm cháy chà bông là món ăn vặt: dọn ra dĩa lớn giữa bàn, ai đi qua bốc
+      một miếng. Ăn no bằng nó thì nặng bụng vì miếng nào cũng qua chảo dầu —
+      cứ coi như món của buổi chiều hoặc món dọn lúc có khách ghé chơi.
+    - >-
+      Trẻ con rất thích món này, mà cũng dễ chiều: làm riêng vài miếng **không
+      rắc ớt**, chỉ mỡ hành và chà bông. Miếng cơm giòn ngọt nhạt, không cay,
+      không xương xẩu gì.
+  aside:
+    title: Bày dĩa cho ngon mắt
+    intro: "Ba thứ rắc lên, thứ tự có ý nghĩa:"
+    items:
+      - icon: drop
+        text: "**Sốt mắm đường** — phết mỏng trước, chỉ ở mặt trên."
+      - icon: herb
+        text: "**Mỡ hành** — rưới sau sốt, cho miếng cơm có mảng xanh."
+      - icon: meat
+        text: "**Chà bông và hành phi** — rắc sau cùng, đừng rắc sớm kẻo hút ẩm."
+
+faq:
+  - q: Làm bằng nồi chiên không dầu được không?
+    a: >-
+      Được cả hai khâu. **Khâu sấy**: 100 °C trong 40–60 phút. **Khâu làm
+      giòn**: xịt một lớp dầu mỏng lên hai mặt rồi quay 180 °C chừng 8–10 phút,
+      lật giữa chừng. Miếng cơm sẽ giòn nhưng **không nở phồng** như chiên ngập
+      dầu — nhẹ hơn, mà cũng kém xốp hơn. Đổi lại thì đỡ dầu và đỡ dọn.
+  - q: Miếng cơm chiên xong bị vỡ vụn hết là vì sao?
+    a: >-
+      Do lúc ép chưa đủ chặt, hạt cơm không bám nhau. Lần sau ép mạnh tay hơn
+      qua lớp giấy nến, và nếu cơm quá khô rời thì rưới **một hai muỗng nước**
+      trộn đều trước khi ép — chút ẩm đó giúp tinh bột kết dính, sấy khô rồi vẫn
+      liền miếng.
+  - q: Cơm cháy này với cơm cháy Ninh Bình khác nhau thế nào?
+    a: >-
+      **Ninh Bình** là bản gốc: lấy đúng lớp cháy dưới đáy nồi gang, phơi rồi
+      chiên, ăn với **sốt tim cật** đậm và béo, dọn như món trong bữa. **Bản Sài
+      Gòn** thì chủ động ép cơm nguội thành miếng, ăn với **mỡ hành, chà bông,
+      sốt mắm đường cay**, và là món ăn vặt đóng bịch mang đi. Cùng cái tên,
+      khác hẳn cách ăn.
+  - q: Dầu chiên xong bỏ đi à?
+    a: >-
+      Đừng bỏ. Để nguội, lọc qua rây lót giấy thấm rồi cất chai kín — dùng lại
+      được **hai ba lần** cho chính món này hoặc để chiên hành. Chỉ bỏ khi dầu
+      ngả nâu sậm, có cặn đen hoặc bốc khói sớm.
+
+ticker:
+  - icon: rice
+    text: Cơm nguội ép mỏng, phơi cho khô rang
+  - icon: flame
+    text: Dầu nóng già mới thả, miếng cơm nở bung
+  - icon: meat
+    text: Mỡ hành, chà bông, chút sốt cay

@@ -208,8 +208,8 @@ Từ đợt 10, hình **không** nhúng thẳng vào trang nữa. Endpoint
 `src/pages/art/[kind].svg.ts` xuất mỗi hình ra `/art/<kind>.svg` lúc build, còn
 thẻ món gọi bằng `<img loading="lazy">` (`art/ArtImg.astro`). Kết quả: `/mon/`
 từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**
-(nay là **30,9 KB** ở 95 món — đo trên máy chủ, tức
-**0,21 KB/món** cho 13 món của đợt 13);
+(nay là **~32,9 KB** ở 104 món — *ước từ số cục bộ ×1,02*, tức
+**0,22 KB/món** cho 9 món của đợt 14, khớp với 0,21 KB/món đo thật ở đợt 13);
 ba trang (`/mon/`, trang chủ, trang chi tiết) dùng chung một file đã cache.
 
 Ba ràng buộc mới với file art, `npm run qa` chặn cả ba:

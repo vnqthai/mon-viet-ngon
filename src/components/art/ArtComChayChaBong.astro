@@ -1,0 +1,157 @@
+---
+/* Cơm cháy chà bông — MỘT MIẾNG TRÒN TO nằm giữa khung, không vật đựng.
+
+   BẢN 1 XẾP BA MIẾNG CHỮ NHẬT CHỒNG LÊN NHAU — THÁI TRẢ LẠI: "nhìn giống 1
+   đống bánh, không giống cơm cháy tí nào". Tra lại mới biết vẽ sai hình dạng
+   thật: cơm cháy chà bông bán ra là **một miếng TRÒN, đường kính 20–25 cm**,
+   phủ kín mặt bằng chà bông và sốt — chứ không phải mấy thanh chữ nhật nhỏ.
+   Chồng ba miếng nhỏ lại càng đọc thành chồng bánh quy. Nay vẽ một miếng tròn
+   to chiếm gần hết khung, thêm một mảnh bẻ dở dựng nghiêng để lộ BỀ DÀY.
+
+   CHỮ KÝ nhận dạng:
+   1) ĐƯỜNG BAO GỒ GHỀ có HẠT NẾP NỔ nhô hẳn ra ngoài mép — luật đợt 10: cảm
+      giác giòn nằm ở đường bao chứ không ở màu. Mép nhẵn thì đọc ra lát bánh mì
+   2) MẶT MIẾNG RỖ nhiều lỗ to nhỏ khác nhau, đó là chỗ cơm nở bung khi chiên
+   3) CHÀ BÔNG vẽ thành TÚM SỢI MẢNH XOĂN, không vẽ thành mảng — sợi tơi mới ra
+      chà bông, mảng đặc thì đọc ra miếng phô mai bào
+   4) MỘT MẢNH BẺ DỞ dựng nghiêng tựa vào miếng chính — đó là chỗ duy nhất thấy
+      được BỀ DÀY, mà bề dày là thứ nói ra "miếng này giòn"
+   5) đạo cụ: chén SỐT ĐỎ CAM nhỏ — chén duy nhất trong khung, đặt thấp
+   Không vẽ khói: món này ăn nguội cũng được, và giòn thì không bốc hơi.
+   id prefix "ccbg" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Một miếng cơm cháy tròn to vàng giòn, mép gồ ghề lấm tấm hạt nếp nổ, mặt phủ chà bông sợi, mỡ hành xanh và sốt đỏ cam, một mảnh bẻ dở dựng nghiêng bên cạnh và một chén sốt nhỏ">
+  <defs>
+    <linearGradient id="ccbgMieng" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#EFC469"/><stop offset="1" stop-color="#BE8322"/>
+    </linearGradient>
+    <linearGradient id="ccbgCanh" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C48D2C"/><stop offset="1" stop-color="#8E5C11"/>
+    </linearGradient>
+    <linearGradient id="ccbgSot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E2641C"/><stop offset="1" stop-color="#A8390A"/>
+    </linearGradient>
+
+    <!-- MIẾNG CƠM CHÁY: hình TRÒN (đúng cỡ bán ngoài hàng), mép GỒ GHỀ do hạt
+         nếp nổ, mặt RỖ lỗ to nhỏ -->
+    <g id="ccbgLat">
+      <path d="M-124 -14 C -120 -40 -96 -58 -66 -66 C -34 -74 4 -74 38 -66 C 74 -58 104 -40 112 -14
+               C 118 8 106 30 78 42 C 46 56 -34 58 -76 44 C -108 33 -128 12 -124 -14 Z"
+            fill="url(#ccbgMieng)" stroke="#7E4E0C" stroke-width="2.8" stroke-linejoin="round"/>
+      <!-- lỗ rỗ: to nhỏ lệch nhau, không rải đều -->
+      <g fill="#A8700F" opacity=".85">
+        <ellipse cx="-80" cy="-24" rx="11" ry="7" transform="rotate(-14 -80 -24)"/>
+        <ellipse cx="-34" cy="2" rx="8" ry="5" transform="rotate(8 -34 2)"/>
+        <ellipse cx="6" cy="-30" rx="13" ry="7.6" transform="rotate(-6 6 -30)"/>
+        <ellipse cx="48" cy="10" rx="9" ry="5.6" transform="rotate(16 48 10)"/>
+        <ellipse cx="82" cy="-20" rx="10" ry="6" transform="rotate(-10 82 -20)"/>
+        <ellipse cx="-56" cy="26" rx="8.4" ry="5" transform="rotate(6 -56 26)"/>
+        <ellipse cx="18" cy="28" rx="7.4" ry="4.4" transform="rotate(-18 18 28)"/>
+        <ellipse cx="-102" cy="4" rx="6" ry="3.8" transform="rotate(10 -102 4)"/>
+        <ellipse cx="94" cy="14" rx="7" ry="4.4" transform="rotate(-4 94 14)"/>
+        <ellipse cx="-16" cy="-8" rx="9" ry="5.4" transform="rotate(12 -16 -8)"/>
+        <ellipse cx="60" cy="-46" rx="7.6" ry="4.6" transform="rotate(-16 60 -46)"/>
+        <ellipse cx="-44" cy="-50" rx="8" ry="4.8" transform="rotate(6 -44 -50)"/>
+      </g>
+      <!-- hạt nếp nổ NHÔ RA NGOÀI đường bao trên và dưới -->
+      <g fill="#F8DFA0" stroke="#B98A2C" stroke-width="1.4">
+        <ellipse cx="-96" cy="-46" rx="9" ry="5.4" transform="rotate(-38 -96 -46)"/>
+        <ellipse cx="-58" cy="-66" rx="8.4" ry="5" transform="rotate(-14 -58 -66)"/>
+        <ellipse cx="-14" cy="-73" rx="9" ry="5.4" transform="rotate(6 -14 -73)"/>
+        <ellipse cx="30" cy="-71" rx="8.6" ry="5.2" transform="rotate(-8 30 -71)"/>
+        <ellipse cx="74" cy="-58" rx="8" ry="4.8" transform="rotate(22 74 -58)"/>
+        <ellipse cx="108" cy="-28" rx="8.4" ry="5" transform="rotate(52 108 -28)"/>
+        <ellipse cx="-122" cy="-8" rx="8" ry="4.8" transform="rotate(70 -122 -8)"/>
+        <ellipse cx="-84" cy="46" rx="8.4" ry="5" transform="rotate(20 -84 46)"/>
+        <ellipse cx="-24" cy="55" rx="9" ry="5.4" transform="rotate(-6 -24 55)"/>
+        <ellipse cx="38" cy="52" rx="8.4" ry="5" transform="rotate(10 38 52)"/>
+        <ellipse cx="86" cy="38" rx="8" ry="4.8" transform="rotate(-24 86 38)"/>
+      </g>
+      <path d="M-104 -34 C -62 -50 24 -52 88 -34" fill="none" stroke="#FBEBBC" stroke-width="3.4" stroke-linecap="round" opacity=".7"/>
+    </g>
+
+    <!-- TÚM CHÀ BÔNG: sợi mảnh xoăn, tơi -->
+    <g id="ccbgBong">
+      <g fill="none" stroke="#C99A5C" stroke-width="2.2" stroke-linecap="round">
+        <path d="M-26 4 C -18 -6 -6 -8 4 -3"/>
+        <path d="M-20 8 C -10 -1 4 -3 14 2"/>
+        <path d="M-14 0 C -4 -10 10 -10 20 -4"/>
+        <path d="M-24 -2 C -14 -11 0 -14 12 -10"/>
+        <path d="M-6 6 C 4 -2 16 -2 24 3"/>
+      </g>
+      <g fill="none" stroke="#EFCB92" stroke-width="1.6" stroke-linecap="round">
+        <path d="M-24 2 C -16 -7 -4 -9 6 -5"/>
+        <path d="M-16 6 C -6 -2 8 -4 18 1"/>
+        <path d="M-10 -3 C 0 -12 12 -12 21 -7"/>
+      </g>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+
+  <ellipse cx="248" cy="384" rx="212" ry="28" fill="rgba(15,26,14,.4)"/>
+
+  <!-- MỘT MẢNH BẺ DỞ dựng nghiêng phía sau, để lộ BỀ DÀY của miếng cơm cháy -->
+  <g transform="translate(392 204) rotate(26) scale(.66)">
+    <path d="M-124 -14 C -120 -40 -96 -58 -66 -66 C -34 -74 4 -74 38 -66 C 74 -58 104 -40 112 -14
+             C 118 8 106 30 78 42 C 46 56 -34 58 -76 44 C -108 33 -128 12 -124 -14 Z" fill="url(#ccbgCanh)"/>
+    <g transform="translate(0 -16)"><use href="#ccbgLat"/></g>
+  </g>
+
+  <!-- MIẾNG CHÍNH: một miếng TRÒN TO nằm giữa khung -->
+  <g transform="translate(244 280) rotate(-4) scale(1.34)">
+    <path d="M-124 -8 C -120 24 -96 44 -66 52 C -34 60 4 60 38 52 C 74 44 104 26 112 -8
+             C 118 14 106 36 78 48 C 46 62 -34 64 -76 50 C -108 39 -128 18 -124 -8 Z" fill="url(#ccbgCanh)"/>
+    <use href="#ccbgLat"/>
+  </g>
+
+  <!-- SỐT đỏ cam rưới trên miếng trên cùng, chỉ một mảng lệch -->
+  <g transform="translate(244 280) rotate(-4) scale(1.34)">
+    <path d="M-86 -30 C -54 -44 4 -46 48 -34 C 78 -26 88 -6 68 4
+             C 40 18 -30 20 -70 8 C -96 0 -102 -22 -86 -30 Z" fill="#D8551A" opacity=".88"/>
+    <path d="M-68 -28 C -34 -38 8 -38 42 -30" fill="none" stroke="#F2933C" stroke-width="3.8" stroke-linecap="round" opacity=".9"/>
+    <path d="M74 8 C 88 14 94 26 88 34" fill="none" stroke="#D8551A" stroke-width="6.4" stroke-linecap="round" opacity=".85"/>
+  </g>
+
+  <!-- MỠ HÀNH: hạt hành xanh trong lớp dầu bóng -->
+  <g fill="#4E7B36">
+    <ellipse cx="184" cy="262" rx="7.4" ry="3.2" transform="rotate(-14 184 262)"/>
+    <ellipse cx="230" cy="250" rx="6.8" ry="3" transform="rotate(10 230 250)"/>
+    <ellipse cx="278" cy="258" rx="7" ry="3" transform="rotate(-6 278 258)"/>
+    <ellipse cx="206" cy="284" rx="6.6" ry="2.9" transform="rotate(18 206 284)"/>
+    <ellipse cx="258" cy="290" rx="7" ry="3" transform="rotate(-10 258 290)"/>
+    <ellipse cx="306" cy="278" rx="6.4" ry="2.8" transform="rotate(6 306 278)"/>
+    <ellipse cx="152" cy="288" rx="6.2" ry="2.7" transform="rotate(-4 152 288)"/>
+    <ellipse cx="322" cy="308" rx="6.4" ry="2.8" transform="rotate(12 322 308)"/>
+    <ellipse cx="196" cy="316" rx="6.6" ry="2.9" transform="rotate(-8 196 316)"/>
+    <ellipse cx="268" cy="322" rx="6.2" ry="2.7" transform="rotate(15 268 322)"/>
+  </g>
+  <g fill="#8CB85A" opacity=".9">
+    <circle cx="208" cy="266" r="2.6"/><circle cx="296" cy="252" r="2.4"/><circle cx="240" cy="304" r="2.4"/>
+    <circle cx="330" cy="286" r="2.2"/><circle cx="160" cy="312" r="2.4"/>
+  </g>
+
+  <!-- CHÀ BÔNG: mấy túm sợi rải trên miếng trên cùng và rơi xuống miếng dưới -->
+  <use href="#ccbgBong" transform="translate(172 258) rotate(-12) scale(1.3)"/>
+  <use href="#ccbgBong" transform="translate(240 240) rotate(6) scale(1.5)"/>
+  <use href="#ccbgBong" transform="translate(306 254) rotate(-6) scale(1.2)"/>
+  <use href="#ccbgBong" transform="translate(202 294) rotate(14) scale(1.24)"/>
+  <use href="#ccbgBong" transform="translate(280 300) rotate(-16) scale(1.16)"/>
+  <use href="#ccbgBong" transform="translate(336 292) rotate(10) scale(.94)"/>
+  <use href="#ccbgBong" transform="translate(146 300) rotate(-8) scale(.9)"/>
+  <use href="#ccbgBong" transform="translate(244 330) rotate(4) scale(1)"/>
+
+  <!-- ĐẠO CỤ: chén sốt đỏ cam nhỏ, góc phải dưới -->
+  <g transform="translate(438 396)">
+    <ellipse cx="0" cy="30" rx="48" ry="11" fill="rgba(15,26,14,.32)"/>
+    <path d="M-44 -2 C -42 18 -24 32 0 32 C 24 32 42 18 44 -2 Z" fill="#FDFAF0" stroke="#D2C9AC" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-3" rx="44" ry="13" fill="#F5F0DE" stroke="#D2C9AC" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-2" rx="36" ry="10" fill="url(#ccbgSot)"/>
+    <ellipse cx="-10" cy="-5" rx="14" ry="4" fill="#F2933C" opacity=".7"/>
+    <g fill="#8E2A18">
+      <ellipse cx="12" cy="0" rx="5" ry="2.2" transform="rotate(-12 12 0)"/>
+      <ellipse cx="-16" cy="1" rx="4.4" ry="2" transform="rotate(10 -16 1)"/>
+    </g>
+  </g>
+</svg>

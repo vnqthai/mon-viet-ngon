@@ -1,0 +1,353 @@
+title: Bún sứa Nha Trang **sứa giòn sần sật, nước cá trong veo**
+summary: >-
+  Tô bún của phố biển: nước lèo nấu từ **cá tươi nguyên con**, trong tới mức
+  nhìn thấy đáy, và con **sứa** trắng đục cắn nghe **giòn sần sật** như sụn. Sứa
+  xếp vào tô rồi chan nước lèo đang sôi lên là vừa.
+region: Miền Trung
+category: Món nước
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 15 phút
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 97
+art: bun-sua
+heroEyebrow: Sáng ở phố biển, tô bún không khói…
+
+quick:
+  ingredients:
+    - Sứa chân ăn liền [[500|g]] — rửa nhiều nước, ngâm đá cho giòn lại
+    - Cá tươi nhỏ (cá liệt, cá nục nhỏ) [[600|g]] — nấu nước, **20 phút thôi**
+    - Phi lê cá thu hoặc cá mối [[300|g]] — quết chả, đem hấp
+    - Bún tươi sợi nhỏ [[800|g]] · cà chua [[2|trái]] · hành tím [[4|củ]] nướng
+    - "Nêm: nước mắm [[2|muỗng canh|frac]] · muối · chút đường"
+    - "Dọn kèm: xà lách, giá, bắp chuối bào, rau thơm · chén mắm ruốc ớt tỏi"
+  steps:
+    - Sứa xả **3–4 nước**, bóp nhẹ, ngâm nước đá [[20|phút]], vớt ráo. Không luộc.
+    - Quết cá với hành tiêu cho dẻo, ém khuôn, **hấp 15 phút**, nguội mới xắt.
+    - Nướng hành tím sém vỏ; hầm cá nhỏ **20 phút** rồi lọc lấy nước trong.
+    - Thả cà chua, nêm nhạt tay, giữ nồi **lăn tăn** cho nước đừng đục.
+    - Xếp bún, chả, **sứa để sống** vào tô, chan nước đang sôi, rắc hành ngò.
+  warning: >-
+    **Đừng thả sứa vào nồi.** Gặp nước sôi lâu, con sứa co rút lại còn một nửa
+    và dai như cao su — mất sạch cái giòn vốn là toàn bộ lý do của món này.
+
+flavor:
+  chua: 2
+  ngot: 6
+  man: 6
+  cay: 2
+  thom: 6
+flavorNote: >-
+  **Chuẩn tô:** nước lèo **trong nhìn thấy đáy**, ngọt mảnh chứ không dày; miếng
+  sứa trắng đục, cắn vào nghe **sựt** một cái rồi tan, không dai không nhớt;
+  miếng chả hấp mềm mà vẫn dai tay.
+storyEyebrow: Chuyện món ăn
+storyTitle: Cả tô trông vào **một miếng sứa giòn**
+story:
+  - >-
+    Hàng bún sứa nào ở Nha Trang cũng chọn đúng một phần của con sứa: **phần
+    chân** — chùm tua phía dưới, trắng đục, dày mình, khô ráo, cắn nghe **giòn
+    sần sật** như miếng sụn. Đó là chỗ tô bún này đứng được một mình. Ra chợ cứ
+    hỏi **sứa chân** rồi nhìn cho đúng: miếng dày, trắng đục và ráo tay.
+  - >-
+    Nồi nước thì nấu từ **chính con cá**, nên ngọt thanh và mảnh. Người Nha Trang
+    chuộng **cá liệt** — loại cá bé chỉ chừng ba ngón tay, đuôi xoè như cái nơ,
+    thịt ngọt và lành xương nên hầm xong lọc rất nhẹ, nước ra trong veo. Không
+    có cá liệt thì cá nục nhỏ hay cá cơm to đều thay được.
+  - >-
+    Vậy nên tô bún sứa là tô **nhẹ tênh**: nước trong, chả cá hấp trắng, sứa để
+    sống. Cái nóng duy nhất là muôi nước chan lên lúc dọn — vừa đủ làm chín cái
+    bên ngoài miếng sứa mà chưa kịp làm nó co lại. Húp thìa đầu thấy thanh, tới
+    thìa thứ ba thì cái ngọt của cá mới dâng lên.
+  - >-
+    Ngoài hàng thường bán chung một tô gọi là **bún cá sứa** — vừa chả cá vừa
+    sứa. Công thức dưới đây theo đúng lối đó: giữ miếng chả hấp cho tô có chỗ
+    mềm, còn phần giòn thì để dành cho sứa.
+
+ingredientGroups:
+  - name: Sứa
+    icon: bowl
+    items:
+      - id: suachan
+        name: Sứa chân
+        icon: bowl
+        color: amber
+        base: 500
+        unit: g
+        note: >-
+          Mua loại **ăn liền** đóng túi ở chợ hay siêu thị — đã ngâm phèn và
+          khử mặn sẵn. Chọn miếng trắng đục, dày, khô ráo; miếng trong veo và
+          nhũn là sứa tai, để lại
+      - id: nuocda
+        name: Nước đá
+        icon: drop
+        qtyText: Một tô lớn
+        note: Ngâm sứa sau khi rửa — lạnh làm nó săn và giòn trở lại
+      - id: chanhngam
+        name: Chanh hoặc lá ổi
+        icon: lime
+        qtyText: 1 trái chanh
+        note: Vắt vào nước rửa sứa cho hết mùi tanh nhẹ còn sót
+  - name: Nồi nước lèo
+    icon: pot
+    items:
+      - id: canho
+        name: Cá tươi con nhỏ
+        icon: fish
+        base: 600
+        unit: g
+        note: >-
+          Cá liệt là chuẩn nhất; cá nục nhỏ, cá cơm to, cá bạc má đều thay
+          được. Mua cá còn mắt trong, mang đỏ tươi
+      - id: hanhtimsua
+        name: Hành tím nướng
+        icon: onion
+        base: 4
+        unit: củ
+        note: Nướng tới sém vỏ rồi rửa tro — đây là chỗ nồi nước có mùi
+      - id: cachuasua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 2
+        unit: trái
+        note: Bổ múi cau, thả sau cùng — lấy màu và chút chua nhẹ, không lấy vị
+      - id: neimsua
+        name: Nước mắm · muối · đường
+        icon: bottle
+        qtyText: 2 muỗng canh mắm · 1 muỗng cà phê muối
+        note: Nêm nhạt tay, để người ăn tự nêm ở tô bằng mắm ruốc
+  - name: Chả cá hấp
+    icon: fish
+    items:
+      - id: philecasua
+        name: Phi lê cá thu hoặc cá mối
+        icon: fish
+        base: 300
+        unit: g
+        note: Chọn cá thịt chắc ít mỡ — cá bở thì quết cách mấy cũng không dẻo
+      - id: hanhtieuchasua
+        name: Hành tím băm + tiêu trắng
+        icon: garlic
+        qtyText: 2 muỗng canh hành · 1 muỗng cà phê tiêu
+        note: Tiêu trắng thơm mà không làm mặt chả lấm tấm đen
+      - id: thilasua
+        name: Thì là xắt nhuyễn
+        icon: herb
+        color: green
+        base: 1
+        unit: nhúm
+        note: Trộn vào chả cho có màu xanh lấm tấm
+  - name: Dọn tô
+    icon: bowl
+    items:
+      - id: bunsua
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 800
+        unit: g
+        note: Trụng lại nước sôi ngay trước khi chan
+      - id: rausongsua
+        name: Xà lách · giá · bắp chuối bào
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Thái nhỏ hết rồi trộn chung, đó là kiểu bày của hàng ở đây
+      - id: mamruocsua
+        name: Mắm ruốc
+        icon: jar
+        qtyText: 2 muỗng canh
+        note: >-
+          Mắm làm từ con ruốc (con moi) — đặc, nâu ngả tím. Dọn chén riêng,
+          ai quen vị thì khuấy một muỗng vào tô mình
+      - id: ottoisua
+        name: Ớt tỏi giã
+        icon: chili
+        color: red
+        qtyText: 3 trái ớt · 2 tép tỏi
+        note: Giã thô trong cối, đừng xay — xay ra nước, mất cái sựt
+
+steps:
+  - title: Xử con sứa — làm sai ở đây thì hết cứu
+    icon: bowl
+    minutes: 25 phút
+    intro: "Sứa mua về không nấu, chỉ rửa và làm lạnh:"
+    bullets:
+      - label: "Xả nhiều nước:"
+        text: >-
+          Đổ sứa ra rổ, xả dưới vòi rồi bóp **nhẹ tay** trong nước sạch, thay
+          nước **3–4 lần** tới khi nước trong và không còn mùi. Vắt chanh vào
+          nước cuối cho hết mùi tanh còn sót.
+      - label: "Ngâm đá:"
+        text: >-
+          Thả sứa vào tô nước đá [[20|phút]]. Miếng sứa đang mềm sẽ **săn lại
+          và giòn hẳn lên** — đây là bước làm nên chữ "sần sật" của tô bún.
+      - label: "Để ráo:"
+        text: >-
+          Vớt ra rổ, để ráo thật kỹ rồi cất ngăn mát tới lúc dọn. Sứa còn ướt
+          thì chan nước vào tô sẽ loãng.
+    callout:
+      type: warn
+      text: >-
+        **Bóp mạnh là nát.** Con sứa gần như toàn nước, bóp như bóp rau là nó
+        rã ra thành vụn. Chỉ đảo nhẹ trong chậu nước, để nước làm việc thay tay.
+  - title: Quết và hấp chả cá
+    icon: knife
+    minutes: 30 phút
+    bullets:
+      - label: "Ướp:"
+        text: >-
+          Phi lê cá lạng bỏ da, xắt nhỏ, ướp hành tím băm, [[1|muỗng cà
+          phê|frac]] tiêu trắng, chút đường và nước mắm. Để **15 phút** ngăn mát.
+      - label: "Quết:"
+        text: >-
+          Xay từng mẻ nhỏ, xay **nhấp nhả** chứ đừng xay một hơi. Trút ra tô,
+          quết mạnh **một chiều** chừng 5 phút tới khi khối cá dẻo dính, vỗ
+          xuống thớt nghe **bộp**. Trộn thì là vào sau cùng.
+      - label: "Hấp:"
+        text: >-
+          Ém vào tô lòng nông, dàn dày chừng 2 cm, **hấp 15 phút**. Để nguội
+          hẳn rồi mới xắt miếng vuông — nóng mà xắt là nát mặt.
+    timer:
+      secs: 900
+      label: Hẹn giờ hấp chả · 15:00
+      doneMsg: Để nguội hẳn mới xắt nghen!
+    callout:
+      type: tip
+      text: >-
+        Tô này đã có sứa lo phần giòn rồi, nên chả **chỉ cần hấp**, khỏi chiên.
+        Muốn có thêm chỗ vàng thì chiên riêng vài miếng, nhưng đừng chiên hết.
+  - title: Nấu nồi nước cá cho thật trong
+    icon: pot
+    minutes: 30 phút
+    bullets:
+      - label: "Sơ chế:"
+        text: >-
+          Cá nhỏ móc mang, bỏ ruột, rửa muối rồi xả lại. Cá liệt và cá nục nhỏ
+          thì để nguyên con, không cần lóc thịt.
+      - label: "Nướng hành:"
+        text: >-
+          Hành tím nướng trực tiếp trên lửa tới **sém vỏ**, rửa tro, đập dập.
+      - label: "Hầm:"
+        text: >-
+          Cho cá và hành vào [[2.5|lít]] nước lạnh, sôi lăn tăn thì hạ nhỏ lửa,
+          hớt bọt, hầm **đúng 20 phút**. Lọc qua rây, bỏ xác cá.
+      - label: "Nêm:"
+        text: >-
+          Thả cà chua bổ múi cau, nấu [[5|phút]]. Nêm [[2|muỗng canh|frac]] nước
+          mắm, [[1|muỗng cà phê|frac]] muối, chút đường. Nếm thấy **ngọt trước,
+          mặn sau, hậu vị nhẹ tênh** là đạt.
+    timer:
+      secs: 1200
+      label: Hẹn giờ hầm cá · 20:00
+      doneMsg: Lọc liền nghen — để lâu là nước đắng!
+    callout:
+      type: warn
+      text: >-
+        Cá nhỏ **nhanh ra ngọt và cũng nhanh ra đắng** — 20 phút là đủ, quá tay
+        thì nước vừa đắng vừa tanh ngược. Và đừng bao giờ để nồi sôi bùng: đục
+        rồi thì không cứu lại được.
+  - title: Dọn tô — sứa vào sau cùng
+    icon: bowl
+    minutes: 10 phút
+    intro: "Thứ tự xếp tô có ý nghĩa, đừng đảo:"
+    bullets:
+      - text: >-
+          Bún trụng nước sôi, xóc ráo, cho vào tô. Xếp **chả cá một bên**, rau
+          sống thái nhỏ một bên.
+      - text: >-
+          Gắp **sứa để sống** lên trên cùng, rồi mới chan nước lèo đang sôi.
+          Nước nóng chỉ kịp làm ấm miếng sứa — đó đúng là chỗ mình muốn.
+      - text: >-
+          Rắc hành ngò xắt nhỏ, chút tiêu. Dọn kèm chén mắm ruốc, chén ớt tỏi
+          giã và vài lát chanh.
+    doneText: Xong — ăn liền khi sứa còn lạnh trong tô nóng!
+
+tipsTitle: 4 chỗ **quyết định** tô bún sứa
+tips:
+  - icon: alert
+    title: Sứa chân, đừng mua nhầm sứa tai
+    text: >-
+      Ra hàng, cầm túi lên nhìn: **sứa chân** là những dải dày, **trắng đục**,
+      nhìn khô ráo. **Sứa tai** là mảng mỏng, **trong xanh**, nhiều nước. Mua
+      nhầm sứa tai thì tô bún vẫn ăn được, nhưng miếng sứa mềm nhũn và nhạt —
+      mất đúng cái thứ mình bỏ công đi mua.
+  - icon: drop
+    title: Nước đá làm sứa giòn trở lại
+    text: >-
+      Sứa đóng túi để lâu thường hơi mềm. Ngâm nước đá 20 phút là nó **săn lại**
+      thấy rõ. Mẹo này áp cho cả lúc dọn: dĩa sứa để ngăn mát tới phút cuối mới
+      lấy ra, chênh lệch nóng lạnh trong tô chính là chỗ ăn thích.
+  - icon: fish
+    title: Nấu nước bằng cá nhỏ nguyên con, đừng dùng xương heo
+    text: >-
+      Xương heo cho nước béo và nặng — hợp bún bò, sai với tô này. Cá nhỏ nguyên
+      con cho thứ ngọt **thanh và mảnh**, đúng nền cho miếng sứa vốn gần như
+      không có vị. Cá liệt là ngon nhất vì không có xương dăm, lọc rất nhẹ.
+  - icon: spoon
+    title: Mắm ruốc để riêng, đừng nêm vào nồi
+    text: >-
+      Nêm mắm ruốc thẳng vào nồi là cả nồi đục và nồng — hỏng luôn cái nước
+      trong vừa mất công giữ. Dọn một chén riêng: người quen vị thì khuấy một
+      muỗng vào tô mình, người lạ vị để nguyên. Một nồi vừa lòng cả nhà.
+
+serve:
+  title: Tô bún của **buổi sáng phố biển**
+  paras:
+    - >-
+      Bún sứa là món ăn sáng, và là món ăn nhanh — hàng ở đây múc một tô chưa
+      tới một phút vì mọi thứ đã dọn sẵn từng khay. Ở nhà cũng nên vậy: nồi nước
+      nấu từ tối, chả hấp để ngăn mát, sứa rửa sẵn. Sáng ra bắc nồi lên là có tô
+      nóng trong mười phút.
+    - >-
+      Rau sống ở đây được **thái nhỏ trộn chung** rồi bỏ thẳng vào tô, khác lối
+      để nguyên lá của bún bò. Cứ theo lối đó — rau thái nhỏ thấm nước lèo,
+      ăn tới đâu quyện tới đó.
+  aside:
+    title: Trên bàn nên có
+    intro: "Ba thứ dọn kèm, thiếu thì tô bún hụt một góc:"
+    items:
+      - icon: jar
+        text: "**Mắm ruốc** — một chén nhỏ, ai quen vị thì khuấy vào tô mình."
+      - icon: chili
+        text: "**Ớt tỏi giã** — giã thô trong cối, cay mà còn nghe sựt."
+      - icon: lime
+        text: "**Chanh xắt lát** — vắt vào lúc gần cuối tô, nước lèo bừng lên."
+
+faq:
+  - q: Mua sứa ở đâu, và loại nào dùng được ngay?
+    a: >-
+      Chợ và siêu thị bán hai loại. **Sứa ăn liền** đóng túi là loại đã ngâm
+      phèn, khử mặn sẵn — rửa lại vài nước rồi ngâm đá là dùng được, đây là loại
+      công thức này viết cho. **Sứa muối** đóng thùng thì mặn chát, phải ngâm
+      nước lã đổi nhiều lần trong vài tiếng mới hết mặn. Đọc nhãn trước khi mua.
+  - q: Nấu nước bằng cá nguyên con thì có tanh không?
+    a: >-
+      Không, nếu làm đủ ba việc: **móc mang bỏ ruột và rửa muối** thật kỹ, thả
+      **hành tím nướng sém** vào nồi, và hầm **đúng 20 phút** rồi lọc liền. Cá
+      nhỏ nhả ngọt rất nhanh; qua mốc đó mới là lúc mùi tanh quay lại. Nồi đạt
+      thì húp vào thấy ngọt mảnh, hậu vị nhẹ tênh.
+  - q: Sứa có mùi tanh, rửa hoài không hết thì sao?
+    a: >-
+      Thêm một lượt: pha nước với **nước cốt chanh** hoặc vò nắm **lá ổi** vào
+      nước rửa, ngâm 5 phút rồi xả lại. Nếu vẫn nồng thì túi sứa đó để lâu rồi,
+      đừng cố — món này không có gì che được mùi vì cả tô đều nhạt và trong.
+  - q: Không mua được sứa thì nấu gì với nồi nước này?
+    a: >-
+      Cứ tăng phần **chả cá hấp** lên gấp rưỡi, thêm một ít chả chiên vàng cho
+      có chỗ đậm, là vẫn được một tô ngon trên đúng nồi nước ấy. Nhưng đừng thay
+      sứa bằng mực hay tôm: chúng có vị riêng khá mạnh, chen vào là nồi nước
+      trong mất chỗ đứng.
+
+ticker:
+  - icon: bowl
+    text: Sứa giòn sần sật
+  - icon: fish
+    text: Nước cá liệt trong veo
+  - icon: alert
+    text: Sứa không nấu — chan nước sôi lên là vừa

@@ -1,0 +1,354 @@
+title: Bún ốc **nước chua thanh, con ốc giòn sần sật**
+summary: >-
+  Nước dùng nấu từ chính **nước luộc ốc** lọc trong, chua nhẹ và thoảng mùi men
+  nếp. Bát này gọn trong ba thứ: **con ốc giòn sần sật**, nước chua thanh màu
+  đỏ nhạt, và một thìa **ớt chưng** nổi váng đỏ cam trên mặt.
+region: Miền Bắc
+category: Món nước
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 20 phút (+ ngâm ốc qua đêm)
+  active: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 99
+art: bun-oc
+heroEyebrow: Gánh bún góc chợ, nồi nước chua dịu…
+
+quick:
+  ingredients:
+    - Ốc nhồi (ốc bươu ta) [[1.5|kg]] — ngâm nước vo gạo + ớt **qua đêm**
+    - Giấm bỗng [[150|ml]] — **bã nếp còn lại sau khi cất rượu**, chua dịu và
+      thoảng mùi men; mua ở hàng bún riêu hoặc hàng đậu ngoài chợ
+    - Cà chua [[4|trái]] · hành tím [[4|củ]] · mỡ heo hoặc dầu ăn
+    - Bún tươi sợi nhỏ [[800|g]] · tía tô [[1|nắm]] · hành lá
+    - "Ớt chưng: ớt bột [[2|muỗng canh|frac]] + mỡ nóng"
+    - "Dọn kèm: rau muống chẻ, xà lách, tía tô · chén mắm tôm nhỏ"
+  steps:
+    - Ngâm ốc qua đêm với nước vo gạo và vài lát ớt cho nhả hết bùn.
+    - Luộc ốc **vừa há miệng là vớt**, khều ruột, bỏ phần đuôi đen.
+    - Lọc nước luộc ốc qua rây lót khăn — đó là nền của cả nồi.
+    - Chưng cà chua với hành tím, trút vào nồi, chua bằng **giấm bỗng**, nêm nhạt.
+    - Xào ốc riêng với hành mỡ, xếp lên bát, chan nước, rưới ớt chưng.
+  warning: >-
+    Luộc ốc quá tay là con ốc **dai như cao su**, khều ra cũng teo lại. Nước vừa
+    sôi, con ốc há mày là vớt ngay — tính bằng chục giây, không phải bằng phút.
+
+flavor:
+  chua: 7
+  ngot: 4
+  man: 5
+  cay: 4
+  thom: 6
+flavorNote: >-
+  **Chuẩn bát:** nước **chua dịu và thơm hơi men**, không phải cái chua gắt của
+  chanh; màu đỏ nhạt trong chứ không sánh; con ốc cắn nghe **giòn sần sật**, hết
+  miếng vẫn còn hậu ngọt.
+storyEyebrow: Chuyện món ăn
+storyTitle: Ba thứ, và cả ba đều phải **đúng**
+story:
+  - >-
+    Bún ốc là bát bún tối giản nhất trong các món bún Hà Nội: gọn trong **nước,
+    ốc, và ớt chưng**. Chính vì gọn như vậy nên nó khó — mỗi thứ đều đứng một
+    mình giữa bát, thứ nào làm dối là lộ ra ngay ở thìa đầu tiên.
+  - >-
+    Nền của bát là **nước luộc ốc**. Con ốc thả vào nồi nước, luộc vừa há miệng
+    là nhả ra thứ nước ngọt riêng, hơi tanh mát, khác hẳn nước xương. Lọc kỹ
+    qua khăn xô để bỏ hết cát rồi dùng luôn làm nước dùng — đó là lý do bát bún
+    ốc ngọt mà nhẹ, húp xong không thấy nặng bụng.
+  - >-
+    Chua thì phải bằng **giấm bỗng**. Bỗng là phần bã còn lại sau khi cất rượu
+    nếp, chua mà thoảng mùi men, đục nhẹ. Thay bằng chanh thì bát bún chua gắt
+    và trơ; thay bằng me thì ngả sang vị món Nam. Giấm bỗng khó mua hơn nhưng
+    nó **là** vị của món này, không có đường vòng nào.
+  - >-
+    Vậy nên bát bún ốc nêm theo một hướng riêng hẳn: nồi nước phải **trong hơn,
+    chua rõ hơn và nhạt tay hơn** so với mọi bát bún đỏ khác, để cái ngọt của
+    nước luộc ốc còn nổi lên được. Và con ốc phải thật giòn — cả bát trông vào
+    đúng nó.
+
+ingredientGroups:
+  - name: Con ốc
+    icon: bowl
+    items:
+      - id: ocnhoiboc
+        name: Ốc nhồi (ốc bươu ta)
+        icon: bowl
+        color: amber
+        base: 1.5
+        unit: kg
+        note: >-
+          Chọn con mày đầy, khép sát miệng vỏ; con thụt sâu vào trong là ốc
+          gầy hoặc đã chết. Ốc vặn, ốc mít cũng dùng được, nhỏ hơn thì khều lâu
+      - id: ngamocboc
+        name: Nước vo gạo + ớt tươi
+        icon: rice
+        qtyText: Đủ ngập ốc · 3 trái ớt đập dập
+        note: Ngâm qua đêm — ớt làm ốc nhả bùn nhanh hơn hẳn nước lã
+      - id: gungocboc
+        name: Gừng đập dập + sả
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Thả vào nồi luộc ốc cho bớt tanh
+  - name: Nồi nước chua
+    icon: pot
+    items:
+      - id: giambongboc
+        name: Giấm bỗng
+        icon: bottle
+        base: 150
+        unit: ml
+        note: >-
+          Bã còn lại sau khi cất rượu nếp — chua mà thoảng mùi men, màu đục
+          nhạt. Hàng bún riêu và hàng đậu ngoài chợ thường có bán
+      - id: cachuaboc
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 4
+        unit: trái
+        note: Bổ múi cau — chưng lấy màu và chút chua nền, đừng để nát nhừ
+      - id: hanhtimboc
+        name: Hành tím băm
+        icon: onion
+        base: 4
+        unit: củ
+        note: Phi thơm trước khi chưng cà chua
+      - id: moheoboc
+        name: Mỡ heo hoặc dầu ăn
+        icon: jar
+        qtyText: 4 muỗng canh
+        note: Mỡ heo cho váng nước đẹp và mùi đậm hơn dầu — nếu có thì dùng
+      - id: neimboc
+        name: Nước mắm · muối · đường
+        icon: bottle
+        qtyText: 2 muỗng canh mắm · 1 muỗng cà phê đường
+        note: Nêm nhạt tay, để chén mắm tôm và ớt chưng làm phần còn lại
+  - name: Ớt chưng và rau
+    icon: chili
+    items:
+      - id: otbotboc
+        name: Ớt bột
+        icon: chili
+        color: red
+        base: 2
+        unit: muỗng canh
+        frac: true
+        note: Chưng với mỡ nóng già rồi tắt bếp ngay — cháy là đắng
+      - id: tiatoboc
+        name: Tía tô
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Thái chỉ, rắc lên bát lúc chan — mùi tía tô đi với ốc rất hợp
+      - id: rauboc
+        name: Rau muống chẻ + xà lách
+        icon: sprout
+        color: green
+        base: 250
+        unit: g
+        note: Rau muống chẻ ngâm nước lạnh cho cong giòn
+      - id: mamtomboc
+        name: Mắm tôm
+        icon: jar
+        qtyText: 1 muỗng cà phê mỗi bát
+        note: Dọn chén riêng — nhiều người ăn bún ốc không cho, tuỳ khẩu vị
+  - name: Bún
+    icon: noodle
+    items:
+      - id: bunocsoi
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 800
+        unit: g
+        note: Trụng lại nước sôi ngay trước khi chan
+
+steps:
+  - title: Ngâm ốc cho nhả hết bùn
+    icon: drop
+    minutes: 15 phút
+    intro: "Làm từ tối hôm trước — bước này không rút ngắn được:"
+    bullets:
+      - label: "Ngâm:"
+        text: >-
+          Ốc rửa qua, thả vào chậu nước vo gạo ngập mặt, đập dập [[3|trái]] ớt
+          thả cùng. Ngâm **qua đêm**, ít nhất [[6|tiếng]], thay nước một lần
+          giữa chừng.
+      - label: "Kiểm:"
+        text: >-
+          Sáng ra đáy chậu phải có một lớp cát bùn. Nếu nước vẫn trong veo thì
+          ốc chưa nhả — ngâm thêm vài tiếng nữa.
+      - label: "Chà vỏ:"
+        text: >-
+          Chà vỏ ốc bằng bàn chải dưới vòi nước, rửa lại vài lượt cho sạch rêu.
+    callout:
+      type: warn
+      text: >-
+        Ngâm chưa tới là bát bún **sạn cát**, và sạn thì không ai ăn nổi dù nước
+        có ngon tới đâu. Đây là bước duy nhất của món không thể chữa ở khâu sau.
+  - title: Luộc ốc — tính bằng chục giây
+    icon: flame
+    minutes: 20 phút
+    bullets:
+      - label: "Luộc:"
+        text: >-
+          Đun [[1.5|lít]] nước với gừng đập dập cho sôi, thả ốc vào. Đảo nhẹ,
+          **canh chừng con ốc vừa há mày là vớt ngay** — chỉ chừng 3–5 phút kể
+          từ lúc nước sôi lại.
+      - label: "Khều ruột:"
+        text: >-
+          Dùng gai bưởi hoặc que nhọn khều ruột ốc ra. **Bỏ phần đuôi đen** ở
+          cuối ruột — đó là chỗ chứa bùn, để lại là đắng cả bát.
+      - label: "Rửa lại:"
+        text: >-
+          Bóp ruột ốc với chút muối và giấm, xả sạch, để ráo. Con ốc lúc này
+          trắng ngà, săn lại.
+      - label: "Lọc nước:"
+        text: >-
+          Nước luộc ốc để lắng, gạn phần trong rồi lọc qua rây lót khăn xô. Đây
+          là **nền của cả nồi**, đừng đổ đi.
+    timer:
+      secs: 240
+      label: Hẹn giờ luộc ốc · 04:00
+      doneMsg: Nhìn xem ốc há mày chưa — há là vớt liền nghen!
+    callout:
+      type: warn
+      text: >-
+        Luộc thêm hai phút "cho chắc ăn" là hỏng. Con ốc co rút lại, dai như cao
+        su và teo còn nửa cỡ. Thà vớt sớm rồi lát nữa xào lại còn hơn luộc quá.
+  - title: Chưng cà chua, dựng nồi nước
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - label: "Phi hành:"
+        text: >-
+          Đun nóng [[4|muỗng canh|frac]] mỡ heo, phi hành tím băm tới vàng thơm.
+      - label: "Chưng cà chua:"
+        text: >-
+          Trút cà chua bổ múi cau vào xào **lửa vừa 5 phút** cho ra màu, dằm
+          nhẹ vài miếng nhưng **đừng dằm nát hết** — bát bún ốc cần thấy được
+          miếng cà chua.
+      - label: "Vào nồi:"
+        text: >-
+          Đổ nước luộc ốc đã lọc vào, thêm nước lã cho đủ [[2|lít]]. Đun sôi
+          lăn tăn, hớt bọt.
+      - label: "Chua và nêm:"
+        text: >-
+          Rót **giấm bỗng** vào từ từ, nếm sau mỗi lần rót — độ chua tuỳ mẻ bỗng,
+          không có con số cố định. Nêm [[2|muỗng canh|frac]] nước mắm, chút
+          đường và muối. Đích đến là **chua rõ, ngọt nhẹ, mặn sau cùng**.
+    callout:
+      type: tip
+      text: >-
+        Giấm bỗng thả vào **cuối cùng và không đun lâu**. Đun sôi già thì mùi
+        men bay mất, chỉ còn lại vị chua trơ — mà mùi men mới đúng là thứ phân
+        biệt bát bún ốc với một bát nước cà chua chua.
+  - title: Xào ốc, chưng ớt, dọn bát
+    icon: bowl
+    minutes: 15 phút
+    bullets:
+      - label: "Xào ốc:"
+        text: >-
+          Phi thơm chút hành mỡ, trút ruột ốc vào đảo **lửa lớn 2 phút**, nêm
+          chút nước mắm và tiêu. Xào nhanh thôi — chỉ để con ốc nóng và thấm vị,
+          không phải để nấu chín lần nữa.
+      - label: "Ớt chưng:"
+        text: >-
+          Đun [[3|muỗng canh|frac]] mỡ thật nóng, tắt bếp, đổ [[2|muỗng
+          canh|frac]] ớt bột vào khuấy đều. Chảo còn nóng đủ làm dậy màu mà
+          không làm cháy ớt.
+      - label: "Dọn:"
+        text: >-
+          Bún trụng nước sôi cho vào bát, xếp ốc lên, chan nước đang sôi, rắc
+          **tía tô thái chỉ** và hành lá. Rưới một thìa ớt chưng lên mặt cho
+          nổi váng đỏ.
+    doneText: Xong — húp thử một thìa nước trước đã!
+
+tipsTitle: 4 chỗ **quyết định** bát bún ốc
+tips:
+  - icon: bottle
+    title: Giấm bỗng không thay được bằng chanh
+    text: >-
+      Đây là chỗ duy nhất của món không có phương án hai. Bỗng cho **chua kèm
+      mùi men**, đục nhẹ, hậu vị dịu; chanh cho chua **gắt và trơ**, uống vào
+      thấy khé cổ. Nếu chợ gần nhà không có, hỏi hàng bún riêu hoặc hàng đậu —
+      họ dùng hàng ngày và thường bán lại.
+  - icon: clock
+    title: Ốc luộc hai lần thì hỏng hai lần
+    text: >-
+      Nhiều người luộc kỹ cho "chắc chín" rồi lại xào tiếp — con ốc chịu nhiệt
+      hai lần là teo và dai. Luộc **vừa há mày** rồi khều, tới lúc xào chỉ đảo
+      **2 phút lửa lớn**. Tổng thời gian con ốc gặp lửa nên dưới 7 phút.
+  - icon: alert
+    title: Bỏ bằng hết phần đuôi đen của ruột ốc
+    text: >-
+      Đoạn xoắn màu đen sẫm ở cuối ruột là chỗ chứa bùn. Sót một con thôi là cả
+      bát có vị đắng ngang mà không biết từ đâu ra. Khều xong ngồi lựa lại một
+      lượt, mất năm phút nhưng đáng.
+  - icon: flame
+    title: Ớt chưng phải đổ vào mỡ đã tắt bếp
+    text: >-
+      Ớt bột gặp mỡ đang sôi trên lửa là cháy trong vài giây, chuyển nâu và
+      **đắng**. Tắt bếp rồi mới đổ ớt vào: chảo còn thừa nhiệt đủ làm dậy màu
+      đỏ cam và mùi thơm, mà không đẩy ớt qua mốc cháy.
+
+serve:
+  title: Bát bún **ăn chậm**, húp nước trước
+  paras:
+    - >-
+      Bún ốc không phải món và vội. Người quen ăn bao giờ cũng húp một thìa nước
+      trước khi động đũa — vì nếu nồi nước đạt thì phần còn lại chỉ là chuyện
+      xếp bún. Chua dịu, thoảng men, ngọt hậu; nếu thấy chua gắt thì bát đó đã
+      hỏng ngay từ lọ giấm.
+    - >-
+      Rau ăn kèm để riêng, đừng dìm vào bát. Rau muống chẻ ngâm nước lạnh cho
+      cong lên, gắp tới đâu ăn tới đó — bỏ vào nước nóng sớm là mềm oặt, mất
+      cái giòn vốn để đối lại với con ốc.
+  aside:
+    title: Trên bàn nên có
+    intro: "Ba thứ dọn kèm, thiếu thì bát bún hụt một góc:"
+    items:
+      - icon: chili
+        text: "**Ớt chưng** — một thìa nổi váng đỏ, vừa cay vừa cho bát có màu."
+      - icon: herb
+        text: "**Tía tô thái chỉ** — mùi này đi với ốc, đừng thay bằng rau mùi."
+      - icon: jar
+        text: "**Mắm tôm** — một chén nhỏ, ai muốn đậm thì cho, không thì thôi."
+
+faq:
+  - q: Giấm bỗng mua ở đâu, để được lâu không?
+    a: >-
+      Ngoài chợ hỏi **hàng bún riêu** hoặc **hàng đậu phụ** — họ dùng hàng ngày
+      nên thường có sẵn và bán lại. Mua về đậy kín để ngăn mát dùng được chừng
+      một tuần; để lâu hơn thì chua gắt dần và mất mùi men. Mua vừa đủ một hai
+      lần nấu thôi.
+  - q: Nước dùng phải trong tới mức nào mới đạt?
+    a: >-
+      Nhìn nghiêng bát phải **thấy được con ốc nằm dưới đáy**, màu đỏ nhạt và
+      trong chứ không sánh đục. Muốn vậy thì ba việc: **gạn và lọc** nước luộc
+      ốc qua khăn xô, giữ nồi ở mức **lăn tăn** suốt, và thả **giấm bỗng vào
+      cuối cùng** rồi tắt bếp sớm.
+  - q: Dùng ốc đông lạnh làm sẵn được không?
+    a: >-
+      Được, và tiết kiệm được cả khâu ngâm lẫn khâu khều. Nhưng mất **nước luộc
+      ốc** — tức là mất cái nền của nồi. Nếu dùng ốc làm sẵn thì phải nấu nước
+      bằng xương heo cho có chất, và chấp nhận bát bún nặng hơn bản gốc. Ốc tươi
+      vẫn đáng công.
+  - q: Nhà không ăn được cay thì bỏ ớt chưng à?
+    a: >-
+      Cứ chưng nhưng dọn **riêng một chén**, ai muốn thì rưới. Đừng bỏ hẳn: món
+      này nhạt màu, thìa ớt chưng vừa cho cay vừa cho cả bát một mảng đỏ cam —
+      bỏ đi thì bát bún trông nhợt hẳn. Ai không ăn cay thì rưới nửa thìa lấy
+      màu cũng được.
+
+ticker:
+  - icon: bottle
+    text: Nước chua thanh, thơm hơi men nếp
+  - icon: bowl
+    text: Ốc giòn sần sật
+  - icon: chili
+    text: Một thìa ớt chưng nổi váng đỏ

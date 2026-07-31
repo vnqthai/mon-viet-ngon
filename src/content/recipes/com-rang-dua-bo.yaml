@@ -1,0 +1,346 @@
+title: Cơm rang dưa bò **hạt cơm săn rời, dưa chua giòn**
+summary: >-
+  Ba thứ xào ba lần rồi mới gặp nhau: **dưa cải chua** vắt ráo xào cho bay hết
+  nước, **thịt bò** xào lửa lớn trút ra ngay, cơm nguội rang riêng cho săn hạt.
+  Nhập lại đúng lúc cuối — chậm một phút là bò dai, dưa mềm.
+region: Miền Bắc
+category: Cơm
+occasions: [Cơm nhà, Bữa sáng]
+pubDate: 2026-07-31
+time:
+  total: 40 phút
+  active: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 103
+art: com-rang-dua-bo
+heroEyebrow: Quán cơm rang đầu ngõ, chảo lửa đỏ rực…
+
+quick:
+  ingredients:
+    - Cơm nguội [[800|g]] — để ngăn mát **qua đêm**, bóp tơi trước khi rang
+    - Thăn bò hoặc bắp bò [[300|g]] — thái **ngang thớ**, mỏng
+    - Dưa cải chua [[300|g]] — rửa bớt chua, **vắt thật ráo**, cắt khúc ngắn
+    - Trứng gà [[2|quả]] · hành lá · tỏi [[4|tép]] · hành tây [[0.5|củ|frac]]
+    - "Ướp bò: dầu hào [[1|muỗng canh|frac]] · tỏi băm · dầu ăn · tiêu"
+    - "Nêm: nước mắm · hạt nêm · chút đường cho dịu vị chua"
+  steps:
+    - Bóp tơi cơm nguội, trộn đều với trứng đánh tan cho hạt áo mỏng.
+    - Dưa vắt ráo, xào riêng tới khi **hết nước và thơm**, trút ra.
+    - Bò ướp [[10|phút]], xào lửa **lớn nhất** chừng 1 phút, trút ra ngay.
+    - Rang cơm lửa lớn cho **săn rời**, nêm nhạt tay.
+    - Trút dưa và bò vào, đảo **20 giây** rồi tắt bếp, rắc hành lá.
+  warning: >-
+    Xào chung ba thứ từ đầu là hỏng cả ba: dưa ra nước làm cơm nhão, cơm hút
+    nước làm dưa nhạt, còn thịt bò nằm trong chảo lâu thì **dai như miếng cao
+    su**. Ba chảo riêng, gộp ở phút chót.
+
+flavor:
+  chua: 5
+  ngot: 3
+  man: 6
+  cay: 1
+  thom: 6
+flavorNote: >-
+  **Chuẩn đĩa:** hạt cơm **săn rời**, đảo lên nghe lạo xạo chứ không dính bết;
+  cọng dưa còn **giòn sựt** và vàng óng chứ không mềm nhũn; lát bò mềm, viền
+  hơi sém, cắn vào còn ngọt nước.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món của **chảo lửa lớn** và của cơm hôm qua
+story:
+  - >-
+    Cơm rang dưa bò là món quán, và là món của **lửa lớn**. Hàng cơm rang đầu
+    ngõ nào ở Hà Nội cũng có một cái chảo gang đen bóng đặt trên bếp gas công
+    nghiệp cháy ù ù — chảo đủ nóng thì hạt cơm nhảy lên và **săn lại trong vài
+    chục giây**, chứ không nằm ì mà đổ mồ hôi.
+  - >-
+    Ở nhà bếp yếu hơn, nên bù bằng cách khác: **xào tách từng thứ**. Dưa xào
+    riêng cho bay hết nước, bò xào riêng lửa lớn nhất rồi trút ra liền, cơm rang
+    riêng cho săn hạt. Cách này chậm hơn quán vài phút nhưng ra đúng kết cấu,
+    và tránh được lỗi kinh điển là cả đĩa nhão nhoẹt.
+  - >-
+    **Dưa cải chua** mới là thứ giữ món này đứng riêng. Nó không chỉ cho vị
+    chua: cọng dưa vàng óng, cắn **giòn sựt**, và cái chua đó cắt ngang vị béo
+    của thịt bò — nên ăn cả đĩa vẫn không thấy ngán. Dưa phải **vắt cho thật
+    ráo** rồi mới xào; đây là chỗ quyết định đĩa cơm khô ráo hay ướt nhẹp.
+  - >-
+    Trên site đã có **cơm chiên cá mặn** — cùng là món cứu cơm nguội, cùng chảo
+    lửa lớn. Nhưng đó là món của người Hoa đất Sài Gòn: hạt cơm áo trứng vàng
+    ươm, mặn bằng cá mặn, ăn hiền. Còn đĩa cơm rang dưa bò thì **chua và đậm**,
+    và ngoài Bắc gọi là *rang* chứ không gọi là *chiên*.
+
+ingredientGroups:
+  - name: Cơm
+    icon: rice
+    items:
+      - id: comnguoicrd
+        name: Cơm nguội
+        icon: rice
+        color: gold
+        base: 800
+        unit: g
+        note: >-
+          Để ngăn mát **qua đêm** cho hạt se lại. Cơm mới nấu còn nhiều nước,
+          rang cách mấy cũng bết. Bóp tơi từng hạt trước khi cho vào chảo
+      - id: trungcrd
+        name: Trứng gà
+        icon: egg
+        color: gold
+        base: 2
+        unit: quả
+        note: >-
+          Đánh tan rồi trộn vào cơm nguội trước khi rang — mỗi hạt cơm được
+          áo một lớp mỏng, rang ra rời hẳn và vàng đều
+      - id: hanhtaycrd
+        name: Hành tây
+        icon: onion
+        base: 0.5
+        unit: củ
+        frac: true
+        note: Thái hạt lựu, phi cùng tỏi cho nền thơm
+  - name: Thịt bò
+    icon: meat
+    items:
+      - id: thanbocrd
+        name: Thăn bò hoặc bắp bò
+        icon: meat
+        color: red
+        base: 300
+        unit: g
+        note: >-
+          Thái **ngang thớ**, lát mỏng chừng 3 mm. Thái dọc thớ là miếng thịt
+          dai bất kể xào khéo tới đâu
+      - id: uopbocrd
+        name: Dầu hào + tỏi băm + tiêu
+        icon: bottle
+        qtyText: 1 muỗng canh dầu hào · 2 tép tỏi · ½ muỗng cà phê tiêu
+        note: Ướp 10 phút — dầu hào vừa nêm vừa cho màu nâu bóng
+      - id: daubocrd
+        name: Dầu ăn (ướp cùng thịt)
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: >-
+          Trộn vào thịt lúc ướp — lớp dầu bọc ngoài giữ nước bên trong miếng
+          thịt, xào xong vẫn mềm mọng
+  - name: Dưa cải chua
+    icon: pod
+    items:
+      - id: duacaicrd
+        name: Dưa cải chua
+        icon: pod
+        color: gold
+        base: 300
+        unit: g
+        note: >-
+          Chọn dưa **vàng óng, cọng còn cứng**, nước dưa trong. Dưa nhũn và ngả
+          nâu là muối quá tay, xào ra mềm oặt
+      - id: toicrd
+        name: Tỏi băm
+        icon: garlic
+        base: 4
+        unit: tép
+        note: Phi thơm trước khi trút dưa vào xào
+      - id: duongcrd
+        name: Đường
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Cho vào lúc xào dưa — làm dịu cái chua gắt, không phải để món ngọt
+  - name: Nêm và rắc
+    icon: basket
+    items:
+      - id: neimcrd
+        name: Nước mắm · hạt nêm · tiêu
+        icon: bottle
+        qtyText: 1 muỗng canh mắm · 1 muỗng cà phê hạt nêm
+        note: Nêm nhạt tay — dưa chua đã mặn sẵn phần nào
+      - id: hanhlacrd
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Cắt nhỏ, rắc lúc tắt bếp
+      - id: duachuotcrd
+        name: Dưa chuột + cà chua
+        icon: tomato
+        color: green
+        qtyText: 1 quả dưa chuột · 1 quả cà chua
+        note: Thái lát bày cạnh đĩa — mát miệng, cân lại vị đậm của cơm
+
+steps:
+  - title: Chuẩn bị ba thứ, ba nơi
+    icon: knife
+    minutes: 15 phút
+    intro: "Món này nhanh, nên mọi thứ phải sẵn sàng trước khi bật bếp:"
+    bullets:
+      - label: "Cơm:"
+        text: >-
+          Bóp tơi từng hạt cơm nguội. Đánh tan [[2|quả]] trứng, rưới vào, trộn
+          đều cho mỗi hạt được **áo một lớp mỏng**. Để đó [[5|phút]].
+      - label: "Bò:"
+        text: >-
+          Thái **ngang thớ** lát mỏng 3 mm, ướp [[1|muỗng canh|frac]] dầu hào,
+          tỏi băm, tiêu và [[1|muỗng cà phê|frac]] dầu ăn. Để [[10|phút]].
+      - label: "Dưa:"
+        text: >-
+          Rửa dưa qua nước lạnh cho bớt chua và bớt mặn, **vắt thật ráo** bằng
+          hai tay, cắt khúc chừng 2 cm. Vắt kỹ tới mức bóp không còn rỉ nước.
+    callout:
+      type: warn
+      text: >-
+        Dưa vắt dối là hỏng cả đĩa: nước dưa gặp chảo nóng bốc lên, hạt cơm hút
+        vào và **nhão bết** ngay. Đây là lỗi phổ biến nhất của món.
+  - title: Xào dưa cho bay hết nước
+    icon: flame
+    minutes: 8 phút
+    bullets:
+      - label: "Phi tỏi:"
+        text: >-
+          Bắc chảo, cho chút dầu, phi [[2|tép]] tỏi băm tới vàng thơm.
+      - label: "Xào:"
+        text: >-
+          Trút dưa vào xào **lửa vừa 5–7 phút**, thêm [[1|muỗng cà phê|frac]]
+          đường. Xào tới khi dưa **hết rỉ nước**, cọng ngả vàng trong và dậy mùi
+          thơm chua.
+      - text: >-
+          Trút ra đĩa để riêng. Đừng để lại trong chảo — dưa nằm chảo nóng tiếp
+          là mềm nhũn.
+    callout:
+      type: tip
+      text: >-
+        Chút đường ở đây **không phải để làm ngọt** mà để bẻ cái chua gắt cho
+        tròn lại. Nếm thử trước và sau khi cho đường sẽ thấy rõ — vẫn chua đó,
+        nhưng thôi xóc lưỡi.
+  - title: Xào bò — một phút, không hơn
+    icon: meat
+    minutes: 3 phút
+    bullets:
+      - label: "Chảo thật nóng:"
+        text: >-
+          Lau chảo, bật **lửa lớn nhất**, cho dầu và đợi tới khi dầu **bốc khói
+          nhẹ**. Chảo chưa đủ nóng thì thịt ra nước và luộc trong nước của chính
+          nó.
+      - label: "Dàn một lớp:"
+        text: >-
+          Trút thịt vào, **dàn một lớp**, để yên [[20|giây]] cho mặt dưới sém,
+          rồi đảo nhanh chừng [[30|giây]] nữa.
+      - text: >-
+          Thịt vừa đổi màu, còn hồng nhạt ở giữa là **trút ra ngay**. Nó sẽ chín
+          nốt lúc quay lại chảo ở bước cuối.
+    timer:
+      secs: 60
+      label: Hẹn giờ xào bò · 01:00
+      doneMsg: Trút ra liền nghen — để thêm là dai!
+    callout:
+      type: warn
+      text: >-
+        Xào nhiều thịt một lúc làm **tụt nhiệt chảo**, thịt ra nước và thành
+        thịt luộc. Chảo nhỏ thì chia hai mẻ — mất thêm một phút, đổi lại miếng
+        thịt mềm.
+  - title: Rang cơm rồi nhập ba thứ
+    icon: rice
+    minutes: 10 phút
+    bullets:
+      - label: "Phi nền:"
+        text: >-
+          Cho dầu vào chảo, phi tỏi băm còn lại và hành tây thái hạt lựu tới
+          thơm.
+      - label: "Rang cơm:"
+        text: >-
+          Trút cơm đã trộn trứng vào, **lửa lớn**, ép cơm xuống mặt chảo rồi mới
+          đảo — làm vậy vài lượt. Rang **5–7 phút** tới khi hạt cơm săn rời, đảo
+          lên nghe **lạo xạo**.
+      - label: "Nêm:"
+        text: >-
+          [[1|muỗng canh|frac]] nước mắm rưới quanh **thành chảo** chứ đừng đổ
+          giữa lòng — mắm gặp thành nóng dậy mùi rồi mới xuống cơm. Thêm hạt
+          nêm và tiêu, nếm nhạt tay.
+      - label: "Nhập:"
+        text: >-
+          Trút dưa và bò vào, đảo đúng **20 giây** cho quyện rồi tắt bếp ngay.
+          Rắc hành lá, đảo thêm hai vòng bằng nhiệt còn lại của chảo.
+    doneText: Xong — xúc ra đĩa lúc còn nóng!
+
+tipsTitle: 4 chỗ **quyết định** đĩa cơm rang dưa bò
+tips:
+  - icon: rice
+    title: Trộn trứng vào cơm nguội, đừng chiên trứng riêng
+    text: >-
+      Chiên trứng rồi mới trút cơm vào thì ra đĩa cơm có **những mảng trứng
+      rời**. Trộn trứng đánh tan vào cơm nguội trước, để 5 phút cho ngấm, rồi mới
+      rang: mỗi hạt cơm được áo một lớp mỏng, rang xong **rời hẳn ra** và vàng
+      đều. Đây là mẹo dùng được cho mọi món cơm rang.
+  - icon: alert
+    title: Vắt dưa tới khi bóp không còn rỉ nước
+    text: >-
+      Vắt qua loa thì trông có vẻ ráo, nhưng nước còn nằm trong lõi cọng dưa và
+      sẽ ra hết trong chảo. Túm từng nắm vắt mạnh hai tay, bóp thử — không còn
+      giọt nào rỉ ra mới đạt. Kỹ tính chỗ này thì đĩa cơm khô ráo hẳn.
+  - icon: flame
+    title: Rưới nước mắm quanh thành chảo
+    text: >-
+      Đổ mắm thẳng vào giữa lòng chảo là nó **thấm xuống cơm dưới đáy**, chỗ
+      mặn chỗ nhạt và cơm ướt lại. Rưới vòng quanh thành chảo đang nóng: mắm
+      bốc hơi dậy mùi rồi mới rơi xuống, đều hơn và thơm hơn hẳn.
+  - icon: clock
+    title: Thịt bò vào chảo lần cuối chỉ 20 giây
+    text: >-
+      Miếng bò đã chín tới ở bước riêng của nó. Quay lại chảo chỉ để **nóng lại
+      và quyện vào cơm** — đảo 20 giây là đủ. Nấu lại lần hai là thớ thịt co
+      cứng, và không có cách nào làm mềm lại được nữa.
+
+serve:
+  title: Đĩa cơm **của bữa sáng vội** — hoặc bữa tối gọn
+  paras:
+    - >-
+      Ngoài Bắc đây là món ăn sáng phổ biến ngang bún phở: một đĩa cơm rang, một
+      bát canh nhỏ, đĩa dưa chuột cà chua thái lát. Ăn xong đứng dậy đi làm, no
+      tới trưa.
+    - >-
+      Ở nhà thì nó là cách gọn nhất để giải quyết nồi cơm hôm qua. Từ lúc bật
+      bếp tới lúc bưng đĩa lên chưa tới hai mươi phút, mà lại đủ tinh bột, đạm
+      và rau trong một đĩa.
+  aside:
+    title: Bày mâm gợi ý
+    intro: "Ba thứ đi kèm cho đĩa cơm đỡ khô:"
+    items:
+      - icon: tomato
+        text: "**Dưa chuột và cà chua thái lát** — mát miệng, cân lại vị đậm."
+      - icon: bowl
+        text: "**Bát canh nhạt** — canh rau hoặc canh trứng cà chua đều hợp."
+      - icon: chili
+        text: "**Tương ớt** — đĩa cơm rang ở quán nào cũng có chai tương ớt bên cạnh."
+
+faq:
+  - q: Chỉ có cơm mới nấu thì làm sao?
+    a: >-
+      Xới cơm ra mâm hoặc khay rộng, dàn mỏng, **bật quạt thổi 15–20 phút** cho
+      se mặt; hoặc cho vào ngăn đá 20 phút. Cả hai cách đều rút bớt nước bề mặt
+      để hạt cơm chịu rời ra. Vẫn không bằng cơm qua đêm, nhưng cứu được bữa.
+  - q: Thịt bò xào xong bị dai và ra nhiều nước?
+    a: >-
+      Hai nguyên nhân, thường đi cùng nhau: **chảo chưa đủ nóng** và **cho quá
+      nhiều thịt một lúc**. Đợi dầu bốc khói nhẹ mới trút thịt, và chia mẻ nếu
+      chảo nhỏ. Thêm một điều: thái **ngang thớ** — thái dọc thớ thì xào cách
+      mấy cũng dai.
+  - q: Nhà không ăn được chua nhiều thì làm sao?
+    a: >-
+      Rửa dưa kỹ hơn — ngâm nước lạnh [[10|phút]] rồi vắt, chua sẽ giảm rõ. Và
+      tăng đường lúc xào dưa lên [[2|muỗng cà phê|frac]]. Nhưng đừng giảm lượng
+      dưa: dưa ít quá thì đĩa cơm thành cơm rang bò bình thường, mất đúng cái
+      làm nên tên món.
+  - q: Đây là món "cơm rang" hay "cơm chiên"?
+    a: >-
+      Cùng một việc, khác chữ theo vùng. Ngoài Bắc gọi là **rang**, trong Nam
+      gọi là **chiên** — nên trên site có cả *cơm rang dưa bò* lẫn *cơm chiên cá
+      mặn*, và cả hai đều gọi đúng theo nơi món ra đời. Giữ tên gốc là giữ luôn
+      cái giọng của vùng đó.
+
+ticker:
+  - icon: pod
+    text: Dưa cải vắt ráo, xào riêng cho hết nước
+  - icon: flame
+    text: Bò xào lửa lớn đúng một phút
+  - icon: rice
+    text: Hạt cơm săn rời, đảo nghe lạo xạo

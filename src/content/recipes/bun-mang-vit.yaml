@@ -1,0 +1,368 @@
+title: Bún măng vịt **măng khô nâu óng, chén mắm gừng bên cạnh**
+summary: >-
+  Nồi nước luộc vịt để nguyên làm nước dùng, thả **măng khô đã xào mỡ vịt** cho
+  ngấm — nước trong mà đậm. Miếng vịt chặt xếp riêng, chấm **mắm gừng giã tay**;
+  thiếu chén mắm đó là tô bún hụt hẳn một nửa.
+region: Miền Bắc
+category: Món nước
+occasions: [Cơm nhà, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 40 phút (+ ngâm măng qua đêm)
+  active: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 96
+art: bun-mang-vit
+heroEyebrow: Con vịt luộc xong, nồi nước còn nguyên…
+
+quick:
+  ingredients:
+    - Vịt [[1|con]] chừng 1,8 kg — chặt đôi cho vừa nồi
+    - Măng khô [[150|g]] — ngâm nước vo gạo **qua đêm**, luộc 3 nước
+    - Bún tươi sợi nhỏ [[800|g]] · hành tím [[5|củ]] · gừng [[1|củ]]
+    - "Khử mùi vịt: gừng giã + muối hột + rượu trắng [[2|muỗng canh|frac]]"
+    - "Mắm gừng: gừng [[1|nhánh]] · tỏi [[3|tép]] · ớt · đường · nước mắm · chanh"
+    - "Dọn kèm: rau mùi tàu, hành lá, giá, bắp chuối bào"
+  steps:
+    - Chà vịt bằng **gừng giã + muối hột + rượu**, xả sạch — bước không được bỏ.
+    - Ngâm măng qua đêm, luộc **3 nước**, mỗi nước mở vung, rồi xé sợi.
+    - Luộc vịt với hành gừng nướng, nước **lăn tăn** thôi, 35 phút. Vớt vịt ra.
+    - Xào măng với mỡ vịt vớt trên nồi, nêm mắm, rồi trút ngược vào nồi nước.
+    - Chặt vịt, trụng bún, chan nước nóng. Mắm gừng **giã cối**, dọn chén riêng.
+  warning: >-
+    Măng khô luộc chưa tới là **đắng và ngứa lưỡi**, mà nấu rồi thì không chữa
+    được. Luộc đủ 3 nước, nước nào cũng mở vung, tới khi cắn thấy mềm mới thôi.
+
+flavor:
+  chua: 1
+  ngot: 6
+  man: 6
+  cay: 2
+  thom: 7
+flavorNote: >-
+  **Chuẩn tô:** nước dùng **trong, ngọt hậu mùi vịt** chứ không béo ngậy; sợi
+  măng nâu óng, cắn nghe **giòn sần sật**; miếng vịt chấm mắm gừng thì cay ấm
+  dậy lên, át hết cái mùi nồng vốn có của con vịt.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món sinh ra từ **một nồi nước không ai nỡ đổ**
+story:
+  - >-
+    Bún măng vịt là kiểu món của người biết tiếc. Luộc con vịt xong, nồi nước
+    ngọt lừ ấy đổ đi thì phí, mà húp không thì nhạt — thả nắm **măng khô** dành
+    từ mùa trước vào, thế là thành nồi bún. Ngoài Bắc gọi lối nấu này là **vịt
+    xáo măng**, có trước cả khi nó được chan vào tô bún bán ngoài hàng.
+  - >-
+    Măng khô mới là chỗ đáng nói. Măng tươi bẻ về chỉ có theo mùa, nên người ta
+    luộc rồi phơi để dành ăn dần cả năm — phơi xong sợi măng quắt lại, ngả nâu
+    hổ phách, và **đổi hẳn tính**: nó thôi mọng nước, sợi quắt lại thành **dai
+    giòn**, lại hút nước dùng như miếng bọt biển. Đó là lý do măng khô nấu vịt
+    ngon hơn măng tươi, dù măng tươi nhanh hơn nhiều.
+  - >-
+    Vô tới miền Nam, món này được sửa lại cho hợp miệng: nhiều hàng đổi sang
+    **măng tươi hoặc măng chua**, nước nêm ngọt hơn, bún dùng sợi nhỏ. Nhưng có
+    một thứ đi theo món suốt từ Bắc vô Nam mà không ai dám bỏ — **chén nước mắm
+    gừng**. Thịt vịt có mùi riêng khá nồng; gừng giã với tỏi ớt và đường là thứ
+    duy nhất trị được nó mà vẫn để nguyên vị ngọt của thịt.
+  - >-
+    Công thức dưới đây nấu lối Bắc — măng khô, nước trong, nêm nhạt tay — vì đó
+    là bản gốc, và vì nồi nước trong thì ai muốn nêm đậm hơn vẫn nêm được ở tô.
+
+ingredientGroups:
+  - name: Con vịt và nồi nước
+    icon: pot
+    items:
+      - id: convit
+        name: Vịt làm sẵn
+        icon: meat
+        color: amber
+        base: 1
+        unit: con
+        note: Chừng 1,8 kg — chọn con ức đầy, da vàng ngà, đừng chọn con quá to
+      - id: gungmuoi
+        name: Gừng giã + muối hột + rượu trắng
+        icon: ginger
+        qtyText: 1 nhánh gừng · 1 muỗng canh muối hột · 2 muỗng canh rượu
+        note: Hỗn hợp chà mình vịt — bước khử mùi, đừng bỏ qua
+      - id: hanhnuong
+        name: Hành tím + gừng nướng
+        icon: onion
+        base: 5
+        unit: củ
+        note: Nướng tới sém vỏ rồi rửa tro, thả vào nồi luộc
+      - id: neimnoi
+        name: Muối · đường phèn · nước mắm
+        icon: jar
+        qtyText: 1 muỗng cà phê muối · 1 viên đường phèn nhỏ
+        note: Nêm nhạt tay — nước dùng đậm quá thì mắm gừng hết chỗ đứng
+  - name: Măng khô
+    icon: stem
+    items:
+      - id: mangkho
+        name: Măng khô
+        icon: stem
+        color: gold
+        base: 150
+        unit: g
+        note: >-
+          Chọn sợi ngả vàng hổ phách, còn mềm tay. Măng trắng bợt bất thường
+          thì bỏ qua. 150 g măng khô nở ra chừng 600 g
+      - id: nuocvogao
+        name: Nước vo gạo
+        icon: rice
+        qtyText: Đủ ngập măng
+        note: Ngâm măng qua đêm — nước vo gạo rút bớt vị đắng nhanh hơn nước lã
+      - id: mohanhmang
+        name: Hành tím băm + mỡ vịt
+        icon: garlic
+        base: 3
+        unit: củ
+        note: Mỡ vịt vớt từ mặt nồi luộc, dùng xào măng
+  - name: Chén mắm gừng
+    icon: bowl
+    items:
+      - id: gunggia
+        name: Gừng già
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Gừng già mới đủ thơm và cay — gừng non nhạt và hơi hăng
+      - id: toiot
+        name: Tỏi + ớt
+        icon: chili
+        color: red
+        qtyText: 3 tép tỏi · 2 trái ớt
+        note: Giã chung với gừng trong cối, đừng xay máy
+      - id: mamduong
+        name: Nước mắm + đường + chanh
+        icon: bottle
+        qtyText: 3 muỗng canh mắm · 2 muỗng canh đường · 1 trái chanh
+        note: Pha xong nếm phải thấy ngọt trước, mặn sau, chua khép lại
+  - name: Dọn tô
+    icon: bowl
+    items:
+      - id: bunsoi
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 800
+        unit: g
+        note: Trụng lại nước sôi ngay trước khi chan
+      - id: muitau
+        name: Mùi tàu + hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: nhúm
+        note: Mùi tàu thái chỉ ngang — mùi này hợp vịt hơn hẳn rau mùi ta
+      - id: giabap
+        name: Giá + bắp chuối bào
+        icon: sprout
+        color: green
+        base: 300
+        unit: g
+        note: Bắp chuối bào ngâm nước chanh loãng cho khỏi thâm
+
+steps:
+  - title: Khử mùi vịt cho tới nơi
+    icon: knife
+    minutes: 15 phút
+    intro: "Cả món hỏng hay được nằm gần hết ở bước này:"
+    bullets:
+      - label: "Chà xát:"
+        text: >-
+          Giã nát [[1|nhánh]] gừng với [[1|muỗng canh|frac]] muối hột, trộn
+          [[2|muỗng canh|frac]] rượu trắng. Chà **khắp trong ngoài** con vịt,
+          kỹ nhất ở phao câu và hai bên nách cánh. Để **10 phút** rồi xả nước
+          lạnh thật sạch.
+      - label: "Cắt bỏ:"
+        text: >-
+          Cắt bỏ hẳn **phao câu** và lớp mỡ vàng dày ở cổ. Đây là hai chỗ chứa
+          mùi nặng nhất, tiếc làm gì.
+      - text: >-
+          Chần con vịt qua nồi nước sôi chừng [[2|phút]] rồi vớt ra xả lại —
+          bước này lấy đi phần bọt bẩn, nồi nước sau đó mới trong được.
+    callout:
+      type: warn
+      text: >-
+        Chỉ dùng gừng và rượu, **đừng chà chanh hay giấm**. Axit làm da vịt săn
+        lại và bợt màu, luộc xong miếng thịt trắng nhợt, nhìn đã mất ngon.
+  - title: Ngâm và luộc măng khô
+    icon: stem
+    minutes: 45 phút
+    intro: "Làm song song lúc chờ vịt — hoặc làm hẳn từ tối hôm trước:"
+    bullets:
+      - label: "Ngâm qua đêm:"
+        text: >-
+          Măng khô rửa sạch, ngâm ngập **nước vo gạo** ít nhất [[8|tiếng]]. Sợi
+          măng nở mềm ra gấp bốn lần, đổi từ nâu sẫm sang vàng nhạt.
+      - label: "Luộc 3 nước:"
+        text: >-
+          Mỗi nước luộc [[15|phút]], **mở vung** cho vị đắng bay đi, luộc xong
+          đổ nước, xả lại rồi luộc tiếp nước mới. Tới nước thứ ba cắn thử thấy
+          mềm, không còn vị đắng gắt là được.
+      - label: "Xé sợi:"
+        text: >-
+          Tước dọc thớ thành sợi cỡ que diêm, bỏ phần gốc già cứng. Xé tay đẹp
+          hơn thái dao — mép sợi tưa ra thì ngấm nước dùng nhanh hơn.
+    timer:
+      secs: 900
+      label: Hẹn giờ luộc măng · 15:00
+      doneMsg: Đổ nước, xả lại rồi luộc tiếp nước nữa nghen!
+    callout:
+      type: warn
+      text: >-
+        **Đậy vung là hỏng.** Vị đắng của măng bay theo hơi nước, đậy lại thì
+        nó rơi ngược xuống nồi. Luộc măng lúc nào cũng để vung mở.
+  - title: Luộc vịt, giữ nước cho trong
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - label: "Vào nồi:"
+        text: >-
+          Xếp vịt vào nồi, đổ nước lạnh vừa ngập, thả hành tím và gừng đã nướng.
+          Đun **mở vung** tới khi sủi tăm thì hạ lửa ngay.
+      - label: "Giữ lăn tăn:"
+        text: >-
+          Suốt [[35|phút]] chỉ để nồi **lăn tăn**, mặt nước hơi rung chứ không
+          nổi bọt lớn. Hớt bọt đều tay trong 10 phút đầu.
+      - label: "Thử chín:"
+        text: >-
+          Xiên đũa vào chỗ dày nhất của đùi, nước chảy ra **trong** là chín. Vớt
+          vịt ra thau nước lạnh có đá vài phút cho da săn, rồi để ráo.
+      - text: >-
+          Vớt lớp **mỡ vàng** nổi trên mặt nồi để riêng — lát nữa xào măng bằng
+          chính chỗ mỡ đó.
+    timer:
+      secs: 2100
+      label: Hẹn giờ luộc vịt · 35:00
+      doneMsg: Xiên thử đùi vịt xem nước có trong chưa nghen!
+    callout:
+      type: warn
+      text: >-
+        Nồi **sôi bùng** là nước đục và thịt vịt bã. Vịt không phải xương heo,
+        không cần lửa lớn để ra ngọt — nó ngọt sẵn rồi.
+  - title: Xào măng rồi trả về nồi
+    icon: flame
+    minutes: 15 phút
+    intro: "Bước làm nên khác biệt giữa nồi ở nhà và nồi ngoài hàng:"
+    bullets:
+      - label: "Phi thơm:"
+        text: >-
+          Bắc chảo, cho **mỡ vịt** vừa vớt, phi [[3|củ]] hành tím băm tới vàng.
+      - label: "Xào măng:"
+        text: >-
+          Trút măng vào xào **lửa vừa 8–10 phút**, nêm [[1|muỗng canh|frac]]
+          nước mắm. Xào tới khi sợi măng chuyển sang **nâu óng** và bắt đầu
+          quăn mép là đạt.
+      - label: "Trả về nồi:"
+        text: >-
+          Trút cả chảo măng vào nồi nước luộc vịt, đun tiếp [[15|phút]] cho măng
+          ngấm ngược. Nêm muối và một viên đường phèn nhỏ, nếm cho **nhạt hơn
+          khẩu vị bình thường một chút**.
+    callout:
+      type: tip
+      text: >-
+        Thả măng sống thẳng vào nồi thì cũng ăn được, nhưng sợi măng nhạt thếch
+        và nồi nước loãng mùi. Xào trước là để **măng có vị của riêng nó** trước
+        khi gặp nước dùng.
+  - title: Chặt vịt, giã mắm gừng, dọn tô
+    icon: bowl
+    minutes: 15 phút
+    bullets:
+      - label: "Chặt vịt:"
+        text: >-
+          Để vịt nguội hẳn mới chặt, miếng mới không nát. Chặt miếng vừa đũa
+          gắp, xếp ra dĩa riêng chứ **đừng bỏ hết vào tô** — nửa cái ngon của
+          món là ở chỗ chấm.
+      - label: "Mắm gừng:"
+        text: >-
+          Giã gừng, tỏi, ớt trong cối cho thật nhuyễn, hoà [[3|muỗng canh|frac]]
+          nước mắm + [[2|muỗng canh|frac]] đường + nước cốt [[1|trái]] chanh.
+          Nêm lại tới khi **ngọt trước, mặn sau, chua khép lại**.
+      - text: >-
+          Bún trụng nước sôi, cho vào tô, gắp măng lên trên, chan nước dùng đang
+          sôi. Rắc mùi tàu, hành lá và chút tiêu. Dọn kèm dĩa vịt, chén mắm gừng,
+          rổ giá và bắp chuối bào.
+    doneText: Xong — bưng lên, nhớ chén mắm gừng!
+
+tipsTitle: 4 chỗ **quyết định** nồi bún măng vịt
+tips:
+  - icon: ginger
+    title: Gừng phải giã, đừng băm
+    text: >-
+      Cối giã làm vỡ tế bào gừng, tinh dầu ra hết vào nước mắm nên chén mắm
+      **đục nhẹ và thơm nồng**. Băm dao thì miếng gừng còn nguyên, chén mắm
+      trong veo mà nhạt mùi — nhìn đẹp hơn nhưng ăn thua hẳn.
+  - icon: clock
+    title: Ngâm măng đủ đêm, đừng ngâm nước nóng cho nhanh
+    text: >-
+      Nước nóng làm mặt ngoài sợi măng nở bung trong khi lõi vẫn quắt, luộc
+      xong ăn vừa dai vừa còn đắng. Măng khô cần **thời gian**, không cần nhiệt.
+      Quên ngâm từ tối thì đổi kế hoạch bữa, đừng đi tắt.
+  - icon: drop
+    title: Nêm nhạt tay, để mắm gừng làm phần còn lại
+    text: >-
+      Đây là món có **hai tầng nêm**: nồi nước và chén chấm. Nêm nồi đậm là hai
+      tầng đá nhau, ăn tới miếng vịt thứ ba đã thấy gắt. Nồi nhạt một chút thì
+      húp nước thấy thanh, mà cắn miếng vịt vẫn đậm.
+  - icon: flame
+    title: Mỡ vịt là thứ đừng đổ đi
+    text: >-
+      Lớp mỡ vàng nổi trên nồi luộc chính là thứ để xào măng. Xào bằng dầu ăn
+      thì măng chỉ được cái bóng; xào bằng mỡ vịt thì sợi măng mang luôn mùi
+      con vịt, và cả nồi ăn ra **một món** chứ không phải hai thứ nấu chung.
+
+serve:
+  title: Dĩa vịt để riêng — **đó mới là cách ăn đúng**
+  paras:
+    - >-
+      Nhiều nhà xếp hết thịt vào tô cho tiện, rồi thắc mắc sao ăn ở nhà không
+      giống ngoài hàng. Khác nhau ở đúng chỗ đó: thịt vịt **ngâm trong nước
+      dùng** thì nhả hết vị vào nước và mềm oặt ra, mà chấm mắm gừng cũng không
+      còn ăn thua vì miếng thịt đã ướt sẵn.
+    - >-
+      Dọn dĩa vịt riêng, tô bún riêng. Gắp miếng vịt, chấm mắm gừng, ăn kèm
+      miếng bắp chuối bào cho đỡ ngán, rồi mới húp một muỗng nước. Ba nhịp đó
+      lặp lại — đó là nhịp ăn của món này.
+  aside:
+    title: Trên mâm nên có
+    intro: "Ba thứ dọn kèm, thiếu thì tô bún hụt một góc:"
+    items:
+      - icon: bowl
+        text: "**Mắm gừng giã cối** — một chén cho mỗi người, đừng dùng chung."
+      - icon: sprout
+        text: "**Bắp chuối bào** — chát nhẹ và giòn, cắt ngang cái béo của vịt."
+      - icon: herb
+        text: "**Mùi tàu thái chỉ** — mùi này hợp vịt hơn rau mùi ta, thơm mà không ngọt."
+
+faq:
+  - q: Dùng măng tươi thay măng khô được không?
+    a: >-
+      Được, và nhanh hơn hẳn — miền Nam nhiều hàng nấu măng tươi. Nhưng đó là
+      **một tô khác**: măng tươi giòn nước, vị thanh, không hút nước dùng. Măng
+      khô mới cho thứ sợi dai giòn ngấm đẫm mà lối Bắc nhắm tới. Nếu dùng măng
+      tươi thì vẫn phải luộc 2 nước mở vung cho hết vị ngái.
+  - q: Nước dùng bị đục thì cứu được không?
+    a: >-
+      Vớt vát được: lọc qua rây lót khăn xô, rồi đun lại **thật nhỏ lửa**, hớt
+      bọt liên tục. Lần sau nhớ ba điều — chần vịt trước khi luộc, đổ **nước
+      lạnh** chứ đừng đổ nước sôi, và tuyệt đối không để nồi sôi bùng.
+  - q: Ăn không hết thì để được mấy ngày?
+    a: >-
+      Nước dùng và măng để ngăn mát được **3 ngày**, hâm lại càng đậm. Nhưng
+      **thịt vịt để riêng hộp khác**, đừng ngâm trong nước — ngâm qua đêm là
+      miếng thịt bã và nhạt. Bún thì trụng mới mỗi lần ăn.
+  - q: Tôi ngại mùi vịt, có cách nào chắc ăn hơn không?
+    a: >-
+      Làm đủ ba lớp: chà **gừng + muối hột + rượu** rồi xả, cắt bỏ **phao câu**,
+      và thả **hành gừng nướng sém** vào nồi luộc. Ba lớp đó cộng lại thì chén
+      mắm gừng chỉ còn việc tô đậm thêm, chứ không phải đi chữa cháy.
+
+ticker:
+  - icon: stem
+    text: Măng khô xào mỡ vịt
+  - icon: ginger
+    text: Mắm gừng giã cối
+  - icon: drop
+    text: Nước luộc vịt để nguyên làm nước dùng

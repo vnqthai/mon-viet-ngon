@@ -1,0 +1,337 @@
+title: Bún mọc **viên mọc nấm hương, nước dùng trong veo**
+summary: >-
+  "Mọc" là viên giò sống trộn **mộc nhĩ và nấm hương băm** — cắn vào dai mềm mà
+  lấm tấm giòn. Một tô có mọc, sườn non và lát chả quế, chan thứ nước dùng trong
+  đến mức nhìn thấy đáy bát.
+region: Miền Bắc
+category: Món nước
+occasions: [Bữa sáng, Cơm nhà]
+pubDate: 2026-07-31
+time:
+  total: 2 giờ
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 98
+art: bun-moc
+heroEyebrow: Quán vỉa hè, nặn tới đâu bán tới đó…
+
+quick:
+  ingredients:
+    - Giò sống [[400|g]] — mua ở hàng giò chả, loại quết sẵn
+    - Mộc nhĩ [[20|g]] + nấm hương [[20|g]] — ngâm nở, băm nhỏ
+    - Sườn non [[400|g]] · xương ống [[500|g]] — nấu nước dùng
+    - Chả quế [[150|g]] — xắt lát mỏng, xếp lên tô lúc dọn
+    - Bún tươi sợi nhỏ [[800|g]] · hành tím [[4|củ]] · gừng [[1|nhánh]] nướng
+    - "Dọn kèm: hành lá, rau mùi, rau muống chẻ, xà lách · chanh ớt"
+  steps:
+    - Trộn giò sống với mộc nhĩ + nấm hương băm, **quết lại cho quyện**, ướp lạnh.
+    - Chần xương và sườn, xả sạch, hầm với hành gừng nướng **90 phút**, hớt bọt.
+    - Nước sôi lăn tăn thì **thả từng viên mọc**, viên nổi lên là chín, vớt ra.
+    - Nêm nhạt tay, giữ nồi lăn tăn. Nước phải **trong nhìn thấy đáy**.
+    - Xếp bún, mọc, sườn, lát chả quế, chan nước sôi, rắc hành mùi.
+  warning: >-
+    Nặn mọc bằng tay khô là viên **nứt và bở**. Nhúng tay vào bát nước lạnh
+    trước mỗi viên — viên ra tròn láng và không dính tay.
+
+flavor:
+  chua: 0
+  ngot: 6
+  man: 5
+  cay: 1
+  thom: 6
+flavorNote: >-
+  **Chuẩn bát:** nước dùng **trong nhìn thấy đáy**, ngọt hiền, hậu vị thoảng mùi
+  nấm hương; viên mọc cắn vào **dai mềm** rồi gặp mộc nhĩ **giòn sựt** lấm tấm
+  bên trong — đó là chỗ người ta nhớ.
+storyEyebrow: Chuyện món ăn
+storyTitle: Tên món đến từ **một cái làng**, không phải từ cách nấu
+story:
+  - >-
+    Bún mọc lấy tên từ **làng Mọc** — tên nôm của làng Nhân Mục, nay thuộc quận
+    Thanh Xuân — nơi món này được cho là ra đời. Nhưng có cách giải thích thứ
+    hai cũng đứng vững: **"mọc"** đọc chệch từ **"mộc"**, tức viên giò sống vo
+    tròn mộc mạc thả vào bát bún. Hai lối giải thích ấy tồn tại song song đã
+    lâu, không bên nào dứt điểm được bên nào, và cũng chẳng ai thấy cần.
+  - >-
+    Điều đáng nói hơn là **cái viên mọc**. Giò sống không thôi thì mềm và trơn,
+    ăn vài viên là chán. Người ta băm **mộc nhĩ** và **nấm hương** đã ngâm nở
+    rồi trộn vào — mộc nhĩ cho những điểm **giòn sựt** lấm tấm, nấm hương cho
+    mùi thơm ngầm. Cắn một viên là gặp cả ba thứ cùng lúc: dai của giò, sựt của
+    mộc nhĩ, thơm của nấm.
+  - >-
+    Nước dùng thì đi theo lối Bắc cổ điển: **trong là trên hết**. Xương ống với
+    sườn non hầm nhỏ lửa gần hai tiếng, hớt bọt đều tay, nêm nhạt. Không sa tế,
+    không màu điều, không mắm tôm — bát bún mọc không có chỗ nào để giấu, nên
+    nồi nước hỏng là cả bát hỏng.
+  - >-
+    Trên site này đã có **miến gà** cũng là món Bắc nước trong, cũng có mộc nhĩ
+    nấm hương. Chỗ khác nằm ở nhân: miến gà là **thịt gà xé tơi thớ** trên sợi
+    miến dong, còn bún mọc là **những viên tròn** nổi trên sợi bún trắng. Cùng
+    một tinh thần nấu, hai bát nhìn ra khác nhau ngay từ xa.
+
+ingredientGroups:
+  - name: Viên mọc
+    icon: meat
+    items:
+      - id: giosongmoc
+        name: Giò sống
+        icon: meat
+        color: amber
+        base: 400
+        unit: g
+        note: >-
+          Mua ở hàng giò chả ngoài chợ, loại đã quết sẵn. Chọn khối trắng ngà,
+          mịn, dính tay — loại rời rạc là pha nhiều bột
+      - id: mocnhimoc
+        name: Mộc nhĩ
+        icon: herb
+        base: 20
+        unit: g
+        note: Ngâm nước ấm cho nở, cắt bỏ chân cứng, băm nhỏ cỡ hạt đậu xanh
+      - id: namhuongmoc
+        name: Nấm hương
+        icon: herb
+        base: 20
+        unit: g
+        note: >-
+          Ngâm nở rồi băm nhỏ. **Giữ lại nước ngâm** — lọc bỏ cặn, đổ vào nồi
+          nước dùng, đó là mùi thơm ngầm của cả nồi
+      - id: neimmoc
+        name: Nước mắm · tiêu · hành tím băm
+        icon: jar
+        qtyText: 1 muỗng canh mắm · 1 muỗng cà phê tiêu
+        note: Trộn vào lúc quết mọc — nêm sẵn thì viên mọc tự nó đã có vị
+  - name: Nồi nước dùng
+    icon: pot
+    items:
+      - id: xuongongmoc
+        name: Xương ống heo
+        icon: meat
+        base: 500
+        unit: g
+        note: Chặt khúc, chần qua nước sôi rồi xả sạch — bước này quyết định nước trong
+      - id: suonnonmoc
+        name: Sườn non
+        icon: meat
+        color: amber
+        base: 400
+        unit: g
+        note: Chặt miếng vừa gắp, hầm chung, lát nữa vớt ra xếp lên bát
+      - id: hanhgungmoc
+        name: Hành tím + gừng nướng
+        icon: onion
+        base: 4
+        unit: củ
+        note: Nướng tới sém vỏ, rửa tro rồi đập dập
+      - id: neimnoimoc
+        name: Muối · nước mắm · đường phèn
+        icon: bottle
+        qtyText: 1 muỗng cà phê muối · 1 muỗng canh mắm
+        note: Nêm nhạt tay — bát bún mọc lấy vị hiền làm chuẩn
+  - name: Dọn bát
+    icon: bowl
+    items:
+      - id: bunmocsoi
+        name: Bún tươi sợi nhỏ
+        icon: noodle
+        base: 800
+        unit: g
+        note: Trụng lại nước sôi ngay trước khi chan
+      - id: chaquemoc
+        name: Chả quế
+        icon: meat
+        color: gold
+        base: 150
+        unit: g
+        note: >-
+          Giò lụa quét lớp bột quế bên ngoài rồi nướng, nên mặt ngoài nâu vàng.
+          Xắt lát mỏng, xếp lên bát lúc dọn
+      - id: hanhmuimoc
+        name: Hành lá + rau mùi
+        icon: herb
+        color: green
+        base: 1
+        unit: nhúm
+        note: Thái nhỏ, rắc lúc chan — đừng nấu trong nồi
+      - id: raumocsong
+        name: Rau muống chẻ + xà lách
+        icon: sprout
+        color: green
+        base: 250
+        unit: g
+        note: Rau muống chẻ ngâm nước lạnh cho cong giòn
+
+steps:
+  - title: Trộn và quết viên mọc
+    icon: knife
+    minutes: 20 phút
+    intro: "Làm trước tiên rồi cất ngăn mát — mọc để lạnh dễ nặn hơn hẳn:"
+    bullets:
+      - label: "Ngâm nấm:"
+        text: >-
+          Mộc nhĩ và nấm hương ngâm nước ấm [[20|phút]] cho nở hết. Cắt bỏ chân
+          cứng, vắt ráo, **băm nhỏ cỡ hạt đậu xanh** — băm to thì viên mọc rời,
+          băm nhuyễn quá thì mất cái sựt.
+      - label: "Trộn:"
+        text: >-
+          Cho giò sống ra tô, thêm mộc nhĩ, nấm hương, hành tím băm,
+          [[1|muỗng canh|frac]] nước mắm và [[1|muỗng cà phê|frac]] tiêu.
+      - label: "Quết lại:"
+        text: >-
+          Dùng muỗng **quết mạnh một chiều** chừng 3 phút cho nấm quyện đều vào
+          giò. Bọc kín, để ngăn mát **ít nhất 20 phút**.
+    callout:
+      type: warn
+      text: >-
+        Trộn kiểu đảo qua đảo lại thì nấm nằm rời trong khối giò, thả vào nồi là
+        viên **bung ra**. Phải quết cho khối mọc dẻo dính trở lại như lúc đầu.
+  - title: Hầm nồi nước dùng cho trong
+    icon: pot
+    minutes: 90 phút
+    bullets:
+      - label: "Chần xương:"
+        text: >-
+          Xương ống và sườn cho vào nồi nước lạnh, đun sôi [[3|phút]], đổ hết
+          nước đó đi rồi **xả lại thật sạch** dưới vòi. Đây là bước quyết định
+          nước có trong hay không.
+      - label: "Hầm:"
+        text: >-
+          Cho xương, sườn, hành gừng nướng vào [[3|lít]] nước lạnh. Sôi lăn tăn
+          thì hạ nhỏ lửa ngay, hầm **90 phút**, hớt bọt đều tay trong 20 phút đầu.
+      - label: "Vớt sườn:"
+        text: >-
+          Sau [[40|phút]] thì vớt sườn non ra để riêng — hầm tiếp là thịt bã và
+          rụng khỏi xương.
+      - label: "Thêm nước nấm:"
+        text: >-
+          Đổ **nước ngâm nấm hương** đã lọc bỏ cặn vào nồi. Nêm muối, nước mắm
+          và một viên đường phèn nhỏ, nếm cho **nhạt hơn khẩu vị thường một chút**.
+    timer:
+      secs: 3600
+      label: Hẹn giờ hầm xương · 60:00
+      doneMsg: Còn 30 phút nữa — nhớ giữ lửa lăn tăn nghen!
+    callout:
+      type: warn
+      text: >-
+        Nồi **sôi bùng** một lần thôi là nước đục vĩnh viễn — mỡ và đạm bị đánh
+        tơi ra, lọc cách mấy cũng không trong lại. Bát bún mọc không có màu điều
+        hay sa tế để giấu, nên chỗ này không được lơ là.
+  - title: Thả mọc vào nồi
+    icon: spoon
+    minutes: 15 phút
+    intro: "Nấu mọc ngay trong nồi nước dùng — đó là chỗ nồi nước ngọt thêm một tầng:"
+    bullets:
+      - label: "Nặn:"
+        text: >-
+          Để một bát nước lạnh bên cạnh. **Nhúng tay vào nước trước mỗi viên**,
+          véo khối mọc cỡ quả quất rồi vo tròn. Đừng nặn to — viên to thì bên
+          ngoài chín mà lõi còn sống.
+      - label: "Thả:"
+        text: >-
+          Giữ nồi ở mức **lăn tăn**, thả từng viên vào. Viên chìm xuống rồi
+          **nổi lên** là chín, chừng [[5|phút]]. Vớt ra bát để riêng.
+      - text: >-
+          Có thể để lại vài viên trong nồi cho ngấm nước, nhưng đừng để hết —
+          mọc ngâm lâu là nở bở.
+    timer:
+      secs: 300
+      label: Hẹn giờ luộc mọc · 05:00
+      doneMsg: Viên nào nổi lên là chín rồi, vớt ra nghen!
+    callout:
+      type: tip
+      text: >-
+        Nặn thử **một viên** thả vào trước. Viên tan ra thì khối mọc còn ướt —
+        quết thêm chút nữa rồi để lạnh lâu hơn. Viên cứng đơ thì lần sau bớt
+        quết. Một viên thử rẻ hơn cả mẻ hỏng.
+  - title: Dọn bát nóng
+    icon: bowl
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Bún trụng nước sôi, xóc ráo, cho vào bát. Xếp **mọc một bên, sườn một
+          bên**, đặt vài lát chả quế lên trên cho có mảng nâu vàng.
+      - text: >-
+          Chan nước dùng đang sôi, rắc hành lá và rau mùi thái nhỏ, chút tiêu.
+          Dọn kèm rổ rau muống chẻ, xà lách và đĩa chanh ớt.
+    doneText: Xong — bưng lên khi còn bốc khói!
+
+tipsTitle: 4 chỗ **quyết định** bát bún mọc
+tips:
+  - icon: herb
+    title: Giữ lại nước ngâm nấm hương
+    text: >-
+      Chỗ thơm nhất của cây nấm hương khô nằm trong **nước ngâm**, không nằm
+      trong cái nấm. Đổ đi là mất trắng. Lọc bỏ cặn cát ở đáy rồi đổ vào nồi —
+      nồi nước lập tức có một tầng mùi mà xương heo không cho được.
+  - icon: alert
+    title: Băm mộc nhĩ cỡ hạt đậu xanh, đừng băm nhuyễn
+    text: >-
+      Mộc nhĩ có mặt trong viên mọc là để **cắn nghe sựt**. Băm nhuyễn thành
+      bột thì viên mọc chỉ còn màu lấm tấm mà không còn cảm giác, mà băm to quá
+      thì viên rời. Cỡ hạt đậu xanh là chỗ vừa.
+  - icon: clock
+    title: Vớt sườn ra sau 40 phút
+    text: >-
+      Xương ống càng hầm càng ngọt, nhưng **sườn non thì không**. Quá 40 phút
+      là thịt bã, rụng khỏi xương và bã ra trong nồi làm đục nước. Vớt ra để
+      riêng, tới lúc dọn thả lại vào bát là vừa nóng.
+  - icon: drop
+    title: Nêm nhạt — bát bún mọc lấy vị hiền làm chuẩn
+    text: >-
+      Đây không phải bún bò hay bún riêu, không có tầng vị mạnh nào để đua. Nêm
+      đậm là nó thành một bát bún xương bình thường. Nhạt hơn khẩu vị quen một
+      chút thì mùi nấm hương mới nổi lên được — và đó mới là thứ đáng nhớ.
+
+serve:
+  title: Bát bún của **buổi sáng không vội**
+  paras:
+    - >-
+      Bún mọc là món ăn sáng nhưng không phải món ăn vội. Nó nhạt, trong, ít
+      màu — húp muỗng đầu thấy hiền, tới muỗng thứ ba mới nhận ra mùi nấm hương
+      đi lên. Ai quen tô bún đậm mùi sẽ cần vài phút để bắt nhịp.
+    - >-
+      Nồi nước hầm được thì hầm từ tối hôm trước, mọc cũng trộn sẵn để ngăn mát.
+      Sáng ra chỉ việc đun lại cho sôi lăn tăn, thả mọc, trụng bún — mười lăm
+      phút là xong, mà bát bún vẫn đúng thứ đã ninh hai tiếng.
+  aside:
+    title: Trên mâm nên có
+    intro: "Ba thứ dọn kèm, thiếu thì bát bún hụt một góc:"
+    items:
+      - icon: sprout
+        text: "**Rau muống chẻ** — ngâm nước lạnh cho cong giòn, ăn cùng cho đỡ trơn."
+      - icon: lime
+        text: "**Chanh và ớt tươi** — vắt vào lúc gần cuối bát, nước dùng bừng lên."
+      - icon: meat
+        text: "**Chả quế xắt mỏng** — mảng nâu vàng duy nhất trên bát, đừng bỏ."
+
+faq:
+  - q: Không mua được giò sống thì tự làm được không?
+    a: >-
+      Được nhưng khá cực: thịt nạc mông xay lạnh nhiều lần rồi quết tới lúc dẻo
+      quánh, cả quá trình phải giữ thật lạnh, hơi ấm lên là khối thịt **chảy
+      nhão** và mất kết dính. Hàng giò chả ngoài chợ nào cũng có bán giò sống —
+      đây là chỗ nên mua sẵn.
+  - q: Mọc thả vào nồi bị tan hết thì làm sao?
+    a: >-
+      Vớt hết ra, cho khối mọc còn lại vào tô, **quết thêm** 2–3 phút rồi để
+      ngăn mát 20 phút nữa. Nguyên nhân gần như luôn là một trong hai: khối mọc
+      còn ướt quá, hoặc nồi đang **sôi bùng** lúc thả. Nước phải lăn tăn thôi.
+  - q: Bún mọc khác miến gà chỗ nào, khi cả hai đều nước trong?
+    a: >-
+      Cùng lối nấu Bắc — trong, nhạt, thơm nấm — nhưng khác **nhân và sợi**.
+      Miến gà là **sợi miến dong** trong mờ với thịt gà xé tơi thớ, nước nấu từ
+      gà. Bún mọc là **sợi bún trắng** với những viên mọc tròn, sườn non và chả
+      quế, nước nấu từ xương heo. Đặt cạnh nhau nhìn ra ngay.
+  - q: Có nên cho măng vào không?
+    a: >-
+      Không, măng là của **bún măng** — một món khác. Bún mọc cổ điển không có
+      măng, và thả măng vào là mùi măng lấn hết mùi nấm hương vốn là điểm tựa
+      duy nhất của bát này. Muốn ăn măng thì nấu hẳn nồi bún măng cho ra món.
+
+ticker:
+  - icon: meat
+    text: Mọc trộn mộc nhĩ nấm hương
+  - icon: drop
+    text: Nước dùng trong nhìn thấy đáy

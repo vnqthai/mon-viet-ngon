@@ -1,0 +1,130 @@
+---
+/* Cơm lam — VẬT ĐỰNG là thứ tách hình này ra: cả họ "Cơm & bánh" (18 hình) là
+   dĩa bầu dục dẹt, ổ bánh mì, hoặc gói lá chuối. Ống nứa là hình khối DÀI NẰM
+   NGANG có đốt — không đụng bất cứ dáng nào đang có.
+
+   CHỮ KÝ nhận dạng:
+   1) HAI ỐNG: ống NGUYÊN còn vỏ xanh sém lửa nằm DƯỚI, ống ĐÃ GỌT lộ THỎI CƠM
+      TRẮNG bọc màng lụa gác LÊN TRÊN. Thái chỉnh đúng: thỏi cơm mới là món,
+      nên nó phải nằm trên chứ không nằm dưới cái ống chưa bẻ.
+      BẢN 1 CÒN CÓ KHÚC CẮT DỰNG ĐỨNG bên phải — Thái trả lại vì "một thanh lạc
+      loài nằm dọc"; đúng, nó không dính vào cụm nào nên đọc thành vật thừa
+   2) LỚP MÀNG LỤA TRẮNG NGÀ ôm quanh thỏi cơm — chi tiết này là cả câu chuyện
+      của món, và là thứ phân biệt cơm lam với một khúc xôi bọc giấy
+   3) MẶT CẮT khoe HẠT NẾP NHÔ RA KHỎI ĐƯỜNG BAO (luật xôi xéo đợt 12: gò nhẵn
+      thín thì đọc ra quả xoài, phải cho hạt nếp lởm chởm)
+   4) đạo cụ: CHÉN MUỐI VỪNG lấm tấm đen — nhỏ, đặt thấp, không tranh chỗ
+   5) vỏ ống có ĐỐT TRE (vòng gờ) và vệt SÉM ĐEN loang — không sém thì ra ống nhựa
+   id prefix "clam" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Cơm lam: ống nứa nguyên còn vỏ xanh sém lửa và nút lá chuối nằm dưới, ống đã gọt lộ thỏi cơm nếp trắng bọc màng lụa gác lên trên, đầu phải để hở thấy mặt cắt hạt nếp, bên cạnh là chén muối vừng">
+  <defs>
+    <linearGradient id="clamVo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FA548"/><stop offset="0.55" stop-color="#5E7A2C"/>
+      <stop offset="1" stop-color="#3A5019"/>
+    </linearGradient>
+    <linearGradient id="clamCom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#DFD6BC"/>
+    </linearGradient>
+    <linearGradient id="clamMang" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6ECD4"/><stop offset="1" stop-color="#D8C79C"/>
+    </linearGradient>
+    <linearGradient id="clamSem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6E6238"/><stop offset="1" stop-color="#2E2612"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+
+  <g class="steam">
+    <path d="M212 156 C 202 132 226 118 216 92"/>
+    <path d="M292 148 C 282 124 306 110 296 84"/>
+  </g>
+
+  <ellipse cx="262" cy="368" rx="210" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ỐNG NGUYÊN còn vỏ, nằm sau cùng, hơi chếch -->
+  <g transform="translate(246 302) rotate(-5)">
+    <path d="M-186 -26 L 168 -30 C 180 -30 186 -24 186 -14 L 186 12 C 186 22 180 28 168 28 L -186 24
+             C -196 24 -202 18 -202 8 L -202 -10 C -202 -20 -196 -26 -186 -26 Z"
+          fill="url(#clamVo)" stroke="#28400F" stroke-width="2.6" stroke-linejoin="round"/>
+    <!-- đốt tre: vòng gờ nổi -->
+    <path d="M-84 -27 L -78 27" stroke="#2E4A12" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-88 -27 L -82 27" stroke="#A6BE5E" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M74 -29 L 80 27" stroke="#2E4A12" stroke-width="7" stroke-linecap="round"/>
+    <path d="M70 -29 L 76 27" stroke="#A6BE5E" stroke-width="3.4" stroke-linecap="round"/>
+    <!-- vệt sém đen loang trên vỏ -->
+    <path d="M-160 -18 C -130 -24 -100 -20 -96 -4 C -92 12 -120 22 -152 18 C -172 15 -178 -12 -160 -18 Z" fill="url(#clamSem)" opacity=".8"/>
+    <path d="M-20 -22 C 14 -28 46 -22 48 -6 C 50 10 16 20 -18 16 C -40 13 -44 -16 -20 -22 Z" fill="url(#clamSem)" opacity=".72"/>
+    <path d="M110 -20 C 134 -25 156 -20 158 -8 C 160 6 134 14 112 10 C 96 7 94 -16 110 -20 Z" fill="url(#clamSem)" opacity=".6"/>
+    <path d="M-180 -18 C -140 -24 120 -26 170 -20" fill="none" stroke="#C4D97E" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+    <!-- nút lá chuối bịt miệng ống -->
+    <path d="M168 -30 C 186 -30 198 -22 198 -1 C 198 20 186 28 168 28 C 178 20 180 10 180 -1 C 180 -12 178 -22 168 -30 Z"
+          fill="#3E7B2A" stroke="#20461A" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M180 -18 C 188 -12 188 10 180 18" fill="none" stroke="#7FB35B" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ỐNG ĐÃ GỌT: vỏ chỉ còn ở hai đầu, giữa lộ THỎI CƠM bọc MÀNG LỤA -->
+  <g transform="translate(244 226) rotate(-9)">
+    <!-- thỏi cơm + màng lụa -->
+    <path d="M-150 -22 L 128 -26 C 140 -26 146 -20 146 -11 L 146 11 C 146 20 140 26 128 26 L -150 22
+             C -160 22 -166 16 -166 7 L -166 -7 C -166 -16 -160 -22 -150 -22 Z"
+          fill="url(#clamMang)" stroke="#B09A66" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M-142 -14 L 124 -18 C 132 -18 136 -13 136 -7 L 136 8 C 136 14 132 18 124 18 L -142 15
+             C -150 15 -154 11 -154 5 L -154 -5 C -154 -11 -150 -14 -142 -14 Z"
+          fill="url(#clamCom)"/>
+    <!-- hạt nếp NHÔ RA KHỎI đường bao trên -->
+    <g fill="#FBF6E4" stroke="#C9BC98" stroke-width="1.4">
+      <ellipse cx="-116" cy="-16" rx="7" ry="4" transform="rotate(-14 -116 -16)"/>
+      <ellipse cx="-82" cy="-19" rx="7.4" ry="4.2" transform="rotate(8 -82 -19)"/>
+      <ellipse cx="-44" cy="-16" rx="6.6" ry="3.8" transform="rotate(-6 -44 -16)"/>
+      <ellipse cx="-6" cy="-20" rx="7.2" ry="4" transform="rotate(12 -6 -20)"/>
+      <ellipse cx="34" cy="-17" rx="6.8" ry="3.9" transform="rotate(-10 34 -17)"/>
+      <ellipse cx="74" cy="-19" rx="7" ry="4" transform="rotate(6 74 -19)"/>
+      <ellipse cx="110" cy="-16" rx="6.4" ry="3.7" transform="rotate(-4 110 -16)"/>
+      <ellipse cx="-98" cy="17" rx="6.4" ry="3.6" transform="rotate(10 -98 17)"/>
+      <ellipse cx="-24" cy="18" rx="6.6" ry="3.8" transform="rotate(-8 -24 18)"/>
+      <ellipse cx="52" cy="18" rx="6.4" ry="3.6" transform="rotate(6 52 18)"/>
+    </g>
+    <g fill="none" stroke="#D8CDAE" stroke-width="1.6" stroke-linecap="round" opacity=".85">
+      <path d="M-130 -4 C -90 -9 -20 -10 30 -6"/>
+      <path d="M-120 6 C -70 1 10 0 70 4"/>
+    </g>
+    <!-- hai khoanh vỏ còn sót ở hai đầu -->
+    <path d="M-166 -7 C -166 -16 -160 -22 -150 -22 L -128 -22.4 L -128 22.2 L -150 22
+             C -160 22 -166 16 -166 7 Z" fill="url(#clamVo)" stroke="#28400F" stroke-width="2.4" stroke-linejoin="round"/>
+    <!-- ĐẦU PHẢI ĐỂ HỞ: Thái chỉnh đúng — ống đã tháo thì phải thấy thỏi cơm
+         thò ra ở đầu, chứ bịt vỏ cả hai đầu thì không biết trong đó là gì.
+         (Nút lá chuối chỉ có ở ống CHƯA bẻ nằm dưới; gọt vỏ là nó rơi ra.) -->
+    <ellipse cx="140" cy="0" rx="12" ry="26" fill="url(#clamMang)" stroke="#B09A66" stroke-width="2.4"/>
+    <ellipse cx="141" cy="0" rx="8" ry="19" fill="url(#clamCom)"/>
+    <g fill="#FBF6E4" stroke="#C9BC98" stroke-width="1.2">
+      <ellipse cx="139" cy="-11" rx="5" ry="3" transform="rotate(74 139 -11)"/>
+      <ellipse cx="144" cy="-1" rx="5.2" ry="3.1" transform="rotate(86 144 -1)"/>
+      <ellipse cx="138" cy="9" rx="4.8" ry="2.9" transform="rotate(100 138 9)"/>
+    </g>
+    <path d="M-146 -18 C -140 -8 -140 8 -146 18" fill="none" stroke="#A6BE5E" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+
+  </g>
+
+  <!-- ĐẠO CỤ: chén muối vừng lấm tấm đen -->
+  <g transform="translate(398 388)">
+    <ellipse cx="0" cy="26" rx="48" ry="11" fill="rgba(15,26,14,.32)"/>
+    <path d="M-44 -2 C -42 18 -24 30 0 30 C 24 30 42 18 44 -2 Z" fill="#FDFAF0" stroke="#D2C9AC" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-3" rx="44" ry="13" fill="#F5F0DE" stroke="#D2C9AC" stroke-width="2.2"/>
+    <path d="M-34 -3 C -28 -14 -12 -19 0 -19 C 14 -19 30 -13 35 -3 C 24 4 -22 4 -34 -3 Z" fill="#E8D9B0"/>
+    <g fill="#3A2E1C">
+      <ellipse cx="-20" cy="-6" rx="3" ry="1.9" transform="rotate(-14 -20 -6)"/>
+      <ellipse cx="-6" cy="-11" rx="2.8" ry="1.8" transform="rotate(10 -6 -11)"/>
+      <ellipse cx="10" cy="-7" rx="3" ry="1.9" transform="rotate(-6 10 -7)"/>
+      <ellipse cx="24" cy="-4" rx="2.6" ry="1.7" transform="rotate(16 24 -4)"/>
+      <ellipse cx="0" cy="-3" rx="2.8" ry="1.8" transform="rotate(-20 0 -3)"/>
+      <ellipse cx="-14" cy="0" rx="2.6" ry="1.7" transform="rotate(6 -14 0)"/>
+      <ellipse cx="16" cy="1" rx="2.8" ry="1.8" transform="rotate(-8 16 1)"/>
+    </g>
+    <g fill="#FBF3DE" opacity=".9">
+      <circle cx="-26" cy="-10" r="1.8"/><circle cx="4" cy="-15" r="1.7"/><circle cx="30" cy="-9" r="1.6"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,360 @@
+title: Cơm lam **ống nứa nướng than, chấm muối vừng**
+summary: >-
+  Nếp ngâm no nước, nhồi vào **ống nứa tươi**, bịt lá chuối rồi vùi lên than —
+  ống tre vừa là nồi vừa là gia vị. Chẻ ra, thỏi cơm còn nguyên **lớp màng lụa
+  trắng** bọc ngoài, bẻ từng khúc chấm muối vừng.
+region: Tây Bắc
+category: Cơm
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 2 giờ (+ ngâm nếp 6 giờ)
+  active: 1 giờ
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 102
+art: com-lam
+heroEyebrow: Bên bếp than, xoay từng ống một…
+
+quick:
+  ingredients:
+    - Nếp nương (hoặc nếp cái hoa vàng) [[600|g]] — ngâm **6 tiếng**, vo sạch
+    - Ống nứa hoặc tre bánh tẻ [[6|ống]] — chừa một đầu mấu làm đáy
+    - Lá chuối [[3|tàu]] — bịt miệng ống
+    - Nước dừa hoặc nước lã [[400|ml]] · muối [[1|muỗng cà phê|frac]]
+    - "Muối vừng: vừng rang [[100|g]] · muối hột · chút đường"
+  steps:
+    - Ngâm nếp **6 tiếng**, vo lại, xóc muối cho ráo.
+    - Đổ nếp vào ống chừng **2/3**, chế nước xâm xấp mặt gạo, bịt lá chuối.
+    - Nướng trên than hồng, **xoay đều tay** chừng 45–60 phút.
+    - Miệng ống bốc hơi nước và dậy mùi nếp là chín — để nguội bớt.
+    - Chẻ bỏ lớp vỏ cháy, **giữ lại màng lụa trắng**, bẻ khúc chấm muối vừng.
+  warning: >-
+    Đặt ống nằm im một chỗ là **cháy thủng một bên mà bên kia còn sống**. Ống
+    tre không dẫn nhiệt vòng quanh như cái nồi — phải xoay tay đều suốt, đây là
+    việc chiếm gần hết thời gian nướng.
+
+flavor:
+  chua: 0
+  ngot: 4
+  man: 3
+  cay: 0
+  thom: 8
+flavorNote: >-
+  **Chuẩn ống:** thỏi cơm ra khỏi ống còn **nguyên khối tròn**, ngoài bọc lớp
+  màng lụa trắng mỏng; hạt nếp **dẻo mà rời**, không nát thành khối bết; ngửi
+  thấy mùi nếp lẫn mùi tre non — đó là thứ chỉ ống tre mới cho được.
+storyEyebrow: Chuyện món ăn
+storyTitle: Cái nồi **dùng một lần** — và cũng là gia vị
+story:
+  - >-
+    Cơm lam sinh ra từ chuyện đi rừng, đi nương: không mang nồi theo được thì
+    chặt ngay một ống nứa bên đường làm nồi. Gạo nếp đã ngâm sẵn đổ vào, chế
+    nước, bịt lá, vùi lên đống lửa — chừng một tiếng sau có cơm ăn, ăn xong vứt
+    ống lại rừng. Nấu xong không phải rửa nồi, vì cái nồi cũng là củi.
+  - >-
+    Nhưng cái ống không chỉ đóng vai nồi. Bên trong lớp vỏ xanh có một **lớp
+    màng lụa trắng mỏng** — nướng lên thì màng đó dính vào thỏi cơm, và tre non
+    nhả nước ngọt vào hạt nếp. Đó là lý do cơm lam thơm khác cơm đồ trong chõ,
+    dù chỉ có mỗi gạo với nước. Chẻ ống mà lỡ tay bóc mất lớp màng ấy là mất
+    nửa phần thơm.
+  - >-
+    Món này gắn với **Tây Bắc** trong đầu hầu hết mọi người, nhưng **Tây Nguyên**
+    cũng nấu, và cách nấu gần như y hệt. Khác chăng là thứ ăn kèm: trên này người
+    Thái chấm **chẩm chéo** — thứ muối giã với ớt, tỏi, mắc khén — còn phổ biến
+    hơn cả là **muối vừng**, giản dị mà hợp nhất.
+  - >-
+    Trên site đã có **xôi xéo** và **xôi mặn** cũng là nếp đồ, cũng xếp vào nhóm
+    Cơm. Chỗ khác của cơm lam là nó **không có nhân, không có mỡ, không có gì
+    rắc lên** — chỉ nếp, nước và ống tre. Món càng ít thứ thì càng không giấu
+    được tay người nấu.
+
+ingredientGroups:
+  - name: Nếp và ống
+    icon: rice
+    items:
+      - id: nepnuongcla
+        name: Nếp nương
+        icon: rice
+        color: gold
+        base: 600
+        unit: g
+        note: >-
+          Nếp nương hạt to, dẻo mà rời. Không có thì **nếp cái hoa vàng** hoặc
+          nếp nhung đều thay được — miễn là nếp mới, hạt đục đều, không gãy vụn
+      - id: ongnuacla
+        name: Ống nứa hoặc tre bánh tẻ
+        icon: stem
+        color: green
+        base: 6
+        unit: ống
+        note: >-
+          Chọn ống **bánh tẻ** — không quá non (mềm, dễ nứt) cũng không quá già
+          (dày, khô, hết nước ngọt). Chặt sao cho **một đầu còn mấu** làm đáy,
+          lòng ống chừng 5–6 cm
+      - id: lachuoicla
+        name: Lá chuối
+        icon: herb
+        color: green
+        base: 3
+        unit: tàu
+        note: Hơ qua lửa cho mềm, vò thành nút bịt miệng ống
+      - id: nuoccla
+        name: Nước dừa tươi hoặc nước lã
+        icon: drop
+        base: 400
+        unit: ml
+        note: >-
+          Nước lã là bản gốc. Thay bằng **nước dừa tươi** thì thỏi cơm ngọt và
+          thơm hơn — nhiều nơi bán hàng nay làm vậy
+      - id: muoicla
+        name: Muối
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Xóc vào nếp sau khi vo — nêm nhạt thôi, đã có muối vừng để chấm
+  - name: Muối vừng
+    icon: basket
+    items:
+      - id: vungcla
+        name: Vừng (mè) trắng
+        icon: jar
+        color: gold
+        base: 100
+        unit: g
+        note: >-
+          Rang lửa nhỏ, đảo liên tục tới khi hạt nổ lách tách và vàng đều. Rang
+          cháy là cả chén muối đắng
+      - id: muoihotcla
+        name: Muối hột + chút đường
+        icon: jar
+        qtyText: 2 muỗng cà phê muối · 1 muỗng cà phê đường
+        note: Rang khô muối hột cho hết ẩm rồi mới giã chung với vừng
+      - id: lacrangcla
+        name: Lạc (đậu phộng) rang
+        icon: jar
+        qtyText: 50 g
+        note: Tuỳ chọn — giã thô trộn vào thì chén muối bùi và đậm hơn hẳn
+  - name: Ăn kèm (tuỳ chọn)
+    icon: plate
+    items:
+      - id: chamcheocla
+        name: Chẩm chéo
+        icon: chili
+        color: red
+        qtyText: 1 chén nhỏ
+        note: >-
+          Muối giã với ớt nướng, tỏi, rau thơm và **mắc khén** — lối chấm của
+          người Thái vùng cao. Đậm và cay hơn muối vừng nhiều
+      - id: thitnuongcla
+        name: Thịt nướng hoặc cá nướng
+        icon: meat
+        qtyText: Tuỳ bữa
+        note: Cơm lam ăn một mình thì nhạt — có miếng thịt nướng bên cạnh là thành bữa
+
+steps:
+  - title: Ngâm nếp cho no nước
+    icon: clock
+    minutes: 6 tiếng
+    intro: "Không rút ngắn được — hạt nếp phải nở từ trong lõi:"
+    bullets:
+      - label: "Vo và ngâm:"
+        text: >-
+          Vo nếp 2–3 nước cho sạch, ngâm ngập nước lạnh **ít nhất 6 tiếng**,
+          làm từ tối hôm trước là gọn nhất.
+      - label: "Kiểm:"
+        text: >-
+          Bấm thử một hạt: **vỡ ra bột trắng, không còn lõi cứng** là đủ. Còn
+          sạn ở giữa thì ngâm tiếp.
+      - label: "Xóc muối:"
+        text: >-
+          Đổ ra rổ để ráo chừng [[15|phút]], xóc [[1|muỗng cà phê|frac]] muối
+          cho đều.
+    callout:
+      type: warn
+      text: >-
+        Ngâm thiếu giờ là thỏi cơm **sượng ở lõi** — mà trong ống tre thì không
+        có cách nào kiểm tra giữa chừng hay nấu thêm. Hỏng là hỏng cả ống.
+  - title: Nhồi ống, bịt lá
+    icon: stem
+    minutes: 20 phút
+    bullets:
+      - label: "Rửa ống:"
+        text: >-
+          Rửa sạch ngoài ống, súc lòng ống bằng nước rồi dốc ngược cho ráo. Đừng
+          cạo lớp vỏ xanh.
+      - label: "Đổ nếp:"
+        text: >-
+          Đổ nếp vào chừng **2/3 ống**, đừng đầy hơn — nếp còn nở thêm, đầy quá
+          là trào ra và ống dễ nứt.
+      - label: "Chế nước:"
+        text: >-
+          Rót nước (hoặc nước dừa) tới **xâm xấp mặt gạo**, cao hơn chừng một
+          đốt ngón tay. Gõ nhẹ đáy ống cho gạo lún đều.
+      - label: "Bịt miệng:"
+        text: >-
+          Vò lá chuối thành nút, nhét chặt miệng ống. Nút phải kín để giữ hơi
+          nhưng đừng nêm quá chặt — cần chừa chỗ cho hơi thoát ra từ từ.
+    callout:
+      type: tip
+      text: >-
+        Làm dư một ống **không bịt lá**, để hở, dùng làm ống thử: nhìn vào đó
+        biết được nếp đã nở tới đâu mà khỏi phải bổ ống thật.
+  - title: Nướng — và xoay đều tay
+    icon: flame
+    minutes: 60 phút
+    intro: "Đây là toàn bộ phần khó của món:"
+    bullets:
+      - label: "Gây than:"
+        text: >-
+          Đốt than cho **hồng đều, hết lửa ngọn**. Lửa ngọn làm cháy vỏ ống
+          trong khi bên trong chưa kịp nóng.
+      - label: "Đặt ống:"
+        text: >-
+          Dựng nghiêng ống quanh bếp, miệng chếch lên, hoặc gác ngang trên vỉ.
+          Không để ống chạm thẳng vào cục than.
+      - label: "Xoay:"
+        text: >-
+          Cứ **3–5 phút xoay ống một lần** cho đều mặt. Vỏ ống sẽ khô dần, ngả
+          vàng rồi sém đen từng mảng — bình thường, đừng sợ.
+      - label: "Nhận biết chín:"
+        text: >-
+          Sau **45–60 phút**, miệng ống **bốc hơi nước** và dậy **mùi nếp thơm**
+          là được. Nhấc thử thấy ống nhẹ hẳn đi so với lúc đầu.
+    timer:
+      secs: 300
+      label: Hẹn giờ xoay ống · 05:00
+      doneMsg: Xoay ống một vòng nghen — rồi hẹn tiếp!
+    callout:
+      type: warn
+      text: >-
+        **Đừng để lửa ngọn liếm vào ống.** Ngọn lửa đốt cháy lớp vỏ rất nhanh,
+        thủng ống là nước chảy hết ra và thỏi cơm sống. Than hồng âm ỉ mới là
+        thứ cần.
+  - title: Chẻ ống — giữ lấy lớp màng lụa
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Để nguội bớt:"
+        text: >-
+          Gác ống ra ngoài chừng [[10|phút]]. Chẻ lúc còn bỏng rát vừa nguy hiểm
+          vừa làm thỏi cơm vỡ.
+      - label: "Chẻ vỏ:"
+        text: >-
+          Dùng dao **gọt từng lớp vỏ ngoài đã cháy**, xoay tròn quanh ống, gọt
+          dần cho tới khi lộ ra lớp **màng lụa trắng** ôm lấy thỏi cơm.
+      - label: "Dừng đúng chỗ:"
+        text: >-
+          **Dừng lại ở đó** — đừng bóc nốt lớp màng. Nó giữ cho thỏi cơm khỏi
+          khô, và cầm ăn cũng sạch tay.
+      - label: "Bẻ khúc:"
+        text: >-
+          Bẻ hoặc cắt thành khúc dài chừng một gang tay, xếp ra mẹt lót lá chuối.
+    doneText: Xong — bẻ một khúc chấm muối vừng liền!
+  - title: Giã muối vừng
+    icon: spoon
+    minutes: 10 phút
+    bullets:
+      - label: "Rang vừng:"
+        text: >-
+          Rang lửa nhỏ, **đảo liên tục** tới khi hạt vừng nổ lách tách và ngả
+          vàng. Đổ ra dĩa cho nguội ngay, để trong chảo nóng là cháy tiếp.
+      - label: "Rang muối:"
+        text: >-
+          Rang khô muối hột chừng [[2|phút]] cho bay hết ẩm — muối ẩm giã ra
+          bết lại thành cục.
+      - label: "Giã:"
+        text: >-
+          Giã muối trước cho nhỏ, rồi mới cho vừng vào **giã thô** — chỉ giã tới
+          khi chừng nửa số hạt vỡ ra là dừng. Giã nhuyễn hết thì ra bột, mất
+          cái bùi.
+    callout:
+      type: tip
+      text: >-
+        Thêm nắm **lạc rang giã thô** vào chén muối vừng là đổi hẳn: bùi hơn,
+        đậm hơn, và hợp với thỏi cơm nhạt hơn hẳn muối vừng không.
+
+tipsTitle: 4 chỗ **quyết định** ống cơm lam
+tips:
+  - icon: stem
+    title: Ống bánh tẻ, không non không già
+    text: >-
+      **Ống non** mỏng và nhiều nước, nướng một lúc là nứt toác. **Ống già** thì
+      dày, khô, lớp màng lụa bên trong đã cứng lại nên không dính vào cơm và
+      cũng không còn nước ngọt để nhả. Ống **bánh tẻ** — vỏ xanh còn tươi, bấm
+      móng tay thấy hơi ăn vào — là chỗ vừa.
+  - icon: drop
+    title: Nước xâm xấp, đừng nhiều hơn
+    text: >-
+      Nếp đã ngâm 6 tiếng thì đã no nước sẵn, chỉ cần thêm chút cho đủ hấp. Đổ
+      nước nhiều là thỏi cơm **nhão và bết**, mà trong ống thì nước không có chỗ
+      bay hơi như trong nồi. Cao hơn mặt gạo một đốt ngón tay là đủ.
+  - icon: alert
+    title: Đừng gọt tới lớp màng trắng
+    text: >-
+      Lỗi hay gặp nhất lúc chẻ ống: gọt hăng tay tới mức bóc luôn lớp màng lụa.
+      Thỏi cơm mất áo thì **khô mặt rất nhanh** và cầm dính tay. Gọt tới khi
+      thấy trắng thì buông dao.
+  - icon: flame
+    title: Than hồng, tuyệt đối không lửa ngọn
+    text: >-
+      Chỗ này người mới hay sốt ruột: thấy lâu quá bèn thổi cho bùng lửa lên.
+      Lửa ngọn đốt thủng vỏ ống trong vài phút, nước chảy ra hết mà lõi cơm vẫn
+      sống. Cơm lam là món của **thời gian và bàn tay xoay đều**, không phải của
+      lửa to.
+
+serve:
+  title: Bẻ tay mà ăn — **đừng dọn ra chén**
+  paras:
+    - >-
+      Cơm lam dọn nguyên khúc trên mẹt lót lá chuối, ai ăn thì bẻ. Xới ra chén
+      như cơm trắng là mất hết — cái thú của món nằm ở chỗ cầm khúc cơm còn ấm,
+      bẻ ra thấy hạt nếp dẻo rời, chấm vào chén muối vừng rồi cắn.
+    - >-
+      Ăn không thì nhạt, nên trên mâm nên có thứ mặn đi kèm: miếng **thịt nướng**,
+      con **cá nướng**, hay chén **chẩm chéo** cay. Ở vùng cao người ta bày cả
+      ba, và cơm lam đóng đúng vai cơm — nền cho mọi thứ khác.
+  aside:
+    title: Trên mẹt nên có
+    intro: "Ba thứ đi cùng, chọn ít nhất một:"
+    items:
+      - icon: jar
+        text: "**Muối vừng** — giã thô, thêm lạc rang thì càng bùi."
+      - icon: chili
+        text: "**Chẩm chéo** — lối chấm của người Thái, cay và dậy mùi mắc khén."
+      - icon: meat
+        text: "**Thịt hoặc cá nướng** — cơm lam là nền, cần một thứ mặn đứng cạnh."
+
+faq:
+  - q: Mua ống nứa ở đâu?
+    a: >-
+      Đây là chỗ khó nhất của món, và cũng là món hiếm hoi trên site cần thứ
+      **không phải chợ nào cũng có**. Hỏi hàng lá dong, hàng đồ gói bánh ngoài
+      chợ — mùa nào cũng thường có ống tre nứa bán kèm; các hàng đặc sản vùng cao
+      cũng bán ống chặt sẵn theo bó. Nhà có bụi tre thì chặt ống bánh tẻ là xong.
+  - q: Không có ống tre thì làm kiểu gì?
+    a: >-
+      Có cách thay, và nói thẳng là **không giống bản gốc** — mất mùi tre và mất
+      lớp màng lụa, tức mất đúng hai thứ làm nên món. Nhưng vẫn ngon: gói nếp đã
+      ngâm trong **lá chuối** thành thỏi dài chặt tay, bọc thêm một lớp giấy bạc,
+      rồi nướng trên than hoặc nướng lò 200 °C chừng **50 phút**, lật vài lần.
+      Thỏi cơm ra dáng và dẻo đúng kiểu, chỉ thiếu mùi.
+  - q: Ống nứa dùng lại được không?
+    a: >-
+      Không. Nướng xong lớp vỏ đã cháy giòn và lớp màng bên trong đã dính hết
+      vào thỏi cơm — ống chỉ dùng đúng một lần. Đó vốn là ý của món: cái nồi
+      dùng một lần, nấu xong bỏ lại.
+  - q: Cơm lam để được bao lâu?
+    a: >-
+      Còn nguyên trong ống thì để được **1–2 ngày** ở nơi thoáng, ăn lại vẫn
+      dẻo. Đã chẻ ra rồi thì nên ăn trong ngày, vì mặt cơm khô rất nhanh. Cơm
+      để qua ngày muốn ăn lại thì **hấp cách thuỷ vài phút**, đừng quay lò —
+      quay lò là thỏi cơm cứng đanh.
+
+ticker:
+  - icon: stem
+    text: Ống nứa vừa là nồi vừa là gia vị
+  - icon: rice
+    text: Nếp ngâm 6 tiếng, nước xâm xấp
+  - icon: jar
+    text: Chấm muối vừng giã thô

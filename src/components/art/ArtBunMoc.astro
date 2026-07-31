@@ -1,0 +1,179 @@
+---
+/* Bún mọc — ĐỔI KHUNG HÌNH bằng ĐỘNG TÁC: đôi đũa nhấc một viên mọc lên khỏi
+   mặt nước. Cả họ "Chan & húp" là 35 cái tô đứng yên — có bàn tay đang làm gì
+   đó là đòn bẩy chưa hình nào dùng, và nó không đụng tới bố cục cái tô.
+
+   BẢN 1 CÒN CẮT CẬN nữa (bát tràn khỏi mép trái và mép dưới) — THÁI TRẢ LẠI:
+   trong ô thumbnail vuông, bát bị vạt một bên đọc ra "hình lỗi" chứ không ra
+   "chụp cận". Đã trả bát về nguyên vẹn, cân giữa; giữ lại mỗi đôi đũa.
+
+   CHỮ KÝ nhận dạng, cố ý vẽ lệch hẳn miến gà (hình gần nhất — cũng món Bắc,
+   nước trong, cũng có mộc nhĩ nấm hương):
+   1) VIÊN MỌC ĐANG ĐƯỢC GẮP LÊN, to nhất khung — thứ món mang tên phải nhìn
+      thấy trước tiên. Miến gà là thịt xé DẢI DÀI, đây là KHỐI TRÒN
+   2) mặt viên mọc lấm tấm ĐỐM MỘC NHĨ ĐEN — không có đốm thì đọc thành viên
+      cá viên trắng trơn
+   3) KHÚC SƯỜN có đầu xương LÒI HẲN RA NGOÀI đường bao (luật đợt 11: chấm
+      xương vẽ trong lòng khối thì ở 260px mất sạch)
+   4) LÁT CHẢ QUẾ: lát dày viền NÂU QUẾ mỏng ở rìa ngoài — mảng nâu duy nhất
+      của khung, đặt lệch và nghiêng để hai lát không thành hai con mắt
+   5) sợi BÚN TRẮNG BẢN TRÒN, khác hẳn sợi miến dong xám trong mờ
+   id prefix "bmoc" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Bát bún mọc: đôi đũa gắp một viên mọc lấm tấm mộc nhĩ lên khỏi bát, trong bát có thêm viên mọc, khúc sườn lòi đầu xương và lát chả quế trên nước dùng trong">
+  <defs>
+    <linearGradient id="bmocBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F4EAD0"/><stop offset="1" stop-color="#DFD0A4"/>
+    </linearGradient>
+    <linearGradient id="bmocBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E4DCC4"/>
+    </linearGradient>
+    <radialGradient id="bmocBall" cx="0.34" cy="0.28" r="0.8">
+      <stop offset="0" stop-color="#F7EFE1"/><stop offset="1" stop-color="#C9B29B"/>
+    </radialGradient>
+    <linearGradient id="bmocChop" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#9C6B3C"/><stop offset="1" stop-color="#6B4522"/>
+    </linearGradient>
+
+    <!-- VIÊN MỌC: khối nặn TAY nên đường bao GỒ GHỀ lồi lõm, không tròn vành vạnh
+         (bản 1 vẽ tròn đều + chấm tròn đều = đọc ra CÁI BÁNH QUY chấm sô-cô-la).
+         Mộc nhĩ vẽ thành MẨU CONG MỎNG lam nham, tụm lệch về một bên, không
+         phải chấm tròn rải đều; thêm vệt tưa thịt cho mặt viên khỏi phẳng lì. -->
+    <g id="bmocVien">
+      <path d="M-2 -25 C 9 -27 19 -22 24 -13 C 29 -5 28 6 22 14 C 15 23 3 26 -8 24
+               C -19 22 -27 13 -27 2 C -27 -9 -20 -18 -11 -23 C -8 -24.6 -5 -24.6 -2 -25 Z"
+            fill="url(#bmocBall)" stroke="#9B8065" stroke-width="2.3" stroke-linejoin="round"/>
+      <!-- MẨU MỘC NHĨ: mảnh GÃY GÓC lam nham, rải DÀY và LỆCH khắp mặt viên.
+           Bản 2 vẽ thành mấy nét CONG đặt thưa — ở 260px hai nét trên thành lông
+           mày, nét dưới thành cái miệng, cả viên đọc ra CÁI MẶT CƯỜI (đúng bẫy
+           "vành tròn + chấm giữa" của đợt 12). Chữa bằng ba việc cùng lúc: mảnh
+           phải GÃY GÓC chứ đừng cong, phải NHIỀU để không đọc ra bố cục mặt, và
+           phải rải LỆCH HẲN về một phía. -->
+      <g fill="#2B1D16">
+        <path d="M-18 -10 L -8 -15 L -3 -10 L -9 -5 L -16 -6 Z"/>
+        <path d="M-4 -6 L 6 -10 L 9 -5 L 0 -1 Z"/>
+        <path d="M-13 6 L -3 3 L -1 9 L -10 12 Z"/>
+        <path d="M4 6 L 16 2 L 19 8 L 8 11 Z"/>
+        <path d="M-9 -20 L -2 -22 L -1 -18 L -7 -16 Z"/>
+        <path d="M11 -13 L 17 -15 L 18 -11 L 12 -9 Z"/>
+        <path d="M-2 16 L 5 14 L 6 18 L 0 19 Z"/>
+        <path d="M-20 0 L -16 -1 L -15 2 L -19 3 Z"/>
+        <path d="M18 -3 L 22 -4 L 22 -1 L 18 0 Z"/>
+      </g>
+      <g fill="#8A7458" opacity=".95">
+        <path d="M-8 -1 L -1 -3 L 0 1 L -7 3 Z"/>
+        <path d="M5 -17 L 10 -19 L 11 -16 L 6 -14 Z"/>
+        <path d="M-16 -14 L -12 -16 L -11 -13 L -15 -11 Z"/>
+        <path d="M12 12 L 17 10 L 18 13 L 13 15 Z"/>
+      </g>
+      <path d="M-17 -12 C -11 -19 -1 -21 8 -18" fill="none" stroke="#FDF8EE" stroke-width="2.6" stroke-linecap="round" opacity=".85"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+
+  <g class="steam">
+    <path d="M148 262 C 138 238 162 224 152 198 C 145 182 158 170 154 154"/>
+    <path d="M226 244 C 216 220 240 206 230 180 C 223 164 236 152 232 136"/>
+    <path d="M416 268 C 406 244 430 230 420 204 C 413 188 426 176 422 160"/>
+  </g>
+
+  <!-- BÁT nguyên vẹn, cân giữa khung -->
+  <ellipse cx="246" cy="420" rx="192" ry="23" fill="rgba(15,26,14,.35)"/>
+  <path d="M82 296 C 88 378 162 416 246 416 C 330 416 404 378 410 296 Z" fill="url(#bmocBowl)"/>
+  <ellipse cx="246" cy="414" rx="54" ry="10" fill="#D6CDB2"/>
+  <ellipse cx="246" cy="294" rx="166" ry="42" fill="#F7F2E2"/>
+  <ellipse cx="246" cy="294" rx="166" ry="42" fill="none" stroke="#2C5234" stroke-width="5.4"/>
+  <ellipse cx="246" cy="296" rx="150" ry="35" fill="none" stroke="#E0A32E" stroke-width="2.6" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- NƯỚC DÙNG trong, vàng rất nhạt -->
+  <ellipse cx="246" cy="298" rx="140" ry="31" fill="url(#bmocBroth)"/>
+  <ellipse cx="186" cy="290" rx="46" ry="9" fill="#FAF3DC" opacity=".5"/>
+
+  <!-- SỢI BÚN: bản tròn, trắng, nổi thành từng lớp -->
+  <g fill="none" stroke="#B8AC8C" stroke-width="7" stroke-linecap="round" opacity=".8">
+    <path d="M120 298 C 152 286 190 285 218 294"/>
+    <path d="M134 316 C 166 304 204 303 232 312"/>
+    <path d="M284 320 C 314 310 346 309 372 316"/>
+  </g>
+  <g fill="none" stroke="#FAF4E2" stroke-width="6" stroke-linecap="round">
+    <path d="M122 302 C 154 290 192 289 220 298"/>
+    <path d="M138 320 C 170 308 208 307 236 316"/>
+    <path d="M286 324 C 318 312 350 311 376 318"/>
+    <path d="M290 294 C 320 282 356 283 380 290"/>
+    <path d="M164 286 C 190 274 220 273 244 280"/>
+  </g>
+
+  <!-- KHÚC SƯỜN: khối thịt nâu, ĐẦU XƯƠNG LÒI RA NGOÀI đường bao hai đầu -->
+  <g transform="translate(172 314) rotate(-12) scale(.88)">
+    <path d="M-46 -3 C -46 -16 -34 -22 -18 -22 L 20 -22 C 36 -22 46 -15 46 -2
+             C 46 11 36 18 20 18 L -18 18 C -34 18 -46 10 -46 -3 Z"
+          fill="#B0733F" stroke="#7A4A1E" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M-40 -8 C -28 -14 4 -15 26 -11" fill="none" stroke="#CE9764" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-30 8 C -14 12 8 12 26 8" fill="none" stroke="#8A5628" stroke-width="2" stroke-linecap="round"/>
+    <!-- hai đầu xương nhô hẳn ra khỏi khối thịt -->
+    <ellipse cx="-56" cy="-2" rx="13" ry="11" fill="#FBF6E6" stroke="#C4B694" stroke-width="2.2"/>
+    <ellipse cx="-57" cy="-2" rx="5" ry="4.4" fill="#D9CBA6"/>
+    <ellipse cx="57" cy="-1" rx="12" ry="10" fill="#FBF6E6" stroke="#C4B694" stroke-width="2.2"/>
+    <ellipse cx="58" cy="-1" rx="4.6" ry="4" fill="#D9CBA6"/>
+  </g>
+
+  <!-- LÁT CHẢ QUẾ: hai lát nghiêng khác góc, viền nâu quế MỎNG ở rìa ngoài -->
+  <g transform="translate(324 296) rotate(-16) scale(.86)">
+    <ellipse cx="0" cy="0" rx="42" ry="26" fill="#8A5426"/>
+    <ellipse cx="0" cy="-2.5" rx="42" ry="26" fill="#EFE0BC" stroke="#B98B4C" stroke-width="2.2"/>
+    <g fill="#D9C69A" opacity=".9">
+      <circle cx="-14" cy="-4" r="3.2"/><circle cx="8" cy="2" r="2.6"/><circle cx="18" cy="-8" r="2.2"/>
+      <circle cx="-24" cy="4" r="2.4"/>
+    </g>
+  </g>
+  <g transform="translate(356 324) rotate(24) scale(.82)">
+    <ellipse cx="0" cy="0" rx="32" ry="20" fill="#8A5426"/>
+    <ellipse cx="0" cy="-2.2" rx="32" ry="20" fill="#EBDAB4" stroke="#B98B4C" stroke-width="2"/>
+    <g fill="#D4C094" opacity=".9">
+      <circle cx="-10" cy="-2" r="2.6"/><circle cx="7" cy="3" r="2.2"/><circle cx="13" cy="-6" r="1.8"/>
+    </g>
+  </g>
+
+  <!-- VIÊN MỌC còn trong bát -->
+  <use href="#bmocVien" transform="translate(246 306) scale(1.02)"/>
+  <use href="#bmocVien" transform="translate(296 286) rotate(18) scale(.86)"/>
+  <use href="#bmocVien" transform="translate(206 280) rotate(-24) scale(.76)"/>
+
+  <!-- MỘC NHĨ rời nổi trên mặt nước -->
+  <g fill="#3B2A22" stroke="#221610" stroke-width="1.6">
+    <path d="M136 292 C 146 284 160 282 172 286 C 168 294 158 298 148 298 C 142 298 138 296 136 292 Z"/>
+    <path d="M258 328 C 268 320 284 319 296 323 C 292 331 280 335 270 334 C 264 334 260 332 258 328 Z"/>
+  </g>
+
+  <!-- HÀNH LÁ + RAU MÙI rắc thưa -->
+  <g fill="#4E7B36">
+    <ellipse cx="158" cy="300" rx="6.4" ry="2.8" transform="rotate(-14 158 300)"/>
+    <ellipse cx="318" cy="274" rx="5.8" ry="2.6" transform="rotate(10 318 274)"/>
+    <ellipse cx="216" cy="326" rx="6" ry="2.7" transform="rotate(-6 216 326)"/>
+    <ellipse cx="360" cy="296" rx="5.4" ry="2.4" transform="rotate(18 360 296)"/>
+  </g>
+  <g fill="none" stroke="#2C5E2E" stroke-width="1.6" stroke-linecap="round">
+    <path d="M268 266 C 276 260 286 260 292 264"/>
+    <path d="M178 276 C 186 270 196 270 202 274"/>
+  </g>
+  <g fill="#F4B368" opacity=".8">
+    <circle cx="146" cy="314" r="3"/><circle cx="344" cy="284" r="2.6"/><circle cx="252" cy="330" r="2.4"/>
+  </g>
+
+  <!-- ĐÔI ĐŨA từ trên phải, GẮP một viên mọc lên khỏi bát -->
+  <g transform="translate(0 0)">
+    <path d="M508 40 L 356 178" stroke="url(#bmocChop)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M516 74 L 358 196" stroke="url(#bmocChop)" stroke-width="13" stroke-linecap="round"/>
+    <path d="M506 42 L 372 164" stroke="#C18F5C" stroke-width="3.4" stroke-linecap="round" opacity=".55"/>
+    <path d="M514 76 L 374 184" stroke="#C18F5C" stroke-width="3.4" stroke-linecap="round" opacity=".55"/>
+  </g>
+  <!-- viên mọc đang bị kẹp: to nhất khung, đặt ngay đầu đũa -->
+  <use href="#bmocVien" transform="translate(330 190) rotate(-8) scale(1.62)"/>
+  <!-- vài giọt nước dùng nhỏ xuống từ viên mọc -->
+  <g fill="#E7D6A8" opacity=".8">
+    <ellipse cx="322" cy="236" rx="3.4" ry="6"/>
+    <ellipse cx="344" cy="250" rx="2.6" ry="4.6"/>
+  </g>
+</svg>

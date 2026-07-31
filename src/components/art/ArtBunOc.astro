@@ -1,0 +1,167 @@
+---
+/* Bún ốc — khuôn tô nhìn chếch như cả họ.
+
+   BẢN 1 VẼ NHÌN THẲNG TỪ TRÊN XUỐNG — THÁI TRẢ LẠI: "nhìn từ trên xuống kỳ
+   quá, để góc nhìn như mấy món kia ok hơn". Đúng: cái tô nhìn thẳng từ trên
+   thành một vòng tròn phẳng, đứng giữa lưới toàn tô nhìn chếch thì nó không
+   đọc ra "một góc chụp khác" mà đọc ra "hình vẽ sai". **Luật rút ra: đổi VẬT
+   ĐỰNG thì được, đổi CHỖ ĐỨNG CỦA NGƯỜI XEM thì không** — vì lưới danh mục
+   xếp 104 ô cạnh nhau, ô nào lệch khỏi quy ước chung sẽ đọc thành lỗi.
+
+   CHỮ KÝ nhận dạng, cố ý vẽ lệch hẳn bún riêu cua (hình gần nhất — cũng nước
+   đỏ, cũng quà sáng Hà Nội):
+   1) KHÔNG có tảng riêu vàng, KHÔNG có đậu phụ chiên — hai thứ đó là của bún
+      riêu; bát này trống, chỉ ốc với nước
+   2) VÁNG ỚT CHƯNG đỏ cam loang một mảng lệch trên mặt nước
+   3) RUỘT ỐC vẽ khối cuộn có VÒNG XOẮN SẪM chiếm một phần ba — vẽ tròn trơn
+      thì đọc thành viên mọc, tô kem nhạt thì đọc thành cái nấm (dính cả hai
+      ở vòng đầu)
+   4) đạo cụ: BA VỎ ỐC nguyên con xoáy trôn ốc — nói thẳng ra tên món, và không
+      hình nào trong họ có. Cố ý tránh dĩa chanh ớt (phở gà) và chén mắm ruốc
+      (bún chả cá)
+   5) lá TÍA TÔ gân tím — bản đồ màu riêng, không đụng hành ngò của cả họ
+   id prefix "buoc" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Bát bún ốc: nước dùng đỏ nhạt nổi váng ớt chưng, ruột ốc cuộn, miếng cà chua và lá tía tô, bên cạnh là ba vỏ ốc xoáy trôn ốc và hũ ớt chưng">
+  <defs>
+    <linearGradient id="buocBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D9673A"/><stop offset="1" stop-color="#A83C1C"/>
+    </linearGradient>
+    <linearGradient id="buocBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#DFD7BF"/>
+    </linearGradient>
+    <linearGradient id="buocShell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9A7B4E"/><stop offset="1" stop-color="#5C4426"/>
+    </linearGradient>
+
+    <!-- RUỘT ỐC ĐÃ KHỀU: phần thịt XÁM NGÀ nở to, vòng ruột XOẮN TRÔN ỐC SẪM
+         hẳn ở một đầu. Vòng xoắn phải chiếm hẳn một phần ba khối, không thì ở
+         260px đọc ra cái nấm. -->
+    <g id="buocOc">
+      <path d="M-17 3 C -19 -8 -11 -17 1 -18 C 14 -19 23 -11 22 1 C 21 12 12 19 1 18
+               C -9 17 -16 12 -17 3 Z"
+            fill="#CFC0A4" stroke="#6E5B3E" stroke-width="2.3" stroke-linejoin="round"/>
+      <path d="M15 -8 C 4 -16 -9 -11 -11 0 C -13 10 -5 16 3 14 C 10 12 12 5 8 1
+               C 5 -2 0 -1 -1 3"
+            fill="none" stroke="#4A3A26" stroke-width="4.2" stroke-linecap="round"/>
+      <path d="M13 -6 C 4 -12 -6 -8 -8 0" fill="none" stroke="#8A7454" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M-9 -8 C -4 -13 4 -14 10 -12" fill="none" stroke="#F2E9D4" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+    </g>
+
+    <!-- LÁ TÍA TÔ: mép răng cưa, gân ngả tím -->
+    <g id="buocTia">
+      <path d="M0 0 C 4 -9 12 -14 21 -12 C 26 -11 28 -7 26 -2 C 24 4 16 9 8 8 C 3 7.4 0 4 0 0 Z"
+            fill="#4E6B3A" stroke="#2E3F5E" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M2 1 C 9 -3 17 -6 25 -5" fill="none" stroke="#6B4C7A" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M8 -4 l 2 4 M15 -7 l 2 4 M20 -8 l 1.6 3.6" stroke="#7E5B8C" stroke-width="1" stroke-linecap="round"/>
+    </g>
+
+    <!-- VỎ ỐC nguyên con: xoáy trôn ốc + miệng vỏ sẫm -->
+    <g id="buocVo">
+      <path d="M0 22 C -16 20 -25 8 -22 -6 C -19 -19 -6 -27 8 -24 C 21 -21 28 -9 25 3
+               C 22 14 12 21 2 22 Z" fill="url(#buocShell)" stroke="#3E2C15" stroke-width="2.2"/>
+      <path d="M2 15 C -8 14 -14 6 -12 -3 C -10 -12 -1 -17 8 -15 C 15 -13 19 -6 17 1"
+            fill="none" stroke="#C6A66F" stroke-width="2" stroke-linecap="round"/>
+      <path d="M4 8 C -1 8 -5 4 -4 -1 C -3 -6 2 -8 6 -6" fill="none" stroke="#C6A66F" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M1 22 C -6 20 -9 15 -8 10 C -4 15 -1 18 4 19 Z" fill="#2B1D0C"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+
+  <g class="steam">
+    <path d="M192 194 C 182 170 206 156 196 130 C 189 114 202 102 198 86"/>
+    <path d="M260 180 C 250 156 274 142 264 116 C 257 100 270 88 266 72"/>
+    <path d="M330 196 C 320 172 344 158 334 132 C 327 116 340 104 336 88"/>
+  </g>
+
+  <ellipse cx="254" cy="422" rx="192" ry="23" fill="rgba(15,26,14,.35)"/>
+
+  <!-- BÁT: khuôn quen của họ -->
+  <path d="M88 290 C 94 374 168 416 254 416 C 340 416 414 374 420 290 Z" fill="url(#buocBowl)"/>
+  <ellipse cx="254" cy="414" rx="54" ry="10" fill="#D6CDB2"/>
+  <ellipse cx="254" cy="288" rx="168" ry="43" fill="#F7F2E2"/>
+  <ellipse cx="254" cy="288" rx="168" ry="43" fill="none" stroke="#2C5234" stroke-width="5.4"/>
+  <ellipse cx="254" cy="290" rx="152" ry="36" fill="none" stroke="#E0A32E" stroke-width="2.6" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- NƯỚC DÙNG đỏ nhạt + vòng tối sát vành cho ra chiều sâu -->
+  <ellipse cx="254" cy="292" rx="143" ry="32" fill="url(#buocBroth)"/>
+  <ellipse cx="254" cy="292" rx="138" ry="28" fill="none" stroke="rgba(58,16,6,.3)" stroke-width="9"/>
+
+  <!-- SỢI BÚN trắng hé ra ở hai rìa, dưới mặt nước -->
+  <g fill="none" stroke="#F6EFDC" stroke-width="6" stroke-linecap="round" opacity=".92">
+    <path d="M126 296 C 154 284 186 283 212 290"/>
+    <path d="M300 302 C 328 291 360 290 384 297"/>
+    <path d="M136 312 C 162 302 190 301 212 307"/>
+  </g>
+  <g fill="none" stroke="#D8CDAE" stroke-width="1.8" stroke-linecap="round" opacity=".8">
+    <path d="M128 300 C 156 288 188 287 214 294"/>
+    <path d="M302 306 C 330 295 362 294 386 301"/>
+  </g>
+
+  <!-- VÁNG ỚT CHƯNG: mảng đỏ cam loang LỆCH về trên-trái -->
+  <path d="M150 284 C 172 272 210 270 238 276 C 260 281 268 292 254 300
+           C 236 310 194 311 168 304 C 148 299 140 290 150 284 Z" fill="#F58A22"/>
+  <path d="M164 281 C 190 273 220 274 240 281" fill="none" stroke="#FFC062" stroke-width="3.4" stroke-linecap="round" opacity=".95"/>
+  <g fill="#F79A32">
+    <ellipse cx="298" cy="284" rx="16" ry="6.4" transform="rotate(-8 298 284)"/>
+    <ellipse cx="340" cy="300" rx="12" ry="5" transform="rotate(10 340 300)"/>
+    <ellipse cx="210" cy="312" rx="13" ry="5.2" transform="rotate(4 210 312)"/>
+  </g>
+
+  <!-- MIẾNG CÀ CHUA bổ múi cau: khối cong có ruột nhạt -->
+  <g stroke="#8E2A18" stroke-width="2.1" stroke-linejoin="round">
+    <path d="M162 276 C 176 266 194 266 206 274 C 198 290 184 300 168 300 C 160 294 158 284 162 276 Z" fill="#D4402A"/>
+    <path d="M318 288 C 332 280 348 282 356 292 C 348 306 334 314 320 312 C 314 304 314 294 318 288 Z" fill="#C93B25"/>
+  </g>
+  <g fill="#F0A88C" opacity=".9">
+    <path d="M172 282 C 182 276 192 276 198 280 C 190 288 180 292 173 290 Z"/>
+    <path d="M326 294 C 336 288 344 288 349 293 C 342 301 333 304 327 302 Z"/>
+  </g>
+
+  <!-- ĐỐNG ỐC: rải lệch, không cân đối hai bên -->
+  <use href="#buocOc" transform="translate(186 300) rotate(-24) scale(1.14)"/>
+  <use href="#buocOc" transform="translate(238 288) rotate(14) scale(1.2)"/>
+  <use href="#buocOc" transform="translate(224 314) rotate(-8) scale(1.06)"/>
+  <use href="#buocOc" transform="translate(286 302) rotate(26) scale(1.12)"/>
+  <use href="#buocOc" transform="translate(324 288) rotate(-14) scale(1)"/>
+  <use href="#buocOc" transform="translate(156 286) rotate(38) scale(.9)"/>
+  <use href="#buocOc" transform="translate(272 274) rotate(-4) scale(.96)"/>
+
+  <!-- LÁ TÍA TÔ rắc trên mặt -->
+  <use href="#buocTia" transform="translate(206 268) rotate(-14)"/>
+  <use href="#buocTia" transform="translate(292 268) rotate(16) scale(.88)"/>
+  <use href="#buocTia" transform="translate(244 316) rotate(6) scale(.84)"/>
+
+  <!-- HÀNH LÁ cắt khúc -->
+  <g fill="none" stroke="#4E7B36" stroke-width="3">
+    <ellipse cx="176" cy="292" rx="6.4" ry="3.6" transform="rotate(-20 176 292)"/>
+    <ellipse cx="262" cy="280" rx="6" ry="3.4" transform="rotate(14 262 280)"/>
+    <ellipse cx="310" cy="310" rx="5.6" ry="3.2" transform="rotate(-8 310 310)"/>
+    <ellipse cx="206" cy="304" rx="5.4" ry="3" transform="rotate(22 206 304)"/>
+  </g>
+  <g fill="#F4B368" opacity=".75">
+    <circle cx="146" cy="300" r="3"/><circle cx="356" cy="294" r="2.6"/><circle cx="266" cy="318" r="2.4"/>
+  </g>
+
+  <!-- ĐẠO CỤ: ba vỏ ốc nguyên con, góc trái dưới -->
+  <g transform="translate(74 386)">
+    <ellipse cx="6" cy="30" rx="60" ry="13" fill="rgba(15,26,14,.32)"/>
+    <use href="#buocVo" transform="translate(-14 4) rotate(-18) scale(1.02)"/>
+    <use href="#buocVo" transform="translate(32 14) rotate(24) scale(.88)"/>
+    <use href="#buocVo" transform="translate(62 -4) rotate(-6) scale(.76)"/>
+  </g>
+
+  <!-- ĐẠO CỤ: hũ ớt chưng nhỏ, góc phải dưới -->
+  <g transform="translate(438 380)">
+    <ellipse cx="0" cy="34" rx="32" ry="9" fill="rgba(15,26,14,.3)"/>
+    <path d="M-23 -12 L 23 -12 L 19 25 C 18.6 28.4 16 30 12 30 L -12 30 C -16 30 -18.6 28.4 -19 25 Z"
+          fill="#F3EBD4" stroke="#C7B98E" stroke-width="2.2" opacity=".94"/>
+    <path d="M-20 4 L 20 4 L 17 24 C 16.6 27 14.6 28.4 11 28.4 L -11 28.4 C -14.6 28.4 -16.6 27 -17 24 Z"
+          fill="#D4551C"/>
+    <ellipse cx="0" cy="4" rx="20" ry="4.4" fill="#E8752A"/>
+    <rect x="-26" y="-20" width="52" height="10" rx="3.6" fill="#B85A22" stroke="#8C3F12" stroke-width="2"/>
+    <path d="M-17 -6 C -8 -9 8 -9 17 -6" fill="none" stroke="#FFFDF4" stroke-width="2.2" stroke-linecap="round" opacity=".5"/>
+  </g>
+</svg>
