@@ -1,0 +1,391 @@
+title: Cá nục sốt cà **rim tới rục xương, ăn với cơm hay bánh mì đều được**
+summary: >-
+  Hộp cá sốt cà tuổi thơ, làm bằng nồi nhà: cá nục để nguyên con, chiên sơ rồi
+  rim liu riu trong sốt cà chua tới khi **xương mềm rục, ăn được cả con**. Rẻ,
+  dễ, và là món hiếm hoi vừa chan cơm vừa quệt bánh mì đều hợp.
+region: Miền Trung
+category: Kho
+occasions: [Cơm nhà, Bữa sáng]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 10 phút
+  active: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 82
+art: ca-nuc-sot-ca
+heroEyebrow: Nồi cá liu riu trên bếp cả buổi sáng…
+
+quick:
+  ingredients:
+    - >-
+      Cá nục [[600|g]] — chọn con cỡ ba ngón tay, mắt trong, mang đỏ tươi, thân
+      cứng
+    - Cà chua [[5|trái]] chín · hành tím [[4|củ]] · tỏi [[3|tép]] · ớt [[2|trái]]
+    - >-
+      Nêm: nước mắm [[2.5|muỗng canh|frac]] · đường [[1.5|muỗng cà phê|frac]] ·
+      tiêu · dầu điều [[1|muỗng canh]] · [[200|ml]] nước
+    - Hành lá, ngò rí · muối hột và chanh để rửa cá
+  steps:
+    - >-
+      Làm sạch cá: đánh vảy, mổ bụng, **cạo hết lớp màng đen trong bụng** — đó
+      là chỗ tanh nhất, không phải mình cá.
+    - >-
+      Bóp cá với muối hột và chanh, rửa lại nhiều nước, **khứa 2–3 đường chéo**
+      hai bên thân, ướp muối tiêu [[15|phút]].
+    - >-
+      Chiên sơ hai mặt cho vàng se (mỗi mặt 2–3 phút), vớt ra — chiên xong con
+      cá mới đứng được cả buổi rim.
+    - >-
+      Phi hành tỏi với dầu điều, cho **3/4 cà chua** vào xào dằm nhuyễn thành
+      sốt, nêm mắm đường tiêu, châm [[200|ml]] nước.
+    - >-
+      Xếp cá vào, **rim lửa nhỏ nhất 35–40 phút**, đậy hé nắp; hết nước thì
+      châm thêm chút nước sôi.
+    - >-
+      Thả nốt **1/4 cà chua** và ớt, nấu thêm 3 phút, rắc hành lá ngò rí rồi
+      tắt bếp.
+  warning: >-
+    Bỏ sót **lớp màng đen trong bụng cá** là cả nồi tanh, mà nêm kiểu gì cũng
+    không chữa được. Cạo cho bằng sạch tới khi bụng cá trắng hồng.
+
+flavor:
+  chua: 4.5
+  ngot: 4
+  man: 6.5
+  cay: 3
+  thom: 7.5
+flavorNote: >-
+  **Chuẩn vị:** con cá còn nguyên hình mà **xương sống bấm nhẹ là mềm**, sốt
+  cà đỏ au sánh bám kín thân cá, mặn ngọt đậm hơn cá thu một bậc vì cá nục vốn
+  chắc thịt. Chan lên cơm nóng là thấy đủ.
+
+storyEyebrow: Chuyện nồi cá
+storyTitle: Hộp cá sốt cà **làm bằng nồi nhà**
+story:
+  - >-
+    Ai lớn lên ở Việt Nam cũng nhớ cái hộp cá sốt cà — thứ mở ra là có ngay bữa
+    cơm, quệt bánh mì cũng được. Cái hộp đó gần như luôn đựng **cá nục hoặc cá
+    trích**, hai loại cá biển nhỏ, rẻ, mà thịt lại chắc và đậm. Nồi cá nục sốt
+    cà rim ở nhà chính là bản gốc của nó, chỉ khác là thơm hơn nhiều và tự nêm
+    được theo miệng mình.
+  - >-
+    Miền Trung biển gần, cá nục theo thuyền về chợ từ sớm và rẻ quanh năm, nên
+    đây là món cơm nhà thường ngày chứ không phải món của dịp nào. Cá nục có
+    hai kiểu nấu quen thuộc: **hấp cuốn bánh tráng** cho ngày muốn ăn thanh, và
+    **rim sốt cà** cho ngày muốn có món mặn để dành ăn hai bữa.
+  - >-
+    Chỗ khác biệt so với cá thu sốt cà nằm ở **thời gian**. Cá thu cắt khúc dày,
+    rim mươi phút là xong. Cá nục để nguyên con, xương nhỏ mà nhiều, nên phải
+    **rim liu riu ba bốn mươi phút** cho xương mềm rục — tới lúc đó thì gắp cả
+    con lên ăn không phải dò xương, và đó cũng là lúc thịt cá thấm sốt tới tận
+    trong.
+
+ingredientGroups:
+  - name: Cá nục
+    icon: fish
+    items:
+      - id: canuc
+        name: Cá nục tươi
+        icon: fish
+        base: 600
+        unit: g
+        note: >-
+          Chọn con **cỡ ba ngón tay**, mắt trong, mang đỏ tươi, thân cứng cầm
+          không oặt. Con to quá thì xương cứng, rim lâu vẫn không rục
+      - id: muoichanhnuc
+        name: Muối hột + chanh
+        icon: lime
+        qtyText: 2 muỗng canh muối hột · 1 trái chanh
+        note: Dùng để bóp rửa cá, không phải để nêm
+      - id: uopnuc
+        name: Muối + tiêu ướp cá
+        icon: jar
+        qtyText: ½ muỗng cà phê muối · ½ muỗng cà phê tiêu
+        note: Ướp 15 phút cho thịt săn, chiên mới không nát
+  - name: Sốt cà chua
+    icon: tomato
+    items:
+      - id: cachuanuc
+        name: Cà chua chín
+        icon: tomato
+        color: red
+        base: 5
+        unit: trái
+        note: Chia hai lượt như mọi món sốt cà — 3/4 dằm nhuyễn làm nền, 1/4 thả cuối
+      - id: hanhtoinuc
+        name: Hành tím + tỏi
+        icon: garlic
+        qtyText: 4 củ hành tím · 3 tép tỏi
+        note: Băm nhuyễn, phi vàng thơm trước khi cho cà vào
+      - id: daudieunuc
+        name: Dầu điều
+        icon: bottle
+        color: red
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Cho màu đỏ cam đậm đà kiểu hộp cá — không có thì sốt vẫn ngon, chỉ
+          nhạt màu hơn
+      - id: mamduongnuc
+        name: Nước mắm + đường
+        icon: bottle
+        qtyText: 2½ muỗng canh nước mắm · 1½ muỗng cà phê đường
+        note: >-
+          Nêm đậm hơn cá thu một bậc — cá nục thịt chắc, rim lâu nên cần vị
+          mạnh mới thấm tới trong
+      - id: otnuc
+        name: Ớt tươi
+        icon: chili
+        color: red
+        base: 2
+        unit: trái
+        note: Thả nguyên trái hoặc xắt lát — kiểu miền Trung thì cay rõ một chút
+  - name: Rau nêm
+    icon: herb
+    items:
+      - id: hanhngonuc
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        qtyText: 1 nắm mỗi thứ
+        note: Cắt khúc, rắc lúc gần tắt bếp
+      - id: nuocnuc
+        name: Nước lọc
+        icon: drop
+        base: 200
+        unit: ml
+        note: >-
+          Nhiều hơn món cá thu vì rim lâu hơn — cạn thì châm thêm **nước sôi**,
+          đừng châm nước lạnh
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **nồi cá nục sốt cà**
+stepsLead: >-
+  Ba mươi phút tay chân, còn lại là để nồi tự liu riu trên bếp. Chỗ đáng chú ý
+  duy nhất nằm ngay bước đầu: **làm sạch cho tới nơi**.
+steps:
+  - title: Làm sạch cá — cạo cho hết màng đen
+    icon: knife
+    minutes: 20 phút
+    intro: >-
+      Cá nục mang tiếng tanh, nhưng cái tanh đó nằm ở đúng một chỗ và gỡ được:
+    bullets:
+      - label: "Đánh vảy, mổ bụng:"
+        text: >-
+          cạo vảy ngược từ đuôi lên, mổ dọc bụng, moi hết ruột. Cắt bỏ mang —
+          mang cũng là một ổ mùi.
+      - label: "Cạo màng đen:"
+        text: >-
+          bên trong bụng cá có một **lớp màng mỏng màu đen**. Dùng mũi dao hoặc
+          muỗng cạo cho bằng sạch tới khi bụng cá trắng hồng. **Đây là chỗ tanh
+          nhất của con cá**, sót lại là cả nồi có mùi.
+      - label: "Bóp muối chanh:"
+        text: >-
+          xóc cá với muối hột và nước cốt chanh chừng 2 phút, rửa lại 2–3 nước
+          cho hết nhớt, để thật ráo.
+      - label: "Khứa & ướp:"
+        text: >-
+          khứa **2–3 đường chéo** mỗi bên thân cho thấm, xóc muối tiêu, để
+          **15 phút**.
+    callout:
+      type: tip
+      text: >-
+        Bận thì nhờ người bán làm sẵn — nhưng nhớ dặn **"cạo giùm màng đen
+        trong bụng"**, vì làm nhanh ngoài chợ người ta hay bỏ qua đúng chỗ đó.
+    timer:
+      secs: 900
+      label: Hẹn giờ ướp cá · 15:00
+      doneMsg: Cá săn mặt rồi — bắc chảo chiên sơ!
+  - title: Chiên sơ cho con cá đứng được
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - label: "Thấm khô:"
+        text: >-
+          lau kiệt nước trên thân cá. Còn ướt là dầu bắn và da cá không vàng
+          được.
+      - label: "Chiên:"
+        text: >-
+          dầu nóng già, thả cá vào, **để yên 2–3 phút mỗi mặt** cho vàng se.
+          Đừng lật sớm — khi mặt dưới vàng thì nó tự tróc khỏi chảo.
+      - label: "Vớt ra:"
+        text: >-
+          để cá lên rây cho ráo dầu. Chắt bớt dầu trong chảo, chừa lại chừng
+          [[1|muỗng canh]].
+    callout:
+      type: warn
+      text: >-
+        Cá nục nhỏ và mềm hơn cá thu, nên bước chiên sơ càng quan trọng: nó tạo
+        lớp áo giữ con cá **nguyên hình suốt bốn mươi phút rim**. Bỏ bước này
+        thì tới lúc xương rục, thịt cũng rã ra hết.
+    timer:
+      secs: 300
+      label: Hẹn giờ chiên sơ · 05:00
+      doneMsg: Cá vàng hai mặt — vớt ra, bắt tay làm sốt!
+  - title: Làm sốt cà
+    icon: tomato
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Phi hành tím + tỏi băm với [[1|muỗng canh]] dầu điều cho thơm và lên
+          màu đỏ cam.
+      - text: >-
+          Cho **3/4 chỗ cà chua** vào, xào lửa vừa **5–6 phút**, dằm nát cho ra
+          nước và quánh lại.
+      - text: >-
+          Nêm [[2.5|muỗng canh|frac]] nước mắm + [[1.5|muỗng cà phê|frac]]
+          đường + chút tiêu. Nếm phải **đậm hơn mức mình muốn một chút** — rim
+          lâu, cá sẽ hút bớt vị.
+      - text: >-
+          Châm [[200|ml]] nước, nấu sôi. Nhiều nước hơn món cá thu vì nồi này
+          rim lâu gấp ba.
+  - title: Rim liu riu — bốn mươi phút cho xương mềm
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - label: "Xếp cá:"
+        text: >-
+          xếp cá thành **một lớp**, đầu đuôi xen kẽ cho khít nồi. Sốt ngập
+          chừng 2/3 thân cá.
+      - label: "Rim:"
+        text: >-
+          **lửa nhỏ nhất**, đậy hé nắp, rim **35–40 phút**. Nước sôi lăn tăn
+          thôi, sôi bùng là cá va đập và nát.
+      - label: "Châm nước sôi:"
+        text: >-
+          thấy cạn thì châm thêm chút **nước sôi** — châm nước lạnh làm nồi tụt
+          nhiệt đột ngột, thịt cá co lại và bở.
+      - label: "Không đảo, chỉ rưới:"
+        text: >-
+          **nghiêng nồi múc sốt rưới lên mặt cá** vài lượt. Cả nồi trở đúng một
+          lần, hoặc không trở cũng được nếu sốt đủ ngập.
+      - label: "Lượt cà cuối & rau nêm:"
+        text: >-
+          thả **1/4 cà chua còn lại** và ớt, nấu thêm **3 phút**, rắc hành lá
+          ngò rí rồi tắt bếp. Để nghỉ 5 phút cho sốt sánh lại.
+    callout:
+      type: tip
+      text: >-
+        Muốn xương mềm rục hẳn như cá hộp thì rim tới **50–60 phút**, hoặc dùng
+        nồi áp suất **15 phút** sau khi đã chiên sơ và làm sốt xong. Bấm nhẹ vào
+        xương sống thấy mềm là đạt.
+    timer:
+      secs: 2280
+      label: Hẹn giờ rim cá · 38:00
+      doneMsg: Bấm thử xương sống — mềm là thả nốt cà chua và rắc rau nêm!
+    doneText: Nồi cá nục sốt cà đỏ au — xong!
+
+tipsTitle: 6 bí quyết **cá thơm, xương mềm, con cá nguyên hình**
+tipsLead: >-
+  Món này rẻ và dễ, nhưng hỏng thì hỏng theo hai kiểu rất rõ: tanh, hoặc nát.
+  Sáu điều dưới đây lo cả hai.
+tips:
+  - icon: alert
+    title: Màng đen trong bụng là thủ phạm số một
+    text: >-
+      Không phải con cá tanh, mà là **lớp màng đen bên trong bụng** tanh. Cạo
+      cho bằng sạch tới khi bụng trắng hồng — làm đúng chỗ này là hết hai phần
+      ba vấn đề mùi.
+  - icon: flame
+    title: Chiên sơ rồi mới rim
+    text: >-
+      Bốn mươi phút trong nồi là quá dài cho con cá sống. Lớp áo vàng se ngoài
+      thân giữ cho cá **nguyên hình tới lúc xương đã rục**.
+  - icon: pot
+    title: Lửa nhỏ nhất, sôi lăn tăn thôi
+    text: >-
+      Sôi bùng thì cá va vào nhau và vào thành nồi, tới cuối chỉ còn mảng vụn.
+      Liu riu suốt là cách duy nhất vừa làm mềm xương vừa giữ được hình con cá.
+  - icon: drop
+    title: Cạn thì châm nước sôi, đừng châm nước lạnh
+    text: >-
+      Nước lạnh làm nồi tụt nhiệt đột ngột, thớ cá co lại rồi bở ra. Để sẵn cái
+      ấm nước sôi bên cạnh là xong chuyện.
+  - icon: bottle
+    title: Nêm đậm hơn mình muốn một bậc
+    text: >-
+      Rim lâu thì cá hút bớt vị của sốt, mà nước cũng bay hơi rồi lại châm thêm.
+      Nếm lúc đầu thấy **hơi đậm** là vừa đúng lúc dọn.
+  - icon: fish
+    title: Chọn con vừa, đừng chọn con to
+    text: >-
+      Cá nục cỡ **ba ngón tay** là đẹp nhất: xương đủ nhỏ để rục trong bốn mươi
+      phút. Con to thì xương sống cứng, rim cả tiếng vẫn phải dò xương mà ăn.
+
+serve:
+  title: Dọn nồi cá **cho hai bữa**
+  paras:
+    - >-
+      Cách ăn thứ nhất, và cũng là cách quen thuộc nhất: **chan sốt lên chén
+      cơm trắng nóng**, gắp nguyên con cá ra, dằm nhẹ. Thêm dĩa rau luộc chấm
+      chính nước sốt đó là xong bữa cơm chiều.
+    - >-
+      Cách thứ hai thì đúng chất "hộp cá tuổi thơ": **quệt vào ổ bánh mì**. Xé
+      thịt cá, rưới sốt vào ruột bánh, thêm vài lát dưa leo và nhánh ngò — sáng
+      hôm sau có ngay bữa sáng mà không phải nấu gì.
+    - >-
+      Nồi cá này để qua đêm còn đậm hơn, nên nấu dư một chút là khôn. Muốn đổi
+      sang bản khúc cá dày, ít xương, rim nhanh hơn thì qua **cá thu sốt cà
+      chua** — cùng một lối làm sốt, chỉ khác con cá và khác thời gian.
+  aside:
+    title: Ăn nồi cá này với gì
+    intro: "Hai kiểu ăn, mấy thứ đi kèm:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — chan sốt, dằm cá, đơn giản mà đủ."
+      - icon: bread
+        text: "**Ổ bánh mì** — quệt sốt vào ruột bánh, đúng vị hộp cá tuổi thơ."
+      - icon: lettuce
+        text: "**Rau luộc** — chấm luôn nước sốt cà, khỏi pha thêm chén nào."
+      - icon: chili
+        text: "**Ớt tươi** — kiểu miền Trung thì cay rõ một chút mới đúng."
+
+faq:
+  - q: Cá nục và cá trích khác nhau chỗ nào, thay được không?
+    a: >-
+      Thay được. **Cá nục** thân tròn lẳn, thịt chắc, ít xương dăm hơn. **Cá
+      trích** thân dẹt hơn, nhiều xương dăm hơn và béo hơn. Cá trích rim ra
+      đậm đà hơn nhưng phải rim lâu hơn chừng mười phút cho xương mềm.
+  - q: Làm sao cho xương mềm rục như cá hộp?
+    a: >-
+      Ba cách. **Rim lâu hơn**: kéo lên 50–60 phút lửa nhỏ nhất. **Nồi áp
+      suất**: chiên sơ và làm sốt xong rồi đưa vào nồi áp suất 15 phút. Hoặc
+      **thêm một muỗng giấm** vào nồi rim — giấm giúp xương mềm nhanh hơn mà
+      vị chua thì tan hết trong sốt cà.
+  - q: Rim xong cá vẫn tanh, do đâu?
+    a: >-
+      Theo thứ tự hay gặp: **còn sót màng đen trong bụng** → **chưa cắt bỏ
+      mang** → **cá không tươi ngay từ lúc mua**. Hai chỗ đầu chữa được ở lần
+      sau; chỗ thứ ba thì không nêm gì cứu nổi, nên khâu chọn cá ngoài chợ mới
+      là quan trọng nhất.
+  - q: Trẻ nhỏ ăn được không?
+    a: >-
+      Rim đủ lâu cho xương mềm thì gỡ thịt ra dễ, nhưng cá nục vẫn **nhiều
+      xương dăm hơn cá thu** nên vẫn phải gỡ kỹ cho bé. Nhà có con nhỏ mà muốn
+      tiện thì nấu **cá thu sốt cà** — khúc cá dày, gần như không có xương dăm.
+  - q: Nấu bao lâu thì ăn hết được?
+    a: >-
+      Cất **ngăn mát 2–3 ngày**, hâm lại lửa nhỏ, châm chút nước nếu sốt đặc.
+      Món này càng để càng thấm — nồi hôm sau đậm hơn nồi vừa nấu, nên nấu một
+      lần ăn hai bữa là hợp lý.
+  - q: Không có dầu điều thì thay bằng gì?
+    a: >-
+      Bỏ luôn cũng được, sốt vẫn đỏ nhờ cà chua, chỉ nhạt màu hơn. Muốn đậm màu
+      thì **phi thêm một trái cà chua nữa** cho thật nhuyễn, hoặc tự làm dầu
+      điều: hạt điều màu phi với dầu nóng chừng 2 phút rồi lọc bỏ hạt.
+
+ticker:
+  - icon: fish
+    text: Rim tới rục xương
+  - icon: tomato
+    text: Sốt cà đỏ au đậm đà
+  - icon: pot
+    text: Lửa nhỏ nhất, bốn mươi phút
+  - icon: bread
+    text: Quệt bánh mì cũng hợp
+  - icon: alert
+    text: Cạo sạch màng đen trong bụng
+  - icon: chili
+    text: Cay rõ kiểu miền Trung

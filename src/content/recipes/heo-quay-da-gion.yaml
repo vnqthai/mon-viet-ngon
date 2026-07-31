@@ -1,0 +1,463 @@
+title: Heo quay da giòn **nổ rôm rốp, làm bằng lò nhà hoặc nồi chiên không dầu**
+summary: >-
+  Miếng heo quay da nổ vàng ruộm, thịt còn mọng nước — làm được ở bếp nhà, không
+  cần lò quay. Cả món chỉ xoay quanh **hai việc trái ngược nhau**: giữ mặt da
+  khô kiệt, mà giữ phần thịt bên dưới thật ẩm. Làm đúng hai việc đó là xong.
+region: Miền Nam
+category: Nướng
+occasions: [Đãi khách, Cỗ Tết, Nhậu lai rai]
+pubDate: 2026-07-31
+time:
+  total: 2 giờ (+ hong da qua đêm)
+  active: 30 phút
+servingsBase: 6
+difficulty: Kỳ công
+featured: false
+order: 74
+art: heo-quay
+heroEyebrow: Tiếng da nổ rôm rốp dưới dao…
+
+quick:
+  ingredients:
+    - >-
+      Thịt ba chỉ nguyên miếng [[1000|g]] — chọn miếng **vuông vức, da dày, ba
+      tầng mỡ nạc rõ**
+    - >-
+      Ướp mặt thịt: ngũ vị hương [[2|muỗng cà phê]] · muối [[1.5|muỗng cà phê|frac]]
+      · đường [[1|muỗng cà phê]] · tỏi băm [[4|tép]] · tiêu · chao đỏ
+      [[1|viên]] (có thì càng thơm)
+    - "Xử lý da: giấm [[2|muỗng canh]] · muối hột [[500|g]] để phủ da lúc nướng"
+  steps:
+    - >-
+      Chần miếng thịt trong nước sôi **5 phút** cho da căng, vớt ra thấm thật
+      khô.
+    - >-
+      **Xăm da thật dày** bằng nĩa hoặc kim, chỉ xăm thủng lớp da, đừng đâm
+      xuống tới nạc.
+    - >-
+      Ướp gia vị **chỉ ở mặt thịt và bốn cạnh**, tuyệt đối không dây lên da;
+      quét giấm lên da.
+    - >-
+      Để ngăn mát **không đậy, qua đêm 8–24 giờ** cho mặt da khô kiệt như tờ
+      giấy.
+    - >-
+      Bọc giấy bạc quanh phần thịt, **phủ lớp muối hột dày kín mặt da**, nướng
+      **190°C trong 50 phút**.
+    - >-
+      Gỡ bỏ hết lớp muối, quét chút giấm, nướng tiếp **230°C trong 15–20 phút**
+      cho **da nổ rộp đều**.
+    - Để nghỉ 10 phút rồi chặt miếng vuông cỡ hai đốt tay.
+  warning: >-
+    Gia vị ướp mà dây lên mặt da là chỗ đó **cháy đen và không nổ**. Ướp xong
+    lấy khăn giấy lau lại mặt da một lượt cho chắc.
+
+flavor:
+  chua: 0.5
+  ngot: 3
+  man: 6
+  cay: 1
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn vị:** dao chặt xuống nghe **rôm rốp như chặt bánh đa**, mặt da rỗ đều
+  li ti chứ không phồng vài chỗ; cắn vào giòn tan rồi tới lớp mỡ trong và thớ
+  nạc còn mọng. Da dai như da luộc là hong chưa đủ khô.
+
+storyEyebrow: Chuyện miếng thịt
+storyTitle: Miếng heo quay **của mâm giỗ**, giờ nướng bằng lò nhà
+story:
+  - >-
+    Ở miền Nam, heo quay là món của **dịp trọng**: mâm cúng giỗ, đám hỏi, khai
+    trương, rằm lớn. Nhà nào cũng ra lò quay đặt trước một miếng, về chặt ra
+    xếp dĩa, ăn kèm bánh hỏi hoặc cuốn bánh tráng. Kiểu quay này đi vào Nam
+    theo người Hoa vùng Quảng Đông, nên mới có bộ gia vị **ngũ vị hương và
+    chao** đặc trưng của nó.
+  - >-
+    Cái làm người ta ngại tự làm là chữ "quay" — nghe như phải có lò quay treo
+    móc, quạt gió, than hồng. Thật ra lò quay chỉ giải quyết đúng một chuyện:
+    **hơi nóng khô bao quanh mặt da**. Lò nướng nhà và nồi chiên không dầu làm
+    được y hệt, thậm chí dễ canh hơn vì chỉnh được nhiệt.
+  - >-
+    Nguyên lý thì gọn: lớp da heo có nước, có mỡ, có đạm. Muốn nó **nổ rộp**
+    thì mặt ngoài phải khô kiệt trước đã, rồi gặp nhiệt cao đột ngột, chỗ nước
+    còn sót bên trong hóa hơi và đẩy lớp da phồng lên thành hàng ngàn bọt li
+    ti. Nên toàn bộ công đoạn dài dòng phía trước — chần, xăm, quét giấm, hong
+    tủ lạnh, phủ muối hột — đều phục vụ đúng một mục tiêu: **làm khô mặt da**.
+
+ingredientGroups:
+  - name: Miếng thịt
+    icon: meat
+    items:
+      - id: bachiquay
+        name: Thịt ba chỉ nguyên miếng
+        icon: meat
+        color: red
+        base: 1000
+        unit: g
+        note: >-
+          Chọn miếng **vuông vức, dày 4–5 cm, da dày và phẳng**, tầng mỡ nạc
+          xen rõ. Miếng mỏng quá thì nướng xong khô, da mỏng thì dễ cháy
+  - name: Ướp mặt thịt
+    icon: jar
+    items:
+      - id: nguvi
+        name: Ngũ vị hương
+        icon: jar
+        color: amber
+        base: 2
+        unit: muỗng cà phê
+        note: >-
+          Bột trộn sẵn gồm hồi, quế, đinh hương, tiểu hồi, hạt tiêu — mùi đặc
+          trưng của heo quay kiểu Quảng Đông
+      - id: muoiuop
+        name: Muối + đường
+        icon: jar
+        qtyText: 1½ muỗng cà phê muối · 1 muỗng cà phê đường
+        note: Xát đều mặt thịt và bốn cạnh, **chừa hẳn mặt da ra**
+      - id: toiuop
+        name: Tỏi băm
+        icon: garlic
+        base: 4
+        unit: tép
+        note: Băm nhuyễn, xát vào các đường khứa cho ngấm sâu
+      - id: chao
+        name: Chao đỏ
+        icon: jar
+        color: red
+        base: 1
+        unit: viên
+        note: >-
+          Đậu hũ lên men, bán hũ ở chợ. Tán ra trộn cùng gia vị — có thì thơm
+          đậm hẳn, không có cũng không sao
+      - id: tieuuop
+        name: Tiêu xay
+        icon: pepper
+        qtyText: ½ muỗng cà phê
+        note: Rắc cùng lúc với ngũ vị hương
+  - name: Xử lý mặt da
+    icon: drop
+    items:
+      - id: giamda
+        name: Giấm gạo
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        note: >-
+          Quét lên da trước khi hong và trước lượt nướng cuối — giấm giúp mặt
+          da khô nhanh và lên màu vàng đều
+      - id: muoihot
+        name: Muối hột
+        icon: jar
+        base: 500
+        unit: g
+        note: >-
+          Phủ dày kín mặt da trong lượt nướng đầu để **hút cho kiệt nước**;
+          nướng xong gỡ bỏ hết, không ăn chỗ muối này
+      - id: giaybac
+        name: Giấy bạc
+        icon: knife
+        qtyText: 1 cuộn
+        note: Bọc quanh bốn cạnh và mặt dưới cho thịt khỏi khô, chừa hở mặt da
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **miếng heo quay nổ da**
+stepsLead: >-
+  Bốn bước đầu làm từ chiều hôm trước, để miếng thịt nằm trong tủ lạnh qua đêm.
+  Hôm sau chỉ còn hai lượt nướng — và **lượt cuối phải đứng canh**, vì da chuyển
+  từ vàng sang cháy chỉ trong vài phút.
+steps:
+  - title: Chần da & xăm da
+    icon: pot
+    minutes: 20 phút
+    intro: "Hai việc này quyết định mặt da sau này nổ đều hay nổ loang lổ:"
+    bullets:
+      - label: "Chần:"
+        text: >-
+          bắc nồi nước sôi, thả nguyên miếng thịt vào **5 phút** rồi vớt ra
+          ngâm nước lạnh. Da co lại, căng ra và sạch hẳn.
+      - label: "Thấm khô:"
+        text: >-
+          lấy khăn giấy **thấm thật kiệt** cả miếng, nhất là mặt da. Còn đọng
+          nước là bước hong đêm nay mất tác dụng một nửa.
+      - label: "Xăm da:"
+        text: >-
+          dùng nĩa nhọn hoặc kim xăm, đâm **thật dày và đều khắp mặt da** —
+          càng nhiều lỗ càng nổ đều. Chỉ đâm thủng lớp da, **đừng đâm xuống tới
+          nạc**, không thì nước thịt trào lên làm ướt da.
+      - label: "Khứa mặt thịt:"
+        text: >-
+          lật miếng thịt lại, khứa vài đường sâu cỡ 1 cm ở mặt nạc cho gia vị
+          ngấm vào trong.
+    callout:
+      type: warn
+      text: >-
+        Đâm thủng xuống phần nạc là lỗi hay gặp nhất. Nước thịt sẽ theo lỗ trào
+        ngược lên mặt da trong lúc nướng, và chỗ nào ướt thì chỗ đó **dai như
+        da luộc**, nằm ngay giữa vùng da đã nổ.
+    timer:
+      secs: 300
+      label: Hẹn giờ chần thịt · 05:00
+      doneMsg: Vớt thịt ra ngâm nước lạnh, rồi thấm thật khô!
+  - title: Ướp thịt — chừa mặt da ra
+    icon: jar
+    minutes: 10 phút
+    bullets:
+      - label: "Trộn gia vị:"
+        text: >-
+          [[2|muỗng cà phê]] ngũ vị hương + [[1.5|muỗng cà phê|frac]] muối +
+          [[1|muỗng cà phê]] đường + tỏi băm + tiêu, thêm viên chao tán nhuyễn
+          nếu có.
+      - label: "Xát:"
+        text: >-
+          xát đều lên **mặt nạc và bốn cạnh**, miết vào từng đường khứa. Lật
+          ngửa miếng thịt lên khay, da hướng lên trời.
+      - label: "Lau lại mặt da:"
+        text: >-
+          lấy khăn giấy lau mặt da một lượt cho sạch hẳn gia vị lỡ dây lên, rồi
+          **quét [[2|muỗng canh]] giấm** khắp mặt da.
+    callout:
+      type: warn
+      text: >-
+        Đường và ngũ vị hương dính trên da sẽ **cháy đen trước khi da kịp nổ**.
+        Không phải kiêng cữ gì cao siêu — chỉ là đường cháy ở nhiệt thấp hơn
+        nhiều so với nhiệt cần để da nổ.
+  - title: Hong da qua đêm — bước dài nhất, mà không phải làm gì
+    icon: clock
+    minutes: 8–24 giờ
+    bullets:
+      - label: "Cách làm:"
+        text: >-
+          đặt miếng thịt lên rây hoặc vỉ, kê trên khay, cho vào **ngăn mát tủ
+          lạnh KHÔNG đậy gì hết**, để **tối thiểu 8 giờ, tốt nhất là qua đêm**.
+      - label: "Vì sao được:"
+        text: >-
+          không khí trong tủ lạnh khô và luôn luân chuyển, nên nó hút ẩm mặt da
+          đều đặn suốt đêm. Đây là cách thay cho chỗ hong gió của lò quay.
+      - label: "Nhìn là biết đạt:"
+        text: >-
+          sáng ra mặt da phải **khô ráp, hơi cứng, sờ vào như tờ giấy bìa**, màu
+          đục lại. Còn ẩm bóng thì để thêm vài giờ nữa.
+    callout:
+      type: tip
+      text: >-
+        Gấp quá thì bật quạt thổi thẳng vào mặt da chừng 2–3 giờ ở chỗ mát cũng
+        được — không bằng qua đêm, nhưng còn hơn nướng lúc da còn ẩm.
+  - title: Lượt nướng thứ nhất — phủ muối hột
+    icon: flame
+    minutes: 50 phút
+    intro: >-
+      Lượt này lo phần thịt chín và tiếp tục rút ẩm mặt da. Chưa cần nóng lắm:
+    bullets:
+      - label: "Bọc giấy bạc:"
+        text: >-
+          quấn giấy bạc quanh **bốn cạnh và mặt dưới** miếng thịt, dựng mép cao
+          hơn mặt da chừng 1 cm như cái thành — chừa hở nguyên mặt da.
+      - label: "Phủ muối:"
+        text: >-
+          đổ [[500|g]] muối hột lên, dàn thành **lớp dày cỡ 1 cm phủ kín mặt
+          da**. Cái thành giấy bạc giữ cho muối khỏi rơi ra.
+      - label: "Nướng:"
+        text: >-
+          lò làm nóng trước, nướng **190°C trong 50 phút** ở rãnh giữa. Nồi
+          chiên không dầu thì **170°C trong 35 phút**.
+      - label: "Lấy ra:"
+        text: >-
+          gỡ bỏ **toàn bộ lớp muối** (lúc này muối đã đóng thành mảng cứng, gỡ
+          rất dễ), quét lại chút giấm lên mặt da.
+    callout:
+      type: tip
+      text: >-
+        Lớp muối hột là mẹo hay nhất của món này: nó vừa hút nốt phần ẩm còn
+        sót trong da, vừa **che cho da khỏi vàng sớm** trong lúc phần thịt bên
+        dưới đang chín. Gỡ ra là mặt da khô cong, sẵn sàng cho lượt nổ.
+    timer:
+      secs: 3000
+      label: Hẹn giờ nướng lượt một · 50:00
+      doneMsg: Gỡ hết lớp muối, quét giấm — chuẩn bị nâng nhiệt!
+  - title: Lượt nổ da — đứng canh, đừng đi đâu
+    icon: flame
+    minutes: 15–20 phút
+    bullets:
+      - label: "Nâng nhiệt:"
+        text: >-
+          vặn **230°C** (nồi chiên không dầu: **200°C**), đẩy khay lên rãnh
+          trên, nướng **15–20 phút**.
+      - label: "Nhìn và nghe:"
+        text: >-
+          mặt da sẽ **phồng dần thành hàng ngàn bọt li ti**, nghe lép bép trong
+          lò, màu chuyển vàng rồi vàng nâu. Đó là lúc đạt.
+      - label: "Chỗ nào chưa nổ:"
+        text: >-
+          lò nhà nào cũng có góc nóng hơn. Thấy một góc nổ trước thì **xoay
+          khay lại**, hoặc lấy giấy bạc che chỗ đã vàng để chỗ còn lại đuổi kịp.
+      - label: "Nghỉ thịt:"
+        text: >-
+          lấy ra để nguyên trên vỉ **nghỉ 10 phút** — cắt liền thì nước thịt
+          chảy hết ra thớt, miếng thịt khô lại.
+    callout:
+      type: warn
+      text: >-
+        Từ "vàng đẹp" sang "cháy đen" ở nhiệt này chỉ mất chừng hai phút. Đứng
+        ngay cửa lò mà canh, đừng tin cái hẹn giờ.
+    timer:
+      secs: 900
+      label: Hẹn giờ nổ da · 15:00
+      doneMsg: Coi mặt da nổ đều chưa — đủ vàng thì lấy ra cho nghỉ!
+  - title: Chặt miếng — dao bén, dứt khoát
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Đặt miếng thịt **ngửa da lên**, dùng dao bản to nặng tay, **chặt dứt
+          khoát một nhát** qua lớp da rồi mới kéo xuống phần thịt.
+      - text: >-
+          Chặt thành miếng vuông cỡ **hai đốt tay** — to hơn thì khó gắp, nhỏ
+          hơn thì mất cái thú cắn xuyên qua đủ ba tầng da – mỡ – nạc.
+      - text: >-
+          Xếp ra dĩa **da hướng lên**, dọn kèm chén muối tiêu chanh hoặc chén
+          xì dầu pha.
+    callout:
+      type: tip
+      text: >-
+        Cưa qua cưa lại là mặt da **vỡ vụn thành mảnh**. Một nhát dứt khoát mới
+        giữ được mảng da liền trên mỗi miếng — đó cũng là lúc nghe tiếng rôm rốp
+        đã tai nhất.
+    doneText: Dĩa heo quay da vàng rộp lên mâm — xong!
+
+tipsTitle: 8 bí quyết **da nổ đều, thịt còn mọng**
+tipsLead: >-
+  Gần như mọi lỗi của món này đều quy về một trong hai chuyện: da chưa đủ khô,
+  hoặc thịt bị nướng quá tay. Tám điều dưới đây chia đôi theo đúng hai chuyện đó.
+tips:
+  - icon: clock
+    title: Hong da qua đêm là bước không bỏ được
+    text: >-
+      Đây là khác biệt lớn nhất giữa miếng **nổ rộp** và miếng **dai như da
+      luộc**. Ngăn mát không đậy, tối thiểu 8 giờ. Mọi mẹo khác chỉ hỗ trợ cho
+      bước này.
+  - icon: knife
+    title: Xăm dày, nhưng đừng đâm tới nạc
+    text: >-
+      Lỗ xăm là đường thoát hơi cho da phồng lên. Đâm sâu quá thì nước thịt
+      trào ngược lên làm ướt da — **chỗ ướt là chỗ không nổ**, nằm lỗ chỗ giữa
+      vùng đã nổ, nhìn rất tiếc.
+  - icon: jar
+    title: Gia vị chừa mặt da ra
+    text: >-
+      Đường và ngũ vị hương cháy ở nhiệt thấp hơn nhiệt cần để da nổ, nên dây
+      lên da là **cháy đen trước khi kịp phồng**. Ướp xong lau lại mặt da một
+      lượt.
+  - icon: drop
+    title: Muối hột hút ẩm, đồng thời che nắng cho da
+    text: >-
+      Lớp muối dày làm hai việc cùng lúc: rút nốt ẩm trong da, và **giữ cho da
+      chưa vàng** trong suốt 50 phút phần thịt đang chín. Gỡ ra là da khô cong,
+      vào lượt nổ rất nhanh.
+  - icon: flame
+    title: Hai lượt nhiệt, không phải một
+    text: >-
+      Nướng một lèo ở nhiệt cao thì da nổ mà thịt khô; nướng một lèo ở nhiệt
+      thấp thì thịt mọng mà da dai. **Thấp trước, cao sau** là cách duy nhất
+      lấy được cả hai.
+  - icon: alert
+    title: Lượt nổ da phải đứng canh
+    text: >-
+      Ở 230°C, khoảng cách giữa vàng đẹp và cháy đen chỉ chừng **hai phút**.
+      Đứng ngay đó nhìn, thấy đủ vàng là lấy ra — đừng tin cái hẹn giờ hơn mắt
+      mình.
+  - icon: bulb
+    title: Da nổ không đều là do lò, không phải do mình
+    text: >-
+      Lò nhà nào cũng có góc nóng hơn. Thấy một bên nổ trước thì **xoay khay**
+      hoặc che giấy bạc chỗ đã vàng. Biết tính cái lò của mình rồi thì mẻ sau
+      đều tăm tắp.
+  - icon: clock
+    title: Nghỉ 10 phút trước khi chặt
+    text: >-
+      Cắt ngay lúc vừa ra lò thì nước thịt chảy hết ra thớt. Để nghỉ 10 phút,
+      thớ thịt hút nước lại — miếng nào cũng mọng, mà da vẫn giòn nguyên.
+
+serve:
+  title: Dọn dĩa **heo quay ngày trọng**
+  paras:
+    - >-
+      Heo quay đúng bài miền Nam thì chặt miếng vuông, xếp dĩa **da hướng lên**,
+      bên cạnh là chén muối tiêu chanh hoặc chén xì dầu pha chút đường và ớt
+      xắt. Có bánh hỏi lót dưới, thêm dĩa rau sống, hành lá phi mỡ rưới lên —
+      là thành mâm đãi khách không cần thêm gì nữa.
+    - >-
+      Kiểu ăn thứ hai, thong thả hơn: dọn thêm **bánh tráng, bún, rau sống, đồ
+      chua** rồi cuốn. Miếng da giòn nằm giữa lớp rau mát và bún mềm, chấm nước
+      mắm chua ngọt — bữa nhậu lai rai kéo được cả buổi chiều.
+    - >-
+      Hôm sau còn dư thì đừng hâm cả miếng: thái lát mỏng kẹp vào **bánh mì heo
+      quay** với chút sốt xì dầu là ra ngay ổ bánh sáng, hoặc xào lại với cải
+      chua, hoặc thả vô tô mì. Miếng heo quay để dành khéo thì ăn được ba bữa
+      mà bữa nào cũng ra một món khác.
+  aside:
+    title: Trên mâm heo quay
+    intro: "Mấy thứ nên có bên cạnh dĩa thịt:"
+    items:
+      - icon: bowl
+        text: "**Chén muối tiêu chanh** — đơn giản mà hợp nhất, làm bật vị thịt."
+      - icon: bottle
+        text: "**Xì dầu pha** — nước tương + chút đường + tỏi ớt, kiểu người Hoa."
+      - icon: noodle
+        text: "**Bánh hỏi hoặc bún** — lót dưới cho đỡ ngán, rưới mỡ hành."
+      - icon: pod
+        text: "**Đồ chua + rau sống** — chua giòn kéo lại cái béo của miếng ba chỉ."
+
+faq:
+  - q: Nồi chiên không dầu làm được miếng bao lớn?
+    a: >-
+      Tùy giỏ, nhưng thường **khoảng 800 g – 1 kg** là vừa; miếng phải nằm
+      phẳng và chừa khoảng hở quanh mép cho khí lưu thông. Nhồi chật giỏ là
+      hơi nóng không vòng đều, da nổ chỗ được chỗ không. Nhiệt thì hạ hơn lò
+      chừng 20°C: **170°C 35 phút**, rồi **200°C 12–15 phút**.
+  - q: Không có muối hột thì thay bằng gì?
+    a: >-
+      Muối bọt cũng được nhưng phải phủ dày hơn và gỡ khó hơn vì nó bết lại.
+      Không có muối thì bỏ hẳn bước phủ cũng vẫn ra miếng heo quay — chỉ là
+      phải **hong da kỹ hơn** và canh lượt đầu cho da khỏi vàng sớm bằng cách
+      che một miếng giấy bạc.
+  - q: Da chỗ nổ chỗ không, sửa kiểu gì?
+    a: >-
+      Dò theo thứ tự: **hong chưa đủ khô** (hay gặp nhất) → **xăm chưa đủ dày
+      hoặc đâm thủng xuống nạc** → **gia vị dây lên da** → **lò có góc nóng
+      lệch**. Chỗ chưa nổ thì bật lại lò 230°C, che giấy bạc phần đã vàng, nướng
+      thêm 5 phút — cứu được kha khá.
+  - q: Miếng thịt nên dày bao nhiêu?
+    a: >-
+      **4–5 cm** là đẹp nhất. Mỏng hơn thì tới lúc da nổ xong phần nạc đã khô
+      xác; dày hơn thì phải kéo dài lượt nướng đầu, mà da nằm trong lò lâu quá
+      lại dễ chai. Miếng vuông vức, bề mặt phẳng cũng quan trọng — da gợn sóng
+      thì chỗ trũng không nổ.
+  - q: Làm trước một hôm rồi hâm lại được không?
+    a: >-
+      Được, và nhiều nhà làm vậy khi đãi tiệc. Nướng xong để nguội, **cất ngăn
+      mát không đậy kín**. Lúc ăn cho vào lò **230°C 8–10 phút** là da giòn trở
+      lại gần như mới. Đừng quay lò vi sóng — hơi ẩm làm da mềm nhũn ngay.
+  - q: Cần chao đỏ không, thiếu thì món có dở đi không?
+    a: >-
+      Không bắt buộc. Chao đỏ là đậu hũ lên men, cho mùi đậm và màu hồng nhạt
+      rất đặc trưng của kiểu quay Quảng Đông. Thiếu thì miếng thịt vẫn thơm ngũ
+      vị hương, chỉ **nhạt tầng hậu vị** một chút. Có bán hũ nhỏ ngoài chợ,
+      dùng một viên là đủ cho cả kí thịt.
+  - q: Phần muối hột đã nướng có dùng lại được không?
+    a: >-
+      Không nên — nó đã hút hết ẩm và mỡ từ miếng thịt, đóng mảng và ngả màu.
+      Gỡ ra bỏ đi. Đây là **muối dùng để nướng**, không phải muối để ăn hay để
+      nêm.
+
+ticker:
+  - icon: flame
+    text: Da nổ rôm rốp dưới dao
+  - icon: clock
+    text: Hong tủ lạnh qua đêm
+  - icon: jar
+    text: Ngũ vị hương và chao đỏ
+  - icon: drop
+    text: Muối hột hút khô mặt da
+  - icon: meat
+    text: Ba tầng da – mỡ – nạc
+  - icon: knife
+    text: Chặt một nhát dứt khoát

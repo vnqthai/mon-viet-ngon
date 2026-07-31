@@ -1,0 +1,115 @@
+---
+/* Bánh ướt tôm chấy Huế — VẼ LẠI vòng 3. Vòng 2 xếp sáu cuốn xòe nan quạt mỗi
+   cái một góc, đọc ra mấy khúc xương trắng rải trên dĩa.
+   Tra lại cách dọn thật: bánh ướt trải ra, rắc tôm chấy thành một đường ngang,
+   gấp hai mép rồi CUỐN CHẶT, cắt khúc, xếp NGAY NGẮN THÀNH HÀNG trên dĩa; trên
+   cùng rắc thêm tôm chấy màu VÀNG CAM.
+   Nên vòng này: sáu cuốn nằm SONG SONG, sát nhau, cùng một góc nghiêng nhẹ —
+   xếp đều mới ra dĩa bánh cuốn Huế; và tôm chấy rắc thành một BĂNG vàng cam
+   chạy vắt ngang các cuốn, đủ dày để ở 260px nhìn cái là thấy. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa bánh ướt tôm chấy Huế: sáu cuốn nhỏ xếp thành hàng đều, rắc băng tôm chấy vàng cam">
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="260" cy="400" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="#F0EADA"/>
+  <ellipse cx="260" cy="340" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="340" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="342" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+  <ellipse cx="256" cy="330" rx="150" ry="26" fill="rgba(60,48,18,.12)"/>
+
+  <!-- HÀNG SAU: 3 cuốn song song, sát nhau -->
+  <g transform="rotate(-7 260 280)">
+    <g transform="translate(126 250)">
+      <path d="M0 15 C 0 6 7 0 16 0 L 252 0 C 261 0 268 6 268 15 C 268 24 261 30 252 30 L 16 30 C 7 30 0 24 0 15 Z"
+            fill="#FBF3DF" stroke="#D9CBA2" stroke-width="2.6"/>
+      <path d="M11 9 C 8 14 8 19 12 24" fill="none" stroke="#CDBA8C" stroke-width="2.4"/>
+      <path d="M26 4 Q 140 0 252 5" fill="none" stroke="#EDE1C4" stroke-width="2"/>
+      <!-- vạch cắt khúc: chia hàng thành 3 cuốn -->
+      <path d="M89 1 L 89 29 M178 1 L 178 29" fill="none" stroke="#D9CBA2" stroke-width="3"/>
+      <path d="M93 3 L 93 27 M182 3 L 182 27" fill="none" stroke="#FDFAF0" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- HÀNG TRƯỚC: 3 cuốn song song, gối nhẹ lên hàng sau -->
+  <g transform="rotate(-7 260 320)">
+    <g transform="translate(112 296)">
+      <path d="M0 16 C 0 7 7 0 17 0 L 268 0 C 278 0 285 7 285 16 C 285 25 278 32 268 32 L 17 32 C 7 32 0 25 0 16 Z"
+            fill="#FEFAF0" stroke="#D9CBA2" stroke-width="2.8"/>
+      <path d="M12 10 C 9 15 9 21 13 26" fill="none" stroke="#CDBA8C" stroke-width="2.6"/>
+      <path d="M28 4 Q 150 0 268 5" fill="none" stroke="#EDE1C4" stroke-width="2.2"/>
+      <path d="M95 1 L 95 31 M190 1 L 190 31" fill="none" stroke="#D9CBA2" stroke-width="3"/>
+      <path d="M99 3 L 99 29 M194 3 L 194 29" fill="none" stroke="#FDFAF0" stroke-width="2"/>
+      <path d="M50 4 L 42 14 M140 4 L 132 14 M232 4 L 224 14" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+    </g>
+  </g>
+
+  <!-- TÔM CHẤY: băng vàng cam rắc dày vắt ngang các cuốn -->
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#C4521A" stroke-width="7">
+      <path d="M144 260 C 172 244 214 240 246 250"/>
+      <path d="M256 246 C 286 231 328 230 358 240"/>
+      <path d="M150 272 C 180 256 222 254 252 264"/>
+      <path d="M262 258 C 292 244 334 244 362 254"/>
+      <path d="M130 308 C 162 291 208 288 242 298"/>
+      <path d="M252 296 C 284 280 330 280 362 290"/>
+      <path d="M138 320 C 170 304 216 302 248 312"/>
+      <path d="M258 308 C 290 292 336 292 368 302"/>
+    </g>
+    <g stroke="#EF8226" stroke-width="4.4">
+      <path d="M152 254 C 180 239 220 236 248 244"/>
+      <path d="M262 240 C 292 226 330 226 356 234"/>
+      <path d="M140 302 C 170 286 214 284 244 292"/>
+      <path d="M260 290 C 292 275 334 275 362 284"/>
+    </g>
+    <g stroke="#FCBB6A" stroke-width="2.6">
+      <path d="M162 249 C 186 236 220 234 244 240"/>
+      <path d="M270 236 C 296 224 328 224 350 230"/>
+      <path d="M150 297 C 178 283 214 281 240 288"/>
+      <path d="M268 286 C 296 273 332 273 356 280"/>
+    </g>
+  </g>
+  <!-- vụn tôm chấy rơi ra mặt dĩa -->
+  <g fill="#D9601F">
+    <ellipse cx="120" cy="286" rx="6.4" ry="2.6" transform="rotate(-18 120 286)"/>
+    <ellipse cx="392" cy="272" rx="6" ry="2.4" transform="rotate(12 392 272)"/>
+    <ellipse cx="130" cy="344" rx="6.2" ry="2.5" transform="rotate(16 130 344)"/>
+    <ellipse cx="382" cy="330" rx="6.2" ry="2.5" transform="rotate(-12 382 330)"/>
+    <ellipse cx="256" cy="352" rx="6" ry="2.4" transform="rotate(6 256 352)"/>
+  </g>
+
+  <!-- MỠ HÀNH điểm xanh -->
+  <g fill="#5C8B39">
+    <ellipse cx="200" cy="268" rx="7" ry="2.8" transform="rotate(-14 200 268)"/>
+    <ellipse cx="320" cy="252" rx="6.6" ry="2.6" transform="rotate(12 320 252)"/>
+    <ellipse cx="190" cy="330" rx="7" ry="2.8" transform="rotate(8 190 330)"/>
+    <ellipse cx="316" cy="316" rx="6.4" ry="2.5" transform="rotate(-16 316 316)"/>
+  </g>
+
+  <!-- HÀNH PHI rắc mặt dĩa -->
+  <g fill="#E3A544" stroke="#AE7124" stroke-width="1.2">
+    <rect x="228" y="246" width="10" height="4.6" rx="2.3" transform="rotate(-20 233 248)"/>
+    <rect x="290" y="272" width="10" height="4.6" rx="2.3" transform="rotate(14 295 274)"/>
+    <rect x="166" y="316" width="10" height="4.6" rx="2.3" transform="rotate(10 171 318)"/>
+    <rect x="336" y="300" width="9.5" height="4.4" rx="2.2" transform="rotate(-8 340 302)"/>
+  </g>
+
+  <!-- CHÉN MẮM kiểu Huế: thả nguyên trái ớt xanh -->
+  <g transform="translate(96 372)">
+    <ellipse cx="0" cy="34" rx="46" ry="13" fill="rgba(15,26,14,.3)"/>
+    <path d="M-42 6 C -40 28 -24 38 0 38 C 24 38 40 28 42 6 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="6" rx="42" ry="12" fill="#D89A3C" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="-12" cy="4" rx="15" ry="4.6" fill="#E9B25C" opacity=".9"/>
+    <g transform="rotate(-18 10 4)">
+      <path d="M-4 4 C 6 -2 22 -2 30 3 C 22 9 6 10 -4 4 Z" fill="#5E9B3A" stroke="#3C6B24" stroke-width="2"/>
+      <path d="M-4 4 C -10 2 -13 -2 -12 -6" fill="none" stroke="#3C6B24" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- ĐŨA gác mép dĩa -->
+  <g transform="rotate(-18 436 236)">
+    <rect x="346" y="206" width="172" height="8" rx="4" fill="#9A6538"/>
+    <rect x="352" y="219" width="172" height="8" rx="4" fill="#8A5730"/>
+  </g>
+</svg>

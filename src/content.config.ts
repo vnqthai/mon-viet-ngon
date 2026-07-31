@@ -60,12 +60,16 @@ const recipes = defineCollection({
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Tây Bắc', 'Tây Nguyên', 'Cả nước']),
     category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm',
-      'Món nước', 'Bún trộn', 'Lẩu', 'Cháo', 'Bánh']),
+      'Món nước', 'Bún trộn', 'Lẩu', 'Cháo', 'Bánh', 'Bánh mì']),
     // Định nghĩa để không lẫn: Món nước = một tô là xong bữa (kể cả tô nước lèo
     // dọn riêng như phở khô, bún chả) · Canh = món trong mâm cơm, ăn với cơm trắng
     // · Lẩu = nồi đặt giữa bàn, ăn tới đâu nhúng tới đó · Cháo = gạo ninh nhừ
     // · Bánh = vỏ tráng/đổ từ bột gạo, dù rồi đem chiên hay đem hấp (bánh xèo,
     //   bánh khoái, bánh cuốn) — xếp theo THỨ LÀM RA chứ không theo cách làm chín.
+    // · Bánh mì = ổ bánh mì kẹp nhân. Tách hẳn khỏi "Bánh" vì khác nguyên liệu
+    //   gốc (bột MÌ nướng lò, không phải bột gạo tráng/đổ) và khác cách ăn (cầm
+    //   tay, một ổ là xong bữa). Cùng trục "hình thức món" với Cơm · Cháo · Bánh,
+    //   KHÔNG phải trục xuất xứ — đừng lấy nhóm này làm cớ mở nhóm theo xuất xứ.
     // Theo dịp / đối tượng — một món gắn được nhiều nhãn, để lọc ở /mon/.
     // MỌI MÓN PHẢI CÓ ÍT NHẤT 1 NHÃN: để trống thì món đó biến mất khỏi cả trục
     // lọc này, kể cả những món chủ lực của trang.
@@ -111,6 +115,10 @@ const recipes = defineCollection({
         'nem-nuong', 'ca-tai-tuong', 'oc-hap-la-gung', 'ga-hap-hanh', 'goi-ngo-sen', 'canh-ga-chien',
         'suon-xao-chua-ngot', 'bun-suon-sau', 'oc-chuoi-dau', 'long-luoc',
         'canh-suon-bi-dao', 'canh-suon-khoai-tay', 'ca-tim-nuong',
+        'banh-mi-thit', 'banh-mi-cha-ca', 'banh-mi-heo-quay', 'heo-quay',
+        'xoi-xeo', 'xoi-man',
+        'banh-uot-cha-lua', 'banh-uot-long-ga', 'banh-uot-tom-chay',
+        'ca-thu-sot-ca', 'ca-nuc-sot-ca',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

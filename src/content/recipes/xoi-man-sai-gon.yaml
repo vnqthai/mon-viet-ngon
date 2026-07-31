@@ -1,0 +1,411 @@
+title: Xôi mặn Sài Gòn **hộp xôi đầy ụ, lạp xưởng chà bông trứng cút**
+summary: >-
+  Hộp xôi quen thuộc của xe xôi đầu hẻm: nếp trắng dẻo mềm, trên mặt chất đầy
+  **lạp xưởng chiên, chà bông, trứng cút, mỡ hành** rồi rưới xì dầu. Không có
+  công thức cố định nào — đây là món **xếp chồng**, thích gì thêm nấy.
+region: Miền Nam
+category: Cơm
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-31
+time:
+  total: 55 phút (+ ngâm nếp 6 giờ)
+  active: 35 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 77
+art: xoi-man
+heroEyebrow: Xe xôi đầu hẻm, sáng và tối đều có…
+
+quick:
+  ingredients:
+    - Nếp [[500|g]] — ngâm **6 giờ** với [[1|muỗng cà phê]] muối
+    - Nước cốt dừa [[100|ml]] (tùy thích — cho xôi béo mềm)
+    - Lạp xưởng [[3|cây]] · trứng cút [[12|trứng]] · chà bông [[80|g]]
+    - Chả lụa [[150|g]] · hành lá [[1|nắm]] · hành tím [[6|củ]] phi vàng
+    - "Rưới mặt: xì dầu [[2|muỗng canh]] · đường [[1|muỗng cà phê]] · tương ớt"
+  steps:
+    - Ngâm nếp **6 giờ** với muối, vo lại rồi để **thật ráo** ít nhất 15 phút.
+    - >-
+      Đồ xôi **35–40 phút**, giữa chừng xới tơi và rưới nước cốt dừa rồi đồ
+      tiếp.
+    - >-
+      Luộc trứng cút [[4|phút]] rồi ngâm nước lạnh cho dễ bóc; lạp xưởng **luộc
+      sơ rồi mới chiên** cho bớt mỡ, thái lát xéo.
+    - >-
+      Làm mỡ hành: hành lá thái nhỏ, dội dầu nóng già lên, thêm chút muối; phi
+      riêng hành tím cho vàng giòn.
+    - >-
+      Pha nước rưới: xì dầu + đường + chút nước, khuấy tan, nếm **mặn ngọt cân
+      nhau**.
+    - >-
+      Xới xôi ra hộp, **rưới mỡ hành trước tiên**, rồi xếp lạp xưởng, chả lụa,
+      trứng cút, rắc chà bông và hành phi, rưới xì dầu, vạch tương ớt.
+  warning: >-
+    Rắc chà bông xuống dưới rồi mới rưới mỡ hành là chà bông **xẹp bết thành
+    mảng**. Chà bông luôn rắc sau cùng, ngay trước lúc ăn.
+
+flavor:
+  chua: 1
+  ngot: 4.5
+  man: 6.5
+  cay: 2
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** hạt nếp dẻo mềm chứ không khô, thấm mỡ hành mằn mặn; lạp xưởng
+  ngọt béo, chà bông tơi xốp còn nguyên sợi, trứng cút mềm. Mỗi muỗng phải xúc
+  được **ít nhất ba thứ khác nhau** mới đúng tinh thần của món.
+
+storyEyebrow: Chuyện hộp xôi
+storyTitle: Món xôi **không có công thức**, chỉ có cách xếp
+story:
+  - >-
+    Xe xôi mặn Sài Gòn bày ra như một cái sạp nhỏ: nồi nếp trắng nóng hổi ở
+    giữa, xung quanh là dãy thau nhôm đựng lạp xưởng, chả lụa, trứng cút, chà
+    bông, xíu mại, mỡ hành, hành phi. Khách chỉ tay tới đâu người bán xúc tới
+    đó. Nên **không có "công thức xôi mặn"** nào hết — chỉ có nền nếp trắng và
+    một danh sách thứ để xếp lên.
+  - >-
+    Chỗ khác biệt với xôi Bắc nằm ngay đó. **Xôi xéo** là một món hoàn chỉnh,
+    ba thành phần cố định, thiếu một là không còn là nó. **Xôi mặn** thì ngược
+    lại — nó là cái nền, và mỗi xe xôi, mỗi nhà lại chất lên một kiểu. Có nhà
+    thêm xíu mại chan nước sốt, có nhà thêm pate, có nhà chỉ mỡ hành với chà
+    bông là xong.
+  - >-
+    Cái chung duy nhất là **thứ tự xếp**, và thứ tự đó có lý của nó: mỡ hành
+    xuống trước để thấm vào hạt nếp, đồ mặn nằm giữa, còn **chà bông và hành
+    phi rắc sau cùng** vì hai thứ đó gặp nước là xẹp. Nắm được đúng thứ tự này
+    thì xếp gì lên cũng ra hộp xôi tử tế.
+
+ingredientGroups:
+  - name: Nền xôi
+    icon: rice
+    items:
+      - id: nepxm
+        name: Nếp
+        icon: rice
+        base: 500
+        unit: g
+        note: >-
+          Nếp thường là đủ dùng — món này nếp chỉ làm nền, không phải nhân vật
+          chính như bên xôi xéo
+      - id: cotdua
+        name: Nước cốt dừa
+        icon: drop
+        base: 100
+        unit: ml
+        note: >-
+          Rưới lúc xới giữa chừng cho xôi béo mềm. Bỏ qua cũng được, xôi sẽ ráo
+          và nhẹ hơn
+      - id: muoixm
+        name: Muối
+        icon: jar
+        base: 1
+        unit: muỗng cà phê
+        note: Cho vào nước ngâm nếp — xôi đậm ngầm, ăn với đồ mặn mới không bị lạc vị
+  - name: Đồ mặn xếp mặt
+    icon: meat
+    items:
+      - id: lapxuong
+        name: Lạp xưởng
+        icon: meat
+        color: red
+        base: 3
+        unit: cây
+        note: >-
+          Xúc xích khô kiểu người Hoa, vị ngọt đậm. **Luộc sơ 3 phút rồi mới
+          chiên** — bớt mỡ mà không bị nứt vỏ
+      - id: trungcut
+        name: Trứng cút
+        icon: egg
+        base: 12
+        unit: trứng
+        note: Luộc 4 phút rồi ngâm nước lạnh — bóc vỏ ngọt xớt, lòng đỏ còn mềm
+      - id: chabong
+        name: Chà bông
+        icon: sprout
+        color: gold
+        base: 80
+        unit: g
+        note: >-
+          Miền Bắc kêu **ruốc**. Rắc sau cùng, ngay trước khi ăn — gặp nước là
+          xẹp bết ngay
+      - id: chaluaxm
+        name: Chả lụa
+        icon: meat
+        base: 150
+        unit: g
+        note: Thái sợi hoặc lát vuông nhỏ cho dễ xúc chung với xôi
+  - name: Mỡ hành & nước rưới
+    icon: onion
+    items:
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Thái nhỏ, dội dầu nóng già lên — đó là cách làm mỡ hành đúng bài
+      - id: hanhtimxm
+        name: Hành tím phi
+        icon: onion
+        base: 6
+        unit: củ
+        note: Phi riêng cho vàng giòn, rắc cùng lúc với chà bông
+      - id: xidau
+        name: Xì dầu + đường
+        icon: bottle
+        qtyText: 2 muỗng canh xì dầu · 1 muỗng cà phê đường
+        note: Pha loãng với chút nước, nếm **mặn ngọt cân nhau** rồi hãy rưới
+      - id: tuongotxm
+        name: Tương ớt
+        icon: chili
+        color: red
+        qtyText: Vạch một đường trên mặt
+        note: Cho ai ăn cay — để riêng chai, mỗi người tự vạch
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **hộp xôi mặn đầy ụ**
+stepsLead: >-
+  Trong lúc chõ xôi đang lên hơi thì làm hết phần còn lại — luộc trứng, chiên
+  lạp xưởng, làm mỡ hành, phi hành. Xôi chín là mọi thứ đã nằm sẵn trên khay,
+  chỉ việc xếp.
+steps:
+  - title: Ngâm nếp & đồ xôi
+    icon: rice
+    minutes: 45 phút (+ ngâm 6 giờ)
+    bullets:
+      - label: "Ngâm:"
+        text: >-
+          vo nếp cho trong nước, ngâm ngập với [[1|muỗng cà phê]] muối
+          **6 giờ** hoặc qua đêm.
+      - label: "Để ráo:"
+        text: >-
+          đổ ra rổ, xóc vài lần, **để ráo ít nhất 15 phút**. Nếp còn ngậm nước
+          là xôi bết thành mảng.
+      - label: "Đồ lượt một:"
+        text: >-
+          nước sôi mạnh rồi mới đặt chõ; dàn nếp tơi đều, khoét lỗ giữa cho hơi
+          thoát. Đậy nắp **20 phút**.
+      - label: "Xới & đồ tiếp:"
+        text: >-
+          mở nắp, rưới [[100|ml]] nước cốt dừa, **xới tơi từ đáy lên**, đậy lại
+          đồ thêm **15–20 phút**. Miết hạt thấy dẻo mịn, không còn lõi trắng
+          đục là chín.
+    callout:
+      type: tip
+      text: >-
+        Phủ một lớp **khăn xô dưới nắp** để hứng nước đọng. Nước nhỏ xuống làm
+        mặt xôi rỗ và nhão từng đám — mẹo này áp dụng cho mọi món đồ xôi.
+    timer:
+      secs: 1200
+      label: Hẹn giờ đồ lượt một · 20:00
+      doneMsg: Mở nắp, rưới nước cốt dừa, xới tơi rồi đồ tiếp!
+  - title: Luộc trứng cút & chiên lạp xưởng
+    icon: egg
+    minutes: 12 phút
+    bullets:
+      - label: "Trứng cút:"
+        text: >-
+          thả vào nước sôi có chút muối, luộc **4 phút** rồi vớt ra **ngâm nước
+          lạnh ngay**. Ngâm lạnh làm vỏ tách khỏi lòng trắng, bóc ngọt xớt.
+      - label: "Lạp xưởng — luộc trước:"
+        text: >-
+          thả nguyên cây vào nước sôi **3 phút**, vớt ra. Bước này rút bớt mỡ
+          và làm vỏ mềm, nên lúc chiên **không bị nứt và không bắn dầu**.
+      - label: "Chiên:"
+        text: >-
+          thái lát xéo dày cỡ 5 mm, cho vào chảo **không cần thêm dầu** — mỡ
+          trong lạp xưởng tự ra. Chiên lửa vừa tới khi mép hơi cong và xém vàng.
+    callout:
+      type: warn
+      text: >-
+        Chiên thẳng lạp xưởng chưa luộc là vỏ nứt toác, mỡ bắn tung tóe, mà bên
+        trong vẫn còn sống. Ba phút luộc trước giải quyết cả ba chuyện đó.
+    timer:
+      secs: 240
+      label: Hẹn giờ luộc trứng cút · 04:00
+      doneMsg: Vớt trứng ra ngâm nước lạnh liền cho dễ bóc vỏ!
+  - title: Mỡ hành & hành phi — hai thứ khác nhau
+    icon: onion
+    minutes: 10 phút
+    intro: >-
+      Nhiều người tưởng là một, thật ra là hai món riêng và hộp xôi cần cả hai:
+    bullets:
+      - label: "Mỡ hành:"
+        text: >-
+          hành lá thái nhỏ cả phần trắng lẫn phần xanh, cho vào chén, rắc chút
+          muối. Đun [[4|muỗng canh]] dầu **thật nóng già** rồi **dội thẳng
+          xuống chén hành** — nghe xèo một tiếng là hành chín tới, xanh và
+          thơm.
+      - label: "Hành phi:"
+        text: >-
+          hành tím thái lát mỏng, cho vào chảo **lúc dầu còn nguội**, lửa vừa,
+          đảo đều. **Vừa chớm vàng nhạt là vớt ra** giấy thấm.
+      - label: "Khác nhau chỗ nào:"
+        text: >-
+          mỡ hành là **hành lá + dầu**, mềm và thơm, dùng để **thấm vào xôi**.
+          Hành phi là **hành tím chiên giòn**, dùng để **rắc lên mặt**. Thiếu
+          mỡ hành thì xôi khô, thiếu hành phi thì hộp xôi mất tiếng giòn.
+  - title: Pha chén xì dầu rưới
+    icon: bottle
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Hòa [[2|muỗng canh]] xì dầu + [[1|muỗng cà phê]] đường + 2 muỗng canh
+          nước, khuấy cho tan.
+      - text: >-
+          Nếm phải **mặn ngọt cân nhau**, loãng vừa đủ để rưới thành đường chứ
+          không đặc như nước chấm. Thích đậm thì thêm chút dầu hào.
+      - text: >-
+          Nhà nào có sẵn **nước sốt xíu mại** thì dùng thay xì dầu — đó là kiểu
+          nhiều xe xôi hay làm, hộp xôi đậm đà hẳn.
+  - title: Xếp hộp xôi — thứ tự quyết định tất cả
+    icon: basket
+    minutes: 5 phút
+    intro: "Đây là toàn bộ nghề của món này, và nó nằm ở đúng năm nhịp:"
+    bullets:
+      - label: "1 · Xôi:"
+        text: >-
+          xới xôi nóng vào hộp hoặc dĩa, **vun nhẹ chứ đừng nén**. Nén xuống là
+          hạt bết, xúc lên thành mảng.
+      - label: "2 · Mỡ hành:"
+        text: >-
+          rưới mỡ hành **ngay lên xôi nóng**, xóc nhẹ hộp cho thấm xuống dưới.
+          Mỡ hành phải xuống trước mọi thứ khác.
+      - label: "3 · Đồ mặn:"
+        text: >-
+          xếp lạp xưởng, chả lụa, trứng cút **rải đều khắp mặt**, đừng dồn một
+          góc — mỗi muỗng xúc lên phải có đủ thứ.
+      - label: "4 · Chà bông và hành phi:"
+        text: >-
+          rắc **sau cùng**. Hai thứ này gặp nước hay mỡ nóng là xẹp bết ngay,
+          nên phải nằm trên cùng, khô ráo.
+      - label: "5 · Rưới và vạch:"
+        text: >-
+          rưới xì dầu thành đường mảnh, vạch một đường tương ớt. Đậy hộp lại,
+          ăn trong vòng mươi phút là ngon nhất.
+    callout:
+      type: tip
+      text: >-
+        Nhà đông người thì bày kiểu **xe xôi**: nồi xôi giữa bàn, quanh đó mấy
+        chén đồ xếp, ai muốn gì tự xúc. Vừa vui vừa hợp với tinh thần của món —
+        vốn dĩ nó là món chỉ tay chọn mà.
+    doneText: Hộp xôi mặn đầy ụ trên tay — xong!
+
+tipsTitle: 6 bí quyết **hộp xôi mặn ra chất xe xôi**
+tipsLead: >-
+  Món này dễ nấu mà dễ làm ẩu. Sáu điều dưới đây là chỗ phân biệt hộp xôi tử tế
+  với hộp xôi "có gì đổ nấy".
+tips:
+  - icon: sprout
+    title: Chà bông rắc sau cùng, không bao giờ rắc trước
+    text: >-
+      Chà bông tơi xốp là nhờ sợi thịt khô. Rắc xuống dưới rồi rưới mỡ hành lên
+      là nó **hút nước, xẹp bết thành mảng** — nhìn là biết ngay hộp xôi làm
+      ẩu.
+  - icon: onion
+    title: Mỡ hành và hành phi là hai thứ, cần cả hai
+    text: >-
+      **Mỡ hành** (hành lá dội dầu nóng) để thấm vào xôi cho khỏi khô. **Hành
+      phi** (hành tím chiên giòn) để rắc mặt lấy tiếng giòn. Thiếu một là hộp
+      xôi hụt hẳn một tầng.
+  - icon: meat
+    title: Luộc lạp xưởng trước khi chiên
+    text: >-
+      Ba phút nước sôi làm vỏ mềm và rút bớt mỡ. Chiên thẳng thì **vỏ nứt toác,
+      dầu bắn**, mà trong vẫn sống. Đây là mẹo của mọi hàng cơm chiên và xôi
+      mặn.
+  - icon: drop
+    title: Dầu phải nóng già mới dội vào hành lá
+    text: >-
+      Dội dầu chưa đủ nóng thì hành lá **hăng và xỉn màu**. Nóng già thì nghe
+      xèo một tiếng, hành chín tới, xanh và dậy mùi ngay.
+  - icon: spoon
+    title: Vun xôi, đừng nén xôi
+    text: >-
+      Nén xuống cho "gọn hộp" là hạt nếp bết lại thành khối, xúc lên nguyên
+      mảng. Vun nhẹ tay thì xôi vẫn tơi, mỡ hành mới len xuống dưới được.
+  - icon: rice
+    title: Nếp ở đây chỉ là cái nền
+    text: >-
+      Khác xôi xéo — nơi hạt nếp là nhân vật chính — xôi mặn ăn thua ở **đồ xếp
+      trên mặt**. Nên đừng cầu kỳ chọn nếp cái hoa vàng, mà hãy để công vào món
+      mỡ hành và mấy thứ mặn.
+
+serve:
+  title: Dọn hộp xôi **kiểu xe xôi đầu hẻm**
+  paras:
+    - >-
+      Xôi mặn ở Sài Gòn bán cả sáng lẫn tối, đựng trong hộp giấy hoặc gói lá
+      chuối lót giấy, kèm cái muỗng nhựa. Ăn ngay tại chỗ thì ngon nhất — để
+      lâu chà bông xẹp và xôi nguội, mất hẳn một nửa cái thú.
+    - >-
+      Ở nhà thì bày kiểu **tự chọn**: nồi xôi nóng giữa bàn, quanh đó là chén
+      lạp xưởng, chén trứng cút, dĩa chả lụa, chén mỡ hành, hũ chà bông, chai
+      xì dầu. Ai thích gì xúc nấy, nhà có con nít thì để tương ớt riêng.
+    - >-
+      Muốn đổi vị thì thêm **xíu mại chan nước sốt** hoặc miếng **heo quay da
+      giòn** thái nhỏ — hộp xôi lập tức thành bữa no. Còn muốn thử hạt nếp ở vai
+      chính thì qua **xôi xéo** kiểu Hà Nội, cùng một loại nếp mà ra món khác
+      hẳn.
+  aside:
+    title: Trên mặt hộp xôi
+    intro: "Xếp đủ mấy thứ này là ra đúng vị xe xôi:"
+    items:
+      - icon: meat
+        text: "**Lạp xưởng chiên xém mép** — ngọt béo, cắn vào bật vị đầu tiên."
+      - icon: egg
+        text: "**Trứng cút bóc sẵn** — mềm, làm dịu cái mặn của mấy thứ kia."
+      - icon: sprout
+        text: "**Chà bông rắc sau cùng** — tơi xốp, giữ được thì hộp xôi mới đẹp."
+      - icon: onion
+        text: "**Mỡ hành + hành phi** — một thứ để thấm, một thứ để giòn."
+
+faq:
+  - q: Xôi mặn khác xôi xéo chỗ nào?
+    a: >-
+      Khác từ gốc. **Xôi xéo** là món hoàn chỉnh của miền Bắc: nếp vàng nghệ,
+      lát đậu xanh, hành phi — ba thứ cố định, thiếu một là không còn là nó.
+      **Xôi mặn** là món miền Nam kiểu xếp chồng: nền nếp trắng, còn lại tùy
+      chọn, mỗi xe xôi một kiểu.
+  - q: Có nhất thiết phải cho nước cốt dừa không?
+    a: >-
+      Không. Cốt dừa làm hạt xôi **béo mềm và bóng**, hợp với đồ mặn phía trên.
+      Bỏ đi thì xôi ráo và nhẹ hơn, ăn với lạp xưởng vốn đã béo lại hóa ra vừa.
+      Tùy nhà — cả hai kiểu đều gặp ngoài xe xôi.
+  - q: Chà bông tự làm được không?
+    a: >-
+      Được: thịt nạc thăn luộc chín, xé sợi, giã cho tơi rồi **rang chảo lửa
+      nhỏ tới khi khô hẳn và bông lên**. Mất chừng một tiếng nhưng làm một mẻ
+      dùng cả tháng. Mua sẵn cũng ổn — chọn loại sợi dài, tơi, không bết dầu.
+  - q: Làm sẵn từ tối để sáng mang đi được không?
+    a: >-
+      Được nếu **tách phần khô ra**: hộp xôi với mỡ hành và đồ mặn để riêng,
+      chà bông với hành phi bỏ túi nhỏ, tới nơi mới rắc. Sáng ra hâm xôi bằng
+      lò vi sóng có đậy khăn ẩm chừng 1 phút là dẻo lại.
+  - q: Không có chõ đồ xôi thì sao?
+    a: >-
+      Nồi cơm điện làm được: nếp đã ngâm để ráo cho vào nồi, châm nước **xâm
+      xấp ngang mặt nếp**, bấm nút. Nút nhảy thì rưới cốt dừa, xới tơi, ủ thêm
+      10 phút. Hoặc dùng xửng hấp đặt trong nồi thường, canh nước dưới đáy đừng
+      cạn.
+  - q: Xếp thêm được những gì nữa?
+    a: >-
+      Gần như mọi món mặn: **xíu mại chan sốt cà, pate, thịt kho, gà xé, tôm
+      khô rang, heo quay thái nhỏ**. Chỉ cần giữ đúng thứ tự — mỡ hành xuống
+      trước, đồ mặn ở giữa, chà bông và hành phi trên cùng.
+
+ticker:
+  - icon: meat
+    text: Lạp xưởng chiên xém mép
+  - icon: sprout
+    text: Chà bông rắc sau cùng
+  - icon: egg
+    text: Trứng cút bóc sẵn
+  - icon: onion
+    text: Mỡ hành thấm xuống hạt nếp
+  - icon: bottle
+    text: Rưới xì dầu, vạch tương ớt
+  - icon: basket
+    text: Món xếp chồng, thích gì thêm nấy

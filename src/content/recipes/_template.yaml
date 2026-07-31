@@ -12,19 +12,21 @@
 # Icon có sẵn (xem src/components/Sprite.astro): bowl claypot pot plate…
 #   fish shrimp meat egg | pod pineapple tomato okra stem sprout flower herb
 #   garlic chili onion pumpkin ginger lettuce | bottle jar spoon rice noodle
-#   knife flame clock drop lime basket roll pepper bulb alert question map
+#   knife flame clock drop lime basket roll bread pepper bulb alert question map
 # ============================================================
 title: Tên món **chữ nhấn vàng**
 summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Tây Bắc | Tây Nguyên | Cả nước
 category: Canh          # Canh | Kho | Xào | Nướng | Cuốn | Gỏi | Chiên | Hấp | Cơm
-#                       # | Món nước | Bún trộn | Lẩu | Cháo | Bánh
+#                       # | Món nước | Bún trộn | Lẩu | Cháo | Bánh | Bánh mì
 #                       # Món nước = một tô là xong bữa (kể cả tô nước lèo dọn riêng)
 #                       # Canh     = món trong mâm cơm, ăn với cơm trắng
 #                       # Lẩu      = nồi đặt giữa bàn, ăn tới đâu nhúng tới đó
 #                       # Cháo     = gạo ninh nhừ
 #                       # Bánh     = vỏ tráng/đổ từ bột gạo, dù chiên hay hấp
+#                       # Bánh mì  = ổ bánh mì kẹp nhân (bột MÌ nướng lò) — khác
+#                       #            hẳn "Bánh", đừng xếp lẫn
 occasions: [Cơm nhà]    # BẮT BUỘC ít nhất 1 nhãn — để trống là build gãy.
 #                       # Cơm nhà | Bữa sáng | Đãi khách | Nhậu lai rai | Ăn chơi
 #                       # | Cho bé | Cỗ Tết

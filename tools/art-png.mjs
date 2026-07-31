@@ -38,7 +38,7 @@ const FAMILIES = {
   nuoc: { name: 'Chan & húp',  from: '#235B66', to: '#143A42', cats: ['Món nước', 'Canh', 'Lẩu', 'Cháo'] },
   man:  { name: 'Mặn đưa cơm', from: '#6E3512', to: '#421C06', cats: ['Kho', 'Xào', 'Hấp'] },
   tron: { name: 'Cuốn & trộn', from: '#5B7A2E', to: '#3B521C', cats: ['Gỏi', 'Cuốn', 'Bún trộn'] },
-  banh: { name: 'Cơm & bánh',  from: '#A8801A', to: '#70530C', cats: ['Cơm', 'Bánh'] },
+  banh: { name: 'Cơm & bánh',  from: '#A8801A', to: '#70530C', cats: ['Cơm', 'Bánh', 'Bánh mì'] },
   lua:  { name: 'Lửa',         from: '#9A3D2B', to: '#65241A', cats: ['Nướng', 'Chiên'] },
 };
 const famOfCat = (cat) =>

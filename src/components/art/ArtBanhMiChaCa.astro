@@ -1,0 +1,128 @@
+---
+/* Bánh mì chả cá Nha Trang — VẼ LẠI vòng 2. Vòng 1 hỏng vì xoay ổ bánh 38° rồi
+   vẽ path trong hệ đã xoay: ổ co lại thành cục tròn, không ra ổ bánh nữa. Lần
+   này vẽ ổ bánh NẰM NGANG với đúng tỉ lệ dài, rồi mới bọc một lớp rotate nhẹ
+   (-11°) ở ngoài.
+   Dấu nhận diện nằm ở ĐƯỜNG BAO: bốn ĐĨA CHẢ CÁ tròn vàng nâu dựng đứng, nhô
+   hẳn lên khỏi mép ổ bánh — nhìn cái là biết không phải nhân thịt.
+   Chống đụng banh-mi-thit (ổ nằm ngang, nhân nhiều tầng hồng đỏ, giấy gói) và
+   banh-mi-heo-quay (nửa ổ dựng đứng lộ mặt cắt). */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Ổ bánh mì chả cá Nha Trang với lát chả cá tròn vàng nhô lên, chan sốt hành và rau răm">
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="256" cy="398" rx="192" ry="26" fill="rgba(15,26,14,.32)"/>
+
+  <!-- THỚT GỖ (đạo cụ nền, khác giấy gói của banh-mi-thit) -->
+  <g>
+    <path d="M60 340 C 60 328 90 320 256 320 C 422 320 452 328 452 340 L 452 362 C 452 374 422 382 256 382 C 90 382 60 374 60 362 Z" fill="#8E5D26"/>
+    <ellipse cx="256" cy="340" rx="196" ry="22" fill="#C08B44" stroke="#7A4D1D" stroke-width="2.6"/>
+    <path d="M110 334 C 176 326 336 326 402 334" fill="none" stroke="#AC7734" stroke-width="2.4"/>
+    <path d="M96 344 C 170 352 342 352 416 344" fill="none" stroke="#B07E38" stroke-width="2"/>
+  </g>
+
+  <g transform="rotate(-11 260 300)">
+    <!-- NẮP BÁNH ngả ra sau -->
+    <path d="M92 250 C 118 220 178 204 254 202 C 332 200 398 212 426 236 C 438 247 434 262 416 267 C 378 256 320 248 252 249 C 184 250 128 259 100 268 C 84 266 82 260 92 250 Z"
+          fill="#D9963F" stroke="#9B6021" stroke-width="3"/>
+    <path d="M104 254 C 136 234 190 222 252 221 C 318 220 376 230 408 246" fill="none" stroke="#EBB566" stroke-width="5" stroke-linecap="round"/>
+    <g fill="none" stroke="#8C5219" stroke-width="4" stroke-linecap="round">
+      <path d="M152 240 L166 258"/><path d="M246 230 L258 250"/><path d="M338 234 L350 254"/>
+    </g>
+
+    <!-- ĐÁY BÁNH: thân thuyền dài -->
+    <path d="M78 306 C 100 288 152 278 214 275 C 288 271 358 275 410 284 C 442 290 458 300 454 310 C 448 328 404 342 338 347 C 262 353 184 350 132 339 C 92 331 70 320 78 306 Z"
+          fill="#D9963F" stroke="#9B6021" stroke-width="3"/>
+    <path d="M92 306 C 114 292 162 284 216 282 C 286 279 352 282 400 290 C 426 294 440 301 438 307 C 398 316 330 321 258 321 C 186 321 122 316 92 306 Z"
+          fill="#F6E6C4" stroke="#DFC697" stroke-width="2"/>
+
+    <!-- SỐT HÀNH sền sệt trải trong lòng ổ bánh, chảy tràn mép trước -->
+    <path d="M102 304 C 146 294 204 289 260 289 C 318 289 374 294 418 303 C 396 312 330 317 258 317 C 186 317 124 312 102 304 Z"
+          fill="#B9762C"/>
+    <g fill="none" stroke="#F3E6CB" stroke-width="3" stroke-linecap="round">
+      <path d="M144 302 C 158 296 176 296 188 302"/>
+      <path d="M228 298 C 242 292 260 292 272 298"/>
+      <path d="M318 300 C 332 294 350 294 362 300"/>
+    </g>
+    <path d="M170 316 C 172 330 168 340 160 344" fill="none" stroke="#B9762C" stroke-width="7" stroke-linecap="round"/>
+    <path d="M300 318 C 304 332 300 342 292 346" fill="none" stroke="#B9762C" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- CHẢ CÁ: bốn đĩa tròn vàng nâu DỰNG ĐỨNG, nhô hẳn lên khỏi mép ổ bánh -->
+  <g>
+    <g transform="translate(146 268) rotate(-14)">
+      <ellipse cx="0" cy="0" rx="40" ry="27" fill="#D8983C" stroke="#8E5417" stroke-width="3.6"/>
+      <ellipse cx="0" cy="-3" rx="31" ry="19" fill="#EBBE6A"/>
+      <path d="M-22 -8 C -10 -16 12 -16 22 -6" fill="none" stroke="#C88C31" stroke-width="2.6"/>
+      <g fill="#B4762A"><circle cx="-11" cy="6" r="2.2"/><circle cx="9" cy="4" r="2"/><circle cx="-2" cy="-8" r="1.8"/></g>
+    </g>
+    <g transform="translate(232 250) rotate(6)">
+      <ellipse cx="0" cy="0" rx="42" ry="28" fill="#DFA345" stroke="#8E5417" stroke-width="3.6"/>
+      <ellipse cx="0" cy="-3" rx="33" ry="20" fill="#F0C776"/>
+      <path d="M-23 -8 C -10 -17 13 -17 23 -6" fill="none" stroke="#C88C31" stroke-width="2.6"/>
+      <g fill="#B4762A"><circle cx="-13" cy="7" r="2.2"/><circle cx="10" cy="5" r="2.1"/><circle cx="-1" cy="-9" r="1.8"/></g>
+    </g>
+    <g transform="translate(322 254) rotate(-5)">
+      <ellipse cx="0" cy="0" rx="39" ry="26" fill="#D8983C" stroke="#8E5417" stroke-width="3.6"/>
+      <ellipse cx="0" cy="-3" rx="30" ry="18" fill="#EBBE6A"/>
+      <path d="M-21 -8 C -9 -16 12 -16 21 -6" fill="none" stroke="#C88C31" stroke-width="2.6"/>
+      <g fill="#B4762A"><circle cx="-10" cy="6" r="2.1"/><circle cx="10" cy="4" r="1.9"/></g>
+    </g>
+    <g transform="translate(392 278) rotate(15)">
+      <ellipse cx="0" cy="0" rx="34" ry="23" fill="#CE8C33" stroke="#8E5417" stroke-width="3.4"/>
+      <ellipse cx="0" cy="-3" rx="26" ry="15" fill="#E2B25C"/>
+      <path d="M-18 -7 C -8 -14 10 -14 18 -5" fill="none" stroke="#C88C31" stroke-width="2.4"/>
+    </g>
+  </g>
+
+  <!-- RAU RĂM: lá nhọn dài xanh sẫm, mọc lên giữa các đĩa chả -->
+  <g transform="translate(186 234) rotate(-20)">
+    <path d="M0 24 C 6 12 14 2 24 -6" fill="none" stroke="#3E6B2C" stroke-width="2.8" stroke-linecap="round"/>
+    <g fill="#4B7F32" stroke="#2F5622" stroke-width="1.2">
+      <path d="M22 -8 C 32 -16 42 -14 40 -6 C 38 1 28 1 22 -8 Z"/>
+      <path d="M12 4 C 22 -4 32 -2 30 6 C 28 13 18 13 12 4 Z"/>
+      <path d="M4 18 C 14 10 24 12 22 20 C 20 27 10 27 4 18 Z"/>
+    </g>
+  </g>
+  <g transform="translate(278 226) rotate(14)">
+    <path d="M0 20 C 6 10 12 2 22 -4" fill="none" stroke="#3E6B2C" stroke-width="2.6" stroke-linecap="round"/>
+    <g fill="#558C39" stroke="#2F5622" stroke-width="1.2">
+      <path d="M20 -6 C 30 -13 38 -11 36 -4 C 34 2 26 2 20 -6 Z"/>
+      <path d="M8 8 C 18 1 26 3 24 10 C 22 16 14 16 8 8 Z"/>
+    </g>
+  </g>
+  <g transform="translate(356 236) rotate(-8)">
+    <path d="M0 18 C 5 9 11 2 20 -3" fill="none" stroke="#3E6B2C" stroke-width="2.4" stroke-linecap="round"/>
+    <g fill="#4B7F32" stroke="#2F5622" stroke-width="1.1">
+      <path d="M18 -5 C 27 -11 34 -10 32 -3 C 30 2 23 2 18 -5 Z"/>
+    </g>
+  </g>
+
+  <!-- ĐỒ CHUA sợi cam thò ra mép trước -->
+  <g stroke-linecap="round">
+    <g stroke="#E89A2E" stroke-width="5">
+      <path d="M172 314 C 164 306 152 304 142 307"/>
+      <path d="M282 306 C 278 296 270 290 260 289"/>
+      <path d="M368 316 C 368 306 362 298 352 295"/>
+    </g>
+    <g stroke="#F5EEDC" stroke-width="4.4">
+      <path d="M204 310 C 198 300 188 296 178 297"/>
+      <path d="M320 310 C 318 300 310 293 300 292"/>
+    </g>
+  </g>
+
+  <!-- vạch TƯƠNG ỚT đỏ -->
+  <path d="M150 296 C 216 280 320 276 396 292" fill="none" stroke="#C0392B" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+
+  <!-- ĐẠO CỤ: chảo con đựng sốt hành, cán chĩa sang phải -->
+  <g transform="translate(408 344)">
+    <ellipse cx="0" cy="32" rx="42" ry="11" fill="rgba(15,26,14,.28)"/>
+    <rect x="32" y="2" width="70" height="10" rx="5" transform="rotate(-8 32 7)" fill="#4A4038"/>
+    <path d="M-38 4 C -36 24 -21 34 0 34 C 21 34 36 24 38 4 Z" fill="#5C5249" stroke="#3B332C" stroke-width="2.4"/>
+    <ellipse cx="0" cy="4" rx="38" ry="11" fill="#6B6157" stroke="#3B332C" stroke-width="2.4"/>
+    <ellipse cx="0" cy="5" rx="31" ry="8" fill="#B9762C"/>
+    <g fill="none" stroke="#F3E6CB" stroke-width="2.6" stroke-linecap="round">
+      <path d="M-15 3 C -8 -1 2 -1 7 3"/><path d="M2 8 C 9 4 17 5 21 8"/>
+    </g>
+  </g>
+</svg>

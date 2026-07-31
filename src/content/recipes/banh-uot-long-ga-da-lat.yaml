@@ -1,0 +1,411 @@
+title: Bánh ướt lòng gà **phố núi — lòng xào giòn sần sật, ăn trong tô sâu**
+summary: >-
+  Đặc sản Đà Lạt ăn cho ấm người: lá bánh ướt còn nóng cắt miếng vào **tô sâu**,
+  phủ lòng gà xào giòn sần sật và thịt gà xé, rắc rau răm với tiêu, chan muỗng
+  nước mắm mặn ngọt. Cả món ăn thua ở **hai phút xào lòng** — quá tay một chút
+  là dai.
+region: Tây Nguyên
+category: Bánh
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-31
+time:
+  total: 50 phút
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 79
+art: banh-uot-long-ga
+heroEyebrow: Sáng phố núi lạnh, tô bánh còn bốc khói…
+
+quick:
+  ingredients:
+    - Bánh ướt [[500|g]] — tráng ở nhà hoặc mua bịch còn ấm ngoài chợ
+    - >-
+      Bộ lòng gà [[400|g]] (mề, gan, tim, ruột non) · thịt gà luộc xé
+      [[250|g]]
+    - Hành tây [[0.5|củ|frac]] · hành tím [[4|củ]] · tỏi [[3|tép]] · gừng [[1|nhánh]]
+    - Rau răm [[1|nắm]] · hành lá · hành phi · tiêu xay
+    - >-
+      Nước mắm chan: nước mắm [[3|muỗng canh|frac]] · đường
+      [[2|muỗng canh]] · nước ấm [[150|ml]] · chanh, tỏi ớt
+  steps:
+    - >-
+      Làm sạch lòng: **bóp muối hột với chanh**, tuốt ruột non, lột màng vàng
+      trong mề, rửa lại nhiều nước cho hết nhớt.
+    - >-
+      Chần lòng qua nước sôi có **gừng đập dập** chừng 1 phút, vớt ra ngâm nước
+      lạnh — lòng giòn và hết mùi.
+    - >-
+      Thái mề lát mỏng, tim bổ đôi, gan thái miếng, ruột non cắt khúc; ướp sơ
+      với hành tỏi, chút nước mắm và tiêu.
+    - >-
+      **Chảo thật nóng**, xào mề trước, tim theo sau, gan và ruột non sau cùng
+      — cả mẻ chỉ chừng **2–3 phút** rồi tắt bếp ngay.
+    - Pha nước mắm mặn ngọt loãng; xé thịt gà, trộn với rau răm thái nhỏ.
+    - >-
+      Bánh ướt cắt miếng cho vào tô sâu, xếp gà xé rồi lòng xào lên trên, rắc
+      hành phi, rau răm, tiêu, chan nước mắm rồi trộn.
+  warning: >-
+    Xào lòng quá tay là **dai như cao su**, không cách nào cứu. Thấy mề vừa
+    cong mép, gan vừa hết đỏ là nhấc chảo xuống ngay — nhiệt còn lại sẽ nấu
+    chín nốt.
+
+flavor:
+  chua: 3.5
+  ngot: 4
+  man: 6
+  cay: 3.5
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** miếng mề **sần sật bật lại dưới răng**, gan bùi mềm, ruột non
+  giòn tanh tách; lá bánh còn ấm mềm mướt bên dưới. Nghe rõ mùi **rau răm và
+  tiêu** thì mới ra tô bánh phố núi.
+
+storyEyebrow: Chuyện tô bánh
+storyTitle: Tô bánh ướt **ăn cho ấm** của xứ lạnh
+story:
+  - >-
+    Đà Lạt sáng nào cũng lạnh, nên món quà sáng ở đây khác hẳn miền xuôi: người
+    ta **không dọn ra dĩa mà múc vào tô sâu**, chan nước mắm cho xâm xấp, ăn
+    bằng muỗng như ăn một tô nóng. Cùng là lá bánh ướt đó, mà dọn kiểu này thì
+    giữ được hơi ấm lâu hơn nhiều.
+  - >-
+    Thứ phủ lên cũng là thứ của vùng: **lòng gà**. Gà thả vườn xứ này thịt săn,
+    bộ lòng nhỏ mà chắc; luộc con gà lấy thịt xé thì còn nguyên bộ lòng, xào
+    lên là ra món. Nên tô bánh ướt lòng gà thật ra là cách **tận dụng trọn vẹn
+    một con gà** — thịt một đường, lòng một đường, nước luộc thì để dành.
+  - >-
+    Chỗ khó duy nhất nằm ở cái chảo. Lòng gà chín rất nhanh, mà mỗi bộ phận lại
+    chín một tốc độ: **mề dai nhất nên vào trước, gan mềm nhất nên vào sau
+    cùng**. Cho hết vào một lượt thì hoặc mề còn sượng, hoặc gan đã nát. Biết
+    thứ tự đó rồi thì món này thành dễ.
+
+ingredientGroups:
+  - name: Bộ lòng & thịt gà
+    icon: meat
+    items:
+      - id: bolong
+        name: Bộ lòng gà
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: >-
+          Gồm **mề, gan, tim, ruột non**. Chọn bộ còn tươi, mề chắc tay, gan
+          màu nâu đỏ bóng chứ không xỉn
+      - id: thitgaxe
+        name: Thịt gà luộc xé
+        icon: meat
+        base: 250
+        unit: g
+        note: >-
+          Phần ức và đùi luộc chín, xé sợi vừa ăn. Luộc con gà lấy cả thịt lẫn
+          lòng là gọn nhất
+      - id: gungla
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Đập dập thả vào nước chần lòng — khử mùi tanh hiệu quả nhất
+      - id: muoichanh
+        name: Muối hột + chanh
+        icon: lime
+        qtyText: 2 muỗng canh muối hột · 1 trái chanh
+        note: Dùng để bóp rửa lòng, không phải để nêm
+  - name: Xào lòng
+    icon: flame
+    items:
+      - id: hanhtaylg
+        name: Hành tây
+        icon: onion
+        base: 0.5
+        unit: củ
+        frac: true
+        note: Thái múi cau, xào chung ở nhịp cuối cho ngọt và thơm
+      - id: hanhtimlg
+        name: Hành tím + tỏi
+        icon: garlic
+        qtyText: 4 củ hành tím · 3 tép tỏi
+        note: Băm nhuyễn, phi thơm trước khi cho lòng vào
+      - id: mamuoplg
+        name: Nước mắm + tiêu ướp lòng
+        icon: bottle
+        qtyText: 1 muỗng canh nước mắm · ½ muỗng cà phê tiêu
+        note: Ướp 10 phút thôi — ướp lâu là lòng ra nước, xào không giòn được
+  - name: Rau & nước mắm chan
+    icon: herb
+    items:
+      - id: rauramlg
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: >-
+          **Thứ không thay được** của món này — vị cay ấm hơi the, hợp với lòng
+          gà hơn mọi loại rau thơm khác
+      - id: hanhlalg
+        name: Hành lá + hành phi
+        icon: onion
+        qtyText: 1 nắm hành lá · 3 muỗng canh hành phi
+        note: Hành lá thái nhỏ rắc lúc trộn; hành phi rắc sau cùng cho giòn
+      - id: mamchan
+        name: Nước mắm + đường
+        icon: bottle
+        qtyText: 3½ muỗng canh nước mắm · 2 muỗng canh đường
+        note: >-
+          Pha loãng với 150 ml nước ấm — chan cả tô nên phải **dịu hơn nước
+          chấm** thường
+      - id: chanhtoiotlg
+        name: Chanh + tỏi ớt băm
+        icon: chili
+        color: red
+        qtyText: ½ trái chanh · 2 tép tỏi · 1–2 trái ớt
+        note: Cho vào lúc nước mắm đã nguội
+      - id: tieulg
+        name: Tiêu xay
+        icon: pepper
+        qtyText: Rắc thoải mái
+        note: >-
+          Rắc nhiều hơn mình tưởng — tiêu là thứ làm tô bánh ấm bụng giữa buổi
+          sáng lạnh
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **tô bánh ướt lòng gà**
+stepsLead: >-
+  Bốn bước đầu cứ thong thả, riêng bước xào lòng thì phải chuẩn bị sẵn hết mọi
+  thứ bên cạnh bếp rồi mới bật lửa — nó chỉ kéo dài chừng hai ba phút.
+steps:
+  - title: Làm sạch bộ lòng — kỹ chứ đừng vội
+    icon: knife
+    minutes: 15 phút
+    intro: "Lòng sạch hay không quyết định tô bánh thơm hay tanh:"
+    bullets:
+      - label: "Ruột non:"
+        text: >-
+          lộn trái, **tuốt sạch bằng sống dao** rồi bóp với muối hột và nước cốt
+          chanh, rửa lại 3–4 nước tới khi hết nhớt và nước rửa trong.
+      - label: "Mề gà:"
+        text: >-
+          bổ đôi, **lột bỏ lớp màng vàng cứng bên trong** (chỗ này để lại là
+          đắng), cạo sạch, bóp muối rồi rửa.
+      - label: "Gan và tim:"
+        text: >-
+          gan cắt bỏ phần gân trắng, ngâm nước muối loãng **10 phút**; tim bổ
+          đôi, nặn bỏ máu đông bên trong.
+      - label: "Chần sơ:"
+        text: >-
+          bắc nồi nước sôi thả **gừng đập dập**, cho hết lòng vào chần **đúng 1
+          phút**, vớt ra **ngâm ngay nước lạnh**. Lòng săn lại, giòn hơn, và
+          hết hẳn mùi.
+    callout:
+      type: warn
+      text: >-
+        Lớp màng vàng trong mề gà là chỗ nhiều người bỏ sót. Nó dai và **đắng
+        gắt**, chỉ một mảnh sót lại là cả tô bánh có vị lạ mà không biết tại
+        đâu.
+    timer:
+      secs: 60
+      label: Hẹn giờ chần lòng · 01:00
+      doneMsg: Vớt lòng ra ngâm nước lạnh liền cho giòn!
+  - title: Thái & ướp — mỗi thứ một cỡ
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - label: "Thái theo độ dai:"
+        text: >-
+          **mề thái lát mỏng** (dai nhất, thái mỏng cho nhanh chín), **tim bổ
+          đôi**, **gan thái miếng dày cỡ 1 cm**, **ruột non cắt khúc 3 cm**.
+      - label: "Ướp:"
+        text: >-
+          xóc đều với hành tím tỏi băm, [[1|muỗng canh]] nước mắm, ½ muỗng cà
+          phê tiêu. **Ướp đúng 10 phút** — lâu hơn là lòng ra nước, xào không
+          giòn nổi.
+      - label: "Để riêng từng thứ:"
+        text: >-
+          quan trọng: **để mề, tim, gan, ruột non ra bốn chén riêng**. Lát nữa
+          cho vào chảo theo thứ tự, không đổ chung một lượt.
+  - title: Pha nước mắm & trộn gà xé
+    icon: bottle
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Hòa [[2|muỗng canh]] đường vào [[150|ml]] nước ấm cho tan, thêm
+          [[3|muỗng canh|frac]] nước mắm. Để nguội rồi mới vắt chanh và thả tỏi
+          ớt băm.
+      - text: >-
+          Nếm phải **mặn ngọt rõ, chua nhẹ, loãng** — vì chan cả tô chứ không
+          phải chấm.
+      - text: >-
+          Thịt gà xé sợi, trộn với **một nửa chỗ rau răm thái nhỏ** và chút
+          tiêu. Nửa rau răm còn lại để rắc mặt tô.
+  - title: Xào lòng — hai ba phút, đứng canh
+    icon: flame
+    minutes: 5 phút
+    intro: >-
+      Bày sẵn bốn chén lòng, chén hành tây, muỗng nước mắm ngay cạnh bếp rồi mới
+      bật lửa. Từ lúc này trở đi không kịp đi lấy gì nữa:
+    bullets:
+      - label: "Chảo thật nóng:"
+        text: >-
+          bắc chảo lửa lớn, cho dầu, phi thơm chỗ hành tỏi băm còn lại. Chảo
+          phải **nóng tới mức thả miếng lòng vào nghe xèo mạnh**.
+      - label: "Mề trước:"
+        text: >-
+          trút mề vào đảo nhanh **khoảng 1 phút** — mề dai nhất nên cần nhiều
+          thời gian nhất.
+      - label: "Tim, rồi ruột non:"
+        text: >-
+          cho tim vào đảo **30 giây**, tiếp ruột non đảo **30 giây** nữa.
+      - label: "Gan và hành tây sau cùng:"
+        text: >-
+          cho gan và hành tây vào, đảo **30 giây**, nêm lại chút nước mắm rồi
+          **tắt bếp ngay**. Gan chín rất nhanh và nát rất nhanh.
+      - label: "Nhìn là biết:"
+        text: >-
+          mề **cong mép**, gan **vừa hết màu đỏ ở giữa**, hành tây còn hơi
+          trong là đạt. Cả mẻ gói gọn trong **2–3 phút**.
+    callout:
+      type: warn
+      text: >-
+        Đây là chỗ hỏng nhiều nhất. Lòng xào quá tay **dai như cao su và ra
+        nước**, chảo từ xào thành luộc. Thà nhấc xuống sớm mươi giây — nhiệt còn
+        lại trong chảo vẫn nấu chín tiếp.
+    timer:
+      secs: 180
+      label: Hẹn giờ xào lòng · 03:00
+      doneMsg: Mề cong mép, gan vừa hết đỏ — tắt bếp ngay!
+  - title: Múc tô & chan
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Bánh ướt cắt miếng vừa gắp, cho vào **tô sâu hoặc dĩa lòng sâu** —
+          đúng kiểu phố núi, để giữ hơi ấm và chứa được nước mắm.
+      - text: >-
+          Xếp **gà xé trộn rau răm** lên trước, rồi trút **lòng xào còn nóng**
+          phủ lên trên cùng.
+      - text: >-
+          Rắc hành phi, hành lá, phần rau răm còn lại, và **rắc tiêu rộng
+          tay**. Chan 2–3 muỗng nước mắm quanh tô rồi trộn nhẹ, ăn liền khi còn
+          ấm.
+    callout:
+      type: tip
+      text: >-
+        Trộn từ dưới lên chứ đừng khuấy vòng tròn — lá bánh ướt mềm, khuấy mạnh
+        là nát thành hồ. Xới nhẹ vài nhịp cho nước mắm thấm đều là đủ.
+    doneText: Tô bánh ướt lòng gà bốc khói — xong!
+
+tipsTitle: 6 bí quyết **lòng giòn, tô bánh thơm**
+tipsLead: >-
+  Món này chỉ có hai chỗ phải cẩn thận: khâu làm sạch và khâu xào. Sáu điều
+  dưới đây chia đều cho hai chỗ đó.
+tips:
+  - icon: alert
+    title: Lột màng vàng trong mề
+    text: >-
+      Lớp màng cứng màu vàng bên trong mề gà vừa dai vừa **đắng gắt**. Bổ đôi
+      mề, lột bỏ hẳn lớp đó rồi mới rửa — sót một mảnh là cả tô có vị lạ.
+  - icon: ginger
+    title: Chần với gừng, rồi ngâm nước lạnh
+    text: >-
+      Một phút nước sôi có gừng làm lòng **săn, giòn và sạch mùi**; ngâm nước
+      lạnh ngay sau đó khóa lại độ giòn. Bỏ bước này thì xào ra lòng mềm và còn
+      mùi.
+  - icon: knife
+    title: Bốn chén riêng, cho vào theo thứ tự
+    text: >-
+      **Mề → tim → ruột non → gan.** Đổ chung một lượt thì hoặc mề còn sượng
+      hoặc gan đã nát. Đây là toàn bộ nghề của món.
+  - icon: flame
+    title: Chảo phải nóng già trước khi thả lòng
+    text: >-
+      Chảo chưa đủ nóng thì lòng **ra nước và luộc trong nước của chính nó**,
+      mất hết độ giòn. Thả miếng đầu tiên phải nghe xèo mạnh mới đúng.
+  - icon: clock
+    title: Ướp đúng mười phút
+    text: >-
+      Ướp lâu cho "thấm" là sai với món này: muối kéo nước ra khỏi miếng lòng,
+      xào lên vừa dai vừa nhạt. Mười phút là đủ, và nêm lại lúc gần tắt bếp.
+  - icon: herb
+    title: Rau răm chia làm hai lượt
+    text: >-
+      Một nửa trộn với gà xé cho ngấm, một nửa rắc lên mặt lúc dọn để giữ mùi
+      tươi. Rắc hết một lượt lúc đầu thì tới lúc ăn mùi đã bay gần hết.
+
+serve:
+  title: Dọn tô **kiểu sáng phố núi**
+  paras:
+    - >-
+      Món này ăn **bằng muỗng, trong tô sâu**, chứ không gắp từng miếng như dĩa
+      bánh ướt miền xuôi. Nước mắm chan xâm xấp đáy tô, mỗi muỗng xúc lên có đủ
+      lá bánh, gà xé, miếng lòng và nhúm rau răm.
+    - >-
+      Buổi sáng lạnh thì rắc tiêu rộng tay hơn thường ngày, và dọn kèm **chén
+      ớt xanh dầm nước mắm** cho ai ăn cay. Uống ly trà nóng là đủ ấm cả buổi
+      sáng.
+    - >-
+      Luộc con gà cho món này thì đừng bỏ nước luộc — để dành nấu **cháo gà**
+      hay **miến gà** là ra thêm một bữa nữa. Còn nếu thích lá bánh ướt kiểu
+      dĩa trộn thì qua **bánh ướt chả lụa** miền Nam, hay **bánh ướt tôm chấy**
+      kiểu Huế.
+  aside:
+    title: Trong tô bánh phố núi
+    intro: "Bốn thứ làm nên tô bánh này:"
+    items:
+      - icon: meat
+        text: "**Lòng gà xào giòn** — mề sần sật, gan bùi, ruột non tanh tách."
+      - icon: herb
+        text: "**Rau răm** — cay ấm, chia hai lượt, không thay bằng rau khác."
+      - icon: pepper
+        text: "**Tiêu rắc rộng tay** — thứ làm tô bánh ấm bụng buổi sáng lạnh."
+      - icon: bottle
+        text: "**Nước mắm chan loãng** — xâm xấp đáy tô, không phải chén chấm."
+
+faq:
+  - q: Không thích ăn lòng thì làm sao?
+    a: >-
+      Bỏ hẳn phần lòng, tăng **thịt gà xé lên [[500|g]]** là ra một tô bánh ướt
+      gà xé rất ngon, vẫn giữ nguyên rau răm, hành phi, tiêu và nước mắm chan.
+      Chỉ mất phần sần sật, còn lại đủ cả.
+  - q: Bộ lòng mua ở đâu, chọn thế nào?
+    a: >-
+      Hàng gà nào ngoài chợ cũng có bán riêng bộ lòng. Chọn **mề chắc tay, mặt
+      ngoài hồng nhạt**; **gan nâu đỏ bóng, không xỉn hay bở**; **ruột non
+      trắng ngà, không nhớt vàng**. Mua buổi sáng sớm là tươi nhất.
+  - q: Sao lòng xào ra nước, thành luộc?
+    a: >-
+      Ba nguyên nhân, theo thứ tự hay gặp: **chảo chưa đủ nóng** → **đổ hết vào
+      cùng lúc** (chảo tụt nhiệt) → **ướp quá lâu** nên lòng đã ngậm muối và
+      nhả nước. Chảo nóng già, chia đợt, ướp mười phút là hết.
+  - q: Dùng bánh ướt mua sẵn được không?
+    a: >-
+      Được, và tiện hơn nhiều. Mua bịch **còn ấm, lá rời nhau**, về **hấp lại
+      3–4 phút** hoặc trụng nhanh qua nước sôi cho mềm mướt rồi cắt miếng. Muốn
+      tự tráng thì xem phần bột và cách tráng ở bài **bánh ướt chả lụa**.
+  - q: Món này khác bánh ướt miền Nam chỗ nào?
+    a: >-
+      Khác cả thứ phủ lẫn cách dọn. Miền Nam dọn **dĩa phẳng**, phủ chả lụa
+      thái sợi và giá trụng, chan mắm chua ngọt, ăn nguội bớt. Phố núi dọn **tô
+      sâu**, phủ lòng gà xào nóng và gà xé, nặng tiêu và rau răm, ăn lúc còn
+      ấm cho hợp trời lạnh.
+  - q: Làm trước được phần nào?
+    a: >-
+      Làm sạch lòng, chần sơ, thái và để riêng bốn chén — **tất cả làm được từ
+      tối hôm trước**, cất ngăn mát. Thịt gà cũng luộc trước được. Sáng ra chỉ
+      còn pha nước mắm và xào lòng, đúng ba phút.
+
+ticker:
+  - icon: meat
+    text: Lòng gà xào sần sật
+  - icon: flame
+    text: Hai ba phút là tắt bếp
+  - icon: herb
+    text: Rau răm cay ấm
+  - icon: pepper
+    text: Rắc tiêu rộng tay
+  - icon: bowl
+    text: Múc tô sâu, chan xâm xấp
+  - icon: ginger
+    text: Chần gừng rồi ngâm nước lạnh

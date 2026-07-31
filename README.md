@@ -104,7 +104,7 @@ Bốn con số phải giữ, thêm món mới là dễ phá nhất:
 | món **mồ côi** (không ai trỏ tới) | 0 | món đó chỉ vào được từ `/mon/`, coi như nằm ngoài mạng liên kết |
 | hai món có **dải y hệt** nhau | 0 | đọc hai trang thấy chung một dải, tưởng trang lỗi |
 | **mảnh đồ thị** | 1 | catalog vỡ thành đảo, lang thang tới đó là hết đường |
-| mỗi dải đủ **6 ô** | 64/64 | vùng hoặc kiểu món quá mỏng, dải bị cụt |
+| mỗi dải đủ **6 ô** | 82/82 | vùng hoặc kiểu món quá mỏng, dải bị cụt |
 
 ### `npm run seo-audit` — chạy SAU build, cùng lúc với `link-audit`
 
@@ -122,7 +122,7 @@ vài tháng sau Search Console mới nhắn. Đổi slug một món, hay đụng
 > nhắc ba trường đó nhưng site **cố ý bỏ trống** — lý do từng cái ở ROADMAP phần 2,
 > mục *"Bốn cảnh báo Recipe"*. Đừng thấy cảnh báo mà thêm vào.
 
-### Thêm một KIỂU MÓN mới (vd "Bánh")
+### Thêm một KIỂU MÓN mới (vd "Bánh mì")
 
 Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:
 
@@ -139,6 +139,11 @@ Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng â
 
 > Bảng này từng ghi **bảy** chỗ — thiếu `art-png.mjs`, thêm vào từ đợt 9 mà quên
 > cập nhật. Đợt nào mở kiểu món cũng **kiểm lại từng dòng**, đừng suy từ đợt trước.
+>
+> Đợt 12 mở **"Bánh mì"** và là đợt đầu tiên phải sửa **đủ cả 8/8 chỗ** — đợt 7
+> chỉ 4/8, đợt 8 và 9 chỉ 3/8. Lý do: kiểu món mới này vừa cần chip lọc riêng,
+> vừa phải xếp vào họ màu, vừa có món chưa gắn art. Càng thấy rõ là **đừng suy
+> từ đợt trước**.
 
 Thêm **hình vẽ riêng** cho món: `Art<Ten>.astro` + một dòng trong bảng
 `ART_COMPONENT` (`src/utils/art.ts`) + giá trị mới trong enum `art`
@@ -195,7 +200,7 @@ Từ đợt 10, hình **không** nhúng thẳng vào trang nữa. Endpoint
 `src/pages/art/[kind].svg.ts` xuất mỗi hình ra `/art/<kind>.svg` lúc build, còn
 thẻ món gọi bằng `<img loading="lazy">` (`art/ArtImg.astro`). Kết quả: `/mon/`
 từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**
-(nay là **24,1 KB**, sau khi bỏ `summary` khỏi chỉ mục tìm kiếm);
+(nay là **~28,4 KB** ở 82 món — ước từ số cục bộ ×1,02);
 ba trang (`/mon/`, trang chủ, trang chi tiết) dùng chung một file đã cache.
 
 Ba ràng buộc mới với file art, `npm run qa` chặn cả ba:

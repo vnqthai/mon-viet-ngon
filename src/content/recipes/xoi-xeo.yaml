@@ -1,0 +1,403 @@
+title: Xôi xéo **hạt vàng ươm, phủ lát đậu xanh mỏng như giấy**
+summary: >-
+  Gói xôi quà sáng của Hà Nội: hạt nếp vàng ươm bóng mỡ gà, trên mặt phủ **lát
+  đậu xanh xắt mỏng như giấy**, rắc hành phi giòn tan. Cái tên "xéo" nói đúng
+  cái nghề của nó — nghề đưa dao xéo qua nắm đậu.
+region: Miền Bắc
+category: Cơm
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 15 phút (+ ngâm nếp 8 giờ)
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 76
+art: xoi-xeo
+heroEyebrow: Gói lá chuối nóng trên tay, sáng Hà Nội…
+
+quick:
+  ingredients:
+    - >-
+      Nếp cái hoa vàng [[500|g]] — ngâm **6–8 giờ** với [[1|muỗng cà phê]] muối
+      và [[1|muỗng cà phê]] bột nghệ
+    - Đậu xanh cà vỏ [[200|g]] — ngâm [[4|giờ]], đồ chín rồi giã nhuyễn
+    - Hành tím [[8|củ]] thái lát mỏng · mỡ gà [[80|g]] (hoặc dầu ăn)
+    - Muối, đường để nêm đậu và nêm xôi
+  steps:
+    - >-
+      Ngâm nếp với muối và bột nghệ **6–8 giờ**, vo lại nhẹ tay rồi để **thật
+      ráo** — nếp còn ướt là xôi nhão.
+    - >-
+      Đồ đậu xanh chín bở, **giã nhuyễn khi còn nóng** với chút mỡ gà và muối,
+      nắm thật chặt thành nắm tròn.
+    - >-
+      Phi hành tím trong mỡ gà cho vàng, vớt ra giấy thấm; **giữ lại phần mỡ đã
+      phi**.
+    - >-
+      Đồ xôi trong chõ **30–40 phút**, giữa chừng mở ra xới tơi và rưới mỡ gà,
+      đậy lại đồ tiếp.
+    - >-
+      Xới xôi ra dĩa, **cầm dao xéo qua nắm đậu** thành lát mỏng phủ kín mặt
+      xôi.
+    - Rưới mỡ gà, rắc hành phi vàng ruộm — ăn ngay lúc còn nóng hổi.
+  warning: >-
+    Nếp vo xong không để ráo mà đổ thẳng vào chõ là xôi **bết thành mảng**, hạt
+    dính vào nhau. Để rổ ráo tối thiểu 15 phút, xóc vài lần cho róc nước.
+
+flavor:
+  chua: 0
+  ngot: 3
+  man: 4
+  cay: 0.5
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn vị:** hạt nếp **dẻo mà rời ra từng hạt**, bóng mỡ chứ không ướt; lát
+  đậu bùi mịn tan trong miệng; hành phi giòn rụm thơm nức. Xôi bết thành mảng
+  hay khô cứng đều là trật nhịp đồ.
+
+storyEyebrow: Chuyện gói xôi
+storyTitle: Cái tên **nói đúng cái nghề** của người bán xôi
+story:
+  - >-
+    "Xéo" ở đây là **một động tác, không phải một vị**. Người bán xôi nắm đậu
+    xanh đã đồ chín thành nắm tròn chắc tay, rồi cầm con dao mỏng **đưa xéo qua
+    mặt nắm** — mỗi nhát ra một lát đậu vàng mỏng như tờ giấy, rải phủ kín mặt
+    bát xôi. Cái tên món sinh ra từ đúng nhát dao đó.
+  - >-
+    Cũng vì vậy mà xôi xéo khác **xôi vò** — món kia đậu xanh giã nhuyễn rồi vò
+    cho tơi ra, bám thành từng hạt rời quanh hạt nếp. Cùng nếp, cùng đậu xanh,
+    mà một bên là **lát phủ**, một bên là **hạt bám**; ăn vào khác hẳn nhau.
+  - >-
+    Còn thứ giữ cho gói xôi Hà Nội thơm nức thì chỉ có một: **mỡ gà**. Hành tím
+    phi trong mỡ gà, đậu giã cùng mỡ gà, xôi đồ giữa chừng rưới mỡ gà — cùng
+    một chảo mỡ đi qua ba lần. Thay bằng dầu ăn thì gói xôi vẫn ngon, chỉ là
+    thiếu đúng cái mùi làm người ta nhớ hàng xôi đầu ngõ.
+
+ingredientGroups:
+  - name: Nếp & đậu
+    icon: rice
+    items:
+      - id: nepxx
+        name: Nếp cái hoa vàng
+        icon: rice
+        color: gold
+        base: 500
+        unit: g
+        note: >-
+          Hạt tròn mẩy, trắng đục đều. Thiếu thì dùng nếp thường cũng được, chỉ
+          kém dẻo thơm hơn một bậc
+      - id: dauxanh
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 200
+        unit: g
+        note: >-
+          Loại đã xát vỏ, màu vàng. Ngâm 4 giờ cho nở mềm mới đồ nhanh chín và
+          bở đều
+      - id: botnghe
+        name: Bột nghệ
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng cà phê
+        note: >-
+          Ngâm cùng nếp để hạt lên màu vàng từ trong ra. Nghệ tươi giã vắt lấy
+          nước cũng được, màu đằm hơn
+      - id: muoingam
+        name: Muối
+        icon: jar
+        base: 1
+        unit: muỗng cà phê
+        note: Cho vào nước ngâm nếp — muối làm hạt xôi đậm ngầm, ăn không nhạt miệng
+  - name: Mỡ gà & hành phi
+    icon: onion
+    items:
+      - id: mogaxx
+        name: Mỡ gà
+        icon: drop
+        color: gold
+        base: 80
+        unit: g
+        note: >-
+          Mua ở hàng gà hoặc gỡ từ con gà nhà làm, thắng ra lấy mỡ nước. **Đây
+          là thứ làm nên mùi xôi xéo**; hết cách thì thay dầu ăn
+      - id: hanhtimxx
+        name: Hành tím
+        icon: onion
+        base: 8
+        unit: củ
+        note: Thái lát mỏng đều tay — lát dày mỏng lẫn lộn thì chỗ cháy chỗ còn sống
+      - id: giavixx
+        name: Muối · đường nêm đậu
+        icon: spoon
+        qtyText: ½ muỗng cà phê muối · 1 muỗng cà phê đường
+        note: Nêm vào đậu lúc giã, khi đậu còn nóng thì mới ngấm đều
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa xôi xéo vàng ươm**
+stepsLead: >-
+  Nhịp khôn nhất: tối trước khi ngủ ngâm nếp và đậu, sáng dậy đồ đậu và phi
+  hành trong lúc chõ xôi đang lên hơi. Cả ba việc chạy song song thì bốn mươi
+  lăm phút là có xôi nóng.
+steps:
+  - title: Ngâm nếp, ngâm đậu — làm từ tối hôm trước
+    icon: rice
+    minutes: 15 phút (+ ngâm 8 giờ)
+    bullets:
+      - label: "Ngâm nếp:"
+        text: >-
+          vo nếp qua 2–3 nước cho trong, đổ nước ngập, cho
+          [[1|muỗng cà phê]] muối và [[1|muỗng cà phê]] bột nghệ, khuấy đều.
+          Ngâm **6–8 giờ** hoặc qua đêm.
+      - label: "Ngâm đậu:"
+        text: >-
+          đậu xanh cà vỏ vo sạch, ngâm riêng **4 giờ**. Ngâm lâu hơn nữa thì đậu
+          dễ chua — mùa nóng thì để ngăn mát.
+      - label: "Để thật ráo:"
+        text: >-
+          hết giờ ngâm, đổ nếp ra rổ, **xóc vài lần rồi để ráo ít nhất 15
+          phút**. Đưa tay vào thấy hạt rời, không dính nước là được.
+    callout:
+      type: warn
+      text: >-
+        Ráo nước là chuyện sống còn của mọi món đồ xôi. Nếp còn ngậm nước mà bỏ
+        vào chõ thì hơi nước không luồn được qua khối nếp — **ngoài nhão, trong
+        sống**, đảo kiểu gì cũng không cứu.
+  - title: Đồ đậu xanh & nắm nắm đậu
+    icon: pod
+    minutes: 25 phút
+    intro: "Nắm đậu là thứ quyết định lát đậu xắt ra đẹp hay vụn:"
+    bullets:
+      - label: "Đồ đậu:"
+        text: >-
+          đậu để ráo, rắc chút muối, cho vào xửng **hấp 20 phút** tới khi bấm
+          hạt đậu là nát bở.
+      - label: "Giã lúc còn nóng:"
+        text: >-
+          trút đậu vào cối, thêm [[1|muỗng canh]] mỡ gà và chút đường, **giã
+          nhuyễn ngay khi còn bốc hơi** — để nguội rồi giã thì đậu khô, lợn cợn,
+          không kết thành khối.
+      - label: "Nắm chặt tay:"
+        text: >-
+          lấy khăn sạch hoặc màng bọc, gói đậu lại và **nắm thật chặt** thành
+          nắm tròn cỡ nắm tay. Nắm càng chắc thì lát xắt ra càng mịn và liền.
+    callout:
+      type: tip
+      text: >-
+        Không có cối thì cho đậu nóng vào tô, dùng đáy chén hoặc muỗng inox
+        **miết mạnh vòng tròn** — cũng ra khối mịn, chỉ tốn sức tay hơn một
+        chút.
+    timer:
+      secs: 1200
+      label: Hẹn giờ hấp đậu · 20:00
+      doneMsg: Bấm thử hạt đậu — nát bở là trút ra cối giã liền!
+  - title: Phi hành trong mỡ gà
+    icon: onion
+    minutes: 12 phút
+    bullets:
+      - label: "Thắng mỡ:"
+        text: >-
+          mỡ gà thái nhỏ, cho vào chảo lửa nhỏ, đun tới khi ra hết nước mỡ, vớt
+          bỏ tóp.
+      - label: "Phi hành:"
+        text: >-
+          thả hành tím thái lát vào **lúc mỡ còn ấm chứ chưa nóng già**, lửa
+          vừa, đảo đều tay. Mỡ nóng lên từ từ thì hành vàng đều, không cháy góc.
+      - label: "Vớt đúng lúc:"
+        text: >-
+          hành **vừa chớm vàng nhạt là vớt ra** giấy thấm, tãi mỏng — nhiệt còn
+          lại trong hành sẽ đẩy thêm một tông thành vàng ruộm.
+      - label: "Giữ mỡ:"
+        text: >-
+          phần mỡ đã phi hành **giữ nguyên trong chảo**, lát nữa rưới vào xôi và
+          rưới lên mặt dĩa. Đó là chỗ thơm nhất của cả món.
+    callout:
+      type: warn
+      text: >-
+        Đợi hành vàng ruộm trong chảo mới vớt là ra ngoài **nâu đen và đắng**.
+        Cả gói xôi đang thơm mà dính nhúm hành đắng là hỏng cả miếng.
+  - title: Đồ xôi — hai lượt, có xới giữa chừng
+    icon: pot
+    minutes: 40 phút
+    intro: >-
+      Xôi ngon là xôi được đồ hai lượt với một lần xới ở giữa, không phải đồ
+      liền một mạch:
+    bullets:
+      - label: "Lượt một:"
+        text: >-
+          nước trong nồi sôi mạnh rồi mới đặt chõ lên. Dàn nếp **tơi và đều**,
+          khoét một lỗ giữa cho hơi thoát lên. Đậy nắp, đồ **20 phút** lửa vừa.
+      - label: "Xới giữa chừng:"
+        text: >-
+          mở nắp, **rưới 2–3 muỗng canh mỡ gà** và xới đảo thật tơi từ đáy lên.
+          Bước này vừa cho mỡ ngấm đều vừa đưa phần nếp dưới đáy lên trên.
+      - label: "Lượt hai:"
+        text: >-
+          đậy lại đồ thêm **15–20 phút**. Xôi chín là **miết hạt giữa hai ngón
+          thấy dẻo mịn, không còn nhân trắng đục** ở lõi.
+      - label: "Lau nắp:"
+        text: >-
+          mỗi lần mở nắp nhớ **lau khô mặt trong của nắp** hoặc phủ khăn xô dưới
+          nắp — nước đọng nhỏ xuống là xôi rỗ mặt và nhão từng chỗ.
+    callout:
+      type: tip
+      text: >-
+        Không có chõ thì nấu bằng **nồi cơm điện**: nếp đã ráo cho vào nồi, châm
+        nước **xâm xấp ngang mặt nếp** thôi (ít hơn nấu cơm nhiều), bấm nút; nút
+        nhảy thì rưới mỡ gà, xới tơi, ủ thêm 10 phút. Hạt hơi kém rời hơn đồ chõ
+        nhưng vẫn ngon.
+    timer:
+      secs: 1200
+      label: Hẹn giờ đồ lượt một · 20:00
+      doneMsg: Mở nắp, rưới mỡ gà, xới tơi rồi đồ tiếp lượt hai!
+  - title: Xéo đậu — nhát dao làm nên tên món
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - label: "Xới xôi:"
+        text: >-
+          xới xôi nóng ra dĩa hoặc lá chuối, **vun nhẹ thành gò**, đừng nén
+          xuống — nén là hạt bết lại.
+      - label: "Xéo đậu:"
+        text: >-
+          cầm nắm đậu trên tay trái, tay phải cầm dao mỏng **đưa xéo qua mặt
+          nắm**, lấy từng lát thật mỏng. Lát rơi xuống tới đâu rải phủ mặt xôi
+          tới đó.
+      - label: "Hoàn thiện:"
+        text: >-
+          rưới **mỡ gà đã phi hành** khắp mặt, rắc hành phi vàng ruộm. Thích
+          đậm thì rắc thêm chút muối vừng hoặc chút ruốc.
+      - text: >-
+          Ăn ngay lúc còn nóng. Gói lá chuối thì đặt xôi vào, phủ đậu, rưới mỡ,
+          rắc hành rồi mới gói — gói xong xôi vẫn nóng cả tiếng.
+    callout:
+      type: tip
+      text: >-
+        Dao nhúng qua nước nóng rồi lau khô thì lát đậu **tróc ra ngọt xớt**,
+        không bị dính lưỡi dao và vụn ra.
+    doneText: Dĩa xôi xéo vàng ươm, thơm mỡ hành — xong!
+
+tipsTitle: 7 bí quyết **xôi dẻo hạt rời, lát đậu mịn**
+tipsLead: >-
+  Xôi hỏng thì chỉ hỏng theo hai kiểu: bết nhão hoặc khô cứng. Cả hai đều quyết
+  định từ trước lúc chõ lên bếp.
+tips:
+  - icon: drop
+    title: Ráo nước rồi mới cho vào chõ
+    text: >-
+      Nếp vo xong phải để rổ **ít nhất 15 phút**, xóc vài lần. Còn ngậm nước là
+      hơi không luồn qua được khối nếp — ngoài nhão trong sống, không mẹo nào
+      cứu.
+  - icon: pot
+    title: Nước sôi mạnh rồi mới đặt chõ
+    text: >-
+      Đặt chõ lên lúc nước còn ấm thì nếp bị hấp bằng hơi yếu, hạt chín chậm và
+      bở. Hơi phải bốc mạnh ngay từ giây đầu.
+  - icon: spoon
+    title: Xới giữa chừng, đừng đồ liền một mạch
+    text: >-
+      Nếp dưới đáy chõ luôn chín trước. Mở nắp ở phút 20, rưới mỡ và **xới tơi
+      từ đáy lên** là cả chõ chín đều — đây là chỗ khác nhau giữa xôi hàng và
+      xôi nhà.
+  - icon: bulb
+    title: Lau nắp mỗi lần mở
+    text: >-
+      Nước đọng trên nắp nhỏ xuống làm mặt xôi **rỗ và nhão từng đám**. Phủ một
+      lớp khăn xô dưới nắp là xong chuyện, không phải nhớ nữa.
+  - icon: pod
+    title: Giã đậu khi còn bốc hơi
+    text: >-
+      Đậu nguội rồi giã thì khô, lợn cợn, nắm không dính — xắt ra vụn thành
+      mảnh. Giã lúc còn nóng thì khối đậu **mịn như bột**, nắm chắc, xắt lát
+      nào ra lát nấy.
+  - icon: onion
+    title: Vàng nhạt là vớt hành
+    text: >-
+      Nhiệt dư đẩy màu thêm một tông sau khi vớt. Chờ vàng ruộm trong chảo mới
+      vớt là **nâu đắng**, mà nhúm hành đắng thì hỏng cả gói xôi thơm.
+  - icon: flame
+    title: Mỡ gà đi qua ba lần
+    text: >-
+      Phi hành, giã đậu, rưới xôi — cùng một chảo mỡ gà. Đó là toàn bộ bí mật
+      mùi thơm của hàng xôi Hà Nội. Dùng dầu ăn vẫn ngon, chỉ là **thiếu đúng
+      cái mùi** người ta nhớ.
+
+serve:
+  title: Dọn gói xôi **kiểu hàng xôi đầu ngõ**
+  paras:
+    - >-
+      Xôi xéo đúng điệu là **gói lá chuối** rồi cầm tay ăn, không cần chén đũa.
+      Lá chuối hơ qua lửa cho mềm, đặt xôi vào, phủ lát đậu, rưới mỡ, rắc hành
+      rồi gói lại — hơi nóng ủ trong lá làm gói xôi thơm thêm một tầng nữa.
+    - >-
+      Muốn no bụng hơn thì kẹp thêm **chả lụa, ruốc, hoặc miếng thịt kho** —
+      hàng xôi nào cũng có mấy thứ đó bày sẵn để khách chọn. Ăn kèm ly trà nóng
+      hoặc sữa đậu nành là bữa sáng trọn vẹn.
+    - >-
+      Cùng một mẻ nếp mà muốn đổi món thì làm **xôi mặn kiểu Sài Gòn** — vẫn hạt
+      nếp đó nhưng phủ lạp xưởng, chà bông, trứng cút. Hai gói xôi hai đầu đất
+      nước, đặt cạnh nhau mới thấy cùng một hạt nếp mà nghĩ ra được hai món khác
+      hẳn.
+  aside:
+    title: Trong gói xôi xéo
+    intro: "Đủ bốn thứ này là đúng gói xôi Hà Nội:"
+    items:
+      - icon: rice
+        text: "**Nếp vàng nghệ** — dẻo mà rời hạt, bóng mỡ chứ không ướt."
+      - icon: pod
+        text: "**Lát đậu xanh xắt mỏng** — bùi mịn, phủ kín mặt xôi."
+      - icon: onion
+        text: "**Hành phi vàng ruộm** — giòn tan, rắc lúc cuối cùng."
+      - icon: drop
+        text: "**Mỡ gà rưới mặt** — thứ giữ mùi, thay dầu thì mất chất."
+
+faq:
+  - q: Không có mỡ gà thì thay bằng gì?
+    a: >-
+      Dầu ăn thường là được, xôi vẫn dẻo bóng. Chỉ là **mất cái mùi đặc trưng**
+      — mỡ gà thơm ngậy kiểu rất riêng mà dầu thực vật không thay được. Gần
+      nhất thì lấy **mỡ lợn** thắng ra, hoặc mua da gà về rán lấy mỡ.
+  - q: Nấu bằng nồi cơm điện có ra xôi không?
+    a: >-
+      Ra, và nhiều nhà làm vậy cho tiện. Nếp đã ngâm và để ráo, cho vào nồi,
+      châm nước **chỉ xâm xấp ngang mặt nếp** (ít hơn nấu cơm nhiều). Nút nhảy
+      thì rưới mỡ gà, xới tơi, đậy ủ thêm 10 phút. Hạt kém rời hơn đồ chõ nhưng
+      chênh không nhiều.
+  - q: Xôi xéo khác xôi vò chỗ nào?
+    a: >-
+      Cùng nếp cùng đậu xanh, khác ở **cách đưa đậu vào**. Xôi xéo thì nắm đậu
+      lại rồi **xắt lát mỏng phủ lên mặt**. Xôi vò thì giã đậu rồi **vò cho tơi
+      ra thành hạt**, trộn lẫn vào nếp nên hạt xôi nào cũng khoác một lớp đậu.
+  - q: Bột nghệ có làm xôi bị đắng không?
+    a: >-
+      [[1|muỗng cà phê]] cho [[500|g]] nếp thì chỉ đủ lên màu, không nghe vị.
+      Cho nhiều hơn mới bắt đầu hăng và hơi đắng hậu. Muốn màu đằm và thơm hơn
+      thì dùng **nghệ tươi giã vắt lấy nước** rồi ngâm nếp bằng nước đó.
+  - q: Xôi nguội rồi hâm sao cho dẻo lại?
+    a: >-
+      **Hấp lại 5–7 phút** là gần như mới. Quay vi sóng thì phải vẩy chút nước
+      và đậy khăn ẩm, chừng 1 phút. Nhưng hành phi thì đừng hâm chung — để riêng,
+      rắc lúc dọn ra mới còn giòn.
+  - q: Ngâm nếp qua đêm có bị chua không?
+    a: >-
+      Mùa mát thì để ngoài 8 giờ không sao. **Mùa nóng thì ngâm trong ngăn
+      mát** — nếp ngâm lâu ở nhiệt độ phòng sẽ lên men nhẹ, đồ ra xôi có mùi
+      chua thoảng. Ngửi thấy chua thì vo lại thật kỹ nhiều nước, cứu được phần
+      nào.
+
+ticker:
+  - icon: rice
+    text: Hạt nếp vàng ươm bóng mỡ
+  - icon: knife
+    text: Nhát dao xéo qua nắm đậu
+  - icon: pod
+    text: Lát đậu mỏng như giấy
+  - icon: onion
+    text: Hành phi vàng ruộm
+  - icon: drop
+    text: Mỡ gà đi qua ba lần
+  - icon: flame
+    text: Đồ hai lượt, xới giữa chừng

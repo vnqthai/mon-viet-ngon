@@ -1,0 +1,177 @@
+---
+/* Cá thu sốt cà chua — VẼ LẠI vòng 3. Vòng 1 vẽ khoanh cá nhìn thẳng → ba cái
+   ống nhòm. Vòng 2 đổi sang khối nghiêng → Thái nói "không giống miếng cá của
+   món này tí nào". Đúng: cá thu bán ra là CẮT KHOANH tròn dày 2–3 cm, nên bỏ
+   khoanh đi là mất luôn dấu nhận diện.
+   Vòng 3 quay lại đúng KHOANH CÁ, nhưng chữa cái bẫy "đọc ra khuôn mặt" bằng
+   ba việc, không phải bằng đổi màu:
+   · KHÔNG xếp hai khoanh ngang hàng ngang cỡ — mỗi khoanh một cỡ, một độ cao,
+     một góc nghiêng, và gối đè lên nhau
+   · phần dưới mỗi khoanh CHÌM trong sốt cà, nên không còn "cái cằm"
+   · lỗ xương sống vẽ thành khe chữ V sẫm lệch tâm, không phải vòng tròn có
+     chấm sáng giữa (vòng tròn + chấm giữa thì luôn ra con mắt)
+   Thêm bề DÀY của khoanh (vành cạnh thấy được) để ra khối thịt, không ra cái đĩa. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa cá thu sốt cà chua: ba khoanh cá thu dày chìm trong sốt cà đỏ, rắc thì là và hành lá">
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M206 180 C 195 156 221 140 210 114 C 203 98 217 86 213 72"/>
+    <path d="M310 176 C 300 152 326 138 315 112 C 308 96 322 84 318 70"/>
+  </g>
+  <ellipse cx="260" cy="404" rx="198" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <ellipse cx="260" cy="356" rx="202" ry="60" fill="#EDE6D4"/>
+  <ellipse cx="260" cy="348" rx="202" ry="60" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="348" rx="202" ry="60" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="352" rx="160" ry="45" fill="#F6F1E1" stroke="#DCD3BC" stroke-width="2.4"/>
+
+  <!-- SỐT CÀ: vũng đỏ dày, khoanh cá sẽ chìm một phần vào đây -->
+  <path d="M104 320 C 108 288 154 266 212 258 C 274 249 348 253 396 270 C 430 282 438 308 428 330 C 412 360 340 378 258 378 C 176 378 112 354 104 320 Z"
+        fill="#C4402A"/>
+  <path d="M124 318 C 132 292 174 274 226 267 C 282 260 344 264 384 279 C 410 289 418 310 410 326 C 394 352 328 368 258 368 C 188 368 132 348 124 318 Z"
+        fill="#D24F31"/>
+
+  <!-- ===== BA KHOANH CÁ: khác cỡ, khác độ cao, gối đè lên nhau ===== -->
+  <g transform="translate(154 292) rotate(-14) scale(0.82)">
+    <!-- KHOANH CÁ: mặt cắt gần TRÒN, khuyết khe bụng ở mép dưới -->
+    <path d="M-52 -4 C -52 -34 -30 -52 0 -52 C 30 -52 52 -34 52 -4 C 52 18 40 36 22 44
+             C 18 26 10 18 0 18 C -10 18 -18 26 -22 44 C -40 36 -52 18 -52 -4 Z"
+          fill="#EFDCBB" stroke="#2C3A44" stroke-width="3"/>
+    <!-- vành DA mỏng chạy quanh mép, sẫm xanh xám -->
+    <path d="M-52 -4 C -52 -34 -30 -52 0 -52 C 30 -52 52 -34 52 -4 C 52 18 40 36 22 44"
+          fill="none" stroke="#3E4B54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-22 44 C -40 36 -52 18 -52 -4"
+          fill="none" stroke="#3E4B54" stroke-width="6" stroke-linecap="round"/>
+    <!-- sọc lưng cá thu trên vành da -->
+    <g fill="none" stroke="#1F2A33" stroke-width="3.4" stroke-linecap="round">
+      <path d="M-28 -40 L -20 -45"/><path d="M-4 -49 L 6 -49"/><path d="M24 -42 L 32 -37"/>
+    </g>
+    <!-- thớ thịt chia bốn múi quanh xương sống -->
+    <g fill="none" stroke="#D2B489" stroke-width="2.4">
+      <path d="M-30 -28 C -22 -18 -14 -12 -6 -8"/>
+      <path d="M30 -28 C 22 -18 14 -12 6 -8"/>
+      <path d="M-24 22 C -18 14 -12 8 -5 4"/>
+      <path d="M24 22 C 18 14 12 8 5 4"/>
+      <path d="M-44 -6 C -34 -8 -22 -8 -12 -6"/>
+      <path d="M44 -6 C 34 -8 22 -8 12 -6"/>
+    </g>
+    <!-- XƯƠNG SỐNG: vệt sẫm dọc + khe chữ V, lệch lên trên tâm -->
+    <path d="M0 -30 L 0 2" fill="none" stroke="#8A6A45" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-8 -14 L 0 2 L 8 -14 Z" fill="#7A5A3C"/>
+    <!-- sốt cà bám loang trên mặt khoanh -->
+    <path d="M-34 10 C -18 22 18 22 34 10" fill="none" stroke="#C4402A" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <path d="M-26 -34 C -14 -42 14 -42 26 -34" fill="none" stroke="#C4402A" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+  </g>
+
+  <g transform="translate(346 278) rotate(12) scale(0.9)">
+    <!-- KHOANH CÁ: mặt cắt gần TRÒN, khuyết khe bụng ở mép dưới -->
+    <path d="M-52 -4 C -52 -34 -30 -52 0 -52 C 30 -52 52 -34 52 -4 C 52 18 40 36 22 44
+             C 18 26 10 18 0 18 C -10 18 -18 26 -22 44 C -40 36 -52 18 -52 -4 Z"
+          fill="#F3E3C9" stroke="#2C3A44" stroke-width="3"/>
+    <!-- vành DA mỏng chạy quanh mép, sẫm xanh xám -->
+    <path d="M-52 -4 C -52 -34 -30 -52 0 -52 C 30 -52 52 -34 52 -4 C 52 18 40 36 22 44"
+          fill="none" stroke="#3E4B54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-22 44 C -40 36 -52 18 -52 -4"
+          fill="none" stroke="#3E4B54" stroke-width="6" stroke-linecap="round"/>
+    <!-- sọc lưng cá thu trên vành da -->
+    <g fill="none" stroke="#1F2A33" stroke-width="3.4" stroke-linecap="round">
+      <path d="M-28 -40 L -20 -45"/><path d="M-4 -49 L 6 -49"/><path d="M24 -42 L 32 -37"/>
+    </g>
+    <!-- thớ thịt chia bốn múi quanh xương sống -->
+    <g fill="none" stroke="#D2B489" stroke-width="2.4">
+      <path d="M-30 -28 C -22 -18 -14 -12 -6 -8"/>
+      <path d="M30 -28 C 22 -18 14 -12 6 -8"/>
+      <path d="M-24 22 C -18 14 -12 8 -5 4"/>
+      <path d="M24 22 C 18 14 12 8 5 4"/>
+      <path d="M-44 -6 C -34 -8 -22 -8 -12 -6"/>
+      <path d="M44 -6 C 34 -8 22 -8 12 -6"/>
+    </g>
+    <!-- XƯƠNG SỐNG: vệt sẫm dọc + khe chữ V, lệch lên trên tâm -->
+    <path d="M0 -30 L 0 2" fill="none" stroke="#8A6A45" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-8 -14 L 0 2 L 8 -14 Z" fill="#7A5A3C"/>
+    <!-- sốt cà bám loang trên mặt khoanh -->
+    <path d="M-34 10 C -18 22 18 22 34 10" fill="none" stroke="#C4402A" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <path d="M-26 -34 C -14 -42 14 -42 26 -34" fill="none" stroke="#C4402A" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+  </g>
+
+  <g transform="translate(240 310) rotate(-4) scale(1.08)">
+    <!-- KHOANH CÁ: mặt cắt gần TRÒN, khuyết khe bụng ở mép dưới -->
+    <path d="M-52 -4 C -52 -34 -30 -52 0 -52 C 30 -52 52 -34 52 -4 C 52 18 40 36 22 44
+             C 18 26 10 18 0 18 C -10 18 -18 26 -22 44 C -40 36 -52 18 -52 -4 Z"
+          fill="#F6E8D2" stroke="#2C3A44" stroke-width="3.2"/>
+    <!-- vành DA mỏng chạy quanh mép, sẫm xanh xám -->
+    <path d="M-52 -4 C -52 -34 -30 -52 0 -52 C 30 -52 52 -34 52 -4 C 52 18 40 36 22 44"
+          fill="none" stroke="#3E4B54" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-22 44 C -40 36 -52 18 -52 -4"
+          fill="none" stroke="#3E4B54" stroke-width="6" stroke-linecap="round"/>
+    <!-- sọc lưng cá thu trên vành da -->
+    <g fill="none" stroke="#1F2A33" stroke-width="3.4" stroke-linecap="round">
+      <path d="M-28 -40 L -20 -45"/><path d="M-4 -49 L 6 -49"/><path d="M24 -42 L 32 -37"/>
+    </g>
+    <!-- thớ thịt chia bốn múi quanh xương sống -->
+    <g fill="none" stroke="#D2B489" stroke-width="2.4">
+      <path d="M-30 -28 C -22 -18 -14 -12 -6 -8"/>
+      <path d="M30 -28 C 22 -18 14 -12 6 -8"/>
+      <path d="M-24 22 C -18 14 -12 8 -5 4"/>
+      <path d="M24 22 C 18 14 12 8 5 4"/>
+      <path d="M-44 -6 C -34 -8 -22 -8 -12 -6"/>
+      <path d="M44 -6 C 34 -8 22 -8 12 -6"/>
+    </g>
+    <!-- XƯƠNG SỐNG: vệt sẫm dọc + khe chữ V, lệch lên trên tâm -->
+    <path d="M0 -30 L 0 2" fill="none" stroke="#8A6A45" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-8 -14 L 0 2 L 8 -14 Z" fill="#7A5A3C"/>
+    <!-- sốt cà bám loang trên mặt khoanh -->
+    <path d="M-34 10 C -18 22 18 22 34 10" fill="none" stroke="#C4402A" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <path d="M-26 -34 C -14 -42 14 -42 26 -34" fill="none" stroke="#C4402A" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+  </g>
+
+  <!-- SỐT CÀ tràn phủ chân ba khoanh (vẽ SAU cá) — cắt bỏ "cái cằm" -->
+  <path d="M110 336 C 130 320 180 312 258 312 C 336 312 386 320 408 336 C 396 360 332 374 258 374 C 184 374 122 360 110 336 Z"
+        fill="#C4402A"/>
+  <path d="M132 336 C 154 324 200 318 258 318 C 316 318 362 324 386 336 C 366 354 316 364 258 364 C 200 364 152 354 132 336 Z"
+        fill="#D24F31"/>
+  <!-- múi cà chua còn nguyên hình nổi trên sốt -->
+  <g>
+    <g transform="translate(160 340) rotate(-18)">
+      <path d="M-22 0 C -22 -12 -12 -20 0 -20 C 12 -20 22 -12 22 0 C 14 6 -14 6 -22 0 Z" fill="#E05A34" stroke="#93301E" stroke-width="2.4"/>
+      <path d="M-13 -5 C -10 -12 -2 -16 4 -15" fill="none" stroke="#F08560" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(356 342) rotate(14)">
+      <path d="M-20 0 C -20 -11 -11 -18 0 -18 C 11 -18 20 -11 20 0 C 13 6 -13 6 -20 0 Z" fill="#E05A34" stroke="#93301E" stroke-width="2.4"/>
+      <path d="M-12 -5 C -9 -11 -2 -14 4 -13" fill="none" stroke="#F08560" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(258 358) rotate(5)">
+      <path d="M-19 0 C -19 -10 -10 -17 0 -17 C 10 -17 19 -10 19 0 C 12 6 -12 6 -19 0 Z" fill="#D8502D" stroke="#93301E" stroke-width="2.4"/>
+    </g>
+  </g>
+
+  <!-- THÌ LÀ: nhánh lá kim -->
+  <g stroke="#4E8B33" stroke-width="2.2" stroke-linecap="round" fill="none">
+    <g transform="translate(180 252) rotate(-16)">
+      <path d="M0 20 L 0 -12"/>
+      <path d="M0 12 L -10 4 M0 12 L 10 4 M0 2 L -11 -6 M0 2 L 11 -6 M0 -8 L -8 -16 M0 -8 L 8 -16"/>
+    </g>
+    <g transform="translate(342 244) rotate(14)">
+      <path d="M0 18 L 0 -10"/>
+      <path d="M0 10 L -9 3 M0 10 L 9 3 M0 1 L -10 -6 M0 1 L 10 -6 M0 -7 L -7 -14 M0 -7 L 7 -14"/>
+    </g>
+    <g transform="translate(262 372) rotate(4)">
+      <path d="M0 14 L 0 -8"/>
+      <path d="M0 8 L -8 2 M0 8 L 8 2 M0 0 L -9 -6 M0 0 L 9 -6"/>
+    </g>
+  </g>
+
+  <!-- HÀNH LÁ khúc + ỚT lát -->
+  <g fill="#5C8B39">
+    <rect x="132" y="352" width="26" height="8" rx="4" transform="rotate(-14 145 356)"/>
+    <rect x="368" y="356" width="24" height="8" rx="4" transform="rotate(12 380 360)"/>
+    <rect x="206" y="370" width="22" height="7" rx="3.5" transform="rotate(6 217 373)"/>
+  </g>
+  <g fill="none" stroke="#8E1F14" stroke-width="3.2">
+    <circle cx="316" cy="366" r="5"/><circle cx="186" cy="330" r="4.4"/>
+  </g>
+  <g fill="#2E2822">
+    <circle cx="230" cy="336" r="2"/><circle cx="300" cy="344" r="2.1"/><circle cx="342" cy="330" r="1.9"/>
+  </g>
+</svg>

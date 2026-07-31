@@ -1,0 +1,130 @@
+---
+/* Cá nục sốt cà — SỬA vòng 3. Thái nói vòng 2 "nhìn như cả con cá còn sống":
+   đúng, vì tôi tô thân cá màu XANH BẠC bóng — đó là màu cá tươi ngoài chợ, chứ
+   cá nục của món này đã CHIÊN VÀNG rồi mới rim sốt. Sửa bằng cách đổi hẳn bảng
+   màu thân cá sang NÂU VÀNG đã chiên, mắt hoá đục trắng, và cho sốt cà bám dày
+   quanh thân — ba dấu hiệu của cá đã nấu chín.
+   Giữ nguyên bố cục: BA CON CÁ NGUYÊN nằm trong CHẢO có cán, đầu và đuôi thò
+   hẳn ra ngoài đường bao đống thịt để ở 260px đọc ngay ra "mấy con cá".
+   Chống đụng: ca-thu-sot-ca là KHÚC CẮT NGANG trên dĩa sâu (mặt cắt tròn, lộ
+   lỗ xương sống); ca-kho là nồi đất sốt nâu caramel sẫm; ca-tai-tuong là MỘT
+   con cá to chiên vàng, không sốt. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Chảo cá nục sốt cà ba con cá đã chiên vàng nằm trong sốt cà chua đỏ, rắc hành lá và ớt">
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M214 182 C 203 158 229 142 218 116 C 211 100 225 88 221 74"/>
+    <path d="M300 178 C 290 154 316 140 305 114 C 298 98 312 86 308 72"/>
+  </g>
+  <ellipse cx="252" cy="404" rx="190" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- CHẢO: cán gỗ chĩa sang phải, thân chảo sẫm -->
+  <g>
+    <rect x="404" y="252" width="112" height="18" rx="9" transform="rotate(-10 404 261)" fill="#7A4B2A" stroke="#563018" stroke-width="2.4"/>
+    <path d="M64 292 C 70 348 152 388 252 388 C 352 388 434 348 440 292 Z" fill="#4A4239" stroke="#2E2822" stroke-width="3"/>
+    <ellipse cx="252" cy="292" rx="188" ry="52" fill="#5C5249" stroke="#2E2822" stroke-width="3"/>
+    <ellipse cx="252" cy="294" rx="172" ry="45" fill="#3B342D"/>
+  </g>
+
+  <!-- SỐT CÀ: khối liền đỏ tươi ngập lòng chảo -->
+  <path d="M92 296 C 96 272 138 254 190 248 C 248 241 322 244 368 258 C 404 269 416 286 408 302 C 394 324 330 336 250 336 C 170 336 100 322 92 296 Z"
+        fill="#C4402A"/>
+  <path d="M110 296 C 118 276 156 262 202 257 C 254 251 316 254 354 266 C 382 275 392 288 386 300 C 372 316 316 326 250 326 C 184 326 118 314 110 296 Z"
+        fill="#D24F31"/>
+  <!-- múi cà chua thả lượt cuối -->
+  <g>
+    <g transform="translate(140 302) rotate(-16)">
+      <path d="M-20 0 C -20 -11 -11 -18 0 -18 C 11 -18 20 -11 20 0 C 13 6 -13 6 -20 0 Z" fill="#E05A34" stroke="#93301E" stroke-width="2.4"/>
+      <path d="M-12 -4 C -9 -11 -2 -14 4 -13" fill="none" stroke="#F08560" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(372 306) rotate(12)">
+      <path d="M-18 0 C -18 -10 -10 -16 0 -16 C 10 -16 18 -10 18 0 C 12 5 -12 5 -18 0 Z" fill="#E05A34" stroke="#93301E" stroke-width="2.4"/>
+    </g>
+  </g>
+
+  <!-- CON CÁ 1 (sau, hơi lệch trái) -->
+  <g transform="translate(178 258) rotate(-8)">
+    <!-- đuôi chẻ -->
+    <path d="M-96 0 L -128 -22 L -120 0 L -128 22 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.6"/>
+    <!-- thân tròn lẳn -->
+    <path d="M-98 0 C -84 -24 -40 -36 6 -34 C 60 -32 100 -20 116 -2 C 100 18 60 30 6 32 C -40 34 -84 24 -98 0 Z"
+          fill="#B87B33" stroke="#6B3F13" stroke-width="3"/>
+    <!-- bụng sáng -->
+    <path d="M-84 10 C -56 24 0 30 60 26 C 88 24 106 14 114 2 C 100 18 60 30 6 32 C -40 34 -76 22 -84 10 Z" fill="#E8C98A"/>
+    <!-- sọc lưng -->
+    <g fill="none" stroke="#7A4A18" stroke-width="2.6" stroke-linecap="round">
+      <path d="M-60 -20 C -54 -25 -46 -27 -38 -28"/><path d="M-12 -32 C -4 -33 6 -33 14 -32"/><path d="M46 -28 C 56 -26 66 -23 74 -19"/>
+    </g>
+    <!-- vây lưng + vây bụng -->
+    <path d="M-24 -32 L -12 -48 L 6 -34 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.2"/>
+    <path d="M-6 30 L 4 42 L 22 30 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.2"/>
+    <!-- đầu + mắt + mang -->
+    <path d="M84 -18 C 100 -12 112 -6 116 -2 C 112 4 100 12 84 18" fill="none" stroke="#6B3F13" stroke-width="2.6"/>
+    <circle cx="96" cy="-4" r="8" fill="#F3EDE0" stroke="#6B3F13" stroke-width="2.4"/>
+    <circle cx="97" cy="-4" r="4" fill="#9A907E"/>
+    <!-- sốt bám thân -->
+    <path d="M-70 6 C -30 20 40 22 92 10" fill="none" stroke="#C4402A" stroke-width="9" stroke-linecap="round" opacity=".9"/>
+  </g>
+
+  <!-- CON CÁ 2 (sau, phải, quay đầu ngược lại) -->
+  <g transform="translate(346 268) rotate(172)">
+    <path d="M-92 0 L -122 -20 L -114 0 L -122 20 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.6"/>
+    <path d="M-94 0 C -80 -22 -38 -33 6 -31 C 56 -29 94 -18 110 -2 C 94 16 56 27 6 29 C -38 31 -80 22 -94 0 Z"
+          fill="#A96C2A" stroke="#6B3F13" stroke-width="3"/>
+    <path d="M-80 9 C -54 22 0 27 56 24 C 82 22 100 13 108 2 C 94 16 56 27 6 29 C -38 31 -72 20 -80 9 Z" fill="#DFBC79"/>
+    <g fill="none" stroke="#7A4A18" stroke-width="2.4" stroke-linecap="round">
+      <path d="M-56 -18 C -50 -23 -43 -25 -35 -26"/><path d="M-10 -29 C -2 -30 6 -30 14 -29"/><path d="M44 -25 C 53 -23 62 -21 70 -17"/>
+    </g>
+    <path d="M-22 -29 L -10 -44 L 6 -31 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.2"/>
+    <circle cx="90" cy="-4" r="7.4" fill="#F3EDE0" stroke="#6B3F13" stroke-width="2.4"/>
+    <circle cx="91" cy="-4" r="3.6" fill="#9A907E"/>
+  </g>
+
+  <!-- CON CÁ 3 (trước, giữa — lớn nhất, gối lên hai con sau) -->
+  <g transform="translate(228 306) rotate(4)">
+    <path d="M-100 0 L -134 -24 L -126 0 L -134 24 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.8"/>
+    <path d="M-102 0 C -88 -26 -42 -38 6 -36 C 62 -34 104 -21 122 -2 C 104 20 62 32 6 34 C -42 36 -88 26 -102 0 Z"
+          fill="#B87B33" stroke="#6B3F13" stroke-width="3.2"/>
+    <path d="M-88 11 C -58 26 0 32 62 28 C 92 26 112 15 120 2 C 104 20 62 32 6 34 C -42 36 -80 23 -88 11 Z" fill="#EDD299"/>
+    <!-- đường bên chạy dọc thân -->
+    <path d="M-84 -4 C -46 -12 40 -12 106 -4" fill="none" stroke="#D2A85C" stroke-width="2.4"/>
+    <g fill="none" stroke="#7A4A18" stroke-width="2.8" stroke-linecap="round">
+      <path d="M-62 -22 C -56 -27 -48 -29 -40 -30"/><path d="M-12 -34 C -4 -35 6 -35 14 -34"/><path d="M48 -30 C 58 -28 68 -25 78 -21"/>
+    </g>
+    <path d="M-26 -34 L -13 -52 L 6 -36 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.4"/>
+    <path d="M-8 32 L 3 45 L 22 32 Z" fill="#8E5417" stroke="#5A3210" stroke-width="2.4"/>
+    <path d="M88 -20 C 106 -13 118 -6 122 -2 C 118 4 106 13 88 20" fill="none" stroke="#6B3F13" stroke-width="2.8"/>
+    <circle cx="100" cy="-5" r="9" fill="#F3EDE0" stroke="#6B3F13" stroke-width="2.6"/>
+    <circle cx="101" cy="-5" r="4.4" fill="#9A907E"/>
+    <!-- ba đường khứa chéo trên thân (khứa cho thấm) -->
+    <g fill="none" stroke="#7A4A18" stroke-width="3.4" stroke-linecap="round">
+      <path d="M-46 -18 L -34 10"/><path d="M-6 -24 L 6 8"/><path d="M34 -24 L 44 6"/>
+    </g>
+    <path d="M-74 8 C -30 24 46 26 100 12" fill="none" stroke="#C4402A" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+  </g>
+
+  <!-- HÀNH LÁ khúc + NGÒ RÍ rắc mặt -->
+  <g fill="#5C8B39">
+    <rect x="146" y="318" width="28" height="8.4" rx="4.2" transform="rotate(-14 160 322)"/>
+    <rect x="330" y="322" width="26" height="8.2" rx="4.1" transform="rotate(12 343 326)"/>
+    <rect x="242" y="252" width="24" height="7.6" rx="3.8" transform="rotate(8 254 256)"/>
+    <rect x="292" y="334" width="22" height="7.4" rx="3.7" transform="rotate(-8 303 338)"/>
+  </g>
+  <g transform="translate(196 244)">
+    <path d="M0 10 q 5 -12 17 -16" fill="none" stroke="#4E7B36" stroke-width="2.4" stroke-linecap="round"/>
+    <g fill="#6F9C48">
+      <ellipse cx="20" cy="-8" rx="5.4" ry="3.2" transform="rotate(-22 20 -8)"/>
+      <ellipse cx="10" cy="-2" rx="4.6" ry="2.8" transform="rotate(26 10 -2)"/>
+    </g>
+  </g>
+
+  <!-- ỚT nguyên trái đỏ nằm trong sốt (kiểu miền Trung, cay rõ) -->
+  <g transform="translate(320 288) rotate(18)">
+    <path d="M-4 0 C 8 -6 30 -6 40 1 C 30 8 8 8 -4 0 Z" fill="#C0392B" stroke="#8E1F14" stroke-width="2.4"/>
+    <path d="M-4 0 C -11 -2 -15 -6 -14 -11" fill="none" stroke="#4E7B36" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#8E1F14" stroke-width="3.2">
+    <circle cx="164" cy="280" r="4.6"/>
+  </g>
+</svg>

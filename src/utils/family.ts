@@ -15,7 +15,7 @@ export const FAMILIES: Record<FamilyId, { name: string; cats: string[] }> = {
   nuoc: { name: 'Chan & húp',  cats: ['Món nước', 'Canh', 'Lẩu', 'Cháo'] },
   man:  { name: 'Mặn đưa cơm', cats: ['Kho', 'Xào', 'Hấp'] },
   tron: { name: 'Cuốn & trộn', cats: ['Gỏi', 'Cuốn', 'Bún trộn'] },
-  banh: { name: 'Cơm & bánh',  cats: ['Cơm', 'Bánh'] },
+  banh: { name: 'Cơm & bánh',  cats: ['Cơm', 'Bánh', 'Bánh mì'] },
   lua:  { name: 'Lửa',         cats: ['Nướng', 'Chiên'] },
 };
 

@@ -1,0 +1,135 @@
+---
+/* Heo quay da giòn — VẼ LẠI vòng 3. Thái trả lại vòng 2 vì miếng thịt "tròn vo",
+   mà heo quay chặt ra là miếng HÌNH CHỮ NHẬT, cạnh thẳng, góc gãy.
+   Vòng 2 sai ở chỗ dùng <ellipse> làm mặt trên → cả miếng thành khối trụ.
+   Vòng 3 vẽ đúng KHỐI HỘP ba mặt, toàn bằng đoạn thẳng:
+   · mặt trên  = hình bình hành → mặt DA vàng, rỗ li ti
+   · mặt trước = hình chữ nhật, chia ba dải ngang: da vàng MỎNG · mỡ trắng · nạc
+   · mặt bên phải = hình bình hành, ba dải kéo xiên theo
+   Năm miếng xếp gối mép nhau thành một khối liền, cạnh nào cũng thẳng. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa heo quay chặt miếng vuông vức, mặt da vàng rỗ giòn, mặt cắt lộ ba tầng da mỡ nạc">
+  <circle cx="260" cy="250" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="250" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M206 168 C 195 144 221 128 210 102 C 203 86 217 74 213 60"/>
+    <path d="M306 164 C 296 140 322 126 311 100 C 304 84 318 72 314 58"/>
+  </g>
+  <ellipse cx="260" cy="404" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa -->
+  <ellipse cx="260" cy="352" rx="204" ry="58" fill="#F0EADA"/>
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="350" rx="166" ry="43" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+  <ellipse cx="258" cy="340" rx="152" ry="24" fill="rgba(60,30,12,.18)"/>
+
+  <!-- ===== HÀNG SAU: 3 miếng ===== -->
+  <!-- miếng 1 -->
+  <g transform="translate(104 228) rotate(-3)">
+    <path d="M0 0 L20 -15 L100 -15 L100 52 L80 67 L0 67 Z" fill="#B87A5E"/>
+    <path d="M80 0 L100 -15 L100 52 L80 67 Z" fill="#9E5C42"/>
+    <path d="M0 0 L80 0 L80 9 L0 9 Z" fill="#C9862B"/>
+    <path d="M80 0 L100 -15 L100 -6 L80 9 Z" fill="#B9791F"/>
+    <path d="M0 9 L80 9 L80 30 C 58 24 30 36 0 30 Z" fill="#F6EBD8"/>
+    <path d="M80 9 L100 -6 L100 15 L80 30 Z" fill="#E4D6BC"/>
+    <path d="M6 40 C 28 44 56 44 76 40" fill="none" stroke="#A96A50" stroke-width="2.2"/>
+    <path d="M7 50 C 28 54 56 54 75 50" fill="none" stroke="#CE9078" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M8 60 C 28 63 56 63 74 60" fill="none" stroke="#A96A50" stroke-width="2"/>
+    <path d="M0 0 L20 -15 L100 -15 L100 52 L80 67 L0 67 Z" fill="none" stroke="#5E2C1C" stroke-width="3"/>
+    <path d="M80 0 L100 -15" fill="none" stroke="#5E2C1C" stroke-width="2.4"/>
+    <path d="M0 0 L20 -15 L100 -15 L80 0 Z" fill="#E0A643" stroke="#8E5417" stroke-width="2.8"/>
+    <g fill="#8E5417" opacity=".7"><circle cx="26" cy="-5" r="2.3"/><circle cx="45" cy="-10" r="2.1"/><circle cx="64" cy="-5" r="2.3"/><circle cx="80" cy="-10" r="1.9"/><circle cx="38" cy="-2" r="1.8"/></g>
+    <g fill="#F4CE83" opacity=".8"><circle cx="33" cy="-8" r="1.4"/><circle cx="70" cy="-8" r="1.3"/></g>
+  </g>
+  <!-- miếng 2 (cao nhất) -->
+  <g transform="translate(206 214) rotate(2)">
+    <path d="M0 0 L21 -16 L106 -16 L106 56 L85 72 L0 72 Z" fill="#C4866A"/>
+    <path d="M85 0 L106 -16 L106 56 L85 72 Z" fill="#A96A50"/>
+    <path d="M0 0 L85 0 L85 10 L0 10 Z" fill="#C9862B"/>
+    <path d="M85 0 L106 -16 L106 -6 L85 10 Z" fill="#B9791F"/>
+    <path d="M0 10 L85 10 L85 32 C 62 26 32 38 0 32 Z" fill="#FAF1E1"/>
+    <path d="M85 10 L106 -6 L106 16 L85 32 Z" fill="#E9DCC2"/>
+    <path d="M6 43 C 30 47 60 47 81 43" fill="none" stroke="#A96A50" stroke-width="2.2"/>
+    <path d="M7 54 C 30 58 60 58 80 54" fill="none" stroke="#DA9E85" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M8 64 C 30 67 60 67 79 64" fill="none" stroke="#A96A50" stroke-width="2"/>
+    <path d="M0 0 L21 -16 L106 -16 L106 56 L85 72 L0 72 Z" fill="none" stroke="#5E2C1C" stroke-width="3"/>
+    <path d="M85 0 L106 -16" fill="none" stroke="#5E2C1C" stroke-width="2.4"/>
+    <path d="M0 0 L21 -16 L106 -16 L85 0 Z" fill="#E0A643" stroke="#8E5417" stroke-width="2.8"/>
+    <g fill="#8E5417" opacity=".72"><circle cx="28" cy="-5" r="2.4"/><circle cx="48" cy="-11" r="2.2"/><circle cx="68" cy="-5" r="2.4"/><circle cx="86" cy="-11" r="2"/><circle cx="40" cy="-2" r="1.9"/></g>
+    <g fill="#F4CE83" opacity=".82"><circle cx="35" cy="-8" r="1.5"/><circle cx="76" cy="-8" r="1.4"/></g>
+  </g>
+  <!-- miếng 3 -->
+  <g transform="translate(316 226) rotate(4)">
+    <path d="M0 0 L19 -14 L94 -14 L94 48 L75 62 L0 62 Z" fill="#B87A5E"/>
+    <path d="M75 0 L94 -14 L94 48 L75 62 Z" fill="#9E5C42"/>
+    <path d="M0 0 L75 0 L75 9 L0 9 Z" fill="#C9862B"/>
+    <path d="M75 0 L94 -14 L94 -5 L75 9 Z" fill="#B9791F"/>
+    <path d="M0 9 L75 9 L75 28 C 55 22 28 34 0 28 Z" fill="#F6EBD8"/>
+    <path d="M75 9 L94 -5 L94 14 L75 28 Z" fill="#E4D6BC"/>
+    <path d="M6 37 C 26 41 52 41 71 37" fill="none" stroke="#A96A50" stroke-width="2.2"/>
+    <path d="M7 47 C 26 51 52 51 70 47" fill="none" stroke="#CE9078" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 0 L19 -14 L94 -14 L94 48 L75 62 L0 62 Z" fill="none" stroke="#5E2C1C" stroke-width="3"/>
+    <path d="M75 0 L94 -14" fill="none" stroke="#5E2C1C" stroke-width="2.4"/>
+    <path d="M0 0 L19 -14 L94 -14 L75 0 Z" fill="#E0A643" stroke="#8E5417" stroke-width="2.8"/>
+    <g fill="#8E5417" opacity=".7"><circle cx="24" cy="-5" r="2.2"/><circle cx="42" cy="-10" r="2"/><circle cx="60" cy="-5" r="2.2"/><circle cx="76" cy="-10" r="1.8"/></g>
+    <g fill="#F4CE83" opacity=".8"><circle cx="31" cy="-8" r="1.4"/><circle cx="66" cy="-8" r="1.3"/></g>
+  </g>
+
+  <!-- ===== HÀNG TRƯỚC: 2 miếng, gối lên hàng sau ===== -->
+  <g transform="translate(146 280) rotate(-5)">
+    <path d="M0 0 L22 -16 L108 -16 L108 58 L86 74 L0 74 Z" fill="#C4866A"/>
+    <path d="M86 0 L108 -16 L108 58 L86 74 Z" fill="#A96A50"/>
+    <path d="M0 0 L86 0 L86 10 L0 10 Z" fill="#C9862B"/>
+    <path d="M86 0 L108 -16 L108 -6 L86 10 Z" fill="#B9791F"/>
+    <path d="M0 10 L86 10 L86 33 C 62 27 32 39 0 33 Z" fill="#FAF1E1"/>
+    <path d="M86 10 L108 -6 L108 17 L86 33 Z" fill="#E9DCC2"/>
+    <path d="M6 44 C 30 48 62 48 82 44" fill="none" stroke="#A96A50" stroke-width="2.4"/>
+    <path d="M7 55 C 30 59 62 59 81 55" fill="none" stroke="#DA9E85" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M9 66 C 32 69 60 69 79 66" fill="none" stroke="#A96A50" stroke-width="2.4"/>
+    <path d="M0 0 L22 -16 L108 -16 L108 58 L86 74 L0 74 Z" fill="none" stroke="#5E2C1C" stroke-width="3.2"/>
+    <path d="M86 0 L108 -16" fill="none" stroke="#5E2C1C" stroke-width="2.6"/>
+    <path d="M0 0 L22 -16 L108 -16 L86 0 Z" fill="#E0A643" stroke="#8E5417" stroke-width="3"/>
+    <g fill="#8E5417" opacity=".75"><circle cx="29" cy="-5" r="2.5"/><circle cx="50" cy="-11" r="2.3"/><circle cx="70" cy="-5" r="2.5"/><circle cx="88" cy="-11" r="2.1"/><circle cx="41" cy="-2" r="2"/><circle cx="61" cy="-12" r="1.8"/></g>
+    <g fill="#F6D390" opacity=".85"><circle cx="36" cy="-8" r="1.6"/><circle cx="78" cy="-8" r="1.5"/></g>
+  </g>
+  <g transform="translate(272 292) rotate(6)">
+    <path d="M0 0 L20 -15 L98 -15 L98 52 L78 67 L0 67 Z" fill="#B87A5E"/>
+    <path d="M78 0 L98 -15 L98 52 L78 67 Z" fill="#9E5C42"/>
+    <path d="M0 0 L78 0 L78 9 L0 9 Z" fill="#C9862B"/>
+    <path d="M78 0 L98 -15 L98 -6 L78 9 Z" fill="#B9791F"/>
+    <path d="M0 9 L78 9 L78 30 C 57 24 29 36 0 30 Z" fill="#F6EBD8"/>
+    <path d="M78 9 L98 -6 L98 15 L78 30 Z" fill="#E4D6BC"/>
+    <path d="M6 39 C 28 43 54 43 74 39" fill="none" stroke="#A96A50" stroke-width="2.2"/>
+    <path d="M7 50 C 28 54 54 54 73 50" fill="none" stroke="#CE9078" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M0 0 L20 -15 L98 -15 L98 52 L78 67 L0 67 Z" fill="none" stroke="#5E2C1C" stroke-width="3.2"/>
+    <path d="M78 0 L98 -15" fill="none" stroke="#5E2C1C" stroke-width="2.6"/>
+    <path d="M0 0 L20 -15 L98 -15 L78 0 Z" fill="#E0A643" stroke="#8E5417" stroke-width="3"/>
+    <g fill="#8E5417" opacity=".75"><circle cx="26" cy="-5" r="2.4"/><circle cx="45" cy="-10" r="2.2"/><circle cx="64" cy="-5" r="2.4"/><circle cx="80" cy="-10" r="2"/><circle cx="38" cy="-2" r="1.9"/></g>
+    <g fill="#F6D390" opacity=".85"><circle cx="33" cy="-8" r="1.5"/><circle cx="71" cy="-8" r="1.4"/></g>
+  </g>
+
+  <!-- hành lá thái nhỏ điểm xanh -->
+  <g fill="#5C8B39">
+    <ellipse cx="200" cy="308" rx="7" ry="3" transform="rotate(-16 200 308)"/>
+    <ellipse cx="300" cy="238" rx="6.4" ry="2.8" transform="rotate(14 300 238)"/>
+    <ellipse cx="376" cy="308" rx="7" ry="3" transform="rotate(-8 376 308)"/>
+    <ellipse cx="248" cy="348" rx="6" ry="2.6" transform="rotate(22 248 348)"/>
+  </g>
+
+  <!-- chén muối tiêu chanh + nửa trái chanh -->
+  <g transform="translate(84 366)">
+    <ellipse cx="0" cy="34" rx="42" ry="12" fill="rgba(15,26,14,.3)"/>
+    <path d="M-38 8 C -36 28 -21 38 0 38 C 21 38 36 28 38 8 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="8" rx="38" ry="11" fill="#F2EDDD" stroke="#D8D0B6" stroke-width="2"/>
+    <g fill="#4A4038"><circle cx="-12" cy="6" r="1.8"/><circle cx="-2" cy="10" r="2"/><circle cx="9" cy="5" r="1.7"/><circle cx="17" cy="10" r="1.6"/><circle cx="4" cy="2" r="1.5"/></g>
+    <path d="M-22 10 C -14 4 -2 3 6 8" fill="none" stroke="#7BA05B" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(438 374) rotate(-14)">
+    <circle cx="0" cy="0" r="25" fill="#EAF0C4" stroke="#6F9440" stroke-width="3"/>
+    <g fill="none" stroke="#A8C46A" stroke-width="2.2">
+      <path d="M0 0 L 0 -21"/><path d="M0 0 L 18 -10"/><path d="M0 0 L 18 10"/><path d="M0 0 L 0 21"/><path d="M0 0 L -18 10"/><path d="M0 0 L -18 -10"/>
+    </g>
+    <circle cx="0" cy="0" r="3.2" fill="#C8DE96"/>
+  </g>
+</svg>

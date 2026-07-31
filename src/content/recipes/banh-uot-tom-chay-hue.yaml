@@ -1,0 +1,433 @@
+title: Bánh ướt tôm chấy Huế **cuốn nhỏ xinh, rắc bông tôm cam ruộm**
+summary: >-
+  Món trên mâm bánh Huế: lá bánh ướt mỏng cuốn lại thành từng cuốn nhỏ, rắc
+  **tôm chấy bông tơi màu cam ruộm**, chấm mắm chua ngọt. Cả món ăn thua ở chảo
+  tôm — rang đúng lửa thì bông xốp như mây, quá lửa một chút là khô cứng.
+region: Miền Trung
+category: Bánh
+occasions: [Ăn chơi, Bữa sáng]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 15 phút (+ nghỉ bột 2 giờ)
+  active: 55 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 80
+art: banh-uot-tom-chay
+heroEyebrow: Một góc mâm bánh Huế…
+
+quick:
+  ingredients:
+    - >-
+      Bột bánh: bột gạo tẻ [[150|g]] + bột năng [[80|g]] + [[700|ml]] nước +
+      ½ muỗng cà phê muối + [[1|muỗng canh]] dầu — **nghỉ bột 2 giờ**
+    - >-
+      Tôm chấy: tôm tươi [[400|g]] (hoặc tôm khô [[150|g]] ngâm mềm) · hành tím
+      [[4|củ]] · dầu điều [[1|muỗng canh]] · muối, đường, tiêu
+    - Hành lá [[1|nắm]] làm mỡ hành · hành tím [[4|củ]] phi vàng
+    - >-
+      Nước mắm chấm: nước mắm [[3|muỗng canh|frac]] · đường [[3|muỗng canh]] ·
+      nước ấm [[180|ml]] · chanh [[1|trái]] · tỏi ớt băm
+  steps:
+    - Pha bột, **nghỉ 2 giờ**, chắt nước trong rồi châm lại nước mới.
+    - >-
+      Tôm hấp chín, bóc vỏ, **giã thô chứ đừng xay nhuyễn** — nhuyễn quá là ra
+      bột, không bông được.
+    - >-
+      Rang tôm **lửa nhỏ, đảo liên tục 15–20 phút** với hành tím phi và dầu
+      điều, tới khi **tơi xốp, khô hẳn, màu cam ruộm**.
+    - Tráng lá bánh mỏng bằng chảo chống dính, úp ra mâm thoa dầu hành.
+    - >-
+      Rắc tôm chấy thành **một đường ngang** trên lá bánh, gấp hai mép rồi
+      **cuốn lỏng tay** thành cuốn nhỏ cỡ ngón tay cái.
+    - >-
+      Xếp cuốn ra dĩa, rắc thêm tôm chấy và hành phi phủ mặt, dọn kèm chén mắm
+      chua ngọt.
+  warning: >-
+    Rang tôm lửa lớn cho nhanh là **cháy khét bên ngoài mà bên trong còn ẩm** —
+    để tới chiều là ỉu. Lửa nhỏ nhất, đảo đều tay, chịu khó mười lăm phút.
+
+flavor:
+  chua: 4
+  ngot: 5
+  man: 5.5
+  cay: 2.5
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn vị:** tôm chấy **bông tơi, cắn vào tan ra chứ không cứng**, ngọt hậu
+  vị tôm chứ không mặn chát; lá bánh mỏng mềm ôm lấy nhân, chấm mắm chua ngọt
+  thì đủ bốn vị mà vẫn thanh.
+
+storyEyebrow: Chuyện mâm bánh
+storyTitle: Nhúm tôm chấy — **thứ đi khắp mâm bánh Huế**
+story:
+  - >-
+    Mâm bánh Huế bày ra là một dãy chén dĩa nhỏ: bánh bèo, bánh nậm, bánh lọc,
+    bánh ướt. Bốn thứ bánh khác nhau, làm bằng bốn cách khác nhau, mà **nhìn
+    lên mặt cái nào cũng thấy một nhúm bông màu cam** — đó là tôm chấy. Nó là
+    sợi dây nối cả mâm bánh lại với nhau.
+  - >-
+    "Chấy" là **một động tác**: giã tôm rồi rang đảo trên lửa nhỏ cho tới khi
+    tơi bông ra. Có nơi viết là "tôm cháy", nhưng chữ đúng nằm ở cái động tác
+    đó chứ không phải ở chuyện cháy. Tôm chấy đạt thì **xốp như mây, khô mà
+    không cứng**, cắn vào tan ngay đầu lưỡi và để lại hậu ngọt của tôm.
+  - >-
+    Bản bánh ướt thì đơn giản nhất mâm: lá bánh tráng mỏng, rắc tôm chấy, cuốn
+    lại thành từng cuốn nhỏ bằng ngón tay, chấm mắm chua ngọt. Nhỏ nhắn tới mức
+    ăn một cuốn chưa thấy gì, phải ăn tới cuốn thứ ba thứ tư mới thấm — mà đó
+    lại đúng là cách ăn của người Huế: **nhiều món, mỗi món một chút**.
+
+ingredientGroups:
+  - name: Tôm chấy
+    icon: shrimp
+    items:
+      - id: tomtuoi
+        name: Tôm tươi
+        icon: shrimp
+        color: red
+        base: 400
+        unit: g
+        note: >-
+          Tôm đất hoặc tôm bạc cỡ vừa là hợp nhất — thịt chắc, vỏ mỏng, chấy ra
+          bông đẹp. Thay bằng **tôm khô [[150|g]]** ngâm mềm cũng được, đậm đà
+          hơn nhưng kém ngọt
+      - id: hanhtimtc
+        name: Hành tím
+        icon: onion
+        base: 4
+        unit: củ
+        note: Băm nhuyễn, phi thơm rồi mới cho tôm vào rang chung
+      - id: daudieu
+        name: Dầu điều
+        icon: bottle
+        color: red
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Hạt điều màu phi với dầu — chỉ để lên **màu cam ruộm**, gần như không
+          có vị. Không có thì tôm vẫn ngon, chỉ nhạt màu hơn
+      - id: giavitc
+        name: Muối · đường · tiêu
+        icon: jar
+        qtyText: ½ muỗng cà phê muối · 1 muỗng cà phê đường · ½ muỗng cà phê tiêu
+        note: Nêm từ đầu lúc rang để tôm ngấm đều trong lúc khô dần
+  - name: Bột tráng bánh
+    icon: rice
+    items:
+      - id: botgaotc
+        name: Bột gạo tẻ
+        icon: rice
+        base: 150
+        unit: g
+        note: Bột gạo tẻ thường, không phải bột nếp
+      - id: botnangtc
+        name: Bột năng
+        icon: jar
+        color: gold
+        base: 80
+        unit: g
+        note: Cho lá bánh mềm dai để cuốn không rách
+      - id: nuoctc
+        name: Nước lọc
+        icon: drop
+        base: 700
+        unit: ml
+        note: Bột loãng mới tráng được lá mỏng — lá dày thì cuốn xong cứng đơ
+      - id: muoidautc
+        name: Muối + dầu ăn pha bột
+        icon: spoon
+        qtyText: ½ muỗng cà phê muối · 1 muỗng canh dầu
+        note: Dầu cho lá bánh bóng mướt, dễ tróc chảo
+  - name: Mỡ hành & nước mắm
+    icon: bottle
+    items:
+      - id: hanhlatc
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: nắm
+        note: Thái nhỏ, dội dầu nóng già lên — mỡ hành để thoa mâm và thoa lá bánh
+      - id: hanhphitc
+        name: Hành tím phi
+        icon: onion
+        color: gold
+        base: 4
+        unit: củ
+        note: Rắc mặt dĩa cùng với tôm chấy
+      - id: mamtc
+        name: Nước mắm + đường
+        icon: bottle
+        qtyText: 3½ muỗng canh nước mắm · 3 muỗng canh đường
+        note: Pha với 180 ml nước ấm — chén mắm Huế **ngọt hơn miền Nam một chút**
+      - id: chanhtoiottc
+        name: Chanh + tỏi ớt băm
+        icon: chili
+        color: red
+        qtyText: 1 trái chanh · 2 tép tỏi · 1–2 trái ớt
+        note: Cho vào lúc nước mắm đã nguội hẳn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa bánh ướt tôm chấy**
+stepsLead: >-
+  Mẻ tôm chấy làm được từ hôm trước và để dành cả tuần — nó dùng chung cho bánh
+  bèo, bánh nậm, bánh lọc luôn. Nên nếu tủ đã có sẵn hũ tôm chấy thì món này chỉ
+  còn là chuyện tráng bánh và cuốn.
+steps:
+  - title: Pha bột & nghỉ bột
+    icon: jar
+    minutes: 10 phút (+ nghỉ 2 giờ)
+    bullets:
+      - text: >-
+          Trộn [[150|g]] bột gạo + [[80|g]] bột năng + muối, châm [[700|ml]]
+          nước từ từ vừa khuấy cho tan hết, cuối cùng cho
+          [[1|muỗng canh]] dầu ăn.
+      - text: >-
+          Đậy khăn, **nghỉ tối thiểu 2 giờ**. Hết giờ thì **chắt bỏ lớp nước
+          trong** bên trên, châm lại đúng lượng nước mới, khuấy đều.
+    callout:
+      type: tip
+      text: >-
+        Tranh thủ 2 giờ nghỉ bột mà làm nguyên mẻ tôm chấy. Hai việc này ăn khớp
+        nhau về thời gian một cách rất tiện.
+    timer:
+      secs: 7200
+      label: Hẹn giờ nghỉ bột · 120:00
+      doneMsg: Chắt nước trong, châm nước mới — sẵn sàng tráng bánh!
+  - title: Hấp tôm & giã thô
+    icon: shrimp
+    minutes: 20 phút
+    bullets:
+      - label: "Hấp:"
+        text: >-
+          tôm rửa sạch, hấp hoặc luộc với chút muối **5–7 phút** tới khi vỏ đỏ
+          và thân cong lại. Đừng nấu lâu — tôm dai thì chấy ra xác chứ không
+          bông.
+      - label: "Bóc vỏ:"
+        text: >-
+          bóc sạch vỏ và đầu, rút chỉ đen trên lưng. Phần vỏ đừng bỏ — rang lên
+          nấu nước dùng được.
+      - label: "Giã thô:"
+        text: >-
+          cho vào cối **giã cho tơi ra thành sợi ngắn**, hoặc xay từng nhịp
+          thật ngắn. **Đừng giã nhuyễn thành bột** — bột thì rang ra bết lại,
+          không bông xốp được.
+      - label: "Tôm khô thì khác:"
+        text: >-
+          nếu dùng tôm khô, ngâm nước ấm **30 phút** cho mềm, vắt ráo rồi mới
+          giã. Tôm khô đã mặn sẵn nên bớt muối lúc nêm.
+    callout:
+      type: warn
+      text: >-
+        Xay bằng máy rất dễ quá tay. Bấm từng nhịp một giây, mở nắp coi, thấy
+        tôm **còn thấy sợi** là dừng. Nhuyễn thành bột rồi thì không quay lại
+        được.
+    timer:
+      secs: 420
+      label: Hẹn giờ hấp tôm · 07:00
+      doneMsg: Tôm đỏ vỏ, thân cong lại là chín — vớt ra bóc vỏ!
+  - title: Rang tôm chấy — mười lăm phút lửa nhỏ nhất
+    icon: flame
+    minutes: 20 phút
+    intro: >-
+      Đây là bước làm nên món, và nó chỉ đòi đúng một thứ: **kiên nhẫn**. Không
+      có cách nào rút ngắn.
+    bullets:
+      - label: "Phi hành:"
+        text: >-
+          chảo lòng sâu, cho [[1|muỗng canh]] dầu điều, phi hành tím băm cho
+          thơm và vàng nhạt.
+      - label: "Cho tôm vào:"
+        text: >-
+          trút tôm đã giã vào, nêm muối, đường, tiêu, **hạ lửa xuống mức nhỏ
+          nhất**.
+      - label: "Đảo liên tục:"
+        text: >-
+          đảo đều tay suốt **15–20 phút**. Tôm sẽ đi qua ba giai đoạn: ẩm và
+          bết → tơi dần ra → **bông xốp, nhẹ bẫng, màu cam ruộm**.
+      - label: "Nhìn là biết đạt:"
+        text: >-
+          bốc một nhúm thả xuống, thấy nó **rơi tơi ra từng sợi chứ không rơi
+          thành cục** là được. Bóp thử thấy khô ráp, không dính tay.
+      - label: "Để nguội rồi cất:"
+        text: >-
+          tãi ra mâm cho nguội hẳn mới cho vào hũ kín — còn ấm mà đậy nắp là
+          hơi nước đọng lại làm ỉu cả hũ.
+    callout:
+      type: warn
+      text: >-
+        Vặn lửa lớn cho nhanh là **cháy mặt ngoài trong khi bên trong còn ẩm**.
+        Nhìn thì tưởng xong, nhưng để tới chiều là mềm ỉu và có mùi khét. Lửa
+        nhỏ nhất, không có đường tắt.
+    timer:
+      secs: 1080
+      label: Hẹn giờ rang tôm · 18:00
+      doneMsg: Bốc thử một nhúm — rơi tơi từng sợi là đạt, tắt bếp!
+  - title: Tráng lá bánh
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Chảo chống dính lửa vừa-nhỏ, quét dầu thật mỏng. **Khuấy bột từ đáy
+          tô** rồi múc một vá nhỏ, nhấc chảo khỏi bếp, nghiêng xoay một vòng
+          nhanh cho phủ kín đáy.
+      - text: >-
+          Đặt lại lên bếp, **đậy nắp 30–40 giây**. Lá bánh trong và phồng lăn
+          tăn là chín.
+      - text: >-
+          Úp chảo ra mâm đã thoa mỡ hành, thoa thêm một lượt mỏng lên mặt lá rồi
+          chồng lá kế tiếp lên.
+      - text: >-
+          Lá bánh cho món này nên **tráng mỏng hơn bình thường** — cuốn nhỏ mà
+          lá dày thì cắn vào toàn bột.
+    callout:
+      type: tip
+      text: >-
+        Cái lá đầu tiên hầu như luôn xấu — dày, rách hoặc dính. Nó là lá "cúng
+        chảo", có nhiệm vụ báo cho mình biết lửa lớn hay nhỏ, dầu dày hay mỏng.
+        Chỉnh một nấc là lá thứ hai đẹp liền.
+    timer:
+      secs: 40
+      label: Hẹn giờ tráng bánh · 00:40
+      doneMsg: Mở nắp coi — lá trong, phồng lăn tăn là chín!
+  - title: Cuốn & xếp dĩa
+    icon: roll
+    minutes: 10 phút
+    bullets:
+      - label: "Rắc nhân:"
+        text: >-
+          trải lá bánh ra, rắc tôm chấy thành **một đường ngang ở phần ba dưới**
+          — chừng một muỗng cà phê đầy cho mỗi lá.
+      - label: "Cuốn:"
+        text: >-
+          gấp hai mép hai bên vào rồi **cuốn lỏng tay** từ dưới lên, thành cuốn
+          nhỏ cỡ **ngón tay cái**. Lá bánh mềm oặt, siết chặt là rách.
+      - label: "Xếp dĩa:"
+        text: >-
+          xếp cuốn nằm sát nhau trên dĩa, **rắc thêm một lớp tôm chấy phủ mặt**
+          cùng hành phi, rưới chút mỡ hành.
+      - label: "Chén mắm:"
+        text: >-
+          pha đường với nước ấm cho tan, thêm nước mắm, để nguội rồi vắt chanh,
+          thả tỏi ớt băm. Nếm phải **chua ngọt rõ, mặn dịu**.
+    callout:
+      type: tip
+      text: >-
+        Cuốn nhỏ là cố ý, không phải làm điệu. Mâm bánh Huế vốn nhiều món, mỗi
+        món chỉ vài miếng — cuốn to là ăn hai cuốn đã ngán, mất cái thú nếm
+        quanh mâm.
+    doneText: Dĩa bánh ướt tôm chấy cam ruộm — xong!
+
+tipsTitle: 6 bí quyết **tôm chấy bông tơi**
+tipsLead: >-
+  Lá bánh thì chỉ cần tráng mỏng. Còn tôm chấy — thứ quyết định món này — thì có
+  sáu chỗ đáng nhớ.
+tips:
+  - icon: flame
+    title: Lửa nhỏ nhất, không có đường tắt
+    text: >-
+      Mười lăm tới hai mươi phút đảo tay trên lửa liu riu. Vặn lớn cho nhanh là
+      **cháy ngoài, ẩm trong** — nhìn thì xong mà tới chiều đã ỉu và khét.
+  - icon: knife
+    title: Giã thô, đừng xay nhuyễn
+    text: >-
+      Tôm còn thấy sợi thì rang ra mới **bông xốp**. Nhuyễn thành bột thì rang
+      ra bết thành mảng, khô cứng như cát. Đây là lỗi phổ biến nhất khi dùng máy
+      xay.
+  - icon: shrimp
+    title: Đừng nấu tôm quá chín trước khi giã
+    text: >-
+      Hấp **5–7 phút** là vừa. Tôm nấu quá tay thì thịt dai và mất nước ngọt,
+      chấy ra chỉ còn xác — vẫn tơi được nhưng nhạt hẳn.
+  - icon: bottle
+    title: Dầu điều chỉ để lấy màu
+    text: >-
+      Nó gần như không có vị, chỉ cho **màu cam ruộm** đặc trưng của mâm bánh
+      Huế. Không có thì tôm vẫn ngon, chỉ hơi nhợt màu — đừng thay bằng phẩm màu
+      hay ớt bột, ớt bột sẽ làm món cay lệch đi.
+  - icon: drop
+    title: Để nguội hẳn rồi mới đậy nắp
+    text: >-
+      Đậy lúc còn ấm là hơi nước đọng trong hũ, hôm sau cả mẻ mềm ỉu. Tãi ra mâm
+      cho nguội hẳn, rồi hũ kín — để **ngăn mát cả tuần**, ngăn đá cả tháng.
+  - icon: roll
+    title: Lá mỏng, cuốn lỏng, cuốn nhỏ
+    text: >-
+      Ba chữ này đi liền nhau. Lá dày thì cắn vào toàn bột; cuốn chặt thì rách;
+      cuốn to thì át mất nhúm tôm chấy bên trong — mà nhúm tôm mới là món.
+
+serve:
+  title: Dọn dĩa **kiểu một góc mâm bánh Huế**
+  paras:
+    - >-
+      Bánh ướt tôm chấy hiếm khi ăn một mình. Đúng bài thì nó là **một dĩa trong
+      mâm**: bên cạnh có chén bánh bèo, dĩa bánh nậm gói lá, chén bánh lọc trong
+      veo — mỗi thứ vài miếng, ăn quanh cho vui miệng.
+    - >-
+      Chén mắm chấm để giữa, ai gắp cuốn nào thì chấm cuốn đó. Người Huế pha
+      mắm **ngọt hơn miền Nam một chút** và cay hơn — thả nguyên trái ớt xanh
+      dầm vào chén là đúng kiểu.
+    - >-
+      Hũ tôm chấy làm dư thì để dành: rắc lên **bánh bèo, bánh nậm**, trộn vào
+      chén cơm nóng, hay rắc lên dĩa **bánh ướt chả lụa** kiểu miền Nam cũng
+      hợp. Một mẻ tôm dùng cả tuần mà bữa nào cũng thấy đáng.
+  aside:
+    title: Trên dĩa bánh cuốn nhỏ
+    intro: "Bốn thứ làm nên dĩa bánh này:"
+    items:
+      - icon: shrimp
+        text: "**Tôm chấy bông tơi** — linh hồn của cả mâm bánh Huế."
+      - icon: roll
+        text: "**Cuốn nhỏ cỡ ngón tay** — cố ý nhỏ, để ăn quanh mâm."
+      - icon: onion
+        text: "**Hành phi + mỡ hành** — thoa lá bánh và rắc mặt dĩa."
+      - icon: bottle
+        text: "**Mắm chua ngọt kiểu Huế** — ngọt và cay hơn mắm miền Nam."
+
+faq:
+  - q: Tôm chấy hay tôm cháy mới đúng?
+    a: >-
+      **Tôm chấy.** Chữ "chấy" chỉ cái động tác giã rồi rang đảo cho tơi bông
+      ra. Nhiều nơi viết thành "tôm cháy" vì đọc gần giống nhau, nhưng món này
+      không có gì cháy hết — cháy là hỏng.
+  - q: Dùng tôm khô thay tôm tươi được không?
+    a: >-
+      Được, và nhiều nhà làm vậy cho tiện. Ngâm [[150|g]] tôm khô trong nước ấm
+      **30 phút** cho mềm, vắt ráo rồi giã. Vị **đậm và thơm hơn**, nhưng kém
+      ngọt thanh so với tôm tươi. Nhớ bớt muối vì tôm khô đã mặn sẵn.
+  - q: Tôm chấy để được bao lâu?
+    a: >-
+      Nguội hẳn rồi cho vào hũ kín thì **ngăn mát được cả tuần**, ngăn đá cả
+      tháng. Thấy hơi ỉu thì bắc chảo rang lại lửa nhỏ vài phút là bông trở lại.
+  - q: Không có cối giã thì sao?
+    a: >-
+      Cho tôm vào túi rồi **dùng chày hoặc chai thủy tinh cán nhẹ** — cách này
+      dễ kiểm soát hơn máy xay nhiều. Hoặc xé tôm bằng tay rồi dùng nĩa tán:
+      chậm nhưng ra sợi rất đẹp.
+  - q: Món này khác bánh ướt miền Nam chỗ nào?
+    a: >-
+      Khác cả cách dọn lẫn thứ phủ. Miền Nam để **lá bánh trần xếp dĩa**, phủ
+      chả lụa thái sợi và giá trụng, **chan mắm lên rồi trộn**. Huế thì **cuốn
+      lại thành cuốn nhỏ**, nhân là tôm chấy, **chấm** chứ không chan, và ăn
+      trong một mâm nhiều món.
+  - q: Rang mãi mà tôm không bông, cứ bết lại?
+    a: >-
+      Gần như chắc chắn là **giã quá nhuyễn**. Tôm thành bột thì không còn sợi
+      để tơi ra. Mẻ đó vẫn dùng được (rắc lên cơm, nấu canh), nhưng lần sau nhớ
+      giã tới lúc còn thấy sợi thì dừng. Lý do thứ hai, ít gặp hơn: **tôm còn
+      ướt quá** khi cho vào chảo — vắt ráo kỹ hơn.
+
+ticker:
+  - icon: shrimp
+    text: Tôm chấy bông tơi cam ruộm
+  - icon: flame
+    text: Lửa nhỏ nhất, đảo mười lăm phút
+  - icon: roll
+    text: Cuốn nhỏ cỡ ngón tay
+  - icon: bottle
+    text: Chén mắm Huế ngọt và cay
+  - icon: onion
+    text: Mỡ hành thoa từng lá bánh
+  - icon: basket
+    text: Một góc mâm bánh Huế

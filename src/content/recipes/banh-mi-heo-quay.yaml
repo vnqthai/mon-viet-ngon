@@ -1,0 +1,403 @@
+title: Bánh mì heo quay **hai lớp giòn chồng nhau, chan sốt tương đen**
+summary: >-
+  Ổ bánh duy nhất có **hai thứ giòn cùng lúc**: vỏ bánh mới hâm và mảng da heo
+  quay nổ rộp. Giữ được cả hai là nhờ một chén sốt tương đen sánh quánh — đủ đậm
+  để bám vào thịt mà không đủ loãng để làm ướt ruột bánh.
+region: Miền Nam
+category: Bánh mì
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-07-31
+time:
+  total: 25 phút
+  active: 25 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 75
+art: banh-mi-heo-quay
+heroEyebrow: Ổ bánh của xóm người Hoa…
+
+quick:
+  ingredients:
+    - Bánh mì ổ [[4|ổ]] · heo quay da giòn [[400|g]] (mua sẵn hoặc tự quay)
+    - >-
+      Sốt tương đen: tương đen [[3|muỗng canh]] · nước tương
+      [[1|muỗng canh]] · đường [[1|muỗng canh]] · tỏi băm [[3|tép]] · bột năng
+      [[1|muỗng cà phê]] pha nước · [[100|ml]] nước
+    - >-
+      Kèm ổ bánh: đồ chua cà rốt củ cải · dưa leo [[1|trái]] · ngò rí · hành lá
+      · tiêu · ớt xắt
+  steps:
+    - >-
+      Hâm heo quay trong lò **230°C 6–8 phút** cho da giòn lại — **đừng quay vi
+      sóng**, da sẽ mềm nhũn.
+    - >-
+      Nấu sốt: phi tỏi, cho tương đen + nước tương + đường + nước, sôi rồi rót
+      bột năng pha nước cho **sánh quánh như mật**.
+    - Hâm ổ bánh **200°C 4–5 phút**, rạch chừa sống lưng.
+    - >-
+      Thái heo quay **lát mỏng, lát nào cũng dính mảng da** — thái ngang thớ,
+      dao bén, một nhát dứt khoát.
+    - >-
+      Xếp thịt suốt chiều dài ổ, nhét đồ chua vắt ráo, dưa leo, ngò rí; rắc
+      tiêu, thả ớt.
+    - Chan sốt **rưới lên mặt thịt** rồi ăn liền — chan sớm là da hết giòn.
+  warning: >-
+    Chan sốt rồi để đó vài phút là **mảng da hút nước mềm ngay**. Sốt phải chan
+    sau cùng, ổ nào ăn thì chan ổ đó.
+
+flavor:
+  chua: 3
+  ngot: 5.5
+  man: 6.5
+  cay: 2
+  thom: 8
+flavorNote: >-
+  **Chuẩn vị:** cắn xuống nghe **hai tiếng giòn** — vỏ bánh vỡ trước, mảng da
+  heo quay răng rắc theo sau. Sốt tương đen ngọt đậm mà không lợ, quánh tới mức
+  quệt vào ngón tay không chảy xuống.
+
+storyEyebrow: Chuyện ổ bánh
+storyTitle: Khi ổ bánh Pháp **gặp miếng thịt quay Quảng Đông**
+story:
+  - >-
+    Ổ bánh mì heo quay là chỗ ba nền bếp chồng lên nhau rõ nhất trong một món
+    ăn Việt: **cái ổ bánh** đến từ Pháp, **miếng thịt quay ngũ vị hương** và
+    **chén tương đen** đến từ Quảng Đông, còn **đồ chua, ngò rí, ớt xắt** thì
+    là phần người mình thêm vào. Vùng Chợ Lớn ở Sài Gòn — nơi đông người Hoa —
+    là chỗ ba thứ đó gặp nhau sớm nhất.
+  - >-
+    Cái hay của nó là **hai lớp giòn xếp chồng**: vỏ bánh mới nướng và mảng da
+    heo quay đã nổ rộp. Hầu như không món bánh mì nào khác có được chuyện này,
+    và cũng vì vậy mà nó dễ hỏng nhất — chỉ cần chan sốt sớm vài phút, hoặc
+    hâm miếng thịt bằng lò vi sóng, là mất sạch một lớp.
+  - >-
+    Nên công thức này thật ra là **công thức của một chén sốt và hai lần hâm**.
+    Miếng heo quay thì mua ở lò quay cũng được, mà tự làm ở nhà cũng được — bếp
+    nhà giờ có lò nướng và nồi chiên không dầu, quay được miếng ba chỉ da nổ
+    không thua hàng.
+
+ingredientGroups:
+  - name: Thịt & ổ bánh
+    icon: bread
+    items:
+      - id: heoquay
+        name: Heo quay da giòn
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: >-
+          Mua ở lò quay thì chọn miếng **mặt da rỗ đều, vàng nâu**, không phồng
+          rộp vài chỗ. Tự làm thì xem công thức heo quay da giòn của trang
+      - id: obanhhq
+        name: Bánh mì ổ
+        icon: bread
+        color: gold
+        base: 4
+        unit: ổ
+        note: Vỏ mỏng ruột rỗng — hâm lại 200°C 4–5 phút trước khi kẹp
+  - name: Sốt tương đen
+    icon: bottle
+    items:
+      - id: tuongden
+        name: Tương đen
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Loại tương đặc sệt màu nâu sẫm bán chai ngoài chợ, làm từ đậu nành
+          lên men — chính là thứ tạo nên vị của ổ bánh này
+      - id: nuoctuonghq
+        name: Nước tương
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Cân lại độ mặn cho sốt, vì tương đen thiên ngọt
+      - id: duonghq
+        name: Đường
+        icon: jar
+        color: gold
+        base: 1
+        unit: muỗng canh
+        note: Nếm rồi hãy thêm — tương đen mỗi hãng ngọt một kiểu
+      - id: toihq
+        name: Tỏi băm
+        icon: garlic
+        base: 3
+        unit: tép
+        note: Phi vàng trước khi cho tương vào, sốt mới dậy mùi
+      - id: botnanghq
+        name: Bột năng pha nước
+        icon: spoon
+        qtyText: 1 muỗng cà phê bột năng · 2 muỗng canh nước
+        note: >-
+          Rót từ từ vào nồi đang sôi lăn tăn — sốt phải **quánh như mật**, đây
+          là chỗ giữ cho ruột bánh khỏi ướt
+  - name: Rau & đồ chua
+    icon: basket
+    items:
+      - id: dochuahq
+        name: Đồ chua cà rốt củ cải
+        icon: pod
+        qtyText: 1 chén nhỏ
+        note: Vắt thật ráo — nước chua là kẻ thù của cả hai lớp giòn
+      - id: dualeohq
+        name: Dưa leo
+        icon: pod
+        color: green
+        base: 1
+        unit: trái
+        note: Chẻ thanh dài bỏ ruột, nằm dọc theo ổ bánh
+      - id: ngorihq
+        name: Ngò rí + hành lá
+        icon: herb
+        color: green
+        qtyText: 1 nắm mỗi thứ
+        note: Ngò rí để nguyên nhánh; hành lá thái nhỏ rắc lên mặt sốt
+      - id: tieuothq
+        name: Tiêu + ớt xắt
+        icon: pepper
+        qtyText: Tiêu xay · vài lát ớt
+        note: Tiêu rắc lên thịt còn nóng mới dậy mùi
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **ổ bánh mì heo quay hai lớp giòn**
+stepsLead: >-
+  Món này nhanh, nhưng thứ tự thì không đảo được: **hâm thịt và bánh cùng lúc,
+  chan sốt sau cùng**. Ai chan sốt trước rồi mới đi hâm bánh là hỏng cả ổ.
+steps:
+  - title: Hâm heo quay cho da giòn lại
+    icon: flame
+    minutes: 8 phút
+    intro: "Miếng thịt để tủ lạnh thì da mềm lại — hâm đúng cách là giòn y như mới:"
+    bullets:
+      - label: "Để ra ngoài trước:"
+        text: >-
+          lấy miếng thịt khỏi tủ lạnh chừng 10 phút cho bớt lạnh, thấm khô mặt
+          da bằng khăn giấy.
+      - label: "Nướng lửa lớn, thời gian ngắn:"
+        text: >-
+          lò **230°C trong 6–8 phút**, để da hướng lên, rãnh trên. Nồi chiên
+          không dầu thì **200°C 5–6 phút**.
+      - label: "Không có lò:"
+        text: >-
+          úp mặt da xuống chảo khô nóng, **không đậy nắp**, ép nhẹ, chừng 2–3
+          phút cho da nổ lại rồi lật.
+    callout:
+      type: warn
+      text: >-
+        **Đừng quay lò vi sóng.** Vi sóng làm nóng bằng cách kích nước bên
+        trong, nên hơi ẩm đẩy ngược ra mặt da — miếng thịt nóng lên thật, mà da
+        thì mềm oặt, mất đúng thứ mình cần.
+    timer:
+      secs: 420
+      label: Hẹn giờ hâm thịt · 07:00
+      doneMsg: Da nổ lại rồi — lấy ra để nguội chút cho dễ thái!
+  - title: Nấu chén sốt tương đen
+    icon: bottle
+    minutes: 7 phút
+    bullets:
+      - label: "Phi tỏi:"
+        text: >-
+          chút dầu, [[3|tép]] tỏi băm, phi tới **vàng nhạt** thì hạ lửa ngay —
+          tỏi cháy là cả chén sốt đắng.
+      - label: "Cho tương:"
+        text: >-
+          [[3|muỗng canh]] tương đen + [[1|muỗng canh]] nước tương +
+          [[1|muỗng canh]] đường + [[100|ml]] nước. Khuấy tan, nấu sôi lăn tăn
+          2 phút cho tương chín hết mùi sống.
+      - label: "Nếm:"
+        text: >-
+          phải **ngọt đậm – mặn vừa**, hậu hơi bùi mùi đậu lên men. Lợ quá thì
+          thêm vài giọt nước tương; mặn quá thì thêm muỗng nước và chút đường.
+      - label: "Làm quánh:"
+        text: >-
+          rót từ từ [[1|muỗng cà phê]] bột năng pha 2 muỗng canh nước vào nồi
+          đang sôi, khuấy đều. Sốt đạt là **quệt lên ngón tay không chảy
+          xuống**.
+    callout:
+      type: tip
+      text: >-
+        Nấu dư một chén để tủ lạnh dùng cả tuần — cùng chén sốt này chấm heo
+        quay, quét lên cơm chiên, hay trộn vô mì xào đều hợp.
+  - title: Hâm ổ bánh
+    icon: bread
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Vẩy chút nước lên vỏ, nướng **200°C trong 4–5 phút**; hoặc áp chảo
+          khô đậy nắp lửa nhỏ 3 phút. Gõ nghe cồm cộp là đạt.
+      - text: >-
+          Rạch **một đường dọc chừa sống lưng**, banh nhẹ ổ bánh ra — đừng cắt
+          đứt đôi.
+    timer:
+      secs: 300
+      label: Hẹn giờ hâm bánh · 05:00
+      doneMsg: Vỏ giòn rồi — rạch bánh, chuẩn bị thái thịt!
+  - title: Thái thịt — lát nào cũng phải có da
+    icon: knife
+    minutes: 5 phút
+    bullets:
+      - label: "Để nguội bớt:"
+        text: >-
+          thịt vừa ra lò còn quá nóng thì thái bị nát. Đợi 3–4 phút cho miếng
+          thịt săn lại.
+      - label: "Dao bén, chặt dứt khoát:"
+        text: >-
+          đặt **ngửa mặt da lên**, chặt một nhát dứt khoát qua lớp da rồi kéo
+          xuống. Cưa qua cưa lại là mảng da vỡ vụn hết.
+      - label: "Lát mỏng, ngang thớ:"
+        text: >-
+          thái lát dày cỡ **5–7 mm, cắt ngang thớ nạc**, mỗi lát đều có đủ
+          **da – mỡ – nạc**. Lát chỉ có nạc không thì cắn vào khô và mất hết cái
+          hay của món.
+    callout:
+      type: tip
+      text: >-
+        Lỡ thái ra vài lát rớt mất mảng da thì đừng bỏ — xếp mấy lát đó xuống
+        dưới, còn lát có da xếp lên trên cùng, chỗ răng chạm vào trước.
+  - title: Ráp ổ bánh — chan sốt sau cùng
+    icon: basket
+    minutes: 3 phút
+    bullets:
+      - label: "Xếp thịt:"
+        text: >-
+          trải lát thịt **suốt chiều dài ổ**, gối lên nhau như lợp ngói, mảng
+          da hướng lên trên.
+      - label: "Rau, đồ chua:"
+        text: >-
+          nhét đồ chua đã vắt kiệt nước, thanh dưa leo, nhánh ngò rí; rắc tiêu
+          và hành lá thái nhỏ, thả vài lát ớt.
+      - label: "Chan sốt:"
+        text: >-
+          rưới **1–2 muỗng sốt tương đen dọc theo mặt thịt**, đúng lúc sắp ăn.
+          Chan lên mặt thịt chứ đừng quét vào ruột bánh.
+      - text: Bóp nhẹ ổ bánh cho nhân nén lại, gói giấy, ăn ngay khi còn nóng.
+    callout:
+      type: warn
+      text: >-
+        Ráp sẵn cả chồng bánh rồi mới chan là hỏng: mảng da hút nước sốt trong
+        chừng hai phút. **Ổ nào ăn thì chan ổ đó** — nhà đông người thì cứ để
+        chén sốt giữa bàn, ai ăn tự chan.
+    doneText: Ổ bánh mì heo quay nóng giòn — xong!
+
+tipsTitle: 6 bí quyết **giữ được cả hai lớp giòn**
+tipsLead: >-
+  Ổ bánh này chỉ có một bài toán, mà bài toán đó lặp lại ở mọi bước: **giòn gặp
+  ướt là thua**. Sáu điều dưới đây đều là cách hoãn cái gặp gỡ đó lại tới miếng
+  cắn cuối cùng.
+tips:
+  - icon: alert
+    title: Không bao giờ hâm heo quay bằng vi sóng
+    text: >-
+      Vi sóng kích nước bên trong miếng thịt, hơi ẩm đẩy ngược ra mặt da. Thịt
+      nóng thật, mà **da mềm oặt** — mất đúng thứ làm nên món. Lò 230°C 6–8
+      phút, hoặc úp mặt da xuống chảo khô.
+  - icon: spoon
+    title: Sốt phải quánh như mật
+    text: >-
+      Quệt lên ngón tay không chảy xuống là đạt. Sốt loãng thì thấm qua lát
+      thịt xuống ruột bánh, hai phút sau cả ổ **ướt nhẹp từ trong**.
+  - icon: clock
+    title: Chan sốt sau cùng, ổ nào ăn ổ đó
+    text: >-
+      Đây là quy tắc quan trọng nhất và cũng dễ quên nhất khi làm cho cả nhà.
+      Cứ để chén sốt giữa bàn — ráp sẵn hết rồi chan một lượt là **cả mâm cùng
+      mềm một lượt**.
+  - icon: knife
+    title: Lát nào cũng phải dính da
+    text: >-
+      Thái ngang thớ, dày 5–7 mm, mỗi lát đủ **da – mỡ – nạc**. Lát toàn nạc
+      cắn vào khô xác; lát toàn mỡ thì ngán. Ba tầng cùng lúc mới là miếng heo
+      quay.
+  - icon: garlic
+    title: Tỏi vàng nhạt là hạ lửa
+    text: >-
+      Cả chén sốt chỉ đắng vì đúng một chỗ: tỏi phi quá tay. Vàng nhạt là đổ
+      tương vào ngay — nhiệt còn lại trong chảo sẽ đẩy tỏi thêm một tông nữa.
+  - icon: pod
+    title: Đồ chua vắt tới lúc không nhỏ giọt
+    text: >-
+      Ổ bánh này có tới hai thứ giòn để mất, nên khâu vắt đồ chua càng phải kỹ
+      hơn mấy ổ khác. Ép trên rây, dùng cả lòng bàn tay mà ép.
+
+serve:
+  title: Dọn ổ bánh **kiểu sáng Chợ Lớn**
+  paras:
+    - >-
+      Ổ bánh mì heo quay là món ăn sáng cầm tay, gói giấy, ăn nóng. Ở nhà thì
+      dọn kiểu **mỗi người tự ráp**: rổ bánh vừa hâm, dĩa thịt vừa thái, chén
+      sốt, hũ đồ chua, dĩa rau — ai muốn đậm thì chan nhiều, muốn thanh thì bớt
+      sốt tăng ngò.
+    - >-
+      Uống kèm ly **cà phê sữa đá** hoặc trà nóng cho đỡ ngậy. Nhà có con nít
+      thì để riêng phần thịt không sốt, chan chút nước tương pha loãng là vừa
+      miệng.
+    - >-
+      Miếng heo quay còn dư thì đừng để phí: xếp dĩa với chén muối tiêu chanh
+      thành món **heo quay da giòn** đàng hoàng, hoặc thái lát xào cải chua,
+      hoặc cuốn bánh tráng với rau sống. Cùng một miếng thịt mà ba bữa ba món
+      khác nhau.
+  aside:
+    title: Bên cạnh ổ bánh
+    intro: "Mấy thứ giữ cho ổ bánh này đúng vị:"
+    items:
+      - icon: bottle
+        text: "**Chén sốt tương đen** — để giữa bàn, ai ăn tự chan."
+      - icon: pod
+        text: "**Đồ chua vắt kiệt** — chua giòn cắt cái béo của da và mỡ."
+      - icon: herb
+        text: "**Ngò rí nguyên nhánh** — mùi ngò với tương đen là cặp hợp lạ lùng."
+      - icon: pepper
+        text: "**Tiêu xay rắc lúc thịt còn nóng** — dậy mùi ngay trên mặt sốt."
+
+faq:
+  - q: Mua heo quay ngoài lò thì chọn miếng nào?
+    a: >-
+      Nhìn mặt da: phải **rỗ li ti đều khắp, màu vàng nâu**, không phồng rộp
+      vài chỗ to. Gõ nhẹ nghe cứng tay. Xin lấy phần **gần giữa tảng** cho tầng
+      mỡ nạc đều, và xin để **nguyên miếng, đừng chặt sẵn** — về nhà tự thái thì
+      lát nào cũng dính da.
+  - q: Tương đen là loại nào, có thay được không?
+    a: >-
+      Là thứ tương đặc sệt màu nâu sẫm làm từ đậu nành lên men, bán chai ngoài
+      chợ, cũng chính là tương chấm ăn kèm gỏi cuốn và phở. Thay bằng nước tương
+      thường thì mất hẳn cái đậm bùi — thà **giảm lượng tương đen** rồi tăng
+      nước cho vừa, còn hơn đổi loại khác.
+  - q: Làm sao cho ổ bánh mang đi làm mà vẫn giòn?
+    a: >-
+      Nói thẳng là không giữ được cả hai lớp giòn. Nhưng cứu được kha khá bằng
+      cách **để sốt riêng hộp nhỏ**, đồ chua riêng, chỉ ráp bánh với thịt thôi;
+      tới nơi mới chan và nhét đồ chua. Gói bằng **giấy**, đừng bọc ni lông kín.
+  - q: Không có lò nướng thì hâm thịt bằng gì?
+    a: >-
+      Chảo khô, lửa vừa, **úp mặt da xuống, không đậy nắp**, ép nhẹ bằng cái
+      vung nhỏ chừng 2–3 phút cho da nổ lại rồi lật mặt thịt xuống hơ thêm một
+      phút. Không đậy nắp là điều bắt buộc — đậy vào là hơi nước quẩn lại làm
+      mềm da.
+  - q: Ổ bánh này khác bánh mì thịt chỗ nào?
+    a: >-
+      Khác hẳn ở phần nền. **Bánh mì thịt** dựa vào bộ ba pate – bơ trứng – đồ
+      chua, béo mềm. Ổ heo quay thì **không pate, không bơ trứng**, thay bằng
+      chén sốt tương đen ngọt đậm, và có thêm mảng da giòn. Hai ổ khác nhau tới
+      mức ăn liền nhau cũng không thấy ngán.
+  - q: Sốt để tủ lạnh được bao lâu?
+    a: >-
+      **Cỡ một tuần** trong hũ đậy kín ngăn mát. Để lạnh thì sốt đặc lại, hâm
+      nóng hoặc châm chút nước khuấy đều là về như cũ. Nấu dư một chén rất
+      đáng — nó hợp với cơm chiên, mì xào và cả món heo quay chấm.
+
+ticker:
+  - icon: bread
+    text: Hai lớp giòn chồng nhau
+  - icon: meat
+    text: Mảng da nổ rộp
+  - icon: bottle
+    text: Sốt tương đen quánh như mật
+  - icon: garlic
+    text: Tỏi phi vàng nhạt
+  - icon: pod
+    text: Đồ chua vắt kiệt nước
+  - icon: alert
+    text: Chan sốt sau cùng, đừng chan sớm
