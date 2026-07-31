@@ -77,9 +77,15 @@ dựng, chỉ là sai:
 | nhãn timer `MM:SS` lệch với `secs` | món chưa gắn art riêng |
 | `occasions` rỗng · `[[số\|đơn vị]]` sai cú pháp | art khai rồi mà chưa món nào dùng |
 | | `viewBox` lệch `0 0 520 470` · `&` trần trong `<svg>` |
+| | **giá trị màu hỏng** — `fill`/`stroke`/`stop-color` không phải hex 6 · `none` · `rgb/rgba` · `url(#id)` |
 
 Cả hai đọc enum và từ vựng khoá **thẳng từ `content.config.ts`**, nên sửa schema
 là script tự theo, không phải cập nhật tay.
+
+> Phép kiểm **giá trị màu** thêm ở đợt 11, sau khi bốn lần gõ nhầm ký tự ngoài
+> ASCII vào mã hex (`#3E1F४8` — chữ số Devanagari trông gần giống chữ số Latin).
+> SVG vẫn parse, hình vẫn hiện, build xanh, `qa` sạch — **chỉ có màu là im lặng
+> rơi về mặc định**. Đúng loại lỗi mà file này sinh ra để bắt.
 
 ### `npm run link-audit` — chạy SAU build, mỗi khi thêm món
 

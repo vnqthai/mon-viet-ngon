@@ -15,6 +15,10 @@
  * Kiểm luôn bốn chỗ nối dễ đứt khi thêm món:
  *   art trong enum ⟷ ART_COMPONENT trong utils/art.ts ⟷ file component có thật
  *   ⟷ viewBox "0 0 520 470" (ArtImg đặt cứng width/height theo đó)
+ *
+ * Và soi GIÁ TRỊ MÀU (thêm ở đợt 11) — xem chú thích tại chỗ. Chủ đề chung của
+ * mọi phép kiểm trong file này: bắt đúng loại lỗi KHÔNG làm build đỏ, không làm
+ * trang vỡ, chỉ âm thầm ra sai màu. Loại lỗi đó không có ai báo ngoài file này.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -60,6 +64,24 @@ for (const f of artFiles) {
      (endpoint bỏ hết chú thích), còn dấu & thì phải soi ở đây. */
   if (/&(?!(#\d+|#x[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);)/.test(body))
     fail(`${f}: có dấu & trần trong <svg> — file .svg rời là hỏng cả hình, phải viết &amp;`);
+
+  /* GIÁ TRỊ MÀU — bắt một lỗi CÂM HOÀN TOÀN mà phép kiểm cũ không thấy: ký tự
+     ngoài ASCII lọt vào mã hex (`#3E1F४8`, `#B79A६E` — chữ số Devanagari trông
+     gần giống chữ số Latin). SVG vẫn parse, hình vẫn hiện, build xanh, qa sạch
+     — chỉ có màu là im lặng rơi về mặc định. Đợt 11 dính bốn lần trong một phiên
+     và chỉ phát hiện nhờ tình cờ soi lại bằng tay.
+     Bốn dạng dưới đây phủ đúng 100% giá trị đang có trong các file art, nên phép
+     kiểm này chặt mà không báo nhầm. Nhà này viết hex 6 ký tự; hex 3 vẫn cho qua
+     vì SVG chấp nhận, còn màu đặt tên (`red`, `white`) thì cố ý KHÔNG cho —
+     bảng màu nằm ở tokens.css, đừng đẻ tên màu rời rạc trong hình. */
+  const COLOR_OK = /^(#[0-9a-fA-F]{3}|#[0-9a-fA-F]{6}|none|rgba?\([0-9,.\s]*\)|url\(#[A-Za-z0-9_-]+\))$/;
+  for (const m of body.matchAll(/\b(fill|stroke|stop-color)="([^"]*)"/g)) {
+    if (COLOR_OK.test(m[2])) continue;
+    const why = /[^\x00-\x7F]/.test(m[2])
+      ? 'có ký tự ngoài ASCII lọt vào mã hex — màu sẽ âm thầm rơi về mặc định'
+      : 'phải là hex 6 ký tự · none · rgb/rgba · url(#id); màu đặt tên thì không dùng ở đây';
+    fail(`${f}: ${m[1]}="${m[2]}" ${why}`);
+  }
 
   const seenHere = new Set();
   for (const id of ids) {
