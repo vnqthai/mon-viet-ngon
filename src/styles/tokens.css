@@ -28,14 +28,15 @@
   --font-script:"Dancing Script","Segoe Script",cursive;
 
   /* ---- Nền thẻ theo HỌ MÓN ----------------------------------------------
-     Năm họ gom theo cách ăn, để lưới danh mục đọc ra thành từng nhóm.
+     Sáu họ gom theo cách ăn, để lưới danh mục đọc ra thành từng nhóm.
      Kiểm bằng: node tools/contact-sheet.mjs
 
        Chan & húp    Món nước · Canh · Lẩu · Cháo
        Mặn đưa cơm   Kho · Xào · Hấp
        Cuốn & trộn   Gỏi · Cuốn · Bún trộn
-       Cơm & bánh    Cơm · Bánh
+       Cơm & bánh    Cơm · Bánh · Bánh mì
        Lửa           Nướng · Chiên
+       Ngọt & mát    Chè
 
      CỐ Ý không đổi theo nền sáng/tối: đây là màu định danh, một món kho phải
      đọc ra cùng một họ ở cả hai chế độ. */
@@ -49,6 +50,12 @@
   --fam-tron:#5B7A2E;  --fam-tron-deep:#3B521C;
   --fam-banh:#A8801A;  --fam-banh-deep:#70530C;
   --fam-lua:#9A3D2B;   --fam-lua-deep:#65241A;
+  /* "Ngọt & mát" là họ DUY NHẤT tách theo vị chứ không theo cách ăn — nên nó
+     cũng phải là mảng màu lạc ra khỏi năm họ kia thì mới làm đúng việc. Tím sen
+     là hệ màu duy nhất chưa dùng: bốn họ ấm (nâu · ô liu · vàng · gạch) cộng
+     một teal, không họ nào chạm quãng tím. Ly chè đứng giữa lưới món mặn là
+     nhận ra liền, khỏi đọc chữ. */
+  --fam-ngot:#5E3A6E;  --fam-ngot-deep:#3B2247;
 
   /* Quầng sáng sau hình món — nhấc hình khỏi nền cùng sắc (tộ đất trên nền nâu).
      Đặt ở đây thay vì sửa từng file SVG: một chỗ, mọi món, mọi họ. */

@@ -1,0 +1,329 @@
+title: Cua hấp bia **thịt ngọt chắc, không rụng càng**
+summary: >-
+  Cua biển ướp lạnh cho ngủ yên rồi mới hấp — **càng không rụng, gạch không
+  chảy** — xếp trên giàn sả gừng, hơi bia bốc lên khử tanh và giữ nguyên vị
+  ngọt của thịt. Chấm muối tiêu chanh là xong một bàn.
+region: Cả nước
+category: Hấp
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 45 phút
+  active: 25 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 95
+art: cua-hap-bia
+heroEyebrow: Bí quyết nằm ở hai chục phút trong ngăn đá…
+
+quick:
+  ingredients:
+    - Cua biển sống [[1.2|kg]] — chừng 3–4 con, còn buộc dây, càng cựa mạnh
+    - Bia [[330|ml]] — một lon là đủ, đổ dưới đáy nồi
+    - Sả [[5|cây]] đập dập · gừng [[1|củ]] thái lát dày
+    - "Chấm: muối [[1|muỗng cà phê]] · tiêu xay [[1|muỗng cà phê]] · chanh [[2|trái]] · ớt"
+  steps:
+    - Để **nguyên dây buộc**, cho cua vào ngăn đá **[[20|phút]]** — cua ngủ yên thì hấp không giãy, không rụng càng.
+    - Lấy ra, dùng **bàn chải chà sạch mai, yếm và kẽ chân**, xả nước, cắt bỏ dây.
+    - Đổ [[330|ml]] bia vào đáy nồi, xếp sả đập dập và gừng lát lên xửng hấp.
+    - Xếp cua lên trên, **để ngửa bụng lên trời** — gạch nằm yên trong mai, không chảy mất.
+    - Đậy nắp, đun **lửa lớn tới khi bia sôi**, rồi hạ lửa vừa hấp **15–18 phút**.
+    - Mai chuyển **đỏ cam đều, không còn mảng xám** là chín. Đừng hấp lâu hơn.
+    - Pha muối tiêu chanh, dọn nóng.
+  warning: >-
+    Thả cua sống thẳng vào nồi nóng là nó giãy và **tự rụng hết càng**, thịt
+    trong càng chảy ra ngoài. Hai chục phút trong ngăn đá giải quyết triệt để
+    chuyện đó — bước này không có cách thay thế.
+
+flavor:
+  chua: 1.5
+  ngot: 7
+  man: 4
+  cay: 2.5
+  thom: 7.5
+flavorNote: >-
+  **Chuẩn con cua hấp:** mai **đỏ cam đều**, thịt **trắng ngà, tách khỏi vỏ
+  thành thớ chắc** chứ không nhão bết; gạch còn **nguyên khối trong mai**,
+  màu cam sậm và béo. Không mùi tanh — chỉ thoảng mùi sả gừng.
+storyEyebrow: Chuyện con cua
+storyTitle: Bí quyết không nằm ở nồi hấp, **nằm ở ngăn đá**
+story:
+  - >-
+    Ai từng hấp cua ở nhà đều gặp cảnh này: mở nắp nồi ra, mấy cái càng nằm
+    lăn lóc một góc, con cua thì trơ thân. Lý do đơn giản — cua sống gặp nóng
+    thì giãy, mà khớp càng của nó vốn có cơ chế **tự rụng khi bị kích động**.
+    Càng rụng thì nước ngọt trong càng chảy hết ra nồi.
+  - >-
+    Cách chữa lại nằm ở chỗ chẳng ai nghĩ tới: **cho cua vào ngăn đá chừng hai
+    chục phút**. Lạnh làm con cua lịm đi, thả vào nồi hấp là nằm yên. Càng
+    nguyên vẹn, gạch nguyên khối, thịt giữ được hết vị ngọt. Một mẹo nhỏ mà
+    thay đổi hẳn kết quả.
+  - >-
+    Còn bia trong nồi thì làm hai việc: hơi bia bốc lên **cuốn mùi tanh đi**,
+    và cùng với sả gừng để lại một mùi thơm nhẹ trên vỏ. Đừng đổ bia ngập cua
+    — chỉ cần một lớp dưới đáy, vì đây là món **hấp** chứ không phải luộc. Cua
+    ngâm trong nước là thịt nhạt ngay.
+
+ingredientGroups:
+  - name: Cua biển
+    icon: shrimp
+    items:
+      - id: cua
+        name: Cua biển sống
+        icon: shrimp
+        color: red
+        base: 1.2
+        unit: kg
+        note: Còn buộc dây, càng cựa mạnh khi chạm vào — cua yếu là thịt đã xốp
+      - id: bia
+        name: Bia
+        icon: bottle
+        base: 330
+        unit: ml
+        note: Một lon bất kỳ; chỉ đổ dưới đáy nồi, đừng để ngập cua
+  - name: Giàn sả gừng
+    icon: stem
+    items:
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 5
+        unit: cây
+        note: Đập dập, cắt khúc, xếp thành giàn cho cua nằm lên
+      - id: gung
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: củ
+        note: Thái lát dày, rải xen với sả
+  - name: Chén muối tiêu chanh
+    icon: lime
+    items:
+      - id: muoitieu
+        name: Muối + tiêu xay
+        icon: jar
+        qtyText: 1 muỗng cà phê muối · 1 muỗng cà phê tiêu
+        note: Tiêu xay dối, còn hạt vỡ thì thơm hơn tiêu xay mịn
+      - id: chanh
+        name: Chanh
+        icon: lime
+        color: green
+        base: 2
+        unit: trái
+        note: Vắt lúc sắp ăn — pha sớm là chén chấm đắng
+      - id: ot
+        name: Ớt hiểm
+        icon: chili
+        color: red
+        base: 3
+        unit: trái
+        note: Băm nhuyễn hoặc giã chung với muối tiêu
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **dĩa cua hấp nguyên càng**
+stepsLead: >-
+  Bước đầu là bước quan trọng nhất và cũng nhàn nhất — cho cua vào ngăn đá rồi
+  đi làm việc khác. Ba bước sau chỉ là chà rửa, xếp nồi và canh giờ.
+steps:
+  - title: Ướp lạnh cho cua ngủ
+    icon: clock
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          **Để nguyên dây buộc**, cho cả con vào ngăn đá **[[20|phút]]** (hoặc
+          vùi trong thau nước đá chừng 15 phút).
+      - text: >-
+          Lấy ra thấy cua **nằm im, không cựa** là được. Còn cựa mạnh thì cho
+          lại thêm 5 phút.
+      - text: >-
+          Đừng để quá 30 phút — cua đông cứng thì thịt bị xốp sau khi hấp.
+    callout:
+      type: tip
+      text: >-
+        Đây là mẹo giải quyết luôn ba vấn đề cùng lúc: **cua không giãy nên
+        không rụng càng**, dễ chà rửa hơn hẳn, và người làm cũng đỡ sợ. Nếu
+        thích cách nhanh gọn thì dùng **dao nhọn đâm dứt khoát vào phần yếm
+        tam giác dưới bụng** — cua đi ngay, không giãy.
+  - title: Chà rửa thật kỹ
+    icon: knife
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Dùng **bàn chải cứng chà mai, yếm và nhất là kẽ chân** — chỗ đó bám
+          nhiều bùn cát nhất.
+      - text: >-
+          Xả lại nhiều lần dưới vòi nước cho tới khi nước trong.
+      - text: >-
+          Cắt bỏ dây buộc **sau khi rửa xong**, ngay trước lúc xếp vào nồi.
+    callout:
+      type: warn
+      text: >-
+        Không chà kỹ kẽ chân thì hấp xong cả nồi có mùi bùn, và cắn miếng thịt
+        lại nghe sạn. Đây là việc buồn tay nhất của món nhưng bỏ qua là hỏng
+        hết.
+  - title: Xếp nồi — cua nằm ngửa
+    icon: pot
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Đổ [[330|ml]] bia vào **đáy nồi**, đặt xửng hấp lên trên — mực bia
+          phải **thấp hơn đáy xửng**, không chạm tới cua.
+      - text: >-
+          Xếp sả đập dập và gừng lát thành một lớp trên xửng, làm giàn cho cua
+          nằm.
+      - text: >-
+          Xếp cua lên trên, **ngửa bụng lên trời**. Nằm ngửa thì gạch đọng lại
+          trong mai; nằm sấp là gạch chảy hết xuống nồi.
+    callout:
+      type: warn
+      text: >-
+        Đây là món **hấp**, không phải luộc bia. Đổ bia ngập cua thì thịt nhả
+        hết chất ngọt vào nước, con cua ăn nhạt và bã. Một lớp mỏng dưới đáy là
+        đủ — hơi bia mới là thứ làm việc.
+  - title: Hấp & pha chén chấm
+    icon: flame
+    minutes: 18 phút
+    bullets:
+      - text: >-
+          Đậy nắp, **lửa lớn cho bia sôi** rồi hạ xuống lửa vừa, hấp
+          **15–18 phút** với cua cỡ [[300|g]] một con. Con to hơn thì cộng
+          thêm 3–4 phút.
+      - text: >-
+          Cua chín khi mai **đỏ cam đều, không còn mảng xám**, và mở nắp là
+          dậy mùi thơm ngọt.
+      - text: >-
+          Trong lúc chờ, giã muối, tiêu và ớt với nhau, **vắt chanh vào ngay
+          trước khi dọn** — vắt sớm là chén chấm đắng.
+      - text: >-
+          Bày cua ra dĩa, dọn nóng cùng chén muối tiêu chanh và cái kẹp càng.
+    callout:
+      type: warn
+      text: >-
+        Hấp quá tay là hỏng theo kiểu không cứu được: **thịt tách khỏi vỏ, khô
+        xác và mất ngọt**. Canh giờ cho đúng, thà thiếu một phút — thiếu thì
+        đậy lại hấp thêm, thừa thì chịu.
+    timer:
+      secs: 1080
+      label: Hẹn giờ hấp cua · 18:00
+      doneMsg: Mai đỏ cam đều rồi — tắt bếp, dọn nóng ngay!
+    doneText: Tách mai thấy gạch còn nguyên khối — xong!
+
+tipsTitle: 6 bí quyết cho **cua nguyên càng, thịt chắc ngọt**
+tipsLead: >-
+  Cua là nguyên liệu đắt, nên món này đáng bỏ công nhớ mấy điều dưới đây —
+  sai một chỗ là mất tiền oan.
+tips:
+  - icon: clock
+    title: Ngăn đá hai chục phút — mẹo quan trọng nhất
+    text: >-
+      Cua lịm đi thì vào nồi nằm yên, **càng không rụng, thịt không chảy**.
+      Đây là khác biệt lớn nhất giữa dĩa cua nhà hàng và dĩa cua nấu ở nhà,
+      mà lại là bước dễ nhất trong cả món.
+  - icon: shrimp
+    title: Chọn cua chắc, đừng chọn cua to
+    text: >-
+      Bấm nhẹ vào **yếm** (phần tam giác dưới bụng): thấy **cứng, không lún**
+      là cua chắc thịt. Lún mềm là cua ốp, hấp xong toàn nước. Xem thêm cái
+      **càng cựa có mạnh không** — cua yếu ớt là đã để lâu.
+  - icon: pot
+    title: Hấp, không luộc
+    text: >-
+      Bia chỉ đổ một lớp dưới đáy, **không được chạm tới cua**. Ngâm trong
+      nước là thịt nhả hết chất ngọt ra ngoài. Cùng lý do đó, đừng mở nắp
+      giữa chừng nhiều lần — mỗi lần mở là mất hơi và kéo dài thời gian.
+  - icon: flame
+    title: Nằm ngửa để giữ gạch
+    text: >-
+      Con cua nằm sấp thì gạch chảy xuống nồi hết, tách mai ra chỉ còn một
+      khoảng trống. **Ngửa bụng lên trời** thì gạch đọng nguyên khối trong
+      mai — với cua gạch, đó chính là phần đáng tiền nhất.
+  - icon: lime
+    title: Vắt chanh vào chén chấm sát giờ ăn
+    text: >-
+      Muối tiêu ớt giã trước thì được, nhưng **chanh phải vắt ngay trước khi
+      dọn**. Vắt sớm để lâu là chén chấm chuyển đắng, phí cả dĩa cua. Ai thích
+      thì thay bằng **muối ớt xanh** giã với lá chanh.
+  - icon: bulb
+    title: Đừng bỏ phần nước đọng trong mai
+    text: >-
+      Khi tách mai, chỗ nước ngọt đọng lại bên trong là **tinh túy của con
+      cua**. Nghiêng mai húp trực tiếp, hoặc rưới lại lên phần thịt. Đổ đi là
+      bỏ mất thứ ngon nhất mà chẳng ai để ý.
+
+serve:
+  title: Dĩa cua nóng giữa bàn — **món ăn bằng tay, ăn chậm**
+  paras:
+    - >-
+      Cua hấp là món **phải ăn nóng và ăn bằng tay**. Dọn kèm cái kẹp càng,
+      cái xiên nhỏ để khều thịt trong ngóc ngách, và một tô nước ấm có vắt
+      chanh để rửa tay. Bày giấy lót bàn cho thoải mái — món này không có
+      cách ăn nào lịch sự hết.
+    - >-
+      Thứ tự ăn quen thuộc: **tách mai húp phần nước ngọt và gạch trước**, rồi
+      mới tới thân, cuối cùng là càng — để dành phần thịt chắc nhất sau cùng.
+      Bên cạnh nên có dĩa rau răm hoặc vài lát dưa leo cho đỡ ngán.
+  aside:
+    title: Trên bàn nên có
+    intro: "Bốn thứ dọn cùng dĩa cua:"
+    items:
+      - icon: lime
+        text: "**Chén muối tiêu chanh** — vắt chanh sát giờ ăn."
+      - icon: knife
+        text: "**Kẹp càng và xiên nhỏ** — thiếu là khều thịt không ra."
+      - icon: herb
+        text: "**Rau răm hoặc dưa leo** — cắt cái ngậy, ăn được lâu hơn."
+      - icon: drop
+        text: "**Tô nước ấm vắt chanh** — để rửa tay giữa chừng."
+
+faq:
+  - q: Làm sao chọn được cua chắc thịt, không bị ốp?
+    a: >-
+      Bấm vào **yếm dưới bụng**: cứng, không lún là chắc. Bóp nhẹ phần **đầu
+      càng** cũng vậy — lún mềm là cua ốp. Thêm hai dấu hiệu: cua còn **cựa
+      mạnh khi chạm** và **cầm lên thấy nặng tay so với kích thước**. Cua ốp
+      hấp xong chỉ còn nước, mất tiền oan.
+  - q: Cua thịt và cua gạch, nên mua loại nào?
+    a: >-
+      **Cua gạch** (con cái, yếm to tròn) có khối gạch cam béo trong mai — đắt
+      hơn và là phần nhiều người mê nhất. **Cua thịt** (con đực, yếm nhọn) thì
+      càng to, thịt nhiều và chắc hơn. Mua cả hai loại mỗi thứ vài con là bàn
+      nào cũng vui.
+  - q: Không có bia thì hấp bằng gì?
+    a: >-
+      Hấp bằng **nước lọc với sả gừng** vẫn ngon — bia chỉ giúp khử tanh và
+      thêm chút mùi thơm, không phải thứ quyết định. Hoặc thay bằng **nước dừa
+      tươi**, con cua sẽ ngọt hơn một chút. Điều quan trọng vẫn là lượng nước
+      chỉ đủ dưới đáy nồi.
+  - q: Hấp bao lâu là đúng với cua to?
+    a: >-
+      Tính theo con: cỡ **[[300|g]] mỗi con thì 15–18 phút**; con **[[500|g]]
+      trở lên thì 20–22 phút**. Dấu hiệu chắc chắn nhất vẫn là **mai đỏ cam
+      đều, không còn mảng xám**. Nghi ngờ thì tắt bếp, tách thử một con — chưa
+      tới thì đậy lại hấp thêm 3 phút.
+  - q: Cua hấp xong bị tanh?
+    a: >-
+      Do **chà rửa chưa kỹ**, nhất là kẽ chân và mặt yếm. Cũng có thể do cua đã
+      để lâu — cua càng ươn càng tanh, và không gia vị nào cứu được. Lần sau
+      chà bằng bàn chải cứng và mua cua còn cựa mạnh.
+  - q: Ăn không hết thì cất thế nào?
+    a: >-
+      Để nguội, cất hộp kín trong ngăn mát, **dùng trong 1 ngày**. Hâm lại
+      bằng cách hấp lại 5 phút chứ đừng quay lò vi sóng — vi sóng làm thịt cua
+      dai như cao su. Hoặc gỡ thịt ra làm **cháo cua, miến xào cua** cho bữa
+      sau, còn ngon hơn hấp lại.
+
+ticker:
+  - icon: clock
+    text: Ngăn đá hai chục phút
+  - icon: shrimp
+    text: Càng nguyên, gạch nguyên khối
+  - icon: stem
+    text: Nằm trên giàn sả gừng
+  - icon: bottle
+    text: Bia chỉ đổ dưới đáy nồi
+  - icon: lime
+    text: Muối tiêu chanh vắt sát giờ
+  - icon: flame
+    text: Mai đỏ cam đều là chín

@@ -1,0 +1,378 @@
+title: Lẩu dê nhúng mẻ **chua thanh kiểu Ninh Bình**
+summary: >-
+  Thịt dê thái mỏng nhúng vào **nồi nước lẩu chua dịu bằng mẻ**, ăn với cải
+  xanh, rau cần và tía tô — bản lẩu dê miền Bắc, không béo chao mà chua thanh,
+  càng ăn càng thấy nhẹ miệng.
+region: Miền Bắc
+category: Lẩu
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 2 giờ 30 phút
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 89
+art: lau-de-me
+heroEyebrow: Xứ núi đá, con dê và hũ mẻ…
+
+quick:
+  ingredients:
+    - Thịt dê [[800|g]] — nửa thái mỏng để nhúng, nửa để nguyên miếng hầm
+    - Xương heo [[500|g]] — hầm [[1.5|tiếng]] lấy nước ngọt nền
+    - Mẻ [[4|muỗng canh]] — lọc qua rây, chỉ lấy nước
+    - Sả [[4|cây]] · gừng [[1|củ]] · riềng [[1|khúc]] · hành tím [[5|củ]]
+    - Cà chua [[3|trái]] · hành tây [[1|củ]]
+    - Rau nhúng — cải xanh, rau cần, tía tô · bún tươi
+    - "Chén chấm: chao tán hoặc tương bần + gừng băm + ớt"
+  steps:
+    - Bóp dê với **gừng giã + rượu trắng**, xả sạch, rồi chần qua nước sôi có gừng.
+    - Hầm xương heo [[1.5|tiếng]] lấy nước dùng, vớt xương bỏ, giữ lại nước trong.
+    - Phi thơm sả gừng riềng hành, **xào phần dê miếng cho săn**, trút vào nồi nước dùng, hầm mềm.
+    - Lọc mẻ qua rây lấy nước, **nêm vào từng chút một** — chua dịu là dừng, đừng gắt.
+    - Thả cà chua bổ múi cau và hành tây cắt múi, nêm lại cho vừa.
+    - Phần dê còn lại **thái lát mỏng ngang thớ**, bày dĩa để nhúng tại bàn.
+    - Bắc nồi lên bếp giữa bàn — nhúng thịt tái, nhúng rau, chấm chao gừng, ăn với bún.
+  warning: >-
+    Đổ mẻ thẳng vào nồi mà không lọc là nồi lẩu đầy cặn lợn cợn, nhìn đục và
+    ăn sạn. **Hoà mẻ với chút nước dùng rồi lọc qua rây**, chỉ lấy phần nước
+    chua — bã bỏ đi.
+
+flavor:
+  chua: 6
+  ngot: 5
+  man: 6
+  cay: 2.5
+  thom: 8
+flavorNote: >-
+  **Chuẩn nồi lẩu:** nước lẩu **trong, chua dịu ở hậu vị** chứ không chua gắt
+  đầu lưỡi; lát thịt dê nhúng tái **còn hồng giữa lát, mềm ngọt**; mùi sả gừng
+  riềng dậy lên trước, mùi dê chỉ còn thoang thoảng.
+storyEyebrow: Chuyện nồi lẩu miền Bắc
+storyTitle: Cùng con dê, **hai miền nấu ngược nhau**
+story:
+  - >-
+    Miền Nam gặp thịt dê thì nghĩ ngay tới chao: béo, đậm, thơm nồng. Miền Bắc
+    — mà rõ nhất là vùng núi đá Ninh Bình, nơi con dê là đặc sản — lại đi
+    đường ngược: lấy **mẻ** làm chua nồi nước, để vị dê nổi lên trên một nền
+    thanh chứ không nằm dưới một lớp béo.
+  - >-
+    **Mẻ** là cơm nguội ủ lên men, chua dịu và thơm mùi men gạo — thứ gia vị
+    làm chua rất riêng của bếp Bắc, khác hẳn cái chua sắc của chanh hay giấm.
+    Cái chua của mẻ **đến sau, ở hậu vị**, nên húp miếng nước lẩu thấy nhẹ
+    miệng chứ không nhăn mặt.
+  - >-
+    Cách ăn cũng khác: thay vì hầm nhừ hết cả nồi, người ta chừa lại một phần
+    thịt **thái lát mỏng để nhúng tái ngay tại bàn**. Lát thịt vừa chín tới,
+    còn hồng ở giữa, mềm và ngọt — gắp ra chấm chao gừng, kèm cọng rau cần
+    giòn sần sật.
+
+ingredientGroups:
+  - name: Thịt dê & nước dùng
+    icon: meat
+    items:
+      - id: thitde
+        name: Thịt dê
+        icon: meat
+        base: 800
+        unit: g
+        note: Nhờ hàng để riêng — nửa miếng để hầm, nửa khối nạc đẹp để thái nhúng
+      - id: xuongheo
+        name: Xương heo
+        icon: pot
+        base: 500
+        unit: g
+        note: Xương ống hoặc xương đuôi — hầm lấy nước ngọt nền cho nồi lẩu
+      - id: gung
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: củ
+        note: Một phần giã bóp thịt, một phần thái sợi cho vào chén chấm
+      - id: ruou
+        name: Rượu trắng
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        note: Bóp cùng gừng để khử mùi — bước bắt buộc với thịt dê
+  - name: Nồi nước lẩu
+    icon: pot
+    items:
+      - id: me
+        name: Mẻ
+        icon: jar
+        base: 4
+        unit: muỗng canh
+        note: Hũ mẻ bán ở hàng khô ngoài chợ — nhớ lọc qua rây, chỉ lấy nước
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 4
+        unit: cây
+        note: Đập dập, cắt khúc — thả nồi từ đầu
+      - id: rieng
+        name: Riềng
+        icon: ginger
+        base: 1
+        unit: khúc
+        note: Thái lát mỏng; riềng thơm hơn gừng và hợp với thịt dê hơn hẳn
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 5
+        unit: củ
+        note: Băm nhuyễn phi thơm làm nền
+      - id: cachua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 3
+        unit: trái
+        note: Bổ múi cau, thả sau — cho màu và cái chua ngọt đi cùng mẻ
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Cắt múi cau, thả cuối cho ngọt nước
+  - name: Rau nhúng & chén chấm
+    icon: lettuce
+    items:
+      - id: rau
+        name: Cải xanh · rau cần · tía tô
+        icon: lettuce
+        color: green
+        base: 600
+        unit: g
+        note: Ba thứ này là bộ ba đúng bài — cải đắng nhẹ, cần giòn, tía tô thơm
+      - id: bun
+        name: Bún tươi
+        icon: noodle
+        base: 600
+        unit: g
+        note: Bún rối, chan nước lẩu ăn cuối bữa
+      - id: chenchao
+        name: Chao tán (hoặc tương bần) + gừng băm
+        icon: bottle
+        qtyText: 3 viên chao · gừng băm · ớt
+        note: Gừng băm trong chén chấm là chi tiết riêng của món dê miền Bắc
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi lẩu dê chua thanh**
+stepsLead: >-
+  Việc nặng nhất là hầm xương, mà hầm xương thì chỉ tốn thời gian chứ không
+  tốn tay. Chỗ cần để ý là lúc nêm mẻ — cho từng chút và nếm liên tục.
+steps:
+  - title: Khử mùi thịt dê
+    icon: ginger
+    minutes: 20 phút
+    bullets:
+      - label: "Bóp:"
+        text: >-
+          bóp cả [[800|g]] thịt với gừng giã + [[3|muỗng canh]] rượu trắng
+          trong [[10|phút]], xả nước thật sạch.
+      - label: "Chần:"
+        text: >-
+          đun nồi nước sôi có vài lát gừng, chần thịt **2 phút**, vớt ra xả
+          nước lạnh, để ráo. Nước chần đổ bỏ.
+      - label: "Chia hai phần:"
+        text: >-
+          phần miếng đem hầm, phần khối nạc đẹp cho vào ngăn đá **15 phút**
+          cho hơi cứng lại — lát nữa thái mới mỏng đều được.
+    callout:
+      type: tip
+      text: >-
+        Ướp lạnh khối thịt trước khi thái là mẹo chung của mọi món nhúng: thịt
+        hơi đông thì dao đi ngọt, lát nào cũng mỏng như nhau, nhúng vào là
+        chín cùng lúc.
+  - title: Hầm xương lấy nước nền
+    icon: pot
+    minutes: 90 phút
+    bullets:
+      - text: >-
+          Chần xương heo qua nước sôi rồi xả sạch — bước này bỏ hết bọt bẩn,
+          nước dùng mới trong.
+      - text: >-
+          Hầm xương với [[2.5|lít]] nước, lửa liu riu **1,5 tiếng**, hớt bọt
+          trong 15 phút đầu.
+      - text: Vớt bỏ xương, giữ lại phần nước trong.
+    callout:
+      type: warn
+      text: >-
+        Sôi bùng suốt buổi là nước đục ngầu, chua thế nào cũng không cứu được
+        cái nhìn. Giữ **sôi lăn tăn** từ đầu tới cuối.
+    timer:
+      secs: 5400
+      label: Hẹn giờ hầm xương · 90:00
+      doneMsg: Nước xương trong và ngọt rồi — vớt xương ra thôi!
+  - title: Xào thơm & hầm phần dê miếng
+    icon: flame
+    minutes: 45 phút
+    bullets:
+      - text: >-
+          Phi thơm hành tím băm, cho **sả đập dập và riềng thái lát** vào đảo
+          tới khi dậy mùi.
+      - text: >-
+          Trút phần dê miếng vào **xào săn mặt**, rồi đổ hết vào nồi nước xương.
+      - text: >-
+          Hầm lửa nhỏ **40 phút** tới khi miếng dê mềm mà còn thớ — xiên đũa
+          thấy nhẹ tay nhưng chưa rã ra là được.
+  - title: Nêm mẻ — cho từng chút, nếm liên tục
+    icon: jar
+    minutes: 10 phút
+    intro: "Bước quyết định vị của cả nồi:"
+    bullets:
+      - text: >-
+          Hoà [[4|muỗng canh]] mẻ với một muôi nước dùng nóng cho tan, rồi
+          **lọc qua rây** — chỉ lấy phần nước, bã bỏ đi.
+      - text: >-
+          Rót nước mẻ vào nồi **từng nửa muôi một**, khuấy đều rồi nếm. Dừng
+          lại khi thấy **chua dịu ở hậu vị**, chưa tới mức chua đầu lưỡi.
+      - text: >-
+          Thả cà chua bổ múi cau và hành tây cắt múi, nấu thêm 5 phút cho cà
+          chua mềm ra màu.
+      - text: >-
+          Nêm nước mắm và chút đường cho tròn vị. Nếm lần cuối: **ngọt xương —
+          chua mẻ — thơm sả riềng**, ba tầng rõ ràng.
+    callout:
+      type: warn
+      text: >-
+        Mẻ mỗi hũ một độ chua, có hũ gắt gấp đôi hũ khác — nên **không có con
+        số đúng cho mọi nhà**. Cứ cho ít rồi thêm; lỡ chua quá thì phải thêm
+        nước và nêm lại từ đầu, mất công hơn nhiều.
+  - title: Thái lát & dọn bàn
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Lấy khối thịt trong ngăn đá ra, **thái lát thật mỏng ngang thớ**,
+          bày dĩa xếp vòng.
+      - text: >-
+          **Chén chấm:** tán chao với chút nước, thêm **gừng băm** và ớt —
+          gừng trong chén chấm là chi tiết đặc trưng của món dê ngoài Bắc.
+          Nhà nào quen tương bần thì dùng tương bần cũng đúng bài.
+      - text: >-
+          Bắc nồi lên bếp giữa bàn để sôi lăn tăn. **Nhúng lát thịt chừng
+          15–20 giây, còn hồng giữa lát là gắp** — nhúng lâu là dai.
+      - text: >-
+          Rau nhúng theo thứ tự: cải xanh trước, rau cần sau, **tía tô thả
+          cuối cùng ngay trước khi gắp** cho khỏi mất mùi.
+    doneText: Gắp lát dê tái chấm chao gừng — xong!
+
+tipsTitle: 6 bí quyết cho **nồi lẩu chua dịu, thịt mềm**
+tipsLead: >-
+  Nồi lẩu này chỉ có hai chỗ dễ hỏng — mùi dê và độ chua của mẻ. Nắm sáu điều
+  dưới đây là xong cả hai.
+tips:
+  - icon: jar
+    title: Mẻ phải lọc, và phải nêm cuối
+    text: >-
+      Hoà mẻ với nước nóng rồi **lọc qua rây bỏ bã** — nếu không thì nồi lẩu
+      lợn cợn. Và nêm mẻ ở **cuối cùng**, sau khi thịt đã mềm: nước chua làm
+      thớ thịt săn lại, nêm sớm là hầm mãi không mềm.
+  - icon: ginger
+    title: Riềng hợp thịt dê hơn gừng
+    text: >-
+      Gừng dùng để **khử mùi lúc sơ chế**, còn **riềng mới là thứ tạo mùi cho
+      nồi lẩu**. Riềng thơm hắc và ấm, đứng cạnh vị dê rất hợp — thiếu riềng
+      thì nồi lẩu nhạt mùi hẳn đi một tầng.
+  - icon: knife
+    title: Ướp lạnh rồi mới thái
+    text: >-
+      Khối thịt để ngăn đá **15 phút** cho hơi cứng thì thái mới mỏng đều được.
+      Lát dày mỏng lộn xộn thì nhúng cùng lúc mà lát chín lát sống, lát dai
+      lát mềm.
+  - icon: clock
+    title: Nhúng đúng 15–20 giây
+    text: >-
+      Lát thịt mỏng chỉ cần thoáng qua nước sôi. **Còn hồng nhạt ở giữa lát là
+      gắp** — để lâu hơn là thớ co lại, dai và mất ngọt. Nhúng từng lát một,
+      đừng thả cả dĩa vào nồi.
+  - icon: lettuce
+    title: Bộ ba rau đúng bài
+    text: >-
+      **Cải xanh** đắng nhẹ, **rau cần** giòn sần sật, **tía tô** thơm nồng —
+      ba thứ này bổ khuyết cho nhau và đều hợp vị dê. Tía tô thả cuối, nhúng
+      thoáng qua rồi gắp liền, để lâu là nát và mất mùi.
+  - icon: bulb
+    title: Không mua được mẻ thì làm sao
+    text: >-
+      Hàng khô ngoài chợ hầu như đâu cũng có, hũ nhỏ dùng được lâu. Kẹt lắm
+      thì thay bằng **nước cơm rượu** hoặc **giấm gạo pha loãng thêm chút nước
+      me** — chua sẽ sắc hơn mẻ một chút, nên cho ít lại và nêm thật từ từ.
+
+serve:
+  title: Nồi lẩu chua giữa bàn — **ăn ngày trời trở lạnh**
+  paras:
+    - >-
+      Nồi lẩu này hợp nhất với **ngày trời se lạnh**: nước chua thanh nóng
+      hổi, gắp lát thịt vừa nhúng tái, cuốn cọng rau cần, chấm chén chao gừng.
+      Ăn chậm, nhúng tới đâu ăn tới đó — món này không ai vội được.
+    - >-
+      Cuối bữa chan nước lẩu vào bún, húp một chén — lúc này nước đã đậm vị
+      thịt và ngấm hết mùi sả riềng, ngon hơn hẳn lúc mới bắc lên. Nhớ chừa
+      lại đủ nước cho khúc này.
+  aside:
+    title: Trên bàn nên có
+    intro: "Bốn thứ dọn kèm nồi lẩu:"
+    items:
+      - icon: bottle
+        text: "**Chén chao tán với gừng băm** — chi tiết riêng của món dê ngoài Bắc."
+      - icon: lettuce
+        text: "**Rổ cải xanh, rau cần, tía tô** — bộ ba hợp vị dê nhất."
+      - icon: noodle
+        text: "**Bún rối** — chan nước lẩu ăn cuối bữa."
+      - icon: chili
+        text: "**Ớt tươi thái lát** — ai ăn cay thì thả thẳng vào chén."
+
+faq:
+  - q: Mẻ là gì, mua ở đâu, để được bao lâu?
+    a: >-
+      Mẻ là **cơm nguội ủ lên men**, chua dịu và thơm mùi men gạo — gia vị làm
+      chua quen thuộc của bếp Bắc, cũng chính là thứ tạo vị cho ốc om chuối
+      đậu. Hàng khô ngoài chợ đâu cũng bán, hũ nhỏ. Để ngăn mát dùng được vài
+      tháng, thỉnh thoảng cho thêm chút cơm nguội là mẻ nuôi tiếp.
+  - q: Sao không hầm nhừ hết chỗ thịt cho tiện?
+    a: >-
+      Hầm hết thì mất đúng cái hay của món. **Phần miếng hầm** cho nồi nước có
+      chất và có miếng thịt mềm để gắp; **phần lát mỏng nhúng tại bàn** mới
+      cho được cái mềm ngọt còn hồng giữa lát. Hai kết cấu trong một nồi, đó
+      là lý do món này gọi là "nhúng".
+  - q: Nồi lẩu chua quá rồi, chữa sao?
+    a: >-
+      Thêm nước dùng nóng cho loãng ra, rồi **nêm lại chút đường và nước mắm**
+      cho cân. Thả thêm hành tây cắt múi cũng kéo vị ngọt lên khá nhiều. Lần
+      sau nhớ rót mẻ từng nửa muôi một và nếm sau mỗi lần.
+  - q: Thịt dê nhúng bị dai — sai chỗ nào?
+    a: >-
+      Hai chỗ: **thái dọc thớ** thay vì ngang thớ, hoặc **nhúng quá lâu**.
+      Thái ngang thớ để cắt đứt sợi cơ, và nhúng đúng 15–20 giây rồi gắp ra —
+      lát thịt còn hồng nhạt giữa là đúng độ, đừng chờ trắng hết.
+  - q: Có cần riềng không hay bỏ được?
+    a: >-
+      Bỏ được nhưng tiếc. Riềng là thứ cho nồi lẩu cái **mùi ấm hắc** rất hợp
+      với thịt dê, gừng không thay được vì gừng cay và thanh hơn. Không có
+      riềng tươi thì dùng riềng khô, ngâm nước ấm 15 phút cho mềm rồi thả nồi.
+  - q: Nấu trước tới đâu được nếu đãi khách?
+    a: >-
+      Làm trước hết phần nồi nước — hầm xương, xào thơm, hầm dê miếng — rồi
+      tắt bếp. **Phần mẻ và cà chua để nêm ngay trước khi dọn**, còn thịt thái
+      lát thì thái sát giờ và giữ trong ngăn mát. Khách tới chỉ việc bắc nồi
+      lên bếp.
+
+ticker:
+  - icon: jar
+    text: Mẻ lọc lấy nước, nêm cuối cùng
+  - icon: ginger
+    text: Riềng thơm ấm hợp vị dê
+  - icon: meat
+    text: Nhúng 15 giây, còn hồng giữa lát
+  - icon: lettuce
+    text: Cải xanh, rau cần, tía tô
+  - icon: drop
+    text: Chua dịu ở hậu vị
+  - icon: noodle
+    text: Cuối bữa chan bún

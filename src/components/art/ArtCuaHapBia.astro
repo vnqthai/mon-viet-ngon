@@ -1,0 +1,186 @@
+---
+/* Cua hấp bia — CHỮ KÝ nhận dạng.
+   Tra trước khi vẽ: cua biển có MAI RỘNG NGANG hơn dài, mép trước có RĂNG CƯA
+   và hai cuống mắt ở giữa; HAI CÀNG to không bằng nhau, mỗi càng có bàn tay
+   dày và một ngón động khép lại; BỐN CẶP CHÂN BÒ mỗi bên, cặp cuối cùng của
+   cua biển DẸT RA THÀNH MÁI CHÈO. Hấp chín thì mai chuyển đỏ cam, bụng và
+   khớp chân vẫn trắng ngà.
+
+   Phải lệch hẳn ArtOcHapLaGung, ArtTomRim, ArtCaTaiTuong (cùng nhóm hải sản):
+   1) con cua nằm nguyên con trên dĩa, dáng NGANG BÈ có càng dang ra — không
+      vật nào khác trên site có đường bao kiểu đó
+   2) GIÀN SẢ GỪNG lót dưới, nói ngay là món hấp chứ không phải rim hay chiên
+   3) đạo cụ: chén MUỐI TIÊU CHANH có miếng chanh xanh + lon bia nằm cạnh
+   Càng cố ý dang RỘNG ra hai bên nhưng LỆCH CỠ và LỆCH GÓC, vì bày đối xứng
+   hai bên là đọc ra vật trưng bày chứ không ra món ăn.
+   id prefix "ch" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa cua biển hấp bia: con cua mai đỏ cam nằm trên giàn sả gừng, hai càng dang ra, bên cạnh là chén muối tiêu chanh và lon bia">
+  <defs>
+    <linearGradient id="chShell" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#E4693A"/><stop offset="1" stop-color="#A83218"/>
+    </linearGradient>
+    <linearGradient id="chClaw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DE5F31"/><stop offset="1" stop-color="#962A12"/>
+    </linearGradient>
+    <!-- một chân bò: đốt dày rồi thon dần, đầu nhọn -->
+    <g id="chLeg">
+      <path d="M0 0 C 16 -4 30 -2 40 4 C 48 9 56 16 62 24" fill="none" stroke="#8E2A12" stroke-width="12" stroke-linecap="round"/>
+      <path d="M0 0 C 16 -4 30 -2 40 4 C 48 9 56 16 62 24" fill="none" stroke="#DE5F31" stroke-width="8" stroke-linecap="round"/>
+      <path d="M4 -2 C 16 -5 26 -4 34 0" fill="none" stroke="#F5A279" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M62 24 C 68 30 72 36 73 42" fill="none" stroke="#8E2A12" stroke-width="5" stroke-linecap="round"/>
+      <!-- khớp trắng ngà giữa đốt -->
+      <path d="M38 2 C 42 5 44 8 45 11" fill="none" stroke="#F3E6CE" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M198 200 C 187 176 213 160 202 134 C 195 118 209 106 205 90"/>
+    <path d="M268 190 C 258 166 284 152 273 126 C 266 110 280 98 276 82"/>
+    <path d="M338 202 C 328 178 354 164 343 138 C 336 122 350 110 346 94"/>
+  </g>
+  <ellipse cx="260" cy="404" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa -->
+  <ellipse cx="260" cy="350" rx="204" ry="58" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="348" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- GIÀN SẢ GỪNG lót dưới — khúc sả đập dập nằm chéo, lát gừng xen vào -->
+  <g stroke="#3F6B2C" stroke-width="2" stroke-linecap="round">
+    <path d="M124 336 L 232 314" stroke="#7EA24C" stroke-width="11"/>
+    <path d="M124 336 L 232 314"/>
+    <path d="M222 316 L 240 312 M 223 320 L 241 316" stroke-width="1.8"/>
+    <path d="M286 312 L 398 334" stroke="#8FB55C" stroke-width="10"/>
+    <path d="M286 312 L 398 334"/>
+    <path d="M388 331 L 406 336 M 387 335 L 405 340" stroke-width="1.8"/>
+    <path d="M170 356 L 292 344" stroke="#6F9440" stroke-width="9"/>
+    <path d="M170 356 L 292 344"/>
+  </g>
+  <g fill="#F0E2BC" stroke="#B79A5A" stroke-width="2">
+    <ellipse cx="158" cy="348" rx="16" ry="9" transform="rotate(-16 158 348)"/>
+    <ellipse cx="352" cy="352" rx="14" ry="8" transform="rotate(12 352 352)"/>
+    <ellipse cx="262" cy="366" rx="13" ry="7" transform="rotate(-4 262 366)"/>
+  </g>
+  <g fill="none" stroke="#C9AE72" stroke-width="1.4">
+    <path d="M148 344 L 168 352 M 152 340 L 164 356"/>
+    <path d="M343 348 L 361 356 M 347 345 L 357 359"/>
+  </g>
+
+  <!-- CON CUA: chân vẽ TRƯỚC, mai đè lên sau, để chân chỉ ló ra khỏi đường bao -->
+  <g>
+    <!-- chân bên trái (4 cặp), cặp cuối DẸT thành mái chèo -->
+    <g transform="translate(196 296) scale(-1 1)">
+      <use href="#chLeg" transform="translate(0 -8) rotate(-32) scale(.86)"/>
+      <use href="#chLeg" transform="translate(0 4) rotate(-8) scale(.94)"/>
+      <use href="#chLeg" transform="translate(0 18) rotate(14) scale(.9)"/>
+    </g>
+    <g transform="translate(196 320) rotate(28) scale(-1 1)">
+      <path d="M0 0 C 16 -2 30 2 40 10" fill="none" stroke="#8E2A12" stroke-width="12" stroke-linecap="round"/>
+      <path d="M0 0 C 16 -2 30 2 40 10" fill="none" stroke="#DE5F31" stroke-width="8" stroke-linecap="round"/>
+      <!-- mái chèo dẹt của cua biển -->
+      <path d="M40 10 C 54 8 66 16 64 28 C 62 38 48 40 40 32 C 35 26 34 16 40 10 Z"
+            fill="#DE5F31" stroke="#8E2A12" stroke-width="2.6"/>
+      <path d="M46 16 C 54 15 60 20 59 27" fill="none" stroke="#F5A279" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+    <!-- chân bên phải -->
+    <g transform="translate(324 296)">
+      <use href="#chLeg" transform="translate(0 -10) rotate(-26) scale(.92)"/>
+      <use href="#chLeg" transform="translate(0 2) rotate(-4) scale(1)"/>
+      <use href="#chLeg" transform="translate(0 16) rotate(18) scale(.86)"/>
+    </g>
+    <g transform="translate(324 320) rotate(24)">
+      <path d="M0 0 C 16 -2 30 2 40 10" fill="none" stroke="#8E2A12" stroke-width="12" stroke-linecap="round"/>
+      <path d="M0 0 C 16 -2 30 2 40 10" fill="none" stroke="#DE5F31" stroke-width="8" stroke-linecap="round"/>
+      <path d="M40 10 C 54 8 66 16 64 28 C 62 38 48 40 40 32 C 35 26 34 16 40 10 Z"
+            fill="#DE5F31" stroke="#8E2A12" stroke-width="2.6"/>
+      <path d="M46 16 C 54 15 60 20 59 27" fill="none" stroke="#F5A279" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+
+    <!-- CÀNG TRÁI (to hơn, giơ cao) -->
+    <g transform="translate(178 268) rotate(-22)">
+      <path d="M0 0 C -22 -6 -44 -6 -60 2" fill="none" stroke="#8E2A12" stroke-width="17" stroke-linecap="round"/>
+      <path d="M0 0 C -22 -6 -44 -6 -60 2" fill="none" stroke="#DE5F31" stroke-width="12" stroke-linecap="round"/>
+      <!-- bàn càng dày -->
+      <path d="M-56 -14 C -34 -22 -14 -14 -12 2 C -10 18 -30 26 -50 20 C -66 15 -70 -6 -56 -14 Z"
+            fill="url(#chClaw)" stroke="#7E2210" stroke-width="3"/>
+      <!-- ngón động khép lại, đầu ngón trắng ngà -->
+      <path d="M-64 -8 C -84 -18 -100 -12 -100 -2 C -100 6 -88 8 -76 4 C -68 1 -64 -3 -64 -8 Z"
+            fill="url(#chClaw)" stroke="#7E2210" stroke-width="2.8"/>
+      <path d="M-92 -8 C -99 -8 -102 -4 -100 -1" fill="none" stroke="#F3E6CE" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-64 2 C -78 8 -92 8 -100 2" fill="none" stroke="#7E2210" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-50 -12 C -34 -16 -20 -10 -18 0" fill="none" stroke="#F5A279" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- CÀNG PHẢI (nhỏ hơn, hạ thấp, góc khác hẳn) -->
+    <g transform="translate(344 296) rotate(18) scale(.86)">
+      <path d="M0 0 C 22 -4 42 -2 56 6" fill="none" stroke="#8E2A12" stroke-width="17" stroke-linecap="round"/>
+      <path d="M0 0 C 22 -4 42 -2 56 6" fill="none" stroke="#DE5F31" stroke-width="12" stroke-linecap="round"/>
+      <path d="M52 -10 C 74 -18 92 -8 92 8 C 92 24 70 30 52 22 C 38 16 38 -3 52 -10 Z"
+            fill="url(#chClaw)" stroke="#7E2210" stroke-width="3"/>
+      <path d="M86 -6 C 106 -14 120 -6 118 4 C 116 12 104 12 92 7 C 86 4 84 -2 86 -6 Z"
+            fill="url(#chClaw)" stroke="#7E2210" stroke-width="2.8"/>
+      <path d="M110 -4 C 117 -5 120 -1 118 3" fill="none" stroke="#F3E6CE" stroke-width="5" stroke-linecap="round"/>
+      <path d="M86 6 C 100 11 112 10 118 4" fill="none" stroke="#7E2210" stroke-width="3" stroke-linecap="round"/>
+      <path d="M56 -8 C 72 -12 86 -6 88 4" fill="none" stroke="#F5A279" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- MAI CUA: rộng ngang hơn dài, mép trước có RĂNG CƯA, hai cuống mắt giữa -->
+    <path d="M170 296 C 174 262 210 240 260 240 C 310 240 346 262 350 296 C 344 328 310 344 260 344 C 210 344 176 328 170 296 Z"
+          fill="url(#chShell)" stroke="#7E2210" stroke-width="3.4"/>
+    <!-- răng cưa mép trước, dấu nhận diện nằm ở ĐƯỜNG BAO -->
+    <g fill="#C9401E" stroke="#7E2210" stroke-width="2">
+      <path d="M186 268 C 176 262 176 254 186 256 Z"/>
+      <path d="M204 254 C 196 246 200 238 208 244 Z"/>
+      <path d="M226 245 C 220 236 226 230 232 237 Z"/>
+      <path d="M290 237 C 296 230 302 236 296 245 Z"/>
+      <path d="M312 244 C 320 238 324 246 316 254 Z"/>
+      <path d="M334 256 C 344 254 344 262 334 268 Z"/>
+    </g>
+    <!-- gờ nổi và vệt sáng trên mai, lệch trái -->
+    <path d="M196 288 C 208 264 232 252 260 252 C 244 262 224 276 214 296 C 208 306 192 300 196 288 Z"
+          fill="#F09062" opacity=".55"/>
+    <g fill="none" stroke="#8E2A12" stroke-width="2.4" stroke-linecap="round" opacity=".8">
+      <path d="M212 302 C 232 312 288 312 308 302"/>
+      <path d="M228 318 C 244 326 276 326 292 318"/>
+    </g>
+    <!-- hai cuống mắt ở giữa mép trước -->
+    <g>
+      <path d="M250 246 C 248 236 244 232 240 232" fill="none" stroke="#7E2210" stroke-width="5" stroke-linecap="round"/>
+      <path d="M270 246 C 272 236 277 232 281 233" fill="none" stroke="#7E2210" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="238" cy="230" r="5" fill="#3A1A0E" stroke="#7E2210" stroke-width="2"/>
+      <circle cx="283" cy="231" r="5" fill="#3A1A0E" stroke="#7E2210" stroke-width="2"/>
+      <circle cx="236" cy="228" r="1.6" fill="#F3E6CE"/>
+      <circle cx="281" cy="229" r="1.6" fill="#F3E6CE"/>
+    </g>
+  </g>
+
+  <!-- CHÉN MUỐI TIÊU CHANH (đạo cụ phải) — muối trắng, tiêu lấm tấm, miếng chanh xanh -->
+  <g transform="translate(444 382)">
+    <ellipse cx="0" cy="22" rx="38" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-34 -2 C -32 14 -18 22 0 22 C 18 22 32 14 34 -2 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-2" rx="34" ry="9.5" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-1" rx="27" ry="7" fill="#F3EEDC"/>
+    <g fill="#4A3A28">
+      <circle cx="-13" cy="-3" r="2"/><circle cx="-4" cy="1" r="1.8"/>
+      <circle cx="6" cy="-3" r="1.9"/><circle cx="14" cy="1" r="1.7"/>
+      <circle cx="-8" cy="-5" r="1.5"/><circle cx="1" cy="-6" r="1.4"/>
+    </g>
+    <!-- miếng chanh gác mép chén -->
+    <path d="M18 -10 C 30 -16 42 -10 42 0 C 34 4 22 -2 18 -10 Z" fill="#8FB84A" stroke="#4E7429" stroke-width="2.2"/>
+    <path d="M24 -9 L 36 -2 M 30 -12 L 34 0" stroke="#C9E08A" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- LON BIA nằm nghiêng phía sau trái — nói ra cái tên món -->
+  <g transform="translate(72 372) rotate(-76)">
+    <rect x="-20" y="-44" width="40" height="88" rx="7" fill="#D9B24A" stroke="#8A6A16" stroke-width="2.8"/>
+    <rect x="-20" y="-24" width="40" height="30" rx="3" fill="#F0E2B4" stroke="#8A6A16" stroke-width="2"/>
+    <rect x="-13" y="-16" width="26" height="14" rx="3" fill="#B4802A"/>
+    <ellipse cx="0" cy="-44" rx="20" ry="6" fill="#CFD4D8" stroke="#8A9096" stroke-width="2.4"/>
+    <ellipse cx="0" cy="44" rx="20" ry="6" fill="#B9BFC4" stroke="#8A9096" stroke-width="2.4"/>
+    <path d="M-6 -46 C -2 -50 4 -50 7 -46" fill="none" stroke="#8A9096" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>

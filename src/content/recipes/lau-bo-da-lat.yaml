@@ -1,0 +1,387 @@
+title: Lẩu bò Đà Lạt **nạm gân đuôi ninh mềm, chấm chao**
+summary: >-
+  Nạm, gân và đuôi bò ninh tới **mềm rục mà miếng còn nguyên**, nước dùng ngọt
+  đậm từ xương bò, chấm chén chao béo — và **chấm bánh mì**, đúng kiểu người
+  Đà Lạt ăn cho ấm bụng những chiều mưa dầm.
+region: Tây Nguyên
+category: Lẩu
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 3 giờ
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 90
+art: lau-bo-da-lat
+heroEyebrow: Đà Lạt chiều mưa, ngồi hoài không muốn về…
+
+quick:
+  ingredients:
+    - "Bộ ba bắt buộc: nạm bò [[400|g]] · gân bò [[300|g]] · đuôi bò [[500|g]]"
+    - Xương ống bò [[700|g]] — nướng sơ rồi hầm cho nước ngọt sâu
+    - Sả [[5|cây]] · gừng [[1|củ]] nướng · hành tây [[1|củ]] nướng · hoa hồi [[2|cái]] · quế [[1|thanh]]
+    - Cà rốt [[2|củ]] · củ cải trắng [[1|củ]]
+    - "Nêm: chao đỏ [[2|viên]] tán · nước mắm · đường phèn · muối"
+    - Rau nhúng — cải xanh, tần ô, cải thảo · **bánh mì** · mì trứng
+    - "Chén chấm: chao tán + sa tế + chanh"
+  steps:
+    - Chần nạm, gân, đuôi qua nước sôi có gừng đập dập, xả sạch — nước chần đổ bỏ.
+    - >-
+      **Nướng sơ xương ống, gừng và hành tây** cho cháy xém mặt rồi mới hầm —
+      đây là chỗ nước dùng lên mùi.
+    - Hầm xương [[2|tiếng]] với hoa hồi, quế, sả đập dập; hớt bọt kỹ 20 phút đầu.
+    - Thả **đuôi bò và gân trước** (lâu mềm nhất), 40 phút sau mới tới nạm.
+    - Ninh tới khi **gân trong veo, đuôi rời xương nhẹ tay** — chừng 2 tiếng tính từ lúc thả đuôi.
+    - Nêm chao tán + nước mắm + đường phèn. Thả cà rốt, củ cải ở 20 phút cuối.
+    - Bắc nồi lên bếp giữa bàn. Nhúng rau, **xé bánh mì chấm nước lẩu**, cuối bữa thả mì trứng.
+  warning: >-
+    Thả nạm cùng lúc với gân và đuôi là hỏng: nạm mềm trước cả tiếng, tới lúc
+    gân vừa trong thì nạm đã bã ra xơ. **Thả theo ba đợt** — đuôi và gân
+    trước, nạm sau, rau củ sau cùng.
+
+flavor:
+  chua: 0.5
+  ngot: 6.5
+  man: 6
+  cay: 2
+  thom: 8.5
+flavorNote: >-
+  **Chuẩn nồi lẩu:** nước dùng **nâu trong, ngọt đậm vị xương bò**, thoảng hồi
+  quế chứ không nồng như phở. Miếng gân **trong veo, dai giòn sựt**; khúc đuôi
+  **rời xương khi khều nhẹ**; miếng nạm mềm mà vẫn còn thớ để cắn.
+storyEyebrow: Chuyện nồi lẩu chiều mưa
+storyTitle: Nồi lẩu bò **ăn với bánh mì**, không ăn với bún
+story:
+  - >-
+    Đà Lạt mưa thì mưa dai, có khi rả rích từ chiều tới tối. Và cái mưa đó đẻ
+    ra một thói quen ăn uống rất riêng: nồi lẩu bò đặt giữa bàn, để lửa liu riu
+    suốt buổi, ngồi nghe mưa ngoài hiên mà nồi vẫn nóng. Không phải món ăn
+    nhanh — nó là cái cớ để ngồi nán lại cho tạnh mưa rồi hẵng về.
+  - >-
+    Điểm khác biệt lớn nhất so với mấy nồi lẩu bò miền xuôi nằm ở thứ ăn kèm:
+    **bánh mì**. Xé miếng bánh mì chấm vào nước lẩu nâu sánh, cắn miếng gân
+    dai sựt — người quen ăn lẩu với bún lần đầu thấy lạ, ăn tới miếng thứ ba
+    thì hiểu ngay vì sao dân ở đây làm vậy.
+  - >-
+    Cái ngon của nồi này nằm ở **ba thứ cùng nồi mà ba kết cấu khác nhau**:
+    nạm mềm còn thớ, gân trong veo dai sựt, đuôi bò béo ngậy rời xương. Thiếu
+    một thứ là nồi lẩu mất cân — nên dù có tốn công đi chợ thêm một hàng, cũng
+    nên mua đủ cả ba.
+
+ingredientGroups:
+  - name: Ba thứ thịt & xương
+    icon: meat
+    items:
+      - id: nam
+        name: Nạm bò
+        icon: meat
+        color: red
+        base: 400
+        unit: g
+        note: Miếng có gân mỡ xen kẽ — nạm nạc trơn thì ninh xong khô xác
+      - id: gan
+        name: Gân bò
+        icon: meat
+        base: 300
+        unit: g
+        note: Ninh xong phải trong veo; đây là thứ nhiều người mê nhất trong nồi
+      - id: duoi
+        name: Đuôi bò
+        icon: meat
+        base: 500
+        unit: g
+        note: Nhờ hàng chặt khúc theo đốt — khúc gần gốc nhiều thịt hơn
+      - id: xuongong
+        name: Xương ống bò
+        icon: pot
+        base: 700
+        unit: g
+        note: Nướng sơ cho xém mặt rồi mới hầm — nước dùng thơm hơn hẳn
+  - name: Nướng thơm & gia vị nồi
+    icon: flame
+    items:
+      - id: gung
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: củ
+        note: Nướng cháy xém vỏ, cạo sạch rồi đập dập thả nồi
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Nướng nguyên củ tới xém mặt — cho nước dùng ngọt và thơm sâu
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 5
+        unit: cây
+        note: Đập dập, buộc túm cho dễ vớt
+      - id: hoihoi
+        name: Hoa hồi + quế
+        icon: flower
+        qtyText: 2 cái hoa hồi · 1 thanh quế nhỏ
+        note: Rang thơm rồi bỏ túi vải — thoảng thôi, đừng để nồng như nồi phở
+      - id: chaonem
+        name: Chao đỏ (nêm nồi)
+        icon: jar
+        color: red
+        base: 2
+        unit: viên
+        note: Tán nhuyễn nêm vào nồi — thứ làm nước lẩu đậm và sánh nhẹ
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        base: 30
+        unit: g
+        note: Ngọt dịu hơn đường cát và giữ nước dùng trong
+  - name: Rau củ, rau nhúng & ăn kèm
+    icon: lettuce
+    items:
+      - id: carot
+        name: Cà rốt + củ cải trắng
+        icon: pumpkin
+        color: gold
+        base: 2
+        unit: củ
+        note: Cắt khúc lớn, thả 20 phút cuối — vào sớm là nát và làm đục nước
+      - id: rau
+        name: Cải xanh · tần ô · cải thảo
+        icon: lettuce
+        color: green
+        base: 600
+        unit: g
+        note: Nhúng tới đâu ăn tới đó, đừng thả cả rổ vào nồi
+      - id: banhmi
+        name: Bánh mì
+        icon: bread
+        base: 4
+        unit: ổ
+        note: Thứ ăn kèm đúng bài của lẩu bò Đà Lạt — xé miếng chấm nước lẩu
+      - id: mitrung
+        name: Mì trứng
+        icon: noodle
+        base: 400
+        unit: g
+        note: Thả vào cuối bữa, lúc nước lẩu đậm nhất
+      - id: chenchao
+        name: Chao pha chấm + sa tế
+        icon: bottle
+        qtyText: 4 viên chao · sa tế · chanh · đường
+        note: Mỗi người một chén, pha theo gu riêng
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi lẩu bò chiều mưa**
+stepsLead: >-
+  Ba tiếng nghe dài nhưng gần hết là thời gian ninh — bắc nồi lên rồi đi làm
+  việc khác. Chỗ duy nhất cần canh là thứ tự thả ba thứ thịt.
+steps:
+  - title: Chần sạch & nướng thơm
+    icon: flame
+    minutes: 25 phút
+    intro: "Hai việc, đừng gộp lại:"
+    bullets:
+      - label: "Chần:"
+        text: >-
+          nạm, gân, đuôi và xương chần qua nước sôi có gừng đập dập **3 phút**,
+          xả sạch dưới vòi. **Nước chần đó đổ bỏ** — nó chứa hết phần bọt bẩn.
+      - label: "Nướng:"
+        text: >-
+          xương ống, củ gừng và củ hành tây đem **nướng tới xém đen mặt ngoài**
+          (bếp gas hoặc lò đều được), rồi cạo bỏ phần cháy.
+      - text: >-
+          Hoa hồi và quế rang chảo khô cho dậy mùi, cho vào túi vải buộc kín.
+    callout:
+      type: tip
+      text: >-
+        Nướng xương và hành gừng là bước tách nồi lẩu "được" khỏi nồi lẩu
+        "thơm". Lửa làm đường trong hành và tủy xương chuyển màu, cho nước dùng
+        một tầng **ngọt sâu và mùi khói nhẹ** mà hầm suông không bao giờ có.
+  - title: Hầm xương lấy nước nền
+    icon: pot
+    minutes: 120 phút
+    bullets:
+      - text: >-
+          Cho xương đã nướng vào nồi với [[4|lít]] nước, thả gừng, hành tây,
+          sả buộc túm và túi hồi quế.
+      - text: >-
+          Sôi thì **hạ liu riu ngay**, hớt bọt liên tục trong **20 phút đầu** —
+          đây là lúc quyết định nước trong hay đục.
+      - text: Hầm **2 tiếng**, thỉnh thoảng hớt váng mỡ nổi trên mặt.
+    timer:
+      secs: 7200
+      label: Hẹn giờ hầm xương · 120:00
+      doneMsg: Nước dùng nâu trong, ngọt sâu — tới lúc thả đuôi và gân!
+  - title: Thả thịt theo ba đợt
+    icon: clock
+    minutes: 120 phút
+    intro: "Ba thứ mềm ba tốc độ — đây là chỗ dễ hỏng nhất:"
+    bullets:
+      - label: "Đợt 1 — đuôi bò và gân:"
+        text: >-
+          thả vào nồi nước đang sôi lăn tăn, ninh **80 phút**. Hai thứ này lâu
+          mềm nhất.
+      - label: "Đợt 2 — nạm bò:"
+        text: >-
+          thả tiếp, ninh thêm **40 phút**.
+      - label: "Kiểm tra:"
+        text: >-
+          **gân chuyển trong veo và dai sựt**, **khúc đuôi khều nhẹ là thịt
+          rời xương**, **miếng nạm xiên đũa nhẹ tay mà còn thớ** — cả ba đạt
+          cùng lúc là đúng.
+    callout:
+      type: warn
+      text: >-
+        Thả cùng lúc thì tới khi gân vừa trong, miếng nạm đã bã thành xơ. Nếu
+        lỡ thả chung rồi thì **vớt nạm ra sớm** để riêng, tới lúc dọn mới thả
+        lại vào nồi.
+  - title: Nêm nồi & thả rau củ
+    icon: jar
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Vớt bỏ xương ống, sả và túi hồi quế — để lâu là nước lẩu đắng và
+          nồng mùi quế.
+      - text: >-
+          Tán [[2|viên]] chao đỏ với chút nước dùng rồi rót vào nồi. Nêm nước
+          mắm, [[30|g]] đường phèn và muối cho vừa miệng.
+      - text: >-
+          Thả cà rốt và củ cải cắt khúc lớn vào **20 phút cuối**, đủ mềm là
+          được.
+      - text: >-
+          Nếm lần cuối: **ngọt xương dẫn trước, chao đậm ở hậu, hồi quế chỉ
+          thoảng qua**. Mùi hồi quế nổi lên rõ là đã quá tay.
+  - title: Pha chén chao & dọn bàn
+    icon: bowl
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          **Chén chấm:** tán chao với chút nước chao, thêm sa tế, chút đường và
+          vài giọt nước cốt chanh, đánh cho sánh.
+      - text: >-
+          Bắc nồi lên bếp giữa bàn, để lửa nhỏ nhất cho sôi lăn tăn suốt bữa.
+      - text: >-
+          Dọn kèm **rổ rau, dĩa bánh mì xé sẵn** và vắt mì trứng. Nhúng rau tới
+          đâu ăn tới đó; bánh mì thì xé miếng chấm thẳng vào nước lẩu.
+      - text: >-
+          Cuối bữa mới thả mì trứng vào phần nước còn lại — lúc đó nước đã đậm
+          nhất.
+    doneText: Miếng gân trong veo chấm chao, kèm miếng bánh mì — xong!
+
+tipsTitle: 6 bí quyết cho **nồi lẩu bò ngọt sâu, gân trong**
+tipsLead: >-
+  Nồi này ăn thua ở hai chỗ: nước dùng có thơm không, và ba thứ thịt có mềm
+  đúng lúc không. Sáu điều dưới đây lo cả hai.
+tips:
+  - icon: flame
+    title: Nướng trước khi hầm
+    text: >-
+      Xương ống, gừng và hành tây **nướng tới xém mặt** rồi mới thả nồi. Đây là
+      khác biệt lớn nhất giữa nước dùng "ngọt" và nước dùng "ngọt và thơm" —
+      tốn thêm 15 phút mà đổi được cả một tầng mùi.
+  - icon: clock
+    title: Ba thứ thịt, ba đợt thả
+    text: >-
+      **Đuôi và gân trước 80 phút, nạm sau 40 phút.** Nhớ đúng hai con số này
+      là nồi lẩu ra đúng: gân trong veo, đuôi rời xương, nạm mềm còn thớ. Thả
+      chung một lượt là chắc chắn có một thứ hỏng.
+  - icon: pot
+    title: Hớt bọt trong 20 phút đầu
+    text: >-
+      Bọt nâu nổi lên nhiều nhất ở 20 phút đầu; hớt kịp thì nước **nâu trong**,
+      để tan lại là đục và có mùi gây. Sau khoảng đó thì chỉ cần hớt váng mỡ
+      thỉnh thoảng.
+  - icon: jar
+    title: Hồi quế bỏ túi, vớt ra sớm
+    text: >-
+      Cho vào túi vải để vớt ra dễ, và **vớt ngay sau khi hầm xong** — ngâm
+      suốt buổi là nước lẩu đắng và nồng mùi thuốc. Nồi lẩu bò chỉ cần thoảng
+      hồi quế, không phải nồng như nồi phở.
+  - icon: bread
+    title: Bánh mì mới là thứ ăn kèm đúng
+    text: >-
+      Nghe lạ nhưng thử một lần là hiểu: ruột bánh mì hút nước lẩu vào, cắn
+      một miếng là được cả cái mềm lẫn vị đậm. Bún hay mì cũng ăn được, nhưng
+      **bánh mì là cách của người Đà Lạt**, và nó hợp thật.
+  - icon: bulb
+    title: Không đủ ba thứ thịt thì ưu tiên gân
+    text: >-
+      Kẹt chợ thì bỏ nạm trước, **giữ gân và đuôi**. Gân cho cái dai sựt, đuôi
+      cho cái béo và chất ngọt — hai thứ đó làm nên đặc trưng của nồi. Bỏ gân
+      thì nồi lẩu thành nồi bò hầm thường.
+
+serve:
+  title: Nồi lẩu bò — **món để ngồi lâu**
+  paras:
+    - >-
+      Đây là nồi lẩu của bữa tối dài. Để lửa nhỏ nhất cho sôi lăn tăn suốt
+      buổi, ai đói lúc nào gắp lúc đó. Rau nhúng theo đợt nhỏ, đừng thả cả rổ
+      — rau nhũn thì mất hết cái tươi giòn để cân với nước lẩu đậm.
+    - >-
+      Bánh mì xé sẵn để một dĩa riêng. Chấm bánh mì vào nước lẩu, gắp miếng
+      gân trong veo chấm chao sa tế — hai thứ đó ăn cùng nhau là hiểu vì sao
+      quán lẩu bò trên đó hễ trời mưa là kín bàn.
+  aside:
+    title: Trên bàn nên có
+    intro: "Bốn thứ dọn kèm nồi lẩu:"
+    items:
+      - icon: bread
+        text: "**Bánh mì xé miếng** — thứ ăn kèm đúng bài, chấm thẳng vào nước lẩu."
+      - icon: bottle
+        text: "**Chén chao sa tế riêng** — mỗi người pha theo gu."
+      - icon: lettuce
+        text: "**Cải xanh, tần ô, cải thảo** — nhúng từng đợt nhỏ."
+      - icon: noodle
+        text: "**Mì trứng** — thả cuối bữa, lúc nước đậm nhất."
+
+faq:
+  - q: Mua đuôi bò và gân bò ở đâu?
+    a: >-
+      Hàng bò trong chợ lớn có sẵn; đặt trước một hôm thì chắc ăn hơn, nhất là
+      đuôi bò. Nhờ người bán **chặt đuôi theo đốt** — chặt ngang xương là mảnh
+      vụn lẫn vào nồi. Gân thì chọn loại gân chân, dày và trắng đục.
+  - q: Ninh 2 tiếng mà gân vẫn cứng?
+    a: >-
+      Gân dày thì cần thêm giờ, cứ ninh tiếp và thử mỗi 20 phút — **gân đạt
+      khi nhìn trong veo và cắn thấy dai sựt chứ không cứng ngắc**. Muốn nhanh
+      thì dùng nồi áp suất riêng cho gân: 30 phút kể từ lúc lên áp, rồi trút
+      cả nước lẫn cái vào nồi lẩu.
+  - q: Nước lẩu bị đục và có mùi gây?
+    a: >-
+      Ba chỗ: **không chần thịt trước**, **không hớt bọt kịp**, hoặc **để sôi
+      bùng**. Chần rồi xả sạch, hớt bọt chăm trong 20 phút đầu, và giữ lửa liu
+      riu suốt. Nồi đã đục thì lọc qua rây có lót vải mỏng, cứu được phần nhìn.
+  - q: Có bắt buộc phải nêm chao vào nồi không?
+    a: >-
+      Không bắt buộc, nhưng nêm thì nước lẩu **đậm và sánh nhẹ** hơn hẳn. Nhà
+      không quen mùi chao thì bỏ chao khỏi nồi và chỉ dùng chao ở **chén
+      chấm** — vẫn giữ được đúng cách ăn mà nước lẩu thì thanh hơn.
+  - q: Nấu trước một ngày được không?
+    a: >-
+      Được, và nước dùng để qua đêm còn **ngọt đậm hơn**. Ninh xong để nguội,
+      cất ngăn mát cả nồi; hôm sau vớt lớp mỡ đông trên mặt rồi hâm lại. Rau
+      củ và rau nhúng thì để hôm sau mới làm, đừng nấu sẵn.
+  - q: Nồi lẩu cho 4 người mà mua tới [[1.2|kg]] thịt có nhiều quá không?
+    a: >-
+      Không — xương và gân chiếm phần lớn khối lượng, phần ăn được thật sự ít
+      hơn nhiều so với con số trên cân. Với bàn 4 người ăn no kèm bánh mì và
+      mì trứng thì đây là lượng vừa; bàn nhậu ngồi lâu thì nên tăng thêm
+      [[300|g]] gân.
+
+ticker:
+  - icon: meat
+    text: Nạm, gân, đuôi — ba kết cấu
+  - icon: flame
+    text: Nướng xương trước khi hầm
+  - icon: bread
+    text: Ăn với bánh mì, không phải bún
+  - icon: bottle
+    text: Chén chao sa tế
+  - icon: clock
+    text: Thả thịt theo ba đợt
+  - icon: drop
+    text: Nồi lẩu của chiều mưa dầm

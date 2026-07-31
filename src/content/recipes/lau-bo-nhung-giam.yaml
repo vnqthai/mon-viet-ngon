@@ -1,0 +1,393 @@
+title: Lẩu bò nhúng giấm **cuốn bánh tráng, chấm mắm nêm**
+summary: >-
+  Bắp bò thái mỏng nhúng thoáng qua **nồi nước dừa nấu giấm chua dịu**, gắp ra
+  cuốn bánh tráng với rau sống, chuối chát và khế chua, chấm mắm nêm — món lẩu
+  Nam Bộ ăn kiểu cuốn, ngồi bao lâu cũng không ngán.
+region: Miền Nam
+category: Lẩu
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ
+  active: 40 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 91
+art: lau-bo-giam
+heroEyebrow: Nồi lẩu mà ăn bằng tay…
+
+quick:
+  ingredients:
+    - Bắp bò (hoặc ba chỉ bò) [[800|g]] — thái lát **thật mỏng ngang thớ**
+    - Nước dừa tươi [[1.5|lít]] — chừng 3 trái
+    - Giấm gạo [[150|ml]] · đường phèn [[50|g]] · muối
+    - Hành tây [[1|củ]] cắt múi · sả [[3|cây]] đập dập · gừng [[1|khúc]] thái sợi
+    - Dừa nạo sợi [[50|g]] · thơm (dứa) [[0.5|trái|frac]] cắt miếng
+    - "Cuốn: bánh tráng · bún tươi · xà lách, húng quế, tía tô · chuối chát · khế chua · dưa leo"
+    - "Chấm: mắm nêm pha thơm băm + tỏi ớt + đường"
+  steps:
+    - Bắp bò để **ngăn đá 20 phút** cho hơi cứng rồi mới thái — lát mới mỏng đều được.
+    - Nấu nước dừa với sả đập dập, gừng sợi, hành tây và thơm cắt miếng.
+    - Nêm **giấm từ từ** cùng đường phèn và muối — chua dịu, ngọt nhẹ, đừng chua gắt.
+    - Thả dừa nạo sợi vào nồi ở phút cuối, nấu thêm 3 phút cho thơm béo.
+    - Chuối chát và khế thái lát mỏng, **ngâm nước có vắt chanh** cho khỏi thâm.
+    - Pha mắm nêm với thơm băm nhuyễn, tỏi ớt, đường — nếm cho **mặn ngọt cân, không gắt**.
+    - Nhúng lát bò **8–10 giây là gắp**, cuốn bánh tráng với bún và rau, chấm mắm nêm.
+  warning: >-
+    Nhúng lâu là hỏng cả món. Lát bò mỏng chỉ cần **thoáng qua nước sôi tới khi
+    vừa đổi màu**, còn hồng nhạt là gắp ngay — để trắng hết thì thớ co lại, dai
+    và mất sạch vị ngọt.
+
+flavor:
+  chua: 6.5
+  ngot: 5.5
+  man: 6
+  cay: 3
+  thom: 8
+flavorNote: >-
+  **Chuẩn nồi lẩu:** nước nhúng **chua dịu và ngọt nhẹ vị nước dừa**, thoảng
+  thơm sả gừng — chua vừa đủ để làm mềm lát thịt chứ không tới mức uống được
+  một muỗng. Lát bò nhúng xong **hồng nhạt ở giữa, mềm ngọt**.
+storyEyebrow: Chuyện nồi lẩu ăn bằng tay
+storyTitle: Nồi lẩu mà **không ai húp nước**
+story:
+  - >-
+    Gần như mọi nồi lẩu đều kết thúc bằng việc chan nước vào bún mà húp. Nồi
+    này thì không — **nước lẩu ở đây chỉ để nhúng**, chua tới mức không ai
+    uống. Nhiệm vụ duy nhất của nó là làm lát thịt bò vừa chín tới và mềm ra
+    trong vài giây.
+  - >-
+    Cái ngon nằm hết ở cuốn bánh tráng: lát bò nóng hổi, cọng bún, nắm rau
+    sống, lát chuối chát chan chát, lát khế chua giòn — cuốn lại chấm mắm nêm
+    pha thơm. Mỗi cuốn là một lần **tự cân vị**, ai thích chua thì thêm khế,
+    ai thích chát thì thêm chuối.
+  - >-
+    Cũng vì vậy mà đây là món của bàn đông và của bữa ngồi lâu: mỗi người tự
+    nhúng, tự cuốn, vừa làm vừa nói chuyện. Ăn hết dĩa thịt này thì bày dĩa
+    khác, nồi nước vẫn nguyên đó — không có cái cảnh nồi lẩu cạn dần rồi hết
+    vui.
+
+ingredientGroups:
+  - name: Thịt bò
+    icon: meat
+    items:
+      - id: bapbo
+        name: Bắp bò (hoặc ba chỉ bò)
+        icon: meat
+        color: red
+        base: 800
+        unit: g
+        note: Bắp hoa có vân gân đẹp nhất; ba chỉ bò thì béo và mềm hơn
+      - id: gung
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: khúc
+        note: Thái sợi thả nồi — thơm và làm dịu vị bò
+  - name: Nồi nước nhúng
+    icon: pot
+    items:
+      - id: nuocdua
+        name: Nước dừa tươi
+        icon: drop
+        base: 1.5
+        unit: lít
+        note: Chừng 3 trái — nền ngọt của cả nồi, đừng thay bằng nước lọc
+      - id: giam
+        name: Giấm gạo
+        icon: bottle
+        base: 150
+        unit: ml
+        note: Nêm từ từ và nếm — mỗi loại giấm một độ chua khác nhau
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        base: 50
+        unit: g
+        note: Ngọt dịu, cân lại vị chua của giấm
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Cắt múi cau thả nồi — ngọt nước và thơm
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Đập dập cắt khúc
+      - id: thom
+        name: Thơm (dứa)
+        icon: pineapple
+        color: gold
+        base: 0.5
+        unit: trái
+        frac: true
+        note: Nửa cắt miếng thả nồi, nửa băm nhuyễn pha mắm nêm
+      - id: duanao
+        name: Dừa nạo sợi
+        icon: flower
+        base: 50
+        unit: g
+        note: Thả phút cuối — cho nồi nước cái thơm béo rất riêng
+  - name: Đồ cuốn
+    icon: roll
+    items:
+      - id: banhtrang
+        name: Bánh tráng cuốn
+        icon: roll
+        base: 1
+        unit: xấp
+        note: Loại mỏng dẻo cuốn không cần nhúng nước, tiện nhất cho bàn lẩu
+      - id: bun
+        name: Bún tươi
+        icon: noodle
+        base: 500
+        unit: g
+        note: Bún rối, gỡ tơi sẵn ra dĩa
+      - id: rausong
+        name: Xà lách, húng quế, tía tô
+        icon: lettuce
+        color: green
+        base: 400
+        unit: g
+        note: Rửa sạch, vẩy thật ráo — rau ướt là cuốn bị bở
+      - id: chuoichat
+        name: Chuối chát + khế chua
+        icon: pod
+        color: green
+        base: 2
+        unit: trái
+        note: Thái lát mỏng, ngâm nước vắt chanh cho khỏi thâm
+      - id: dualeo
+        name: Dưa leo
+        icon: okra
+        color: green
+        base: 2
+        unit: trái
+        note: Cắt que dài — cho cái mát và giòn trong cuốn
+  - name: Chén mắm nêm
+    icon: bottle
+    items:
+      - id: mamnem
+        name: Mắm nêm
+        icon: bottle
+        base: 150
+        unit: ml
+        note: Loại pha sẵn cũng được, nhưng pha lại với thơm băm thì thơm hơn nhiều
+      - id: toiot
+        name: Tỏi + ớt băm
+        icon: garlic
+        color: red
+        qtyText: 4 tép tỏi · 2 trái ớt
+        note: Băm nhuyễn — mắm nêm phải cay mới dậy
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **bàn lẩu bò nhúng giấm**
+stepsLead: >-
+  Món lẩu dễ nhất trong nhóm — không hầm, không ninh, chỉ có thái thịt cho
+  mỏng và pha chén mắm nêm cho đúng.
+steps:
+  - title: Thái thịt — ướp lạnh rồi mới thái
+    icon: knife
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Cho khối bắp bò vào **ngăn đá 20 phút** cho hơi cứng mặt ngoài, đừng
+          để đông đá hẳn.
+      - text: >-
+          Thái **lát thật mỏng, ngang thớ** — nhìn mặt thịt thấy các sợi cơ
+          chạy theo chiều nào thì đặt dao cắt vuông góc chiều đó.
+      - text: >-
+          Bày dĩa xếp vòng, phủ màng bọc, để ngăn mát tới lúc dọn.
+    callout:
+      type: tip
+      text: >-
+        Không có thời gian ướp lạnh thì nhờ hàng bò **thái sẵn bằng máy** —
+        nói rõ là "thái nhúng lẩu". Lát máy đều tăm tắp, còn tiện hơn thái tay.
+  - title: Nấu nồi nước nhúng
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Đun [[1.5|lít]] nước dừa tươi, thả sả đập dập, gừng thái sợi, hành
+          tây cắt múi và thơm cắt miếng.
+      - text: >-
+          Sôi thì hạ lửa, nấu **10 phút** cho các thứ ra hết mùi.
+      - text: >-
+          Nêm [[50|g]] đường phèn và chút muối trước, **rồi mới rót giấm từng
+          chút một**, nếm sau mỗi lần.
+      - text: >-
+          Thả [[50|g]] dừa nạo sợi vào ở phút cuối, nấu thêm 3 phút rồi tắt.
+    callout:
+      type: warn
+      text: >-
+        Đừng nêm chua tới mức uống được — nồi này **chua để nhúng thịt**, không
+        phải để húp. Vị đúng là **chua dịu, ngọt nhẹ, thoảng thơm sả gừng**;
+        nếm thấy chua nhăn mặt là quá tay, thêm nước dừa vào chữa.
+  - title: Bày đồ cuốn
+    icon: lettuce
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Rau sống rửa sạch, **vẩy thật ráo** rồi bày rổ — rau còn ướt thì
+          cuốn bị bở và mắm nêm bị loãng.
+      - text: >-
+          Chuối chát và khế thái lát mỏng, **ngâm ngay vào tô nước có vắt
+          chanh** để khỏi thâm đen, vớt ra để ráo lúc dọn.
+      - text: >-
+          Dưa leo cắt que dài, bún gỡ tơi ra dĩa, bánh tráng để nguyên xấp
+          dưới khăn ẩm cho khỏi khô mép.
+  - title: Pha chén mắm nêm
+    icon: bottle
+    minutes: 8 phút
+    intro: "Chén chấm quyết định một nửa món ăn:"
+    bullets:
+      - text: >-
+          Băm nhuyễn nửa trái thơm còn lại, trộn vào [[150|ml]] mắm nêm.
+      - text: >-
+          Thêm tỏi ớt băm và đường, khuấy đều, **nếm rồi chỉnh** — vị đúng là
+          mặn ngọt cân nhau, cay dậy lên sau, không gắt mùi mắm.
+      - text: >-
+          Mắm nêm mặn quá thì pha loãng bằng **chút nước dừa trong nồi lẩu**,
+          hợp vị hơn pha nước lọc.
+    callout:
+      type: tip
+      text: >-
+        Thơm băm không chỉ để cho ngọt — vị chua ngọt của nó **kéo mùi mắm nêm
+        dịu hẳn xuống**, người không quen ăn mắm nêm cũng ăn được. Băm càng
+        nhuyễn càng hoà.
+  - title: Nhúng & cuốn tại bàn
+    icon: roll
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Bắc nồi lên bếp giữa bàn, giữ **sôi lăn tăn** suốt bữa.
+      - text: >-
+          Gắp từng lát bò nhúng **8–10 giây**, thấy vừa đổi màu, **còn hồng
+          nhạt là gắp ra ngay**.
+      - text: >-
+          Trải bánh tráng, xếp rau sống, một gắp bún, lát chuối chát, lát khế,
+          que dưa leo, rồi đặt lát bò lên trên cùng. Cuốn chặt tay.
+      - text: >-
+          Chấm mắm nêm, cắn một miếng — chua, chát, ngọt, mặn, cay tới cùng
+          lúc. Đó là đúng vị của món này.
+    doneText: Cuốn đầu tiên đủ chua chát ngọt mặn — xong!
+
+tipsTitle: 6 bí quyết cho **lát bò mềm và cuốn ngon**
+tipsLead: >-
+  Món này không có gì để hầm, để ninh — nên mọi thứ hỏng hay ngon đều nằm ở
+  mấy chi tiết nhỏ dưới đây.
+tips:
+  - icon: knife
+    title: Ngang thớ, và thật mỏng
+    text: >-
+      Thái **ngang thớ** để cắt đứt sợi cơ, thái **mỏng** để nhúng vài giây là
+      chín. Sai một trong hai là lát thịt dai, mà nhúng lâu cho mềm thì lại
+      càng dai hơn — không có đường ra.
+  - icon: clock
+    title: Tám tới mười giây, không hơn
+    text: >-
+      Lát bò mỏng chín gần như tức thì. Nhúng tới khi mặt ngoài vừa đổi màu,
+      **giữa lát còn hồng nhạt** là gắp. Đây là điều duy nhất cần dặn cả bàn
+      trước khi ăn — ai cũng có xu hướng nhúng lâu quá.
+  - icon: drop
+    title: Nước dừa là nền, đừng thay
+    text: >-
+      Nấu bằng nước lọc thì nồi nước chỉ còn chua trơ. **Nước dừa tươi** cho
+      cái ngọt nền để cân với giấm, và đó cũng là thứ làm nồi này khác hẳn mấy
+      nồi nhúng giấm nấu suông.
+  - icon: bottle
+    title: Rót giấm từ từ, nếm liên tục
+    text: >-
+      Mỗi loại giấm một độ chua. Nêm đường và muối trước cho có nền, rồi mới
+      rót giấm **từng chút một**. Chua quá thì thêm nước dừa — nhưng cả nồi sẽ
+      nhạt đi, phải nêm lại từ đầu.
+  - icon: pineapple
+    title: Thơm băm cứu chén mắm nêm
+    text: >-
+      Người ngại mắm nêm thường là ngại cái mùi gắt. **Thơm băm nhuyễn** làm
+      mùi đó dịu hẳn mà vẫn giữ được vị đậm. Băm nhuyễn thật, đừng cắt hạt
+      lựu — miếng to thì chỉ ngọt chỗ đó chứ không hoà vào chén.
+  - icon: pod
+    title: Chuối chát và khế đừng bỏ
+    text: >-
+      Hai thứ này nhìn phụ mà lại là **cái khung của cuốn bánh tráng**: chuối
+      chát chặn cái ngậy của thịt, khế chua cắt cái mặn của mắm nêm. Bỏ đi thì
+      cuốn nào cũng giống cuốn nào, ăn tới cuốn thứ tư là chán.
+
+serve:
+  title: Bàn lẩu ăn bằng tay — **món của bữa ngồi lâu**
+  paras:
+    - >-
+      Bày rộng ra: nồi ở giữa, rổ rau một bên, dĩa thịt một bên, xấp bánh
+      tráng và dĩa bún trong tầm tay mọi người. Mỗi người một chén mắm nêm
+      riêng. Ai cũng tự nhúng, tự cuốn — không có người phục vụ, đó mới vui.
+    - >-
+      Thịt bày ra **từng dĩa nhỏ**, hết dĩa này mới bày dĩa khác, để phần còn
+      lại nằm trong ngăn mát cho tươi. Nồi nước thì để lửa nhỏ suốt; vơi đi thì
+      châm thêm chút nước dừa, đừng châm nước lọc.
+  aside:
+    title: Trên bàn nên có
+    intro: "Bốn thứ không được thiếu:"
+    items:
+      - icon: bottle
+        text: "**Chén mắm nêm pha thơm** — mỗi người một chén, đây là linh hồn món."
+      - icon: pod
+        text: "**Dĩa chuối chát và khế chua** — cái khung vị của mỗi cuốn."
+      - icon: roll
+        text: "**Bánh tráng và bún** — để trong tầm tay mọi người."
+      - icon: lettuce
+        text: "**Rổ rau sống vẩy thật ráo** — rau ướt là cuốn bở."
+
+faq:
+  - q: Không ăn được mắm nêm thì chấm gì?
+    a: >-
+      Pha **nước mắm chua ngọt** như nước chấm gỏi cuốn: nước mắm, đường,
+      chanh, tỏi ớt, thêm chút nước dừa trong nồi. Không đúng bài bằng mắm nêm
+      nhưng vẫn ngon. Hoặc thử mắm nêm pha nhiều thơm băm trước đã — nhiều
+      người tưởng mình không ăn được, tới khi ăn thử bản pha khéo thì đổi ý.
+  - q: Nên chọn phần thịt bò nào?
+    a: >-
+      **Bắp hoa** là đẹp nhất — có vân gân, nhúng xong vừa mềm vừa có cái sựt
+      nhẹ. **Ba chỉ bò** béo và mềm hơn, hợp với người thích ngậy. Tránh phần
+      nạc trơn hoàn toàn: nhúng xong khô và nhạt.
+  - q: Nồi nước nhúng lỡ chua quá thì sao?
+    a: >-
+      Thêm nước dừa tươi cho loãng ra rồi nêm lại đường phèn và muối. Thả thêm
+      **một củ hành tây cắt múi** cũng kéo vị ngọt lên rõ. Đừng thêm nước lọc
+      — loãng vị mà không cứu được cái chua.
+  - q: Thay bánh tráng bằng bún trong tô được không?
+    a: >-
+      Được, nhiều nhà làm vậy cho nhanh: bún vào tô, xếp rau, đặt thịt vừa
+      nhúng lên, chan chút mắm nêm. Nhưng **cuốn bánh tráng vẫn hơn** — cuốn
+      thì mỗi miếng có đủ mọi thứ cùng lúc, còn tô bún thì gắp trúng đâu ăn
+      đó.
+  - q: Chuẩn bị trước tới đâu được?
+    a: >-
+      Gần như mọi thứ: nước nhúng nấu sẵn để đó, mắm nêm pha sẵn (càng để càng
+      hoà), rau nhặt rửa sẵn. **Chỉ có thịt thì thái sát giờ** và chuối chát,
+      khế thì thái muộn nhất có thể — hai thứ này thâm rất nhanh dù đã ngâm
+      chanh.
+  - q: Nước dừa đóng hộp có dùng được không?
+    a: >-
+      Được nhưng nhạt hơn dừa tươi khá nhiều, và nhiều loại có sẵn đường nên
+      phải giảm đường phèn. Nếu dùng hộp thì **tăng lượng thơm và hành tây**
+      thả nồi để bù lại phần ngọt tự nhiên còn thiếu.
+
+ticker:
+  - icon: drop
+    text: Nước dừa nấu giấm chua dịu
+  - icon: meat
+    text: Nhúng tám giây là gắp
+  - icon: roll
+    text: Cuốn bánh tráng ăn bằng tay
+  - icon: bottle
+    text: Mắm nêm pha thơm băm
+  - icon: pod
+    text: Chuối chát và khế chua
+  - icon: pineapple
+    text: Dừa nạo sợi thả phút cuối

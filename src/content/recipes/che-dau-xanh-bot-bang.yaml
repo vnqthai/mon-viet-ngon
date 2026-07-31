@@ -1,0 +1,310 @@
+title: Chè đậu xanh bột báng **hạt trong, nước cốt dừa béo**
+summary: >-
+  Đậu xanh nấu bở mà **còn nguyên hạt**, thả cùng bột báng luộc trong veo trong
+  nồi nước lá dứa, rót nước cốt dừa vào sau cùng — ly chè Nam Bộ ăn nóng cũng
+  được, thêm đá cũng được.
+region: Miền Nam
+category: Chè
+occasions: [Ăn chơi, Cho bé]
+pubDate: 2026-07-31
+time:
+  total: 50 phút
+  active: 25 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 86
+art: che-dau-xanh-bot-bang
+heroEyebrow: Cùng nắm đậu xanh, người Nam nấu khác…
+
+quick:
+  ingredients:
+    - Đậu xanh cà vỏ [[200|g]] — ngâm 3 tiếng
+    - Bột báng [[70|g]] — ngâm nước lạnh 20 phút, **luộc riêng**
+    - Đường [[160|g]] · muối [[0.5|muỗng cà phê|frac]] · lá dứa [[3|lá]]
+    - Nước cốt dừa [[300|ml]] + bột năng [[1|muỗng canh]]
+    - Đậu phộng rang giã thô · đá viên (nếu ăn lạnh)
+  steps:
+    - Đậu ngâm nở, nấu với [[900|ml]] nước + lá dứa buộc gút, lửa vừa, **hớt bọt** trong 5 phút đầu.
+    - Nấu tới khi hạt **bấm là nát nhưng nhìn vẫn tròn** — chừng 20 phút, đừng khuấy nhiều.
+    - Bột báng ngâm nở đem **luộc riêng nồi khác** tới khi trong hết lõi trắng, xả nước lạnh.
+    - Nêm đường + muối vào nồi đậu, nếm cho **ngọt có hậu mặn nhẹ**.
+    - Cho bột báng vào, rót nước cốt dừa đã khuấy bột năng, **sôi lăn tăn là tắt**.
+    - Múc ly, rắc đậu phộng. Ăn nóng, hoặc để nguội rồi thêm đá.
+  warning: >-
+    Nêm đường **quá sớm, lúc hạt đậu chưa mềm**, là hạt sẽ chai lại — nấu thêm
+    nửa tiếng cũng không bở nữa. Nguyên tắc chung cho mọi nồi chè hạt: mềm
+    trước, ngọt sau.
+
+flavor:
+  chua: 0
+  ngot: 7.5
+  man: 2
+  cay: 0
+  thom: 6.5
+flavorNote: >-
+  **Chuẩn ly chè:** hạt đậu **bở tơi trong miệng mà nhìn vẫn còn nguyên hình**,
+  hạt bột báng trong veo dai nhẹ, nước chè hơi sánh chứ không loãng như nước
+  lã. Vị béo của cốt dừa phải **có hậu mặn** thì mới ngọt mà không ngán.
+storyEyebrow: Chuyện ly chè
+storyTitle: Cùng nắm đậu xanh, **hai miền nấu ra hai món**
+story:
+  - >-
+    Người Bắc lấy đậu xanh đồ chín rồi đánh cho tan hết hạt thành một khối vàng
+    mịn. Người Nam thì để nguyên hạt, nấu thành nồi chè có nước, thả thêm bột
+    báng cho có cái dai, rồi rót nước cốt dừa vào. Cùng một nguyên liệu rẻ tiền
+    mà ra hai món khác nhau tới mức đặt cạnh nhau khó tin là họ hàng.
+  - >-
+    Bản Nam Bộ dễ nấu hơn hẳn — không phải mỏi tay đánh, chỉ cần canh đúng hai
+    chuyện: **đừng nêm đường sớm** và **luộc bột báng ở nồi riêng**. Hai lỗi
+    này là nguyên nhân của gần hết mấy nồi chè hỏng: một cái làm đậu chai
+    cứng, cái kia làm cả nồi đục ngầu và nhớt.
+  - >-
+    Ly chè này linh hoạt tới mức thành món chè quốc dân của mấy xe chè lề
+    đường: buổi tối múc nóng, ban trưa thêm đá bào. Nhà có con nít thì càng
+    tiện — ngọt dịu, mềm, hạt bột báng tròn tròn dai dai, đứa nào cũng thích.
+
+ingredientGroups:
+  - name: Nồi chè
+    icon: pot
+    items:
+      - id: dauxanh
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 200
+        unit: g
+        note: Hạt vàng tươi, đều — hạt xỉn màu là đậu cũ, nấu lâu mềm mà lại xỉn nước
+      - id: botbang
+        name: Bột báng
+        icon: rice
+        base: 70
+        unit: g
+        note: Hạt tròn nhỏ; loại hạt to (trân châu) thì luộc lâu hơn, chừng 20 phút
+      - id: ladua
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 3
+        unit: lá
+        note: Buộc gút thả từ đầu, vớt ra trước khi nêm đường
+      - id: duong
+        name: Đường cát
+        icon: jar
+        base: 160
+        unit: g
+        note: Chỉ nêm khi hạt đậu đã mềm — nêm sớm là hạt chai
+      - id: muoi
+        name: Muối
+        icon: jar
+        base: 0.5
+        unit: muỗng cà phê
+        frac: true
+        note: "Chia đôi: nửa vào nồi chè, nửa vào cốt dừa"
+  - name: Nước cốt dừa & đồ rắc
+    icon: drop
+    items:
+      - id: cotdua
+        name: Nước cốt dừa
+        icon: drop
+        base: 300
+        unit: ml
+        note: Rót vào sau cùng, đun tới lăn tăn rồi tắt
+      - id: botnang
+        name: Bột năng
+        icon: rice
+        base: 1
+        unit: muỗng canh
+        note: Pha nước nguội rồi mới rót — cho nước chè hơi sánh
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        base: 60
+        unit: g
+        note: Giã thô, rắc lúc dọn
+      - id: da
+        name: Đá viên
+        icon: drop
+        qtyText: Tùy ly, nếu ăn lạnh
+        note: Ăn lạnh thì nêm nhỉnh ngọt hơn một chút — đá tan sẽ làm nhạt đi
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **nồi chè đậu xanh bột báng**
+stepsLead: >-
+  Món chè dễ nhất trong nhóm. Chỉ cần nhớ hai chữ "riêng" và "sau": bột báng
+  luộc riêng, đường nêm sau.
+steps:
+  - title: Nấu đậu xanh — mềm trước, ngọt sau
+    icon: pot
+    minutes: 25 phút
+    bullets:
+      - text: >-
+          Đậu ngâm 3 tiếng, đãi lại cho sạch, nấu với [[900|ml]] nước và lá dứa
+          buộc gút.
+      - text: >-
+          Sôi thì **hạ lửa liu riu và hớt bọt** trong 5 phút đầu — hớt sạch thì
+          nước chè trong, để bọt tan lại là nước đục và có mùi hăng.
+      - text: >-
+          Nấu chừng **20 phút**, thử một hạt: **bấm giữa hai ngón thấy nát,
+          nhưng nhìn hạt vẫn còn tròn** là đúng độ. Hạn chế khuấy — mỗi lần
+          khuấy là thêm mấy hạt vỡ.
+    callout:
+      type: warn
+      text: >-
+        Tuyệt đối **chưa cho đường vào lúc này**. Đường làm vỏ hạt săn lại,
+        nấu thêm bao lâu cũng không bở nữa. Đây là lỗi phổ biến nhất của mọi
+        nồi chè hạt.
+    timer:
+      secs: 1200
+      label: Hẹn giờ nấu đậu · 20:00
+      doneMsg: Bấm thử một hạt — nát mà còn tròn là tới lúc nêm đường!
+  - title: Luộc bột báng ở nồi riêng
+    icon: rice
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Ngâm bột báng trong nước lạnh **20 phút** cho hạt nở mềm mặt ngoài.
+      - text: >-
+          Đun một nồi nước sôi khác, thả bột báng vào, **khuấy nhẹ liên tục
+          phút đầu** cho khỏi dính đáy. Luộc tới khi hạt **trong hết lõi
+          trắng** — chừng 10 phút với hạt nhỏ.
+      - text: >-
+          Vớt ra **xả ngay nước lạnh** cho hạt săn và rời nhau, để ráo chờ dùng.
+    callout:
+      type: warn
+      text: >-
+        Thả bột báng sống thẳng vào nồi chè là hỏng: hạt nhả tinh bột làm cả
+        nồi **đục ngầu và nhớt như hồ**. Luộc riêng — xả lạnh — mới cho vào,
+        không có cách nào khác.
+  - title: Nêm & rót nước cốt dừa
+    icon: drop
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Vớt lá dứa. Nêm [[160|g]] đường + nửa chỗ muối, khuấy tan, **nếm
+          lại** — phải thấy ngọt có hậu đậm chứ không ngọt trơn.
+      - text: >-
+          Thả bột báng đã luộc vào, đảo nhẹ.
+      - text: >-
+          Khuấy [[1|muỗng canh]] bột năng với chút nước nguội, trộn vào
+          [[300|ml]] cốt dừa cùng nửa chỗ muối còn lại, rồi rót cả vào nồi chè.
+      - text: >-
+          Đun tới khi thấy **lăn tăn ở mép nồi là tắt bếp ngay**. Nước cốt dừa
+          sôi bùng sẽ tách dầu, nổi váng vàng trên mặt.
+  - title: Múc ly — nóng hay lạnh tùy bữa
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          **Ăn nóng:** múc chén, rắc đậu phộng rang giã thô lên mặt, ăn liền
+          lúc còn bốc khói.
+      - text: >-
+          **Ăn lạnh:** để nồi nguội hẳn rồi cho ngăn mát vài tiếng. Múc ly,
+          thêm đá viên, rắc đậu phộng.
+      - text: >-
+          Ly lạnh thì nêm **nhỉnh ngọt hơn một chút** ngay từ trong nồi — đá
+          tan ra sẽ kéo vị nhạt xuống.
+    doneText: Múc muỗng có cả đậu lẫn bột báng — xong!
+
+tipsTitle: 5 bí quyết cho **nồi chè trong, hạt còn nguyên**
+tipsLead: >-
+  Nồi chè này hỏng thì chỉ hỏng theo đúng vài kiểu, và kiểu nào cũng chữa được
+  bằng một câu ngắn.
+tips:
+  - icon: jar
+    title: Mềm trước, ngọt sau — luật của mọi nồi chè hạt
+    text: >-
+      Đường rút nước ra khỏi hạt đậu đang nấu, làm vỏ hạt săn chai lại. Cứ nấu
+      cho hạt mềm hẳn **rồi mới nêm đường**, không riêng gì đậu xanh — đậu đỏ,
+      đậu đen, hạt sen đều cùng một luật.
+  - icon: rice
+    title: Bột báng luộc riêng, xả lạnh
+    text: >-
+      Luộc riêng thì hạt **trong veo, rời nhau, dai nhẹ**; luộc chung thì cả
+      nồi nhớt. Xả nước lạnh ngay sau khi vớt là để hạt săn lại — không xả thì
+      chúng dính thành cục.
+  - icon: drop
+    title: Muối chia đôi
+    text: >-
+      Nửa nhúm muối vào nồi chè để vị ngọt có chỗ tựa, nửa còn lại vào nước cốt
+      dừa để cái béo nổi lên. Chia đôi vậy ăn rõ hơn hẳn so với dồn hết vào một
+      chỗ.
+  - icon: spoon
+    title: Khuấy càng ít càng đẹp
+    text: >-
+      Mỗi vòng khuấy là thêm mấy hạt đậu vỡ ra, nước chè đục dần. Muốn đảo thì
+      **lắc nhẹ nồi** hoặc lùa muỗng dọc theo thành, đừng khuấy vòng giữa nồi.
+  - icon: clock
+    title: Nấu tối, ăn trưa hôm sau
+    text: >-
+      Chè này để qua đêm trong ngăn mát **ngon hơn lúc mới nấu** — hạt đậu ngấm
+      hết vị ngọt béo. Chỉ cần nhớ nấu nước hơi loãng hơn ý muốn một chút, vì
+      để lạnh là nồi sẽ đặc lại.
+
+serve:
+  title: Ly chè đậu xanh — **nóng buổi tối, lạnh buổi trưa**
+  paras:
+    - >-
+      Đây là món chè "hai mùa" đúng nghĩa. Trời mát thì múc chén nóng, húp
+      từng muỗng có cả hạt đậu bở lẫn hạt bột báng dai. Trời nóng thì cho ly,
+      thêm nắm đá, đậu phộng rắc lên trên — mát miệng ngay.
+    - >-
+      Nhà có con nít thì đây là món chè an toàn nhất để bắt đầu: không cay,
+      không chua, hạt mềm dễ nuốt. Chỉ cần **giã thật mịn hoặc bỏ hẳn đậu
+      phộng** với bé nhỏ, và nấu bột báng thật trong cho dễ ăn.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ để cạnh nồi chè:"
+    items:
+      - icon: pod
+        text: "**Đậu phộng rang giã thô** — cái giòn duy nhất trong ly."
+      - icon: drop
+        text: "**Chén cốt dừa đặc** — ai thích béo thì chan thêm."
+      - icon: flower
+        text: "**Dừa nạo sợi** — thêm hương và cái sựt nhẹ."
+
+faq:
+  - q: Hạt đậu nấu mãi không mềm, nấu cả tiếng vẫn sượng?
+    a: >-
+      Hai nghi phạm. Một là **nêm đường quá sớm** — hạt chai rồi thì hết cứu,
+      lần sau nhớ nêm sau. Hai là **đậu cũ**: hạt để lâu nấu bao lâu cũng
+      sượng. Chọn đậu hạt vàng tươi, đều màu, không có hạt lấm tấm đen.
+  - q: Nồi chè đục ngầu và nhớt?
+    a: >-
+      Chắc chắn do luộc bột báng thẳng trong nồi chè. Cứu tạm bằng cách
+      **chắt phần nước đục ra, thêm nước sôi và nêm lại**, nhưng lần sau thì
+      luộc riêng nồi khác. Khuấy nhiều làm đậu vỡ cũng góp phần làm đục.
+  - q: Không có bột báng thì thay bằng gì?
+    a: >-
+      Thay bằng **bột khoai** (loại sợi khô ngâm nở) hoặc **trân châu nhỏ**,
+      cách xử lý y hệt: ngâm nở, luộc riêng, xả lạnh. Bỏ hẳn cũng được, nhưng
+      ly chè sẽ chỉ còn một kết cấu, ăn mau chán.
+  - q: Chè để lạnh bị đặc quánh lại?
+    a: >-
+      Bột năng nguội thì đặc, chuyện bình thường. Thêm chút nước lọc hoặc nước
+      dão dừa, khuấy đều là về độ cũ. Muốn khỏi phiền thì lần sau **giảm bột
+      năng còn nửa muỗng** nếu biết trước là sẽ ăn lạnh.
+  - q: Nấu bằng nồi áp suất được không?
+    a: >-
+      Được và nhanh hơn nhiều — nhưng canh chừng, đậu xanh rất mau nát. Nấu
+      **5 phút kể từ lúc lên áp** rồi xả áp ngay, mở ra thử hạt. Bột báng và
+      nước cốt dừa thì vẫn phải làm riêng ở ngoài như thường.
+  - q: Ăn với đá thì có bị nhạt không?
+    a: >-
+      Có, nên phải tính trước: nếu biết sẽ ăn lạnh thì **nêm nồi ngọt và mặn
+      nhỉnh hơn** một chút, đá tan sẽ kéo về vừa. Hoặc làm sẵn đá bằng chính
+      nước cốt dừa pha loãng — cách này ly chè càng ăn càng béo chứ không nhạt.
+
+ticker:
+  - icon: pod
+    text: Hạt đậu bở mà còn nguyên
+  - icon: rice
+    text: Bột báng trong veo
+  - icon: drop
+    text: Cốt dừa rót sau cùng
+  - icon: jar
+    text: Mềm trước, ngọt sau
+  - icon: sun
+    text: Nóng buổi tối, lạnh buổi trưa
+  - icon: herb
+    text: Lá dứa thơm cả nồi

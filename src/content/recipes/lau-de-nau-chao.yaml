@@ -1,0 +1,390 @@
+title: Lẩu dê nấu chao **béo bùi, thơm nức nồi**
+summary: >-
+  Thịt dê ướp chao tán nhuyễn với sả tỏi, nấu thành **nồi nước lẩu vàng nâu béo
+  ngậy**, thả khoai môn bở và tàu hũ ky chiên phồng — nhúng cải xanh với tần ô,
+  chấm chén chao sa tế. Nồi lẩu Nam Bộ đúng bài.
+region: Miền Nam
+category: Lẩu
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 2 giờ
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 88
+art: lau-de-chao
+heroEyebrow: Nồi lẩu mà mùi bay ra tới đầu ngõ…
+
+quick:
+  ingredients:
+    - Thịt dê có da [[1|kg]] — vai hoặc đùi, chặt miếng [[4|cm]]
+    - "Khử mùi: gừng giã [[1|củ]] + rượu trắng [[3|muỗng canh]]"
+    - "Ướp: chao đỏ [[4|viên]] + chao trắng [[2|viên]] · sả băm [[4|cây]] · tỏi + hành tím băm · ngũ vị hương [[1|muỗng cà phê]]"
+    - Khoai môn [[500|g]] cắt khối · tàu hũ ky [[100|g]] chiên phồng
+    - Nước dừa tươi [[1|lít]] + nước lọc [[1|lít]]
+    - Rau nhúng — cải xanh, tần ô, tía tô · bún hoặc mì
+    - "Chén chấm: chao [[4|viên]] tán + nước chao + đường + sa tế + sả băm"
+  steps:
+    - Bóp thịt dê với **gừng giã + rượu trắng** [[10|phút]], xả sạch — bước khử mùi, đừng bỏ.
+    - Tán nhuyễn chao, trộn với sả tỏi hành + ngũ vị hương, **ướp thịt tối thiểu 1 tiếng**.
+    - Phi thơm sả tỏi, cho thịt vào **xào săn mặt** rồi mới đổ nước dừa + nước lọc.
+    - Hầm lửa nhỏ **60–75 phút** tới khi miếng da mềm dẻo, xiên đũa qua nhẹ tay.
+    - Khoai môn **chiên sơ cho se mặt** rồi mới thả vào — chiên rồi thì mềm mà không tan vào nước.
+    - Tàu hũ ky cắt miếng, **chiên phồng**, để riêng, ăn tới đâu thả tới đó.
+    - Bắc nồi lên bếp giữa bàn, nhúng rau, chấm chao sa tế, ăn với bún hoặc mì.
+  warning: >-
+    Không khử mùi kỹ thì cả nồi lẩu ám mùi hoi, chao thơm cỡ nào cũng không
+    che nổi. Bóp gừng rượu, xả sạch, rồi **chần qua nước sôi có đập gừng** một
+    lượt nữa là chắc ăn.
+
+flavor:
+  chua: 0.5
+  ngot: 5
+  man: 6.5
+  cay: 3
+  thom: 9
+flavorNote: >-
+  **Chuẩn nồi lẩu:** nước lẩu **vàng nâu sánh nhẹ, béo bùi mùi chao** chứ không
+  loãng như nước hầm xương; miếng dê **da mềm dẻo, thịt còn thớ** chứ không bã;
+  khoai môn bở tan trong miệng mà miếng vẫn còn nguyên trong nồi.
+storyEyebrow: Chuyện nồi lẩu dê
+storyTitle: Miếng chao — **thứ làm nên cả nồi lẩu**
+story:
+  - >-
+    Nhắc "lẩu dê" ở miền Nam thì gần như ai cũng hiểu là **lẩu dê nấu chao**.
+    Chao — đậu hũ ủ lên men — vừa mặn vừa béo vừa dậy mùi, chính là thứ hợp
+    nhất với thịt dê: nó không giấu mùi dê đi mà **đứng ngang hàng với mùi
+    đó**, hai bên cân nhau thành một mùi thứ ba rất riêng.
+  - >-
+    Nồi lẩu này còn có hai người bạn không thể thiếu. **Khoai môn** hút nước
+    lẩu vào rồi bở tan trong miệng, làm nồi nước sánh lại một cách tự nhiên
+    chẳng cần bột. **Tàu hũ ky chiên phồng** thì ngược lại — giòn rộp lúc mới
+    thả, rồi mềm dần ngậm đầy nước lẩu, ăn miếng nào cũng khác miếng nào.
+  - >-
+    Đây là món của bàn đông người, nồi đặt giữa, mỗi người một chén chao sa tế
+    riêng. Nhúng cải xanh vô nước lẩu đang sôi, gắp ra chấm chao, kèm miếng
+    thịt dê — rồi tự hiểu vì sao quán lẩu dê nào tối nào cũng kín bàn.
+
+ingredientGroups:
+  - name: Thịt dê & khử mùi
+    icon: meat
+    items:
+      - id: thitde
+        name: Thịt dê có da
+        icon: meat
+        base: 1
+        unit: kg
+        note: Vai hoặc đùi, miếng có da mới ra chất — nhờ hàng chặt sẵn khối [[4|cm]]
+      - id: gung
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: củ
+        note: Giã dập, một nửa để bóp thịt, một nửa thả nồi chần
+      - id: ruou
+        name: Rượu trắng
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        note: Bóp cùng gừng — cặp đôi khử mùi kinh điển của thịt dê
+  - name: Chao & đồ ướp
+    icon: jar
+    items:
+      - id: chaodo
+        name: Chao đỏ
+        icon: jar
+        color: red
+        base: 4
+        unit: viên
+        note: Chao đỏ cho màu và vị đậm; nhớ lấy cả nước chao trong hũ
+      - id: chaotrang
+        name: Chao trắng
+        icon: jar
+        base: 2
+        unit: viên
+        note: Béo và dịu hơn chao đỏ — trộn hai loại thì vị tròn nhất
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 4
+        unit: cây
+        note: Nửa băm nhuyễn để ướp, nửa đập dập thả nồi
+      - id: toihanh
+        name: Tỏi + hành tím
+        icon: garlic
+        base: 1
+        unit: chén
+        note: Băm nhuyễn, phi thơm trước khi xào thịt
+      - id: nguvi
+        name: Ngũ vị hương
+        icon: jar
+        base: 1
+        unit: muỗng cà phê
+        note: Một muỗng thôi — nhiều quá là át hết mùi chao
+  - name: Nồi nước lẩu
+    icon: pot
+    items:
+      - id: nuocdua
+        name: Nước dừa tươi
+        icon: drop
+        base: 1
+        unit: lít
+        note: Chừng 2 trái — cho vị ngọt nền, khỏi cần nhiều đường
+      - id: khoaimon
+        name: Khoai môn
+        icon: pumpkin
+        base: 500
+        unit: g
+        note: Cắt khối [[3|cm]], chiên sơ cho se mặt rồi mới thả nồi
+      - id: tauhuky
+        name: Tàu hũ ky (váng đậu)
+        icon: pod
+        color: gold
+        base: 100
+        unit: g
+        note: Loại lá khô, cắt miếng cỡ quân bài, chiên phồng
+  - name: Rau nhúng & chén chấm
+    icon: lettuce
+    items:
+      - id: rau
+        name: Cải xanh · tần ô · tía tô
+        icon: lettuce
+        color: green
+        base: 600
+        unit: g
+        note: Cải xanh đắng nhẹ hợp nhất; tần ô thơm; tía tô thả cuối cho dậy mùi
+      - id: bun
+        name: Bún tươi hoặc mì trứng
+        icon: noodle
+        base: 600
+        unit: g
+        note: Mì trứng hợp với nước chao béo hơn bún một chút
+      - id: chenchao
+        name: Chao pha chấm + sa tế
+        icon: bottle
+        color: red
+        qtyText: 4 viên chao · đường · sa tế · sả băm
+        note: Mỗi người một chén riêng — đây là linh hồn của bữa lẩu
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi lẩu dê nấu chao**
+stepsLead: >-
+  Món này không khó, chỉ dài: khử mùi cho kỹ, ướp cho lâu, hầm cho đủ. Ba việc
+  đó làm đúng thì bước cuối chỉ là bắc nồi ra bàn.
+steps:
+  - title: Khử mùi thịt dê — làm hai lượt
+    icon: ginger
+    minutes: 20 phút
+    intro: "Đây là bước quyết định nồi lẩu thơm hay hoi:"
+    bullets:
+      - label: "Lượt 1 — bóp:"
+        text: >-
+          bóp thịt với **gừng giã + [[3|muỗng canh]] rượu trắng** trong
+          [[10|phút]], bóp mạnh cho ngấm vào cả phần da, rồi xả nước thật sạch.
+      - label: "Lượt 2 — chần:"
+        text: >-
+          đun nồi nước sôi thả vài lát gừng đập dập, **chần thịt 2 phút** rồi
+          vớt ra xả nước lạnh. Nước chần đó đổ bỏ.
+      - text: Để thịt thật ráo trước khi ướp — thịt ướt thì chao không bám.
+    callout:
+      type: warn
+      text: >-
+        Bỏ bớt một trong hai lượt là mùi hoi còn sót lại, mà mùi đó **nấu càng
+        lâu càng nồng**. Cả hai lượt cộng lại chỉ tốn 20 phút, rẻ hơn nhiều so
+        với một nồi lẩu không ai ăn.
+  - title: Ướp chao — càng lâu càng thấm
+    icon: jar
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Tán nhuyễn [[4|viên]] chao đỏ + [[2|viên]] chao trắng cùng **nước
+          chao trong hũ** — đừng chắt bỏ, chỗ nước đó mặn và thơm nhất.
+      - text: >-
+          Trộn chao với sả băm, tỏi hành băm, [[1|muỗng cà phê]] ngũ vị hương,
+          chút đường và tiêu.
+      - text: >-
+          Xoa đều lên thịt, **ướp tối thiểu 1 tiếng**, để ngăn mát qua đêm thì
+          càng ngon.
+    callout:
+      type: tip
+      text: >-
+        Nêm mặn ở bước ướp này là chính, đừng để dành nêm lúc nấu. Chao đã mặn
+        sẵn nên **chưa cần thêm muối hay nước mắm** — nếm nước lẩu lúc gần
+        xong rồi mới quyết.
+  - title: Xào săn rồi mới đổ nước
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Phi thơm phần tỏi hành còn lại với sả đập dập trong nồi đáy dày.
+      - text: >-
+          Cho thịt đã ướp vào **xào lửa lớn tới khi mặt ngoài săn lại và ngả
+          nâu** — bước này khoá vị ướp vào trong miếng thịt.
+      - text: >-
+          Đổ [[1|lít]] nước dừa tươi + [[1|lít]] nước lọc, đun sôi rồi **hạ lửa
+          liu riu ngay**, hớt bọt.
+    callout:
+      type: warn
+      text: >-
+        Đổ nước vào lúc thịt chưa săn thì chao tan hết ra nước, miếng thịt nhạt
+        thếch mà nồi nước lại mặn gắt. Phải xào cho tới khi **nghe mùi chao dậy
+        lên** rồi mới đổ nước.
+  - title: Hầm & thả khoai môn
+    icon: pot
+    minutes: 75 phút
+    bullets:
+      - text: >-
+          Hầm lửa nhỏ **60–75 phút**. Thử bằng đũa: **xiên qua phần da thấy nhẹ
+          tay, da mềm dẻo mà thịt còn thớ** là đạt.
+      - text: >-
+          Trong lúc chờ, cắt khoai môn khối [[3|cm]], **chiên sơ cho se vàng
+          mặt** rồi vớt ra.
+      - text: >-
+          Thả khoai vào nồi ở **20 phút cuối** — vào sớm là tan hết vào nước.
+      - text: >-
+          Tàu hũ ky cắt miếng, chiên ngập dầu cho **phồng rộp**, vớt để ráo trên
+          giấy, để riêng ngoài bàn.
+    callout:
+      type: tip
+      text: >-
+        Chiên sơ khoai môn là mẹo của quán: lớp mặt se lại giữ cho miếng khoai
+        **mềm bở bên trong mà không rã ra nước**. Bỏ bước này thì nửa tiếng sau
+        nồi lẩu chỉ còn một thứ hồ sền sệt.
+    timer:
+      secs: 3600
+      label: Hẹn giờ hầm thịt dê · 60:00
+      doneMsg: Xiên thử miếng da — nhẹ tay là tới lúc thả khoai môn!
+  - title: Pha chén chao & dọn bàn
+    icon: bowl
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          **Chén chấm:** tán [[4|viên]] chao với chút nước chao, thêm đường,
+          sa tế, sả băm và vài giọt nước cốt chanh, đánh cho sánh mịn.
+      - text: >-
+          Bắc nồi lên bếp giữa bàn, để lửa liu riu. Nếm lại nước lẩu — thiếu
+          mặn thì thêm chút nước chao chứ đừng thêm muối.
+      - text: >-
+          Rau rửa sạch để rổ, tàu hũ ky để dĩa riêng. **Ăn tới đâu nhúng tới
+          đó**: rau trước, tàu hũ ky sau cùng cho khỏi mềm nhũn.
+    doneText: Gắp miếng dê chấm chao, kèm cọng cải xanh — xong!
+
+tipsTitle: 6 bí quyết cho **nồi lẩu thơm chao, không hoi**
+tipsLead: >-
+  Lẩu dê hỏng thì hỏng đúng ba kiểu: hoi, nhạt, hoặc nát. Sáu điều dưới đây
+  chặn cả ba từ đầu.
+tips:
+  - icon: ginger
+    title: Gừng và rượu, không phải một trong hai
+    text: >-
+      Rượu kéo mùi bay đi, gừng át phần còn lại — thiếu bên nào cũng không đủ.
+      Bóp mạnh tay cho ngấm vào **cả phần da**, vì mùi hoi nằm nhiều ở lớp mỡ
+      dưới da chứ không ở nạc.
+  - icon: jar
+    title: Đừng chắt bỏ nước chao
+    text: >-
+      Nhiều người vớt viên chao ra rồi bỏ phần nước đục trong hũ — đó lại là
+      chỗ **mặn và thơm nhất**. Tán cả viên lẫn nước, và để dành một ít để nêm
+      nồi lúc cuối thay cho muối.
+  - icon: flame
+    title: Xào săn trước khi đổ nước
+    text: >-
+      Miếng thịt xào tới khi mặt ngoài ngả nâu thì vị ướp **nằm lại trong
+      thịt**. Đổ nước sớm thì mọi thứ tan ra nước hết: nồi nước mặn, miếng thịt
+      nhạt.
+  - icon: pumpkin
+    title: Khoai môn chiên sơ, thả sau cùng
+    text: >-
+      Se mặt bằng chảo dầu rồi mới thả, và chỉ thả ở **20 phút cuối**. Làm vậy
+      miếng khoai bở tan trong miệng mà trong nồi vẫn còn nguyên khối, nước
+      lẩu sánh nhẹ chứ không đục ngầu.
+  - icon: pod
+    title: Tàu hũ ky để ngoài, thả từng đợt
+    text: >-
+      Chiên phồng rồi để dĩa riêng ngoài bàn, **ăn tới đâu thả tới đó**. Thả
+      hết vào nồi từ đầu thì mười phút sau chỉ còn mấy mảnh mềm oặt, mất hẳn
+      cái thú "giòn rồi mềm".
+  - icon: lettuce
+    title: Cải xanh là rau đúng nhất
+    text: >-
+      Vị đắng nhẹ của cải xanh cắt được cái béo của chao, ăn hoài không ngán.
+      Tần ô cho mùi thơm, tía tô thả cuối cùng ngay trước khi gắp. Rau muống
+      hay bắp cải cũng nhúng được nhưng không "ăn" với nước chao bằng.
+
+serve:
+  title: Nồi lẩu giữa bàn — **món của bữa đông người**
+  paras:
+    - >-
+      Lẩu dê nấu chao là món **phải đông mới vui**. Nồi đặt giữa bàn để lửa liu
+      riu, rổ rau một bên, dĩa tàu hũ ky một bên, mỗi người một chén chao sa tế
+      pha theo gu riêng — ai ăn cay thì thêm sa tế, ai thích chua thì vắt thêm
+      chanh.
+    - >-
+      Ăn tới lưng nồi thì thả bún hoặc mì trứng vào phần nước lẩu đã sánh lại
+      vì khoai môn — đó mới là chén ngon nhất của cả bữa. Nhớ chừa lại chút
+      nước lẩu cho khúc này, đừng nhúng rau cho cạn sạch.
+  aside:
+    title: Trên bàn nên có
+    intro: "Bốn thứ dọn kèm nồi lẩu:"
+    items:
+      - icon: bottle
+        text: "**Chén chao sa tế riêng từng người** — pha theo gu, đây là linh hồn bữa ăn."
+      - icon: lettuce
+        text: "**Rổ cải xanh, tần ô, tía tô** — đắng nhẹ cắt béo."
+      - icon: pod
+        text: "**Dĩa tàu hũ ky chiên phồng** — để ngoài, thả từng đợt."
+      - icon: noodle
+        text: "**Mì trứng** — thả vào cuối bữa, lúc nước lẩu đậm nhất."
+
+faq:
+  - q: Mua thịt dê ở đâu, phần nào là ngon nhất cho nồi lẩu?
+    a: >-
+      Chợ lớn và hàng thịt chuyên đều có; đặt trước một hôm là chắc. Chọn
+      **thịt vai hoặc đùi còn da** — miếng có da mới cho cái mềm dẻo đặc trưng.
+      Nói người bán chặt khối [[4|cm]] giùm, phần xương thì để riêng đem hầm
+      lấy nước cho ngọt thêm.
+  - q: Không có chao thì thay bằng gì được không?
+    a: >-
+      Không thay được — bỏ chao đi thì đó là món khác, không còn là lẩu dê nấu
+      chao nữa. Chao bán ở mọi chợ và siêu thị, hũ nhỏ dùng được nhiều lần.
+      Nếu không quen mùi chao thì **tăng chao trắng, giảm chao đỏ**, vị sẽ dịu
+      hơn nhiều.
+  - q: Nồi lẩu vẫn còn mùi hoi, cứu được không?
+    a: >-
+      Cứu tạm được: thả thêm **vài cây sả đập dập, mấy lát gừng và một miếng
+      vỏ quýt khô** vào hầm thêm 15 phút, rồi tăng chao lên một chút. Nhưng
+      lần sau nhớ làm đủ hai lượt khử mùi — chữa ở cuối nồi luôn kém hơn chặn
+      từ đầu.
+  - q: Nấu bằng nồi áp suất cho nhanh được không?
+    a: >-
+      Được: sau khi xào săn thì cho vào nồi áp suất, nấu **25 phút kể từ lúc
+      lên áp**, xả áp tự nhiên. Nhưng **phần khoai môn và nêm nếm phải làm lại
+      ở nồi thường** — áp suất làm khoai tan hết. Nước lẩu cũng nhạt hương hơn
+      so với hầm liu riu.
+  - q: Ăn không hết thì hôm sau làm gì?
+    a: >-
+      Phần nước lẩu còn lại **hôm sau đậm hơn hẳn**. Vớt riêng thịt và khoai,
+      cất hộp kín ngăn mát, hôm sau hâm lại nấu với mì trứng là một bữa trưa
+      trọn vẹn. Rau đã nhúng thì bỏ, đừng để lại.
+  - q: Nhà không ăn cay thì chén chấm pha sao?
+    a: >-
+      Bỏ sa tế, thay bằng **chút dầu điều** cho có màu, và tăng đường lên một
+      chút. Chén chao trắng tán với đường, chút nước cốt chanh và sả băm cũng
+      rất ngon mà hoàn toàn không cay.
+
+ticker:
+  - icon: jar
+    text: Chao đỏ trộn chao trắng
+  - icon: pumpkin
+    text: Khoai môn bở tan trong miệng
+  - icon: pod
+    text: Tàu hũ ky chiên phồng
+  - icon: ginger
+    text: Gừng rượu khử mùi hai lượt
+  - icon: lettuce
+    text: Cải xanh đắng nhẹ cắt béo
+  - icon: noodle
+    text: Cuối bữa thả mì trứng

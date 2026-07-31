@@ -28,6 +28,7 @@ const FAMILIES = [
   { id: 'tron', name: 'Cuốn & trộn', from: '#5B7A2E', to: '#3B521C', cats: ['Gỏi', 'Cuốn', 'Bún trộn'] },
   { id: 'banh', name: 'Cơm & bánh',  from: '#A8801A', to: '#70530C', cats: ['Cơm', 'Bánh', 'Bánh mì'] },
   { id: 'lua',  name: 'Lửa',         from: '#9A3D2B', to: '#65241A', cats: ['Nướng', 'Chiên'] },
+  { id: 'ngot', name: 'Ngọt & mát',  from: '#5E3A6E', to: '#3B2247', cats: ['Chè'] },
 ];
 /* ---------- Đọc mapping art -> component từ src/utils/art.ts ---------- */
 const artToComponent = readArtMap(path.join(ROOT, 'src/utils/art.ts'));

@@ -1,0 +1,177 @@
+---
+/* Bò xào bông thiên lý — CHỮ KÝ nhận dạng.
+   Tra trước khi vẽ (luật "chưa tra thì đừng vẽ"): hoa thiên lý mọc thành XIM
+   KIỂU TÁN, 15–30 hoa một chùm, mỗi hoa chỉ chừng 1cm và có ĐÚNG 5 CÁNH, màu
+   xanh lục ngả vàng cam. Nên vẽ: chùm nhỏ nhiều bông 5 cánh + nụ hình ống chưa
+   nở, KHÔNG vẽ bông to một đóa.
+
+   Phải lệch hẳn ArtRauMuong (cùng dĩa rau xào trên nền họ nâu):
+   1) rau muống là ĐỐNG CỌNG DÀI CONG vắt chéo; thiên lý là CHÙM NỤ TRÒN NHỎ
+      xúm lại — khác dáng hẳn, không chỉ khác màu
+   2) màu: rau muống xanh lục ĐẬM; thiên lý XANH NGẢ VÀNG, sáng hơn một bậc
+   3) đạo cụ: rau muống dùng củ tỏi; món này dùng NHÁNH THIÊN LÝ CÒN CUỐNG
+   Nụ hoa cố ý cho NHÔ RA KHỎI ĐƯỜNG BAO của đống, vì thứ món mang tên phải
+   nhìn thấy được ở cỡ thumbnail.
+   id prefix "tl" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa bò xào bông thiên lý: chùm bông thiên lý năm cánh xanh ngả vàng xen với lát thịt bò nâu đỏ, bên cạnh là nhánh thiên lý còn cuống">
+  <defs>
+    <linearGradient id="tlMound" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5E7F2E"/><stop offset="1" stop-color="#3C551A"/>
+    </linearGradient>
+    <!-- Nền họ "Mặn đưa cơm" vốn đã nâu, nên lát bò phải sáng hơn một bậc thì
+         mới không đọc thành mấy cục sẫm vô nghĩa. -->
+    <linearGradient id="tlBeef" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B4592C"/><stop offset="1" stop-color="#7A3016"/>
+    </linearGradient>
+    <!-- một bông thiên lý: 5 cánh thuôn, nhụy vàng cam ở giữa.
+         Bọc thêm một lớp scale 1.35: vòng render đầu bông vẽ đúng cỡ thật
+         (mỗi bông chỉ ~1cm) nhưng ở 260px thì chìm mất — mà thứ món MANG TÊN
+         thì phải nhìn thấy được ở cỡ thumbnail. -->
+    <g id="tlFlower" transform="scale(1.35)">
+      <g fill="#C6DA62" stroke="#7E9A28" stroke-width="1.5">
+        <path d="M0 -2 C -3 -12 3 -14 5 -8 C 6 -4 3 -1 0 -2 Z"/>
+        <path d="M1 -1 C 10 -6 13 0 7 3 C 4 4 1 2 1 -1 Z"/>
+        <path d="M1 2 C 7 9 2 14 -1 8 C -2 5 -1 3 1 2 Z"/>
+        <path d="M-1 2 C -6 10 -12 6 -8 1 C -6 -1 -3 0 -1 2 Z"/>
+        <path d="M-1 -1 C -11 -4 -11 -11 -5 -8 C -2 -6 -1 -3 -1 -1 Z"/>
+      </g>
+      <circle r="2.4" fill="#E8A62E" stroke="#A97110" stroke-width="1.1"/>
+    </g>
+    <!-- LÁT BÒ XÀO. Bản 2 vẽ đường bao bo tròn nên vẫn đọc ra cái hạt. Lát thịt
+         thái mỏng gặp chảo nóng thì co RÚM lại: đường bao GÃY KHÚC lam nham,
+         không có cạnh nào cong đều. Cộng ba dấu: mép cuộn lộ mặt trong nhạt
+         màu · vệt cháy sém sẫm · thớ thịt sáng chạy dọc. -->
+    <g id="tlBeefSlice">
+      <path d="M-32 -7 L -14 -16 L 6 -14 L 24 -9 L 32 -1 L 25 9 L 6 15 L -12 13 L -27 8 Z"
+            fill="url(#tlBeef)" stroke="#48190A" stroke-width="2.4" stroke-linejoin="round"/>
+      <!-- mép cuộn lên: dải nhạt chạy dọc cạnh trên -->
+      <path d="M-32 -7 L -14 -16 L 6 -14 L 24 -9 L 32 -1 L 20 -4 L 3 -8 L -13 -9 L -27 -3 Z"
+            fill="#C9825A" stroke="#48190A" stroke-width="1.9" stroke-linejoin="round"/>
+      <!-- vệt cháy sém -->
+      <path d="M-16 3 L 2 1 L 18 4" fill="none" stroke="#5E2810" stroke-width="3.4" stroke-linecap="round" opacity=".8"/>
+      <!-- thớ thịt sáng -->
+      <path d="M-20 9 L -2 7 L 16 10" fill="none" stroke="#D19A72" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+    </g>
+    <!-- nụ chưa nở: ống thuôn dài, đầu hơi loe -->
+    <g id="tlBud" transform="scale(1.35)">
+      <path d="M0 0 C -3.6 -3 -3.4 -11 -1 -15 C 1 -18 4 -17 4.6 -13 C 5.6 -6 3.6 -1 0 0 Z"
+            fill="#B8CE58" stroke="#7E9A28" stroke-width="1.5"/>
+      <path d="M-1 -14 C 0 -17 3 -17 4 -14" fill="none" stroke="#EFE08C" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="248" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="248" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M216 216 C 205 192 231 176 220 150 C 213 134 227 122 223 106"/>
+    <path d="M296 210 C 286 186 312 172 301 146 C 294 130 308 118 304 102"/>
+  </g>
+  <ellipse cx="260" cy="400" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa -->
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="344" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- ĐỐNG XÀO: một khối liền làm nền trước, rồi mới đắp chi tiết chồng mép lên -->
+  <path d="M112 320 C 128 274 186 250 258 250 C 330 250 388 274 404 320 C 380 348 328 360 258 360 C 188 360 136 348 112 320 Z"
+        fill="url(#tlMound)"/>
+
+  <!-- LÁT THỊT BÒ XÀO. Bản 1 vẽ khối bầu dục bo tròn → đọc thành củ, không ra
+       miếng thịt. Thịt bò thái mỏng gặp chảo nóng thì CO LẠI VÀ CONG VÊNH: mép
+       lượn sóng, một cạnh cuộn lên lộ mặt trong nhạt màu hơn, bề mặt có vệt
+       cháy sém sẫm. Ba dấu đó mới nói ra "lát bò xào". -->
+  <g>
+    <use href="#tlBeefSlice" transform="translate(166 320) rotate(-13)"/>
+    <use href="#tlBeefSlice" transform="translate(248 342) rotate(8) scale(1.04)"/>
+    <use href="#tlBeefSlice" transform="translate(322 304) rotate(-6) scale(1.08)"/>
+    <use href="#tlBeefSlice" transform="translate(362 340) rotate(15) scale(.92)"/>
+    <use href="#tlBeefSlice" transform="translate(208 280) rotate(-19) scale(.96)"/>
+    <use href="#tlBeefSlice" transform="translate(292 274) rotate(5) scale(.86)"/>
+  </g>
+
+  <!-- CHÙM BÔNG THIÊN LÝ: mỗi chùm là một nhúm nụ và hoa xúm quanh một đầu cuống -->
+  <g>
+    <!-- chùm 1 (trái, cao) -->
+    <g transform="translate(176 288)">
+      <g fill="none" stroke="#7E9A28" stroke-width="2.4" stroke-linecap="round">
+        <path d="M0 14 L -10 2"/><path d="M0 14 L -2 -2"/><path d="M0 14 L 9 3"/><path d="M0 14 L 15 9"/>
+      </g>
+      <use href="#tlBud" transform="translate(-11 2) rotate(-24)"/>
+      <use href="#tlBud" transform="translate(-2 -3) rotate(-4)"/>
+      <use href="#tlFlower" transform="translate(9 2) scale(1.15)"/>
+      <use href="#tlFlower" transform="translate(16 9) scale(.95)"/>
+      <use href="#tlFlower" transform="translate(2 8) scale(.85)"/>
+    </g>
+    <!-- chùm 2 (giữa, nhô cao nhất khỏi đường bao đống) -->
+    <g transform="translate(266 254)">
+      <g fill="none" stroke="#7E9A28" stroke-width="2.4" stroke-linecap="round">
+        <path d="M0 16 L -13 3"/><path d="M0 16 L -4 -4"/><path d="M0 16 L 8 -1"/><path d="M0 16 L 17 8"/>
+      </g>
+      <use href="#tlBud" transform="translate(-14 3) rotate(-30)"/>
+      <use href="#tlBud" transform="translate(-4 -5) rotate(-6)"/>
+      <use href="#tlBud" transform="translate(9 -2) rotate(16)"/>
+      <use href="#tlFlower" transform="translate(18 8) scale(1.2)"/>
+      <use href="#tlFlower" transform="translate(4 9) scale(1)"/>
+      <use href="#tlFlower" transform="translate(-9 12) scale(.9)"/>
+    </g>
+    <!-- chùm 3 (phải) -->
+    <g transform="translate(354 282)">
+      <g fill="none" stroke="#7E9A28" stroke-width="2.4" stroke-linecap="round">
+        <path d="M0 14 L -12 4"/><path d="M0 14 L -3 -3"/><path d="M0 14 L 11 4"/>
+      </g>
+      <use href="#tlBud" transform="translate(-13 4) rotate(-28)"/>
+      <use href="#tlFlower" transform="translate(-3 -3) scale(1.1)"/>
+      <use href="#tlFlower" transform="translate(12 4) scale(.95)"/>
+      <use href="#tlFlower" transform="translate(2 10) scale(.85)"/>
+    </g>
+    <!-- chùm 4 (thấp, mép trái đống) -->
+    <g transform="translate(132 326)">
+      <use href="#tlFlower" transform="translate(0 0) scale(1)"/>
+      <use href="#tlFlower" transform="translate(11 6) scale(.85)"/>
+      <use href="#tlBud" transform="translate(-8 -2) rotate(-40)"/>
+    </g>
+    <!-- chùm 5 (thấp, mép phải đống) -->
+    <g transform="translate(396 322)">
+      <use href="#tlFlower" transform="translate(0 0) scale(.95)"/>
+      <use href="#tlBud" transform="translate(9 -3) rotate(26)"/>
+      <use href="#tlFlower" transform="translate(-9 6) scale(.8)"/>
+    </g>
+    <!-- chùm 6 (giữa dưới, chồng lên lát bò) -->
+    <g transform="translate(300 342)">
+      <use href="#tlFlower" transform="translate(0 0) scale(.95)"/>
+      <use href="#tlFlower" transform="translate(12 5) scale(.8)"/>
+      <use href="#tlBud" transform="translate(-9 0) rotate(-34)"/>
+    </g>
+  </g>
+
+  <!-- lát tỏi phi vàng rải mặt -->
+  <g fill="#EFC163" stroke="#C9902D" stroke-width="1.4">
+    <ellipse cx="216" cy="322" rx="6" ry="4.2" transform="rotate(-14 216 322)"/>
+    <ellipse cx="286" cy="312" rx="5.6" ry="4" transform="rotate(20 286 312)"/>
+    <ellipse cx="336" cy="344" rx="5.2" ry="3.8" transform="rotate(-8 336 344)"/>
+    <ellipse cx="182" cy="344" rx="5" ry="3.6" transform="rotate(12 182 344)"/>
+  </g>
+  <!-- ánh sốt bóng -->
+  <g fill="none" stroke="#F6F1E1" stroke-width="3" stroke-linecap="round" opacity=".4">
+    <path d="M166 336 L 184 328"/><path d="M348 316 L 366 310"/>
+  </g>
+
+  <!-- ĐẠO CỤ: nhánh thiên lý còn cuống, nằm trên bàn phía trái -->
+  <g transform="translate(74 396) rotate(-12)">
+    <path d="M-28 8 C 0 2 34 -4 62 -6" fill="none" stroke="#5E8A24" stroke-width="6" stroke-linecap="round"/>
+    <g fill="none" stroke="#7E9A28" stroke-width="2.2" stroke-linecap="round">
+      <path d="M8 3 L 2 -12"/><path d="M8 3 L 14 -10"/>
+      <path d="M40 -3 L 34 -17"/><path d="M40 -3 L 48 -15"/>
+    </g>
+    <use href="#tlFlower" transform="translate(2 -14) scale(1.15)"/>
+    <use href="#tlFlower" transform="translate(15 -12) scale(1)"/>
+    <use href="#tlBud" transform="translate(34 -18) rotate(-14)"/>
+    <use href="#tlFlower" transform="translate(49 -16) scale(1.05)"/>
+    <!-- lá hình tim, dấu của dây thiên lý -->
+    <path d="M-24 6 C -34 -8 -22 -22 -8 -16 C -2 -12 -6 2 -24 6 Z" fill="#4E7C2C" stroke="#2F5218" stroke-width="2"/>
+    <path d="M62 -6 C 68 -20 82 -18 82 -6 C 82 2 70 4 62 -6 Z" fill="#4E7C2C" stroke="#2F5218" stroke-width="2"/>
+  </g>
+</svg>

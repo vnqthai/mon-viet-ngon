@@ -1,0 +1,305 @@
+title: Canh cà chua trứng **vân trứng nổi như mây**
+summary: >-
+  Cà chua xào cho ra màu đỏ au, chan nước sôi rồi **rót trứng thành dòng mỏng**
+  và chờ mười lăm giây mới khuấy — tô canh ngọt dịu có những dải vân trứng mềm
+  trôi lơ lửng, mười phút là xong.
+region: Cả nước
+category: Canh
+occasions: [Cơm nhà, Cho bé]
+pubDate: 2026-07-31
+time:
+  total: 15 phút
+  active: 12 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 94
+art: canh-ca-chua-trung
+heroEyebrow: Mười phút, hai nguyên liệu, một tô canh…
+
+quick:
+  ingredients:
+    - Cà chua [[4|trái]] — chọn trái chín đỏ đều, mềm tay
+    - Trứng gà [[3|quả]] — đánh **vừa tan**, thêm chút tiêu
+    - Hành tím [[2|củ]] · hành lá [[2|cọng]] · ngò rí
+    - "Nêm: nước mắm [[1|muỗng canh]] · đường [[1|muỗng cà phê]] · muối"
+    - Nước [[1.2|lít]]
+  steps:
+    - >-
+      Cà chua rửa sạch: **một nửa bổ múi cau, một nửa băm nhuyễn** — nửa băm
+      để ra màu, nửa múi để có miếng gắp.
+    - Phi thơm hành tím, cho phần **cà chua băm vào xào tới khi nát ra và ngả đỏ sậm**, chừng 3 phút.
+    - Cho phần múi cau vào đảo 1 phút, rồi chan [[1.2|lít]] nước sôi.
+    - Nêm nước mắm, đường, muối cho vừa. Đun sôi rồi **hạ xuống sôi lăn tăn**.
+    - Đánh trứng vừa tan với chút tiêu — **đừng đánh bông**.
+    - Rót trứng thành **dòng mỏng theo vòng tròn**, rồi **để yên 15 giây** cho trứng se.
+    - Khuấy **nhẹ một chiều** đúng vài vòng, rắc hành ngò, tắt bếp.
+  warning: >-
+    Rót trứng vào nồi đang sôi bùng, hoặc khuấy ngay khi vừa rót, là trứng tan
+    hết vào nước — tô canh đục lờ mà không có vân nào. **Sôi lăn tăn, rót
+    mỏng, chờ 15 giây, rồi mới khuấy một chiều.**
+
+flavor:
+  chua: 4
+  ngot: 4.5
+  man: 5.5
+  cay: 0.5
+  thom: 6
+flavorNote: >-
+  **Chuẩn tô canh:** nước canh **đỏ cam trong**, chua dịu ngọt nhẹ; **vân
+  trứng nổi thành dải mềm trôi lơ lửng** chứ không tan thành nước đục hay đóng
+  thành mảng cứng. Miếng cà chua còn giữ được hình múi để gắp.
+storyEyebrow: Chuyện tô canh
+storyTitle: Tô canh **cứu bữa của mọi nhà**
+story:
+  - >-
+    Có lẽ không có tô canh nào được nấu nhiều bằng tô này. Vài trái cà chua với
+    mấy quả trứng — hai thứ mà bếp nào cũng sẵn — cộng lại thành một tô canh
+    nóng trong đúng mười phút. Ngày nào đi làm về muộn, mở tủ lạnh thấy trống
+    trơn, thì đây là câu trả lời.
+  - >-
+    Nhưng đơn giản không có nghĩa là không có nghề. Cùng hai nguyên liệu đó,
+    có tô canh nước đục lờ với mấy vụn trứng chìm nghỉm, có tô canh **nước đỏ
+    trong với những dải vân trứng mềm trôi lơ lửng như mây**. Khác biệt nằm ở
+    đúng ba việc: xào cà chua cho ra màu, hạ lửa trước khi rót trứng, và chờ
+    mười lăm giây.
+  - >-
+    Tô canh này cũng là món dễ thương với con nít: ngọt dịu, không cay, miếng
+    cà chua mềm và trứng thì đứa nào cũng thích. Nhà có bé thì nêm nhạt tay
+    hơn một chút và dằm nát miếng cà chua ra là bé húp hết chén.
+
+ingredientGroups:
+  - name: Cà chua & phi thơm
+    icon: tomato
+    items:
+      - id: cachua
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 4
+        unit: trái
+        note: Trái chín đỏ đều, bóp thấy mềm tay — trái còn ương thì chua gắt và ít màu
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: Băm nhuyễn, phi vàng thơm làm nền cho cả tô canh
+      - id: dauan
+        name: Dầu ăn
+        icon: drop
+        base: 2
+        unit: muỗng canh
+        note: Cần đủ dầu thì màu đỏ của cà chua mới tan ra được
+  - name: Trứng & nêm
+    icon: egg
+    items:
+      - id: trung
+        name: Trứng gà
+        icon: egg
+        color: gold
+        base: 3
+        unit: quả
+        note: Đánh vừa tan — đánh bông là trứng nở xốp rồi rã vụn
+      - id: giavi
+        name: Nước mắm · đường · muối · tiêu
+        icon: bottle
+        qtyText: 1 muỗng canh nước mắm · 1 muỗng cà phê đường · muối · tiêu
+        note: Chút đường không làm ngọt, chỉ để cân cái chua của cà chua
+      - id: hanhngo
+        name: Hành lá + ngò rí
+        icon: herb
+        color: green
+        base: 2
+        unit: cọng
+        note: Xắt nhỏ, rắc lúc tắt bếp
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 3 bước ra **tô canh vân trứng**
+stepsLead: >-
+  Ba bước, mười phút. Hai bước đầu quyết định màu nước, bước thứ ba quyết định
+  cái vân trứng — mà cái vân mới là thứ người ta nhớ.
+steps:
+  - title: Cắt cà chua làm hai phần
+    icon: knife
+    minutes: 4 phút
+    intro: "Cùng một rổ cà chua nhưng hai nhiệm vụ khác nhau:"
+    bullets:
+      - label: "Nửa băm nhuyễn:"
+        text: >-
+          để **xào cho nát ra và nhả hết màu đỏ** vào dầu — đây là nguồn màu
+          của cả tô canh.
+      - label: "Nửa bổ múi cau:"
+        text: >-
+          để giữ được hình miếng mà gắp. Bổ mỗi trái thành 6 múi.
+      - text: >-
+          Hành tím băm nhuyễn, hành lá và ngò rí xắt nhỏ để sẵn ra chén.
+    callout:
+      type: tip
+      text: >-
+        Chia đôi như vậy là mẹo đơn giản nhất để có **nước đỏ đẹp mà vẫn có
+        miếng để gắp**. Bổ múi hết thì nước nhạt màu; băm hết thì tô canh chỉ
+        còn một thứ lợn cợn, không ai gắp được gì.
+  - title: Xào cà chua ra màu rồi mới chan nước
+    icon: flame
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Phi thơm hành tím băm với [[2|muỗng canh]] dầu ăn tới khi vàng nhạt.
+      - text: >-
+          Cho phần **cà chua băm** vào, xào lửa vừa **3 phút** — đảo tới khi cà
+          chua nát hẳn và **dầu trong chảo chuyển sang đỏ cam**. Chỗ dầu đỏ đó
+          chính là màu của tô canh.
+      - text: >-
+          Cho phần **múi cau** vào đảo thêm 1 phút, đủ để mặt ngoài se lại mà
+          miếng chưa nát.
+      - text: >-
+          Chan [[1.2|lít]] **nước sôi** vào (nước sôi chứ đừng nước lạnh — nước
+          lạnh làm tụt nhiệt, cà chua ngừng ra màu). Nêm nước mắm, đường, muối.
+    callout:
+      type: warn
+      text: >-
+        Bỏ qua bước xào, đổ cà chua sống thẳng vào nước, là tô canh **nhạt màu
+        và chua gắt**. Cái chua của cà chua chỉ dịu lại sau khi gặp dầu nóng —
+        ba phút đó không thay thế được bằng gì.
+  - title: Rót trứng — hạ lửa, chờ mười lăm giây
+    icon: egg
+    minutes: 3 phút
+    intro: "Đây là toàn bộ cái khó của món:"
+    bullets:
+      - label: "Hạ lửa:"
+        text: >-
+          nồi đang sôi bùng thì **hạ xuống sôi lăn tăn**. Nước sôi mạnh sẽ
+          đánh tan trứng thành vụn trước khi nó kịp se lại.
+      - label: "Rót mỏng:"
+        text: >-
+          đánh trứng vừa tan với chút tiêu, rót **thành dòng mỏng, đi vòng
+          tròn quanh mặt nồi** — đừng đổ ụp một chỗ.
+      - label: "Chờ:"
+        text: >-
+          **để yên đúng 15 giây, tuyệt đối không đụng đũa.** Trứng sẽ tự nổi
+          lên và se thành từng dải.
+      - label: "Khuấy nhẹ:"
+        text: >-
+          rồi mới **khuấy nhẹ theo một chiều, vài vòng là dừng** — vân trứng
+          tãi ra thành những dải mềm trôi lơ lửng.
+      - text: >-
+          Rắc hành lá, ngò rí và tiêu, tắt bếp ngay. Nếm lại lần cuối.
+    callout:
+      type: tip
+      text: >-
+        Muốn vân **to bản như mây** thì rót chậm và dòng dày hơn một chút; muốn
+        **sợi mảnh như tơ** thì rót qua rây hoặc rót thật chậm thành dòng nhỏ.
+        Cả hai kiểu đều đẹp, chọn theo ý thích.
+    timer:
+      secs: 15
+      label: Hẹn giờ chờ trứng se · 00:15
+      doneMsg: Trứng se rồi — khuấy nhẹ một chiều vài vòng là xong!
+    doneText: Múc tô, thấy vân trứng trôi lơ lửng — xong!
+
+tipsTitle: 5 bí quyết cho **nước đỏ trong, vân trứng đẹp**
+tipsLead: >-
+  Tô canh mười phút này hỏng thì chỉ hỏng ở hai chỗ: màu nước và cái vân. Năm
+  điều dưới đây lo cả hai.
+tips:
+  - icon: tomato
+    title: Xào cà chua trong dầu, đủ lâu
+    text: >-
+      Màu đỏ của cà chua **tan trong dầu chứ không tan trong nước** — nên phải
+      xào với đủ dầu và đủ lâu (chừng 3 phút, tới khi dầu chuyển đỏ cam) thì
+      tô canh mới có màu. Đây là chỗ khác biệt lớn nhất so với cách đổ thẳng
+      vào nồi nước.
+  - icon: drop
+    title: Chan nước sôi, đừng chan nước lạnh
+    text: >-
+      Nước lạnh đổ vào chảo đang nóng làm tụt nhiệt đột ngột, cà chua ngừng
+      nhả màu và tô canh có mùi hơi sống. Đun sẵn ấm nước trong lúc xào là
+      xong.
+  - icon: flame
+    title: Hạ lửa trước khi rót trứng
+    text: >-
+      Nồi sôi bùng sẽ **xé trứng thành vụn** ngay khi vừa chạm nước. Sôi lăn
+      tăn thì trứng nổi lên và có thời gian se thành dải. Đây là điều kiện đầu
+      tiên, quan trọng hơn cả cách rót.
+  - icon: clock
+    title: Mười lăm giây — đừng đụng đũa
+    text: >-
+      Cả bí quyết nằm ở khoảng chờ này. Trứng cần thời gian để đông lại thành
+      mảng trước khi bị khuấy. Khuấy sớm một cái là mất sạch vân, không có
+      cách nào cứu.
+  - icon: egg
+    title: Đánh vừa tan và cho chút tiêu vào trứng
+    text: >-
+      Đánh bông thì trứng nở xốp rồi rã vụn. Đánh vừa tan thì dải vân mềm và
+      liền. Nhúm tiêu đánh chung vào trứng cũng giúp tô canh **thơm hơn và bớt
+      mùi tanh** — mẹo nhỏ mà ăn thua thấy rõ.
+
+serve:
+  title: Tô canh mười phút — **món chống đỡ của mọi bữa cơm**
+  paras:
+    - >-
+      Đây là tô canh "có mặt để bữa cơm đủ": nhẹ, chua dịu, nóng, húp vào là
+      trôi cơm. Nó không tranh phần với món mặn nào cả, nên đứng cạnh **thịt
+      kho, cá chiên, hay dĩa xào mặn** đều hợp.
+    - >-
+      Ăn ngay khi vừa nấu là đẹp nhất — để lâu thì vân trứng nát dần và nước
+      canh đục đi. Nếu biết trước sẽ ăn thành hai đợt thì **nấu nồi cà chua
+      trước, tới bữa mới rót trứng** cho mẻ đó.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Tô canh này hợp với:"
+    items:
+      - icon: claypot
+        text: "**Thịt kho hột vịt hoặc cá kho** — mặn đậm, canh lo phần thanh."
+      - icon: lettuce
+        text: "**Một dĩa xào** — rau muống xào tỏi là cặp kinh điển."
+      - icon: rice
+        text: "**Cơm trắng nóng** — chan nước canh vào là trôi bữa."
+
+faq:
+  - q: Canh bị đục lờ, trứng không thành vân?
+    a: >-
+      Ba nghi phạm theo thứ tự: **nồi sôi quá mạnh**, **khuấy ngay sau khi
+      rót**, và **đánh trứng quá bông**. Sửa cả ba: hạ xuống sôi lăn tăn, rót
+      dòng mỏng, chờ đủ 15 giây, rồi khuấy nhẹ một chiều vài vòng thôi.
+  - q: Canh có mùi tanh trứng, chữa sao?
+    a: >-
+      Đánh **chút tiêu vào bát trứng** trước khi rót, và xào cà chua cho thật
+      kỹ — vị chua ngọt của cà chua đã xào là thứ át mùi tanh tốt nhất. Rắc
+      hành lá và ngò rí lúc tắt bếp cũng giúp nhiều.
+  - q: Nước canh nhạt màu, không đỏ đẹp?
+    a: >-
+      Do **cà chua chưa xào đủ** hoặc **thiếu dầu**. Màu đỏ chỉ tan được trong
+      dầu: cần chừng [[2|muỗng canh]] dầu và xào tới khi nhìn thấy dầu trong
+      chảo chuyển đỏ cam. Chọn cà chua chín đỏ đều cũng quan trọng — trái ương
+      thì lấy đâu ra màu.
+  - q: Cho thêm gì để tô canh thành món chính được không?
+    a: >-
+      Được. **Thịt bằm** xào chung với cà chua ngay từ đầu là thành tô canh
+      đầy đặn. **Đậu hũ non cắt khối** thả vào trước khi rót trứng cũng rất
+      hợp. Hoặc thêm **nấm rơm** — ngọt nước mà không lấn vị.
+  - q: Nấu cho bé thì chỉnh gì?
+    a: >-
+      Nêm **nhạt hơn hẳn** (giảm nửa nước mắm, bỏ tiêu), lột vỏ cà chua trước
+      khi nấu cho khỏi vướng, và dằm nát miếng cà chua ra. Vân trứng mềm thì
+      bé nào cũng ăn được. Chan chút nước canh vào chén cơm là bé húp hết.
+  - q: Có nên lột vỏ cà chua không?
+    a: >-
+      Không bắt buộc, nhưng lột thì tô canh mịn hơn và không bị mấy mảnh vỏ
+      cuộn tròn vướng miệng. Muốn lột nhanh: **khứa chữ thập ở đáy trái, chần
+      nước sôi 30 giây rồi thả vào nước lạnh** — vỏ tự tuột ra.
+
+ticker:
+  - icon: tomato
+    text: Xào cà chua cho dầu chuyển đỏ
+  - icon: egg
+    text: Rót trứng thành dòng mỏng
+  - icon: clock
+    text: Chờ mười lăm giây mới khuấy
+  - icon: drop
+    text: Chan nước sôi, đừng nước lạnh
+  - icon: herb
+    text: Hành ngò rắc lúc tắt bếp
+  - icon: rice
+    text: Mười phút là có canh nóng

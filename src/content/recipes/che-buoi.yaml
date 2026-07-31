@@ -1,0 +1,376 @@
+title: Chè bưởi **giòn sần sật, béo nước cốt dừa**
+summary: >-
+  Lớp trắng dày dưới vỏ bưởi đem bóp muối cho hết the, áo bột năng rồi luộc —
+  ra những **khối trong veo, giòn sần sật**, nằm cùng đậu xanh bở tơi trong nước
+  đường lá dứa, chan muỗng nước cốt dừa mặn nhẹ.
+region: Miền Tây
+category: Chè
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 2 giờ
+  active: 50 phút
+servingsBase: 4
+difficulty: Kỳ công
+featured: true
+order: 83
+art: che-buoi
+heroEyebrow: Thứ người ta hay vứt đi, đem nấu chè…
+
+quick:
+  ingredients:
+    - >-
+      **Cùi bưởi** [[400|g]] — cùi là **lớp trắng dày nằm giữa vỏ xanh và múi**;
+      gọt **sạch trơn lớp vỏ xanh** rồi mới lấy phần trắng đó
+    - Muối hột [[3|muỗng canh]] để bóp cùi · đường [[250|g]] · lá dứa [[4|lá]]
+    - Đậu xanh cà vỏ [[120|g]] — ngâm 3 tiếng
+    - "Bột năng [[150|g]]: [[100|g]] áo cùi bưởi · [[50|g]] khuấy sánh nồi chè"
+    - "Nước cốt dừa [[250|ml]] · muối [[0.25|muỗng cà phê|frac]] · bột năng [[1|muỗng cà phê]]"
+    - Dừa nạo sợi + đậu phộng rang giã thô — rắc mặt ly
+  steps:
+    - Gọt **kiệt lớp vỏ xanh**, cắt cùi hạt lựu [[1|cm]] — sót vỏ xanh là ly chè the tới cuối.
+    - Bóp cùi với muối hột, xả nước, **vắt kiệt — làm đủ 4 lượt**, nếm thấy hết đắng mới thôi.
+    - Trụng nước sôi 1 phút, xả nước lạnh, vắt thật ráo rồi **ướp [[80|g]] đường 20 phút** cho cùi trong.
+    - Áo cùi qua bột năng, rũ bớt, **luộc tới khi miếng nào cũng nổi lên** rồi vớt qua nước lạnh.
+    - Đậu xanh hấp chín bở mà **còn nguyên hạt**, đừng nấu nát thành cháo.
+    - Nấu nước đường + lá dứa, khuấy bột năng pha loãng cho **sánh như hồ lỏng**, thả cùi + đậu vào.
+    - Nước cốt dừa nấu riêng với muối + chút bột năng cho hơi sệt. Múc chè, chan cốt dừa, rắc dừa nạo và đậu phộng.
+  warning: >-
+    Ly chè bị **the và đắng** gần như luôn luôn do hai chỗ: gọt còn sót vỏ xanh,
+    hoặc bóp muối mới 1–2 lượt đã thấy mỏi tay. Cứ nếm thử một miếng sống —
+    hết đắng mới được đem áo bột.
+
+flavor:
+  chua: 0
+  ngot: 8
+  man: 1.5
+  cay: 0
+  thom: 7
+flavorNote: >-
+  **Chuẩn ly chè:** miếng cùi bưởi **trong như thạch, cắn nghe sần sật** rồi mềm ra chứ
+  không dai nhách, nước chè sánh nhẹ chảy được chứ không đặc quánh, và cốt dừa
+  phải **mặn nhẹ** — chính chỗ mặn đó mới làm ly chè ngọt mà không gắt.
+storyEyebrow: Chuyện ly chè bưởi
+storyTitle: Món chè sinh ra từ **thứ người ta bỏ đi**
+story:
+  - >-
+    Ăn bưởi thì ai cũng chỉ lấy múi rồi quăng vỏ. Cái **cùi** — lớp trắng dày
+    cui nằm giữa vỏ xanh và múi — vừa xốp vừa the, chẳng ai ngó tới. Cho tới
+    khi có người nghĩ ra chuyện bóp muối cho nó nhả hết vị the, áo bột năng rồi
+    luộc lên: miếng cùi **trong vắt, giòn sần sật**, ngọt lịm nước đường.
+    Từ chỗ bỏ đi thành món chè có tên tuổi khắp miền Nam.
+  - >-
+    Nên nói thẳng: đây là món **lấy công làm lãi**. Nguyên liệu rẻ tới mức buồn
+    cười, nhưng khâu khử the thì không có đường tắt — bóp muối, xả, vắt, làm đi
+    làm lại. Ai làm tắt khúc này thì ly chè nhìn y hệt mà đưa lên miệng là biết
+    liền. Bù lại, làm đúng một lần rồi thì lần sau nhắm mắt cũng ra.
+  - >-
+    Ở nhà cứ nấu nguyên nồi lớn để tủ lạnh, chiều nào nóng múc một ly, chan cốt
+    dừa, rắc nắm đậu phộng rang. Cắn miếng cùi bưởi sựt sựt, mát miệng — hiểu
+    liền vì sao xứ miệt vườn thương món này tới vậy. Nhà nào có gốc bưởi trước
+    sân thì món này gần như **không tốn tiền nguyên liệu chính**.
+
+ingredientGroups:
+  - name: Cùi bưởi & khâu khử the
+    icon: lime
+    items:
+      - id: cui
+        name: Cùi bưởi (phần trắng)
+        icon: lime
+        color: green
+        base: 400
+        unit: g
+        note: Bưởi năm roi hay da xanh đều được — chọn trái vỏ dày, cùi trắng xốp
+      - id: muoihot
+        name: Muối hột
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        note: Muối hột bóp đã tay hơn muối bột, hạt to chà được vào thớ cùi
+      - id: botao
+        name: Bột năng (áo cùi)
+        icon: rice
+        base: 100
+        unit: g
+        note: Áo lớp mỏng thôi — dày quá là miếng cùi dai như kẹo
+  - name: Nồi chè
+    icon: pot
+    items:
+      - id: dauxanh
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 120
+        unit: g
+        note: Loại cà sẵn vỏ — ngâm 3 tiếng cho nở đều, hấp mới bở tơi
+      - id: duong
+        name: Đường cát trắng
+        icon: jar
+        base: 250
+        unit: g
+        note: Đường trắng cho nước chè trong; đường vàng làm đục màu
+      - id: ladua
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 4
+        unit: lá
+        note: Buộc gút thả vô nồi, vớt ra trước khi múc
+      - id: botsanh
+        name: Bột năng (khuấy sánh)
+        icon: rice
+        base: 50
+        unit: g
+        note: Pha với nước nguội rồi mới rót vào nồi — rót bột khô là vón cục liền
+  - name: Cốt dừa & đồ rắc
+    icon: drop
+    items:
+      - id: cotdua
+        name: Nước cốt dừa
+        icon: drop
+        base: 250
+        unit: ml
+        note: Cốt dừa lon hay vắt tay đều được — nhớ nêm chút muối
+      - id: duanao
+        name: Dừa nạo sợi
+        icon: flower
+        base: 50
+        unit: g
+        note: Rắc mặt ly, thêm cái sựt nhẹ khác hẳn cùi bưởi
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        base: 60
+        unit: g
+        note: Giã thô, còn hạt vỡ đôi — giã mịn là mất tiếng rôm rốp
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 6 bước ra **ly chè giòn sần sật**
+stepsLead: >-
+  Bốn bước đầu là chuyện của riêng miếng cùi bưởi, và đó là toàn bộ độ khó của
+  món. Qua được khúc đó thì nấu nồi chè chỉ còn là chuyện khuấy tay.
+steps:
+  - title: Gọt cùi — bỏ kiệt lớp vỏ xanh
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Gọt:"
+        text: >-
+          dùng dao bào gọt hết **lớp vỏ xanh lẫn lớp vàng nhạt sát dưới nó**.
+          Nhìn nghiêng miếng cùi phải trắng đều từ mặt ngoài vô, không còn
+          vệt xanh vệt vàng nào.
+      - label: "Cắt:"
+        text: >-
+          xắt hạt lựu cỡ [[1|cm]] — nhỏ quá thì luộc xong teo mất, to quá thì
+          bóp muối không thấu tới ruột miếng.
+    callout:
+      type: warn
+      text: >-
+        Lớp the nằm trong **vỏ xanh và cái màng vàng ngay dưới**, không nằm ở
+        cùi trắng. Gọt sót một chút là bóp muối bao nhiêu lượt cũng không cứu
+        được — thà gọt phạm vào cùi trắng một chút còn hơn.
+  - title: Bóp muối 4 lượt — khúc quyết định
+    icon: drop
+    minutes: 25 phút
+    intro: "Làm đúng một quy trình, lặp lại đủ số lượt:"
+    bullets:
+      - text: >-
+          Rắc muối hột vào cùi, **bóp mạnh tay 2 phút** cho tới khi cùi ra
+          nước đục và xẹp lại còn chừng nửa.
+      - text: >-
+          Xả dưới vòi nước, **vắt kiệt như vắt khăn**. Rồi lặp lại — tổng cộng
+          **4 lượt**, ba lượt sau chỉ cần bóp với nước, không thêm muối.
+      - text: >-
+          Lượt cuối **nếm thử một miếng sống**: hết the, hết đắng, chỉ còn nhạt
+          nhạt là đạt. Còn gợn đắng thì bóp thêm một lượt nữa.
+    callout:
+      type: tip
+      text: >-
+        Vắt kiệt nước là việc quan trọng ngang bóp muối: cùi còn ngậm nước thì
+        ướp đường không thấm, mà luộc xong lại bở. Vắt tới khi miếng cùi **teo
+        lại như miếng bọt biển khô** mới đúng.
+    timer:
+      secs: 1200
+      label: Hẹn giờ bóp muối · 20:00
+      doneMsg: Đủ 4 lượt chưa? Nếm một miếng rồi hẵng qua bước sau!
+  - title: Trụng, ướp đường, áo bột
+    icon: pot
+    minutes: 30 phút
+    bullets:
+      - text: >-
+          Trụng cùi vào nước sôi **1 phút**, vớt ra thả ngay vào tô nước lạnh,
+          rồi vắt ráo lần cuối.
+      - text: >-
+          Trộn cùi với [[80|g]] đường, để **20 phút** cho đường ngấm — bước này
+          làm miếng cùi **trong hơn hẳn** sau khi luộc, đừng bỏ.
+      - text: >-
+          Rắc [[100|g]] bột năng vào, xóc đều cho **mỗi miếng phủ một lớp mỏng**,
+          rồi đổ ra rổ rũ hết bột thừa.
+    callout:
+      type: tip
+      text: >-
+        Bột thừa không rũ đi sẽ tan vào nồi luộc thành một nồi hồ đục, và lớp bột
+        dày trên miếng cùi nấu xong dai như kẹo dẻo. Rũ mạnh tay, thấy hơi
+        "thiếu bột" là vừa.
+  - title: Luộc cùi — chờ miếng nào cũng nổi
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Đun nồi nước sôi mạnh, thả **từng nắm nhỏ** cùi vào, khuấy nhẹ cho
+          khỏi dính đáy.
+      - text: >-
+          Miếng cùi chín thì **nổi lên mặt nước và chuyển trong**. Chờ nổi hết
+          rồi để thêm 30 giây nữa, vớt ra thả vào tô nước lạnh.
+      - text: >-
+          Vớt ráo, để riêng — tới lúc gần dọn mới thả vào nồi chè cho khỏi bở.
+    callout:
+      type: warn
+      text: >-
+        Đổ hết một lượt là nồi nước tụt nhiệt, cùi nằm dưới đáy chưa kịp nổi đã
+        bở lớp bột. Thả từng nắm, nước sôi lại rồi mới thả nắm tiếp theo.
+  - title: Nấu nồi chè
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Đậu xanh ngâm nở đem **hấp cách thủy 20 phút** — hấp chứ đừng luộc,
+          luộc là hạt nát ra nước đục.
+      - text: >-
+          Nấu [[700|ml]] nước với [[170|g]] đường còn lại + lá dứa buộc gút,
+          sôi thì vớt lá ra.
+      - text: >-
+          Pha [[50|g]] bột năng với [[100|ml]] nước nguội, **rót từ từ vừa rót
+          vừa khuấy** tới khi nước chè sánh như hồ lỏng — múc muỗng lên thấy
+          chảy thành dòng liền mạch là được.
+      - text: >-
+          Thả cùi bưởi và đậu xanh vào, đảo nhẹ tay, tắt bếp ngay. Khuấy mạnh
+          lúc này là nát hết đậu.
+    timer:
+      secs: 1200
+      label: Hẹn giờ hấp đậu xanh · 20:00
+      doneMsg: Đậu bở tơi mà còn nguyên hạt — bắc ra thôi!
+  - title: Nấu cốt dừa & dọn ly
+    icon: drop
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Nấu [[250|ml]] nước cốt dừa với [[0.25|muỗng cà phê|frac]] muối +
+          [[1|muỗng cà phê]] bột năng pha loãng, khuấy tới khi **hơi sệt là
+          tắt** — sôi lâu là cốt dừa tách dầu.
+      - text: >-
+          Múc chè ra ly, chan cốt dừa cho chảy loang trên mặt, rắc dừa nạo và
+          đậu phộng rang giã thô.
+      - text: >-
+          Ăn nóng cũng ngon, nhưng để ngăn mát vài tiếng rồi thêm đá bào thì
+          đúng kiểu hàng chè miền Tây hơn.
+    doneText: Cắn miếng cùi giòn sần sật — xong!
+
+tipsTitle: 6 bí quyết cho **miếng cùi trong và giòn**
+tipsLead: >-
+  Món này chỉ có đúng một nguyên liệu khó tính. Nắm được sáu điều dưới đây là
+  coi như nắm cả món.
+tips:
+  - icon: lime
+    title: Chọn bưởi lấy cùi, không lấy múi
+    text: >-
+      Trái nào **vỏ dày, cầm nặng tay, cùi trắng xốp** là trúng — bưởi năm roi
+      và bưởi da xanh đều tốt. Bưởi cùi mỏng dính thì gọt xong chẳng còn bao
+      nhiêu. Mua bưởi ăn múi rồi giữ vỏ lại nấu chè là tiện nhất.
+  - icon: knife
+    title: Vỏ xanh gọt tới đâu là đủ
+    text: >-
+      Gọt tới khi mặt cùi **trắng đều, không còn ánh vàng**. Mẹo kiểm: bẻ đôi
+      một miếng, nhìn mặt cắt — thấy viền vàng mỏng ở rìa là còn sót, gọt thêm.
+  - icon: drop
+    title: Bóp muối là bóp cho nát bớt thớ
+    text: >-
+      Đừng bóp nhẹ nhàng như vò rau. Phải **bóp mạnh cho miếng cùi xẹp hẳn**,
+      thớ xốp mới nhả được vị the ra theo nước. Bóp nhẹ mười lượt không bằng
+      bóp mạnh bốn lượt.
+  - icon: jar
+    title: Ướp đường trước khi áo bột
+    text: >-
+      Đây là bước hay bị bỏ nhất, mà nó quyết định miếng cùi **trong hay đục**.
+      Đường rút nốt nước còn lại trong thớ cùi, luộc xong miếng cùi trong như
+      thạch chứ không trắng đục.
+  - icon: rice
+    title: Bột năng, không phải bột bắp
+    text: >-
+      Bột năng cho lớp áo **trong và dai giòn**; bột bắp ra lớp đục và mềm nhũn.
+      Nồi chè cũng khuấy bằng bột năng — sánh mà vẫn nhìn xuyên được.
+  - icon: clock
+    title: Cùi để riêng, chè để riêng
+    text: >-
+      Nấu nồi lớn ăn mấy ngày thì **đừng ngâm cùi trong nồi chè**. Ngâm qua đêm
+      là lớp bột tan ra, chè đặc lại còn miếng cùi mềm oặt. Tới bữa múc chè rồi
+      mới thả cùi vào.
+
+serve:
+  title: Ly chè bưởi — **ăn chiều là đúng giờ nhất**
+  paras:
+    - >-
+      Chè bưởi hợp nhất vào **quãng ba bốn giờ chiều**, lúc bụng chưa đói tới
+      mức cần cơm mà miệng thì thèm cái gì đó mát. Múc ra ly thủy tinh cho thấy
+      lớp cùi trong, chan cốt dừa trắng đục lên trên — nhìn đã thấy mát.
+    - >-
+      Dọn đãi khách thì bày mỗi người một ly nhỏ kèm muỗng cà phê dài, thêm
+      chén dừa nạo và đậu phộng để ai thích rắc bao nhiêu thì rắc. Ai ăn xong
+      cũng hỏi một câu giống nhau: *"cái sựt sựt này là gì vậy?"*
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ nên có sẵn bên cạnh:"
+    items:
+      - icon: drop
+        text: "**Chén cốt dừa riêng** — người thích béo tự chan thêm."
+      - icon: pod
+        text: "**Đậu phộng rang giã thô** — tiếng rôm rốp bù cho cái mềm của chè."
+      - icon: flower
+        text: "**Dừa nạo sợi** — sựt nhẹ, thơm, khác hẳn cái sựt của cùi bưởi."
+
+faq:
+  - q: Cùi bưởi vẫn còn đắng sau khi đã bóp 4 lượt — cứu được không?
+    a: >-
+      Được, nhưng phải xem lại chỗ gọt trước. Nếu mặt cùi còn vệt vàng thì gọt
+      lại rồi bóp thêm 2 lượt. Nếu gọt sạch rồi mà vẫn đắng thì **ngâm cùi
+      trong nước vo gạo 30 phút** rồi bóp thêm một lượt — cách này kéo được
+      phần đắng còn sót lại.
+  - q: Miếng cùi luộc xong bị dai như kẹo, sai chỗ nào?
+    a: >-
+      Áo bột quá dày. Lần sau xóc bột xong nhớ **đổ ra rổ rũ thật mạnh** cho
+      rơi hết bột thừa — lớp áo chỉ nên mỏng như một màng phấn. Luộc quá lâu
+      sau khi cùi đã nổi cũng làm lớp bột dai lại.
+  - q: Nấu xong để tủ lạnh, hôm sau chè đặc quánh?
+    a: >-
+      Bột năng nguội thì đặc lại, chuyện bình thường. Hâm nóng nhẹ rồi
+      **chan thêm chút nước sôi để nguội**, khuấy đều là về đúng độ sánh cũ.
+      Muốn khỏi phiền thì nấu nước chè loãng hơn một chút ngay từ đầu.
+  - q: Không có lá dứa thì thay bằng gì?
+    a: >-
+      Bỏ luôn cũng được, ly chè vẫn ngon — lá dứa chỉ thêm hương chứ không đổi
+      vị. Muốn có mùi thơm thì nhỏ vài giọt **tinh dầu lá dứa** vào lúc nước
+      đường vừa sôi, hoặc tăng phần dừa nạo rắc mặt lên.
+  - q: Làm sẵn trước một ngày để đãi khách được không?
+    a: >-
+      Được, và nên vậy — nhưng **để riêng ba thứ**: nồi nước chè, phần cùi bưởi
+      đã luộc, và cốt dừa. Tới lúc dọn mới ráp lại. Trộn sẵn từ hôm trước là
+      hôm sau chỉ còn một nồi hồ đặc.
+  - q: Đậu xanh có bắt buộc không?
+    a: >-
+      Không bắt buộc, nhưng thiếu là ly chè mất cân. Miếng cùi bưởi chỉ có cái
+      sựt và vị ngọt; **hạt đậu xanh bở tơi mới cho cái bùi** để ly chè không
+      bị một màu. Không có đậu xanh cà thì tăng dừa nạo và đậu phộng lên.
+
+ticker:
+  - icon: lime
+    text: Cùi bưởi trong như thạch
+  - icon: drop
+    text: Cốt dừa mặn nhẹ
+  - icon: pod
+    text: Đậu xanh bở tơi
+  - icon: herb
+    text: Lá dứa thơm nồi nước đường
+  - icon: sun
+    text: Mát miệng ba giờ chiều
+  - icon: jar
+    text: Món chè lấy công làm lãi

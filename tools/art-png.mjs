@@ -40,6 +40,7 @@ const FAMILIES = {
   tron: { name: 'Cuốn & trộn', from: '#5B7A2E', to: '#3B521C', cats: ['Gỏi', 'Cuốn', 'Bún trộn'] },
   banh: { name: 'Cơm & bánh',  from: '#A8801A', to: '#70530C', cats: ['Cơm', 'Bánh', 'Bánh mì'] },
   lua:  { name: 'Lửa',         from: '#9A3D2B', to: '#65241A', cats: ['Nướng', 'Chiên'] },
+  ngot: { name: 'Ngọt & mát',  from: '#5E3A6E', to: '#3B2247', cats: ['Chè'] },
 };
 const famOfCat = (cat) =>
   Object.entries(FAMILIES).find(([, f]) => f.cats.includes(cat))?.[0] ?? 'nuoc';
@@ -78,7 +79,10 @@ const recipes = fs
     const cat = field(src, 'category');
     return {
       slug: f.replace(/\.yaml$/, ''),
-      title: (field(src, 'title').split('**')[0] || '').trim(),
+      // Cắt dấu nối cuối y như dishName() ở src/utils/rich.ts — nếu không thì
+      // title kiểu "Chè bà ba: **…**" ra nhãn "Chè bà ba:" và cứ mỗi lần soi
+      // sheet lại tưởng title bị lỗi.
+      title: (field(src, 'title').split('**')[0] || '').trim().replace(/[,:;–—-]\s*$/, ''),
       cat,
       art: field(src, 'art'),
       fam: famOfCat(cat),

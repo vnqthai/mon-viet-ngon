@@ -1,0 +1,346 @@
+title: Chè đậu đỏ **hạt bở mà còn nguyên, đá bào phủ trên**
+summary: >-
+  Đậu đỏ ngâm qua đêm, ninh tới **bở tơi mà hạt vẫn tròn**, rim đường cho ngấm
+  tới ruột rồi mới chan nước — múc ly, phủ đá bào, rót cốt dừa mặn nhẹ. Chỉ hai
+  nguyên liệu mà ra một ly chè đậm đà.
+region: Cả nước
+category: Chè
+occasions: [Ăn chơi]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 30 phút
+  active: 25 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 87
+art: che-dau-do
+heroEyebrow: Cả món chỉ có hạt đậu với đường…
+
+quick:
+  ingredients:
+    - Đậu đỏ hạt nhỏ [[300|g]] — ngâm nước lạnh **qua đêm** (6–8 tiếng)
+    - Đường [[200|g]] · muối [[0.5|muỗng cà phê|frac]] · lá dứa [[3|lá]]
+    - Nước cốt dừa [[250|ml]] + bột năng [[2|muỗng cà phê]]
+    - Đá bào · dừa nạo sợi (tùy thích)
+  steps:
+    - Ngâm đậu **qua đêm**, đổ bỏ nước ngâm, đãi lại — hạt nào nổi lều bều thì vớt bỏ.
+    - Ninh đậu với nước ngập [[3|cm]] + lá dứa + **một nhúm muối**, lửa liu riu, hớt bọt.
+    - Ninh **50–60 phút** tới khi hạt bấm nhẹ là nát mà **vỏ chưa nứt**.
+    - Chắt bớt nước ra để riêng. **Rim đậu với đường** trên lửa nhỏ 10 phút cho ngấm ngọt vào ruột hạt.
+    - Chan nước vừa chắt trở lại, nêm lại cho vừa, tắt bếp, để **nguội hẳn**.
+    - Nấu cốt dừa với muối + bột năng cho sánh.
+    - "Múc ly: đậu dưới, **đá bào phủ trên**, chan cốt dừa, rắc dừa nạo."
+  warning: >-
+    Đổ hết đường vào ngay từ đầu là hạt đậu **chai cứng vĩnh viễn** — ninh thêm
+    hai tiếng cũng vô ích. Ninh mềm trước, rim đường sau: đó là toàn bộ kỹ
+    thuật của món này.
+
+flavor:
+  chua: 0
+  ngot: 7.5
+  man: 2
+  cay: 0
+  thom: 6
+flavorNote: >-
+  **Chuẩn ly chè:** hạt đậu **bở tơi trong miệng nhưng nhìn còn nguyên hình,
+  vỏ không bung**, và cái ngọt phải nằm **bên trong ruột hạt** chứ không chỉ ở
+  nước. Nước chè màu đỏ nâu trong, không lợn cợn bột vỏ.
+storyEyebrow: Chuyện ly chè đậu đỏ
+storyTitle: Hai nguyên liệu, và **một mẹo làm nên tất cả**
+story:
+  - >-
+    Chè đậu đỏ là món gần như không có gì để giấu: một nắm đậu, một ít đường,
+    chan nước cốt dừa. Vậy mà ly chè hàng với ly chè nấu ở nhà khác nhau rõ
+    rệt — và khác đúng ở **một bước mà nhà hay bỏ**: rim đậu với đường **trước
+    khi** chan nước.
+  - >-
+    Nấu kiểu đổ chung một nồi thì đường chỉ tan trong nước; cắn hạt đậu vô vẫn
+    nhạt phèo, phải húp nước mới thấy ngọt. Rim riêng thì nước đường sánh lại
+    bám quanh hạt và **thấm vào tận ruột** — mỗi hạt tự nó đã đủ vị, không cần
+    dựa vào nước.
+  - >-
+    Mẹo thứ hai nằm ở thứ tự: **ninh cho mềm hẳn rồi mới nêm đường**. Cho đường
+    sớm là vỏ hạt săn chai lại, ninh thêm hai tiếng cũng vô ích. Nắm hai điều
+    đó rồi thì món này chỉ còn là chuyện ngâm qua đêm và để nồi liu riu, gần
+    như không phải đứng bếp.
+
+ingredientGroups:
+  - name: Đậu & nồi ninh
+    icon: pod
+    items:
+      - id: daudo
+        name: Đậu đỏ hạt nhỏ
+        icon: pod
+        color: red
+        base: 300
+        unit: g
+        note: Chọn hạt nhỏ đỏ sậm, bóng đều — loại hạt to (đậu đỏ tây) nấu chè hay sượng
+      - id: ladua
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 3
+        unit: lá
+        note: Buộc gút, ninh cùng từ đầu, vớt ra trước khi rim đường
+      - id: muoininh
+        name: Muối (cho vào lúc ninh)
+        icon: jar
+        base: 0.25
+        unit: muỗng cà phê
+        frac: true
+        note: Nhúm muối lúc ninh giúp hạt mau mềm và đậm hơn
+  - name: Rim & nêm
+    icon: jar
+    items:
+      - id: duong
+        name: Đường cát
+        icon: jar
+        base: 200
+        unit: g
+        note: Chỉ cho vào khi hạt đã mềm hẳn — sớm hơn là hỏng cả nồi
+      - id: duongphen
+        name: Đường phèn (nếu có)
+        icon: jar
+        base: 50
+        unit: g
+        note: Thay một phần đường cát — vị ngọt dịu hơn và nước chè trong hơn
+  - name: Cốt dừa & phủ mặt
+    icon: drop
+    items:
+      - id: cotdua
+        name: Nước cốt dừa
+        icon: drop
+        base: 250
+        unit: ml
+        note: Nấu hơi sánh rồi mới chan, để không trôi tuột xuống đáy ly
+      - id: botnang
+        name: Bột năng
+        icon: rice
+        base: 2
+        unit: muỗng cà phê
+        note: Khuấy vào cốt dừa cho sánh
+      - id: muoidua
+        name: Muối (cho vào cốt dừa)
+        icon: jar
+        base: 0.25
+        unit: muỗng cà phê
+        frac: true
+        note: Chỗ mặn này là thứ làm ly chè ngọt mà không ngán
+      - id: dabao
+        name: Đá bào
+        icon: drop
+        qtyText: Đầy nửa ly
+        note: Đá bào chứ đừng đá viên — bào mới bám được cốt dừa
+      - id: duanao
+        name: Dừa nạo sợi
+        icon: flower
+        base: 40
+        unit: g
+        note: Tùy thích, rắc lúc dọn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **ly chè đậu đỏ đậm tới ruột hạt**
+stepsLead: >-
+  Món này chỉ tốn thời gian chứ không tốn công: ngâm qua đêm, ninh một tiếng
+  trong lúc làm việc khác. Chỗ duy nhất phải để tâm là thứ tự đường.
+steps:
+  - title: Ngâm qua đêm — đừng rút ngắn
+    icon: drop
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Vo đậu, ngâm nước lạnh ngập [[5|cm]], để **qua đêm 6–8 tiếng**. Hạt
+          nở căng gần gấp đôi là đạt.
+      - text: >-
+          Hạt nào **nổi lều bều lên mặt nước thì vớt bỏ** — đó là hạt lép hoặc
+          hạt sâu, ninh mãi không mềm.
+      - text: >-
+          Đổ bỏ nước ngâm, đãi lại bằng nước sạch rồi mới đem ninh.
+    callout:
+      type: tip
+      text: >-
+        Quên ngâm từ tối hôm trước? Ngâm **nước nóng già 2 tiếng** cứu được kha
+        khá, tuy hạt sẽ không bở đều bằng. Đừng ngâm quá 12 tiếng ở ngoài trời
+        nóng — đậu lên men chua, cả nồi bỏ đi.
+  - title: Ninh đậu — liu riu, hớt bọt
+    icon: pot
+    minutes: 60 phút
+    bullets:
+      - text: >-
+          Cho đậu vào nồi, đổ nước ngập trên mặt đậu chừng [[3|cm]], thả lá dứa
+          buộc gút và **nhúm muối nhỏ**.
+      - text: >-
+          Sôi thì **hạ lửa liu riu ngay** và hớt sạch lớp bọt nâu nổi lên trong
+          10 phút đầu — hớt kỹ thì nước chè trong và không chát.
+      - text: >-
+          Ninh **50–60 phút**. Thử: lấy một hạt bấm giữa hai ngón, **nát ra bột
+          mà vỏ chưa bung** là đúng độ. Vỏ đã nứt toác hết nghĩa là quá lửa.
+      - text: >-
+          Sôi mạnh làm hạt va nhau vỡ vỏ — giữ lửa nhỏ suốt, và **đừng khuấy**.
+    callout:
+      type: warn
+      text: >-
+        Chưa được nêm đường ở bước này. Đường lúc hạt còn cứng sẽ rút nước ra
+        khỏi hạt, vỏ săn chai lại và **không bao giờ mềm nữa**, dù ninh tiếp
+        bao lâu.
+    timer:
+      secs: 3000
+      label: Hẹn giờ ninh đậu · 50:00
+      doneMsg: Bấm thử một hạt — nát mà vỏ còn nguyên là tới lúc rim đường!
+  - title: Rim đường — bước làm nên món
+    icon: flame
+    minutes: 12 phút
+    intro: "Đây là chỗ tách ly chè ngon khỏi ly chè nhạt:"
+    bullets:
+      - text: >-
+          **Chắt bớt nước** trong nồi ra một tô riêng, chỉ chừa lại xâm xấp mặt
+          đậu. Giữ tô nước đó lại, lát nữa chan trở vô.
+      - text: >-
+          Đổ [[200|g]] đường vào nồi đậu, để **lửa nhỏ nhất**, thỉnh thoảng
+          **lắc nồi** cho đường thấm đều — đừng khuấy, khuấy là nát hạt.
+      - text: >-
+          Rim **10 phút** tới khi nước đường sánh lại bám quanh hạt, cắn thử
+          một hạt thấy **ngọt vào tận ruột** chứ không chỉ ngọt ngoài vỏ.
+      - text: >-
+          Chan tô nước vừa chắt trở lại nồi, nếm lại lần cuối rồi tắt bếp.
+    callout:
+      type: tip
+      text: >-
+        Có đường phèn thì thay [[50|g]] trong tổng số — nước chè **trong hơn và
+        ngọt dịu hơn**. Đường phèn lâu tan nên cho vào sớm hơn đường cát vài
+        phút.
+  - title: Nấu nước cốt dừa
+    icon: drop
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Nấu [[250|ml]] cốt dừa với [[0.25|muỗng cà phê|frac]] muối và
+          [[2|muỗng cà phê]] bột năng pha loãng.
+      - text: >-
+          Khuấy đều trên lửa nhỏ, thấy **hơi sệt, khuấy nặng tay** là tắt.
+          Đừng để sôi bùng — cốt dừa tách dầu là mặt ly nổi váng.
+      - text: Để nguội. Cốt dừa nguội mới đọng lại đẹp trên đá bào.
+  - title: Múc ly — đá bào phủ trên
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Chè phải **nguội hẳn** rồi mới múc. Nóng mà chan lên đá thì đá tan
+          tức thì, ly chè loãng toẹt.
+      - text: >-
+          Múc đậu và nước chè xuống đáy ly chừng nửa ly, **phủ đá bào lên
+          trên**, rồi mới chan cốt dừa cho chảy loang xuống.
+      - text: Rắc dừa nạo sợi nếu thích. Ăn thì lùa muỗng từ đáy lên cho đều.
+    doneText: Cắn hạt đậu bở tơi ngọt tới ruột — xong!
+
+tipsTitle: 6 bí quyết cho **hạt đậu bở mà không nát**
+tipsLead: >-
+  Chè đậu đỏ chỉ có hai kiểu hỏng: hạt sượng, hoặc hạt nát bung vỏ. Sáu điều
+  dưới đây chặn cả hai.
+tips:
+  - icon: pod
+    title: Chọn hạt nhỏ, đừng lấy hạt to
+    text: >-
+      **Đậu đỏ hạt nhỏ** (loại nấu chè, nấu xôi) ninh là bở tơi. **Đậu đỏ hạt
+      to** kiểu đậu tây thì vỏ dày, ruột bột, ninh mãi vẫn sượng và ăn không
+      ngọt hậu. Nhìn bao: hạt nhỏ đỏ sậm, bóng, đều cỡ.
+  - icon: clock
+    title: Ngâm là bắt buộc, không phải tùy chọn
+    text: >-
+      Không ngâm thì ninh gấp đôi thời gian mà hạt vẫn không bở đều — ngoài nát
+      trong sượng. Ngâm qua đêm cho hạt ngậm nước đều rồi mới ninh, đó là cách
+      duy nhất để hạt chín từ trong ra.
+  - icon: jar
+    title: Ninh mềm rồi mới nêm đường
+    text: >-
+      Luật này đúng với mọi loại đậu. Đường vào sớm là vỏ hạt săn chai, hết
+      đường cứu. Cứ ninh cho tới khi bấm nát, chắt bớt nước, **rồi** mới đổ
+      đường.
+  - icon: flame
+    title: Rim đường mới ngọt tới ruột
+    text: >-
+      Khác biệt lớn nhất giữa ly chè hàng và ly chè nhà: hàng thì **rim đậu với
+      đường** riêng cho ngấm, nhà thì hay đổ chung một nồi. Đổ chung thì cắn
+      hạt vô vẫn nhạt, phải húp nước mới thấy ngọt.
+  - icon: spoon
+    title: Lắc nồi, đừng khuấy
+    text: >-
+      Từ lúc hạt mềm trở đi, mỗi vòng khuấy là mấy chục hạt bung vỏ. Muốn đảo
+      thì **cầm hai quai lắc nồi** theo vòng tròn — đường vẫn thấm đều mà hạt
+      còn nguyên.
+  - icon: drop
+    title: Đá bào chứ đừng đá viên
+    text: >-
+      Đá viên chìm xuống đáy, cốt dừa trôi tuột theo, uống tới giữa ly là hết
+      béo. **Đá bào** giữ được cốt dừa trên mặt và tan chậm đều — mỗi muỗng
+      múc lên đều có đủ đậu, đá và dừa.
+
+serve:
+  title: Ly chè đậu đỏ — **món của buổi chiều nóng**
+  paras:
+    - >-
+      Chè đậu đỏ gần như luôn ăn lạnh. Ly thủy tinh cao, đậu đỏ sậm nằm dưới,
+      đá bào trắng phủ trên, cốt dừa chảy loang xuống thành mấy vệt trắng —
+      nhìn thôi đã thấy mát. Lùa muỗng từ đáy lên cho mỗi muỗng có đủ ba thứ.
+    - >-
+      Món này hợp nấu nồi lớn: đậu càng để qua ngày càng thấm ngọt, nên nấu từ
+      hôm trước rồi hôm sau múc ăn dần là vừa tiện vừa ngon hơn. Rủ bạn qua
+      chơi thì cứ để sẵn nồi chè trong tủ lạnh với một khay đá bào — ai tới thì
+      múc, khỏi nấu lại.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ để cạnh ly chè:"
+    items:
+      - icon: drop
+        text: "**Chén cốt dừa riêng** — ai thích béo thì chan thêm."
+      - icon: flower
+        text: "**Dừa nạo sợi** — thơm, sựt nhẹ, hợp với hạt đậu bở."
+      - icon: pod
+        text: "**Đậu phộng rang giã thô** — thêm cái giòn nếu nhà thích."
+
+faq:
+  - q: Ninh cả tiếng rưỡi mà hạt vẫn sượng?
+    a: >-
+      Ba nghi phạm, theo thứ tự hay gặp: **nêm đường sớm** (hết cứu), **không
+      ngâm đủ lâu**, và **đậu để quá cũ**. Đậu cũ thì ninh bao lâu cũng sượng —
+      mua bao mới, hạt bóng đều, đừng lấy bao đã bạc màu.
+  - q: Hạt đậu bung vỏ nát bét, nước chè đục?
+    a: >-
+      Lửa quá to hoặc khuấy nhiều. Ninh phải **liu riu, sôi lăn tăn thôi**, và
+      từ lúc hạt mềm trở đi thì chỉ **lắc nồi** chứ không khuấy. Nồi đã nát rồi
+      thì cứ ăn, vẫn ngon, chỉ là không đẹp.
+  - q: Nấu bằng nồi áp suất được không?
+    a: >-
+      Được, đỡ hẳn một tiếng. Đậu đã ngâm qua đêm thì nấu **12–15 phút kể từ
+      lúc lên áp**, xả áp tự nhiên. Nhưng phần **rim đường vẫn phải làm riêng
+      ngoài bếp** — bỏ bước đó là mất cái ngọt tới ruột hạt.
+  - q: Có thêm bột báng hay trân châu vào được không?
+    a: >-
+      Được, và nhiều hàng làm vậy. Nhớ **luộc riêng nồi khác rồi xả nước lạnh**
+      mới cho vào, đừng luộc chung — luộc chung là nước chè đục và nhớt. Thêm
+      thạch rau câu cắt hạt lựu cũng hợp.
+  - q: Nước chè bị chát nhẹ?
+    a: >-
+      Do **không đổ nước ngâm** hoặc **không hớt bọt** lúc mới sôi. Cả hai chỗ
+      đó đều chứa phần chát của vỏ đậu. Lần sau: đổ bỏ nước ngâm, đãi lại, và
+      chăm hớt bọt trong 10 phút đầu.
+  - q: Nấu trước được mấy ngày?
+    a: >-
+      Ngăn mát **3–4 ngày**, đậy kín. Chè đậu đỏ để qua ngày còn **ngọt đậm
+      hơn** vì hạt tiếp tục ngấm. Cốt dừa thì để hộp riêng và dùng trong 2 ngày.
+      Đừng cấp đông — hạt rã đông bị bã.
+
+ticker:
+  - icon: pod
+    text: Hạt bở mà vỏ còn nguyên
+  - icon: flame
+    text: Rim đường cho ngọt tới ruột
+  - icon: drop
+    text: Đá bào phủ trên, cốt dừa chảy xuống
+  - icon: clock
+    text: Để qua ngày càng thấm ngọt
+  - icon: jar
+    text: Ninh mềm trước, nêm ngọt sau
+  - icon: sun
+    text: Ly chè của buổi chiều nóng

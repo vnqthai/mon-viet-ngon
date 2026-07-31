@@ -1,0 +1,177 @@
+---
+/* Lẩu bò nhúng giấm — bản 3.
+   Bản 1: MỘT cuốn nằm ngang to hết khung → ở 260px đọc thành khúc dồi trắng.
+   Bản 2: cho cuốn dựng đứng chổng mặt cắt lên → đọc thành mấy ống giấy.
+   Bản 3 quay về đúng luật đã chốt: NỒI LÀ VẬT CHÍNH như sáu nồi lẩu kia, còn
+   cuốn hạ xuống làm đạo cụ nhỏ, mượn cách vẽ đã duyệt của ArtGoiCuon (cuốn NẰM
+   NGANG, nhân hiện xuyên qua vỏ bánh tráng, cọng rau ló ra một đầu) — nhưng
+   chỉ hai cuốn nhỏ nằm nép một góc, không thể lẫn với dĩa gỏi cuốn.
+
+   CHỮ KÝ nhận dạng, phải lệch hẳn sáu nồi kia:
+   1) nước lèo VÀNG NHẠT TRONG, nhìn thấy đáy nồi — sáu nồi kia đục hoặc sẫm
+   2) KHOANH THƠM vàng có mắt dứa + múi HÀNH TÂY trắng: cặp nguyên liệu chỉ nồi
+      nước giấm này có
+   3) nồi NHÔM SÁNG miệng loe có CHÂN ĐẾ CAO
+   4) hai thứ nằm ngoài nồi mà nồi khác không có: DĨA LÁT BÒ SỐNG và CUỐN BÁNH
+      TRÁNG — nói ngay đây là món nhúng rồi cuốn
+   5) chén MẮM NÊM nâu xám lấm tấm thơm băm, khác chén chao đỏ và chao cam
+   id prefix "bg" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Lẩu bò nhúng giấm: nồi nhôm chân cao với nước lèo vàng nhạt trong, khoanh thơm và múi hành tây nổi trên mặt, phía trước là dĩa lát bò sống và hai cuốn bánh tráng, bên cạnh là chén mắm nêm">
+  <defs>
+    <linearGradient id="bgBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EBD79A"/><stop offset="1" stop-color="#C2A455"/>
+    </linearGradient>
+    <linearGradient id="bgPot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D6D9DC"/><stop offset="1" stop-color="#8E959A"/>
+    </linearGradient>
+    <linearGradient id="bgWrap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF8EB"/><stop offset="1" stop-color="#E4D5B0"/>
+    </linearGradient>
+    <!-- lát bò tái: đỏ hồng, viền mỡ trắng chạy một cạnh -->
+    <g id="bgBeef">
+      <path d="M-26 -9 C -12 -16 14 -16 26 -7 C 30 0 22 9 6 12 C -10 14 -28 7 -28 0 Z"
+            fill="#B8503A" stroke="#6E2314" stroke-width="2.2"/>
+      <path d="M-24 -8 C -10 -14 12 -14 24 -6" fill="none" stroke="#EFE1CE" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-14 1 C -4 -3 8 -3 16 1" fill="none" stroke="#DC917A" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="226" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="226" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M204 168 C 193 144 219 128 208 102 C 201 86 215 74 211 58"/>
+    <path d="M276 160 C 266 136 292 122 281 96 C 274 80 288 68 284 52"/>
+    <path d="M344 172 C 334 148 360 134 349 108 C 342 92 356 80 352 64"/>
+  </g>
+  <ellipse cx="262" cy="424" rx="196" ry="22" fill="rgba(15,26,14,.35)"/>
+
+  <!-- NỒI NHÔM SÁNG, miệng loe, CHÂN ĐẾ CAO -->
+  <g>
+    <ellipse cx="268" cy="350" rx="62" ry="13" fill="#9AA1A6" stroke="#6E767B" stroke-width="2.6"/>
+    <path d="M236 300 L 230 346 L 306 346 L 300 300 Z" fill="#AEB5BA" stroke="#6E767B" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M140 246 C 150 302 198 332 268 332 C 338 332 386 302 396 246 Z" fill="url(#bgPot)"/>
+    <path d="M140 246 C 150 302 198 332 268 332 C 338 332 386 302 396 246"
+          fill="none" stroke="#5E6569" stroke-width="4"/>
+    <!-- quai vòng hai bên, cỡ lệch nhau -->
+    <path d="M142 252 C 118 250 111 264 118 276" fill="none" stroke="#9AA1A6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M396 254 C 418 252 424 265 418 276" fill="none" stroke="#9AA1A6" stroke-width="9" stroke-linecap="round"/>
+    <!-- vành miệng loe -->
+    <ellipse cx="268" cy="244" rx="132" ry="34" fill="#E2E6E9"/>
+    <ellipse cx="268" cy="244" rx="132" ry="34" fill="none" stroke="#2C5234" stroke-width="5"/>
+    <ellipse cx="268" cy="245" rx="119" ry="28" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+  </g>
+
+  <!-- NƯỚC LÈO VÀNG NHẠT TRONG — nhìn thấy được đáy nồi -->
+  <ellipse cx="268" cy="247" rx="112" ry="26" fill="url(#bgBroth)"/>
+  <ellipse cx="268" cy="256" rx="70" ry="12" fill="none" stroke="#F8EFC6" stroke-width="2.6" opacity=".65"/>
+
+  <!-- KHOANH THƠM vàng có mắt dứa -->
+  <g>
+    <g transform="translate(204 240) rotate(-10)">
+      <ellipse cx="0" cy="0" rx="27" ry="12" fill="#F0B32C" stroke="#A66E0A" stroke-width="2.2"/>
+      <ellipse cx="0" cy="0" rx="9" ry="4.4" fill="#F8DC94" stroke="#C99524" stroke-width="1.6"/>
+      <g fill="#C98F14">
+        <circle cx="-17" cy="-3" r="2.2"/><circle cx="-9" cy="4" r="2"/>
+        <circle cx="16" cy="-3" r="2.2"/><circle cx="8" cy="5" r="2"/>
+        <circle cx="0" cy="-7" r="2"/>
+      </g>
+    </g>
+    <g transform="translate(330 252) rotate(12) scale(.86)">
+      <ellipse cx="0" cy="0" rx="27" ry="12" fill="#F0B32C" stroke="#A66E0A" stroke-width="2.2"/>
+      <ellipse cx="0" cy="0" rx="9" ry="4.4" fill="#F8DC94" stroke="#C99524" stroke-width="1.6"/>
+      <g fill="#C98F14">
+        <circle cx="-17" cy="-3" r="2.2"/><circle cx="-9" cy="4" r="2"/>
+        <circle cx="16" cy="-3" r="2.2"/><circle cx="8" cy="5" r="2"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- MÚI HÀNH TÂY trắng, vòng cung lồng nhau -->
+  <g stroke="#B9AE90" stroke-width="2" stroke-linejoin="round">
+    <path d="M256 230 C 272 219 294 221 303 232 C 290 239 268 239 256 230 Z" fill="#F7F2E2"/>
+    <path d="M158 254 C 172 243 192 245 199 254 C 188 262 167 262 158 254 Z" fill="#F7F2E2"/>
+  </g>
+  <g fill="none" stroke="#CFC5A2" stroke-width="1.6" stroke-linecap="round">
+    <path d="M262 229 C 276 222 292 223 299 230"/>
+    <path d="M165 253 C 175 246 189 247 195 253"/>
+  </g>
+
+  <!-- lát BÒ TÁI đang nhúng trong nồi -->
+  <use href="#bgBeef" transform="translate(244 264) rotate(-8) scale(.84)"/>
+  <use href="#bgBeef" transform="translate(304 266) rotate(10) scale(.78)"/>
+
+  <!-- sợi dừa nạo + khúc sả -->
+  <g fill="none" stroke="#FBF7EA" stroke-width="3" stroke-linecap="round" opacity=".9">
+    <path d="M228 256 C 242 250 258 250 270 254"/>
+  </g>
+  <g stroke="#3F6B2C" stroke-width="2" stroke-linecap="round">
+    <path d="M336 232 L 376 222" stroke="#7EA24C" stroke-width="6.5"/>
+    <path d="M336 232 L 376 222"/>
+  </g>
+
+  <!-- DĨA LÁT BÒ SỐNG (đạo cụ trái, phía trước) -->
+  <g transform="translate(112 350) rotate(-5)">
+    <ellipse cx="0" cy="32" rx="84" ry="17" fill="rgba(15,26,14,.32)"/>
+    <ellipse cx="0" cy="20" rx="84" ry="23" fill="#FDFAF0" stroke="#B7AE8E" stroke-width="2.8"/>
+    <ellipse cx="0" cy="19" rx="84" ry="23" fill="none" stroke="#2C5234" stroke-width="3.6"/>
+    <path d="M-64 14 C -52 -2 -24 -9 2 -9 C 28 -9 54 -2 66 14 C 48 25 -46 25 -64 14 Z" fill="#8A3524"/>
+    <use href="#bgBeef" transform="translate(-42 5) rotate(-8) scale(.9)"/>
+    <use href="#bgBeef" transform="translate(0 -3) rotate(6) scale(.96)"/>
+    <use href="#bgBeef" transform="translate(42 7) rotate(-6) scale(.88)"/>
+    <use href="#bgBeef" transform="translate(-20 16) rotate(9) scale(.78)"/>
+    <use href="#bgBeef" transform="translate(24 17) rotate(-4) scale(.76)"/>
+  </g>
+
+  <!-- HAI CUỐN BÁNH TRÁNG (đạo cụ phải, nhỏ hơn dĩa bò bên trái).
+       Mượn cách vẽ đã duyệt của gỏi cuốn: cuốn NẰM NGANG, nhân hiện xuyên qua
+       vỏ, cọng rau ló ra một đầu. Lót một vệt xà lách xanh dưới cho cuốn trắng
+       khỏi chìm vào dĩa kem. -->
+  <g transform="translate(400 372) rotate(6)">
+    <ellipse cx="-4" cy="28" rx="72" ry="15" fill="rgba(15,26,14,.32)"/>
+    <ellipse cx="-4" cy="18" rx="72" ry="20" fill="#FDFAF0" stroke="#B7AE8E" stroke-width="2.6"/>
+    <ellipse cx="-4" cy="17" rx="72" ry="20" fill="none" stroke="#2C5234" stroke-width="3.2"/>
+    <!-- giường xà lách lót dưới -->
+    <ellipse cx="-6" cy="10" rx="56" ry="15" fill="#4E7C30"/>
+    <ellipse cx="-38" cy="4" rx="22" ry="10" fill="#6F9C48" transform="rotate(-14 -38 4)"/>
+    <ellipse cx="26" cy="14" rx="24" ry="10" fill="#6F9C48" transform="rotate(12 26 14)"/>
+    <!-- cuốn sau -->
+    <g transform="translate(6 -4) rotate(-6)">
+      <rect x="-46" y="-13" width="92" height="26" rx="13" fill="url(#bgWrap)" stroke="#BFA576" stroke-width="2.6"/>
+      <path d="M-38 -8 C -26 -12 -12 -12 -2 -8 L -2 8 C -12 12 -26 12 -38 8 Z" fill="#A9C87C" opacity=".95"/>
+      <path d="M6 -6 C 16 -10 28 -10 36 -6 C 30 -1 12 -1 6 -6 Z" fill="#C4614A" opacity=".9"/>
+      <g fill="none" stroke="#E6D7B4" stroke-width="2.6" stroke-linecap="round">
+        <path d="M6 3 C 16 6 28 6 36 3"/>
+      </g>
+      <!-- cọng rau ló ra đầu phải -->
+      <g fill="none" stroke="#357029" stroke-width="5" stroke-linecap="round">
+        <path d="M44 -6 C 56 -12 66 -12 74 -6"/>
+        <path d="M44 3 C 55 1 65 4 72 10"/>
+      </g>
+    </g>
+    <!-- cuốn trước, ngắn hơn -->
+    <g transform="translate(-16 12) rotate(9) scale(.86)">
+      <rect x="-42" y="-12" width="84" height="24" rx="12" fill="url(#bgWrap)" stroke="#BFA576" stroke-width="2.8"/>
+      <path d="M-34 -7 C -22 -11 -10 -11 -2 -7 L -2 7 C -10 11 -22 11 -34 7 Z" fill="#A9C87C" opacity=".95"/>
+      <path d="M4 -5 C 14 -9 26 -9 32 -5 C 26 0 10 0 4 -5 Z" fill="#C4614A" opacity=".9"/>
+      <g fill="none" stroke="#357029" stroke-width="5" stroke-linecap="round">
+        <path d="M40 -4 C 52 -10 62 -9 68 -4"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- CHÉN MẮM NÊM — nâu xám đục, lấm tấm thơm băm -->
+  <g transform="translate(456 290)">
+    <ellipse cx="0" cy="22" rx="36" ry="9" fill="rgba(15,26,14,.3)"/>
+    <path d="M-32 -2 C -30 13 -17 21 0 21 C 17 21 30 13 32 -2 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="-2" rx="32" ry="9" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-1" rx="25" ry="6.4" fill="#7E5A38"/>
+    <g fill="#E8C55E">
+      <circle cx="-10" cy="-2" r="2.2"/><circle cx="2" cy="1" r="2"/>
+      <circle cx="11" cy="-3" r="1.8"/><circle cx="-3" cy="-4" r="1.8"/>
+    </g>
+    <g fill="#D4442A" stroke="#93230F" stroke-width="1.1">
+      <ellipse cx="14" cy="2" rx="4.2" ry="2.2"/>
+    </g>
+  </g>
+</svg>

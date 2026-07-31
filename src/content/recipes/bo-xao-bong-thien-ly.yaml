@@ -1,0 +1,319 @@
+title: Bò xào bông thiên lý **giòn xanh, thơm mùi giàn hoa**
+summary: >-
+  Bông thiên lý xanh mướt xào lửa lớn **đúng một phút** cho còn giòn, trộn với
+  thịt bò mềm ngọt vừa xào tới — dĩa xào mùa hè nhanh gọn, mà mùi hoa thì
+  thoang thoảng suốt bữa cơm.
+region: Cả nước
+category: Xào
+occasions: [Cơm nhà]
+pubDate: 2026-07-31
+time:
+  total: 25 phút
+  active: 20 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 92
+art: bo-xao-thien-ly
+heroEyebrow: Mùa hè, giàn thiên lý trổ bông…
+
+quick:
+  ingredients:
+    - Bông thiên lý [[300|g]] — chọn chùm còn búp, nụ khép, cuống xanh
+    - Thịt bò [[250|g]] — thăn hoặc bắp, thái mỏng ngang thớ
+    - "Ướp bò: tỏi băm · dầu ăn [[1|muỗng canh]] · dầu hào [[1|muỗng canh]] · tiêu"
+    - Tỏi [[5|tép]] băm · hành tím [[2|củ]]
+    - "Nêm: nước mắm [[1|muỗng canh]] · đường [[0.5|muỗng cà phê|frac]]"
+  steps:
+    - Bông thiên lý **rửa nhẹ tay trong thau nước**, đừng xối vòi — xối mạnh là nụ rụng rời cuống.
+    - Ướp bò với tỏi băm, dầu ăn, dầu hào và tiêu — **[[15|phút]]**, có dầu thì thịt mềm và không dính chảo.
+    - Chảo **thật nóng**, xào bò lửa lớn **1 phút cho vừa tái**, trút ra dĩa riêng ngay.
+    - Chảo đó phi thơm tỏi hành, cho bông thiên lý vào **xào lửa lớn đúng 1 phút**.
+    - Nêm nước mắm và đường ở thành chảo, đảo nhanh.
+    - Trút bò trở lại, **đảo 15 giây rồi tắt bếp** — dựa vào nhiệt còn lại của chảo là đủ.
+    - Rắc tiêu, dọn ra dĩa ăn liền lúc còn nóng.
+  warning: >-
+    Xào bò và bông chung một lượt là hỏng chắc: bò cần lửa lớn thời gian ngắn,
+    bông thiên lý thì chỉ chịu được đúng một phút. Xào chung thì hoặc bò dai,
+    hoặc bông nhũn nhớt — **luôn xào riêng rồi mới trộn lại**.
+
+flavor:
+  chua: 0
+  ngot: 4
+  man: 6
+  cay: 1
+  thom: 8
+flavorNote: >-
+  **Chuẩn dĩa xào:** bông thiên lý **còn xanh nguyên màu, cắn thấy giòn**,
+  không ngả vàng úa và không ra nước; lát bò **mềm mọng, mặt ngoài vừa săn**
+  chứ không xám khô. Dĩa xào khô ráo, không đọng vũng nước dưới đáy.
+storyEyebrow: Chuyện bông thiên lý
+storyTitle: Giàn hoa trước ngõ, **mỗi năm chỉ một mùa**
+story:
+  - >-
+    Thiên lý là loại dây leo quen thuộc của sân nhà quê: người ta trồng cho
+    leo giàn trước ngõ, vừa lấy bóng mát vừa hái bông nấu ăn. Bông nở thành
+    chùm nhỏ màu vàng xanh, thơm dịu — cái mùi thơm đó giữ nguyên cả sau khi
+    xào, và đó chính là thứ làm dĩa xào này khác hẳn mọi dĩa bò xào rau khác.
+  - >-
+    Điểm cần biết trước khi đi chợ: **thiên lý là rau theo mùa**, rộ nhất vào
+    những tháng hè. Ngoài mùa thì có nhưng ít, đắt, và bông hay nở bung. Chọn
+    chùm còn **búp khép, cuống xanh cứng** — chùm đã nở xoè thì xào xong nhũn
+    và mất mùi.
+  - >-
+    Món này là kiểu món "đi chợ về là có ngay": tổng cộng chưa tới nửa tiếng,
+    mà cả nhà ai cũng gắp. Chỉ cần nhớ đúng một điều — **bông thiên lý chỉ chịu
+    được một phút trên chảo**. Quá một phút là nó chuyển từ giòn xanh sang nhũn
+    vàng, không có đường lùi.
+
+ingredientGroups:
+  - name: Bông thiên lý
+    icon: flower
+    items:
+      - id: bongthienly
+        name: Bông thiên lý
+        icon: flower
+        color: green
+        base: 300
+        unit: g
+        note: Chùm còn búp khép, cuống xanh cứng — chùm nở xoè là hái lâu rồi
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 5
+        unit: tép
+        note: Nửa băm ướp bò, nửa phi thơm lúc xào bông
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        color: red
+        base: 2
+        unit: củ
+        note: Thái lát mỏng, phi cùng tỏi
+  - name: Thịt bò & đồ ướp
+    icon: meat
+    items:
+      - id: thitbo
+        name: Thịt bò
+        icon: meat
+        color: red
+        base: 250
+        unit: g
+        note: Thăn hoặc bắp — thái lát mỏng ngang thớ, ngang thớ mới mềm
+      - id: dauhao
+        name: Dầu hào
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Ướp bò cho đậm và bóng mặt thịt
+      - id: dauan
+        name: Dầu ăn (ướp bò)
+        icon: drop
+        base: 1
+        unit: muỗng canh
+        note: Muỗng dầu trong đồ ướp giữ thịt mềm và không dính chảo
+      - id: nuocmam
+        name: Nước mắm + đường + tiêu
+        icon: bottle
+        qtyText: 1 muỗng canh nước mắm · ½ muỗng cà phê đường · tiêu
+        note: Nêm ở bước xào bông, rưới dọc thành chảo
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **dĩa bò xào bông thiên lý**
+stepsLead: >-
+  Cả món gói trong 20 phút, mà 15 phút trong đó là ngồi chờ thịt ngấm. Phần
+  đứng bếp thật sự chỉ chừng 3 phút — nên chuẩn bị sẵn hết rồi mới bật lửa.
+steps:
+  - title: Rửa bông — nhẹ tay
+    icon: flower
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Nhặt bỏ cuống già và lá lẫn trong chùm, giữ lại phần **cuống non và
+          nụ hoa**.
+      - text: >-
+          Thả vào **thau nước, khoát nhẹ tay** vài lần rồi vớt ra. Đừng xối
+          thẳng vòi nước — áp lực nước làm nụ rụng rời khỏi cuống.
+      - text: >-
+          Vẩy thật ráo hoặc để rổ [[10|phút]] — bông còn đọng nước là vào chảo
+          sẽ luộc chứ không xào.
+    callout:
+      type: tip
+      text: >-
+        Bông thiên lý mua về nên **xào trong ngày**. Để tủ lạnh qua đêm là nụ
+        bắt đầu nở bung và ngả vàng, xào ra vừa nhũn vừa mất mùi thơm — thứ
+        đáng giá nhất của món.
+  - title: Ướp thịt bò
+    icon: meat
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Thái bò **lát mỏng, ngang thớ** — nhìn chiều sợi cơ rồi đặt dao cắt
+          vuông góc.
+      - text: >-
+          Trộn với tỏi băm, [[1|muỗng canh]] dầu hào, [[1|muỗng canh]] dầu ăn
+          và chút tiêu. Ướp **[[15|phút]]**.
+      - text: >-
+          **Đừng ướp bằng nước mắm hay muối** ở bước này — muối rút nước ra
+          khỏi thịt, vào chảo là chảy nước và dai.
+    callout:
+      type: tip
+      text: >-
+        Muỗng dầu ăn trong đồ ướp là mẹo nhỏ mà hiệu quả: nó tạo một màng mỏng
+        quanh lát thịt, giữ nước bên trong và làm thịt **không dính bết vào
+        chảo** khi xào lửa lớn.
+  - title: Xào bò riêng — một phút, trút ra ngay
+    icon: flame
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Bắc chảo lên **lửa lớn nhất, chờ chảo thật nóng** — rắc giọt nước vào
+          thấy bốc hơi tức thì là được.
+      - text: >-
+          Cho chút dầu, trút bò vào **dàn thành một lớp**, để yên 20 giây cho
+          mặt dưới săn rồi mới đảo.
+      - text: >-
+          Tổng cộng **1 phút, thịt vừa tái là trút hết ra dĩa riêng**. Nó sẽ
+          chín nốt ở bước cuối.
+    callout:
+      type: warn
+      text: >-
+        Chảo chưa đủ nóng hoặc cho quá nhiều thịt một lượt thì thịt **nhả nước
+        và luộc trong nước của chính nó** — ra lát bò xám, dai và nhạt. Chảo
+        nhỏ thì xào làm hai mẻ.
+  - title: Xào bông & trộn lại
+    icon: pot
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Vẫn chảo đó, thêm chút dầu, phi thơm tỏi và hành tím lát tới khi vàng
+          nhạt.
+      - text: >-
+          Cho bông thiên lý vào, **đảo nhanh tay trên lửa lớn đúng 1 phút** —
+          bông vừa chuyển xanh đậm hơn và hơi mềm ở cuống là được.
+      - text: >-
+          Rưới [[1|muỗng canh]] nước mắm và [[0.5|muỗng cà phê|frac]] đường
+          **dọc theo thành chảo** chứ không đổ giữa — nước mắm chạm thành nóng
+          sẽ dậy mùi thơm.
+      - text: >-
+          Trút bò trở lại, **đảo đều 15 giây rồi tắt bếp ngay**. Nhiệt còn lại
+          trong chảo đủ làm chín nốt lát thịt.
+      - text: Rắc tiêu, trút ra dĩa, ăn liền.
+    callout:
+      type: warn
+      text: >-
+        Quá một phút là bông thiên lý **chuyển vàng úa và ra nước** — dĩa xào
+        thành một đống nhũn nằm trong vũng nước. Thà tắt bếp sớm 10 giây còn
+        hơn muộn 10 giây.
+    timer:
+      secs: 60
+      label: Hẹn giờ xào bông · 01:00
+      doneMsg: Đủ một phút rồi — trút bò vào, đảo 15 giây rồi tắt bếp!
+    doneText: Gắp một đũa nghe giòn — xong!
+
+tipsTitle: 5 bí quyết cho **dĩa xào giòn xanh, không ra nước**
+tipsLead: >-
+  Món này chỉ hỏng theo đúng một kiểu: nhũn và ướt. Năm điều dưới đây chặn hết
+  mọi ngả dẫn tới kiểu hỏng đó.
+tips:
+  - icon: flower
+    title: Chọn chùm còn búp
+    text: >-
+      Chùm **nụ khép, màu xanh ngả vàng nhạt, cuống cứng** là hái sớm — xào ra
+      giòn và thơm. Chùm đã **nở xoè, ngả vàng, cuống mềm oặt** thì dù xào
+      khéo cỡ nào cũng nhũn. Chọn đúng ở chợ là xong nửa món.
+  - icon: drop
+    title: Ráo nước là điều kiện bắt buộc
+    text: >-
+      Bông còn ướt vào chảo nóng là **hạ nhiệt chảo tức thì**, chuyển từ xào
+      thành luộc. Vẩy ráo, để rổ thêm 10 phút, hoặc thấm nhẹ bằng khăn sạch
+      nếu vội.
+  - icon: flame
+    title: Chảo phải nóng già trước khi cho dầu
+    text: >-
+      Đây là luật chung của mọi món xào nhanh. Chảo nóng thì mặt ngoài nguyên
+      liệu **săn lại tức thì và khoá nước bên trong**. Chảo ấm ấm thì nước
+      chảy ra hết, mọi thứ chìm trong nước của chính nó.
+  - icon: knife
+    title: Xào riêng, trộn sau
+    text: >-
+      Bò cần lửa lớn thời gian ngắn; bông thiên lý chịu được đúng một phút.
+      Hai nhu cầu khác nhau thì **không thể xào chung**. Xào bò trước trút ra,
+      xào bông sau, cuối cùng trộn lại 15 giây.
+  - icon: bottle
+    title: Nêm dọc thành chảo, đừng đổ giữa
+    text: >-
+      Nước mắm chạm vào thành chảo nóng sẽ **bốc hơi và dậy mùi thơm** trước
+      khi trộn vào món. Đổ thẳng vào giữa đống rau thì nó chỉ làm ướt và nhạt,
+      không thơm được.
+
+serve:
+  title: Dĩa xào mùa hè — **ăn ngay lúc còn nóng**
+  paras:
+    - >-
+      Đây là món phải ăn liền. Để nguội chừng mười phút là bông thiên lý mềm
+      xuống và mùi thơm bay mất — nên canh xào ngay trước lúc dọn cơm, đừng
+      xào trước rồi hâm lại.
+    - >-
+      Trên mâm, dĩa này hợp nhất với **một món mặn đậm và một chén canh**:
+      chẳng hạn cá kho tộ với canh chua, hoặc thịt kho với canh bí đỏ. Bản thân
+      nó đã đủ ngọt và thơm nên không cần nước chấm.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Bông thiên lý xào bắt cặp đẹp với:"
+    items:
+      - icon: claypot
+        text: "**Cá kho tộ hoặc thịt kho** — mặn đậm, để dĩa xào làm phần thanh."
+      - icon: bowl
+        text: "**Chén canh nhạt** — canh bí đao, canh rau ngót đều hợp."
+      - icon: rice
+        text: "**Cơm trắng nóng** — món này ăn hao cơm lắm."
+
+faq:
+  - q: Mùa nào mua được bông thiên lý?
+    a: >-
+      Rộ nhất là **những tháng hè**, lúc giàn thiên lý trổ bông nhiều — giá rẻ
+      và chùm đẹp. Ngoài mùa vẫn có ở chợ lớn và siêu thị nhưng ít, đắt hơn và
+      bông hay nở bung. Cứ thấy chợ bày nhiều là mùa của nó.
+  - q: Dĩa xào bị ra nhiều nước, làm sao chữa?
+    a: >-
+      Ba nguyên nhân, thường dính cả ba: bông chưa ráo, chảo chưa đủ nóng, và
+      xào quá một phút. Cứu tạm nồi đang xào thì **vặn lửa lớn nhất, đảo nhanh
+      cho nước bốc hơi** rồi tắt liền — nhưng bông sẽ hơi mềm. Lần sau chặn từ
+      đầu.
+  - q: Thay thịt bò bằng gì khác được không?
+    a: >-
+      Được. **Tôm bóc vỏ** là lựa chọn hợp nhất — ngọt và cũng chỉ cần xào
+      nhanh, làm y hệt cách với bò. **Thịt heo nạc thái mỏng** cũng ổn nhưng
+      cần xào lâu hơn chút. Xào chay với **trứng** hoặc chỉ tỏi không cũng
+      ngon, vì bản thân bông đã thơm.
+  - q: Bông thiên lý có cần chần qua nước sôi trước không?
+    a: >-
+      Không, và không nên. Chần là bông đã chín một nửa, vào chảo thêm một
+      phút nữa thành nhũn. Rửa nhẹ, để ráo, **xào thẳng** — đó là cách giữ được
+      cái giòn và mùi thơm.
+  - q: Thịt bò xào bị dai, sai ở đâu?
+    a: >-
+      Hai chỗ hay gặp nhất: **thái dọc thớ** (phải thái ngang thớ), và **ướp
+      bằng muối hay nước mắm** (muối rút nước, thịt co lại). Ướp bằng dầu hào
+      với dầu ăn, thái ngang thớ, xào lửa lớn một phút — làm đúng ba thứ đó là
+      mềm.
+  - q: Còn dư thì để được không?
+    a: >-
+      Để được nhưng đừng kỳ vọng. Bông thiên lý qua đêm mềm hẳn và mất mùi.
+      Nếu biết trước ăn không hết thì **xào riêng phần bò trước, để dành**,
+      hôm sau xào mẻ bông mới rồi trộn lại — vẫn ngon gần như mới.
+
+ticker:
+  - icon: flower
+    text: Chùm bông còn búp khép
+  - icon: clock
+    text: Xào đúng một phút
+  - icon: flame
+    text: Chảo nóng già rồi mới cho dầu
+  - icon: meat
+    text: Bò thái ngang thớ
+  - icon: sun
+    text: Món của mùa hè
+  - icon: rice
+    text: Ăn hao cơm

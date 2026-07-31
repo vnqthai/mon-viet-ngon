@@ -1,0 +1,162 @@
+---
+/* Chè Thái — CHỮ KÝ nhận dạng, phải lệch hẳn bốn món chè kia:
+   1) LY THẤP THÀNH DÀY (tumbler) — chè bưởi ly CAO THẲNG, chè đậu đỏ ly LOE
+      MIỆNG, chè bà ba tô RỘNG NÔNG, chè đậu xanh bột báng tô SÂU LÒNG
+   2) ruột NHIỀU MÀU nhưng là SỢI và HẠT NHỎ: sợi mít vàng dài · hạt lựu đỏ
+      tròn nhỏ · sợi thạch xanh. Chè bà ba cũng nhiều màu nhưng là KHỐI VUÔNG
+      TO trong nước trắng đục — khác dáng hẳn, không chỉ khác màu.
+   3) đạo cụ: NỬA TRÁI SẦU RIÊNG còn nguyên gai, mở ra lộ múi vàng — không món
+      nào khác trên site có vật gai góc như vậy, nhận ra từ xa
+   4) gò ĐÁ BÀO trắng nhô khỏi miệng ly + nước cốt chảy xuống
+   Món ăn lạnh nên KHÔNG vẽ khói.
+   id prefix "cth" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Ly chè Thái: sợi mít vàng, hạt lựu đỏ và sợi thạch xanh trong ly thủy tinh, phủ đá bào trắng và nước cốt sầu riêng chảy xuống, bên cạnh là nửa trái sầu riêng còn gai mở ra lộ múi vàng">
+  <defs>
+    <linearGradient id="cthGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgba(255,255,255,.36)"/>
+      <stop offset="0.45" stop-color="rgba(255,255,255,.10)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,.26)"/>
+    </linearGradient>
+    <linearGradient id="cthCream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDF8E6"/><stop offset="1" stop-color="#E6D6A8"/>
+    </linearGradient>
+    <linearGradient id="cthIce" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DCE6EA"/>
+    </linearGradient>
+    <linearGradient id="cthHusk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8E9A4E"/><stop offset="1" stop-color="#57632A"/>
+    </linearGradient>
+    <!-- sợi mít: dải dài hơi cong, đầu tù, có gân dọc -->
+    <g id="cthJack">
+      <path d="M-22 0 C -14 -7 12 -8 24 -3 C 27 1 24 6 16 7 C 2 9 -14 7 -22 4 Z"
+            fill="#F0B32C" stroke="#A66E0A" stroke-width="1.8"/>
+      <path d="M-16 1 C -6 -3 10 -3 19 0" fill="none" stroke="#F9DC94" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <!-- hạt lựu: viên đỏ nhỏ, chấm sáng lệch -->
+    <g id="cthRuby">
+      <circle r="6.4" fill="#D2402A" stroke="#8E1E10" stroke-width="1.6"/>
+      <circle cx="-2" cy="-2.2" r="2" fill="#F5907A" opacity=".9"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="278" cy="418" rx="192" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- NỬA TRÁI SẦU RIÊNG (đạo cụ trái) — gai nhọn chìa hẳn ra khỏi đường bao -->
+  <g transform="translate(108 340) rotate(-8)">
+    <ellipse cx="6" cy="70" rx="66" ry="14" fill="rgba(15,26,14,.32)"/>
+    <!-- gai vẽ TRƯỚC vỏ để chỉ nhô ra ở mép, khỏi thành vòng hạt cườm -->
+    <g fill="url(#cthHusk)" stroke="#3E4A1C" stroke-width="1.8">
+      <path d="M-70 4 L -88 -6 L -68 -14 Z"/>
+      <path d="M-64 -30 L -78 -46 L -56 -44 Z"/>
+      <path d="M-40 -54 L -46 -76 L -26 -64 Z"/>
+      <path d="M-8 -66 L -4 -90 L 12 -72 Z"/>
+      <path d="M28 -60 L 42 -80 L 48 -58 Z"/>
+      <path d="M56 -38 L 78 -46 L 66 -26 Z"/>
+      <path d="M68 -6 L 90 -4 L 70 12 Z"/>
+      <path d="M56 26 L 76 34 L 54 44 Z"/>
+      <path d="M-58 34 L -74 46 L -50 50 Z"/>
+      <path d="M-24 54 L -28 74 L -6 62 Z"/>
+      <path d="M22 58 L 30 78 L 42 58 Z"/>
+    </g>
+    <!-- vỏ: nửa trái bổ ngang, miệng mở lên -->
+    <path d="M-70 0 C -70 -42 -38 -70 2 -70 C 42 -70 72 -42 72 0 C 72 40 42 62 2 62 C -38 62 -70 40 -70 0 Z"
+          fill="url(#cthHusk)" stroke="#3E4A1C" stroke-width="3"/>
+    <!-- vảy gai trên mặt vỏ -->
+    <g fill="none" stroke="#3E4A1C" stroke-width="1.8" stroke-linecap="round">
+      <path d="M-46 -22 L -34 -34 L -22 -22 L -34 -10 Z"/>
+      <path d="M-12 -40 L 0 -52 L 12 -40 L 0 -28 Z"/>
+      <path d="M26 -22 L 38 -34 L 50 -22 L 38 -10 Z"/>
+      <path d="M-34 16 L -22 4 L -10 16 L -22 28 Z"/>
+      <path d="M14 18 L 26 6 L 38 18 L 26 30 Z"/>
+    </g>
+    <!-- lòng trái mở ra: hốc sẫm rồi tới MÚI VÀNG -->
+    <ellipse cx="4" cy="-14" rx="46" ry="26" fill="#3A4218" stroke="#2A310F" stroke-width="2.6"/>
+    <path d="M-30 -16 C -28 -34 -14 -44 0 -42 C 14 -40 20 -26 16 -12 C 8 -4 -24 -6 -30 -16 Z"
+          fill="#EFC249" stroke="#A97C10" stroke-width="2.4"/>
+    <path d="M14 -22 C 24 -32 38 -28 40 -16 C 42 -6 30 0 20 -6 C 14 -10 12 -17 14 -22 Z"
+          fill="#E8B637" stroke="#A97C10" stroke-width="2.2"/>
+    <path d="M-24 -22 C -16 -32 -4 -32 0 -24" fill="none" stroke="#F9E09A" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- LY THẤP THÀNH DÀY -->
+  <g>
+    <!-- thân ly: thành gần thẳng, đáy dày -->
+    <path d="M244 180 L 244 380 C 244 396 256 404 274 404 L 350 404 C 368 404 380 396 380 380 L 380 180 Z"
+          fill="url(#cthGlass)" stroke="rgba(255,255,255,.55)" stroke-width="3.4"/>
+
+    <!-- NƯỚC CỐT ngà nằm dưới đáy, các thứ ngập trong đó -->
+    <path d="M252 250 L 252 378 C 252 390 260 396 274 396 L 350 396 C 364 396 372 390 372 378 L 372 250 Z"
+          fill="url(#cthCream)"/>
+
+    <!-- SỢI THẠCH xanh (lớp sau) -->
+    <g fill="#5EA83C" stroke="#356B22" stroke-width="1.8">
+      <path d="M262 340 L 300 332 L 302 342 L 264 350 Z"/>
+      <path d="M318 356 L 356 348 L 358 358 L 320 366 Z"/>
+      <path d="M268 372 L 302 366 L 304 376 L 270 382 Z"/>
+      <path d="M330 302 L 364 296 L 366 306 L 332 312 Z"/>
+    </g>
+
+    <!-- SỢI MÍT vàng — thứ chiếm chỗ nhiều nhất, dải dài cong -->
+    <use href="#cthJack" transform="translate(292 292) rotate(-9)"/>
+    <use href="#cthJack" transform="translate(338 320) rotate(11) scale(.92)"/>
+    <use href="#cthJack" transform="translate(284 330) rotate(6) scale(.96)"/>
+    <use href="#cthJack" transform="translate(334 358) rotate(-12) scale(.88)"/>
+    <use href="#cthJack" transform="translate(292 366) rotate(14) scale(.84)"/>
+    <use href="#cthJack" transform="translate(322 274) rotate(-4) scale(.86)"/>
+    <use href="#cthJack" transform="translate(276 384) rotate(-7) scale(.78)"/>
+
+    <!-- HẠT LỰU đỏ rải kín kẽ -->
+    <use href="#cthRuby" transform="translate(266 306)"/>
+    <use href="#cthRuby" transform="translate(310 312) scale(.9)"/>
+    <use href="#cthRuby" transform="translate(352 336) scale(.94)"/>
+    <use href="#cthRuby" transform="translate(272 356) scale(.86)"/>
+    <use href="#cthRuby" transform="translate(316 344) scale(.92)"/>
+    <use href="#cthRuby" transform="translate(358 372) scale(.82)"/>
+    <use href="#cthRuby" transform="translate(300 384) scale(.88)"/>
+    <use href="#cthRuby" transform="translate(342 388) scale(.78)"/>
+    <use href="#cthRuby" transform="translate(260 386) scale(.74)"/>
+    <use href="#cthRuby" transform="translate(300 262) scale(.8)"/>
+    <use href="#cthRuby" transform="translate(356 288) scale(.76)"/>
+
+    <!-- quả NHÃN trắng ngà tròn to, khác hẳn hạt lựu nhỏ -->
+    <g fill="#F6F0DC" stroke="#C9BE9C" stroke-width="2">
+      <circle cx="288" cy="348" r="13"/>
+      <circle cx="344" cy="304" r="11"/>
+    </g>
+    <g fill="#E4DAC0">
+      <circle cx="285" cy="345" r="4.6"/><circle cx="342" cy="301" r="4"/>
+    </g>
+
+    <!-- GÒ ĐÁ BÀO trắng nhô khỏi miệng ly -->
+    <path d="M240 188 C 250 138 284 110 312 110 C 340 110 374 138 384 188 C 350 210 274 210 240 188 Z"
+          fill="url(#cthIce)"/>
+    <g fill="#FFFFFF" opacity=".92">
+      <path d="M262 170 L 284 142 L 298 168 L 276 182 Z"/>
+      <path d="M302 146 L 330 126 L 342 154 L 314 166 Z"/>
+      <path d="M340 172 L 364 152 L 374 180 L 348 190 Z"/>
+      <path d="M280 186 L 306 176 L 312 198 L 286 200 Z"/>
+    </g>
+    <g fill="none" stroke="#A9C4D0" stroke-width="1.8" stroke-linecap="round" opacity=".8">
+      <path d="M266 164 L 288 146"/><path d="M312 134 L 334 146"/><path d="M348 176 L 368 160"/>
+    </g>
+
+    <!-- NƯỚC CỐT chảy từ đỉnh gò đá xuống, lệch phải -->
+    <path d="M330 120 C 352 128 368 148 374 174 C 366 188 352 186 348 172 C 342 148 336 132 322 128 Z"
+          fill="#FDF8E6"/>
+    <path d="M366 182 C 374 208 366 230 352 240 C 346 224 358 206 356 186 Z" fill="rgba(253,248,230,.85)"/>
+    <path d="M262 186 C 254 208 260 226 270 236 C 276 222 266 206 270 190 Z" fill="rgba(253,248,230,.7)"/>
+
+    <!-- vành miệng ly vẽ SAU đá, để đá đọc ra là nhô lên khỏi vành -->
+    <path d="M244 180 C 276 196 348 196 380 180" fill="none" stroke="rgba(255,255,255,.68)" stroke-width="4.4" stroke-linecap="round"/>
+    <!-- ánh sáng dọc thành ly -->
+    <path d="M258 212 L 258 374" stroke="rgba(255,255,255,.5)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M370 220 L 370 320" stroke="rgba(255,255,255,.22)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- vài sợi mít rơi trên bàn, nối đạo cụ vào ly -->
+  <use href="#cthJack" transform="translate(210 414) rotate(-14) scale(1.05)"/>
+  <use href="#cthJack" transform="translate(178 424) rotate(9) scale(.9)"/>
+</svg>

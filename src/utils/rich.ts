@@ -38,7 +38,10 @@ export function rich(src: string): string {
  * với dòng tóm tắt ngay dưới. Thẻ chỉ cần cái tên.
  */
 export function dishName(src: string): string {
-  const before = src.split('**')[0].trim().replace(/[,–—-]\s*$/, '');
+  // Dấu nối cuối phần tên phải cắt hết, kể cả DẤU HAI CHẤM: title kiểu
+  // "Chè bà ba: **3 thứ khoai, một nồi cốt dừa**" mà không cắt thì thẻ món
+  // hiện ra "Chè bà ba:" — cụt lủn, trông như lỗi hiển thị.
+  const before = src.split('**')[0].trim().replace(/[,:;–—-]\s*$/, '');
   return before || plain(src);
 }
 

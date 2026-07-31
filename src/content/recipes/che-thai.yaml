@@ -1,0 +1,355 @@
+title: Chè Thái **sầu riêng béo, mít thơm, hạt lựu giòn sựt**
+summary: >-
+  Sầu riêng xay với sữa và nước cốt dừa thành **nước cốt sánh béo**, chan lên
+  ly đầy sợi mít vàng, hạt lựu đỏ giòn sựt, thạch và nhãn — phủ đá bào. Món gốc
+  Thái nhưng ruột đã đổi thành trái cây miệt vườn.
+region: Miền Nam
+category: Chè
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ 15 phút
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 85
+art: che-thai
+heroEyebrow: Tên là Thái, mà ruột thì miệt vườn…
+
+quick:
+  ingredients:
+    - "Nước cốt: sầu riêng [[200|g]] cơm · sữa tươi [[300|ml]] · sữa đặc [[80|g]] · nước cốt dừa [[300|ml]] · muối [[0.25|muỗng cà phê|frac]]"
+    - "Hạt lựu: củ năng [[200|g]] · nước củ dền [[100|ml]] để nhuộm · bột năng [[3|muỗng canh]]"
+    - Mít chín [[200|g]] — **xé sợi dọc thớ**, đừng băm
+    - Thạch rau câu [[150|g]] cắt sợi · nhãn hoặc vải [[150|g]] bóc sẵn
+    - Dừa non nạo sợi [[80|g]] · đá bào
+  steps:
+    - Củ năng gọt vỏ, **cắt hạt lựu [[6|mm]]**, ngâm nước củ dền [[15|phút]] cho ăn màu đỏ.
+    - Vớt ra để ráo, **xóc với bột năng cho áo đều**, rây bỏ bột thừa.
+    - Luộc trong nước sôi tới khi hạt **nổi lên và lớp áo trong veo**, vớt ra **xả nước lạnh ngay**.
+    - Xay sầu riêng với sữa tươi cho mịn, trộn sữa đặc + nước cốt dừa + nhúm muối. **Để ngăn mát cho thật lạnh.**
+    - Mít xé sợi, thạch cắt sợi, nhãn bóc hạt — mỗi thứ để một chén riêng.
+    - "Xếp ly: các thứ xuống đáy, **đá bào phủ lên trên**, rồi mới chan nước cốt lạnh."
+  warning: >-
+    Chan nước cốt còn ấm lên đá là ly chè loãng toẹt trong một phút. **Nước cốt
+    phải lạnh sẵn trong tủ** rồi mới đem ra chan — đây là lỗi làm hỏng ly chè
+    nhanh nhất, mà cũng dễ tránh nhất.
+
+flavor:
+  chua: 0.5
+  ngot: 8
+  man: 1.5
+  cay: 0
+  thom: 9
+flavorNote: >-
+  **Chuẩn ly chè:** nước cốt **sánh như kem lỏng**, chảy chậm chứ không loãng
+  như sữa; mùi sầu riêng dẫn trước, mít theo sau. Hạt lựu **cắn thấy sựt cái
+  lõi củ năng** bên trong lớp áo dai — mất cái sựt đó là hỏng nửa ly.
+storyEyebrow: Chuyện cái tên
+storyTitle: Gốc Thái, nhưng **ruột đã đổi hết**
+story:
+  - >-
+    Món này đúng là đến từ Thái Lan thật, nhưng sang tới đây thì người mình
+    thay gần hết phần ruột. Bản gốc dùng **siro hoa hồng** làm hương chính —
+    một mùi mà người Việt không quen. Đổi sang **sầu riêng**, thêm **mít** xé
+    sợi, thế là ly chè mang một mùi hoàn toàn khác, và cũng là mùi mà hàng chè
+    ở đây bán chạy nhất.
+  - >-
+    Cái tên "chè Thái" vì vậy hơi lạ: nó chỉ còn giữ **cách bày** của món gốc —
+    nhiều thứ xếp chung một ly, chan nước cốt béo, phủ đá bào — còn nguyên liệu
+    thì gần như là một danh sách trái cây miệt vườn. Site này cũng có một món
+    tương tự ở chỗ đó: **lẩu Thái kiểu Việt**, tên Thái mà nồi thì nêm theo
+    kiểu mình.
+  - >-
+    Chỗ tốn công duy nhất là **hạt lựu**. Nhìn thì tưởng mấy viên bột đỏ, thật
+    ra bên trong là **củ năng cắt hạt lựu** — cắn vô nghe sựt một cái rất giòn,
+    khác hẳn cái dai của lớp bột áo bên ngoài. Mua hạt lựu làm sẵn thì tiện,
+    nhưng gần như lúc nào cũng là bột không ruột, và ly chè mất đi đúng cái
+    tiếng sựt đó.
+
+ingredientGroups:
+  - name: Nước cốt sầu riêng
+    icon: drop
+    items:
+      - id: saurieng
+        name: Cơm sầu riêng
+        icon: pod
+        color: gold
+        base: 200
+        unit: g
+        note: Chọn múi chín mềm, thơm đậm — sầu riêng còn sượng thì nước cốt nhạt mùi
+      - id: suatuoi
+        name: Sữa tươi không đường
+        icon: bottle
+        base: 300
+        unit: ml
+        note: Xay chung với sầu riêng cho mịn
+      - id: suadac
+        name: Sữa đặc
+        icon: jar
+        base: 80
+        unit: g
+        note: Nêm làm hai lượt, nếm rồi mới thêm — mít và nhãn đã ngọt sẵn
+      - id: cotdua
+        name: Nước cốt dừa
+        icon: drop
+        base: 300
+        unit: ml
+        note: Thứ cho độ sánh và béo; thiếu nó thì nước cốt chỉ là ly sữa
+      - id: muoi
+        name: Muối
+        icon: jar
+        base: 0.25
+        unit: muỗng cà phê
+        frac: true
+        note: Nhúm muối làm nổi cái béo, khỏi ngọt trơ
+  - name: Hạt lựu tự làm
+    icon: pod
+    items:
+      - id: cunang
+        name: Củ năng
+        icon: pumpkin
+        base: 200
+        unit: g
+        note: Ruột trắng giòn — đây mới là phần cho tiếng sựt, đừng thay bằng bột không
+      - id: cuden
+        name: Nước củ dền
+        icon: drop
+        color: red
+        base: 100
+        unit: ml
+        note: Củ dền luộc lấy nước — nhuộm màu đỏ tự nhiên, không cần phẩm màu
+      - id: botnang
+        name: Bột năng (áo hạt)
+        icon: rice
+        base: 3
+        unit: muỗng canh
+        note: Xóc cho áo một lớp mỏng rồi rây bỏ bột thừa
+  - name: Trái cây & thạch
+    icon: basket
+    items:
+      - id: mit
+        name: Mít chín
+        icon: pineapple
+        color: gold
+        base: 200
+        unit: g
+        note: Xé sợi dọc thớ cho dài — băm nhỏ là mất hẳn cái dai giòn
+      - id: thach
+        name: Thạch rau câu
+        icon: jar
+        color: green
+        base: 150
+        unit: g
+        note: Cắt sợi dài cỡ que diêm, màu gì cũng được
+      - id: nhan
+        name: Nhãn hoặc vải
+        icon: flower
+        base: 150
+        unit: g
+        note: Bóc hạt sẵn; loại đóng hộp thì chắt bỏ bớt nước siro cho khỏi ngọt gắt
+      - id: duanon
+        name: Dừa non nạo sợi
+        icon: flower
+        base: 80
+        unit: g
+        note: Sợi dày, mềm — khác hẳn dừa nạo khô
+      - id: dabao
+        name: Đá bào
+        icon: drop
+        qtyText: Đầy nửa ly mỗi phần
+        note: Bào chứ đừng đá viên — viên chìm xuống đáy, nước cốt trôi theo
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **ly chè Thái đầy ắp**
+stepsLead: >-
+  Món này không khó, chỉ nhiều việc lặt vặt. Làm hạt lựu trước, trộn nước cốt
+  rồi cho vô tủ lạnh, còn lại chỉ là xếp ly.
+steps:
+  - title: Làm hạt lựu — phần tốn công nhất
+    icon: pod
+    minutes: 30 phút
+    intro: "Bốn động tác, đừng bỏ động tác nào:"
+    bullets:
+      - label: "Cắt:"
+        text: >-
+          củ năng gọt vỏ, **cắt hạt lựu cỡ [[6|mm]]** — to quá thì lớp áo bột
+          không bám kín, nhỏ quá thì mất luôn cái lõi giòn.
+      - label: "Nhuộm:"
+        text: >-
+          ngâm trong nước củ dền **[[15|phút]]**, đảo vài lần cho ăn màu đều,
+          rồi chắt bỏ nước và **để thật ráo**.
+      - label: "Áo bột:"
+        text: >-
+          xóc với [[3|muỗng canh]] bột năng cho **mỗi hạt phủ một lớp mỏng**,
+          đổ ra rây lắc bỏ hết bột thừa.
+      - label: "Luộc:"
+        text: >-
+          thả vào nồi nước sôi, khuấy nhẹ. Hạt **nổi lên và lớp áo chuyển
+          trong** là chín — vớt ra **xả ngay nước lạnh** cho hạt săn và rời nhau.
+    callout:
+      type: warn
+      text: >-
+        Không rây bỏ bột thừa thì nồi luộc thành nồi hồ đục và mấy hạt dính
+        thành cục. Không xả nước lạnh thì lớp áo tiếp tục chín, hạt bết lại
+        thành một khối.
+  - title: Trộn nước cốt — rồi cho vô tủ lạnh ngay
+    icon: drop
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Xay [[200|g]] cơm sầu riêng với [[300|ml]] sữa tươi cho **thật mịn**,
+          không còn lợn cợn xơ.
+      - text: >-
+          Trộn tiếp [[80|g]] sữa đặc + [[300|ml]] nước cốt dừa +
+          [[0.25|muỗng cà phê|frac]] muối. Nếm: phải **béo và thơm dẫn trước,
+          ngọt theo sau**.
+      - text: >-
+          **Cho vào ngăn mát ít nhất [[30|phút]]** cho thật lạnh. Đây là bước
+          quyết định ly chè có bị loãng hay không.
+    callout:
+      type: tip
+      text: >-
+        Muốn nước cốt sánh hơn nữa mà không cần thêm sữa đặc: nấu
+        [[1|muỗng cà phê]] bột năng pha loãng với phần nước cốt dừa cho hơi
+        sệt, để nguội rồi mới trộn vào. Sánh thì nước cốt **bám vào từng sợi
+        mít** thay vì trôi tuột xuống đáy ly.
+  - title: Sơ chế trái cây
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Mít bỏ hạt, **xé sợi dọc thớ** cho dài chừng ngón tay — xé chứ đừng
+          băm, sợi dài mới giữ được cái dai giòn của múi mít.
+      - text: >-
+          Thạch cắt sợi cỡ que diêm. Nhãn (hoặc vải) bóc hạt; loại đóng hộp thì
+          **chắt bỏ bớt nước siro** kẻo ly chè ngọt gắt.
+      - text: >-
+          Mỗi thứ để **một chén riêng** — xếp ly mới dễ chia đều và nhìn mới đẹp.
+  - title: Xếp ly — thứ tự quyết định ly chè đẹp
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Cho **hạt lựu, mít, thạch, nhãn, dừa non** xuống đáy ly, mỗi thứ một
+          ít, đừng dồn một góc.
+      - text: >-
+          **Phủ đá bào lên trên** thành một gò cao.
+      - text: >-
+          Chan **nước cốt lạnh** từ đỉnh gò đá cho chảy loang xuống. Ăn thì lùa
+          muỗng từ đáy lên cho mỗi muỗng có đủ thứ.
+    callout:
+      type: tip
+      text: >-
+        Đãi khách thì dọn **ly thủy tinh trong** và xếp các thứ cho thấy được
+        từng lớp — nửa cái ngon của món này nằm ở chỗ nhìn. Chan nước cốt ngay
+        trước khi bưng ra, đừng chan sẵn.
+    doneText: Lùa muỗng từ đáy lên, đủ cả sựt lẫn dai — xong!
+
+tipsTitle: 5 bí quyết cho **ly chè sánh béo, không loãng**
+tipsLead: >-
+  Chè Thái hỏng thì chỉ hỏng theo hai kiểu: loãng như nước, hoặc hạt lựu bết
+  thành cục. Năm điều dưới đây chặn cả hai.
+tips:
+  - icon: drop
+    title: Nước cốt phải lạnh trước khi chan
+    text: >-
+      Đây là điều quan trọng nhất và cũng dễ quên nhất. Nước cốt còn ấm gặp đá
+      bào là tan tức thì, ly chè loãng toẹt. Trộn xong **cho vô ngăn mát ít
+      nhất nửa tiếng**, hoặc làm từ hôm trước.
+  - icon: pod
+    title: Hạt lựu phải có RUỘT củ năng
+    text: >-
+      Cái sựt của lõi củ năng bên trong lớp áo bột dai chính là kết cấu đắt giá
+      nhất của ly chè. Hạt lựu bán sẵn hầu hết chỉ là bột không ruột — dai đều
+      từ ngoài vào trong, ăn một hồi là chán.
+  - icon: rice
+    title: Rây bỏ bột thừa, và xả nước lạnh
+    text: >-
+      Hai động tác nhỏ mà bỏ cái nào cũng hỏng: không rây thì nồi luộc đục và
+      hạt dính chùm; không xả lạnh thì hạt tiếp tục chín, bết thành khối. Xả
+      xong để ráo rồi mới cất.
+  - icon: pineapple
+    title: Mít xé sợi, đừng băm
+    text: >-
+      Múi mít có thớ dọc; xé theo thớ thì ra sợi dài dai giòn, băm ngang thì
+      nát thành vụn và mất hết cảm giác. Đây là khác biệt nhìn thấy được ngay
+      giữa ly chè hàng và ly chè làm vội.
+  - icon: drop
+    title: Đá bào chứ đừng đá viên
+    text: >-
+      Đá viên chìm xuống đáy kéo nước cốt theo, uống tới giữa ly là hết béo.
+      **Đá bào** giữ nước cốt nằm trên và tan chậm đều — cùng lý do với ly chè
+      đậu đỏ.
+
+serve:
+  title: Ly chè Thái — **món để nhìn trước khi ăn**
+  paras:
+    - >-
+      Đây là ly chè bán được một nửa bằng mắt: ly thủy tinh trong, sợi mít vàng
+      với hạt lựu đỏ nằm dưới, gò đá bào trắng ở trên, nước cốt trắng ngà chảy
+      loang xuống. Nên dọn ly trong và **chan nước cốt ngay trước khi bưng ra**.
+    - >-
+      Món ngọt và béo đậm nên **ly nhỏ vừa đủ** là hơn ly to — ăn tới đáy vẫn
+      còn thấy thèm mới đúng. Nhà nào không ăn được sầu riêng thì xem câu hỏi
+      cuối bài, có cách thay.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ nên có sẵn bên cạnh:"
+    items:
+      - icon: drop
+        text: "**Bình nước cốt để lạnh** — ai muốn béo thêm thì tự chan."
+      - icon: pineapple
+        text: "**Chén mít xé sợi riêng** — thứ hết nhanh nhất trong ly."
+      - icon: jar
+        text: "**Chén thạch cắt sợi** — thêm cho ly nhiều màu và đỡ ngán."
+
+faq:
+  - q: Không ăn được sầu riêng thì làm sao?
+    a: >-
+      Bỏ hẳn sầu riêng, tăng nước cốt dừa lên [[400|ml]] và thêm
+      **[[100|g]] xoài chín xay** hoặc **[[100|g]] mít xay** vào nước cốt —
+      vẫn thơm và sánh, chỉ khác mùi. Đây gần với bản gốc hơn: món Thái nguyên
+      thủy vốn không có sầu riêng.
+  - q: Mua hạt lựu làm sẵn được không?
+    a: >-
+      Được, tiệm bán nguyên liệu chè đều có. Nhưng hầu hết là **bột năng không
+      ruột**, mất cái sựt của củ năng. Nếu mua sẵn thì nên **thêm một ít củ
+      năng luộc cắt hạt lựu** trộn chung cho có kết cấu.
+  - q: Không có nước củ dền thì nhuộm bằng gì?
+    a: >-
+      Có thể dùng **nước lá cẩm** (ra màu tím đỏ) hoặc **siro dâu**. Hoặc bỏ
+      luôn khâu nhuộm — hạt lựu trắng vẫn ngon y hệt, chỉ là ly chè kém rực rỡ.
+      Đừng dùng phẩm màu công nghiệp nếu tránh được.
+  - q: Làm trước được bao lâu?
+    a: >-
+      Làm trước **cả ngày** là tiện nhất, miễn để riêng: hạt lựu một hộp, trái
+      cây một hộp, nước cốt một bình — tất cả trong ngăn mát. Tới lúc ăn mới
+      xếp ly và chan. **Đừng trộn sẵn**, để chung một đêm là mít nhũn và nước
+      cốt loãng ra vì trái cây tiết nước.
+  - q: Nước cốt bị loãng, chan xong nhìn như ly sữa?
+    a: >-
+      Ba chỗ: **thiếu nước cốt dừa** (nó mới là thứ cho độ sánh, sữa thì
+      không), **chan lúc còn ấm**, hoặc **dùng đá viên**. Chữa nhanh: nấu một
+      thìa bột năng pha loãng với phần cốt dừa cho hơi sệt, để nguội rồi trộn
+      lại.
+  - q: Cho thêm gì nữa được?
+    a: >-
+      Ly chè này rất dễ tính: **hạt é, sương sáo, thốt nốt, nhãn nhục, bột
+      báng, trân châu** thêm thứ nào cũng hợp. Chỉ nhớ một luật — thứ nào cần
+      luộc thì **luộc riêng rồi xả lạnh** trước khi cho vào ly, đừng luộc chung.
+
+ticker:
+  - icon: pod
+    text: Hạt lựu có ruột củ năng mới sựt
+  - icon: pineapple
+    text: Mít xé sợi, đừng băm
+  - icon: drop
+    text: Nước cốt phải lạnh trước khi chan
+  - icon: jar
+    text: Sầu riêng thay chỗ siro hoa hồng
+  - icon: sun
+    text: Đá bào phủ trên, cốt chảy xuống
+  - icon: star
+    text: Bán được một nửa bằng mắt

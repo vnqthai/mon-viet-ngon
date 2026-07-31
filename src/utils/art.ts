@@ -103,6 +103,19 @@ export const ART_COMPONENT: Record<string, string> = {
   'banh-uot-tom-chay':    'ArtBanhUotTomChay',
   'ca-thu-sot-ca':        'ArtCaThuSotCa',
   'ca-nuc-sot-ca':        'ArtCaNucSotCa',
+  'che-buoi':             'ArtCheBuoi',
+  'che-ba-ba':            'ArtCheBaBa',
+  'che-thai':             'ArtCheThai',
+  'che-dau-xanh-bot-bang':'ArtCheDauXanhBotBang',
+  'che-dau-do':           'ArtCheDauDo',
+  'lau-de-chao':          'ArtLauDeChao',
+  'lau-de-me':            'ArtLauDeMe',
+  'lau-bo-da-lat':        'ArtLauBoDaLat',
+  'lau-bo-giam':          'ArtLauBoGiam',
+  'bo-xao-thien-ly':      'ArtBoXaoThienLy',
+  'kho-qua-xao-trung':    'ArtKhoQuaXaoTrung',
+  'canh-ca-chua-trung':   'ArtCanhCaChuaTrung',
+  'cua-hap-bia':          'ArtCuaHapBia',
   'bowl':                 'ArtBowl',
   'claypot':              'ArtClaypot',
   'plate':                'ArtPlate',
@@ -126,6 +139,7 @@ export const BY_CATEGORY: Record<string, string> = {
   'Bún trộn': 'bowl',
   'Lẩu':      'claypot',
   'Cháo':     'bowl',
+  'Chè':      'bowl',
 };
 
 /** Món -> tên hình. Kiểu món lạ thì rơi về 'bowl' cho khỏi vỡ giao diện. */

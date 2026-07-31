@@ -1,7 +1,7 @@
 /**
- * HỌ MÓN — gom 14 kiểu món thành 5 họ theo *cách ăn*, mỗi họ một màu nền thẻ.
+ * HỌ MÓN — gom 16 kiểu món thành 6 họ theo *cách ăn*, mỗi họ một màu nền thẻ.
  *
- * Vì sao gom: 14 màu nền phân biệt được là bất khả, mắt không đọc nổi. Năm họ
+ * Vì sao gom: 16 màu nền phân biệt được là bất khả, mắt không đọc nổi. Sáu họ
  * thì lưới danh mục đọc ra thành từng nhóm ngay từ cái liếc đầu — màu ở đây là
  * thông tin, không phải trang trí.
  *
@@ -9,7 +9,7 @@
  *   node tools/contact-sheet.mjs
  */
 
-export type FamilyId = 'nuoc' | 'man' | 'tron' | 'banh' | 'lua';
+export type FamilyId = 'nuoc' | 'man' | 'tron' | 'banh' | 'lua' | 'ngot';
 
 export const FAMILIES: Record<FamilyId, { name: string; cats: string[] }> = {
   nuoc: { name: 'Chan & húp',  cats: ['Món nước', 'Canh', 'Lẩu', 'Cháo'] },
@@ -17,6 +17,7 @@ export const FAMILIES: Record<FamilyId, { name: string; cats: string[] }> = {
   tron: { name: 'Cuốn & trộn', cats: ['Gỏi', 'Cuốn', 'Bún trộn'] },
   banh: { name: 'Cơm & bánh',  cats: ['Cơm', 'Bánh', 'Bánh mì'] },
   lua:  { name: 'Lửa',         cats: ['Nướng', 'Chiên'] },
+  ngot: { name: 'Ngọt & mát',  cats: ['Chè'] },
 };
 
 /**
@@ -33,6 +34,7 @@ export const FAM_GROUND: Record<FamilyId, [string, string]> = {
   tron: ['#5B7A2E', '#3B521C'],
   banh: ['#A8801A', '#70530C'],
   lua:  ['#9A3D2B', '#65241A'],
+  ngot: ['#5E3A6E', '#3B2247'],
 };
 
 const BY_CAT = new Map<string, FamilyId>();

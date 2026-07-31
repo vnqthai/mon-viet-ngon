@@ -1,0 +1,155 @@
+---
+/* Canh cà chua trứng — CHỮ KÝ nhận dạng.
+   Phải lệch hẳn năm tô canh đã có VÀ lệch cả ArtLauThai (cũng nước đỏ + cà chua,
+   nhưng đó là NỒI có quai, còn đây là TÔ CANH):
+   1) DẢI VÂN TRỨNG VÀNG mềm, mỏng, trôi lơ lửng — vẽ thành dải cong bề ngang
+      không đều, KHÔNG vẽ thành cục tròn (cục tròn thì ra trứng cút, ra viên)
+   2) nước canh ĐỎ CAM TRONG, thấy được vân trứng nằm chìm bên dưới
+   3) MÚI CÀ CHUA hình múi cau có ruột hạt, khác lát cà chua tròn của lẩu Thái
+   4) đạo cụ: trái cà chua nguyên có cuống xanh + quả trứng đập dở — hai thứ
+      nguyên liệu, nói ngay món chỉ có hai thứ
+   id prefix "cct" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô canh cà chua trứng: nước canh đỏ cam trong với múi cà chua và những dải vân trứng vàng trôi lơ lửng, bên cạnh là trái cà chua nguyên cuống và quả trứng">
+  <defs>
+    <linearGradient id="cctBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0753A"/><stop offset="1" stop-color="#A8431A"/>
+    </linearGradient>
+    <linearGradient id="cctBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#D5CCB0"/>
+    </linearGradient>
+    <linearGradient id="cctTom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E2452C"/><stop offset="1" stop-color="#A62615"/>
+    </linearGradient>
+    <!-- MÚI CÀ CHUA: hình múi cau, ruột nhạt có hạt, vỏ đỏ ở lưng -->
+    <g id="cctWedge">
+      <path d="M-22 10 C -18 -8 -6 -18 4 -18 C 16 -18 24 -6 24 8 C 10 16 -10 16 -22 10 Z"
+            fill="url(#cctTom)" stroke="#7E1C0E" stroke-width="2.2"/>
+      <path d="M-15 8 C -12 -4 -4 -11 3 -11 C 12 -11 17 -3 17 7 C 7 12 -6 12 -15 8 Z"
+            fill="#F2B497" stroke="#C4735A" stroke-width="1.6"/>
+      <g fill="#F6E2B4" stroke="#C9A970" stroke-width="1">
+        <ellipse cx="-6" cy="1" rx="3" ry="2" transform="rotate(-20 -6 1)"/>
+        <ellipse cx="3" cy="-3" rx="2.8" ry="1.9" transform="rotate(10 3 -3)"/>
+        <ellipse cx="9" cy="3" rx="2.6" ry="1.8" transform="rotate(-8 9 3)"/>
+      </g>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="238" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="238" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M204 218 C 193 194 219 178 208 152 C 201 136 215 124 211 108"/>
+    <path d="M272 210 C 262 186 288 172 277 146 C 270 130 284 118 280 102"/>
+    <path d="M340 222 C 330 198 356 184 345 158 C 338 142 352 130 348 114"/>
+  </g>
+  <ellipse cx="266" cy="412" rx="188" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- TRÁI CÀ CHUA NGUYÊN (đạo cụ trái) — cuống xanh năm cánh trên đỉnh -->
+  <g transform="translate(88 356)">
+    <ellipse cx="4" cy="56" rx="52" ry="12" fill="rgba(15,26,14,.32)"/>
+    <path d="M-52 6 C -52 -30 -28 -50 2 -50 C 32 -50 56 -30 56 4 C 56 36 32 52 2 52 C -28 52 -52 38 -52 6 Z"
+          fill="url(#cctTom)" stroke="#7E1C0E" stroke-width="3"/>
+    <!-- ánh bóng lệch trái -->
+    <path d="M-32 -14 C -26 -32 -10 -42 4 -42 C -8 -34 -20 -22 -24 -6 C -26 2 -34 -4 -32 -14 Z"
+          fill="#F58A6A" opacity=".6"/>
+    <!-- cuống xanh: năm cánh đài toả ra, cọng ngắn -->
+    <g fill="#4E8A38" stroke="#2C5820" stroke-width="2">
+      <path d="M2 -50 C -14 -56 -26 -50 -22 -42 C -14 -38 -2 -42 2 -50 Z"/>
+      <path d="M2 -50 C 18 -58 30 -50 25 -42 C 16 -38 5 -42 2 -50 Z"/>
+      <path d="M2 -50 C -6 -64 4 -70 12 -64 C 14 -58 8 -52 2 -50 Z"/>
+    </g>
+    <path d="M4 -62 C 4 -72 10 -76 16 -74" fill="none" stroke="#3E6120" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- TÔ CANH -->
+  <path d="M104 292 C 112 358 178 394 264 394 C 350 394 416 358 424 292 Z"
+        fill="url(#cctBowl)" stroke="#B7AE8E" stroke-width="3"/>
+  <path d="M104 292 C 112 358 178 394 264 394 C 350 394 416 358 424 292"
+        fill="none" stroke="#2C5234" stroke-width="4.5"/>
+  <ellipse cx="264" cy="292" rx="160" ry="40" fill="#F3EDDA" stroke="#B7AE8E" stroke-width="3"/>
+  <ellipse cx="264" cy="293" rx="146" ry="33" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- NƯỚC CANH ĐỎ CAM TRONG -->
+  <ellipse cx="264" cy="295" rx="138" ry="31" fill="url(#cctBroth)"/>
+
+  <!-- VÂN TRỨNG lớp CHÌM — SỢI MẢNH, thấy mờ qua nước. Bản 1 vẽ mảng dày nên
+       đọc thành miếng trứng chiên; vân trứng thật là dòng trứng rót mỏng, tãi
+       ra thành DẢI TƠ trôi lơ lửng. Vẽ bằng nét mảnh chứ đừng bằng khối. -->
+  <g fill="none" stroke="#E9B95E" stroke-linecap="round" opacity=".5">
+    <path d="M150 300 C 172 290 200 290 224 298" stroke-width="5"/>
+    <path d="M286 308 C 310 297 340 299 360 308" stroke-width="4.4"/>
+    <path d="M206 318 C 228 309 256 311 274 319" stroke-width="4"/>
+    <path d="M320 288 C 340 281 362 282 376 288" stroke-width="3.4"/>
+    <path d="M172 312 C 190 305 210 306 224 311" stroke-width="3"/>
+  </g>
+
+  <!-- MÚI CÀ CHUA nổi trên mặt -->
+  <use href="#cctWedge" transform="translate(196 288) rotate(-16)"/>
+  <use href="#cctWedge" transform="translate(300 284) rotate(12) scale(.94)"/>
+  <use href="#cctWedge" transform="translate(352 300) rotate(-6) scale(.86)"/>
+  <use href="#cctWedge" transform="translate(246 308) rotate(20) scale(.9)"/>
+
+  <!-- VÂN TRỨNG lớp NỔI: SỢI MẢNH cong, bề ngang không đều nhau, đầu sợi tãi
+       ra. Nét dày nhất cũng chỉ 7px — dày hơn nữa là ra miếng trứng chiên. -->
+  <g fill="none" stroke="#F7D372" stroke-linecap="round">
+    <path d="M146 288 C 168 274 198 272 220 279" stroke-width="7"/>
+    <path d="M228 270 C 252 259 284 261 302 270" stroke-width="6"/>
+    <path d="M306 294 C 330 283 360 285 376 294" stroke-width="6.5"/>
+    <path d="M170 314 C 194 303 224 305 240 314" stroke-width="5.5"/>
+    <path d="M254 324 C 276 315 302 317 316 324" stroke-width="5"/>
+    <path d="M192 296 C 212 288 236 288 252 294" stroke-width="4"/>
+    <path d="M282 286 C 300 279 322 280 334 285" stroke-width="3.6"/>
+    <path d="M208 336 C 228 329 250 330 264 335" stroke-width="4.2"/>
+    <path d="M330 312 C 346 306 364 307 374 312" stroke-width="3.4"/>
+  </g>
+  <!-- đầu sợi tãi mỏng dần, vẽ bằng nét nhạt hơn chồng lên -->
+  <g fill="none" stroke="#FBE7A8" stroke-linecap="round" opacity=".85">
+    <path d="M152 286 C 172 274 198 273 218 279" stroke-width="2.6"/>
+    <path d="M234 269 C 256 260 284 262 300 269" stroke-width="2.4"/>
+    <path d="M312 293 C 334 284 360 286 374 293" stroke-width="2.4"/>
+    <path d="M176 313 C 198 304 224 306 238 313" stroke-width="2"/>
+  </g>
+  <!-- vụn trứng li ti trôi quanh -->
+  <g fill="#F7D372" opacity=".9">
+    <ellipse cx="336" cy="274" rx="6" ry="2.4" transform="rotate(-12 336 274)"/>
+    <ellipse cx="166" cy="330" rx="5.4" ry="2.2" transform="rotate(9 166 330)"/>
+    <ellipse cx="278" cy="300" rx="4.6" ry="2" transform="rotate(-6 278 300)"/>
+    <ellipse cx="360" cy="326" rx="4.2" ry="1.8" transform="rotate(14 360 326)"/>
+    <ellipse cx="200" cy="278" rx="4.8" ry="2" transform="rotate(-16 200 278)"/>
+  </g>
+
+  <!-- HÀNH LÁ và ngò rắc mặt -->
+  <g fill="#4E8A38" stroke="#2C5820" stroke-width="1.3">
+    <ellipse cx="212" cy="278" rx="7" ry="3.4" transform="rotate(-18 212 278)"/>
+    <ellipse cx="288" cy="298" rx="6.4" ry="3.2" transform="rotate(14 288 298)"/>
+    <ellipse cx="336" cy="282" rx="6" ry="3" transform="rotate(-6 336 282)"/>
+    <ellipse cx="190" cy="308" rx="6.6" ry="3.2" transform="rotate(22 190 308)"/>
+    <ellipse cx="256" cy="330" rx="6" ry="3" transform="rotate(-12 256 330)"/>
+  </g>
+  <g fill="#3E7B2C" stroke="#245A1A" stroke-width="1.2">
+    <path d="M232 292 C 238 286 246 288 246 294 C 244 299 234 299 232 292 Z"/>
+    <path d="M310 316 C 316 310 324 312 324 318 C 322 323 312 323 310 316 Z"/>
+  </g>
+  <!-- tiêu xay -->
+  <g fill="#4A3A28">
+    <circle cx="240" cy="284" r="1.9"/><circle cx="304" cy="290" r="1.7"/>
+    <circle cx="196" cy="296" r="1.8"/><circle cx="326" cy="308" r="1.6"/>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: quả trứng gà, một quả nguyên và một vỏ đập dở -->
+  <g transform="translate(452 372)">
+    <ellipse cx="0" cy="30" rx="42" ry="10" fill="rgba(15,26,14,.3)"/>
+    <!-- quả nguyên nằm nghiêng phía sau -->
+    <ellipse cx="-16" cy="8" rx="22" ry="27" fill="#F6EBD4" stroke="#CFC0A0" stroke-width="2.6" transform="rotate(-18 -16 8)"/>
+    <path d="M-30 -4 C -26 -14 -18 -18 -10 -17" fill="none" stroke="#FDF9EE" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+    <!-- vỏ đập dở, mép răng cưa, lộ lòng đỏ -->
+    <g transform="translate(22 16) rotate(12)">
+      <path d="M-24 -2 C -22 12 -12 20 0 20 C 12 20 22 12 24 -2 C 16 -6 -16 -6 -24 -2 Z"
+            fill="#F6EBD4" stroke="#CFC0A0" stroke-width="2.4"/>
+      <path d="M-24 -2 L -16 -8 L -8 -2 L 0 -9 L 8 -3 L 16 -9 L 24 -2"
+            fill="none" stroke="#CFC0A0" stroke-width="2.4" stroke-linejoin="round"/>
+      <ellipse cx="0" cy="3" rx="14" ry="8" fill="#F0B93C" stroke="#C58C12" stroke-width="1.8"/>
+      <ellipse cx="-4" cy="0" rx="4" ry="2.6" fill="#F8DA8E" opacity=".85"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,306 @@
+title: Khổ qua xào trứng **đắng dịu, trứng bám đều từng lát**
+summary: >-
+  Khổ qua thái lát mỏng ngâm nước đá cho bớt đắng gắt, xào lửa lớn tới khi vừa
+  trong, rồi **rót trứng đánh vào đảo nhanh** cho bám quanh từng lát — món
+  hai nguyên liệu, mười lăm phút, mà đưa cơm lạ lùng.
+region: Cả nước
+category: Xào
+occasions: [Cơm nhà]
+pubDate: 2026-07-31
+time:
+  total: 25 phút
+  active: 15 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 93
+art: kho-qua-xao-trung
+heroEyebrow: Hai thứ trong tủ lạnh là ra một bữa…
+
+quick:
+  ingredients:
+    - Khổ qua [[3|trái]] — chọn trái **gai nở to, xanh nhạt** cho đỡ đắng
+    - Trứng gà [[4|quả]] — đánh tan với chút tiêu và nước mắm
+    - Tỏi [[4|tép]] băm · hành lá [[2|cọng]]
+    - "Nêm: nước mắm [[1|muỗng canh]] · đường [[0.5|muỗng cà phê|frac]] · tiêu"
+    - Muối hạt + đá viên — để ngâm khổ qua
+  steps:
+    - Bổ dọc khổ qua, **nạo kiệt hột và lớp cùi trắng** — đó mới là chỗ đắng gắt, không phải vỏ xanh.
+    - Thái lát **mỏng chừng [[3|mm]]**, ngâm vào tô **nước đá pha muối hạt [[10|phút]]**, rồi vắt nhẹ cho ráo.
+    - Đánh trứng vừa tan, nêm chút tiêu và **[[0.5|muỗng cà phê|frac]] nước mắm** — đừng đánh bông.
+    - Chảo nóng già, phi thơm tỏi, cho khổ qua vào **xào lửa lớn 2 phút** tới khi lát chuyển hơi trong.
+    - Nêm nước mắm và đường, đảo đều.
+    - >-
+      **Dồn khổ qua sang một bên**, rót trứng vào khoảng trống, để yên 10 giây
+      cho trứng se rồi mới đảo trộn.
+    - Đảo thêm 30 giây cho trứng bám quanh lát khổ qua, rắc hành lá, tắt bếp.
+  warning: >-
+    Đổ trứng lên khắp mặt chảo rồi đảo ngay là ra một dĩa **trứng vụn lẫn khổ
+    qua**, hai thứ rời nhau. Dồn rau sang một bên, rót trứng vào chỗ trống, chờ
+    trứng se rồi mới trộn — trứng mới bám thành áo quanh từng lát.
+
+flavor:
+  chua: 0
+  ngot: 3
+  man: 6
+  cay: 1
+  thom: 6.5
+flavorNote: >-
+  **Chuẩn dĩa xào:** lát khổ qua **còn giòn và xanh, chỉ hơi trong ở mép**,
+  đắng dịu chứ không gắt; trứng **bám thành lớp áo mềm quanh từng lát** chứ
+  không nằm rời thành từng mảng. Dĩa khô ráo, không đọng nước.
+storyEyebrow: Chuyện dĩa xào
+storyTitle: Món cứu bữa **của mọi căn bếp**
+story:
+  - >-
+    Có những món sinh ra để cứu bữa cơm chiều: trong tủ lạnh còn vài trái khổ
+    qua với chục trứng, mười lăm phút sau đã có dĩa nóng đưa cơm. Khổ qua xào
+    trứng là món kiểu đó — không cầu kỳ, không tốn kém, mà nhà nào cũng nấu và
+    nhà nào cũng ăn hết.
+  - >-
+    Cặp đôi này hợp nhau vì lý do rất rõ ràng: **trứng béo và ngậy, khổ qua
+    đắng và giòn** — hai vị đối nhau nên đứng cạnh nhau là cân. Trứng bọc quanh
+    lát khổ qua còn làm cái đắng dịu hẳn xuống, nên đây thường là món đầu tiên
+    người sợ đắng chịu ăn.
+  - >-
+    Mà cái đắng của khổ qua thì **gia giảm được**, không phải chịu trận. Nạo
+    sạch cùi trắng, thái mỏng, ngâm nước đá muối — ba việc nhỏ đó kéo độ đắng
+    xuống rõ rệt. Nhà nào ghiền đắng thì bỏ bớt vài bước, còn nhà có con nít
+    thì làm đủ cả ba.
+
+ingredientGroups:
+  - name: Khổ qua
+    icon: okra
+    items:
+      - id: khoqua
+        name: Khổ qua (mướp đắng)
+        icon: okra
+        color: green
+        base: 3
+        unit: trái
+        note: Trái thon dài, gai nở to, xanh nhạt — đắng dịu hơn loại gai nhuyễn sậm màu
+      - id: muoihot
+        name: Muối hạt + đá viên
+        icon: jar
+        qtyText: 1 muỗng canh muối hạt · nửa khay đá
+        note: Nước đá pha muối là cách khử đắng nhanh và giữ được độ giòn
+  - name: Trứng & gia vị
+    icon: egg
+    items:
+      - id: trung
+        name: Trứng gà
+        icon: egg
+        color: gold
+        base: 4
+        unit: quả
+        note: Đánh vừa tan, đừng đánh bông — bông quá thì trứng xốp và rời ra
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 4
+        unit: tép
+        note: Băm nhuyễn, phi thơm trước khi cho khổ qua vào
+      - id: hanhla
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 2
+        unit: cọng
+        note: Xắt nhỏ, rắc lúc tắt bếp
+      - id: giavi
+        name: Nước mắm · đường · tiêu
+        icon: bottle
+        qtyText: 1 muỗng canh nước mắm · ½ muỗng cà phê đường · tiêu
+        note: Một ít nước mắm đánh chung vào trứng nữa cho đậm từ bên trong
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **dĩa khổ qua xào trứng**
+stepsLead: >-
+  Ba bước đầu là chuyện khử đắng và chuẩn bị; bước cuối cùng — rót trứng —
+  chỉ mất một phút nhưng quyết định dĩa xào nhìn ra món hay nhìn ra đống lộn
+  xộn.
+steps:
+  - title: Sơ chế — cùi trắng mới là chỗ đắng
+    icon: knife
+    minutes: 8 phút
+    bullets:
+      - label: "Nạo ruột:"
+        text: >-
+          bổ dọc trái, dùng **muỗng cà phê nạo kiệt hột và lớp cùi trắng xốp**
+          bên trong. Đây mới là ổ đắng gắt — phần vỏ xanh chỉ đắng thanh.
+      - label: "Thái mỏng:"
+        text: >-
+          thái lát xéo dày chừng **[[3|mm]]**. Lát dày thì phần ruột không kịp
+          chín, lát mỏng quá thì xào xong mềm oặt.
+      - label: "Ngâm nước đá muối:"
+        text: >-
+          thả vào tô **nước đá pha [[1|muỗng canh]] muối hạt, ngâm [[10|phút]]**,
+          rồi vớt ra **vắt nhẹ** cho ráo.
+    callout:
+      type: tip
+      text: >-
+        Nước **đá** chứ không phải nước thường: cái lạnh giữ cho lát khổ qua
+        săn giòn, còn muối kéo phần đắng ra theo nước. Nhà ghiền đắng thì bỏ
+        hẳn bước ngâm, chỉ nạo ruột thôi.
+  - title: Đánh trứng — vừa tan, đừng bông
+    icon: egg
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Đập [[4|quả]] trứng, đánh **vừa tan lòng đỏ với lòng trắng** là dừng
+          — chừng 20 vòng đũa.
+      - text: >-
+          Nêm vào trứng chút tiêu và [[0.5|muỗng cà phê|frac]] nước mắm — đậm
+          từ trong ra thì lát nào cũng vừa miệng.
+    callout:
+      type: warn
+      text: >-
+        Đánh bông nổi bọt thì trứng vào chảo sẽ **nở xốp rồi rã thành vụn**,
+        không bám được vào lát khổ qua. Đánh vừa tan, thấy còn vài vệt lòng
+        trắng cũng không sao.
+  - title: Xào khổ qua trước
+    icon: flame
+    minutes: 4 phút
+    bullets:
+      - text: >-
+          Chảo nóng già, cho dầu, **phi tỏi băm tới vàng nhạt và dậy mùi**.
+      - text: >-
+          Trút khổ qua vào, **xào lửa lớn 2 phút**, đảo đều. Lát chuyển màu
+          xanh đậm hơn và **mép hơi trong** là đạt — chừng chín tám phần.
+      - text: >-
+          Nêm [[1|muỗng canh]] nước mắm và [[0.5|muỗng cà phê|frac]] đường
+          rưới dọc thành chảo, đảo đều.
+    callout:
+      type: tip
+      text: >-
+        Chút đường ở đây không làm món ngọt — nó **kéo vị đắng dịu xuống** và
+        làm dĩa xào tròn vị. Nửa muỗng cà phê là đủ, nhiều hơn thì thành món
+        xào ngọt.
+  - title: Rót trứng — dồn sang một bên
+    icon: pot
+    minutes: 2 phút
+    intro: "Bước làm nên dĩa xào đẹp:"
+    bullets:
+      - text: >-
+          **Dồn hết khổ qua sang một nửa chảo**, chừa nửa kia trống.
+      - text: >-
+          Rót trứng vào khoảng trống đó, **để yên 10 giây** cho mặt dưới se
+          lại thành mảng.
+      - text: >-
+          Bấy giờ mới **đảo trộn hai bên vào nhau**, nhẹ tay, chừng 30 giây —
+          trứng chưa chín hẳn sẽ bám thành lớp áo mềm quanh từng lát khổ qua.
+      - text: >-
+          Rắc hành lá xắt nhỏ và tiêu, tắt bếp, trút ra dĩa ăn liền.
+    callout:
+      type: warn
+      text: >-
+        Đảo ngay khi vừa rót trứng thì trứng tan ra thành nước rồi chín vụn —
+        dĩa xào có trứng mà không "có áo trứng". Mười giây chờ đó là toàn bộ
+        khác biệt.
+    doneText: Gắp một lát thấy trứng bám quanh — xong!
+
+tipsTitle: 5 bí quyết cho **đắng dịu và trứng bám đều**
+tipsLead: >-
+  Món chỉ có hai nguyên liệu nên chẳng có chỗ nào giấu được lỗi. Năm điều dưới
+  đây là toàn bộ những gì cần nhớ.
+tips:
+  - icon: okra
+    title: Đọc trái khổ qua ở chợ
+    text: >-
+      **Gai nở to, màu xanh nhạt, trái thon dài** = đắng dịu, thịt dày. **Gai
+      li ti dày đặc, xanh sậm, trái lùn mập** = đắng đậm đô. Chọn theo "trình
+      chịu đắng" của nhà mình ngay từ ngoài chợ là nhẹ việc nhất.
+  - icon: knife
+    title: Nạo cùi trắng, đừng gọt vỏ xanh
+    text: >-
+      Nhiều người tưởng vỏ xanh là chỗ đắng nên đem gọt — sai. **80% cái đắng
+      gắt nằm ở lớp cùi trắng xốp quanh ruột**; vỏ xanh chỉ cho vị đắng thanh
+      và giữ cho lát khổ qua giòn. Nạo lòng trái tới khi thấy trơn láng.
+  - icon: drop
+    title: Nước đá muối, mười phút
+    text: >-
+      Ngâm nước đá pha muối vừa **rút bớt đắng** vừa **giữ lát giòn**. Ngâm
+      nước ấm thì rút đắng nhanh hơn nhưng lát mềm nhũn — không đáng đổi. Vắt
+      nhẹ tay thôi, vắt mạnh là lát gãy nát.
+  - icon: egg
+    title: Đánh vừa tan, và nêm vào trứng
+    text: >-
+      Trứng đánh bông thì rã vụn; đánh vừa tan thì bám thành áo. Nêm chút nước
+      mắm và tiêu **thẳng vào bát trứng** để vị đậm từ bên trong, khỏi phải nêm
+      mặn tay ở ngoài.
+  - icon: flame
+    title: Xào rau chín tám phần rồi mới rót trứng
+    text: >-
+      Trứng chín rất nhanh, nên khổ qua phải gần chín trước. Nếu rót trứng lúc
+      rau còn sống thì tới khi rau chín, trứng đã khô cứng. **Chín tám phần —
+      mép lát hơi trong** là đúng lúc.
+
+serve:
+  title: Dĩa xào cứu bữa — **nóng mới ngon**
+  paras:
+    - >-
+      Món này ngon nhất trong **năm phút đầu**. Để nguội là trứng có mùi hơi
+      tanh và lát khổ qua mất độ giòn — nên xào sau cùng, ngay trước lúc bưng
+      cơm lên.
+    - >-
+      Trên mâm nó đứng ở vị trí "món xào": cần thêm **một món mặn đậm** và
+      **một chén canh** là thành bữa. Ăn kèm chén nước mắm nguyên chất dằm ớt
+      cho ai thích đậm — nhưng thật ra dĩa này đã đủ vị, không cần chấm.
+  aside:
+    title: Mâm cơm gợi ý
+    intro: "Khổ qua xào trứng đi cặp đẹp với:"
+    items:
+      - icon: claypot
+        text: "**Thịt kho hoặc cá kho** — mặn đậm, để dĩa xào làm phần thanh."
+      - icon: bowl
+        text: "**Canh bí đao hoặc canh rau** — nhạt, cho miệng nghỉ."
+      - icon: rice
+        text: "**Cơm trắng nóng** — món này hao cơm thấy rõ."
+
+faq:
+  - q: Nhà có con nít sợ đắng, làm sao cho dễ ăn nhất?
+    a: >-
+      Bốn lớp khiên, làm đủ cả bốn: chọn **trái gai to xanh nhạt**, **nạo kiệt
+      cùi trắng**, **thái thật mỏng**, và **chần nhanh qua nước sôi 20 giây rồi
+      xả nước đá** trước khi xào. Thêm chút đường lúc nêm nữa là vị đắng chỉ
+      còn thoang thoảng.
+  - q: Trứng bị vụn rời, không bám vào khổ qua?
+    a: >-
+      Do đảo quá sớm hoặc đánh trứng quá bông. Lần sau: đánh **vừa tan**, dồn
+      rau sang một bên, rót trứng vào chỗ trống rồi **chờ đúng 10 giây** cho
+      mặt dưới se lại mới đảo. Đó là toàn bộ kỹ thuật.
+  - q: Dĩa xào bị ra nước?
+    a: >-
+      Khổ qua sau khi ngâm chưa vắt ráo, hoặc chảo chưa đủ nóng. Vắt nhẹ cho
+      ráo rồi mới xào, và **chảo phải nóng già trước khi cho dầu**. Đang xào mà
+      thấy ra nước thì vặn lửa lớn nhất, đảo cho nước bốc hơi rồi mới rót trứng.
+  - q: Xào thêm thịt bằm hay tôm được không?
+    a: >-
+      Được, và ngon. **Thịt bằm** thì xào chín trước, trút ra, rồi làm tiếp
+      như thường và trộn lại ở bước cuối. **Tôm bóc vỏ** cũng vậy. Nhớ giảm
+      nước mắm xuống một chút vì đã có thêm vị mặn từ thịt.
+  - q: Khổ qua để tủ lạnh được mấy ngày?
+    a: >-
+      Trái nguyên chưa cắt để ngăn mát được **cả tuần**. Đã thái lát rồi thì
+      nên xào trong ngày — để qua đêm là lát thâm và mềm. Muốn chuẩn bị trước
+      thì cứ để nguyên trái, tới bữa mới bổ.
+  - q: Cùng nguyên liệu, nấu canh khổ qua có khác nhiều không?
+    a: >-
+      Khác hẳn về cách làm và về vị. **Canh khổ qua nhồi thịt** để nguyên trái,
+      nhồi nhân rồi nấu lâu cho mềm trong — vị đắng dịu và nước ngọt thanh.
+      Món xào này thì thái lát, xào nhanh, giữ độ giòn — đắng rõ hơn và đưa cơm
+      hơn. Hai món hai vai khác nhau trên mâm.
+
+ticker:
+  - icon: okra
+    text: Nạo kiệt cùi trắng
+  - icon: drop
+    text: Ngâm nước đá muối mười phút
+  - icon: egg
+    text: Trứng bám thành áo quanh lát
+  - icon: flame
+    text: Xào chín tám phần rồi mới rót trứng
+  - icon: clock
+    text: Mười lăm phút là xong
+  - icon: rice
+    text: Món cứu bữa cơm chiều

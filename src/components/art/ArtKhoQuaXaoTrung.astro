@@ -1,0 +1,144 @@
+---
+/* Khổ qua xào trứng — BẢN 2, vẽ lại từ đầu sau khi tra lại thành phẩm thật.
+
+   Bản 1 sai hai chỗ gốc, không phải sai nét:
+   1) SAI TỈ LỆ MÀU. Bản 1 lấy mảng TRỨNG VÀNG làm khối chính rồi rắc lát khổ
+      qua lên trên. Thành phẩm thật thì ngược lại: "đĩa xào khô ráo, khổ qua
+      giữ màu XANH MƯỚT, giòn, quyện với trứng mềm xốp" — tức là XANH LÀ CHÍNH,
+      trứng chỉ bám quanh từng lát.
+   2) SAI HÌNH LÁT. Bản 1 vẽ khoanh TRÒN KÍN có lỗ giữa nên đọc thành khoanh
+      hành tây chiên. Khổ qua xào là bổ dọc trái, nạo ruột, rồi thái ngang —
+      ra lát LƯỠI LIỀM HỞ MỘT BÊN, không bao giờ khép thành vòng.
+
+   CHỮ KÝ nhận dạng, vẫn phải lệch hẳn ArtKhoQua (canh khổ qua nhồi thịt):
+   canh để NGUYÊN TRÁI nhồi nhân nằm trong tô nước; món này là LÁT LƯỠI LIỀM
+   trên dĩa khô ráo. Đạo cụ: nửa trái bổ dọc đã nạo sạch ruột.
+   id prefix "kqt" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa khổ qua xào trứng: lát khổ qua hình lưỡi liềm xanh mướt là phần chính, trứng vàng mềm xốp bám quanh từng lát, bên cạnh là nửa trái khổ qua bổ dọc đã nạo ruột">
+  <defs>
+    <linearGradient id="kqtMound" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4E8A38"/><stop offset="1" stop-color="#2E5C1E"/>
+    </linearGradient>
+    <linearGradient id="kqtSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#59A03C"/><stop offset="1" stop-color="#2E5C1E"/>
+    </linearGradient>
+    <linearGradient id="kqtEgg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#F8D66A"/><stop offset="1" stop-color="#DCA522"/>
+    </linearGradient>
+    <!-- LÁT KHỔ QUA: lưỡi liềm HỞ. Vỏ sẫm chạy vòng ngoài, ruột nhạt nằm trong,
+         mép trên lõm xuống vì đã nạo hết ruột. -->
+    <g id="kqtSlice">
+      <path d="M-26 0 C -24 15 -13 24 0 24 C 13 24 24 15 26 0 C 17 7 -17 7 -26 0 Z"
+            fill="url(#kqtSkin)" stroke="#22450F" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M-19 3 C -17 13 -9 19 0 19 C 9 19 17 13 19 3 C 12 8 -12 8 -19 3 Z"
+            fill="#D2E2AC" stroke="#8FAE72" stroke-width="1.6"/>
+      <!-- gai nhỏ nhô HẲN ra khỏi đường bao — dấu nhận diện nằm ở đường bao -->
+      <g fill="#3E7B2C" stroke="#22450F" stroke-width="1.2">
+        <path d="M-24 6 C -30 6 -29 12 -23 11 Z"/>
+        <path d="M-11 20 C -13 26 -6 27 -6 21 Z"/>
+        <path d="M10 20 C 10 26 17 25 15 19 Z"/>
+        <path d="M24 6 C 30 6 29 12 23 11 Z"/>
+      </g>
+    </g>
+    <!-- MẢNG TRỨNG: khối mềm xốp, mép rách lam nham chứ không tròn trơn -->
+    <g id="kqtCurd">
+      <path d="M-20 -2 C -22 -12 -12 -18 -2 -16 C 6 -20 18 -16 19 -6 C 24 0 20 9 11 10 C 4 16 -8 15 -13 8 C -20 7 -22 2 -20 -2 Z"
+            fill="url(#kqtEgg)" stroke="#B4820E" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M-12 -4 C -8 -10 2 -11 8 -7" fill="none" stroke="#FCEBB0" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="248" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="248" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M224 218 C 213 194 239 178 228 152 C 221 136 235 124 231 108"/>
+    <path d="M300 212 C 290 188 316 174 305 148 C 298 132 312 120 308 104"/>
+  </g>
+  <ellipse cx="260" cy="400" rx="200" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- dĩa -->
+  <ellipse cx="260" cy="346" rx="204" ry="58" fill="#F6F1E1"/>
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="260" cy="342" rx="204" ry="58" fill="none" stroke="#2C5234" stroke-width="4"/>
+  <ellipse cx="260" cy="344" rx="168" ry="44" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- ĐỐNG XÀO: khối nền XANH (không phải vàng) — đây là chỗ chữa lỗi bản 1 -->
+  <path d="M120 320 C 134 280 188 258 258 258 C 328 258 382 280 396 320 C 374 346 324 358 258 358 C 192 358 142 346 120 320 Z"
+        fill="url(#kqtMound)"/>
+
+  <!-- TRỨNG lớp SAU: mấy mảng lớn nằm len giữa đống, chỉ ló ra một phần -->
+  <use href="#kqtCurd" transform="translate(168 300) rotate(-12) scale(1.15)"/>
+  <use href="#kqtCurd" transform="translate(262 276) rotate(8) scale(1.2)"/>
+  <use href="#kqtCurd" transform="translate(352 306) rotate(-6) scale(1.1)"/>
+  <use href="#kqtCurd" transform="translate(212 340) rotate(14) scale(1.05)"/>
+  <use href="#kqtCurd" transform="translate(312 344) rotate(-10) scale(1)"/>
+
+  <!-- LÁT KHỔ QUA — phần chiếm chỗ nhiều nhất, xếp chồng mép, nghiêng lệch nhau -->
+  <use href="#kqtSlice" transform="translate(158 306) rotate(-18)"/>
+  <use href="#kqtSlice" transform="translate(216 286) rotate(7) scale(1.06)"/>
+  <use href="#kqtSlice" transform="translate(282 280) rotate(-9) scale(1.1)"/>
+  <use href="#kqtSlice" transform="translate(342 296) rotate(16) scale(1)"/>
+  <use href="#kqtSlice" transform="translate(186 336) rotate(4) scale(1.02)"/>
+  <use href="#kqtSlice" transform="translate(248 330) rotate(-14) scale(1.08)"/>
+  <use href="#kqtSlice" transform="translate(310 326) rotate(9) scale(.98)"/>
+  <use href="#kqtSlice" transform="translate(370 332) rotate(-5) scale(.9)"/>
+  <use href="#kqtSlice" transform="translate(132 334) rotate(22) scale(.86)"/>
+  <use href="#kqtSlice" transform="translate(216 356) rotate(-3) scale(.92)"/>
+  <use href="#kqtSlice" transform="translate(288 358) rotate(12) scale(.86)"/>
+
+  <!-- TRỨNG lớp TRƯỚC: mảng nhỏ hơn, vắt LÊN mép lát — đó là chỗ đọc ra
+       "trứng bám vào lát" chứ không phải "trứng nằm riêng" -->
+  <use href="#kqtCurd" transform="translate(196 312) rotate(10) scale(.8)"/>
+  <use href="#kqtCurd" transform="translate(268 304) rotate(-16) scale(.86)"/>
+  <use href="#kqtCurd" transform="translate(330 318) rotate(6) scale(.78)"/>
+  <use href="#kqtCurd" transform="translate(158 348) rotate(-8) scale(.72)"/>
+  <use href="#kqtCurd" transform="translate(356 346) rotate(18) scale(.7)"/>
+  <use href="#kqtCurd" transform="translate(252 350) rotate(-4) scale(.68)"/>
+
+  <!-- HÀNH LÁ xắt nhỏ rắc mặt -->
+  <g fill="#5EA83C" stroke="#2C5820" stroke-width="1.3">
+    <ellipse cx="182" cy="288" rx="7" ry="3.4" transform="rotate(-20 182 288)"/>
+    <ellipse cx="252" cy="266" rx="6.4" ry="3.2" transform="rotate(14 252 266)"/>
+    <ellipse cx="318" cy="284" rx="6.8" ry="3.4" transform="rotate(-8 318 284)"/>
+    <ellipse cx="290" cy="336" rx="6" ry="3" transform="rotate(22 290 336)"/>
+    <ellipse cx="208" cy="360" rx="6.4" ry="3.2" transform="rotate(-14 208 360)"/>
+    <ellipse cx="366" cy="312" rx="5.6" ry="2.8" transform="rotate(10 366 312)"/>
+  </g>
+  <!-- tiêu xay lấm tấm -->
+  <g fill="#4A3A28">
+    <circle cx="204" cy="292" r="2"/><circle cx="276" cy="292" r="1.8"/>
+    <circle cx="340" cy="304" r="1.9"/><circle cx="236" cy="318" r="1.7"/>
+    <circle cx="304" cy="352" r="1.8"/><circle cx="170" cy="326" r="1.6"/>
+  </g>
+
+  <!-- ĐẠO CỤ TRÁI: nửa trái khổ qua BỔ DỌC, lòng rỗng hõm vì đã nạo ruột -->
+  <g transform="translate(72 388) rotate(-14)">
+    <ellipse cx="10" cy="24" rx="64" ry="12" fill="rgba(15,26,14,.3)"/>
+    <path d="M-66 8 C -58 -12 -26 -22 8 -22 C 44 -22 70 -12 76 4 C 68 20 40 28 6 28 C -30 28 -60 22 -66 8 Z"
+          fill="url(#kqtSkin)" stroke="#22450F" stroke-width="2.8"/>
+    <path d="M-54 6 C -47 -8 -22 -15 8 -15 C 38 -15 60 -8 64 3 C 57 15 34 20 6 20 C -24 20 -49 15 -54 6 Z"
+          fill="#D2E2AC" stroke="#9BB877" stroke-width="2.2"/>
+    <path d="M-42 5 C -36 -4 -16 -9 8 -9 C 32 -9 50 -4 53 3 C 47 11 30 14 6 14 C -18 14 -38 11 -42 5 Z"
+          fill="#EDF3DC" stroke="#B9CE9A" stroke-width="1.8"/>
+    <g fill="#3E7B2C" stroke="#22450F" stroke-width="1.3">
+      <path d="M-52 -3 C -58 -8 -50 -13 -46 -7 Z"/>
+      <path d="M-20 -19 C -22 -27 -12 -27 -12 -19 Z"/>
+      <path d="M18 -21 C 18 -29 28 -28 26 -20 Z"/>
+      <path d="M56 -8 C 62 -13 68 -6 62 -2 Z"/>
+      <path d="M-40 22 C -46 28 -37 33 -33 26 Z"/>
+      <path d="M22 26 C 22 34 32 32 30 25 Z"/>
+    </g>
+    <path d="M-66 6 C -76 2 -80 -6 -76 -12" fill="none" stroke="#3E6120" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: vỏ trứng vỡ đôi, nhỏ và thấp hơn nửa trái bên kia -->
+  <g transform="translate(452 392) rotate(10)">
+    <ellipse cx="0" cy="18" rx="30" ry="8" fill="rgba(15,26,14,.3)"/>
+    <path d="M-26 0 C -24 12 -13 18 0 18 C 13 18 24 12 26 0 C 18 -4 -18 -4 -26 0 Z"
+          fill="#F6EFDD" stroke="#CFC5A2" stroke-width="2.4"/>
+    <path d="M-26 0 L -18 -6 L -10 0 L -2 -7 L 6 -1 L 14 -7 L 22 -2 L 26 0"
+          fill="none" stroke="#CFC5A2" stroke-width="2.4" stroke-linejoin="round"/>
+    <ellipse cx="0" cy="4" rx="18" ry="6" fill="#E6DCC4"/>
+  </g>
+</svg>

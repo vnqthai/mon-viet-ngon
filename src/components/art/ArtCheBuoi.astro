@@ -1,0 +1,138 @@
+---
+/* Chè bưởi — CHỮ KÝ nhận dạng, cố ý vẽ lệch hẳn bốn ly chè kia:
+   1) LY CAO THẲNG trong suốt (chè bà ba dùng tô, chè Thái dùng ly thấp thành dày,
+      đậu xanh bột báng dùng tô sâu, đậu đỏ dùng ly loe miệng)
+   2) thân chè VÀNG HỔ PHÁCH TRONG — tra ra mới biết chè bưởi màu vàng óng chứ
+      không trắng ngọc như tưởng; đậu xanh và nước đường cho màu đó
+   3) KHỐI CÙI BƯỞI VUÔNG TRONG SUỐT to, mép sáng — thứ duy nhất nồi kia không có
+   4) đạo cụ trái: TRÁI BƯỞI XANH khuyết một góc, lộ lớp cùi trắng DÀY — đó là
+      cả câu chuyện của món, nên chỉ cần một vật này, không cần thêm gì nữa
+   Không vẽ hơi: món này ăn lạnh. Cũng KHÔNG vẽ muỗng cắm trong ly (bản 2 có,
+   Thái trả lại): muỗng không đứng nổi giữa một ly chè đặc, nhìn ra là giả.
+   id prefix "cb" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Ly chè bưởi: thân chè vàng hổ phách có khối cùi bưởi trong suốt và đậu xanh, phủ nước cốt dừa trắng và đậu phộng, bên cạnh là trái bưởi xanh khuyết một góc lộ lớp cùi trắng dày">
+  <defs>
+    <linearGradient id="cbBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0AC46"/><stop offset="1" stop-color="#A96F17"/>
+    </linearGradient>
+    <linearGradient id="cbCream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF1"/><stop offset="1" stop-color="#E4DAC0"/>
+    </linearGradient>
+    <linearGradient id="cbRind" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#77A244"/><stop offset="1" stop-color="#456B24"/>
+    </linearGradient>
+    <linearGradient id="cbGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgba(255,255,255,.30)"/>
+      <stop offset="0.45" stop-color="rgba(255,255,255,.08)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,.22)"/>
+    </linearGradient>
+    <!-- viên cùi bưởi: khối vuông bo góc, trong suốt, mép trên sáng -->
+    <g id="cbCube">
+      <rect x="-13" y="-11" width="26" height="22" rx="6" fill="rgba(255,252,238,.52)" stroke="rgba(255,253,240,.85)" stroke-width="2"/>
+      <path d="M-9 -6 L 5 -6" stroke="rgba(255,255,255,.9)" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="272" cy="418" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- TRÁI BƯỞI (đạo cụ trái) — bổ mất hẳn một MIẾNG QUẠT lớn ở góc trên phải.
+       Bản 1 khoét quá nhỏ nên ở 260px cả trái đọc thành quả bơ có hột: miếng
+       khuyết phải to tới mức nhìn thấy được BA LỚP mới ra trái bưởi bổ dở. -->
+  <g transform="translate(108 340)">
+    <ellipse cx="4" cy="76" rx="66" ry="14" fill="rgba(15,26,14,.32)"/>
+    <!-- thân trái: vỏ xanh, cắt mất góc trên phải -->
+    <path d="M6 -76 C -38 -76 -70 -42 -70 2 C -70 46 -38 74 6 74 C 48 74 74 46 74 2 L 6 2 Z"
+          fill="url(#cbRind)" stroke="#38571B" stroke-width="3"/>
+    <!-- núm cuống lệch trái -->
+    <path d="M-24 -72 C -28 -82 -22 -89 -13 -88" fill="none" stroke="#3E6120" stroke-width="6" stroke-linecap="round"/>
+    <!-- lấm tấm tinh dầu trên vỏ -->
+    <g fill="#9DC763" opacity=".6">
+      <circle cx="-44" cy="-16" r="3"/><circle cx="-26" cy="22" r="2.6"/>
+      <circle cx="-52" cy="26" r="2.4"/><circle cx="-6" cy="50" r="2.8"/>
+      <circle cx="-38" cy="-46" r="2.4"/><circle cx="18" cy="56" r="2.6"/>
+      <circle cx="46" cy="38" r="2.2"/>
+    </g>
+    <!-- MẶT CẮT: ba lớp thấy rõ, lớp cùi trắng cố ý vẽ DÀY nhất -->
+    <path d="M6 -76 L 6 2 L 74 2 C 74 -40 44 -76 6 -76 Z" fill="#F5F0DE" stroke="#CFC5A2" stroke-width="2.4"/>
+    <!-- vỏ xanh chỉ là một viền MỎNG ngoài cùng của mặt cắt -->
+    <path d="M6 -76 C 44 -76 74 -40 74 2" fill="none" stroke="#5C8A31" stroke-width="9"/>
+    <path d="M6 -76 C 44 -76 74 -40 74 2" fill="none" stroke="#3F6620" stroke-width="2.4"/>
+    <!-- ruột: múi vàng nhạt, đẩy vào sát góc để lớp cùi trắng còn dày -->
+    <path d="M6 -30 L 6 2 L 34 2 C 34 -14 22 -28 6 -30 Z" fill="#F0DDA6" stroke="#C9AF68" stroke-width="2"/>
+    <g fill="none" stroke="#D3BB79" stroke-width="1.6" stroke-linecap="round">
+      <path d="M10 -24 L 26 0"/><path d="M18 -20 L 30 -2"/>
+    </g>
+    <!-- đường ranh cùi/ruột cho rõ ba lớp -->
+    <path d="M6 -30 C 22 -28 34 -14 34 2" fill="none" stroke="#C9AF68" stroke-width="2"/>
+  </g>
+
+  <!-- BỎ mấy viên cùi rời nằm trên bàn (bản 2 có 3 viên): tách khỏi trái bưởi
+       thì chúng không còn ngữ cảnh, ở 260px đọc thành mấy cục vuông vô nghĩa
+       hoặc viên đá. Trái bưởi bổ dở đã nói đủ chuyện "làm từ cùi", còn khối cùi
+       thì đã thấy rõ TRONG ly rồi. -->
+
+
+  <!-- LY CAO THẲNG -->
+  <g>
+    <!-- thân ly (lớp sau) -->
+    <path d="M244 128 L244 380 C244 398 256 408 274 408 L340 408 C358 408 370 398 370 380 L370 128 Z"
+          fill="url(#cbGlass)" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+
+    <!-- CHÈ: thân vàng hổ phách -->
+    <path d="M252 196 L252 378 C252 392 261 400 275 400 L339 400 C353 400 362 392 362 378 L362 196 Z"
+          fill="url(#cbBody)"/>
+
+    <!-- hạt đậu xanh lấm tấm chìm trong thân chè -->
+    <g fill="#F0CE68" stroke="#B98A1E" stroke-width="1.2">
+      <ellipse cx="272" cy="300" rx="6" ry="4.4" transform="rotate(-18 272 300)"/>
+      <ellipse cx="304" cy="330" rx="5.6" ry="4.2" transform="rotate(12 304 330)"/>
+      <ellipse cx="340" cy="296" rx="5.2" ry="4" transform="rotate(-6 340 296)"/>
+      <ellipse cx="288" cy="366" rx="5.8" ry="4.2" transform="rotate(22 288 366)"/>
+      <ellipse cx="330" cy="360" rx="5" ry="3.8" transform="rotate(-14 330 360)"/>
+      <ellipse cx="262" cy="342" rx="4.8" ry="3.6" transform="rotate(8 262 342)"/>
+      <ellipse cx="316" cy="386" rx="5.4" ry="4" transform="rotate(-20 316 386)"/>
+      <ellipse cx="352" cy="336" rx="4.6" ry="3.4" transform="rotate(16 352 336)"/>
+    </g>
+
+    <!-- KHỐI CÙI BƯỞI trong suốt — chữ ký của ly chè, cỡ to hơn hạt đậu hẳn -->
+    <use href="#cbCube" transform="translate(283 262) rotate(-10)"/>
+    <use href="#cbCube" transform="translate(332 284) rotate(16) scale(.94)"/>
+    <use href="#cbCube" transform="translate(268 318) rotate(8) scale(.9)"/>
+    <use href="#cbCube" transform="translate(324 342) rotate(-16) scale(1.02)"/>
+    <use href="#cbCube" transform="translate(292 384) rotate(4) scale(.86)"/>
+    <use href="#cbCube" transform="translate(350 386) rotate(-8) scale(.78)"/>
+
+    <!-- NƯỚC CỐT DỪA trắng đục phủ mặt, chảy xuống một bên cho khỏi đối xứng -->
+    <path d="M252 196 L362 196 L362 236 C346 248 330 240 312 246 C292 252 276 244 252 250 Z"
+          fill="url(#cbCream)"/>
+    <path d="M330 240 C 328 262 334 274 330 292 C 328 302 320 304 317 296 C 313 284 322 272 322 244 Z"
+          fill="rgba(253,250,241,.72)"/>
+    <!-- đậu phộng rang giã thô rắc trên mặt -->
+    <g fill="#C98B4E" stroke="#8A5A28" stroke-width="1.4">
+      <path d="M272 206 C 277 200 286 202 287 209 C 288 216 279 219 274 215 Z"/>
+      <path d="M300 200 C 306 195 314 198 314 205 C 313 212 304 214 300 209 Z"/>
+      <path d="M330 208 C 336 203 343 206 343 212 C 342 218 334 220 330 216 Z"/>
+      <path d="M288 220 C 293 216 299 218 299 223 C 298 228 291 229 288 225 Z"/>
+      <path d="M348 198 C 353 194 359 196 359 201 C 358 206 351 207 348 203 Z"/>
+    </g>
+    <!-- dừa nạo sợi -->
+    <g fill="none" stroke="#FBF7EA" stroke-width="3" stroke-linecap="round" opacity=".9">
+      <path d="M264 196 C 272 190 284 190 292 194"/>
+      <path d="M312 190 C 322 185 334 187 341 192"/>
+    </g>
+
+    <!-- vành miệng ly -->
+    <ellipse cx="307" cy="128" rx="63" ry="15" fill="none" stroke="rgba(255,255,255,.62)" stroke-width="4"/>
+    <!-- ánh sáng dọc thành ly, lệch trái -->
+    <path d="M258 152 L258 372" stroke="rgba(255,255,255,.5)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M356 168 L356 300" stroke="rgba(255,255,255,.22)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- BỎ cây muỗng cán dài cắm giữa ly (bản 2 có): muỗng cắm đứng giữa một ly
+       chè đặc thì không đứng nổi như vậy ngoài đời, nhìn giả. -->
+
+
+</svg>

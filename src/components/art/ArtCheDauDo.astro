@@ -1,0 +1,118 @@
+---
+/* Chè đậu đỏ — CHỮ KÝ nhận dạng:
+   1) LY MIỆNG LOE ĐÁY THON — chè bưởi dùng ly cao THẲNG, nên hai cái ly của bộ
+      chè phải khác nhau ở dáng chứ không chỉ khác ruột
+   2) thân ly ĐỎ SẪM đặc hạt — màu duy nhất trong bộ năm món chè
+   3) GÒ ĐÁ BÀO TRẮNG nhô hẳn lên khỏi miệng ly, cốt dừa chảy xuống trên đó —
+      không món nào khác có khối trắng vượt khỏi vành vật đựng
+   4) đạo cụ: nắm ĐẬU ĐỎ KHÔ đổ trên bàn, nói ngay nguyên liệu là gì
+   Nền họ màu tím sẫm nên thân đỏ dễ chìm: cố ý cho thành ly sáng hẳn và gò đá
+   trắng to, để đường bao của ly do phần SÁNG gánh chứ không do phần đỏ.
+   id prefix "dd" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Ly chè đậu đỏ: thân ly đầy hạt đậu đỏ sẫm, phía trên là gò đá bào trắng có nước cốt dừa chảy xuống, bên cạnh là nắm đậu đỏ khô đổ trên bàn">
+  <defs>
+    <linearGradient id="ddBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A8382A"/><stop offset="1" stop-color="#671A13"/>
+    </linearGradient>
+    <linearGradient id="ddGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgba(255,255,255,.42)"/>
+      <stop offset="0.45" stop-color="rgba(255,255,255,.14)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,.30)"/>
+    </linearGradient>
+    <linearGradient id="ddIce" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D2E0E6"/>
+    </linearGradient>
+    <!-- hạt đậu đỏ: bầu dục có RÃNH RỐN trắng dọc một bên, đó là dấu nhận diện -->
+    <g id="ddBean">
+      <ellipse rx="10" ry="7" fill="#B8412F" stroke="#661A12" stroke-width="1.8"/>
+      <path d="M-6 -2.6 C -2 -4.4 3 -4.4 7 -2.6" fill="none" stroke="#E08A72" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M-7 3 L 4 3" fill="none" stroke="#F0E2D2" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="252" cy="420" rx="188" ry="23" fill="rgba(15,26,14,.35)"/>
+
+  <!-- NẮM ĐẬU ĐỎ KHÔ đổ trên bàn (đạo cụ phải), lệch thấp -->
+  <g transform="translate(408 396)">
+    <ellipse cx="0" cy="18" rx="62" ry="14" fill="rgba(15,26,14,.3)"/>
+    <!-- đống liền làm nền trước, rồi mới đắp hạt lên -->
+    <path d="M-52 12 C -46 -6 -20 -16 4 -16 C 30 -16 52 -6 56 12 C 34 22 -30 22 -52 12 Z"
+          fill="#7E2A1E"/>
+    <use href="#ddBean" transform="translate(-34 4) rotate(-16)"/>
+    <use href="#ddBean" transform="translate(-12 -4) rotate(12)"/>
+    <use href="#ddBean" transform="translate(10 2) rotate(-8)"/>
+    <use href="#ddBean" transform="translate(32 -2) rotate(20)"/>
+    <use href="#ddBean" transform="translate(-24 14) rotate(6)"/>
+    <use href="#ddBean" transform="translate(2 14) rotate(-22)"/>
+    <use href="#ddBean" transform="translate(26 13) rotate(10)"/>
+    <use href="#ddBean" transform="translate(46 6) rotate(-12) scale(.9)"/>
+    <use href="#ddBean" transform="translate(-46 8) rotate(18) scale(.9)"/>
+    <!-- vài hạt lăn ra riêng -->
+    <use href="#ddBean" transform="translate(-84 22) rotate(-30) scale(.86)"/>
+    <use href="#ddBean" transform="translate(74 26) rotate(24) scale(.82)"/>
+  </g>
+
+  <!-- LY CHÈ MIỆNG LOE. Bản 1 vẽ quá cao và hẹp nên ở 260px đọc thành ly rượu
+       champagne; nới rộng hẳn miệng và hạ chiều cao xuống thì mới ra ly chè. -->
+  <g>
+    <!-- chân đế -->
+    <ellipse cx="222" cy="398" rx="60" ry="13" fill="rgba(255,255,255,.28)" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+    <!-- thân: đáy hẹp, loe rộng lên miệng -->
+    <path d="M146 152 L 174 370 C 175 383 186 390 222 390 C 258 390 269 383 270 370 L 298 152 Z"
+          fill="url(#ddGlass)" stroke="rgba(255,255,255,.62)" stroke-width="3"/>
+
+    <!-- THÂN CHÈ ĐỎ SẪM -->
+    <path d="M156 196 L 180 364 C 181 375 190 381 222 381 C 254 381 263 375 264 364 L 288 196 Z"
+          fill="url(#ddBody)"/>
+
+    <!-- hạt đậu đỏ nổi rõ trong thân, xếp lệch chứ không thành hàng -->
+    <use href="#ddBean" transform="translate(186 224) rotate(-14)"/>
+    <use href="#ddBean" transform="translate(232 214) rotate(16) scale(.94)"/>
+    <use href="#ddBean" transform="translate(266 236) rotate(-6) scale(.9)"/>
+    <use href="#ddBean" transform="translate(202 258) rotate(20) scale(.96)"/>
+    <use href="#ddBean" transform="translate(248 272) rotate(-18) scale(.92)"/>
+    <use href="#ddBean" transform="translate(184 292) rotate(8) scale(.88)"/>
+    <use href="#ddBean" transform="translate(228 310) rotate(-12) scale(.9)"/>
+    <use href="#ddBean" transform="translate(264 300) rotate(22) scale(.82)"/>
+    <use href="#ddBean" transform="translate(200 336) rotate(-4) scale(.84)"/>
+    <use href="#ddBean" transform="translate(244 348) rotate(14) scale(.78)"/>
+    <use href="#ddBean" transform="translate(214 366) rotate(-20) scale(.72)"/>
+    <use href="#ddBean" transform="translate(166 254) rotate(26) scale(.74)"/>
+
+    <!-- GÒ ĐÁ BÀO trắng nhô khỏi miệng ly — đường bao do phần sáng gánh -->
+    <path d="M142 158 C 152 110 182 84 222 84 C 262 84 292 110 302 158 C 262 180 182 180 142 158 Z"
+          fill="url(#ddIce)"/>
+    <!-- mặt vỡ của đá bào: cạnh gãy khúc, không tròn trơn -->
+    <g fill="#FFFFFF" opacity=".92">
+      <path d="M164 140 L 186 112 L 200 138 L 178 152 Z"/>
+      <path d="M206 116 L 234 98 L 244 126 L 216 138 Z"/>
+      <path d="M248 142 L 272 124 L 282 152 L 256 160 Z"/>
+      <path d="M182 158 L 208 148 L 214 170 L 188 172 Z"/>
+      <path d="M226 152 L 248 146 L 252 168 L 230 170 Z"/>
+    </g>
+    <g fill="none" stroke="#A9C4D0" stroke-width="1.8" stroke-linecap="round" opacity=".8">
+      <path d="M168 134 L 190 116"/><path d="M216 106 L 238 116"/><path d="M256 146 L 276 132"/>
+    </g>
+
+    <!-- NƯỚC CỐT DỪA chảy từ đỉnh đá xuống, lệch sang phải -->
+    <path d="M236 92 C 258 98 274 114 280 138 C 272 152 258 152 254 138 C 248 118 244 104 230 100 Z"
+          fill="#FDFAF1"/>
+    <path d="M272 146 C 280 170 272 192 258 202 C 252 186 264 168 262 150 Z" fill="rgba(253,250,241,.85)"/>
+    <path d="M178 160 C 170 182 176 200 186 210 C 192 196 182 180 186 164 Z" fill="rgba(253,250,241,.7)"/>
+
+    <!-- vành miệng ly, vẽ SAU đá để đá đọc ra là nhô lên khỏi vành -->
+    <path d="M146 152 C 176 168 268 168 298 152" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="4" stroke-linecap="round"/>
+    <!-- ánh sáng dọc thành ly -->
+    <path d="M164 190 L 186 362" stroke="rgba(255,255,255,.5)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M280 196 L 264 300" stroke="rgba(255,255,255,.24)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- dừa nạo sợi vắt trên mép gò đá -->
+  <g fill="none" stroke="#FDFBF2" stroke-width="3.4" stroke-linecap="round">
+    <path d="M156 152 C 170 138 190 134 206 140"/>
+    <path d="M240 134 C 258 124 276 128 286 140"/>
+  </g>
+</svg>

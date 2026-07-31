@@ -1,0 +1,365 @@
+title: "Chè bà ba: **3 thứ khoai, một nồi cốt dừa**"
+summary: >-
+  Khoai lang vàng, khoai môn tím, khoai mì trắng cắt vuông nấu chung với đậu
+  xanh và bột báng trong **nồi nước cốt dừa béo ngậy** — nồi chè Nam Bộ nhiều
+  màu như tà áo bà ba, húp nóng cũng được mà để ngăn mát ăn lạnh cũng ngon.
+region: Miền Tây
+category: Chè
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-07-31
+time:
+  total: 1 giờ
+  active: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 84
+art: che-ba-ba
+heroEyebrow: Nhiều màu như tà áo bà ba…
+
+quick:
+  ingredients:
+    - "Ba thứ khoai, mỗi thứ [[200|g]]: khoai lang bí (ruột vàng cam) · khoai môn · khoai mì"
+    - Đậu xanh cà vỏ [[100|g]] — ngâm 3 tiếng
+    - Bột báng [[60|g]] — ngâm nước lạnh 20 phút cho nở
+    - "Nước cốt dừa [[400|ml]] + nước dão dừa [[600|ml]] (hoặc nước lọc)"
+    - Đường [[180|g]] · muối [[0.5|muỗng cà phê|frac]] · lá dứa [[4|lá]]
+    - Đậu phộng rang [[60|g]] · một nhúm mè rang
+  steps:
+    - Ba thứ khoai gọt vỏ, **cắt vuông [[2|cm]]** cho miếng nào cũng bằng nhau — chín cùng lúc.
+    - Khoai mì **ngâm nước muối loãng qua đêm**, luộc riêng một lượt, đổ bỏ nước đó.
+    - Nấu đậu xanh với nước dão dừa + lá dứa tới khi hạt bở mà còn nguyên.
+    - Thả khoai môn trước (lâu mềm nhất), 5 phút sau tới khoai lang, cuối cùng là khoai mì đã luộc.
+    - Bột báng ngâm nở **luộc riêng tới khi trong veo**, xả nước lạnh rồi mới cho vào nồi.
+    - Nêm đường + **muối**, rót nước cốt dừa, **khuấy nhẹ tay, sôi lăn tăn là tắt**.
+    - >-
+      Múc chén, rắc đậu phộng và mè rang — ăn nóng liền, hoặc để nguội rồi cho
+      **ngăn mát** ăn lạnh (đừng bỏ đá viên).
+  warning: >-
+    Khuấy mạnh tay sau khi khoai đã mềm là cả nồi biến thành **cháo khoai** —
+    hết nhìn ra miếng nào với miếng nào. Từ lúc thả khoai vào, chỉ được đảo
+    bằng cách lắc nhẹ nồi hoặc lùa muỗng dọc theo thành.
+
+flavor:
+  chua: 0
+  ngot: 7.5
+  man: 2
+  cay: 0
+  thom: 7
+flavorNote: >-
+  **Chuẩn nồi chè:** nước cốt dừa **béo mà không ngán nhờ nêm muối**, ba thứ
+  khoai mềm tới nơi mà miếng vẫn còn vuông cạnh, hạt bột báng **trong veo dai
+  nhẹ**. Múc muỗng lên phải thấy đủ ba màu vàng – tím – trắng trong một muỗng.
+storyEyebrow: Chuyện cái tên
+storyTitle: Vì sao nồi chè lại mang tên **áo bà ba**
+story:
+  - >-
+    Cái tên đến từ chuyện nhìn: nồi chè có khoai lang vàng cam, khoai môn tím
+    lấm tấm, khoai mì trắng, đậu xanh vàng nhạt, bột báng trong veo — nhiều màu
+    nằm chen nhau trong nước cốt dừa trắng đục, người Nam Bộ thấy giống **tà áo
+    bà ba** nên gọi luôn thành tên. Nhiều nơi còn gọi món này là **chè thưng**.
+  - >-
+    Đây là kiểu chè "có gì nấu nấy" đúng nghĩa: nhà nào sẵn khoai gì thì bỏ
+    khoai đó, thêm được hạt sen thì thêm, có phổ tai thì bỏ vô. Nhưng có một
+    thứ không được thiếu và cũng không được nêm hờ — **muối**. Nồi chè cốt dừa
+    mà quên muối thì ngọt trơ, ăn hai muỗng là ngán tới cổ.
+  - >-
+    Món này **ăn nóng hay lạnh đều đúng**. Trời mát thì múc chén còn bốc khói,
+    vừa húp vừa thổi, cái béo của cốt dừa với cái bùi của khoai môn quyện lại,
+    ăn xong no bụng rất dễ chịu. Trời nóng thì để nguội rồi cho **ngăn mát vài
+    tiếng** — nước chè đặc lại, miếng khoai mát lạnh, ăn đã miệng hơn hẳn.
+    Chỉ có một điều: **đừng bỏ đá viên vào** cho nhanh, đá tan ra là nước cốt
+    dừa loãng và nhạt hết vị.
+
+ingredientGroups:
+  - name: Ba thứ khoai
+    icon: pumpkin
+    items:
+      - id: khoailang
+        name: Khoai lang bí (ruột vàng cam)
+        icon: pumpkin
+        color: gold
+        base: 200
+        unit: g
+        note: Chọn loại ruột vàng cam đậm — vừa ngọt vừa cho màu đẹp nhất nồi
+      - id: khoaimon
+        name: Khoai môn
+        icon: pumpkin
+        base: 200
+        unit: g
+        note: Củ nào cắt ra thấy vân tím rõ là củ bở, bùi
+      - id: khoaimi
+        name: Khoai mì (sắn)
+        icon: pumpkin
+        base: 200
+        unit: g
+        note: Mua củ tươi còn vỏ, đừng lấy củ đã bào sẵn để lâu
+  - name: Đậu, bột & nước cốt dừa
+    icon: pot
+    items:
+      - id: dauxanh
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 100
+        unit: g
+        note: Ngâm 3 tiếng, nấu là bở ngay
+      - id: botbang
+        name: Bột báng
+        icon: rice
+        base: 60
+        unit: g
+        note: Hạt nhỏ tròn, ngâm 20 phút rồi luộc riêng cho trong
+      - id: cotdua
+        name: Nước cốt dừa
+        icon: drop
+        base: 400
+        unit: ml
+        note: Cho vào sau cùng, đừng nấu sôi bùng
+      - id: nuocdao
+        name: Nước dão dừa (hoặc nước lọc)
+        icon: drop
+        base: 600
+        unit: ml
+        note: Nước vắt lượt hai của dừa — nấu khoai bằng nước này thì ngọt sâu hơn
+  - name: Nêm & rắc
+    icon: jar
+    items:
+      - id: duong
+        name: Đường cát
+        icon: jar
+        base: 180
+        unit: g
+        note: Nêm làm hai lượt, nếm rồi mới thêm — khoai lang tự ngọt sẵn
+      - id: muoi
+        name: Muối
+        icon: jar
+        base: 0.5
+        unit: muỗng cà phê
+        frac: true
+        note: Thứ giữ cho nồi chè khỏi ngọt trơ — đừng bỏ qua
+      - id: ladua
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 4
+        unit: lá
+        note: Buộc gút, thả từ đầu, vớt ra trước khi rót cốt dừa
+      - id: dauphong
+        name: Đậu phộng + mè rang
+        icon: pod
+        base: 60
+        unit: g
+        note: Rắc lúc dọn — giòn bùi bù cho cái mềm của khoai
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi chè ba màu**
+stepsLead: >-
+  Cả món chỉ có đúng một chỗ cần nghề: thứ tự thả khoai. Ba thứ khoai mềm ba
+  tốc độ khác nhau, thả đúng thứ tự thì miếng nào cũng vừa chín tới cùng lúc.
+steps:
+  - title: Sơ chế — khoai mì phải xử riêng
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Cắt đều tay:"
+        text: >-
+          ba thứ khoai gọt vỏ, cắt vuông **[[2|cm]]** — miếng bằng nhau thì
+          chín cùng lúc, đó là cả bí quyết của bước này.
+      - label: "Khoai mì:"
+        text: >-
+          gọt sạch vỏ và **lột cả lớp màng hồng sát vỏ**, bỏ cái lõi cứng giữa
+          củ, rồi **ngâm nước muối loãng qua đêm** (kẹt lắm thì 4 tiếng, thay
+          nước 2 lần).
+      - label: "Ngâm chống thâm:"
+        text: >-
+          khoai môn và khoai lang cắt xong thả ngay vào tô nước lạnh cho khỏi
+          xỉn màu.
+    callout:
+      type: warn
+      text: >-
+        Khoai mì bắt buộc phải **ngâm rồi luộc riêng một lượt, đổ bỏ nước luộc
+        đó** — không có đường tắt. Đừng thả khoai mì sống thẳng vào nồi chè.
+  - title: Nấu đậu xanh & luộc bột báng
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Nấu đậu xanh đã ngâm với [[600|ml]] nước dão dừa + lá dứa buộc gút,
+          lửa vừa, tới khi hạt **bở mà còn nguyên hình**.
+      - text: >-
+          Bột báng ngâm nở đem **luộc riêng trong nồi nước sôi khác**, khuấy
+          nhẹ cho khỏi dính, tới khi hạt **trong veo hết lõi trắng** thì vớt ra
+          xả nước lạnh.
+    callout:
+      type: tip
+      text: >-
+        Luộc bột báng thẳng trong nồi chè là sai lầm kinh điển: hạt nhả bột ra
+        làm cả nồi đục và nhớt. Luộc riêng — xả lạnh — mới cho vào, hạt trong
+        veo và rời nhau.
+  - title: Thả khoai theo đúng thứ tự
+    icon: clock
+    minutes: 15 phút
+    intro: "Mỗi thứ khoai một tốc độ, thả cách nhau 5 phút:"
+    bullets:
+      - label: "Phút 0 — khoai môn:"
+        text: cứng nhất, lâu mềm nhất, vào trước.
+      - label: "Phút 5 — khoai lang:"
+        text: mềm nhanh hơn, và nát cũng nhanh hơn.
+      - label: "Phút 10 — khoai mì đã luộc:"
+        text: >-
+          đã chín sẵn rồi, thả vào cho ngấm nước chè thôi. Nấu thêm khoảng
+          5 phút nữa là cả ba thứ vừa mềm tới.
+      - text: >-
+          Thử bằng đũa: **xiên qua miếng khoai môn thấy nhẹ tay nhưng còn hơi
+          níu** là đúng độ. Xiên ngọt lịm là đã quá.
+    timer:
+      secs: 900
+      label: Hẹn giờ nấu khoai · 15:00
+      doneMsg: Xiên thử miếng khoai môn — nhẹ tay mà còn níu là đạt!
+  - title: Nêm & rót nước cốt dừa
+    icon: drop
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Vớt lá dứa ra. Nêm [[180|g]] đường làm **hai lượt**, nếm giữa chừng —
+          khoai lang bí tự ngọt nên nhiều khi không cần hết chỗ đường.
+      - text: >-
+          Nêm [[0.5|muỗng cà phê|frac]] muối. Nếm lại: vị phải là **ngọt béo có
+          hậu mặn nhẹ**, không phải ngọt trơn tuột.
+      - text: >-
+          Rót [[400|ml]] nước cốt dừa vào, cho bột báng vào cùng, **khuấy nhẹ
+          bằng cách lùa muỗng dọc thành nồi**. Thấy sôi lăn tăn ở mép là tắt
+          bếp ngay.
+    callout:
+      type: warn
+      text: >-
+        Nước cốt dừa sôi bùng sẽ **tách dầu** — mặt nồi nổi váng vàng, nước
+        chè lợn cợn. Chỉ cần nóng tới mức bốc hơi là đủ.
+  - title: Múc chén, rắc đậu phộng
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Múc chén sao cho **mỗi chén có đủ ba màu** — vàng cam, tím, trắng.
+          Chén nào cũng chỉ toàn một thứ khoai thì mất cái hay của món.
+      - text: Rắc đậu phộng rang giã thô và một nhúm mè rang lên mặt.
+      - text: >-
+          **Ăn nóng:** múc liền lúc còn bốc khói. **Ăn lạnh:** để nguội hẳn rồi
+          cho ngăn mát vài tiếng — đừng bỏ đá viên, đá tan làm nhạt cốt dừa.
+      - text: >-
+          Để lạnh thì nồi đặc lại; muốn loãng như lúc mới nấu thì thêm chút
+          nước dão dừa rồi khuấy đều.
+    doneText: Húp muỗng đầu tiên — béo ngậy, xong!
+
+tipsTitle: 6 bí quyết cho **nồi chè béo mà không ngán**
+tipsLead: >-
+  Chè bà ba dễ nấu nhưng dễ hỏng ở mấy chỗ nhỏ. Sáu điều dưới đây là toàn bộ
+  khoảng cách giữa nồi chè ngon và nồi cháo khoai ngọt.
+tips:
+  - icon: jar
+    title: Muối quan trọng ngang đường
+    text: >-
+      Nồi chè cốt dừa thiếu muối thì ngọt trơ, ăn hai muỗng là ngán. Nhúm muối
+      **đẩy cái béo của dừa nổi lên** và làm vị ngọt có hậu. Nêm rồi nếm, thấy
+      "ngọt mà đậm đà" chứ không thấy mặn là đúng.
+  - icon: knife
+    title: Cắt bằng nhau là nửa món ăn
+    text: >-
+      Miếng to miếng nhỏ thì lúc miếng to vừa mềm, miếng nhỏ đã nát. Chịu khó
+      cắt vuông đều [[2|cm]] — đây là việc dễ nhất trong món mà lại quyết định
+      nồi chè nhìn ra miếng hay nhìn ra cháo.
+  - icon: pot
+    title: Khoai mì ngâm rồi luộc riêng
+    text: >-
+      Bỏ vỏ, bỏ **lớp màng hồng sát vỏ**, bỏ lõi cứng, ngâm nước muối loãng qua
+      đêm, luộc một lượt rồi đổ nước đó đi. Đây là quy tắc bắt buộc với khoai
+      mì, không riêng gì món chè.
+  - icon: rice
+    title: Bột báng luộc riêng, xả lạnh
+    text: >-
+      Luộc tới khi hạt **trong hết lõi trắng**, vớt ra xả ngay nước lạnh cho
+      hạt săn lại và rời nhau. Bỏ vào nồi chè lúc gần tắt bếp. Làm vậy hạt vẫn
+      trong veo tới lúc dọn.
+  - icon: drop
+    title: Cốt dừa vào sau cùng
+    text: >-
+      Rót cốt dừa lúc đầu rồi nấu cả nồi 20 phút là chắc chắn tách dầu. Cho vào
+      cuối, đun tới **lăn tăn mép nồi** rồi tắt — nước chè trắng mịn, béo mà
+      mượt.
+  - icon: bulb
+    title: Thêm bớt tùy nhà, trừ ba thứ khoai
+    text: >-
+      Hạt sen, phổ tai, nấm mèo xắt sợi, bột khoai — thêm gì cũng hợp. Nhưng
+      **ba thứ khoai ba màu thì đừng bớt**: cái tên "bà ba" nằm ở chỗ nhiều
+      màu, bớt còn một màu là hết ra món.
+
+serve:
+  title: Chén chè bà ba — **nóng hay lạnh đều đúng**
+  paras:
+    - >-
+      Đây là món chè **chiều theo thời tiết**. Trời mát thì dọn chén còn bốc
+      khói, vừa thổi vừa húp, miếng khoai môn bùi tan trong nước cốt dừa béo,
+      ăn xong ấm bụng. Trời nóng thì để nguội rồi cho ngăn mát vài tiếng, múc
+      ra ly ăn mát lạnh — nước chè đặc lại và miếng khoai càng chắc.
+    - >-
+      Nấu đãi khách mà ăn nóng thì để nồi trên bếp lửa nhỏ giữ ấm, ai muốn thêm
+      chén thì tự múc. Nhớ để riêng chén đậu phộng rang bên cạnh, rắc lúc nào
+      ăn lúc đó mới giòn.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ nên có sẵn bên cạnh:"
+    items:
+      - icon: pod
+        text: "**Đậu phộng rang giã thô** — rắc lúc ăn, đừng rắc sẵn."
+      - icon: drop
+        text: "**Chén nước cốt dừa đặc** — ai thích béo thì chan thêm."
+      - icon: jar
+        text: "**Nhúm muối mè** — rắc chút xíu, vị chè nổi hẳn lên."
+
+faq:
+  - q: Chè bà ba với chè thưng có phải một món không?
+    a: >-
+      Nhiều nơi gọi lẫn hai tên cho cùng một nồi chè khoai nước cốt dừa này.
+      Cũng có chỗ phân biệt: **chè thưng** thiên về đậu xanh, bột báng, phổ tai
+      và **không có khoai**, còn **chè bà ba** thì lấy ba thứ khoai làm chính.
+      Công thức ở đây là bản có khoai — bản đúng với cái tên "nhiều màu".
+  - q: Không mua được khoai mì tươi thì bỏ luôn được không?
+    a: >-
+      Được. Bỏ khoai mì thì tăng khoai lang và khoai môn mỗi thứ lên
+      [[300|g]] cho đủ lượng. Hoặc thay bằng **bột khoai** (loại sợi khô ngâm
+      nở) — vẫn giữ được cái trắng trong nồi chè.
+  - q: Nấu bằng nước cốt dừa lon có ngon bằng dừa vắt tay không?
+    a: >-
+      Ngon gần bằng và tiện hơn nhiều. Mẹo cho lon cốt dừa: dùng **[[400|ml]]
+      cốt dừa lon + [[600|ml]] nước lọc** thay cho nước dão dừa, và nêm muối
+      nhỉnh hơn một chút vì cốt dừa lon thường nhạt hơn dừa vắt.
+  - q: Nồi chè bị nát bét thành cháo, sửa được không?
+    a: >-
+      Nồi đó thì chịu, nhưng lần sau chữa được ở hai chỗ: **cắt miếng to hơn
+      một chút** ([[2.5|cm]]) và **tuyệt đối không khuấy** sau khi thả khoai —
+      chỉ lắc nồi hoặc lùa muỗng dọc thành. Lửa cũng phải nhỏ, sôi lăn tăn
+      thôi.
+  - q: Để tủ lạnh được mấy ngày?
+    a: >-
+      Ngăn mát **2 ngày**. Hâm lại bằng lửa nhỏ, thêm chút nước cho về độ
+      loãng cũ. Đừng cấp đông: khoai rã đông bị bã, mất hết cái bùi.
+  - q: Nấu cho bé ăn thì chỉnh gì?
+    a: >-
+      Giảm đường xuống còn khoảng [[120|g]], cắt khoai nhỏ hơn ([[1|cm]]) và
+      nấu mềm hơn một chút. Đậu phộng rang thì **giã thật mịn hoặc bỏ hẳn** với
+      bé nhỏ, còn bột báng thì nấu thật trong cho dễ nuốt.
+
+ticker:
+  - icon: pumpkin
+    text: Ba thứ khoai ba màu
+  - icon: drop
+    text: Nước cốt dừa béo ngậy
+  - icon: jar
+    text: Nhúm muối làm nên vị
+  - icon: rice
+    text: Bột báng trong veo
+  - icon: sun
+    text: Nóng hay lạnh đều đúng
+  - icon: pod
+    text: Đậu phộng rang rắc mặt

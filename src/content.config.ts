@@ -60,7 +60,7 @@ const recipes = defineCollection({
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Tây Bắc', 'Tây Nguyên', 'Cả nước']),
     category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm',
-      'Món nước', 'Bún trộn', 'Lẩu', 'Cháo', 'Bánh', 'Bánh mì']),
+      'Món nước', 'Bún trộn', 'Lẩu', 'Cháo', 'Bánh', 'Bánh mì', 'Chè']),
     // Định nghĩa để không lẫn: Món nước = một tô là xong bữa (kể cả tô nước lèo
     // dọn riêng như phở khô, bún chả) · Canh = món trong mâm cơm, ăn với cơm trắng
     // · Lẩu = nồi đặt giữa bàn, ăn tới đâu nhúng tới đó · Cháo = gạo ninh nhừ
@@ -70,6 +70,10 @@ const recipes = defineCollection({
     //   gốc (bột MÌ nướng lò, không phải bột gạo tráng/đổ) và khác cách ăn (cầm
     //   tay, một ổ là xong bữa). Cùng trục "hình thức món" với Cơm · Cháo · Bánh,
     //   KHÔNG phải trục xuất xứ — đừng lấy nhóm này làm cớ mở nhóm theo xuất xứ.
+    // · Chè = món NGỌT nấu đường, ăn bằng muỗng, dọn ngoài bữa cơm. Đây là kiểu
+    //   món đầu tiên tách theo VỊ chứ không theo hình thức — và nó có họ màu
+    //   riêng ("Ngọt & mát", tím sen) đúng vì lý do đó: một ly chè đứng lẫn giữa
+    //   lưới món mặn thì màu nền phải nói ngay "cái này ngọt".
     // Theo dịp / đối tượng — một món gắn được nhiều nhãn, để lọc ở /mon/.
     // MỌI MÓN PHẢI CÓ ÍT NHẤT 1 NHÃN: để trống thì món đó biến mất khỏi cả trục
     // lọc này, kể cả những món chủ lực của trang.
@@ -119,6 +123,9 @@ const recipes = defineCollection({
         'xoi-xeo', 'xoi-man',
         'banh-uot-cha-lua', 'banh-uot-long-ga', 'banh-uot-tom-chay',
         'ca-thu-sot-ca', 'ca-nuc-sot-ca',
+        'che-buoi', 'che-ba-ba', 'che-thai', 'che-dau-xanh-bot-bang', 'che-dau-do',
+        'lau-de-chao', 'lau-de-me', 'lau-bo-da-lat', 'lau-bo-giam',
+        'bo-xao-thien-ly', 'kho-qua-xao-trung', 'canh-ca-chua-trung', 'cua-hap-bia',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

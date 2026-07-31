@@ -104,7 +104,7 @@ Bốn con số phải giữ, thêm món mới là dễ phá nhất:
 | món **mồ côi** (không ai trỏ tới) | 0 | món đó chỉ vào được từ `/mon/`, coi như nằm ngoài mạng liên kết |
 | hai món có **dải y hệt** nhau | 0 | đọc hai trang thấy chung một dải, tưởng trang lỗi |
 | **mảnh đồ thị** | 1 | catalog vỡ thành đảo, lang thang tới đó là hết đường |
-| mỗi dải đủ **6 ô** | 82/82 | vùng hoặc kiểu món quá mỏng, dải bị cụt |
+| mỗi dải đủ **6 ô** | 95/95 | vùng hoặc kiểu món quá mỏng, dải bị cụt |
 
 ### `npm run seo-audit` — chạy SAU build, cùng lúc với `link-audit`
 
@@ -122,14 +122,14 @@ vài tháng sau Search Console mới nhắn. Đổi slug một món, hay đụng
 > nhắc ba trường đó nhưng site **cố ý bỏ trống** — lý do từng cái ở ROADMAP phần 2,
 > mục *"Bốn cảnh báo Recipe"*. Đừng thấy cảnh báo mà thêm vào.
 
-### Thêm một KIỂU MÓN mới (vd "Bánh mì")
+### Thêm một KIỂU MÓN mới (vd "Bánh mì", "Chè")
 
 Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng âm thầm chứ không báo lỗi:
 
 | File | Sửa gì | Sót thì sao |
 |---|---|---|
 | `src/content.config.ts` | enum `category` | build gãy — chỗ duy nhất *có* báo lỗi |
-| `src/utils/family.ts` | xếp kiểu món vào 1 trong 5 họ màu | rơi về họ `nuoc`, **nền thẻ sai màu, không báo gì** |
+| `src/utils/family.ts` | xếp kiểu món vào 1 trong 6 họ màu | rơi về họ `nuoc`, **nền thẻ sai màu, không báo gì** |
 | `src/pages/mon/index.astro` | thêm vào `CAT_ORDER` | **không có chip lọc**, món thành không lọc được |
 | `src/utils/art.ts` | `BY_CATEGORY` (hình dự phòng) | món chưa có art riêng rơi về `bowl` |
 | `src/content/recipes/_template.yaml` | dòng chú thích | người sau chép nhầm |
@@ -141,9 +141,17 @@ Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng â
 > cập nhật. Đợt nào mở kiểu món cũng **kiểm lại từng dòng**, đừng suy từ đợt trước.
 >
 > Đợt 12 mở **"Bánh mì"** và là đợt đầu tiên phải sửa **đủ cả 8/8 chỗ** — đợt 7
-> chỉ 4/8, đợt 8 và 9 chỉ 3/8. Lý do: kiểu món mới này vừa cần chip lọc riêng,
-> vừa phải xếp vào họ màu, vừa có món chưa gắn art. Càng thấy rõ là **đừng suy
-> từ đợt trước**.
+> chỉ 4/8, đợt 8 và 9 chỉ 3/8.
+
+**Nếu kiểu món mới còn MỞ LUÔN MỘT HỌ MÀU thì thành CHÍN chỗ** — thêm
+`src/styles/tokens.css` (`--fam-<id>` và `--fam-<id>-deep`). Sót chỗ này thì
+`family.ts` trả về một họ mà CSS không có biến, **nền thẻ rỗng và không báo gì**.
+Đợt 13 mở "Chè" là lần đầu dính: chè là món **ngọt**, để chung họ với phở và
+canh thì màu nền thôi làm thông tin, nên phải mở họ thứ sáu *"Ngọt & mát"* màu
+tím sen. `FAM_GROUND` trong `family.ts` là **bản chép thứ hai** của cặp màu đó
+(endpoint `/anh-mon/` render bằng resvg, không với được vào CSS site) — sửa một
+bên phải sửa bên kia, cộng hai bảng `FAMILIES` trong `tools/`. Tổng cộng **bốn
+chỗ khai cùng một cặp màu**.
 
 Thêm **hình vẽ riêng** cho món: `Art<Ten>.astro` + một dòng trong bảng
 `ART_COMPONENT` (`src/utils/art.ts`) + giá trị mới trong enum `art`
@@ -200,7 +208,8 @@ Từ đợt 10, hình **không** nhúng thẳng vào trang nữa. Endpoint
 `src/pages/art/[kind].svg.ts` xuất mỗi hình ra `/art/<kind>.svg` lúc build, còn
 thẻ món gọi bằng `<img loading="lazy">` (`art/ArtImg.astro`). Kết quả: `/mon/`
 từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**
-(nay là **~28,4 KB** ở 82 món — ước từ số cục bộ ×1,02);
+(nay là **~31,1 KB** ở 95 món — ước từ số cục bộ 30,4 KB ×1,02, tức
+**0,21 KB/món** cho 13 món của đợt 13);
 ba trang (`/mon/`, trang chủ, trang chi tiết) dùng chung một file đã cache.
 
 Ba ràng buộc mới với file art, `npm run qa` chặn cả ba:
