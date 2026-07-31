@@ -15,7 +15,7 @@ _Cập nhật 2026-07-31. Site đang **71 món / 7 vùng / 14 kiểu món**, kh�
 | **Nội dung** | 71 món · 7 vùng · 14 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo 5 họ màu, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
-| **Dung lượng** | `/mon/` **~25,6 KB** gzip ở 71 món (ước từ 25,1 KB đo cục bộ; **chưa đo lại trên máy chủ**) — hình nằm ở file `.svg` riêng |
+| **Dung lượng** | `/mon/` **25,5 KB** gzip ở 71 món (26.136 B, đo trên máy chủ) và **không tăng theo số món** — hình nằm ở file `.svg` riêng |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 426 liên kết |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
@@ -288,9 +288,13 @@ Vòng vẽ đầu qua được `npm run qa` sạch và nhìn ở cỡ 520px th�
 
 ### Số đo sau đợt
 
-Dung lượng `/mon/` **25,1 KB** gzip đo cục bộ ở 71 món (máy chủ ước **~25,6 KB**, chưa deploy nên chưa đo lại được). So với 24,1 KB ở 64 món thì **+0,21 KB mỗi món** — trùng khít độ dốc ~0,2 KB/món đã dự đoán từ đợt 10, tức là **kết luận "thôi tăng theo số món" vẫn đứng**. Ở 100 món ước chừng vẫn ~31 KB.
+Dung lượng `/mon/` **25,5 KB** gzip ở 71 món — **26.136 B đo trên máy chủ** sau khi deploy (`curl -H 'Accept-Encoding: gzip'`). So với 24,1 KB ở 64 món thì đúng **+0,20 KB mỗi món**, trùng khít độ dốc ~0,2 KB/món dự đoán từ đợt 10, nên **kết luận "thôi tăng theo số món" vẫn đứng**. Ở 100 món ước chừng vẫn ~31 KB.
+
+> Con số cục bộ đo trước khi deploy là 25,1 KB, máy chủ ra 25,5 KB — **lệch ~1,6%, đúng cỡ sai số ~2% mà luật đã ghi**. Thêm một lần xác nhận: cứ đo cục bộ để ước, nhưng con số ghi vào đây phải là con số máy chủ.
 
 Liên kết chéo tự lên **426** (71 × 6), vẫn 0 mồ côi · 0 dải trùng · **1 mảnh liền**. Featured đổi đúng một chỗ: **sườn xào chua ngọt** vào, **trứng chưng thịt nấm mèo** ra — cả hai đều "Cả nước" nên trang chủ vẫn phủ **7/7 vùng**.
+
+**Nghiệm thu trên máy chủ (2026-07-31):** 7 trang món mới và 7 file `/art/*.svg` đều trả 200 · 6 ảnh `/anh-mon/` mẫu đều có file thật · sitemap **71 URL món** (74 tổng) · RSS **71 mục**, đủ cả 7 món mới · trang chủ đúng **12 ô**, có sườn xào chua ngọt, không còn trứng chưng.
 
 ## Trang 404 và liên kết chéo — 2026-07-30
 
