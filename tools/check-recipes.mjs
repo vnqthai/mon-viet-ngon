@@ -24,6 +24,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
+import { seoTitleFor, hookOf, TITLE_MAX } from '../src/utils/seo-title.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const RECIPE_DIR = path.join(ROOT, 'src/content/recipes');
@@ -51,6 +52,7 @@ const ENUMS = {
   category: enumAfter('category: z.enum('),
   difficulty: enumAfter('difficulty: z.enum('),
   occasions: enumAfter('.array(z.enum('),
+  seoVerb: enumAfter('seoVerb: z.enum('),
 };
 // enum `art` trải nhiều dòng nên bắt riêng
 /* Kho icon có thật trong Sprite.astro. Trước đợt 16 không ai soi chỗ này, nên
@@ -120,6 +122,7 @@ function rawScan(src, file) {
 const files = fs.readdirSync(RECIPE_DIR).filter((f) => f.endsWith('.yaml') && !f.startsWith('_'));
 const byOrder = new Map();
 const docs = [];
+const longSeoTitles = [];
 
 for (const f of files) {
   const src = fs.readFileSync(path.join(RECIPE_DIR, f), 'utf8');
@@ -184,6 +187,21 @@ for (const f of files) {
     if (want !== t.secs) fail(f, `bước ${i + 1}: nhãn timer ghi ${m[0]} (=${want}s) nhưng secs=${t.secs}`);
   });
 
+  /* title SEO — khuôn "Tên **hook**" phải giữ vì <title> ghép từ nó (SEO.md §4).
+     Vượt 62 ký tự thì chỉ RÉO chứ không chặn: title dài không sai, chỉ bị Google
+     cắt đuôi — người viết tự quyết rút bằng seoTitle hay để vậy. */
+  if (typeof doc.title !== 'string' || !doc.title.trim()) {
+    fail(f, 'thiếu `title`');
+  } else if (!hookOf(doc.title)) {
+    fail(f, 'title không có phần **hook** cuối chuỗi — khuôn "Tên **hook**" là chỗ ghép title SEO');
+  } else {
+    if (doc.seoVerb != null && ENUMS.seoVerb && !ENUMS.seoVerb.includes(doc.seoVerb)) {
+      fail(f, `\`seoVerb: ${doc.seoVerb}\` không có trong enum`);
+    }
+    const seoT = seoTitleFor(doc);
+    if ([...seoT].length > TITLE_MAX) longSeoTitles.push(`${f} → ${seoT} (${[...seoT].length})`);
+  }
+
   /* [[số|đơn vị]] — sai cú pháp thì hiện nguyên văn dấu ngoặc ra trang */
   const flat = JSON.stringify(doc);
   for (const m of flat.matchAll(/\[\[([^\]]*)\]\]/g)) {
@@ -201,6 +219,10 @@ for (const [ord, list] of byOrder) {
 }
 
 /* ---------- Vài con số để liếc qua ---------- */
+if (longSeoTitles.length) {
+  notes.push(`⚠ ${longSeoTitles.length} title SEO vượt ${TITLE_MAX} ký tự — rút bằng seoTitle trong YAML nếu thấy đáng:`);
+  for (const t of longSeoTitles) notes.push(`  ${t}`);
+}
 const featured = docs.filter((d) => d.doc.featured === true);
 notes.push(`${docs.length} món · ${featured.length} món featured · order ${Math.min(...byOrder.keys())}–${Math.max(...byOrder.keys())}`);
 if (featured.length !== 12) {

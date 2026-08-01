@@ -100,8 +100,11 @@ section[id]{scroll-margin-top:80px}
    chân phải dày và cách ra mới đọc được là bấm được. */
 .eyebrow a{text-decoration-thickness:1.5px;text-underline-offset:3px;transition:color .15s}
 .eyebrow a:hover{color:var(--chili)}
-.section h2{font-size:clamp(1.9rem,3.4vw,2.55rem);color:var(--ink);margin:0 0 14px}
-.section h2 .accent{color:var(--river)}
+/* h1 chỉ có ở trang trục lọc + giới thiệu — mặt mũi y hệt h2 của section,
+   khác mỗi ngữ nghĩa: trang danh sách cần một h1 thật cho máy đọc. */
+.section h1,.section h2{font-size:clamp(1.9rem,3.4vw,2.55rem);color:var(--ink);margin:0 0 14px}
+.section h1 .accent,.section h2 .accent{color:var(--river)}
+:root[data-theme="dark"] .section h1 .accent,
 :root[data-theme="dark"] .section h2 .accent{color:var(--leaf)}
 @media (prefers-color-scheme: dark){:root:not([data-theme]) .section h2 .accent{color:var(--leaf)}}
 .section__lead{color:var(--muted);max-width:62ch;margin-bottom:36px}

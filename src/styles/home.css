@@ -166,6 +166,9 @@
   font-weight:700;font-size:.84rem;padding:8px 15px;border-radius:999px;
   transition:background .15s,color .15s,border-color .15s;
 }
+/* .chip vốn là <button> trong bộ lọc /mon/; trang trục dùng <a class="chip">
+   dẫn sang trang anh em — reset gạch chân + căn giữa cho khớp mặt mũi. */
+a.chip{text-decoration:none;display:inline-flex;align-items:center}
 .chip:hover{color:var(--ink);border-color:color-mix(in srgb,var(--gold) 50%,var(--line))}
 .chip.is-active{background:var(--river);border-color:var(--river);color:#F4EFDA}
 :root[data-theme="dark"] .chip.is-active{background:var(--leaf);border-color:var(--leaf);color:#141A10}

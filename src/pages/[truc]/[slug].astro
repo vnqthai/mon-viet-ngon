@@ -1,0 +1,121 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
+import { TRANG_TRUC } from '../../data/trang-truc';
+
+/**
+ * 31 TRANG TRỤC LỌC — /kieu/kho/ · /mien/mien-tay/ · /dip/co-tet/ (SEO.md §5).
+ *
+ * Vì sao có chúng khi /mon/ đã lọc được: chip trên /mon/ là JS client-side,
+ * `?kieu=` canonical về /mon/ — nghĩa là Google chỉ thấy MỘT trang catalog và
+ * không xếp hạng nổi họ query "các món kho ngon", "món ngon miền Tây", "món
+ * Tết"… Trang tĩnh cho máy và cho link chia sẻ; chip JS giữ nguyên cho người
+ * đang lọc nhanh — hai hệ song song, cùng triết lý /og/ vs /anh-mon/.
+ *
+ * Route động [truc] không đụng /mon/[slug]: đoạn tĩnh thắng đoạn động khi so
+ * khớp, và getStaticPaths chỉ đẻ đúng 31 đường dẫn khai trong trang-truc.ts.
+ */
+export async function getStaticPaths() {
+  const recipes = (await getCollection('recipes')).sort(
+    (a, b) => a.data.order - b.data.order
+  );
+  return TRANG_TRUC.map((e) => ({
+    params: { truc: e.truc, slug: e.slug },
+    props: { entry: e, recipes },
+  }));
+}
+
+const { entry, recipes } = Astro.props;
+
+const PICK: Record<string, (r: any) => boolean> = {
+  kieu: (r) => r.data.category === entry.value,
+  mien: (r) => r.data.region === entry.value,
+  dip: (r) => r.data.occasions.includes(entry.value),
+};
+const list = recipes.filter(PICK[entry.truc]);
+
+const title = entry.title.replace('{n}', String(list.length));
+const EYEBROW: Record<string, string> = { kieu: 'Kiểu món', mien: 'Vị theo vùng', dip: 'Nấu cho dịp' };
+const SHELF_LABEL: Record<string, string> = { kieu: 'Kiểu món khác', mien: 'Vùng khác', dip: 'Dịp khác' };
+const siblings = TRANG_TRUC.filter((e) => e.truc === entry.truc && e.slug !== entry.slug);
+
+/* Nhãn ngắn cho crumb: kiểu món trần ("Kho") đọc cụt, thêm "Món" như badge. */
+const crumbLabel =
+  entry.truc === 'kieu' && !entry.value.startsWith('Món')
+    ? `Món ${entry.value.toLowerCase()}`
+    : entry.value;
+
+/* ItemList đúng khuôn "summary page" mà Google đòi cho host carousel công thức
+   — mỗi ListItem chỉ position + url trỏ tới trang món có Recipe markup đầy đủ. */
+const itemListLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  numberOfItems: list.length,
+  itemListElement: list.map((r, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: new URL(`/mon/${r.id}/`, Astro.site).href,
+  })),
+};
+const crumbs = [
+  { name: 'Trang chủ', href: '/' },
+  { name: 'Món ngon', href: '/mon/' },
+  { name: crumbLabel, href: null },
+];
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: crumbs.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.name,
+    ...(c.href ? { item: new URL(c.href, Astro.site).href } : {}),
+  })),
+};
+---
+<Base title={title} description={entry.intro.split('. ')[0] + '.'} active="mon">
+<script type="application/ld+json" is:inline set:html={JSON.stringify(itemListLd)} />
+<script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)} />
+<main>
+  <section class="section" id="trang-truc">
+    <div class="wrap">
+      <nav class="crumb crumb--page" aria-label="Đường dẫn phân cấp">
+        {crumbs.map((c, i) => (
+          <>
+            {i > 0 && <span class="crumb__sep" aria-hidden="true">›</span>}
+            {c.href
+              ? <a href={c.href}>{c.name}</a>
+              : <span aria-current="page">{c.name}</span>}
+          </>
+        ))}
+      </nav>
+      <p class="eyebrow reveal">{EYEBROW[entry.truc]}</p>
+      <h1 class="reveal">{entry.h1}</h1>
+      <p class="section__lead reveal">{entry.intro}</p>
+
+      <div class="rcard-grid">
+        {list.map((r) => <RecipeCard recipe={r} />)}
+      </div>
+
+      <div class="shelf" role="navigation" aria-label={SHELF_LABEL[entry.truc]} style="margin-top:34px">
+        <span class="shelf__label">{SHELF_LABEL[entry.truc]}</span>
+        <div class="shelf__rail">
+          {siblings.map((s) => (
+            <a class="chip" href={`/${s.truc}/${s.slug}/`}>{s.value}</a>
+          ))}
+        </div>
+      </div>
+
+      <p style="margin-top:26px">
+        <a class="btn btn--line" href="/mon/">
+          Mở kho {recipes.length} món + ô tìm kiếm
+          <Icon name="arrow-right" />
+        </a>
+      </p>
+    </div>
+  </section>
+</main>
+</Base>

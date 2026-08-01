@@ -7,6 +7,8 @@ import RelatedStrip from '../../components/RelatedStrip.astro';
 import { rich, plain, dishName } from '../../utils/rich';
 import { fmtQty } from '../../utils/qty';
 import { viDurationToISO, stepToPlainText } from '../../utils/seo';
+import { seoTitleFor } from '../../utils/seo-title.mjs';
+import { KIEU_SLUG, MIEN_SLUG, DIP_SLUG } from '../../data/truc-slug.mjs';
 import { familyOf } from '../../utils/family';
 import { relatedFor } from '../../utils/related';
 import { tickerDuration } from '../../utils/ticker';
@@ -106,8 +108,12 @@ const breadcrumbLd = {
   })),
 };
 ---
+{/* <title> theo ý định tìm kiếm: "Cách nấu/làm {tên} — {hook}" (SEO.md §4).
+    h1 bên dưới GIỮ NGUYÊN giọng thương hiệu; đuôi "— Món Việt Ngon" bỏ vì
+    Google hiện tên site thành dòng riêng (WebSite schema + og:site_name),
+    giữ đuôi thì title dài quá 70 ký tự và bị cắt đúng vào hook. */}
 <Base
-  title={`${plain(d.title)} — Món Việt Ngon`}
+  title={seoTitleFor(d)}
   description={plain(d.summary)}
   ogImage={ogImage}
   showPrint={true}
@@ -143,10 +149,13 @@ const breadcrumbLd = {
         </nav>
         <p class="hero__eyebrow">{d.heroEyebrow}</p>
         <h1 set:html={rich(d.title).replace(/<b>/g, '<span class="gold">').replace(/<\/b>/g, '</span>')} />
+        {/* Badge giờ là CỬA về trang trục (SEO.md §5): vùng → /mien/, kiểu món
+            → /kieu/, dịp → /dip/ — vừa cho người đi tiếp, vừa là anchor text
+            nội bộ cho 31 trang danh sách. */}
         <div class="hero__badges">
-          <span class="badge badge--region"><Icon name="map" />{d.region}</span>
-          <span class="badge badge--cat">{d.category.startsWith('Món') ? d.category : `Món ${d.category.toLowerCase()}`}</span>
-          {d.occasions.map((o: string) => <span class="badge badge--occ">{o}</span>)}
+          <a class="badge badge--region" href={`/mien/${MIEN_SLUG[d.region]}/`}><Icon name="map" />{d.region}</a>
+          <a class="badge badge--cat" href={`/kieu/${KIEU_SLUG[d.category]}/`}>{d.category.startsWith('Món') ? d.category : `Món ${d.category.toLowerCase()}`}</a>
+          {d.occasions.map((o: string) => <a class="badge badge--occ" href={`/dip/${DIP_SLUG[o]}/`}>{o}</a>)}
         </div>
         <p class="hero__sub" set:html={rich(d.summary)} />
         <ul class="hero__meta">

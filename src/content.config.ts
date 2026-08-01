@@ -57,6 +57,15 @@ const recipes = defineCollection({
   loader: glob({ pattern: '[^_]*.yaml', base: './src/content/recipes' }),
   schema: z.object({
     title: z.string(),
+    // Title SEO cho <title>/og:title — KHÔNG đụng h1 (giọng thương hiệu giữ
+    // nguyên trên trang). Khuôn tự ghép ở utils/seo-title.mjs:
+    //   "Cách {nấu|làm} {tên trần} — {hook}"
+    // seoVerb: thiếu thì suy từ category (Món nước/Canh/Lẩu/Cháo/Chè/Xôi → nấu,
+    //   còn lại → làm — kể cả Cơm, vì 6/7 món Cơm của catalog là "cách làm").
+    // seoTitle: ghi đè NGUYÊN chuỗi cho ca đặc biệt (tên món chứa gạch ngang,
+    //   món "luộc" không nấu không làm…) — QA réo khi bản tự ghép >62 ký tự.
+    seoVerb: z.enum(['nấu', 'làm']).optional(),
+    seoTitle: z.string().optional(),
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Tây Bắc', 'Tây Nguyên', 'Cả nước']),
     category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Xôi',

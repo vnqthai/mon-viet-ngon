@@ -32,6 +32,10 @@
 .hero h1 .gold{color:var(--gold)}
 .hero__badges{display:flex;gap:8px;margin:0 0 14px}
 .hero__badges .badge{background:rgba(255,255,255,.13);color:#F7EBC8;border:1px solid rgba(255,255,255,.2)}
+/* Badge giờ là LINK về trang trục (kiểu món · vùng · dịp) — reset gạch chân,
+   nháy viền khi rê chuột cho biết bấm được. */
+.hero__badges a.badge{text-decoration:none;transition:border-color .15s}
+.hero__badges a.badge:hover{border-color:var(--gold)}
 .hero__sub{
   font-size:1.06rem;line-height:1.8;max-width:46ch;color:rgba(244,239,218,.88);margin:6px 0 22px;
 }
@@ -475,3 +479,9 @@
 .crumb a:hover{color:var(--gold);text-decoration:underline}
 .crumb__sep{color:var(--gold);opacity:.7}
 @media print{ .crumb{display:none} }
+/* Crumb bản NỀN GIẤY cho trang trục lọc + giới thiệu — bản trên pha chữ kem
+   cho nền họ màu của hero, đem ra nền giấy là chìm nghỉm. */
+.crumb--page{color:var(--muted)}
+.crumb--page a{color:var(--ink)}
+.crumb--page a:hover{color:var(--chili)}
+.crumb--page .crumb__sep{opacity:.55}

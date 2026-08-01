@@ -15,6 +15,8 @@
 #   knife flame clock drop lime basket roll bread pepper bulb alert question map
 # ============================================================
 title: Tên món **chữ nhấn vàng**
+# seoVerb: làm          # "Cách NẤU/LÀM …" cho <title> — thiếu thì suy từ category (SEO.md §4)
+# seoTitle: '…'         # ghi đè NGUYÊN title SEO cho ca đặc biệt — QA réo khi bản tự ghép >62 ký tự
 summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Tây Bắc | Tây Nguyên | Cả nước

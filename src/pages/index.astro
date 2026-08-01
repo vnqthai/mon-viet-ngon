@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import { KIEU_SLUG, MIEN_SLUG, DIP_SLUG } from '../data/truc-slug.mjs';
 import Icon from '../components/Icon.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import ComingSoon from '../components/ComingSoon.astro';
@@ -273,8 +274,11 @@ const siteLd = {
           {/* Không dùng "Thèm…" — trục Miền phía dưới đã là "Thèm vị vùng nào?" */}
           <h3>Muốn ăn kiểu gì?</h3>
           <div class="gate-row">
+            {/* Cửa trục dẫn sang TRANG TĨNH /kieu/ /dip/ /mien/ (SEO.md §5),
+                không còn qua /mon/?kieu= — trang tĩnh mới là thứ Google xếp
+                hạng được; chip lọc JS trên /mon/ vẫn giữ cho người lọc nhanh. */}
             {catGates.map((g) => (
-              <a class="gate" href={`/mon/?kieu=${encodeURIComponent(g.name)}`}>
+              <a class="gate" href={`/kieu/${KIEU_SLUG[g.name]}/`}>
                 {g.name}<span class="gate__n num">{g.n}</span>
               </a>
             ))}
@@ -284,7 +288,7 @@ const siteLd = {
           <h3>Nấu cho dịp gì?</h3>
           <div class="gate-row">
             {occGates.map((g) => (
-              <a class="gate" href={`/mon/?dip=${encodeURIComponent(g.name)}`}>
+              <a class="gate" href={`/dip/${DIP_SLUG[g.name]}/`}>
                 {g.name}<span class="gate__n num">{g.n}</span>
               </a>
             ))}
@@ -294,7 +298,7 @@ const siteLd = {
           <h3>Thèm vị vùng nào?</h3>
           <div class="gate-row">
             {regionGates.map((g) => (
-              <a class="gate" href={`/mon/?mien=${encodeURIComponent(g.name)}`}>
+              <a class="gate" href={`/mien/${MIEN_SLUG[g.name]}/`}>
                 <Icon name="map" />{g.name}<span class="gate__n num">{g.n}</span>
               </a>
             ))}

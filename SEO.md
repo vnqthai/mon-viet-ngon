@@ -10,14 +10,14 @@ _Lập 2026-08-01 từ một vòng phân tích toàn site + hai vòng nghiên c�
 
 | # | Việc | Tầm tác động | Trạng thái |
 |---|---|---|---|
-| 1 | Title/description theo ý định tìm kiếm ("cách nấu/cách làm") | **LỚN** — sửa đúng chỗ người Việt gõ | 🔶 spec ở **§4**, chờ duyệt |
-| 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | 🔶 kiến trúc ở **§5**, chờ duyệt |
-| 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | 🔶 chờ Thái quyết mức lộ danh, **§6** |
-| 4 | Fix kỹ thuật nhỏ (4 cái) | NHỎ nhưng rẻ | ✅ 2026-08-01, đo trên dist — **§7** |
+| 1 | Title/description theo ý định tìm kiếm ("cách nấu/cách làm") | **LỚN** — sửa đúng chỗ người Việt gõ | ✅ title ĐÃ LÀM 2026-08-01 (Thái duyệt spec) — **§4**; description = giai đoạn 2, làm dần |
+| 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | ✅ ĐÃ DỰNG 2026-08-01, URL phương án A — **§5** |
+| 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ chốt **brand-only, ẩn danh, chưa email** (Thái 2026-08-01); `/gioi-thieu/` đã dựng — **§6** |
+| 4 | Fix kỹ thuật nhỏ (4 cái) | NHỎ nhưng rẻ | ✅ 2026-08-01, **đã live** (`a745ff2`, curl kiểm production) — **§7** |
 | 5 | Checklist Search Console | NHỎ | 👤 ~15 phút tay Thái — **§8** |
 | 6 | Theo dõi + kỳ vọng thời gian | — | đọc **§9** trước khi sốt ruột |
 
-**Thứ tự làm đề xuất:** duyệt §4 → làm (nửa ngày code + một buổi gán verb) → duyệt §5 → làm khung (1 ngày) → viết 31 intro (đợt nội dung riêng) → §6 khi Thái chốt. §8 làm lúc nào cũng được, càng sớm càng tốt.
+> ⚠️ **Việc 1–3 ĐÃ CODE XONG, build 162 trang xanh, QA sạch trắng — nhưng CHƯA COMMIT.** Chỗ cần mắt Thái trước khi đẩy lên: **31 câu intro** trang trục (`src/data/trang-truc.ts`), **trang giới thiệu** (`src/pages/gioi-thieu.astro`), và **12 YAML** có seoVerb/seoTitle override. Duyệt bằng `npm run preview` → xem vài trang `/kieu/…`, `/mien/…`, `/dip/…`, `/gioi-thieu/` và title vài trang món. Duyệt xong: commit + push là deploy.
 
 ---
 
@@ -82,7 +82,14 @@ Không có site công thức thuần nào mạnh. Một site tĩnh nhanh, schema
 
 ---
 
-# 4 · Việc 1 — Title & description theo ý định tìm kiếm 🔶 CHỜ DUYỆT
+# 4 · Việc 1 — Title & description theo ý định tìm kiếm — ✅ TITLE ĐÃ LÀM 2026-08-01
+
+> **Đã ship đúng spec dưới đây, Thái duyệt cả hai điểm chờ (bỏ đuôi brand + ngân sách 62).** Ba điều chỉnh so với bản nháp, ghi lại vì là quyết định thật:
+> 1. **Cơm chuyển sang cột "làm"** — đo trên catalog: 6/7 món Cơm là món ghép/chiên/nướng (cơm tấm, cơm rang, cơm cháy, cơm lam…); chỉ cơm gà Hội An là nồi nấu thật → món đó override `seoVerb: nấu`. Bảng dưới đã sửa theo.
+> 2. **Máy tự cắt hook theo vế phẩy khi vượt 62 ký tự** (hook nhà này viết vế mạnh đứng trước nên cắt đuôi an toàn) — nhờ vậy 42 title vượt ngân sách chỉ còn 3 phải rút tay.
+> 3. **12 YAML mang override**: 4 `seoVerb` (bò kho, cơm gà Hội An, cơm rượu, sữa chua nếp cẩm) + 8 `seoTitle` (giả cầy — tên chứa "nấu"; lòng heo luộc — động từ thật là LUỘC; heo quay — giữ đuôi "nồi chiên không dầu"; bánh khoái + bánh ướt lòng gà — hook có gạch ngang; chè hạt sen, cơm tấm, sữa chua — hook một vế không tự cắt được). Mỗi override có chú thích lý do ngay trong YAML.
+>
+> Code nằm ở: `src/utils/seo-title.mjs` (khuôn ghép — .mjs trần để trang món + QA dùng chung) · `content.config.ts` (2 field mới) · `[slug].astro` · `check-recipes.mjs` (chặn title mất hook, réo title >62). `/mon/` cũng đổi title thành "Kho công thức món Việt: {n} món ba miền". **Meta description giai đoạn 2 vẫn chưa làm** — làm dần theo đợt, ưu tiên món có impressions trong GSC.
 
 **Nguyên tắc bất di bất dịch: `<h1>` trên trang GIỮ NGUYÊN 100%** — giọng thương hiệu là của người đọc. Chỉ đổi `<title>` + (giai đoạn 2) meta description — thứ chỉ Google và người đang lướt SERP nhìn thấy. JSON-LD `name` giữ tên trần như hiện tại (đúng chuẩn).
 
@@ -137,7 +144,9 @@ Title trang gộp, tiện sửa cùng đợt: `/mon/` → "Kho công thức món
 
 ---
 
-# 5 · Việc 2 — ~31 trang trục lọc 🔶 CHỜ DUYỆT
+# 5 · Việc 2 — ~31 trang trục lọc — ✅ ĐÃ DỰNG 2026-08-01 (chờ duyệt CÂU CHỮ intro)
+
+> **Đã dựng đủ 31 trang theo phương án A** (`/kieu/…` `/mien/…` `/dip/…`), Thái duyệt spec 2026-08-01. Hiện trạng: một route động `src/pages/[truc]/[slug].astro` + nội dung tay ở `src/data/trang-truc.ts` (31 bộ title/h1/intro — intro theo đúng luật ở đầu file đó) + slug ở `src/data/truc-slug.mjs` (một nguồn cho route, trang chủ, badge, lastmod). Đã nối đủ ba mối: cửa trục trang chủ → trang tĩnh, badge hero trang món → trang tĩnh, dải chip "cùng trục" cuối mỗi trang. ItemList + BreadcrumbList + crumb thật + lastmod theo nhóm đều có, đo trên dist. **Chưa commit — 31 câu intro cần mắt Thái duyệt trước.**
 
 **Vấn đề:** mọi lọc kiểu món/vùng/dịp đang là JS client-side trên `/mon/`; `?kieu=Kho` canonical về `/mon/` (đúng kỹ thuật). Hệ quả: Google chỉ thấy MỘT trang catalog — site không thể xếp hạng cho cả họ query danh sách: _"các món kho ngon dễ làm" · "món ngon miền Tây" · "món ăn đãi khách" · "mâm cỗ Tết nấu gì" · "các món chè ngon"_. Đây là structural gap lớn nhất của site.
 
@@ -174,7 +183,9 @@ Slug bỏ dấu, một nguồn sự thật trong data file: kiểu món `mon-nuo
 
 ---
 
-# 6 · Việc 3 — Lớp tin cậy 🔶 CHỜ THÁI QUYẾT
+# 6 · Việc 3 — Lớp tin cậy — ✅ THÁI ĐÃ CHỐT 2026-08-01, trang đã dựng
+
+> **Chốt: (A) brand-only** — "Món Việt Ngon" đứng tên tác giả, **giữ ẩn danh**, **chưa có email** liên hệ (khi có thì bổ sung vào trang). `/gioi-thieu/` đã dựng (`src/pages/gioi-thieu.astro`) + link footer. **Thái đã duyệt và RÚT GỌN câu chữ 2026-08-01**: bỏ các câu tự kể về luật nội dung (bịa số liệu/công dụng/dinh dưỡng), chuyện bản vùng miền + nguyên liệu thay thế, chuyện không quảng cáo/ngày cập nhật, và câu hứa hòm thư — trang chỉ còn ba ý: kho công thức là gì, nguyên tắc "chính xác và trung thực", hình vẽ riêng từng món. `author` trong Recipe schema giữ Organization như cũ (khớp lựa chọn A). Nếu sau này đổi sang (B) Person hóa thì mở lại mục này.
 
 Google hỏi thẳng "Is it self-evident who authored your content?", và AI Mode recipe cards giờ in **tên tác giả** lên card. Site hiện chưa có trang giới thiệu, chưa có đường liên hệ, `author` là Organization.
 
