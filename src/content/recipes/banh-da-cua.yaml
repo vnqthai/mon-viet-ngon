@@ -1,0 +1,424 @@
+title: Bánh đa cua **sợi đỏ nâu bản to, nước cua ngọt thanh**
+summary: >-
+  Tô bún của đất cảng: **sợi bánh đa đỏ nâu bản to** nằm trong nước cua đồng
+  ngọt thanh, trên mặt là tảng riêu cua, miếng chả lá lốt, con tôm và nắm rau
+  muống chần xanh. Một thìa gạch cua chưng đỏ au thả giữa tô làm màu và làm mùi.
+region: Miền Bắc
+category: Món nước
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 30 phút
+  active: 1 giờ
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 114
+art: banh-da-cua
+heroEyebrow: Hàng vỉa hè Hải Phòng, sáng nào cũng đông…
+
+quick:
+  ingredients:
+    - Bánh đa đỏ [[400|g]] — loại sợi bản to, ngâm mềm trước khi chần
+    - Cua đồng [[700|g]] — giã lọc lấy nước, gạch để riêng
+    - "Chả lá lốt: thịt băm [[200|g]] · lá lốt [[15|lá]]"
+    - Tôm đồng [[150|g]] · chả cá hoặc giò lụa [[150|g]]
+    - Rau muống hoặc rau rút [[1|bó]] · hành lá, mùi tàu
+    - Cà chua [[2|quả]] · hành phi · nước mắm, muối
+  steps:
+    - >-
+      Giã cua, lọc kỹ **ba nước**, khều gạch để riêng. Đun nước cua lửa nhỏ cho
+      riêu nổi thành tảng.
+    - Chưng gạch cua với hành phi và chút nước mắm cho đỏ au và thơm.
+    - >-
+      Băm thịt trộn gia vị, gói lá lốt thành miếng dẹt, rán vàng hai mặt.
+    - Xào cà chua, nêm nồi nước cho vừa; chần rau, chần bánh đa.
+    - >-
+      Xếp bánh đa vào tô, chan nước cua, xếp riêu, chả lá lốt, tôm, rau, rưới
+      gạch chưng.
+  warning: >-
+    Đun nước cua mà **khuấy** thì riêu vỡ vụn thành lợn cợn, không đóng được
+    thành tảng. Bắc lên bếp là để yên, chỉ dùng đũa gạt nhẹ ở đáy vài lần cho
+    khỏi khét, rồi đứng nhìn cho tới lúc riêu nổi lên.
+
+flavor:
+  chua: 2
+  ngot: 6
+  man: 5
+  cay: 1
+  thom: 7
+flavorNote: >-
+  **Chuẩn tô:** nước dùng **ngọt thanh vị cua, trong và có ánh vàng của gạch**,
+  không chua gắt; riêu cua nổi thành **tảng xốp** chứ không vụn; sợi bánh đa
+  mềm mà còn dai, không bở nát; miếng chả lá lốt vàng rám và thơm mùi lá.
+storyEyebrow: Chuyện món ăn
+storyTitle: Sợi bánh đa đỏ — **thứ làm nên tên món**
+story:
+  - >-
+    Điều đầu tiên đập vào mắt khi bát bánh đa cua được bưng ra là màu sợi:
+    **đỏ nâu, bản to gần bằng ngón tay út, dày và dai**. Đó là bánh đa đỏ Hải
+    Phòng, làm từ bột gạo pha thêm chút gấc hoặc đường thắng để lên màu, tráng
+    dày rồi thái bản rộng.
+  - >-
+    Sợi ấy quyết định cả tô. Nó **dày và dai** nên không bở ra trong nước nóng
+    như sợi phở, húp tới thìa cuối cùng vẫn còn nguyên độ. Nó cũng **hút nước
+    dùng** vào trong thân sợi, nên mỗi gắp lên là mang theo vị cua chứ không chỉ
+    là sợi bột trắng nhúng nước.
+  - >-
+    Nồi nước thì nấu từ **cua đồng giã lọc**, ngọt thanh và có hậu, để nguyên
+    vị chứ không đánh chua. Đây là chỗ khác của bát bánh đa cua: nó ngọt và đằm,
+    chỗ đậm đà đến từ thìa **gạch cua chưng** đỏ au thả giữa tô — thứ được khều
+    riêng từ mai cua rồi chưng với hành phi cho dậy mùi.
+  - >-
+    Trên mặt tô thì mỗi hàng một kiểu, nhưng gần như luôn có **chả lá lốt**:
+    thịt băm gói lá lốt rán vàng, cắn vào là mùi lá lốt xộc lên át cả nước dùng
+    trong một nhịp rồi lắng xuống. Thêm con tôm đồng, lát chả cá, và một nắm rau
+    muống hoặc rau rút chần xanh mướt vắt ngang.
+
+ingredientGroups:
+  - name: Sợi
+    icon: noodle
+    items:
+      - id: banhdabdc
+        name: Bánh đa đỏ
+        icon: noodle
+        color: red
+        base: 400
+        unit: g
+        note: >-
+          Loại **sợi bản to, màu đỏ nâu**, bán tươi ở chợ miền Bắc và bán khô
+          đóng gói trên mạng. Bản khô thì ngâm nước lạnh **20 phút** cho mềm
+          trước khi chần. Ngoài Hải Phòng thì không phải chợ nào cũng có — nói
+          thẳng là thay bằng sợi khác thì không còn đúng món, vì chính sợi này
+          làm nên tên gọi
+      - id: thaythebdc
+        name: Thay thế nếu không mua được
+        icon: noodle
+        qtyText: bánh phở bản to
+        note: >-
+          Bánh phở loại bản to nhất là gần nhất — vẫn ngon nhưng sợi mỏng hơn,
+          bở nhanh hơn và không có màu đỏ nâu. Bánh đa khô Nghệ An thì dai hơn
+          nhưng mỏng và sẫm màu
+  - name: Cua đồng
+    icon: shrimp
+    items:
+      - id: cuabdc
+        name: Cua đồng
+        icon: shrimp
+        color: red
+        base: 700
+        unit: g
+        note: >-
+          Chọn con **còn sống, bò khoẻ, mai xám bóng, yếm chắc**; bấm vào chân
+          thấy đặc thịt chứ không rỗng. Nhờ hàng xay sẵn thì tiện, nhưng giã tay
+          cho nước ngọt hơn. Cua xay sẵn để tủ lạnh thì mua đúng buổi sáng hôm
+          nấu
+      - id: gachbdc
+        name: Gạch cua
+        icon: jar
+        color: gold
+        qtyText: khều từ mai cua
+        note: >-
+          Dùng tăm hoặc đầu đũa khều phần gạch vàng cam trong mai từng con, để
+          riêng một chén. Đây là thứ làm nên màu và mùi của tô — đừng bỏ mai đi
+          mà chưa khều
+      - id: muoicuabdc
+        name: Muối hạt
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Cho vào lúc giã cua — muối giúp thịt cua kết lại thành tảng khi đun
+  - name: Đồ xếp mặt
+    icon: meat
+    items:
+      - id: thitbambdc
+        name: Thịt băm
+        icon: meat
+        color: red
+        base: 200
+        unit: g
+        note: >-
+          Nạc vai băm, trộn với chút hành khô băm, nước mắm, tiêu. Có chút mỡ
+          thì miếng chả rán ra mới mềm
+      - id: lalotbdc
+        name: Lá lốt
+        icon: herb
+        color: green
+        base: 15
+        unit: lá
+        note: >-
+          Chọn lá **bánh tẻ, bản to, mặt lá bóng**. Gói mặt xanh đậm ra ngoài —
+          rán lên miếng chả mới đẹp. Lá non quá thì rách khi gói
+      - id: tombdc
+        name: Tôm đồng
+        icon: shrimp
+        color: red
+        base: 150
+        unit: g
+        note: >-
+          Rang sơ với chút nước mắm cho săn và đỏ. Tôm to thì bóc vỏ chừa đuôi,
+          tôm nhỏ để nguyên
+      - id: chacabdc
+        name: Chả cá hoặc giò lụa
+        icon: fish
+        base: 150
+        unit: g
+        note: Thái lát mỏng xếp lên mặt. Mỗi hàng một kiểu, có nơi dùng cả hai
+  - name: Rau và nêm
+    icon: herb
+    items:
+      - id: raumuongbdc
+        name: Rau muống hoặc rau rút
+        icon: lettuce
+        color: green
+        base: 1
+        unit: bó
+        note: >-
+          Rau muống chẻ hoặc cắt khúc, chần **nhanh trong nước sôi rồi thả ngay
+          vào nước lạnh** cho xanh và giòn. Rau rút thì đúng mùa mới có, thơm
+          hơn hẳn
+      - id: cachuabdc
+        name: Cà chua
+        icon: tomato
+        color: red
+        base: 2
+        unit: quả
+        note: >-
+          Bổ múi cau, xào sơ rồi thả vào nồi. Ở đây cà chua chỉ để **lấy màu và
+          chút chua nền**, không phải để nồi nước thành chua
+      - id: hanhphibdc
+        name: Hành phi
+        icon: onion
+        color: amber
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Một phần dùng chưng gạch, một phần rắc lên mặt tô lúc dọn
+      - id: hanhmuibdc
+        name: Hành lá và mùi tàu
+        icon: herb
+        color: green
+        qtyText: 1 nắm
+        note: Thái nhỏ rắc mặt. Mùi tàu là mùi nền quen thuộc của tô bánh đa cua
+
+steps:
+  - title: Giã và lọc cua
+    icon: knife
+    minutes: 25 phút
+    intro: "Lọc kỹ tới đâu, nồi nước ngọt tới đó:"
+    bullets:
+      - label: "Làm sạch:"
+        text: >-
+          Ngâm cua nước lạnh 15 phút cho nhả bùn, xóc rửa nhiều lần. Bóc mai,
+          bỏ yếm và phổi.
+      - label: "Khều gạch:"
+        text: >-
+          Dùng tăm khều hết phần **gạch vàng cam** trong từng cái mai, gom vào
+          một chén nhỏ. Để riêng, lát nữa chưng.
+      - label: "Giã:"
+        text: >-
+          Cho phần thân cua vào cối với [[1|muỗng cà phê]] muối, giã nhuyễn.
+          Muối giúp thịt cua kết tảng khi đun.
+      - label: "Lọc ba nước:"
+        text: >-
+          Hoà cua giã với nước, bóp kỹ rồi lọc qua rây. Làm lại **ba lần** với
+          phần bã, tổng cộng chừng [[1.5|lít]] nước. Nước lọc lần ba vẫn còn
+          ngọt — đừng bỏ.
+    callout:
+      type: tip
+      text: >-
+        Nhờ hàng xay sẵn thì đỡ hẳn hai mươi phút, nhưng nhớ **dặn để lại mai**
+        để tự khều gạch. Nhiều hàng bỏ mai đi, mà mất gạch thì tô bánh đa cua
+        mất luôn cả màu lẫn mùi đặc trưng.
+  - title: Đun cho riêu nổi
+    icon: pot
+    minutes: 20 phút
+    intro: "Bước duy nhất cần đứng nhìn, và tuyệt đối không khuấy:"
+    bullets:
+      - label: "Bắc nồi:"
+        text: >-
+          Đổ nước cua đã lọc vào nồi, bắc lên **lửa vừa**. Dùng đũa gạt nhẹ sát
+          đáy vài lần trong hai phút đầu cho khỏi lắng khét, rồi bỏ tay ra.
+      - label: "Để yên:"
+        text: >-
+          Từ lúc nước bắt đầu nóng là **không đụng vào nữa**. Thịt cua sẽ kết
+          lại và nổi dần lên mặt thành từng mảng.
+      - label: "Hạ lửa:"
+        text: >-
+          Khi riêu đã nổi kín mặt, hạ lửa nhỏ để riêu se lại thành **tảng chắc**.
+          Đun sôi bùng là tảng vỡ.
+      - label: "Vớt riêu:"
+        text: >-
+          Nhẹ tay vớt riêu ra bát để riêng. Phần nước dưới giữ nguyên trong nồi.
+    timer:
+      secs: 900
+      label: Hẹn giờ chờ riêu nổi · 15:00
+      doneMsg: Riêu nổi kín mặt thì hạ lửa cho nó se lại nghen!
+    callout:
+      type: warn
+      text: >-
+        Khuấy là hỏng. Thịt cua đang kết mà bị đũa xé ra thì không bao giờ tụ
+        lại được nữa — nồi nước đục lờ và lợn cợn thay vì có tảng riêu xốp. Đây
+        là lỗi hay gặp nhất, và nó xảy ra chỉ vì sốt ruột.
+  - title: Chưng gạch, làm chả lá lốt
+    icon: flame
+    minutes: 20 phút
+    bullets:
+      - label: "Chưng gạch:"
+        text: >-
+          Phi thơm [[1|muỗng canh]] hành phi với chút dầu, trút chén gạch cua
+          vào, thêm [[1|muỗng cà phê]] nước mắm. Đảo nhẹ trên **lửa nhỏ** tới
+          khi gạch chuyển đỏ au và dậy mùi, chừng 2 phút. Để riêng.
+      - label: "Trộn nhân:"
+        text: >-
+          Thịt băm trộn hành khô băm, [[1|muỗng cà phê]] nước mắm, tiêu, để
+          10 phút.
+      - label: "Gói lá lốt:"
+        text: >-
+          Đặt lá **mặt xanh đậm úp xuống**, cho thìa nhân vào cuống lá, cuộn
+          lại rồi gấp hai mép. Cuộn chặt tay cho khỏi bung khi rán.
+      - label: "Rán:"
+        text: >-
+          Rán lửa vừa, **mặt gấp mép úp xuống trước** cho dính lại. Rán vàng rám
+          hai mặt, chừng 3 phút mỗi mặt.
+    callout:
+      type: warn
+      text: >-
+        Chưng gạch trên lửa to là **gạch cháy sém và đắng**, mà chỉ cần lỡ tay
+        vài giây. Để lửa nhỏ nhất, đảo đều, thấy chuyển đỏ và dậy mùi là bắc
+        xuống ngay.
+  - title: Nêm nồi và chuẩn bị đồ chần
+    icon: spoon
+    minutes: 15 phút
+    bullets:
+      - label: "Xào cà chua:"
+        text: >-
+          Xào cà chua bổ múi với chút dầu cho mềm và ra màu, trút vào nồi nước cua.
+      - label: "Nêm:"
+        text: >-
+          Nêm nước mắm và chút muối cho vừa miệng. Nếm thử: phải **ngọt thanh vị
+          cua**, chua rất nhẹ từ cà chua. Thấy nhạt thì thêm mắm chứ đừng thêm
+          bột ngọt.
+      - label: "Rang tôm:"
+        text: >-
+          Rang tôm với chút nước mắm cho săn và đỏ.
+      - label: "Chần rau:"
+        text: >-
+          Chần rau muống trong nước sôi có chút muối **đúng 30 giây**, vớt ra
+          thả ngay vào thau nước lạnh cho xanh và giòn.
+      - label: "Chần bánh đa:"
+        text: >-
+          Bánh đa ngâm mềm, chần qua nước sôi **20–30 giây** rồi vớt ngay. Chần
+          lâu là sợi bở nát.
+    callout:
+      type: tip
+      text: >-
+        Chần bánh đa **từng tô một, ngay trước khi chan**. Chần cả mẻ để đó thì
+        sợi hút hết nước, dính bết vào nhau và đã mềm quá trước khi tô đầu tiên
+        kịp bưng ra.
+  - title: Ráp tô
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: Cho bánh đa vừa chần vào tô, chan nước cua **thật nóng** ngập sợi.
+      - text: >-
+          Xếp lên mặt: tảng riêu cua, hai miếng chả lá lốt, mấy con tôm, vài lát
+          chả cá, nắm rau muống chần vắt sang một bên.
+      - text: >-
+          Rưới một thìa **gạch cua chưng** vào giữa tô, rắc hành phi, hành lá và
+          mùi tàu thái nhỏ.
+    doneText: Xong — bưng ra lúc còn bốc khói!
+
+tipsTitle: 4 chỗ **quyết định** tô bánh đa cua
+tips:
+  - icon: alert
+    title: Không khuấy, từ lúc nồi bắt đầu nóng
+    text: >-
+      Đây là luật cứng của mọi nồi nấu từ cua giã. Thịt cua đông lại theo nhiệt
+      và tự tụ thành mảng nổi lên — đũa xé vào là nó tan ra thành lợn cợn, không
+      cách nào gom lại. Gạt nhẹ sát đáy vài lần trong hai phút đầu cho khỏi
+      khét, rồi **bỏ tay ra và đứng nhìn**.
+  - icon: bulb
+    title: Khều gạch riêng, chưng riêng
+    text: >-
+      Phần gạch vàng cam trong mai cua mới là thứ cho tô bánh đa cái màu và mùi
+      của nó. Khều riêng từng con rồi chưng với hành phi trên lửa nhỏ — hai
+      phút, thấy đỏ au và dậy mùi là bắc xuống. Thả thẳng gạch sống vào nồi thì
+      nó tan mất, còn chưng quá lửa thì cháy đắng.
+  - icon: noodle
+    title: Chần bánh đa từng tô, đếm bằng giây
+    text: >-
+      Sợi bánh đa đỏ dày và dai, nhưng chần quá **30 giây** là bắt đầu bở. Chần
+      từng tô ngay trước khi chan nước, vớt ra là chan luôn. Chần sẵn cả mẻ để
+      đó thì tới lúc ăn sợi đã nát và dính thành nắm.
+  - icon: lettuce
+    title: Rau chần xong thả ngay vào nước lạnh
+    text: >-
+      Ba mươi giây trong nước sôi rồi ngâm ngay nước lạnh — rau muống giữ được
+      màu **xanh mướt và độ giòn**. Vớt ra để nguyên ngoài không khí thì hơi
+      nóng còn trong cọng rau vẫn tiếp tục làm nó chín, mươi phút sau là ngả
+      vàng và mềm oặt.
+
+serve:
+  title: Bưng ra lúc **còn bốc khói**, vắt chanh nếu thích
+  paras:
+    - >-
+      Tô bánh đa cua ăn ngay khi vừa chan. Sợi bánh đa để lâu trong nước nóng sẽ
+      tiếp tục nở và mềm ra, nên đây là món chan tới đâu ăn tới đó, không phải
+      món bày sẵn chờ người.
+    - >-
+      Trên bàn hàng nào cũng có đĩa **rau sống, chanh ớt và lọ giấm tỏi**. Vắt
+      chút chanh vào tô là nước dùng bật lên rõ hơn; ai thích cay thì thêm vài
+      lát ớt tươi. Nhưng nếm nồi nước trước đã — nồi ngọt đúng thì có khi chẳng
+      cần thêm gì.
+  aside:
+    title: Trên bàn nên có gì
+    intro: "Ba thứ để mỗi người tự chỉnh tô của mình:"
+    items:
+      - icon: lime
+        text: "**Chanh tươi** — vắt chút vào là vị cua bật lên rõ hơn."
+      - icon: chili
+        text: "**Ớt tươi thái lát** — hoặc ớt chưng, cho ai ăn cay."
+      - icon: lettuce
+        text: "**Rau sống** — xà lách, kinh giới, tía tô ăn xen cho đỡ ngán."
+
+faq:
+  - q: Không mua được bánh đa đỏ thì sao?
+    a: >-
+      Nói thẳng: thay sợi thì **không còn đúng là món này nữa**, vì chính sợi
+      bánh đa đỏ làm nên tên gọi và cả cách ăn. Nếu vẫn muốn nấu thì
+      **bánh phở loại bản to nhất** là gần nhất — nước dùng và đồ xếp mặt vẫn
+      cho ra một tô ngon, chỉ là sợi mỏng hơn, bở nhanh hơn và không có màu đỏ
+      nâu. Bánh đa đỏ khô đóng gói bán khá sẵn trên mạng, đặt một lần dùng được
+      lâu vì để khô cả năm.
+  - q: Nước dùng bị đục và lợn cợn, không có tảng riêu?
+    a: >-
+      Do **khuấy trong lúc đun**, hoặc để lửa quá to nên nước sôi bùng làm tảng
+      riêu vỡ. Mẻ này không gom lại được nhưng vẫn ngọt và ăn ngon — cứ lọc qua
+      rây cho bớt lợn cợn rồi dùng. Lần sau: gạt đáy vài lần lúc đầu, sau đó
+      không đụng, và hạ lửa ngay khi riêu bắt đầu nổi.
+  - q: Cua xay sẵn ngoài chợ có nấu được không?
+    a: >-
+      Được, và tiết kiệm hai mươi phút. Hai điều cần nhớ: **dặn hàng để lại mai**
+      để tự khều gạch, và mua vào đúng buổi sáng hôm nấu chứ đừng mua cua đã xay
+      để qua đêm. Về nhà vẫn phải hoà nước và lọc lại ba lần như cua giã tay.
+  - q: Bánh đa cua khác bún riêu cua ở đâu?
+    a: >-
+      Cùng nấu từ cua đồng giã lọc nhưng ra hai tô khác hẳn. Bánh đa cua dùng
+      **sợi bánh đa đỏ bản to**, nước dùng để **ngọt thanh** và đậm đà bằng gạch
+      cua chưng, trên mặt có chả lá lốt và rau muống chần. Bún riêu thì dùng
+      **sợi bún nhỏ**, nước dùng **đánh chua rõ** bằng giấm bỗng hoặc me, và đồ
+      xếp mặt là đậu rán, cà chua, huyết. Một bên ngọt đằm, một bên chua thanh.
+  - q: Làm trước được phần nào?
+    a: >-
+      Nồi nước cua và tảng riêu nấu trước một ngày được, để ngăn mát rồi hâm lại
+      **thật nhẹ tay** cho khỏi vỡ riêu. Chả lá lốt rán sẵn, tôm rang sẵn cũng
+      để được. Gạch chưng thì để hũ kín trong ngăn mát 2–3 ngày. Chỉ có
+      **chần rau và chần bánh đa** là phải làm ngay lúc ăn.
+
+ticker:
+  - icon: pot
+    text: Đun nước cua thì tuyệt đối không khuấy
+  - icon: jar
+    text: Khều gạch riêng rồi chưng với hành phi
+  - icon: noodle
+    text: Chần bánh đa từng tô, chỉ ba mươi giây

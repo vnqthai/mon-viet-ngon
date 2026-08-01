@@ -1,0 +1,358 @@
+title: Xôi ngũ sắc **năm màu xếp thành bông hoa năm cánh**
+summary: >-
+  Một mẻ nếp chia làm năm, mỗi phần ngâm một thứ nước lá rồi hấp riêng: trắng,
+  xanh lá dứa, vàng nghệ, đỏ gấc, tím lá cẩm. Xới ra bày sát nhau thành **bông
+  hoa năm cánh**, cánh nào cũng đủ dẻo và thơm mùi riêng của thứ nhuộm nó.
+region: Tây Bắc
+category: Xôi
+occasions: [Cỗ Tết, Đãi khách]
+pubDate: 2026-08-01
+time:
+  total: 2 giờ (+ ngâm nếp 8 giờ)
+  active: 1 giờ 15 phút
+servingsBase: 8
+difficulty: Kỳ công
+featured: false
+order: 108
+art: xoi-ngu-sac
+heroEyebrow: Mâm xôi ngày hội trên bản, đủ năm màu…
+
+quick:
+  ingredients:
+    - Nếp nương hoặc nếp cái hoa vàng [[800|g]] — chia **năm phần bằng nhau**
+    - Lá cẩm tím [[1|bó]] — đun lấy nước tím
+    - Lá dứa [[1|bó]] — xay lọc lấy nước xanh
+    - Nghệ tươi [[1|củ]] — giã vắt lấy nước vàng
+    - Thịt gấc [[3|muỗng canh]] — bóp rượu trắng, lấy màu đỏ
+    - Muối [[1|muỗng cà phê]] · dầu ăn hoặc mỡ gà [[2|muỗng canh]]
+  steps:
+    - Nấu nước lá cẩm, xay lọc lá dứa, vắt nghệ, bóp gấc — được bốn thứ nước màu.
+    - >-
+      Chia nếp năm phần. Bốn phần ngâm bốn thứ nước màu **8 giờ**, phần còn lại
+      ngâm nước lã.
+    - Vo lại từng phần, để **ráo 20 phút**, xóc muối.
+    - >-
+      Hấp từng màu riêng **30–35 phút**, hoặc chung một xửng nhưng ngăn bằng lá
+      chuối.
+    - Xới ra mâm, xếp năm phần sát nhau thành bông hoa năm cánh.
+  warning: >-
+    Hấp chung mà **không ngăn** thì màu tím và màu đỏ loang sang phần trắng, cả
+    mâm ra một thứ hồng lem nhem. Ngăn bằng dải lá chuối dựng đứng, hoặc chịu
+    khó hấp từng mẻ.
+
+flavor:
+  chua: 0
+  ngot: 3
+  man: 3
+  cay: 0
+  thom: 7
+flavorNote: >-
+  **Chuẩn mâm:** năm cánh **màu tách bạch, ranh giới rõ**, không cánh nào loang
+  sang cánh nào; hạt nếp cánh nào cũng dẻo và rời như nhau; mỗi cánh có mùi
+  riêng rất nhẹ — lá dứa thơm mát, nghệ hăng ấm, lá cẩm gần như không mùi, gấc
+  thoảng béo.
+storyEyebrow: Chuyện món ăn
+storyTitle: Màu ở đây **đều lấy từ cây lá**, không thứ nào là phẩm
+story:
+  - >-
+    Xôi ngũ sắc là mâm xôi của ngày hội vùng cao Tây Bắc — hội xuống đồng, đám
+    cưới, ngày Tết của bản. Đồng bào Thái ở vùng Mường Lò làm mâm này khéo nhất,
+    và cách bày cũng thành lệ: năm phần xôi xếp sát nhau trên một cái mâm tròn,
+    thành **bông hoa năm cánh**.
+  - >-
+    Năm màu ấy đều lấy từ cây lá quanh nhà. **Lá cẩm** đun lên cho nước tím sẫm.
+    **Nghệ tươi** giã vắt ra nước vàng nghệ. **Lá dứa** xay lọc lấy nước xanh
+    non. **Gấc** cho màu đỏ cam. Còn cánh thứ năm thì để nguyên màu trắng của
+    hạt nếp — không nhuộm cũng là một màu.
+  - >-
+    Điều đáng nói là mấy thứ nước lá đó **không chỉ cho màu mà còn cho mùi**.
+    Cắn vào cánh xanh nghe thoảng mát mùi lá dứa, cánh vàng thì hăng ấm mùi
+    nghệ. Đây là chỗ mà phẩm màu công nghiệp không thay được: nó cho đúng màu
+    nhưng cánh nào cũng nhạt thếch như nhau.
+  - >-
+    Làm mâm này tốn công thật — năm phần nếp, bốn thứ nước màu, và phải đồ sao
+    cho các màu không dính vào nhau. Nhưng công nằm hết ở khâu chuẩn bị chứ
+    không ở khâu nấu: pha xong bốn thứ nước rồi thì cứ ngâm qua đêm, sáng ra đồ
+    là xong. Và mâm xôi bưng ra thì không món nào trên bàn tranh được chỗ với nó.
+
+ingredientGroups:
+  - name: Nếp
+    icon: rice
+    items:
+      - id: nepxns
+        name: Nếp nương hoặc nếp cái hoa vàng
+        icon: rice
+        color: gold
+        base: 800
+        unit: g
+        note: >-
+          Nếp nương hạt dài, dẻo và thơm — mua ở hàng đặc sản vùng cao hoặc đặt
+          trên mạng. Không có thì **nếp cái hoa vàng** thay được hoàn toàn, chỉ
+          hạt tròn hơn. Chia đúng **năm phần bằng nhau**, mỗi phần [[160|g]]
+      - id: muoixns
+        name: Muối hạt
+        icon: jar
+        base: 1
+        unit: muỗng cà phê
+        note: Chia đều xóc vào cả năm phần trước khi đồ
+      - id: dauxns
+        name: Dầu ăn hoặc mỡ gà
+        icon: drop
+        base: 2
+        unit: muỗng canh
+        note: >-
+          Rưới lúc xới tơi giữa chừng cho hạt bóng và rời. Mỡ gà thơm hơn, hợp
+          với mâm cỗ
+  - name: Bốn thứ nước màu
+    icon: flower
+    items:
+      - id: lacamxns
+        name: Lá cẩm tím
+        icon: herb
+        base: 1
+        unit: bó
+        note: >-
+          Bán ở hàng rau ngoài chợ, nhiều nhất là chợ miền Tây và chợ vùng cao;
+          không có thì đặt lá khô trên mạng. Rửa sạch, **đun sôi 15 phút** rồi
+          lọc lấy nước tím sẫm. Đun lâu quá thì nước ngả nâu
+      - id: laduaxns
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: >-
+          Cắt khúc, xay với chút nước rồi **lọc qua rây**. Nước xanh non này để
+          lâu sẽ lắng, dùng ngay trong ngày. Lá dứa là cách dễ kiếm nhất cho màu
+          xanh; trên bản người ta hay dùng lá gừng
+      - id: nghexns
+        name: Nghệ tươi
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: >-
+          Củ cỡ ngón tay cái, gọt vỏ, giã nhuyễn rồi vắt lấy nước. Đeo găng —
+          nghệ ăn màu vào tay rất dai. Bí thì dùng [[1|muỗng cà phê]] bột nghệ
+          hòa nước, màu vẫn đạt nhưng nhạt mùi hơn
+      - id: gacxns
+        name: Thịt gấc
+        icon: pumpkin
+        color: red
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Phần thịt đỏ bám quanh hạt, bóp với [[1|muỗng cà phê]] rượu trắng cho
+          tuột khỏi hạt. Trộn thẳng vào nếp chứ không pha nước như ba màu kia
+  - name: Ngăn màu và bày mâm
+    icon: basket
+    items:
+      - id: lachuoixns
+        name: Lá chuối
+        icon: herb
+        color: green
+        base: 3
+        unit: tàu
+        note: >-
+          Trụng nước sôi cho mềm. Cắt dải rộng dựng đứng làm vách ngăn giữa các
+          màu nếu đồ chung chõ; phần còn lại lót mâm lúc bày
+      - id: chomamxns
+        name: Chõ hoặc xửng hấp
+        icon: pot
+        qtyText: 1 cái
+        note: >-
+          Nếp làm chín bằng cách **đồ**, tức hấp bằng hơi nước chứ không nấu
+          trong nước — cái nồi hấp xôi truyền thống gọi là **chõ**. Chõ gỗ vùng
+          cao cho xôi thơm mùi gỗ, nhưng xửng inox thường vẫn ra mâm xôi đạt.
+          Cần thêm một cái **mâm tròn** để bày
+
+steps:
+  - title: Nấu bốn thứ nước màu
+    icon: flower
+    minutes: 30 phút
+    intro: "Làm trước tiên, để nguội hẳn rồi mới đem ngâm nếp:"
+    bullets:
+      - label: "Tím — lá cẩm:"
+        text: >-
+          Rửa sạch, cho vào nồi với [[500|ml]] nước, đun sôi rồi hạ nhỏ lửa
+          **15 phút** tới khi nước tím sẫm. Lọc bỏ bã, để nguội.
+      - label: "Xanh — lá dứa:"
+        text: >-
+          Cắt khúc, xay với [[400|ml]] nước, lọc qua rây thật kỹ. Nước xanh non,
+          thơm mát.
+      - label: "Vàng — nghệ:"
+        text: >-
+          Gọt vỏ, giã nhuyễn, vắt lấy nước rồi pha thêm [[400|ml]] nước lã.
+          Nghệ đậm quá thì hạt xôi ngả nâu và hăng gắt.
+      - label: "Đỏ — gấc:"
+        text: >-
+          Bóp thịt gấc với [[1|muỗng cà phê]] rượu trắng, để 20 phút, nhặt bỏ
+          hạt. Thứ này **không pha nước**, để trộn thẳng vào nếp.
+    callout:
+      type: warn
+      text: >-
+        Nước màu phải **nguội hẳn** mới đem ngâm nếp. Ngâm bằng nước còn ấm là
+        hạt nếp trương lên không đều, chỗ nở chỗ sượng, mà màu cũng bám loang lổ.
+  - title: Chia nếp, ngâm bốn màu
+    icon: rice
+    minutes: 8 giờ
+    bullets:
+      - label: "Chia năm:"
+        text: >-
+          Vo [[800|g]] nếp cho sạch rồi chia **năm phần bằng nhau**, mỗi phần
+          [[160|g]], vào năm cái thau riêng.
+      - label: "Ngâm màu:"
+        text: >-
+          Phần một ngâm nước lá cẩm, phần hai ngâm nước lá dứa, phần ba ngâm
+          nước nghệ, phần bốn ngâm **nước lã** (phần này sẽ trộn gấc lúc đồ),
+          phần năm ngâm nước lã để giữ màu trắng.
+      - label: "Đủ giờ:"
+        text: >-
+          Ngâm ngập nước **8 giờ** hoặc qua đêm. Nước phải cao hơn mặt nếp chừng
+          hai đốt ngón tay vì nếp còn nở.
+      - label: "Vo và để ráo:"
+        text: >-
+          Sáng ra, **vo lại rất nhẹ tay** từng phần dưới vòi nước — vo mạnh là
+          trôi màu. Để ráo **20 phút**, rồi xóc muối. Phần bốn thì trộn thịt gấc
+          vào lúc này, bóp cho đỏ đều.
+    callout:
+      type: tip
+      text: >-
+        Ngâm mỗi phần một thau khác nhau và dán mẩu giấy ghi màu — nghe thừa
+        nhưng lúc nếp ngâm nước lá cẩm và nước nghệ để cạnh nhau trong bếp tối
+        thì rất dễ nhầm.
+  - title: Đồ từng màu
+    icon: pot
+    minutes: 40 phút
+    intro: "Hai cách, chọn theo số chõ nhà có:"
+    bullets:
+      - label: "Cách chắc ăn — đồ riêng:"
+        text: >-
+          Đồ lần lượt từng phần, mỗi phần **30–35 phút**. Đồ màu **nhạt trước,
+          đậm sau** (trắng → vàng → xanh → đỏ → tím) thì chõ không phải rửa
+          giữa chừng.
+      - label: "Cách nhanh — chung chõ:"
+        text: >-
+          Dựng vách ngăn bằng dải lá chuối gấp đôi, chia lòng xửng thành năm ô,
+          mỗi ô một màu. Dàn mỏng đều tay rồi đồ **35 phút**.
+      - label: "Xới giữa chừng:"
+        text: >-
+          Phút thứ **18** mở ra, rưới chút dầu, xới tơi **từng ô riêng** bằng
+          đũa sạch — đừng dùng chung một đôi đũa cho hai màu.
+    timer:
+      secs: 2100
+      label: Hẹn giờ đồ xôi · 35:00
+      doneMsg: Bấm thử một hạt ở mỗi ô — dẻo trong là được rồi!
+    callout:
+      type: warn
+      text: >-
+        Vách ngăn phải **cao hơn mặt nếp** và dựng thật đứng. Thấp hơn hoặc đổ
+        nghiêng là hơi nước cuốn màu tím sang ô trắng, mà đã loang thì không
+        chữa được.
+  - title: Bày thành bông hoa năm cánh
+    icon: plate
+    minutes: 15 phút
+    bullets:
+      - label: "Lót mâm:"
+        text: Lót lá chuối lên mâm tròn cho đẹp và cho xôi khỏi dính.
+      - label: "Xếp cánh:"
+        text: >-
+          Xới từng màu ra, vun thành **hình cánh hoa thuôn dài**, đầu nhọn hướng
+          vào tâm mâm. Xếp lần lượt năm cánh sát nhau cho kín vòng.
+      - label: "Xen màu:"
+        text: >-
+          Đừng để hai màu gần nhau nằm cạnh nhau. Thứ tự dễ nhìn nhất là
+          **trắng – tím – vàng – xanh – đỏ**, sáng tối xen kẽ.
+      - label: "Nén nhẹ:"
+        text: >-
+          Dùng mặt sau thìa vỗ nhẹ cho mỗi cánh gọn mép, đừng ép chặt — xôi này
+          ăn tơi chứ không đóng khuôn.
+    doneText: Xong — bưng cả mâm ra giữa bàn!
+
+tipsTitle: 4 chỗ **quyết định** mâm xôi ngũ sắc
+tips:
+  - icon: alert
+    title: Vo lại thật nhẹ tay, không thì trôi màu
+    text: >-
+      Sau tám tiếng ngâm, màu mới chỉ bám ngoài hạt nếp chứ chưa ăn sâu. Vo mạnh
+      dưới vòi nước là **trôi mất một nửa**, đồ ra cánh nào cũng nhợt. Chỉ khoắng
+      tay nhẹ vài vòng rồi đổ ra rá — mục đích là bỏ nước ngâm, không phải rửa
+      sạch màu.
+  - icon: bulb
+    title: Đồ màu nhạt trước, đậm sau
+    text: >-
+      Nếu đồ lần lượt từng mẻ thì đi theo thứ tự **trắng → vàng → xanh → đỏ →
+      tím**. Làm vậy thì chút màu còn sót trong chõ luôn nhạt hơn mẻ tiếp theo
+      nên không ai thấy. Đồ tím đầu tiên thì cả bốn mẻ sau đều ngả hồng, mà rửa
+      chõ giữa chừng thì nồi nguội, mất thêm mười phút đun lại.
+  - icon: flower
+    title: Nước nghệ đừng pha đậm
+    text: >-
+      Nghệ là thứ dễ tay quá nhất trong bốn màu. Đậm một chút thì cánh vàng ngả
+      **nâu xỉn** và ăn hăng gắt, át hết mùi nếp. Một củ cỡ ngón tay cái vắt ra
+      pha với [[400|ml]] nước là đủ cho [[160|g]] nếp — nhìn nước thấy vàng
+      trong như nước trà là vừa.
+  - icon: clock
+    title: Chia việc ra hai buổi
+    text: >-
+      Mâm này tốn công nhưng công dồn hết vào khâu chuẩn bị. Tối hôm trước nấu
+      bốn thứ nước màu và ngâm năm phần nếp — chừng bốn mươi phút. Sáng hôm sau
+      chỉ còn vo, để ráo và đồ. Cố làm hết trong một buổi thì mới thấy nó là món
+      kỳ công.
+
+serve:
+  title: Bưng cả mâm ra, **mỗi người xúc một cánh**
+  paras:
+    - >-
+      Xôi ngũ sắc dọn nguyên mâm đặt giữa bàn, ai thích màu nào xúc màu ấy. Ăn
+      nóng là ngon nhất, nhưng để nguội vẫn dẻo — đây là món của ngày hội, dọn
+      ra từ sáng và ăn suốt buổi.
+    - >-
+      Trên bản, mâm xôi này đi cùng **thịt gà luộc, cá nướng và chẳm chéo** —
+      thứ muối chấm giã từ ớt, tỏi, mắc khén. Ở nhà thì muối vừng hoặc muối lạc
+      cũng hợp, và một đĩa gà luộc là đủ thành mâm.
+  aside:
+    title: Dọn kèm gì
+    intro: "Ba thứ đi với mâm xôi năm màu:"
+    items:
+      - icon: meat
+        text: "**Gà luộc xé** — món mặn quen nhất đi kèm mâm xôi ngày hội."
+      - icon: chili
+        text: "**Chẳm chéo** — muối chấm vùng cao giã từ ớt, tỏi và mắc khén."
+      - icon: jar
+        text: "**Muối vừng** — cách gọn nhất ở nhà, mặn thơm mà không lấn màu xôi."
+
+faq:
+  - q: Không mua được lá cẩm thì lấy màu tím ở đâu?
+    a: >-
+      **Khoai lang tím** là cách thay dễ nhất: hấp chín, tán nhuyễn rồi trộn vào
+      nếp đã ráo (chứ không pha nước ngâm), tỉ lệ chừng [[60|g]] khoai cho
+      [[160|g]] nếp. Màu ra tím nhạt hơn lá cẩm và hạt xôi hơi bết hơn một chút,
+      nhưng nhìn trên mâm vẫn ra đúng cánh tím. Lá cẩm khô đóng gói cũng bán
+      trên mạng, đun như lá tươi.
+  - q: Chỉ có một cái chõ thì đồ năm mẻ có lâu quá không?
+    a: >-
+      Không lâu như nghe. Mỗi mẻ **30–35 phút** nhưng chỉ mẻ đầu phải chờ nước
+      sôi; các mẻ sau nồi đã nóng sẵn nên chỉ mất đúng thời gian đồ. Hoặc dùng
+      cách ngăn lá chuối để đồ chung một chõ — mâm ra cùng lúc, chỉ cần dựng
+      vách cho đứng và cao hơn mặt nếp.
+  - q: Màu bị loang vào nhau rồi thì cứu được không?
+    a: >-
+      Loang rồi thì không tách lại được. Cách chữa duy nhất là **đổi cách bày**:
+      thay vì xếp năm cánh rạch ròi thì trộn hết lại thành một mâm xôi nhiều màu
+      lẫn lộn, vẫn ngon và vẫn đẹp theo kiểu khác. Lần sau dựng vách lá chuối
+      cao hơn, hoặc chịu khó đồ riêng từng mẻ.
+  - q: Xôi để nguội bị khô cứng, hâm lại thế nào?
+    a: >-
+      Hấp lại là cách duy nhất giữ được cả màu lẫn độ dẻo: xếp từng màu vào
+      xửng, **vẩy chút nước lên mặt**, hấp 8–10 phút. Đừng quay lò vi sóng cả
+      mâm — nhiệt không đều nên chỗ khô cứng chỗ vẫn lạnh, mà mấy màu để sát
+      nhau lại càng dễ lem.
+
+ticker:
+  - icon: flower
+    text: Bốn thứ nước màu đều nấu từ cây lá
+  - icon: rice
+    text: Vo lại thật nhẹ, vo mạnh là trôi màu
+  - icon: pot
+    text: Hấp màu nhạt trước, màu đậm sau

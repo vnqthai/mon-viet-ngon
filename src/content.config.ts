@@ -59,13 +59,23 @@ const recipes = defineCollection({
     title: z.string(),
     summary: z.string(),                  // 1–2 câu — hiện ở hero và thẻ món
     region: z.enum(['Miền Tây', 'Miền Nam', 'Miền Trung', 'Miền Bắc', 'Tây Bắc', 'Tây Nguyên', 'Cả nước']),
-    category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm',
+    category: z.enum(['Canh', 'Kho', 'Xào', 'Nướng', 'Cuốn', 'Gỏi', 'Chiên', 'Hấp', 'Cơm', 'Xôi',
       'Món nước', 'Bún trộn', 'Lẩu', 'Cháo', 'Bánh', 'Bánh mì', 'Chè']),
     // Định nghĩa để không lẫn: Món nước = một tô là xong bữa (kể cả tô nước lèo
     // dọn riêng như phở khô, bún chả) · Canh = món trong mâm cơm, ăn với cơm trắng
     // · Lẩu = nồi đặt giữa bàn, ăn tới đâu nhúng tới đó · Cháo = gạo ninh nhừ
-    // · Bánh = vỏ tráng/đổ từ bột gạo, dù rồi đem chiên hay đem hấp (bánh xèo,
-    //   bánh khoái, bánh cuốn) — xếp theo THỨ LÀM RA chứ không theo cách làm chín.
+    // · Xôi = nếp đồ chín, HẠT CÒN RỜI, xúc hoặc bốc mà ăn. Tách khỏi Cơm vì
+    //   khác hạt (nếp chứ không phải tẻ), khác cách làm chín (đồ hơi chứ không
+    //   nấu trong nước) và khác chỗ đứng trong ngày (phần lớn là quà sáng gói lá
+    //   cầm đi, hoặc đĩa xôi trên mâm cỗ — không phải bát cơm trong bữa).
+    //   Cơm lam ở lại nhóm Cơm: cũng là nếp, nhưng nướng trong ống rồi cắt
+    //   khoanh, không phải xôi đồ.
+    // · Bánh = làm từ gạo hoặc nếp rồi TẠO HÌNH — bột tráng (bánh cuốn), bột đổ
+    //   khuôn (bánh đúc), bột đổ chảo (bánh xèo, bánh khoái), hay nguyên hạt gói
+    //   lá nén chặt (bánh chưng, bánh tét) — dù đem chiên, hấp hay luộc. Xếp
+    //   theo THỨ LÀM RA chứ không theo cách làm chín. Ranh giới với Xôi nằm ở
+    //   chỗ tạo hình: xôi để hạt rời và xúc từng thìa, bánh chưng cũng là nếp
+    //   nhưng nén thành khối rồi cắt ra từng miếng.
     // · Bánh mì = ổ bánh mì kẹp nhân. Tách hẳn khỏi "Bánh" vì khác nguyên liệu
     //   gốc (bột MÌ nướng lò, không phải bột gạo tráng/đổ) và khác cách ăn (cầm
     //   tay, một ổ là xong bữa). Cùng trục "hình thức món" với Cơm · Cháo · Bánh,
@@ -130,6 +140,9 @@ const recipes = defineCollection({
         'bo-xao-thien-ly', 'kho-qua-xao-trung', 'canh-ca-chua-trung', 'cua-hap-bia',
         'bun-mang-vit', 'bun-sua', 'bun-moc', 'bun-oc', 'bun-oc-nguoi',
         'com-chay-cha-bong', 'com-lam', 'com-rang-dua-bo', 'com-ruou',
+        'xoi-dau-xanh', 'xoi-ga', 'xoi-gac', 'xoi-ngu-sac', 'sua-chua-nep-cam',
+        'banh-chung', 'banh-tet', 'banh-giay', 'banh-duc-nong',
+        'banh-da-cua', 'cha-ca-that-lat',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

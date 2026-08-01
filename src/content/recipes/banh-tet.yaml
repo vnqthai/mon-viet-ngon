@@ -1,0 +1,369 @@
+title: Bánh tét **đòn tròn gói lá chuối, cắt ra từng khoanh**
+summary: >-
+  Nếp cuộn quanh cột đậu xanh có miếng ba chỉ nằm giữa, gói lá chuối thành đòn
+  tròn dài rồi luộc suốt đêm. Cắt ngang thành **khoanh tròn dày cỡ đốt tay** —
+  mỗi khoanh là một vòng nếp trắng ôm vòng đậu vàng, chấm thịt hồng ở tâm.
+region: Miền Nam
+category: Bánh
+occasions: [Cỗ Tết, Đãi khách]
+pubDate: 2026-08-01
+time:
+  total: 10 giờ (+ ngâm nếp và đậu 8 giờ)
+  active: 2 giờ
+servingsBase: 10
+difficulty: Kỳ công
+featured: false
+order: 111
+art: banh-tet
+heroEyebrow: Bếp củi sau nhà, hai tám Tết…
+
+quick:
+  ingredients:
+    - Nếp [[1|kg]] — ngâm **8 giờ**, xóc muối, xào sơ với nước cốt dừa
+    - Đậu xanh cà vỏ [[400|g]] — ngâm **4 giờ**, đồ chín, nắm thành cột dài
+    - Thịt ba chỉ [[500|g]] — thái thanh dài, ướp muối tiêu hành **1 giờ**
+    - Lá chuối [[10|tàu]] · dây lạt hoặc dây nylon [[15|sợi]]
+    - Nước cốt dừa [[200|ml]] · muối [[2|muỗng canh]] · tiêu [[1|muỗng canh]]
+  steps:
+    - >-
+      Ngâm nếp 8 giờ, đậu 4 giờ. Xào nếp với nước cốt dừa và muối cho ráo, để
+      nguội.
+    - Đồ đậu chín, tán mịn, nắm thành **cột dài** bọc quanh thanh thịt đã ướp.
+    - >-
+      Trải lá chuối, rải nếp thành hình chữ nhật, đặt cột nhân dọc giữa, **cuộn
+      tròn** lại.
+    - Gấp hai đầu, dựng đòn lên dằn cho chặt, buộc dây thành nhiều khoanh đều.
+    - Luộc **6–8 giờ**, nước ngập đòn, châm nước sôi khi cạn. Vớt ra treo cho ráo.
+  warning: >-
+    Cuộn lỏng tay thì lúc luộc nếp nở ra làm **đòn bánh phình chỗ này tóp chỗ
+    kia**, cắt khoanh ra méo và nhân lệch hẳn sang một bên. Cuộn xong phải dựng
+    đòn xuống mặt bàn dằn vài lần cho nếp dồn đều rồi mới buộc.
+
+flavor:
+  chua: 0
+  ngot: 3
+  man: 5
+  cay: 2
+  thom: 7
+flavorNote: >-
+  **Chuẩn khoanh:** cắt ra thấy **ba vòng đồng tâm rõ ràng** — nếp trắng ngoài,
+  đậu vàng giữa, thịt ở tâm; vòng nếp dày đều quanh chu vi chứ không lệch; nếp
+  dẻo quánh và **thoảng béo nước cốt dừa**; miếng thịt mềm rục, phần mỡ trong
+  như thạch.
+storyEyebrow: Chuyện món ăn
+storyTitle: Đòn tròn thì **cắt tới đâu ăn tới đó**, đó là cả cái lý của nó
+story:
+  - >-
+    Bánh tét miền Nam gói thành **đòn tròn dài** chừng hai gang tay, buộc dây
+    thành nhiều khoanh đều nhau. Cắt ngang một nhát là ra một khoanh tròn, nhìn
+    thấy đủ ba vòng: nếp trắng ở ngoài, đậu xanh vàng ở giữa, miếng thịt hồng
+    nằm chính tâm.
+  - >-
+    Dáng đòn ấy không phải chuyện thẩm mỹ. Đòn bánh treo lên chỗ thoáng thì
+    **cắt tới đâu ăn tới đó**, phần chưa cắt vẫn kín lá và để được thêm nhiều
+    ngày. Trong tiết trời nóng của miền Nam, đó là cách giữ bánh khôn nhất mà
+    không cần tủ lạnh.
+  - >-
+    Nếp làm bánh tét thường được **xào qua với nước cốt dừa** trước khi gói —
+    khâu này miền Bắc không làm. Nếp xào ráo thì hạt săn, cuộn chặt tay hơn và
+    khi luộc ít bị nhão; nước cốt dừa thì để lại vị béo thoảng trong từng khoanh,
+    thứ mà ăn một miếng là nhận ra ngay đây là bánh miền Nam.
+  - >-
+    Nhân thì mỗi nhà một kiểu. Phổ biến nhất là đậu xanh với thịt ba chỉ. Miền
+    Tây có bánh tét nhân **chuối xiêm chín** — cắt ra khoanh có vòng chuối tím
+    sẫm ở giữa, ngọt và không có thịt nên để được lâu hơn. Cần Thơ thì nổi tiếng
+    với bánh tét nhuộm **lá cẩm**, vỏ nếp lên màu tím. Cùng một cách gói, đổi
+    ruột là ra một đòn bánh khác hẳn.
+
+ingredientGroups:
+  - name: Nếp
+    icon: rice
+    items:
+      - id: nepbtet
+        name: Nếp
+        icon: rice
+        color: gold
+        base: 1
+        unit: kg
+        note: >-
+          Nếp hạt to đều, trắng đục. Ngâm **8 giờ**, vo lại, để ráo rồi xóc
+          [[1|muỗng canh]] muối. Miền Nam thường dùng nếp sáp hoặc nếp bà bóng —
+          nếp cái hoa vàng cũng được, chỉ hơi tròn hạt hơn
+      - id: cotduabtet
+        name: Nước cốt dừa
+        icon: drop
+        base: 200
+        unit: ml
+        note: >-
+          Xào chung với nếp trước khi gói cho hạt săn và thơm béo. Bỏ khâu này
+          thì đòn bánh vẫn ngon nhưng nhạt hẳn cái chất miền Nam
+      - id: muoibtet
+        name: Muối hạt
+        icon: jar
+        base: 2
+        unit: muỗng canh
+        note: Chia hai — một phần xóc nếp và xào cùng cốt dừa, một phần nêm đậu và ướp thịt
+  - name: Nhân
+    icon: meat
+    items:
+      - id: dauxanhbtet
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 400
+        unit: g
+        note: >-
+          Ngâm **4 giờ**, đồ chín rồi tán mịn khi còn nóng, nêm chút muối tiêu.
+          Nắm thành **cột dài** bằng chiều dài đòn bánh chứ đừng nắm tròn —
+          cột dài thì cuộn nhanh và nhân không bị đứt đoạn
+      - id: bachibtet
+        name: Thịt ba chỉ
+        icon: meat
+        color: red
+        base: 500
+        unit: g
+        note: >-
+          Thái thành **thanh dài** cỡ ngón tay, chạy hết chiều dài đòn bánh. Chọn
+          miếng nhiều mỡ xen nạc — sau bảy tám tiếng luộc, mỡ chuyển trong như
+          thạch, đó mới là cái ngon của nhân
+      - id: tieubtet
+        name: Tiêu xay
+        icon: pepper
+        base: 1
+        unit: muỗng canh
+        note: Xay thô, ướp thịt cùng muối và hành tím băm, để **1 giờ**
+      - id: hanhtimbtet
+        name: Hành tím
+        icon: onion
+        base: 5
+        unit: củ
+        note: Băm nhỏ, ướp cùng thịt cho dậy mùi
+  - name: Lá và dây
+    icon: herb
+    items:
+      - id: lachuoibtet
+        name: Lá chuối
+        icon: herb
+        color: green
+        base: 10
+        unit: tàu
+        note: >-
+          Chọn lá **bánh tẻ**, bản rộng, không rách. Lau sạch rồi **hơ nhanh qua
+          lửa** hoặc trụng nước sôi cho mềm và dai — lá sống thì gấp là gãy. Lau
+          thật khô trước khi gói. Mỗi đòn cần 2–3 lá lớn xếp chồng
+      - id: daybtet
+        name: Dây lạt hoặc dây nylon
+        icon: stem
+        base: 15
+        unit: sợi
+        note: >-
+          Lạt giang ngâm mềm là chuẩn nhất và cũng dùng để cắt bánh. Dây nylon
+          thực phẩm buộc chắc và nhanh hơn, nhiều nhà giờ dùng loại này. Mỗi đòn
+          buộc **5–6 vòng** cách đều
+      - id: laybtet
+        name: Lạt buộc hai đầu
+        icon: stem
+        qtyText: 4 sợi mỗi đòn
+        note: Buộc túm hai đầu đòn trước khi buộc thân, cho nhân khỏi tòi ra
+
+steps:
+  - title: Ngâm, đồ đậu, ướp thịt
+    icon: clock
+    minutes: 8 giờ
+    intro: "Làm tối hôm trước:"
+    bullets:
+      - label: "Nếp:"
+        text: >-
+          Vo sạch, ngâm ngập nước lạnh **8 giờ**. Vo lại, để ráo **30 phút**.
+      - label: "Đậu xanh:"
+        text: >-
+          Ngâm **4 giờ**, đồ chín tới, tán mịn khi còn nóng, nêm chút muối và
+          tiêu.
+      - label: "Thịt:"
+        text: >-
+          Thái thanh dài cỡ ngón tay, ướp muối, [[1|muỗng canh]] tiêu xay và
+          hành tím băm. Để **1 giờ**.
+      - label: "Lá chuối:"
+        text: >-
+          Lau sạch hai mặt, **hơ nhanh qua lửa** cho lá mềm và ngả sang xanh
+          sẫm, rồi lau khô. Cắt thành tấm dài chừng 40 cm.
+    callout:
+      type: tip
+      text: >-
+        Hơ lá là khâu người mới hay bỏ qua. Lá chuối sống rất giòn, cuộn tới nửa
+        vòng là nứt dọc theo gân. Hơ qua lửa vài giây mỗi mặt là lá dai hẳn, cuộn
+        chặt cỡ nào cũng không rách.
+  - title: Xào nếp với nước cốt dừa
+    icon: flame
+    minutes: 20 phút
+    bullets:
+      - label: "Bắc chảo:"
+        text: >-
+          Cho nếp đã ráo vào chảo lớn, rưới [[200|ml]] nước cốt dừa và
+          [[1|muỗng canh]] muối.
+      - label: "Xào:"
+        text: >-
+          Lửa vừa, đảo đều tay **12–15 phút** tới khi nếp hút hết nước cốt và
+          hạt **săn lại, ráo mặt**. Không phải xào chín — chỉ cho hạt se và
+          ngấm béo.
+      - label: "Để nguội:"
+        text: >-
+          Trút ra mâm, dàn mỏng cho nguội hẳn rồi mới gói. Nếp còn nóng thì lá
+          chuối bị hấp hơi và mềm nhũn.
+    callout:
+      type: warn
+      text: >-
+        Đảo không đều là đáy chảo cháy còn mặt trên vẫn ướt. Dùng chảo rộng, để
+        lửa vừa, và đảo từ dưới lên liên tục — mười lăm phút này quyết định đòn
+        bánh cuộn có chặt được không.
+  - title: Nắm nhân, cuộn đòn
+    icon: knife
+    minutes: 1 giờ
+    intro: "Cả cái khó của bánh tét nằm ở khâu này:"
+    bullets:
+      - label: "Nắm nhân:"
+        text: >-
+          Dàn đậu xanh thành **tấm dài**, đặt thanh thịt vào giữa rồi nắm bọc
+          kín lại thành một **cột tròn dài** bằng chiều dài đòn bánh.
+      - label: "Trải lá:"
+        text: >-
+          Xếp 2–3 tấm lá chuối chồng lên nhau, mặt xanh đậm quay ra ngoài, gân
+          lá chạy **ngang** người gói.
+      - label: "Rải nếp:"
+        text: >-
+          Rải nếp lên lá thành **hình chữ nhật** dày đều chừng 1,5 cm, chừa mép
+          lá mỗi bên 4–5 cm.
+      - label: "Cuộn:"
+        text: >-
+          Đặt cột nhân dọc chính giữa, nhấc mép lá gần người lên **cuộn tròn**
+          lại, vừa cuộn vừa siết cho nếp ôm khít cột nhân.
+      - label: "Dằn và buộc:"
+        text: >-
+          Gấp kín hai đầu, **dựng đòn lên mặt bàn dằn vài cái** cho nếp dồn
+          xuống đều, rồi buộc dây thành 5–6 vòng cách đều nhau.
+    callout:
+      type: warn
+      text: >-
+        Nhân phải nằm **đúng tâm**. Đặt lệch thì khoanh bánh cắt ra có chỗ vỏ
+        nếp dày cả đốt tay, chỗ mỏng dính gần rách — mà đó lại là thứ đập vào
+        mắt đầu tiên khi bày lên đĩa.
+  - title: Luộc và treo
+    icon: pot
+    minutes: 8 giờ
+    bullets:
+      - label: "Xếp nồi:"
+        text: >-
+          Lót đáy nồi bằng lá thừa. Xếp đòn **nằm ngang**, chèn khít cho khỏi
+          xô đẩy.
+      - label: "Luộc:"
+        text: >-
+          Đổ nước ngập trên mặt bánh 5 cm, đun sôi rồi hạ lửa vừa. Luộc
+          **6–8 tiếng** tùy đòn to nhỏ.
+      - label: "Châm nước:"
+        text: >-
+          Hai tiếng kiểm một lần, cạn thì châm **nước sôi**. Nửa chừng trở đòn
+          một lần cho chín đều.
+      - label: "Vớt và treo:"
+        text: >-
+          Vớt ra rửa qua nước lạnh cho sạch nhựa lá, rồi **treo lên chỗ thoáng
+          gió** cho ráo hẳn. Đòn treo đứng thì nước tự chảy xuống, khỏi phải ép
+          như bánh vuông.
+    timer:
+      secs: 3600
+      label: Hẹn giờ ghé canh nước · 60:00
+      doneMsg: Nhìn mực nước, cạn thì châm nước SÔI nghen!
+    doneText: Xong — treo lên, cắt tới đâu ăn tới đó!
+
+tipsTitle: 4 chỗ **quyết định** đòn bánh tét
+tips:
+  - icon: alert
+    title: Dằn đòn trước khi buộc
+    text: >-
+      Cuộn xong, cầm đòn dựng thẳng đứng và **gõ mạnh đầu xuống mặt bàn vài
+      lần**, đổi đầu làm lại. Nếp dồn xuống lấp hết khoảng trống, đòn chắc đều
+      từ đầu tới cuối. Bỏ bước này thì luộc xong đòn phình chỗ này tóp chỗ kia,
+      cắt khoanh ra méo mó.
+  - icon: bulb
+    title: Nhân phải nằm đúng tâm
+    text: >-
+      Trước khi cuộn, đặt cột nhân xuống rồi lùi lại nhìn một lượt xem nó có
+      **nằm đúng giữa dải nếp** không. Lệch một chút ở lúc trải thì lệch hẳn khi
+      cuộn xong. Đây là thứ quyết định khoanh bánh nhìn có đẹp không, mà chỉ tốn
+      năm giây để kiểm.
+  - icon: flame
+    title: Hơ lá chuối, đừng gói lá sống
+    text: >-
+      Lá chuối tươi giòn như giấy khô, cuộn nửa vòng là nứt dọc gân. Hơ nhanh
+      qua lửa mỗi mặt vài giây — lá đổi sang **xanh sẫm và dẻo hẳn**, cuộn chặt
+      cỡ nào cũng lành. Không có bếp lửa thì trụng nước sôi 10 giây rồi lau khô.
+  - icon: drop
+    title: Treo cho ráo thay vì ép
+    text: >-
+      Bánh chưng vuông thì phải ép, còn đòn bánh tét chỉ cần **treo đứng nơi
+      thoáng gió vài tiếng** — nước tự chảy dồn xuống và thoát ra hai đầu. Treo
+      đủ ráo thì đòn bánh chắc tay, cắt khoanh đứng miếng và để được lâu hơn
+      hẳn.
+
+serve:
+  title: Cắt khoanh dày cỡ đốt tay, **dọn cùng dưa món**
+  paras:
+    - >-
+      Tháo dây, bóc lá tới đâu cắt tới đó. Cách cắt gọn nhất là dùng **chính sợi
+      lạt**: vòng quanh đòn bánh rồi kéo hai đầu cho lạt siết đứt — khoanh ra
+      tròn đều, không bị dao kéo lệch. Mỗi khoanh dày chừng một đốt tay.
+    - >-
+      Trên mâm Tết miền Nam, bánh tét đứng cạnh **dưa món** (củ kiệu, cà rốt,
+      đu đủ ngâm nước mắm đường) và **thịt kho hột vịt**. Vị chua ngọt giòn của
+      dưa món là thứ cắt béo hiệu quả nhất cho khoanh bánh.
+  aside:
+    title: Ăn còn dư thì làm gì
+    intro: "Đòn bánh để mấy ngày là cứng lại — ba cách xử:"
+    items:
+      - icon: flame
+        text: "**Chiên khoanh bánh** — chiên hai mặt vàng giòn, ruột vẫn dẻo mềm."
+      - icon: pot
+        text: "**Hấp lại** — 15 phút trong xửng, dẻo gần như mới cắt."
+      - icon: lettuce
+        text: "**Kèm dưa món hoặc củ kiệu** — khoanh nguội mà có dưa thì vẫn đưa miệng."
+
+faq:
+  - q: Bánh tét khác bánh chưng ở những chỗ nào?
+    a: >-
+      Bốn chỗ. **Dáng:** đòn tròn dài, cắt thành khoanh — thay vì khối vuông cắt
+      thành miếng tam giác. **Lá:** lá chuối thay lá dong, nên vỏ bánh không có
+      màu xanh trong đặc trưng mà ngả sang trắng ngà. **Nếp:** thường được xào
+      qua nước cốt dừa nên thoảng béo. **Bảo quản:** treo đòn lên và cắt dần,
+      thay vì ép rồi để nguyên cái.
+  - q: Cắt khoanh ra thấy vỏ nếp chỗ dày chỗ mỏng?
+    a: >-
+      Do **cột nhân đặt lệch tâm** lúc trải nếp, hoặc cuộn không siết đều tay.
+      Không sửa được cho đòn đã luộc, nhưng vẫn ăn ngon. Lần sau: rải nếp thành
+      hình chữ nhật thật đều dày, đặt cột nhân xuống rồi **lùi lại nhìn một
+      lượt** trước khi cuộn.
+  - q: Làm bánh tét chuối thì đổi chỗ nào?
+    a: >-
+      Bỏ hẳn đậu xanh và thịt, thay bằng **chuối xiêm chín** — loại chín kỹ, vỏ
+      lấm tấm đen. Lột vỏ, xếp dọc thành cột như cột nhân mặn, rắc chút đường và
+      muối. Nếp thì trộn thêm [[100|g]] đậu đen đã luộc cho có màu và có chỗ
+      nhai. Luộc ngắn hơn, chừng **5–6 tiếng**. Bánh ngọt và không có thịt nên
+      để được lâu hơn bản mặn.
+  - q: Không có nồi to thì luộc bằng gì?
+    a: >-
+      Gói **đòn nhỏ lại** — dài chừng 20 cm thay vì 40 cm — rồi luộc trong nồi
+      thường, thời gian rút xuống còn **4–5 tiếng**. Nồi áp suất cũng dùng được
+      với đòn nhỏ, chừng 1,5 tiếng, nhưng vỏ nếp sẽ nhừ hơn và mất cái dẻo quánh
+      của luộc chậm.
+  - q: Đòn bánh treo được bao lâu?
+    a: >-
+      Treo nơi thoáng gió thì bản mặn được **4–5 ngày**, bản chuối được lâu hơn
+      chừng gấp rưỡi vì không có thịt. Trời nóng thì cất ngăn mát, được
+      **10 ngày**. Phần đã cắt phải bọc kín mặt cắt lại, không thì nếp khô cứng
+      và nứt. Thấy nhớt hoặc chua thì bỏ cả đòn.
+
+ticker:
+  - icon: rice
+    text: Nếp xào nước cốt dừa cho hạt săn
+  - icon: knife
+    text: Dằn đòn cho nếp dồn đều rồi mới buộc
+  - icon: drop
+    text: Treo cho ráo thay vì ép như bánh vuông

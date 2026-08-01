@@ -1,0 +1,91 @@
+---
+/* Xôi đậu xanh — họ vàng "Cơm & bánh". VẼ LẠI vòng 2.
+   Vòng 1: gò xôi vẽ to gần bằng cái đĩa nên đĩa men xanh chỉ còn hở một vành
+   mỏng — mất hẳn tác dụng "chèn lớp sẫm ở giữa" mà chính nó được chọn để làm,
+   và ở 260px đọc ra một cục trắng nằm trên vệt xanh. Hạt đậu để rx 10 vẫn hơi
+   nhỏ so với nền.
+   Vòng 2: thu gò xôi lại còn chừng 2/3 bề ngang đĩa để lòng đĩa men xanh hở rõ
+   cả hai bên; hạt đậu phóng lên rx 12 và tô đậm hơn (đậu xanh cà vỏ đồ chín là
+   VÀNG, không phải xanh — đừng suy từ cái tên).
+   Vẫn giữ luật đã rút: đậu ĐỒ CHUNG nên nằm LẪN trong nền nếp và rải khắp đống,
+   không phải một lớp phủ trên mặt (lớp phủ là xôi xéo). */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Đĩa xôi đậu xanh trên đĩa gốm men xanh: gò nếp trắng ngà lấm tấm hạt đậu vàng, bên cạnh là chén muối vừng">
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M222 174 C 211 150 237 134 226 108 C 219 92 233 80 229 66"/>
+    <path d="M300 170 C 290 146 316 132 305 106 C 298 90 312 78 308 64"/>
+  </g>
+  <ellipse cx="252" cy="402" rx="182" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐĨA GỐM MEN XANH LAM: to và nông, lòng đĩa hở rõ hai bên gò xôi -->
+  <ellipse cx="252" cy="356" rx="180" ry="54" fill="#153138" stroke="#0C2027" stroke-width="3"/>
+  <ellipse cx="252" cy="346" rx="180" ry="54" fill="#2A5F6C" stroke="#0C2027" stroke-width="3"/>
+  <ellipse cx="252" cy="346" rx="150" ry="42" fill="#367482" stroke="#1B424B" stroke-width="2.4"/>
+  <path d="M118 336 C 152 316 352 316 386 336" fill="none" stroke="#4F909F" stroke-width="3.4" stroke-linecap="round" opacity=".85"/>
+
+  <!-- GÒ XÔI: gọn lại, chỉ chiếm khoảng 2/3 bề ngang đĩa -->
+  <path d="M164 340 C 166 302 196 274 234 264 C 274 254 316 260 344 280 C 366 296 374 320 370 340 C 350 356 306 364 262 364 C 216 364 180 356 164 340 Z"
+        fill="#F0E4CB" stroke="#B39A6E" stroke-width="3"/>
+  <g fill="#F8F0DE" stroke="#B39A6E" stroke-width="2">
+    <ellipse cx="169" cy="326" rx="9.6" ry="5.8" transform="rotate(-58 169 326)"/>
+    <ellipse cx="182" cy="300" rx="9.6" ry="5.8" transform="rotate(-42 182 300)"/>
+    <ellipse cx="206" cy="280" rx="9.6" ry="5.8" transform="rotate(-26 206 280)"/>
+    <ellipse cx="240" cy="266" rx="9.8" ry="5.8" transform="rotate(-10 240 266)"/>
+    <ellipse cx="280" cy="262" rx="9.8" ry="5.8" transform="rotate(6 280 262)"/>
+    <ellipse cx="316" cy="270" rx="9.6" ry="5.8" transform="rotate(22 316 270)"/>
+    <ellipse cx="348" cy="288" rx="9.6" ry="5.8" transform="rotate(42 348 288)"/>
+    <ellipse cx="366" cy="318" rx="9.6" ry="5.8" transform="rotate(62 366 318)"/>
+    <ellipse cx="180" cy="350" rx="9.6" ry="5.6" transform="rotate(24 180 350)"/>
+    <ellipse cx="226" cy="360" rx="9.8" ry="5.8" transform="rotate(8 226 360)"/>
+    <ellipse cx="278" cy="362" rx="9.8" ry="5.8" transform="rotate(-6 278 362)"/>
+    <ellipse cx="330" cy="356" rx="9.6" ry="5.6" transform="rotate(-22 330 356)"/>
+    <ellipse cx="362" cy="342" rx="9.4" ry="5.4" transform="rotate(-40 362 342)"/>
+  </g>
+  <g fill="#FCF6E9">
+    <ellipse cx="204" cy="318" rx="8.4" ry="4.8" transform="rotate(-16 204 318)"/>
+    <ellipse cx="252" cy="334" rx="8.4" ry="4.8" transform="rotate(8 252 334)"/>
+    <ellipse cx="308" cy="326" rx="8.4" ry="4.8" transform="rotate(-8 308 326)"/>
+    <ellipse cx="228" cy="294" rx="8.2" ry="4.6" transform="rotate(-14 228 294)"/>
+    <ellipse cx="296" cy="290" rx="8.2" ry="4.6" transform="rotate(10 296 290)"/>
+  </g>
+
+  <!-- HẠT ĐẬU XANH CÀ VỎ đồ chín: VÀNG, to hơn hạt nếp, rải khắp đống -->
+  <g fill="#D4A82A" stroke="#8A6708" stroke-width="2">
+    <ellipse cx="212" cy="306" rx="12" ry="8.4" transform="rotate(-16 212 306)"/>
+    <ellipse cx="262" cy="292" rx="12.4" ry="8.6" transform="rotate(8 262 292)"/>
+    <ellipse cx="312" cy="302" rx="12" ry="8.4" transform="rotate(-10 312 302)"/>
+    <ellipse cx="338" cy="330" rx="11.6" ry="8.2" transform="rotate(22 338 330)"/>
+    <ellipse cx="286" cy="340" rx="12.4" ry="8.6" transform="rotate(-6 286 340)"/>
+    <ellipse cx="228" cy="344" rx="12" ry="8.4" transform="rotate(14 228 344)"/>
+    <ellipse cx="188" cy="330" rx="11.6" ry="8.2" transform="rotate(-24 188 330)"/>
+    <ellipse cx="242" cy="272" rx="11.4" ry="8" transform="rotate(-8 242 272)"/>
+    <ellipse cx="304" cy="274" rx="11.4" ry="8" transform="rotate(16 304 274)"/>
+  </g>
+  <!-- vài hạt ló hẳn ra mép đống cho đọc được ở cỡ thumbnail -->
+  <g fill="#E6BE3E" stroke="#8A6708" stroke-width="2">
+    <ellipse cx="172" cy="310" rx="11.4" ry="8" transform="rotate(-50 172 310)"/>
+    <ellipse cx="282" cy="257" rx="11.4" ry="8" transform="rotate(6 282 257)"/>
+    <ellipse cx="256" cy="365" rx="11.4" ry="8" transform="rotate(-4 256 365)"/>
+    <ellipse cx="360" cy="304" rx="11.2" ry="7.8" transform="rotate(48 360 304)"/>
+  </g>
+  <path d="M212 284 C 250 272 296 274 322 286" fill="none" stroke="#FFF9EC" stroke-width="3.4" stroke-linecap="round" opacity=".55"/>
+
+  <!-- CHÉN MUỐI VỪNG: sành nâu, đặt dưới chân đĩa bên phải -->
+  <ellipse cx="438" cy="382" rx="44" ry="13" fill="rgba(15,26,14,.3)"/>
+  <path d="M398 354 C 400 376 414 388 438 388 C 462 388 476 376 478 354 Z" fill="#7A5230" stroke="#472D16" stroke-width="3"/>
+  <ellipse cx="438" cy="354" rx="40" ry="12" fill="#8E6238" stroke="#472D16" stroke-width="3"/>
+  <ellipse cx="438" cy="355" rx="32" ry="8.6" fill="#E9DCBE"/>
+  <g fill="#3E2A16">
+    <ellipse cx="424" cy="353" rx="3.4" ry="2.2"/>
+    <ellipse cx="440" cy="357" rx="3.4" ry="2.2"/>
+    <ellipse cx="454" cy="352" rx="3.4" ry="2.2"/>
+    <ellipse cx="432" cy="359" rx="3" ry="2"/>
+    <ellipse cx="448" cy="359" rx="3" ry="2"/>
+  </g>
+  <g fill="#C9A05A">
+    <ellipse cx="430" cy="351" rx="4.4" ry="2.8" transform="rotate(-14 430 351)"/>
+    <ellipse cx="448" cy="355" rx="4.4" ry="2.8" transform="rotate(10 448 355)"/>
+  </g>
+</svg>

@@ -1,0 +1,316 @@
+title: Sữa chua nếp cẩm **nếp tím dẻo quánh dưới lớp sữa chua trắng**
+summary: >-
+  Nếp cẩm ninh với lá dứa cho tới lúc hạt nứt và nước sánh lại, thêm đường và
+  nước cốt dừa. Múc vào ly, chan sữa chua lạnh lên trên — **tím sẫm nằm dưới,
+  trắng ngà nằm trên**, xúc một thìa là được cả hai.
+region: Miền Bắc
+category: Chè
+occasions: [Ăn chơi]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 30 phút (+ ngâm nếp 6 giờ)
+  active: 30 phút
+servingsBase: 6
+difficulty: Dễ
+featured: false
+order: 109
+art: sua-chua-nep-cam
+heroEyebrow: Quán vỉa hè Hà Nội, ly lấy ra từ tủ mát…
+
+quick:
+  ingredients:
+    - Nếp cẩm [[250|g]] — ngâm **6 giờ**, vớt bỏ hạt nổi
+    - Lá dứa [[3|lá]] — buộc nút thả vào nồi ninh
+    - Đường [[120|g]] — nêm sau khi hạt đã mềm
+    - Nước cốt dừa [[150|ml]] · muối [[1|muỗng cà phê|frac]]
+    - Sữa chua [[6|hộp]] — để lạnh
+  steps:
+    - Ngâm nếp cẩm **6 giờ**, vo lại, vớt bỏ hạt nổi lều bều.
+    - >-
+      Ninh với [[1|lít]] nước và lá dứa, lửa nhỏ **50–60 phút** tới khi hạt nứt
+      và nước sánh.
+    - Nêm đường, đảo cho tan, ninh thêm **10 phút**.
+    - Cho nước cốt dừa và chút muối, đun **3 phút** rồi tắt bếp, để nguội hẳn.
+    - Múc nếp cẩm vào ly, chan sữa chua lạnh lên trên.
+  warning: >-
+    Cho đường vào **lúc hạt còn cứng** thì vỏ hạt se lại, ninh thêm một tiếng
+    nữa vẫn không mềm được. Đợi hạt nứt ra và bấm thấy bở mới nêm đường.
+
+flavor:
+  chua: 5
+  ngot: 6
+  man: 1
+  cay: 0
+  thom: 6
+flavorNote: >-
+  **Chuẩn ly:** hạt nếp cẩm **nứt vỏ, mềm mà còn nguyên hạt**, nhai ra dẻo và
+  hơi sựt ở lõi; phần nước quanh hạt **sánh như hồ loãng**, kéo thìa lên thấy
+  chảy chậm; sữa chua lạnh gặp nếp cẩm mát tạo hai lớp rõ, xúc xuống mới trộn
+  vào nhau.
+storyEyebrow: Chuyện món ăn
+storyTitle: Hai thứ **chẳng liên quan gì nhau**, ghép lại thành món quen nhất Hà Nội
+story:
+  - >-
+    Nếp cẩm là giống nếp hạt dài, vỏ ngoài màu tím than gần như đen, ninh lên
+    thì tiết ra thứ nước tím sẫm và sánh. Sữa chua thì mát, chua nhẹ, trắng ngà.
+    Hai thứ ấy chẳng có họ hàng gì, mà ghép vào một ly thì thành món tráng miệng
+    được gọi tên nhiều nhất ở các quán vỉa hè Hà Nội.
+  - >-
+    Chỗ hợp nhau nằm ở **kết cấu chứ không phải ở vị**. Hạt nếp cẩm dẻo, có chỗ
+    để nhai, và ấm vị nếp; sữa chua thì mịn, lạnh và chua. Xúc một thìa lấy được
+    cả hai lớp là trong miệng có đủ dẻo — mịn — mát — chua, thứ nào cũng rõ và
+    không thứ nào át thứ nào.
+  - >-
+    Bản gốc ở hàng quán dùng **nếp cẩm ủ men** — tức là rượu nếp cẩm, ngọt và
+    dậy mùi men. Bản ninh đường trong bài này là bản mà nhà nào cũng nấu được
+    trong một buổi chiều: không phải canh men, không sợ hỏng mẻ, và vị thì gần
+    như y hệt vì cái chua đã có sẵn ở lớp sữa chua bên trên rồi.
+  - >-
+    Một điều đáng biết trước khi bắc nồi: nếp cẩm **ninh lâu hơn mọi loại nếp
+    khác**. Lớp vỏ cám tím dày và dai, phải gần một tiếng lửa nhỏ hạt mới chịu
+    nứt ra. Đừng vặn lửa to cho nhanh — nước cạn trước khi hạt kịp mềm, mà đáy
+    nồi thì khét.
+
+ingredientGroups:
+  - name: Nếp cẩm
+    icon: rice
+    items:
+      - id: nepcamscnc
+        name: Nếp cẩm
+        icon: rice
+        base: 250
+        unit: g
+        note: >-
+          Còn gọi là **nếp than**. Chọn hạt dài, đều, màu tím than đậm và bóng;
+          hạt bạc màu hay lẫn nhiều sạn là gạo cũ, ninh mãi không mềm. Ngâm 6
+          giờ rồi vớt bỏ hạt nổi lều bều trên mặt — đó là hạt lép
+      - id: laduascnc
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 3
+        unit: lá
+        note: >-
+          Buộc nút thả vào nồi ninh, vớt ra trước khi nêm đường. Nồi nếp cẩm
+          không có lá dứa thì vẫn ngon nhưng thiếu hẳn mùi thơm nền
+      - id: muoiscnc
+        name: Muối
+        icon: jar
+        qtyText: ¼ muỗng cà phê
+        note: >-
+          Cho vào cùng nước cốt dừa. Chút mặn làm cái ngọt bớt gắt và cái béo
+          của dừa dày hơn
+  - name: Nêm và làm béo
+    icon: drop
+    items:
+      - id: duongscnc
+        name: Đường
+        icon: jar
+        base: 120
+        unit: g
+        note: >-
+          Đường nâu cho màu sâu và vị mật; đường cát trắng thì trong hơn. Nêm
+          **sau khi hạt đã mềm** — đây là chỗ hay hỏng nhất của món này
+      - id: cotduascnc
+        name: Nước cốt dừa
+        icon: drop
+        base: 150
+        unit: ml
+        note: >-
+          Cho vào cuối cùng, chỉ đun thêm 3 phút rồi tắt. Đun sôi già thì nước
+          cốt tách dầu, mặt nồi nổi váng
+  - name: Lớp trên
+    icon: bottle
+    items:
+      - id: suachuascnc
+        name: Sữa chua
+        icon: bottle
+        base: 6
+        unit: hộp
+        note: >-
+          Loại **có đường, để thật lạnh**. Sữa chua không đường thì chua gắt, át
+          mất vị nếp; nếu chỉ có loại không đường thì tăng đường trong nồi nếp
+          cẩm lên [[150|g]]
+      - id: duabaoscnc
+        name: Dừa nạo sợi
+        icon: pod
+        qtyText: 2 muỗng canh
+        note: Tùy thích — rắc lên mặt ly cho có chỗ nhai và thơm thêm
+
+steps:
+  - title: Ngâm nếp cẩm
+    icon: clock
+    minutes: 6 giờ
+    bullets:
+      - label: "Vo và ngâm:"
+        text: >-
+          Vo nếp cẩm 2–3 nước — nước vo sẽ ra màu tím sẫm, đó là bình thường.
+          Ngâm ngập nước lạnh **6 giờ** hoặc qua đêm.
+      - label: "Vớt hạt lép:"
+        text: >-
+          Trước khi nấu, hớt bỏ những hạt **nổi lều bều trên mặt nước** — hạt
+          lép, ninh mãi vẫn cứng.
+      - text: Đổ ra rá cho ráo, không cần để lâu như nấu xôi.
+    callout:
+      type: tip
+      text: >-
+        Quên ngâm thì vẫn nấu được, chỉ phải ninh lâu hơn chừng **20 phút** và
+        tốn thêm nước. Nhưng hạt sẽ nứt không đều — chỗ bung nát, chỗ còn cứng.
+  - title: Ninh cho hạt nứt
+    icon: pot
+    minutes: 1 giờ
+    intro: "Bước dài nhất, và cũng là bước duy nhất khó:"
+    bullets:
+      - label: "Bắc nồi:"
+        text: >-
+          Cho nếp cẩm vào nồi đáy dày với [[1|lít]] nước lạnh và bó lá dứa. Đun
+          sôi rồi **hạ ngay xuống lửa nhỏ nhất**.
+      - label: "Ninh:"
+        text: >-
+          Để sôi liu riu **50–60 phút**, mở hé vung. Cứ 15 phút đảo một lần từ
+          đáy lên cho khỏi khét.
+      - label: "Canh nước:"
+        text: >-
+          Nước cạn quá thì chế thêm **nước sôi**, đừng chế nước lạnh — hạt đang
+          nở gặp lạnh là chai lại.
+      - label: "Kiểm:"
+        text: >-
+          Bấm thử một hạt thấy **vỏ đã nứt và lõi bở** là được. Vớt bỏ lá dứa.
+    timer:
+      secs: 3000
+      label: Hẹn giờ ninh nếp cẩm · 50:00
+      doneMsg: Bấm thử một hạt — nứt vỏ và bở lõi là tới rồi!
+    callout:
+      type: warn
+      text: >-
+        **Đừng vặn lửa to cho nhanh.** Nước sôi mạnh làm hạt xóc lên xuống, vỡ
+        vỏ ngoài mà lõi vẫn sống, còn nước thì cạn trước khi hạt kịp mềm. Nồi
+        nếp cẩm chỉ nở đúng ở lửa liu riu.
+  - title: Nêm đường và nước cốt dừa
+    icon: spoon
+    minutes: 15 phút
+    bullets:
+      - label: "Đường:"
+        text: >-
+          Rắc [[120|g]] đường vào, đảo cho tan hết rồi ninh tiếp **10 phút** cho
+          hạt ngấm ngọt và nước sánh lại.
+      - label: "Nước cốt dừa:"
+        text: >-
+          Rưới [[150|ml]] nước cốt dừa và [[1|muỗng cà phê|frac]] muối, đun thêm
+          **3 phút** rồi tắt bếp ngay.
+      - label: "Kiểm độ sánh:"
+        text: >-
+          Kéo thìa lên, phần nước phải **chảy chậm thành dòng** chứ không loãng
+          như nước lã. Loãng quá thì đun thêm 5 phút mở vung.
+      - label: "Để nguội:"
+        text: >-
+          Để nguội hẳn rồi cất ngăn mát ít nhất **1 giờ**. Món này ăn lạnh mới
+          đúng.
+    callout:
+      type: warn
+      text: >-
+        Nồi nếp cẩm **đặc thêm khi nguội**. Lúc còn nóng thấy vừa sánh thì lúc
+        lạnh sẽ đặc quánh khó xúc — canh để nó hơi loãng hơn ý mình một chút là
+        vừa.
+  - title: Ráp ly
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - label: "Múc nếp cẩm:"
+        text: >-
+          Múc nếp cẩm lạnh vào ly, chừng **hai phần ba ly**, gạt bằng mặt.
+      - label: "Chan sữa chua:"
+        text: >-
+          Múc sữa chua lạnh đổ lên trên, đổ **từ từ vào giữa** để hai lớp còn
+          tách bạch chứ không lẫn ngay.
+      - label: "Rắc mặt:"
+        text: Rắc chút dừa nạo sợi nếu thích, dọn kèm thìa dài.
+    doneText: Xong — xúc sâu xuống cho được cả hai lớp!
+
+tipsTitle: 4 chỗ **quyết định** ly sữa chua nếp cẩm
+tips:
+  - icon: alert
+    title: Đường vào sau, luôn luôn vậy
+    text: >-
+      Đường làm vỏ hạt nếp cẩm se lại và ngừng hút nước. Nêm sớm thì có ninh
+      thêm cả tiếng hạt vẫn cứng, mà nước thì cạn dần và cháy đáy. Cứ ninh trơn
+      bằng nước lã cho tới lúc **bấm hạt thấy nứt vỏ, bở lõi**, xong mới cho
+      đường — đây là một trong hai chỗ duy nhất làm hỏng món này.
+  - icon: flame
+    title: Lửa liu riu, mở hé vung
+    text: >-
+      Chỗ hỏng thứ hai. Nếp cẩm cần gần một tiếng ở lửa nhỏ nhất; sôi mạnh chỉ
+      làm hạt xóc và vỡ mặt ngoài. Mở hé vung để nước bay bớt dần — đậy kín thì
+      nồi trào, mà mở toang thì cạn quá nhanh.
+  - icon: bottle
+    title: Sữa chua có đường, và phải thật lạnh
+    text: >-
+      Sữa chua không đường chua gắt, ăn vào chỉ còn thấy chua và át hẳn mùi nếp.
+      Loại có đường mới cân được với nồi nếp cẩm. Và phải **lạnh hẳn từ tủ** —
+      sữa chua nguội gặp nếp cẩm mát thì hai lớp nhoè vào nhau, mất luôn cái thú
+      xúc thìa xuống thấy hai màu.
+  - icon: clock
+    title: Nấu hôm trước, ăn hôm sau càng ngon
+    text: >-
+      Nồi nếp cẩm để qua một đêm trong ngăn mát thì hạt ngấm đều hơn và nước
+      sánh lại đúng độ. Nấu một mẻ ăn được **3–4 ngày**, mỗi lần ăn chỉ việc múc
+      ra ly và chan sữa chua. Đừng trộn sẵn cả ly để tủ — để lâu là sữa chua tan
+      hết vào nếp, ra một ly tím lờ nhờ.
+
+serve:
+  title: Ăn lạnh, **xúc sâu xuống lấy cả hai lớp**
+  paras:
+    - >-
+      Ly sữa chua nếp cẩm dọn lạnh, thìa dài, và cách ăn đúng là **xúc thẳng
+      xuống đáy** để mỗi thìa có cả lớp tím lẫn lớp trắng. Trộn đều cả ly lên
+      trước khi ăn cũng được, nhưng lúc đó chỉ còn một vị chung chung.
+    - >-
+      Đây là món tráng miệng, dọn sau bữa hoặc ăn riêng buổi chiều. Ly nhỏ thôi
+      — nếp cẩm nặng bụng hơn vẻ ngoài của nó, một ly cỡ 200 ml là vừa cho một
+      người.
+  aside:
+    title: Ba cách dọn
+    intro: "Cùng một nồi nếp cẩm, ba kiểu ly:"
+    items:
+      - icon: bowl
+        text: "**Hai lớp rõ** — nếp cẩm dưới, sữa chua trên, xúc sâu mà ăn."
+      - icon: drop
+        text: "**Thêm nước cốt dừa** — rưới thêm một thìa lên mặt cho béo hẳn."
+      - icon: pod
+        text: "**Rắc dừa nạo** — có chỗ nhai, và thơm thêm một tầng."
+
+faq:
+  - q: Ninh cả tiếng rồi mà hạt vẫn cứng?
+    a: >-
+      Kiểm ba chỗ. Một là **có nêm đường sớm không** — nếu lỡ rồi thì chế thêm
+      nước sôi và ninh tiếp, hạt sẽ mềm nhưng lâu gấp rưỡi. Hai là **lửa có to
+      quá không** — nước sôi mạnh làm hạt vỡ ngoài mà không chín trong. Ba là
+      gạo cũ: nếp cẩm để lâu năm thì ninh kiểu gì cũng sượng, nhìn hạt bạc màu
+      là biết.
+  - q: Bản ủ men khác bản này chỗ nào?
+    a: >-
+      Bản hàng quán dùng nếp cẩm **đồ thành xôi rồi ủ với men ngọt 3 ngày**, ra
+      thứ nếp ngọt tự nhiên và dậy mùi men, ăn cay nhẹ ở hậu vị. Bản ninh đường
+      trong bài này ngọt hơn một chút, không có mùi men, và làm xong trong một
+      buổi chiều thay vì ba ngày. Đặt cạnh nhau thì khác, nhưng khi đã chan sữa
+      chua lạnh lên trên thì phần lớn người ăn không phân biệt được.
+  - q: Nếp cẩm và gạo lứt đen có phải một không?
+    a: >-
+      Không. **Nếp cẩm** là gạo *nếp*, hạt dẻo dính, ninh ra sánh và kéo sợi.
+      Gạo lứt đen là gạo *tẻ* còn nguyên cám, nấu lên hạt rời và cứng, không bao
+      giờ ra được nồi sánh như thế này. Ngoài chợ hai thứ đứng cạnh nhau và trông
+      khá giống — hỏi rõ **"nếp cẩm"** hoặc **"nếp than"** khi mua.
+  - q: Tự làm sữa chua ở nhà có đáng không?
+    a: >-
+      Đáng nếu nhà hay ăn, vì tự làm thì chỉnh được độ chua và độ ngọt cho hợp
+      với nồi nếp cẩm. Nhưng sữa chua hộp mua sẵn hoàn toàn dùng được và món này
+      không hơn thua ở đó — cái quyết định vẫn là nồi nếp cẩm có ninh đúng
+      không.
+
+ticker:
+  - icon: flame
+    text: Ninh lửa liu riu gần một tiếng
+  - icon: jar
+    text: Đường chỉ nêm khi hạt đã nứt vỏ
+  - icon: bottle
+    text: Sữa chua phải lạnh hẳn mới chan

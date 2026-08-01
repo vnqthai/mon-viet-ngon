@@ -1,0 +1,107 @@
+---
+/* Bánh tét — họ vàng "Cơm & bánh".
+   Hàng xóm nguy hiểm duy nhất là BÁNH CHƯNG của cùng đợt: cùng ruột, cùng lá
+   gói. Tách bằng ba thứ, không dựa vào ruột:
+   · DÁNG: đòn TRÒN NẰM NGANG, không phải khối vuông
+   · LÁ: lá chuối đã HƠ LỬA nên xanh ngả vàng (#7E9A46), khác hẳn lá dong xanh
+     sẫm của bánh chưng (#4E8340) — đúng thực tế, không phải bịa cho khác
+   · DÂY BUỘC: nhiều vòng SONG SONG cách đều dọc thân, không phải chữ thập
+   Tra thành phẩm: cắt ra là KHOANH TRÒN, mặt cắt có ba vòng ĐỒNG TÂM — nếp
+   trắng ngoài, đậu vàng giữa, thịt ở tâm. Vẽ hai khoanh dựng đứng cạnh đòn để
+   mặt cắt nhìn thẳng vào người xem, vì đó là chữ ký của món.
+   Luật đợt 11: ruột phải ĐỒNG TÂM thật, nhưng nhớ chừa vỏ dày đều — ở đây đúng
+   là vòng tròn nên không dính lỗi "vẽ ra cái nhẫn", vì có tới ba vòng lồng nhau
+   và một chấm thịt ở tâm. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Đòn bánh tét gói lá chuối buộc nhiều vòng dây, bên cạnh là hai khoanh cắt lộ ba vòng đồng tâm nếp, đậu xanh và thịt">
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M196 178 C 185 154 211 138 200 112 C 193 96 207 84 203 70"/>
+    <path d="M290 174 C 280 150 306 136 295 110 C 288 94 302 82 298 68"/>
+  </g>
+  <ellipse cx="256" cy="392" rx="190" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐÒN BÁNH TÉT: trụ nằm ngang, lá chuối đã hơ lửa nên xanh ngả vàng -->
+  <path d="M70 302 C 70 274 84 258 100 258 L 366 258 C 382 258 396 274 396 302 C 396 330 382 346 366 346 L 100 346 C 84 346 70 330 70 302 Z"
+        fill="#7E9A46" stroke="#4C6323" stroke-width="3"/>
+  <!-- mặt đầu đòn bên trái: nút lá gấp lại -->
+  <ellipse cx="100" cy="302" rx="18" ry="44" fill="#6B8A38" stroke="#4C6323" stroke-width="3"/>
+  <path d="M92 268 C 104 286 104 318 92 336" fill="none" stroke="#57742B" stroke-width="2.6"/>
+  <path d="M104 272 C 112 288 112 316 104 332" fill="none" stroke="#57742B" stroke-width="2.6"/>
+  <!-- vệt sáng dọc thân cho đòn có bề tròn -->
+  <path d="M114 276 L 356 276" fill="none" stroke="#9BB661" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+  <path d="M114 330 L 356 330" fill="none" stroke="#5F7B2E" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+  <!-- gân lá chạy dọc -->
+  <g fill="none" stroke="#657F31" stroke-width="2">
+    <path d="M124 290 L 352 290"/>
+    <path d="M124 314 L 352 314"/>
+  </g>
+
+  <!-- DÂY BUỘC: nhiều vòng song song cách đều, siết hơi lõm vào thân -->
+  <g fill="#DCC891" stroke="#96793F" stroke-width="2.4">
+    <path d="M150 259 C 144 280 144 324 150 345 L 162 345 C 156 324 156 280 162 259 Z"/>
+    <path d="M202 259 C 196 280 196 324 202 345 L 214 345 C 208 324 208 280 214 259 Z"/>
+    <path d="M254 259 C 248 280 248 324 254 345 L 266 345 C 260 324 260 280 266 259 Z"/>
+    <path d="M306 259 C 300 280 300 324 306 345 L 318 345 C 312 324 312 280 318 259 Z"/>
+    <path d="M352 259 C 346 280 346 324 352 345 L 364 345 C 358 324 358 280 364 259 Z"/>
+  </g>
+  <g fill="#EFE1B8">
+    <path d="M152 261 C 147 281 147 323 152 343 L 156 343 C 151 323 151 281 156 261 Z"/>
+    <path d="M256 261 C 251 281 251 323 256 343 L 260 343 C 255 323 255 281 260 261 Z"/>
+    <path d="M354 261 C 349 281 349 323 354 343 L 358 343 C 353 323 353 281 358 261 Z"/>
+  </g>
+
+  <!-- KHOANH CẮT — VẼ LẠI vòng 2.
+       Vòng 1 vẽ ba vòng tròn đồng tâm hoàn hảo + chấm tròn ở tâm → dính đúng
+       luật đã ghi ở ROADMAP: "vành tròn + chấm giữa = CÁI MẶT", render ra
+       260px đọc thành QUẢ TRỨNG ỐP LA / cái bia bắn.
+       Chữa bằng ba việc, đều là vẽ cho ĐÚNG THẬT hơn chứ không phải bịa:
+       · lớp đậu xanh nắm bằng tay nên là hình VUÔNG TRÒN GÓC, không phải hình
+         tròn — bỏ được sự đồng tâm hoàn hảo
+       · miếng thịt ở tâm là THANH CHỮ NHẬT nằm chéo, không phải chấm tròn
+       · vành nếp trắng rắc hạt nổi rõ, không để mặt phẳng lì như lòng trắng
+       Và chỉ để MỘT khoanh dựng, một khoanh nằm nghiêng hẳn — bớt đối xứng. -->
+  <g transform="translate(6 -6)">
+    <ellipse cx="420" cy="268" rx="52" ry="52" fill="#7E9A46" stroke="#4C6323" stroke-width="3"/>
+    <ellipse cx="420" cy="268" rx="45" ry="45" fill="#F1E7D2" stroke="#B39A6E" stroke-width="3"/>
+    <path d="M394 240 C 410 236 432 236 447 241 C 452 257 452 280 447 295
+             C 431 300 409 300 394 296 C 389 280 389 255 394 240 Z"
+          fill="#DFB43A" stroke="#95761A" stroke-width="2.8"/>
+    <path d="M404 274 L 424 252 L 438 262 L 418 284 Z" fill="#C4705E" stroke="#8A3F30" stroke-width="2.4"/>
+    <path d="M409 274 L 424 258 L 431 264 L 416 280 Z" fill="#EFD9C8" opacity=".92"/>
+    <g fill="#FAF3E3" stroke="#C4B189" stroke-width="1.6">
+      <ellipse cx="398" cy="235" rx="7.6" ry="4.8" transform="rotate(-40 398 235)"/>
+      <ellipse cx="424" cy="228" rx="7.6" ry="4.8" transform="rotate(-4 424 228)"/>
+      <ellipse cx="448" cy="240" rx="7.4" ry="4.6" transform="rotate(34 448 240)"/>
+      <ellipse cx="458" cy="268" rx="7.4" ry="4.6" transform="rotate(76 458 268)"/>
+      <ellipse cx="448" cy="296" rx="7.4" ry="4.6" transform="rotate(-36 448 296)"/>
+      <ellipse cx="420" cy="308" rx="7.6" ry="4.8" transform="rotate(4 420 308)"/>
+      <ellipse cx="394" cy="298" rx="7.4" ry="4.6" transform="rotate(38 394 298)"/>
+      <ellipse cx="383" cy="268" rx="7.4" ry="4.6" transform="rotate(-76 383 268)"/>
+    </g>
+    <g fill="#F0AF3F">
+      <ellipse cx="408" cy="248" rx="5.4" ry="3.4" transform="rotate(-16 408 248)"/>
+      <ellipse cx="438" cy="280" rx="5.4" ry="3.4" transform="rotate(14 438 280)"/>
+      <ellipse cx="402" cy="288" rx="5" ry="3.2" transform="rotate(6 402 288)"/>
+    </g>
+  </g>
+
+  <!-- KHOANH CẮT 2: nằm NGHIÊNG HẲN phía trước, chồng mép lên khoanh kia -->
+  <g transform="rotate(-22 372 350)">
+    <ellipse cx="372" cy="350" rx="48" ry="30" fill="#7E9A46" stroke="#4C6323" stroke-width="3"/>
+    <ellipse cx="372" cy="350" rx="41" ry="24" fill="#F1E7D2" stroke="#B39A6E" stroke-width="3"/>
+    <path d="M350 336 C 364 333 384 333 396 337 C 400 344 400 356 396 363
+             C 383 367 362 367 350 364 C 346 356 346 343 350 336 Z"
+          fill="#DFB43A" stroke="#95761A" stroke-width="2.6"/>
+    <path d="M358 354 L 374 342 L 386 348 L 370 361 Z" fill="#C4705E" stroke="#8A3F30" stroke-width="2.2"/>
+    <path d="M362 353 L 374 345 L 380 348 L 368 357 Z" fill="#EFD9C8" opacity=".92"/>
+    <g fill="#FAF3E3" stroke="#C4B189" stroke-width="1.5">
+      <ellipse cx="350" cy="331" rx="6.8" ry="4.2" transform="rotate(-24 350 331)"/>
+      <ellipse cx="378" cy="327" rx="6.8" ry="4.2" transform="rotate(0 378 327)"/>
+      <ellipse cx="402" cy="340" rx="6.6" ry="4" transform="rotate(40 402 340)"/>
+      <ellipse cx="390" cy="371" rx="6.6" ry="4" transform="rotate(-24 390 371)"/>
+      <ellipse cx="356" cy="371" rx="6.6" ry="4" transform="rotate(22 356 371)"/>
+    </g>
+  </g>
+</svg>

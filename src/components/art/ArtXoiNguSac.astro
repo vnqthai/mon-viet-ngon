@@ -1,0 +1,112 @@
+---
+/* Xôi ngũ sắc — họ vàng "Cơm & bánh". VẼ LẠI vòng 2.
+   Vòng 1 vẽ năm nêm màu chụm vào một tâm chung → render ra 260px đọc đúng ra
+   BIỂU ĐỒ TRÒN, y như đã lường mà vẫn dính. Lỗi gốc: mặt phẳng liền nhau và
+   ranh giới là đường thẳng xuyên tâm — hai dấu hiệu của đồ hoạ, không phải của
+   đồ ăn.
+   Vòng 2 đổi hẳn cách dựng: NĂM GÒ XÔI RIÊNG, mỗi gò là một vòm có bề cao, xếp
+   thành vòng và chỉ chớm chồng mép nhau. Có bề cao + có khe hở giữa các gò thì
+   mắt đọc ra năm đống xôi xới ra đĩa.
+   Hạt nếp phóng lên rx 9–10 (vòng 1 để 7, ở 260px mất sạch) và cho nhô hẳn ra
+   khỏi đường bao từng gò.
+   Thứ tự vẫn sáng tối xen kẽ: trắng · tím · vàng · xanh · đỏ. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Mâm xôi ngũ sắc: năm gò xôi trắng, tím, vàng, xanh, đỏ xếp thành bông hoa năm cánh trên đĩa trắng">
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M204 160 C 193 136 219 120 208 94 C 201 78 215 66 211 52"/>
+    <path d="M312 156 C 302 132 328 118 317 92 C 310 76 324 64 320 50"/>
+  </g>
+  <ellipse cx="258" cy="416" rx="188" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐĨA TRẮNG TRƠN -->
+  <ellipse cx="258" cy="356" rx="190" ry="62" fill="#D9CFB8" stroke="#8E7F5E" stroke-width="3"/>
+  <ellipse cx="258" cy="346" rx="190" ry="62" fill="#F6F1E4" stroke="#8E7F5E" stroke-width="3"/>
+  <ellipse cx="258" cy="346" rx="162" ry="50" fill="#EDE5D2" stroke="#B5A582" stroke-width="2.2"/>
+
+  <!-- GÒ TRẮNG (không nhuộm) — sau, chính giữa -->
+  <path d="M200 300 C 202 268 228 250 258 250 C 288 250 314 268 316 300 C 292 316 224 316 200 300 Z"
+        fill="#EFE5CE" stroke="#9E8B60" stroke-width="3"/>
+  <g fill="#FBF6E9" stroke="#9E8B60" stroke-width="2">
+    <ellipse cx="205" cy="288" rx="10" ry="6" transform="rotate(-64 205 288)"/>
+    <ellipse cx="216" cy="266" rx="10" ry="6" transform="rotate(-42 216 266)"/>
+    <ellipse cx="240" cy="253" rx="10" ry="6" transform="rotate(-18 240 253)"/>
+    <ellipse cx="276" cy="253" rx="10" ry="6" transform="rotate(18 276 253)"/>
+    <ellipse cx="300" cy="266" rx="10" ry="6" transform="rotate(42 300 266)"/>
+    <ellipse cx="311" cy="288" rx="10" ry="6" transform="rotate(64 311 288)"/>
+  </g>
+  <g fill="#FDFAF0">
+    <ellipse cx="234" cy="278" rx="8.4" ry="4.8" transform="rotate(-10 234 278)"/>
+    <ellipse cx="272" cy="276" rx="8.4" ry="4.8" transform="rotate(10 272 276)"/>
+    <ellipse cx="254" cy="296" rx="8.4" ry="4.8" transform="rotate(0 254 296)"/>
+  </g>
+
+  <!-- GÒ ĐỎ (gấc) — sau, bên trái -->
+  <path d="M104 326 C 106 294 132 276 162 276 C 192 276 218 294 220 326 C 196 342 128 342 104 326 Z"
+        fill="#D24A2A" stroke="#8A2712" stroke-width="3"/>
+  <g fill="#E4643F" stroke="#8A2712" stroke-width="2">
+    <ellipse cx="109" cy="314" rx="10" ry="6" transform="rotate(-64 109 314)"/>
+    <ellipse cx="120" cy="292" rx="10" ry="6" transform="rotate(-42 120 292)"/>
+    <ellipse cx="144" cy="279" rx="10" ry="6" transform="rotate(-18 144 279)"/>
+    <ellipse cx="180" cy="279" rx="10" ry="6" transform="rotate(18 180 279)"/>
+    <ellipse cx="204" cy="292" rx="10" ry="6" transform="rotate(42 204 292)"/>
+    <ellipse cx="215" cy="314" rx="10" ry="6" transform="rotate(64 215 314)"/>
+  </g>
+  <g fill="#EE8058">
+    <ellipse cx="138" cy="304" rx="8.4" ry="4.8" transform="rotate(-10 138 304)"/>
+    <ellipse cx="176" cy="302" rx="8.4" ry="4.8" transform="rotate(10 176 302)"/>
+    <ellipse cx="158" cy="322" rx="8.4" ry="4.8" transform="rotate(0 158 322)"/>
+  </g>
+
+  <!-- GÒ TÍM (lá cẩm) — sau, bên phải -->
+  <path d="M296 326 C 298 294 324 276 354 276 C 384 276 410 294 412 326 C 388 342 320 342 296 326 Z"
+        fill="#6B3E86" stroke="#3E2154" stroke-width="3"/>
+  <g fill="#8352A2" stroke="#3E2154" stroke-width="2">
+    <ellipse cx="301" cy="314" rx="10" ry="6" transform="rotate(-64 301 314)"/>
+    <ellipse cx="312" cy="292" rx="10" ry="6" transform="rotate(-42 312 292)"/>
+    <ellipse cx="336" cy="279" rx="10" ry="6" transform="rotate(-18 336 279)"/>
+    <ellipse cx="372" cy="279" rx="10" ry="6" transform="rotate(18 372 279)"/>
+    <ellipse cx="396" cy="292" rx="10" ry="6" transform="rotate(42 396 292)"/>
+    <ellipse cx="407" cy="314" rx="10" ry="6" transform="rotate(64 407 314)"/>
+  </g>
+  <g fill="#9F6DBD">
+    <ellipse cx="330" cy="304" rx="8.4" ry="4.8" transform="rotate(-10 330 304)"/>
+    <ellipse cx="368" cy="302" rx="8.4" ry="4.8" transform="rotate(10 368 302)"/>
+    <ellipse cx="350" cy="322" rx="8.4" ry="4.8" transform="rotate(0 350 322)"/>
+  </g>
+
+  <!-- GÒ XANH (lá dứa) — trước, bên trái -->
+  <path d="M144 372 C 146 340 172 322 202 322 C 232 322 258 340 260 372 C 236 388 168 388 144 372 Z"
+        fill="#4E8A3C" stroke="#295119" stroke-width="3"/>
+  <g fill="#63A34E" stroke="#295119" stroke-width="2">
+    <ellipse cx="149" cy="360" rx="10" ry="6" transform="rotate(-64 149 360)"/>
+    <ellipse cx="160" cy="338" rx="10" ry="6" transform="rotate(-42 160 338)"/>
+    <ellipse cx="184" cy="325" rx="10" ry="6" transform="rotate(-18 184 325)"/>
+    <ellipse cx="220" cy="325" rx="10" ry="6" transform="rotate(18 220 325)"/>
+    <ellipse cx="244" cy="338" rx="10" ry="6" transform="rotate(42 244 338)"/>
+    <ellipse cx="255" cy="360" rx="10" ry="6" transform="rotate(64 255 360)"/>
+  </g>
+  <g fill="#82C169">
+    <ellipse cx="178" cy="350" rx="8.4" ry="4.8" transform="rotate(-10 178 350)"/>
+    <ellipse cx="216" cy="348" rx="8.4" ry="4.8" transform="rotate(10 216 348)"/>
+    <ellipse cx="198" cy="368" rx="8.4" ry="4.8" transform="rotate(0 198 368)"/>
+  </g>
+
+  <!-- GÒ VÀNG (nghệ) — trước, bên phải -->
+  <path d="M256 372 C 258 340 284 322 314 322 C 344 322 370 340 372 372 C 348 388 280 388 256 372 Z"
+        fill="#DFA92A" stroke="#8E690C" stroke-width="3"/>
+  <g fill="#EDBF45" stroke="#8E690C" stroke-width="2">
+    <ellipse cx="261" cy="360" rx="10" ry="6" transform="rotate(-64 261 360)"/>
+    <ellipse cx="272" cy="338" rx="10" ry="6" transform="rotate(-42 272 338)"/>
+    <ellipse cx="296" cy="325" rx="10" ry="6" transform="rotate(-18 296 325)"/>
+    <ellipse cx="332" cy="325" rx="10" ry="6" transform="rotate(18 332 325)"/>
+    <ellipse cx="356" cy="338" rx="10" ry="6" transform="rotate(42 356 338)"/>
+    <ellipse cx="367" cy="360" rx="10" ry="6" transform="rotate(64 367 360)"/>
+  </g>
+  <g fill="#F5D473">
+    <ellipse cx="290" cy="350" rx="8.4" ry="4.8" transform="rotate(-10 290 350)"/>
+    <ellipse cx="328" cy="348" rx="8.4" ry="4.8" transform="rotate(10 328 348)"/>
+    <ellipse cx="310" cy="368" rx="8.4" ry="4.8" transform="rotate(0 310 368)"/>
+  </g>
+</svg>

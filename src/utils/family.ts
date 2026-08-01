@@ -1,5 +1,5 @@
 /**
- * HỌ MÓN — gom 16 kiểu món thành 6 họ theo *cách ăn*, mỗi họ một màu nền thẻ.
+ * HỌ MÓN — gom 17 kiểu món thành 6 họ theo *cách ăn*, mỗi họ một màu nền thẻ.
  *
  * Vì sao gom: 16 màu nền phân biệt được là bất khả, mắt không đọc nổi. Sáu họ
  * thì lưới danh mục đọc ra thành từng nhóm ngay từ cái liếc đầu — màu ở đây là
@@ -15,7 +15,7 @@ export const FAMILIES: Record<FamilyId, { name: string; cats: string[] }> = {
   nuoc: { name: 'Chan & húp',  cats: ['Món nước', 'Canh', 'Lẩu', 'Cháo'] },
   man:  { name: 'Mặn đưa cơm', cats: ['Kho', 'Xào', 'Hấp'] },
   tron: { name: 'Cuốn & trộn', cats: ['Gỏi', 'Cuốn', 'Bún trộn'] },
-  banh: { name: 'Cơm & bánh',  cats: ['Cơm', 'Bánh', 'Bánh mì'] },
+  banh: { name: 'Cơm & bánh',  cats: ['Cơm', 'Xôi', 'Bánh', 'Bánh mì'] },
   lua:  { name: 'Lửa',         cats: ['Nướng', 'Chiên'] },
   ngot: { name: 'Ngọt & mát',  cats: ['Chè'] },
 };

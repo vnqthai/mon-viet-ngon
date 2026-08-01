@@ -1,0 +1,376 @@
+title: Bánh chưng **gói vuông lá dong, luộc suốt đêm**
+summary: >-
+  Nếp bọc đậu xanh bọc miếng ba chỉ ướp tiêu, gói vuông trong lá dong, buộc lạt
+  rồi luộc mười hai tiếng. Bóc ra là một khối **xanh mướt màu lá**, cắt bằng
+  chính sợi lạt thành tám miếng, mỗi miếng đủ ba tầng nếp — đậu — thịt.
+region: Miền Bắc
+category: Bánh
+occasions: [Cỗ Tết, Đãi khách]
+pubDate: 2026-08-01
+time:
+  total: 14 giờ (+ ngâm nếp và đậu 8 giờ)
+  active: 2 giờ
+servingsBase: 8
+difficulty: Kỳ công
+featured: true
+order: 110
+art: banh-chung
+heroEyebrow: Nồi bánh sôi ngoài sân, đêm hai chín Tết…
+
+quick:
+  ingredients:
+    - Nếp cái hoa vàng [[1|kg]] — ngâm **8 giờ**, xóc muối
+    - Đậu xanh cà vỏ [[400|g]] — ngâm **4 giờ**, đồ chín, nắm thành nắm
+    - Thịt ba chỉ [[500|g]] — thái miếng to bản, ướp muối tiêu **1 giờ**
+    - Lá dong [[20|lá]] · lạt giang [[8|sợi]] — rửa sạch, lau khô
+    - Muối [[2|muỗng canh]] · tiêu xay [[1|muỗng canh]]
+  steps:
+    - Ngâm nếp 8 giờ và đậu 4 giờ; đồ đậu chín rồi nắm thành 4 nắm tròn.
+    - Ướp thịt với muối tiêu **1 giờ** — không ướp nước mắm, bánh mau thiu.
+    - >-
+      Xếp 4 lá dong vuông góc nhau, đổ nếp — đậu — thịt — đậu — nếp, gấp lá
+      thành khối vuông, buộc 4 sợi lạt.
+    - Xếp bánh vào nồi, đổ nước ngập, luộc **10–12 giờ**, châm nước sôi khi cạn.
+    - Vớt ra rửa nước lạnh, xếp lên mặt phẳng, **ép nặng 6–8 giờ**.
+  warning: >-
+    Nước trong nồi phải **ngập bánh suốt cả đêm**. Hở mặt một lúc là chỗ đó nếp
+    không chín, cắt ra thấy một mảng trắng sống ngay giữa miếng bánh — mà lúc
+    ấy thì không cứu được nữa.
+
+flavor:
+  chua: 0
+  ngot: 2
+  man: 5
+  cay: 2
+  thom: 7
+flavorNote: >-
+  **Chuẩn cái:** vỏ nếp **xanh mướt màu lá** và trong, dẻo quánh mà cắt vẫn
+  đứng miếng; lớp đậu vàng mịn nằm đều một vòng; miếng thịt mềm rục, phần mỡ
+  **trong như thạch** chứ không còn trắng đục; thơm mùi lá dong quyện tiêu.
+storyEyebrow: Chuyện món ăn
+storyTitle: Cả năm chỉ gói một lần, nên **mọi thứ đều phải đúng ngay từ đầu**
+story:
+  - >-
+    Theo tích xưa, một người con vua dâng lên hai thứ bánh làm từ hạt gạo nhà
+    nông: một chiếc vuông, một chiếc tròn. Chiếc vuông ấy là bánh chưng, và từ
+    đó tới nay nó vẫn là thứ đầu tiên được đặt lên mâm cỗ Tết miền Bắc.
+  - >-
+    Cấu tạo của nó là **năm lớp lồng vào nhau**: nếp ngoài cùng, rồi đậu xanh,
+    rồi miếng thịt nằm chính giữa, rồi lại đậu và nếp. Cắt một miếng ra là thấy
+    đủ cả năm lớp xếp thành vòng đồng tâm — và đó cũng là phép thử xem người gói
+    có khéo không, vì lớp lệch thì miếng cắt ra chỗ dày chỗ mỏng.
+  - >-
+    Cái khó của bánh chưng không nằm ở nguyên liệu — chỉ có nếp, đậu, thịt và
+    lá. Nó nằm ở chỗ **mọi sai sót đều lộ ra sau mười hai tiếng**, lúc không còn
+    sửa được gì. Gói lỏng tay thì bánh nhão; gói chặt quá thì nếp không có chỗ
+    nở, cắt ra sượng. Nước cạn hở mặt bánh nửa tiếng thì góc đó sống. Luộc xong
+    quên ép thì bánh ướt nhèo, để ba ngày là chua.
+  - >-
+    Bù lại, đây là món **làm một lần ăn cả tuần**, và cái nồi bánh sôi suốt đêm
+    vốn là một phần của Tết chẳng kém gì chiếc bánh. Nhà nào gói bánh thì đêm ấy
+    cả nhà thức, ngồi quanh bếp lửa canh nước — công việc thì nhàn mà chuyện thì
+    dài.
+
+ingredientGroups:
+  - name: Nếp và đậu
+    icon: rice
+    items:
+      - id: nepbchg
+        name: Nếp cái hoa vàng
+        icon: rice
+        color: gold
+        base: 1
+        unit: kg
+        note: >-
+          Đây là chỗ **không nên tiết kiệm**. Nếp cái hoa vàng hạt tròn mẩy,
+          trắng đục, dẻo và thơm — nếp thường thì bánh kém dẻo và nhanh lại gạo
+          (cứng lại sau vài ngày). Ngâm 8 giờ, vo lại, để ráo rồi xóc
+          [[1|muỗng canh]] muối
+      - id: dauxanhbchg
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 400
+        unit: g
+        note: >-
+          Ngâm **4 giờ**, đồ chín tới rồi giã hoặc tán cho mịn, nắm thành
+          **4 nắm tròn** bằng nhau. Nắm sẵn thì lúc gói chỉ việc bổ đôi đặt vào,
+          nhanh và đều tay hơn xúc từng thìa
+      - id: muoibchg
+        name: Muối hạt
+        icon: jar
+        base: 2
+        unit: muỗng canh
+        note: >-
+          Chia hai: một phần xóc nếp, một phần nêm đậu và ướp thịt. Bánh chưng
+          nêm nhạt tay hơn ta tưởng — nó ăn kèm dưa hành và giò, không phải ăn
+          một mình
+  - name: Nhân thịt
+    icon: meat
+    items:
+      - id: bachibchg
+        name: Thịt ba chỉ
+        icon: meat
+        color: red
+        base: 500
+        unit: g
+        note: >-
+          Chọn miếng có **mỡ dày chừng một phần ba**, nhiều tầng nạc mỡ xen kẽ.
+          Thịt nạc quá thì sau mười hai tiếng luộc sẽ khô xác và bã; mỡ chính là
+          thứ làm miếng nhân mềm rục và thơm. Thái miếng to bản, dày chừng 1 cm
+      - id: tieubchg
+        name: Tiêu xay
+        icon: pepper
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Xay thô, xay nhiều — tiêu là mùi chủ đạo của nhân bánh chưng. Ướp cùng
+          muối, để **1 giờ** cho ngấm
+      - id: hanhtimbchg
+        name: Hành tím
+        icon: onion
+        base: 4
+        unit: củ
+        note: >-
+          Băm nhỏ ướp cùng thịt. Tùy nhà — có nơi không cho hành, để nhân chỉ
+          thuần vị tiêu
+  - name: Lá và lạt
+    icon: herb
+    items:
+      - id: ladongbchg
+        name: Lá dong
+        icon: herb
+        color: green
+        base: 20
+        unit: lá
+        note: >-
+          Chọn lá **bánh tẻ** — không quá non (dễ rách) cũng không quá già (giòn
+          và nhạt màu), bản rộng, cuống còn tươi. Mỗi chiếc bánh cần 4 lá lành
+          cộng 1 lá dự phòng. Rửa từng lá hai mặt, lau **thật khô**, cắt bỏ sống
+          lá cứng
+      - id: latgiangbchg
+        name: Lạt giang
+        icon: stem
+        base: 8
+        unit: sợi
+        note: >-
+          Ngâm nước cho mềm và dẻo trước khi buộc, không thì gãy giữa chừng. Mỗi
+          bánh buộc 4 sợi, hai chiều vuông góc nhau. Cũng chính sợi lạt này dùng
+          để cắt bánh khi ăn
+      - id: khuonbchg
+        name: Khuôn gỗ
+        icon: basket
+        qtyText: 1 cái (không bắt buộc)
+        note: >-
+          Khuôn vuông cạnh chừng 15 cm giúp bánh vuông vức và đều tay. Không có
+          khuôn thì gói tay được, chỉ cần chịu khó gấp mép cho vuông
+
+steps:
+  - title: Ngâm nếp, đồ đậu, ướp thịt
+    icon: clock
+    minutes: 8 giờ
+    intro: "Làm tối hôm trước, sáng hôm sau gói:"
+    bullets:
+      - label: "Nếp:"
+        text: >-
+          Vo sạch, ngâm ngập nước lạnh **8 giờ**. Vo lại, để ráo **30 phút** rồi
+          xóc [[1|muỗng canh]] muối.
+      - label: "Đậu xanh:"
+        text: >-
+          Ngâm **4 giờ**, đãi bỏ vỏ còn sót, đồ chín tới rồi tán mịn khi còn
+          nóng, nêm chút muối. Chia và nắm thành **4 nắm tròn**.
+      - label: "Thịt:"
+        text: >-
+          Thái miếng to bản dày 1 cm, ướp [[1|muỗng canh]] tiêu xay, chút muối
+          và hành tím băm. Để **1 giờ**.
+      - label: "Lá dong:"
+        text: >-
+          Rửa từng lá hai mặt bằng khăn mềm, lau **thật khô**, cắt bỏ phần sống
+          lá cứng ở gáy để lá gấp được.
+    callout:
+      type: warn
+      text: >-
+        **Đừng ướp thịt bằng nước mắm.** Nước mắm làm nhân dậy mùi lúc mới luộc
+        xong nhưng khiến bánh nhanh chua — mà bánh chưng thì phải để được cả
+        tuần. Chỉ muối và tiêu.
+  - title: Gói bánh
+    icon: knife
+    minutes: 1 giờ
+    intro: "Bốn lá một bánh, xếp vuông góc từng đôi:"
+    bullets:
+      - label: "Xếp lá:"
+        text: >-
+          Đặt 2 lá úp mặt xanh xuống, 2 lá còn lại đặt vuông góc lên trên, mặt
+          xanh ngửa. Nếu có khuôn thì lót lá vào lòng khuôn.
+      - label: "Đổ lớp:"
+        text: >-
+          Một bát nếp dàn đều đáy → nửa nắm đậu dàn thành vòng → **1–2 miếng
+          thịt đặt chính giữa** → nửa nắm đậu phủ lên → một bát nếp phủ kín.
+      - label: "Gấp lá:"
+        text: >-
+          Gấp hai mép lá đối diện vào trước, ấn cho phẳng mặt, rồi gấp hai mép
+          còn lại. Miết các góc cho vuông vức.
+      - label: "Buộc lạt:"
+        text: >-
+          Buộc 2 sợi theo một chiều, 2 sợi theo chiều vuông góc. Siết
+          **vừa chặt** — ấn tay xuống mặt bánh thấy hơi lún là đúng.
+    callout:
+      type: warn
+      text: >-
+        Đây là chỗ hay sai nhất với người gói lần đầu. **Chặt quá** thì nếp
+        không có chỗ nở, luộc xong cắt ra sượng và cứng. **Lỏng quá** thì nước
+        lọt vào, bánh nhão và bung góc. Ấn ngón tay lên mặt bánh đã buộc: lún
+        xuống chừng nửa đốt rồi phồng lại là vừa.
+  - title: Luộc suốt đêm
+    icon: pot
+    minutes: 12 giờ
+    intro: "Bước dài nhất, và chỉ có một việc phải làm: canh nước."
+    bullets:
+      - label: "Xếp nồi:"
+        text: >-
+          Lót đáy nồi bằng **cuống lá dong và lá thừa** cho bánh không chạm đáy
+          và khỏi khét. Xếp bánh đứng cạnh nhau, chèn khít.
+      - label: "Đổ nước:"
+        text: >-
+          Đổ nước lạnh **ngập trên mặt bánh chừng 5 cm**. Đun sôi rồi hạ lửa vừa,
+          giữ sôi đều.
+      - label: "Châm nước:"
+        text: >-
+          Cứ 2 tiếng kiểm một lần. Nước cạn thì châm thêm **nước sôi**, tuyệt đối
+          đừng châm nước lạnh — bánh đang nở gặp lạnh là chai lại.
+      - label: "Đủ giờ:"
+        text: >-
+          Bánh cỡ vừa (chừng 1 kg) luộc **10 tiếng**; bánh to hơn thì
+          **12 tiếng**. Luộc thiếu giờ thì lõi còn sống, không có cách nào biết
+          trước khi bóc.
+    timer:
+      secs: 3600
+      label: Hẹn giờ ghé canh nước · 60:00
+      doneMsg: Ghé nhìn mực nước, cạn thì châm nước SÔI nghen!
+    callout:
+      type: tip
+      text: >-
+        Nửa chừng nên **trở bánh một lần** — vớt ra, đảo trên xuống dưới rồi xếp
+        lại. Bánh nằm sát đáy chịu lửa mạnh hơn nên chín nhanh hơn bánh ở trên;
+        trở một lần là cả nồi đều nhau.
+  - title: Rửa, ép, để nguội
+    icon: drop
+    minutes: 8 giờ
+    intro: "Bước hay bị bỏ, mà bỏ thì bánh chỉ để được vài ngày:"
+    bullets:
+      - label: "Rửa:"
+        text: >-
+          Vớt bánh ra, **rửa ngay dưới nước lạnh** cho sạch lớp nhựa lá bám
+          ngoài. Bánh không rửa thì mặt lá nhớt và chóng mốc.
+      - label: "Ép:"
+        text: >-
+          Xếp bánh lên mặt phẳng, đặt tấm ván lên trên rồi chồng vật nặng. Ép
+          **6–8 tiếng**.
+      - label: "Vì sao phải ép:"
+        text: >-
+          Ép đẩy hết nước còn đọng trong bánh ra ngoài. Bánh ép kỹ thì chắc tay,
+          cắt đứng miếng và **để được cả tuần**; bánh không ép thì ướt nhèo và
+          chua sau ba ngày.
+      - text: >-
+          Ép xong treo nơi thoáng gió hoặc cất ngăn mát. Ăn tới đâu bóc tới đó.
+    doneText: Xong — bóc một cái ra thắp hương là vừa!
+
+tipsTitle: 5 chỗ **quyết định** nồi bánh chưng
+tips:
+  - icon: alert
+    title: Nước phải ngập bánh suốt cả đêm
+    text: >-
+      Đây là lỗi làm hỏng bánh nhiều nhất và cũng là lỗi dễ tránh nhất. Hở mặt
+      bánh nửa tiếng thôi là phần trên không nhận đủ nhiệt, bóc ra thấy một mảng
+      nếp **trắng đục và sượng** nằm giữa lớp xanh trong. Đặt đồng hồ hai tiếng
+      một lần, và luôn châm bằng **nước sôi**.
+  - icon: bulb
+    title: Buộc vừa tay — thử bằng ngón trỏ
+    text: >-
+      Ấn ngón trỏ lên mặt bánh vừa buộc xong: **lún xuống chừng nửa đốt rồi
+      phồng lại** là đúng. Cứng như đá thì nếp hết chỗ nở, luộc xong vẫn sượng.
+      Lún sâu mà không phồng thì lỏng, nước sẽ lọt vào và bánh nhão.
+  - icon: herb
+    title: Lá dong lau thật khô trước khi gói
+    text: >-
+      Rửa xong phải lau khô từng lá bằng khăn sạch. Lá còn ướt mang nước vào
+      trong bánh, chỗ đó nếp nhão và bánh **chóng chua**. Cũng đừng rửa lá bằng
+      nước nóng — lá chín tái, mất màu xanh và giòn dễ rách khi gấp.
+  - icon: meat
+    title: Thịt phải có mỡ, đừng chọn nạc
+    text: >-
+      Sau mười hai tiếng luộc, phần mỡ chuyển thành **trong như thạch** và tan
+      vào lớp đậu quanh nó — đó chính là cái béo ngậy của miếng bánh chưng. Chọn
+      thịt nạc vì sợ ngán thì làm ngược: nạc luộc lâu ra bã khô, mà cả miếng
+      nhân thành ra khô khốc.
+  - icon: clock
+    title: Ép xong mới coi là làm xong
+    text: >-
+      Nhiều người vớt bánh ra là coi như hết việc. Sáu tiếng ép mới là thứ quyết
+      định bánh để được một tuần hay ba ngày, và quyết định miếng cắt ra có đứng
+      hay bở nát. Không có ván ép thì dùng cái thớt to đặt lên, chồng thêm nồi
+      nước cũng được.
+
+serve:
+  title: Cắt bằng **chính sợi lạt**, tám miếng đều nhau
+  paras:
+    - >-
+      Bóc lá xong, đừng vội cầm dao. Cách cắt truyền thống là dùng **chính sợi
+      lạt buộc bánh**: đặt hai sợi bắt chéo dưới đáy bánh, vắt lên trên rồi kéo
+      hai đầu cho lạt siết xuống — bánh đứt gọn thành bốn miếng, làm thêm lần
+      nữa theo đường chéo là được tám. Dao thái thì nếp dính lưỡi và miếng bánh
+      bị kéo lệch.
+    - >-
+      Bánh chưng trên mâm cỗ luôn đi cùng **dưa hành** và **giò lụa**. Dưa hành
+      chua giòn cắt cái béo của nhân, giò lụa thì bù phần đạm. Ba thứ ấy đặt
+      cạnh nhau là thành mâm, thiếu một thứ là thấy thiếu.
+  aside:
+    title: Ăn còn dư thì làm gì
+    intro: "Bánh để mấy ngày là cứng lại — ba cách xử:"
+    items:
+      - icon: flame
+        text: "**Rán bánh chưng** — thái miếng, rán chảo cho hai mặt vàng giòn, ruột mềm."
+      - icon: pot
+        text: "**Hấp lại** — 15 phút trong xửng là dẻo gần như mới, giữ nguyên vị."
+      - icon: lettuce
+        text: "**Ăn kèm dưa hành** — miếng bánh nguội mà có dưa hành thì vẫn ngon."
+
+faq:
+  - q: Làm sao biết bánh đã chín mà không phải bóc ra?
+    a: >-
+      Không có cách nào chắc chắn — đó chính là lý do phải luộc đủ giờ thay vì
+      canh chừng. Dấu hiệu tương đối: bánh chín thì **cầm lên thấy nặng chắc
+      tay, mặt lá đã ngả sang xanh sẫm**, và ấn vào thấy chắc chứ không mềm oặt.
+      Nếu buộc phải kiểm thì hy sinh một cái nhỏ nhất, bóc ra xem lõi.
+  - q: Bánh cắt ra có một mảng nếp trắng sống ở giữa, vì sao?
+    a: >-
+      Gần như chắc chắn là **nước cạn hở mặt bánh** trong lúc luộc, hoặc luộc
+      thiếu giờ. Cũng có thể do gói quá chặt nên nếp không nở được. Chỗ sống thì
+      không cứu được, nhưng phần còn lại vẫn ăn bình thường — cắt bỏ mảng trắng
+      rồi rán lên là ngon.
+  - q: Không có lá dong thì gói bằng lá gì?
+    a: >-
+      **Lá chuối** thay được, và đó cũng là thứ miền Nam vẫn dùng. Khác biệt:
+      lá chuối không cho vỏ bánh cái màu xanh trong đặc trưng và mùi cũng nhạt
+      hơn. Chọn lá chuối bánh tẻ, hơ qua lửa hoặc trụng nước sôi cho mềm rồi lau
+      khô, xếp hai lớp vì lá chuối mỏng và dễ rách hơn lá dong.
+  - q: Luộc bằng nồi áp suất có được không?
+    a: >-
+      Được, và rút xuống còn **1,5–2 tiếng**. Nhưng bánh sẽ khác: vỏ nếp nhừ hơn
+      và không có được cái dẻo quánh của bánh luộc chậm, mùi lá cũng nhạt vì
+      thời gian tiếp xúc ngắn. Nếu chọn cách này thì gói bánh nhỏ lại và ép kỹ
+      hơn, vì bánh ra ướt hơn hẳn.
+  - q: Bánh bảo quản được bao lâu?
+    a: >-
+      Ép kỹ và treo nơi thoáng gió thì được **5–7 ngày** trong tiết trời lạnh
+      miền Bắc dịp Tết. Trời ấm thì cất ngăn mát, được **10 ngày**; ngăn đá thì
+      cả tháng, lúc ăn rã đông rồi hấp lại 20 phút. Thấy mặt lá nhớt hoặc ngửi
+      chua là bỏ, đừng gọt phần ngoài rồi ăn phần trong.
+
+ticker:
+  - icon: drop
+    text: Nước phải ngập bánh suốt mười hai tiếng
+  - icon: herb
+    text: Lá dong lau thật khô rồi mới gói
+  - icon: clock
+    text: Luộc xong còn phải ép sáu tiếng

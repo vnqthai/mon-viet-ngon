@@ -1,0 +1,108 @@
+---
+/* Bánh chưng — họ vàng "Cơm & bánh". VẼ LẠI vòng 3.
+   Vòng 1: mặt trên hình elip → đọc ra bánh xe pho mát, mất chữ "vuông".
+   Vòng 2: dựng đúng hình hộp, nhưng Thái bắt hai lỗi còn lại — cả hai đều là
+   lỗi CHƯA TRA:
+   · **Lạt buộc thiếu sợi và không đều.** Tra lại: bánh chưng buộc **4 sợi lạt**,
+     hai sợi mỗi chiều, chia mặt bánh thành **chín ô như dấu thăng**. Vòng 2 vẽ
+     hai sợi bắt chéo cộng một vành ngang — vừa thiếu vừa không thành lưới.
+     Nay vẽ đủ 4 sợi bằng nét stroke chạy theo đúng hai chiều của mặt hình thoi
+     rồi vắt xuống hai mặt bên; cách này cũng gọn hơn vẽ từng dải polygon.
+   · **Miếng cắt sai hình.** Vòng 2 vẽ các lớp thành dải CHÉO song song — đọc ra
+     miếng bánh mì kẹp. Tra lại: bánh chưng xếp lớp theo chiều NGANG (nếp đáy ·
+     đậu · thịt · đậu · nếp mặt), nên bổ ra miếng tam giác thì mặt cắt hiện
+     thành **các dải NẰM NGANG**, mặt trên là nếp trắng, cạnh ngoài còn lá.
+     Đây mới là thứ ai cũng nhận ra ngay.
+   Màu lá dong chép từ ArtXoiXeo (#4E8340 / #3F6B33 / #28491F). */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Bánh chưng vuông gói lá dong buộc bốn sợi lạt thành hình chữ thập kép, bên cạnh là miếng cắt tam giác lộ các lớp nếp, đậu xanh và thịt nằm ngang">
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M150 172 C 139 148 165 132 154 106 C 147 90 161 78 157 64"/>
+    <path d="M232 164 C 222 140 248 126 237 100 C 230 84 244 72 240 58"/>
+  </g>
+  <ellipse cx="252" cy="410" rx="206" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- BÁNH CHƯNG: hình hộp phối cảnh, bốn góc mặt trên nhọn rõ -->
+  <path d="M66 268 L 66 336 L 196 380 L 196 312 Z" fill="#3F6B33" stroke="#22401A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M196 312 L 196 380 L 326 336 L 326 268 Z" fill="#2C5023" stroke="#22401A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M66 268 L 196 224 L 326 268 L 196 312 Z" fill="#4E8340" stroke="#22401A" stroke-width="3" stroke-linejoin="round"/>
+  <!-- gân lá dong chạy theo hai chiều lá gấp -->
+  <g fill="none" stroke="#3D6B31" stroke-width="2.2">
+    <path d="M96 258 L 226 302"/>
+    <path d="M166 234 L 296 278"/>
+    <path d="M96 278 L 226 234"/>
+    <path d="M166 302 L 296 258"/>
+  </g>
+  <g fill="none" stroke="#2E5325" stroke-width="2.2">
+    <path d="M92 277 L 92 345"/>
+    <path d="M170 303 L 170 371"/>
+    <path d="M222 371 L 222 303"/>
+    <path d="M300 345 L 300 277"/>
+  </g>
+
+  <!-- BỐN SỢI LẠT: hai sợi mỗi chiều, chia mặt bánh thành chín ô như dấu thăng.
+       Vẽ bằng nét stroke chạy dọc mặt hình thoi rồi vắt thẳng xuống mặt bên. -->
+  <g fill="none" stroke="#96793F" stroke-width="13" stroke-linejoin="round">
+    <path d="M239 239 L 109 283 L 109 351"/>
+    <path d="M283 253 L 153 297 L 153 365"/>
+    <path d="M153 239 L 283 283 L 283 351"/>
+    <path d="M109 253 L 239 297 L 239 365"/>
+  </g>
+  <g fill="none" stroke="#DCC891" stroke-width="9" stroke-linejoin="round">
+    <path d="M239 239 L 109 283 L 109 351"/>
+    <path d="M283 253 L 153 297 L 153 365"/>
+    <path d="M153 239 L 283 283 L 283 351"/>
+    <path d="M109 253 L 239 297 L 239 365"/>
+  </g>
+  <g fill="none" stroke="#EFE1B8" stroke-width="3" stroke-linejoin="round">
+    <path d="M237 237 L 107 281 L 107 349"/>
+    <path d="M151 237 L 281 281 L 281 349"/>
+  </g>
+
+  <!-- MIẾNG CẮT — vòng 4. Thái bắt đúng chỗ: vòng 3 vẽ miếng cắt TOÀN RUỘT,
+       mặt trên trắng tinh, chẳng còn tí lá nào. Sai bản chất món: bóc lá ra thì
+       mặt bánh **xanh mướt vì ăn màu lá dong**, và miếng cắt bao giờ cũng còn
+       lá ở mấy mặt ngoài — chỉ hai mặt vừa bổ mới lộ ruột. Nay:
+       · lót một mảnh lá dong dưới miếng bánh
+       · mặt trên đổi từ trắng sang NẾP XANH MƯỚT
+       · mặt bên ngoài giữ nguyên lá dong xanh sẫm
+       · chỉ MẶT CẮT phía trước mới hiện năm lớp nếp – đậu – thịt -->
+  <!-- mảnh lá dong lót dưới -->
+  <path d="M310 372 C 336 358 420 352 470 364 C 456 388 380 400 320 392 Z"
+        fill="#4E8340" stroke="#22401A" stroke-width="3"/>
+  <g fill="none" stroke="#3D6B31" stroke-width="2">
+    <path d="M336 370 C 380 362 432 360 462 366"/>
+    <path d="M330 382 C 376 376 428 374 458 378"/>
+  </g>
+  <!-- mặt bên phải: cạnh ngoài của bánh nên còn nguyên lá dong -->
+  <path d="M422 292 L 454 344 L 454 398 L 422 346 Z" fill="#3F6B33" stroke="#22401A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M430 306 L 448 336" fill="none" stroke="#2E5325" stroke-width="2.2"/>
+  <!-- mặt trên: nếp XANH MƯỚT vì ăn màu lá, không phải trắng -->
+  <path d="M330 330 L 422 292 L 454 344 Z" fill="#BCD095" stroke="#7A9048" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#D2E0B0">
+    <ellipse cx="368" cy="322" rx="7.4" ry="4.6" transform="rotate(-22 368 322)"/>
+    <ellipse cx="402" cy="310" rx="7.4" ry="4.6" transform="rotate(-22 402 310)"/>
+    <ellipse cx="406" cy="330" rx="7.2" ry="4.4" transform="rotate(-8 406 330)"/>
+    <ellipse cx="428" cy="322" rx="7" ry="4.2" transform="rotate(18 428 322)"/>
+    <ellipse cx="384" cy="336" rx="7" ry="4.2" transform="rotate(-10 384 336)"/>
+  </g>
+  <!-- mặt cắt: năm lớp NẰM NGANG, nếp – đậu – thịt – đậu – nếp -->
+  <!-- vệt xanh sát mặt: lớp nếp ngoài cùng ăn màu lá, dày chừng vài milimét -->
+  <path d="M330 330 L 454 344 L 454 350 L 330 336 Z" fill="#BCD095" stroke="#7A9048" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M330 336 L 454 350 L 454 358 L 330 344 Z" fill="#F1E7D2" stroke="#B39A6E" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M330 344 L 454 358 L 454 368 L 330 354 Z" fill="#DFB43A" stroke="#95761A" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M330 354 L 454 368 L 454 378 L 330 364 Z" fill="#C4705E" stroke="#8A3F30" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M330 364 L 454 378 L 454 388 L 330 374 Z" fill="#DFB43A" stroke="#95761A" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M330 374 L 454 388 L 454 398 L 330 384 Z" fill="#F1E7D2" stroke="#B39A6E" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- dải mỡ trong nằm giữa lớp thịt -->
+  <path d="M356 357 L 412 363 L 412 370 L 356 364 Z" fill="#EFD9C8" opacity=".92"/>
+  <!-- hạt nếp gợn trên hai dải trắng -->
+  <g fill="#FAF3E3" stroke="#C4B189" stroke-width="1.5">
+    <ellipse cx="352" cy="336" rx="6.6" ry="3.8" transform="rotate(6 352 336)"/>
+    <ellipse cx="400" cy="342" rx="6.6" ry="3.8" transform="rotate(6 400 342)"/>
+    <ellipse cx="368" cy="382" rx="6.6" ry="3.8" transform="rotate(6 368 382)"/>
+    <ellipse cx="420" cy="388" rx="6.6" ry="3.8" transform="rotate(6 420 388)"/>
+  </g>
+</svg>

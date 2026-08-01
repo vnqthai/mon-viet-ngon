@@ -141,7 +141,10 @@ Không phải một chỗ mà **tám chỗ** — sót chỗ nào cũng hỏng â
 > cập nhật. Đợt nào mở kiểu món cũng **kiểm lại từng dòng**, đừng suy từ đợt trước.
 >
 > Đợt 12 mở **"Bánh mì"** và là đợt đầu tiên phải sửa **đủ cả 8/8 chỗ** — đợt 7
-> chỉ 4/8, đợt 8 và 9 chỉ 3/8.
+> chỉ 4/8, đợt 8 và 9 chỉ 3/8. **Đợt 15 mở "Xôi" cũng đụng đủ 8/8** nhưng
+> **không** phải chỗ thứ chín: Xôi nằm trong họ màu *Cơm & bánh* đã có, nên
+> `tokens.css` không phải sửa. Nhớ phân biệt hai việc — mở kiểu món và mở họ
+> màu là hai chuyện khác nhau.
 
 **Nếu kiểu món mới còn MỞ LUÔN MỘT HỌ MÀU thì thành CHÍN chỗ** — thêm
 `src/styles/tokens.css` (`--fam-<id>` và `--fam-<id>-deep`). Sót chỗ này thì
@@ -208,8 +211,9 @@ Từ đợt 10, hình **không** nhúng thẳng vào trang nữa. Endpoint
 `src/pages/art/[kind].svg.ts` xuất mỗi hình ra `/art/<kind>.svg` lúc build, còn
 thẻ món gọi bằng `<img loading="lazy">` (`art/ArtImg.astro`). Kết quả: `/mon/`
 từ **143,8 KB** gzip xuống còn **~30 KB** và **không tăng theo số món nữa**
-(nay là **~32,9 KB** ở 104 món — *ước từ số cục bộ ×1,02*, tức
-**0,22 KB/món** cho 9 món của đợt 14, khớp với 0,21 KB/món đo thật ở đợt 13);
+(nay là **~35,4 KB** ở 115 món — *ước từ số cục bộ ×1,02*, tức
+**0,21 KB/món** cho 11 món của đợt 15; số đo thật gần nhất là **33,1 KB** ở
+104 món, đo trên máy chủ ở mốc tròn 100);
 ba trang (`/mon/`, trang chủ, trang chi tiết) dùng chung một file đã cache.
 
 Ba ràng buộc mới với file art, `npm run qa` chặn cả ba:

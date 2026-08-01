@@ -1,0 +1,103 @@
+---
+/* Xôi gà — họ vàng "Cơm & bánh". VẼ LẠI vòng 3.
+   Vòng 1: sợi gà be nhạt trên gò xôi kem → cả mảng dính thành một vòm nhợt.
+   Vòng 2: lót lớp nâu sẫm làm khe giữa các sợi — sợi đọc được rồi, nhưng Thái
+   trả lại vì **gò xôi vun quá cao**: đĩa xôi gà ngoài hàng là một LỚP XÔI DÀN
+   PHẲNG rồi phủ gà lên, không phải cái gò đắp cao như xôi xéo gói lá.
+   Vòng 3: hạ chiều cao gò từ ~100 xuống ~58 đơn vị và nới bề ngang ra, cho nó
+   thành cái nền dẹt; sợi gà theo đó cũng trải rộng và nằm ngang hơn thay vì bám
+   theo mặt vòm. Giữ nguyên lớp khe nâu sẫm của vòng 2 vì nó đã đạt.
+   Vẫn giữ: thịt gà LUỘC nên trắng ngà ngả vàng, không phải nâu đỏ; sợi dài ít
+   nhất 1/4 bề ngang đĩa; hành phi chép glyph đã duyệt của ArtXoiXeo. */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Đĩa xôi gà: lớp nếp trắng dàn phẳng phủ kín sợi gà xé dài, rưới mỡ hành xanh và rắc hành phi, bên cạnh là chén đồ chua">
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M212 196 C 201 172 227 156 216 130 C 209 114 223 102 219 88"/>
+    <path d="M298 192 C 288 168 314 154 303 128 C 296 112 310 100 306 86"/>
+  </g>
+  <ellipse cx="258" cy="400" rx="182" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐĨA TRẮNG TRÒN NÔNG -->
+  <ellipse cx="258" cy="360" rx="170" ry="50" fill="#D9CFB8" stroke="#8E7F5E" stroke-width="3"/>
+  <ellipse cx="258" cy="352" rx="170" ry="50" fill="#F6F1E4" stroke="#8E7F5E" stroke-width="3"/>
+  <ellipse cx="258" cy="352" rx="140" ry="38" fill="#EDE5D2" stroke="#B5A582" stroke-width="2.2"/>
+
+  <!-- LỚP XÔI: DÀN PHẲNG, chỉ ló ra ở mép — không vun thành gò -->
+  <path d="M116 340 C 120 316 168 298 258 298 C 348 298 396 316 400 340
+           C 380 362 328 374 258 374 C 188 374 136 362 116 340 Z"
+        fill="#F1E7D2" stroke="#B39A6E" stroke-width="3"/>
+  <g fill="#F9F2E2" stroke="#B39A6E" stroke-width="2">
+    <ellipse cx="122" cy="334" rx="9.4" ry="5.6" transform="rotate(-40 122 334)"/>
+    <ellipse cx="148" cy="313" rx="9.4" ry="5.6" transform="rotate(-26 148 313)"/>
+    <ellipse cx="196" cy="302" rx="9.6" ry="5.6" transform="rotate(-12 196 302)"/>
+    <ellipse cx="258" cy="297" rx="9.8" ry="5.8" transform="rotate(0 258 297)"/>
+    <ellipse cx="320" cy="302" rx="9.6" ry="5.6" transform="rotate(12 320 302)"/>
+    <ellipse cx="368" cy="313" rx="9.4" ry="5.6" transform="rotate(26 368 313)"/>
+    <ellipse cx="394" cy="334" rx="9.4" ry="5.6" transform="rotate(40 394 334)"/>
+    <ellipse cx="134" cy="354" rx="9.4" ry="5.6" transform="rotate(24 134 354)"/>
+    <ellipse cx="190" cy="368" rx="9.6" ry="5.6" transform="rotate(8 190 368)"/>
+    <ellipse cx="258" cy="373" rx="9.8" ry="5.8" transform="rotate(-2 258 373)"/>
+    <ellipse cx="326" cy="368" rx="9.6" ry="5.6" transform="rotate(-12 326 368)"/>
+    <ellipse cx="382" cy="354" rx="9.4" ry="5.6" transform="rotate(-26 382 354)"/>
+  </g>
+
+  <!-- LỚP KHE TỐI: nền nâu sẫm để sợi gà sáng nổi hẳn lên -->
+  <path d="M136 338 C 142 316 186 302 258 302 C 330 302 374 316 380 338
+           C 358 354 314 362 258 362 C 202 362 158 354 136 338 Z"
+        fill="#8E5A20" stroke="#5E3A0F" stroke-width="2.6"/>
+
+  <!-- SỢI GÀ XÉ: trải NGANG và rộng, mép gãy khúc, chừa khe tối giữa các sợi -->
+  <g stroke="#7A4A15" stroke-width="2" stroke-linejoin="round">
+    <path d="M146 330 L 186 318 L 232 311 L 282 309 L 280 321 L 232 323 L 188 330 L 152 342 Z" fill="#EBD3A2"/>
+    <path d="M170 312 L 214 303 L 264 300 L 312 303 L 310 315 L 264 312 L 216 315 L 174 324 Z" fill="#D9B071"/>
+    <path d="M162 348 L 210 338 L 262 333 L 314 335 L 312 347 L 262 345 L 212 350 L 168 360 Z" fill="#D9B071"/>
+    <path d="M244 322 L 292 318 L 340 310 L 378 300 L 382 312 L 344 322 L 296 330 L 246 334 Z" fill="#EBD3A2"/>
+    <path d="M256 348 L 304 344 L 350 334 L 384 322 L 388 334 L 354 346 L 306 356 L 258 360 Z" fill="#D9B071"/>
+    <path d="M200 300 L 246 294 L 294 294 L 336 302 L 332 314 L 292 306 L 248 306 L 204 312 Z" fill="#F3E1BC"/>
+    <path d="M300 306 L 340 302 L 374 308 L 392 318 L 384 330 L 366 318 L 340 314 L 302 318 Z" fill="#EBD3A2"/>
+    <path d="M124 340 L 168 328 L 208 322 L 206 334 L 170 340 L 130 352 Z" fill="#F3E1BC"/>
+  </g>
+
+  <!-- MỠ HÀNH: mảng xanh to, rưới thành vệt trên mặt -->
+  <g fill="#4E7A2E" stroke="#2E5017" stroke-width="1.8">
+    <ellipse cx="196" cy="322" rx="13" ry="5" transform="rotate(-10 196 322)"/>
+    <ellipse cx="262" cy="308" rx="13.6" ry="5.2" transform="rotate(2 262 308)"/>
+    <ellipse cx="326" cy="318" rx="13" ry="5" transform="rotate(-8 326 318)"/>
+    <ellipse cx="224" cy="346" rx="13" ry="5" transform="rotate(8 224 346)"/>
+    <ellipse cx="300" cy="344" rx="13.4" ry="5.2" transform="rotate(-6 300 344)"/>
+    <ellipse cx="158" cy="340" rx="12" ry="4.6" transform="rotate(-16 158 340)"/>
+    <ellipse cx="362" cy="336" rx="12" ry="4.6" transform="rotate(16 362 336)"/>
+  </g>
+  <g fill="#6FA347">
+    <ellipse cx="234" cy="326" rx="10" ry="3.8" transform="rotate(-6 234 326)"/>
+    <ellipse cx="294" cy="326" rx="10" ry="3.8" transform="rotate(6 294 326)"/>
+  </g>
+
+  <!-- HÀNH PHI: chép glyph đã duyệt của ArtXoiXeo, phóng to 1.3 lần -->
+  <g fill="#C07A22" stroke="#7A4712" stroke-width="1.6">
+    <path d="M172 314 c 10 -9 23 -9 31 0 c -10 8 -22 8 -31 0 z"/>
+    <path d="M232 300 c 10 -9 23 -9 31 0 c -10 8 -22 8 -31 0 z"/>
+    <path d="M292 302 c 10 -9 23 -9 31 0 c -10 8 -22 8 -31 0 z"/>
+    <path d="M344 314 c 10 -9 23 -9 31 0 c -10 8 -22 8 -31 0 z"/>
+    <path d="M196 344 c 10 -9 23 -9 31 0 c -10 8 -22 8 -31 0 z"/>
+    <path d="M264 340 c 10 -9 23 -9 31 0 c -10 8 -22 8 -31 0 z"/>
+    <path d="M322 348 c 10 -9 23 -9 31 0 c -10 8 -22 8 -31 0 z"/>
+    <path d="M140 330 c 9 -8 21 -8 29 0 c -9 7 -20 7 -29 0 z"/>
+  </g>
+
+  <!-- CHÉN ĐỒ CHUA: cà rốt củ cải bào sợi ngâm giấm -->
+  <ellipse cx="432" cy="382" rx="44" ry="13" fill="rgba(15,26,14,.3)"/>
+  <path d="M392 354 C 394 376 408 388 432 388 C 456 388 470 376 472 354 Z" fill="#EFE8D6" stroke="#8E7F5E" stroke-width="3"/>
+  <ellipse cx="432" cy="354" rx="40" ry="12" fill="#F8F3E6" stroke="#8E7F5E" stroke-width="3"/>
+  <g stroke="#D2711F" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M408 354 L 436 350"/>
+    <path d="M414 359 L 446 355"/>
+    <path d="M404 349 L 428 346"/>
+  </g>
+  <g stroke="#E8DEC4" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M418 352 L 450 349"/>
+    <path d="M410 357 L 432 354"/>
+  </g>
+</svg>

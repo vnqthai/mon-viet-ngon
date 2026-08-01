@@ -1,0 +1,320 @@
+title: Xôi đậu xanh **hạt đậu bùi nằm lẫn trong nếp dẻo**
+summary: >-
+  Đĩa xôi nhà nấu quen nhất: nếp trắng dẻo bóng, **hạt đậu xanh vàng nhạt nằm
+  rải đều trong từng thìa**, chấm với muối vừng giã thô. Đậu và nếp ngâm riêng
+  nhưng hấp chung một lượt — cả món gọn trong hai thứ và một nhúm muối.
+region: Cả nước
+category: Xôi
+occasions: [Bữa sáng, Cỗ Tết]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ (+ ngâm 6 giờ)
+  active: 25 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 105
+art: xoi-dau-xanh
+heroEyebrow: Chõ xôi bốc hơi, sáng nào cũng vậy…
+
+quick:
+  ingredients:
+    - Nếp [[400|g]] — ngâm **6 giờ** với [[1|muỗng cà phê]] muối
+    - Đậu xanh cà vỏ [[120|g]] — ngâm **4 giờ**, để riêng
+    - Muối hạt [[1|muỗng cà phê]] · dầu ăn hoặc mỡ gà [[1|muỗng canh]]
+    - "Muối vừng: vừng trắng [[50|g]] · lạc rang [[50|g]] · muối [[1|muỗng cà phê]] · đường [[1|muỗng cà phê|frac]]"
+  steps:
+    - >-
+      Ngâm nếp **6 giờ**, đậu xanh **4 giờ**. Vo lại cả hai, để **thật ráo**
+      15 phút.
+    - Trộn nếp với đậu và muối hạt, xóc đều cho đậu rải khắp chứ đừng dồn một chỗ.
+    - >-
+      Hấp **35–40 phút**. Giữa chừng mở ra xới tơi một lần, rưới dầu, đậy lại
+      hấp tiếp.
+    - Rang vừng và lạc, giã thô, trộn muối đường — được chén muối vừng.
+    - Xới xôi ra đĩa lúc còn nóng, rắc muối vừng lên hoặc để riêng chén nhỏ.
+  warning: >-
+    Ngâm rồi mà **không để ráo** thì nếp thừa nước, xôi ra nhão bết thành một
+    khối. Vo xong đổ ra rá, để đứng **ít nhất 15 phút**, thấy mặt hạt khô ráo
+    mới đem hấp.
+
+flavor:
+  chua: 0
+  ngot: 2
+  man: 3
+  cay: 0
+  thom: 6
+flavorNote: >-
+  **Chuẩn đĩa:** hạt nếp **bóng, dẻo, còn rời nhau** chứ không dính thành mảng;
+  hạt đậu chín mềm mà vẫn **giữ nguyên hình**, cắn ra bùi và bở nhẹ; nhạt nền,
+  vị mặn thơm là do muối vừng rắc lên chứ không nêm sẵn trong xôi.
+storyEyebrow: Chuyện món ăn
+storyTitle: Món xôi **đơn giản nhất**, và vì vậy khó giấu lỗi nhất
+story:
+  - >-
+    Nếp với đậu xanh, thêm nhúm muối. Danh sách nguyên liệu chỉ có vậy, mà đĩa
+    xôi đậu xanh vẫn là món xôi được nấu ở nhà nhiều hơn mọi món xôi khác — sáng
+    dọn ra ăn nóng, trưa nguội vẫn ngon, mà chiều tối đem hấp lại là mềm như mới.
+  - >-
+    Cách làm cũng nói lên tính cách của nó: đậu **ngâm riêng nhưng đồ chung với
+    nếp**. *Đồ* là chữ nhà bếp quen dùng cho món nếp — nghĩa là **làm chín bằng
+    hơi nước**, không nấu trong nước; cái nồi hấp xôi truyền thống thì gọi là
+    **chõ**, và xửng hấp thường cũng thay được. Đậu đồ chung với nếp nên khi xới
+    ra, hạt đậu vàng nhạt nằm rải đều trong nền nếp trắng, thìa nào cũng có cả
+    hai. Ăn tới đâu gặp đậu tới đó, chứ không phải một lớp đậu nằm trên một lớp
+    nếp.
+  - >-
+    Chính vì ít nguyên liệu nên món này **không có chỗ nào để giấu lỗi**. Nếp
+    ngâm chưa đủ thì hạt sượng lõi, thấy ngay. Để ráo không kỹ thì cả đĩa bết
+    lại. Đậu ngâm quá tay thì nát bung ra thành một lớp bột vàng phủ khắp. Không
+    có nước sốt hay hành phi nào cứu được — cả món nằm gọn trong hai lần canh
+    giờ ngâm và một lần để ráo.
+  - >-
+    Muối vừng đi cùng cũng không phải chuyện phụ. Xôi nhạt nền là **cố ý**: vị
+    mặn, béo và thơm đến từ nhúm muối vừng rắc lên lúc ăn, nên rắc tới đâu mặn
+    tới đó, mỗi người một tay. Nhà nào cũng có một hũ muối vừng để tủ, ăn dần cả
+    tuần.
+
+ingredientGroups:
+  - name: Nếp và đậu
+    icon: rice
+    items:
+      - id: nepxdx
+        name: Nếp
+        icon: rice
+        color: gold
+        base: 400
+        unit: g
+        note: >-
+          Nếp cái hoa vàng hoặc nếp ngỗng đều được — chọn loại **hạt to đều,
+          tròn mẩy, màu trắng đục**. Hạt gãy vụn nhiều thì xôi ra bết
+      - id: dauxanhxdx
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 120
+        unit: g
+        note: >-
+          Loại đã tách vỏ, hạt vàng, **còn nguyên nửa hạt** chứ không vỡ vụn.
+          Đậu nguyên vỏ xanh cũng nấu được nhưng phải ngâm lâu gấp đôi và vỏ
+          xanh sẽ lẫn trong xôi
+      - id: muoihatxdx
+        name: Muối hạt
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Xóc vào nếp trước khi đồ — nêm nền cho cả đĩa, không phải để mặn
+      - id: dauanxdx
+        name: Dầu ăn hoặc mỡ gà
+        icon: drop
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Rưới lúc xới tơi giữa chừng, cho hạt xôi bóng và rời nhau. Mỡ gà thơm
+          hơn hẳn dầu, có thì dùng
+  - name: Muối vừng ăn kèm
+    icon: jar
+    items:
+      - id: vungxdx
+        name: Vừng trắng
+        icon: jar
+        color: gold
+        base: 50
+        unit: g
+        note: >-
+          Rang lửa nhỏ tới khi nổ lách tách và ngả vàng nhạt. Vừng đen cũng
+          được, ra chén muối vừng sẫm màu và thơm đậm hơn
+      - id: lacxdx
+        name: Lạc rang
+        icon: pod
+        color: amber
+        base: 50
+        unit: g
+        note: >-
+          Rang rồi xát bỏ vỏ lụa đỏ. Giã **thô** thôi — còn thấy mảnh lạc thì
+          nhai mới sướng, giã mịn quá thành bột
+      - id: muoiduongxdx
+        name: Muối và đường
+        icon: jar
+        qtyText: 1 mcf muối + ¼ mcf đường
+        note: >-
+          Chút đường không làm chén muối vừng ngọt, chỉ kéo vị mặn dịu lại. Nếm
+          thử rồi chỉnh theo miệng nhà mình
+
+steps:
+  - title: Ngâm nếp và đậu — hai giờ khác nhau
+    icon: clock
+    minutes: 6 giờ
+    intro: "Hai thứ ngâm riêng vì chúng hút nước khác nhau:"
+    bullets:
+      - label: "Nếp:"
+        text: >-
+          Vo 2–3 nước cho hết bụi cám, ngâm ngập nước lạnh **6 giờ** (ngâm qua
+          đêm càng tiện) với [[1|muỗng cà phê]] muối. Bấm thử một hạt thấy **vỡ
+          ra bột trắng, không còn lõi cứng** là đủ.
+      - label: "Đậu xanh:"
+        text: >-
+          Ngâm riêng **4 giờ** thôi. Đậu ngâm lâu bằng nếp thì lúc đồ sẽ bung ra
+          thành bột, phủ vàng khắp đĩa xôi.
+      - label: "Vo lại và để ráo:"
+        text: >-
+          Vo nhẹ cả hai lần nữa, đổ chung ra rá, để đứng **ít nhất 15 phút**.
+    callout:
+      type: warn
+      text: >-
+        Đây là bước quyết định đĩa xôi rời hay bết, mà lại là bước dễ bỏ qua nhất
+        vì nó chỉ là *đợi*. Nếp còn đọng nước mà đem đồ thì hơi nước không thoát
+        được, hạt chín nhão và dính thành mảng.
+    timer:
+      secs: 900
+      label: Hẹn giờ để ráo · 15:00
+      doneMsg: Sờ mặt hạt thấy khô ráo là bắc lên hấp được rồi nghen!
+  - title: Trộn đều rồi đem hấp
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - label: "Trộn:"
+        text: >-
+          Xóc nếp với đậu và muối hạt trong một cái thau rộng. Xóc bằng cách
+          **hất lên chứ đừng khuấy vòng** — khuấy thì đậu chìm hết xuống đáy.
+      - label: "Vào chõ:"
+        text: >-
+          Trải đều lên xửng, **dàn mỏng và bằng mặt**, đừng đắp thành gò. Chọc
+          vài lỗ thông hơi bằng đầu đũa.
+      - label: "Đồ:"
+        text: >-
+          Đậy vung, đồ lửa vừa **35–40 phút** tính từ lúc nước sôi mạnh. Lót một
+          lớp khăn xô dưới vung để hơi nước khỏi nhỏ xuống mặt xôi.
+      - label: "Xới giữa chừng:"
+        text: >-
+          Tới phút thứ **20**, mở vung, rưới [[1|muỗng canh]] dầu, dùng đũa xới
+          tơi từ dưới lên rồi đậy lại đồ nốt.
+    timer:
+      secs: 2400
+      label: Hẹn giờ hấp xôi · 40:00
+      doneMsg: Bấm thử hạt đậu — mềm mà còn nguyên hình là xong!
+    callout:
+      type: tip
+      text: >-
+        Không có chõ thì dùng xửng hấp hoặc nồi cơm điện. Nồi cơm điện thì đổ
+        nước **ít hơn nấu cơm nhiều** — chỉ xâm xấp bằng mặt nếp — rồi bấm nấu
+        như thường, xong để chế độ giữ ấm thêm 10 phút.
+  - title: Rang muối vừng
+    icon: flame
+    minutes: 15 phút
+    intro: "Làm trong lúc chờ chõ xôi, vừa kịp giờ:"
+    bullets:
+      - label: "Rang vừng:"
+        text: >-
+          Chảo khô, lửa nhỏ, đảo liên tục tới khi vừng **nổ lách tách và ngả
+          vàng nhạt**. Đổ ra đĩa ngay, để trong chảo nóng là cháy.
+      - label: "Rang lạc:"
+        text: >-
+          Cũng chảo khô lửa nhỏ, đảo tới khi vỏ lụa nứt và hạt ngả vàng. Đổ ra,
+          phủ khăn cho nguội rồi xát bỏ vỏ.
+      - label: "Giã:"
+        text: >-
+          Giã lạc **thô** trước, rồi trộn với vừng, muối và đường. Đừng giã
+          chung — vừng nhỏ hơn nên sẽ nát thành dầu trước khi lạc kịp vỡ.
+    callout:
+      type: warn
+      text: >-
+        Chén muối vừng phải **thật nguội và thật khô** mới cho vào hũ, không thì
+        vài ngày là ỉu và có mùi dầu cũ. Rang xong để nguội hẳn trên đĩa rộng.
+  - title: Xới ra đĩa
+    icon: rice
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Xới xôi lúc còn nóng, **hất tơi** cho hơi nước thoát bớt rồi mới vun
+          lên đĩa. Vun ngay lúc còn hầm hập thì đáy đĩa đọng nước.
+      - text: >-
+          Rắc muối vừng lên mặt, hoặc để riêng một chén nhỏ cho mỗi người tự
+          rắc theo miệng.
+      - text: >-
+          Muốn gói mang đi thì trải **lá chuối đã trụng nước sôi** cho mềm, xúc
+          xôi vào giữa, rắc muối vừng rồi gói vuông lại.
+    doneText: Xong — ăn nóng là ngon nhất!
+
+tipsTitle: 4 chỗ **quyết định** đĩa xôi đậu xanh
+tips:
+  - icon: alert
+    title: Ráo nước quan trọng hơn mọi thứ khác
+    text: >-
+      Hỏi mười người nấu xôi bết thì chín người bỏ qua bước để ráo. Nếp ngâm
+      xong còn ngậm nước, đem đồ thì nước đó không đi đâu được, hạt chín xong
+      dính bết vào nhau. Để rá đứng **15 phút, xóc vài lần cho thoát nước đáy**
+      — mất mười lăm phút mà đổi được cả đĩa xôi.
+  - icon: clock
+    title: Đậu ngâm ngắn hơn nếp, đừng ngâm chung
+    text: >-
+      Đậu xanh cà vỏ đã tách vỏ nên hút nước nhanh hơn nếp nhiều. Ngâm chung
+      6 giờ thì tới lúc đồ, đậu bung ra thành bột phủ vàng cả đĩa và **hết hẳn
+      cái thú cắn phải hạt đậu bùi**. Bốn giờ là vừa: chín mềm mà vẫn nguyên
+      hình.
+  - icon: bulb
+    title: Xới tơi giữa chừng, không phải sau cùng
+    text: >-
+      Mở vung ở phút thứ 20 mà xới thì lớp trên và lớp dưới đổi chỗ cho nhau,
+      cả chõ chín đều. Đợi tới lúc xong mới xới thì lớp sát đáy đã nhão còn lớp
+      trên vẫn hơi sượng — xới lúc đó chỉ trộn lẫn hai lỗi vào nhau.
+  - icon: drop
+    title: Muốn béo thì nước cốt dừa, rưới sau chứ đừng ngâm
+    text: >-
+      Rưới [[80|ml]] nước cốt dừa lúc xới tơi giữa chừng là đĩa xôi mềm và thơm
+      hẳn lên, kiểu miền Nam hay làm. Nhưng đừng ngâm nếp bằng nước cốt dừa —
+      béo ngấm từ đầu thì hạt nặng, đồ mãi không tơi.
+
+serve:
+  title: Đĩa xôi nóng và **chén muối vừng để riêng**
+  paras:
+    - >-
+      Xôi đậu xanh dọn nóng, xới vun lên đĩa hoặc bát to, chén muối vừng đặt bên
+      cạnh cho mỗi người tự rắc. Rắc sẵn hết lên mặt thì đẹp nhưng ăn tới nửa
+      đĩa là phần dưới nhạt trơn.
+    - >-
+      Ngoài muối vừng thì đĩa xôi này đi được với gần như mọi thứ mặn để tủ
+      lạnh: **chả lụa cắt lát**, ruốc bông, thịt kho, hay đơn giản là quả trứng
+      luộc. Đây là món nền — nó không tranh vị với thứ ăn cùng.
+  aside:
+    title: Ba cách dọn thường gặp
+    intro: "Cùng một chõ xôi, đổi thứ ăn kèm là đổi hẳn bữa:"
+    items:
+      - icon: jar
+        text: "**Muối vừng** — lối gốc, mặn thơm và bùi, hợp bữa sáng nhẹ."
+      - icon: meat
+        text: "**Chả lụa hoặc ruốc bông** — thành bữa sáng no, kiểu hàng xôi vỉa hè."
+      - icon: herb
+        text: "**Lá chuối gói mang đi** — trụng lá cho mềm, gói vuông, ăn dọc đường."
+
+faq:
+  - q: Xôi ra bết thành một khối, cứu được không?
+    a: >-
+      Xới thật tơi khi còn nóng rồi **mở vung đồ thêm 5 phút** cho hơi nước bay
+      bớt — vớt vát được phần nào. Lần sau chữa từ gốc: để ráo lâu hơn, dàn mỏng
+      hơn trong chõ, và xới tơi ở phút thứ 20. Bết là bệnh của thừa nước, không
+      phải của thừa lửa.
+  - q: Đậu bung nát hết, phủ vàng cả đĩa thì sao?
+    a: >-
+      Do ngâm đậu quá lâu, hoặc mua nhầm loại đậu đã vỡ vụn sẵn. Lần sau ngâm
+      đậu **đúng 4 giờ** và chọn loại còn nguyên nửa hạt. Mẻ này vẫn ăn ngon,
+      chỉ là mất cái thú cắn phải hạt đậu.
+  - q: Xôi để nguội cứng lại, hâm sao cho mềm như mới?
+    a: >-
+      **Hấp lại là cách duy nhất tử tế.** Cho xôi vào xửng, vẩy chút nước lên
+      mặt, hấp 7–10 phút là mềm gần như mới đồ. Quay lò vi sóng thì phải phủ
+      khăn ẩm và quay từng đợt ngắn, không thì mặt ngoài dai còn trong vẫn lạnh.
+  - q: Món này khác xôi xéo chỗ nào?
+    a: >-
+      Cùng là nếp với đậu xanh, nhưng làm khác hẳn. Ở đây đậu **để nguyên hạt,
+      đồ chung với nếp**, nên nằm rải trong từng thìa xôi trắng. Xôi xéo thì đậu
+      đồ riêng, giã nhuyễn, nắm thành nắm rồi xắt lát mỏng phủ lên mặt, còn nếp
+      thì nhuộm nghệ vàng. Nhìn khác, ăn cũng khác: một bên là hạt bùi lẫn trong
+      dẻo, một bên là lớp đậu mịn nằm trên.
+
+ticker:
+  - icon: rice
+    text: Đậu ngâm 4 giờ, nếp ngâm 6 giờ
+  - icon: clock
+    text: Để ráo 15 phút mới bắc lên hấp
+  - icon: jar
+    text: Muối vừng để riêng, ai rắc nấy

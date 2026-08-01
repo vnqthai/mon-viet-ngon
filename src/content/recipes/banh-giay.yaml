@@ -1,0 +1,326 @@
+title: Bánh giầy **hai miếng trắng dẻo kẹp lát giò lụa**
+summary: >-
+  Bột nếp nhào nước ấm, vo tròn rồi ấn dẹt thành miếng bằng lòng bàn tay, hấp
+  mười lăm phút là trong và dẻo. Kẹp một lát giò lụa vào giữa hai miếng — thành
+  cặp bánh giầy giò, thứ quà sáng cầm tay ăn dọc đường.
+region: Miền Bắc
+category: Bánh
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-08-01
+time:
+  total: 50 phút
+  active: 35 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 112
+art: banh-giay
+heroEyebrow: Gánh hàng đầu ngõ, bảy giờ sáng…
+
+quick:
+  ingredients:
+    - Bột nếp [[300|g]] · bột gạo tẻ [[30|g]] — trộn chung
+    - Nước ấm khoảng 70 °C [[220|ml]] · muối [[1|muỗng cà phê|frac]]
+    - Dầu ăn [[1|muỗng canh]] — nhào vào bột cho mặt bánh mịn
+    - Giò lụa [[300|g]] — thái lát dày cỡ nửa phân
+    - Lá chuối — lót xửng và lót từng miếng bánh
+  steps:
+    - >-
+      Trộn bột nếp với bột gạo và muối, rót **nước ấm** từ từ, nhào tới khi bột
+      dẻo mịn, không dính tay.
+    - Ủ bột **15 phút** cho nghỉ, rồi nhào lại một lượt ngắn.
+    - Chia bột thành viên bằng quả trứng gà, vo tròn rồi **ấn dẹt** dày 1 cm.
+    - >-
+      Xếp lên lá chuối đã phết dầu, hấp **12–15 phút** tới khi mặt bánh trong
+      và bóng.
+    - Để nguội bớt, kẹp lát giò lụa vào giữa hai miếng.
+  warning: >-
+    Nhào bằng **nước lạnh** thì bột không kết dính, nặn ra miếng nào cũng nứt
+    mép và hấp xong thì bở. Nước phải ấm già — chạm vào thấy nóng nhưng chưa
+    tới mức rụt tay.
+
+flavor:
+  chua: 0
+  ngot: 1
+  man: 3
+  cay: 0
+  thom: 4
+flavorNote: >-
+  **Chuẩn miếng:** mặt bánh **trắng trong và bóng**, không còn vệt bột đục; bấm
+  xuống thấy dẻo và đàn hồi, thả tay là phồng lại; cắn ra dai mềm chứ không bở;
+  vị gần như nhạt — cái mặn thơm đến từ lát giò kẹp giữa.
+storyEyebrow: Chuyện món ăn
+storyTitle: Thứ bánh **nhạt nhất mâm**, và đó là chủ ý
+story:
+  - >-
+    Theo tích xưa, hai thứ bánh được dâng lên vua cùng lúc: một chiếc vuông và
+    một chiếc tròn trắng. Chiếc tròn ấy là bánh giầy — làm từ **xôi nếp giã
+    nhuyễn**, trắng tinh, không nhân, không nêm gì ngoài chút muối.
+  - >-
+    Tên gọi cũng nói ra cách làm. Sách vở ghi **"bánh giầy"** là dạng viết đúng
+    — biến âm từ một chữ Việt cổ, chứ không liên quan gì tới *dày* hay *mỏng*
+    như nhiều người vẫn tưởng khi viết thành "bánh dày".
+  - >-
+    Cách làm gốc là đồ xôi nếp rồi cho vào cối **giã tới khi hạt tan hẳn thành
+    một khối dẻo quánh** — việc nặng, thường phải hai người thay nhau, và giã
+    càng lâu thì bánh càng mịn. Cách làm nhà trong bài này dùng **bột nếp nhào
+    nước ấm**, ra miếng bánh dẻo và trong gần như vậy mà gọn trong nửa tiếng.
+  - >-
+    Điều đáng nói nhất về bánh giầy là nó **cố ý nhạt**. Không nhân, không
+    đường, chỉ chút muối. Nó là cái nền để kẹp thứ khác vào: lát giò lụa mặn
+    thơm, hoặc chấm muối vừng, hoặc ăn cùng chả quế. Một miếng bánh giầy ăn
+    trơ trọi thì chẳng có gì; kẹp lát giò vào là thành bữa sáng.
+
+ingredientGroups:
+  - name: Bột
+    icon: rice
+    items:
+      - id: botnepbgi
+        name: Bột nếp
+        icon: rice
+        base: 300
+        unit: g
+        note: >-
+          Loại bột nếp khô đóng gói bán sẵn ở hàng khô. Chọn gói **mới, bột tơi
+          và trắng**, không vón cục — bột cũ hút nước kém và bánh dễ bở
+      - id: botgaobgi
+        name: Bột gạo tẻ
+        icon: rice
+        base: 30
+        unit: g
+        note: >-
+          Một phần mười lượng bột nếp. Chỗ này giữ cho miếng bánh **đứng dáng**
+          thay vì chảy xệ khi hấp; toàn bột nếp thì bánh dẻo quá và bẹp dí
+      - id: muoibgi
+        name: Muối
+        icon: jar
+        qtyText: ¼ muỗng cà phê
+        note: Trộn vào bột khô. Bánh giầy cố ý nhạt, chút muối chỉ để đỡ nhạt trơ
+      - id: nuocambgi
+        name: Nước ấm
+        icon: drop
+        base: 220
+        unit: ml
+        note: >-
+          Khoảng **70 °C** — đun sôi rồi để nguội chừng 5 phút. Đây là chỗ quyết
+          định cả mẻ: nước ấm làm chín sơ mặt ngoài hạt bột, khối bột nhờ đó
+          dẻo và kết dính
+      - id: daubgi
+        name: Dầu ăn
+        icon: drop
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Nhào vào bột lúc cuối. Mặt bánh mịn hơn hẳn và không dính tay lúc nặn
+  - name: Nhân kẹp và lót
+    icon: meat
+    items:
+      - id: giolluabgi
+        name: Giò lụa
+        icon: meat
+        color: red
+        base: 300
+        unit: g
+        note: >-
+          Thái lát dày **nửa phân**, cắt tròn hoặc vuông tùy miếng bánh. Chả quế
+          cũng kẹp được và thơm hơn; giò bò thì đậm hơn hẳn
+      - id: lachuoibgi
+        name: Lá chuối
+        icon: herb
+        color: green
+        base: 2
+        unit: tàu
+        note: >-
+          Trụng nước sôi cho mềm, lau khô, cắt thành miếng vuông cỡ 8 cm. Lót
+          dưới từng miếng bánh khi hấp — vừa chống dính vừa cho bánh thơm mùi lá
+      - id: muoivungbgi
+        name: Muối vừng
+        icon: jar
+        qtyText: 1 chén nhỏ
+        note: >-
+          Cho ai muốn ăn chay hoặc ăn chơi: chấm miếng bánh vào muối vừng thay vì
+          kẹp giò
+
+steps:
+  - title: Trộn và nhào bột
+    icon: rice
+    minutes: 20 phút
+    intro: "Cả mẻ bánh hơn thua ở nhiệt độ nước:"
+    bullets:
+      - label: "Trộn khô:"
+        text: >-
+          Trộn đều [[300|g]] bột nếp, [[30|g]] bột gạo tẻ và
+          [[1|muỗng cà phê|frac]] muối trong âu lớn.
+      - label: "Rót nước ấm:"
+        text: >-
+          Đun nước sôi rồi để nguội chừng 5 phút cho xuống khoảng **70 °C**. Rót
+          từ từ vào bột, vừa rót vừa dùng đũa khuấy.
+      - label: "Nhào:"
+        text: >-
+          Khi bột đã nguội đủ để chạm tay, nhào bằng tay **8–10 phút** tới khi
+          khối bột **dẻo mịn, không dính tay, ấn xuống thấy đàn hồi**. Cho
+          [[1|muỗng canh]] dầu vào nhào thêm 2 phút.
+      - label: "Ủ:"
+        text: >-
+          Bọc kín, để nghỉ **15 phút**. Bột nghỉ xong dễ nặn hơn hẳn.
+    callout:
+      type: warn
+      text: >-
+        Đừng rót hết nước một lúc. Mỗi gói bột hút nước một khác — rót từ từ và
+        dừng lại khi khối bột đã kết được thành một cục dẻo. Bột nhão thì bánh
+        chảy xệ khi hấp, mà đã nhão thì thêm bột khô vào chỉ làm nó lợn cợn.
+    timer:
+      secs: 900
+      label: Hẹn giờ ủ bột · 15:00
+      doneMsg: Nhào lại một lượt ngắn rồi chia bột nghen!
+  - title: Nặn miếng bánh
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Chia bột:"
+        text: >-
+          Nhào lại một lượt ngắn rồi chia thành viên bằng **quả trứng gà**,
+          chừng [[50|g]] mỗi viên. Bọc kín phần chưa nặn cho khỏi khô mặt.
+      - label: "Vo tròn:"
+        text: >-
+          Xoa chút dầu vào lòng bàn tay, vo từng viên cho **thật tròn và láng
+          mặt** — mặt viên có vết nứt thì hấp xong vết đó vẫn còn.
+      - label: "Ấn dẹt:"
+        text: >-
+          Đặt viên lên miếng lá chuối, dùng lòng bàn tay ấn xuống thành miếng
+          tròn dày chừng **1 cm**, đường kính bằng lòng bàn tay.
+      - text: >-
+          Miết mép cho tròn đều. Miếng dày quá thì lõi chưa chín; mỏng quá thì
+          hấp xong dính bết vào nhau.
+    callout:
+      type: tip
+      text: >-
+        Muốn miếng bánh tròn đều tăm tắp thì dùng **đáy một cái cốc thủy tinh**
+        có xoa dầu, ấn thẳng xuống viên bột. Nhanh hơn ấn tay và miếng nào cũng
+        như miếng nào.
+  - title: Hấp
+    icon: pot
+    minutes: 15 phút
+    bullets:
+      - label: "Xếp xửng:"
+        text: >-
+          Lót lá chuối kín đáy xửng, xếp bánh cách nhau chừng 2 cm vì bánh nở
+          thêm khi hấp.
+      - label: "Hấp:"
+        text: >-
+          Nước sôi mạnh rồi mới đặt xửng lên. Hấp **12–15 phút**. Lót khăn xô
+          dưới vung để nước không nhỏ xuống mặt bánh.
+      - label: "Kiểm:"
+        text: >-
+          Bánh chín thì mặt **chuyển từ trắng đục sang trắng trong và bóng**,
+          bấm nhẹ thấy đàn hồi. Còn vệt đục ở giữa là chưa tới, hấp thêm 3 phút.
+      - label: "Để nguội bớt:"
+        text: >-
+          Nhấc ra, để nguội chừng **10 phút** rồi mới gỡ khỏi lá. Gỡ lúc còn
+          nóng là bánh dính và biến dạng.
+    timer:
+      secs: 840
+      label: Hẹn giờ hấp bánh · 14:00
+      doneMsg: Mặt bánh trong và bóng là chín rồi nghen!
+    callout:
+      type: warn
+      text: >-
+        Nước phải sôi mạnh **trước khi** đặt xửng lên. Đặt bánh vào lúc nước còn
+        nguội rồi mới đun thì bánh chảy xệ mất dáng trong lúc chờ hơi lên.
+  - title: Kẹp giò
+    icon: meat
+    minutes: 5 phút
+    bullets:
+      - text: Thái giò lụa thành lát dày **nửa phân**, cắt vừa cỡ miếng bánh.
+      - text: >-
+          Đặt một lát giò lên một miếng bánh, úp miếng thứ hai lên trên, ấn nhẹ
+          cho dính.
+      - text: >-
+          Gói lại bằng chính miếng lá chuối vừa hấp nếu mang đi — bánh giữ ẩm và
+          không dính vào nhau.
+    doneText: Xong — ăn lúc còn ấm là dẻo nhất!
+
+tipsTitle: 4 chỗ **quyết định** mẻ bánh giầy
+tips:
+  - icon: alert
+    title: Nước ấm, không phải nước lạnh
+    text: >-
+      Đây là chỗ hỏng nhiều nhất. Nước khoảng **70 °C** làm chín sơ lớp ngoài
+      của hạt bột, khối bột nhờ đó kết dính và dẻo dai. Nhào nước lạnh thì bột
+      chỉ ướt chứ không kết — nặn ra miếng nào cũng nứt mép, hấp xong bở và rời.
+      Đun sôi rồi để nguội đúng 5 phút là vừa.
+  - icon: bulb
+    title: Chút bột gạo tẻ để bánh đứng dáng
+    text: >-
+      Một phần mười lượng bột nếp, tưởng không đáng kể mà lại là thứ giữ miếng
+      bánh **tròn đầy thay vì bẹp dí**. Toàn bột nếp thì bánh dẻo quá, hấp xong
+      chảy loang ra thành miếng mỏng dính. Đừng cho quá tay — nhiều bột tẻ thì
+      bánh cứng và mất độ dai.
+  - icon: herb
+    title: Lá chuối lót từng miếng, không chỉ lót xửng
+    text: >-
+      Bánh giầy dính khủng khiếp. Lót lá chuối dưới **từng miếng** thì gỡ ra
+      nguyên vẹn, lại thơm mùi lá. Không có lá chuối thì phết dầu lên giấy nến,
+      nhưng giấy nến chỉ chống dính chứ không cho mùi.
+  - icon: clock
+    title: Ăn trong ngày, đừng để tủ lạnh
+    text: >-
+      Bánh giầy để ngăn mát là **cứng đanh lại** sau vài tiếng, và hấp lại cũng
+      không về được độ dẻo ban đầu. Đây là món làm buổi sáng ăn buổi sáng. Nếu
+      buộc phải để thì bọc kín ở nhiệt độ phòng, ăn trong ngày, và hấp lại 5 phút
+      trước khi ăn.
+
+serve:
+  title: Cặp bánh kẹp giò, **cầm tay ăn dọc đường**
+  paras:
+    - >-
+      Bánh giầy giò là món cầm tay: hai miếng bánh kẹp một lát giò, gói trong
+      mảnh lá chuối, ăn luôn lúc còn ấm. Không cần đĩa, không cần nước chấm —
+      đó chính là lý do nó thành quà sáng phổ biến ở miền Bắc.
+    - >-
+      Ăn không kẹp giò thì chấm **muối vừng**. Miếng bánh nhạt gặp muối vừng mặn
+      bùi là đủ, và đây cũng là cách ăn của những ngày lễ chay.
+  aside:
+    title: Ba cách ăn
+    intro: "Cùng một mẻ bánh, ba kiểu:"
+    items:
+      - icon: meat
+        text: "**Kẹp giò lụa** — lối quen nhất, thành bữa sáng no."
+      - icon: jar
+        text: "**Chấm muối vừng** — cho ngày chay, hoặc ăn nhẹ buổi chiều."
+      - icon: flame
+        text: "**Rán vàng hai mặt** — bánh để qua đêm thì rán lên, vỏ giòn ruột dẻo."
+
+faq:
+  - q: Viết "bánh giầy" hay "bánh dày" mới đúng?
+    a: >-
+      **"Bánh giầy"** là dạng từ điển ghi nhận. Chữ này biến âm từ một chữ Việt
+      cổ, không liên quan tới nghĩa *dày – mỏng*, nên viết "bánh dày" là nhầm
+      sang một chữ khác hẳn. Trong đời sống thì cả hai cách viết đều gặp, và
+      không ai hiểu sai món — nhưng viết đúng vẫn hơn.
+  - q: Cách làm gốc bằng cách giã xôi khác gì cách dùng bột nếp?
+    a: >-
+      Cách gốc là **đồ nếp thành xôi rồi giã nhuyễn trong cối** cho tới khi
+      không còn nhận ra hạt nào. Bánh ra dẻo dai và thơm mùi nếp thật rõ, mặt
+      bánh mịn như sáp. Nhưng giã là việc nặng, phải hai người thay nhau và mất
+      cả tiếng. Bột nếp nhào nước ấm cho ra miếng bánh gần giống, kém một chút ở
+      mùi nếp và độ dai, đổi lại làm được trong nửa tiếng ở bếp nhà.
+  - q: Bánh hấp xong bị chảy xệ, mất dáng tròn?
+    a: >-
+      Hai nguyên nhân. Một là **bột nhão** — lần sau rót nước từ từ và dừng sớm
+      hơn. Hai là **đặt xửng lên lúc nước chưa sôi**, bánh phải ngồi chờ hơi lên
+      nên chảy ra trước khi kịp chín. Nước phải sôi sùng sục rồi mới đặt xửng.
+  - q: Làm sẵn từ tối hôm trước được không?
+    a: >-
+      Nhào bột sẵn thì được — bọc kín để ngăn mát qua đêm, sáng lấy ra để về
+      nhiệt độ phòng chừng 20 phút rồi nhào lại và nặn. Nhưng **bánh đã hấp thì
+      đừng để qua đêm**, nó cứng đanh và hấp lại cũng không mềm như cũ. Nếu lỡ
+      có bánh cũ thì rán vàng hai mặt, ăn kiểu khác lại ngon.
+
+ticker:
+  - icon: drop
+    text: Nhào bằng nước ấm 70 độ, không phải nước lạnh
+  - icon: rice
+    text: Chút bột gạo tẻ giữ cho bánh đứng dáng
+  - icon: herb
+    text: Lót lá chuối dưới từng miếng khi hấp

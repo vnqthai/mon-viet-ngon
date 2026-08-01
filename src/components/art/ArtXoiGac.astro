@@ -1,0 +1,140 @@
+---
+/* Xôi gấc — họ vàng "Cơm & bánh". VẼ LẠI vòng 3.
+   Vòng 1: khối vuông cạnh thẳng → đọc ra CỤC GẠCH.
+   Vòng 2: thêm khía dọc quanh sườn cho ra vẻ "đóng khuôn" → hỏng theo kiểu
+   khác, khía dọc đọc thành VỎ BÁNH TART, còn mấy nét dừa nạo kẻ song song dài
+   trên mặt thì đọc thành ĐƯỜNG KEM RƯỚI. Bài học: chi tiết nào gợi tới đồ ngọt
+   phương Tây thì ở 260px mắt sẽ chốt vào đó trước.
+   Vòng 3 bỏ hết hai thứ ấy:
+   · sườn để trơn, chỉ hơi thuôn vào, MÉP DƯỚI GỢN HẠT — nếp nén thì cạnh không
+     bao giờ thẳng
+   · mặt trên PHẲNG CÓ GỜ (dáng úp khuôn ra), phủ kín hạt nếp nhô lên
+   · dừa nạo đổi hẳn cách vẽ: sợi NGẮN, mảnh, nhiều, rải LỆCH và xoay lung tung
+     thay vì mấy nét dài song song
+   Vẫn giữ miếng đã cắt tựa vào sườn phải, vì đó là thứ nói ra "khối này cắt
+   được, nó là đồ ăn". */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Xôi gấc đỏ cam ép khuôn trên đĩa trắng, một miếng đã cắt tựa bên cạnh, mặt phủ hạt nếp và rắc dừa nạo sợi">
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M206 172 C 195 148 221 132 210 106 C 203 90 217 78 213 64"/>
+    <path d="M290 168 C 280 144 306 130 295 104 C 288 88 302 76 298 62"/>
+  </g>
+  <ellipse cx="256" cy="404" rx="178" ry="26" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐĨA TRẮNG TRÒN -->
+  <ellipse cx="256" cy="366" rx="168" ry="50" fill="#D9CFB8" stroke="#8E7F5E" stroke-width="3"/>
+  <ellipse cx="256" cy="356" rx="168" ry="50" fill="#F6F1E4" stroke="#8E7F5E" stroke-width="3"/>
+  <ellipse cx="256" cy="356" rx="138" ry="38" fill="#EDE5D2" stroke="#B5A582" stroke-width="2.2"/>
+
+  <!-- Vòng 4: Thái xin khối chính to hơn. Bọc cả cụm trong một lớp scale
+       thay vì sửa từng toạ độ — đúng cách đã dùng cho chùm thiên lý ở đợt 13,
+       và cách chữa cán chảo lọt khung ở đợt 14. Tâm phóng đặt ở ĐÁY khối để
+       nó nở lên trên chứ không thụt xuống dưới lòng đĩa. -->
+  <g transform="translate(-42.5 -62.6) scale(1.18)">
+  <!-- KHỐI XÔI: sườn trơn hơi thuôn, MÉP DƯỚI GỢN HẠT -->
+  <path d="M132 274 C 130 306 136 328 146 340
+           C 162 348 190 353 224 354
+           C 262 355 296 351 314 344
+           C 326 332 332 308 330 274 Z"
+        fill="#C93E1F" stroke="#7E2110" stroke-width="3"/>
+  <!-- hạt nếp lấm tấm trên sườn, cho mặt khỏi phẳng lì -->
+  <g fill="#D8532E">
+    <ellipse cx="156" cy="300" rx="8.4" ry="5.4" transform="rotate(-8 156 300)"/>
+    <ellipse cx="192" cy="316" rx="8.6" ry="5.6" transform="rotate(4 192 316)"/>
+    <ellipse cx="234" cy="322" rx="8.6" ry="5.6" transform="rotate(-2 234 322)"/>
+    <ellipse cx="278" cy="316" rx="8.6" ry="5.6" transform="rotate(6 278 316)"/>
+    <ellipse cx="312" cy="300" rx="8.4" ry="5.4" transform="rotate(-6 312 300)"/>
+    <ellipse cx="170" cy="330" rx="8.2" ry="5.2" transform="rotate(6 170 330)"/>
+    <ellipse cx="214" cy="342" rx="8.4" ry="5.4" transform="rotate(-2 214 342)"/>
+    <ellipse cx="262" cy="342" rx="8.4" ry="5.4" transform="rotate(2 262 342)"/>
+    <ellipse cx="300" cy="330" rx="8.2" ry="5.2" transform="rotate(-6 300 330)"/>
+    <ellipse cx="140" cy="322" rx="8" ry="5" transform="rotate(10 140 322)"/>
+  </g>
+  <!-- hạt nếp NHÔ RA khỏi mép dưới: đường bao gồ ghề = nếp, không phải hộp -->
+  <g fill="#D8532E" stroke="#7E2110" stroke-width="2">
+    <ellipse cx="150" cy="342" rx="9.4" ry="6" transform="rotate(28 150 342)"/>
+    <ellipse cx="184" cy="352" rx="9.6" ry="6.2" transform="rotate(10 184 352)"/>
+    <ellipse cx="226" cy="356" rx="9.8" ry="6.2" transform="rotate(-2 226 356)"/>
+    <ellipse cx="270" cy="354" rx="9.6" ry="6.2" transform="rotate(-8 270 354)"/>
+    <ellipse cx="308" cy="345" rx="9.4" ry="6" transform="rotate(-24 308 345)"/>
+    <ellipse cx="133" cy="316" rx="9" ry="5.8" transform="rotate(70 133 316)"/>
+    <ellipse cx="329" cy="312" rx="9" ry="5.8" transform="rotate(-70 329 312)"/>
+  </g>
+
+  <!-- MẶT TRÊN: phẳng có gờ, phủ kín hạt nếp nhô lên -->
+  <ellipse cx="231" cy="274" rx="99" ry="33" fill="#E85F32" stroke="#7E2110" stroke-width="3"/>
+  <g fill="#F07344" stroke="#9E2B14" stroke-width="2">
+    <ellipse cx="137" cy="268" rx="10" ry="6.2" transform="rotate(-56 137 268)"/>
+    <ellipse cx="156" cy="253" rx="10" ry="6.2" transform="rotate(-32 156 253)"/>
+    <ellipse cx="190" cy="244" rx="10" ry="6.2" transform="rotate(-12 190 244)"/>
+    <ellipse cx="231" cy="241" rx="10.2" ry="6.4" transform="rotate(0 231 241)"/>
+    <ellipse cx="272" cy="244" rx="10" ry="6.2" transform="rotate(12 272 244)"/>
+    <ellipse cx="306" cy="253" rx="10" ry="6.2" transform="rotate(32 306 253)"/>
+    <ellipse cx="325" cy="268" rx="10" ry="6.2" transform="rotate(56 325 268)"/>
+    <ellipse cx="152" cy="292" rx="10" ry="6.2" transform="rotate(30 152 292)"/>
+    <ellipse cx="192" cy="302" rx="10" ry="6.2" transform="rotate(10 192 302)"/>
+    <ellipse cx="236" cy="305" rx="10.2" ry="6.4" transform="rotate(-4 236 305)"/>
+    <ellipse cx="278" cy="300" rx="10" ry="6.2" transform="rotate(-16 278 300)"/>
+    <ellipse cx="312" cy="288" rx="10" ry="6.2" transform="rotate(-34 312 288)"/>
+  </g>
+  <g fill="#F98F60">
+    <ellipse cx="176" cy="268" rx="8.8" ry="5.4" transform="rotate(-14 176 268)"/>
+    <ellipse cx="222" cy="262" rx="9" ry="5.6" transform="rotate(-2 222 262)"/>
+    <ellipse cx="268" cy="267" rx="8.8" ry="5.4" transform="rotate(12 268 267)"/>
+    <ellipse cx="200" cy="286" rx="8.6" ry="5.2" transform="rotate(-6 200 286)"/>
+    <ellipse cx="252" cy="286" rx="8.6" ry="5.2" transform="rotate(6 252 286)"/>
+    <ellipse cx="296" cy="276" rx="8.4" ry="5" transform="rotate(20 296 276)"/>
+  </g>
+
+  <!-- DỪA NẠO: sợi NGẮN, mảnh, nhiều, xoay lung tung — không kẻ song song -->
+  <g stroke="#FAF6EC" stroke-width="3.2" stroke-linecap="round" fill="none">
+    <path d="M164 258 l 17 -5"/>
+    <path d="M196 250 l 6 15"/>
+    <path d="M222 252 l 16 6"/>
+    <path d="M252 246 l -4 16"/>
+    <path d="M276 254 l 15 -7"/>
+    <path d="M300 264 l 4 15"/>
+    <path d="M182 274 l 14 8"/>
+    <path d="M214 282 l 16 -6"/>
+    <path d="M248 276 l -7 15"/>
+    <path d="M280 284 l 15 5"/>
+    <path d="M166 288 l 15 6"/>
+    <path d="M210 300 l 16 -4"/>
+    <path d="M258 298 l -5 -15"/>
+    <path d="M292 296 l 14 -8"/>
+    <path d="M238 268 l 13 9"/>
+    <path d="M190 264 l -6 -14"/>
+  </g>
+
+  </g>
+
+  <!-- MIẾNG ĐÃ CẮT — vòng 5. Thái: "miếng nhỏ nên hình vuông, hoặc to hơn xíu".
+       Vòng 4 phóng to rồi nhưng vẫn để mép xiên bo tròn nên nó đọc thành một
+       cục trụ đứng riêng. Nay dựng thành KHỐI HỘP cạnh thẳng, ba mặt rõ (trên ·
+       trước · bên), tựa sát sườn khối chính — nhìn ra ngay là một miếng vừa xắt
+       ra chứ không phải vật thứ hai. -->
+  <path d="M356 296 L 390 312 L 390 362 L 356 346 Z" fill="#C93E1F" stroke="#7E2110" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M390 312 L 432 296 L 432 346 L 390 362 Z" fill="#A93017" stroke="#7E2110" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M356 296 L 398 280 L 432 296 L 390 312 Z" fill="#E85F32" stroke="#7E2110" stroke-width="3" stroke-linejoin="round"/>
+  <!-- gợn hạt nếp trên ba mặt -->
+  <g fill="#F07344">
+    <ellipse cx="380" cy="294" rx="7.4" ry="4.4" transform="rotate(-20 380 294)"/>
+    <ellipse cx="406" cy="296" rx="7.4" ry="4.4" transform="rotate(20 406 296)"/>
+    <ellipse cx="394" cy="304" rx="7" ry="4.2" transform="rotate(0 394 304)"/>
+  </g>
+  <g fill="#D8532E">
+    <ellipse cx="368" cy="316" rx="7" ry="4.6" transform="rotate(24 368 316)"/>
+    <ellipse cx="374" cy="338" rx="6.8" ry="4.4" transform="rotate(24 374 338)"/>
+    <ellipse cx="410" cy="318" rx="7" ry="4.6" transform="rotate(-22 410 318)"/>
+    <ellipse cx="414" cy="338" rx="6.8" ry="4.4" transform="rotate(-22 414 338)"/>
+  </g>
+  <!-- dừa nạo trên mặt cắt -->
+  <g stroke="#FAF6EC" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M370 292 l 13 -4"/>
+    <path d="M400 288 l 4 10"/>
+    <path d="M386 302 l 12 3"/>
+    <path d="M414 298 l -9 6"/>
+  </g>
+</svg>

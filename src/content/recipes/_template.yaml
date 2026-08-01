@@ -19,12 +19,19 @@ summary: >-
   Một hai câu mô tả món — hiện ở hero trang món và thẻ món ngoài danh mục.
 region: Miền Nam        # Miền Tây | Miền Nam | Miền Trung | Miền Bắc | Tây Bắc | Tây Nguyên | Cả nước
 category: Canh          # Canh | Kho | Xào | Nướng | Cuốn | Gỏi | Chiên | Hấp | Cơm
-#                       # | Món nước | Bún trộn | Lẩu | Cháo | Bánh | Bánh mì | Chè
+#                       # | Xôi | Món nước | Bún trộn | Lẩu | Cháo | Bánh | Bánh mì | Chè
 #                       # Món nước = một tô là xong bữa (kể cả tô nước lèo dọn riêng)
 #                       # Canh     = món trong mâm cơm, ăn với cơm trắng
 #                       # Lẩu      = nồi đặt giữa bàn, ăn tới đâu nhúng tới đó
 #                       # Cháo     = gạo ninh nhừ
-#                       # Bánh     = vỏ tráng/đổ từ bột gạo, dù chiên hay hấp
+#                       # Xôi      = nếp đồ chín, HẠT CÒN RỜI, xúc hay bốc mà ăn.
+#                       #            Cơm lam vẫn ở nhóm "Cơm" — nếp nướng ống rồi
+#                       #            cắt khoanh, không phải xôi đồ
+#                       # Bánh     = làm từ gạo/nếp rồi TẠO HÌNH: bột tráng, bột đổ
+#                       #            khuôn, bột đổ chảo, hay nguyên hạt gói lá nén
+#                       #            chặt (bánh chưng) — dù chiên, hấp hay luộc.
+#                       #            Khác Xôi ở chỗ tạo hình: xôi để hạt rời, bánh
+#                       #            chưng nén thành khối rồi cắt miếng
 #                       # Bánh mì  = ổ bánh mì kẹp nhân (bột MÌ nướng lò) — khác
 #                       #            hẳn "Bánh", đừng xếp lẫn
 #                       # Chè      = món NGỌT, ăn bằng muỗng, dọn ngoài bữa cơm.

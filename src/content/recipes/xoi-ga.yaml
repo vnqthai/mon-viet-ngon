@@ -1,0 +1,372 @@
+title: Xôi gà **thịt xé sợi phủ kín mặt, rưới mỡ hành**
+summary: >-
+  Đĩa xôi trắng dẻo phủ kín **thịt gà xé sợi vàng nhạt**, rưới mỡ hành xanh
+  bóng và rắc hành phi giòn. Gà luộc vừa chín rồi xé tay dọc thớ nên sợi dài và
+  còn ngọt nước, không tơi vụn như xé bằng nĩa.
+region: Miền Nam
+category: Xôi
+occasions: [Bữa sáng, Ăn chơi]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 20 phút (+ ngâm nếp 6 giờ)
+  active: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 106
+art: xoi-ga
+heroEyebrow: Xe xôi gà đầu đường, chiều tối đông nhất…
+
+quick:
+  ingredients:
+    - Nếp [[500|g]] — ngâm **6 giờ** với [[1|muỗng cà phê]] muối
+    - Đùi gà hoặc ức gà [[500|g]] · gừng [[1|nhánh]] · hành tím [[4|củ]]
+    - "Mỡ hành: hành lá [[1|bó]] · dầu ăn [[4|muỗng canh]] · muối, đường"
+    - Hành phi [[3|muỗng canh]] · nước mắm [[2|muỗng canh]] · đường [[1|muỗng canh]]
+    - Đồ chua ăn kèm — cà rốt và củ cải bào sợi, ngâm giấm đường
+  steps:
+    - Ngâm nếp **6 giờ**, vo lại, để **ráo 15 phút** rồi hấp **35–40 phút**.
+    - >-
+      Luộc gà với gừng và hành tím đập dập **20 phút**, tắt bếp ủ thêm 10 phút,
+      vớt ra ngâm nước đá.
+    - Xé thịt **dọc thớ** thành sợi dài, ướp chút nước mắm đường cho đậm.
+    - >-
+      Làm mỡ hành: hành lá thái nhỏ, rắc muối đường, chan dầu nóng già lên cho
+      xèo.
+    - Xới xôi ra đĩa, phủ gà xé, rưới mỡ hành, rắc hành phi, dọn kèm đồ chua.
+  warning: >-
+    Luộc gà sôi sùng sục là thịt **co lại và khô xác**, xé ra vừa vụn vừa nhạt.
+    Nước phải giữ ở mức **sôi lăn tăn**, thấy nổi bọt to là hạ lửa ngay.
+
+flavor:
+  chua: 2
+  ngot: 4
+  man: 5
+  cay: 1
+  thom: 8
+flavorNote: >-
+  **Chuẩn đĩa:** hạt xôi **rời và bóng**, không dính bết; sợi gà **dài, còn ngọt
+  nước**, cắn vào mềm mà chưa bở; mỡ hành phủ một lớp mỏng bóng chứ không đọng
+  thành vũng dầu dưới đáy; hành phi rắc sau cùng nên vẫn **giòn tan**.
+storyEyebrow: Chuyện món ăn
+storyTitle: "Xôi gà miền Nam: **xé sợi**, và cái khác nằm ở đó"
+story:
+  - >-
+    Đĩa xôi gà bán ở miền Nam gần như luôn là **gà xé sợi** — thịt luộc xong xé
+    tay dọc thớ thành từng sợi dài, ướp lại cho đậm rồi phủ kín mặt xôi. Ăn tới
+    đâu, sợi gà và hạt nếp cùng vào miệng tới đó.
+  - >-
+    Ngoài Bắc thì đĩa xôi gà thường là **thịt chặt miếng** để nguyên da, xếp
+    lên mặt xôi. Cùng một tên món, hai cách ra thành phẩm khác hẳn: miếng chặt
+    ăn ra miếng thịt riêng và xôi riêng; sợi xé thì trộn lẫn vào nhau, mỗi thìa
+    đều có cả hai.
+  - >-
+    Cách xé cũng có nghề. Xé **dọc thớ** thì sợi dài và còn giữ nước ngọt trong
+    thịt; xé ngang thớ hoặc dùng nĩa cào thì thịt vụn ra thành bông, khô và
+    nhạt. Đây là chỗ chênh lệch rõ nhất giữa đĩa xôi gà ngon và đĩa xôi gà tàm
+    tạm, mà lại chẳng tốn thêm nguyên liệu nào.
+  - >-
+    Ba thứ rưới lên trên đều có việc riêng: **mỡ hành** cho béo và thơm, **hành
+    phi** cho giòn, **nước mắm đường** cho đậm. Thiếu mỡ hành thì đĩa xôi khô;
+    thiếu hành phi thì mềm đều một kiểu, nhai một lúc là chán. Đó là lý do xe
+    xôi nào cũng có đủ ba hũ đặt sẵn cạnh nồi.
+
+ingredientGroups:
+  - name: Xôi
+    icon: rice
+    items:
+      - id: nepxga
+        name: Nếp
+        icon: rice
+        color: gold
+        base: 500
+        unit: g
+        note: >-
+          Nếp hạt to đều, trắng đục. Ngâm 6 giờ với chút muối rồi để **thật
+          ráo** — đây là chỗ quyết định hạt xôi rời hay bết. Nếp làm chín bằng
+          cách **đồ**, tức hấp bằng hơi nước chứ không nấu trong nước; nồi hấp
+          xôi truyền thống gọi là **chõ**, xửng hấp thường cũng thay được
+      - id: muoixga
+        name: Muối hạt
+        icon: jar
+        qtyText: 1 muỗng cà phê
+        note: Xóc vào nếp trước khi đồ, nêm nền cho cả đĩa
+      - id: cotduaxga
+        name: Nước cốt dừa
+        icon: drop
+        base: 80
+        unit: ml
+        note: >-
+          Tùy thích — rưới lúc xới tơi giữa chừng cho xôi mềm và thơm. Bỏ qua
+          cũng được, đĩa xôi vẫn đủ ngon nhờ mỡ hành
+  - name: Gà và đồ ướp
+    icon: meat
+    items:
+      - id: gaxga
+        name: Đùi gà hoặc ức gà
+        icon: meat
+        color: amber
+        base: 500
+        unit: g
+        note: >-
+          **Đùi ngon hơn ức** — thịt mềm, xé ra sợi còn mọng nước. Ức thì nạc và
+          dễ khô, nếu dùng thì rút ngắn giờ luộc còn 15 phút
+      - id: gungxga
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Đập dập thả vào nồi luộc — khử mùi gà và làm nước luộc thơm
+      - id: hanhtimxga
+        name: Hành tím
+        icon: onion
+        base: 4
+        unit: củ
+        note: Đập dập luộc cùng gừng. Nước luộc gà giữ lại nấu canh thì tiếc gì bỏ
+      - id: nuocmamxga
+        name: Nước mắm
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        note: >-
+          Trộn với đường và chút tiêu, ướp lại thịt đã xé cho đậm. Đây là bước
+          hay bị bỏ, mà bỏ thì sợi gà nhạt trơ trên nền xôi cũng nhạt
+      - id: duongxga
+        name: Đường
+        icon: jar
+        base: 1
+        unit: muỗng canh
+        note: Đi cùng nước mắm ướp thịt — mặn ngọt cân nhau thì sợi gà mới dậy vị
+  - name: Rưới và rắc
+    icon: herb
+    items:
+      - id: hanhlaxga
+        name: Hành lá
+        icon: herb
+        color: green
+        base: 1
+        unit: bó
+        note: >-
+          Thái nhỏ cả phần trắng lẫn phần xanh. Phần trắng cho thơm, phần xanh
+          cho màu — chan dầu nóng lên là ra mỡ hành
+      - id: dauanxga
+        name: Dầu ăn
+        icon: drop
+        base: 4
+        unit: muỗng canh
+        note: >-
+          Đun **nóng già tới lúc bốc khói nhẹ** rồi mới chan lên hành. Dầu chưa
+          đủ nóng thì hành hăng và không dậy mùi
+      - id: hanhphixga
+        name: Hành phi
+        icon: onion
+        color: amber
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Tự phi thì thơm hơn hẳn hàng mua sẵn: hành tím thái lát mỏng đều, chiên
+          lửa vừa, vớt ra lúc **mới chớm vàng** vì nó còn sậm thêm khi nguội
+      - id: dochuaxga
+        name: Đồ chua
+        icon: lettuce
+        color: red
+        qtyText: 1 chén nhỏ
+        note: >-
+          Cà rốt và củ cải bào sợi, bóp muối, vắt ráo rồi ngâm giấm đường 30 phút.
+          Chua giòn cắt bớt cái béo của mỡ hành
+
+steps:
+  - title: Ngâm nếp, để ráo
+    icon: clock
+    minutes: 6 giờ
+    bullets:
+      - label: "Ngâm:"
+        text: >-
+          Vo nếp 2–3 nước, ngâm ngập nước lạnh **6 giờ** với [[1|muỗng cà phê]]
+          muối. Ngâm qua đêm là tiện nhất.
+      - label: "Để ráo:"
+        text: >-
+          Vo lại nhẹ tay, đổ ra rá, để đứng **15 phút**, xóc vài lần cho nước ở
+          đáy thoát hết.
+    callout:
+      type: warn
+      text: >-
+        Nếp còn ngậm nước mà đem đồ thì hạt chín nhão và dính thành mảng, phủ gà
+        lên cũng không cứu được. Mười lăm phút chờ này rẻ hơn mọi cách chữa sau đó.
+  - title: Luộc gà — giữ nước sôi lăn tăn
+    icon: pot
+    minutes: 35 phút
+    intro: "Cả cái ngon của sợi gà nằm ở nồi nước này:"
+    bullets:
+      - label: "Bắc nồi:"
+        text: >-
+          Xếp gà vào nồi, đổ nước lạnh **vừa ngập**, thả gừng và hành tím đập
+          dập, thêm [[1|muỗng cà phê]] muối. Đun từ nước lạnh thì thịt chín đều
+          từ ngoài vào.
+      - label: "Hạ lửa ngay khi sôi:"
+        text: >-
+          Nước vừa sôi thì hạ lửa nhỏ, giữ ở mức **sôi lăn tăn**, hớt bọt.
+          Luộc [[20|phút]] với đùi, [[15|phút]] với ức.
+      - label: "Ủ trong nồi:"
+        text: >-
+          Tắt bếp, đậy vung ủ thêm **10 phút**. Bước này làm phần sát xương chín
+          nốt mà thịt không phải chịu thêm lửa.
+      - label: "Ngâm nước đá:"
+        text: >-
+          Vớt gà thả ngay vào thau nước đá **5 phút** rồi vớt ra để ráo. Thịt
+          săn lại, xé ra sợi dai ngon và da giòn.
+    timer:
+      secs: 1200
+      label: Hẹn giờ luộc gà · 20:00
+      doneMsg: Tắt bếp, đậy vung ủ thêm 10 phút nữa nghen!
+    callout:
+      type: warn
+      text: >-
+        Thấy nước nổi bọt to và cuộn lên là **quá lửa** — thịt co lại, nước ngọt
+        chạy hết ra nồi, xé ra chỉ còn xơ. Nhìn mặt nước là biết: chỉ được lăn
+        tăn vài bọt nhỏ ở đáy.
+  - title: Đồ xôi
+    icon: rice
+    minutes: 40 phút
+    bullets:
+      - label: "Vào chõ:"
+        text: >-
+          Trải nếp lên xửng, **dàn mỏng bằng mặt**, chọc vài lỗ thông hơi. Lót
+          khăn xô dưới vung cho nước khỏi nhỏ xuống.
+      - label: "Đồ:"
+        text: >-
+          Lửa vừa, **35–40 phút** tính từ lúc nước sôi mạnh.
+      - label: "Xới giữa chừng:"
+        text: >-
+          Phút thứ **20** mở ra, rưới nước cốt dừa nếu dùng, xới tơi từ dưới lên
+          rồi đậy lại đồ nốt.
+    timer:
+      secs: 2400
+      label: Hẹn giờ đồ xôi · 40:00
+      doneMsg: Bấm thử một hạt — trong và dẻo là xong!
+  - title: Xé gà và ướp lại
+    icon: knife
+    minutes: 15 phút
+    bullets:
+      - label: "Lóc thịt:"
+        text: >-
+          Gỡ da để riêng, lóc thịt khỏi xương. Da thái sợi mảnh, trộn lại vào
+          thịt cho đĩa xôi có chỗ béo.
+      - label: "Xé dọc thớ:"
+        text: >-
+          Nhìn kỹ chiều thớ thịt rồi **xé xuôi theo chiều đó** thành sợi cỡ que
+          diêm. Xé tay chứ đừng cào bằng nĩa.
+      - label: "Ướp lại:"
+        text: >-
+          Trộn thịt xé với [[2|muỗng canh]] nước mắm, [[1|muỗng canh]] đường,
+          chút tiêu. Để **10 phút** cho ngấm.
+      - label: "Áo lại trên chảo:"
+        text: >-
+          Bắc chảo nóng, trút thịt vào đảo nhanh **2 phút** cho nước ướp cạn và
+          bám vào sợi. Đảo lâu hơn là thịt khô.
+    callout:
+      type: tip
+      text: >-
+        Muốn đậm đà kiểu hàng bán thì thêm [[1|muỗng cà phê]] dầu điều lúc đảo
+        chảo — sợi gà lên màu vàng cam đẹp mắt mà không đổi vị.
+  - title: Mỡ hành và ráp đĩa
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - label: "Mỡ hành:"
+        text: >-
+          Hành lá thái nhỏ cho vào bát, rắc [[1|muỗng cà phê|frac]] muối và
+          [[1|muỗng cà phê|frac]] đường. Đun [[4|muỗng canh]] dầu tới **bốc khói
+          nhẹ** rồi chan thẳng lên, nghe xèo một tiếng là đạt.
+      - label: "Xới xôi:"
+        text: >-
+          Xới tơi rồi vun lên đĩa hoặc bát, ấn nhẹ cho bằng mặt.
+      - label: "Xếp lên:"
+        text: >-
+          Phủ gà xé kín mặt xôi, rưới mỡ hành, rắc hành phi **sau cùng** để nó
+          còn giòn.
+      - text: Dọn kèm chén đồ chua và chén nước mắm đường pha loãng để chan thêm.
+    doneText: Xong — ăn nóng, hành phi còn giòn!
+
+tipsTitle: 4 chỗ **quyết định** đĩa xôi gà
+tips:
+  - icon: alert
+    title: Xé dọc thớ — cả món hơn thua ở đây
+    text: >-
+      Đặt miếng thịt xuống thớt, nhìn kỹ những đường thớ chạy song song, rồi
+      **xé xuôi theo đúng chiều đó**. Sợi ra dài, dai vừa, còn ngậm nước. Xé
+      ngang thớ hay cào bằng nĩa thì thịt đứt vụn thành bông, khô và nhạt hẳn —
+      cùng một con gà mà ra hai đĩa khác nhau.
+  - icon: flame
+    title: Dầu làm mỡ hành phải nóng già
+    text: >-
+      Dầu chan lên hành phải nóng tới mức **vừa bốc khói nhẹ** và nghe *xèo* khi
+      chạm hành. Dầu ấm ấm thì hành chỉ tái đi, còn nguyên mùi hăng và màu xỉn.
+      Nóng quá tới lúc khói mù thì hành cháy đen ngay — canh đúng lúc mặt dầu
+      gợn sóng lăn tăn là chan.
+  - icon: onion
+    title: Hành phi rắc sau cùng, không trộn vào
+    text: >-
+      Trộn hành phi vào lúc còn đang ráp đĩa thì hơi nóng và mỡ hành làm nó ỉu
+      trong vài phút, mất luôn cái giòn vốn là lý do nó có mặt. Rắc sau cùng,
+      ngay trước khi bưng ra.
+  - icon: clock
+    title: Ngâm nước đá sau khi luộc
+    text: >-
+      Năm phút trong thau nước đá làm thớ thịt co lại và săn, xé ra sợi chắc
+      chứ không nhũn; da cũng giòn hẳn. Bỏ bước này thì thịt vẫn ăn được nhưng
+      sợi mềm oặt và dễ nát khi trộn nước mắm.
+
+serve:
+  title: Ăn nóng, **chan thêm nước mắm tùy miệng**
+  paras:
+    - >-
+      Đĩa xôi gà dọn nóng, chén nước mắm đường pha loãng đặt bên cạnh cho ai
+      thích đậm thì chan thêm. Đồ chua ăn xen vào giữa những miếng béo — cả đĩa
+      nhờ đó mà ăn hết không thấy ngán.
+    - >-
+      Đây là món ăn được cả sáng lẫn tối. Sáng thì một đĩa vừa, tối thì thêm quả
+      trứng cút hoặc lát chả lụa là thành bữa no. Gói lá chuối mang đi làm cũng
+      tiện — xôi và gà đều ngon ở nhiệt độ phòng.
+  aside:
+    title: Dọn kèm gì
+    intro: "Ba thứ nên có bên cạnh đĩa xôi:"
+    items:
+      - icon: bottle
+        text: "**Nước mắm đường pha loãng** — chan thêm cho ai thích đậm."
+      - icon: lettuce
+        text: "**Đồ chua** — cà rốt củ cải ngâm giấm, cắt cái béo của mỡ hành."
+      - icon: pepper
+        text: "**Tiêu xay** — rắc lên lúc ăn, dậy mùi hơn tiêu ướp sẵn trong thịt."
+
+faq:
+  - q: Dùng ức gà thì làm sao cho khỏi khô?
+    a: >-
+      Ba chỗ phải đổi: luộc ngắn lại còn **15 phút**, ủ trong nồi đủ 10 phút, và
+      **ngâm nước đá** cho chắc. Lúc ướp lại thì thêm [[1|muỗng cà phê]] dầu ăn
+      vào hỗn hợp nước mắm đường — chút dầu áo quanh sợi thịt giữ được độ ẩm khi
+      đảo chảo.
+  - q: Không có chõ đồ xôi thì nấu bằng gì?
+    a: >-
+      Xửng hấp thường là được. Nồi cơm điện cũng nấu được: nếp đã ngâm và để ráo,
+      đổ nước **chỉ xâm xấp bằng mặt nếp** — ít hơn nấu cơm nhiều — bấm nấu như
+      thường rồi để giữ ấm thêm 10 phút. Hạt sẽ hơi mềm hơn xôi đồ chõ nhưng
+      chênh không đáng kể.
+  - q: Làm trước được bao nhiêu phần?
+    a: >-
+      Gà luộc và xé sẵn để ngăn mát được **2 ngày**; hành phi để hũ kín cả tuần;
+      đồ chua ngâm sẵn để được 3–4 ngày. Chỉ có **mỡ hành và xôi** là phải làm
+      lúc ăn. Sáng ra chỉ việc đồ xôi và chan dầu lên hành là xong trong 45 phút.
+  - q: Nước luộc gà bỏ đi thì phí quá, dùng vào đâu?
+    a: >-
+      Đừng bỏ. Lọc lại, nêm chút muối và tiêu, thả hành lá là thành **bát canh
+      dọn cùng đĩa xôi** — ăn xôi khô mà có bát canh nóng bên cạnh thì hợp.
+      Hoặc cất ngăn đá dùng để nấu canh hôm sau.
+
+ticker:
+  - icon: knife
+    text: Xé dọc thớ thì sợi mới dài và ngọt
+  - icon: flame
+    text: Dầu phải nóng già mới chan lên hành
+  - icon: onion
+    text: Hành phi rắc sau cùng cho còn giòn

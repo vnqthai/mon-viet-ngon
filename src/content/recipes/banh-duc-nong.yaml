@@ -1,0 +1,405 @@
+title: Bánh đúc nóng **bột gạo quánh mịn, chan nước mắm ấm**
+summary: >-
+  Bột gạo pha bột năng, khuấy trên bếp cho tới lúc quánh lại và trong ra. Múc
+  vào bát khi còn bốc hơi, đắp thìa thịt băm xào mộc nhĩ lên giữa, rắc hành phi
+  rồi chan nước mắm chua ngọt còn ấm — húp bằng thìa, cả bát ăn hết trong dăm
+  phút.
+region: Miền Bắc
+category: Bánh
+occasions: [Ăn chơi, Bữa sáng]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ (+ ngâm bột 2 giờ)
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 113
+art: banh-duc-nong
+heroEyebrow: Chiều mưa Hà Nội, hàng vỉa hè khói bay…
+
+quick:
+  ingredients:
+    - Bột gạo [[150|g]] · bột năng [[100|g]] — pha với [[1|lít]] nước, ngâm **2 giờ**
+    - Thịt nạc vai băm [[200|g]] · mộc nhĩ [[15|g]] · nấm hương [[10|g]]
+    - Hành tím [[5|củ]] · hành lá, rau mùi · hành phi [[3|muỗng canh]]
+    - "Nước chan: nước mắm [[3|muỗng canh]] · đường [[3|muỗng canh]] · giấm [[2|muỗng canh]] · nước [[400|ml]]"
+    - Dầu ăn [[3|muỗng canh]] · muối, tiêu
+  steps:
+    - Pha bột với nước và chút muối, để **2 giờ** rồi gạn bỏ lớp nước trong ở trên.
+    - >-
+      Ngâm nở mộc nhĩ nấm hương, băm nhỏ; xào với thịt băm và hành tím cho tơi
+      và đậm.
+    - Pha nước chan chua ngọt, đun ấm, thả chút đồ chua nếu thích.
+    - >-
+      Khuấy bột trên lửa nhỏ, **đảo liên tục một chiều** 20–25 phút tới khi
+      quánh và trong.
+    - Múc bột nóng ra bát, đắp nhân lên giữa, rắc hành phi rau mùi, chan nước mắm.
+  warning: >-
+    Ngừng đảo một phút là đáy nồi khét và bột vón thành cục — mà đã vón thì
+    khuấy cách mấy cũng không tan lại. Từ lúc bắc lên bếp là **tay không rời
+    đũa**, và luôn đảo theo một chiều.
+
+flavor:
+  chua: 4
+  ngot: 4
+  man: 5
+  cay: 1
+  thom: 6
+flavorNote: >-
+  **Chuẩn bát:** khối bột **quánh mịn và hơi trong**, múc thìa lên thấy chảy
+  chậm thành dải chứ không rời rạc; nhấc thìa thì bột bám thành lớp mỏng; nhân
+  thịt tơi và đậm; nước chan **ấm chứ không nóng**, chua ngọt cân nhau và loãng
+  vừa đủ để húp.
+storyEyebrow: Chuyện món ăn
+storyTitle: Cái ngon nằm ở **độ quánh**, mà độ quánh thì phải đứng canh
+story:
+  - >-
+    Bánh đúc nóng là món của những chiều lạnh miền Bắc: một bát bột gạo quánh
+    mịn còn bốc hơi, giữa đắp thìa thịt băm xào mộc nhĩ, rắc hành phi vàng và
+    rau mùi, rồi chan ngập thứ nước mắm chua ngọt còn ấm. Ăn bằng thìa, húp cả
+    nước, hết bát trong dăm phút.
+  - >-
+    Nghe đơn giản, nhưng cả món hơn thua ở đúng một thứ: **độ quánh của khối
+    bột**. Loãng thì ra bát cháo bột nhạt nhẽo. Đặc thì thành khối bột nguội
+    ngắt, thìa cắm đứng được. Đúng độ là lúc múc thìa lên thấy bột **chảy chậm
+    thành dải** và bám lại một lớp mỏng trên mặt thìa.
+  - >-
+    Ngày trước hàng quán hay khuấy bột với **nước vôi trong** cho khối bột dai
+    và trong. Cách làm ở nhà bây giờ thay bằng **bột năng** — trộn chừng bốn
+    phần bột gạo với ba phần bột năng là ra đúng thứ quánh dẻo ấy, mà không phải
+    đụng tới nước vôi.
+  - >-
+    Điều nữa hay bị làm sai là **nhiệt độ nước chan**. Nhiều người chan nước mắm
+    nguội từ tủ vào bát bột nóng — bát nguội ngay và khối bột se mặt lại. Nước
+    chan phải **ấm bằng bát bột**, lúc đó nó mới hoà vào và cả bát cùng một hơi
+    ấm.
+
+ingredientGroups:
+  - name: Bột
+    icon: rice
+    items:
+      - id: botgaobdn
+        name: Bột gạo
+        icon: rice
+        base: 150
+        unit: g
+        note: >-
+          Bột gạo tẻ khô đóng gói. Đây là phần cho **mùi gạo và độ mịn**; nhiều
+          bột gạo quá thì khối bột đục và bở
+      - id: botnangbdn
+        name: Bột năng
+        icon: rice
+        base: 100
+        unit: g
+        note: >-
+          Phần này cho **độ dai và độ trong**, thay chỗ của nước vôi trong ngày
+          xưa. Tỉ lệ 150 g bột gạo với 100 g bột năng là chỗ cân nhất; thích dai
+          hơn thì tăng bột năng lên [[120|g]]
+      - id: nuocbdn
+        name: Nước
+        icon: drop
+        base: 1
+        unit: lít
+        note: >-
+          Pha vào bột rồi để **2 giờ** cho bột nở. Sau đó gạn bỏ lớp nước trong
+          nổi lên trên và bù lại bằng nước sạch — bước này làm khối bột hết mùi
+          chua của bột khô
+      - id: muoibotbdn
+        name: Muối
+        icon: jar
+        qtyText: ½ muỗng cà phê
+        note: Cho vào lúc pha bột. Khối bột nhạt nền, vị đến từ nhân và nước chan
+      - id: daukhuaybdn
+        name: Dầu ăn
+        icon: drop
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Rưới vào nồi bột lúc gần xong. Bột bóng mặt hơn và không đóng váng khô
+          khi để nguội trong bát
+  - name: Nhân thịt
+    icon: meat
+    items:
+      - id: thitbambdn
+        name: Thịt nạc vai băm
+        icon: meat
+        color: red
+        base: 200
+        unit: g
+        note: >-
+          Nạc vai có chút mỡ nên xào ra tơi và không khô. Nạc thăn thì bã. Băm
+          tay thì sợi thịt còn rõ, ngon hơn thịt xay máy
+      - id: mocnhibdn
+        name: Mộc nhĩ
+        icon: pod
+        base: 15
+        unit: g
+        note: >-
+          Ngâm nước ấm cho nở, cắt bỏ chân rồi **băm nhỏ chứ đừng thái sợi** —
+          băm nhỏ mới trộn lẫn vào thịt và cho cái giòn sựt rải đều
+      - id: namhuongbdn
+        name: Nấm hương
+        icon: pod
+        base: 10
+        unit: g
+        note: >-
+          Ngâm nở, băm nhỏ. Nước ngâm nấm giữ lại chế vào lúc xào cho nhân đậm
+          mùi
+      - id: hanhtimbdn
+        name: Hành tím
+        icon: onion
+        base: 5
+        unit: củ
+        note: Băm nhỏ, phi thơm trước khi cho thịt vào xào
+      - id: tieubdn
+        name: Tiêu xay
+        icon: pepper
+        qtyText: 1 muỗng cà phê
+        note: Rắc vào cuối khi xào nhân — tiêu gặp lửa lâu thì bay mùi
+  - name: Nước chan và rắc mặt
+    icon: bottle
+    items:
+      - id: nuocmambdn
+        name: Nước mắm
+        icon: bottle
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Pha với đường, giấm và nước theo tỉ lệ **3 mắm – 3 đường – 2 giấm –
+          400 nước**. Nếm rồi chỉnh: bát nước chan phải **loãng đủ để húp**, đậm
+          quá là ăn vài thìa đã khát
+      - id: duonggiambdn
+        name: Đường và giấm
+        icon: jar
+        qtyText: 3 mc đường + 2 mc giấm
+        note: >-
+          Chua ngọt phải cân nhau. Thay giấm bằng nước cốt chanh cũng được, thơm
+          hơn nhưng dễ gắt tay
+      - id: hanhphibdn
+        name: Hành phi
+        icon: onion
+        color: amber
+        base: 3
+        unit: muỗng canh
+        note: Rắc sau cùng cho còn giòn. Tự phi thì thơm hơn hàng mua sẵn nhiều
+      - id: raumuibdn
+        name: Rau mùi và hành lá
+        icon: herb
+        color: green
+        qtyText: 1 nắm nhỏ
+        note: >-
+          Thái nhỏ, rắc lên mặt bát. Rau mùi là mùi nền của món này, thiếu là
+          thấy trống
+      - id: dochuabdn
+        name: Đu đủ hoặc su hào ngâm chua
+        icon: lettuce
+        qtyText: 1 chén nhỏ
+        note: >-
+          Tùy thích — thái miếng mỏng, ngâm giấm đường 30 phút rồi thả vào bát
+          nước chan cho có chỗ giòn
+
+steps:
+  - title: Pha bột, để nở
+    icon: rice
+    minutes: 2 giờ
+    bullets:
+      - label: "Pha:"
+        text: >-
+          Cho [[150|g]] bột gạo, [[100|g]] bột năng và
+          [[1|muỗng cà phê|frac]] muối vào nồi, rót [[1|lít]] nước, khuấy
+          **thật kỹ cho tan hết** — còn cục lúc này thì lát nữa vón cục.
+      - label: "Để nở:"
+        text: >-
+          Để yên **2 giờ**. Bột lắng xuống, nước trong nổi lên trên.
+      - label: "Gạn và bù nước:"
+        text: >-
+          Nghiêng nồi gạn bỏ lớp nước trong, đong lại bằng nước sạch cho đủ
+          [[1|lít]], khuấy đều. Khối bột sau này sẽ hết mùi chua của bột khô.
+    callout:
+      type: tip
+      text: >-
+        Vội thì bỏ được khâu ngâm — pha bột xong khuấy luôn cũng ra bát bánh
+        đúc. Chỉ là mùi bột hơi rõ hơn và mặt bột kém trong. Hai tiếng chờ này
+        đổi lấy sự tinh, không phải đổi lấy sự chín.
+  - title: Xào nhân
+    icon: flame
+    minutes: 15 phút
+    intro: "Làm trong lúc chờ bột nở:"
+    bullets:
+      - label: "Sơ chế nấm:"
+        text: >-
+          Ngâm mộc nhĩ và nấm hương trong nước ấm **20 phút** cho nở, cắt bỏ
+          chân, rửa sạch rồi **băm nhỏ**. Giữ lại chén nước ngâm nấm.
+      - label: "Phi hành:"
+        text: >-
+          Bắc chảo với [[2|muỗng canh]] dầu, phi hành tím băm cho vàng thơm.
+      - label: "Xào thịt:"
+        text: >-
+          Trút thịt băm vào, **đảo tơi ngay** cho khỏi vón thành cục. Xào tới
+          khi thịt săn và ngả màu.
+      - label: "Cho nấm:"
+        text: >-
+          Thêm mộc nhĩ nấm hương, nêm [[1|muỗng canh]] nước mắm và chút đường,
+          chế 2–3 muỗng nước ngâm nấm. Xào tới khi cạn nước, rắc tiêu rồi tắt bếp.
+    callout:
+      type: warn
+      text: >-
+        Đừng để nhân ướt. Nhân còn nước thì đắp lên bát bột sẽ chảy loang ra và
+        làm loãng cả bát. Xào tới lúc **đáy chảo ráo hẳn**, nhấc lên thấy nhân
+        tơi rời từng sợi.
+  - title: Pha nước chan
+    icon: bottle
+    minutes: 10 phút
+    bullets:
+      - label: "Pha:"
+        text: >-
+          Hoà [[3|muỗng canh]] nước mắm, [[3|muỗng canh]] đường,
+          [[2|muỗng canh]] giấm với [[400|ml]] nước. Khuấy tan.
+      - label: "Nếm và chỉnh:"
+        text: >-
+          Nếm thử: phải **chua ngọt cân nhau, mặn vừa, loãng đủ để húp**. Đậm
+          quá thì thêm nước; nhạt quá thì thêm mắm chứ đừng thêm muối.
+      - label: "Đun ấm:"
+        text: >-
+          Đun lên cho **ấm nóng chứ đừng sôi**. Thả đồ chua vào nếu dùng.
+      - text: Giữ ấm trên bếp nhỏ lửa cho tới lúc chan.
+    callout:
+      type: warn
+      text: >-
+        Nước chan nguội là lỗi làm hỏng bát bánh đúc nhanh nhất. Chan nước lạnh
+        vào bột nóng thì bát nguội ngay, mặt bột se lại và món mất hết cái ấm
+        vốn là lý do người ta ăn nó vào chiều lạnh.
+  - title: Khuấy bột — đứng canh 25 phút
+    icon: pot
+    minutes: 25 phút
+    intro: "Bước quyết định cả bát, và không được rời tay:"
+    bullets:
+      - label: "Bắc lên bếp:"
+        text: >-
+          Đặt nồi bột lên **lửa nhỏ**, cầm đũa cả hoặc phới khuấy ngay từ khi
+          chưa nóng.
+      - label: "Đảo một chiều:"
+        text: >-
+          Khuấy liên tục **theo một chiều**, miết đũa sát đáy và thành nồi. Đổi
+          chiều liên tục thì khối bột đứt kết cấu và ra bở.
+      - label: "Bột đặc dần:"
+        text: >-
+          Chừng phút thứ 10 bột bắt đầu đặc lại và nặng tay. Đây là lúc dễ khét
+          nhất — **hạ lửa nhỏ hơn nữa** và khuấy mạnh tay hơn.
+      - label: "Đúng độ:"
+        text: >-
+          Tổng cộng **20–25 phút**. Đạt là khi bột **chuyển từ trắng đục sang
+          hơi trong**, múc thìa lên thấy chảy chậm thành dải và bám một lớp mỏng
+          trên thìa.
+      - label: "Rưới dầu:"
+        text: >-
+          Rưới [[1|muỗng canh]] dầu ăn, khuấy thêm 1 phút rồi tắt bếp. Đậy vung
+          giữ nóng.
+    timer:
+      secs: 1500
+      label: Hẹn giờ khuấy bột · 25:00
+      doneMsg: Múc thìa lên xem — chảy chậm thành dải là đạt rồi!
+    callout:
+      type: warn
+      text: >-
+        Vón cục là hỏng không cứu được — rây lại thì mất hết độ quánh, mà để
+        nguyên thì cắn phải cục bột sống. Phòng bằng ba việc: khuấy tan thật kỹ
+        lúc pha nguội, bắc lên bếp là khuấy ngay, và giữ lửa thật nhỏ.
+  - title: Múc bát và chan
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Múc bột **đang nóng** vào bát, chừng hai phần ba bát, dàn cho bằng mặt.
+      - text: Đắp một thìa đầy nhân thịt xào vào **chính giữa** mặt bột.
+      - text: Rắc hành phi, hành lá và rau mùi thái nhỏ.
+      - text: >-
+          Chan nước mắm **còn ấm** quanh mép bát cho ngập chừng nửa khối bột,
+          thả vài miếng đồ chua lên trên.
+    doneText: Xong — ăn ngay khi còn bốc hơi!
+
+tipsTitle: 4 chỗ **quyết định** bát bánh đúc nóng
+tips:
+  - icon: alert
+    title: Tay không rời đũa, và luôn một chiều
+    text: >-
+      Hai mươi lăm phút khuấy là toàn bộ cái khó của món này. Ngừng tay một
+      phút thôi là lớp sát đáy khét và bốc mùi khê lên cả nồi; đổi chiều khuấy
+      liên tục thì khối bột đứt kết cấu, ra bở chứ không quánh dẻo. Chuẩn bị sẵn
+      mọi thứ khác trước khi bắc nồi bột lên bếp.
+  - icon: bulb
+    title: Nhận ra "đúng độ quánh" bằng cái thìa
+    text: >-
+      Đừng canh bằng đồng hồ, canh bằng mắt. Múc một thìa bột giơ lên: đạt là
+      khi bột **chảy xuống chậm thành một dải liền** và mặt thìa còn bám lại một
+      lớp mỏng. Rơi rời rạc từng giọt là còn loãng; không chảy nổi và ngồi im
+      trên thìa là đã quá đặc, chế thêm chút nước sôi và khuấy tiếp.
+  - icon: flame
+    title: Nước chan phải ấm bằng bát bột
+    text: >-
+      Giữ nồi nước chan trên bếp lửa nhỏ cho tới đúng lúc chan. Nước nguội đổ
+      vào bát bột nóng làm cả bát nguội ngay và mặt bột se lại thành màng — mà
+      cái tên món đã có chữ *nóng* rồi.
+  - icon: meat
+    title: Xào nhân cho thật ráo
+    text: >-
+      Nhân còn nước thì đắp lên bát là chảy loang, làm loãng nước chan và bát ăn
+      trông nhớp nháp. Xào tới lúc đáy chảo ráo hẳn, nhấc đũa lên thấy nhân tơi
+      rời từng sợi. Mộc nhĩ nhớ **băm nhỏ chứ đừng thái sợi** — băm nhỏ mới rải
+      đều được cái giòn sựt vào từng thìa.
+
+serve:
+  title: Ăn ngay khi còn bốc hơi, **húp cả nước**
+  paras:
+    - >-
+      Bánh đúc nóng phải ăn ngay lúc múc ra. Để năm phút là mặt bột se lại thành
+      màng và bát nguội dần — vẫn ăn được nhưng mất hẳn cái ngon. Dùng thìa,
+      xúc cả bột lẫn nhân lẫn nước một lần, và húp nốt phần nước còn lại ở đáy.
+    - >-
+      Đây là món quà chiều hơn là món bữa: một bát vừa bụng, ăn xong ấm người.
+      Ngoài hàng thường dọn kèm một đĩa **quẩy giòn** để chấm vào nước chan —
+      thêm thứ đó là bát bánh đúc thành bữa nhẹ đủ no.
+  aside:
+    title: Dọn kèm gì
+    intro: "Ba thứ hay đi cùng bát bánh đúc nóng:"
+    items:
+      - icon: bread
+        text: "**Quẩy giòn** — bẻ khúc chấm vào nước chan, thêm chỗ giòn cho bát mềm."
+      - icon: lettuce
+        text: "**Đu đủ hoặc su hào ngâm chua** — thả vào nước chan cho giòn và chua."
+      - icon: chili
+        text: "**Ớt tươi thái lát** — cho ai ăn cay, thả vài lát vào bát nước chan."
+
+faq:
+  - q: Bột bị vón cục thì cứu thế nào?
+    a: >-
+      Gần như không cứu được. Rây lại thì mất hết độ quánh, ra một bát bột
+      loãng; để nguyên thì cắn phải cục bột sống. Cách phòng là ba việc lúc bắt
+      đầu: **khuấy tan thật kỹ khi bột còn nguội**, bắc lên bếp là khuấy ngay
+      chứ đừng đợi nóng, và giữ lửa thật nhỏ suốt.
+  - q: Không có bột năng thì thay bằng gì?
+    a: >-
+      **Bột sắn dây** hoặc bột bắp đều thay được với cùng tỉ lệ, nhưng khối bột
+      sẽ kém dai hơn một chút. Nếu chỉ có bột gạo không thì bát bánh đúc ra bở
+      và đục — thêm được bao nhiêu bột năng thì thêm, dù chỉ vài thìa cũng khác.
+  - q: Bát bánh đúc nguội rồi thì hâm lại được không?
+    a: >-
+      Khối bột nguội sẽ đông cứng lại. Cho vào nồi, **chế thêm chút nước rồi
+      khuấy trên lửa nhỏ** là nó tan trở lại thành bột quánh — nhưng lần này
+      phải khuấy đều tay như lần đầu. Nhân và nước chan thì hâm riêng. Nói thẳng
+      là bát hâm lại không bằng bát mới múc, nên chỉ nên nấu lượng vừa ăn.
+  - q: Bánh đúc nóng và bánh đúc lạc có phải một món không?
+    a: >-
+      Khác hẳn. **Bánh đúc lạc** là bột gạo đổ khuôn để nguội và đông lại thành
+      tảng, cắt miếng, có hạt lạc bên trong, chấm tương bần — ăn nguội, cầm tay.
+      Bánh đúc nóng thì để nguyên dạng quánh dẻo, múc ra bát và chan nước mắm,
+      ăn bằng thìa. Cùng tên bánh đúc nhưng hai cách ăn không giống nhau chỗ nào.
+
+ticker:
+  - icon: pot
+    text: Khuấy một chiều, tay không rời đũa
+  - icon: spoon
+    text: Múc thìa lên, chảy chậm thành dải là đạt
+  - icon: bottle
+    text: Nước chan phải ấm bằng bát bột
