@@ -18,7 +18,7 @@ _Cập nhật 2026-08-01 (sau đợt 16). Site đang **126 món / 7 vùng / 17 k
 | **Nội dung** | 126 món · 7 vùng · 17 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo **6 họ màu**, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** · ô tìm ở hero (form GET sang `/mon/?q=`) · **3 trục lối vào** (Kiểu món 17 · Theo dịp 7 · Miền 7 — mỗi cửa kèm số món, bấm là sang `/mon/` đã lọc sẵn) |
-| **Dung lượng** | `/mon/` **~38,2 KB** gzip ở 126 món (39.150 B, **ước từ cục bộ ×1,02**) — 11 món thêm 2,8 KB, tức **0,25 KB/món** |
+| **Dung lượng** | `/mon/` **38,5 KB** gzip ở 126 món (**39.470 B, đo thật trên máy chủ 2026-08-01**; hệ số ước cục bộ nâng lên **×1,025** sau 7 điểm dữ liệu) — 11 món thêm 2,8 KB, tức **0,25 KB/món** |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 756 liên kết |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
@@ -174,7 +174,7 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 
 | | Nay (126 món) | Ước ở 200 món |
 |---|---|---|
-| `/mon/` gzip | **~38,2 KB** (ước cục bộ ×1,02) | **~53 KB** — vẫn xa mốc cũ 150 KB |
+| `/mon/` gzip | **38,5 KB** (đo thật; hệ số ước nay ×1,025) | **~53 KB** — vẫn xa mốc cũ 150 KB |
 | Build | 49,3 s / 130 trang | **~75 s** (phần sinh ảnh chiếm chủ yếu) |
 | `/anh-mon/` | 378 ảnh | ~600 ảnh — artifact, không nằm trong repo |
 | 12 ô featured | 10% catalog | 6% — **chọn lọc hơn**, không tệ hơn |
