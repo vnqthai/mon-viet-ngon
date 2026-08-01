@@ -109,6 +109,8 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 
 ## Hạ tầng, theo thứ tự đáng làm
 
+> 🔍 **SEO — kế hoạch đầy đủ nằm ở [`SEO.md`](SEO.md) (lập 2026-08-01), phiên nào đụng SEO thì mở file đó trước, đừng làm theo trí nhớ.** Tóm một dòng: 4 fix kỹ thuật nhỏ ĐÃ LÀM cùng ngày (meta robots + og:site_name + lastmod sitemap + gỡ SearchAction chết); còn chờ Thái duyệt 2 việc lớn (title theo ý định tìm kiếm "cách nấu/cách làm" · ~31 trang trục lọc) + 1 câu mức lộ danh cho trang giới thiệu; kèm danh sách ĐỪNG-LÀM đã tra nguồn (FAQPage chết 5/2026, llms.txt không ai đọc, Pinterest vắng ở VN…).
+
 1. **Thống kê truy cập — Thái đã chốt dùng [Google Analytics 4](https://analytics.google.com), KHÔNG dùng GoatCounter (2026-07-30).** Chưa làm, và cố ý chưa làm ngay — nhưng **sẽ làm sớm**, nên đừng gỡ mục này xuống.
 
    Vì sao vẫn đáng làm: hiện không biết người đọc thật sự dùng gì, nên mọi quyết định về 12 ô featured, thứ tự chip lọc, món nào lên ticker đều đang dựa trên suy luận. **Đã có một việc bị chặn vì thiếu nó**: phương án C/D của hero (bỏ 2 nút CTA) — xem mục *"Rút ngắn hero trang chủ"* phần Nhật ký.

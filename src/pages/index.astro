@@ -126,8 +126,10 @@ if (strayTicker.length) {
 /* Thời lượng chạy suy ra từ lượng chữ — xem src/utils/ticker.ts. */
 const tickerDur = tickerDuration(tickerItems);
 
-/* WebSite + SearchAction. Khai SearchAction chỉ hợp lệ khi trang CÓ tìm kiếm
-   thật — site này có: `/mon/?q=…` là form GET thuần, không JS vẫn chạy. */
+/* WebSite — cho Google biết tên site (hiện thành dòng site name trong SERP,
+   đi cặp với og:site_name ở Base). Khối SearchAction từng nằm đây đã GỠ
+   2026-08-01: Google khai tử sitelinks search box 11/2024, markup đó thành
+   mã chết. Đừng gắn lại — xem SEO.md §3. */
 const siteLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -137,14 +139,6 @@ const siteLd = {
   inLanguage: 'vi',
   description: 'Kho công thức món Việt ba miền, hướng dẫn cặn kẽ từng bước.',
   publisher: { '@type': 'Organization', name: 'Món Việt Ngon', url: Astro.site?.href },
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: new URL('/mon/?q={search_term_string}', Astro.site).href,
-    },
-    'query-input': 'required name=search_term_string',
-  },
 };
 ---
 <Base
