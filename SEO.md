@@ -10,14 +10,14 @@ _Lập 2026-08-01 từ một vòng phân tích toàn site + hai vòng nghiên c�
 
 | # | Việc | Tầm tác động | Trạng thái |
 |---|---|---|---|
-| 1 | Title/description theo ý định tìm kiếm ("cách nấu/cách làm") | **LỚN** — sửa đúng chỗ người Việt gõ | ✅ title ĐÃ LÀM 2026-08-01 (Thái duyệt spec) — **§4**; description = giai đoạn 2, làm dần |
-| 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | ✅ ĐÃ DỰNG 2026-08-01, URL phương án A — **§5** |
-| 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ chốt **brand-only, ẩn danh, chưa email** (Thái 2026-08-01); `/gioi-thieu/` đã dựng — **§6** |
+| 1 | Title/description theo ý định tìm kiếm ("cách nấu/cách làm") | **LỚN** — sửa đúng chỗ người Việt gõ | ✅ title **LIVE `4f70049`** — **§4**; meta description = giai đoạn 2, làm dần |
+| 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | ✅ **LIVE `4f70049`**, URL phương án A — **§5** |
+| 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ **LIVE `4f70049`** — brand-only, ẩn danh, chưa email; câu chữ Thái đã rút gọn — **§6** |
 | 4 | Fix kỹ thuật nhỏ (4 cái) | NHỎ nhưng rẻ | ✅ 2026-08-01, **đã live** (`a745ff2`, curl kiểm production) — **§7** |
 | 5 | Checklist Search Console | NHỎ | 👤 ~15 phút tay Thái — **§8** |
 | 6 | Theo dõi + kỳ vọng thời gian | — | đọc **§9** trước khi sốt ruột |
 
-> ⚠️ **Việc 1–3 ĐÃ CODE XONG, build 162 trang xanh, QA sạch trắng — nhưng CHƯA COMMIT.** Chỗ cần mắt Thái trước khi đẩy lên: **31 câu intro** trang trục (`src/data/trang-truc.ts`), **trang giới thiệu** (`src/pages/gioi-thieu.astro`), và **12 YAML** có seoVerb/seoTitle override. Duyệt bằng `npm run preview` → xem vài trang `/kieu/…`, `/mien/…`, `/dip/…`, `/gioi-thieu/` và title vài trang món. Duyệt xong: commit + push là deploy.
+> ✅ **CẢ BA VIỆC ĐÃ LIVE — `4f70049`, 2026-08-01, deploy xanh, đã curl kiểm production:** title mới trên trang món · `/kieu/kho/` trả 200 kèm ItemList · `/gioi-thieu/` hết lỗi dính chữ · cửa trục trang chủ + badge trang món trỏ trang tĩnh · sitemap 161 URL. Site giờ **162 trang**. Còn mở: **checklist GSC §8** (tay Thái) và **meta description giai đoạn 2** (§4, làm dần theo GSC). Mọi đợt món mới tự ăn hạ tầng này — việc SEO phát sinh mỗi đợt chỉ là gán `seoVerb` nếu lệch default (QA sẽ réo title dài) và Request Indexing món mới.
 
 ---
 
@@ -146,7 +146,7 @@ Title trang gộp, tiện sửa cùng đợt: `/mon/` → "Kho công thức món
 
 # 5 · Việc 2 — ~31 trang trục lọc — ✅ ĐÃ DỰNG 2026-08-01 (chờ duyệt CÂU CHỮ intro)
 
-> **Đã dựng đủ 31 trang theo phương án A** (`/kieu/…` `/mien/…` `/dip/…`), Thái duyệt spec 2026-08-01. Hiện trạng: một route động `src/pages/[truc]/[slug].astro` + nội dung tay ở `src/data/trang-truc.ts` (31 bộ title/h1/intro — intro theo đúng luật ở đầu file đó) + slug ở `src/data/truc-slug.mjs` (một nguồn cho route, trang chủ, badge, lastmod). Đã nối đủ ba mối: cửa trục trang chủ → trang tĩnh, badge hero trang món → trang tĩnh, dải chip "cùng trục" cuối mỗi trang. ItemList + BreadcrumbList + crumb thật + lastmod theo nhóm đều có, đo trên dist. **Chưa commit — 31 câu intro cần mắt Thái duyệt trước.**
+> **Đã dựng đủ 31 trang theo phương án A** (`/kieu/…` `/mien/…` `/dip/…`), Thái duyệt spec 2026-08-01. Hiện trạng: một route động `src/pages/[truc]/[slug].astro` + nội dung tay ở `src/data/trang-truc.ts` (31 bộ title/h1/intro — intro theo đúng luật ở đầu file đó) + slug ở `src/data/truc-slug.mjs` (một nguồn cho route, trang chủ, badge, lastmod). Đã nối đủ ba mối: cửa trục trang chủ → trang tĩnh, badge hero trang món → trang tĩnh, dải chip "cùng trục" cuối mỗi trang. ItemList + BreadcrumbList + crumb thật + lastmod theo nhóm đều có, đo trên dist. **LIVE `4f70049` — Thái đã duyệt intro trước khi đẩy.**
 
 **Vấn đề:** mọi lọc kiểu món/vùng/dịp đang là JS client-side trên `/mon/`; `?kieu=Kho` canonical về `/mon/` (đúng kỹ thuật). Hệ quả: Google chỉ thấy MỘT trang catalog — site không thể xếp hạng cho cả họ query danh sách: _"các món kho ngon dễ làm" · "món ngon miền Tây" · "món ăn đãi khách" · "mâm cỗ Tết nấu gì" · "các món chè ngon"_. Đây là structural gap lớn nhất của site.
 
