@@ -525,6 +525,7 @@ Chuyện đã qua, xếp theo thứ tự thời gian.
 - [x] **Tách hình ra file `.svg` riêng** — `/mon/` từ 143,8 KB gzip xuống ~30 KB và thôi tăng theo số món
 - [x] **Trang 404 + liên kết chéo giữa 64 món** (2026-07-30) — xem mục ngay dưới
 - [x] **Rút ngắn hero trang chủ** (2026-07-30) — thẻ món đầu tiên 1164 → **1006px** desktop, 1624 → **1309px** điện thoại, không bỏ thành phần nào
+- [x] **Số món đập vào mắt ngay ở màn hình đầu** (2026-08-01) — nút vàng "Xem hết **126** món ngon" + eyebrow "Mới lên mâm — **xem cả 126 món**", tốn **0px** bố cục; xem mục ngay dưới
 - [x] Đợt 11 (2026-07-31, 7 món): sườn xào chua ngọt, bún sườn nấu sấu, ốc om chuối đậu, lòng heo luộc, canh sườn khoai tây cà rốt, canh sườn bí đao, cà tím nướng mỡ hành — **không mở kiểu món mới**, kéo Miền Bắc 10 → **13**; xem mục ngay dưới
 
 ## Đợt 11 — 2026-07-31
@@ -555,6 +556,38 @@ Dung lượng `/mon/` **25,5 KB** gzip ở 71 món — **26.136 B đo trên máy
 Liên kết chéo tự lên **426** (71 × 6), vẫn 0 mồ côi · 0 dải trùng · **1 mảnh liền**. Featured đổi đúng một chỗ: **sườn xào chua ngọt** vào, **trứng chưng thịt nấm mèo** ra — cả hai đều "Cả nước" nên trang chủ vẫn phủ **7/7 vùng**.
 
 **Nghiệm thu trên máy chủ (2026-07-31):** 7 trang món mới và 7 file `/art/*.svg` đều trả 200 · 6 ảnh `/anh-mon/` mẫu đều có file thật · sitemap **71 URL món** (74 tổng) · RSS **71 mục**, đủ cả 7 món mới · trang chủ đúng **12 ô**, có sườn xào chua ngọt, không còn trứng chưng.
+
+## Số món phải đập vào mắt ngay — 2026-08-01
+
+Thái hỏi: *"có nên đưa 'Xem tất cả xx món' lên phía trên hơn không, sợ người xem thấy có mấy món ở trang chủ rồi bỏ đi?"* Đo trước khi sửa, và **số đo đổi luôn cách chữa**.
+
+**Chẩn đoán.** Lối vào `/mon/` thì đã nằm ở màn hình đầu rồi (nút vàng ở **624px** trên điện thoại, 462 desktop) — thứ thiếu không phải cái nút mà là **con số** đi cùng nó. Máy 390×844 chỉ hở **~745px** cho trang sau khi trừ thanh địa chỉ và thanh dưới, mà dòng *"126 món và đang thêm hoài"* bắt đầu ở **775px** ⇒ **màn hình đầu của điện thoại vốn không có con số nào**. Còn nút *"Xem tất cả 126 món"* cuối lưới ở **6565px** — **7,8 màn hình cuộn** mới tới (desktop 2811px, 3,1 màn).
+
+**Bốn chỗ đặt, đo cái giá bằng "thẻ món đầu bị đẩy xuống bao nhiêu":**
+
+| Phương án | ĐT 390 | Desktop 1440 |
+|---|---:|---:|
+| **P1 — số vào nút vàng hero** | **0** | **0** |
+| **P4 — nhét vào dòng eyebrow "Mới lên mâm"** | **0** | **0** |
+| P3 — số chèn vào câu dẫn dưới h2 | +28 | +29 |
+| P2 — nút "Xem tất cả" cạnh h2 | +63 | +2 |
+
+**P2 chính là cách Thái hình dung, mà lại đắt nhất trên điện thoại** — nút không đủ chỗ nằm cạnh h2 nên xuống dòng, đẩy cả lưới xuống 63px. Hai chỗ **không tốn pixel nào** đều là chỗ **đã có sẵn chữ**: nút vàng và dòng eyebrow. Đây là bài học chung, không riêng lần này — **muốn thêm thông tin mà không đội bố cục thì tìm dòng chữ đã có, đừng thêm hàng mới**.
+
+**Đã ship P1 + P4** (giữ nguyên nút cuối lưới):
+
+- Nút vàng: *"Xem hết món ngon"* → **"Xem hết 126 món ngon"**. Nút rộng 210 → **241px**, vẫn một dòng, cao y nguyên 53px.
+- Eyebrow: *"Mới lên mâm"* → **"Mới lên mâm — xem cả 126 món"** (chữ sau là liên kết sang `/mon/`). Vẫn gọn **một dòng ở khung 390**, cao y nguyên 43px. Bản dài hơn thử trước đó (*"12 món mới lên mâm — …"*) thì xuống dòng, tốn +43px — nên chọn bản này.
+- `base.css`: `.eyebrow a` dày nét gạch chân 1,5px + cách chữ 3px, hover đổi màu ớt. Nét script mảnh, không có gạch chân rõ thì không ai nhận ra bấm được.
+
+**Nghiệm thu trên bản build thật, hai lượt trùng khít:** thẻ món đầu **1310 / 1007** — **y hệt trước khi sửa**; eyebrow vẫn 43px; nút cuối lưới vẫn 6565 / 2811; `pageH` không đổi. Tức thêm hai chỗ báo số mà **bố cục không xê dịch một pixel**.
+
+**Ba mẹo harness học được lần này, đã chép lên phần 4:**
+
+- **Đổi chỗ (`appendChild`) một `<iframe>` là nó TẢI LẠI** — mọi mutation và style `.reveal` chèn vào bị xoá sạch mà không báo gì. Dựng khung ở đúng chỗ cần rồi mới sửa ruột.
+- **`.row` flex thì `<iframe>` bị co**: đặt `width="1440"` mà cửa sổ hẹp hơn thì khung teo lại và **mọi số đo là số của bề rộng khác**. Luôn `flex:none`.
+- **`scroll-behavior:smooth` + tab chạy nền = không cuộn được**: `scrollTo` trả về `scrollY` vẫn 0 vì hiệu ứng cuộn cần rAF. Chèn `html{scroll-behavior:auto!important}` vào iframe trước khi cuộn.
+- **Vùng `zoom` của tiện ích Chrome tính theo toạ độ ẢNH chụp (đã thu nhỏ), không phải px CSS.** Cửa sổ 1440 → ảnh 840, tức hệ số ~0,583; đòi vùng `[0,0,830,780]` là đòi gần 1423px CSS, ra ảnh thừa mảng trắng to.
 
 ## Trang 404 và liên kết chéo — 2026-07-30
 

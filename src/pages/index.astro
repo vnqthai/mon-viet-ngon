@@ -173,10 +173,14 @@ const siteLd = {
           />
           <button type="submit">Tìm</button>
         </form>
+        {/* Số món nằm NGAY TRONG nút, không chỉ ở dòng thống kê dưới: máy
+            390×844 chỉ hở ~745px cho trang, mà dòng "126 món" bắt đầu ở 775 —
+            tức màn hình đầu của điện thoại vốn không có con số nào. Nút thì ở
+            624. Đo ra thêm chữ số vào đây tốn 0px (nút 210 → 241, vẫn một dòng). */}
         <div class="home-hero__cta">
           <a class="btn btn--gold" href="/mon/">
             <Icon name="rice" />
-            Xem hết món ngon
+            Xem hết {recipes.length} món ngon
           </a>
           <a class="btn btn--ghost" href="/bi-quyet/">
             <Icon name="bulb" />
@@ -224,7 +228,12 @@ const siteLd = {
   <!-- ============ MÓN NỔI BẬT ============ -->
   <section class="section" id="mon-noi-bat">
     <div class="wrap">
-      <p class="eyebrow reveal">Mới lên mâm</p>
+      {/* Liên kết nhét vào dòng eyebrow SẴN CÓ, không thêm hàng mới: nút "Xem
+          tất cả" cuối lưới nằm ở 6565px trên điện thoại — 7,8 màn hình cuộn mới
+          tới, nên người xem 12 thẻ đầu không biết đây chỉ là một góc. Đã đo 4
+          chỗ đặt: cạnh h2 tốn +63px (xuống dòng dưới tiêu đề), chèn vào câu dẫn
+          tốn +28/+29, còn ở đây tốn 0 vì câu vẫn gọn một dòng ở khung 390. */}
+      <p class="eyebrow reveal">Mới lên mâm — <a href="/mon/">xem cả {recipes.length} món</a></p>
       <h2 class="reveal">Món ngon <span class="accent">cả nhà đều mê</span></h2>
       <p class="section__lead reveal">
         Mỗi món một trang riêng, từng bước có đếm giờ và bí quyết đi kèm.

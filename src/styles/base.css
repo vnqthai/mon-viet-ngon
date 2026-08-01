@@ -96,6 +96,10 @@ section[id]{scroll-margin-top:80px}
 .eyebrow{
   font-family:var(--font-script);font-size:1.55rem;font-weight:600;color:var(--broth);margin:0 0 6px;
 }
+/* Chỉ ăn ở chỗ eyebrow có liên kết (trang chủ) — nét chữ script mảnh nên gạch
+   chân phải dày và cách ra mới đọc được là bấm được. */
+.eyebrow a{text-decoration-thickness:1.5px;text-underline-offset:3px;transition:color .15s}
+.eyebrow a:hover{color:var(--chili)}
 .section h2{font-size:clamp(1.9rem,3.4vw,2.55rem);color:var(--ink);margin:0 0 14px}
 .section h2 .accent{color:var(--river)}
 :root[data-theme="dark"] .section h2 .accent{color:var(--leaf)}
