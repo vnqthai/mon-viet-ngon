@@ -14,10 +14,10 @@ _Lập 2026-08-01 từ một vòng phân tích toàn site + hai vòng nghiên c�
 | 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | ✅ **LIVE `4f70049`**, URL phương án A — **§5** |
 | 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ **LIVE `4f70049`** — brand-only, ẩn danh, chưa email; câu chữ Thái đã rút gọn — **§6** |
 | 4 | Fix kỹ thuật nhỏ (4 cái) | NHỎ nhưng rẻ | ✅ 2026-08-01, **đã live** (`a745ff2`, curl kiểm production) — **§7** |
-| 5 | Checklist Search Console | NHỎ | 👤 ~15 phút tay Thái — **§8** |
+| 5 | Checklist Search Console | NHỎ | 👤 mục 1–3 ✅ 2026-08-01; còn rải Request Indexing vài hôm tới, mục 5 chờ GA4 — **§8** |
 | 6 | Theo dõi + kỳ vọng thời gian | — | đọc **§9** trước khi sốt ruột |
 
-> ✅ **CẢ BA VIỆC ĐÃ LIVE — `4f70049`, 2026-08-01, deploy xanh, đã curl kiểm production:** title mới trên trang món · `/kieu/kho/` trả 200 kèm ItemList · `/gioi-thieu/` hết lỗi dính chữ · cửa trục trang chủ + badge trang món trỏ trang tĩnh · sitemap 161 URL. Site giờ **162 trang**. Còn mở: **checklist GSC §8** (tay Thái) và **meta description giai đoạn 2** (§4, làm dần theo GSC). Mọi đợt món mới tự ăn hạ tầng này — việc SEO phát sinh mỗi đợt chỉ là gán `seoVerb` nếu lệch default (QA sẽ réo title dài) và Request Indexing món mới.
+> ✅ **CẢ BA VIỆC ĐÃ LIVE — `4f70049`, 2026-08-01, deploy xanh, đã curl kiểm production:** title mới trên trang món · `/kieu/kho/` trả 200 kèm ItemList · `/gioi-thieu/` hết lỗi dính chữ · cửa trục trang chủ + badge trang món trỏ trang tĩnh · sitemap 161 URL. Site giờ **162 trang**. Còn mở: **rải nốt Request Indexing** (§8, vài hôm) · **GA4** (ROADMAP §2 — mở khoá §8 mục 5 + quyết định hero C) · **meta description giai đoạn 2** (§4, làm dần theo GSC). Mọi đợt món mới tự ăn hạ tầng này — việc SEO phát sinh mỗi đợt chỉ là gán `seoVerb` nếu lệch default (QA sẽ réo title dài) và Request Indexing món mới.
 
 ---
 
@@ -59,9 +59,9 @@ Không có site công thức thuần nào mạnh. Một site tĩnh nhanh, schema
 
 - **Recipe schema** ([doc chính thức](https://developers.google.com/search/docs/appearance/structured-data/recipe)): bắt buộc chỉ `name` + `image` (3 tỉ lệ, ≥50.000 pixel — site vượt xa). **Hình minh họa HỢP LỆ** — không chỗ nào bắt "ảnh chụp"; yêu cầu là "image of the completed dish" + không đánh lừa. Rủi ro thật duy nhất: **CTR thumbnail** khi đứng cạnh ảnh đồ ăn thật — theo dõi bằng số ở GSC, đừng quyết bằng cảm tính. Lưu ý 6/2025: ảnh trong schema chỉ phục vụ rich result/carousel; thumbnail của kết quả text thường đi theo image-SEO thường.
 - `prepTime`+`cookTime` là cặp **recommended** (site mới có `totalTime`) — đáng thêm dần, không gấp.
-- **Đã chết, đừng tốn công:** sitelinks search box / `SearchAction` ([Google gỡ 11/2024](https://developers.google.com/search/blog/2024/10/sitelinks-search-box)) — đã xóa khỏi site phiên này; **FAQ rich results chết hẳn 5/2026** ([SEJ](https://www.searchenginejournal.com/google-drops-faq-rich-results-from-search/574429/)); HowTo standalone chết 2023 (⚠️ `HowToStep` **bên trong** Recipe không liên quan — đang dùng đúng, giữ).
+- **Đã chết, đừng tốn công:** sitelinks search box / `SearchAction` ([Google gỡ 11/2024](https://developers.google.com/search/blog/2024/10/sitelinks-search-box)) — đã gỡ khỏi site 2026-08-01 (`a745ff2`); **FAQ rich results chết hẳn 5/2026** ([SEJ](https://www.searchenginejournal.com/google-drops-faq-rich-results-from-search/574429/)); HowTo standalone chết 2023 (⚠️ `HowToStep` **bên trong** Recipe không liên quan — đang dùng đúng, giữ).
 - **AI Mode recipe cards — mặt trận mới 2026:** từ 3/2026 AI Mode gắn thẻ món bấm được, 6/2026 ghim **3–4 card lên ĐẦU câu trả lời**, hiện _tên tác giả · điểm sao · số nguyên liệu · ảnh_ — đọc thẳng từ Recipe schema ([SEL](https://searchengineland.com/google-ai-mode-updates-recipe-results-to-better-connect-people-with-recipe-creators-470811), [SEJ](https://www.searchenginejournal.com/google-puts-recipe-links-at-top-of-ai-mode-responses/581149/)). ⇒ schema sạch + trường `author` giờ đáng tiền hơn trước; khoảng trống aggregateRating có giá nhìn thấy được (§9).
-- **Discover:** tự đủ điều kiện khi được index, nhưng card ảnh lớn cần ảnh ≥1200px + **`max-image-preview:large`** ([doc](https://developers.google.com/search/docs/appearance/google-discover)) — đã thêm phiên này. Cộng đồng đo: domain mới hầu như không có Discover trước ~6 tháng. Đừng chờ gì từ đây năm 2026.
+- **Discover:** tự đủ điều kiện khi được index, nhưng card ảnh lớn cần ảnh ≥1200px + **`max-image-preview:large`** ([doc](https://developers.google.com/search/docs/appearance/google-discover)) — đã thêm 2026-08-01 (`a745ff2`). Cộng đồng đo: domain mới hầu như không có Discover trước ~6 tháng. Đừng chờ gì từ đây năm 2026.
 - **E-E-A-T** ([helpful content doc](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)): "trust là quan trọng nhất"; câu hỏi Who/How/Why; quality rater được dặn tính cả **"everyday expertise"** — người nấu thật không cần bằng cấp. Cần: trang giới thiệu + đường liên hệ + author khớp giữa schema và trang (§6).
 - **Domain mới:** cộng đồng đồng thuận (Google không xác nhận) ~**3–6 tháng bị nén** trên query cạnh tranh; long-tail nhúc nhích tháng 2–4. Tăng tốc discovery: sitemap trong GSC (ping endpoint chết rồi), `lastmod` **thật** ("Google uses the lastmod value if it's consistently and verifiably accurate"), **RSS nộp làm sitemap phụ** (feed được crawl dày hơn XML), Request Indexing tay. **IndexNow: Google KHÔNG dùng** (chỉ Bing/Yandex/Naver/Seznam); WebSub: không ai đọc; **llms.txt: bỏ** — [Ahrefs đo 137K domain: 97% file không có lấy một request](https://ahrefs.com/blog/llmstxt-study/), Google nói thẳng không hỗ trợ.
 - **Link trắng cho site solo 2026:** cộng đồng food-blog, nhóm Facebook VN, để hình minh họa "lạ" tự kiếm coverage. HARO chết; hệ thay thế (Source of Sources, Qwoted) thiên tiếng Anh — góc "ẩm thực Việt" là niche trích dẫn được, không ưu tiên. **Tuyệt đối không mua link/guest-post farm** — spam update 8/2025 nhắm đúng chỗ đó, còn chính sách site reputation abuse thì đang dọn hộ mình đám báo lớn cho thuê chuyên mục.
@@ -82,12 +82,12 @@ Không có site công thức thuần nào mạnh. Một site tĩnh nhanh, schema
 
 ---
 
-# 4 · Việc 1 — Title & description theo ý định tìm kiếm — ✅ TITLE ĐÃ LÀM 2026-08-01
+# 4 · Việc 1 — Title & description theo ý định tìm kiếm — ✅ TITLE LIVE `4f70049`
 
 > **Đã ship đúng spec dưới đây, Thái duyệt cả hai điểm chờ (bỏ đuôi brand + ngân sách 62).** Ba điều chỉnh so với bản nháp, ghi lại vì là quyết định thật:
 > 1. **Cơm chuyển sang cột "làm"** — đo trên catalog: 6/7 món Cơm là món ghép/chiên/nướng (cơm tấm, cơm rang, cơm cháy, cơm lam…); chỉ cơm gà Hội An là nồi nấu thật → món đó override `seoVerb: nấu`. Bảng dưới đã sửa theo.
 > 2. **Máy tự cắt hook theo vế phẩy khi vượt 62 ký tự** (hook nhà này viết vế mạnh đứng trước nên cắt đuôi an toàn) — nhờ vậy 42 title vượt ngân sách chỉ còn 3 phải rút tay.
-> 3. **12 YAML mang override**: 4 `seoVerb` (bò kho, cơm gà Hội An, cơm rượu, sữa chua nếp cẩm) + 8 `seoTitle` (giả cầy — tên chứa "nấu"; lòng heo luộc — động từ thật là LUỘC; heo quay — giữ đuôi "nồi chiên không dầu"; bánh khoái + bánh ướt lòng gà — hook có gạch ngang; chè hạt sen, cơm tấm, sữa chua — hook một vế không tự cắt được). Mỗi override có chú thích lý do ngay trong YAML.
+> 3. **12 override trên 11 file YAML** (sữa chua nếp cẩm mang cả hai): 4 `seoVerb` (bò kho, cơm gà Hội An, cơm rượu, sữa chua nếp cẩm) + 8 `seoTitle` (giả cầy — tên chứa "nấu"; lòng heo luộc — động từ thật là LUỘC; heo quay — giữ đuôi "nồi chiên không dầu"; bánh khoái + bánh ướt lòng gà — hook có gạch ngang; chè hạt sen, cơm tấm, sữa chua — hook một vế không tự cắt được). Mỗi override có chú thích lý do ngay trong YAML.
 >
 > Code nằm ở: `src/utils/seo-title.mjs` (khuôn ghép — .mjs trần để trang món + QA dùng chung) · `content.config.ts` (2 field mới) · `[slug].astro` · `check-recipes.mjs` (chặn title mất hook, réo title >62). `/mon/` cũng đổi title thành "Kho công thức món Việt: {n} món ba miền". **Meta description giai đoạn 2 vẫn chưa làm** — làm dần theo đợt, ưu tiên món có impressions trong GSC.
 
@@ -105,30 +105,25 @@ Cách {động từ} {tên món trần} — {hook}
 
 | Default **nấu** | Default **làm** |
 |---|---|
-| Món nước · Canh · Lẩu · Cháo · Chè · Cơm · Xôi | Bánh · Bánh mì · Cuốn · Gỏi · Chiên · Nướng · Xào · Hấp · Bún trộn · **Kho** |
+| Món nước · Canh · Lẩu · Cháo · Chè · Xôi | Bánh · Bánh mì · Cuốn · Gỏi · Chiên · Nướng · Xào · Hấp · Bún trộn · **Kho** · **Cơm** |
 
-  Kho để default "làm" ("cách làm cá kho tộ" là dạng phổ biến nhất trên SERP) nhưng nhóm này lệch nhiều — **bò kho phải override `seoVerb: nấu`** ("cách nấu bò kho"), thịt kho trứng thì cả hai dạng đều chạy. Cơm cũng vậy (cơm rang → làm). **Phân vân verb nào thì WebSearch "cách {verb} {tên món}" xem dạng nào đang thắng** — cùng tinh thần luật "thuật ngữ phải có thật".
+  Kho và Cơm về "làm" dù trực giác nói khác: "cách làm cá kho tộ" là dạng phổ biến nhất trên SERP, còn nhóm Cơm thì 6/7 món của catalog là món ghép/chiên (cơm tấm, cơm rang, cơm cháy, cơm lam…). Món lệch chiều thì override: **bò kho → `seoVerb: nấu`** (món hầm, "cách nấu bò kho"), **cơm gà Hội An → nấu** (nồi nấu thật duy nhất của nhóm Cơm). **Phân vân verb nào thì WebSearch "cách {verb} {tên món}" xem dạng nào đang thắng** — cùng tinh thần luật "thuật ngữ phải có thật".
 
 **Ví dụ (đo ký tự):**
 
-| Hiện tại | Đề xuất | Ký tự |
+| Trước | Sau (đang live) | Ký tự |
 |---|---|---|
 | Phở gà nước trong ngọt dịu, thơm nức lá chanh — Món Việt Ngon | Cách nấu phở gà — nước trong ngọt dịu, thơm nức lá chanh | 56 ✓ |
 | Bánh bèo Huế chén nhỏ lõm giữa, tôm chấy đỏ gạch — Món Việt Ngon | Cách làm bánh bèo Huế — chén nhỏ lõm giữa, tôm chấy đỏ gạch | 59 ✓ |
 | Cá kho tộ lửa liu riu keo sánh — Món Việt Ngon | Cách làm cá kho tộ — lửa liu riu keo sánh | 41 ✓ |
 
-**Điểm chờ duyệt số 1 — bỏ đuôi "— Món Việt Ngon" trên trang món.** Lý do: Google hiện tên site thành dòng riêng trong SERP (lấy từ `WebSite` schema — có sẵn — và `og:site_name` — vừa thêm), còn giữ đuôi thì title vượt ~70 ký tự và bị cắt đúng vào hook. Trang gộp (chủ, /mon/, bí quyết) giữ đuôi như cũ.
+**Đã chốt ① (Thái duyệt 2026-08-01) — bỏ đuôi "— Món Việt Ngon" trên trang món.** Lý do: Google hiện tên site thành dòng riêng trong SERP (lấy từ `WebSite` schema + `og:site_name`), còn giữ đuôi thì title vượt ~70 ký tự và bị cắt đúng vào hook. Ba trang gộp sẵn có (chủ, `/mon/`, bí quyết) giữ đuôi; **31 trang trục theo lối trang món — không đuôi** (lý do ghi ở đầu `trang-truc.ts`).
 
-**Điểm chờ duyệt số 2 — ngân sách ký tự:** đích ≤ **62 ký tự**; món nào vượt thì rút hook bằng field override `seoTitle` (ghi đè nguyên chuỗi, dùng cho ca đặc biệt).
+**Đã chốt ② — ngân sách ≤ 62 ký tự:** máy tự cắt hook theo vế phẩy; món nào vẫn vượt thì rút tay bằng `seoTitle` (QA réo danh sách, không chặn build).
 
-## Việc code (nửa ngày)
+## Việc code — ✅ đã làm đủ, khác bản nháp đúng một chỗ
 
-1. `content.config.ts`: thêm `seoVerb: z.enum(['nấu', 'làm']).optional()` + `seoTitle: z.string().optional()`.
-2. `src/utils/seo.ts`: hàm `seoTitleFor(d)` — bảng default verb + extract hook + ghép chuỗi; export thêm cho RSS/nơi khác nếu cần.
-3. `src/pages/mon/[slug].astro`: `title={d.seoTitle ?? seoTitleFor(d)}` cho `<Base>`. **Không đụng** h1, JSON-LD name, breadcrumb, RSS.
-4. `_template.yaml`: 2 dòng chú thích field mới.
-5. `tools/check-recipes.mjs`: cảnh báo (không chặn) title SEO > 62 ký tự; chặn thật nếu title YAML không extract được hook.
-6. Gán `seoVerb` cho món lệch default (~1 buổi rà 126 món, chủ yếu nhóm Kho/Cơm/Xôi).
+Sáu đầu việc của bản nháp (2 field schema · hàm ghép · `[slug].astro` · `_template.yaml` · QA check · gán verb toàn catalog) làm đủ cả. Khác biệt duy nhất: hàm ghép nằm ở **`src/utils/seo-title.mjs`** chứ không phải `seo.ts` như nháp — file .mjs trần để `check-recipes.mjs` (chạy ngoài Astro) import chung, khỏi chép logic hai nơi. Bước "rà 126 món gán verb" làm bằng script dump toàn bộ title tự ghép ra bảng rồi soi một lượt — kết quả là 12 override ở khung trên. Đã kiểm trên dist: **126/126 trang món mang title "Cách …"**.
 
 ## Meta description — giai đoạn 2, làm dần theo đợt
 
@@ -138,13 +133,13 @@ Description hiện tại (summary) hay nhưng không có cụm ý định. Công
 Cách {verb} {tên món} {định vị vùng}: {2–3 lời hứa cụ thể từ chính bài}. {tổng thời gian}, cho {khẩu phần} người ăn.
 ```
 
-**Đừng auto-ghép** (máy ghép dễ ra câu thọt); viết tay theo đợt như mọi nội dung khác, field mới `seoDescription` optional, thiếu thì fallback summary như cũ. Ưu tiên 12 món featured + món có impressions sớm trong GSC.
+**Đừng auto-ghép** (máy ghép dễ ra câu thọt); viết tay theo đợt như mọi nội dung khác, field mới `seoDescription` optional (⚠️ field này **CHƯA khai trong schema** — khai lúc bắt đầu giai đoạn 2), thiếu thì fallback summary như cũ. Ưu tiên 12 món featured + món có impressions sớm trong GSC.
 
-Title trang gộp, tiện sửa cùng đợt: `/mon/` → "Kho công thức món Việt: {n} món ba miền — Món Việt Ngon"; trang chủ đang ổn, không đụng.
+Title trang gộp: `/mon/` → "Kho công thức món Việt: {n} món ba miền — Món Việt Ngon" — ✅ đã đổi cùng `4f70049`; trang chủ giữ nguyên như dự tính.
 
 ---
 
-# 5 · Việc 2 — ~31 trang trục lọc — ✅ ĐÃ DỰNG 2026-08-01 (chờ duyệt CÂU CHỮ intro)
+# 5 · Việc 2 — 31 trang trục lọc — ✅ LIVE `4f70049`
 
 > **Đã dựng đủ 31 trang theo phương án A** (`/kieu/…` `/mien/…` `/dip/…`), Thái duyệt spec 2026-08-01. Hiện trạng: một route động `src/pages/[truc]/[slug].astro` + nội dung tay ở `src/data/trang-truc.ts` (31 bộ title/h1/intro — intro theo đúng luật ở đầu file đó) + slug ở `src/data/truc-slug.mjs` (một nguồn cho route, trang chủ, badge, lastmod). Đã nối đủ ba mối: cửa trục trang chủ → trang tĩnh, badge hero trang món → trang tĩnh, dải chip "cùng trục" cuối mỗi trang. ItemList + BreadcrumbList + crumb thật + lastmod theo nhóm đều có, đo trên dist. **LIVE `4f70049` — Thái đã duyệt intro trước khi đẩy.**
 
@@ -152,11 +147,11 @@ Title trang gộp, tiện sửa cùng đợt: `/mon/` → "Kho công thức món
 
 **Giải:** 31 trang tĩnh = 17 kiểu món + 7 vùng + 7 dịp. Giá trị + số món đọc từ collection lúc build, không hardcode.
 
-## URL — chờ Thái chọn một trong hai
+## URL — ✅ Thái chọn phương án A (2026-08-01)
 
 | Phương án | Dạng | Được | Mất |
 |---|---|---|---|
-| **A (đề xuất)** | `/kieu/kho/` · `/mien/mien-tay/` · `/dip/co-tet/` | Ngắn, ba trục rõ ràng, không đụng namespace `/mon/<slug>/` | Ba prefix mới ở root |
+| **A — ĐÃ CHỌN** | `/kieu/kho/` · `/mien/mien-tay/` · `/dip/co-tet/` | Ngắn, ba trục rõ ràng, không đụng namespace `/mon/<slug>/` | Ba prefix mới ở root |
 | C | `/mon/kieu/kho/` · `/mon/mien/mien-tay/` · `/mon/dip/co-tet/` | Gọn dưới một mái `/mon/` (route `[slug]` chỉ khớp 1 đoạn nên không đụng) | URL dài hơn một cấp |
 
 Slug bỏ dấu, một nguồn sự thật trong data file: kiểu món `mon-nuoc bun-tron canh lau chao kho xao hap com xoi banh banh-mi chien nuong cuon goi che` · vùng `mien-bac mien-trung mien-nam mien-tay tay-bac tay-nguyen ca-nuoc` · dịp `com-nha bua-sang dai-khach nhau-lai-rai an-choi cho-be co-tet`.
@@ -173,38 +168,36 @@ Slug bỏ dấu, một nguồn sự thật trong data file: kiểu món `mon-nuo
 
 ## Nối vào site
 
-1. **3 cửa trục ở trang chủ** đổi href `/mon/?kieu=…` → trang tĩnh tương ứng (anchor text = tên trục, đúng thứ Google cần).
-2. **Badge vùng/kiểu/dịp trên hero trang món** → thành link về trang trục (hiện là span trơ).
+1. ✅ **3 cửa trục ở trang chủ** đổi href `/mon/?kieu=…` → trang tĩnh tương ứng (anchor text = tên trục, đúng thứ Google cần).
+2. ✅ **Badge vùng/kiểu/dịp trên hero trang món** từ span trơ → thành link về trang trục.
 3. `/mon/` GIỮ NGUYÊN chip lọc JS — hai hệ song song là ĐÚNG: chip cho người đang lọc nhanh, trang tĩnh cho máy và cho link chia sẻ (cùng triết lý `/og/` vs `/anh-mon/`).
 
 **Để giai đoạn sau, đừng làm cùng lúc:** thêm cấp kiểu món vào breadcrumb trang món (đụng crumb nhìn thấy — việc riêng); trang giao trục ("các món chè miền Nam") — CHỈ mở khi GSC cho thấy query đó có impressions thật.
 
-**Effort:** khung code ~1 ngày (3 template + data file `src/data/trang-truc.ts` map giá trị → {slug, title, intro}) · 31 intro ~1–2 buổi viết + QA. **Đo sau khi live:** GSC Performance lọc query chứa "các món" / "món ngon miền" — đó là KPI của việc này; `link-audit` mở rộng đếm trang trục.
+**Đo sau khi live:** GSC Performance lọc query chứa "các món" / "món ngon miền" — đó là KPI của việc này. Còn để mở: `link-audit` mở rộng đếm trang trục **(chưa làm — tùy hứng, không chặn gì)**.
 
 ---
 
-# 6 · Việc 3 — Lớp tin cậy — ✅ THÁI ĐÃ CHỐT 2026-08-01, trang đã dựng
+# 6 · Việc 3 — Lớp tin cậy — ✅ LIVE `4f70049`, Thái đã chốt cả ba câu
 
 > **Chốt: (A) brand-only** — "Món Việt Ngon" đứng tên tác giả, **giữ ẩn danh**, **chưa có email** liên hệ (khi có thì bổ sung vào trang). `/gioi-thieu/` đã dựng (`src/pages/gioi-thieu.astro`) + link footer. **Thái đã duyệt và RÚT GỌN câu chữ 2026-08-01**: bỏ các câu tự kể về luật nội dung (bịa số liệu/công dụng/dinh dưỡng), chuyện bản vùng miền + nguyên liệu thay thế, chuyện không quảng cáo/ngày cập nhật, và câu hứa hòm thư — trang chỉ còn ba ý: kho công thức là gì, nguyên tắc "chính xác và trung thực", hình vẽ riêng từng món. `author` trong Recipe schema giữ Organization như cũ (khớp lựa chọn A). Nếu sau này đổi sang (B) Person hóa thì mở lại mục này.
 
-Google hỏi thẳng "Is it self-evident who authored your content?", và AI Mode recipe cards giờ in **tên tác giả** lên card. Site hiện chưa có trang giới thiệu, chưa có đường liên hệ, `author` là Organization.
+Bối cảnh lúc lập kế hoạch: Google hỏi thẳng "Is it self-evident who authored your content?", AI Mode recipe cards in **tên tác giả** lên card — mà site khi đó chưa có trang giới thiệu, chưa có đường liên hệ. "Everyday expertise" được quality rater tính, không cần bằng cấp.
 
-**Việc làm được ngay khi Thái chốt:** trang `/gioi-thieu/` (bếp này là ai, công thức được nấu-thử thế nào — đúng ba câu Who/How/Why; "everyday expertise" được tính, không cần bằng cấp) + email liên hệ + link ở footer.
-
-**Câu Thái phải chốt trước:**
-1. Mức lộ danh: **(A)** giữ thương hiệu "Món Việt Ngon" làm tác giả (card AI hiện tên bếp — sạch, đủ) hay **(B)** Person hóa — tên người thật/bút danh, `author` Person trong schema, byline trên trang (mạnh hơn cho E-E-A-T)?
-2. Email công khai nào cho trang liên hệ?
-3. Có kể chuyện bếp thật (ảnh, quê quán…) không, hay giữ ẩn danh?
+**Ba câu đã hỏi — Thái trả lời 2026-08-01:**
+1. Mức lộ danh **(A) brand-only hay (B) Person hóa** → **A**: thương hiệu "Món Việt Ngon" đứng tên, `author` Organization trong schema giữ nguyên, card AI hiện tên bếp.
+2. Email công khai cho trang liên hệ → **chưa có** — trang không nhắc chuyện hòm thư (cả câu hứa "sẽ bổ sung" cũng bị Thái gỡ khi duyệt).
+3. Kể chuyện bếp thật hay ẩn danh → **ẩn danh**.
 
 ---
 
-# 7 · Fix kỹ thuật nhỏ — ✅ làm 2026-08-01, CHƯA COMMIT
+# 7 · Fix kỹ thuật nhỏ — ✅ LIVE `a745ff2` (2026-08-01, đã curl kiểm production)
 
 | Fix | File | Vì sao |
 |---|---|---|
 | `<meta name="robots" content="max-image-preview:large">` | `src/layouts/Base.astro` | Điều kiện Google ghi rõ cho card ảnh lớn ở Discover; ảnh đã đạt chuẩn 1200px từ trước |
 | `og:site_name` | `src/layouts/Base.astro` | Thiếu; rẻ; đỡ lưng cho việc bỏ đuôi brand ở §4 |
-| `<lastmod>` trong sitemap | `astro.config.mjs` | Google chỉ tin lastmod thật — của mình thật: trang món lấy `updatedDate ?? pubDate` của chính món; `/` và `/mon/` lấy ngày mới nhất catalog (hai trang dựng từ dữ liệu món); trang không có ngày thật thì không ghi |
+| `<lastmod>` trong sitemap | `astro.config.mjs` | Google chỉ tin lastmod thật — của mình thật: trang món lấy `updatedDate ?? pubDate` của chính món; `/` và `/mon/` lấy ngày mới nhất catalog; **31 trang trục lấy ngày mới nhất của đúng nhóm món** (mở rộng ở `4f70049`); trang không có ngày thật (bi-quyet, gioi-thieu) thì không ghi |
 | Xóa khối `SearchAction` (giữ `WebSite`) | `src/pages/index.astro` | Google khai tử sitelinks search box 11/2024 — mã chết |
 
 Nghiệm thu: build sạch, `dist/sitemap-0.xml` có lastmod, trang món có đủ hai meta mới, `dist/index.html` hết SearchAction, `link-audit` + `seo-audit` xanh. **Việc để dành cùng nhóm (chưa làm, giá trị thấp):** `prepTime`/`cookTime` cho 126 YAML (cặp recommended — thêm dần theo đợt); Bing Webmaster + IndexNow; Cốc Cốc submit sitemap.
@@ -213,9 +206,11 @@ Nghiệm thu: build sạch, `dist/sitemap-0.xml` có lastmod, trang món có đ�
 
 # 8 · Checklist Search Console — 👤 tay Thái, ~15 phút
 
-1. **Sitemaps:** kiểm `sitemap-index.xml` trạng thái Success; **nộp thêm `https://www.monvietngon.com/rss.xml`** làm sitemap phụ (feed được crawl dày hơn XML — nguồn ở §2b).
-2. **URL Inspection → Request indexing:** trang chủ, `/mon/`, và ~12 món featured (mỗi ngày Google cho quota ít, làm rải vài hôm).
-3. **Enhancements → Recipe:** theo dõi số item hợp lệ bò từ 4 → ~126 (site mới, bò dần là bình thường — đã ghi ở ROADMAP). 4 cảnh báo recommended: kệ.
+> ✅ **Mục 1–3 Thái làm xong 2026-08-01.** Việc còn kéo dài của mục 2: quota Request Indexing mỗi ngày có hạn — **các hôm tới rải nốt** số món featured còn lại + vài trang trục đáng giá (`/kieu/kho/` · `/kieu/mon-nuoc/` · `/mien/mien-tay/` · `/dip/co-tet/` · `/dip/com-nha/`). Mục 4 chỉ là "biết để khỏi hết hồn", mục 5 chờ GA4, mục 6 tùy hứng.
+
+1. ~~**Sitemaps:** kiểm `sitemap-index.xml` trạng thái Success; **nộp thêm `https://www.monvietngon.com/rss.xml`** làm sitemap phụ~~ — ✅ 2026-08-01.
+2. ~~**URL Inspection → Request indexing:** trang chủ, `/mon/`, và ~12 món featured~~ — ✅ đợt đầu 2026-08-01; **còn rải tiếp các hôm tới** (xem khung trên).
+3. ~~**Enhancements → Recipe:** theo dõi số item hợp lệ bò từ 4 → ~126~~ — ✅ đã xem 2026-08-01; số bò dần là bình thường, 4 cảnh báo recommended: kệ.
 4. **Pages (indexing report):** sẽ thấy URL đời chủ cũ của domain (`/tag/…`, `/mon-diem-tam/`) báo 404 — **đúng và kệ**; không tìm thấy backlink sống nào đáng redirect (đã tra 2026-08-01).
 5. Khi gắn GA4 (đã chốt ở ROADMAP §2): nối GA4 ↔ Search Console.
 6. _(Tùy chọn, 5 phút, giá trị thấp)_ Bing Webmaster Tools import từ GSC; Cốc Cốc nộp sitemap.
