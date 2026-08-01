@@ -51,11 +51,12 @@ storyEyebrow: Chuyện tô phở
 storyTitle: Món ăn **mang hồn Việt** đi khắp thế giới
 story:
   - >-
-    Phở sinh ra từ những gánh hàng rong đất Bắc hồi đầu thế kỷ hai mươi, quẩy
-    qua các phố Hà Nội — Nam Định mỗi sớm tinh mơ. Một đầu gánh là nồi nước
-    dùng nghi ngút khói, đầu kia là bánh phở, thịt bò, dăm ba cái ghế con. Từ
-    cái gánh tre ấy, phở đi một mạch ra thế giới: người ta có thể chưa biết
-    Việt Nam ở đâu, nhưng nghe **"phở"** là gật gù liền.
+    Người ta thường kể phở sinh ra từ những gánh hàng rong đất Bắc hồi đầu
+    thế kỷ hai mươi, quẩy qua các phố Hà Nội — Nam Định mỗi sớm tinh mơ.
+    Một đầu gánh là nồi nước dùng nghi ngút khói, đầu kia là bánh phở, thịt
+    bò, dăm ba cái ghế con. Từ cái gánh tre ấy, phở đi một mạch ra thế
+    giới: người ta có thể chưa biết Việt Nam ở đâu, nhưng nghe **"phở"** là
+    gật gù liền.
   - >-
     Cái làm nên tô phở không phải thịt, mà là **nồi nước dùng**: xương ống hầm
     lâu cho ngọt tủy, gừng và hành nướng xém tạo mùi nền ấm áp, túi quế hồi
@@ -301,7 +302,7 @@ steps:
     bullets:
       - label: "Mốc 1 giờ:"
         text: >-
-          vớt **túi gia vị** ra. Ngâm lâu hơn nước sẽ hắc mùi thuốc bắc và
+          vớt **túi gia vị** ra. Ngâm lâu hơn nước sẽ hắc, nồng gắt và
           xỉn màu — một tiếng là hương vừa đẹp.
       - label: "Mốc 90 phút:"
         text: >-
@@ -418,7 +419,7 @@ tips:
     title: Túi gia vị đúng một giờ
     text: >-
       Quế hồi thảo quả đinh hương chỉ cần **60 phút** trong nồi là thơm trọn.
-      Ngâm tới cuối buổi là nước hắc mùi thuốc bắc — vớt đúng giờ, hương
+      Ngâm tới cuối buổi là nước hắc, nồng gắt — vớt đúng giờ, hương
       thanh lịch hơn hẳn.
   - icon: jar
     title: Đường phèn thay bột ngọt

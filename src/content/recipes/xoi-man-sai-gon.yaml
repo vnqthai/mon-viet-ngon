@@ -27,7 +27,7 @@ quick:
   steps:
     - Ngâm nếp **6 giờ** với muối, vo lại rồi để **thật ráo** ít nhất 15 phút.
     - >-
-      Đồ xôi **35–40 phút**, giữa chừng xới tơi và rưới nước cốt dừa rồi đồ
+      Hấp xôi **35–40 phút**, giữa chừng xới tơi và rưới nước cốt dừa rồi hấp
       tiếp.
     - >-
       Luộc trứng cút [[4|phút]] rồi ngâm nước lạnh cho dễ bóc; lạp xưởng **luộc
@@ -88,7 +88,8 @@ ingredientGroups:
         unit: g
         note: >-
           Nếp thường là đủ dùng — món này nếp chỉ làm nền, không phải nhân vật
-          chính như bên xôi xéo
+          chính như bên xôi xéo. Nếp làm chín bằng cách **đồ** — hấp bằng hơi
+          nước; nồi hấp xôi truyền thống gọi là **chõ**
       - id: cotdua
         name: Nước cốt dừa
         icon: drop
@@ -382,8 +383,9 @@ faq:
   - q: Làm sẵn từ tối để sáng mang đi được không?
     a: >-
       Được nếu **tách phần khô ra**: hộp xôi với mỡ hành và đồ mặn để riêng,
-      chà bông với hành phi bỏ túi nhỏ, tới nơi mới rắc. Sáng ra hâm xôi bằng
-      lò vi sóng có đậy khăn ẩm chừng 1 phút là dẻo lại.
+      chà bông với hành phi bỏ túi nhỏ, tới nơi mới rắc. Đậy kín **cất ngăn
+      mát**; sáng ra hâm xôi bằng lò vi sóng có đậy khăn ẩm chừng 1 phút là
+      dẻo lại.
   - q: Không có chõ đồ xôi thì sao?
     a: >-
       Nồi cơm điện làm được: nếp đã ngâm để ráo cho vào nồi, châm nước **xâm

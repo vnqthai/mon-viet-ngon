@@ -177,7 +177,7 @@ ingredientGroups:
         icon: bottle
         base: 150
         unit: ml
-        note: Loại pha sẵn cũng được, nhưng pha lại với thơm băm thì thơm hơn nhiều
+        note: Mắm cá cơm lên men, mùi đậm. Loại pha sẵn cũng được, nhưng pha lại với thơm băm thì thơm hơn nhiều
       - id: toiot
         name: Tỏi + ớt băm
         icon: garlic

@@ -325,7 +325,7 @@ serve:
     - >-
       Gỏi xoài lên bàn nhậu là phải có dĩa **bánh phồng tôm** kề bên — bẻ
       miếng bánh xúc một đũa gỏi, cắn cái rốp, chua cay mặn ngọt bung ra
-      một lượt, ly bia lạnh tự nhiên… vơi hồi nào không hay. Món này làm
+      một lượt, câu chuyện tự nhiên rôm rả hồi nào không hay. Món này làm
       mồi mở màn là chuẩn không cần chỉnh.
     - >-
       Còn buổi xế trời mát, dĩa gỏi xoài là **món ăn chơi cứu đói** ngon
@@ -341,7 +341,7 @@ serve:
     intro: "Bốn thứ này bày ra là buổi chiều xôm tụ liền:"
     items:
       - icon: moon
-        text: "**Bánh phồng tôm chiên** — muỗng ăn gỏi ngon nhất trần đời."
+        text: "**Bánh phồng tôm chiên** — muỗng xúc gỏi không gì bằng."
       - icon: roll
         text: "**Chả giò nóng** — giòn rụm béo thơm, đứng cạnh gỏi chua là hết ý."
       - icon: rice

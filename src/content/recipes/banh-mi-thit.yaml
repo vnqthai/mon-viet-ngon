@@ -70,10 +70,10 @@ story:
   - >-
     Bánh mì theo chân người Pháp vào Việt Nam từ thế kỷ 19, mà hồi đó là ổ
     baguette dài, đặc ruột, ăn tại bàn với dao nĩa. Người mình đổi từ từ: ổ
-    ngắn lại còn chừng gang tay, pha thêm chút **bột gạo** cho vỏ mỏng giòn và
-    ruột rỗng xốp — rỗng để làm gì thì tới năm **1958** mới rõ, khi tiệm Hòa Mã
-    ở Sài Gòn nghĩ ra chuyện nhét sẵn pate, chả, thịt vào giữa ổ cho khách cầm
-    đi làm, đi học.
+    ngắn lại còn chừng gang tay, có thời còn pha thêm chút **bột gạo** cho vỏ
+    mỏng giòn và ruột rỗng xốp — rỗng để làm gì thì tới năm **1958** mới rõ
+    nét, khi một tiệm bánh ở Sài Gòn được cho là nơi đầu tiên nhét sẵn pate,
+    chả, thịt vào giữa ổ cho khách cầm đi làm, đi học.
   - >-
     Cái ruột rỗng đó chính là chỗ ổ bánh Việt tách hẳn khỏi bánh mì kẹp phương
     Tây. Bánh kẹp Tây là **hai lát bánh úp lại**; ổ bánh mì mình là **một cái
@@ -151,7 +151,7 @@ ingredientGroups:
         color: gold
         base: 1
         unit: cái
-        note: Trứng phải thật tươi và để **ra nhiệt độ phòng** — trứng lạnh đánh dễ tách
+        note: Trứng phải thật tươi, vỏ sạch không nứt, và để **ra nhiệt độ phòng** — trứng lạnh đánh dễ tách
       - id: dauan
         name: Dầu ăn
         icon: bottle

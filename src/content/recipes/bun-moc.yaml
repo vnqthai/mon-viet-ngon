@@ -49,8 +49,8 @@ storyEyebrow: Chuyện món ăn
 storyTitle: Tên món đến từ **một cái làng**, không phải từ cách nấu
 story:
   - >-
-    Bún mọc lấy tên từ **làng Mọc** — tên nôm của làng Nhân Mục, nay thuộc quận
-    Thanh Xuân — nơi món này được cho là ra đời. Nhưng có cách giải thích thứ
+    Bún mọc lấy tên từ **làng Mọc** — tên nôm của làng Nhân Mục, nay thuộc
+    vùng Thanh Xuân, Hà Nội — nơi món này được cho là ra đời. Nhưng có cách giải thích thứ
     hai cũng đứng vững: **"mọc"** đọc chệch từ **"mộc"**, tức viên giò sống vo
     tròn mộc mạc thả vào bát bún. Hai lối giải thích ấy tồn tại song song đã
     lâu, không bên nào dứt điểm được bên nào, và cũng chẳng ai thấy cần.
@@ -65,11 +65,6 @@ story:
     sườn non hầm nhỏ lửa gần hai tiếng, hớt bọt đều tay, nêm nhạt. Không sa tế,
     không màu điều, không mắm tôm — bát bún mọc không có chỗ nào để giấu, nên
     nồi nước hỏng là cả bát hỏng.
-  - >-
-    Trên site này đã có **miến gà** cũng là món Bắc nước trong, cũng có mộc nhĩ
-    nấm hương. Chỗ khác nằm ở nhân: miến gà là **thịt gà xé tơi thớ** trên sợi
-    miến dong, còn bún mọc là **những viên tròn** nổi trên sợi bún trắng. Cùng
-    một tinh thần nấu, hai bát nhìn ra khác nhau ngay từ xa.
 
 ingredientGroups:
   - name: Viên mọc
@@ -146,7 +141,7 @@ ingredientGroups:
         base: 150
         unit: g
         note: >-
-          Giò lụa quét lớp bột quế bên ngoài rồi nướng, nên mặt ngoài nâu vàng.
+          Giò sống trộn bột quế rồi nướng, nên mặt ngoài nâu vàng.
           Xắt lát mỏng, xếp lên bát lúc dọn
       - id: hanhmuimoc
         name: Hành lá + rau mùi

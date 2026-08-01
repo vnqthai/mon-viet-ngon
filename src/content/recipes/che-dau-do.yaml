@@ -32,9 +32,9 @@ quick:
     - Nấu cốt dừa với muối + bột năng cho sánh.
     - "Múc ly: đậu dưới, **đá bào phủ trên**, chan cốt dừa, rắc dừa nạo."
   warning: >-
-    Đổ hết đường vào ngay từ đầu là hạt đậu **chai cứng vĩnh viễn** — ninh thêm
-    hai tiếng cũng vô ích. Ninh mềm trước, rim đường sau: đó là toàn bộ kỹ
-    thuật của món này.
+    Đổ hết đường vào ngay từ đầu là hạt đậu **chai lại, gần như không mềm lại
+    được nữa** — ninh thêm hai tiếng cũng vô ích. Ninh mềm trước, rim đường
+    sau: đó là toàn bộ kỹ thuật của món này.
 
 flavor:
   chua: 0
@@ -182,8 +182,8 @@ steps:
       type: warn
       text: >-
         Chưa được nêm đường ở bước này. Đường lúc hạt còn cứng sẽ rút nước ra
-        khỏi hạt, vỏ săn chai lại và **không bao giờ mềm nữa**, dù ninh tiếp
-        bao lâu.
+        khỏi hạt, vỏ săn chai lại và **gần như không mềm lại được nữa**, dù
+        ninh tiếp bao lâu.
     timer:
       secs: 3000
       label: Hẹn giờ ninh đậu · 50:00

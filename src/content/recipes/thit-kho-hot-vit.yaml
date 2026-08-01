@@ -7,7 +7,7 @@ category: Kho
 occasions: [Cho bé, Cơm nhà, Cỗ Tết]
 pubDate: 2026-07-27
 time:
-  total: 1 giờ 30 phút
+  total: 1 giờ 50 phút
 servingsBase: 4
 difficulty: Vừa
 featured: false
@@ -29,7 +29,7 @@ quick:
     - Thả hột vịt, kho thêm **15–20 phút**, thỉnh thoảng trở trứng cho thấm đều màu.
     - Nêm lại cho **mặn ngọt cân nhau**, thả ớt nguyên trái, tắt bếp. Ăn với cơm + dưa giá / dưa cải.
   warning: >-
-    Kho nước dừa mà để **lửa lớn sôi sùng sục** là nước bị chua và đục — món
+    Kho nước dừa mà để **lửa lớn sôi sùng sục** là nước gắt và đục — món
     này ăn nhau ở lửa liu riu và cây kiên nhẫn.
 
 flavor:
@@ -78,7 +78,7 @@ ingredientGroups:
         color: green
         base: 1
         unit: lít
-        note: 1–2 trái dừa xiêm — đừng dùng dừa già gắt dầu
+        note: 1–2 trái dừa xiêm — đừng dùng dừa quá già
   - name: Gia vị
     icon: jar
     items:
@@ -180,7 +180,7 @@ steps:
     callout:
       type: warn
       text: >-
-        Nước dừa kho lửa lớn lâu sẽ **chua và xỉn màu**. Sôi lăn tăn thôi —
+        Nước dừa kho lửa lớn lâu sẽ **gắt và xỉn màu**. Sôi lăn tăn thôi —
         thấy sôi sùng sục là hạ lửa liền.
     timer:
       secs: 2700
@@ -223,9 +223,9 @@ tips:
   - icon: drop
     title: Nước dừa xiêm, không dừa già
     text: >-
-      Dừa xiêm ngọt thanh, kho lên màu hổ phách trong. **Dừa già nhiều dầu**,
-      kho lâu nước bị gắt và xỉn màu. Không có dừa tươi thì nước dừa đóng hộp
-      loại không đường cũng tạm được.
+      Dừa xiêm ngọt thanh, kho lên màu hổ phách trong. **Dừa quá già** thì ít
+      nước, kho lâu nước bị gắt và xỉn màu. Không có dừa tươi thì nước dừa
+      đóng hộp loại không đường cũng tạm được.
   - icon: claypot
     title: Kho hai lửa, ăn mấy ngày càng ngon
     text: >-
@@ -278,3 +278,8 @@ faq:
       phần ăn ra hâm riêng**, phần còn lại cất ngăn mát. Trước bữa nào thấy
       nhạt màu thì kho bồi 10 phút — nồi Tết nhà nào cũng vậy, càng về cuối
       càng ngon.
+
+ticker:
+  - text: Nước dừa thắng màu hổ phách
+  - text: Trứng vịt thấm tận lòng đỏ
+  - text: Kho hai lửa càng thấm

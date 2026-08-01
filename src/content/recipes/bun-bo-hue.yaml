@@ -51,8 +51,8 @@ storyEyebrow: Chuyện tô bún
 storyTitle: Tô bún **mang cả cố đô** ra chợ sáng
 story:
   - >-
-    Ở Huế, trời còn chưa tỏ mặt người là các gánh bún bò đã đỏ lửa dọc đường
-    Nguyễn Du, chợ Đông Ba. Các mệ, các o ngồi giữa một bên là nồi nước dùng
+    Ở Huế, trời còn chưa tỏ mặt người là các gánh bún bò đã đỏ lửa quanh chợ
+    Đông Ba. Các mệ, các o ngồi giữa một bên là nồi nước dùng
     bốc khói **thơm nồng sả ruốc**, một bên là thau bún trắng ngần — khách
     ngồi ghé đòn kê, bưng tô bún nóng, xuýt xoa vì cay mà muỗng nào cũng vét
     sạch.
@@ -122,7 +122,9 @@ ingredientGroups:
         base: 3
         unit: muỗng canh
         frac: true
-        note: Hồn cốt của món — tìm đúng ruốc Huế màu tím sẫm
+        note: >-
+          Mắm làm từ con ruốc (con moi) ủ chín — hồn cốt của món; tìm đúng
+          ruốc Huế màu tím sẫm
       - id: otbot
         name: Ớt bột
         icon: chili
@@ -130,7 +132,7 @@ ingredientGroups:
         base: 3
         unit: muỗng canh
         frac: true
-        note: Ớt bột Huế cay thơm nhất; giảm nếu nhà ăn cay yếu
+        note: Ớt bột Huế cay thơm đúng vị bún bò; giảm nếu nhà ăn cay yếu
       - id: daudieu
         name: Dầu màu điều
         icon: drop

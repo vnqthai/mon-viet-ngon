@@ -25,7 +25,7 @@ export const MEO_BEP: Meo[] = [
   {
     icon: 'fish',
     title: 'Khử tanh cá đúng bài',
-    text: 'Muối hột chà xát + nước cốt chanh, hoặc nước ấm khoảng 70°C dội qua rồi cạo nhớt. **Cá sạch nhớt là hết 90% mùi tanh** — mẹo này ăn tiền hơn mọi loại rượu gừng.',
+    text: 'Muối hột chà xát + nước cốt chanh, hoặc nước ấm khoảng 70°C dội qua rồi cạo nhớt. **Cá sạch nhớt là bớt tanh hẳn** — mẹo này ăn tiền hơn cả rượu hay gừng.',
   },
   {
     icon: 'sprout',

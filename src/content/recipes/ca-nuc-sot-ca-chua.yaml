@@ -58,8 +58,8 @@ flavor:
   thom: 7.5
 flavorNote: >-
   **Chuẩn vị:** con cá còn nguyên hình mà **xương sống bấm nhẹ là mềm**, sốt
-  cà đỏ au sánh bám kín thân cá, mặn ngọt đậm hơn cá thu một bậc vì cá nục vốn
-  chắc thịt. Chan lên cơm nóng là thấy đủ.
+  cà đỏ au sánh bám kín thân cá, mặn ngọt nêm đậm hơn một bậc vì rim lâu, cá
+  hút vị. Chan lên cơm nóng là thấy đủ.
 
 storyEyebrow: Chuyện nồi cá
 storyTitle: Hộp cá sốt cà **làm bằng nồi nhà**
@@ -76,11 +76,10 @@ story:
     hai kiểu nấu quen thuộc: **hấp cuốn bánh tráng** cho ngày muốn ăn thanh, và
     **rim sốt cà** cho ngày muốn có món mặn để dành ăn hai bữa.
   - >-
-    Chỗ khác biệt so với cá thu sốt cà nằm ở **thời gian**. Cá thu cắt khúc dày,
-    rim mươi phút là xong. Cá nục để nguyên con, xương nhỏ mà nhiều, nên phải
-    **rim liu riu ba bốn mươi phút** cho xương mềm rục — tới lúc đó thì gắp cả
-    con lên ăn không phải dò xương, và đó cũng là lúc thịt cá thấm sốt tới tận
-    trong.
+    Bí quyết của nồi cá nằm ở **thời gian**. Cá nục để nguyên con, xương nhỏ
+    mà nhiều, nên phải **rim liu riu ba bốn mươi phút** cho xương mềm rục —
+    tới lúc đó thì gắp cả con lên ăn không phải dò xương, và đó cũng là lúc
+    thịt cá thấm sốt tới tận trong.
 
 ingredientGroups:
   - name: Cá nục
@@ -133,7 +132,7 @@ ingredientGroups:
         icon: bottle
         qtyText: 2½ muỗng canh nước mắm · 1½ muỗng cà phê đường
         note: >-
-          Nêm đậm hơn cá thu một bậc — cá nục thịt chắc, rim lâu nên cần vị
+          Nêm đậm tay hơn một bậc — cá nục thịt chắc, rim lâu nên cần vị
           mạnh mới thấm tới trong
       - id: otnuc
         name: Ớt tươi
@@ -157,7 +156,7 @@ ingredientGroups:
         base: 200
         unit: ml
         note: >-
-          Nhiều hơn món cá thu vì rim lâu hơn — cạn thì châm thêm **nước sôi**,
+          Rim lâu nên đong rộng tay — cạn thì châm thêm **nước sôi**,
           đừng châm nước lạnh
 
 stepsEyebrow: Vô bếp thôi!
@@ -217,7 +216,7 @@ steps:
     callout:
       type: warn
       text: >-
-        Cá nục nhỏ và mềm hơn cá thu, nên bước chiên sơ càng quan trọng: nó tạo
+        Cá nục con nhỏ, thịt mềm, nên bước chiên sơ càng quan trọng: nó tạo
         lớp áo giữ con cá **nguyên hình suốt bốn mươi phút rim**. Bỏ bước này
         thì tới lúc xương rục, thịt cũng rã ra hết.
     timer:
@@ -239,8 +238,8 @@ steps:
           đường + chút tiêu. Nếm phải **đậm hơn mức mình muốn một chút** — rim
           lâu, cá sẽ hút bớt vị.
       - text: >-
-          Châm [[200|ml]] nước, nấu sôi. Nhiều nước hơn món cá thu vì nồi này
-          rim lâu gấp ba.
+          Châm [[200|ml]] nước, nấu sôi. Nước rộng vậy vì nồi này rim tới
+          bốn mươi phút.
   - title: Rim liu riu — bốn mươi phút cho xương mềm
     icon: pot
     minutes: 40 phút

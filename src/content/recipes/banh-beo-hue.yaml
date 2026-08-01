@@ -1,8 +1,9 @@
-title: Bánh bèo Huế **chén nhỏ lõm giữa, tôm chấy cam ruộm**
+title: Bánh bèo Huế **chén nhỏ lõm giữa, tôm chấy đỏ gạch**
 summary: >-
   Bột gạo pha loãng đổ vào từng chén con rồi hấp, mặt bánh **se lại và lõm
-  xuống một xoáy nhỏ ở giữa** — đúng chỗ để đùn nhúm tôm chấy cam, viên tóp mỡ
-  vàng và một thìa mắm ngọt. Cầm chén, lách thìa một vòng quanh mép là gọn một cái.
+  xuống một xoáy nhỏ ở giữa** — đúng chỗ để đùn nhúm tôm chấy (tôm giã nhỏ
+  rang bông) đỏ gạch, viên tóp mỡ vàng và một thìa mắm ngọt. Cầm chén, lách
+  thìa một vòng quanh mép là gọn một cái.
 region: Miền Trung
 category: Bánh
 occasions: [Ăn chơi, Đãi khách]
@@ -22,13 +23,13 @@ quick:
     - Bột gạo [[200|g]] + bột năng [[30|g]] + nước [[700|ml]] — pha loãng, để nghỉ 1 tiếng
     - Tôm khô [[80|g]] (hoặc tôm tươi [[200|g]]) — làm tôm chấy
     - Thịt ba chỉ [[100|g]] — thắng lấy tóp mỡ · hành lá làm mỡ hành
-    - "Mắm chấm: nước mắm [[3|muỗng canh]] · đường [[2|muỗng canh]] · nước ấm [[4|muỗng canh]] · chanh, tỏi, ớt"
+    - "Mắm chấm: nước mắm [[3|muỗng canh]] · đường [[2|muỗng canh]] · nước luộc tôm (hay nước ấm) [[8|muỗng canh]] · chanh, tỏi, ớt"
   steps:
     - Pha bột gạo với bột năng, nước và chút muối, khuấy tan rồi **để nghỉ ít nhất 1 tiếng**.
     - Chắt bỏ phần nước trong nổi trên mặt, châm lại đúng bằng ấy nước sạch — bánh sẽ trong hơn.
     - Xếp chén nhỏ vào xửng, **hấp cho chén nóng già** rồi mới múc bột vào, mỗi chén chừng 2/3.
     - Hấp **6–8 phút** tới khi mặt bánh **chuyển trắng trong và se lại**.
-    - Tôm khô ngâm mềm, giã nhỏ rồi rang chảo lửa nhỏ tới khi **bông tơi và cam ruộm**.
+    - Tôm khô ngâm mềm, giã nhỏ rồi rang chảo lửa nhỏ tới khi **bông tơi và đỏ gạch**.
     - Thắng ba chỉ lấy tóp mỡ; hành lá thái nhỏ, dội dầu nóng lên làm mỡ hành.
     - Pha mắm chua ngọt loãng hơn bình thường — mắm này để **chan**, không phải để chấm.
     - Rắc tôm chấy, tóp mỡ, rưới mỡ hành, chan một thìa mắm lên từng chén.
@@ -65,7 +66,7 @@ story:
     Bánh mặt phẳng lì nghĩa là chén chưa đủ nóng hoặc bột pha đặc quá.
   - >-
     Cái lõm đó cũng có việc của nó: nó là chỗ đựng. Nhúm **tôm chấy** — tôm
-    giã nhỏ rang khô cho bông tơi lên như bông gòn, màu cam ruộm — nằm gọn ở
+    giã nhỏ rang khô cho bông tơi lên như bông gòn, màu đỏ gạch — nằm gọn ở
     giữa, thêm viên tóp mỡ, một vòng mỡ hành xanh, rồi thìa mắm chan xuống là
     đủ bốn thứ trong một miếng.
 
@@ -125,7 +126,7 @@ ingredientGroups:
         icon: bottle
         base: 1
         unit: muỗng cà phê
-        note: Cho màu cam ruộm; không có thì tôm vẫn lên màu nhưng nhạt hơn
+        note: Cho màu đỏ gạch; không có thì tôm vẫn lên màu nhưng nhạt hơn
       - id: muoitom
         name: Muối & đường (rang tôm)
         icon: jar
@@ -168,9 +169,9 @@ ingredientGroups:
         unit: muỗng canh
         note: Khuấy tan trong nước ấm trước rồi mới cho mắm vào
       - id: nuocam
-        name: Nước ấm
+        name: Nước luộc tôm (hay nước ấm)
         icon: drop
-        base: 4
+        base: 8
         unit: muỗng canh
         note: Nước ấm giúp đường tan hết, chén mắm mới trong
       - id: chanhtoiot
@@ -215,8 +216,8 @@ steps:
           cối cho tơi ra thành sợi bông**, đừng giã nát thành bột.
       - text: >-
           Cho tôm vào chảo khô, để **lửa nhỏ nhất**, đảo liên tục
-          **12–15 phút**. Tôm sẽ khô dần rồi **bông tơi lên và ngả màu cam
-          ruộm**.
+          **12–15 phút**. Tôm sẽ khô dần rồi **bông tơi lên và ngả màu đỏ
+          gạch**.
       - text: >-
           Gần cuối rắc một nhúm muối, một nhúm đường và [[1|muỗng cà phê]] dầu
           điều, đảo đều cho lên màu rồi tắt bếp.
@@ -241,8 +242,9 @@ steps:
           **nóng già** rồi dội thẳng lên hành, khuấy nhanh — hành chín tái,
           xanh và bóng.
       - text: >-
-          Pha mắm: khuấy [[2|muỗng canh]] đường vào [[4|muỗng canh]] nước ấm
-          cho tan, thêm [[3|muỗng canh]] nước mắm, vắt chanh, thả tỏi ớt băm.
+          Pha mắm: khuấy [[2|muỗng canh]] đường vào [[8|muỗng canh]] nước luộc
+          tôm (hay nước ấm) cho tan, thêm [[3|muỗng canh]] nước mắm, vắt chanh,
+          thả tỏi ớt băm.
   - title: Hấp bánh — chén phải nóng già trước
     icon: pot
     minutes: 25 phút
@@ -315,8 +317,8 @@ tips:
     title: Mắm bánh bèo pha loãng hơn mắm chấm
     text: >-
       Vì mắm này **chan lên bánh** chứ không phải để nhúng. Pha đặc như mắm
-      chấm gỏi cuốn là chén bánh mặn chát. Tỉ lệ dễ nhớ: nước nhiều hơn mắm
-      một chút.
+      chấm gỏi cuốn là chén bánh mặn chát. Tỉ lệ dễ nhớ: nước gấp đôi mắm
+      trở lên — chén mắm bánh bèo phải loãng, ngọt thanh.
   - icon: spoon
     title: Chan mắm ở chén nào ăn chén đó
     text: >-
@@ -372,10 +374,10 @@ faq:
       ngày.
   - q: Làm trước được phần nào?
     a: >-
-      **Tôm chấy** làm trước cả tuần, cất hũ kín. **Tóp mỡ** và **mắm** làm
-      trước 2–3 ngày. **Bột** pha từ tối hôm trước để ngăn mát thì bánh còn
-      ngon hơn. Chỉ có phần hấp bánh là phải làm trong ngày — bánh bèo để qua
-      đêm thì cứng lại.
+      **Tôm chấy** làm trước cả tuần, cất hũ kín ngăn mát. **Tóp mỡ** và
+      **mắm** làm trước 2–3 ngày. **Bột** pha từ tối hôm trước để ngăn mát thì
+      bánh còn ngon hơn. Chỉ có phần hấp bánh là phải làm trong ngày — bánh bèo
+      để qua đêm thì cứng lại.
   - q: Bánh nguội bị cứng, hâm lại được không?
     a: >-
       Được. **Hấp lại 3–4 phút** là bánh mềm như mới. Đừng quay lò vi sóng —
@@ -385,7 +387,7 @@ faq:
 ticker:
   - text: Hấp chén nóng già rồi mới múc bột
   - text: Mặt bánh lõm một xoáy nhỏ ở giữa
-  - text: Tôm chấy rang tới khi bông tơi cam ruộm
+  - text: Tôm chấy rang tới khi bông tơi đỏ gạch
   - text: Tóp mỡ giòn, mỡ hành xanh bóng
   - text: Mắm chan loãng, chén nào ăn chén đó
   - text: Lách thìa một vòng, xúc nguyên cái

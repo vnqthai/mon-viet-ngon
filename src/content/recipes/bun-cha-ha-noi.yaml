@@ -1,6 +1,6 @@
 title: Bún chả Hà Nội **chả cháy cạnh, nước chấm ấm thanh**
 summary: >-
-  Chả viên chả miếng ướp **nước hàng** nướng cháy cạnh thơm lựng khói, thả
+  Chả viên chả miếng ướp **nước hàng** nướng cháy cạnh thơm lựng, thả
   vô bát nước mắm **ấm ngọt thanh** cùng đu đủ giòn — gắp đũa bún trắng
   nhúng ngập một lần là hiểu vì sao người Hà Nội tự hào món này tới vậy.
 region: Miền Bắc
@@ -14,12 +14,12 @@ difficulty: Vừa
 featured: false
 order: 3
 art: bun-cha
-heroEyebrow: Khói than thơm giữa phố cổ…
+heroEyebrow: Trưa phố cổ, hàng chả đỏ lửa…
 
 quick:
   ingredients:
     - Ba chỉ [[400|g]] thái mỏng (chả miếng) · nạc vai xay [[400|g]] (chả viên)
-    - "Ướp: hành khô [[3|củ]] + tỏi [[3|tép]] băm · nước mắm [[3|muỗng canh|frac]] · đường [[1.5|muỗng canh|frac]] · dầu hào [[1|muỗng canh|frac]] · **nước hàng [[1.5|muỗng canh|frac]]** · tiêu"
+    - "Ướp: hành khô [[3|củ]] + tỏi [[3|tép]] băm · nước mắm [[3|muỗng canh|frac]] · đường [[1.5|muỗng canh|frac]] · dầu hào [[1|muỗng canh|frac]] · **nước hàng (nước màu) [[1.5|muỗng canh|frac]]** · tiêu"
     - "Nước chấm: nước ấm [[600|ml]] · nước mắm [[90|ml]] · đường [[80|g]] · giấm [[50|ml]] · tỏi ớt băm"
     - Đu đủ xanh [[300|g]] + cà rốt [[1|củ]] — ngâm giấm đường làm đồ chua
     - Bún rối sợi nhỏ [[1000|g]]
@@ -63,9 +63,9 @@ story:
     loãng tay, **ấm nóng, thanh tới mức húp được**, trong bát thả sẵn đu đủ
     xanh giòn tan.
   - >-
-    Món này từng khiến cả thế giới tò mò khi Tổng thống Obama ngồi ghế nhựa
-    ăn bún chả ở Hà Nội năm 2016 — nhưng với người Việt mình, bún chả chẳng
-    cần ai quảng cáo. Nhà có cái vỉ nướng, hôm nào trời mát đem ra **nướng
+    Món này từng khiến bao khách phương xa lặn lội tìm ăn cho bằng được —
+    nhưng với người Việt mình, bún chả chẳng cần ai quảng cáo. Nhà có cái
+    vỉ nướng, hôm nào trời mát đem ra **nướng
     mẻ chả thơm um**, cả xóm biết nhà bạn ăn gì tối nay.
 
 ingredientGroups:
@@ -428,10 +428,10 @@ faq:
       chai, ngăn mát 4–5 ngày vẫn thanh.
 
 ticker:
-  - text: Khói than thơm cả góc phố
+  - text: Chả cháy cạnh thơm cả góc phố
   - text: Chả viên chả miếng cháy cạnh
   - text: Nước chấm ấm thanh dịu
   - text: Đu đủ giòn tan
   - text: Kinh giới tía tô the mát
   - text: Bún rối trắng ngần
-  - text: Nước hàng nâu óng
+  - text: Đường thắng nâu óng

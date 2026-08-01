@@ -20,12 +20,12 @@ heroEyebrow: Nồi bánh sôi ngoài sân, đêm hai chín Tết…
 quick:
   ingredients:
     - Nếp cái hoa vàng [[1|kg]] — ngâm **8 giờ**, xóc muối
-    - Đậu xanh cà vỏ [[400|g]] — ngâm **4 giờ**, đồ chín, nắm thành nắm
+    - Đậu xanh cà vỏ [[400|g]] — ngâm **4 giờ**, đồ (hấp) chín, nắm thành nắm
     - Thịt ba chỉ [[500|g]] — thái miếng to bản, ướp muối tiêu **1 giờ**
     - Lá dong [[20|lá]] · lạt giang [[8|sợi]] — rửa sạch, lau khô
     - Muối [[2|muỗng canh]] · tiêu xay [[1|muỗng canh]]
   steps:
-    - Ngâm nếp 8 giờ và đậu 4 giờ; đồ đậu chín rồi nắm thành 4 nắm tròn.
+    - Ngâm nếp 8 giờ và đậu 4 giờ; hấp đậu chín rồi nắm thành 4 nắm tròn.
     - Ướp thịt với muối tiêu **1 giờ** — không ướp nước mắm, bánh mau thiu.
     - >-
       Xếp 4 lá dong vuông góc nhau, đổ nếp — đậu — thịt — đậu — nếp, gấp lá
@@ -93,7 +93,7 @@ ingredientGroups:
         base: 400
         unit: g
         note: >-
-          Ngâm **4 giờ**, đồ chín tới rồi giã hoặc tán cho mịn, nắm thành
+          Ngâm **4 giờ**, hấp chín tới rồi giã hoặc tán cho mịn, nắm thành
           **4 nắm tròn** bằng nhau. Nắm sẵn thì lúc gói chỉ việc bổ đôi đặt vào,
           nhanh và đều tay hơn xúc từng thìa
       - id: muoibchg
@@ -166,7 +166,7 @@ ingredientGroups:
           khuôn thì gói tay được, chỉ cần chịu khó gấp mép cho vuông
 
 steps:
-  - title: Ngâm nếp, đồ đậu, ướp thịt
+  - title: Ngâm nếp, hấp đậu, ướp thịt
     icon: clock
     minutes: 8 giờ
     intro: "Làm tối hôm trước, sáng hôm sau gói:"
@@ -177,7 +177,7 @@ steps:
           xóc [[1|muỗng canh]] muối.
       - label: "Đậu xanh:"
         text: >-
-          Ngâm **4 giờ**, đãi bỏ vỏ còn sót, đồ chín tới rồi tán mịn khi còn
+          Ngâm **4 giờ**, đãi bỏ vỏ còn sót, hấp chín tới rồi tán mịn khi còn
           nóng, nêm chút muối. Chia và nắm thành **4 nắm tròn**.
       - label: "Thịt:"
         text: >-
@@ -322,7 +322,7 @@ serve:
       bị kéo lệch.
     - >-
       Bánh chưng trên mâm cỗ luôn đi cùng **dưa hành** và **giò lụa**. Dưa hành
-      chua giòn cắt cái béo của nhân, giò lụa thì bù phần đạm. Ba thứ ấy đặt
+      chua giòn cắt cái béo của nhân, giò lụa thêm miếng đậm thịt. Ba thứ ấy đặt
       cạnh nhau là thành mâm, thiếu một thứ là thấy thiếu.
   aside:
     title: Ăn còn dư thì làm gì

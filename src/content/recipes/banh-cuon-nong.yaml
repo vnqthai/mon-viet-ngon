@@ -166,7 +166,7 @@ ingredientGroups:
         color: red
         base: 1
         unit: trái
-        note: Xắt lát mỏng thả chén — cay nhẹ đủ ấm miệng, và **không tỏi** mới đúng kiểu Bắc
+        note: Xắt lát mỏng thả chén — cay nhẹ đủ ấm miệng, nhiều hàng Hà Nội pha **không tỏi**
       - id: giavi
         name: Gia vị cơ bản
         icon: jar
@@ -290,8 +290,8 @@ steps:
       text: >-
         Đúng bài Hà Nội xưa còn thêm **một hai giọt tinh dầu cà cuống** cho
         cả chén — cà cuống là loài côn trùng nước, con đực có túi tinh dầu
-        thơm cay rất riêng, giờ hiếm và đắt. Có thì quý, không có cũng chẳng
-        sao.
+        thơm cay rất riêng, giờ hiếm và đắt (nay chủ yếu là cà cuống nuôi
+        hoặc tinh dầu pha sẵn). Có thì quý, không có cũng chẳng sao.
   - title: Tráng bánh — chảo thay nồi hấp
     icon: flame
     minutes: 30 phút
@@ -420,7 +420,7 @@ tips:
       ruộm trong chảo mới vớt là ra ngoài thành **nâu, đắng** — mất toi chỗ
       hành đẹp.
   - icon: bottle
-    title: Nước chấm thanh, ấm, không tỏi
+    title: Nước chấm thanh, ấm, ít hoặc không tỏi
     text: >-
       Nước chấm bánh cuốn Bắc là kiểu **loãng dịu húp được**, chỉ điểm vài
       lát ớt — pha kiểu tỏi ớt đậm đà của miền Nam là át hết vị bánh. Trước

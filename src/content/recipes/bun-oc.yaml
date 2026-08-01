@@ -50,7 +50,7 @@ storyEyebrow: Chuyện món ăn
 storyTitle: Ba thứ, và cả ba đều phải **đúng**
 story:
   - >-
-    Bún ốc là bát bún tối giản nhất trong các món bún Hà Nội: gọn trong **nước,
+    Bún ốc là bát bún thuộc hàng tối giản nhất của bún Hà Nội: gọn trong **nước,
     ốc, và ớt chưng**. Chính vì gọn như vậy nên nó khó — mỗi thứ đều đứng một
     mình giữa bát, thứ nào làm dối là lộ ra ngay ở thìa đầu tiên.
   - >-
@@ -65,9 +65,9 @@ story:
     nó **là** vị của món này, không có đường vòng nào.
   - >-
     Vậy nên bát bún ốc nêm theo một hướng riêng hẳn: nồi nước phải **trong hơn,
-    chua rõ hơn và nhạt tay hơn** so với mọi bát bún đỏ khác, để cái ngọt của
-    nước luộc ốc còn nổi lên được. Và con ốc phải thật giòn — cả bát trông vào
-    đúng nó.
+    chua rõ hơn và nhạt tay hơn** so với các bát bún màu đỏ khác (bún riêu,
+    bún bò), để cái ngọt của nước luộc ốc còn nổi lên được. Và con ốc phải
+    thật giòn — cả bát trông vào đúng nó.
 
 ingredientGroups:
   - name: Con ốc

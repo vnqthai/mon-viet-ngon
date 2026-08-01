@@ -66,7 +66,7 @@ story:
     món ăn đạt **"giá trị ẩm thực châu Á"**.
   - >-
     Nghe chữ "phở" mà đừng chờ mùi quế hồi: sợi phở khô xay từ bột gạo —
-    dân Gia Lai chuộng gạo Phú Thiện — **nhỏ mảnh hơn cả sợi hủ tiếu**,
+    dân Gia Lai chuộng gạo Phú Thiện — **nhỏ mảnh cỡ sợi hủ tiếu**,
     trụng xong vẫn săn dai chứ không mềm oặt; nước dùng chỉ ninh xương
     cho ngọt trong, thơm hành gừng nướng. Còn linh hồn của tô trộn là
     **tương đen** — đậu nành lên men với muối và mật mía, màu nâu đen,
@@ -121,7 +121,7 @@ ingredientGroups:
         icon: noodle
         base: 400
         unit: g
-        note: Sợi nhỏ mảnh hơn hủ tiếu; ngoài tỉnh đặt online "phở khô Gia Lai"
+        note: Sợi nhỏ mảnh cỡ sợi hủ tiếu; ngoài tỉnh đặt online "phở khô Gia Lai"
       - id: hanhphi
         name: Hành tím làm hành phi
         icon: onion

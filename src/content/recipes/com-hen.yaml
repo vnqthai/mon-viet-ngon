@@ -19,7 +19,7 @@ heroEyebrow: Sáng ở xứ Huế…
 quick:
   ingredients:
     - Hến tươi [[2|kg]] — **ngâm trước 3 giờ** cho nhả hết cát
-    - Cơm trắng [[4|chén]] — nấu từ hôm trước, **để nguội hẳn**
+    - Cơm trắng [[4|chén]] — nấu từ hôm trước, để nguội rồi **cất ngăn mát**
     - Mắm ruốc [[2|muỗng canh|frac]] — mắm đặc làm từ con ruốc, đặc sản xứ Huế
     - Tóp mỡ [[100|g]] · đậu phộng rang [[100|g]] · mè rang [[2|muỗng canh|frac]]
     - Bắp chuối bào, rau má, bạc hà (dọc mùng) xắt sợi, khế chua [[400|g]]
@@ -43,7 +43,8 @@ flavor:
   thom: 7
 flavorNote: >-
   **Chuẩn tô:** cơm mát, hến mặn thơm, rau giòn, tóp mỡ béo — húp một ngụm nước
-  hến nóng là mọi thứ ráp lại. Cay phải **cay thật**, đó là tô cơm cay nhất mâm Huế.
+  hến nóng là mọi thứ ráp lại. Cay phải **cay thật**, đó là tô cơm nổi tiếng
+  cay của mâm Huế.
 storyEyebrow: Chuyện món ăn
 storyTitle: Món sang trọng làm từ **những thứ rẻ nhất**
 story:
@@ -111,7 +112,7 @@ ingredientGroups:
         icon: rice
         base: 4
         unit: chén
-        note: Để nguội hẳn, xới rời hạt — tuyệt đối không hâm lại
+        note: Để nguội rồi **cất ngăn mát**, xới rời hạt — tuyệt đối không hâm lại
       - id: topmo
         name: Tóp mỡ
         icon: meat
@@ -350,4 +351,4 @@ faq:
 
 ticker:
   - text: Cơm hến — cơm nguội chan nước nóng
-  - text: Tô cơm cay nhất mâm Huế
+  - text: Tô cơm nổi tiếng cay xứ Huế

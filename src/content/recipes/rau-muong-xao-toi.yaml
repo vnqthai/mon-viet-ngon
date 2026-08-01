@@ -1,13 +1,13 @@
 title: Rau muống xào tỏi **xanh giòn như nhà hàng**
 summary: >-
   Cọng rau **xanh mướt, giòn sựt**, thơm lừng hai tầng tỏi — món rau quốc dân
-  mà 10 người xào thì 7 người bị thâm đen, vì thiếu đúng một bí quyết.
+  mà nhà nào cũng từng xào ra dĩa rau thâm đen, vì thiếu đúng một bí quyết.
 region: Cả nước
 category: Xào
 occasions: [Cơm nhà]
 pubDate: 2026-07-27
 time:
-  total: 15 phút
+  total: 20 phút
 servingsBase: 4
 difficulty: Dễ
 featured: false
@@ -105,7 +105,7 @@ ingredientGroups:
 steps:
   - title: Nhặt rau & ngâm rửa
     icon: basket
-    minutes: 5 phút
+    minutes: 10 phút
     bullets:
       - text: >-
           Nhặt lấy **phần cọng non và lá non**, ngắt khúc cỡ 10 cm. Cọng to thì
@@ -122,7 +122,7 @@ steps:
           dầu ăn**.
       - text: >-
           Thả rau vào chần **đúng 30 giây**, không đậy nắp, vớt ra **thả ngay
-          vô thau nước đá** 1 phút rồi vớt lên để ráo.
+          vô thau nước đá** có vài giọt chanh, ngâm 1 phút rồi vớt lên để ráo.
     callout:
       type: tip
       text: >-
@@ -198,3 +198,8 @@ faq:
       Được nếu chảo bạn dày, lửa thiệt mạnh và xào **mỗi mẻ ít rau**. Bếp gia
       đình lửa yếu thì đừng bỏ — bước chần 30 giây chính là "bảo hiểm" cho màu
       xanh và độ giòn.
+
+ticker:
+  - text: Chần rồi xào — xanh mướt, giòn
+  - text: Lửa lớn, tay nhanh
+  - text: Tỏi phi thơm cả bếp

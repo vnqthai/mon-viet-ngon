@@ -1,7 +1,7 @@
-title: Bánh ướt tôm chấy Huế **cuốn nhỏ xinh, rắc bông tôm cam ruộm**
+title: Bánh ướt tôm chấy Huế **cuốn nhỏ xinh, rắc bông tôm đỏ gạch**
 summary: >-
   Món trên mâm bánh Huế: lá bánh ướt mỏng cuốn lại thành từng cuốn nhỏ, rắc
-  **tôm chấy bông tơi màu cam ruộm**, chấm mắm chua ngọt. Cả món ăn thua ở chảo
+  **tôm chấy bông tơi màu đỏ gạch**, chấm mắm chua ngọt. Cả món ăn thua ở chảo
   tôm — rang đúng lửa thì bông xốp như mây, quá lửa một chút là khô cứng.
 region: Miền Trung
 category: Bánh
@@ -36,7 +36,7 @@ quick:
       bột, không bông được.
     - >-
       Rang tôm **lửa nhỏ, đảo liên tục 15–20 phút** với hành tím phi và dầu
-      điều, tới khi **tơi xốp, khô hẳn, màu cam ruộm**.
+      điều, tới khi **tơi xốp, khô hẳn, màu đỏ gạch**.
     - Tráng lá bánh mỏng bằng chảo chống dính, úp ra mâm thoa dầu hành.
     - >-
       Rắc tôm chấy thành **một đường ngang** trên lá bánh, gấp hai mép rồi
@@ -63,10 +63,10 @@ storyEyebrow: Chuyện mâm bánh
 storyTitle: Nhúm tôm chấy — **thứ đi khắp mâm bánh Huế**
 story:
   - >-
-    Mâm bánh Huế bày ra là một dãy chén dĩa nhỏ: bánh bèo, bánh nậm, bánh lọc,
-    bánh ướt. Bốn thứ bánh khác nhau, làm bằng bốn cách khác nhau, mà **nhìn
-    lên mặt cái nào cũng thấy một nhúm bông màu cam** — đó là tôm chấy. Nó là
-    sợi dây nối cả mâm bánh lại với nhau.
+    Mâm bánh Huế bày ra là một dãy chén dĩa nhỏ: bánh bèo, bánh nậm, bánh
+    ram ít, bánh ướt. Bốn thứ bánh khác nhau, làm bằng bốn cách khác nhau, mà
+    **nhìn lên mặt cái nào cũng thấy một nhúm bông màu cam** — đó là tôm chấy.
+    Nó là sợi dây nối cả mâm bánh lại với nhau.
   - >-
     "Chấy" là **một động tác**: giã tôm rồi rang đảo trên lửa nhỏ cho tới khi
     tơi bông ra. Có nơi viết là "tôm cháy", nhưng chữ đúng nằm ở cái động tác
@@ -105,7 +105,7 @@ ingredientGroups:
         base: 1
         unit: muỗng canh
         note: >-
-          Hạt điều màu phi với dầu — chỉ để lên **màu cam ruộm**, gần như không
+          Hạt điều màu phi với dầu — chỉ để lên **màu đỏ gạch**, gần như không
           có vị. Không có thì tôm vẫn ngon, chỉ nhạt màu hơn
       - id: giavitc
         name: Muối · đường · tiêu
@@ -160,7 +160,7 @@ ingredientGroups:
         name: Nước mắm + đường
         icon: bottle
         qtyText: 3½ muỗng canh nước mắm · 3 muỗng canh đường
-        note: Pha với 180 ml nước ấm — chén mắm Huế **ngọt hơn miền Nam một chút**
+        note: Pha với 180 ml nước ấm — chén mắm **ngọt thanh kiểu Huế**
       - id: chanhtoiottc
         name: Chanh + tỏi ớt băm
         icon: chili
@@ -245,7 +245,7 @@ steps:
       - label: "Đảo liên tục:"
         text: >-
           đảo đều tay suốt **15–20 phút**. Tôm sẽ đi qua ba giai đoạn: ẩm và
-          bết → tơi dần ra → **bông xốp, nhẹ bẫng, màu cam ruộm**.
+          bết → tơi dần ra → **bông xốp, nhẹ bẫng, màu đỏ gạch**.
       - label: "Nhìn là biết đạt:"
         text: >-
           bốc một nhúm thả xuống, thấy nó **rơi tơi ra từng sợi chứ không rơi
@@ -317,7 +317,7 @@ steps:
         Cuốn nhỏ là cố ý, không phải làm điệu. Mâm bánh Huế vốn nhiều món, mỗi
         món chỉ vài miếng — cuốn to là ăn hai cuốn đã ngán, mất cái thú nếm
         quanh mâm.
-    doneText: Dĩa bánh ướt tôm chấy cam ruộm — xong!
+    doneText: Dĩa bánh ướt tôm chấy đỏ gạch — xong!
 
 tipsTitle: 6 bí quyết **tôm chấy bông tơi**
 tipsLead: >-
@@ -343,7 +343,7 @@ tips:
   - icon: bottle
     title: Dầu điều chỉ để lấy màu
     text: >-
-      Nó gần như không có vị, chỉ cho **màu cam ruộm** đặc trưng của mâm bánh
+      Nó gần như không có vị, chỉ cho **màu đỏ gạch** đặc trưng của mâm bánh
       Huế. Không có thì tôm vẫn ngon, chỉ hơi nhợt màu — đừng thay bằng phẩm màu
       hay ớt bột, ớt bột sẽ làm món cay lệch đi.
   - icon: drop
@@ -366,8 +366,8 @@ serve:
       veo — mỗi thứ vài miếng, ăn quanh cho vui miệng.
     - >-
       Chén mắm chấm để giữa, ai gắp cuốn nào thì chấm cuốn đó. Người Huế pha
-      mắm **ngọt hơn miền Nam một chút** và cay hơn — thả nguyên trái ớt xanh
-      dầm vào chén là đúng kiểu.
+      mắm **ngọt thanh** và cay — thả nguyên trái ớt xanh dầm vào chén là
+      đúng kiểu.
     - >-
       Hũ tôm chấy làm dư thì để dành: rắc lên **bánh bèo, bánh nậm**, trộn vào
       chén cơm nóng, hay rắc lên dĩa **bánh ướt chả lụa** kiểu miền Nam cũng
@@ -419,7 +419,7 @@ faq:
       ướt quá** khi cho vào chảo — vắt ráo kỹ hơn.
 
 ticker:
-  - text: Tôm chấy bông tơi cam ruộm
+  - text: Tôm chấy bông tơi đỏ gạch
   - text: Lửa nhỏ nhất, đảo mười lăm phút
   - text: Cuốn nhỏ cỡ ngón tay
   - text: Chén mắm Huế ngọt và cay

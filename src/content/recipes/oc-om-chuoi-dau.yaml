@@ -19,7 +19,7 @@ heroEyebrow: Nồi om thơm nức cả gian bếp…
 
 quick:
   ingredients:
-    - Ốc bươu (ốc nhồi) [[1|kg]] — ngâm nước vo gạo **4 tiếng** cho nhả sạch bùn
+    - Ốc bươu đen (ốc nhồi) [[1|kg]] — ngâm nước vo gạo **4 tiếng** cho nhả sạch bùn
     - Chuối xanh [[5|trái]] · đậu phụ [[3|bìa]] · thịt ba chỉ [[300|g]]
     - Cà chua [[3|trái]] · nghệ tươi [[1|củ]] · hành tím [[3|củ]] + tỏi [[4|tép]]
     - Tía tô + lá lốt [[1|nắm]] mỗi thứ · hành lá [[3|nhánh]]
@@ -72,7 +72,7 @@ ingredientGroups:
     icon: bowl
     items:
       - id: oc
-        name: Ốc bươu (ốc nhồi)
+        name: Ốc bươu đen (ốc nhồi)
         icon: bowl
         base: 1
         unit: kg
@@ -293,7 +293,7 @@ tips:
   - icon: bowl
     title: Ốc bươu, đừng ốc vặn
     text: >-
-      **Ốc bươu (ốc nhồi)** con to, ruột dày, khêu ra được miếng thịt đầy
+      **Ốc bươu đen (ốc nhồi)** con to, ruột dày, khêu ra được miếng thịt đầy
       đặn — đúng thứ món này cần. Ốc vặn con nhỏ xíu, khêu mỏi tay mà ăn
       chẳng đã; ốc len thì là ốc nước mặn miền Nam, vị khác hẳn.
   - icon: knife
@@ -371,9 +371,9 @@ faq:
       phải món nhấm nháp.
   - q: Ngâm ốc 4 tiếng có lâu quá không, rút ngắn được không?
     a: >-
-      Rút được nhưng đừng dưới **2 tiếng**. Mẹo tăng tốc: ngâm nước vo gạo
-      **thả thêm vài lát ớt hoặc con dao sắt** vào thau — ốc nhả bùn nhanh
-      hơn thấy rõ. Còn nếu mua được **ốc đã nhả sẵn** ở hàng quen thì chỉ
+      Rút được nhưng đừng dưới **2 tiếng**. Vẫn ngâm nước vo gạo; mẹo dân
+      gian là **thả thêm vài lát ớt hoặc con dao sắt** vào thau cho ốc nhả
+      bùn nhanh. Còn nếu mua được **ốc đã nhả sẵn** ở hàng quen thì chỉ
       cần xóc muối rửa lại là luộc được.
   - q: Dùng ốc đông lạnh làm sẵn được không?
     a: >-

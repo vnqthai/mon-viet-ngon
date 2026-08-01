@@ -1,8 +1,8 @@
 title: Bún riêu cua **nước chua thanh, riêu béo ngậy**
 summary: >-
-  Nước riêu đỏ hồng màu cà chua chua thanh **mùi giấm bỗng**, tảng riêu cua
-  vàng óng gạch, đậu phụ chiên phao, ăn kèm rổ rau có rau muống chẻ — tô
-  bún quà sáng khiến người Hà Nội đi đâu cũng ngoái lại.
+  Nước riêu đỏ hồng màu cà chua chua thanh **mùi giấm bỗng** (bỗng rượu
+  nếp), tảng riêu cua vàng óng gạch, đậu phụ chiên phồng, ăn kèm rổ rau có
+  rau muống chẻ — tô bún quà sáng khiến người Hà Nội đi đâu cũng ngoái lại.
 region: Miền Bắc
 category: Món nước
 occasions: [Bữa sáng]
@@ -62,10 +62,10 @@ story:
     đang sôi, nước riêu bỗng dậy mùi "rất chợ quê" — hai thứ đó mà thiếu,
     tô bún riêu chỉ còn là canh cua chan bún.
   - >-
-    Nhà đã nấu quen **canh cua rau đay** thì bún riêu là bước tiếp theo dễ
-    ợt: cũng lọc cua, cũng đợi riêu kết, chỉ thêm màn cà chua, đậu phụ và
-    nêm chua. Nấu một nồi cuối tuần, cả nhà ăn sáng như ngồi giữa chợ phiên
-    — mà nước riêu thì ngọt cua thật, không viên gia vị nào bì được.
+    Có đủ hai thứ đó rồi thì phần còn lại dễ ợt: lọc cua, đợi riêu kết,
+    thêm màn cà chua, đậu phụ là xong. Nấu một nồi cuối tuần, cả nhà ăn
+    sáng như ngồi giữa chợ phiên — mà nước riêu thì ngọt cua thật, không
+    viên gia vị nào bì được.
 
 ingredientGroups:
   - name: Cua & riêu
@@ -307,11 +307,10 @@ tips:
   - icon: basket
     title: Lọc cua kỹ, muối bỏ từ đầu
     text: >-
-      Chung bài với canh cua: **muối vào nước lọc** giúp riêu kết chắc,
-      lọc tới sạch sạn mới thôi. Cua xay mua sáng nấu trưa, đừng để qua
-      đêm — mất ngọt, dậy mùi.
+      **Muối vào nước lọc** giúp riêu kết chắc, lọc tới sạch sạn mới thôi.
+      Cua xay mua sáng nấu trưa, đừng để qua đêm — mất ngọt, dậy mùi.
   - icon: roll
-    title: Đậu phụ chiên phao mới hút nước
+    title: Đậu phụ chiên phồng mới hút nước
     text: >-
       Miếng đậu chiên **vàng vỏ, xốp ruột** thả vô nồi sẽ hút nước riêu
       căng mọng — cắn một miếng, nước ngọt túa ra. Đậu trắng thả thẳng thì
@@ -349,7 +348,7 @@ serve:
     - >-
       Nước riêu dư cất ngăn mát được **một ngày** (riêu + đậu để riêng);
       hôm sau đun sôi kỹ chan bún hoặc… chan cơm nguội cũng ngon bất ngờ —
-      dân Bắc gọi vui là "riêu tập hai".
+      gọi vui là "riêu tập hai".
   aside:
     title: Trên mâm bún riêu
     intro: "Đủ bộ này mới ra hàng bún riêu:"
@@ -389,10 +388,10 @@ faq:
       cờ thả cùng đậu phụ, **giò tai/chả** xắt miếng, thậm chí **ốc bươu**
       xào sơ kiểu bún riêu ốc. Nhưng lần đầu cứ nấu bản mộc cua – cà – đậu
       cho ra đúng vị nền đã, rồi hẵng "lên đồ".
-  - q: Nấu cho người không ăn được cua đồng (dị ứng)?
+  - q: Nấu cho người không ăn được cua đồng?
     a: >-
       Món này thì chịu — **riêu cua là linh hồn**, thay là thành món khác.
-      Nhà có người dị ứng cua thì nồi nước nên nấu riêng phần: một nồi
+      Nhà có người không ăn được cua thì nồi nước nên nấu riêng phần: một nồi
       riêu, một nồi nước cà chua đậu phụ chay (nêm y chang, bỏ cua + mắm
       tôm) — vẫn ngồi chung mâm vui vẻ.
   - q: Bún riêu để dành được không?
@@ -405,6 +404,6 @@ ticker:
   - text: Nước riêu đỏ hồng cà chua
   - text: Riêu cua nổi tảng vàng óng
   - text: Giấm bỗng chua thanh
-  - text: Đậu phụ chiên phao mọng nước
+  - text: Đậu phụ chiên phồng mọng nước
   - text: Rau muống chẻ cong giòn
   - text: Chanh ớt mắm tôm đủ bộ

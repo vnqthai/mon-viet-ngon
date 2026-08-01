@@ -52,10 +52,10 @@ storyEyebrow: Chuyện nồi giả cầy
 storyTitle: "Cái tên nói đúng: **giả theo một lối nấu cũ**"
 story:
   - >-
-    Giả cầy là món của bếp Bắc, và tên món nói thẳng ra cách làm: nấu **giả**
-    theo lối một món cỗ cũ ở làng quê — mượn nguyên bộ gia vị đặc trưng
-    **riềng · mẻ · mắm tôm**, nhưng nguyên liệu thì là chân giò heo. Bộ ba gia
-    vị ấy mạnh tới mức nó định hình cả món, và đó là lý do cái tên ở lại.
+    Giả cầy là món của bếp Bắc: nấu **giả** theo lối một món cỗ cũ ở làng
+    quê — mượn nguyên bộ gia vị đặc trưng **riềng · mẻ · mắm tôm**, nhưng
+    nguyên liệu thì là chân giò heo. Bộ ba gia vị ấy mạnh tới mức nó định
+    hình cả món, và đó là lý do cái tên ở lại.
   - >-
     Ba thứ đó mỗi thứ làm một việc. **Riềng** — củ trông giống gừng nhưng xơ
     hơn, thơm hắc và cay ấm — là mùi chủ đạo, giã nhuyễn ướp thẳng vào thịt.
@@ -179,8 +179,8 @@ steps:
           Chỗ nào còn lông thì khò kỹ hơn.
       - label: "Không có đèn khò:"
         text: >-
-          **Bọc chân giò trong giấy** rồi đốt, hoặc hơ thẳng trên bếp gas bằng
-          kẹp gắp. Trở đều tay cho vàng khắp.
+          **Bọc chân giò trong giấy sạch không mực in** rồi đốt, hoặc hơ thẳng
+          trên bếp gas bằng kẹp gắp. Trở đều tay cho vàng khắp.
       - text: >-
           Thui xong **cạo sạch phần cháy đen** bằng dao, rửa lại nước sạch, chà
           rượu trắng rồi rửa lần nữa.

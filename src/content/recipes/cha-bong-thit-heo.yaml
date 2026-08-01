@@ -15,7 +15,7 @@ difficulty: Vừa
 featured: false
 order: 122
 art: cha-bong
-heroEyebrow: Nửa ký thịt ra một hũ nhỏ xíu…
+heroEyebrow: 600 g thịt ra một hũ nhỏ xíu…
 
 quick:
   ingredients:
@@ -46,7 +46,7 @@ flavorNote: >-
   bốc một nắm gần như không thấy nặng tay. Màu vàng nâu nhạt đều, không có
   mảng sẫm. Bỏ vào miệng thì tan dần chứ không dai nhách cũng không cứng vụn.
 storyEyebrow: Chuyện hũ chà bông
-storyTitle: Nửa ký thịt, **một tiếng đứng chảo**, và một hũ để dành
+storyTitle: 600 g thịt, **một tiếng đứng chảo**, và một hũ để dành
 story:
   - >-
     Chà bông là thịt nạc đã được luộc mềm, xé thành sợi rồi rang khô trên chảo
@@ -235,7 +235,7 @@ steps:
           nơi thoáng. Sờ tay thấy mát hẳn mới được.
       - text: >-
           Cho vào **hũ thủy tinh khô ráo tuyệt đối**, đậy kín. Một hũ nhỏ là
-          vừa hết chỗ thịt ban đầu — nửa ký thịt ra chừng [[180|g]] chà bông.
+          vừa hết chỗ thịt ban đầu — 600 g thịt ra chừng [[200|g]] chà bông.
       - text: >-
           Cất nơi khô mát. Muốn để lâu hơn nữa thì bỏ ngăn mát tủ lạnh.
     doneText: Đậy nắp hũ — xong, và dùng được cả tháng!
@@ -331,9 +331,9 @@ faq:
       phút cho mềm rồi rang tiếp. Phát hiện lúc đã xong thì đành chịu.
   - q: Để được bao lâu?
     a: >-
-      Hũ kín để nơi khô mát: **3–4 tuần**. Cất ngăn mát: **2 tháng**. Cấp
-      đông: **6 tháng**, rã đông ở nhiệt độ phòng rồi hong lại trên chảo cho
-      thơm. Mỗi lần lấy thì dùng **muỗng khô**, đừng thò tay hay dùng muỗng
+      Hũ kín để nơi khô mát: **2–3 tuần**. Cất ngăn mát: **1–2 tháng**. Cấp
+      đông: **chừng 3 tháng**, rã đông ở nhiệt độ phòng rồi hong lại trên chảo
+      cho thơm. Mỗi lần lấy thì dùng **muỗng khô**, đừng thò tay hay dùng muỗng
       ướt.
   - q: Chà bông bị ỉu mềm sau vài ngày, cứu được không?
     a: >-
@@ -346,5 +346,5 @@ ticker:
   - text: Rang lửa nhỏ nhất, gần một tiếng
   - text: Giã nhẹ cho tướp, đừng nện nát
   - text: Nguội hẳn rồi mới vô hũ
-  - text: Nửa ký thịt ra một hũ nhỏ
+  - text: 600 g thịt ra một hũ nhỏ
   - text: Cháo, xôi, bánh mì — thứ nào cũng hợp

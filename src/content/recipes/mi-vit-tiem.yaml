@@ -26,8 +26,8 @@ quick:
       Ướp vịt: xì dầu [[2|thìa canh|frac]] · dầu hào [[1|thìa canh|frac]] ·
       ngũ vị hương [[1|thìa cà phê|frac]] · rượu Mai Quế Lộ [[1|thìa canh|frac]]
     - >-
-      Gói gia vị tiềm [[1|gói]] mua sẵn · táo tàu [[10|trái]] · kỷ tử [[10|g]] ·
-      trần bì [[5|g]] · thảo quả [[1|trái]] · hoa hồi [[2|cánh]]
+      Gói gia vị tiềm [[1|gói]] mua sẵn (đã gồm hồi, quế, thảo quả, trần bì) ·
+      mua thêm: táo tàu [[10|trái]] · kỷ tử một nhúm nhỏ
     - Nấm đông cô khô [[60|g]] · đường phèn [[20|g]] · gừng [[1|củ]] nướng
     - Cải thìa [[500|g]] · hành lá · ngò rí · dầu ăn để chiên vịt
   steps:
@@ -57,9 +57,10 @@ storyTitle: Tô mì của **người Hoa Chợ Lớn**
 story:
   - >-
     Mì vịt tiềm là món của cộng đồng **người Hoa ở Chợ Lớn**, gốc từ vùng
-    **Quảng Đông**, theo chân người di cư vào Sài Gòn từ trước năm 1975.
-    Kiểu nấu này rất Quảng Đông: hầm con vịt cùng một túi gia vị khô, lấy
-    mùi thảo mộc làm nền cho vị thịt thay vì lấn át nó.
+    **Quảng Đông**, theo chân những tiệm mì người Hoa vào Chợ Lớn từ đầu
+    thế kỷ trước. Kiểu nấu này rất Quảng Đông — "tiềm" là lối hầm chậm của
+    bếp Hoa: hầm con vịt cùng một túi gia vị khô, lấy mùi thảo mộc làm nền
+    cho vị thịt thay vì lấn át nó.
   - >-
     Cái hay của món nằm ở **hai kết cấu chỏi nhau mà lại hợp**. Đùi vịt
     được **chiên vàng giòn da trước**, rồi mới thả vào nồi hầm — nên khi
@@ -138,8 +139,7 @@ ingredientGroups:
         name: Kỷ tử
         icon: jar
         color: red
-        base: 10
-        unit: g
+        qtyText: 1 nhúm nhỏ
         note: Thả lúc gần xong, ninh lâu là nát và chua
       - id: goitiem
         name: Gói gia vị tiềm vịt (mua sẵn)
@@ -150,19 +150,6 @@ ingredientGroups:
         note: >-
           Hỏi mua **gói tiềm vịt** làm sẵn ở tiệm thuốc bắc, đừng tự cân lẻ. Tỷ lệ đã
           có người cân giúp, mà cũng khỏi phải đoán vị nào bao nhiêu
-      - id: tranbi
-        name: Trần bì (vỏ quýt khô)
-        icon: jar
-        color: amber
-        base: 5
-        unit: g
-        note: Rang thơm rồi thả cùng — cho hậu vị the nhẹ, cắt bớt béo của vịt
-      - id: haihoi
-        name: Hoa hồi + thảo quả
-        icon: flower
-        color: amber
-        qtyText: 2 cánh hồi · 1 trái thảo quả
-        note: Rang khô cho thơm rồi mới cho vô túi vải
       - id: namdongco
         name: Nấm đông cô khô
         icon: pod
@@ -300,16 +287,16 @@ steps:
     minutes: 20 phút
     bullets:
       - text: >-
-          Chảo khô, lửa nhỏ, rang **hoa hồi + thảo quả + trần bì** chừng
-          2 phút cho dậy mùi. Cho tất cả gia vị khô (trừ kỷ tử) vào **túi
-          vải** buộc miệng.
+          Chảo khô, lửa nhỏ, rang sơ **các vị khô trong gói** (hồi, quế,
+          thảo quả…) chừng 2 phút cho dậy mùi. Cho tất cả gia vị khô (trừ
+          kỷ tử) vào **túi vải** buộc miệng.
       - text: >-
           Nồi lớn: cho [[2.5|lít]] nước, gừng nướng xém, xương cổ và lưng
           vịt (nếu có), túi gia vị, **táo tàu** và **nấm đông cô** đã
           ngâm nở.
       - text: >-
-          Đun sôi, **hớt bọt**, hạ nhỏ lửa ninh **30 phút** cho nước ăn hết
-          vị thuốc rồi mới thả vịt.
+          Đun sôi, **hớt bọt**, hạ nhỏ lửa ninh **30 phút** cho nước ngấm
+          hết mùi túi gia vị rồi mới thả vịt.
     callout:
       type: tip
       text: >-

@@ -102,7 +102,7 @@ ingredientGroups:
         base: 150
         unit: g
         note: >-
-          Khía vẩy rồng rồi cắt miếng vừa ăn — khía xong miếng mực cuộn lại,
+          Khía vảy rồng rồi cắt miếng vừa ăn — khía xong miếng mực cuộn lại,
           ngấm sốt tốt hơn
       - id: ganheo
         name: Gan heo
@@ -243,7 +243,7 @@ steps:
       - label: "Chần nhanh:"
         text: >-
           Đun nồi nước sôi, thả tôm mực vào **đúng 20–30 giây** rồi vớt ra ngay.
-          Gan chần lâu hơn chút, chừng 1 phút.
+          Gan chần lâu hơn chút, 1,5–2 phút — tới khi lát gan hết hồng ở lõi.
       - text: >-
           Chần trước như vậy thì lát nữa chỉ cần trả vào chảo sốt một vòng —
           hải sản chín tới, còn sần sật, và **nước tiết ra không làm loãng

@@ -22,7 +22,7 @@ quick:
     - Nếp cẩm [[250|g]] — ngâm **6 giờ**, vớt bỏ hạt nổi
     - Lá dứa [[3|lá]] — buộc nút thả vào nồi ninh
     - Đường [[120|g]] — nêm sau khi hạt đã mềm
-    - Nước cốt dừa [[150|ml]] · muối [[1|muỗng cà phê|frac]]
+    - Nước cốt dừa [[150|ml]] · muối [[0.25|muỗng cà phê|frac]]
     - Sữa chua [[6|hộp]] — để lạnh
   steps:
     - Ngâm nếp cẩm **6 giờ**, vo lại, vớt bỏ hạt nổi lều bều.
@@ -48,13 +48,13 @@ flavorNote: >-
   chảy chậm; sữa chua lạnh gặp nếp cẩm mát tạo hai lớp rõ, xúc xuống mới trộn
   vào nhau.
 storyEyebrow: Chuyện món ăn
-storyTitle: Hai thứ **chẳng liên quan gì nhau**, ghép lại thành món quen nhất Hà Nội
+storyTitle: Hai thứ **chẳng liên quan gì nhau**, ghép lại thành món quen mặt ở vỉa hè Hà Nội
 story:
   - >-
-    Nếp cẩm là giống nếp hạt dài, vỏ ngoài màu tím than gần như đen, ninh lên
-    thì tiết ra thứ nước tím sẫm và sánh. Sữa chua thì mát, chua nhẹ, trắng ngà.
-    Hai thứ ấy chẳng có họ hàng gì, mà ghép vào một ly thì thành món tráng miệng
-    được gọi tên nhiều nhất ở các quán vỉa hè Hà Nội.
+    Nếp cẩm là giống nếp tím than sẫm, vỏ ngoài gần như đen, ninh lên thì tiết
+    ra thứ nước tím sẫm và sánh. Sữa chua thì mát, chua nhẹ, trắng ngà. Hai thứ
+    ấy chẳng có họ hàng gì, mà ghép vào một ly thì thành món tráng miệng được
+    gọi tên nhiều ở các quán vỉa hè Hà Nội.
   - >-
     Chỗ hợp nhau nằm ở **kết cấu chứ không phải ở vị**. Hạt nếp cẩm dẻo, có chỗ
     để nhai, và ấm vị nếp; sữa chua thì mịn, lạnh và chua. Xúc một thìa lấy được
@@ -81,9 +81,10 @@ ingredientGroups:
         base: 250
         unit: g
         note: >-
-          Còn gọi là **nếp than**. Chọn hạt dài, đều, màu tím than đậm và bóng;
-          hạt bạc màu hay lẫn nhiều sạn là gạo cũ, ninh mãi không mềm. Ngâm 6
-          giờ rồi vớt bỏ hạt nổi lều bều trên mặt — đó là hạt lép
+          Nhiều nơi bán dưới tên **nếp than** (có nơi phân biệt hai loại). Chọn
+          hạt mẩy đều, tím than đậm và bóng; hạt bạc màu hay lẫn nhiều sạn là
+          gạo cũ, ninh mãi không mềm. Ngâm 6 giờ rồi vớt bỏ hạt nổi lều bều
+          trên mặt — đó là hạt lép
       - id: laduascnc
         name: Lá dứa
         icon: herb
@@ -196,8 +197,8 @@ steps:
           hạt ngấm ngọt và nước sánh lại.
       - label: "Nước cốt dừa:"
         text: >-
-          Rưới [[150|ml]] nước cốt dừa và [[1|muỗng cà phê|frac]] muối, đun thêm
-          **3 phút** rồi tắt bếp ngay.
+          Rưới [[150|ml]] nước cốt dừa và [[0.25|muỗng cà phê|frac]] muối, đun
+          thêm **3 phút** rồi tắt bếp ngay.
       - label: "Kiểm độ sánh:"
         text: >-
           Kéo thìa lên, phần nước phải **chảy chậm thành dòng** chứ không loãng
@@ -289,7 +290,7 @@ faq:
       là biết.
   - q: Bản ủ men khác bản này chỗ nào?
     a: >-
-      Bản hàng quán dùng nếp cẩm **đồ thành xôi rồi ủ với men ngọt 3 ngày**, ra
+      Bản hàng quán dùng nếp cẩm **hấp thành xôi rồi ủ với men ngọt 3 ngày**, ra
       thứ nếp ngọt tự nhiên và dậy mùi men, ăn cay nhẹ ở hậu vị. Bản ninh đường
       trong bài này ngọt hơn một chút, không có mùi men, và làm xong trong một
       buổi chiều thay vì ba ngày. Đặt cạnh nhau thì khác, nhưng khi đã chan sữa

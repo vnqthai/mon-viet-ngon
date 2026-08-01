@@ -53,7 +53,7 @@ story:
   - >-
     Bún ốc nguội là quà chiều Hà Nội cũ, từng gần như biến mất rồi được dựng lại
     từ sách vở và trí nhớ người già. Có nhà văn xưa từng viết rằng món này đạt
-    tới chỗ tinh vi nhất trong cách ăn của người Hà Nội — nghe thì to tát, nhưng
+    tới chỗ tinh vi trong cách ăn của người Hà Nội — nghe thì to tát, nhưng
     ăn một lần là hiểu vì sao: cả món chỉ có ba thứ bày rời nhau, không thứ nào
     che cho thứ nào.
   - >-
@@ -244,8 +244,9 @@ steps:
           thơm** thì vớt hành ra để riêng.
       - label: "Chưng ớt:"
         text: >-
-          Hạ lửa thật nhỏ, cho [[3|muỗng canh|frac]] ớt bột vào khuấy đều, đun
-          liu riu chừng [[2|phút]] tới khi mỡ chuyển đỏ cam thì tắt bếp ngay.
+          Hạ lửa nhỏ nhất rồi mới cho [[3|muỗng canh|frac]] ớt bột vào khuấy
+          đều, mỡ vừa chuyển đỏ cam là nhấc xuống — ớt bột để lâu trên lửa là
+          cháy đắng.
       - text: >-
           Múc một hai thìa ớt chưng thả vào bát nước đã nguội — váng đỏ nổi lên
           mặt, đó là thứ đầu tiên người ta nhìn thấy của món này.

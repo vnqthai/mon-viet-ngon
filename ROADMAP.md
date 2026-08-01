@@ -66,8 +66,8 @@ _Cập nhật 2026-08-01 (sau đợt 16). Site đang **126 món / 7 vùng / 17 k
 | Vùng | Trước đợt 6 | Sau đợt 9 (58 món) | Sau đợt 11 (71) | Sau đợt 12 (82) | Sau đợt 13 (95) | Sau đợt 14 (104) | Sau đợt 15 (115) | **Nay (126 món)** |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Miền Nam | 14 (40%) | 15 (26%) | 17 (24%) | 21 (26%) | 25 (26%) | 27 (26%) | 29 (25%) | **33 (26%)** |
-| Miền Bắc | 6 | 9 | 13 (18%) | 14 (17%) | 15 (16%) | 20 (19%) | 26 (23%) | **27 (21%)** |
-| Cả nước | 6 | 11 | 16 (23%) | 18 (22%) | 23 (24%) | 23 (22%) | 24 (21%) | **25 (20%)** |
+| Miền Bắc | 6 | 9 | 13 (18%) | 14 (17%) | 15 (16%) | 20 (19%) | 26 (23%) | **28 (22%)** |
+| Cả nước | 6 | 11 | 16 (23%) | 18 (22%) | 23 (24%) | 23 (22%) | 24 (21%) | **24 (19%)** |
 | Miền Trung | 3 (9%) | 11 (19%) | 12 (17%) | 15 (18%) | 15 (16%) | 16 (15%) | 16 (14%) | **19 (15%)** |
 | Miền Tây | 4 | 7 | 8 (11%) | 8 (10%) | 10 (11%) | 10 (10%) | 11 (10%) | **13 (10%)** |
 | Tây Nguyên | 1 | 3 | 3 (4%) | 4 (5%) | 5 (5%) | 5 (5%) | 5 (4%) | **5 (4%)** |
@@ -232,6 +232,7 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
   > ⚠️ **Còn một câu chưa chốt: TÊN MÓN.** Tên phổ biến nhất là *"chả cá Lã Vọng"*, mà **"Lã Vọng" là tên một nhân vật** (ông câu bên sông trong tích Tàu) — đụng thẳng luật *không nêu tên danh nhân trong nội dung món ăn*. Đã hỏi Thái ở đợt 15 nhưng Thái hoãn cả món nên câu này chưa có câu trả lời. Ba lựa chọn đã cân: ① **"Chả cá Hà Nội"** — tên có thật, đang dùng song song, sạch luật, nhưng người gõ *"chả cá Lã Vọng"* trên Google khó ra trang hơn; ② giữ nguyên tên gốc và coi tên riêng của món là ngoại lệ của luật; ③ tả thẳng món (*"Chả cá nghệ mẻ, chảo thì là"*) — sạch nhất mà mất hẳn tên nhận diện. **Dải teaser đang tạm dùng ① cho khỏi phạm luật khi câu hỏi còn treo — hỏi lại Thái trước khi viết bài.**
   - **Loại hẳn: cơm âm phủ Huế** — Thái chốt không làm (2026-07-30). Đã gỡ khỏi cả kho ý tưởng lẫn dải "Sắp lên mâm" ở `ComingSoon.astro`; chỗ trống trên dải thay bằng **cá nục hấp cuốn bánh tráng**. **Đừng đề xuất lại.**
 - **Bún trộn** đứng ở 5 món; còn để dành **bún nem cua bể**.
+- **Hai nhóm chờ mở — Thái hỏi, chốt "giữ nguyên, chờ đủ quân" 2026-08-01:** chà bông đang đứng ở "Xào" (đúng ra là món **rang khô/để dành**) và lòng heo luộc ở "Hấp" (đúng ra là **luộc**) — cả hai lệch nhãn thật nhưng mỗi nhóm mới chỉ có 1 món nên luật ≥3 chặn. **Khi catalog có thêm quân** (rang/để dành: tép rang, muối vừng, ruốc cá…; luộc: thịt ba chỉ luộc, gà luộc lá chanh…) **đủ 3 thì mở nhóm và dời món về** — nhớ bài "mở một kiểu món đụng 8–9 chỗ" + món chuyển nhóm phải soi lại hình trên nền họ màu mới.
 - **Món Tây — HOÃN, chưa quyết, đừng tự làm.** Thái nêu **bò bít tết** và **mì Ý sốt cà chua** ở đợt 11 rồi chốt *"khoan tất cả các món Tây, để sau, giờ tập trung vô làm món Việt"* (2026-07-31). Hai món vẫn còn trên bàn, nhưng **phải giải xong bài toán xếp loại trước khi viết một dòng nào**:
 
   | | |
@@ -258,6 +259,7 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 5. Cập nhật danh sách tease trong `ComingSoon.astro` (bỏ món đã ship, thêm từ kho ý tưởng) + ticker ở `index.astro` nếu món đáng lên
 6. **`npm run qa`** trước đã — bắt bẫy YAML, `order` trùng, `id` nguyên liệu trùng, `id` art trùng chéo file (những thứ Zod không bắt được). Rồi `npm run build` để schema tự kiểm, rồi `npm run preview` mở xem từng trang mới
 3b. **TRƯỚC KHI VẼ DÒNG NÀO: render CẢ HỌ MÀU** — `npm run art-png -- --sheet --fam <họ>` cho mỗi họ mà đợt này đụng tới. Đây là thứ soi từng cặp không bao giờ thấy: đợt 14 render họ teal ra mới biết **31/31 hình dùng chung đúng một khuôn** ("vật đựng đặt giữa, nhìn chếch từ trên, ba sợi khói, đạo cụ dưới chân"), và họ vàng thì **18/18 là dĩa bầu dục dẹt**. Biết vậy rồi mới chọn được khung hình chưa ai dùng, thay vì vẽ xong mới phát hiện na ná
+6c. **QA nội dung trước khi ship** (chốt 2026-08-01): ① grep chéo từ khóa/thuật ngữ của bài mới trên toàn catalog — cùng khái niệm phải cùng chữ, từ chỉ xuất hiện trong đợt đang viết là nghi tự chế; ② đối chiếu QUICK ↔ ingredientGroups từng con số; ③ thời gian không nằm trong [[…]]; ④ soát bộ luật "Chính xác & trung thực" phần 4 (số bịa, trích dẫn, ngăn mát, giọng thuyết, chữ y khoa, khuôn công dụng)
 6b. **Soi hình bằng PNG ghép, không chỉ contact sheet** — `npm run art-png -- --sheet <món…>` (hoặc `--cat <kiểu món>` / `--fam <họ>`) xếp hình mới **cạnh hình dễ đụng** của nó, mỗi ô 260px đúng cỡ thumbnail trên `/mon/`. Hai luật:
     - thứ gì trong tô cũng phải khác thứ bên cạnh ở **cả sắc lẫn dáng** — đổi mỗi màu mà giữ nguyên dáng thì vẫn lẫn (đợt 8)
     - **đạo cụ cũng phải khác**, không riêng món chính: hai món cùng họ màu mà cùng có lát chanh + chén chấm giống nhau thì vẫn đọc ra na ná (đợt 9)
@@ -295,6 +297,20 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Cái gì đưa lên `title` phải là chỗ chắc nhất của món** — tiêu đề không có chỗ rào đón mà lại là câu đi xa nhất (thẻ món, hero, kết quả tìm kiếm, ảnh OG).
 - **Chú giải đi cùng lần xuất hiện ĐẦU TIÊN, không phải lần giải thích kỹ nhất.** Nhưng chú giải cũng phải biết dừng: cách chữa đúng thường là **đừng dùng từ khó ở `summary`**.
 - **Luật "thuật ngữ phải có thật" áp cho cả TỪ TẢ KẾT CẤU, không riêng danh từ.** Đợt 13 dính: viết *"sựt răng"* — nghe rất vô hại nên không ai thấy mình đang tự chế, mà tra ra thì cả 5 chỗ dùng đều nằm trong đợt mới, còn kho từ site đã có sẵn là **"giòn sựt" (33) · "sần sật" (20) · "giòn sần sật" (17) · "sựt sựt" (4)**. **Trước khi đặt một cụm tả kết cấu, grep xem site đã có từ nào cho đúng cảm giác đó chưa** — `grep -roh "…" src/content/recipes/*.yaml | sort | uniq -c`. Từ nào chỉ xuất hiện trong đợt đang viết thì gần như chắc chắn là tự chế. Dùng lại từ đã có vừa đúng vừa giữ giọng văn cả site nhất quán.
+
+**Chính xác & trung thực** *(chốt 2026-08-01 sau tổng kiểm định — Thái ủy quyền; lý lẽ và án lệ ở mục Nhật ký cùng ngày)*
+- **Số phải đo được.** Không bịa số thống kê/phần trăm ("80% cái đắng", "90% mùi tanh", "10 người thì 7"). Số chỉ dùng cho thứ cân-đong-đo-đếm được (gam, phút, độ); mức độ thì nói bằng chữ: "phần lớn", "hầu như".
+- **Trích là phải tra.** Ca dao/tục ngữ/câu nói phải tra đúng nguyên văn trước khi in (án lệ: "chén muối đĩa gừng" bị đảo vế). KHÔNG gán lời cho người hay cộng đồng khi không có nguồn ("người bản nói vui", "dân Bắc gọi vui", "nhà văn xưa viết… nhất").
+- **Đồ chín để qua đêm = mặc định "ngăn mát".** Mọi hướng dẫn để nguội/làm sẵn/mang đi phải kèm chỗ trữ lạnh; mốc để-ngoài ≤ 2 giờ (trời nóng ngắn hơn). Mốc chuẩn đang dùng: cơm nguội qua đêm → ngăn mát; ruốc/chà bông 2–3 tuần khô mát · 1–2 tháng ngăn mát · ~3 tháng cấp đông; bánh chưng/tét treo 2–3 ngày trời mát, nóng thì ngăn mát.
+- **Chuyện còn tranh cãi kể bằng giọng thuyết NGAY TỪ CÂU ĐẦU** ("người ta thường kể / có một thuyết…"), không khẳng-định-trước-rào-sau; và tuyệt đối không tự chế thuyết/từ nguyên. Nguồn gốc món gần như luôn thuộc diện này (phở, bò kho, chè bà ba, bún bò Nam Bộ…).
+- **Cảnh báo an toàn viết bằng lý do bếp núc, không chữ y khoa.** "Đừng nồi nhôm vì canh chát, xỉn màu, mau hỏng nồi" — không "không tốt cho sức khỏe", không "(dị ứng)", không tên vi khuẩn. Thông tin giữ, chữ đổi.
+- **Không khuôn câu "món X cho người/bé [tình trạng]"** — kể cả tình trạng không phải bệnh ("cho người mệt", "cho đứa nhỏ biếng ăn"): đó là khuôn công dụng. Viết bằng đặc tính món ("mềm, đứa nhỏ lười nhai cũng chịu ăn").
+- **Không nêu tên tiệm/quán/thương hiệu** — mở rộng của luật nhãn hàng (án lệ: tiệm bánh mì 1958 viết "một tiệm bánh ở Sài Gòn được cho là nơi đầu tiên").
+- **Nguyên liệu Sách đỏ/săn bắt nhạy cảm** (cà cuống…): nhắc như tư liệu văn hóa thì được, không viết như gợi ý săn mua; có nguồn nuôi thì nói rõ "nuôi".
+- **Rượu bia trong công thức:** món gắn "Cho bé" thì phương án không cồn phải là mặc định ("nước gừng (hoặc rượu trắng)"); không câu mô tả kéo dài cuộc uống ("uống được lâu", "bia vơi hồi nào không hay").
+- **Thời gian/nhiệt độ KHÔNG nằm trong markup [[…]]** — nó scale theo khẩu phần, mà "ninh 40 phút" nhân đôi lên là sai bản chất. Thời gian viết chữ thường/đậm.
+- **Quick phải khớp danh mục nguyên liệu từng con số** (muối ¼ ↔ 1 muỗng; toán tôm gỏi cuốn), và **cùng một khái niệm phải cùng một chữ trên mọi trang** (thát lát, vảy, nếp cẩm, kỹ thuật ớt chưng…) — trước khi ship, grep chéo từ khóa của bài mới trên toàn catalog (bước 6c quy trình).
+- **Ngoại lệ đã chốt:** "phố Nam Bộ" trong bún bò Nam Bộ được giữ (từ nguyên của tên món, phố mang tên vùng, thuyết có nguồn, kể bằng giọng thuyết); "thảo mộc"/"táo tàu" ở mặt tiền mì vịt tiềm được giữ (mùi hương/nguyên liệu thực phẩm, không phải vị thuốc); "chuẩn vị" giữ (cách nói thể loại, đồng bộ nhãn flavorNote). Ca "Lã Vọng" vẫn treo — hỏi Thái trước khi viết bài chả cá.
 
 **Màu và hình**
 - **Màu khung site không được trùng hệ với họ món đông nhất**, không thì màu đó chiếm cả hai tầng và thành màu chủ đạo cả site.
@@ -421,6 +437,25 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 # 5 · Nhật ký
 
 Chuyện đã qua, xếp theo thứ tự thời gian.
+
+## Tổng kiểm định nội dung toàn site — 2026-08-01
+
+**Chuyện gì:** rà cả 126 món + mọi trang (9 vòng đọc độc lập 100% từng dòng, ~120 lượt WebSearch kiểm chứng; mọi phát hiện nặng đối chiếu lại nguyên văn). Ra ~12 cụm BLOCKER · ~30 HIGH · ~45 MEDIUM · ~55 LOW; 18 món sạch tuyệt đối. **Thái ủy quyền sửa toàn bộ** — đã sửa xong trong ngày (8 vòng sửa theo nhóm + vòng chốt), các luật rút ra ghi ở phần 4 mục *"Chính xác & trung thực"*.
+
+**BLOCKER đã sửa:** Obama trong story bún chả (luật danh nhân) · "khói than/thơm khói" ở eyebrow+ticker bún chả và title+ticker+eyebrow cơm tấm (thân bài tả kỹ thuật than hoa thì GIỮ — đó là ranh giới của luật) · "đường Nguyễn Du" trong bún bò Huế → "quanh chợ Đông Ba" · mì vịt tiềm kê "kỷ tử 10 g · trần bì 5 g" → gộp về gói tiềm + "một nhúm", chữ "vị thuốc" trong steps → "mùi túi gia vị" · 5 câu dinh dưỡng/đông y ("hạ hỏa", "'hạ nhiệt' cả người", "bù phần đạm", "đủ tinh bột đạm", "đủ đạm") · ticker trang chủ hết từ nghề trơ ("giấm bỗng", "tôm chấy cam ruộm") · **bug RSS**: `plain(title)` giữ nguyên câu quảng → `dishName(title)`; JSON-LD `name`/`keywords[0]` cũng chuyển sang tên món trần.
+
+**Các quyết định ranh giới (Thái ủy quyền, ghi lại để khỏi cãi lại):**
+- **"Phố Nam Bộ" (bún bò Nam Bộ): GIỮ như ngoại lệ có chủ đích** của luật tên phố — tên phố chính là từ nguyên của tên món, phố mang tên *vùng* chứ không phải danh nhân, thuyết có thật (Tuổi Trẻ/Znews: quán vỉa hè KS Đồng Lợi, phố Nam Bộ — nay là Lê Duẩn, thập niên 1980). Đổi sang **giọng thuyết ngay từ câu đầu** ("có một thuyết được nhắc nhiều…"), hết kiểu khẳng-định-trước-rào-sau. Ca "Lã Vọng" KHÁC ca này (tên nhân vật) — câu đó vẫn treo chờ Thái.
+- **"Lành xương" bị bỏ** (cá thu, bún sứa) dù là chữ đợt 16 mới đưa vào khi sửa luật 5: không tra ra nguồn nào dùng → luật 4 thắng. Thay bằng "xương to dễ gỡ" / "ít xương" — vừa có thật vừa tả-bằng-cái-có.
+- **Cảnh báo an toàn viết bằng lý do bếp núc, không chữ y khoa**: "không tốt cho sức khỏe" (canh gà lá giang — cảnh báo nồi nhôm CÓ CĂN CỨ, giữ khuyến cáo, đổi lý do thành "chát, xỉn màu, mau hỏng nồi") · "(dị ứng)" trong FAQ bún riêu → "người không ăn được cua".
+- **"Thảo mộc" + "táo tàu" ở title/summary mì vịt tiềm: GIỮ** — là mùi hương/nguyên liệu thực phẩm, không phải tên vị thuốc hay công dụng; "chuẩn vị" (trang chủ + /mon/): GIỮ — cách nói thể loại, đồng bộ với nhãn flavorNote sẵn có; "Từng bước đã nấu thử" → "Từng bước viết cặn kẽ" (claim không kiểm chứng được từ repo).
+- **FAQ cơm rượu**: bỏ "trẻ nhỏ ăn một hai viên thì bình thường" → nói rõ có cồn nhẹ, "tuỳ nhà cân nhắc, nếu cho nếm thì chút ít từ hũ mới ủ". Cánh gà chiên nước mắm (gắn "Cho bé"): đảo mặc định "nước gừng (hoặc rượu trắng)".
+- **Biên tập nhãn/vùng**: miến xào cua `Cả nước → Miền Bắc` (cả bài neo cỗ Bắc + cua bể → Bắc 28, Cả nước 24); cơm gà Hội An `Bữa sáng → Cơm nhà` (nguồn đều tả món trưa/chiều); cơm rượu bỏ `Cỗ Tết` (món Đoan Ngọ, giữ `Ăn chơi`). **Chưa đụng**: chà bông đứng ở kiểu món "Xào", lòng heo luộc ở "Hấp" — lệch nhãn thật nhưng đổi category là việc cấu trúc (đụng họ màu/thống kê), để Thái quyết riêng.
+- **Cà cuống (bánh cuốn)**: giữ như nét tư liệu hoài cổ, thêm đúng một chữ "(nay chủ yếu là cà cuống nuôi hoặc tinh dầu pha sẵn)" — cà cuống nằm trong Sách đỏ, không viết như gợi ý săn mua.
+
+**Sai-sự-thật đáng nhớ đã chữa (để đợt sau đừng lặp):** bò nướng lá lốt **tráo thuộc tính hai mặt lá ở 6 chỗ** (mặt trên lá lốt = sẫm VÀ bóng, quay ra ngoài; mặt dưới nhạt + gân nổi mới là mặt đặt nhân — tra rồi mới tả, đừng suy "sẫm = trong") · FAQ cá lóc nướng trui xếp **cá trê** vào nhóm "có vảy" (cá trê da trơn!) · bún mọc tả sai **chả quế** (giò sống TRỘN quế rồi nướng, không phải giò lụa quét quế) · "thì là = dấu nhận biết chả cá miền Trung" (ngược — đó là chữ ký Bắc) · ca dao gà kho gừng **đảo vế** ("chén muối đĩa gừng" mới đúng) · gỏi cuốn **lệch toán tôm** (12–16 con nhưng cần 30 → 2 nửa tôm/cuốn, cỡ 18–20 con) · "nếp cẩm hạt dài" (tranh cãi cẩm/than, nguy cơ hướng dẫn mua sai) · lệ cỗ Bắc "bốn bát bốn đĩa" không có đĩa miến xào (miến nằm ở bộ BÁT, dạng nấu).
+
+**Từ tự chế bắt được đợt này** (thêm vào án lệ "sựt răng"): "nếp bà bóng" · "đặc đà" (×2 file) · "bột bạt" · "chiên phao" (×3 chỗ, lọt cả ticker) · "mịn tưng" · "cam ruộm" (×15 chỗ, lọt cả title + ticker trang chủ) · "lành xương" (×3). Bài học: từ tự chế lan NHANH giữa các file cùng đợt — bắt ở bài đầu rẻ hơn nhiều.
 
 ## Đã hoàn thành
 

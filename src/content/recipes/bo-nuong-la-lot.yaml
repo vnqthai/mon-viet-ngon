@@ -27,7 +27,7 @@ quick:
     - Rửa lá lốt, để **thật ráo**, cắt bỏ cuống dài. Chọn riêng lá to để cuốn, lá nhỏ thái sợi trộn vào nhân.
     - Trộn thịt bò với sả tỏi hành băm, mỡ heo thái hạt lựu, lá lốt thái sợi và gia vị.
     - Ướp **30 phút** trong ngăn mát cho thịt săn lại và thấm.
-    - "Cuốn: đặt thìa nhân lên **mặt sẫm của lá** (mặt gân nổi), gấp hai bên rồi cuộn tròn."
+    - "Cuốn: đặt thìa nhân lên **mặt nhạt của lá** (mặt gân nổi), gấp hai bên rồi cuộn tròn — mặt xanh sẫm bóng quay ra ngoài."
     - Ghim mép bằng cuống lá hoặc tăm; xiên 4–5 cuốn vào một xiên cho dễ trở.
     - Nướng than hồng **6–9 phút**, trở đều tay, quét chút dầu ở phút cuối.
     - Dọn nóng cùng bún, bánh tráng, rau sống và chén mắm nêm.
@@ -56,9 +56,9 @@ story:
     riêng, hơi nồng, và mùi đó chỉ bật ra khi lá gặp lửa và quăn lại. Cùng
     khối thịt đó mà vo viên nướng trần thì ra một món khác hẳn.
   - >-
-    Vì vậy nên cách cuốn có luật của nó: nhân đặt lên **mặt sẫm màu của lá**,
-    là mặt có gân nổi rõ. Cuốn xong thì mặt láng bóng nằm ra ngoài, gặp than
-    sẽ sém đẹp và không rách. Cuốn ngược mặt thì lá dễ bung và nhìn xỉn.
+    Vì vậy nên cách cuốn có luật của nó: nhân đặt lên **mặt nhạt có gân nổi
+    của lá**; mặt xanh sẫm bóng nằm ra ngoài, gặp than sẽ sém đẹp và không
+    rách. Cuốn ngược mặt thì lá dễ bung và nhìn xỉn.
   - >-
     Món này gần như luôn xuất hiện trên bàn nhậu và mâm cỗ ở miền Nam, dọn kèm
     bánh tráng, bún, rau sống và chén mắm nêm. Ăn kiểu cuốn: trải bánh tráng,
@@ -207,14 +207,14 @@ steps:
       text: >-
         Muốn biết đã vừa miệng chưa: **véo một viên nhỏ áp chảo** cho chín rồi
         nếm. Nêm lại lúc này còn kịp, chứ cuốn xong rồi thì chịu.
-  - title: Cuốn lá — nhân nằm trên mặt sẫm
+  - title: Cuốn lá — nhân nằm trên mặt nhạt, gân nổi
     icon: roll
     minutes: 20 phút
     intro: "Nhìn cho ra hai mặt lá trước khi cuốn:"
     bullets:
       - text: >-
-          Đặt lá xuống thớt với **mặt sẫm màu, có gân nổi rõ, quay lên trên**.
-          Mặt kia bóng và nhạt hơn, sẽ nằm ra ngoài cuốn.
+          Đặt lá xuống thớt với **mặt nhạt màu, có gân nổi rõ, quay lên trên
+          để đặt nhân**. Mặt xanh sẫm bóng sẽ nằm ra ngoài cuốn.
       - text: >-
           Múc chừng **một thìa cà phê đầy nhân**, đặt gần phía cuống, dàn thành
           một thanh ngang.
@@ -275,11 +275,11 @@ tipsLead: >-
   cuốn nhạt thếch. Sáu điều dưới đây chặn hết.
 tips:
   - icon: herb
-    title: Nhân đặt trên mặt sẫm, mặt bóng ra ngoài
+    title: Nhân đặt trên mặt nhạt, mặt sẫm bóng ra ngoài
     text: >-
-      Mặt sẫm có gân nổi nên bám nhân tốt và không trượt; mặt bóng chịu nhiệt
-      tốt hơn nên nằm ngoài thì sém đẹp mà không rách. Cuốn ngược mặt là vừa
-      xấu vừa dễ bung.
+      Mặt nhạt có gân nổi nên bám nhân tốt và không trượt; mặt xanh sẫm bóng
+      chịu nhiệt tốt hơn nên nằm ngoài thì sém đẹp mà không rách. Cuốn ngược
+      mặt là vừa xấu vừa dễ bung.
   - icon: meat
     title: Không có mỡ heo thì cuốn sẽ khô
     text: >-
@@ -372,7 +372,7 @@ faq:
       quen thuộc nhất.
 
 ticker:
-  - text: Nhân đặt trên mặt sẫm của lá
+  - text: Nhân đặt trên mặt nhạt, gân nổi
   - text: Đợi than phủ tro trắng rồi mới nướng
   - text: Trộn mỡ heo cho nhân khỏi khô
   - text: Ghim mép bằng chính cuống lá

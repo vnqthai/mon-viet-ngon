@@ -146,8 +146,9 @@ ingredientGroups:
         unit: muỗng canh
         frac: true
         note: >-
-          Loại tương hột xay nhuyễn bán hũ ở chợ. Đây là gốc vị của chén tương,
-          thay bằng tương ớt hay tương cà là ra món khác
+          Loại tương hột xay nhuyễn bán hũ ở chợ. Đây là một trong hai chân
+          vị của chén tương — bản xưa Ninh Hòa còn nấu nếp với gan heo, tôm
+          thịt; thay bằng tương ớt hay tương cà là ra món khác
       - id: gaonepr
         name: Gạo nếp rang xay
         icon: rice

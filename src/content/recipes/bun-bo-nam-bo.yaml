@@ -3,7 +3,7 @@ summary: >-
   Tô bún trộn khô: bún trắng lót dưới, rau sống và đồ chua giòn
   xếp quanh, trên cùng là **thịt bò xào tỏi sả còn bốc khói**, rắc lạc rang
   với hành phi rồi chan nước mắm chua ngọt. Trộn đều lên — **nóng gặp mát**
-  ngay trong một đũa. Món của Hà Nội, bốn mươi phút là xong.
+  ngay trong một đũa. Món quen của vỉa hè Hà Nội, bốn mươi phút là xong.
 region: Miền Bắc
 category: Bún trộn
 occasions: [Bữa sáng, Ăn chơi]
@@ -55,10 +55,11 @@ storyEyebrow: Chuyện tô bún bò Nam Bộ
 storyTitle: Món Hà Nội mang **cái tên gây hiểu nhầm**
 story:
   - >-
-    Nghe tên thì ai cũng tưởng đây là món miền Nam ra Bắc. Thật ra ngược
-    lại: **bún bò Nam Bộ là món của Hà Nội**. Chữ "Nam Bộ" trong tên món
-    là **tên một con phố ở Hà Nội** — nơi hàng bún đầu tiên dọn ra vỉa hè
-    hồi những năm 1980 — chứ không phải chỉ vùng miền nào cả.
+    Nghe tên thì ai cũng tưởng đây là món miền Nam ra Bắc. Người Hà Nội
+    lại kể khác: món này lớn lên ở vỉa hè Hà Nội, và **có một thuyết được
+    nhắc nhiều** — chữ "Nam Bộ" là **tên một con phố cũ ở đây**, nơi hàng
+    bún đầu tiên dọn ra hồi những năm 1980, chứ không phải chỉ vùng miền
+    nào cả.
   - >-
     Giai thoại kể rằng ban đầu người ta gọi món đó đơn giản là **bún bò
     trộn**. Khách ăn quen, hẹn nhau đi ăn "bún bò ở phố Nam Bộ", rồi nói
@@ -274,7 +275,7 @@ steps:
           mỏng — nhớ **đặt dao vuông góc với vân thịt**.
       - text: >-
           Ướp với nước mắm, [[1|thìa canh|frac]] xì dầu, **sả băm và tỏi
-          băm**, chút hạt nêm và tiêu; trộn đều rồi rưới
+          băm**, chút tiêu; trộn đều rồi rưới
           [[1|thìa canh|frac]] dầu ăn, để **15 phút**.
       - text: >-
           Trong lúc chờ: hành tây thái múi cau, giá đỗ chần sơ nước sôi rồi
@@ -405,10 +406,6 @@ serve:
       trưa hoặc bữa sáng muốn đổi vị. Nhà đông người thì cứ soạn sẵn từng
       tô bún rau, để chảo bò xào trên bếp, ai ăn tới đâu múc tới đó — cách
       này giữ được đúng nhịp nóng của món.
-    - >-
-      Cùng nhóm bún trộn, **bún thịt nướng** cũng chan nước mắm chua ngọt
-      nhưng lấy thịt nướng xém cạnh và mỡ hành làm chính; còn **bún đậu mắm
-      tôm** thì đi hẳn hướng khác — chấm chứ không chan. Ba tô, ba tính nết.
   aside:
     title: Trên bàn bún bò Nam Bộ
     intro: "Mấy thứ nên để sẵn:"
@@ -425,9 +422,9 @@ serve:
 faq:
   - q: Bún bò Nam Bộ có phải món miền Nam không?
     a: >-
-      Không — đây là **món của Hà Nội**. Chữ "Nam Bộ" trong tên là **tên
-      một con phố ở Hà Nội**, nơi hàng bún đầu tiên dọn ra vỉa hè hồi
-      những năm 1980, chứ không chỉ vùng miền. Khách quen gọi tắt "bún bò
+      Món này nổi tiếng từ vỉa hè Hà Nội, và có một thuyết được nhắc
+      nhiều: chữ "Nam Bộ" là **tên một con phố cũ ở Hà Nội**, nơi hàng
+      bún đầu tiên dọn ra hồi những năm 1980. Khách quen gọi tắt "bún bò
       ở phố Nam Bộ" thành "bún bò Nam Bộ" rồi thành tên món luôn. Nguồn
       gốc chính xác vẫn còn tranh cãi nên chuyện này nên nghe như giai
       thoại.

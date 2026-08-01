@@ -61,7 +61,7 @@ flavor:
 flavorNote: >-
   **Chuẩn vị:** miếng chả cắn vào **dai sật rồi bật lại**, ngọt thịt cá chứ
   không nhạt thếch; sốt hành sánh vừa đủ bám vào chả, không loãng chảy ướt
-  bánh. Nghe được mùi thì là và rau răm mới đúng ổ bánh phố biển.
+  bánh. Nghe được mùi rau răm và tiêu hành mới đúng ổ bánh phố biển.
 
 storyEyebrow: Chuyện ổ bánh
 storyTitle: Ổ bánh mì **của xứ biển**, nhân làm từ mẻ cá sáng nay
@@ -120,7 +120,9 @@ ingredientGroups:
         color: green
         base: 1
         unit: nhánh
-        note: Băm nhỏ trộn cuối — mùi thì là là dấu nhận biết của chả cá miền Trung
+        note: >-
+          Băm nhỏ trộn cuối, cho vào tùy thích — chả cá ngoài Bắc chuộng
+          thì là, bản Nha Trang thiên về hành, tiêu
       - id: dalanh
         name: Đá lạnh
         icon: drop

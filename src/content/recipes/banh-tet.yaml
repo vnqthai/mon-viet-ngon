@@ -20,7 +20,7 @@ heroEyebrow: Bếp củi sau nhà, hai tám Tết…
 quick:
   ingredients:
     - Nếp [[1|kg]] — ngâm **8 giờ**, xóc muối, xào sơ với nước cốt dừa
-    - Đậu xanh cà vỏ [[400|g]] — ngâm **4 giờ**, đồ chín, nắm thành cột dài
+    - Đậu xanh cà vỏ [[400|g]] — ngâm **4 giờ**, đồ (hấp) chín, nắm thành cột dài
     - Thịt ba chỉ [[500|g]] — thái thanh dài, ướp muối tiêu hành **1 giờ**
     - Lá chuối [[10|tàu]] · dây lạt hoặc dây nylon [[15|sợi]]
     - Nước cốt dừa [[200|ml]] · muối [[2|muỗng canh]] · tiêu [[1|muỗng canh]]
@@ -28,7 +28,7 @@ quick:
     - >-
       Ngâm nếp 8 giờ, đậu 4 giờ. Xào nếp với nước cốt dừa và muối cho ráo, để
       nguội.
-    - Đồ đậu chín, tán mịn, nắm thành **cột dài** bọc quanh thanh thịt đã ướp.
+    - Hấp đậu chín, tán mịn, nắm thành **cột dài** bọc quanh thanh thịt đã ướp.
     - >-
       Trải lá chuối, rải nếp thành hình chữ nhật, đặt cột nhân dọc giữa, **cuộn
       tròn** lại.
@@ -87,8 +87,8 @@ ingredientGroups:
         unit: kg
         note: >-
           Nếp hạt to đều, trắng đục. Ngâm **8 giờ**, vo lại, để ráo rồi xóc
-          [[1|muỗng canh]] muối. Miền Nam thường dùng nếp sáp hoặc nếp bà bóng —
-          nếp cái hoa vàng cũng được, chỉ hơi tròn hạt hơn
+          [[1|muỗng canh]] muối. Miền Nam thường dùng nếp sáp — nếp cái hoa
+          vàng cũng được, chỉ hơi tròn hạt hơn
       - id: cotduabtet
         name: Nước cốt dừa
         icon: drop
@@ -113,7 +113,7 @@ ingredientGroups:
         base: 400
         unit: g
         note: >-
-          Ngâm **4 giờ**, đồ chín rồi tán mịn khi còn nóng, nêm chút muối tiêu.
+          Ngâm **4 giờ**, hấp chín rồi tán mịn khi còn nóng, nêm chút muối tiêu.
           Nắm thành **cột dài** bằng chiều dài đòn bánh chứ đừng nắm tròn —
           cột dài thì cuộn nhanh và nhân không bị đứt đoạn
       - id: bachibtet
@@ -167,7 +167,7 @@ ingredientGroups:
         note: Buộc túm hai đầu đòn trước khi buộc thân, cho nhân khỏi tòi ra
 
 steps:
-  - title: Ngâm, đồ đậu, ướp thịt
+  - title: Ngâm, hấp đậu, ướp thịt
     icon: clock
     minutes: 8 giờ
     intro: "Làm tối hôm trước:"
@@ -177,7 +177,7 @@ steps:
           Vo sạch, ngâm ngập nước lạnh **8 giờ**. Vo lại, để ráo **30 phút**.
       - label: "Đậu xanh:"
         text: >-
-          Ngâm **4 giờ**, đồ chín tới, tán mịn khi còn nóng, nêm chút muối và
+          Ngâm **4 giờ**, hấp chín tới, tán mịn khi còn nóng, nêm chút muối và
           tiêu.
       - label: "Thịt:"
         text: >-
@@ -355,12 +355,12 @@ faq:
       của luộc chậm.
   - q: Đòn bánh treo được bao lâu?
     a: >-
-      Treo nơi thoáng gió thì bản mặn được **4–5 ngày**, bản chuối được lâu hơn
-      chừng gấp rưỡi vì không có thịt. Trời nóng thì cất ngăn mát, được
-      **10 ngày**. Phần đã cắt phải bọc kín mặt cắt lại, không thì nếp khô cứng
-      và nứt. Thấy nhớt hoặc chua thì bỏ cả đòn.
+      Treo nơi thoáng gió, trời mát thì bản mặn được **2–3 ngày**; miền Nam
+      nóng thì cứ cất ngăn mát, ăn tới đâu hấp lại tới đó là dẻo. Phần đã cắt
+      phải bọc kín mặt cắt lại, không thì nếp khô cứng và nứt. Thấy nhớt hoặc
+      chua thì bỏ cả đòn.
 
 ticker:
   - text: Nếp xào nước cốt dừa cho hạt săn
   - text: Dằn đòn cho nếp dồn đều rồi mới buộc
-  - text: Treo cho ráo thay vì ép như bánh vuông
+  - text: Treo cho ráo, khỏi cần ép

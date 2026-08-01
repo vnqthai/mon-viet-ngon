@@ -1,6 +1,6 @@
 title: Canh khổ qua nhồi thịt **đắng thanh, hậu ngọt lành**
 summary: >-
-  Trái khổ qua xanh mướt ôm nhân thịt **dai mềm nhờ chả cá thác lác**, nước
+  Trái khổ qua xanh mướt ôm nhân thịt **dai mềm nhờ chả cá thát lát**, nước
   canh trong veo ngọt thanh — món canh mát miệng ngày thường, và là lời chúc
   **"cái khổ qua đi"** trên mâm Tết miền Nam.
 region: Miền Nam
@@ -19,7 +19,7 @@ heroEyebrow: Ăn khổ qua, cái khổ qua đi…
 quick:
   ingredients:
     - Khổ qua [[4|trái]] — chọn trái gai nở to, xanh nhạt cho bớt đắng
-    - "Nhân: thịt heo xay [[300|g]] · chả cá thác lác [[100|g]] · nấm mèo [[3|tai]] · hành tím [[2|củ]] · đầu hành trắng"
+    - "Nhân: thịt heo xay [[300|g]] · chả cá thát lát [[100|g]] · nấm mèo [[3|tai]] · hành tím [[2|củ]] · đầu hành trắng"
     - "Nêm nhân: hạt nêm [[1|muỗng cà phê]] · tiêu [[0.5|muỗng cà phê|frac]] · nước mắm [[1|muỗng cà phê]]"
     - Nước dùng [[1.5|lít]] (nước hầm xương càng ngọt, nước lọc cũng được)
     - Hành lá + ngò rí · nước mắm nêm canh
@@ -57,7 +57,7 @@ story:
     Mà đâu chỉ Tết — ngày thường trời nóng, tô canh khổ qua là **"máy điều
     hòa" của mâm cơm**: đắng thanh, mát ruột, đưa cơm lạ lùng. Bí quyết nằm
     ở đôi điều nhỏ: moi sạch cùi trắng cho bớt đắng gắt, và trộn nhân với
-    **chả cá thác lác** — miếng nhân vừa dai vừa ngọt, cắn vô biết liền
+    **chả cá thát lát** — miếng nhân vừa dai vừa ngọt, cắn vô biết liền
     "nhà này nấu có nghề".
   - >-
     Vị đắng của khổ qua là kiểu vị **phải lớn mới hiểu**: hồi nhỏ nhăn mặt,
@@ -83,7 +83,7 @@ ingredientGroups:
         unit: g
         note: Nạc dăm vừa mỡ — nhân mềm không khô
       - id: chaca
-        name: Chả cá thác lác
+        name: Chả cá thát lát
         icon: fish
         base: 100
         unit: g
@@ -157,7 +157,7 @@ steps:
     minutes: 10 phút
     bullets:
       - text: >-
-          Trộn [[300|g]] thịt xay + [[100|g]] chả cá thác lác + nấm mèo băm
+          Trộn [[300|g]] thịt xay + [[100|g]] chả cá thát lát + nấm mèo băm
           + hành tím băm + phần **đầu hành trắng xắt nhuyễn**.
       - text: >-
           Nêm [[1|muỗng cà phê]] hạt nêm + [[1|muỗng cà phê]] nước mắm +
@@ -168,7 +168,7 @@ steps:
     callout:
       type: tip
       text: >-
-        Chả cá thác lác là "chất keo tự nhiên": nhân **dai, ngọt và bám chắc
+        Chả cá thát lát là "chất keo tự nhiên": nhân **dai, ngọt và bám chắc
         vô trái** khi nấu. Chợ nào cũng có hàng bán sẵn, mua thêm 100 g về
         trữ đông dùng dần rất tiện.
   - title: Nhồi nhân — chặt tay, trét phẳng
@@ -237,11 +237,11 @@ tips:
   - icon: knife
     title: Cùi trắng là ổ đắng
     text: >-
-      80% cái đắng gắt nằm ở **lớp cùi trắng quanh ruột**. Moi bằng muỗng
+      Phần đắng gắt nhất nằm ở **lớp cùi trắng quanh ruột**. Moi bằng muỗng
       nhỏ tới khi thấy lòng trái xanh sạch trơn láng — giữ lại vị đắng
       thanh của phần vỏ thịt, bỏ đi phần đắng chát.
   - icon: fish
-    title: Chả cá thác lác — nâng cấp nhân
+    title: Chả cá thát lát — nâng cấp nhân
     text: >-
       Tỉ lệ vàng **3 thịt : 1 chả cá**: nhân dai mềm, ngọt tự nhiên, không
       bở vụn khi cắt khoanh. Đây là điểm khác biệt lớn nhất giữa canh khổ
@@ -263,7 +263,8 @@ tips:
     text: >-
       Món hiếm hoi **để qua bữa ngon hơn**: nhân thấm vị nước, nước ngọt vị
       nhân. Nấu nồi lớn từ chiều, tối hâm nóng ăn — hoặc như má mình hay
-      làm dịp Tết: nấu 29 ăn tới mùng 2, càng ngày càng ngon.
+      làm dịp Tết: nấu 29 ăn tới mùng 2 — cất ngăn mát, mỗi bữa múc ra
+      hâm sôi — càng ngày càng ngon.
 
 serve:
   title: Bữa cơm có tô khổ qua — **mát từ trong bụng**
@@ -303,7 +304,7 @@ faq:
       **hờ tay**, hoặc nước **sôi bùng**. Mẹo chắc ăn cho người mới: nhồi
       xong lấy **cọng hành lá trụng mềm cột quanh thân trái** — vừa giữ nhân
       vừa nhìn xinh như nhà hàng.
-  - q: Không tìm được chả cá thác lác?
+  - q: Không tìm được chả cá thát lát?
     a: >-
       Tăng thịt xay lên [[400|g]] và thêm **1 lòng trắng trứng + 1 muỗng cà
       phê bột năng** — nhân vẫn kết dính khá ổn. Hoặc thay bằng **giò sống**
@@ -327,7 +328,7 @@ faq:
 ticker:
   - text: Đắng thanh hậu ngọt
   - text: Nước canh trong veo
-  - text: Nhân dai chả cá thác lác
+  - text: Nhân dai chả cá thát lát
   - text: Hành ngò thơm mặt tô
   - text: Mát miệng ngày nắng
   - text: Mâm Tết miền Nam đúng lệ

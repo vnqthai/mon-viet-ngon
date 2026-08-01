@@ -50,13 +50,12 @@ storyTitle: Món xào **được lòng con nít nhất** mâm cơm
 
 story:
   - >-
-    Trong họ nhà sườn, đây là món **dễ dụ con nít** nhất. Sườn ram thì đậm
-    đà kiểu người lớn, sườn nướng thì phải chờ than — còn sườn xào chua ngọt
-    có cái màu đỏ cam bóng lưỡng, có miếng thơm ngọt lịm, có ớt chuông đỏ
-    xanh vui mắt. Dọn lên bàn là đám nhỏ chỉ trỏ trước cả khi nếm.
+    Dĩa sườn áo sốt đỏ cam bóng lưỡng, xen miếng thơm ngọt lịm và ớt chuông
+    đỏ xanh vui mắt — trong họ nhà sườn, đây là món **dễ dụ con nít** vô
+    cùng. Dọn lên bàn là đám nhỏ chỉ trỏ trước cả khi nếm.
   - >-
-    Món này khác sườn ram ở chỗ căn bản: **sườn được chiên sơ trước**, nên
-    rìa khúc giòn nhẹ và lớp sốt bám ngoài chứ không thấm sâu vô thớ thịt.
+    Chỗ căn bản của món là **sườn được chiên sơ trước**, nên rìa khúc giòn
+    nhẹ và lớp sốt bám ngoài chứ không thấm sâu vô thớ thịt.
     Nhờ vậy cắn miếng sườn nghe **ba tầng** — giòn ở rìa, mềm ở trong, chua
     ngọt ở lớp áo. Đổi lại, phải chịu khó bắc thêm một chảo dầu.
   - >-
@@ -319,7 +318,7 @@ tips:
       vừa đủ ăn một bữa là hơn.
 
 serve:
-  title: Dọn mâm — **dĩa màu rực rỡ nhất bàn**
+  title: Dọn mâm — **dĩa màu rực rỡ trên bàn**
   paras:
     - >-
       Trút sườn ra dĩa cạn lòng, dàn cho miếng ớt chuông đỏ xanh nổi lên
@@ -393,4 +392,4 @@ ticker:
   - text: Thơm vàng ngọt lịm
   - text: Ớt chuông giòn sựt
   - text: Rìa sườn giòn nhẹ
-  - text: Món dụ cơm hạng nhất
+  - text: Món dụ cơm của cả nhà

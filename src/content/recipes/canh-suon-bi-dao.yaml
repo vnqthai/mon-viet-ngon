@@ -8,7 +8,7 @@ category: Canh
 occasions: [Cơm nhà]
 pubDate: 2026-07-30
 time:
-  total: 45 phút
+  total: 50 phút
   active: 12 phút
 servingsBase: 4
 difficulty: Dễ
@@ -83,7 +83,7 @@ ingredientGroups:
         color: green
         base: 600
         unit: g
-        note: Trái phủ lớp phấn trắng, cầm nặng tay, vỏ chưa cứng — non và mướt
+        note: Phấn trắng như sương là trái mới hái; muốn trái non nhìn cuống mập, vỏ còn lông tơ, cầm nặng tay
       - id: tomkho
         name: Tôm khô
         icon: shrimp
@@ -184,7 +184,7 @@ steps:
     callout:
       type: warn
       text: >-
-        Bí đao mềm nhanh hơn mọi thứ rau củ khác trong nhà. Quá **12 phút**
+        Bí đao thuộc loại mềm nhanh nhất rổ rau củ. Quá **12 phút**
         là cạnh miếng tròn đi và bắt đầu rã, kéo theo nước đục lờ — công
         ninh sườn 30 phút cho trong coi như bỏ.
     timer:
@@ -207,10 +207,10 @@ tips:
   - icon: pumpkin
     title: Chọn trái phủ phấn trắng
     text: >-
-      Bí đao ngon là trái **phủ lớp phấn trắng như sương**, vỏ còn mềm, cầm
-      nặng tay. Loại đó ruột non, hột nhỏ, nấu lên mềm mướt và trong. Trái
-      vỏ cứng bóng, gõ nghe rỗng thì già rồi — ruột xốp, hột to, nấu lên
-      xơ và nhạt.
+      **Phấn trắng như sương** là trái mới hái; muốn trái non thì nhìn
+      **cuống mập, vỏ còn lông tơ**, cầm nặng tay — loại đó ruột non, hột
+      nhỏ, nấu lên mềm mướt và trong. Trái vỏ cứng bóng, gõ nghe rỗng thì
+      già rồi — ruột xốp, hột to, nấu lên xơ và nhạt.
   - icon: knife
     title: Cắt dày 1,5 cm, đừng thái mỏng
     text: >-
@@ -287,8 +287,8 @@ faq:
   - q: Nên nấu canh sườn bí đao hay canh sườn khoai tây cà rốt?
     a: >-
       **Bí đao** nhẹ, nước trong, hợp ngày oi và hợp khi mâm đã nhiều món
-      dầu mỡ. **Khoai tây cà rốt** ngọt bùi, đặc đà, no bụng hơn, hợp mâm có
-      con nít. Cách ninh sườn y hệt nhau, chỉ đổi thứ thả vào cuối — nên
+      dầu mỡ. **Khoai tây cà rốt** ngọt bùi, nước đặc hơn, no bụng hơn, hợp
+      mâm có con nít. Cách ninh sườn y hệt nhau, chỉ đổi thứ thả vào cuối — nên
       biết nấu món này là biết luôn món kia.
   - q: Nước canh bị nhạt quá thì làm sao?
     a: >-

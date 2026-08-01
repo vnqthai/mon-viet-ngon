@@ -132,7 +132,7 @@ ingredientGroups:
         color: red
         base: 2
         unit: viên
-        note: Tán nhuyễn nêm vào nồi — thứ làm nước lẩu đậm và sánh nhẹ
+        note: Chao là đậu hũ lên men, bán hũ ở chợ. Tán nhuyễn nêm vào nồi — thứ làm nước lẩu đậm và sánh nhẹ
       - id: duongphen
         name: Đường phèn
         icon: jar

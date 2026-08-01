@@ -8,7 +8,7 @@ category: Chiên
 occasions: [Nhậu lai rai, Cơm nhà]
 pubDate: 2026-08-01
 time:
-  total: 1 giờ 15 phút
+  total: 1 giờ 40 phút
   active: 45 phút
 servingsBase: 4
 difficulty: Vừa
@@ -105,7 +105,7 @@ ingredientGroups:
         unit: muỗng canh
         note: >-
           Một muỗng thôi, cho miếng chả kết dính chắc hơn khi chiên. Nhiều quá
-          thì mất vị cá và miếng chả bột bạt
+          thì miếng chả nặng bột, lạt vị cá
   - name: Nêm và tạo mùi
     icon: herb
     items:
@@ -368,9 +368,9 @@ faq:
       kiểm cả ba, mà chú ý nhất vào cái thứ nhất.
   - q: Cá thát lát và cá thác lác có phải một loài không?
     a: >-
-      Cùng một loài, hai cách gọi. **"Cá thát lát"** là tên chuẩn trong tài liệu;
-      "cá thác lác" là cách gọi phổ biến ở miền Tây, gốc từ tiếng Khmer. Ra chợ
-      gọi kiểu nào người bán cũng hiểu.
+      "Thát lát" và "thác lác" đều thông dụng — tài liệu và thương hiệu đặc sản
+      Hậu Giang ghi "thát lát", nhiều từ điển ghi "thác lác"; tên được cho là
+      gốc tiếng Khmer. Site này dùng "thát lát" cho thống nhất.
   - q: Ngoài chiên thì chả cá thát lát làm được món gì?
     a: >-
       Ba hướng quen nhất. **Dồn khổ qua** — moi ruột trái khổ qua, nhồi chả vào

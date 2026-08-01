@@ -22,7 +22,7 @@ quick:
     - >-
       Nếp cái hoa vàng [[500|g]] — ngâm **6–8 giờ** với [[1|muỗng cà phê]] muối
       và [[1|muỗng cà phê]] bột nghệ
-    - Đậu xanh cà vỏ [[200|g]] — ngâm [[4|giờ]], đồ chín rồi giã nhuyễn
+    - Đậu xanh cà vỏ [[200|g]] — ngâm **4 giờ**, hấp chín rồi giã nhuyễn
     - Hành tím [[8|củ]] thái lát mỏng · mỡ gà [[80|g]] (hoặc dầu ăn)
     - Muối, đường để nêm đậu và nêm xôi
   steps:
@@ -30,13 +30,13 @@ quick:
       Ngâm nếp với muối và bột nghệ **6–8 giờ**, vo lại nhẹ tay rồi để **thật
       ráo** — nếp còn ướt là xôi nhão.
     - >-
-      Đồ đậu xanh chín bở, **giã nhuyễn khi còn nóng** với chút mỡ gà và muối,
+      Hấp đậu xanh chín bở, **giã nhuyễn khi còn nóng** với chút mỡ gà và muối,
       nắm thật chặt thành nắm tròn.
     - >-
       Phi hành tím trong mỡ gà cho vàng, vớt ra giấy thấm; **giữ lại phần mỡ đã
       phi**.
     - >-
-      Đồ xôi trong chõ **30–40 phút**, giữa chừng mở ra xới tơi và rưới mỡ gà,
+      Hấp xôi **30–40 phút**, giữa chừng mở ra xới tơi và rưới mỡ gà,
       đậy lại đồ tiếp.
     - >-
       Xới xôi ra dĩa, **cầm dao xéo qua nắm đậu** thành lát mỏng phủ kín mặt
@@ -64,7 +64,7 @@ story:
     "Xéo" ở đây là **một động tác, không phải một vị**. Người bán xôi nắm đậu
     xanh đã đồ chín thành nắm tròn chắc tay, rồi cầm con dao mỏng **đưa xéo qua
     mặt nắm** — mỗi nhát ra một lát đậu vàng mỏng như tờ giấy, rải phủ kín mặt
-    bát xôi. Cái tên món sinh ra từ đúng nhát dao đó.
+    bát xôi. Người bán vẫn cắt nghĩa tên món bằng đúng nhát dao đó.
   - >-
     Cũng vì vậy mà xôi xéo khác **xôi vò** — món kia đậu xanh giã nhuyễn rồi vò
     cho tơi ra, bám thành từng hạt rời quanh hạt nếp. Cùng nếp, cùng đậu xanh,
@@ -87,7 +87,8 @@ ingredientGroups:
         unit: g
         note: >-
           Hạt tròn mẩy, trắng đục đều. Thiếu thì dùng nếp thường cũng được, chỉ
-          kém dẻo thơm hơn một bậc
+          kém dẻo thơm hơn một bậc. Nếp làm chín bằng cách **đồ** — hấp bằng
+          hơi nước; nồi hấp xôi truyền thống gọi là **chõ**
       - id: dauxanh
         name: Đậu xanh cà vỏ
         icon: pod
@@ -394,4 +395,4 @@ ticker:
   - text: Lát đậu mỏng như giấy
   - text: Hành phi vàng ruộm
   - text: Mỡ gà đi qua ba lần
-  - text: Đồ hai lượt, xới giữa chừng
+  - text: Hấp hai lượt, xới giữa chừng

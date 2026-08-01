@@ -1,8 +1,9 @@
 title: Mì Quảng tôm thịt **sợi vàng óng, nước nhưn đậm đà**
 summary: >-
-  Sợi mì vàng nghệ nằm dưới lớp tôm thịt um đỏ au, nước lèo chỉ chan **xâm
-  xấp mà đậm điếng người**, bẻ miếng bánh tráng mè rắc đậu phộng lên — trộn
-  đều một cái là hiểu tính hào sảng của người xứ Quảng.
+  Sợi mì vàng nghệ nằm dưới lớp tôm thịt um đỏ au, nước nhưn (nước chan
+  xâm xấp — người Quảng gọi vậy) mà **đậm điếng người**, bẻ miếng bánh
+  tráng mè rắc đậu phộng lên — trộn đều một cái là hiểu tính hào sảng của
+  người xứ Quảng.
 region: Miền Trung
 category: Món nước
 occasions: [Bữa sáng]
@@ -23,7 +24,7 @@ quick:
     - "Ướp: củ nén [[1|nắm]] (không có thì hành tím [[4|củ]]) · bột nghệ [[1|muỗng cà phê]] · dầu điều [[2|muỗng canh|frac]] · nước mắm [[2|muỗng canh|frac]] · tiêu"
     - Đậu phộng rang [[100|g]] · bánh tráng mè [[4|cái]] nướng giòn
     - "Rau sống: bắp chuối bào · cải con · húng lủi · giá"
-    - "Nêm: nước mắm · muối · đường — nước nhân phải **đậm hơn nước phở** một bậc"
+    - "Nêm: nước mắm · muối · đường — nước nhưn phải **đậm hơn nước phở** một bậc"
   steps:
     - Hầm xương ống với [[1.5|lít|frac]] nước lấy chừng [[1.2|lít]] nước ngọt (45 phút, hớt bọt).
     - Tôm cắt râu **để vỏ**, ba chỉ thái mỏng — ướp chung nén đập + nghệ + dầu điều + mắm tiêu **20 phút**; luộc trứng cút bóc vỏ.
@@ -32,7 +33,7 @@ quick:
     - Nướng bánh tráng mè, giã dối đậu phộng, soạn rau sống.
     - "Ráp tô: mì trụng nhanh, xếp tôm thịt trứng, chan nước **xâm xấp ⅓ sợi mì**, rắc đậu phộng hành ngò, cắm miếng bánh tráng — trộn và ăn liền."
   warning: >-
-    Mì Quảng mà chan ngập nước là thành... bún! Nước lèo chỉ **xâm xấp ⅓
+    Mì Quảng mà chan ngập nước là thành... bún! Nước nhưn chỉ **xâm xấp ⅓
     tô**, bù lại phải nêm **đậm gấp rưỡi nước phở** — nhín nước chứ không
     nhín vị.
 
@@ -43,7 +44,7 @@ flavor:
   cay: 3
   thom: 8.5
 flavorNote: >-
-  **Chuẩn vị Quảng:** sợi mì dai mềm quyện nước nhân **đậm – béo – thơm
+  **Chuẩn vị Quảng:** sợi mì dai mềm quyện nước nhưn **đậm – béo – thơm
   nghệ**, cắn trúng tôm um ngọt lừ, và lúc nào cũng phải nghe **rôm rốp**
   của bánh tráng mè với đậu phộng mới đúng điệu.
 storyEyebrow: Chuyện tô mì
@@ -73,7 +74,7 @@ ingredientGroups:
     icon: shrimp
     items:
       - id: tom
-        name: Tôm đất (tôm sú nhỏ)
+        name: Tôm đất (không có thì thay tôm thẻ, tôm sú nhỏ)
         icon: shrimp
         color: red
         base: 300
@@ -167,7 +168,7 @@ ingredientGroups:
         name: Nước mắm + muối + đường
         icon: bottle
         qtyText: Theo bước hướng dẫn
-        note: Nước nhân nêm đậm — chan ít nên vị phải gánh
+        note: Nước nhưn nêm đậm — chan ít nên vị phải gánh
       - id: daan
         name: Dầu phộng (ưu tiên) hoặc dầu ăn
         icon: drop
@@ -263,7 +264,7 @@ steps:
           Nêm: [[1.5|muỗng canh|frac]] nước mắm + [[1|muỗng cà phê]] đường +
           muối từng chút, sôi **liu riu 15 phút** cho tôm thịt nhả ngọt.
       - text: >-
-          Nếm thử và nhớ luật: nước nhân phải **đậm tới mức húp một muỗng
+          Nếm thử và nhớ luật: nước nhưn phải **đậm tới mức húp một muỗng
           thấy "hơi quá"** — vì lát nữa chỉ chan xâm xấp, sợi mì lạt sẽ kéo
           vị về đúng chỗ.
     callout:
@@ -298,7 +299,7 @@ steps:
           Mì tươi trụng nước sôi **10 giây** cho nóng (mì khô luộc theo bao
           bì, xả, xóc chút dầu phộng), cho vô tô lót ít rau sống dưới đáy
           nếu thích đúng kiểu Quảng.
-      - text: Xếp tôm, thịt, trứng cút lên mặt, múc nước nhân chan **xâm xấp ⅓ sợi mì**.
+      - text: Xếp tôm, thịt, trứng cút lên mặt, múc nước nhưn chan **xâm xấp ⅓ sợi mì**.
       - text: >-
           Rắc đậu phộng + hành ngò, **cắm miếng bánh tráng mè** bên thành
           tô, dọn kèm rổ rau và trái ớt xanh.
@@ -332,7 +333,7 @@ tips:
   - icon: shrimp
     title: Tôm để vỏ mới ra màu ra ngọt
     text: >-
-      Vỏ và đầu tôm khi um tiết **gạch đỏ óng** xuống nước nhân — bóc vỏ
+      Vỏ và đầu tôm khi um tiết **gạch đỏ óng** xuống nước nhưn — bóc vỏ
       trước là nước nhợt, tôm khô. Sợ khó ăn thì để vỏ khi um, lúc dọn bóc
       vài con bày mặt tô cho đẹp là vẹn cả đôi đường.
   - icon: ginger
@@ -340,7 +341,7 @@ tips:
     text: >-
       Màu vàng cam của tô mì là **nghệ và dầu điều cộng lại** — nghệ cho
       vàng trầm, điều cho cam óng. Đừng thay bằng bột màu công nghiệp; và
-      cũng đừng quá tay nghệ kẻo nước nhân đắng nhẹ.
+      cũng đừng quá tay nghệ kẻo nước nhưn đắng nhẹ.
   - icon: roll
     title: Bánh tráng mè, nướng sát giờ ăn
     text: >-
@@ -369,12 +370,12 @@ serve:
       "trường phái" của mình, đứa nhiều tôm, đứa ngập đậu phộng, **rôm rả
       như đám giỗ ngoài quê**.
     - >-
-      Nhớ trộn đều trước khi ăn cho nước nhân áo lấy từng sợi mì, gắp kèm
+      Nhớ trộn đều trước khi ăn cho nước nhưn áo lấy từng sợi mì, gắp kèm
       nhúm **cải con húng lủi**, thỉnh thoảng cắn miếng ớt xanh — đậm, béo,
       the, giòn đủ cả trong một đũa.
     - >-
-      Nước nhân dư đừng đổ: mai trụng thêm vắt mì, chan lại vẫn ngon — hoặc
-      chan cơm nóng ăn sáng kiểu "mì Quảng hóa cơm hến" cũng hao cơm lắm à.
+      Nước nhưn dư đừng đổ: mai trụng thêm vắt mì, chan lại vẫn ngon — hoặc
+      chan cơm nóng ăn sáng cũng hao cơm lắm à.
   aside:
     title: Trên mâm mì Quảng
     intro: "Thiếu thứ nào tô mì kém vui thứ đó:"
@@ -414,7 +415,7 @@ faq:
       nghệ**, cá lóc, ếch, thậm chí sứa đều thành chuyện. Giữ nguyên bộ tứ
       nén – nghệ – điều – đậu phộng và nguyên tắc chan nhín nêm đậm là kiểu gì cũng
       ra "chất Quảng".
-  - q: Sao nước nhân của mình nhạt màu, lạt vị?
+  - q: Sao nước nhưn của mình nhạt màu, lạt vị?
     a: >-
       Ba chỗ hay hụt: **um chưa tới** (nhân chưa kịp ra nước ngọt đã châm
       nước xương), **thiếu dầu điều** (màu chỉ trông vào nghệ nên xỉn), và

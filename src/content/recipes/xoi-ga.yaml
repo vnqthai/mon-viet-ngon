@@ -206,7 +206,7 @@ steps:
       - label: "Hạ lửa ngay khi sôi:"
         text: >-
           Nước vừa sôi thì hạ lửa nhỏ, giữ ở mức **sôi lăn tăn**, hớt bọt.
-          Luộc [[20|phút]] với đùi, [[15|phút]] với ức.
+          Luộc **20 phút** với đùi, **15 phút** với ức.
       - label: "Ủ trong nồi:"
         text: >-
           Tắt bếp, đậy vung ủ thêm **10 phút**. Bước này làm phần sát xương chín

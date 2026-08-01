@@ -59,7 +59,8 @@ const viDate = (v: any) =>
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Recipe',
-  name: plain(d.title),
+  // Tên món trần cho máy đọc — câu quảng để dành cho <title>/og.
+  name: dishName(d.title),
   description: plain(d.summary),
   ...(published ? { datePublished: published } : {}),
   ...(modified ? { dateModified: modified } : {}),
@@ -68,7 +69,7 @@ const jsonLd = {
   inLanguage: 'vi',
   recipeCuisine: 'Việt Nam',
   recipeCategory: d.category,
-  keywords: [plain(d.title), d.region, d.category, ...d.occasions, 'món Việt', 'công thức', 'nấu ăn'].join(', '),
+  keywords: [dishName(d.title), d.region, d.category, ...d.occasions, 'món Việt', 'công thức', 'nấu ăn'].join(', '),
   totalTime: viDurationToISO(d.time.total),
   recipeYield: `${d.servingsBase} người ăn`,
   recipeIngredient: d.ingredientGroups.flatMap((g: any) =>

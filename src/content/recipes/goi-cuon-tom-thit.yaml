@@ -41,7 +41,7 @@ flavorNote: >-
   **Chuẩn cuốn đẹp:** lớp bánh căng mịn ôm sát nhân, **tôm đỏ nổi rõ**, hẹ ló
   một đầu — chấm ngập tương đậu phộng là "bao ghiền".
 storyEyebrow: Chuyện cái cuốn
-storyTitle: Món **đãi khách dễ nhất** trần đời
+storyTitle: Món **đãi khách dễ tới bất ngờ**
 story:
   - >-
     Gỏi cuốn là món Việt hiếm hoi **lên bàn tiệc quốc tế** mà cách làm lại
@@ -64,7 +64,7 @@ ingredientGroups:
         color: red
         base: 300
         unit: g
-        note: Cỡ 12–16 con — luộc lên đỏ đẹp
+        note: Cỡ 18–20 con — luộc lên đỏ đẹp
       - id: thit
         name: Ba rọi hoặc thịt đùi
         icon: meat
@@ -204,7 +204,7 @@ steps:
           Gọn theo bề ngang chừng 3 ngón tay.
       - label: "Cuốn:"
         text: >-
-          gập hai mép trái phải, cuộn một vòng ôm chặt nhân; đặt **3 nửa tôm
+          gập hai mép trái phải, cuộn một vòng ôm chặt nhân; đặt **2 nửa tôm
           úp mặt đỏ xuống bánh** + 1 cọng hẹ ló đầu, cuộn nốt tới hết — mặt
           tôm đỏ sẽ nổi đẹp sau lớp bánh.
     callout:

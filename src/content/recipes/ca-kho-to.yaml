@@ -21,7 +21,7 @@ quick:
     - Thịt ba rọi [[100|g]] xắt mỏng (cho béo — bỏ qua cũng được)
     - Hành tím [[3|củ]] + tỏi [[3|tép]] băm · ớt [[2|trái]] · hành lá, tiêu
     - >-
-      Ướp & kho: nước mắm [[3|muỗng canh|frac]] · đường [[2.5|muỗng canh|frac]]
+      Ướp & kho: nước mắm [[3|muỗng canh|frac]] · đường [[1.5|muỗng canh|frac]]
       (thắng nước màu) · hạt nêm, tiêu
   steps:
     - Cá chà muối + chanh khử tanh, cắt khúc; ướp mắm – đường – hành tỏi – tiêu **30 phút**.
@@ -46,15 +46,14 @@ storyEyebrow: Chuyện ơ cá kho
 storyTitle: Ơ cá kho — **tri kỷ của nồi cơm**
 story:
   - >-
-    Nếu canh chua là "bản nhạc mở màn" của mâm cơm Nam Bộ thì cá kho tộ là
-    **giọng trầm giữ nhịp**. Hai món này sinh ra để đi chung: một chua thanh
-    mát, một mặn ngọt đậm đà — và ở giữa là nồi cơm trắng vơi đi nhanh tới mức
-    khó tin.
+    Trong mâm cơm Nam Bộ, **cá kho tộ là giọng trầm giữ nhịp** — ơ cá màu
+    hổ phách, nước kho keo lại óng ánh đặt giữa mâm. Vị mặn ngọt đậm đà đó
+    làm nồi cơm trắng vơi đi nhanh tới mức khó tin.
   - >-
     Chữ "tộ" là cái nồi đất, cái thố sành — thứ giữ nhiệt đều và ám mùi khói
-    bếp qua từng lần kho, càng kho lâu năm càng "ngọt nồi". Cá kho đúng kiểu
-    phải **kho mở nắp, lửa liu riu**, để nước kho cạn từ từ mà keo lại, chớ
-    không phải đậy vung um sùm cho mau.
+    bếp qua từng lần kho; nồi càng kho lâu năm, ơ cá càng đậm đà. Cá kho
+    đúng kiểu phải **kho mở nắp, lửa liu riu**, để nước kho cạn từ từ mà keo
+    lại, chớ không phải đậy vung um sùm cho mau.
   - >-
     Công thức này dùng cá lóc cho chắc thịt, thêm mấy lát ba rọi cho béo —
     kiểu kho "nhà giàu chút xíu" mà đám nhỏ nào cũng mê.
@@ -82,7 +81,7 @@ ingredientGroups:
         name: Đường cát (thắng nước màu)
         icon: jar
         color: gold
-        base: 2.5
+        base: 1.5
         unit: muỗng canh
         frac: true
         note: Thắng tới màu cánh gián

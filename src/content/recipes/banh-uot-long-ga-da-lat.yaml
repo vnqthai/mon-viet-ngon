@@ -271,7 +271,8 @@ steps:
       text: >-
         Đây là chỗ hỏng nhiều nhất. Lòng xào quá tay **dai như cao su và ra
         nước**, chảo từ xào thành luộc. Thà nhấc xuống sớm mươi giây — nhiệt còn
-        lại trong chảo vẫn nấu chín tiếp.
+        lại trong chảo vẫn nấu chín tiếp; riêng gan thì cứ chờ hết màu đỏ ở
+        giữa rồi hẵng nhấc.
     timer:
       secs: 180
       label: Hẹn giờ xào lòng · 03:00
@@ -395,6 +396,10 @@ faq:
       Làm sạch lòng, chần sơ, thái và để riêng bốn chén — **tất cả làm được từ
       tối hôm trước**, cất ngăn mát. Thịt gà cũng luộc trước được. Sáng ra chỉ
       còn pha nước mắm và xào lòng, đúng ba phút.
+  - q: Tô ngoài tiệm hay có trứng non — thêm được không?
+    a: >-
+      Được và rất nên nếu mua được: luộc chín hẳn cùng bộ lòng rồi thả vào
+      tô, thêm chút nước luộc — đúng kiểu Đà Lạt.
 
 ticker:
   - text: Lòng gà xào sần sật

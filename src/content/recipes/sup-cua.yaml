@@ -77,7 +77,7 @@ ingredientGroups:
         unit: g
         note: >-
           Chọn con **chắc thịt, ấn vào yếm thấy cứng**. Cua thịt chứ đừng cua
-          gạch. Ghẹ rẻ hơn và thịt ngọt, dùng thay được
+          gạch. Ghẹ thịt ngọt, dùng thay được
       - id: ucga
         name: Ức gà
         icon: meat
@@ -203,7 +203,7 @@ steps:
     minutes: 15 phút
     bullets:
       - text: >-
-          Ninh xương gà [[40|phút]] lấy [[1.2|lít]] nước dùng trong. Lọc, rồi
+          Ninh xương gà **40 phút** lấy [[1.2|lít]] nước dùng trong. Lọc, rồi
           **pha thêm phần nước hấp cua** vào.
       - text: >-
           Luộc ức gà trong chính nồi nước dùng đó chừng 12 phút, vớt ra để
@@ -352,8 +352,8 @@ faq:
     a: >-
       Được. Nước dùng nấu từ **bắp, củ cải trắng, nấm đông cô và rong biển**;
       thay cua và gà bằng **nấm bào ngư xé sợi** (xé ra rất giống thớ cua) và
-      **đậu hũ non cắt hạt lựu**. Bỏ trứng hoặc giữ tuỳ nhà. Vẫn làm sánh
-      bằng bột năng như thường.
+      **đậu hũ non cắt hạt lựu**. Ăn chay có trứng thì giữ, chay chuẩn thì bỏ.
+      Vẫn làm sánh bằng bột năng như thường.
   - q: Nấu trước rồi hâm lại được không?
     a: >-
       Được, nhưng nấu tới bước làm sánh thôi rồi tắt bếp. **Phần trứng và

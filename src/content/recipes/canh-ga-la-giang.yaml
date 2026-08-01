@@ -1,9 +1,8 @@
 title: Canh gà lá giang **chua thanh lá vườn, ngọt thịt gà ta**
 summary: >-
-  Món **canh chua của miền Tây**, cùng họ với canh chua cá lóc — nhưng
-  chất chua không phải me mà là **nắm lá giang vò giập** hái bờ rào, nhân
-  không phải cá mà là gà ta xào săn. Nước vàng trong chua thanh, húp một
-  muỗng nghe mát tới ruột gan.
+  Món **canh chua của miền Tây**: chất chua là **nắm lá giang vò giập**
+  hái bờ rào — không phải me — nhân là gà ta xào săn ngọt nước. Nước
+  vàng trong chua thanh, húp một muỗng là dịu cả người.
 region: Miền Tây
 category: Canh
 occasions: [Cơm nhà]
@@ -34,8 +33,8 @@ quick:
     - Tắt bếp, rắc ngò gai ngò om — dọn nóng với cơm và chén muối ớt.
   warning: >-
     Nấu lá giang **đừng dùng nồi nhôm** — chất chua của lá phản ứng với
-    nhôm, canh dễ chát và không tốt cho sức khỏe. Cứ nồi inox, nồi đất
-    hay nồi tráng men là yên tâm.
+    nhôm, canh dễ chát, xỉn màu, lại mau hỏng nồi. Cứ nồi inox, nồi đất
+    hay nồi tráng men mà nấu.
 
 flavor:
   chua: 6.5
@@ -46,7 +45,7 @@ flavor:
 flavorNote: >-
   **Chuẩn nồi canh lá giang:** nước **vàng trong, chua thanh có hậu
   ngọt** — chua kiểu lá vườn dịu dàng chứ không gắt giọng như giấm; thịt
-  gà săn ngọt, húp nóng giữa trưa nắng là "hạ hỏa" liền.
+  gà săn ngọt, húp nóng giữa trưa nắng, người dịu lại liền.
 storyEyebrow: Chuyện nồi canh
 storyTitle: Canh chua **cây nhà lá vườn** đúng nghĩa đen
 story:
@@ -57,9 +56,8 @@ story:
     thành nồi canh đãi khách; bởi vậy dân miệt vườn hay cười: món này là
     **"cây nhà lá vườn" theo nghĩa đen trăm phần trăm**.
   - >-
-    Gọi tên cho rành mạch: đây là một nồi **canh chua** — họ hàng ruột
-    với canh chua cá lóc, chỉ khác hai chỗ: chất chua là **lá giang thay
-    cho me**, phần nhân là **gà thay cho cá**. Cái hay của lá giang là
+    Gọi tên cho rành mạch: đây là một nồi **canh chua** — chất chua là
+    **lá giang**, phần nhân là **gà ta**. Cái hay của lá giang là
     chua mà thanh: vị chua tiết ra từ từ khi nấu, muốn chua tới đâu cứ
     **thêm lá tới đó**, nước canh giữ màu vàng trong veo chứ không thẫm.
     Gặp thịt gà ta dai ngọt là thành cặp trời sinh; các quán miền Tây còn
@@ -198,8 +196,8 @@ steps:
       type: warn
       text: >-
         Nhắc lần nữa vì quan trọng: **nồi nhôm gặp chất chua là kỵ** —
-        canh dễ xỉn màu, chát vị và không lành. Nhà chỉ có nồi nhôm thì
-        nay là dịp xài cái nồi inox cất kỹ đó.
+        canh dễ xỉn màu, chát vị, nồi lại mau hỏng. Nhà chỉ có nồi nhôm
+        thì nay là dịp xài cái nồi inox cất kỹ đó.
     timer:
       secs: 900
       label: Hẹn giờ nấu gà · 15:00
@@ -254,7 +252,7 @@ tips:
     title: Kỵ nồi nhôm — luật bất di bất dịch
     text: >-
       Axit trong lá giang **ăn mòn nhôm**, vừa làm canh chát xỉn vừa
-      không lành cho người ăn. Inox, nồi đất, nồi tráng men đều tốt.
+      mau hỏng nồi. Inox, nồi đất, nồi tráng men đều tốt.
       Luật này áp dụng cho mọi món chua nấu lâu, ghi nhớ một lần xài cả
       đời.
   - icon: meat

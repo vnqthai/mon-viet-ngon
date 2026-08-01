@@ -46,10 +46,10 @@ const tickerItems = [
   { slug: 'pho-ga', text: 'Phở gà lá chanh thái chỉ' },
   { slug: 'bun-cha-ha-noi', text: 'Bún chả Hà Nội chả cháy cạnh' },
   { slug: 'ga-nuong-mac-khen', text: 'Gà nướng mắc khén Tây Bắc' },
-  { slug: 'mi-quang-tom-thit', text: 'Mì Quảng nước nhưn đậm đà' },
+  { slug: 'mi-quang-tom-thit', text: 'Mì Quảng nước chan xâm xấp, đậm đà' },
   { slug: 'bun-bo-hue', text: 'Bún bò Huế cay nồng sả ruốc' },
   { slug: 'bun-rieu-cua', text: 'Bún riêu cua nước chua thanh, riêu nổi tảng' },
-  { slug: 'com-tam-suon-nuong', text: 'Cơm tấm sườn nướng khói thơm' },
+  { slug: 'com-tam-suon-nuong', text: 'Cơm tấm sườn cháy cạnh mềm mọng' },
   { slug: 'com-ga-hoi-an', text: 'Cơm gà Hội An vàng mơ' },
   { slug: 'ca-kho-to', text: 'Cá kho tộ lửa liu riu' },
   { slug: 'banh-xeo-mien-tay', text: 'Bánh xèo giòn nghe xèo là thèm' },
@@ -61,7 +61,7 @@ const tickerItems = [
   { slug: 'mi-vit-tiem', text: 'Mì vịt tiềm đùi vịt giòn da' },
   { slug: 'mien-ga', text: 'Miến gà sợi dai nước ngọt thanh' },
   { slug: 'mien-xao-cua', text: 'Miến xào cua thớ ngọt nguyên' },
-  { slug: 'lau-mam', text: 'Lẩu mắm rổ rau chất núi' },
+  { slug: 'lau-mam', text: 'Lẩu mắm rổ rau chất có ngọn' },
   { slug: 'lau-ga-la-e', text: 'Lẩu gà lá é thơm the muối ớt xanh' },
   { slug: 'lau-thai', text: 'Lẩu Thái chua cay dậy sả' },
   { slug: 'lau-de-nau-chao', text: 'Lẩu dê nấu chao béo bùi khoai môn' },
@@ -76,7 +76,7 @@ const tickerItems = [
   { slug: 'chao-luon-nghe-an', text: 'Cháo lươn xứ Nghệ hạt gạo nở bung' },
   { slug: 'chao-ga', text: 'Cháo gà gạo rang, gừng thái sợi' },
   { slug: 'chao-long', text: 'Cháo lòng ngọt nước luộc, lòng giòn sựt' },
-  { slug: 'banh-beo-hue', text: 'Bánh bèo Huế chén nhỏ lõm giữa, tôm chấy cam ruộm' },
+  { slug: 'banh-beo-hue', text: 'Bánh bèo Huế chén nhỏ lõm giữa, tôm rang bông đỏ gạch' },
   { slug: 'che-hat-sen-long-nhan', text: 'Chè hạt sen long nhãn — mỗi trái nhãn giấu một hạt sen' },
   { slug: 'kho-quet', text: 'Kho quẹt sệt tới đáy tộ, bẻ rau luộc quẹt một vòng' },
   { slug: 'bo-nuong-la-lot', text: 'Bò nướng lá lốt lá sém thơm, thịt mọng bên trong' },
@@ -104,10 +104,10 @@ const tickerItems = [
   { slug: 'canh-suon-khoai-tay-ca-rot', text: 'Canh sườn khoai tây cà rốt ngọt bùi' },
   { slug: 'canh-suon-bi-dao', text: 'Canh sườn bí đao, miếng bí trong như ngọc' },
   { slug: 'ca-tim-nuong-mo-hanh', text: 'Cà tím nướng mỡ hành, đậu phộng giòn rôm rốp' },
-  { slug: 'bun-oc', text: 'Bún ốc chua giấm bỗng, một thìa ớt chưng nổi váng đỏ' },
+  { slug: 'bun-oc', text: 'Bún ốc chua dịu kiểu Bắc, thìa ớt chưng nổi váng đỏ' },
   { slug: 'bun-moc', text: 'Bún mọc — viên giò sống trộn mộc nhĩ nấm hương' },
   { slug: 'bun-mang-vit', text: 'Bún măng vịt măng khô xào mỡ vịt, chấm mắm gừng' },
-  { slug: 'bun-sua-nha-trang', text: 'Bún sứa Nha Trang, sứa chân giòn sần sật' },
+  { slug: 'bun-sua-nha-trang', text: 'Bún sứa Nha Trang, chân sứa giòn sần sật' },
   { slug: 'com-rang-dua-bo', text: 'Cơm rang dưa bò — hạt cơm săn rời, dưa chua giòn' },
   { slug: 'com-lam', text: 'Cơm lam nướng ống nứa, chấm muối vừng' },
   { text: 'Cơm nhà là ngon nhất' },
@@ -149,7 +149,7 @@ const siteLd = {
 ---
 <Base
   title="Món Việt Ngon — Nấu món Việt chuẩn vị, dễ như cơm nhà"
-  description="Công thức món Việt ba miền hướng dẫn cặn kẽ từng bước: bản nấu nhanh, giỏ đi chợ tự tính khẩu phần, đồng hồ đếm giờ, bí quyết của người nấu lâu năm."
+  description="Công thức món Việt ba miền hướng dẫn cặn kẽ từng bước: bản nấu nhanh, giỏ đi chợ tự tính khẩu phần, đồng hồ đếm giờ, bí quyết cho từng món."
   active="home"
 >
 <script type="application/ld+json" is:inline set:html={JSON.stringify(siteLd)} />
@@ -198,7 +198,7 @@ const siteLd = {
         <ul class="home-hero__stats">
           <li><Icon name="bowl" /><span class="num">{recipes.length} món</span> và đang thêm hoài</li>
           <li><Icon name="map" /><span class="num">{regionCount}</span> vùng miền</li>
-          <li><Icon name="check" />Từng bước đã nấu thử</li>
+          <li><Icon name="check" />Từng bước viết cặn kẽ</li>
         </ul>
       </div>
       <div class="home-hero__art" aria-hidden="true">
