@@ -247,7 +247,15 @@
 .coming .badge{background:var(--paper-deep);color:var(--muted)}
 
 /* ---------- Lối vào theo trục ---------- */
-.gates{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px 44px}
+/* Mỗi trục là MỘT dải ngang, xếp chồng — không chia cột.
+   Chỗ này trước là lưới `auto-fit minmax(300px,1fr)`, và ở màn hình rộng nó đẻ
+   ra ba nhịp đọc khác nhau trong cùng một khối: trục 17 cửa trải ngang hết bề
+   rộng, còn Dịp và Miền bị ép vào cột 315px nên 7 chip xuống dòng lỗ chỗ —
+   hàng 2 cái, hàng 1 cái. Bỏ cột đi thì cả ba cùng một nhịp, mắt chỉ phải quét
+   theo một chiều. Đo ở 1280px: khối chip 522px -> 403px, tức NGẮN hơn 119px
+   chứ không phải đánh đổi. Ở 768px thì cao thêm 47px (Dịp và Miền hết được nằm
+   cạnh nhau) — trả 47px lấy một nhịp đọc thống nhất, đáng. */
+.gates{display:grid;gap:26px}
 .gate-group h3{font-size:1.06rem;margin:0 0 14px}
 .gate-row{display:flex;flex-wrap:wrap;gap:9px}
 .gate{

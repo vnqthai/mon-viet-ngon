@@ -17,10 +17,18 @@ const featured = recipes.filter((r) => r.data.featured).slice(0, 12);
 const regionCount = new Set(recipes.map((r) => r.data.region)).size;
 
 // Lối vào theo trục: bấm là sang /mon/ đã lọc sẵn. Kèm số món để người đọc biết
-// trước cửa nào rộng cửa nào hẹp, khỏi bấm vào rồi mới thấy có 2 món.
+// trước cửa nào rộng cửa nào hẹp, khỏi bấm vào rồi mới thấy có 2 món. Con số đó
+// là thứ thanh lọc ở /mon/ KHÔNG có — nên ba nhóm ở đây không phải bản sao của
+// nó. Thứ tự nhóm phải khớp /mon/ (Kiểu món → Dịp → Miền): bấm từ đây sang thì
+// bên đó tự mở bảng lọc, và trục vừa bấm phải nằm đúng chỗ mắt đang chờ.
+const CAT_ORDER = ['Món nước', 'Bún trộn', 'Canh', 'Lẩu', 'Cháo',
+  'Kho', 'Xào', 'Hấp', 'Cơm', 'Xôi', 'Bánh', 'Bánh mì', 'Chiên', 'Nướng', 'Cuốn', 'Gỏi', 'Chè'];
 const OCC_ORDER = ['Cơm nhà', 'Bữa sáng', 'Đãi khách', 'Nhậu lai rai', 'Ăn chơi', 'Cho bé', 'Cỗ Tết'];
 const REGION_ORDER = ['Miền Bắc', 'Miền Trung', 'Miền Nam', 'Miền Tây', 'Tây Bắc', 'Tây Nguyên', 'Cả nước'];
 
+const catGates = CAT_ORDER
+  .map((name) => ({ name, n: recipes.filter((r) => r.data.category === name).length }))
+  .filter((g) => g.n > 0);
 const occGates = OCC_ORDER
   .map((name) => ({ name, n: recipes.filter((r) => r.data.occasions.includes(name as any)).length }))
   .filter((g) => g.n > 0);
@@ -261,10 +269,23 @@ const siteLd = {
       <p class="eyebrow reveal">Đi lối nào cũng tới bếp</p>
       <h2 class="reveal">Tìm món <span class="accent">theo cách của mình</span></h2>
       <p class="section__lead reveal">
-        Nấu cho dịp gì, hay thèm vị vùng nào — bấm một cái là sang thẳng danh
-        sách đã lọc sẵn. Con số bên cạnh là số món đang có.
+        Thèm một tô nước nóng, nấu cho dịp gì, hay nhớ vị vùng nào — bấm một cái
+        là sang thẳng danh sách đã lọc sẵn. Con số bên cạnh là số món đang có.
       </p>
       <div class="gates reveal">
+        {/* Ba nhóm là ba dải ngang xếp chồng, không chia cột — lý do ở home.css,
+            mục "Lối vào theo trục". */}
+        <div class="gate-group">
+          {/* Không dùng "Thèm…" — trục Miền phía dưới đã là "Thèm vị vùng nào?" */}
+          <h3>Muốn ăn kiểu gì?</h3>
+          <div class="gate-row">
+            {catGates.map((g) => (
+              <a class="gate" href={`/mon/?kieu=${encodeURIComponent(g.name)}`}>
+                {g.name}<span class="gate__n num">{g.n}</span>
+              </a>
+            ))}
+          </div>
+        </div>
         <div class="gate-group">
           <h3>Nấu cho dịp gì?</h3>
           <div class="gate-row">
