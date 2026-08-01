@@ -364,15 +364,9 @@ faq:
       lên bếp.
 
 ticker:
-  - icon: jar
-    text: Mẻ lọc lấy nước, nêm cuối cùng
-  - icon: ginger
-    text: Riềng thơm ấm hợp vị dê
-  - icon: meat
-    text: Nhúng 15 giây, còn hồng giữa lát
-  - icon: lettuce
-    text: Cải xanh, rau cần, tía tô
-  - icon: drop
-    text: Chua dịu ở hậu vị
-  - icon: noodle
-    text: Cuối bữa chan bún
+  - text: Mẻ lọc lấy nước, nêm cuối cùng
+  - text: Riềng thơm ấm hợp vị dê
+  - text: Nhúng 15 giây, còn hồng giữa lát
+  - text: Cải xanh, rau cần, tía tô
+  - text: Chua dịu ở hậu vị
+  - text: Cuối bữa chan bún

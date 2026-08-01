@@ -317,9 +317,6 @@ faq:
       ngả nâu sậm, có cặn đen hoặc bốc khói sớm.
 
 ticker:
-  - icon: rice
-    text: Cơm nguội ép mỏng, phơi cho khô rang
-  - icon: flame
-    text: Dầu nóng già mới thả, miếng cơm nở bung
-  - icon: meat
-    text: Mỡ hành, chà bông, chút sốt cay
+  - text: Cơm nguội ép mỏng, phơi cho khô rang
+  - text: Dầu nóng già mới thả, miếng cơm nở bung
+  - text: Mỡ hành, chà bông, chút sốt cay

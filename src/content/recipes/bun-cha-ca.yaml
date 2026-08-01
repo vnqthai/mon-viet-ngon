@@ -347,7 +347,5 @@ faq:
       đúng bài hơn.
 
 ticker:
-  - icon: fish
-    text: Chả chiên vàng, chả hấp trắng
-  - icon: drop
-    text: Nước lèo xương cá trong veo
+  - text: Chả chiên vàng, chả hấp trắng
+  - text: Nước lèo xương cá trong veo

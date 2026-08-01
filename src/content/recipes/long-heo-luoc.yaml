@@ -403,15 +403,9 @@ faq:
       nóng 30 giây** rồi vớt ra liền.
 
 ticker:
-  - icon: drop
-    text: Thả ngay vào nước đá
-  - icon: clock
-    text: Lòng non đúng 5–7 phút
-  - icon: bottle
-    text: Mắm tôm đánh bông sủi tăm
-  - icon: herb
-    text: Húng quế gắp kèm
-  - icon: pod
-    text: Khế chua cắt béo
-  - icon: knife
-    text: Thái xéo cho mặt cắt rộng
+  - text: Thả ngay vào nước đá
+  - text: Lòng non đúng 5–7 phút
+  - text: Mắm tôm đánh bông sủi tăm
+  - text: Húng quế gắp kèm
+  - text: Khế chua cắt béo
+  - text: Thái xéo cho mặt cắt rộng

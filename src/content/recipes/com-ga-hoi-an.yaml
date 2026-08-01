@@ -400,15 +400,9 @@ faq:
       nước này là nấu được liền.
 
 ticker:
-  - icon: rice
-    text: Cơm vàng mơ tơi hạt
-  - icon: meat
-    text: Gà ta xé mọng ngọt thịt
-  - icon: herb
-    text: Rau răm the nồng
-  - icon: onion
-    text: Hành tây giòn trong veo
-  - icon: bowl
-    text: Chén súp nóng húp xen kẽ
-  - icon: chili
-    text: Tương ớt dầu cay thơm
+  - text: Cơm vàng mơ tơi hạt
+  - text: Gà ta xé mọng ngọt thịt
+  - text: Rau răm the nồng
+  - text: Hành tây giòn trong veo
+  - text: Chén súp nóng húp xen kẽ
+  - text: Tương ớt dầu cay thơm

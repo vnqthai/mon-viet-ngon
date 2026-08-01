@@ -428,17 +428,10 @@ faq:
       vẫn kịp ngồi kể chuyện.
 
 ticker:
-  - icon: noodle
-    text: Sợi mì vàng ươm màu nghệ
-  - icon: drop
-    text: Nước nhưn đậm điếng người
-  - icon: shrimp
-    text: Tôm um đỏ au ngọt lừ
-  - icon: roll
-    text: Bánh tráng mè bẻ rốp
-  - icon: pod
-    text: Đậu phộng rang bùi béo
-  - icon: garlic
-    text: Củ nén phi thơm nức
-  - icon: lettuce
-    text: Cải con húng lủi the mát
+  - text: Sợi mì vàng ươm màu nghệ
+  - text: Nước nhưn đậm điếng người
+  - text: Tôm um đỏ au ngọt lừ
+  - text: Bánh tráng mè bẻ rốp
+  - text: Đậu phộng rang bùi béo
+  - text: Củ nén phi thơm nức
+  - text: Cải con húng lủi the mát

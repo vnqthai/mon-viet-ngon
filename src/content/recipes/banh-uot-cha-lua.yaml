@@ -430,15 +430,9 @@ faq:
       bánh, giá, rau, hành phi, mắm chua ngọt — rồi chất gì lên cũng hợp.
 
 ticker:
-  - icon: roll
-    text: Lá bánh trần, không nhân
-  - icon: meat
-    text: Chả lụa thái sợi
-  - icon: sprout
-    text: Giá trụng giòn mát
-  - icon: onion
-    text: Hành phi vàng ruộm
-  - icon: bottle
-    text: Chan mắm chua ngọt lên dĩa
-  - icon: drop
-    text: Thoa dầu hành giữa từng lớp
+  - text: Lá bánh trần, không nhân
+  - text: Chả lụa thái sợi
+  - text: Giá trụng giòn mát
+  - text: Hành phi vàng ruộm
+  - text: Chan mắm chua ngọt lên dĩa
+  - text: Thoa dầu hành giữa từng lớp

@@ -355,7 +355,5 @@ faq:
       vào lọ dùng dần được cả tháng.
 
 ticker:
-  - icon: noodle
-    text: Bún nấu thẳng trong nồi, sợi ăn màu từ ruột
-  - icon: shrimp
-    text: Riêu cua vo viên, trứng cút ngấm đỏ
+  - text: Bún nấu thẳng trong nồi, sợi ăn màu từ ruột
+  - text: Riêu cua vo viên, trứng cút ngấm đỏ

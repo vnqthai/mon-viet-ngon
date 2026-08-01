@@ -353,15 +353,9 @@ faq:
       món có nước cốt dừa không để dai được như kho mặn thường đâu.
 
 ticker:
-  - icon: shrimp
-    text: Tôm đất đỏ au
-  - icon: drop
-    text: Sốt dừa trắng ngà
-  - icon: pepper
-    text: Hậu tiêu ấm nồng
-  - icon: flame
-    text: Liu riu mới béo mịn
-  - icon: rice
-    text: Chan sốt vô cơm nóng
-  - icon: map
-    text: Đặc sản xứ dừa Bến Tre
+  - text: Tôm đất đỏ au
+  - text: Sốt dừa trắng ngà
+  - text: Hậu tiêu ấm nồng
+  - text: Liu riu mới béo mịn
+  - text: Chan sốt vô cơm nóng
+  - text: Đặc sản xứ dừa Bến Tre

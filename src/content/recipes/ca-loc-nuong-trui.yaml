@@ -339,7 +339,5 @@ faq:
       trên cho nước khỏi chảy tiếp.
 
 ticker:
-  - icon: fish
-    text: Để nguyên vảy, không ướp một hạt muối
-  - icon: flame
-    text: Lửa to và ngắn, cạo vảy lộ thịt trắng
+  - text: Để nguyên vảy, không ướp một hạt muối
+  - text: Lửa to và ngắn, cạo vảy lộ thịt trắng

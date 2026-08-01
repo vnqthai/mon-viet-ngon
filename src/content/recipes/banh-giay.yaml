@@ -318,9 +318,6 @@ faq:
       có bánh cũ thì rán vàng hai mặt, ăn kiểu khác lại ngon.
 
 ticker:
-  - icon: drop
-    text: Nhào bằng nước ấm 70 độ, không phải nước lạnh
-  - icon: rice
-    text: Chút bột gạo tẻ giữ cho bánh đứng dáng
-  - icon: herb
-    text: Lót lá chuối dưới từng miếng khi hấp
+  - text: Nhào bằng nước ấm 70 độ, không phải nước lạnh
+  - text: Chút bột gạo tẻ giữ cho bánh đứng dáng
+  - text: Lót lá chuối dưới từng miếng khi hấp

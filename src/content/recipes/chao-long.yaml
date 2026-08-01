@@ -485,15 +485,9 @@ faq:
       giá, rau răm và quẩy thì để sát giờ ăn.
 
 ticker:
-  - icon: rice
-    text: Gạo rang ninh trong nước luộc lòng
-  - icon: roll
-    text: Khoanh dồi mềm ẩm, thơm húng quế
-  - icon: meat
-    text: Lòng non ngâm đá cho giòn sựt
-  - icon: sprout
-    text: Nắm giá trải đáy tô rồi chan cháo nóng
-  - icon: herb
-    text: Rau răm thái nhỏ rắc dày tay
-  - icon: bottle
-    text: Chén mắm gừng ớt chấm lòng
+  - text: Gạo rang ninh trong nước luộc lòng
+  - text: Khoanh dồi mềm ẩm, thơm húng quế
+  - text: Lòng non ngâm đá cho giòn sựt
+  - text: Nắm giá trải đáy tô rồi chan cháo nóng
+  - text: Rau răm thái nhỏ rắc dày tay
+  - text: Chén mắm gừng ớt chấm lòng

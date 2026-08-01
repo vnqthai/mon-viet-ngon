@@ -369,15 +369,9 @@ faq:
       cứ đông.
 
 ticker:
-  - icon: flame
-    text: Thui bì cho ngả vàng nâu
-  - icon: ginger
-    text: Riềng già giã tay, không xay máy
-  - icon: drop
-    text: Lọc mẻ lấy nước, bỏ bã
-  - icon: clock
-    text: Thử từ phút 45, đừng ninh cho đủ giờ
-  - icon: pot
-    text: Đun cạn cho nước sánh bám thịt
-  - icon: herb
-    text: Rắc lá mơ lúc bưng ra
+  - text: Thui bì cho ngả vàng nâu
+  - text: Riềng già giã tay, không xay máy
+  - text: Lọc mẻ lấy nước, bỏ bã
+  - text: Thử từ phút 45, đừng ninh cho đủ giờ
+  - text: Đun cạn cho nước sánh bám thịt
+  - text: Rắc lá mơ lúc bưng ra

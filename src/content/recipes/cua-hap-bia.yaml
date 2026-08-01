@@ -315,15 +315,9 @@ faq:
       sau, còn ngon hơn hấp lại.
 
 ticker:
-  - icon: clock
-    text: Ngăn đá hai chục phút
-  - icon: shrimp
-    text: Càng nguyên, gạch nguyên khối
-  - icon: stem
-    text: Nằm trên giàn sả gừng
-  - icon: bottle
-    text: Bia chỉ đổ dưới đáy nồi
-  - icon: lime
-    text: Muối tiêu chanh vắt sát giờ
-  - icon: flame
-    text: Mai đỏ cam đều là chín
+  - text: Ngăn đá hai chục phút
+  - text: Càng nguyên, gạch nguyên khối
+  - text: Nằm trên giàn sả gừng
+  - text: Bia chỉ đổ dưới đáy nồi
+  - text: Muối tiêu chanh vắt sát giờ
+  - text: Mai đỏ cam đều là chín

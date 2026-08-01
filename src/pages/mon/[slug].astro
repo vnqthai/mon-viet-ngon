@@ -9,6 +9,7 @@ import { fmtQty } from '../../utils/qty';
 import { viDurationToISO, stepToPlainText } from '../../utils/seo';
 import { familyOf } from '../../utils/family';
 import { relatedFor } from '../../utils/related';
+import { tickerDuration } from '../../utils/ticker';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -177,12 +178,18 @@ const breadcrumbLd = {
     </div>
   </section>
 
+  {/* `ticker--reverse`: băng mẹo chạy SANG PHẢI, ngược chiều băng tên món ở
+      trang chủ. Đây là mẹo của chính món đang đọc, không bấm đi đâu được —
+      khác chiều thì không ai thử bấm hụt. (Chú thích kiểu này bị trình biên
+      dịch bỏ đi; `<!-- -->` thì theo ra tận HTML của cả 126 trang.) */}
   {hasTicker && (
-    <div class="ticker" aria-hidden="true">
+    <div class="ticker ticker--reverse" aria-hidden="true" style={`--ticker-dur:${tickerDuration(d.ticker)}s`}>
       <div class="ticker__track">
-        {[...d.ticker, ...d.ticker].map((t: any) => (
-          <span class="ticker__item"><Icon name={t.icon} />{t.text}</span>
-        ))}
+        {d.ticker.map((t: any) => <span class="ticker__item">{t.text}</span>)}
+        {/* Bản chép để nối vòng. Đánh dấu `aria-hidden` cho khớp trang chủ —
+            nhờ vậy luật `prefers-reduced-motion` (tắt chạy, cho kéo ngang) giấu
+            được bản chép, không thì kéo ra thấy mẹo lặp hai lần. */}
+        {d.ticker.map((t: any) => <span class="ticker__item" aria-hidden="true">{t.text}</span>)}
       </div>
     </div>
   )}

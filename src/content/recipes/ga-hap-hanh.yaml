@@ -305,7 +305,5 @@ faq:
       thịt gà hấp quay lại là khô xác và dai.
 
 ticker:
-  - icon: herb
-    text: Lót hành lá dưới đáy cho hơi luồn xuống
-  - icon: drop
-    text: Nước đọng dưới đáy đĩa là chỗ ngọt nhất
+  - text: Lót hành lá dưới đáy cho hơi luồn xuống
+  - text: Nước đọng dưới đáy đĩa là chỗ ngọt nhất

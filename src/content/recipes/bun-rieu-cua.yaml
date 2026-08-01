@@ -402,15 +402,9 @@ faq:
       bữa nào mua bữa đó — bún để tủ lạnh là chua, rau héo mất giòn.
 
 ticker:
-  - icon: tomato
-    text: Nước riêu đỏ hồng cà chua
-  - icon: bowl
-    text: Riêu cua nổi tảng vàng óng
-  - icon: bottle
-    text: Giấm bỗng chua thanh
-  - icon: roll
-    text: Đậu phụ chiên phao mọng nước
-  - icon: sprout
-    text: Rau muống chẻ cong giòn
-  - icon: lime
-    text: Chanh ớt mắm tôm đủ bộ
+  - text: Nước riêu đỏ hồng cà chua
+  - text: Riêu cua nổi tảng vàng óng
+  - text: Giấm bỗng chua thanh
+  - text: Đậu phụ chiên phao mọng nước
+  - text: Rau muống chẻ cong giòn
+  - text: Chanh ớt mắm tôm đủ bộ

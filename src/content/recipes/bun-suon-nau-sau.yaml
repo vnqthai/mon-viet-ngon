@@ -370,15 +370,9 @@ faq:
       chần mới**, đừng để bún ngâm trong nước qua đêm.
 
 ticker:
-  - icon: pod
-    text: Quả sấu mùa hè
-  - icon: drop
-    text: Nước trong thấy đáy
-  - icon: bottle
-    text: Chua thanh không gắt
-  - icon: meat
-    text: Sườn mềm rời xương
-  - icon: tomato
-    text: Cà chua đỏ au
-  - icon: herb
-    text: Mùi tàu rắc nóng
+  - text: Quả sấu mùa hè
+  - text: Nước trong thấy đáy
+  - text: Chua thanh không gắt
+  - text: Sườn mềm rời xương
+  - text: Cà chua đỏ au
+  - text: Mùi tàu rắc nóng

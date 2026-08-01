@@ -401,15 +401,9 @@ faq:
       này ốc lần nào cũng giòn như mới.
 
 ticker:
-  - icon: bowl
-    text: Ốc giòn sần sật
-  - icon: pod
-    text: Chuối xanh bùi bở
-  - icon: herb
-    text: Tía tô lá lốt thơm nồng
-  - icon: jar
-    text: Chua dịu vị mẻ
-  - icon: drop
-    text: Nước om sánh quánh
-  - icon: ginger
-    text: Vàng nghệ ngả đỏ
+  - text: Ốc giòn sần sật
+  - text: Chuối xanh bùi bở
+  - text: Tía tô lá lốt thơm nồng
+  - text: Chua dịu vị mẻ
+  - text: Nước om sánh quánh
+  - text: Vàng nghệ ngả đỏ

@@ -355,7 +355,5 @@ faq:
       vào chỗ dày nhất xem có ra nước hồng không.
 
 ticker:
-  - icon: meat
-    text: Lát thịt luộc hai đầu da
-  - icon: jar
-    text: Mắm nêm pha thơm băm
+  - text: Lát thịt luộc hai đầu da
+  - text: Mắm nêm pha thơm băm

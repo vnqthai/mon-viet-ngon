@@ -321,7 +321,5 @@ faq:
       chắn.
 
 ticker:
-  - icon: shrimp
-    text: Chặt chóp đuôi cho thấm, ăn thì hút
-  - icon: bottle
-    text: Nước cốt dừa chia hai lần cho khỏi tách dầu
+  - text: Chặt chóp đuôi cho thấm, ăn thì hút
+  - text: Nước cốt dừa chia hai lần cho khỏi tách dầu

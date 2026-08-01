@@ -449,15 +449,9 @@ faq:
       nêm.
 
 ticker:
-  - icon: flame
-    text: Da nổ rôm rốp dưới dao
-  - icon: clock
-    text: Hong tủ lạnh qua đêm
-  - icon: jar
-    text: Ngũ vị hương và chao đỏ
-  - icon: drop
-    text: Muối hột hút khô mặt da
-  - icon: meat
-    text: Ba tầng da – mỡ – nạc
-  - icon: knife
-    text: Chặt một nhát dứt khoát
+  - text: Da nổ rôm rốp dưới dao
+  - text: Hong tủ lạnh qua đêm
+  - text: Ngũ vị hương và chao đỏ
+  - text: Muối hột hút khô mặt da
+  - text: Ba tầng da – mỡ – nạc
+  - text: Chặt một nhát dứt khoát

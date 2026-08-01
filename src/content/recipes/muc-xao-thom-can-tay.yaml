@@ -435,17 +435,10 @@ faq:
       nồng dậy mũi — đổi rồi thấy nhớ liền.
 
 ticker:
-  - icon: fish
-    text: Mực cuộn hoa trắng nõn
-  - icon: flame
-    text: Chảo nóng già xào nhanh tay
-  - icon: pineapple
-    text: Thơm chín mọng chua ngọt
-  - icon: stem
-    text: Cần tây thơm nồng
-  - icon: onion
-    text: Hành tây giòn ngọt
-  - icon: jar
-    text: Sốt dầu hào áo bóng
-  - icon: chili
-    text: Ớt sừng cay nhẹ đưa cơm
+  - text: Mực cuộn hoa trắng nõn
+  - text: Chảo nóng già xào nhanh tay
+  - text: Thơm chín mọng chua ngọt
+  - text: Cần tây thơm nồng
+  - text: Hành tây giòn ngọt
+  - text: Sốt dầu hào áo bóng
+  - text: Ớt sừng cay nhẹ đưa cơm

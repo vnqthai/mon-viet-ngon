@@ -476,15 +476,9 @@ faq:
       tiềm ngoài hàng.
 
 ticker:
-  - icon: meat
-    text: Đùi vịt chiên vàng giòn da
-  - icon: drop
-    text: Nước dùng nâu hổ phách, ngọt hậu
-  - icon: jar
-    text: Túi gia vị thơm ấm
-  - icon: pod
-    text: Nấm đông cô mềm đậm
-  - icon: noodle
-    text: Mì trứng vàng sợi dai
-  - icon: lettuce
-    text: Cải thìa trụng còn xanh giòn
+  - text: Đùi vịt chiên vàng giòn da
+  - text: Nước dùng nâu hổ phách, ngọt hậu
+  - text: Túi gia vị thơm ấm
+  - text: Nấm đông cô mềm đậm
+  - text: Mì trứng vàng sợi dai
+  - text: Cải thìa trụng còn xanh giòn

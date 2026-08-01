@@ -395,15 +395,9 @@ faq:
       cho bé. Nước dùng nêm nhạt hơn, và chan ít nghệ lại cho đỡ hắc.
 
 ticker:
-  - icon: fish
-    text: Lươn gỡ dọc thớ, còn nguyên miếng
-  - icon: onion
-    text: Hành tăm dùng hai lần
-  - icon: flame
-    text: Xào tới khi mặt lươn khô ráo
-  - icon: pot
-    text: Nước ninh từ chính xương lươn
-  - icon: alert
-    text: Gỡ thịt xong đừng rửa lại
-  - icon: bowl
-    text: Tô của buổi sáng xứ Nghệ
+  - text: Lươn gỡ dọc thớ, còn nguyên miếng
+  - text: Hành tăm dùng hai lần
+  - text: Xào tới khi mặt lươn khô ráo
+  - text: Nước ninh từ chính xương lươn
+  - text: Gỡ thịt xong đừng rửa lại
+  - text: Tô của buổi sáng xứ Nghệ

@@ -342,15 +342,9 @@ faq:
       hũ chưa khô hoặc nắp đậy không kín.
 
 ticker:
-  - icon: knife
-    text: Thái dọc thớ thì sợi mới dài
-  - icon: flame
-    text: Rang lửa nhỏ nhất, gần một tiếng
-  - icon: spoon
-    text: Giã nhẹ cho tướp, đừng nện nát
-  - icon: jar
-    text: Nguội hẳn rồi mới vô hũ
-  - icon: meat
-    text: Nửa ký thịt ra một hũ nhỏ
-  - icon: bread
-    text: Cháo, xôi, bánh mì — thứ nào cũng hợp
+  - text: Thái dọc thớ thì sợi mới dài
+  - text: Rang lửa nhỏ nhất, gần một tiếng
+  - text: Giã nhẹ cho tướp, đừng nện nát
+  - text: Nguội hẳn rồi mới vô hũ
+  - text: Nửa ký thịt ra một hũ nhỏ
+  - text: Cháo, xôi, bánh mì — thứ nào cũng hợp

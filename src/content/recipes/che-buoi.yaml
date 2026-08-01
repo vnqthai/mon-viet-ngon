@@ -362,15 +362,9 @@ faq:
       bị một màu. Không có đậu xanh cà thì tăng dừa nạo và đậu phộng lên.
 
 ticker:
-  - icon: lime
-    text: Cùi bưởi trong như thạch
-  - icon: drop
-    text: Cốt dừa mặn nhẹ
-  - icon: pod
-    text: Đậu xanh bở tơi
-  - icon: herb
-    text: Lá dứa thơm nồi nước đường
-  - icon: sun
-    text: Mát miệng ba giờ chiều
-  - icon: jar
-    text: Món chè lấy công làm lãi
+  - text: Cùi bưởi trong như thạch
+  - text: Cốt dừa mặn nhẹ
+  - text: Đậu xanh bở tơi
+  - text: Lá dứa thơm nồi nước đường
+  - text: Mát miệng ba giờ chiều
+  - text: Món chè lấy công làm lãi

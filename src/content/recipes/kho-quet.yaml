@@ -359,15 +359,9 @@ faq:
       cách, đọt xoài non.
 
 ticker:
-  - icon: pot
-    text: Rim tới khi kéo đũa hở đáy tộ
-  - icon: flame
-    text: Lửa nhỏ nhất, từ đầu tới cuối
-  - icon: meat
-    text: Tóp mỡ thả sau khi tắt bếp
-  - icon: lettuce
-    text: Bẻ miếng rau luộc quẹt một vòng
-  - icon: pepper
-    text: Tiêu xanh nguyên chùm thả cuối
-  - icon: rice
-    text: Một tộ con đưa hết nồi cơm
+  - text: Rim tới khi kéo đũa hở đáy tộ
+  - text: Lửa nhỏ nhất, từ đầu tới cuối
+  - text: Tóp mỡ thả sau khi tắt bếp
+  - text: Bẻ miếng rau luộc quẹt một vòng
+  - text: Tiêu xanh nguyên chùm thả cuối
+  - text: Một tộ con đưa hết nồi cơm

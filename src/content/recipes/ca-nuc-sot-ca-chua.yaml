@@ -377,15 +377,9 @@ faq:
       điều: hạt điều màu phi với dầu nóng chừng 2 phút rồi lọc bỏ hạt.
 
 ticker:
-  - icon: fish
-    text: Rim tới rục xương
-  - icon: tomato
-    text: Sốt cà đỏ au đậm đà
-  - icon: pot
-    text: Lửa nhỏ nhất, bốn mươi phút
-  - icon: bread
-    text: Quệt bánh mì cũng hợp
-  - icon: alert
-    text: Cạo sạch màng đen trong bụng
-  - icon: chili
-    text: Cay rõ kiểu miền Trung
+  - text: Rim tới rục xương
+  - text: Sốt cà đỏ au đậm đà
+  - text: Lửa nhỏ nhất, bốn mươi phút
+  - text: Quệt bánh mì cũng hợp
+  - text: Cạo sạch màng đen trong bụng
+  - text: Cay rõ kiểu miền Trung

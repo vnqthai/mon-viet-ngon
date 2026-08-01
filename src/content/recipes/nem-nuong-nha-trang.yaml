@@ -370,7 +370,5 @@ faq:
       mắm — hai thứ chấm đó dành cho hai cách ăn khác nhau.
 
 ticker:
-  - icon: roll
-    text: Ống bánh tráng chiên giòn giấu trong cuốn
-  - icon: bowl
-    text: Chấm tương sánh chứ không phải nước mắm pha
+  - text: Ống bánh tráng chiên giòn giấu trong cuốn
+  - text: Chấm tương sánh chứ không phải nước mắm pha

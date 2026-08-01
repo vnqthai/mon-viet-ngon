@@ -366,15 +366,9 @@ faq:
       thì tách nước, chén súp lợn cợn.
 
 ticker:
-  - icon: shrimp
-    text: Thịt cua gỡ theo thớ, thả sau cùng
-  - icon: egg
-    text: Tắt bếp rồi mới rót trứng thành vân
-  - icon: drop
-    text: Sánh tới mức muỗng chảy thành dòng chậm
-  - icon: pot
-    text: Giữ lại nước hấp cua cho vào nồi
-  - icon: bread
-    text: Quẩy thả lên mặt lúc bưng ra
-  - icon: bowl
-    text: Chén quà chiều, và chén mở màn bàn tiệc
+  - text: Thịt cua gỡ theo thớ, thả sau cùng
+  - text: Tắt bếp rồi mới rót trứng thành vân
+  - text: Sánh tới mức muỗng chảy thành dòng chậm
+  - text: Giữ lại nước hấp cua cho vào nồi
+  - text: Quẩy thả lên mặt lúc bưng ra
+  - text: Chén quà chiều, và chén mở màn bàn tiệc

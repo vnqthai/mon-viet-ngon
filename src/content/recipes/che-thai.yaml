@@ -341,15 +341,9 @@ faq:
       luộc thì **luộc riêng rồi xả lạnh** trước khi cho vào ly, đừng luộc chung.
 
 ticker:
-  - icon: pod
-    text: Hạt lựu có ruột củ năng mới sựt
-  - icon: pineapple
-    text: Mít xé sợi, đừng băm
-  - icon: drop
-    text: Nước cốt phải lạnh trước khi chan
-  - icon: jar
-    text: Sầu riêng thay chỗ siro hoa hồng
-  - icon: sun
-    text: Đá bào phủ trên, cốt chảy xuống
-  - icon: star
-    text: Bán được một nửa bằng mắt
+  - text: Hạt lựu có ruột củ năng mới sựt
+  - text: Mít xé sợi, đừng băm
+  - text: Nước cốt phải lạnh trước khi chan
+  - text: Sầu riêng thay chỗ siro hoa hồng
+  - text: Đá bào phủ trên, cốt chảy xuống
+  - text: Bán được một nửa bằng mắt

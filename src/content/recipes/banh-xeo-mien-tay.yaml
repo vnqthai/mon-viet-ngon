@@ -442,17 +442,10 @@ faq:
       gập.
 
 ticker:
-  - icon: flame
-    text: Nghe xèo là thèm
-  - icon: drop
-    text: Béo thơm nước cốt dừa
-  - icon: shrimp
-    text: Tôm đất ngọt lừ
-  - icon: lettuce
-    text: Cuốn lá cải xanh
-  - icon: pod
-    text: Đậu xanh bùi bùi
-  - icon: bottle
-    text: Mắm chua ngọt đồ chua
-  - icon: sprout
-    text: Giá hấp vừa héo
+  - text: Nghe xèo là thèm
+  - text: Béo thơm nước cốt dừa
+  - text: Tôm đất ngọt lừ
+  - text: Cuốn lá cải xanh
+  - text: Đậu xanh bùi bùi
+  - text: Mắm chua ngọt đồ chua
+  - text: Giá hấp vừa héo

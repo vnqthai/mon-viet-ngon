@@ -353,15 +353,9 @@ faq:
       trong bữa, khỏi lo chuyện để dành.
 
 ticker:
-  - icon: herb
-    text: Lá giang vò giập chua thanh
-  - icon: meat
-    text: Gà ta xào săn ngọt thịt
-  - icon: drop
-    text: Nước canh vàng trong veo
-  - icon: lime
-    text: Muối ớt chấm gà đã đời
-  - icon: sprout
-    text: Ngò om ngò gai dậy mùi
-  - icon: flame
-    text: Thêm bún là thành lẩu
+  - text: Lá giang vò giập chua thanh
+  - text: Gà ta xào săn ngọt thịt
+  - text: Nước canh vàng trong veo
+  - text: Muối ớt chấm gà đã đời
+  - text: Ngò om ngò gai dậy mùi
+  - text: Thêm bún là thành lẩu

@@ -372,15 +372,9 @@ faq:
       quen thuộc nhất.
 
 ticker:
-  - icon: herb
-    text: Nhân đặt trên mặt sẫm của lá
-  - icon: flame
-    text: Đợi than phủ tro trắng rồi mới nướng
-  - icon: meat
-    text: Trộn mỡ heo cho nhân khỏi khô
-  - icon: roll
-    text: Ghim mép bằng chính cuống lá
-  - icon: drop
-    text: Lá phải ráo hẳn mới cuốn được
-  - icon: bottle
-    text: Cuốn bánh tráng, chấm mắm nêm
+  - text: Nhân đặt trên mặt sẫm của lá
+  - text: Đợi than phủ tro trắng rồi mới nướng
+  - text: Trộn mỡ heo cho nhân khỏi khô
+  - text: Ghim mép bằng chính cuống lá
+  - text: Lá phải ráo hẳn mới cuốn được
+  - text: Cuốn bánh tráng, chấm mắm nêm

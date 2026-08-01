@@ -393,17 +393,10 @@ faq:
       năng" của bếp Việt đó.
 
 ticker:
-  - icon: flame
-    text: Nổ giòn rôm rốp
-  - icon: roll
-    text: Vàng ruộm từng cuốn
-  - icon: pumpkin
-    text: Khoai môn bùi béo
-  - icon: shrimp
-    text: Tôm thịt ngọt mềm
-  - icon: bottle
-    text: Mắm chua ngọt đồ chua
-  - icon: lettuce
-    text: Cuốn rau mát rượi
-  - icon: basket
-    text: Cấp đông ăn dần tiện ghê
+  - text: Nổ giòn rôm rốp
+  - text: Vàng ruộm từng cuốn
+  - text: Khoai môn bùi béo
+  - text: Tôm thịt ngọt mềm
+  - text: Mắm chua ngọt đồ chua
+  - text: Cuốn rau mát rượi
+  - text: Cấp đông ăn dần tiện ghê

@@ -389,15 +389,9 @@ faq:
       đáng — nó hợp với cơm chiên, mì xào và cả món heo quay chấm.
 
 ticker:
-  - icon: bread
-    text: Hai lớp giòn chồng nhau
-  - icon: meat
-    text: Mảng da nổ rộp
-  - icon: bottle
-    text: Sốt tương đen quánh như mật
-  - icon: garlic
-    text: Tỏi phi vàng nhạt
-  - icon: pod
-    text: Đồ chua vắt kiệt nước
-  - icon: alert
-    text: Chan sốt sau cùng, đừng chan sớm
+  - text: Hai lớp giòn chồng nhau
+  - text: Mảng da nổ rộp
+  - text: Sốt tương đen quánh như mật
+  - text: Tỏi phi vàng nhạt
+  - text: Đồ chua vắt kiệt nước
+  - text: Chan sốt sau cùng, đừng chan sớm

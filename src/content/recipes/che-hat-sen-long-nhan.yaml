@@ -327,15 +327,9 @@ faq:
       thêm đá lúc dọn.
 
 ticker:
-  - icon: flower
-    text: Mỗi trái nhãn giấu một hạt sen
-  - icon: drop
-    text: Nước đường phèn trong thấy đáy chén
-  - icon: pod
-    text: Giòn mọng trước, bùi bở sau
-  - icon: clock
-    text: Nguội hẳn rồi mới thả nhãn
-  - icon: knife
-    text: Khoét từ lỗ cuống thì cùi ít rách
-  - icon: bowl
-    text: Chén chè của mâm tiếp khách
+  - text: Mỗi trái nhãn giấu một hạt sen
+  - text: Nước đường phèn trong thấy đáy chén
+  - text: Giòn mọng trước, bùi bở sau
+  - text: Nguội hẳn rồi mới thả nhãn
+  - text: Khoét từ lỗ cuống thì cùi ít rách
+  - text: Chén chè của mâm tiếp khách

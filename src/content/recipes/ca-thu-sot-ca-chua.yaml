@@ -390,15 +390,9 @@ faq:
       chín ngọt tự nhiên, kéo cả nồi sốt dịu lại mà không phải thêm đường.
 
 ticker:
-  - icon: fish
-    text: Khúc cá còn nguyên hình
-  - icon: tomato
-    text: Sốt cà sánh đỏ au
-  - icon: herb
-    text: Thì là rắc lúc cuối
-  - icon: flame
-    text: Chiên sơ rồi mới rim
-  - icon: alert
-    text: Rưới sốt, đừng đảo cá
-  - icon: rice
-    text: Chan lên chén cơm nóng
+  - text: Khúc cá còn nguyên hình
+  - text: Sốt cà sánh đỏ au
+  - text: Thì là rắc lúc cuối
+  - text: Chiên sơ rồi mới rim
+  - text: Rưới sốt, đừng đảo cá
+  - text: Chan lên chén cơm nóng

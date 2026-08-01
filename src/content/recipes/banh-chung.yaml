@@ -368,9 +368,6 @@ faq:
       chua là bỏ, đừng gọt phần ngoài rồi ăn phần trong.
 
 ticker:
-  - icon: drop
-    text: Nước phải ngập bánh suốt mười hai tiếng
-  - icon: herb
-    text: Lá dong lau thật khô rồi mới gói
-  - icon: clock
-    text: Luộc xong còn phải ép sáu tiếng
+  - text: Nước phải ngập bánh suốt mười hai tiếng
+  - text: Lá dong lau thật khô rồi mới gói
+  - text: Luộc xong còn phải ép sáu tiếng

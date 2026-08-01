@@ -414,17 +414,10 @@ faq:
       canh ba thứ đó nhẹ tay hơn.
 
 ticker:
-  - icon: claypot
-    text: Hầm liu riu mềm tan
-  - icon: drop
-    text: Nước dừa ngọt thanh
-  - icon: star
-    text: Hồi quế ngũ vị thơm sâu
-  - icon: meat
-    text: Gân dẻo nạm mọng
-  - icon: roll
-    text: Bánh mì chấm quẹt sạch nồi
-  - icon: tomato
-    text: Cà rốt ngọt lịm
-  - icon: herb
-    text: Húng quế ngò gai dậy mùi
+  - text: Hầm liu riu mềm tan
+  - text: Nước dừa ngọt thanh
+  - text: Hồi quế ngũ vị thơm sâu
+  - text: Gân dẻo nạm mọng
+  - text: Bánh mì chấm quẹt sạch nồi
+  - text: Cà rốt ngọt lịm
+  - text: Húng quế ngò gai dậy mùi

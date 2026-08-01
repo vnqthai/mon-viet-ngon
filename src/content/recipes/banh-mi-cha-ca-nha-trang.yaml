@@ -453,15 +453,9 @@ faq:
       chiên thẳng lúc còn đá, dầu bắn tung tóe mà ruột vẫn lạnh.
 
 ticker:
-  - icon: fish
-    text: Chả cá quết tay dai sật
-  - icon: onion
-    text: Sốt hành tây sền sệt
-  - icon: herb
-    text: Rau răm cay ấm
-  - icon: bread
-    text: Vỏ bánh nướng giòn lại
-  - icon: flame
-    text: Hấp rồi mới chiên vàng
-  - icon: drop
-    text: Bí quyết nằm ở chữ "lạnh"
+  - text: Chả cá quết tay dai sật
+  - text: Sốt hành tây sền sệt
+  - text: Rau răm cay ấm
+  - text: Vỏ bánh nướng giòn lại
+  - text: Hấp rồi mới chiên vàng
+  - text: Bí quyết nằm ở chữ "lạnh"

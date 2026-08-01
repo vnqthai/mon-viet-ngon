@@ -373,15 +373,9 @@ faq:
       [[300|g]] gân.
 
 ticker:
-  - icon: meat
-    text: Nạm, gân, đuôi — ba kết cấu
-  - icon: flame
-    text: Nướng xương trước khi hầm
-  - icon: bread
-    text: Ăn với bánh mì, không phải bún
-  - icon: bottle
-    text: Chén chao sa tế
-  - icon: clock
-    text: Thả thịt theo ba đợt
-  - icon: drop
-    text: Nồi lẩu của chiều mưa dầm
+  - text: Nạm, gân, đuôi — ba kết cấu
+  - text: Nướng xương trước khi hầm
+  - text: Ăn với bánh mì, không phải bún
+  - text: Chén chao sa tế
+  - text: Thả thịt theo ba đợt
+  - text: Nồi lẩu của chiều mưa dầm

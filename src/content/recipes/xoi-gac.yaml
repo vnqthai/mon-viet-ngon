@@ -355,9 +355,6 @@ faq:
       dừa. Đừng quay lò vi sóng — mặt ngoài dai lại còn lõi vẫn lạnh.
 
 ticker:
-  - icon: pumpkin
-    text: Chỉ lấy lớp thịt đỏ bám quanh hạt
-  - icon: jar
-    text: Đường trộn sau khi xôi đã chín
-  - icon: plate
-    text: Ép khuôn lúc còn nóng mới đứng khối
+  - text: Chỉ lấy lớp thịt đỏ bám quanh hạt
+  - text: Đường trộn sau khi xôi đã chín
+  - text: Ép khuôn lúc còn nóng mới đứng khối

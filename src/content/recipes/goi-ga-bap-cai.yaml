@@ -437,17 +437,10 @@ faq:
       nhưng vị vẫn đậm — kẹp ổ bánh mì giòn lại thành món mới ra trò.
 
 ticker:
-  - icon: lettuce
-    text: Bắp cải giòn rôm rốp
-  - icon: meat
-    text: Gà xé phay ngọt thịt
-  - icon: herb
-    text: The nồng rau răm
-  - icon: onion
-    text: Hành tây ngâm giòn ngọt
-  - icon: lime
-    text: Chua ngọt cân tay
-  - icon: pod
-    text: Bùi bùi đậu phộng rang
-  - icon: bowl
-    text: Cháo nóng chốt tiệc
+  - text: Bắp cải giòn rôm rốp
+  - text: Gà xé phay ngọt thịt
+  - text: The nồng rau răm
+  - text: Hành tây ngâm giòn ngọt
+  - text: Chua ngọt cân tay
+  - text: Bùi bùi đậu phộng rang
+  - text: Cháo nóng chốt tiệc

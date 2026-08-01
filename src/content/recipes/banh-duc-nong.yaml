@@ -397,9 +397,6 @@ faq:
       ăn bằng thìa. Cùng tên bánh đúc nhưng hai cách ăn không giống nhau chỗ nào.
 
 ticker:
-  - icon: pot
-    text: Khuấy một chiều, tay không rời đũa
-  - icon: spoon
-    text: Múc thìa lên, chảy chậm thành dải là đạt
-  - icon: bottle
-    text: Nước chan phải ấm bằng bát bột
+  - text: Khuấy một chiều, tay không rời đũa
+  - text: Múc thìa lên, chảy chậm thành dải là đạt
+  - text: Nước chan phải ấm bằng bát bột

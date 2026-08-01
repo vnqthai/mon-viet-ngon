@@ -408,15 +408,9 @@ faq:
       sáng là hết ý.
 
 ticker:
-  - icon: sun
-    text: Vàng nghệ ánh cam
-  - icon: drop
-    text: Nước cốt dừa béo lịm
-  - icon: pumpkin
-    text: Khoai bùi tan đầu lưỡi
-  - icon: meat
-    text: Gà ta mềm mọng
-  - icon: roll
-    text: Bánh mì chấm cạn đáy nồi
-  - icon: stem
-    text: Thơm lựng sả nghệ
+  - text: Vàng nghệ ánh cam
+  - text: Nước cốt dừa béo lịm
+  - text: Khoai bùi tan đầu lưỡi
+  - text: Gà ta mềm mọng
+  - text: Bánh mì chấm cạn đáy nồi
+  - text: Thơm lựng sả nghệ

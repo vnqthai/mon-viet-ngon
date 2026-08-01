@@ -419,15 +419,9 @@ faq:
       ướt quá** khi cho vào chảo — vắt ráo kỹ hơn.
 
 ticker:
-  - icon: shrimp
-    text: Tôm chấy bông tơi cam ruộm
-  - icon: flame
-    text: Lửa nhỏ nhất, đảo mười lăm phút
-  - icon: roll
-    text: Cuốn nhỏ cỡ ngón tay
-  - icon: bottle
-    text: Chén mắm Huế ngọt và cay
-  - icon: onion
-    text: Mỡ hành thoa từng lá bánh
-  - icon: basket
-    text: Một góc mâm bánh Huế
+  - text: Tôm chấy bông tơi cam ruộm
+  - text: Lửa nhỏ nhất, đảo mười lăm phút
+  - text: Cuốn nhỏ cỡ ngón tay
+  - text: Chén mắm Huế ngọt và cay
+  - text: Mỡ hành thoa từng lá bánh
+  - text: Một góc mâm bánh Huế

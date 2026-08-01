@@ -397,15 +397,9 @@ faq:
       trước, đồ mặn ở giữa, chà bông và hành phi trên cùng.
 
 ticker:
-  - icon: meat
-    text: Lạp xưởng chiên xém mép
-  - icon: sprout
-    text: Chà bông rắc sau cùng
-  - icon: egg
-    text: Trứng cút bóc sẵn
-  - icon: onion
-    text: Mỡ hành thấm xuống hạt nếp
-  - icon: bottle
-    text: Rưới xì dầu, vạch tương ớt
-  - icon: basket
-    text: Món xếp chồng, thích gì thêm nấy
+  - text: Lạp xưởng chiên xém mép
+  - text: Chà bông rắc sau cùng
+  - text: Trứng cút bóc sẵn
+  - text: Mỡ hành thấm xuống hạt nếp
+  - text: Rưới xì dầu, vạch tương ớt
+  - text: Món xếp chồng, thích gì thêm nấy

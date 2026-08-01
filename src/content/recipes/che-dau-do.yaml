@@ -332,15 +332,9 @@ faq:
       Đừng cấp đông — hạt rã đông bị bã.
 
 ticker:
-  - icon: pod
-    text: Hạt bở mà vỏ còn nguyên
-  - icon: flame
-    text: Rim đường cho ngọt tới ruột
-  - icon: drop
-    text: Đá bào phủ trên, cốt dừa chảy xuống
-  - icon: clock
-    text: Để qua ngày càng thấm ngọt
-  - icon: jar
-    text: Ninh mềm trước, nêm ngọt sau
-  - icon: sun
-    text: Ly chè của buổi chiều nóng
+  - text: Hạt bở mà vỏ còn nguyên
+  - text: Rim đường cho ngọt tới ruột
+  - text: Đá bào phủ trên, cốt dừa chảy xuống
+  - text: Để qua ngày càng thấm ngọt
+  - text: Ninh mềm trước, nêm ngọt sau
+  - text: Ly chè của buổi chiều nóng

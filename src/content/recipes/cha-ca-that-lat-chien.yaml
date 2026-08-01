@@ -386,9 +386,6 @@ faq:
       mới. Đừng quay lò vi sóng, miếng chả sẽ dai nhách và ướt.
 
 ticker:
-  - icon: fish
-    text: Nạo thịt bằng thìa, xuôi từ đuôi lên đầu
-  - icon: pot
-    text: Quết mười lăm phút, muối cho vào từ đầu
-  - icon: flame
-    text: Lửa vừa, để yên ba phút rồi mới lật
+  - text: Nạo thịt bằng thìa, xuôi từ đuôi lên đầu
+  - text: Quết mười lăm phút, muối cho vào từ đầu
+  - text: Lửa vừa, để yên ba phút rồi mới lật

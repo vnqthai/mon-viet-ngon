@@ -308,15 +308,9 @@ faq:
       ỉu ngay. Hai thứ đó làm mất có ba phút.
 
 ticker:
-  - icon: herb
-    text: Mỡ hành xanh óng
-  - icon: flame
-    text: Ruột cà mềm rục
-  - icon: jar
-    text: Đậu phộng giòn rôm rốp
-  - icon: bottle
-    text: Nước mắm chua ngọt
-  - icon: pod
-    text: Xé dọc chứ đừng cắt
-  - icon: lime
-    text: Chay mặn đều được
+  - text: Mỡ hành xanh óng
+  - text: Ruột cà mềm rục
+  - text: Đậu phộng giòn rôm rốp
+  - text: Nước mắm chua ngọt
+  - text: Xé dọc chứ đừng cắt
+  - text: Chay mặn đều được

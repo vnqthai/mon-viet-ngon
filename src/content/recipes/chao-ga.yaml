@@ -398,15 +398,9 @@ faq:
       loãng ra, ăn vẫn ngon nhưng hạt không tơi lại được.
 
 ticker:
-  - icon: rice
-    text: Gạo rang vàng thơm mùi cốm
-  - icon: drop
-    text: Ninh bằng chính nước luộc gà
-  - icon: meat
-    text: Gà xé phay trộn muối tiêu chanh
-  - icon: ginger
-    text: Gừng thái sợi rắc mặt tô
-  - icon: roll
-    text: Quẩy cắt khúc thả vào tới đâu ăn tới đó
-  - icon: herb
-    text: Lá chanh thái chỉ trộn vào thịt
+  - text: Gạo rang vàng thơm mùi cốm
+  - text: Ninh bằng chính nước luộc gà
+  - text: Gà xé phay trộn muối tiêu chanh
+  - text: Gừng thái sợi rắc mặt tô
+  - text: Quẩy cắt khúc thả vào tới đâu ăn tới đó
+  - text: Lá chanh thái chỉ trộn vào thịt

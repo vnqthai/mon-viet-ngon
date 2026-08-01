@@ -495,17 +495,10 @@ faq:
       không có nồi bún vẫn đứng vững.
 
 ticker:
-  - icon: stem
-    text: Sả đập thơm nức
-  - icon: jar
-    text: Mắm ruốc Huế nồng nàn
-  - icon: chili
-    text: Cay xé mà xuýt xoa
-  - icon: drop
-    text: Màu điều đỏ óng ánh
-  - icon: meat
-    text: Bắp bò giò heo mềm tan
-  - icon: noodle
-    text: Sợi bún to đúng điệu
-  - icon: flower
-    text: Bắp chuối bào giòn mát
+  - text: Sả đập thơm nức
+  - text: Mắm ruốc Huế nồng nàn
+  - text: Cay xé mà xuýt xoa
+  - text: Màu điều đỏ óng ánh
+  - text: Bắp bò giò heo mềm tan
+  - text: Sợi bún to đúng điệu
+  - text: Bắp chuối bào giòn mát

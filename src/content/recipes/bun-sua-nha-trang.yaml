@@ -345,9 +345,6 @@ faq:
       trong mất chỗ đứng.
 
 ticker:
-  - icon: bowl
-    text: Sứa giòn sần sật
-  - icon: fish
-    text: Nước cá liệt trong veo
-  - icon: alert
-    text: Sứa không nấu — chan nước sôi lên là vừa
+  - text: Sứa giòn sần sật
+  - text: Nước cá liệt trong veo
+  - text: Sứa không nấu — chan nước sôi lên là vừa

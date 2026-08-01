@@ -304,7 +304,5 @@ faq:
       Đừng áo sốt trước rồi hâm lại, hâm lần nào là mềm thêm lần đó.
 
 ticker:
-  - icon: flame
-    text: Nấu sốt chảo riêng rồi mới trút gà vào đảo hai phút
-  - icon: garlic
-    text: Tỏi phi vàng thì vớt ra, rắc lên sau cùng
+  - text: Nấu sốt chảo riêng rồi mới trút gà vào đảo hai phút
+  - text: Tỏi phi vàng thì vớt ra, rắc lên sau cùng

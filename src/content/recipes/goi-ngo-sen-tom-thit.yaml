@@ -331,7 +331,5 @@ faq:
       dĩa nào lên bàn cũng còn giòn.
 
 ticker:
-  - icon: stem
-    text: Ngâm nước đá pha chanh cho trắng giòn
-  - icon: clock
-    text: Trộn sát giờ bưng ra, đừng trộn để đó
+  - text: Ngâm nước đá pha chanh cho trắng giòn
+  - text: Trộn sát giờ bưng ra, đừng trộn để đó

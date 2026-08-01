@@ -397,15 +397,9 @@ faq:
       còn pha nước mắm và xào lòng, đúng ba phút.
 
 ticker:
-  - icon: meat
-    text: Lòng gà xào sần sật
-  - icon: flame
-    text: Hai ba phút là tắt bếp
-  - icon: herb
-    text: Rau răm cay ấm
-  - icon: pepper
-    text: Rắc tiêu rộng tay
-  - icon: bowl
-    text: Múc tô sâu, chan xâm xấp
-  - icon: ginger
-    text: Chần gừng rồi ngâm nước lạnh
+  - text: Lòng gà xào sần sật
+  - text: Hai ba phút là tắt bếp
+  - text: Rau răm cay ấm
+  - text: Rắc tiêu rộng tay
+  - text: Múc tô sâu, chan xâm xấp
+  - text: Chần gừng rồi ngâm nước lạnh

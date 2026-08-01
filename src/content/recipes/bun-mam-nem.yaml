@@ -348,7 +348,5 @@ faq:
       và xắt thịt ngay trước lúc dọn.
 
 ticker:
-  - icon: meat
-    text: Bún mắm nêm thịt quay da giòn
-  - icon: pod
-    text: Mít non xé sợi ngậm đầy mắm
+  - text: Bún mắm nêm thịt quay da giòn
+  - text: Mít non xé sợi ngậm đầy mắm

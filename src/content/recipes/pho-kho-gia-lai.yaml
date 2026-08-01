@@ -436,17 +436,10 @@ faq:
       dân Gia Lai xài hoài.
 
 ticker:
-  - icon: bowl
-    text: Một món dọn hai tô
-  - icon: noodle
-    text: Sợi nhỏ săn dai
-  - icon: jar
-    text: Tương đen mặn ngọt dịu
-  - icon: onion
-    text: Hành phi thơm lựng
-  - icon: drop
-    text: Nước dùng trong veo ngọt xương
-  - icon: map
-    text: Đặc sản phố núi Pleiku
-  - icon: meat
-    text: Gà xé ngọt, viên bò săn
+  - text: Một món dọn hai tô
+  - text: Sợi nhỏ săn dai
+  - text: Tương đen mặn ngọt dịu
+  - text: Hành phi thơm lựng
+  - text: Nước dùng trong veo ngọt xương
+  - text: Đặc sản phố núi Pleiku
+  - text: Gà xé ngọt, viên bò săn

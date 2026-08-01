@@ -134,6 +134,6 @@ faq:                              # tùy chọn
   - q: Câu hỏi hay gặp?
     a: Trả lời gọn, dùng được **đậm**.
 
-# ticker:                         # tùy chọn — băng chữ chạy dưới hero
-#   - icon: drop
-#     text: Cụm từ gợi vị
+# ticker:                         # tùy chọn — băng chữ chạy dưới hero, chạy
+#   - text: Cụm từ gợi vị         #   NGƯỢC chiều băng trang chủ cho khỏi lẫn:
+#   - text: Cụm nữa               #   đây là mẹo của món, không bấm được

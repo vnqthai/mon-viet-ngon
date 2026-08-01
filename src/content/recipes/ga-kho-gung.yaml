@@ -359,15 +359,9 @@ faq:
       khóa đó là nồi kho đẹp liền.
 
 ticker:
-  - icon: ginger
-    text: Gừng già cay ấm
-  - icon: drop
-    text: Nước kho sánh keo cánh gián
-  - icon: meat
-    text: Da gà vàng óng
-  - icon: flame
-    text: Thơm lừng ngày mưa
-  - icon: rice
-    text: Chan cơm nóng là chân lý
-  - icon: herb
-    text: Hành lá tiêu xay dậy mùi
+  - text: Gừng già cay ấm
+  - text: Nước kho sánh keo cánh gián
+  - text: Da gà vàng óng
+  - text: Thơm lừng ngày mưa
+  - text: Chan cơm nóng là chân lý
+  - text: Hành lá tiêu xay dậy mùi

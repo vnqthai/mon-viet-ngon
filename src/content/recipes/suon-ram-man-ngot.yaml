@@ -391,15 +391,9 @@ faq:
       bé nhỏ tuổi.
 
 ticker:
-  - icon: flame
-    text: Sém cạnh thơm lựng
-  - icon: drop
-    text: Sốt keo óng ánh
-  - icon: spoon
-    text: Mặn trước ngọt sau
-  - icon: meat
-    text: Cục sụn giòn sựt
-  - icon: rice
-    text: Cơm trắng thổi không kịp
-  - icon: chili
-    text: Cay nhẹ tùy nhà
+  - text: Sém cạnh thơm lựng
+  - text: Sốt keo óng ánh
+  - text: Mặn trước ngọt sau
+  - text: Cục sụn giòn sựt
+  - text: Cơm trắng thổi không kịp
+  - text: Cay nhẹ tùy nhà

@@ -438,15 +438,9 @@ faq:
       thay vì một tô lớn. Món này ăn theo nhịp, không dọn hết một lần.
 
 ticker:
-  - icon: pod
-    text: Đậu rán vàng ruộm, vỏ giòn ruột mềm
-  - icon: bowl
-    text: Mắm tôm đánh bông rưới mỡ nóng
-  - icon: herb
-    text: Kinh giới tía tô hăng ấm
-  - icon: meat
-    text: Chân giò luộc sốc đá, bì giòn
-  - icon: noodle
-    text: Bún lá cắt miếng, ráo nước
-  - icon: basket
-    text: Mẹt tre lót lá chuối xanh
+  - text: Đậu rán vàng ruộm, vỏ giòn ruột mềm
+  - text: Mắm tôm đánh bông rưới mỡ nóng
+  - text: Kinh giới tía tô hăng ấm
+  - text: Chân giò luộc sốc đá, bì giòn
+  - text: Bún lá cắt miếng, ráo nước
+  - text: Mẹt tre lót lá chuối xanh

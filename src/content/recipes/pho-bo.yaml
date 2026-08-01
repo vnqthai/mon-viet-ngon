@@ -503,17 +503,10 @@ faq:
       nhúm muối trước đã.
 
 ticker:
-  - icon: star
-    text: Quế hồi rang thơm lựng
-  - icon: drop
-    text: Nước dùng trong nhìn thấu đáy
-  - icon: meat
-    text: Tái mềm, nạm ngọt
-  - icon: noodle
-    text: Bánh phở tươi mềm dai
-  - icon: ginger
-    text: Gừng hành nướng xém
-  - icon: roll
-    text: Quẩy nóng chấm nước lèo
-  - icon: bowl
-    text: Xì xụp tới đáy tô
+  - text: Quế hồi rang thơm lựng
+  - text: Nước dùng trong nhìn thấu đáy
+  - text: Tái mềm, nạm ngọt
+  - text: Bánh phở tươi mềm dai
+  - text: Gừng hành nướng xém
+  - text: Quẩy nóng chấm nước lèo
+  - text: Xì xụp tới đáy tô

@@ -358,15 +358,9 @@ faq:
       ngoài quá 4 tiếng ở trời nóng.
 
 ticker:
-  - icon: fish
-    text: Nấu rã rồi lọc bỏ xương
-  - icon: egg
-    text: Phết lòng đỏ cho mặt vàng bóng
-  - icon: ginger
-    text: Gừng làm mùi mắm dịu xuống
-  - icon: clock
-    text: Cứ 5 phút mở nắp lau hơi nước
-  - icon: lettuce
-    text: Nhất định phải có dưa leo bên cạnh
-  - icon: rice
-    text: Một tô là hết nồi cơm
+  - text: Nấu rã rồi lọc bỏ xương
+  - text: Phết lòng đỏ cho mặt vàng bóng
+  - text: Gừng làm mùi mắm dịu xuống
+  - text: Cứ 5 phút mở nắp lau hơi nước
+  - text: Nhất định phải có dưa leo bên cạnh
+  - text: Một tô là hết nồi cơm

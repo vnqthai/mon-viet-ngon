@@ -311,7 +311,5 @@ faq:
       chảo đủ rộng để con cá nằm lọt, đừng để đuôi cong vênh ra ngoài mà cháy.
 
 ticker:
-  - icon: fish
-    text: Để nguyên vảy — vảy dựng lên mới gọi là chiên xù
-  - icon: lime
-    text: Chấm mắm me chua trước ngọt sau
+  - text: Để nguyên vảy — vảy dựng lên mới gọi là chiên xù
+  - text: Chấm mắm me chua trước ngọt sau

@@ -312,9 +312,6 @@ faq:
       dẻo, một bên là lớp đậu mịn nằm trên.
 
 ticker:
-  - icon: rice
-    text: Đậu ngâm 4 giờ, nếp ngâm 6 giờ
-  - icon: clock
-    text: Để ráo 15 phút mới bắc lên hấp
-  - icon: jar
-    text: Muối vừng để riêng, ai rắc nấy
+  - text: Đậu ngâm 4 giờ, nếp ngâm 6 giờ
+  - text: Để ráo 15 phút mới bắc lên hấp
+  - text: Muối vừng để riêng, ai rắc nấy

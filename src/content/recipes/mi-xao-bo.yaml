@@ -411,15 +411,9 @@ faq:
       trút ra ngay**, để lâu là dai.
 
 ticker:
-  - icon: noodle
-    text: Sợi mì săn ráo, xém vàng cạnh chảo
-  - icon: meat
-    text: Bò thái ngang thớ, mềm mọng nước
-  - icon: lettuce
-    text: Cải thìa xanh, cọng còn nghe giòn
-  - icon: flame
-    text: Lửa lớn, tay nhanh, một phút là ra
-  - icon: bottle
-    text: Dầu hào xì dầu đậm mà không mặn gắt
-  - icon: clock
-    text: Ba mươi phút từ tủ lạnh tới bàn ăn
+  - text: Sợi mì săn ráo, xém vàng cạnh chảo
+  - text: Bò thái ngang thớ, mềm mọng nước
+  - text: Cải thìa xanh, cọng còn nghe giòn
+  - text: Lửa lớn, tay nhanh, một phút là ra
+  - text: Dầu hào xì dầu đậm mà không mặn gắt
+  - text: Ba mươi phút từ tủ lạnh tới bàn ăn

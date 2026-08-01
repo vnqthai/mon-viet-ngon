@@ -463,17 +463,10 @@ faq:
       gió cứ pha mắm nêm thế vô, còn lại giữ nguyên.
 
 ticker:
-  - icon: stem
-    text: Sả tỏi ướp thơm lựng
-  - icon: meat
-    text: Thịt xém cạnh màu mật ong
-  - icon: drop
-    text: Mỡ hành béo óng
-  - icon: pod
-    text: Đồ chua giòn tan
-  - icon: bottle
-    text: Chan mắm chua ngọt
-  - icon: noodle
-    text: Bún tươi mát rượi
-  - icon: roll
-    text: Thêm chả giò là "full topping"
+  - text: Sả tỏi ướp thơm lựng
+  - text: Thịt xém cạnh màu mật ong
+  - text: Mỡ hành béo óng
+  - text: Đồ chua giòn tan
+  - text: Chan mắm chua ngọt
+  - text: Bún tươi mát rượi
+  - text: Thêm chả giò là "full topping"

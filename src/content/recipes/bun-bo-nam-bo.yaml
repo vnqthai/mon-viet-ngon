@@ -466,15 +466,9 @@ faq:
       chua ngọt.
 
 ticker:
-  - icon: meat
-    text: Bò xào tỏi sả còn bốc khói
-  - icon: lettuce
-    text: Rau sống mát, giá chần còn giòn
-  - icon: stem
-    text: Đu đủ ngâm chua giòn tan
-  - icon: pod
-    text: Lạc rang giã dập bùi thơm
-  - icon: bottle
-    text: Nước mắm chua ngọt chan xâm xấp
-  - icon: noodle
-    text: Bún trắng tơi sợi, trộn là ăn
+  - text: Bò xào tỏi sả còn bốc khói
+  - text: Rau sống mát, giá chần còn giòn
+  - text: Đu đủ ngâm chua giòn tan
+  - text: Lạc rang giã dập bùi thơm
+  - text: Nước mắm chua ngọt chan xâm xấp
+  - text: Bún trắng tơi sợi, trộn là ăn

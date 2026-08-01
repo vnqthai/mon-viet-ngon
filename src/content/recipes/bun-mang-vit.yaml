@@ -360,9 +360,6 @@ faq:
       mắm gừng chỉ còn việc tô đậm thêm, chứ không phải đi chữa cháy.
 
 ticker:
-  - icon: stem
-    text: Măng khô xào mỡ vịt
-  - icon: ginger
-    text: Mắm gừng giã cối
-  - icon: drop
-    text: Nước luộc vịt để nguyên làm nước dùng
+  - text: Măng khô xào mỡ vịt
+  - text: Mắm gừng giã cối
+  - text: Nước luộc vịt để nguyên làm nước dùng

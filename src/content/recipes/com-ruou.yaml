@@ -337,9 +337,6 @@ faq:
       **nếp lứt** hoặc nếp cẩm chứ ít khi dùng nếp trắng.
 
 ticker:
-  - icon: rice
-    text: Xôi để âm ấm mới được rắc men
-  - icon: clock
-    text: Ủ ba ngày, nếm mỗi ngày một viên
-  - icon: drop
-    text: Nước ngọt cay là do chính nó tiết ra
+  - text: Xôi để âm ấm mới được rắc men
+  - text: Ủ ba ngày, nếm mỗi ngày một viên
+  - text: Nước ngọt cay là do chính nó tiết ra

@@ -291,15 +291,9 @@ faq:
       nước sôi 30 giây rồi thả vào nước lạnh** — vỏ tự tuột ra.
 
 ticker:
-  - icon: tomato
-    text: Xào cà chua cho dầu chuyển đỏ
-  - icon: egg
-    text: Rót trứng thành dòng mỏng
-  - icon: clock
-    text: Chờ mười lăm giây mới khuấy
-  - icon: drop
-    text: Chan nước sôi, đừng nước lạnh
-  - icon: herb
-    text: Hành ngò rắc lúc tắt bếp
-  - icon: rice
-    text: Mười phút là có canh nóng
+  - text: Xào cà chua cho dầu chuyển đỏ
+  - text: Rót trứng thành dòng mỏng
+  - text: Chờ mười lăm giây mới khuấy
+  - text: Chan nước sôi, đừng nước lạnh
+  - text: Hành ngò rắc lúc tắt bếp
+  - text: Mười phút là có canh nóng

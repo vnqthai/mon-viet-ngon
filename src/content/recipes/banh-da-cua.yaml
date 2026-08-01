@@ -416,9 +416,6 @@ faq:
       **chần rau và chần bánh đa** là phải làm ngay lúc ăn.
 
 ticker:
-  - icon: pot
-    text: Đun nước cua thì tuyệt đối không khuấy
-  - icon: jar
-    text: Khều gạch riêng rồi chưng với hành phi
-  - icon: noodle
-    text: Chần bánh đa từng tô, chỉ ba mươi giây
+  - text: Đun nước cua thì tuyệt đối không khuấy
+  - text: Khều gạch riêng rồi chưng với hành phi
+  - text: Chần bánh đa từng tô, chỉ ba mươi giây

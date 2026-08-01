@@ -364,7 +364,5 @@ faq:
       được, cốt là giữ lại vị chát để cân với nước lèo béo bùi.
 
 ticker:
-  - icon: flame
-    text: Bánh khoái giòn rụm chấm nước lèo
-  - icon: pod
-    text: Nước lèo sánh đặc mè với đậu phộng
+  - text: Bánh khoái giòn rụm chấm nước lèo
+  - text: Nước lèo sánh đặc mè với đậu phộng

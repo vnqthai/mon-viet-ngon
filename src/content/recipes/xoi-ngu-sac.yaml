@@ -350,9 +350,6 @@ faq:
       nhau lại càng dễ lem.
 
 ticker:
-  - icon: flower
-    text: Bốn thứ nước màu đều nấu từ cây lá
-  - icon: rice
-    text: Vo lại thật nhẹ, vo mạnh là trôi màu
-  - icon: pot
-    text: Hấp màu nhạt trước, màu đậm sau
+  - text: Bốn thứ nước màu đều nấu từ cây lá
+  - text: Vo lại thật nhẹ, vo mạnh là trôi màu
+  - text: Hấp màu nhạt trước, màu đậm sau

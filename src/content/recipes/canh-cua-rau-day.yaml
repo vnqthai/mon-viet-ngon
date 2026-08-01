@@ -359,15 +359,9 @@ faq:
       loại uy tín — vẫn ra bát canh ra hồn, chỉ kém tươi một bậc.
 
 ticker:
-  - icon: bowl
-    text: Riêu cua nổi tảng vàng óng
-  - icon: drop
-    text: Ngọt lịm vị cua đồng
-  - icon: herb
-    text: Rau đay mồng tơi xanh mượt
-  - icon: pod
-    text: Mướp hương thơm dịu
-  - icon: flame
-    text: Gạch chưng hành phi
-  - icon: rice
-    text: Cà pháo cơm trắng trưa hè
+  - text: Riêu cua nổi tảng vàng óng
+  - text: Ngọt lịm vị cua đồng
+  - text: Rau đay mồng tơi xanh mượt
+  - text: Mướp hương thơm dịu
+  - text: Gạch chưng hành phi
+  - text: Cà pháo cơm trắng trưa hè

@@ -468,15 +468,9 @@ faq:
       đó mà làm trước là tô phở mất tươi liền.
 
 ticker:
-  - icon: drop
-    text: Nước trong vàng nhẹ mỡ gà
-  - icon: meat
-    text: Da giòn óng, thịt mọng ngọt
-  - icon: herb
-    text: Lá chanh thái chỉ the thơm
-  - icon: jar
-    text: Hạt mùi rang thơm kín đáo
-  - icon: noodle
-    text: Bánh phở mềm trụng vừa tới
-  - icon: sun
-    text: Sáng se se, húp ấm bụng
+  - text: Nước trong vàng nhẹ mỡ gà
+  - text: Da giòn óng, thịt mọng ngọt
+  - text: Lá chanh thái chỉ the thơm
+  - text: Hạt mùi rang thơm kín đáo
+  - text: Bánh phở mềm trụng vừa tới
+  - text: Sáng se se, húp ấm bụng

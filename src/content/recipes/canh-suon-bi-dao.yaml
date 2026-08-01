@@ -298,13 +298,8 @@ faq:
       lần sau ninh sườn thêm 10 phút, hoặc thêm nắm tôm khô.
 
 ticker:
-  - icon: drop
-    text: Nước trong thấy đáy tô
-  - icon: pumpkin
-    text: Miếng bí trong như ngọc
-  - icon: meat
-    text: Ngọt sâu vị xương
-  - icon: spoon
-    text: Nêm nhạt hơn một bậc
-  - icon: clock
-    text: Bí chín trong 8 phút
+  - text: Nước trong thấy đáy tô
+  - text: Miếng bí trong như ngọc
+  - text: Ngọt sâu vị xương
+  - text: Nêm nhạt hơn một bậc
+  - text: Bí chín trong 8 phút

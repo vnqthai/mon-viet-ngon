@@ -410,17 +410,10 @@ faq:
       phiên bản, người lớn con nít đều vui.
 
 ticker:
-  - icon: fish
-    text: Cá mặn dậy mùi nguyên bếp
-  - icon: rice
-    text: Hạt cơm săn nghe lạo xạo
-  - icon: egg
-    text: Trứng áo vàng óng từng hạt
-  - icon: meat
-    text: Gà xé ngọt cân vị
-  - icon: flame
-    text: Chảo lửa lớn cơm nhảy
-  - icon: lettuce
-    text: Xà lách dầu giấm mát lưỡi
-  - icon: bottle
-    text: Xì dầu dằm ớt đúng bộ
+  - text: Cá mặn dậy mùi nguyên bếp
+  - text: Hạt cơm săn nghe lạo xạo
+  - text: Trứng áo vàng óng từng hạt
+  - text: Gà xé ngọt cân vị
+  - text: Chảo lửa lớn cơm nhảy
+  - text: Xà lách dầu giấm mát lưỡi
+  - text: Xì dầu dằm ớt đúng bộ

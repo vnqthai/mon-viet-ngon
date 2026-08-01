@@ -366,15 +366,9 @@ faq:
       lại. Cốt dừa để hộp riêng và dùng trong 2 ngày.
 
 ticker:
-  - icon: flower
-    text: Viên chìm xuống rồi tự nổi lên
-  - icon: ginger
-    text: Nước gừng cay ấm màu hổ phách
-  - icon: pod
-    text: Nhân đậu xanh sên tới khi róc chảo
-  - icon: drop
-    text: Vớt ra là nhúng ngay nước lạnh
-  - icon: rice
-    text: Vỏ nếp dẻo mềm, cắn đứt ngọt
-  - icon: bowl
-    text: Chén chè nóng của ngày trở lạnh
+  - text: Viên chìm xuống rồi tự nổi lên
+  - text: Nước gừng cay ấm màu hổ phách
+  - text: Nhân đậu xanh sên tới khi róc chảo
+  - text: Vớt ra là nhúng ngay nước lạnh
+  - text: Vỏ nếp dẻo mềm, cắn đứt ngọt
+  - text: Chén chè nóng của ngày trở lạnh

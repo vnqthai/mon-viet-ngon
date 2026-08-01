@@ -379,15 +379,9 @@ faq:
       thả nồi để bù lại phần ngọt tự nhiên còn thiếu.
 
 ticker:
-  - icon: drop
-    text: Nước dừa nấu giấm chua dịu
-  - icon: meat
-    text: Nhúng tám giây là gắp
-  - icon: roll
-    text: Cuốn bánh tráng ăn bằng tay
-  - icon: bottle
-    text: Mắm nêm pha thơm băm
-  - icon: pod
-    text: Chuối chát và khế chua
-  - icon: pineapple
-    text: Dừa nạo sợi thả phút cuối
+  - text: Nước dừa nấu giấm chua dịu
+  - text: Nhúng tám giây là gắp
+  - text: Cuốn bánh tráng ăn bằng tay
+  - text: Mắm nêm pha thơm băm
+  - text: Chuối chát và khế chua
+  - text: Dừa nạo sợi thả phút cuối

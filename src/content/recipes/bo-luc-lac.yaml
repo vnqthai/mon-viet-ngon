@@ -352,15 +352,9 @@ faq:
       mới xào kẻo hạ nhiệt chảo.
 
 ticker:
-  - icon: flame
-    text: Chảo khói xèo một tiếng giòn
-  - icon: meat
-    text: Khối bò xém cạnh lòng hồng
-  - icon: drop
-    text: Bơ tỏi thơm lừng phút cuối
-  - icon: pepper
-    text: Ớt chuông hành tây giòn sựt
-  - icon: lime
-    text: Muối tiêu chanh chấm đã
-  - icon: rice
-    text: Khoai chiên kiểu Sài Gòn
+  - text: Chảo khói xèo một tiếng giòn
+  - text: Khối bò xém cạnh lòng hồng
+  - text: Bơ tỏi thơm lừng phút cuối
+  - text: Ớt chuông hành tây giòn sựt
+  - text: Muối tiêu chanh chấm đã
+  - text: Khoai chiên kiểu Sài Gòn

@@ -325,17 +325,10 @@ faq:
       ai cũng mua nấu nồi canh cho cái khổ… qua!
 
 ticker:
-  - icon: okra
-    text: Đắng thanh hậu ngọt
-  - icon: drop
-    text: Nước canh trong veo
-  - icon: fish
-    text: Nhân dai chả cá thác lác
-  - icon: herb
-    text: Hành ngò thơm mặt tô
-  - icon: sun
-    text: Mát miệng ngày nắng
-  - icon: flower
-    text: Mâm Tết miền Nam đúng lệ
-  - icon: rice
-    text: Chan cơm nóng là bá cháy
+  - text: Đắng thanh hậu ngọt
+  - text: Nước canh trong veo
+  - text: Nhân dai chả cá thác lác
+  - text: Hành ngò thơm mặt tô
+  - text: Mát miệng ngày nắng
+  - text: Mâm Tết miền Nam đúng lệ
+  - text: Chan cơm nóng là bá cháy

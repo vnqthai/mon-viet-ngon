@@ -338,9 +338,6 @@ faq:
       cái giọng của vùng đó.
 
 ticker:
-  - icon: pod
-    text: Dưa cải vắt ráo, xào riêng cho hết nước
-  - icon: flame
-    text: Bò xào lửa lớn đúng một phút
-  - icon: rice
-    text: Hạt cơm săn rời, đảo nghe lạo xạo
+  - text: Dưa cải vắt ráo, xào riêng cho hết nước
+  - text: Bò xào lửa lớn đúng một phút
+  - text: Hạt cơm săn rời, đảo nghe lạo xạo

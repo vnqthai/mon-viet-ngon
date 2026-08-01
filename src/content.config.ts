@@ -196,7 +196,11 @@ const recipes = defineCollection({
       .optional(),
 
     faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
-    ticker: z.array(z.object({ icon: z.string().default('drop'), text: z.string() })).optional(),
+    /* Không có `icon` — băng chuyền chỉ chạy chữ. Icon từng có trong lược đồ
+       nhưng chưa bao giờ hiện: svg chỉ có `viewBox`, làm flex item thì
+       `min-width:auto` tính ra 0 và nó co sạch. Đo 2026-08-01 trên bản đang
+       chạy thật: 140/140 icon rộng 0px. Thái chốt bỏ hẳn cho gọn. */
+    ticker: z.array(z.object({ text: z.string() })).optional(),
   }),
 });
 

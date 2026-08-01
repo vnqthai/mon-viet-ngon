@@ -473,15 +473,9 @@ faq:
       nhét vào. Ráp đủ từ tối thì sáng ra ổ bánh đã mềm nhũn.
 
 ticker:
-  - icon: bread
-    text: Vỏ giòn rụm, ruột rỗng xốp
-  - icon: meat
-    text: Pate gan hấp béo bùi
-  - icon: egg
-    text: Bơ trứng đánh tay sánh mịn
-  - icon: pod
-    text: Đồ chua giòn tan
-  - icon: herb
-    text: Nhánh ngò rí dậy mùi
-  - icon: chili
-    text: Vài lát ớt cay ấm
+  - text: Vỏ giòn rụm, ruột rỗng xốp
+  - text: Pate gan hấp béo bùi
+  - text: Bơ trứng đánh tay sánh mịn
+  - text: Đồ chua giòn tan
+  - text: Nhánh ngò rí dậy mùi
+  - text: Vài lát ớt cay ấm

@@ -111,14 +111,26 @@ section[id]{scroll-margin-top:80px}
   background:var(--paper-deep);border-bottom:1px solid var(--line);
   overflow:hidden;white-space:nowrap;padding:12px 0;
 }
-.ticker__track{display:inline-flex;gap:0;animation:ticker 30s linear infinite}
-.ticker:hover .ticker__track{animation-play-state:paused}
+/* --ticker-dur do trang tự tính theo lượng chữ (src/utils/ticker.ts) — băng dài
+   thì chạy lâu hơn, tốc độ trôi luôn ~55 px/s. 30s chỉ là mức đỡ khi thiếu biến. */
+.ticker__track{display:inline-flex;gap:0;animation:ticker var(--ticker-dur,30s) linear infinite}
+/* Đứng lại khi rê chuột hoặc khi bàn phím Tab vào — nếu không thì không tài nào
+   bấm trúng một cái tên đang trôi. */
+.ticker:hover .ticker__track,
+.ticker:focus-within .ticker__track{animation-play-state:paused}
+/* Trang chủ chạy sang TRÁI (tên món, bấm được); băng mẹo ở trang món chạy sang
+   PHẢI. Hai chiều khác nhau để người đọc khỏi tưởng chỗ nào cũng bấm được —
+   không cần thêm gạch chân hay nhãn gì cho rườm. */
+.ticker--reverse .ticker__track{animation-direction:reverse}
 .ticker__item{
-  display:inline-flex;align-items:center;gap:10px;
+  display:inline-flex;align-items:center;
   font-family:var(--font-display);font-size:.92rem;color:var(--muted);
   padding:0 22px;letter-spacing:.02em;
 }
-.ticker__item svg{width:15px;height:15px;color:var(--broth)}
+/* Ở trạng thái nghỉ tên món trông y như chữ thường — chỉ rê vào mới đổi màu và
+   gạch chân. Cố ý: dải này là thứ liếc qua, không phải bảng điều hướng. */
+a.ticker__item{text-decoration:none;transition:color .15s}
+a.ticker__item:hover{color:var(--chili);text-decoration:underline;text-underline-offset:4px}
 @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
 /* ---------- Nhãn miền / loại món ---------- */
@@ -202,6 +214,12 @@ section[id]{scroll-margin-top:80px}
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important}
   .reveal{opacity:1;transform:none}
+  /* Luật `.01ms` ở trên đẩy băng chuyền nhảy thẳng tới cuối animation, tức đứng
+     ở BẢN CHÉP — mà bản chép thì `aria-hidden` + không Tab vào được. Nên ở đây
+     phải tắt hẳn animation, giấu bản chép, và cho kéo ngang để xem hết. */
+  .ticker__track{animation:none !important;transform:none}
+  .ticker{overflow-x:auto}
+  .ticker__item[aria-hidden="true"]{display:none}
 }
 @media print{
   .site-head,.ticker,.checker,.toast,.site-foot__nav,.totop{display:none !important}

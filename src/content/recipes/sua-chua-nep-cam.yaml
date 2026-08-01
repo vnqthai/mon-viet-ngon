@@ -308,9 +308,6 @@ faq:
       không.
 
 ticker:
-  - icon: flame
-    text: Ninh lửa liu riu gần một tiếng
-  - icon: jar
-    text: Đường chỉ nêm khi hạt đã nứt vỏ
-  - icon: bottle
-    text: Sữa chua phải lạnh hẳn mới chan
+  - text: Ninh lửa liu riu gần một tiếng
+  - text: Đường chỉ nêm khi hạt đã nứt vỏ
+  - text: Sữa chua phải lạnh hẳn mới chan

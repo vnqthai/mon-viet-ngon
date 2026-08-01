@@ -351,15 +351,9 @@ faq:
       bé nhỏ, còn bột báng thì nấu thật trong cho dễ nuốt.
 
 ticker:
-  - icon: pumpkin
-    text: Ba thứ khoai ba màu
-  - icon: drop
-    text: Nước cốt dừa béo ngậy
-  - icon: jar
-    text: Nhúm muối làm nên vị
-  - icon: rice
-    text: Bột báng trong veo
-  - icon: sun
-    text: Nóng hay lạnh đều đúng
-  - icon: pod
-    text: Đậu phộng rang rắc mặt
+  - text: Ba thứ khoai ba màu
+  - text: Nước cốt dừa béo ngậy
+  - text: Nhúm muối làm nên vị
+  - text: Bột báng trong veo
+  - text: Nóng hay lạnh đều đúng
+  - text: Đậu phộng rang rắc mặt

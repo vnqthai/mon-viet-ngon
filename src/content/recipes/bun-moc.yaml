@@ -331,7 +331,5 @@ faq:
       duy nhất của bát này. Muốn ăn măng thì nấu hẳn nồi bún măng cho ra món.
 
 ticker:
-  - icon: meat
-    text: Mọc trộn mộc nhĩ nấm hương
-  - icon: drop
-    text: Nước dùng trong nhìn thấy đáy
+  - text: Mọc trộn mộc nhĩ nấm hương
+  - text: Nước dùng trong nhìn thấy đáy

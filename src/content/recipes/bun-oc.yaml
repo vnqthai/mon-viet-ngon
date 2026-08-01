@@ -346,9 +346,6 @@ faq:
       màu cũng được.
 
 ticker:
-  - icon: bottle
-    text: Nước chua thanh, thơm hơi men nếp
-  - icon: bowl
-    text: Ốc giòn sần sật
-  - icon: chili
-    text: Một thìa ớt chưng nổi váng đỏ
+  - text: Nước chua thanh, thơm hơi men nếp
+  - text: Ốc giòn sần sật
+  - text: Một thìa ớt chưng nổi váng đỏ

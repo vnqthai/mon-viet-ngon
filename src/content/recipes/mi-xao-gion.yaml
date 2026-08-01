@@ -386,15 +386,9 @@ faq:
       mới** — mì đã ngấm sốt để qua đêm thì không cứu lại giòn được nữa.
 
 ticker:
-  - icon: noodle
-    text: Ổ mì chiên vàng rụm
-  - icon: drop
-    text: Sốt sánh bám được vào muỗng
-  - icon: shrimp
-    text: Tôm mực chần riêng, chỉ trả vào một vòng
-  - icon: clock
-    text: Chan sốt xong là bưng lên bàn ngay
-  - icon: flame
-    text: Dầu nóng già rồi mới thả mì
-  - icon: bowl
-    text: Giữa mềm ngọt, rìa còn giòn
+  - text: Ổ mì chiên vàng rụm
+  - text: Sốt sánh bám được vào muỗng
+  - text: Tôm mực chần riêng, chỉ trả vào một vòng
+  - text: Chan sốt xong là bưng lên bàn ngay
+  - text: Dầu nóng già rồi mới thả mì
+  - text: Giữa mềm ngọt, rìa còn giòn

@@ -407,15 +407,9 @@ faq:
       trứng, ráo nước và xào riêng vẫn giữ nguyên.
 
 ticker:
-  - icon: noodle
-    text: Sợi miến tơi rời, bóng mà không ướt
-  - icon: shrimp
-    text: Thịt cua bể gỡ nguyên thớ
-  - icon: jar
-    text: Gạch cua phi thơm lên màu vàng
-  - icon: pod
-    text: Mộc nhĩ giòn sựt, nấm hương đậm
-  - icon: sprout
-    text: Giá đỗ thả sau cùng cho còn giòn
-  - icon: egg
-    text: Trứng tráng bọc sợi, miến hết dính
+  - text: Sợi miến tơi rời, bóng mà không ướt
+  - text: Thịt cua bể gỡ nguyên thớ
+  - text: Gạch cua phi thơm lên màu vàng
+  - text: Mộc nhĩ giòn sựt, nấm hương đậm
+  - text: Giá đỗ thả sau cùng cho còn giòn
+  - text: Trứng tráng bọc sợi, miến hết dính

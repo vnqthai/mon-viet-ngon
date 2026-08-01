@@ -346,9 +346,6 @@ faq:
       quen ăn đậm thì để một chén nhỏ bên ngoài, đừng cho vào bát chung.
 
 ticker:
-  - icon: bowl
-    text: Nước ốc để nguội hẳn mới dọn
-  - icon: noodle
-    text: Bún vắt con, chấm chứ không chan
-  - icon: spoon
-    text: Khều bằng gai bưởi, múc bằng thìa gỗ
+  - text: Nước ốc để nguội hẳn mới dọn
+  - text: Bún vắt con, chấm chứ không chan
+  - text: Khều bằng gai bưởi, múc bằng thìa gỗ

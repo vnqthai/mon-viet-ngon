@@ -5,6 +5,7 @@ import Icon from '../components/Icon.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import ComingSoon from '../components/ComingSoon.astro';
 import CanhChuaArt from '../components/art/CanhChuaArt.astro';
+import { tickerDuration } from '../utils/ticker';
 
 const recipes = (await getCollection('recipes')).sort(
   (a, b) => a.data.order - b.data.order
@@ -27,78 +28,95 @@ const regionGates = REGION_ORDER
   .map((name) => ({ name, n: recipes.filter((r) => r.data.region === name).length }))
   .filter((g) => g.n > 0);
 
+/* Băng chuyền chữ. Mỗi mục `slug` là một món có thật -> bấm vô là sang thẳng
+   trang món đó; mục không có `slug` là câu chốt, để trơn không phải liên kết.
+   Chữ ở đây CỐ Ý không phải tiêu đề món: tiêu đề đã nằm đầy trong lưới thẻ ngay
+   dưới, băng chuyền là chỗ kể thêm một chi tiết khiến người ta thèm. */
 const tickerItems = [
-  { icon: 'bowl', text: 'Canh chua cá lóc miền Tây' },
-  { icon: 'star', text: 'Phở bò quế hồi thơm lựng' },
-  { icon: 'herb', text: 'Phở gà lá chanh thái chỉ' },
-  { icon: 'flame', text: 'Bún chả Hà Nội chả cháy cạnh' },
-  { icon: 'flame', text: 'Gà nướng mắc khén Tây Bắc' },
-  { icon: 'noodle', text: 'Mì Quảng nước nhưn đậm đà' },
-  { icon: 'chili', text: 'Bún bò Huế cay nồng sả ruốc' },
-  { icon: 'tomato', text: 'Bún riêu cua nước chua thanh, riêu nổi tảng' },
-  { icon: 'meat', text: 'Cơm tấm sườn nướng khói thơm' },
-  { icon: 'rice', text: 'Cơm gà Hội An vàng mơ' },
-  { icon: 'claypot', text: 'Cá kho tộ lửa liu riu' },
-  { icon: 'flame', text: 'Bánh xèo giòn nghe xèo là thèm' },
-  { icon: 'roll', text: 'Chả giò nổ giòn mâm tiệc' },
-  { icon: 'shrimp', text: 'Gỏi cuốn tôm thịt thanh mát' },
-  { icon: 'shrimp', text: 'Hủ tiếu Nam Vang tôm trứng cút' },
-  { icon: 'noodle', text: 'Phở khô Gia Lai phở hai tô' },
-  { icon: 'basket', text: 'Bún đậu mắm tôm dọn cả mẹt' },
-  { icon: 'meat', text: 'Mì vịt tiềm đùi vịt giòn da' },
-  { icon: 'noodle', text: 'Miến gà sợi dai nước ngọt thanh' },
-  { icon: 'shrimp', text: 'Miến xào cua thớ ngọt nguyên' },
-  { icon: 'fish', text: 'Lẩu mắm rổ rau chất núi' },
-  { icon: 'herb', text: 'Lẩu gà lá é thơm the muối ớt xanh' },
-  { icon: 'chili', text: 'Lẩu Thái chua cay dậy sả' },
-  { icon: 'jar', text: 'Lẩu dê nấu chao béo bùi khoai môn' },
-  { icon: 'bread', text: 'Lẩu bò Đà Lạt chấm bánh mì' },
-  { icon: 'lime', text: 'Chè bưởi cùi giòn sần sật' },
-  { icon: 'herb', text: 'Bánh chưng vuông lá dong, luộc suốt đêm' },
-  { icon: 'rice', text: 'Xôi ngũ sắc năm màu nhuộm từ cây lá' },
-  { icon: 'pumpkin', text: 'Xôi gấc đỏ au cho mâm cỗ' },
-  { icon: 'noodle', text: 'Bánh đa cua sợi đỏ nâu đất cảng' },
-  { icon: 'pineapple', text: 'Chè Thái sầu riêng mít sợi' },
-  { icon: 'drop', text: 'Chè bà ba ba thứ khoai một nồi cốt dừa' },
-  { icon: 'rice', text: 'Cháo lươn xứ Nghệ hạt gạo nở bung' },
-  { icon: 'ginger', text: 'Cháo gà gạo rang, gừng thái sợi' },
-  { icon: 'roll', text: 'Cháo lòng ngọt nước luộc, lòng giòn sựt' },
-  { icon: 'spoon', text: 'Bánh bèo Huế chén nhỏ lõm giữa, tôm chấy cam ruộm' },
-  { icon: 'flower', text: 'Chè hạt sen long nhãn — mỗi trái nhãn giấu một hạt sen' },
-  { icon: 'claypot', text: 'Kho quẹt sệt tới đáy tộ, bẻ rau luộc quẹt một vòng' },
-  { icon: 'herb', text: 'Bò nướng lá lốt lá sém thơm, thịt mọng bên trong' },
-  { icon: 'ginger', text: 'Chè trôi nước viên dẻo, nước gừng cay ấm' },
-  { icon: 'meat', text: 'Bánh tráng cuốn thịt heo hai đầu da' },
-  { icon: 'fish', text: 'Bún chả cá chiên vàng, hấp trắng' },
-  { icon: 'rice', text: 'Cơm hến Huế — cơm nguội chan nước nóng' },
-  { icon: 'flame', text: 'Bánh khoái Huế nhỏ, dày, giòn rụm' },
-  { icon: 'pod', text: 'Bún mắm nêm mít non xé sợi' },
-  { icon: 'noodle', text: 'Bún đỏ phố núi, nấu thẳng trong nồi cho sợi ăn màu' },
-  { icon: 'sun', text: 'Bò một nắng phơi đúng một nắng, xé tay' },
-  { icon: 'fish', text: 'Cá lóc nướng trui để nguyên vảy' },
-  { icon: 'herb', text: 'Pa pỉnh tộp — cá nướng gập của người Thái' },
-  { icon: 'shrimp', text: 'Ốc len xào dừa, chặt đuôi cho thấm' },
-  { icon: 'roll', text: 'Nem nướng Nha Trang, ống bánh tráng giòn trong cuốn' },
-  { icon: 'fish', text: 'Cá tai tượng chiên xù để nguyên vảy, dựng đứng' },
-  { icon: 'ginger', text: 'Ốc hấp lá gừng gói lại nhét vào vỏ' },
-  { icon: 'herb', text: 'Gà hấp hành, thịt ngọt nguyên không đụng nước' },
-  { icon: 'stem', text: 'Gỏi ngó sen tôm thịt giòn sần sật' },
-  { icon: 'flame', text: 'Cánh gà chiên nước mắm, tỏi phi rắc sau cùng' },
-  { icon: 'pineapple', text: 'Sườn xào chua ngọt, thơm vàng với ớt chuông giòn' },
-  { icon: 'pod', text: 'Bún sườn nấu sấu — chua thanh mà nước trong veo' },
-  { icon: 'herb', text: 'Ốc om chuối đậu thơm nức tía tô lá lốt' },
-  { icon: 'drop', text: 'Lòng heo luộc, vớt ra là thả ngay vào nước đá' },
-  { icon: 'pumpkin', text: 'Canh sườn khoai tây cà rốt ngọt bùi' },
-  { icon: 'bowl', text: 'Canh sườn bí đao, miếng bí trong như ngọc' },
-  { icon: 'flame', text: 'Cà tím nướng mỡ hành, đậu phộng giòn rôm rốp' },
-  { icon: 'chili', text: 'Bún ốc chua giấm bỗng, một thìa ớt chưng nổi váng đỏ' },
-  { icon: 'meat', text: 'Bún mọc — viên giò sống trộn mộc nhĩ nấm hương' },
-  { icon: 'stem', text: 'Bún măng vịt măng khô xào mỡ vịt, chấm mắm gừng' },
-  { icon: 'fish', text: 'Bún sứa Nha Trang, sứa chân giòn sần sật' },
-  { icon: 'pod', text: 'Cơm rang dưa bò — hạt cơm săn rời, dưa chua giòn' },
-  { icon: 'rice', text: 'Cơm lam nướng ống nứa, chấm muối vừng' },
-  { icon: 'rice', text: 'Cơm nhà là ngon nhất' },
+  { slug: 'canh-chua-ca-loc', text: 'Canh chua cá lóc miền Tây' },
+  { slug: 'pho-bo', text: 'Phở bò quế hồi thơm lựng' },
+  { slug: 'pho-ga', text: 'Phở gà lá chanh thái chỉ' },
+  { slug: 'bun-cha-ha-noi', text: 'Bún chả Hà Nội chả cháy cạnh' },
+  { slug: 'ga-nuong-mac-khen', text: 'Gà nướng mắc khén Tây Bắc' },
+  { slug: 'mi-quang-tom-thit', text: 'Mì Quảng nước nhưn đậm đà' },
+  { slug: 'bun-bo-hue', text: 'Bún bò Huế cay nồng sả ruốc' },
+  { slug: 'bun-rieu-cua', text: 'Bún riêu cua nước chua thanh, riêu nổi tảng' },
+  { slug: 'com-tam-suon-nuong', text: 'Cơm tấm sườn nướng khói thơm' },
+  { slug: 'com-ga-hoi-an', text: 'Cơm gà Hội An vàng mơ' },
+  { slug: 'ca-kho-to', text: 'Cá kho tộ lửa liu riu' },
+  { slug: 'banh-xeo-mien-tay', text: 'Bánh xèo giòn nghe xèo là thèm' },
+  { slug: 'cha-gio', text: 'Chả giò nổ giòn mâm tiệc' },
+  { slug: 'goi-cuon-tom-thit', text: 'Gỏi cuốn tôm thịt thanh mát' },
+  { slug: 'hu-tieu-nam-vang', text: 'Hủ tiếu Nam Vang tôm trứng cút' },
+  { slug: 'pho-kho-gia-lai', text: 'Phở khô Gia Lai phở hai tô' },
+  { slug: 'bun-dau-mam-tom', text: 'Bún đậu mắm tôm dọn cả mẹt' },
+  { slug: 'mi-vit-tiem', text: 'Mì vịt tiềm đùi vịt giòn da' },
+  { slug: 'mien-ga', text: 'Miến gà sợi dai nước ngọt thanh' },
+  { slug: 'mien-xao-cua', text: 'Miến xào cua thớ ngọt nguyên' },
+  { slug: 'lau-mam', text: 'Lẩu mắm rổ rau chất núi' },
+  { slug: 'lau-ga-la-e', text: 'Lẩu gà lá é thơm the muối ớt xanh' },
+  { slug: 'lau-thai', text: 'Lẩu Thái chua cay dậy sả' },
+  { slug: 'lau-de-nau-chao', text: 'Lẩu dê nấu chao béo bùi khoai môn' },
+  { slug: 'lau-bo-da-lat', text: 'Lẩu bò Đà Lạt chấm bánh mì' },
+  { slug: 'che-buoi', text: 'Chè bưởi cùi giòn sần sật' },
+  { slug: 'banh-chung', text: 'Bánh chưng vuông lá dong, luộc suốt đêm' },
+  { slug: 'xoi-ngu-sac', text: 'Xôi ngũ sắc năm màu nhuộm từ cây lá' },
+  { slug: 'xoi-gac', text: 'Xôi gấc đỏ au cho mâm cỗ' },
+  { slug: 'banh-da-cua', text: 'Bánh đa cua sợi đỏ nâu đất cảng' },
+  { slug: 'che-thai', text: 'Chè Thái sầu riêng mít sợi' },
+  { slug: 'che-ba-ba', text: 'Chè bà ba ba thứ khoai một nồi cốt dừa' },
+  { slug: 'chao-luon-nghe-an', text: 'Cháo lươn xứ Nghệ hạt gạo nở bung' },
+  { slug: 'chao-ga', text: 'Cháo gà gạo rang, gừng thái sợi' },
+  { slug: 'chao-long', text: 'Cháo lòng ngọt nước luộc, lòng giòn sựt' },
+  { slug: 'banh-beo-hue', text: 'Bánh bèo Huế chén nhỏ lõm giữa, tôm chấy cam ruộm' },
+  { slug: 'che-hat-sen-long-nhan', text: 'Chè hạt sen long nhãn — mỗi trái nhãn giấu một hạt sen' },
+  { slug: 'kho-quet', text: 'Kho quẹt sệt tới đáy tộ, bẻ rau luộc quẹt một vòng' },
+  { slug: 'bo-nuong-la-lot', text: 'Bò nướng lá lốt lá sém thơm, thịt mọng bên trong' },
+  { slug: 'che-troi-nuoc', text: 'Chè trôi nước viên dẻo, nước gừng cay ấm' },
+  { slug: 'banh-trang-cuon-thit-heo', text: 'Bánh tráng cuốn thịt heo hai đầu da' },
+  { slug: 'bun-cha-ca', text: 'Bún chả cá chiên vàng, hấp trắng' },
+  { slug: 'com-hen', text: 'Cơm hến Huế — cơm nguội chan nước nóng' },
+  { slug: 'banh-khoai-hue', text: 'Bánh khoái Huế nhỏ, dày, giòn rụm' },
+  { slug: 'bun-mam-nem', text: 'Bún mắm nêm mít non xé sợi' },
+  { slug: 'bun-do-buon-ma-thuot', text: 'Bún đỏ phố núi, nấu thẳng trong nồi cho sợi ăn màu' },
+  { slug: 'bo-mot-nang', text: 'Bò một nắng phơi đúng một nắng, xé tay' },
+  { slug: 'ca-loc-nuong-trui', text: 'Cá lóc nướng trui để nguyên vảy' },
+  { slug: 'pa-pinh-top', text: 'Pa pỉnh tộp — cá nướng gập của người Thái' },
+  { slug: 'oc-len-xao-dua', text: 'Ốc len xào dừa, chặt đuôi cho thấm' },
+  { slug: 'nem-nuong-nha-trang', text: 'Nem nướng Nha Trang, ống bánh tráng giòn trong cuốn' },
+  { slug: 'ca-tai-tuong-chien-xu', text: 'Cá tai tượng chiên xù để nguyên vảy, dựng đứng' },
+  { slug: 'oc-hap-la-gung', text: 'Ốc hấp lá gừng gói lại nhét vào vỏ' },
+  { slug: 'ga-hap-hanh', text: 'Gà hấp hành, thịt ngọt nguyên không đụng nước' },
+  { slug: 'goi-ngo-sen-tom-thit', text: 'Gỏi ngó sen tôm thịt giòn sần sật' },
+  { slug: 'canh-ga-chien-nuoc-mam', text: 'Cánh gà chiên nước mắm, tỏi phi rắc sau cùng' },
+  { slug: 'suon-xao-chua-ngot', text: 'Sườn xào chua ngọt, thơm vàng với ớt chuông giòn' },
+  { slug: 'bun-suon-nau-sau', text: 'Bún sườn nấu sấu — chua thanh mà nước trong veo' },
+  { slug: 'oc-om-chuoi-dau', text: 'Ốc om chuối đậu thơm nức tía tô lá lốt' },
+  { slug: 'long-heo-luoc', text: 'Lòng heo luộc, vớt ra là thả ngay vào nước đá' },
+  { slug: 'canh-suon-khoai-tay-ca-rot', text: 'Canh sườn khoai tây cà rốt ngọt bùi' },
+  { slug: 'canh-suon-bi-dao', text: 'Canh sườn bí đao, miếng bí trong như ngọc' },
+  { slug: 'ca-tim-nuong-mo-hanh', text: 'Cà tím nướng mỡ hành, đậu phộng giòn rôm rốp' },
+  { slug: 'bun-oc', text: 'Bún ốc chua giấm bỗng, một thìa ớt chưng nổi váng đỏ' },
+  { slug: 'bun-moc', text: 'Bún mọc — viên giò sống trộn mộc nhĩ nấm hương' },
+  { slug: 'bun-mang-vit', text: 'Bún măng vịt măng khô xào mỡ vịt, chấm mắm gừng' },
+  { slug: 'bun-sua-nha-trang', text: 'Bún sứa Nha Trang, sứa chân giòn sần sật' },
+  { slug: 'com-rang-dua-bo', text: 'Cơm rang dưa bò — hạt cơm săn rời, dưa chua giòn' },
+  { slug: 'com-lam', text: 'Cơm lam nướng ống nứa, chấm muối vừng' },
+  { text: 'Cơm nhà là ngon nhất' },
 ];
+
+/* Gõ sai một slug là gãy một liên kết mà nhìn trang không thấy — nên bắt ngay
+   lúc build, đừng để link-audit bắt sau. */
+const slugSet = new Set(recipes.map((r) => r.id));
+const strayTicker = tickerItems.filter((t) => t.slug && !slugSet.has(t.slug));
+if (strayTicker.length) {
+  throw new Error(
+    `Băng chuyền trang chủ trỏ tới món không có: ${strayTicker.map((t) => t.slug).join(', ')}`
+  );
+}
+
+/* Thời lượng chạy suy ra từ lượng chữ — xem src/utils/ticker.ts. */
+const tickerDur = tickerDuration(tickerItems);
 
 /* WebSite + SearchAction. Khai SearchAction chỉ hợp lệ khi trang CÓ tìm kiếm
    thật — site này có: `/mon/?q=…` là form GET thuần, không JS vẫn chạy. */
@@ -183,13 +201,25 @@ const siteLd = {
     </div>
   </section>
 
-  <div class="ticker" aria-hidden="true">
+  {/* Dải chạy nhân đôi để nối vòng cho liền. Bản gốc là liên kết thật; BẢN CHÉP
+      phải `aria-hidden` + `tabindex="-1"`, nếu không trình đọc màn hình đọc mỗi
+      món hai lần và bàn phím phải Tab qua 140 chặng thay vì 70.
+      Băng này chạy SANG TRÁI; băng mẹo ở trang món chạy ngược lại — hai chiều
+      khác nhau để đừng ai tưởng chỗ nào cũng bấm được. */}
+  <nav class="ticker" aria-label="Dạo một vòng các món" style={`--ticker-dur:${tickerDur}s`}>
     <div class="ticker__track">
-      {[...tickerItems, ...tickerItems].map((t) => (
-        <span class="ticker__item"><Icon name={t.icon} />{t.text}</span>
+      {tickerItems.map((t) => (
+        t.slug
+          ? <a class="ticker__item" href={`/mon/${t.slug}/`}>{t.text}</a>
+          : <span class="ticker__item">{t.text}</span>
+      ))}
+      {tickerItems.map((t) => (
+        t.slug
+          ? <a class="ticker__item" href={`/mon/${t.slug}/`} aria-hidden="true" tabindex="-1">{t.text}</a>
+          : <span class="ticker__item" aria-hidden="true">{t.text}</span>
       ))}
     </div>
-  </div>
+  </nav>
 
   <!-- ============ MÓN NỔI BẬT ============ -->
   <section class="section" id="mon-noi-bat">

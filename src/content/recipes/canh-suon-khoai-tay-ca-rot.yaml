@@ -299,13 +299,8 @@ faq:
       bình thường.
 
 ticker:
-  - icon: drop
-    text: Nước trong ngọt xương
-  - icon: pumpkin
-    text: Khoai bở tơi trong miệng
-  - icon: meat
-    text: Sườn mềm rời xương
-  - icon: clock
-    text: Cà rốt trước, khoai sau
-  - icon: bowl
-    text: Một nồi hai kiểu ăn
+  - text: Nước trong ngọt xương
+  - text: Khoai bở tơi trong miệng
+  - text: Sườn mềm rời xương
+  - text: Cà rốt trước, khoai sau
+  - text: Một nồi hai kiểu ăn

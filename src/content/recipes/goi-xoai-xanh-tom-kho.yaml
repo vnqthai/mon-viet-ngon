@@ -380,17 +380,10 @@ faq:
       tuần.
 
 ticker:
-  - icon: drop
-    text: Chua thanh ứa nước miếng
-  - icon: shrimp
-    text: Tôm khô càng nhai càng ngọt
-  - icon: bottle
-    text: Nước trộn kẹo bám sợi
-  - icon: herb
-    text: Nhúm rau răm dậy vị
-  - icon: pod
-    text: Đậu phộng rang vàng giã dối
-  - icon: moon
-    text: Bánh phồng tôm xúc gỏi
-  - icon: chili
-    text: Chút cay ghẹo lưỡi
+  - text: Chua thanh ứa nước miếng
+  - text: Tôm khô càng nhai càng ngọt
+  - text: Nước trộn kẹo bám sợi
+  - text: Nhúm rau răm dậy vị
+  - text: Đậu phộng rang vàng giã dối
+  - text: Bánh phồng tôm xúc gỏi
+  - text: Chút cay ghẹo lưỡi

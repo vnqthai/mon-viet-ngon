@@ -389,15 +389,9 @@ faq:
       nào.
 
 ticker:
-  - icon: rice
-    text: Hạt nếp vàng ươm bóng mỡ
-  - icon: knife
-    text: Nhát dao xéo qua nắm đậu
-  - icon: pod
-    text: Lát đậu mỏng như giấy
-  - icon: onion
-    text: Hành phi vàng ruộm
-  - icon: drop
-    text: Mỡ gà đi qua ba lần
-  - icon: flame
-    text: Đồ hai lượt, xới giữa chừng
+  - text: Hạt nếp vàng ươm bóng mỡ
+  - text: Nhát dao xéo qua nắm đậu
+  - text: Lát đậu mỏng như giấy
+  - text: Hành phi vàng ruộm
+  - text: Mỡ gà đi qua ba lần
+  - text: Đồ hai lượt, xới giữa chừng

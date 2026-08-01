@@ -513,17 +513,10 @@ faq:
       trụng sợi, ráp tô** — 15 phút một lượt bốn tô, nhàn tênh.
 
 ticker:
-  - icon: drop
-    text: Nước lèo trong ngọt sâu
-  - icon: shrimp
-    text: Tôm đỏ au cong mình
-  - icon: egg
-    text: Trứng cút tròn xinh
-  - icon: garlic
-    text: Tỏi phi vàng thơm lựng
-  - icon: noodle
-    text: Sợi dai sần sật
-  - icon: herb
-    text: Hẹ giá tươi rói
-  - icon: map
-    text: Từ Nam Vang tới Sài Gòn
+  - text: Nước lèo trong ngọt sâu
+  - text: Tôm đỏ au cong mình
+  - text: Trứng cút tròn xinh
+  - text: Tỏi phi vàng thơm lựng
+  - text: Sợi dai sần sật
+  - text: Hẹ giá tươi rói
+  - text: Từ Nam Vang tới Sài Gòn

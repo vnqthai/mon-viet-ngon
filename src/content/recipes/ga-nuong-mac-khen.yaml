@@ -491,15 +491,9 @@ faq:
       dùng trong ngày, để lâu mùi ủng mất ngon.
 
 ticker:
-  - icon: pepper
-    text: Mắc khén tê tê đầu lưỡi
-  - icon: pod
-    text: Hạt dổi nướng phồng thơm
-  - icon: flame
-    text: Lửa hồng liu riu
-  - icon: meat
-    text: Da vàng ruộm óng mật
-  - icon: chili
-    text: Chẩm chéo chấm là ghiền
-  - icon: rice
-    text: Xôi nếp dẻo kẹp gà
+  - text: Mắc khén tê tê đầu lưỡi
+  - text: Hạt dổi nướng phồng thơm
+  - text: Lửa hồng liu riu
+  - text: Da vàng ruộm óng mật
+  - text: Chẩm chéo chấm là ghiền
+  - text: Xôi nếp dẻo kẹp gà

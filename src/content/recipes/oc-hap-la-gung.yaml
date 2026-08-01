@@ -347,7 +347,5 @@ faq:
       thì viên nhân se lại và lá gừng ngả vàng, mùi bay gần hết.
 
 ticker:
-  - icon: herb
-    text: Gói lá gừng rồi nhét ngược vào vỏ ốc
-  - icon: shrimp
-    text: Băm dối tay cho còn sần sật
+  - text: Gói lá gừng rồi nhét ngược vào vỏ ốc
+  - text: Băm dối tay cho còn sần sật

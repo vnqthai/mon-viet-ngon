@@ -412,17 +412,10 @@ faq:
       hồng) là đạt. Nhớ luôn để sườn nghỉ 3 phút trước khi cắt.
 
 ticker:
-  - icon: flame
-    text: Sườn nướng khói thơm
-  - icon: meat
-    text: Cháy cạnh caramel bóng lưỡng
-  - icon: rice
-    text: Cơm tấm tơi từng hột
-  - icon: herb
-    text: Mỡ hành xanh óng
-  - icon: egg
-    text: Ốp la lòng đào
-  - icon: bottle
-    text: Mắm kẹo chan hào phóng
-  - icon: jar
-    text: Đồ chua giòn rụm
+  - text: Sườn nướng khói thơm
+  - text: Cháy cạnh caramel bóng lưỡng
+  - text: Cơm tấm tơi từng hột
+  - text: Mỡ hành xanh óng
+  - text: Ốp la lòng đào
+  - text: Mắm kẹo chan hào phóng
+  - text: Đồ chua giòn rụm

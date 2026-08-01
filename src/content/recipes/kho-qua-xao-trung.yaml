@@ -292,15 +292,9 @@ faq:
       hơn. Hai món hai vai khác nhau trên mâm.
 
 ticker:
-  - icon: okra
-    text: Nạo kiệt cùi trắng
-  - icon: drop
-    text: Ngâm nước đá muối mười phút
-  - icon: egg
-    text: Trứng bám thành áo quanh lát
-  - icon: flame
-    text: Xào chín tám phần rồi mới rót trứng
-  - icon: clock
-    text: Mười lăm phút là xong
-  - icon: rice
-    text: Món cứu bữa cơm chiều
+  - text: Nạo kiệt cùi trắng
+  - text: Ngâm nước đá muối mười phút
+  - text: Trứng bám thành áo quanh lát
+  - text: Xào chín tám phần rồi mới rót trứng
+  - text: Mười lăm phút là xong
+  - text: Món cứu bữa cơm chiều

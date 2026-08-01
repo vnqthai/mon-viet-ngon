@@ -376,15 +376,9 @@ faq:
       rất ngon mà hoàn toàn không cay.
 
 ticker:
-  - icon: jar
-    text: Chao đỏ trộn chao trắng
-  - icon: pumpkin
-    text: Khoai môn bở tan trong miệng
-  - icon: pod
-    text: Tàu hũ ky chiên phồng
-  - icon: ginger
-    text: Gừng rượu khử mùi hai lượt
-  - icon: lettuce
-    text: Cải xanh đắng nhẹ cắt béo
-  - icon: noodle
-    text: Cuối bữa thả mì trứng
+  - text: Chao đỏ trộn chao trắng
+  - text: Khoai môn bở tan trong miệng
+  - text: Tàu hũ ky chiên phồng
+  - text: Gừng rượu khử mùi hai lượt
+  - text: Cải xanh đắng nhẹ cắt béo
+  - text: Cuối bữa thả mì trứng

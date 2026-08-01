@@ -428,17 +428,10 @@ faq:
       chai, ngăn mát 4–5 ngày vẫn thanh.
 
 ticker:
-  - icon: flame
-    text: Khói than thơm cả góc phố
-  - icon: meat
-    text: Chả viên chả miếng cháy cạnh
-  - icon: bowl
-    text: Nước chấm ấm thanh dịu
-  - icon: pod
-    text: Đu đủ giòn tan
-  - icon: herb
-    text: Kinh giới tía tô the mát
-  - icon: noodle
-    text: Bún rối trắng ngần
-  - icon: drop
-    text: Nước hàng nâu óng
+  - text: Khói than thơm cả góc phố
+  - text: Chả viên chả miếng cháy cạnh
+  - text: Nước chấm ấm thanh dịu
+  - text: Đu đủ giòn tan
+  - text: Kinh giới tía tô the mát
+  - text: Bún rối trắng ngần
+  - text: Nước hàng nâu óng

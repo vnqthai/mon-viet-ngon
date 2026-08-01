@@ -364,9 +364,6 @@ faq:
       Hoặc cất ngăn đá dùng để nấu canh hôm sau.
 
 ticker:
-  - icon: knife
-    text: Xé dọc thớ thì sợi mới dài và ngọt
-  - icon: flame
-    text: Dầu phải nóng già mới chan lên hành
-  - icon: onion
-    text: Hành phi rắc sau cùng cho còn giòn
+  - text: Xé dọc thớ thì sợi mới dài và ngọt
+  - text: Dầu phải nóng già mới chan lên hành
+  - text: Hành phi rắc sau cùng cho còn giòn

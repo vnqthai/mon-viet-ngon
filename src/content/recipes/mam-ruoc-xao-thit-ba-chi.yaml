@@ -301,7 +301,5 @@ faq:
       gắt, luôn cần một thứ nhạt đi cùng.
 
 ticker:
-  - icon: herb
-    text: Mắm ruốc xào sả thơm nức bếp
-  - icon: rice
-    text: Hũ mặn để dành, cơm nóng là xong bữa
+  - text: Mắm ruốc xào sả thơm nức bếp
+  - text: Hũ mặn để dành, cơm nóng là xong bữa

@@ -401,15 +401,9 @@ faq:
       trứng chai lại, uổng công phết lòng đỏ.
 
 ticker:
-  - icon: sun
-    text: Mặt vàng óng mượt
-  - icon: spoon
-    text: Xúc muỗng nào mướt muỗng đó
-  - icon: sprout
-    text: Nấm mèo sần sật
-  - icon: pepper
-    text: Thơm tiêu, thơm hành lá
-  - icon: rice
-    text: Úp cơm nóng là hết chén
-  - icon: egg
-    text: Vị hiền cả nhà đều ăn
+  - text: Mặt vàng óng mượt
+  - text: Xúc muỗng nào mướt muỗng đó
+  - text: Nấm mèo sần sật
+  - text: Thơm tiêu, thơm hành lá
+  - text: Úp cơm nóng là hết chén
+  - text: Vị hiền cả nhà đều ăn

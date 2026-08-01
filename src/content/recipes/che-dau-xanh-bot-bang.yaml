@@ -296,15 +296,9 @@ faq:
       nước cốt dừa pha loãng — cách này ly chè càng ăn càng béo chứ không nhạt.
 
 ticker:
-  - icon: pod
-    text: Hạt đậu bở mà còn nguyên
-  - icon: rice
-    text: Bột báng trong veo
-  - icon: drop
-    text: Cốt dừa rót sau cùng
-  - icon: jar
-    text: Mềm trước, ngọt sau
-  - icon: sun
-    text: Nóng buổi tối, lạnh buổi trưa
-  - icon: herb
-    text: Lá dứa thơm cả nồi
+  - text: Hạt đậu bở mà còn nguyên
+  - text: Bột báng trong veo
+  - text: Cốt dừa rót sau cùng
+  - text: Mềm trước, ngọt sau
+  - text: Nóng buổi tối, lạnh buổi trưa
+  - text: Lá dứa thơm cả nồi

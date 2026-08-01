@@ -429,15 +429,9 @@ faq:
       giờ**, để qua đêm là lá thâm và mất mùi.
 
 ticker:
-  - icon: herb
-    text: Lá é the mát thả sát giờ ăn
-  - icon: chili
-    text: Ớt xiêm xanh cay nồng tan nhanh
-  - icon: meat
-    text: Gà thả vườn chặt miếng còn da
-  - icon: drop
-    text: Nước dùng trong veo, ngọt thịt
-  - icon: bowl
-    text: Chén muối ớt xanh giã lá é
-  - icon: sprout
-    text: Măng le luộc kỹ, giòn ngọt
+  - text: Lá é the mát thả sát giờ ăn
+  - text: Ớt xiêm xanh cay nồng tan nhanh
+  - text: Gà thả vườn chặt miếng còn da
+  - text: Nước dùng trong veo, ngọt thịt
+  - text: Chén muối ớt xanh giã lá é
+  - text: Măng le luộc kỹ, giòn ngọt

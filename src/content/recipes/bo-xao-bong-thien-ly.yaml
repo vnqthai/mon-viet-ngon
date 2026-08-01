@@ -305,15 +305,9 @@ faq:
       hôm sau xào mẻ bông mới rồi trộn lại — vẫn ngon gần như mới.
 
 ticker:
-  - icon: flower
-    text: Chùm bông còn búp khép
-  - icon: clock
-    text: Xào đúng một phút
-  - icon: flame
-    text: Chảo nóng già rồi mới cho dầu
-  - icon: meat
-    text: Bò thái ngang thớ
-  - icon: sun
-    text: Món của mùa hè
-  - icon: rice
-    text: Ăn hao cơm
+  - text: Chùm bông còn búp khép
+  - text: Xào đúng một phút
+  - text: Chảo nóng già rồi mới cho dầu
+  - text: Bò thái ngang thớ
+  - text: Món của mùa hè
+  - text: Ăn hao cơm

@@ -383,15 +383,9 @@ faq:
       ra, hấp bánh xong rắc lại.
 
 ticker:
-  - icon: pot
-    text: Hấp chén nóng già rồi mới múc bột
-  - icon: rice
-    text: Mặt bánh lõm một xoáy nhỏ ở giữa
-  - icon: shrimp
-    text: Tôm chấy rang tới khi bông tơi cam ruộm
-  - icon: meat
-    text: Tóp mỡ giòn, mỡ hành xanh bóng
-  - icon: bottle
-    text: Mắm chan loãng, chén nào ăn chén đó
-  - icon: spoon
-    text: Lách thìa một vòng, xúc nguyên cái
+  - text: Hấp chén nóng già rồi mới múc bột
+  - text: Mặt bánh lõm một xoáy nhỏ ở giữa
+  - text: Tôm chấy rang tới khi bông tơi cam ruộm
+  - text: Tóp mỡ giòn, mỡ hành xanh bóng
+  - text: Mắm chan loãng, chén nào ăn chén đó
+  - text: Lách thìa một vòng, xúc nguyên cái

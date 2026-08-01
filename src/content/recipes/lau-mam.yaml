@@ -502,15 +502,9 @@ faq:
       mắm.
 
 ticker:
-  - icon: fish
-    text: Mắm cá linh nấu chung mắm cá sặc
-  - icon: drop
-    text: Nước dừa tươi cho hậu ngọt
-  - icon: ginger
-    text: Sả với tỏi phi vàng dậy mùi
-  - icon: flower
-    text: Bông súng, điên điển chất đầy rổ
-  - icon: pod
-    text: Cà tím mềm rục ngậm nước mắm
-  - icon: meat
-    text: Miếng ba rọi quay da còn giòn
+  - text: Mắm cá linh nấu chung mắm cá sặc
+  - text: Nước dừa tươi cho hậu ngọt
+  - text: Sả với tỏi phi vàng dậy mùi
+  - text: Bông súng, điên điển chất đầy rổ
+  - text: Cà tím mềm rục ngậm nước mắm
+  - text: Miếng ba rọi quay da còn giòn

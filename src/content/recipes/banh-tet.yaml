@@ -361,9 +361,6 @@ faq:
       và nứt. Thấy nhớt hoặc chua thì bỏ cả đòn.
 
 ticker:
-  - icon: rice
-    text: Nếp xào nước cốt dừa cho hạt săn
-  - icon: knife
-    text: Dằn đòn cho nếp dồn đều rồi mới buộc
-  - icon: drop
-    text: Treo cho ráo thay vì ép như bánh vuông
+  - text: Nếp xào nước cốt dừa cho hạt săn
+  - text: Dằn đòn cho nếp dồn đều rồi mới buộc
+  - text: Treo cho ráo thay vì ép như bánh vuông

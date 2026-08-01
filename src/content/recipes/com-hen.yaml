@@ -349,7 +349,5 @@ faq:
       bào rau mới, xới cơm nguội ra là xong tô.
 
 ticker:
-  - icon: rice
-    text: Cơm hến — cơm nguội chan nước nóng
-  - icon: chili
-    text: Tô cơm cay nhất mâm Huế
+  - text: Cơm hến — cơm nguội chan nước nóng
+  - text: Tô cơm cay nhất mâm Huế

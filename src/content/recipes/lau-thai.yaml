@@ -468,15 +468,9 @@ faq:
       giờ cho khỏi thâm.
 
 ticker:
-  - icon: stem
-    text: Sả, riềng, lá chanh làm nền mùi
-  - icon: chili
-    text: Sa tế phi dầu bung màu đỏ cam
-  - icon: lime
-    text: Me cho chua nền, chanh cho chua mùi
-  - icon: shrimp
-    text: Tôm mực nghêu nhúng tới đâu ăn tới đó
-  - icon: pineapple
-    text: Thơm với cà chua cho màu tự nhiên
-  - icon: noodle
-    text: Vắt mì thả lượt cuối, đậm nhất nồi
+  - text: Sả, riềng, lá chanh làm nền mùi
+  - text: Sa tế phi dầu bung màu đỏ cam
+  - text: Me cho chua nền, chanh cho chua mùi
+  - text: Tôm mực nghêu nhúng tới đâu ăn tới đó
+  - text: Thơm với cà chua cho màu tự nhiên
+  - text: Vắt mì thả lượt cuối, đậm nhất nồi

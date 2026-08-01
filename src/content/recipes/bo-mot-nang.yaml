@@ -347,7 +347,5 @@ faq:
       Krông Pa người ta cũng làm **heo một nắng** bán song song với bò.
 
 ticker:
-  - icon: sun
-    text: Phơi đúng một nắng, khô mặt mà ẩm ruột
-  - icon: meat
-    text: Đập nhẹ rồi xé dọc thớ bằng tay
+  - text: Phơi đúng một nắng, khô mặt mà ẩm ruột
+  - text: Đập nhẹ rồi xé dọc thớ bằng tay

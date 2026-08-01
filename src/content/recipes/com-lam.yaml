@@ -352,9 +352,6 @@ faq:
       quay lò là thỏi cơm cứng đanh.
 
 ticker:
-  - icon: stem
-    text: Ống nứa vừa là nồi vừa là gia vị
-  - icon: rice
-    text: Nếp ngâm 6 tiếng, nước xâm xấp
-  - icon: jar
-    text: Chấm muối vừng giã thô
+  - text: Ống nứa vừa là nồi vừa là gia vị
+  - text: Nếp ngâm 6 tiếng, nước xâm xấp
+  - text: Chấm muối vừng giã thô

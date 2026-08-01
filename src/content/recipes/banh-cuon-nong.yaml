@@ -498,15 +498,9 @@ faq:
       tại trận, tráng tới đâu ăn tới đó vẫn là nhất.
 
 ticker:
-  - icon: roll
-    text: Mỏng mướt như lụa
-  - icon: flame
-    text: Nóng hổi từng lượt tráng
-  - icon: onion
-    text: Hành phi vàng ruộm
-  - icon: bottle
-    text: Chén mắm ấm thanh dịu
-  - icon: meat
-    text: Chả quế thơm góc dĩa
-  - icon: sprout
-    text: Mộc nhĩ giòn sần sật
+  - text: Mỏng mướt như lụa
+  - text: Nóng hổi từng lượt tráng
+  - text: Hành phi vàng ruộm
+  - text: Chén mắm ấm thanh dịu
+  - text: Chả quế thơm góc dĩa
+  - text: Mộc nhĩ giòn sần sật

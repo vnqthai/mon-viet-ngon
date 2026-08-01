@@ -441,15 +441,9 @@ faq:
       Bắc hay bán. Chỉ cần bóp muối rửa cho thật kỹ.
 
 ticker:
-  - icon: noodle
-    text: Sợi miến dong trong mờ, dai mướt
-  - icon: drop
-    text: Nước gà trong, ngọt thanh nhẹ bụng
-  - icon: meat
-    text: Gà ta xé tay từng thớ
-  - icon: pod
-    text: Mộc nhĩ giòn sựt, nấm hương thơm ngầm
-  - icon: herb
-    text: Rau răm the the rắc mặt tô
-  - icon: onion
-    text: Hành phi vàng giòn rắc sau cùng
+  - text: Sợi miến dong trong mờ, dai mướt
+  - text: Nước gà trong, ngọt thanh nhẹ bụng
+  - text: Gà ta xé tay từng thớ
+  - text: Mộc nhĩ giòn sựt, nấm hương thơm ngầm
+  - text: Rau răm the the rắc mặt tô
+  - text: Hành phi vàng giòn rắc sau cùng

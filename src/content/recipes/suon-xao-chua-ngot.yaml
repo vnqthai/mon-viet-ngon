@@ -388,15 +388,9 @@ faq:
       cho bé.
 
 ticker:
-  - icon: drop
-    text: Sốt đỏ cam bóng lưỡng
-  - icon: bottle
-    text: Chua trước ngọt sau
-  - icon: pineapple
-    text: Thơm vàng ngọt lịm
-  - icon: pepper
-    text: Ớt chuông giòn sựt
-  - icon: flame
-    text: Rìa sườn giòn nhẹ
-  - icon: rice
-    text: Món dụ cơm hạng nhất
+  - text: Sốt đỏ cam bóng lưỡng
+  - text: Chua trước ngọt sau
+  - text: Thơm vàng ngọt lịm
+  - text: Ớt chuông giòn sựt
+  - text: Rìa sườn giòn nhẹ
+  - text: Món dụ cơm hạng nhất

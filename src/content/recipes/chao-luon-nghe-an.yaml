@@ -457,15 +457,9 @@ faq:
       vào nồi. Ăn kèm cũng khác — ở đây là đĩa bánh mướt chứ không phải quẩy.
 
 ticker:
-  - icon: rice
-    text: Hạt gạo ninh nguyên, nở bung như cánh hoa
-  - icon: fish
-    text: Lươn đồng tước sợi bằng tay
-  - icon: onion
-    text: Hành tăm phi vàng, mùi nồng rất riêng
-  - icon: flame
-    text: Nghệ với dầu điều cho màu cánh gián
-  - icon: herb
-    text: Rau răm thái nhỏ rắc mặt tô
-  - icon: plate
-    text: Đĩa bánh mướt ăn kèm buổi sáng
+  - text: Hạt gạo ninh nguyên, nở bung như cánh hoa
+  - text: Lươn đồng tước sợi bằng tay
+  - text: Hành tăm phi vàng, mùi nồng rất riêng
+  - text: Nghệ với dầu điều cho màu cánh gián
+  - text: Rau răm thái nhỏ rắc mặt tô
+  - text: Đĩa bánh mướt ăn kèm buổi sáng

@@ -338,7 +338,5 @@ faq:
       sém lại.
 
 ticker:
-  - icon: fish
-    text: Mổ dọc sống lưng, gập úp lại kẹp tre
-  - icon: herb
-    text: Nhồi đầy sả gừng rau thơm và mắc khén
+  - text: Mổ dọc sống lưng, gập úp lại kẹp tre
+  - text: Nhồi đầy sả gừng rau thơm và mắc khén

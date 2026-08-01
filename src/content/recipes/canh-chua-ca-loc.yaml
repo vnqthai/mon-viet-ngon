@@ -474,17 +474,10 @@ faq:
       sau làm đúng ba điều trên là nước trong veo ngay.
 
 ticker:
-  - icon: drop
-    text: Chua thanh nước me
-  - icon: flower
-    text: Bông điên điển mùa nước nổi
-  - icon: fish
-    text: Cá lóc đồng ngọt thịt
-  - icon: herb
-    text: Thơm lừng ngò om, ngò gai
-  - icon: pineapple
-    text: Khóm chín ngọt lựng
-  - icon: chili
-    text: Cay nồng ớt sừng
-  - icon: rice
-    text: Đúng điệu bữa cơm quê
+  - text: Chua thanh nước me
+  - text: Bông điên điển mùa nước nổi
+  - text: Cá lóc đồng ngọt thịt
+  - text: Thơm lừng ngò om, ngò gai
+  - text: Khóm chín ngọt lựng
+  - text: Cay nồng ớt sừng
+  - text: Đúng điệu bữa cơm quê
