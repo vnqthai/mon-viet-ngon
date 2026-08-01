@@ -1,0 +1,380 @@
+title: Chè trôi nước **viên dẻo mềm, nước gừng cay ấm**
+summary: >-
+  Viên bột nếp trắng to bằng quả quất, bọc **nhân đậu xanh vàng ươm trộn dừa**,
+  luộc nổi lên rồi thả vào nồi nước đường gừng. Múc chén nóng, chan nước cốt
+  dừa, rắc mè rang — cắn vô là vỏ dẻo, ruột bùi, hậu vị cay ấm.
+region: Miền Nam
+category: Chè
+occasions: [Ăn chơi, Cỗ Tết]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 20 phút
+  active: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 117
+art: che-troi-nuoc
+heroEyebrow: Viên chìm xuống rồi lại nổi lên…
+
+quick:
+  ingredients:
+    - Bột nếp [[300|g]] + nước ấm [[240|ml]] — nhồi tới khi dẻo mịn, không dính tay
+    - Đậu xanh cà vỏ [[150|g]] · dừa nạo [[50|g]] · hành tím phi
+    - Đường thốt nốt hoặc đường vàng [[200|g]] · gừng [[1|củ]] to
+    - Nước cốt dừa [[200|ml]] · mè trắng rang [[2|muỗng canh]]
+  steps:
+    - Ngâm đậu xanh **3–4 tiếng**, hấp chín rồi giã mịn, sên với đường và dừa nạo cho khô ráo.
+    - Vo nhân thành **viên tròn cỡ đầu ngón tay cái**, để riêng ra dĩa.
+    - Nhồi bột nếp với nước ấm từng chút một tới khi **dẻo mịn như đất nặn**, ủ 20 phút.
+    - Chia bột, ấn dẹt, đặt viên nhân vào giữa rồi **vê kín cho tròn** — hở là bung khi luộc.
+    - Luộc viên trong nồi nước sôi, **viên nổi lên rồi đợi thêm 2 phút** mới vớt.
+    - Vớt viên thả ngay vào tô nước lạnh cho vỏ săn, rồi vớt ra để ráo.
+    - Nấu nước đường với gừng thái sợi, thả viên vào **đun liu riu 5 phút** cho ngấm.
+    - "Múc chén: viên chè, chan nước gừng, rưới cốt dừa, rắc mè rang."
+  warning: >-
+    Vê viên không kín mép là **nhân bung ra giữa nồi**, nước luộc đục ngầu và
+    viên xẹp lép. Vê xong lăn tròn trong lòng bàn tay, thấy mặt vỏ **liền lì
+    không còn đường nối** thì mới thả.
+
+flavor:
+  chua: 0
+  ngot: 7
+  man: 1.5
+  cay: 3
+  thom: 7
+flavorNote: >-
+  **Chuẩn chén chè:** vỏ **dẻo mềm, cắn đứt ngọt** chứ không dai nhách cũng
+  không bở nát. Nhân đậu xanh **bùi và ráo**, không ướt nhoẹt. Nước gừng ngọt
+  đậm màu hổ phách, cay ấm ở cuống họng chứ không cay xé lưỡi.
+storyEyebrow: Chuyện chén chè trôi nước
+storyTitle: Viên chè **chìm xuống rồi nổi lên** — và đó là cái đồng hồ báo chín
+story:
+  - >-
+    Chè trôi nước là món chè nóng, ăn bằng muỗng, mỗi chén chỉ ba bốn viên
+    trắng to nằm trong nước đường gừng màu hổ phách. Vỏ làm bằng bột nếp nên
+    dẻo, ruột là đậu xanh giã mịn sên với dừa nên bùi và ráo — hai thứ đó
+    cộng với cái cay ấm của gừng làm nên toàn bộ món.
+  - >-
+    Tên món nói đúng cách nấu: thả viên vào nồi nước sôi thì nó **chìm xuống
+    đáy**, chín tới đâu nhẹ tới đó, và khi chín hẳn thì **tự nổi lên mặt
+    nước**. Không cần bấm giờ, không cần bổ ra xem — nồi tự báo. Chỉ cần nhớ
+    đợi thêm chừng hai phút sau khi nổi, để phần vỏ sát nhân cũng chín đều.
+  - >-
+    Món này hay có mặt trong mâm cúng và mâm Tết ở miền Nam, nhưng nấu ngày
+    thường cũng chẳng sao. Phần mất công nhất là ngồi vê viên; làm được tới đó
+    rồi thì nồi nước gừng chỉ tốn thêm mười phút.
+
+ingredientGroups:
+  - name: Vỏ bột nếp
+    icon: rice
+    items:
+      - id: botnep
+        name: Bột nếp
+        icon: rice
+        base: 300
+        unit: g
+        note: >-
+          Bột nếp mới, mịn, không vón — bột để lâu hút nước kém, vỏ hay nứt
+      - id: nuocam
+        name: Nước ấm
+        icon: drop
+        base: 240
+        unit: ml
+        note: >-
+          Ấm chừng sờ tay thấy nóng nhẹ. Đổ **từng chút một**, không đổ hết một
+          lần — mỗi bao bột hút nước một khác
+      - id: muoivo
+        name: Muối
+        icon: jar
+        base: 0.25
+        unit: muỗng cà phê
+        frac: true
+        note: Cho vào nước nhồi bột, làm vỏ đậm và đỡ nhạt
+  - name: Nhân đậu xanh
+    icon: pod
+    items:
+      - id: dauxanh
+        name: Đậu xanh cà vỏ
+        icon: pod
+        color: gold
+        base: 150
+        unit: g
+        note: Loại đã cà vỏ, hạt vàng — ngâm 3–4 tiếng cho nở đều rồi mới hấp
+      - id: duanao
+        name: Dừa nạo sợi
+        icon: flower
+        base: 50
+        unit: g
+        note: Trộn vào nhân cho bùi và thơm; không có thì bỏ qua, nhân vẫn ổn
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        base: 2
+        unit: củ
+        note: >-
+          Phi vàng rồi trộn vào nhân — chỗ mặn thơm này là thứ tách nhân chè
+          trôi nước khỏi nhân bánh ngọt
+      - id: duongnhan
+        name: Đường (cho nhân)
+        icon: jar
+        base: 40
+        unit: g
+        note: Nhân chỉ ngọt nhẹ thôi, vì nước chè đã rất ngọt
+  - name: Nước gừng & chan mặt
+    icon: ginger
+    items:
+      - id: duongthotnot
+        name: Đường thốt nốt (hoặc đường vàng)
+        icon: jar
+        base: 200
+        unit: g
+        note: >-
+          Đường thốt nốt cho nước màu hổ phách và mùi thơm riêng; đường vàng
+          thay được, đường trắng thì nước nhạt màu
+      - id: gung
+        name: Gừng tươi
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: Củ to bằng ngón cái. Một nửa thái sợi thả vào nồi, một nửa đập dập
+      - id: cotdua
+        name: Nước cốt dừa
+        icon: drop
+        base: 200
+        unit: ml
+        note: Nấu với chút muối và bột năng cho sánh, chan lên lúc dọn
+      - id: botnangdua
+        name: Bột năng
+        icon: rice
+        base: 1
+        unit: muỗng cà phê
+        note: Pha loãng, khuấy vào cốt dừa cho hơi sệt
+      - id: me
+        name: Mè trắng
+        icon: pod
+        base: 2
+        unit: muỗng canh
+        note: Rang vàng trên chảo khô, rắc lúc dọn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **chén chè viên dẻo, nước gừng cay ấm**
+stepsLead: >-
+  Làm nhân trước, nhồi bột sau, vê viên rồi mới bắc nồi. Cả món chỉ có một
+  chỗ dễ hỏng là lúc vê viên — làm kỹ chỗ đó thì phần còn lại trôi băng băng.
+steps:
+  - title: Sên nhân đậu xanh cho thật ráo
+    icon: pot
+    minutes: 30 phút
+    bullets:
+      - text: >-
+          Ngâm [[150|g]] đậu xanh **3–4 tiếng** cho nở, đãi lại rồi hấp chừng
+          20 phút tới khi bóp nát được giữa hai ngón.
+      - text: >-
+          Giã hoặc xay đậu cho **thật mịn**. Còn lợn cợn thì lúc vê nhân hay bị
+          xé rách vỏ bột.
+      - label: "Sên nhân:"
+        text: >-
+          Cho đậu vào chảo với [[40|g]] đường, dừa nạo và hành tím phi, để
+          **lửa nhỏ**, đảo liên tục tới khi khối đậu **róc chảo, vo lại không
+          dính tay**.
+      - text: >-
+          Để nguội bớt rồi vo thành viên tròn cỡ **đầu ngón tay cái**, xếp ra
+          dĩa. Được chừng 12–14 viên.
+    callout:
+      type: warn
+      text: >-
+        Nhân còn ướt là hỏng cả nồi: gói vào bột thì bột nhão ra, luộc lên vỏ
+        nứt và nhân chảy. Sên tới khi **kéo đũa qua thấy đáy chảo hở ra một
+        đường** rồi mới tắt.
+  - title: Nhồi bột nếp — dẻo mịn, không dính tay
+    icon: rice
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Đổ [[300|g]] bột nếp ra tô, rắc nhúm muối, rót **nước ấm từng chút
+          một** và trộn bằng đũa cho tới khi bột kết lại thành mảng.
+      - text: >-
+          Chuyển sang nhồi bằng tay chừng 10 phút, tới khi khối bột **mịn, dẻo
+          như đất nặn, ấn ngón tay vào thì lõm mà không dính**.
+      - text: >-
+          Bột khô nứt thì thấm tay ướt nhồi tiếp; bột nhão dính thì rắc thêm
+          bột khô từng thìa nhỏ.
+      - text: >-
+          Bọc kín tô, để nghỉ **20 phút**. Bột nghỉ rồi thì vê viên dễ hơn hẳn.
+    callout:
+      type: tip
+      text: >-
+        Muốn vỏ mềm lâu, không bị cứng lại khi nguội: lấy chừng một nắm bột
+        nhỏ luộc chín trước rồi nhồi trở lại vào khối bột sống. Đây là mẹo cũ
+        của mấy hàng chè, vỏ để tới chiều vẫn dẻo.
+  - title: Vê viên — chỗ dễ hỏng nhất
+    icon: flower
+    minutes: 20 phút
+    intro: "Làm chậm chỗ này, cả nồi sẽ đẹp:"
+    bullets:
+      - text: >-
+          Chia bột thành từng cục bằng quả quất, lăn tròn rồi **ấn dẹt trong
+          lòng bàn tay** thành miếng dày chừng nửa phân.
+      - text: >-
+          Đặt viên nhân vào giữa, **kéo mép bột lên bọc kín rồi vê tròn lại**.
+          Lăn giữa hai lòng bàn tay tới khi mặt vỏ liền lì, không còn nhìn thấy
+          đường nối.
+      - text: >-
+          Vỏ dày đều quanh viên là được — chỗ dày chỗ mỏng thì lúc luộc chỗ
+          mỏng nứt trước.
+      - text: >-
+          Xếp viên ra mâm có **rắc chút bột khô** cho khỏi dính, đừng chồng
+          lên nhau.
+    doneText: Xong mâm viên — phần khó nhất qua rồi!
+  - title: Luộc viên — nổi lên là gần xong
+    icon: pot
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Đun nồi nước rộng cho **sôi già**, thả viên vào từng đợt, mỗi đợt
+          chừng 6 viên. Thả nhiều quá là viên dính nhau.
+      - text: >-
+          Viên chìm xuống đáy. Khi thấy **viên nổi hẳn lên mặt nước** thì đợi
+          thêm **2 phút** nữa mới vớt — phần vỏ sát nhân cần thêm chừng đó.
+      - text: >-
+          Vớt viên thả ngay vào **tô nước lạnh** một phút cho vỏ săn lại và
+          hết dính, rồi vớt ra để ráo.
+    callout:
+      type: warn
+      text: >-
+        Đừng để nước sôi sùng sục lúc viên đã nổi — nước réo mạnh làm viên va
+        vào nhau và nứt. Nổi lên rồi thì **hạ lửa xuống mức sôi lăn tăn**.
+    timer:
+      secs: 120
+      label: Hẹn giờ sau khi viên nổi · 02:00
+      doneMsg: Hết 2 phút — vớt viên thả vào tô nước lạnh!
+  - title: Nấu nước gừng và múc chén
+    icon: ginger
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Nấu [[600|ml]] nước với [[200|g]] đường thốt nốt cho tan, thả **gừng
+          thái sợi** và nửa củ gừng đập dập, đun sôi rồi hạ nhỏ lửa 5 phút.
+      - text: >-
+          Thả viên đã ráo vào nồi nước gừng, **đun liu riu 5 phút** cho vỏ ngấm
+          ngọt và ấm đều. Vớt bỏ phần gừng đập dập.
+      - text: >-
+          Nấu cốt dừa với nhúm muối và bột năng pha loãng cho hơi sệt.
+      - text: >-
+          "Múc chén: **3–4 viên**, chan nước gừng ngập, rưới cốt dừa lên mặt,
+          rắc mè rang và vài sợi gừng. Ăn nóng."
+    doneText: Cắn viên đầu tiên — vỏ dẻo, ruột bùi, hậu cay ấm. Xong!
+
+tipsTitle: 6 bí quyết cho **vỏ dẻo mềm, nhân không bung**
+tipsLead: >-
+  Chè trôi nước hỏng theo bốn kiểu: vỏ nứt, nhân bung, vỏ dai nhách, và nước
+  gừng nhạt thếch. Sáu điều dưới đây chặn hết.
+tips:
+  - icon: pot
+    title: Nhân phải sên tới khi róc chảo
+    text: >-
+      Đây là nguyên nhân số một của viên bung. Nhân còn ẩm thì hơi nước trong
+      nhân nở ra lúc luộc và **đẩy toác lớp vỏ**. Sên tới khi kéo đũa thấy hở
+      đáy chảo, vo viên không dính tay.
+  - icon: drop
+    title: Nước nhồi bột phải ấm, không được lạnh
+    text: >-
+      Bột nếp gặp nước ấm mới dẻo và dính kết; nước lạnh thì bột rời rạc, nhồi
+      mãi vẫn nứt mép. Ấm chừng sờ vào thấy nóng nhẹ là vừa.
+  - icon: flower
+    title: Vê xong phải thấy mặt vỏ liền lì
+    text: >-
+      Còn nhìn ra đường nối là chỗ đó sẽ toác khi gặp nước sôi. Lăn thêm mươi
+      vòng giữa hai lòng bàn tay cho mặt vỏ mịn hẳn — mất mấy giây mà chắc
+      ăn.
+  - icon: clock
+    title: Nổi lên rồi vẫn phải đợi thêm 2 phút
+    text: >-
+      Viên nổi nghĩa là lớp vỏ ngoài đã chín, chứ phần vỏ ôm sát nhân thì
+      chưa. Vớt sớm là cắn vào thấy một vành bột trắng đục còn sống ở giữa.
+  - icon: drop
+    title: Thả nước lạnh ngay sau khi vớt
+    text: >-
+      Viên vừa vớt còn nóng thì mềm nhũn và dính vào nhau. Nhúng nước lạnh một
+      phút là **vỏ săn lại, bóng và tách rời** — rồi mới thả vào nồi nước
+      gừng.
+  - icon: ginger
+    title: Gừng thái sợi thả sau, gừng đập dập nấu trước
+    text: >-
+      Gừng đập dập nấu lâu cho ra vị cay nền; gừng thái sợi thả sau giữ được
+      mùi thơm tươi và ăn được luôn trong chén. Chỉ dùng một kiểu thì nước
+      hoặc nhạt mùi, hoặc cay gắt.
+
+serve:
+  title: Chén chè nóng — **ăn ngay lúc còn bốc hơi**
+  paras:
+    - >-
+      Chè trôi nước ăn nóng mới đúng. Múc chén nhỏ ba bốn viên, chan nước gừng
+      cho ngập chừng nửa viên, rưới một vòng cốt dừa trắng lên mặt rồi rắc mè.
+      Ăn từ từ, cắn đôi từng viên cho phần nhân đậu xanh lộ ra.
+    - >-
+      Nồi chè để được cả buổi trên bếp ấm. Nguội thì hâm lại bằng cách đun
+      liu riu chứ đừng cho vào lò vi sóng — vỏ nếp quay lên là chỗ cứng chỗ
+      nhão. Ngày lạnh mà có nồi chè này trên bếp thì cả nhà cứ ra vào múc.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ nên có cạnh chén chè:"
+    items:
+      - icon: drop
+        text: "**Chén cốt dừa riêng** — ai thích béo thì chan thêm."
+      - icon: pod
+        text: "**Mè rang giã dập** — thơm và bám vào mặt viên, ăn đỡ trơn."
+      - icon: ginger
+        text: "**Ít gừng thái sợi để riêng** — cho ai thích cay đậm hơn."
+
+faq:
+  - q: Vỏ bánh cứ nứt lúc luộc, vì sao?
+    a: >-
+      Ba nghi phạm theo thứ tự hay gặp: **nhân còn ướt** (sên chưa tới),
+      **vê chưa kín mép**, và **nước luộc sôi quá mạnh**. Chữa lần lượt: sên
+      nhân tới khi róc chảo, lăn viên cho mặt vỏ liền lì, và hạ lửa xuống sôi
+      lăn tăn ngay khi viên bắt đầu nổi.
+  - q: Để nguội thì vỏ cứng lại, làm sao cho mềm lâu?
+    a: >-
+      Lấy một nắm nhỏ bột trong khối bột đem **luộc chín rồi nhồi trở lại**
+      vào phần bột sống. Phần bột chín đó giữ nước nên vỏ mềm lâu hơn hẳn. Mẹo
+      thứ hai: chan nước gừng ngập viên khi cất, đừng để viên khô ngoài không
+      khí.
+  - q: Không có đường thốt nốt thì thay bằng gì?
+    a: >-
+      **Đường vàng** là thứ gần nhất — vẫn ra màu hổ phách và vị ngọt có hậu.
+      Đường trắng cũng nấu được nhưng nước nhạt màu và ngọt phẳng; muốn cứu
+      thì thắng chừng một thìa đường cho ngả cánh gián rồi hoà vào nồi.
+  - q: Làm nhân mặn thay nhân đậu xanh được không?
+    a: >-
+      Món này thì không nên. Vỏ nếp và nước đường gừng đã định sẵn hướng ngọt,
+      nhân mặn vào là cãi nhau. Muốn đổi thì đổi trong họ ngọt: **nhân đậu
+      xanh trộn dừa** (bản đang làm), nhân dừa sên đường, hoặc để viên chay
+      không nhân — loại viên nhỏ không nhân này thường thả chung cho vui chén.
+  - q: Vê trước rồi cấp đông để dành được không?
+    a: >-
+      Được, và rất tiện. Vê xong xếp viên **rời nhau trên khay**, cấp đông cho
+      cứng rồi mới trút vào túi. Lúc nấu **thả thẳng viên đông vào nồi nước
+      sôi**, đừng rã đông trước — rã đông là vỏ nhão và bẹp. Luộc thêm chừng 2
+      phút so với viên tươi.
+  - q: Nồi chè để được bao lâu?
+    a: >-
+      Để ngoài trong ngày thì cứ hâm lại mà ăn. Cất ngăn mát được **2 ngày**,
+      viên sẽ hơi cứng nhưng hâm liu riu trong nước gừng chừng 5 phút là mềm
+      lại. Cốt dừa để hộp riêng và dùng trong 2 ngày.
+
+ticker:
+  - icon: flower
+    text: Viên chìm xuống rồi tự nổi lên
+  - icon: ginger
+    text: Nước gừng cay ấm màu hổ phách
+  - icon: pod
+    text: Nhân đậu xanh sên tới khi róc chảo
+  - icon: drop
+    text: Vớt ra là nhúng ngay nước lạnh
+  - icon: rice
+    text: Vỏ nếp dẻo mềm, cắn đứt ngọt
+  - icon: bowl
+    text: Chén chè nóng của ngày trở lạnh

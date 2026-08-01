@@ -1,0 +1,409 @@
+title: Miến lươn Nghệ An **nước vàng nghệ, lươn còn nguyên miếng**
+summary: >-
+  Lươn đồng gỡ thành **miếng dài còn nguyên thớ**, xào săn với nghệ tới vàng
+  sậm rồi xếp lên tô miến trong. Nước dùng ninh từ chính xương lươn, chan vào
+  vàng óng, thơm mùi hành tăm phi — húp một muỗng là ấm tới bụng.
+region: Miền Trung
+category: Món nước
+occasions: [Bữa sáng, Cơm nhà]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 30 phút
+  active: 50 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 119
+art: mien-luon
+heroEyebrow: Xứ Nghệ gỡ lươn theo lối riêng…
+
+quick:
+  ingredients:
+    - Lươn đồng sống [[600|g]] — cỡ ngón tay cái, còn khoẻ
+    - Miến dong [[200|g]] · xương heo [[300|g]] để ninh cùng xương lươn
+    - Nghệ tươi [[1|củ]] · hành tăm [[50|g]] — củ hành nhỏ bằng hạt đậu, thơm nồng
+    - Rau răm · hành lá · ớt bột · nước mắm · tiêu
+  steps:
+    - Làm sạch nhớt lươn bằng **muối hạt và nước vo gạo**, tuốt kỹ rồi rửa lại.
+    - Luộc lươn với chút muối và gừng chừng **10 phút**, vớt ra để nguội bớt.
+    - Gỡ thịt lươn thành **miếng dài dọc theo thớ**, giữ xương sống lại. **Gỡ xong đừng rửa nữa.**
+    - Ninh xương lươn với xương heo **50 phút**, lọc lấy nước trong.
+    - Giã hành tăm, **vắt lấy nước cốt ướp lươn**; phần bã để dành phi thơm.
+    - Xào lươn với nghệ giã, ớt bột và nước cốt hành tăm tới khi miếng lươn **săn và vàng sậm**.
+    - Trụng miến **15 giây**, cho vào tô, xếp lươn lên, chan nước dùng nóng.
+    - "Rắc: hành tăm phi, rau răm thái nhỏ, tiêu — thêm ớt bột nếu thích cay."
+  warning: >-
+    Gỡ thịt xong mà đem rửa lại là **lươn tanh hẳn** — nước rửa cuốn mất lớp
+    nhớt ngọt bám ngoài thớ thịt và để lại mùi. Chỉ thấm khô bằng giấy, không
+    rửa.
+
+flavor:
+  chua: 0.5
+  ngot: 5
+  man: 6
+  cay: 4
+  thom: 8
+flavorNote: >-
+  **Chuẩn tô miến:** nước dùng **vàng óng và trong**, ngọt từ xương chứ không
+  ngọt gắt. Miếng lươn **săn, còn nguyên thớ, cắn có độ dai nhẹ** — không tơi
+  bã, không nát vụn. Mùi hành tăm phải nổi lên trước, cay nghệ và ớt tới sau.
+storyEyebrow: Chuyện tô miến xứ Nghệ
+storyTitle: Con lươn được gỡ **thành miếng, không thành sợi**
+story:
+  - >-
+    Tô miến lươn xứ Nghệ có ba thứ, và thứ nào cũng làm theo lối riêng của
+    vùng. Lươn đồng luộc vừa chín rồi **gỡ dọc thớ thành miếng dài**, để
+    nguyên chứ không tước nhỏ. Nước dùng ninh từ chính bộ xương con lươn cộng
+    ít xương heo. Và miến dong trụng nhanh, sợi trong và dai.
+  - >-
+    Thứ làm tô miến này khác hẳn mọi tô miến khác là **hành tăm** — thứ hành
+    củ nhỏ chỉ bằng hạt đậu, mùi nồng và hắc hơn hành ta nhiều lần, mọc khắp
+    vùng đất cát ven biển miền Trung. Người trong vùng giã hành tăm rồi vắt
+    lấy nước cốt để ướp lươn, còn phần bã đem phi vàng rắc lên tô. Một củ hành
+    dùng hai lần, và cả tô dậy mùi vì nó.
+  - >-
+    Miếng lươn phải xào cho tới khi **săn lại và ngả vàng sậm** vì nghệ, chứ
+    không để mềm. Đó là chỗ nhiều người làm hụt: xào vội thì miếng lươn còn
+    mọng nước, thả vào tô là rã ra và tô nước đục ngầu.
+
+ingredientGroups:
+  - name: Lươn
+    icon: fish
+    items:
+      - id: luon
+        name: Lươn đồng sống
+        icon: fish
+        color: gold
+        base: 600
+        unit: g
+        note: >-
+          Chọn con **cỡ ngón tay cái, bụng vàng, lưng nâu sậm, còn quẫy khoẻ**.
+          Con to quá thì thịt bở, con nhỏ quá gỡ không ra miếng
+      - id: muoihat
+        name: Muối hạt
+        icon: jar
+        qtyText: Một nắm
+        note: Dùng để tuốt sạch nhớt — muối hạt to ăn thua hơn muối bột
+      - id: nuocvogao
+        name: Nước vo gạo
+        icon: drop
+        qtyText: Một tô
+        note: >-
+          Ngâm lươn trong đó chừng 10 phút trước khi tuốt muối, nhớt ra dễ hơn
+          hẳn
+      - id: gungluoc
+        name: Gừng
+        icon: ginger
+        base: 1
+        unit: nhánh
+        note: Đập dập, thả vào nồi luộc lươn cho bớt tanh
+  - name: Nước dùng
+    icon: pot
+    items:
+      - id: xuongheo
+        name: Xương heo
+        icon: meat
+        base: 300
+        unit: g
+        note: >-
+          Xương ống hoặc xương sườn non. Chần sơ nước sôi rồi rửa lại trước khi
+          ninh, nước mới trong
+      - id: hanhtaynuong
+        name: Hành tây
+        icon: onion
+        base: 1
+        unit: củ
+        note: Nướng sém vỏ rồi bóc, thả vào nồi ninh cho nước ngọt và thơm
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        note: Nêm vào cuối, nêm sớm là nước dùng chua
+  - name: Ướp & xào lươn
+    icon: jar
+    items:
+      - id: hanhtam
+        name: Hành tăm
+        icon: onion
+        color: gold
+        base: 50
+        unit: g
+        note: >-
+          Củ hành nhỏ bằng hạt đậu, mùi nồng đặc trưng của vùng. Không có thì
+          thay bằng hành tím + một ít tỏi, nhưng mùi sẽ khác
+      - id: nghe
+        name: Nghệ tươi
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: >-
+          Giã nhuyễn. Nghệ tươi cho màu vàng tươi và mùi thơm; bột nghệ thay
+          được nhưng màu ngả sậm
+      - id: otbot
+        name: Ớt bột
+        icon: chili
+        color: red
+        base: 1
+        unit: muỗng cà phê
+        note: Xào cùng lươn cho màu và cái cay ấm; thêm bớt tuỳ nhà
+      - id: daudieu
+        name: Dầu điều
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Cho màu đỏ cam, không bắt buộc
+  - name: Miến & rau
+    icon: noodle
+    items:
+      - id: mien
+        name: Miến dong
+        icon: noodle
+        base: 200
+        unit: g
+        note: >-
+          Miến dong sợi trong, dai. Ngâm nước lạnh 10 phút cho mềm rồi mới
+          trụng — trụng thẳng miến khô là chỗ sống chỗ nhũn
+      - id: rauram
+        name: Rau răm
+        icon: herb
+        color: green
+        base: 1
+        unit: mớ
+        note: Thái nhỏ rắc lên tô — đây là loại rau đi với lươn, đừng thay
+      - id: hanhla
+        name: Hành lá
+        icon: stem
+        color: green
+        base: 1
+        unit: mớ
+        note: Phần trắng thái lát thả vào nước dùng, phần xanh thái nhỏ rắc mặt
+      - id: tieu
+        name: Tiêu
+        icon: pepper
+        qtyText: Rắc lúc dọn
+        note: Xay thô, rắc sau cùng
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **tô miến lươn vàng óng thơm hành tăm**
+stepsLead: >-
+  Nồi nước dùng ninh gần một tiếng, nhưng đó là lúc rảnh tay. Việc thật sự chỉ
+  có hai: làm sạch nhớt lươn cho kỹ, và xào lươn cho tới độ săn.
+steps:
+  - title: Làm sạch nhớt lươn
+    icon: fish
+    minutes: 15 phút
+    intro: "Chỗ này làm ẩu là cả nồi tanh:"
+    bullets:
+      - text: >-
+          Cho lươn vào thau, đổ ngập **nước vo gạo**, đậy vung nặng, để 10 phút.
+      - label: "Tuốt muối:"
+        text: >-
+          Rắc một nắm **muối hạt** vào, dùng tay tuốt dọc thân lươn từ đầu
+          xuống đuôi. Nhớt kéo thành sợi trắng đục là đúng. Xả nước, tuốt lại
+          lần hai tới khi **sờ vào thấy ráp chứ không trơn**.
+      - text: >-
+          Rửa lại bằng nước sạch nhiều lần rồi để ráo. Chưa hết nhớt thì tuốt
+          thêm với chút chanh hoặc giấm.
+    callout:
+      type: tip
+      text: >-
+        Lươn còn sống rất trơn và khoẻ. Đổ nước vo gạo rồi **đậy vung nặng lên
+        thau** để nguyên chừng mười phút — lươn nằm yên, làm tiếp dễ hơn nhiều
+        so với vật lộn ngay từ đầu.
+  - title: Luộc rồi gỡ thịt — và đừng rửa lại
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Cho lươn vào nồi với chút muối và nhánh gừng đập dập, đổ nước xâm
+          xấp, luộc **8–10 phút** kể từ lúc sôi. Thịt vừa chín tới là được.
+      - label: "Gỡ dọc thớ:"
+        text: >-
+          Để nguội bớt, rạch một đường dọc bụng, dùng tay **tước thịt thành
+          miếng dài theo chiều thớ** — miếng dài chừng [[5|cm]]. Giữ lại nguyên
+          bộ xương sống và đầu.
+      - text: >-
+          Thấm miếng lươn bằng giấy cho ráo. **Không rửa lại bằng nước.**
+      - text: >-
+          Ướp lươn với nước cốt hành tăm (làm ở bước sau), chút nước mắm và
+          tiêu, để 15 phút.
+    callout:
+      type: warn
+      text: >-
+        Rửa thịt lươn sau khi gỡ là lỗi hay gặp nhất và không chữa được — tô
+        miến sẽ tanh dù nêm nếm thế nào. Nếu thấy còn bẩn thì **thấm bằng giấy**
+        chứ đừng cho vào nước.
+  - title: Ninh nước dùng từ chính xương lươn
+    icon: pot
+    minutes: 50 phút
+    bullets:
+      - text: >-
+          Xương lươn đem **rang khô trên chảo** hoặc nướng sém chừng 3 phút cho
+          dậy mùi, rồi mới cho vào nồi.
+      - text: >-
+          Chần sơ xương heo qua nước sôi, rửa lại, cho vào nồi cùng xương lươn
+          và củ hành tây đã nướng. Đổ [[2|lít]] nước.
+      - text: >-
+          Đun sôi rồi **hạ lửa liu riu 50 phút**, hớt bọt trong 10 phút đầu.
+          Sôi mạnh là nước đục.
+      - text: >-
+          Lọc nước dùng qua rây, nêm nước mắm, chút muối và đường cho vừa. Giữ
+          nóng trên bếp.
+    timer:
+      secs: 3000
+      label: Hẹn giờ ninh nước dùng · 50:00
+      doneMsg: Lọc lấy nước trong, nêm nước mắm — nồi nước dùng xong!
+  - title: Hành tăm hai lần, rồi xào lươn cho săn
+    icon: flame
+    minutes: 12 phút
+    intro: "Một củ hành dùng hai lần — đây là chỗ làm nên mùi của tô miến:"
+    bullets:
+      - label: "Lần một — nước cốt:"
+        text: >-
+          Giã [[50|g]] hành tăm cho nát, thêm hai thìa nước, **vắt lấy nước
+          cốt** để ướp lươn.
+      - label: "Lần hai — bã phi:"
+        text: >-
+          Phần bã hành còn lại đem **phi với dầu nóng cho vàng thơm**, vớt ra
+          để riêng, lát nữa rắc lên tô.
+      - text: >-
+          Vẫn chảo dầu đó, cho **nghệ giã và ớt bột** vào đảo nhanh 20 giây,
+          rồi trút lươn đã ướp vào.
+      - text: >-
+          Xào **lửa lớn 5–7 phút** tới khi miếng lươn **săn lại, ngả vàng sậm
+          và hơi xém cạnh**. Đảo nhẹ tay bằng đũa, đừng dùng xẻng lật mạnh kẻo
+          nát miếng.
+    callout:
+      type: warn
+      text: >-
+        Xào chưa tới thì miếng lươn còn mọng nước, thả vào tô là **rã ra và
+        làm đục nước dùng**. Cứ xào tới khi mặt miếng lươn khô ráo, cầm lên
+        thấy chắc tay.
+  - title: Trụng miến và bày tô
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Miến dong ngâm nước lạnh 10 phút, vớt ra, **trụng nước sôi đúng 15
+          giây** rồi cho ngay vào tô. Trụng lâu là miến nhũn và trương.
+      - text: >-
+          Xếp **miếng lươn xào lên mặt miến** thành một gò cao ở giữa, chan
+          nước dùng đang sôi cho ngập tới lưng chừng gò.
+      - text: >-
+          Rắc hành tăm phi, hành lá, rau răm thái nhỏ và tiêu. Thêm ớt bột cho
+          ai ăn cay.
+    doneText: Húp một muỗng nước — thơm hành tăm, ấm nghệ. Xong!
+
+tipsTitle: 6 điều cho **nước trong, lươn nguyên miếng**
+tipsLead: >-
+  Tô miến lươn hỏng theo ba kiểu: tanh, nước đục, và lươn nát bã. Sáu điều
+  dưới đây chặn cả ba.
+tips:
+  - icon: alert
+    title: Gỡ thịt xong tuyệt đối không rửa
+    text: >-
+      Luật quan trọng nhất của món. Lớp ngoài miếng lươn vừa luộc có phần ngọt
+      và béo bám vào; rửa đi là mất chỗ ngọt đó, còn nước lại kéo mùi tanh
+      ngấm ngược vào thớ thịt.
+  - icon: fish
+    title: Gỡ dọc thớ, đừng tước ngang
+    text: >-
+      Tước dọc theo chiều thớ thì miếng lươn **dài và còn liền**, xào lên vẫn
+      giữ dáng. Cắt ngang thớ là miếng ngắn, gặp lửa co lại thành vụn.
+  - icon: onion
+    title: Hành tăm dùng hai lần mới đủ
+    text: >-
+      Nước cốt ướp vào thịt cho mùi đi từ trong ra; bã phi vàng rắc trên mặt
+      cho mùi bốc lên khi chan nước nóng. Bỏ một trong hai là tô miến hụt mất
+      nửa phần thơm.
+  - icon: flame
+    title: Xào tới khi mặt lươn khô ráo
+    text: >-
+      Đây là chỗ quyết định tô nước trong hay đục. Miếng lươn còn ướt thả vào
+      nước dùng sẽ nhả nước và bã ra. Xào lửa lớn cho tới khi cầm miếng lươn
+      lên thấy chắc và hơi xém cạnh.
+  - icon: pot
+    title: Rang xương lươn trước khi ninh
+    text: >-
+      Bộ xương con lươn nếu thả thẳng vào nồi thì nước hơi tanh. Rang khô hoặc
+      nướng sém 3 phút rồi mới ninh — nước dùng ngọt hẳn và dậy mùi.
+  - icon: noodle
+    title: Miến ngâm trước, trụng sau, và trụng thật nhanh
+    text: >-
+      Miến dong khô thả thẳng vào nước sôi thì ngoài nhũn trong sống. Ngâm
+      nước lạnh 10 phút cho mềm đều rồi trụng **15 giây** là vừa — sợi trong,
+      dai, và không trương lên trong tô.
+
+serve:
+  title: Tô miến của **buổi sáng xứ Nghệ**
+  paras:
+    - >-
+      Đây là món của buổi sáng. Tô không cần to, nước chan xâm xấp chứ không
+      ngập đầy như tô phở, và gò lươn vàng sậm nằm nổi hẳn lên trên. Ăn nóng,
+      húp nước trước rồi mới lùa miến.
+    - >-
+      Nhà nào ăn cay thì để sẵn chén **ớt bột chưng dầu** bên cạnh, múc một
+      thìa nhỏ khuấy vào tô cho váng đỏ nổi lên mặt. Rau răm thì cứ thái sẵn
+      một dĩa, ai thích thơm nhiều thì rắc thêm.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ để cạnh tô:"
+    items:
+      - icon: chili
+        text: "**Chén ớt bột chưng dầu** — múc một thìa khuấy vào cho váng đỏ và cay ấm."
+      - icon: herb
+        text: "**Dĩa rau răm thái nhỏ** — rắc thêm tuỳ người."
+      - icon: lime
+        text: "**Vài lát chanh** — vắt một chút cho nước dùng bật lên."
+
+faq:
+  - q: Mua lươn làm sẵn ngoài chợ được không?
+    a: >-
+      Được, và đỡ hẳn phần vất vả nhất. Nhưng chọn kỹ: thịt phải **còn hồng
+      tươi, ráo và chắc**, không nhũn không có mùi. Lươn làm sẵn thường đã bị
+      rửa nhiều nên nhạt hơn — bù bằng cách ướp đậm tay hơn một chút và xào
+      kỹ với nghệ.
+  - q: Không mua được hành tăm thì sao?
+    a: >-
+      Hành tăm là thứ hầu như chỉ bán ở vùng Bắc Trung Bộ, ra khỏi vùng là
+      khó tìm. Thay gần nhất: **hành tím giã cùng vài tép tỏi**, dùng đúng
+      cách hai lần như trên. Nói thẳng là mùi sẽ hiền hơn và mất cái nồng
+      riêng — không còn đúng bản gốc nữa, nhưng tô miến vẫn ngon.
+  - q: Nước dùng bị tanh, chữa được không?
+    a: >-
+      Thả thêm **một nhánh gừng nướng và củ hành tây nướng** vào nồi, đun tiếp
+      10 phút rồi lọc lại. Vắt vào tô vài giọt chanh lúc ăn cũng đỡ nhiều.
+      Nhưng gốc của tanh thường nằm ở khâu làm nhớt chưa kỹ hoặc rửa lại thịt
+      sau khi gỡ — lần sau chữa từ đó.
+  - q: Thay miến bằng bún hay bánh đa được không?
+    a: >-
+      Được cả hai, và trong vùng người ta ăn cả hai kiểu. **Bánh đa sợi đỏ**
+      thì tô đậm đà và dai hơn; **bún** thì mềm và dịu. Chỉ lưu ý là miến dong
+      hút nước nhiều nhất, nên nếu đổi sang bún thì chan nước ít hơn một chút.
+  - q: Làm trước được phần nào?
+    a: >-
+      Nước dùng ninh từ hôm trước, để ngăn mát, hôm sau đun lại là ngon hơn.
+      Lươn cũng luộc và gỡ trước được, cất hộp kín trong ngăn mát **1 ngày**.
+      Nhưng **phần xào lươn thì làm ngay trước khi ăn** — xào rồi để nguội thì
+      miếng lươn cứng lại và mất mùi nghệ.
+  - q: Trẻ nhỏ ăn được không?
+    a: >-
+      Được, chỉ cần bỏ ớt bột và giảm tiêu. Lươn gỡ dọc thớ nên gần như không
+      còn xương dăm, nhưng vẫn nên **rà lại từng miếng bằng tay** trước khi
+      cho bé. Nước dùng nêm nhạt hơn, và chan ít nghệ lại cho đỡ hắc.
+
+ticker:
+  - icon: fish
+    text: Lươn gỡ dọc thớ, còn nguyên miếng
+  - icon: onion
+    text: Hành tăm dùng hai lần
+  - icon: flame
+    text: Xào tới khi mặt lươn khô ráo
+  - icon: pot
+    text: Nước ninh từ chính xương lươn
+  - icon: alert
+    text: Gỡ thịt xong đừng rửa lại
+  - icon: bowl
+    text: Tô của buổi sáng xứ Nghệ

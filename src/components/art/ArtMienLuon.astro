@@ -1,0 +1,162 @@
+---
+/* Miến lươn Nghệ An — cùng họ teal với 18 tô Món nước, và nguy nhất là MIẾN GÀ
+   (cùng sợi miến, cùng bát). Bốn chỗ cố ý cho lệch:
+   1) DÁNG TÔ: tô SÂU LÒNG, đáy tụt sâu hơn hẳn tô phở. Bản 1 vẽ hẳn thành
+      THẲNG ĐỨNG thì ở 260px không còn đọc ra cái tô nữa mà ra một đồ vật —
+      phải trả đường bao về dạng cong (đúng luật đợt 14: đổi vật đựng thì được,
+      nhưng vẫn phải nằm trong ngữ pháp "vật đựng nguyên vẹn" của trang)
+   2) MÀU NƯỚC: VÀNG NGHỆ đậm, đục sánh — miến gà là nước kem rất nhạt và trong
+   3) RUỘT: miếng lươn THUÔN DÀI nâu vàng có sọc nghệ, xếp thành GÒ CAO nhô hẳn
+      lên khỏi vành — miến gà là dải gà xé trắng nằm bẹp trong nước
+   4) ĐẠO CỤ: chén ớt bột chưng đỏ + nhúm hành tăm (miến gà dùng dĩa rau răm +
+      hũ hành phi, cố ý không đụng)
+   BẢNG MÀU THẬT (tra 2026-08-01, ghi lại cho đợt sau):
+   · NƯỚC DÙNG — vàng nghệ (#E5AE3E → #C2871E), đục nhẹ chứ không trong veo
+   · MIẾNG LƯƠN — lưng nâu sậm (#7E4218), bụng và mặt xào ngả VÀNG NGHỆ
+     (#D9A038); lươn xào tới săn thì vàng sậm, KHÔNG phải nâu xám
+   · HÀNH TĂM PHI — vàng giòn (#D89A38) · RAU RĂM xanh sẫm · ỚT BỘT đỏ
+   id prefix "mlu" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô miến lươn Nghệ An: nước dùng vàng nghệ, mấy dải lươn nâu vàng nằm rời trên mặt, rắc rau răm và hành tăm phi, cạnh tô có chén ớt bột chưng">
+  <defs>
+    <linearGradient id="mluBroth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E5AE3E"/><stop offset="1" stop-color="#C2871E"/>
+    </linearGradient>
+    <linearGradient id="mluBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E3DAC0"/>
+    </linearGradient>
+    <!-- MIẾNG LƯƠN: bản 1 vẽ đường bao gãy khúc nhiều đỉnh nên mỗi miếng đọc ra
+         "một cục có ba cái chân" (Thái). Bản 2: DẢI DÀI THUÔN, hai đầu nhỏ dần,
+         mép chỉ gợn nhẹ — đúng hình miếng lươn tước dọc thớ.
+         MÀU THẬT: lưng nâu sậm (#7E4218), bụng vàng nghệ (#D9A038), viền sém
+         cạnh sẫm hơn — lươn xào nghệ tới săn thì ngả vàng sậm chứ không nâu xám. -->
+    <g id="mluEel">
+      <path d="M0 0 C 6 -8 18 -11 50 -11 C 82 -11 100 -8 106 -1 C 100 6 82 9 50 9 C 18 9 6 6 0 0 Z"
+            fill="#7E4218" stroke="#4E2609" stroke-width="2"/>
+      <path d="M6 0 C 12 -5 22 -7 50 -7 C 78 -7 94 -4 100 0 C 94 5 78 7 50 7 C 22 7 12 4 6 0 Z"
+            fill="#D9A038"/>
+      <path d="M14 -2 C 28 -5 42 -5 56 -5 C 76 -5 88 -3 96 -1" fill="none" stroke="#F0C263" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 5 C 38 3 62 3 86 4" fill="none" stroke="#A8681E" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <!-- lá rau răm -->
+    <g id="mluRam">
+      <path d="M0 0 C 5 -4 13 -5 19 -2 C 13 2 5 4 0 0 Z" fill="#3E7B3A" stroke="#26521F" stroke-width="1.3"/>
+      <path d="M1 0 L 18 -1.6" stroke="#7FB35B" stroke-width="1" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M206 168 C 195 144 221 128 210 102 C 203 86 217 74 213 60"/>
+    <path d="M262 160 C 252 136 278 122 267 96 C 260 80 274 68 270 54"/>
+    <path d="M318 170 C 308 148 332 134 322 110 C 315 94 328 82 325 68"/>
+  </g>
+  <ellipse cx="256" cy="376" rx="184" ry="22" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐẠO CỤ TRÁI: chén HÀNH TĂM PHI. Vòng 2 vẽ mấy củ hành tăm còn nguyên rễ —
+       ba sợi rễ dưới mỗi củ ở 260px đọc thành BA CÁI CHÂN (Thái). Bỏ hẳn phần
+       rễ, đổi sang chén hành phi vàng: vẫn nói đúng nguyên liệu đặc trưng của
+       món mà không đẻ ra hình thù lạ. -->
+  <g transform="translate(86 386)">
+    <ellipse cx="0" cy="20" rx="44" ry="12" fill="rgba(15,26,14,.3)"/>
+    <path d="M-36 -4 C -34 12 -19 23 0 23 C 19 23 34 12 36 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="36" ry="10.6" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-4" rx="27" ry="7.4" fill="#B4832E"/>
+    <g fill="#D89A38" stroke="#A86E1C" stroke-width="1">
+      <path d="M-18 -6 a 7 3.4 0 0 1 12 -1 a 7 3.4 0 0 1 -12 1 Z"/>
+      <path d="M-2 -2 a 7 3.4 0 0 1 12 -1 a 7 3.4 0 0 1 -12 1 Z"/>
+      <path d="M-12 0 a 6.4 3.2 0 0 1 11 -1 a 6.4 3.2 0 0 1 -11 1 Z"/>
+      <path d="M8 -8 a 6 3 0 0 1 10 -1 a 6 3 0 0 1 -10 1 Z"/>
+    </g>
+    <g fill="#EFC069"><circle cx="14" cy="-2" r="1.9"/><circle cx="-22" cy="-1" r="1.7"/></g>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: chén ớt bột chưng dầu, váng đỏ nổi -->
+  <g transform="translate(434 398)">
+    <ellipse cx="0" cy="18" rx="42" ry="11" fill="rgba(15,26,14,.3)"/>
+    <path d="M-34 -4 C -32 12 -18 22 0 22 C 18 22 32 12 34 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="34" ry="10" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-4" rx="26" ry="7" fill="#B4331F"/>
+    <ellipse cx="-7" cy="-6" rx="9" ry="3" fill="#DC6A3A" opacity=".85"/>
+    <g fill="#8E2314"><circle cx="6" cy="-2" r="1.8"/><circle cx="-11" cy="-1" r="1.6"/><circle cx="13" cy="-6" r="1.5"/></g>
+  </g>
+
+  <!-- TÔ SÂU THÀNH THẲNG — đường bao đứng, khác hẳn tô nông miệng loe -->
+  <g>
+    <!-- thân tô: SÂU nhưng vẫn loe — bản 1 vẽ thành thẳng đứng thì ở 260px
+         đọc ra đồ vật chứ không ra cái tô, phải trả về đường bao cong -->
+    <path d="M118 244 C 124 306 180 348 256 348 C 332 348 388 306 394 244 Z" fill="url(#mluBowl)"/>
+    <ellipse cx="256" cy="346" rx="58" ry="10" fill="#D8D0B6"/>
+    <path d="M146 260 C 154 304 178 332 212 344 C 184 330 168 302 162 260 Z" fill="rgba(255,255,255,.6)"/>
+    <!-- vành tô -->
+    <ellipse cx="256" cy="242" rx="146" ry="38" fill="#F6F1E1"/>
+    <ellipse cx="256" cy="240" rx="146" ry="38" fill="none" stroke="#2C5234" stroke-width="5"/>
+    <ellipse cx="256" cy="241" rx="132" ry="32" fill="none" stroke="#E0A32E" stroke-width="2.5" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+    <!-- NƯỚC DÙNG VÀNG NGHỆ — đậm và đục, khác hẳn nước kem nhạt của miến gà -->
+    <ellipse cx="256" cy="243" rx="128" ry="31" fill="url(#mluBroth)"/>
+    <ellipse cx="198" cy="236" rx="38" ry="7" fill="#F0C664" opacity=".55"/>
+    <!-- váng mỡ nghệ nổi -->
+    <g fill="#F2CE72" opacity=".9">
+      <circle cx="152" cy="246" r="2.8"/><circle cx="186" cy="258" r="2.3"/>
+      <circle cx="332" cy="254" r="2.5"/><circle cx="358" cy="240" r="2.1"/>
+    </g>
+
+    <!-- SỢI MIẾN trong mờ, ló ra ở hai mép — phần giữa bị gò lươn che -->
+    <g fill="none" stroke="#8F836A" stroke-width="5.6" stroke-linecap="round" opacity=".8">
+      <path d="M140 244 C 164 232 190 230 210 234"/>
+      <path d="M150 258 C 174 248 198 246 216 249"/>
+      <path d="M310 258 C 330 248 354 247 370 251"/>
+      <path d="M318 240 C 338 230 360 229 376 233"/>
+    </g>
+    <g fill="none" stroke="#C6B994" stroke-width="2.1" stroke-linecap="round" opacity=".95">
+      <path d="M144 245 C 168 234 192 232 210 235"/>
+      <path d="M314 256 C 334 246 356 245 370 249"/>
+    </g>
+
+    <!-- LƯƠN TRẢI THÀNH MẤY DẢI RỜI trên mặt miến, nước vàng hở ra giữa các dải.
+         Bản 1 vẽ một khối nâu liền chất cao thành gò — Thái đọc ra "đống to bự
+         trên tô". Luật "món ăn phải là một khối" (đợt 10) nói về việc các miếng
+         phải CHỒNG MÉP nhau, không bắt phải chất thành đống che kín mặt nước. -->
+    <!-- Tám dải xếp CHỒNG MÉP nhau thành một khối liền, dải thấp nhất chạm vành
+         tô — luật đợt 14: đồ ăn nhô lên khỏi vành phải chồng mép, đừng nổi tự do.
+         Vòng trước rải thưa nên mấy dải trên đọc ra "lơ lửng". -->
+    <use href="#mluEel" transform="translate(136 236) rotate(-7)"/>
+    <use href="#mluEel" transform="translate(150 216) rotate(4) scale(.98)"/>
+    <use href="#mluEel" transform="translate(174 250) rotate(10) scale(.94)"/>
+    <use href="#mluEel" transform="translate(180 200) rotate(-3) scale(.92)"/>
+    <use href="#mluEel" transform="translate(206 230) rotate(5) scale(1.02)"/>
+    <use href="#mluEel" transform="translate(226 254) rotate(-6) scale(.9)"/>
+    <use href="#mluEel" transform="translate(232 208) rotate(6) scale(.94)"/>
+    <use href="#mluEel" transform="translate(258 236) rotate(-2) scale(.88)"/>
+
+    <!-- HÀNH TĂM PHI vàng giòn rắc trên gò -->
+    <g fill="#D89A38" stroke="#A86E1C" stroke-width="1">
+      <path d="M196 214 a 6.4 3.2 0 0 1 11 -1 a 6.4 3.2 0 0 1 -11 1 Z"/>
+      <path d="M262 200 a 6 3 0 0 1 10 -1 a 6 3 0 0 1 -10 1 Z"/>
+      <path d="M300 226 a 5.8 2.9 0 0 1 9.6 -1 a 5.8 2.9 0 0 1 -9.6 1 Z"/>
+      <path d="M164 248 a 5.6 2.8 0 0 1 9.2 -1 a 5.6 2.8 0 0 1 -9.2 1 Z"/>
+      <path d="M226 194 a 5.4 2.7 0 0 1 9 -1 a 5.4 2.7 0 0 1 -9 1 Z"/>
+    </g>
+    <g fill="#EFC069">
+      <circle cx="242" cy="208" r="1.8"/><circle cx="308" cy="196" r="1.7"/><circle cx="192" cy="244" r="1.6"/>
+    </g>
+
+    <!-- RAU RĂM rắc trên gò lươn -->
+    <use href="#mluRam" transform="translate(168 208) rotate(-18)"/>
+    <use href="#mluRam" transform="translate(228 190) rotate(8) scale(.96)"/>
+    <use href="#mluRam" transform="translate(296 214) rotate(-6) scale(.94)"/>
+    <use href="#mluRam" transform="translate(196 258) rotate(16) scale(.88)"/>
+    <use href="#mluRam" transform="translate(276 252) rotate(-12) scale(.9)"/>
+
+    <!-- ớt bột đỏ rắc + tiêu -->
+    <g fill="#C3372B">
+      <circle cx="230" cy="230" r="2.1"/><circle cx="286" cy="228" r="2"/>
+      <circle cx="196" cy="222" r="1.9"/><circle cx="326" cy="200" r="1.8"/>
+    </g>
+    <g fill="#2E2318">
+      <circle cx="214" cy="188" r="1.5"/><circle cx="268" cy="252" r="1.4"/><circle cx="300" cy="176" r="1.4"/>
+    </g>
+  </g>
+</svg>

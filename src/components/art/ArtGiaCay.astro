@@ -1,0 +1,190 @@
+---
+/* Chân giò nấu giả cầy — VẼ LẠI TỪ ĐẦU (vòng 5). Bốn vòng trước đều hỏng theo
+   cùng một kiểu: tôi tự nghĩ ra cách vẽ miếng chân giò, lần nào cũng ra "cục
+   thịt nạc đặc" hoặc "viên tròn có chấm trắng".
+
+   VÒNG 5 LÀM THEO ĐÚNG LUẬT CỦA REPO: "cùng một nguyên liệu đã vẽ đạt ở món
+   khác thì CHÉP NGUYÊN GLYPH, đừng nghĩ lại" (đợt 12/14). Site đã có sẵn miếng
+   thịt heo có bì được Thái duyệt ở `ArtHeoQuay` vòng 3 — KHỐI HỘP BA MẶT vẽ
+   toàn bằng đoạn thẳng:
+     · mặt trên  = hình bình hành, là mặt BÌ
+     · mặt trước = chữ nhật chia BA DẢI NGANG: bì mỏng · mỡ/gân dày · nạc có thớ
+     · mặt phải  = hình bình hành, ba dải kéo xiên theo
+   Chép nguyên cấu trúc đó sang, chỉ đổi RUỘT cho đúng món.
+
+   KHÁC HEO QUAY Ở ĐÂU (ba chỗ, đều do cách nấu):
+   1) BÌ heo quay là bì QUAY GIÒN nên rỗ li ti và vàng sáng; bì giả cầy là bì
+      THUI RƠM rồi hầm, nên NHẴN BÓNG và nâu vàng sậm hơn — bỏ hết chấm rỗ,
+      thay bằng hai vệt bóng thẳng
+   2) DẢI GIỮA của heo quay là MỠ TRẮNG; của chân giò là GÂN, hầm mềm nên
+      trong mờ và ngả vàng — tô ấm hơn, mép dưới lượn nhiều hơn
+   3) cả miếng được hầm trong nước nghệ nên phủ một lớp ÁNH VÀNG mỏng lên trên
+
+   BẢNG MÀU THẬT (tra 2026-08-01 — "từng miếng ngả màu NÂU VÀNG ÓNG, bì giòn
+   sần sật, thịt bên trong mềm, NƯỚC SÓNG SÁNH VÀNG"):
+     · nước kho  #E0A63A -> #B87E18   (nghệ + riềng, không phải nâu đỏ)
+     · bì (mặt trên)     #C68A2E, vệt bóng #F0CE7E
+     · bì (dải mặt trước) #A86A18
+     · gân trong mờ      #EBDCB4
+     · nạc có thớ        #8E5A2E, thớ #6E4118
+     · viền miếng        #4E2A0E
+   KHÔNG vẽ khúc xương: vòng 4 có, Thái nhìn không ra là gì — ở 260px khúc
+   xương ống không đủ chỗ để đọc, mà ba dải bì/gân/nạc thì đã đủ nói ra chân giò.
+   id prefix "gcy" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Tô sành men xám đựng chân giò nấu giả cầy: mấy miếng chân giò chặt vuông, mặt bì vàng nâu bóng, mặt cắt lộ ba tầng bì gân nạc, nằm trong nước kho sánh vàng nghệ, rắc lá mơ">
+  <defs>
+    <linearGradient id="gcyBowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8E9A96"/><stop offset="1" stop-color="#4E5A58"/>
+    </linearGradient>
+    <linearGradient id="gcySauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0A63A"/><stop offset="1" stop-color="#B87E18"/>
+    </linearGradient>
+
+    <!-- MIẾNG CHÂN GIÒ — vòng 6. Vòng 5 chép khối hộp ba mặt của ArtHeoQuay:
+         đọc ra ngay là thịt heo có bì, nhưng Thái nói đúng — khối hộp có ba
+         TẦNG PHẲNG XẾP CHỒNG chính là dấu của BA CHỈ, không phải giò.
+         Khác nhau thật giữa hai thứ:
+           · ba chỉ  = tấm thịt phẳng, bì · mỡ · nạc nằm thành lớp song song
+           · chân giò = lát cắt ngang CÁI CHÂN, nên BÌ BỌC VÒNG THEO MẶT CONG
+             bên ngoài, gân nằm men theo đường cong đó, nạc dồn vào lõi
+         Nên vòng 6 bỏ hết cạnh thẳng, vẽ ba lớp CONG LỒNG NHAU.
+         Mẹo tránh bẫy "vòng đồng tâm + chấm giữa = cái mặt" (đợt 12/15): ba lớp
+         KHÔNG đồng tâm — lớp trong lệch hẳn xuống dưới-trái, nên vành bì DÀY ở
+         mặt ngoài (lưng con giò) và MỎNG DẦN về phía mặt cắt. Đó cũng đúng thật.
+         Gốc toạ độ ở tâm miếng. -->
+    <g id="gcyChunk">
+      <!-- ① BÌ: cả khối, mặt ngoài cong -->
+      <path d="M-44 8 C -48 -12 -34 -30 -8 -34 C 16 -38 40 -28 46 -6
+               C 51 12 38 28 12 31 C -14 34 -40 27 -44 8 Z"
+            fill="#C68A2E" stroke="#7E4E10" stroke-width="3" stroke-linejoin="round"/>
+      <!-- vệt bóng chạy dọc mặt bì cong (bì thui rồi hầm thì bóng, không rỗ) -->
+      <path d="M-30 -14 C -20 -27 0 -32 18 -29" fill="none" stroke="#F0CE7E" stroke-width="4.6" stroke-linecap="round"/>
+      <!-- ② GÂN: lệch xuống dưới-trái nên vành bì dày ở lưng, mỏng ở mặt cắt -->
+      <path d="M-40 12 C -43 -6 -30 -21 -8 -24 C 13 -27 33 -19 38 -2
+               C 42 13 30 25 8 27 C -13 29 -37 25 -40 12 Z"
+            fill="#EBDCB4" stroke="#C0AB78" stroke-width="2.2"/>
+      <!-- ③ NẠC: lõi trong cùng, lệch tiếp xuống dưới-trái -->
+      <path d="M-33 14 C -35 0 -24 -13 -6 -15 C 11 -17 26 -10 30 3
+               C 33 15 22 23 5 24 C -13 26 -31 24 -33 14 Z"
+            fill="#8E5A2E" stroke="#5E3210" stroke-width="2.4"/>
+      <!-- thớ nạc chạy vòng theo lõi, không kẻ thẳng -->
+      <g fill="none" stroke="#6E4118" stroke-width="2.2" stroke-linecap="round">
+        <path d="M-24 10 C -12 4 6 3 20 7"/>
+        <path d="M-22 18 C -10 13 6 12 20 15"/>
+      </g>
+      <path d="M-20 2 C -8 -4 8 -5 22 -1" fill="none" stroke="#A87038" stroke-width="2.6" stroke-linecap="round"/>
+      <!-- lớp ánh vàng của nước nghệ phủ lên cả miếng -->
+      <path d="M-44 8 C -48 -12 -34 -30 -8 -34 C 16 -38 40 -28 46 -6
+               C 51 12 38 28 12 31 C -14 34 -40 27 -44 8 Z"
+            fill="#E0A63A" opacity=".16"/>
+    </g>
+
+    <g id="gcyMo">
+      <path d="M0 0 C 6 -7 16 -9 22 -5 C 16 1 6 4 0 0 Z" fill="#4C8A3C" stroke="#2A5322" stroke-width="1.4"/>
+      <path d="M2 -1 L 20 -4" stroke="#8CC06A" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M204 168 C 193 144 219 128 208 102 C 201 86 215 74 211 60"/>
+    <path d="M260 158 C 250 134 276 120 265 94 C 258 78 272 66 268 52"/>
+    <path d="M316 170 C 306 148 330 134 320 110 C 313 94 326 82 323 68"/>
+  </g>
+  <ellipse cx="256" cy="388" rx="188" ry="23" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐẠO CỤ TRÁI: MẤY LÁT RIỀNG THÁI. Hai vòng trước vẽ củ nguyên — vòng đầu
+       ra một cục be vô nghĩa, vòng sau thêm mầm thì mấy cái mầm lại đọc thành
+       CHÂN (Thái). Củ nguyên ở 260px không có đủ chỗ để đọc ra là củ gì.
+       Lát thái thì khác: hình bầu dục dẹt, viền vỏ sẫm, ruột kem có VÂN XƠ —
+       ba dấu đó gộp lại là đọc ra ngay "lát củ gia vị".
+       Vân vẽ theo NAN QUẠT toả từ tâm chứ không vẽ vòng đồng tâm, vì vòng đồng
+       tâm ở cỡ thumbnail luôn đọc ra cái bia bắn (luật đợt 12/15).
+       MÀU THẬT: vỏ riềng nâu nhạt ánh hồng (#C9A85E), ruột kem ngà (#F2E6C2). -->
+  <g transform="translate(96 366)">
+    <ellipse cx="0" cy="24" rx="58" ry="13" fill="rgba(15,26,14,.3)"/>
+    <!-- lát nằm sau, hơi khuất -->
+    <g transform="translate(-26 -2) rotate(-16)">
+      <ellipse cx="0" cy="0" rx="24" ry="13" fill="#EADCB0" stroke="#B99A56" stroke-width="2.6"/>
+      <ellipse cx="0" cy="0" rx="18" ry="8.6" fill="#F2E6C2"/>
+      <g fill="none" stroke="#CDB77E" stroke-width="1.6" stroke-linecap="round">
+        <path d="M0 0 L -13 -4 M 0 0 L -6 6 M 0 0 L 8 -6 M 0 0 L 14 3"/>
+      </g>
+    </g>
+    <!-- lát nằm giữa, to nhất -->
+    <g transform="translate(4 4) rotate(8)">
+      <ellipse cx="0" cy="0" rx="27" ry="14.5" fill="#EADCB0" stroke="#B99A56" stroke-width="2.8"/>
+      <ellipse cx="0" cy="0" rx="20" ry="9.6" fill="#F5EBCE"/>
+      <g fill="none" stroke="#CDB77E" stroke-width="1.7" stroke-linecap="round">
+        <path d="M0 0 L -15 -5 M 0 0 L -8 7 M 0 0 L 5 8 M 0 0 L 12 -7 M 0 0 L 17 2"/>
+      </g>
+      <path d="M-12 -7 C -5 -10 6 -10 13 -6" fill="none" stroke="#FBF4DE" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+    <!-- lát dựng nghiêng phía trước, lộ bề dày -->
+    <g transform="translate(34 -6) rotate(24)">
+      <ellipse cx="0" cy="0" rx="21" ry="11.4" fill="#E2D2A2" stroke="#B99A56" stroke-width="2.6"/>
+      <ellipse cx="0" cy="-1" rx="15" ry="7" fill="#F2E6C2"/>
+      <g fill="none" stroke="#CDB77E" stroke-width="1.5" stroke-linecap="round">
+        <path d="M0 -1 L -11 -4 M 0 -1 L -4 5 M 0 -1 L 9 -5 M 0 -1 L 12 3"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: chén mắm tôm nhỏ -->
+  <g transform="translate(434 354) scale(1.775)">
+    <ellipse cx="0" cy="18" rx="38" ry="10" fill="rgba(15,26,14,.3)"/>
+    <path d="M-30 -4 C -28 10 -16 20 0 20 C 16 20 28 10 30 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="30" ry="9" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-4" rx="22" ry="6" fill="#6E4A70"/>
+    <ellipse cx="-6" cy="-6" rx="8" ry="2.6" fill="#9A76A0" opacity=".8"/>
+    <g fill="#C3372B"><circle cx="8" cy="-3" r="1.8"/><circle cx="-12" cy="-2" r="1.5"/></g>
+  </g>
+
+  <!-- TÔ SÀNH MEN XÁM, lòng nông -->
+  <g>
+    <path d="M118 258 C 124 320 180 360 256 360 C 332 360 388 320 394 258 Z" fill="url(#gcyBowl)"/>
+    <ellipse cx="256" cy="358" rx="56" ry="10" fill="#3E4A48"/>
+    <path d="M146 274 C 154 318 178 344 212 356 C 184 342 168 314 162 274 Z" fill="rgba(255,255,255,.26)"/>
+    <ellipse cx="256" cy="256" rx="146" ry="38" fill="#A6B2AE"/>
+    <ellipse cx="256" cy="256" rx="146" ry="38" fill="none" stroke="#3E4A48" stroke-width="4.5"/>
+    <ellipse cx="256" cy="257" rx="130" ry="32" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+    <!-- NƯỚC KHO SÓNG SÁNH VÀNG -->
+    <ellipse cx="256" cy="258" rx="128" ry="31" fill="url(#gcySauce)"/>
+    <ellipse cx="192" cy="250" rx="34" ry="6" fill="#F0C765" opacity=".7"/>
+    <g fill="#F2CE72" opacity=".9">
+      <circle cx="150" cy="266" r="3"/><circle cx="342" cy="266" r="2.6"/><circle cx="366" cy="252" r="2.1"/>
+    </g>
+
+    <!-- BỐN MIẾNG CHÂN GIÒ: gối mép nhau, hàng sau cao hơn hàng trước.
+         Miếng hàng trước cắm nửa dưới vào nước nên nhìn như đang ngập sốt. -->
+    <!-- Xoay LỆCH NHIỀU và cỡ chênh nhau: heo quay chặt ra thì xếp ngay ngắn
+         trên dĩa, còn giả cầy là món HẦM nên miếng nằm lộn xộn trong nồi. Đây là
+         chỗ tách hai hình, vì phần glyph miếng thịt thì cố ý chép giống nhau. -->
+    <use href="#gcyChunk" transform="translate(190 226) rotate(-13) scale(.9)"/>
+    <use href="#gcyChunk" transform="translate(282 214) rotate(9) scale(.96)"/>
+    <use href="#gcyChunk" transform="translate(228 268) rotate(16) scale(.82)"/>
+    <use href="#gcyChunk" transform="translate(316 266) rotate(-7) scale(.76)"/>
+    <!-- mép nước liếm quanh chân mấy miếng hàng trước, cho chúng ngồi vào sốt -->
+    <path d="M186 286 C 214 296 268 298 320 288 C 300 300 214 302 186 286 Z" fill="#C88E20" opacity=".85"/>
+    <path d="M196 284 C 224 292 268 293 306 286" fill="none" stroke="#F0C765" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+    <!-- LÁ MƠ / RAU RĂM rắc trên miệng tô -->
+    <use href="#gcyMo" transform="translate(196 190) rotate(-18) scale(1.05)"/>
+    <use href="#gcyMo" transform="translate(300 182) rotate(8)"/>
+    <use href="#gcyMo" transform="translate(158 266) rotate(16) scale(.92)"/>
+    <use href="#gcyMo" transform="translate(330 258) rotate(-12) scale(.9)"/>
+
+    <!-- hành lá cắt khúc + tiêu -->
+    <g fill="#4E7B36">
+      <ellipse cx="230" cy="182" rx="6" ry="2.6" transform="rotate(-14 230 182)"/>
+      <ellipse cx="352" cy="242" rx="5.4" ry="2.4" transform="rotate(10 352 242)"/>
+      <ellipse cx="176" cy="256" rx="5" ry="2.2" transform="rotate(-6 176 256)"/>
+    </g>
+    <g fill="#2E2318">
+      <circle cx="214" cy="200" r="1.5"/><circle cx="318" cy="272" r="1.4"/><circle cx="164" cy="244" r="1.4"/>
+    </g>
+  </g>
+</svg>

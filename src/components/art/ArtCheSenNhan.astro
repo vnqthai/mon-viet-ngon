@@ -1,0 +1,142 @@
+---
+/* Chè hạt sen long nhãn — họ tím đã có 7 hình, vật đựng đã dùng hết: tô nông ·
+   ly cao thẳng · ly miệng loe · tô sâu có chân · ly vuông · hũ trụ · cốc thấp.
+   Chỗ trống còn lại là TÔ THỦY TINH THẤP RỘNG ĐẶT THẲNG XUỐNG BÀN — không chân
+   đế: bản 1 vẽ có chân thì lập tức đọc ra ly rượu, đúng bẫy ly chè đậu đỏ ở
+   đợt 13 ("tỉ lệ ngang/dọc quyết định vật đó là gì").
+   Chữ ký nhận dạng, không hình nào trên site có:
+   1) VẬT TRONG MỜ LỒNG VẬT ĐỤC — trái nhãn trong mờ, thấy rõ hạt sen trắng bên
+      trong. Dùng đúng luật đợt 14 (miếng sứa): trong mờ thì vẽ bằng fill nửa
+      trong, đừng vẽ bằng màu nhạt
+   2) HẠT SEN LỆCH HẲN VỀ MỘT PHÍA và LÓ RA khỏi lỗ khoét ở cuống — cố ý phá thế
+      đồng tâm, vì "vòng tròn + chấm giữa" ở 260px luôn đọc ra cái mặt / quả
+      trứng ốp la (luật đợt 12 và đợt 15). Đây cũng đúng thật hơn: người ta đẩy
+      hạt sen vào qua lỗ cuống chứ không đặt vào giữa
+   3) MÓN LẠNH nên KHÔNG CÓ KHÓI, có mấy viên đá — cùng lối với chè bưởi, chè Thái
+   4) ĐẠO CỤ: chùm nhãn nâu còn cuống lá, nói ngay ra tên món
+   id prefix "csn" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Chén thủy tinh đựng chè hạt sen long nhãn: mấy trái nhãn trong mờ, mỗi trái lộ một hạt sen trắng bên trong, nước đường phèn trong veo, bên cạnh là chùm nhãn còn cuống">
+  <defs>
+    <linearGradient id="csnGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgba(255,255,255,.42)"/>
+      <stop offset="0.45" stop-color="rgba(255,255,255,.14)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,.30)"/>
+    </linearGradient>
+    <linearGradient id="csnSyrup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C08F42"/>
+      <stop offset="1" stop-color="#93662A"/>
+    </linearGradient>
+    <!-- TRÁI NHÃN ĐÃ LỒNG SEN: cùi trong mờ (fill nửa trong), hạt sen trắng đục
+         nằm LỆCH, lỗ khoét thành một khuyết trên đường bao -->
+    <g id="csnNhan">
+      <path d="M-25 2 C -25 -16 -13 -27 3 -27 C 18 -27 27 -17 27 -1 C 27 15 16 26 0 26 C -15 26 -25 16 -25 2 Z"
+            fill="rgba(250,243,222,.5)" stroke="rgba(255,255,255,.9)" stroke-width="3"/>
+      <!-- hạt sen: NHỎ hơn hẳn trái nhãn và dồn LỆCH xuống mép dưới-phải, một đầu
+           cắt phẳng. Bản 2 vẽ hạt to nằm gần giữa nên cả trái đọc ra QUẢ TRỨNG. -->
+      <path d="M4 20 C -4 20 -10 14 -10 7 C -10 0 -4 -5 4 -5 C 13 -5 19 0 19 7 C 19 14 13 20 4 20 Z"
+            fill="#EDDCAE" stroke="#A98F55" stroke-width="2.4"/>
+      <path d="M-9 5 L 18 5" stroke="#C9B27C" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M-2 1 C 2 -2 8 -2 12 1" fill="none" stroke="#FBF4DE" stroke-width="2" stroke-linecap="round"/>
+      <!-- khuyết ở cuống (trên-trái) — phá thế đồng tâm -->
+      <path d="M-19 -13 C -12 -19 -4 -20 2 -18" fill="none" stroke="rgba(255,255,255,.8)" stroke-width="3" stroke-linecap="round"/>
+      <!-- ánh sáng trên vỏ cùi -->
+      <path d="M-18 -4 C -17 -15 -9 -22 0 -23" fill="none" stroke="rgba(255,255,255,.85)" stroke-width="3.8" stroke-linecap="round"/>
+    </g>
+    <!-- hạt sen rời nổi trong nước — nói thẳng ra nguyên liệu, và phá cái lưới
+         toàn hình tròn đều nhau -->
+    <g id="csnSeed">
+      <path d="M0 15 C -8 15 -14 10 -14 3 C -14 -4 -8 -9 0 -9 C 9 -9 15 -4 15 3 C 15 10 9 15 0 15 Z"
+            fill="#F2E3B8" stroke="#A98F55" stroke-width="2.2"/>
+      <path d="M-13 1 L 14 1" stroke="#C9B27C" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M-6 -3 C -2 -6 4 -6 8 -3" fill="none" stroke="#FCF7E6" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- trái nhãn còn vỏ nâu (đạo cụ) -->
+    <g id="csnPeel">
+      <circle r="19" fill="#A87A45" stroke="#7A5326" stroke-width="2.4"/>
+      <path d="M-13 -7 C -10 -14 -3 -18 4 -17" fill="none" stroke="#C79B62" stroke-width="3.4" stroke-linecap="round"/>
+      <g fill="#8E6435">
+        <circle cx="-6" cy="4" r="2.2"/><circle cx="6" cy="-2" r="2"/><circle cx="2" cy="9" r="1.9"/><circle cx="-10" cy="-4" r="1.8"/>
+      </g>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="252" cy="416" rx="188" ry="23" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐẠO CỤ PHẢI: chùm nhãn còn cuống lá, đổ trên bàn -->
+  <g transform="translate(414 356)">
+    <ellipse cx="0" cy="54" rx="62" ry="14" fill="rgba(15,26,14,.3)"/>
+    <!-- cành + lá -->
+    <path d="M-30 -18 C -6 -30 22 -30 44 -18" fill="none" stroke="#6E5228" stroke-width="5" stroke-linecap="round"/>
+    <path d="M8 -26 C 6 -44 16 -56 32 -60" fill="none" stroke="#6E5228" stroke-width="4" stroke-linecap="round"/>
+    <g fill="#3E7B3A" stroke="#26521F" stroke-width="1.6">
+      <path d="M20 -50 C 32 -62 52 -64 62 -56 C 50 -46 30 -42 20 -50 Z"/>
+      <path d="M-2 -40 C 8 -54 26 -58 36 -52 C 26 -42 8 -34 -2 -40 Z"/>
+    </g>
+    <g fill="none" stroke="#8CC06A" stroke-width="1.5" stroke-linecap="round">
+      <path d="M26 -51 C 38 -57 50 -58 58 -56"/>
+      <path d="M4 -41 C 14 -49 26 -52 33 -52"/>
+    </g>
+    <use href="#csnPeel" transform="translate(-24 6)"/>
+    <use href="#csnPeel" transform="translate(14 16) scale(1.06)"/>
+    <use href="#csnPeel" transform="translate(48 2) scale(.94)"/>
+    <use href="#csnPeel" transform="translate(-2 -8) scale(.88)"/>
+    <!-- một trái đã bóc, cùi trắng ngà, hạt nâu bên cạnh -->
+    <g transform="translate(-56 34)">
+      <ellipse cx="0" cy="0" rx="16" ry="13" fill="#F4EBD2" stroke="#D3C193" stroke-width="2.2"/>
+      <path d="M-9 -4 C -4 -9 6 -9 11 -4" fill="none" stroke="#FEFAF0" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="20" cy="12" r="6.4" fill="#4E3218" stroke="#31200E" stroke-width="1.8"/>
+      <path d="M17 10 C 19 8 22 8 24 10" fill="none" stroke="#7E5A32" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- ĐẠO CỤ TRÁI: muỗng nhỏ gác trên bàn -->
+  <g transform="translate(84 400) rotate(-12)">
+    <ellipse cx="14" cy="12" rx="46" ry="9" fill="rgba(15,26,14,.28)"/>
+    <rect x="12" y="-4" width="74" height="9" rx="4.5" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="-1" cy="0" rx="19" ry="12" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.4"/>
+    <ellipse cx="-2" cy="0.5" rx="12.5" ry="7.4" fill="#EFEADA"/>
+    <ellipse cx="-3" cy="-1" rx="8" ry="5.4" fill="rgba(250,244,226,.75)" stroke="rgba(255,255,255,.6)" stroke-width="1.6"/>
+    <ellipse cx="-1" cy="0.6" rx="4.4" ry="3.4" fill="#F2E7C8"/>
+  </g>
+
+  <!-- TÔ THỦY TINH THẤP, ĐẶT THẲNG TRÊN BÀN. Bản 1 vẽ có CHÂN ĐẾ CAO thì ở
+       260px đọc ra ly rượu / ly kem — đúng cái bẫy ly chè đậu đỏ đã dính ở
+       đợt 13. Bỏ chân, hạ thấp, nới rộng: tỉ lệ ngang/dọc mới là thứ nói ra
+       đây là cái gì. -->
+  <g>
+    <!-- thân: rộng, nông, đáy tròn đặt hẳn xuống mặt bàn -->
+    <path d="M96 208 C 104 320 168 384 254 384 C 340 384 404 320 412 208 Z"
+          fill="url(#csnGlass)" stroke="rgba(255,255,255,.62)" stroke-width="3.4"/>
+
+    <!-- NƯỚC ĐƯỜNG hổ phách — đậm hơn bản 1 để cùi nhãn sáng nổi lên trên nó -->
+    <path d="M108 224 C 118 310 174 370 254 370 C 334 370 390 310 400 224 Z" fill="url(#csnSyrup)"/>
+
+    <!-- mấy viên đá chìm dưới đáy (món lạnh) -->
+    <g fill="rgba(255,255,255,.55)" stroke="rgba(255,255,255,.5)" stroke-width="1.8">
+      <path d="M170 322 L 200 312 L 210 338 L 180 346 Z"/>
+      <path d="M296 330 L 326 318 L 336 344 L 306 352 Z"/>
+      <path d="M234 344 L 262 336 L 270 358 L 242 364 Z"/>
+    </g>
+
+    <!-- TRÁI NHÃN ĐÃ LỒNG SEN: xếp lệch, cỡ khác nhau, chồng mép lên nhau.
+         Hai trái trên cùng NHÔ HẲN khỏi mặt nước cho đường bao gồ ghề. -->
+    <use href="#csnNhan" transform="translate(160 262) rotate(-16) scale(1.62)"/>
+    <use href="#csnNhan" transform="translate(256 226) rotate(9) scale(1.34)"/>
+    <use href="#csnNhan" transform="translate(348 276) rotate(-7) scale(1.7)"/>
+    <use href="#csnNhan" transform="translate(212 338) rotate(21) scale(1.18)"/>
+    <use href="#csnNhan" transform="translate(306 340) rotate(-24) scale(1.46)"/>
+    <use href="#csnSeed" transform="translate(268 296) rotate(-28) scale(1.2)"/>
+    <use href="#csnSeed" transform="translate(180 322) rotate(16) scale(1.05)"/>
+    <use href="#csnSeed" transform="translate(340 226) rotate(-8) scale(.95)"/>
+
+    <!-- vành miệng tô, vẽ SAU để mấy trái trên cùng đọc ra là nhô lên khỏi nước -->
+    <path d="M96 208 C 140 240 368 240 412 208" fill="none" stroke="rgba(255,255,255,.72)" stroke-width="4.4" stroke-linecap="round"/>
+    <ellipse cx="254" cy="208" rx="158" ry="32" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="3"/>
+    <!-- ánh sáng dọc thành tô -->
+    <path d="M126 240 C 136 306 172 356 214 374" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M386 246 C 378 296 358 330 332 354" fill="none" stroke="rgba(255,255,255,.24)" stroke-width="4.4" stroke-linecap="round"/>
+  </g>
+</svg>

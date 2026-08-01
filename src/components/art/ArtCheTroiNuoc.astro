@@ -1,0 +1,151 @@
+---
+/* Chè trôi nước — nguy nhất là CƠM RƯỢU (cùng họ tím, cũng là viên nếp TRẮNG).
+   Bốn chỗ cố ý cho lệch:
+   1) CỠ VIÊN: ba viên TO chiếm gần nửa lòng chén — cơm rượu là chục viên nhỏ
+   2) MẶT CẮT: một viên BỔ ĐÔI lộ ruột đậu xanh vàng (luật đợt 15: hình khối lạ
+      thì phải cho thấy cấu tạo bên trong, không thì đọc ra đồ vật)
+   3) VẬT ĐỰNG: chén sứ đặt trên DĨA LÓT — chưa hình chè nào có dĩa lót; cơm rượu
+      là hũ thủy tinh trụ có nắp
+   4) MÓN NÓNG có khói + nước gừng NÂU HỔ PHÁCH — cơm rượu lạnh, nước trắng đục
+   Mặt viên chỉ GỢN nhẹ chứ không lởm chởm hạt: bột nhồi mịn, không phải xôi xới
+   tơi (luật đợt 14 về viên cơm rượu).
+   id prefix "ctn" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Chén chè trôi nước nóng đặt trên dĩa lót: ba viên bột nếp trắng to trong nước gừng nâu hổ phách, một viên bổ đôi lộ nhân đậu xanh vàng, rắc mè và sợi gừng">
+  <defs>
+    <linearGradient id="ctnBall" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#FFFDF6"/><stop offset="1" stop-color="#EADFC6"/>
+    </linearGradient>
+    <linearGradient id="ctnSyrup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C08238"/><stop offset="1" stop-color="#8E561D"/>
+    </linearGradient>
+    <linearGradient id="ctnCore" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4B845"/><stop offset="1" stop-color="#BF8D20"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M206 214 C 195 190 221 174 210 148 C 203 132 217 120 213 106"/>
+    <path d="M262 206 C 252 182 278 168 267 142 C 260 126 274 114 270 100"/>
+    <path d="M318 216 C 308 194 332 180 322 156 C 315 140 328 128 325 114"/>
+  </g>
+  <ellipse cx="256" cy="418" rx="190" ry="23" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐẠO CỤ TRÁI: củ gừng bổ đôi ngửa mặt cắt lên (luật đợt 13) -->
+  <g transform="translate(88 388)">
+    <ellipse cx="0" cy="22" rx="54" ry="13" fill="rgba(15,26,14,.3)"/>
+    <path d="M-46 10 C -40 -4 -20 -12 -2 -10 C 14 -8 26 -16 40 -10 C 50 -6 52 6 44 14 C 28 22 -30 22 -46 10 Z"
+          fill="#C79B52" stroke="#96702C" stroke-width="2.4"/>
+    <path d="M-30 6 C -22 -4 -6 -6 6 -3 C 0 6 -18 12 -30 6 Z" fill="#EBD59A" stroke="#B99548" stroke-width="2"/>
+    <g fill="none" stroke="#C8A75E" stroke-width="1.4" stroke-linecap="round">
+      <path d="M-26 4 C -18 -1 -8 -2 0 -1"/>
+      <path d="M-22 8 C -14 4 -6 3 2 3"/>
+    </g>
+    <path d="M18 -12 C 24 -22 34 -26 42 -24" fill="none" stroke="#8FAF5A" stroke-width="3.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ĐẠO CỤ PHẢI: chén cốt dừa nhỏ -->
+  <g transform="translate(430 396)">
+    <ellipse cx="0" cy="18" rx="40" ry="11" fill="rgba(15,26,14,.3)"/>
+    <path d="M-32 -4 C -30 11 -17 21 0 21 C 17 21 30 11 32 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="32" ry="9.6" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-4" rx="24" ry="6.6" fill="#FBF7EC"/>
+    <path d="M-14 -6 C -6 -9 6 -9 13 -6" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- CHÉN SÂU CÓ CHÂN ĐẾ. Bản 3 dùng dĩa lót nhưng ở 260px cái dĩa chỉ làm
+       cụm đọc ra "chén đặt lệch trên dĩa" chứ không thêm thông tin gì về món —
+       bỏ hẳn, và làm chén sâu lòng để mấy viên NẰM TRONG chén chứ không nổi
+       lều bều trên một cái đĩa nông. -->
+  <!-- Thái nhắc hai lần "tô nhìn hơi to với cao quá". Vòng 1 chỉ bọc scale nên
+       cái tô vẫn SÂU y như cũ, chỉ nhỏ đi. Vòng 2 sửa hẳn hình dạng: kéo đáy tô
+       lên 36 đơn vị (sâu 132 -> 96) và thu vành lại, rồi mới scale. -->
+  <g transform="translate(256 286) scale(.86) translate(-256 -286)">
+    <path d="M218 350 L 215 372 C 214 378 224 382 256 382 C 288 382 298 378 297 372 L 294 350 Z"
+          fill="#EFE8D4" stroke="#D3C9AC" stroke-width="2.2"/>
+    <ellipse cx="256" cy="350" rx="46" ry="11" fill="#F7F2E3"/>
+    <path d="M128 258 C 136 314 182 352 256 352 C 330 352 376 314 384 258 Z" fill="#F7F2E3"/>
+    <path d="M152 274 C 160 314 182 338 212 348 C 188 336 172 312 166 274 Z" fill="rgba(255,255,255,.7)"/>
+    <ellipse cx="256" cy="256" rx="128" ry="33" fill="#F6F1E1"/>
+    <ellipse cx="256" cy="252" rx="128" ry="33" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="256" cy="252" rx="128" ry="33" fill="none" stroke="#5E3A6E" stroke-width="4.5"/>
+    <ellipse cx="256" cy="253" rx="114" ry="27" fill="none" stroke="#C89AD8" stroke-width="2.2" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+    <!-- NƯỚC GỪNG hổ phách -->
+    <ellipse cx="256" cy="254" rx="114" ry="28" fill="url(#ctnSyrup)"/>
+    <ellipse cx="196" cy="246" rx="36" ry="6.4" fill="#D69A50" opacity=".6"/>
+
+    <!-- SỢI GỪNG nổi trên nước: sợi dài, nằm ngang -->
+    <g fill="none" stroke="#E8C273" stroke-width="3.2" stroke-linecap="round">
+      <path d="M148 262 C 166 254 186 252 202 255"/>
+      <path d="M314 268 C 332 260 350 259 362 262"/>
+      <path d="M162 276 C 178 270 194 269 206 271"/>
+      <path d="M302 244 C 318 238 334 237 346 239"/>
+    </g>
+
+    <!-- BA VIÊN TRÔI NƯỚC, nửa dưới chìm trong nước gừng, xếp LỆCH -->
+    <!-- viên sau trái -->
+    <g>
+      <ellipse cx="190" cy="230" rx="38" ry="35" fill="url(#ctnBall)" stroke="#D5C8AB" stroke-width="2.4"/>
+      <path d="M168 218 C 174 204 186 198 198 200" fill="none" stroke="#FFFFFF" stroke-width="6.4" stroke-linecap="round" opacity=".85"/>
+      <path d="M166 240 C 169 251 177 259 188 263" fill="none" stroke="#DED2B6" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <!-- viên sau phải -->
+    <g>
+      <ellipse cx="324" cy="236" rx="36" ry="33" fill="url(#ctnBall)" stroke="#D5C8AB" stroke-width="2.4"/>
+      <path d="M304 222 C 309 210 320 205 330 207" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+      <path d="M300 246 C 303 256 310 263 320 266" fill="none" stroke="#DED2B6" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+    <!-- VIÊN TRƯỚC BỔ ĐÔI: lộ ruột đậu xanh, mặt cắt quay ra người xem -->
+    <g transform="translate(256 244)">
+      <!-- nửa sau còn nguyên, hơi thò ra -->
+      <ellipse cx="18" cy="-8" rx="44" ry="40" fill="#EFE5CD" stroke="#D5C8AB" stroke-width="2.4"/>
+      <!-- nửa trước đã cắt — VÒNG 2, sửa theo Thái: "nhìn giống trứng gà quá".
+           Vòng 1 vẽ nhân đậu xanh thành một khối TRÒN nằm giữa vành vỏ trắng =
+           đúng quả trứng ốp la (luật đợt 12/15).
+           Vòng 2 dùng đúng luật đợt 11: ĐẨY RUỘT LÊN TRÊN, chỉ chừa vỏ dày ở
+           ĐÁY, thành "cái thuyền vỏ đỡ đống nhân". Nhân là khối VUÔNG TRÒN GÓC
+           (đậu xanh nắm bằng tay thì ra dáng đó), mép trên GỒ GHỀ, và nó CHẠM
+           HẲN vào mép vỏ ở hai bên — không còn vành trắng bao quanh. -->
+      <path d="M-52 -4 C -52 -30 -30 -46 -2 -46 C 26 -46 48 -30 48 -4 C 48 24 26 40 -2 40 C -30 40 -52 24 -52 -4 Z"
+            fill="url(#ctnBall)" stroke="#CFC1A2" stroke-width="2.6"/>
+      <path d="M-47 -12 C -44 -30 -24 -41 -2 -41 C 20 -41 41 -30 44 -12
+               C 40 -6 30 -9 22 -6 C 12 -2 0 -6 -10 -3 C -22 1 -34 -3 -42 -8 Z"
+            fill="url(#ctnCore)" stroke="#A87A16" stroke-width="2.4" stroke-linejoin="round"/>
+      <!-- ruột đậu xanh gợn hạt, dồn lệch chứ không rải đều -->
+      <g fill="#F0CF72" opacity=".92">
+        <ellipse cx="-20" cy="-26" rx="7.4" ry="4.8" transform="rotate(-16 -20 -26)"/>
+        <ellipse cx="4" cy="-32" rx="6.4" ry="4.2" transform="rotate(10 4 -32)"/>
+        <ellipse cx="26" cy="-22" rx="6" ry="4" transform="rotate(-8 26 -22)"/>
+        <ellipse cx="-6" cy="-17" rx="5.6" ry="3.6" transform="rotate(22 -6 -17)"/>
+      </g>
+      <g fill="#B08420">
+        <ellipse cx="14" cy="-30" rx="4.4" ry="3" transform="rotate(14 14 -30)"/>
+        <ellipse cx="-32" cy="-18" rx="3.8" ry="2.6" transform="rotate(-20 -32 -18)"/>
+        <ellipse cx="34" cy="-12" rx="3.6" ry="2.4" transform="rotate(8 34 -12)"/>
+      </g>
+      <!-- vệt sáng trên vỏ + gợn hạt nếp trên đường bao -->
+      <path d="M-44 -18 C -38 -34 -22 -42 -6 -41" fill="none" stroke="#FFFFFF" stroke-width="6.4" stroke-linecap="round" opacity=".85"/>
+      <g fill="none" stroke="#DED2B6" stroke-width="2" stroke-linecap="round">
+        <path d="M-48 8 C -44 20 -34 30 -20 36"/>
+        <path d="M40 8 C 36 22 24 32 8 38"/>
+      </g>
+    </g>
+
+    <!-- MÈ RANG rắc trên mặt viên -->
+    <g fill="#F6EBCE" stroke="#C8B285" stroke-width=".9">
+      <ellipse cx="192" cy="212" rx="4" ry="2.6" transform="rotate(-18 192 212)"/>
+      <ellipse cx="222" cy="224" rx="3.6" ry="2.4" transform="rotate(12 222 224)"/>
+      <ellipse cx="326" cy="222" rx="3.8" ry="2.5" transform="rotate(-8 326 222)"/>
+      <ellipse cx="286" cy="228" rx="3.4" ry="2.2" transform="rotate(24 286 228)"/>
+      <ellipse cx="352" cy="238" rx="3.2" ry="2.1" transform="rotate(-14 352 238)"/>
+      <ellipse cx="170" cy="228" rx="3.4" ry="2.2" transform="rotate(6 170 228)"/>
+    </g>
+
+    <!-- vệt CỐT DỪA trắng rưới từ mép trái, chảy lệch một phía -->
+    <path d="M152 244 C 142 266 146 288 158 302 C 165 287 156 266 164 250 Z" fill="rgba(253,250,241,.9)"/>
+    <path d="M366 258 C 375 275 371 293 359 302 C 353 289 365 275 359 262 Z" fill="rgba(253,250,241,.75)"/>
+  </g>
+</svg>

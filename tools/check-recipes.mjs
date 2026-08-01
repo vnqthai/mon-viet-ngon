@@ -53,6 +53,15 @@ const ENUMS = {
   occasions: enumAfter('.array(z.enum('),
 };
 // enum `art` trải nhiều dòng nên bắt riêng
+/* Kho icon có thật trong Sprite.astro. Trước đợt 16 không ai soi chỗ này, nên
+   `icon: plate` nằm trong 7 file YAML suốt nhiều đợt mà vẫn build xanh —
+   `<use href="#ic-plate">` không tra ra symbol nào và trình duyệt vẽ ra ô
+   TRỐNG, không báo lỗi gì cả. */
+const SPRITE = path.join(ROOT, 'src/components/Sprite.astro');
+const ICON_VOCAB = new Set(
+  [...fs.readFileSync(SPRITE, 'utf8').matchAll(/id="ic-([a-z0-9-]+)"/g)].map((m) => m[1])
+);
+
 const ART_ENUM = (() => {
   const at = configSrc.indexOf('art: z');
   const open = configSrc.indexOf('.enum([', at);
@@ -89,6 +98,9 @@ function walkKeys(node, file, trail = '') {
   }
   if (!node || typeof node !== 'object' || node instanceof Date) return;
   for (const [k, v] of Object.entries(node)) {
+    if (k === 'icon' && typeof v === 'string' && !ICON_VOCAB.has(v)) {
+      fail(file, `\`icon: ${v}\` ${trail ? `(ở ${trail})` : ''} không có id "ic-${v}" trong Sprite.astro — sẽ render ra ô trống`);
+    }
     if (!KEY_VOCAB.has(k)) {
       fail(file, `khoá lạ ${trail}.${JSON.stringify(k)} — gần như chắc chắn là chuỗi chứa ": " mà quên quote, YAML nuốt thành object`);
     }

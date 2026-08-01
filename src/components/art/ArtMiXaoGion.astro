@@ -1,0 +1,182 @@
+---
+/* Mi xao gion — vao nhom Xao cua ho nau, noi SAU hinh da dung chung mot khuon
+   ("go do xao nam bep tren dia bau duc trang"): mi xao bo, mien xao cua, muc xao
+   thom, rau muong xao toi, bo xao bong thien ly, kho qua xao trung.
+   Don bay dung o day la DOI HINH KHOI CUA MON (luat dot 15):
+   1) khong phai go det ma la O MI CHIEN PHONG CAO, duong bao GO GHE vi dau soi
+      mi chia han ra ngoai — nhin thay ro be day
+   2) SOT SANH nau bong phu tu dinh xuong, chay tran xuong chan o mi
+   3) dia SAU LONG (phai co, khong thi sot chay ra) chu khong phai dia bau duc det
+   Mi xao bo dung ngay canh trong luoi nen phai khac ca DANG lan SAC: ben kia la
+   soi mem nau vang nam bep, ben nay la o vang rom phong phu sot nau.
+   id prefix "mxg" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dia mi xao gion: o mi trung chien vang phong cao, ben tren phu lop sot sanh voi tom, muc va cai ngot, sot chay tran xuong chan o mi">
+  <defs>
+    <linearGradient id="mxgSauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9A6428"/><stop offset="1" stop-color="#653A13"/>
+    </linearGradient>
+    <linearGradient id="mxgPlate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E7DFC8"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M206 168 C 195 144 221 128 210 102 C 203 86 217 74 213 60"/>
+    <path d="M262 158 C 252 134 278 120 267 94 C 260 78 274 66 270 52"/>
+    <path d="M318 170 C 308 148 332 134 322 110 C 315 94 328 82 325 68"/>
+  </g>
+  <ellipse cx="256" cy="416" rx="196" ry="24" fill="rgba(15,26,14,.35)"/>
+
+  <!-- DAO CU TRAI: chen nuoc tuong ot -->
+  <g transform="translate(80 392)">
+    <ellipse cx="0" cy="18" rx="40" ry="11" fill="rgba(15,26,14,.3)"/>
+    <path d="M-32 -4 C -30 11 -17 21 0 21 C 17 21 30 11 32 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="32" ry="9.6" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-4" rx="24" ry="6.6" fill="#4A2C14"/>
+    <g fill="#B4331F"><circle cx="-8" cy="-5" r="2.2"/><circle cx="6" cy="-2" r="2"/><circle cx="13" cy="-6" r="1.7"/></g>
+  </g>
+
+  <!-- DAO CU PHAI: doi dua gac tren ban -->
+  <g transform="rotate(-8 428 402)">
+    <rect x="360" y="394" width="140" height="7.5" rx="3.75" fill="#9A6538"/>
+    <rect x="364" y="405" width="140" height="7.5" rx="3.75" fill="#8A5730"/>
+  </g>
+
+  <!-- DIA SAU LONG -->
+  <ellipse cx="256" cy="368" rx="188" ry="46" fill="#EFE8D4"/>
+  <path d="M68 344 C 76 384 156 408 256 408 C 356 408 436 384 444 344 Z" fill="url(#mxgPlate)"/>
+  <ellipse cx="256" cy="344" rx="188" ry="46" fill="url(#mxgPlate)" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="256" cy="344" rx="188" ry="46" fill="none" stroke="#2C5234" stroke-width="4.5"/>
+  <ellipse cx="256" cy="345" rx="162" ry="38" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- O MI CHIEN — vong 3, sua theo Thai: "mon nay cac soi tach ra ro rang chu
+       khong phai 1 dong tron vo quen lai 1 cuc".
+       BO HAN khoi nen dac. To mi bay gio la MOT MO SOI ROI: moi soi la mot net
+       rieng, GIUA CAC SOI CO KHE HO thay duoc nen dia, dau soi tho ra lom chom
+       va dai ngan khac nhau.
+       BANG MAU: soi ngoai vang rom #F2CE72, soi lop sau #B87A20, vien xem #A86A14. -->
+  <ellipse cx="258" cy="330" rx="140" ry="26" fill="#8E5A14" opacity=".38"/>
+
+  <g fill="none" stroke="#B87A20" stroke-width="6.5" stroke-linecap="round">
+    <path d="M128 328 C 168 300 214 288 262 292 C 306 296 348 312 386 336"/>
+    <path d="M140 306 C 178 278 224 266 268 272 C 308 278 346 296 378 318"/>
+    <path d="M158 286 C 194 258 236 246 274 254 C 308 262 340 280 366 300"/>
+    <path d="M182 264 C 214 240 250 230 282 240 C 310 249 336 266 356 284"/>
+  </g>
+  <g fill="none" stroke="#F2CE72" stroke-width="5.4" stroke-linecap="round">
+    <path d="M122 334 C 164 306 212 294 262 298 C 308 302 352 318 392 342"/>
+    <path d="M134 314 C 174 284 222 272 268 278 C 310 284 350 302 384 326"/>
+    <path d="M152 294 C 190 264 234 252 274 260 C 310 268 344 286 372 308"/>
+    <path d="M174 272 C 208 246 246 236 280 246 C 310 255 338 272 360 292"/>
+    <path d="M200 252 C 228 232 258 224 286 234 C 310 243 332 258 350 274"/>
+    <path d="M226 236 C 248 220 272 214 294 222 C 312 229 328 240 342 254"/>
+  </g>
+  <g fill="none" stroke="#F2CE72" stroke-width="4.6" stroke-linecap="round">
+    <path d="M122 334 L 98 328 M 134 312 L 108 302 M 152 292 L 130 278"/>
+    <path d="M392 342 L 416 336 M 384 324 L 410 314 M 372 306 L 394 292"/>
+    <path d="M200 250 L 188 232 M 300 228 L 308 212"/>
+    <path d="M336 250 L 352 236"/>
+  </g>
+  <g fill="none" stroke="#A86A14" stroke-width="2" stroke-linecap="round">
+    <path d="M128 330 L 110 324 M 388 336 L 406 330 M 214 240 L 206 226 M 318 234 L 326 218"/>
+  </g>
+  <!-- Thái: "có phần trống bên dưới đống mì" — thêm hai lớp sợi thấp cho đống mì
+       ngồi hẳn xuống mặt dĩa, không còn hở một khoảng nền giữa mì và vành dĩa. -->
+  <g fill="none" stroke="#B87A20" stroke-width="6" stroke-linecap="round">
+    <path d="M126 344 C 170 322 216 312 262 314 C 308 316 352 328 392 348"/>
+    <path d="M136 356 C 180 338 224 330 264 332 C 306 334 346 344 380 358"/>
+  </g>
+  <g fill="none" stroke="#F2CE72" stroke-width="4.6" stroke-linecap="round">
+    <path d="M122 348 C 168 326 216 316 262 318 C 310 320 356 332 396 352"/>
+    <path d="M132 360 C 178 342 224 334 264 336 C 308 338 350 348 384 362"/>
+  </g>
+  <g fill="none" stroke="#F2CE72" stroke-width="4" stroke-linecap="round">
+    <path d="M122 348 L 102 346 M 396 352 L 416 350 M 132 360 L 114 360 M 384 362 L 402 362"/>
+  </g>
+
+  <!-- SOT SANH: mang LECH HAN sang phai-tren, chi phu MOT PHAN to mi — nua trai
+       de tran soi cho thay cai gion. Me sot go ghe, khong tron deu. -->
+  <!-- Thái: "có cục bự màu nâu nhìn kỳ ghê luôn á" — bản 3 vẽ sốt thành một khối
+       tròn dày nằm đè lên mì. Bản 4: sốt là một LỚP MỎNG BÁM THEO ĐƯỜNG CONG của
+       đống mì, mép dưới lượn theo sợi và có mấy nhánh len xuống giữa các sợi. -->
+  <path d="M196 300 C 214 268 246 250 282 250 C 320 250 350 268 366 300
+           C 350 314 330 322 306 324 C 276 327 232 324 210 316 C 202 312 197 306 196 300 Z"
+        fill="url(#mxgSauce)"/>
+  <g fill="#7A4A1C">
+    <path d="M224 318 C 226 328 232 334 240 336 C 240 328 234 322 232 316 Z"/>
+    <path d="M282 324 C 284 336 292 342 300 344 C 300 334 292 328 290 322 Z"/>
+    <path d="M334 314 C 338 324 346 328 354 328 C 352 320 344 316 342 310 Z"/>
+  </g>
+  <path d=" M 232 288 L 270 274 M 250 306 L 284 294" stroke="#C08A3C" stroke-width="4.6" stroke-linecap="round" opacity=".7"/>
+
+  <!-- TOM: than cong khuc, duoi xoe, van ngang -->
+  <g>
+    <g transform="translate(240 286) rotate(-18)">
+      <path d="M-24 6 C -26 -8 -16 -18 -2 -18 C 12 -18 22 -10 24 2 C 18 6 14 2 10 4 C 4 8 -6 10 -14 8 Z"
+            fill="#E2603C" stroke="#A8341A" stroke-width="2.2"/>
+      <g fill="none" stroke="#F6C0A4" stroke-width="2" stroke-linecap="round">
+        <path d="M-14 -4 C -10 -10 -2 -12 4 -10"/>
+        <path d="M-4 2 C 2 -4 10 -6 16 -4"/>
+      </g>
+      <path d="M24 2 L 36 -6 L 34 6 L 24 6 Z" fill="#C94526" stroke="#A8341A" stroke-width="1.8"/>
+    </g>
+    <g transform="translate(322 292) rotate(14) scale(.9)">
+      <path d="M-24 6 C -26 -8 -16 -18 -2 -18 C 12 -18 22 -10 24 2 C 18 6 14 2 10 4 C 4 8 -6 10 -14 8 Z"
+            fill="#E2603C" stroke="#A8341A" stroke-width="2.2"/>
+      <g fill="none" stroke="#F6C0A4" stroke-width="2" stroke-linecap="round">
+        <path d="M-14 -4 C -10 -10 -2 -12 4 -10"/>
+        <path d="M-4 2 C 2 -4 10 -6 16 -4"/>
+      </g>
+      <path d="M24 2 L 36 -6 L 34 6 L 24 6 Z" fill="#C94526" stroke="#A8341A" stroke-width="1.8"/>
+    </g>
+  </g>
+
+  <!-- MUC KHIA VAY RONG: mieng cuon lai, mat khia carô -->
+  <g transform="translate(292 268) rotate(-8)">
+    <path d="M-20 8 C -24 -6 -14 -16 0 -16 C 14 -16 24 -6 20 8 C 12 14 -12 14 -20 8 Z"
+          fill="#F4EADA" stroke="#C7B594" stroke-width="2.2"/>
+    <g fill="none" stroke="#C7B594" stroke-width="1.5" stroke-linecap="round">
+      <path d="M-12 -8 L -4 6 M 0 -12 L 6 4 M 10 -8 L 14 2"/>
+      <path d="M-16 -2 L 14 -6 M -14 4 L 16 0"/>
+    </g>
+  </g>
+  <g transform="translate(198 300) rotate(16) scale(.82)">
+    <path d="M-20 8 C -24 -6 -14 -16 0 -16 C 14 -16 24 -6 20 8 C 12 14 -12 14 -20 8 Z"
+          fill="#F4EADA" stroke="#C7B594" stroke-width="2.4"/>
+    <g fill="none" stroke="#C7B594" stroke-width="1.7" stroke-linecap="round">
+      <path d="M-12 -8 L -4 6 M 0 -12 L 6 4 M 10 -8 L 14 2"/>
+      <path d="M-16 -2 L 14 -6"/>
+    </g>
+  </g>
+
+  <!-- CAI NGOT: cong trang, la xanh sam xoe -->
+  <g>
+    <path d="M258 306 C 274 298 292 296 306 300 C 298 310 276 316 258 306 Z" fill="#4C8A3C" stroke="#2A5322" stroke-width="1.8"/>
+    <path d="M262 306 C 276 300 290 299 302 301" fill="none" stroke="#8CC06A" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M320 268 C 336 258 354 256 366 260 C 356 272 336 278 320 268 Z" fill="#3E7B3A" stroke="#26521F" stroke-width="1.8"/>
+    <path d="M324 268 C 338 261 352 260 362 262" fill="none" stroke="#8CC06A" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M212 276 C 226 268 242 267 254 270 C 244 280 226 286 212 276 Z" fill="#4C8A3C" stroke="#2A5322" stroke-width="1.7"/>
+  </g>
+
+  <!-- CA ROT lat mong cheo -->
+  <g>
+    <ellipse cx="336" cy="308" rx="14" ry="7" transform="rotate(-16 330 316)" fill="#E08A2E" stroke="#A85D14" stroke-width="2.2"/>
+    <ellipse cx="336" cy="308" rx="7.4" ry="3.4" transform="rotate(-16 330 316)" fill="#F0AF58"/>
+    <ellipse cx="222" cy="272" rx="12" ry="6" transform="rotate(12 240 248)" fill="#D9821F" stroke="#A85D14" stroke-width="2"/>
+    <ellipse cx="222" cy="272" rx="6.2" ry="2.8" transform="rotate(12 240 248)" fill="#EDA84C"/>
+  </g>
+
+  <!-- ngo va tieu -->
+  <g fill="#4E7B36">
+    <ellipse cx="268" cy="300" rx="5.6" ry="2.4" transform="rotate(-14 276 306)"/>
+    <ellipse cx="310" cy="264" rx="5" ry="2.2" transform="rotate(10 322 242)"/>
+    <ellipse cx="234" cy="264" rx="4.6" ry="2" transform="rotate(-6 248 272)"/>
+  </g>
+  <g fill="#2E2318">
+    <circle cx="256" cy="278" r="1.6"/><circle cx="300" cy="284" r="1.5"/>
+    <circle cx="278" cy="308" r="1.4"/><circle cx="216" cy="290" r="1.4"/>
+  </g>
+</svg>

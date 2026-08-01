@@ -1,0 +1,373 @@
+title: Kho quẹt **tộ nhỏ sệt lại, quẹt tới đáy**
+summary: >-
+  Tôm khô và tóp mỡ rim trong nước mắm đường tới khi **sệt lại thành một lớp
+  nâu cánh gián bám đáy tộ**, cay tiêu và thơm hành. Bẻ miếng rau luộc quẹt
+  một vòng là đủ đưa hết chén cơm.
+region: Miền Tây
+category: Kho
+occasions: [Cơm nhà, Nhậu lai rai]
+pubDate: 2026-08-01
+time:
+  total: 35 phút
+  active: 30 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 120
+art: kho-quet
+heroEyebrow: Cả nồi kho gói vào một cái tộ con…
+
+quick:
+  ingredients:
+    - Thịt ba chỉ [[200|g]] — thái hạt lựu nhỏ, thắng lấy tóp mỡ
+    - Tôm khô [[60|g]] — ngâm nước ấm 15 phút cho mềm
+    - "Nước mắm [[4|muỗng canh]] · đường [[3|muỗng canh]] · nước [[4|muỗng canh]]"
+    - Tiêu xanh [[2|nhánh]] · hành tím · tỏi · ớt · hành lá · tiêu xay
+  steps:
+    - Thái ba chỉ hạt lựu, cho vào chảo **để lửa nhỏ** cho ra mỡ, tới khi tóp vàng giòn thì vớt riêng.
+    - Phi hành tím tỏi băm trong chỗ mỡ đó cho vàng thơm.
+    - Trút tôm khô đã ngâm vào, đảo **2–3 phút** cho tôm săn và dậy mùi.
+    - Pha nước mắm với đường và nước cho tan hẳn, đổ vào tộ, đun **lửa nhỏ nhất**.
+    - Rim **12–15 phút** tới khi nước rút xuống còn **sệt và ngả màu cánh gián**.
+    - Thả tóp mỡ, tiêu xanh, ớt vào, đảo một vòng rồi tắt bếp.
+    - Rắc tiêu xay và hành lá. Dọn nóng cùng dĩa rau củ luộc.
+  warning: >-
+    Để lửa lớn cho nhanh là đường **cháy khét và đắng**, mà đắng rồi thì không
+    chữa được. Cả bước rim phải ở **lửa nhỏ nhất**, thấy nồi chỉ lăn tăn chứ
+    không sôi bùng.
+
+flavor:
+  chua: 0
+  ngot: 5
+  man: 8
+  cay: 5
+  thom: 7
+flavorNote: >-
+  **Chuẩn tộ kho quẹt:** nước rim **sệt tới mức kéo đũa qua thấy hở đáy tộ một
+  đường**, màu nâu cánh gián bóng. Mặn đậm nhưng có hậu ngọt, cay tiêu nổi lên
+  ở cuối. Tóp mỡ vẫn **giòn rụm**, tôm khô mềm mà còn dai nhẹ.
+storyEyebrow: Chuyện tộ kho quẹt
+storyTitle: Món sinh ra từ **chỗ đáy nồi kho** — và ở lại vì nó ngon
+story:
+  - >-
+    Kho quẹt là một tộ nhỏ đựng thứ nước kho đã rim cạn tới mức **sệt lại bám
+    đáy**. Không có miếng thịt to nào để gắp, không chan được lên cơm như canh
+    — cách ăn đúng là **quẹt**: bẻ một miếng rau luộc hay xắn một muỗng cơm,
+    miết một vòng vào lòng tộ rồi đưa lên miệng. Tên món nói đúng động tác đó.
+  - >-
+    Món này gốc ở đồng bằng sông Cửu Long, và làm từ toàn thứ để dành được: tôm
+    khô, nước mắm, đường, một miếng ba chỉ. Vì đậm nên ăn rất ít mà đưa được
+    nhiều cơm — một tộ con là đủ cho cả nhà.
+  - >-
+    Thứ hay nhất của kho quẹt là nó **kéo cả dĩa rau luộc lên hạng chính**.
+    Đậu bắp, bầu, rau lang, cà rốt luộc vốn nhạt, chấm vào tộ kho quẹt là
+    thành món được trông chờ. Nên khi làm, cứ luộc rau nhiều hơn mình nghĩ.
+
+ingredientGroups:
+  - name: Tôm khô & tóp mỡ
+    icon: shrimp
+    items:
+      - id: tomkho
+        name: Tôm khô
+        icon: shrimp
+        color: red
+        base: 60
+        unit: g
+        note: >-
+          Chọn con **đỏ cam tự nhiên, thân cong, không vụn** — loại đỏ chói đều
+          màu thường là nhuộm. Ngâm nước ấm 15 phút rồi vớt ra để ráo
+      - id: bachi
+        name: Thịt ba chỉ
+        icon: meat
+        color: red
+        base: 200
+        unit: g
+        note: >-
+          Thái hạt lựu nhỏ chừng [[1|cm]]. Miếng nhiều mỡ một chút thì thắng ra
+          đủ mỡ để phi hành và rim
+      - id: tieuxanh
+        name: Tiêu xanh
+        icon: pepper
+        color: green
+        base: 2
+        unit: nhánh
+        note: >-
+          Để nguyên chùm thả vào cuối. Không có thì dùng tiêu hạt đập dập —
+          cái cay sẽ gắt hơn một chút
+  - name: Nước rim
+    icon: bottle
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 4
+        unit: muỗng canh
+        note: >-
+          Dùng nước mắm ngon, độ đạm cao — cả tộ chỉ có mấy thứ nên chỗ nào
+          cũng lộ ra
+      - id: duong
+        name: Đường
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Đường thốt nốt hoặc đường vàng thì màu đẹp và thơm hơn đường trắng
+      - id: nuocloc
+        name: Nước lọc
+        icon: drop
+        base: 4
+        unit: muỗng canh
+        note: >-
+          Pha loãng để có thời gian rim; đổ mắm đường nguyên chất vào là cháy
+          trước khi kịp thấm
+  - name: Thơm & cay
+    icon: onion
+    items:
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        base: 4
+        unit: củ
+        note: Băm nhỏ, phi vàng trong mỡ vừa thắng
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 5
+        unit: tép
+        note: Băm nhỏ, phi cùng hành tím
+      - id: ot
+        name: Ớt hiểm
+        icon: chili
+        color: red
+        base: 3
+        unit: trái
+        note: Để nguyên trái hoặc thái lát, thả lúc gần tắt bếp
+      - id: hanhla
+        name: Hành lá
+        icon: stem
+        color: green
+        base: 3
+        unit: nhánh
+        note: Thái nhỏ, rắc lúc dọn
+      - id: tieuxay
+        name: Tiêu xay
+        icon: pepper
+        qtyText: Rắc lúc dọn
+        note: Xay thô, rắc sau khi tắt bếp cho giữ mùi
+  - name: Rau củ luộc chấm kèm
+    icon: lettuce
+    items:
+      - id: raucu
+        name: Rau củ để luộc
+        icon: lettuce
+        color: green
+        qtyText: Một rổ đầy
+        note: >-
+          Đậu bắp, bầu, bí, cà rốt, su su, rau lang, cải ngọt — càng nhiều loại
+          càng vui dĩa. Luộc vừa chín tới, còn xanh và giòn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **tộ kho quẹt sệt tới đáy**
+stepsLead: >-
+  Cả món gói trong một cái chảo và ba mươi phút. Chỗ duy nhất cần kiên nhẫn là
+  lửa: từ lúc đổ nước mắm vào là phải nhỏ lửa cho tới cuối.
+steps:
+  - title: Thắng ba chỉ lấy mỡ và tóp
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Thái ba chỉ thành hạt lựu chừng [[1|cm]]. Cho vào chảo **nguội**, bật
+          lửa nhỏ — bắt đầu từ chảo nguội thì mỡ ra từ từ và tóp giòn đều.
+      - text: >-
+          Đảo thong thả **8–10 phút** tới khi miếng thịt **teo lại, vàng và
+          giòn**. Vớt tóp mỡ ra chén để riêng, giữ lại phần mỡ trong chảo.
+      - text: >-
+          Tóp mỡ để riêng cho tới cuối mới thả vào — cho sớm là ỉu hết.
+    callout:
+      type: tip
+      text: >-
+        Muốn tóp giòn lâu: vớt ra rồi rắc **một nhúm muối nhỏ** lúc còn nóng,
+        để trên giấy thấm cho ráo mỡ. Đừng đậy kín khi còn ấm, hơi nước đọng
+        lại là mềm.
+  - title: Phi hành tỏi, xào tôm khô
+    icon: onion
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Trong chỗ mỡ vừa thắng, cho hành tím và tỏi băm vào phi **lửa vừa**
+          tới khi vàng và dậy mùi. Đừng để nâu sậm, sẽ đắng.
+      - text: >-
+          Trút tôm khô đã ngâm và để ráo vào, đảo **2–3 phút** cho tôm săn lại
+          và thấm mỡ.
+      - text: >-
+          Tôm khô ngâm rồi phải để thật ráo mới cho vào chảo — còn nước thì mỡ
+          bắn và tôm bị hấp chứ không săn.
+  - title: Rim — lửa nhỏ nhất, và đừng bỏ đi đâu
+    icon: pot
+    minutes: 15 phút
+    intro: "Đây là toàn bộ món ăn, nằm trong mười lăm phút này:"
+    bullets:
+      - text: >-
+          Pha [[4|muỗng canh]] nước mắm với [[3|muỗng canh]] đường và
+          [[4|muỗng canh]] nước, **khuấy cho đường tan hẳn** rồi mới đổ vào
+          chảo.
+      - text: >-
+          Sang tộ đất nếu có (giữ nhiệt tốt hơn), để **lửa nhỏ nhất**, đun
+          **12–15 phút**. Thỉnh thoảng đảo nhẹ.
+      - label: "Dấu hiệu tới:"
+        text: >-
+          Nước rút dần, chuyển từ nâu đỏ sang **nâu cánh gián bóng**, và khi
+          **kéo đũa qua đáy tộ thấy hở ra một đường** rồi mới khép lại chậm —
+          đó là đúng độ sệt.
+      - text: >-
+          Chưa tới mà tắt bếp thì tộ loãng, quẹt không bám; quá tay thì nguội
+          xuống là đông cứng lại như kẹo.
+    callout:
+      type: warn
+      text: >-
+        Đường trong tộ này rất dễ cháy. Thấy có mùi khét nhẹ hay mép tộ ngả
+        đen là **nhấc ra khỏi bếp ngay**, đừng chữa bằng cách thêm nước — vị
+        đắng đã ngấm vào rồi.
+    timer:
+      secs: 780
+      label: Hẹn giờ rim · 13:00
+      doneMsg: Kéo đũa qua đáy tộ — hở ra một đường là tới!
+  - title: Thả tóp mỡ, tiêu xanh, ớt
+    icon: pepper
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Tắt bếp trước, rồi mới thả **tóp mỡ, chùm tiêu xanh và ớt** vào, đảo
+          một vòng cho áo đều.
+      - text: >-
+          Nhiệt còn lại trong tộ đủ để tiêu xanh dậy mùi mà tóp mỡ **chưa kịp
+          mềm**. Bật bếp lại là hỏng cả hai.
+      - text: Rắc tiêu xay và hành lá thái nhỏ lên mặt.
+  - title: Luộc rau và dọn ra mâm
+    icon: lettuce
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Luộc rau củ trong nồi nước sôi có **chút muối và vài giọt dầu ăn** —
+          rau xanh và bóng hơn. Luộc theo thứ tự cứng trước mềm sau.
+      - text: >-
+          Vớt ra thả ngay vào tô nước lạnh chừng 30 giây rồi để ráo. Rau giữ
+          được màu và **giòn chứ không nhũn**.
+      - text: >-
+          Xếp rau củ ra dĩa lớn thành từng cụm theo màu, **đặt tộ kho quẹt vào
+          một bên dĩa** chứ đừng đặt chính giữa — để còn chỗ gắp.
+    doneText: Bẻ miếng đậu bắp, quẹt một vòng — xong!
+
+tipsTitle: 6 bí quyết cho **tộ sệt đúng độ, không đắng**
+tipsLead: >-
+  Kho quẹt hỏng theo ba kiểu: loãng quẹt không bám, cứng như kẹo, và đắng
+  khét. Sáu điều dưới đây chặn cả ba.
+tips:
+  - icon: flame
+    title: Lửa nhỏ nhất, từ đầu tới cuối
+    text: >-
+      Đây là luật duy nhất thật sự quan trọng. Nước mắm và đường ở lửa lớn thì
+      cạn trước khi kịp thấm, và đường cháy thành đắng. Nhỏ lửa thì mất mười
+      lăm phút, nhưng đổi lại là màu cánh gián và vị có hậu.
+  - icon: spoon
+    title: Thử độ sệt bằng cách kéo đũa qua đáy
+    text: >-
+      Đừng nhìn màu mà đoán. Kéo đũa một đường qua đáy tộ: nếu thấy **hở đáy
+      ra rồi nước mới khép lại chậm** là đúng. Khép lại ngay thì còn loãng;
+      không khép lại thì đã quá.
+  - icon: meat
+    title: Tóp mỡ thả sau khi tắt bếp
+    text: >-
+      Cả cái ngon của tóp nằm ở chỗ giòn. Thả vào lúc còn rim là nó ngậm nước
+      mắm và mềm oặt trong hai phút. Tắt bếp, đảo một vòng, thế là đủ.
+  - icon: shrimp
+    title: Tôm khô ngâm rồi phải để thật ráo
+    text: >-
+      Ngâm cho mềm là đúng, nhưng nước còn đọng trong con tôm sẽ làm loãng
+      chỗ rim và kéo dài thời gian đun — mà đun lâu thì dễ cháy. Vớt ra rổ,
+      để ráo mươi phút, thấm giấy nếu vội.
+  - icon: pot
+    title: Có tộ đất thì dùng tộ đất
+    text: >-
+      Tộ đất giữ nhiệt đều nên đường ít cháy điểm, và khi bưng lên bàn thì tộ
+      còn nóng lâu — kho quẹt nguội là đông đặc lại, quẹt không ra. Không có
+      thì dùng chảo nhỏ đáy dày, và dọn ngay.
+  - icon: lettuce
+    title: Luộc rau nhiều hơn mình nghĩ
+    text: >-
+      Tộ kho quẹt rất đậm, một muỗng nhỏ là đủ cho mấy miếng rau. Nhà bốn
+      người thì luộc chừng nửa ký rau củ đủ loại — thiếu rau là cả nhà quay
+      sang ăn mặn với cơm không.
+
+serve:
+  title: Tộ kho quẹt — **giữa dĩa rau luộc**
+  paras:
+    - >-
+      Cách dọn đẹp nhất là một dĩa lớn: rau củ luộc xếp thành từng cụm theo
+      màu — đậu bắp xanh, cà rốt cam, bầu trắng ngà — và tộ kho quẹt nhỏ đặt
+      lệch về một bên. Mỗi người gắp rau, quẹt vào tộ, rồi ăn cùng cơm nóng.
+    - >-
+      Món này cũng rất hợp bàn nhậu. Thêm dĩa **cơm cháy** hoặc mấy miếng
+      **bánh tráng nướng** bẻ vụn để quẹt thì ngồi được lâu. Ai thích cay thì
+      dằm thêm trái ớt hiểm vào tộ.
+  aside:
+    title: Mâm gợi ý
+    intro: "Ba thứ dọn cùng là đủ bữa:"
+    items:
+      - icon: rice
+        text: "**Cơm trắng nóng** — kho quẹt mặn nên cơm phải nhiều."
+      - icon: lettuce
+        text: "**Dĩa rau củ luộc đủ màu** — đậu bắp, bầu, cà rốt, rau lang."
+      - icon: bowl
+        text: "**Một tô canh nhạt** — canh rau hay canh bí, để cân lại cái mặn."
+
+faq:
+  - q: Kho quẹt nguội bị đông cứng lại, làm sao?
+    a: >-
+      Bình thường — đường và mắm nguội thì đặc lại. Hâm bằng cách **đặt tộ vào
+      chảo nước nóng** hoặc quay lò vi sóng 20 giây là mềm ra. Nếu vẫn quá
+      đặc thì thêm một thìa nước sôi, khuấy đều. Lần sau tắt bếp sớm hơn một
+      chút, vì tộ còn tiếp tục cạn sau khi nhấc khỏi bếp.
+  - q: Làm chay được không?
+    a: >-
+      Được. Bỏ tôm khô và ba chỉ, thay bằng **nấm hương ngâm nở thái nhỏ** và
+      **đậu hũ trắng thái hạt lựu chiên vàng** thay tóp mỡ, dùng nước tương
+      thay nước mắm. Rim y hệt. Vị sẽ dịu hơn, nên nêm thêm chút tiêu và ớt
+      cho đủ mạnh.
+  - q: Không có tôm khô thì thay bằng gì?
+    a: >-
+      **Tép khô** hoặc **cá cơm khô** đều được, xé nhỏ trước khi rim. Vị sẽ
+      mặn hơn nên bớt nước mắm xuống [[3|muỗng canh]]. Chỉ có ba chỉ không thôi
+      cũng ra một tộ ngon, gọi là kho quẹt thịt — chỉ là mất phần ngọt hậu của
+      tôm.
+  - q: Rim bị đắng rồi có cứu được không?
+    a: >-
+      Không. Đường đã cháy thì vị đắng ngấm khắp tộ, thêm nước hay thêm đường
+      đều chỉ làm loãng chứ không mất. Đổ đi và làm lại — lần này để lửa nhỏ
+      hơn nữa và đứng canh.
+  - q: Để dành được mấy ngày?
+    a: >-
+      Ngăn mát **1 tuần**, đậy kín. Món này càng để càng đậm. Nhưng
+      **tóp mỡ thì nên để hộp riêng** và chỉ thả vào lúc hâm nóng dọn ra —
+      để chung trong tộ qua đêm là tóp mềm hết.
+  - q: Ăn kho quẹt với gì ngoài rau luộc?
+    a: >-
+      Cơm cháy là món kèm quen nhất sau rau luộc. Ngoài ra: **cơm nóng vo
+      thành nắm nhỏ**, bánh tráng nướng bẻ miếng, hoặc dưa leo và khế chua
+      thái lát. Miền Tây còn ăn với **rau sống vườn nhà** — đọt nhãn lồng, lá
+      cách, đọt xoài non.
+
+ticker:
+  - icon: pot
+    text: Rim tới khi kéo đũa hở đáy tộ
+  - icon: flame
+    text: Lửa nhỏ nhất, từ đầu tới cuối
+  - icon: meat
+    text: Tóp mỡ thả sau khi tắt bếp
+  - icon: lettuce
+    text: Bẻ miếng rau luộc quẹt một vòng
+  - icon: pepper
+    text: Tiêu xanh nguyên chùm thả cuối
+  - icon: rice
+    text: Một tộ con đưa hết nồi cơm

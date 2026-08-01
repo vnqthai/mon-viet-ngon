@@ -2,9 +2,10 @@
 
 Kho công thức món Việt tại [www.monvietngon.com](https://www.monvietngon.com) — mục tiêu dài hạn: **200 món** phủ đủ ba miền, món nào cũng được chăm chút như món nào.
 
-_Cập nhật 2026-08-01 (sau đợt 15). Site đang **115 món / 7 vùng / 17 kiểu món**, không kiểu món nào dưới 3._
+_Cập nhật 2026-08-01 (sau đợt 16). Site đang **126 món / 7 vùng / 17 kiểu món**, không kiểu món nào dưới 3._
 
-> 🎉 **ĐÃ QUA MỐC 100 MÓN** ở đợt 14 (95 → 104), live 2026-08-01 (`8a35b30`, deploy xanh, đã curl kiểm production). Mục tiêu tiếp theo là **200 món — Thái chốt 2026-07-31**; đợt 15 đưa lên **115**, tức đã đi hơn **một phần tám** quãng còn lại. **Chỗ chặn đường đó không phải dung lượng hay công viết — mà là đụng hình**; phân tích bằng số ở phần 2, mục *"Đường tới 200 món"*. Đọc mục đó trước khi mở đợt mới.
+> 🎉 **ĐÃ QUA MỐC 100 MÓN** ở đợt 14 (95 → 104), live 2026-08-01 (`8a35b30`, deploy xanh, đã curl kiểm production). Mục tiêu tiếp theo là **200 món — Thái chốt 2026-07-31**; đợt 15 đưa lên **115**, đợt 16 lên **126** — tức đã đi hơn **một phần tư** quãng còn lại. **Chỗ chặn đường đó không phải dung lượng hay công viết — mà là đụng hình**; phân tích bằng số ở phần 2, mục *"Đường tới 200 món"*. Đọc mục đó trước khi mở đợt mới.
+
 
 **Cách đọc file này:** bốn phần đầu là **thứ còn dùng** — trạng thái, việc còn lại, quy trình, luật đã chốt. Phần **Nhật ký** ở cuối là **chuyện đã qua**, giữ lại vì phần lý lẽ đằng sau mỗi quyết định mới là chỗ đáng giá; đừng đọc nó như chỉ dẫn, và vài con số trong đó chỉ đúng ở thời điểm viết.
 
@@ -14,11 +15,11 @@ _Cập nhật 2026-08-01 (sau đợt 15). Site đang **115 món / 7 vùng / 17 k
 
 | | |
 |---|---|
-| **Nội dung** | 115 món · 7 vùng · 17 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
+| **Nội dung** | 126 món · 7 vùng · 17 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo **6 họ màu**, trang chi tiết mang màu họ của chính nó |
 | **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
-| **Dung lượng** | `/mon/` **~35,4 KB** gzip ở 115 món (36.284 B, **ước từ cục bộ ×1,02**) — 11 món thêm 2,4 KB, tức **0,21 KB/món** |
-| **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 690 liên kết |
+| **Dung lượng** | `/mon/` **~38,2 KB** gzip ở 126 món (39.150 B, **ước từ cục bộ ×1,02**) — 11 món thêm 2,8 KB, tức **0,25 KB/món** |
+| **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 756 liên kết |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
 | **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
 | **Ảnh tìm kiếm** | `/anh-mon/<slug>-{1x1,4x3,16x9}.jpg` — hình món trên nền họ màu, sinh lúc build. **Khác `/og/`**: `/og/` là thẻ chữ để chia sẻ, `/anh-mon/` là ảnh cho bot |
@@ -30,17 +31,21 @@ _Cập nhật 2026-08-01 (sau đợt 15). Site đang **115 món / 7 vùng / 17 k
 
 | | | | |
 |---|---:|---|---:|
-| **Món nước** | **18** | **Xôi** | **6** |
-| Kho | 10 | Nướng | 6 |
-| Xào | 10 | Hấp | 5 |
-| **Bánh** | **10** | Bún trộn | 5 |
-| Canh | 8 | **Chiên** | **4** |
-| Lẩu | 7 | Bánh mì | 3 |
-| **Cơm** | **7** | Cháo | 3 |
-| **Chè** | **7** | Cuốn | 3 |
+| **Món nước** | **20** | Cơm | 7 |
+| **Xào** | **12** | Xôi | 6 |
+| **Kho** | **12** | **Hấp** | **6** |
+| **Bánh** | **11** | Bún trộn | 5 |
+| **Chè** | **9** | Chiên | 4 |
+| Canh | 8 | Bánh mì | 3 |
+| **Nướng** | **7** | Cháo | 3 |
+| Lẩu | 7 | Cuốn | 3 |
 | | | Gỏi | 3 |
 
-*Đợt 15 **mở kiểu món thứ 17: "Xôi"** — đụng đủ **8/8 chỗ** của bảng README, nhưng **không** phải chỗ thứ chín, vì Xôi nằm trong họ màu *Cơm & bánh* đã có. **Cơm 9 → 7** (xôi xéo và xôi mặn Sài Gòn chuyển sang Xôi), **Bánh 6 → 10**, **Chè 6 → 7**, **Chiên 3 → 4**, **Món nước 17 → 18**.*
+*Đợt 16 **không mở kiểu món mới** — 11 món rải vào 8 nhóm sẵn có: **Món nước 18 → 20**, **Xào 10 → 12**, **Kho 10 → 12**, **Bánh 10 → 11**, **Chè 7 → 9**, **Hấp 5 → 6**, **Nướng 6 → 7**. Đợt 15 trước đó mở kiểu món thứ 17 "Xôi".*
+
+> ⚠️ **Đợt 16 nhận HAI món nước, đưa nhóm to nhất từ 18 lên 20 — biết là ngược lời dặn, và đây là lý do.** ① **Súp cua**: Thái chốt xếp vào Món nước sau khi cân với Canh (định nghĩa Canh là *"món trong mâm cơm, ăn với cơm trắng"*, súp cua không phải vậy). ② **Miến lươn Nghệ An**: bản canonical của món là bản nước. Cả hai đều **né được khuôn chung của họ teal bằng vật đựng + ruột** (xem phần 4), nên không làm họ đó khó thêm. Nhưng **đây là hai ngoại lệ liên tiếp — đợt 17 thì đừng nhận món nước nào nữa**, trừ khi nó mở ra một hướng phân biệt mới như bánh đa cua ở đợt 15.
+>
+> **Họ tím "Ngọt & mát" lên 9 và SẮP CẠN VẬT ĐỰNG.** Chín món chè giờ dùng chín dáng khác nhau: tô nông · ly cao thẳng · ly miệng loe · tô sâu có chân · **tô thủy tinh thấp rộng** (chè sen long nhãn) · ly vuông · **chén sâu có chân** (chè trôi nước) · hũ trụ có nắp · cốc thấp hai tầng. Luật đợt 13 *"năm món cùng kiểu món thì phải khác nhau ở dáng vật đựng trước đã"* nay đã tiêu gần hết vốn — **món chè thứ mười phải phân biệt bằng RUỘT hoặc HÌNH KHỐI, đừng trông vào vật đựng nữa.**
 
 > ⚠️ **Món nước vẫn là ô to gấp đôi ô nhì (18 vs 10), và họ "Chan & húp" lên 36/115.** Đợt 15 **cố ý nhận thêm một món nước** (bánh đa cua) dù phần 2 đã dặn đừng — lý do: sợi bánh đa đỏ là thứ **chưa tô nào trên site có**, nên nó không làm họ teal khó thêm mà còn mở ra một hướng phân biệt mới. **Đây là ngoại lệ có lý do, đừng lấy làm tiền lệ chung** — bánh canh cá lóc Quảng Trị và phở chua Lạng Sơn vẫn nên hoãn.
 >
@@ -58,19 +63,21 @@ _Cập nhật 2026-08-01 (sau đợt 15). Site đang **115 món / 7 vùng / 17 k
 
 **Vùng miền:**
 
-| Vùng | Trước đợt 6 | Sau đợt 9 (58 món) | Sau đợt 11 (71) | Sau đợt 12 (82) | Sau đợt 13 (95) | Sau đợt 14 (104) | **Nay (115 món)** |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Miền Nam | 14 (40%) | 15 (26%) | 17 (24%) | 21 (26%) | 25 (26%) | 27 (26%) | **29 (25%)** |
-| Miền Bắc | 6 | 9 | 13 (18%) | 14 (17%) | 15 (16%) | 20 (19%) | **26 (23%)** |
-| Cả nước | 6 | 11 | 16 (23%) | 18 (22%) | 23 (24%) | 23 (22%) | **24 (21%)** |
-| Miền Trung | 3 (9%) | 11 (19%) | 12 (17%) | 15 (18%) | 15 (16%) | 16 (15%) | **16 (14%)** |
-| Miền Tây | 4 | 7 | 8 (11%) | 8 (10%) | 10 (11%) | 10 (10%) | **11 (10%)** |
-| Tây Nguyên | 1 | 3 | 3 (4%) | 4 (5%) | 5 (5%) | 5 (5%) | **5 (4%)** |
-| Tây Bắc | 1 | 2 | 2 (3%) | 2 (2%) | 2 (2%) | 3 (3%) | **4 (3%)** |
+| Vùng | Trước đợt 6 | Sau đợt 9 (58 món) | Sau đợt 11 (71) | Sau đợt 12 (82) | Sau đợt 13 (95) | Sau đợt 14 (104) | Sau đợt 15 (115) | **Nay (126 món)** |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Miền Nam | 14 (40%) | 15 (26%) | 17 (24%) | 21 (26%) | 25 (26%) | 27 (26%) | 29 (25%) | **33 (26%)** |
+| Miền Bắc | 6 | 9 | 13 (18%) | 14 (17%) | 15 (16%) | 20 (19%) | 26 (23%) | **27 (21%)** |
+| Cả nước | 6 | 11 | 16 (23%) | 18 (22%) | 23 (24%) | 23 (22%) | 24 (21%) | **25 (20%)** |
+| Miền Trung | 3 (9%) | 11 (19%) | 12 (17%) | 15 (18%) | 15 (16%) | 16 (15%) | 16 (14%) | **19 (15%)** |
+| Miền Tây | 4 | 7 | 8 (11%) | 8 (10%) | 10 (11%) | 10 (10%) | 11 (10%) | **13 (10%)** |
+| Tây Nguyên | 1 | 3 | 3 (4%) | 4 (5%) | 5 (5%) | 5 (5%) | 5 (4%) | **5 (4%)** |
+| Tây Bắc | 1 | 2 | 2 (3%) | 2 (2%) | 2 (2%) | 3 (3%) | 4 (3%) | **4 (3%)** |
 
-> **Đợt 15 — Miền Bắc lên hạng nhì, Tây Bắc nhúc nhích lần thứ hai liên tiếp.** Sáu món Bắc (bánh chưng · bánh giầy · bánh đúc nóng · bánh đa cua · xôi gấc · sữa chua nếp cẩm) kéo **20 → 26**, lần đầu vùng này vượt "Cả nước". **Tây Bắc 3 → 4** nhờ **xôi ngũ sắc** — và đáng ghi là món đó mở khoá được **chỉ vì đợt này mở kiểu món "Xôi"**, đúng cái lý do nó bị hoãn bấy lâu. "Cả nước" nhận đúng một món (xôi đậu xanh — món cả nước nấu thật) nên tỉ lệ **vẫn tụt tiếp 22% → 21%**.
+> **Đợt 16 — Miền Trung được bù đúng như đã dặn, sau hai đợt đứng yên.** Ba món Trung (**chè hạt sen long nhãn** Huế · **miến lươn Nghệ An** · **bánh bèo Huế**) kéo **16 → 19**, và tỉ lệ **quay đầu tăng lần đầu kể từ đợt 12**: 14% → 15%. Miền Tây cũng lên **11 → 13** (kho quẹt, mắm chưng). "Cả nước" **chỉ nhận đúng một món** (chà bông) nên tỉ lệ tiếp tục xuống 21% → 20% — vẫn giữ đúng nếp.
 >
-> **Chỗ cần để mắt.** Mỏng nhất vẫn là **Tây Bắc (4) và Tây Nguyên (5)** — Tây Nguyên đứng nguyên suốt ba đợt liền, tỉ lệ đã xuống 4%. **Miền Trung cũng đứng nguyên ở 16 và tụt còn 14%**, thấp nhất từ trước tới nay; đợt sau nên bù. *(Cột "Sau đợt 10" đã gỡ khỏi bảng cho đỡ chật — số cũ tra ở phần Nhật ký.)*
+> ⚠️ **Chỗ cần để mắt — TÂY NGUYÊN VÀ TÂY BẮC ĐỨNG YÊN THÊM MỘT ĐỢT NỮA.** Tây Nguyên **5 món, đứng nguyên bốn đợt liền**; Tây Bắc **4 món, đứng nguyên hai đợt**. Đợt 16 tìm không ra món Tây Nguyên nào vừa nổi tiếng, vừa nấu được ở nhà, vừa không đụng hình với `ga-nuong-mac-khen` / `bo-mot-nang` đang có. **Đây không còn là lời nhắc mà là việc phải quyết** — xem phần 2, mục *"Đường tới 200 món"* việc số 3. *(Cột "Sau đợt 10" đã gỡ khỏi bảng cho đỡ chật — số cũ tra ở phần Nhật ký.)*
+>
+> **Đợt 15 — Miền Bắc lên hạng nhì, Tây Bắc nhúc nhích lần thứ hai liên tiếp.** Sáu món Bắc (bánh chưng · bánh giầy · bánh đúc nóng · bánh đa cua · xôi gấc · sữa chua nếp cẩm) kéo **20 → 26**, lần đầu vùng này vượt "Cả nước". **Tây Bắc 3 → 4** nhờ **xôi ngũ sắc** — và đáng ghi là món đó mở khoá được **chỉ vì đợt này mở kiểu món "Xôi"**, đúng cái lý do nó bị hoãn bấy lâu.
 >
 > **Đợt 14 chữa đúng hai chỗ đợt 13 để lại.** ① **"Cả nước" đứng nguyên ở 23 và tụt từ 24% xuống 22%** — chín món của đợt không có món nào gán "Cả nước", đúng chủ ý. ② **Tây Bắc 2 → 3** nhờ **cơm lam**, lần đầu vùng này nhúc nhích kể từ đợt 9. Ngoài ra **Miền Bắc 15 → 20** (5 món: bún măng vịt, bún mọc, bún ốc, bún ốc nguội, cơm rang dưa bò), nhảy lên hạng ba và bỏ xa Miền Trung.
 >
@@ -161,22 +168,24 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
 
 ## Đường tới 200 món
 
-**Mốc 100 đã qua ở đợt 14; đợt 15 đưa lên 115.** Còn ~85 món nữa mới tới 200 — tức là **7–9 đợt cỡ đợt 13–15**.
+**Mốc 100 đã qua ở đợt 14; đợt 15 lên 115, đợt 16 lên 126.** Còn ~74 món nữa mới tới 200 — tức là **6–8 đợt cỡ đợt 13–16**.
 
-**Không vỡ chỗ nào — nền kỹ thuật làm được 115 thì làm được 200:**
+**Không vỡ chỗ nào — nền kỹ thuật làm được 126 thì làm được 200:**
 
-| | Nay (115 món) | Ước ở 200 món |
+| | Nay (126 món) | Ước ở 200 món |
 |---|---|---|
-| `/mon/` gzip | **~35,4 KB** (ước cục bộ ×1,02) | **~53 KB** — vẫn xa mốc cũ 150 KB |
-| Build | 44,7 s / 119 trang | **~75 s** (phần sinh ảnh chiếm chủ yếu) |
-| `/anh-mon/` | 345 ảnh | ~600 ảnh — artifact, không nằm trong repo |
+| `/mon/` gzip | **~38,2 KB** (ước cục bộ ×1,02) | **~53 KB** — vẫn xa mốc cũ 150 KB |
+| Build | 49,3 s / 130 trang | **~75 s** (phần sinh ảnh chiếm chủ yếu) |
+| `/anh-mon/` | 378 ảnh | ~600 ảnh — artifact, không nằm trong repo |
 | 12 ô featured | 10% catalog | 6% — **chọn lọc hơn**, không tệ hơn |
 | Ô mỏng nhất | 3 món | 6 món — không kiểu món nào tụt dưới luật ≥3 |
 
 **Chỗ vỡ là ĐỤNG HÌNH, và nó không tăng tuyến tính.** Mỗi hình mới phải khác **mọi** hình cũ ở cỡ 260px, nên cái quyết định độ khó là **hàng xóm đông cỡ nào**, không phải tổng số món:
 
-- Họ **"Chan & húp"** đã lên **36 hình** và trên đường tới **~62**. **Món nước 18 → ~28**, **Kho 10 → 20**.
-- Họ **"Cơm & bánh"** vọt từ 18 lên **26 hình** chỉ trong một đợt — nay là họ đông thứ nhì. Nhưng đợt 15 cho thấy nó **chưa chật**: xem việc số 2 ngay dưới.
+- Họ **"Mặn đưa cơm"** vọt **25 → 30 chỉ trong đợt 16** (kho quẹt, giả cầy, mắm chưng, mì xào giòn, chà bông) — **nay là họ chịu sức ép mạnh nhất sau teal**. Riêng nhóm Xào đã có **12 hình mà sáu trong số đó dùng chung đúng một khuôn** ("gò đồ xào nằm bẹp trên dĩa bầu dục trắng"). Món Xào thứ mười ba **bắt buộc phải đổi hình khối hoặc vật đựng**, đừng vẽ thêm gò nữa.
+- Họ **"Chan & húp"** đã lên **38 hình** và trên đường tới **~62**. **Món nước 20 → ~28**, **Kho 12 → 20**.
+- Họ **"Cơm & bánh"** ở **27 hình**. Đợt 16 cho thấy nó **vẫn còn chỗ**: bánh bèo Huế lách vào bằng bố cục "nhiều vật nhỏ trên một khay" mà chưa ai dùng.
+- Họ **"Ngọt & mát"** mới 9 hình nhưng **đã tiêu hết chín dáng vật đựng** — xem khung ở phần 1. Đây là họ nhỏ nhất mà lại sắp cạn đòn bẩy trước nhất.
 - Đợt 13 đã phải bịa chiêu mới tách nổi **7 nồi lẩu**. Tới **15 nồi lẩu** là cạn chiêu.
 - Viết nội dung thì tuyến tính — 17,8 KB/món, có khuôn sẵn. Vẽ hình thì không.
 
@@ -187,18 +196,25 @@ Chỗ đáng sửa lại **không** nằm trong bốn cảnh báo trên, mà ở
    > **Và nó đi kèm một cái giá phải biết trước:** món có hình khối lạ thì **rất dễ đọc ra ĐỒ VẬT** thay vì đồ ăn — đợt 15 dính bốn lần trong một đợt (cục gạch · vỏ bánh tart · chồng bát đĩa · cốc đong thí nghiệm). Thuốc giải luôn là một thứ: **cho thấy cấu tạo bên trong** (cắt một miếng ra, bẻ đôi, lộ mặt cắt) và **cho đường bao gồ ghề gợn hạt**. Xem phần 4.
    >
    > **Đòn bẩy còn lại cho đường tới 200: hình khối + vật đựng + động tác + ruột.** Bốn thứ, không phải ba — và ba đợt nữa vẫn chưa cạn.
-3. **Trục vùng miền — CÒN NGUYÊN, và giờ là việc lớn nhất.** Tây Bắc mới 4, Tây Nguyên 5 (đứng nguyên ba đợt liền), Miền Trung 16 và đã tụt xuống 14%. Ba đường vẫn như cũ: chấp nhận lệch và nói thẳng · nới luật *"mua được ở chợ thường"* · gộp Tây Bắc vào Miền Bắc như đã làm với Đông Bắc. **Đường thứ hai nay đã chạy trơn bốn lần** (cơm lam ở đợt 14; bánh đa đỏ, nếp nương, cá thát lát ở đợt 15) — coi như đã thành nếp, nhưng nó chỉ **nới**, không **giải** được bài toán: bốn lần đó mới đẻ ra đúng một món Tây Bắc. Chốt bây giờ vẫn rẻ hơn chốt ở 180.
+3. **Trục vùng miền — CÒN NGUYÊN, và sau đợt 16 thì nó thu lại thành đúng MỘT câu hỏi: TÂY NGUYÊN VÀ TÂY BẮC.** Miền Trung đã chữa xong ở đợt 16 (16 → 19, tỉ lệ quay đầu tăng), nên phần còn lại của bài toán chỉ là hai vùng cao: **Tây Nguyên 5 (đứng yên bốn đợt), Tây Bắc 4 (đứng yên hai đợt)**. Ba đường vẫn như cũ: chấp nhận lệch và nói thẳng · nới luật *"mua được ở chợ thường"* · gộp Tây Bắc vào Miền Bắc như đã làm với Đông Bắc.
+   > **Và đây là số liệu mới để quyết:** đường thứ hai (nới luật nguyên liệu) **đã chạy trơn bốn lần** — cơm lam ở đợt 14; bánh đa đỏ, nếp nương, cá thát lát ở đợt 15 — mà **tổng cộng chỉ đẻ ra đúng MỘT món Tây Bắc**. Đợt 16 đi tìm món Tây Nguyên thì vướng cả ba tầng cùng lúc: món nổi tiếng thì nguyên liệu không mua được ngoài vùng (muối kiến vàng, lá rừng, cà đắng), món mua được thì **đụng hình với `ga-nuong-mac-khen` và `bo-mot-nang` đã có**. **Kết luận: đường thứ hai đã hết tác dụng với hai vùng này.** Còn lại đường ① và ③, và cả hai đều là câu Thái phải chốt. Ở 200 món mà Tây Bắc vẫn 4–5 thì trục vùng miền thành nói dối — **chốt bây giờ vẫn rẻ hơn chốt ở 180**.
 
 > **Ba điều vẫn đúng khi chọn món:**
-> - **"Cả nước" đã hạ xuống 21%** — hai đợt liền chỉ nhận 0–1 món vào ô đó. Giữ nếp này.
-> - **Đợt sau nên nghiêng về MIỀN TRUNG và TÂY NGUYÊN**, hai chỗ đứng yên lâu nhất. Kho ý tưởng còn sẵn ba món Trung.
-> - **Kho ý tưởng đã cạn thật: còn 5 món tra sẵn** + món Tây đang hoãn + chả cá Hà Nội. **Phải có nguồn món mới trước khi ngồi chọn đợt 16** — đây giờ là việc chặn đường, không còn là lời nhắc.
+> - **"Cả nước" đã hạ xuống 20%** — ba đợt liền chỉ nhận 0–1 món vào ô đó. Giữ nếp này.
+> - **Đợt sau nên nghiêng về TÂY NGUYÊN và TÂY BẮC** — Miền Trung coi như đã chữa xong ở đợt 16. Nhưng đọc việc số 3 ngay trên trước đã: hai vùng đó đang bị chặn bởi cả nguyên liệu lẫn đụng hình, nên **có thể phải chốt hướng trước rồi mới chọn được món**.
+> - **Kho ý tưởng vẫn còn nguyên 5 món sau đợt 16** — vì 11 món của đợt 16 đều do Thái nêu, không lấy từ kho (bánh bèo Huế là món đề xuất mới để thay bò kho). **Vẫn phải có nguồn món mới trước khi ngồi chọn đợt 17.**
 
 > **Nếu chỉ làm một thứ:** ~~trang 404 + liên kết chéo~~ — đã làm 2026-07-30. Việc còn lại mà người đọc cảm nhận được liền thì hết; những gì còn trong danh sách đều là hạ tầng hoặc SEO, không ai nhìn thấy.
 
 ## Kho ý tưởng để dành — **chưa xếp vào đợt nào**
 
-> **Đợt 15 đã xong (2026-08-01) — KHÔNG CÓ ĐỢT 16 NÀO ĐƯỢC XẾP LỊCH.** Thái nêu 11 món, chốt lại **11 món** sau vòng hỏi (thay 1, thêm 1, hoãn 1). **Muốn làm tiếp phải ngồi chọn món với Thái trước, đừng tự mở đợt** — và lần này còn một lý do cứng hơn: **kho ý tưởng chỉ còn 5 món**.
+> **Đợt 16 đã xong (2026-08-01) — KHÔNG CÓ ĐỢT 17 NÀO ĐƯỢC XẾP LỊCH.** Thái nêu 11 món, chốt lại **11 món** sau vòng hỏi (1 món trùng phải thay, 3 câu xếp loại/đặt tên phải chốt). **Muốn làm tiếp phải ngồi chọn món với Thái trước, đừng tự mở đợt** — và lý do cứng vẫn còn đó: **kho ý tưởng chỉ còn 5 món**.
+>
+> **Đợt 16 gồm:** chè hạt sen long nhãn (Trung) · chè trôi nước (Nam) · mì xào giòn (Nam) · miến lươn Nghệ An (Trung) · kho quẹt (Tây) · mắm chưng (Tây) · chà bông thịt heo (Cả nước) · súp cua (Nam) · **bánh bèo Huế** (Trung) · bò nướng lá lốt (Nam) · chân giò nấu giả cầy (Bắc).
+>
+> ⭐ **LUẬT SOI TRÙNG VỪA CỨU MỘT BÀN THUA TRÔNG THẤY.** Thái nêu **bò kho** — mà `bo-kho.yaml` đã live từ lâu (Miền Nam · Kho · order 50). Bắt được ở bước 0, mất năm giây `ls`. Nếu bỏ qua bước đó thì đã tra món, viết 340 dòng YAML và vẽ xong một cái hình trước khi phát hiện. **Bò kho được thay bằng bánh bèo Huế** — Thái chọn, và nó vừa bù Miền Trung vừa mở được bố cục "nhiều vật nhỏ trên khay" chưa ai dùng.
+>
+> **Ba câu phải hỏi Thái trước khi viết, ghi lại vì đợt sau sẽ gặp lại dạng này:** ① **món không có kiểu món nào vừa** (súp cua — site chưa có nhóm "Súp", mà luật ≥3 thì một mình nó không mở nhóm được → Thái chốt xếp Món nước); ② **tên món đụng nghĩa với món đã có** ("ruốc" ở Trung/Nam là mắm ruốc, mà site đã có *Mắm ruốc xào thịt ba chỉ* → chốt gọi **"Chà bông thịt heo"**, và nhắc một câu "ngoài Bắc gọi là ruốc" trong FAQ cho người gõ tìm vẫn ra); ③ **món có nhiều bản vùng miền** (miến lươn Hà Nội hay Nghệ An → Thái chọn Nghệ An). **Cả ba đều là câu đổi hẳn việc phải làm, nên hỏi trước là đúng — đừng tự đoán.**
 >
 > **Cách "làm cả hai bản" vẫn rất được, đợt 15 dùng lại một lần:** **bánh chưng ↔ bánh tét** — cùng ruột (nếp · đậu xanh · ba chỉ), khác dáng, khác lá, khác vùng. Tra một lần dùng được hai, và tự nó thành bài so sánh Bắc–Nam. Trước đó đợt 14 làm bún ốc nóng ↔ nguội; đợt 13 làm ba cặp.
 >
@@ -323,6 +339,27 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Đạo cụ củ quả phải nằm NGỬA MẶT CẮT LÊN.** Củ khoai môn vẽ đứng nguyên củ thì ở 260px đọc thành hòn đá; bổ đôi đặt ngửa, lộ ruột, là nhận ra ngay. Và **ruột phải có màu rực** — thêm nửa củ khoai lang ruột cam bên cạnh thì cả cụm đạo cụ mới đọc được. Nhưng coi chừng: củ bổ đôi vẽ thành **hình bầu dục cân đối thì lại ra lát cam** — phải thuôn dài, hai đầu nhỏ dần và **không đầu nào giống đầu nào**. (đợt 13)
 - **Lá dứa, hành lá, rau thơm vẽ rời trên bàn thì đọc thành TRÁI ỚT.** Dính hai lần trong một hình ở đợt 13. Hai cách chữa: vẽ **dải dẹt có gân song song, nằm ngang** (ra lá), hoặc **đổi hẳn sang đạo cụ khác không thể nhầm** — chè đậu xanh bột báng cuối cùng thay bó lá dứa bằng **nửa gáo dừa**, vừa hết nhầm vừa nói luôn ra vị của nồi chè. (đợt 13)
 - **Món "nhúng" và món "cuốn" thì chữ ký nằm NGOÀI nồi, không nằm trong nồi.** Bảy nồi lẩu mà chỉ vẽ nồi thì tới nồi thứ tư là hết cách phân biệt. Thứ tách được chúng ra là vật đặt **cạnh** nồi: ổ bánh mì (Đà Lạt) · dĩa thịt thái lát sống (nhúng mẻ) · bếp cồn có ngọn lửa xanh (dê chao) · dĩa cuốn bánh tráng (nhúng giấm). (đợt 13)
+- **⭐⭐⭐ HỎNG HAI VÒNG LIÊN TIẾP THÌ DỪNG VẼ, ĐI TÌM GLYPH ĐÃ DUYỆT.** Miếng chân giò của giả cầy đi **bốn vòng** đều bị Thái trả: "mấy viên tròn có chấm trắng" → "cục thịt nạc đặc" → "cục màu trắng phía sau là gì thế". Vòng 5 mới làm đúng thứ ROADMAP đã dặn từ đợt 12: **`grep` xem site đã vẽ nguyên liệu đó đạt ở đâu chưa rồi chép nguyên glyph**. `ArtHeoQuay` vòng 3 có sẵn miếng thịt heo có bì Thái đã duyệt — **khối hộp ba mặt vẽ toàn bằng đoạn thẳng, mặt trước chia ba dải bì · mỡ · nạc**. Chép cấu trúc đó sang, chỉ đổi ruột (bì thui nhẵn bóng thay bì quay rỗ, dải giữa là gân ngả vàng thay mỡ trắng, phủ thêm lớp ánh vàng của nước nghệ) — **xong ngay trong một vòng**.
+  > **Con số đáng nhớ: 4 vòng vẽ mò = 1 vòng chép glyph.** Luật này đã có từ đợt 12 (ba ổ bánh mì) và đợt 14 (lát bò của cơm rang dưa bò, cũng sai ba vòng liên tiếp trong khi `ArtBoXaoThienLy` có sẵn bản duyệt). **Ba lần dính cùng một lỗi ⇒ nay nâng lên thành phản xạ bắt buộc: hình nào bị trả lại LẦN THỨ HAI thì việc kế tiếp KHÔNG PHẢI là vẽ lại, mà là đi tìm glyph cũ.**
+  > **Và cái giá phải trả khi chép:** hai hình sẽ giống nhau ở phần glyph. Tách chúng ra bằng thứ khác — giả cầy khác heo quay ở **vật đựng** (tô sành men xám vs dĩa trắng), **nền họ màu** (nâu vs đỏ), **nước sốt** (ngập nước vàng nghệ vs không có nước), và **tư thế miếng**: heo quay chặt ra thì xếp ngay ngắn, giả cầy là món HẦM nên miếng nằm xoay lệch lộn xộn. Cái cuối cùng vừa tách được hình vừa đúng thật. (đợt 16)
+- **⭐⭐ TRA MÀU THẬT CỦA MÓN TRƯỚC KHI TÔ, VÀ GHI HẲN BẢNG MÀU VÀO ĐẦU FILE ART.** Thái yêu cầu 2026-08-01 sau khi mắm chưng bị vẽ **nâu sậm** trong khi món thật **vàng óng bóng** — màu đó là lớp lòng đỏ trứng phết lên rồi hấp thêm, không phải màu mắm sống. Đây là lần thứ ba dính lỗi cùng loại (đợt 14: vịt luộc tô nâu đỏ, măng tô nâu). **Nay thành nếp bắt buộc: mỗi file art mở đầu bằng một khối `BẢNG MÀU THẬT (tra <ngày>)`** liệt kê từng thành phần và mã hex, kèm một câu vì sao nó có màu đó. Đã làm cho `ArtMamChung` · `ArtGiaCay` · `ArtMienLuon` · `ArtChaBong` · `ArtMiXaoGion`; **món sau cứ theo đó**. Lợi ích thật: đợt sau đọc file là biết ngay màu nào đã tra, khỏi suy từ "thịt thì nâu". (đợt 16)
+- **MÓN CÓ CHỮ "SỢI" THÌ PHẢI VẼ SỢI RỜI CÓ KHE HỞ, ĐỪNG VẼ KHỐI ĐẶC.** Ổ mì xào giòn hai vòng đầu vẽ bằng một path khối liền rồi kẻ nét sợi đè lên — Thái: *"món này các sợi tách ra rõ ràng chứ không phải 1 đống tròn vo quện lại 1 cục"*. Vòng 3 bỏ hẳn khối nền, vẽ **hai lớp nét lệch nhau để giữa các sợi hở ra nền dĩa**, đầu sợi thò ra lởm chởm dài ngắn khác nhau. **Luật "món ăn phải là MỘT KHỐI" (đợt 10) KHÔNG áp cho món dạng sợi rời** — nó nói về việc các miếng phải chồng mép, không bắt phải bịt kín thành đống. Cùng bài học đã dùng lại cho chà bông. (đợt 16)
+- **MIẾNG THỊT NGẮN + BO TRÒN = LÁT CHẢ / LÁT KHOAI.** Miếng lươn vòng 2 vẽ ngắn và bo tròn hai đầu, ở 260px đọc thành mấy lát tròn xếp chồng. Kéo dài gấp rưỡi và làm mảnh đi là ra ngay miếng lươn tước dọc thớ. Nối tiếp luật *"sợi thì phải DÀI"* của đợt 14, nhưng lần này áp cho **miếng thịt**, không riêng sợi rau. (đợt 16)
+- **VẬT ĐỰNG NẰM NGHIÊNG ĐỔ RA = TAI NẠN, KHÔNG PHẢI MÓN ĂN.** Chà bông vòng 1 vẽ hũ thuỷ tinh nằm nghiêng cho chà bông tràn ra — Thái: *"nhìn cảm giác như hũ đồ ăn bị rớt ra do tai nạn"*. Chữa: **hũ đứng thẳng**, phần dọn ra để trên **một cái dĩa riêng phía trước**. Đây là ranh giới thứ hai của đòn bẩy "đổi vật đựng": **đổi được kiểu vật đựng, nhưng vật đựng phải ở TƯ THẾ BÌNH THƯỜNG của nó.** (đợt 16)
+- **VẬT CHÍNH PHẢI TO HƠN ĐẠO CỤ — kể cả khi ngoài đời nó nhỏ hơn.** Kho quẹt vòng 1 vẽ đúng tỉ lệ thật (tộ bé xíu, dĩa rau to) — Thái: *"tộ kho quẹt phải bự hơn đống rau luộc nhiều chứ!"*. Vì tên món là *kho quẹt* chứ không phải *rau luộc*. Cùng luật với *"thứ mà món mang TÊN phải nhìn thấy ở cỡ thumbnail"* (đợt 11) và *"vẽ đúng tỉ lệ thật mà tỉ lệ thật quá nhỏ thì vẫn là vẽ sai"* (đợt 13). (đợt 16)
+- **CHI TIẾT NHIỀU TẦNG CẦN MIẾNG TO — nếu không thì thà bỏ tầng.** Miếng chân giò giả cầy có ba tầng phải đọc được (bì vàng bóng · mỡ kem · thịt nâu hồng). Vẽ ba miếng cỡ vừa thì cả ba tầng tụt xuống dưới 4–5px và cả miếng đọc thành **một viên tròn nâu**; vẽ **hai miếng to hẳn** thì ba tầng hiện rõ ngay. Đi cùng con số của đợt 15 (*texture dưới `rx` 9 coi như không vẽ*): **chi tiết dưới ~6px bề dày thì không tồn tại ở 260px** — hoặc phóng vật lên, hoặc bỏ chi tiết đó đi. (đợt 16)
+- **XƯƠNG / HẠT / LÕI NẰM TRONG LÒNG MIẾNG = CHẤM GIỮA = CÁI MẶT.** Giả cầy vòng 2 đặt mặt cắt xương trắng vào giữa khối thịt: ba miếng thành ba viên có mắt. Chữa đúng như luật đợt 11 — **cho xương thành một MẤU LÒI HẲN RA NGOÀI đường bao**, và vẽ theo dáng **khớp xương hai mấu** chứ không phải hình tròn. Anh em với bẫy hạt sen trong trái nhãn ở cùng đợt này, và với viên chè trôi nước dưới đây. (đợt 16)
+- **VIÊN TRẮNG + NHÂN TRÒN Ở GIỮA = QUẢ TRỨNG.** Chè trôi nước bổ đôi vòng 1 vẽ nhân đậu xanh thành khối tròn nằm giữa vành vỏ trắng — Thái: *"nhìn giống trứng gà quá"*. Chữa bằng luật đợt 11: **đẩy ruột LÊN TRÊN, chỉ chừa vỏ dày ở ĐÁY** thành "cái thuyền vỏ đỡ đống nhân", nhân là khối **vuông tròn góc** có mép trên gồ ghề và **chạm hẳn vào mép vỏ hai bên** — hết vành trắng bao quanh là hết trứng. (đợt 16)
+- **ĐỪNG KHOÁ MÓN VÀO MỘT DỤNG CỤ CỤ THỂ NẾU MÓN KHÔNG BẮT BUỘC.** Bánh bèo vòng 1 vẽ và viết hẳn *"thìa tre"* — Thái nhắc món này thìa nào cũng ăn được. Đã đổi hình sang thìa sứ thường và sửa chữ thành *"lách thìa một vòng"*, thìa tre chỉ còn là câu phụ. **Phép thử: chi tiết này có phải điều kiện để món thành công không? Không thì đừng đưa nó lên `title`/`summary`/hình.** (đợt 16)
+- **⭐ ĐỔI VẬT ĐỰNG THÌ ĐƯỢC — NHƯNG ĐƯỜNG BAO PHẢI CÒN CONG. Đây là chỗ đợt 16 tìm ra ranh giới của luật đợt 14.** Miến lươn bản 1 vẽ tô **thành thẳng đứng, miệng bằng thân** để cho khác hẳn 18 tô nông miệng loe của họ teal. Kết quả ở 260px: **không còn đọc ra cái tô nữa**, mà ra một đồ vật. Trả đường bao về dạng cong (vẫn sâu hơn tô phở) là ra ngay. **Luật rút gọn: đổi được tỉ lệ, đổi được độ sâu, đổi được chất liệu và màu men — nhưng cạnh thẳng và mặt phẳng lì là dấu hiệu của đồ vật, không phải của cái bát.** Cùng họ với cái giá của đòn bẩy hình khối ở đợt 15. (đợt 16)
+- **Vật đựng CÓ QUAI thì quai phải NHỎ và BÁM SÁT THÂN.** Súp cua bản 1 vẽ quai chữ C to vòng rộng cho thật khác 18 cái tô — cả cụm lập tức đọc ra **cái tách trà**. Thu quai lại còn 2/3 và kéo sát vào thân thì mới ra chén súp. Quai vẫn là đòn bẩy tốt (không tô nào trên site có quai), chỉ là **liều lượng quyết định nó là chén ăn hay là tách uống**. (đợt 16)
+- **MUỖNG / ĐŨA CẮM NGHIÊNG CHĨA LÊN = CÁI QUE.** Súp cua bản 1 cắm muỗng sứ nghiêng trong chén, ở 260px cán muỗng đọc thành một cái que hoặc cây kem. Hai cách chữa đều chạy: **gác ngang miệng chén**, hoặc **đặt hẳn xuống bàn làm đạo cụ**. So với đôi đũa đang gắp của bún mọc (đợt 14, đã duyệt) thì khác ở chỗ: đũa gắp có **vật đang được gắp** ở đầu nên đọc ra động tác, còn cán muỗng trơn thì không. **Muốn dùng động tác thì phải thấy thứ đang được gắp/múc.** (đợt 16)
+- **DĨA LÓT DƯỚI CHÉN: ĐỪNG.** Chè trôi nước bản 3 đặt chén trên một cái dĩa lót cho khác mấy hình chè kia. Ở 260px cái dĩa không thêm được thông tin nào về món, mà lại làm cả cụm đọc ra **"chén đặt lệch trên dĩa"** — mắt đi tìm xem chén có ngay ngắn không thay vì nhìn món. Bỏ dĩa, đổi sang **chén sâu có chân đế** là xong. **Phép thử chung: đạo cụ nào không nói được điều gì về MÓN thì nó chỉ là chỗ cho mắt vấp.** (đợt 16)
+- **ĐẦU SỢI CHĨA RA ĐỀU KHẮP ĐƯỜNG BAO = CON NHÍM.** Ổ mì xào giòn bản 1 cho đầu sợi mì chĩa ra tua tủa quanh cả vòm để tả cái giòn — ra đúng con nhím. Chữa: **chỉ cho nhô ra ở HAI MÉP, thưa, và dài ngắn khác nhau**; phần còn lại tả bằng **nét sợi dài chạy ngang chồng lớp**. Anh em với luật *"chấm rải đều = cái mặt"* (đợt 14/15): thứ gì rải **đều** quanh một hình đều biến nó thành con vật. (đợt 16)
+- **VỆT SỐT NHỎ GIỌT XUỐNG DƯỚI ĐÁY KHỐI = CÁI CHÂN.** Cùng hình mì xào giòn, bản 2 vẽ ba vệt sốt chảy nhỏ giọt xuống chân ổ mì cho ra vẻ sánh — ba vệt đó thành ba cái chân, cả ổ đọc ra một con vật có mai. Chữa: **bỏ hết vệt nhỏ giọt**, và cho mảng sốt **lệch hẳn sang một bên** thay vì phủ tròn giữa. **Sốt tả bằng mép gồ ghề và vệt bóng, đừng tả bằng giọt chảy.** (đợt 16)
+- **LUẬT "MỘT KHỐI" ÁP CHO CẢ ĐẠO CỤ, KHÔNG RIÊNG MÓN CHÍNH.** Kho quẹt bản 1 rải từng lát rau củ luộc cách nhau quanh dĩa — ở 260px đọc thành **"mấy lát rau bay lơ lửng trên một cái dĩa trống"**, đúng lỗi đợt 10 nhưng lần này nằm ở phần đạo cụ. Chữa y hệt: **vẽ một path khối liền làm nền đống trước, rồi mới đắp từng lát lên, lát nào cũng chồng mép lát khác.** Với món mà đạo cụ mới là thứ chiếm khung (kho quẹt: tộ bé, rau nhiều) thì đây là lỗi chí mạng. (đợt 16)
+- **Ly/tô có CHÂN ĐẾ CAO trong họ chè = LY RƯỢU — dính lần thứ hai.** Chè hạt sen long nhãn bản 1 vẽ tô thủy tinh có chân, y như ly chè đậu đỏ ở đợt 13. Chữa cùng một cách: **bỏ chân, hạ chiều cao, nới bề ngang, đặt hẳn xuống mặt bàn**. Ghi lại lần thứ hai vì rõ ràng luật cũ chưa đủ mạnh: **trong họ tím, hễ định vẽ chân đế là dừng lại.** (đợt 16)
+- **VẬT TRONG MỜ LỒNG VẬT ĐỤC: hạt bên trong phải NHỎ và LỆCH HẲN.** Trái nhãn trong mờ có hạt sen bên trong là chữ ký của chè hạt sen long nhãn, nhưng hai bản đầu đều đọc ra **quả trứng luộc** — vì hạt vẽ to và nằm gần tâm, thành đúng "vòng tròn + chấm giữa" (luật đợt 12/15). Chữa bằng cách vẽ **đúng thật hơn**: người ta đẩy hạt sen vào qua **lỗ khoét ở cuống**, nên hạt nằm **lệch hẳn xuống một phía và ló một phần ra khỏi lỗ**, lại còn nhỏ hơn trái nhãn nhiều. Thêm mấy **hạt sen rời** nổi quanh để phá cái lưới toàn hình tròn đều nhau. (đợt 16)
 - **⭐ Đổi VẬT ĐỰNG thì được. Đổi CHỖ ĐỨNG CỦA NGƯỜI XEM thì KHÔNG.** Đây là bài học lớn nhất của đợt 14, và nó bác một nửa cái kế hoạch mà chính phần 2 đã kê ra. Họ teal đã cạn cách phân biệt bằng ruột, nên đợt 14 thử **bốn** khung hình mới cùng lúc. Kết quả Thái duyệt:
   - **Đổi vật đựng — ĐẬU HẾT:** chảo gang đen (cơm rang) · ống nứa nằm ngang (cơm lam) · một miếng tròn không vật đựng (cơm cháy) · hũ thuỷ tinh có nắp (cơm rượu) · bát sành nâu (bún ốc nguội).
   - **Đổi động tác — ĐẬU:** đôi đũa đang gắp viên mọc lên (bún mọc).
@@ -347,6 +384,8 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
   > **Cách đo ĐÚNG luật, rút ra ở đợt 13:** gộp `curl` đo dung lượng vào **cùng loạt curl kiểm production sau khi deploy** (kiểm trang 200, kiểm chip lọc, kiểm số món…). Làm vậy thì phép đo gần như miễn phí và **không đẻ ra chuyến đi riêng nào** — chỗ sinh ra thói quen 2-commit chính là coi việc đo như một việc tách rời.
 - **Phân vân giữa các phương án giao diện thì dựng harness iframe rồi đo `getBoundingClientRect()`**, đừng bàn cảm tính.
 - **Contact sheet không đủ để soi hình** — phải render PNG ghép ở cỡ thumbnail (`npm run art-png -- --sheet`). Đợt 7, 8, 9, 10 đều có lỗi lọt qua contact sheet.
+- **⭐ `icon: plate` KHÔNG TỒN TẠI TRONG SPRITE — 7 món cũ đang render icon RỖNG.** `_template.yaml` liệt kê `plate` trong danh sách icon có sẵn, nhưng `Sprite.astro` **không có `ic-plate`**, mà `Icon.astro` thì cứ xuất `<use href="#ic-plate"/>` nên trình duyệt vẽ ra khoảng trắng. `npm run qa` không bắt (nó chỉ soi id hình, không soi id icon). Dính ở: `bun-oc-nguoi` · `ca-tim-nuong-mo-hanh` · `chao-luon-nghe-an` · `com-lam` · `xoi-ngu-sac` · `xoi-gac` · `suon-xao-chua-ngot`. **Đợt 16 đã tránh (đổi sang `bowl`/`basket`/`roll`), 7 món cũ thì CHƯA SỬA** — việc nhỏ, một dòng mỗi món. Hai cách chữa: sửa 7 món, hoặc thêm hẳn `ic-plate` vào sprite (đúng hơn, vì cái tên đó hợp lý). **Và nên thêm một phép kiểm icon vào `qa` cho khỏi tái diễn.** (đợt 16)
+- **Render thử NGAY SAU NHÓM HÌNH ĐẦU TIÊN — đợt 16 đo được cái giá của việc này.** Nhóm 5 hình đầu (mắm chưng, súp cua, miến lươn, chè trôi nước, chè sen) phải đi **4 vòng** mới xong, vì mấy lỗi hệ thống (thành thẳng đứng, chân đế cao, cụm quá nhỏ so với khung) chỉ lộ ra khi render. Nhóm 6 hình sau, vẽ với mấy bài học đó trong đầu, chỉ mất **2 vòng**. Nếu vẽ hết 11 rồi mới soi thì cùng ngần ấy lỗi sẽ lặp lại ở cả 11. (đợt 16, xác nhận lại luật đợt 13)
 - **Render thử NGAY SAU NHÓM HÌNH ĐẦU TIÊN, đừng vẽ hết rồi mới soi.** Đợt 13 vẽ 5 món chè rồi render liền: **4/5 sai** — trái bưởi đọc thành quả bơ có hột, củ khoai môn thành hòn đá, nồi chè quá nhạt thành bát cháo yến mạch, ly chè đậu đỏ thành ly champagne. Sửa xong mới vẽ tiếp 8 hình còn lại, và 8 hình đó chỉ còn **1 lỗi**. Vẽ hết 13 rồi mới soi thì cùng ngần ấy lỗi hệ thống sẽ lặp lại ở cả 13. (đợt 13)
 - **Tiền tố id hai chữ cái là ĐỤNG, không phải có thể đụng.** Đợt 13 dính **5 lần trong một đợt**: `bb` đụng `ArtBunBo`, `bd` đụng `ArtCanhBiDo`, `cc` đụng `ArtCanhCua`. Với 99 file hình thì hai chữ cái đã hết chỗ — **đặt tiền tố 3 chữ trở lên**. `npm run qa` bắt hết cả 5 nên không có gì lọt ra, nhưng biết trước thì đỡ một vòng sửa. (đợt 13)
 - **File `.svg` rời đọc bằng XML nghiêm** — chú thích cấm chứa `--`, cấm `&` trần. Endpoint tự bỏ chú thích; `qa` chặn hai lỗi kia. **Tool soi phải đọc đúng thứ endpoint xuất ra.**

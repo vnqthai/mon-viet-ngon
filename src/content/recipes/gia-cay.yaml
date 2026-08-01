@@ -1,0 +1,383 @@
+title: Chân giò nấu giả cầy **bì vàng săn, nước sánh vàng nghệ**
+summary: >-
+  Chân giò thui cho lớp bì ngả vàng nâu, chặt khúc rồi ướp riềng giã, nghệ,
+  mắm tôm và mẻ, nấu tới khi **thịt mềm mà bì vẫn săn giòn**. Nước kho sánh
+  vàng nghệ, chua dịu ở hậu vị — chan bún hay ăn với cơm đều hết veo.
+region: Miền Bắc
+category: Kho
+occasions: [Cơm nhà, Nhậu lai rai]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 45 phút
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 126
+art: gia-cay
+heroEyebrow: Bộ gia vị làm nên cái tên…
+
+quick:
+  ingredients:
+    - Chân giò heo [[1.2|kg]] — lấy phần móng và bắp, còn nguyên bì
+    - Riềng [[100|g]] — củ già, giã nhuyễn · nghệ tươi [[1|củ]]
+    - Mẻ [[3|muỗng canh]] — cơm nguội ủ lên men, lọc lấy nước
+    - Mắm tôm [[1.5|muỗng canh|frac]] · nước mắm · đường · rượu trắng
+  steps:
+    - "**Thui chân giò** bằng đèn khò hoặc bọc giấy đốt, tới khi bì ngả **vàng nâu sậm**."
+    - Cạo sạch phần cháy, rửa lại, chặt khúc chừng [[4|cm]] còn nguyên bì.
+    - Giã riềng và nghệ cho nhuyễn; lọc mẻ qua rây lấy nước, **bỏ bã**.
+    - Ướp thịt với riềng, nghệ, mắm tôm, nước mẻ, chút rượu trắng và đường — **1 tiếng**.
+    - Xào thịt trên lửa lớn **7–8 phút** cho săn mặt và dậy mùi riềng.
+    - Chế nước xâm xấp, đun sôi rồi **hạ liu riu 50–60 phút** tới khi thịt mềm.
+    - Mở vung đun cạn cho **nước sánh lại bám vào miếng thịt**, nêm lần cuối.
+    - Rắc lá mơ hoặc rau răm thái nhỏ, dọn nóng với bún hoặc cơm.
+  warning: >-
+    Đổ mẻ nguyên cả bã vào nồi là nước kho **lợn cợn và chua gắt**. Hoà mẻ với
+    chút nước, lọc qua rây, chỉ lấy phần nước — và nêm từng chút một, nếm rồi
+    mới thêm.
+
+flavor:
+  chua: 4
+  ngot: 3
+  man: 7
+  cay: 3
+  thom: 9
+flavorNote: >-
+  **Chuẩn nồi giả cầy:** nước kho **sánh, màu vàng nghệ đậm, bám vào miếng
+  thịt** chứ không loang lỏng. Miếng chân giò **thịt mềm rời xương mà lớp bì
+  vẫn săn, cắn có độ giòn sựt**. Mùi riềng nổi lên trước, cái chua của mẻ đến
+  sau cùng ở hậu vị.
+storyEyebrow: Chuyện nồi giả cầy
+storyTitle: "Cái tên nói đúng: **giả theo một lối nấu cũ**"
+story:
+  - >-
+    Giả cầy là món của bếp Bắc, và tên món nói thẳng ra cách làm: nấu **giả**
+    theo lối một món cỗ cũ ở làng quê — mượn nguyên bộ gia vị đặc trưng
+    **riềng · mẻ · mắm tôm**, nhưng nguyên liệu thì là chân giò heo. Bộ ba gia
+    vị ấy mạnh tới mức nó định hình cả món, và đó là lý do cái tên ở lại.
+  - >-
+    Ba thứ đó mỗi thứ làm một việc. **Riềng** — củ trông giống gừng nhưng xơ
+    hơn, thơm hắc và cay ấm — là mùi chủ đạo, giã nhuyễn ướp thẳng vào thịt.
+    **Mẻ** là cơm nguội ủ lên men, chua dịu và thơm mùi men gạo, cho cái chua
+    đến ở hậu vị chứ không sắc như chanh hay giấm. **Mắm tôm** lo phần đậm và
+    dày cho nước kho.
+  - >-
+    Chỗ làm nên miếng giả cầy ngon nằm ở bước đầu tiên: **thui lớp bì**. Bì
+    được hơ lửa cho ngả vàng nâu sẽ săn lại và giữ được độ giòn sựt suốt cả
+    tiếng ninh — trong khi phần thịt bên trong đã mềm rời xương. Bỏ bước này
+    thì miếng chân giò ninh xong bì nhũn và nhạt màu.
+
+ingredientGroups:
+  - name: Chân giò
+    icon: meat
+    items:
+      - id: changio
+        name: Chân giò heo
+        icon: meat
+        color: red
+        base: 1.2
+        unit: kg
+        note: >-
+          Lấy **phần móng và bắp trước**, nhiều gân và bì. Nhờ hàng thịt chặt
+          khúc [[4|cm]] sẵn cho đỡ vất vả, nhưng dặn **để nguyên bì**
+      - id: ruoutrang
+        name: Rượu trắng
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        note: Chà lên thịt sau khi thui rồi rửa lại — khử mùi và làm sạch phần cháy
+  - name: Bộ ba gia vị
+    icon: ginger
+    items:
+      - id: rieng
+        name: Riềng tươi
+        icon: ginger
+        color: gold
+        base: 100
+        unit: g
+        note: >-
+          Chọn **củ già, vỏ sẫm, cắt ra thấy vân xơ rõ** — riềng non thơm nhạt.
+          Giã nhuyễn trong cối, đừng xay máy (xay ra bã lợn cợn)
+      - id: me
+        name: Mẻ
+        icon: jar
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Cơm nguội ủ lên men, bán ở hàng gia vị ngoài chợ. Hoà với nước rồi
+          **lọc qua rây lấy nước, bỏ bã**
+      - id: mamtom
+        name: Mắm tôm
+        icon: bottle
+        base: 1.5
+        unit: muỗng canh
+        frac: true
+        note: >-
+          Nêm từng chút một và nếm — mỗi hũ một độ mặn. Nhà không quen mùi thì
+          giảm còn [[1|muỗng canh]] và bù bằng nước mắm
+      - id: nghe
+        name: Nghệ tươi
+        icon: ginger
+        color: gold
+        base: 1
+        unit: củ
+        note: >-
+          Giã cùng riềng. Cho màu vàng và mùi ấm; bột nghệ thay được nhưng màu
+          ngả sậm hơn
+  - name: Nêm & rau
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Nêm ở cuối, sau khi đã nếm nước kho
+      - id: duong
+        name: Đường
+        icon: jar
+        base: 1
+        unit: muỗng canh
+        note: Kéo cái chua của mẻ và cái mặn của mắm tôm lại cho cân
+      - id: hanhkho
+        name: Hành khô
+        icon: onion
+        base: 4
+        unit: củ
+        note: Băm nhỏ, phi thơm trước khi xào thịt
+      - id: lamo
+        name: Lá mơ (hoặc rau răm)
+        icon: herb
+        color: green
+        qtyText: Một nắm
+        note: >-
+          Thái nhỏ rắc lúc dọn. Lá mơ là thứ đi đúng nhất với món này; không có
+          thì rau răm hoặc tía tô
+      - id: hanhla
+        name: Hành lá
+        icon: stem
+        color: green
+        base: 3
+        unit: nhánh
+        note: Cắt khúc, thả vào nồi lúc sắp tắt bếp
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **nồi giả cầy bì săn, nước sánh**
+stepsLead: >-
+  Chỉ có bước thui là hơi lạ tay; còn lại là ướp, xào, rồi để nồi liu riu một
+  tiếng. Ướp được lâu chừng nào thì miếng thịt đậm chừng đó.
+steps:
+  - title: Thui bì cho ngả vàng nâu
+    icon: flame
+    minutes: 12 phút
+    intro: "Bước làm nên lớp bì săn giòn — đừng bỏ:"
+    bullets:
+      - label: "Có đèn khò:"
+        text: >-
+          Khò đều khắp mặt bì tới khi **ngả vàng nâu sậm và dậy mùi thơm**.
+          Chỗ nào còn lông thì khò kỹ hơn.
+      - label: "Không có đèn khò:"
+        text: >-
+          **Bọc chân giò trong giấy** rồi đốt, hoặc hơ thẳng trên bếp gas bằng
+          kẹp gắp. Trở đều tay cho vàng khắp.
+      - text: >-
+          Thui xong **cạo sạch phần cháy đen** bằng dao, rửa lại nước sạch, chà
+          rượu trắng rồi rửa lần nữa.
+      - text: >-
+          Chặt khúc chừng [[4|cm]], mỗi khúc **còn nguyên mảng bì**. Để ráo.
+    callout:
+      type: tip
+      text: >-
+        Nhờ hàng thịt thui sẵn là nhanh nhất — nhiều quầy có sẵn đèn khò và
+        làm giúp trong hai phút. Cứ dặn **"thui vàng bì, chặt khúc, để nguyên
+        bì"** là được.
+  - title: Ướp — và ướp cho đủ giờ
+    icon: jar
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Giã riềng và nghệ trong cối cho **thật nhuyễn**. Riềng giã tay ra mùi
+          đậm hơn hẳn xay máy.
+      - label: "Lọc mẻ:"
+        text: >-
+          Hoà [[3|muỗng canh]] mẻ với chừng [[4|muỗng canh]] nước, **lọc qua
+          rây**, giữ nước và bỏ bã.
+      - text: >-
+          Trộn thịt với riềng nghệ giã, nước mẻ, mắm tôm, [[1|muỗng canh]]
+          đường, chút rượu trắng và hành khô băm. Bóp đều cho gia vị bám khắp
+          mặt thịt.
+      - text: >-
+          Ướp **ít nhất 1 tiếng**, để qua đêm trong ngăn mát là ngon nhất.
+    callout:
+      type: warn
+      text: >-
+        Mắm tôm và mẻ đều rất khác nhau giữa các hũ. **Nêm nhẹ tay ở bước
+        này**, chừa chỗ để nêm lại ở cuối — thừa mặn hay thừa chua thì không
+        rút ra được nữa.
+  - title: Xào cho săn mặt
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Phi thơm phần hành khô còn lại với chút dầu, trút thịt đã ướp vào,
+          để **lửa lớn**.
+      - text: >-
+          Đảo **7–8 phút** tới khi mặt thịt săn lại, lớp bì hơi trong và cả
+          bếp dậy mùi riềng.
+      - text: >-
+          Bước này làm gia vị bám chặt vào thịt thay vì tan hết ra nước. Bỏ
+          qua thì nồi kho nhạt và thịt bở.
+  - title: Ninh liu riu rồi đun cạn
+    icon: pot
+    minutes: 60 phút
+    bullets:
+      - text: >-
+          Chế nước sôi vào **xâm xấp mặt thịt** — đừng ngập nhiều, món này
+          không phải canh.
+      - text: >-
+          Đun sôi, hớt bọt, rồi **hạ lửa liu riu, đậy vung, ninh 50–60 phút**.
+          Thử bằng đũa: xiên vào phần thịt thấy vào ngọt là được.
+      - label: "Đun cạn:"
+        text: >-
+          Mở vung, tăng lửa vừa, đun tiếp **10 phút** cho nước rút xuống và
+          **sánh lại bám vào miếng thịt**. Đảo nhẹ tay kẻo nát.
+      - text: >-
+          Nếm lần cuối: thiếu mặn thì thêm nước mắm, thiếu chua thì thêm chút
+          nước mẻ, thiếu đậm thì một chút mắm tôm nữa.
+    callout:
+      type: warn
+      text: >-
+        Ninh quá tay là **bì nhũn ra và tan vào nước**, mất hẳn cái giòn sựt —
+        chính là thứ làm nên món. Bắt đầu thử từ phút thứ 45, và dừng ngay khi
+        thịt vừa mềm.
+    timer:
+      secs: 3000
+      label: Hẹn giờ ninh · 50:00
+      doneMsg: Xiên đũa thử — vào ngọt là mở vung đun cạn cho sánh!
+  - title: Rắc lá và dọn
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Thả hành lá cắt khúc vào, đảo một vòng rồi tắt bếp.
+      - text: >-
+          Múc ra tô sâu lòng, **rắc lá mơ hoặc rau răm thái nhỏ** lên mặt.
+      - text: >-
+          Dọn nóng. Ăn với cơm trắng, hoặc chan lên tô bún — cả hai đều đúng.
+    doneText: Cắn miếng bì — săn giòn, thịt mềm rời xương. Xong!
+
+tipsTitle: 6 bí quyết cho **bì săn giòn, nước không gắt**
+tipsLead: >-
+  Giả cầy hỏng theo bốn kiểu: bì nhũn, nước loãng, chua gắt, và mùi mắm tôm
+  nồng quá. Sáu điều dưới đây chặn hết.
+tips:
+  - icon: flame
+    title: Thui bì là bước không bỏ được
+    text: >-
+      Đây là chỗ tách nồi giả cầy khỏi một nồi chân giò kho thường. Lớp bì
+      được hơ lửa sẽ săn lại, giữ được độ giòn sựt suốt cả tiếng ninh, và có
+      màu vàng nâu đẹp. Không thui thì bì nhũn và nhợt.
+  - icon: ginger
+    title: Riềng phải giã tay, và phải là củ già
+    text: >-
+      Riềng già nhiều xơ, thơm hắc và cay ấm; riềng non thì nhạt. Giã cối cho
+      ra cả sợi lẫn nước cốt, còn xay máy thì ra bã đều và mùi kém hẳn. Đây là
+      mùi chủ đạo của món, đừng làm tắt.
+  - icon: drop
+    title: Lọc mẻ, và nêm từng chút một
+    text: >-
+      Bã mẻ làm nước kho lợn cợn, còn mẻ nêm quá tay thì chua gắt và không rút
+      ra được. Lọc lấy nước, nêm nửa lượng trước, ninh xong nếm rồi mới thêm
+      nếu cần.
+  - icon: clock
+    title: Thử từ phút 45, đừng ninh cho đủ giờ
+    text: >-
+      Chân giò mỗi miếng một cỡ. Xiên đũa thử từ phút thứ 45 và dừng ngay khi
+      thấy vào ngọt — thêm mười phút nữa là bì bắt đầu nhũn.
+  - icon: pot
+    title: Nước xâm xấp, rồi đun cạn cho sánh
+    text: >-
+      Chế nhiều nước là nồi giả cầy thành nồi canh, gia vị loãng ra và không
+      bám vào thịt. Xâm xấp mặt thịt lúc đầu, rồi mở vung đun cạn ở cuối cho
+      nước sánh lại.
+  - icon: herb
+    title: Lá mơ rắc lúc dọn, đừng nấu chung
+    text: >-
+      Lá mơ thả vào nồi đang sôi là úa đen và mất mùi. Thái nhỏ rắc lên mặt
+      tô lúc bưng ra — mùi lá gặp hơi nóng bốc lên là đúng lúc.
+
+serve:
+  title: Nồi giả cầy — **với cơm, hoặc chan lên bún**
+  paras:
+    - >-
+      Hai cách ăn đều quen. Ăn với **cơm trắng** thì múc ra tô, gắp miếng chân
+      giò và chan chút nước kho sánh lên cơm. Ăn với **bún** thì chan nhiều
+      nước hơn, thêm rau sống — kiểu này hợp bữa trưa hoặc bàn nhậu.
+    - >-
+      Món này để qua đêm còn đậm hơn, vì gia vị tiếp tục ngấm vào thớ thịt.
+      Hôm sau hâm lại liu riu chừng mười phút là được; chỉ cần chế thêm chút
+      nước vì nước kho nguội sẽ đông lại.
+  aside:
+    title: Mâm gợi ý
+    intro: "Ba thứ dọn cùng cho tròn bữa:"
+    items:
+      - icon: herb
+        text: "**Dĩa lá mơ và rau răm** — thứ rau đi đúng nhất với riềng mẻ."
+      - icon: noodle
+        text: "**Bún tươi** — nếu ăn kiểu chan, để ráo và xếp thành vắt nhỏ."
+      - icon: bowl
+        text: "**Bát canh rau nhạt** — để cân lại vị đậm của nồi kho."
+
+faq:
+  - q: Không mua được mẻ thì thay bằng gì?
+    a: >-
+      Mẻ bán ở hàng gia vị trong chợ, thường đựng hũ nhỏ. Không có thì
+      **sữa chua không đường** là thứ thay gần nhất về kiểu chua (chua dịu, có
+      men) — dùng [[3|muỗng canh]] và nêm ở cuối, sau khi thịt đã mềm. Giấm
+      gạo hay chanh cũng chua được nhưng **chua sắc và đến ngay ở đầu lưỡi**,
+      khác hẳn cái chua hậu vị của mẻ — nói thẳng là dùng thứ đó thì không còn
+      đúng bản gốc.
+  - q: Nhà không ăn được mắm tôm?
+    a: >-
+      Giảm xuống [[0.5|muỗng canh|frac]] và bù bằng [[2|muỗng canh]] nước mắm
+      ngon. Nồi vẫn đậm và vẫn ra vị giả cầy, chỉ hiền hơn. Bỏ hẳn mắm tôm thì
+      nước kho mỏng vị, nên giữ lại ít nhất một chút. Mùi mắm tôm bay gần hết
+      sau khi ninh — thứ nồng là lúc mới ướp.
+  - q: Bì bị nhũn, không còn giòn?
+    a: >-
+      Hai nguyên nhân: **không thui** hoặc **ninh quá lâu**. Thui làm lớp bì
+      săn lại và chịu được nhiệt lâu; ninh quá thì collagen trong bì tan ra
+      nước. Lần sau thui kỹ hơn và bắt đầu thử độ mềm từ phút thứ 45.
+  - q: Nấu bằng nồi áp suất được không?
+    a: >-
+      Được, và tiết kiệm hẳn nửa tiếng — nhưng phải cẩn thận vì rất dễ quá
+      tay. Xào săn như thường, chế nước xâm xấp, nấu **15 phút kể từ lúc lên
+      áp**, xả áp tự nhiên. Rồi **mở nắp đun cạn ngoài bếp** cho nước sánh.
+      Nếu thấy bì đã hơi mềm thì lần sau rút xuống 12 phút.
+  - q: Dùng thịt gì khác ngoài chân giò?
+    a: >-
+      **Ba chỉ có bì** hoặc **thịt vai còn bì** đều nấu được, thời gian ninh
+      rút xuống còn 35–40 phút. Nhưng chân giò vẫn hợp nhất vì có đủ ba thứ:
+      bì giòn, gân trong, và thịt bám xương. **Vịt nấu giả cầy** cũng là một
+      bản quen ở miền Bắc, dùng đúng bộ gia vị này.
+  - q: Để dành được mấy ngày?
+    a: >-
+      Ngăn mát **3–4 ngày**, và ngày thứ hai thường ngon hơn ngày đầu. Hâm
+      liu riu với chút nước cho nước kho loãng trở lại. Cấp đông được **1
+      tháng**, nhưng bì sau khi rã đông sẽ mềm hơn — chấp nhận đánh đổi đó thì
+      cứ đông.
+
+ticker:
+  - icon: flame
+    text: Thui bì cho ngả vàng nâu
+  - icon: ginger
+    text: Riềng già giã tay, không xay máy
+  - icon: drop
+    text: Lọc mẻ lấy nước, bỏ bã
+  - icon: clock
+    text: Thử từ phút 45, đừng ninh cho đủ giờ
+  - icon: pot
+    text: Đun cạn cho nước sánh bám thịt
+  - icon: herb
+    text: Rắc lá mơ lúc bưng ra

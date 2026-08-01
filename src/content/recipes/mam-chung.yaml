@@ -1,0 +1,372 @@
+title: Mắm chưng thịt trứng **mặt nâu sậm, xắn muỗng là hao cơm**
+summary: >-
+  Mắm cá đồng nấu rã ra rồi trộn với thịt băm và trứng, hấp cách thủy tới khi
+  **đông lại thành một khối nâu sậm lấm tấm thịt**. Mặt phủ lát ớt và gừng
+  sợi, xắn một muỗng ăn kèm dưa leo với cơm nóng là hết chén lúc nào không hay.
+region: Miền Tây
+category: Hấp
+occasions: [Cơm nhà]
+pubDate: 2026-08-01
+time:
+  total: 55 phút
+  active: 20 phút
+servingsBase: 4
+difficulty: Dễ
+featured: false
+order: 121
+art: mam-chung
+heroEyebrow: Chén mắm của mùa nước nổi…
+
+quick:
+  ingredients:
+    - Mắm cá linh hoặc cá sặc [[150|g]] — mắm cá đồng ủ muối, mua ở hàng mắm
+    - Thịt nạc dăm băm [[250|g]] · trứng vịt [[3|quả]] (chừa 1 lòng đỏ để phết mặt)
+    - Hành tím [[4|củ]] · gừng [[1|nhánh]] · ớt [[3|trái]] · tiêu · đường
+    - Dưa leo · rau thơm · cơm trắng để ăn kèm
+  steps:
+    - Nấu mắm với [[150|ml]] nước, lửa nhỏ **10–15 phút** tới khi thịt cá rã hết.
+    - Lọc qua rây, **bỏ xương và da**, chỉ giữ phần nước mắm cá sệt.
+    - Trộn nước mắm cá với thịt băm, trứng đánh tan, hành tím băm, tiêu và chút đường.
+    - Đổ vào tô sâu lòng, dàn phẳng mặt, **hấp cách thủy 25–30 phút**.
+    - Cứ **5 phút mở nắp lau hơi nước** một lần, không thì mặt rỗ và chảy nước.
+    - Phết lòng đỏ trứng lên mặt, hấp thêm **5 phút** cho mặt vàng bóng.
+    - Rắc gừng thái sợi và ớt thái lát, dọn nóng với cơm và dưa leo.
+  warning: >-
+    Đừng bỏ qua bước lọc. Mắm cá còn nguyên xương dăm và mảnh da thì cả tô ăn
+    vướng, mà xương mắm thì nhỏ và mềm nên nhai không phát hiện ra được cho tới
+    lúc mắc ở cổ.
+
+flavor:
+  chua: 0.5
+  ngot: 3
+  man: 8
+  cay: 4
+  thom: 8
+flavorNote: >-
+  **Chuẩn tô mắm chưng:** khối mắm **đông chắc, xắn ra thành miếng giữ dáng**
+  chứ không lỏng cũng không khô xác. Mặt nâu sậm bóng, cắt ra thấy **lấm tấm
+  thịt băm và vân trứng**. Mặn đậm, dậy mùi mắm rõ ràng, hậu ngọt từ thịt.
+storyEyebrow: Chuyện tô mắm chưng
+storyTitle: Hũ mắm để dành, và **cách dễ nhất để bắt đầu với nó**
+story:
+  - >-
+    Ở miền Tây, mùa nước nổi cá về nhiều tới mức ăn không hết, nên người ta ủ
+    muối thành mắm để dành ăn quanh năm. **Mắm cá linh** và **mắm cá sặc** là
+    hai loại quen nhất — cá đồng nhỏ, ủ với muối và thính gạo cho tới khi thịt
+    cá mềm rục và dậy mùi.
+  - >-
+    Mắm chưng là cách nấu hiền nhất với hũ mắm đó. Mắm được nấu cho rã ra, lọc
+    bỏ xương, rồi trộn cùng thịt băm và trứng đem hấp. Thịt và trứng **kéo cái
+    mặn xuống và làm mềm mùi mắm lại**, nên tô mắm chưng đậm đà mà không gắt
+    — người chưa quen ăn mắm thường bắt đầu từ món này.
+  - >-
+    Nấu thì dễ, gần như không có kỹ thuật gì: trộn rồi hấp. Chỗ duy nhất phải
+    để tâm là **lau hơi nước đọng ở nắp** trong lúc hấp, vì một giọt nước rơi
+    xuống là mặt tô rỗ và loang.
+
+ingredientGroups:
+  - name: Mắm
+    icon: fish
+    items:
+      - id: mamca
+        name: Mắm cá linh (hoặc mắm cá sặc)
+        icon: fish
+        color: amber
+        base: 150
+        unit: g
+        note: >-
+          Mua ở hàng mắm hoặc siêu thị lớn. Chọn loại **con còn nguyên hình,
+          màu nâu đỏ, nước mắm trong hũ không đục**. Mắm cá lóc cũng dùng
+          được, vị đậm hơn
+      - id: nuocnaumam
+        name: Nước lọc (để nấu mắm)
+        icon: drop
+        base: 150
+        unit: ml
+        note: Vừa đủ để mắm rã ra; nhiều quá thì tô mắm chưng không đông chắc
+  - name: Thịt & trứng
+    icon: meat
+    items:
+      - id: thitbam
+        name: Thịt nạc dăm băm
+        icon: meat
+        color: red
+        base: 250
+        unit: g
+        note: >-
+          Nạc dăm hoặc vai — có chút mỡ thì tô mắm mềm và bóng. Nạc thăn hoàn
+          toàn thì khô
+      - id: trung
+        name: Trứng vịt
+        icon: egg
+        base: 3
+        unit: quả
+        note: >-
+          Trứng vịt cho khối chắc và màu đậm hơn trứng gà. Chừa lại **một lòng
+          đỏ** để phết mặt ở cuối
+      - id: bunmien
+        name: Miến (hoặc bún tàu)
+        icon: noodle
+        base: 30
+        unit: g
+        note: >-
+          Ngâm mềm rồi cắt khúc ngắn, trộn vào cho tô mắm đỡ nặng. Tuỳ thích,
+          bỏ cũng được
+  - name: Thơm & cay
+    icon: onion
+    items:
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        base: 4
+        unit: củ
+        note: Băm nhỏ, trộn sống vào hỗn hợp — hấp lên là vừa chín và thơm
+      - id: gung
+        name: Gừng tươi
+        icon: ginger
+        color: gold
+        base: 1
+        unit: nhánh
+        note: >-
+          Một nửa băm nhỏ trộn vào, một nửa thái sợi rắc mặt. Gừng là thứ làm
+          mùi mắm dịu hẳn xuống
+      - id: ot
+        name: Ớt hiểm
+        icon: chili
+        color: red
+        base: 3
+        unit: trái
+        note: Băm một trái trộn vào, hai trái thái lát xếp mặt cho đẹp
+      - id: tieu
+        name: Tiêu xay
+        icon: pepper
+        base: 1
+        unit: muỗng cà phê
+        note: Xay thô, trộn vào hỗn hợp
+      - id: duong
+        name: Đường
+        icon: jar
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Chỗ ngọt này để kéo cái mặn của mắm xuống, không phải để tô mắm ngọt
+  - name: Ăn kèm
+    icon: lettuce
+    items:
+      - id: dualeo
+        name: Dưa leo
+        icon: lettuce
+        color: green
+        base: 2
+        unit: trái
+        note: Thái lát dày, để sống — cái mát giòn này là thứ đi cùng mắm chưng
+      - id: rauthom
+        name: Rau thơm
+        icon: herb
+        color: green
+        qtyText: Một dĩa
+        note: Rau răm, húng quế, tía tô — thứ nào có trong vườn thì hái
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 4 bước ra **tô mắm chưng đông chắc, mặt vàng bóng**
+stepsLead: >-
+  Nấu mắm và lọc là hai việc mất mười lăm phút; còn lại là ngồi đợi nồi hấp.
+  Chỉ cần nhớ mở nắp lau hơi nước cho đều tay.
+steps:
+  - title: Nấu mắm cho rã, rồi lọc bỏ xương
+    icon: pot
+    minutes: 15 phút
+    intro: "Bước quan trọng nhất, và cũng là bước hay bị bỏ:"
+    bullets:
+      - text: >-
+          Cho [[150|g]] mắm cá vào nồi nhỏ với [[150|ml]] nước, đun **lửa nhỏ
+          10–15 phút**, thỉnh thoảng dằm cho thịt cá rã ra hết.
+      - label: "Lọc:"
+        text: >-
+          Đổ qua rây, dùng muỗng **miết mạnh cho phần thịt cá lọt xuống**, giữ
+          lại xương, vảy và da trên rây rồi bỏ đi. Phần nước mắm cá thu được
+          sẽ hơi sệt và nâu sậm.
+      - text: >-
+          Để nguội bớt rồi mới trộn với trứng — còn nóng mà đổ trứng vào là
+          trứng chín lợn cợn ngay trong tô.
+    callout:
+      type: warn
+      text: >-
+        Xương mắm rất nhỏ và mềm, nhai không nhận ra nhưng vẫn mắc cổ được.
+        Rây một lần rồi rây lại lần nữa nếu thấy còn lợn cợn — mất thêm hai
+        phút thôi.
+  - title: Trộn hỗn hợp
+    icon: spoon
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Cho thịt băm vào tô, đổ nước mắm cá đã lọc và nguội vào, thêm hành
+          tím băm, gừng băm, ớt băm, [[1|muỗng cà phê]] tiêu và [[1|muỗng
+          canh]] đường.
+      - text: >-
+          Đập [[2|quả]] trứng vịt và **hai lòng trắng** của quả thứ ba vào,
+          đánh tan rồi trộn thật đều theo **một chiều**. Chừa lại lòng đỏ cuối
+          cùng trong chén nhỏ.
+      - text: >-
+          Trộn miến đã ngâm mềm cắt khúc vào nếu dùng.
+      - text: >-
+          Nếm thử một chút hỗn hợp sống bằng đầu đũa chạm vào lưỡi: thấy **mặn
+          đậm nhưng chưa gắt** là vừa. Mắm mỗi hũ mặn một khác, nên nêm theo
+          hũ của mình.
+  - title: Hấp cách thủy — và lau hơi nước
+    icon: pot
+    minutes: 30 phút
+    bullets:
+      - text: >-
+          Đổ hỗn hợp vào **tô sâu lòng** hoặc chén sành, dàn phẳng mặt. Đừng đổ
+          đầy quá miệng tô, chừa lại chừng [[2|cm]].
+      - text: >-
+          Đặt vào xửng, hấp **lửa vừa 25–30 phút**. Nước trong nồi phải đang
+          sôi sẵn khi cho tô vào.
+      - label: "Cứ 5 phút một lần:"
+        text: >-
+          Mở nắp, **lau khô mặt trong của nắp** rồi đậy lại. Hoặc bọc nắp bằng
+          một chiếc khăn sạch ngay từ đầu.
+      - text: >-
+          Thử chín: xiên tăm vào giữa, rút ra **khô ráo, không dính hỗn hợp
+          ướt** là được.
+    callout:
+      type: warn
+      text: >-
+        Hơi nước đọng trên nắp rơi xuống làm mặt tô **rỗ lỗ chỗ và ứ nước**,
+        nhìn rất xấu. Đây là lỗi phổ biến nhất của mọi món hấp cách thủy, và
+        cách chữa chỉ là chịu khó mở nắp lau.
+    timer:
+      secs: 1500
+      label: Hẹn giờ hấp · 25:00
+      doneMsg: Xiên tăm thử — rút ra khô ráo là tới lúc phết lòng đỏ!
+  - title: Phết lòng đỏ và dọn
+    icon: egg
+    minutes: 6 phút
+    bullets:
+      - text: >-
+          Đánh tan lòng đỏ còn lại với vài giọt dầu ăn, **phết một lớp mỏng
+          lên mặt tô**, hấp tiếp **5 phút** cho mặt se và vàng bóng.
+      - text: >-
+          Xếp **lát ớt đỏ và gừng thái sợi** lên mặt. Màu đỏ và vàng trên nền
+          nâu sậm là chỗ làm tô mắm nhìn ngon hẳn.
+      - text: >-
+          Bưng cả tô ra mâm khi còn nóng, xắn từng muỗng ăn với cơm và dưa leo.
+    doneText: Xắn muỗng đầu tiên — mặn đậm, thơm mắm. Xong!
+
+tipsTitle: 6 điều cho **tô mắm đông chắc, mùi vừa phải**
+tipsLead: >-
+  Mắm chưng hỏng theo ba kiểu: nhão không đông, mặt rỗ chảy nước, và mùi mắm
+  gắt quá. Sáu điều dưới đây chặn cả ba.
+tips:
+  - icon: alert
+    title: Lọc bỏ xương, không có ngoại lệ
+    text: >-
+      Xương mắm nhỏ nhưng cứng đủ để mắc cổ. Nấu rã rồi miết qua rây là xong,
+      và tô mắm còn mịn hơn hẳn. Đừng tiếc phần thịt cá còn dính trên rây —
+      miết mạnh muỗng là lấy được gần hết.
+  - icon: drop
+    title: Nước ít thôi, tô mới đông chắc
+    text: >-
+      Mắm đã có sẵn nước trong hũ, cộng thêm nước từ thịt và trứng khi hấp.
+      Đổ [[150|ml]] là vừa; nhiều hơn thì hấp xong tô vẫn sóng sánh và xắn
+      không thành miếng.
+  - icon: ginger
+    title: Gừng là thứ làm dịu mùi mắm
+    text: >-
+      Người chưa quen ăn mắm hay thấy mùi nặng. Tăng gừng lên gấp rưỡi — vừa
+      băm trộn vào vừa thái sợi rắc mặt — là mùi dịu hẳn mà vẫn giữ nguyên vị
+      mắm.
+  - icon: egg
+    title: Trứng vịt cho khối chắc hơn trứng gà
+    text: >-
+      Lòng đỏ trứng vịt to và đặc hơn nên tô mắm đông chắc, cắt ra giữ dáng.
+      Chỉ có trứng gà thì dùng thêm một quả nữa, và giảm bớt chút nước.
+  - icon: clock
+    title: Lau nắp mỗi 5 phút, hoặc bọc khăn từ đầu
+    text: >-
+      Bọc nắp nồi bằng khăn sạch ngay từ đầu là cách rảnh tay nhất — khăn hút
+      hết hơi nước, khỏi phải mở ra mở vào. Nhớ buộc gọn góc khăn cho khỏi
+      chạm bếp.
+  - icon: jar
+    title: Nếm hỗn hợp sống trước khi hấp
+    text: >-
+      Mỗi hũ mắm một độ mặn, chênh nhau khá xa. Chấm đầu đũa vào hỗn hợp rồi
+      chạm lưỡi: mặn quá thì thêm thịt băm hoặc một quả trứng, nhạt thì thêm
+      chút mắm. Hấp xong mới biết thì hết đường chữa.
+
+serve:
+  title: Tô mắm chưng — **giữa mâm cơm ngày thường**
+  paras:
+    - >-
+      Mắm chưng là món đưa cơm, dọn nóng ngay giữa mâm để cả nhà xắn chung.
+      Bên cạnh nhất định phải có **dĩa dưa leo thái lát dày và rổ rau sống** —
+      cái mát giòn của rau là thứ cân lại vị mặn đậm, và nhiều người ăn kiểu
+      cuốn rau chấm mắm chứ không xắn thẳng vào cơm.
+    - >-
+      Ăn không hết thì để nguyên tô cất ngăn mát, hôm sau hấp lại là ngon như
+      mới — thậm chí còn đậm hơn. Miếng mắm chưng nguội kẹp bánh mì cũng là
+      cách ăn quen của nhiều nhà.
+  aside:
+    title: Mâm gợi ý
+    intro: "Ba thứ dọn cùng cho tròn bữa:"
+    items:
+      - icon: lettuce
+        text: "**Dưa leo thái lát dày** — thứ bắt buộc, cân lại cái mặn."
+      - icon: bowl
+        text: "**Canh rau nhạt** — canh bầu hay canh rau đay, để húp cho nhẹ miệng."
+      - icon: rice
+        text: "**Cơm trắng thật nóng** — cơm nguội ăn với mắm chưng thì mất nửa phần ngon."
+
+faq:
+  - q: Không mua được mắm cá linh thì thay bằng gì?
+    a: >-
+      **Mắm cá sặc** là thứ gần nhất và cũng dễ tìm hơn, làm y hệt. Sau đó tới
+      **mắm cá lóc** (đậm hơn, giảm lượng xuống [[120|g]]). Ngoài vùng Tây Nam
+      Bộ thì hàng mắm ở chợ lớn hoặc siêu thị thường có sẵn hũ nhỏ. Nói thẳng
+      là mỗi loại mắm ra một mùi khác nhau — đổi loại thì tô mắm vẫn ngon
+      nhưng không còn đúng bản gốc.
+  - q: Tô mắm hấp xong bị nhão, không đông?
+    a: >-
+      Ba nguyên nhân: **nước nhiều quá**, **ít trứng quá**, hoặc **hấp chưa đủ
+      lâu**. Chữa ngay được: đánh thêm một quả trứng, trộn vào rồi hấp tiếp 10
+      phút. Lần sau giảm nước xuống [[120|ml]] và nhớ xiên tăm thử trước khi
+      tắt bếp.
+  - q: Mùi mắm nồng quá, nhà có trẻ nhỏ không ăn được?
+    a: >-
+      Ba cách, dùng cùng lúc: **tăng gừng lên gấp đôi**, **tăng thịt băm lên
+      [[350|g]]** để pha loãng mùi, và **nấu mắm lâu hơn 5 phút** cho bay bớt.
+      Ngoài ra mở cửa bếp lúc nấu — mùi trong lúc nấu nồng hơn mùi lúc ăn khá
+      nhiều.
+  - q: Món này khác trứng chưng thịt ở chỗ nào?
+    a: >-
+      Khác ở **thứ làm nên vị chính**. Trứng chưng thịt lấy trứng làm nền, vị
+      hiền và ngọt, ai cũng ăn được. Mắm chưng thì trứng chỉ đóng vai kết dính,
+      còn vị chính là mắm cá đồng — mặn đậm, mùi rõ, và ăn phải có rau sống
+      với dưa leo đi kèm. Nhìn cũng khác hẳn: một bên vàng óng, một bên nâu
+      sậm.
+  - q: Hấp bằng nồi cơm điện được không?
+    a: >-
+      Được. Đổ chừng [[300|ml]] nước vào lòng nồi, đặt một cái chén úp ngược
+      làm đế rồi để tô mắm lên, bấm nấu. Nồi nhảy sang giữ ấm thì bấm lại lần
+      nữa. Tổng chừng **30–35 phút**. Nhớ **lót khăn dưới nắp** vì nắp nồi cơm
+      đọng nước rất nhiều.
+  - q: Để dành được mấy ngày?
+    a: >-
+      Ngăn mát **3–4 ngày**, đậy kín. Hấp lại chừng 10 phút hoặc quay lò vi
+      sóng là ăn được, và nhiều nhà thấy ngày thứ hai còn đậm đà hơn. Đừng để
+      ngoài quá 4 tiếng ở trời nóng.
+
+ticker:
+  - icon: fish
+    text: Nấu rã rồi lọc bỏ xương
+  - icon: egg
+    text: Phết lòng đỏ cho mặt vàng bóng
+  - icon: ginger
+    text: Gừng làm mùi mắm dịu xuống
+  - icon: clock
+    text: Cứ 5 phút mở nắp lau hơi nước
+  - icon: lettuce
+    text: Nhất định phải có dưa leo bên cạnh
+  - icon: rice
+    text: Một tô là hết nồi cơm

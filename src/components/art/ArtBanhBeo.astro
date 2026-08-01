@@ -1,0 +1,97 @@
+---
+/* Bánh bèo Huế — họ vàng (Cơm & bánh) đã có 10 hình Bánh, phần lớn là "một thứ
+   nằm trên dĩa bầu dục trắng". Đòn bẩy ở đây là ĐỔI HÌNH KHỐI sang bố cục
+   NHIỀU VẬT NHỎ, chưa hình nào trên site dùng:
+   1) MỘT KHAY TRÒN XẾP MẤY CHÉN CON, mỗi chén một cái bánh trắng LÕM GIỮA
+   2) một chén được NHẤC HẲN RA khỏi khay, có thìa nhỏ lách quanh mép — động
+      tác ăn, và nó phá thế xếp đều của mấy chén còn lại
+   3) chén xếp LỆCH và CỠ KHÁC NHAU, không thành vòng đều — vì mấy vật nhỏ xếp
+      đều nhau ở 260px đọc ra hoa văn chứ không ra đồ ăn (luật đợt 15)
+   Bánh ướt tôm chấy Huế cũng dùng tôm chấy cam, nên chỗ tách hai hình là DÁNG:
+   bên kia là mấy cuốn dài xếp hàng, bên này là mấy đĩa tròn nhỏ.
+   id prefix "bbe" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Khay tròn xếp mấy chén bánh bèo Huế, mỗi chén một cái bánh trắng lõm giữa rắc tôm chấy cam và tóp mỡ, một chén được nhấc ra ngoài cùng chiếc thìa nhỏ">
+  <defs>
+    <linearGradient id="bbeTray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C68B3E"/><stop offset="1" stop-color="#8E5A20"/>
+    </linearGradient>
+    <!-- MỘT CHÉN BÁNH BÈO: chén sứ nông + bánh trắng trong LÕM GIỮA + nhân -->
+    <g id="bbeCup">
+      <ellipse cx="0" cy="16" rx="40" ry="10" fill="rgba(15,26,14,.26)"/>
+      <path d="M-38 -2 C -36 12 -20 21 0 21 C 20 21 36 12 38 -2 Z" fill="#F1EAD6"/>
+      <ellipse cx="0" cy="-4" rx="38" ry="12" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+      <ellipse cx="0" cy="-4" rx="38" ry="12" fill="none" stroke="#2C5234" stroke-width="2.6"/>
+      <!-- bánh: mặt trắng trong, lõm xuống một xoáy nhỏ ở giữa -->
+      <ellipse cx="0" cy="-3" rx="31" ry="9.4" fill="#F3EFE0"/>
+      <ellipse cx="0" cy="-2" rx="31" ry="9.4" fill="#FAF7EC"/>
+      <ellipse cx="-1" cy="-1" rx="13" ry="4.4" fill="#E6DFC9"/>
+      <path d="M-12 -3 C -7 -6 5 -6 11 -3" fill="none" stroke="#D6CDB0" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- TÔM CHẤY: bông tơi cam ruộm, dồn vào đúng chỗ lõm -->
+      <g fill="none" stroke="#E2762E" stroke-width="2.8" stroke-linecap="round">
+        <path d="M-11 -2 C -5 -6 3 -6 9 -3"/>
+        <path d="M-8 1 C -2 -3 6 -3 11 0"/>
+      </g>
+      <g fill="none" stroke="#F09A4E" stroke-width="1.8" stroke-linecap="round">
+        <path d="M-9 -4 C -3 -7 4 -7 9 -5"/>
+        <path d="M-6 2 C 0 -1 6 -1 10 1"/>
+      </g>
+      <!-- tóp mỡ: khối gãy góc vàng -->
+      <path d="M14 -6 L 20 -9 L 24 -5 L 18 -2 Z" fill="#E0AC58" stroke="#A87428" stroke-width="1.4"/>
+      <path d="M-24 -4 L -18 -7 L -14 -3 L -20 0 Z" fill="#EDBE6C" stroke="#A87428" stroke-width="1.4"/>
+      <!-- mỡ hành xanh -->
+      <g fill="#4E7B36">
+        <ellipse cx="-16" cy="1" rx="4.4" ry="1.8" transform="rotate(-12 -16 1)"/>
+        <ellipse cx="18" cy="1" rx="4" ry="1.7" transform="rotate(10 18 1)"/>
+      </g>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M228 176 C 217 152 243 136 232 110 C 225 94 239 82 235 68"/>
+    <path d="M292 170 C 282 146 308 132 297 106 C 290 90 304 78 300 64"/>
+  </g>
+  <ellipse cx="258" cy="410" rx="198" ry="25" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐẠO CỤ PHẢI: chén mắm chan, có tỏi ớt nổi -->
+  <g transform="translate(444 372)">
+    <ellipse cx="0" cy="20" rx="40" ry="11" fill="rgba(15,26,14,.3)"/>
+    <path d="M-32 -4 C -30 11 -17 21 0 21 C 17 21 30 11 32 -4 Z" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-5" rx="32" ry="9.6" fill="#F6F1E1" stroke="#D8D0B6" stroke-width="2"/>
+    <ellipse cx="0" cy="-4" rx="24" ry="6.6" fill="#C2833A"/>
+    <g fill="#B4331F"><circle cx="-7" cy="-5" r="2" fill="#C3372B"/><circle cx="6" cy="-3" r="1.8" fill="#C3372B"/></g>
+    <g fill="#F6EDD6"><circle cx="0" cy="-6" r="1.6"/><circle cx="11" cy="-5" r="1.4"/><circle cx="-12" cy="-3" r="1.4"/></g>
+  </g>
+
+  <!-- KHAY TRE TRÒN -->
+  <ellipse cx="248" cy="330" rx="180" ry="52" fill="#7A4C18"/>
+  <ellipse cx="248" cy="322" rx="180" ry="52" fill="url(#bbeTray)" stroke="#6E4214" stroke-width="3"/>
+  <ellipse cx="248" cy="322" rx="160" ry="44" fill="none" stroke="#E0B370" stroke-width="2.6" stroke-dasharray="3 12" stroke-linecap="round"/>
+  <ellipse cx="248" cy="322" rx="140" ry="36" fill="none" stroke="#A87434" stroke-width="2" opacity=".7"/>
+
+  <!-- MẤY CHÉN BÁNH BÈO trên khay: xếp LỆCH, cỡ khác nhau, chồng mép lên nhau.
+       Hàng sau vẽ trước, hàng trước vẽ sau và to hơn (phối cảnh). -->
+  <use href="#bbeCup" transform="translate(178 288) scale(.86)"/>
+  <use href="#bbeCup" transform="translate(268 278) scale(.9)"/>
+  <use href="#bbeCup" transform="translate(350 296) scale(.84)"/>
+  <use href="#bbeCup" transform="translate(140 328) scale(.98)"/>
+  <use href="#bbeCup" transform="translate(228 322) scale(1.04)"/>
+  <use href="#bbeCup" transform="translate(320 336) scale(.96)"/>
+
+  <!-- CHÉN ĐƯỢC NHẤC HẲN RA khỏi khay, to nhất, kèm THÌA TRE lách quanh mép -->
+  <g transform="translate(212 396) scale(1.22)">
+    <use href="#bbeCup"/>
+    <!-- THÌA NHỎ lách quanh mép chén. Vòng 1 vẽ hẳn thìa tre, nhưng Thái nhắc:
+         món này thìa nào cũng ăn được, không nhất thiết phải thìa tre — nên vẽ
+         một chiếc thìa sứ thường, thứ nhà nào cũng có. -->
+    <g transform="translate(34 -12) rotate(-26)">
+      <ellipse cx="26" cy="8" rx="30" ry="6" fill="rgba(15,26,14,.22)"/>
+      <rect x="14" y="-4" width="52" height="8" rx="4" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="1.8"/>
+      <ellipse cx="0" cy="0" rx="17" ry="11" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+      <ellipse cx="-1" cy="0.5" rx="11" ry="6.4" fill="#EFEADA"/>
+      <path d="M-8 -3 C -3 -6 4 -6 8 -3" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

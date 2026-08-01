@@ -1,0 +1,386 @@
+title: Bò nướng lá lốt **lá sém thơm, thịt mọng bên trong**
+summary: >-
+  Thịt bò băm trộn sả tỏi, cuốn trong lá lốt rồi đặt lên vỉ than. Lá gặp lửa
+  **quăn lại, sém cạnh và dậy mùi thơm hắc rất riêng**, bên trong miếng thịt
+  vẫn còn mọng nước. Cuốn bánh tráng với bún và rau, chấm mắm nêm là hết dĩa.
+region: Miền Nam
+category: Nướng
+occasions: [Nhậu lai rai, Đãi khách]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 15 phút
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 125
+art: bo-la-lot
+heroEyebrow: Cái lá làm nên cả món…
+
+quick:
+  ingredients:
+    - Thịt bò băm [[500|g]] — nạc vai hoặc bắp, băm thô còn thấy thớ
+    - Lá lốt [[40|lá]] — chọn lá to bằng bàn tay, mặt lá xanh sậm
+    - Sả [[3|cây]] · tỏi [[6|tép]] · hành tím [[4|củ]] · mỡ heo [[50|g]]
+    - "Ướp: dầu hào [[1|muỗng canh]] · nước mắm [[1|muỗng canh]] · tiêu · đường"
+  steps:
+    - Rửa lá lốt, để **thật ráo**, cắt bỏ cuống dài. Chọn riêng lá to để cuốn, lá nhỏ thái sợi trộn vào nhân.
+    - Trộn thịt bò với sả tỏi hành băm, mỡ heo thái hạt lựu, lá lốt thái sợi và gia vị.
+    - Ướp **30 phút** trong ngăn mát cho thịt săn lại và thấm.
+    - "Cuốn: đặt thìa nhân lên **mặt sẫm của lá** (mặt gân nổi), gấp hai bên rồi cuộn tròn."
+    - Ghim mép bằng cuống lá hoặc tăm; xiên 4–5 cuốn vào một xiên cho dễ trở.
+    - Nướng than hồng **6–9 phút**, trở đều tay, quét chút dầu ở phút cuối.
+    - Dọn nóng cùng bún, bánh tráng, rau sống và chén mắm nêm.
+  warning: >-
+    Lá còn ướt là gặp lửa **xì nước và rách bung**, nhân rơi xuống than. Rửa
+    xong trải ra rổ hay khăn, để ráo hẳn — mất mười lăm phút nhưng không bỏ
+    qua được.
+
+flavor:
+  chua: 1
+  ngot: 3
+  man: 6
+  cay: 2
+  thom: 9
+flavorNote: >-
+  **Chuẩn cuốn bò lá lốt:** mặt lá **quăn lại, xanh sẫm gần đen và sém lấm tấm
+  vài chỗ**, cầm lên thấy khô ráo chứ không ướt dầu. Cắn vào thì lá giòn nhẹ
+  rồi tới miếng thịt **còn mọng nước bên trong**, mùi lá lốt nổi lên trước cả
+  mùi thịt.
+storyEyebrow: Chuyện dĩa bò lá lốt
+storyTitle: Món mà **cái lá quan trọng hơn miếng thịt**
+story:
+  - >-
+    Bò nướng lá lốt nhìn thì đơn giản — thịt bò băm cuốn trong lá rồi nướng —
+    nhưng cái quyết định món lại là **cái lá**. Lá lốt có mùi thơm hắc rất
+    riêng, hơi nồng, và mùi đó chỉ bật ra khi lá gặp lửa và quăn lại. Cùng
+    khối thịt đó mà vo viên nướng trần thì ra một món khác hẳn.
+  - >-
+    Vì vậy nên cách cuốn có luật của nó: nhân đặt lên **mặt sẫm màu của lá**,
+    là mặt có gân nổi rõ. Cuốn xong thì mặt láng bóng nằm ra ngoài, gặp than
+    sẽ sém đẹp và không rách. Cuốn ngược mặt thì lá dễ bung và nhìn xỉn.
+  - >-
+    Món này gần như luôn xuất hiện trên bàn nhậu và mâm cỗ ở miền Nam, dọn kèm
+    bánh tráng, bún, rau sống và chén mắm nêm. Ăn kiểu cuốn: trải bánh tráng,
+    xếp bún, rau, đặt một cuốn lá lốt lên rồi cuộn lại chấm ngập.
+
+ingredientGroups:
+  - name: Thịt & mỡ
+    icon: meat
+    items:
+      - id: bobam
+        name: Thịt bò băm
+        icon: meat
+        color: red
+        base: 500
+        unit: g
+        note: >-
+          Nạc vai hoặc bắp bò. **Băm thô bằng dao** thì miếng thịt còn thớ và
+          mọng nước; xay máy nhuyễn quá thì nhân bở như giò
+      - id: mohaeo
+        name: Mỡ heo
+        icon: meat
+        base: 50
+        unit: g
+        note: >-
+          Thái hạt lựu nhỏ, trộn vào nhân. Thiếu chỗ mỡ này là cuốn nướng xong
+          khô xác — bò rất ít mỡ
+      - id: lalot
+        name: Lá lốt
+        icon: herb
+        color: green
+        base: 40
+        unit: lá
+        note: >-
+          Chọn **lá to bằng bàn tay, xanh sậm, không rách**. Lá non quá thì
+          nướng cháy mất, lá già quá thì dai
+  - name: Ướp
+    icon: jar
+    items:
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 3
+        unit: cây
+        note: Băm thật nhuyễn — sả to sợi thì cắn vào thấy xơ
+      - id: toi
+        name: Tỏi
+        icon: garlic
+        base: 6
+        unit: tép
+        note: Băm nhỏ
+      - id: hanhtim
+        name: Hành tím
+        icon: onion
+        base: 4
+        unit: củ
+        note: Băm nhỏ
+      - id: dauhao
+        name: Dầu hào
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Cho vị đậm và màu bóng cho nhân
+      - id: nuocmamuop
+        name: Nước mắm
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Nêm vừa tay — lát nữa còn chấm mắm nêm nữa
+      - id: tieuduong
+        name: Tiêu · đường · dầu ăn
+        icon: jar
+        qtyText: Mỗi thứ 1 muỗng cà phê
+        note: Dầu ăn trộn vào nhân giúp thịt không bết và nướng xong bóng
+  - name: Ăn kèm
+    icon: lettuce
+    items:
+      - id: bun
+        name: Bún tươi
+        icon: noodle
+        base: 400
+        unit: g
+        note: Bún sợi nhỏ, để ráo
+      - id: banhtrang
+        name: Bánh tráng cuốn
+        icon: roll
+        qtyText: Một xấp
+        note: Loại mỏng, nhúng nước là mềm
+      - id: rausong
+        name: Rau sống
+        icon: lettuce
+        color: green
+        qtyText: Một rổ
+        note: >-
+          Xà lách, húng quế, tía tô, dưa leo thái que, chuối chát và khế chua
+          thái lát
+      - id: mamnem
+        name: Mắm nêm
+        icon: bottle
+        qtyText: Một chén
+        note: >-
+          Pha với thơm băm, tỏi ớt, chút đường và chanh. Nhà không ăn mắm nêm
+          thì thay bằng mắm chua ngọt
+      - id: dauphong
+        name: Đậu phộng rang
+        icon: pod
+        base: 50
+        unit: g
+        note: Giã thô, rắc lên dĩa cuốn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa cuốn lá sém, thịt mọng**
+stepsLead: >-
+  Trộn nhân và cuốn là hai việc chính, làm trước cả buổi được. Phần nướng chỉ
+  mất chưa tới mười phút, nên để sát giờ ăn hẵng bắc vỉ.
+steps:
+  - title: Rửa lá và làm cho thật ráo
+    icon: herb
+    minutes: 15 phút
+    intro: "Nghe đơn giản nhưng đây là bước hay làm hỏng cả dĩa:"
+    bullets:
+      - text: >-
+          Rửa từng lá dưới vòi nước, nhẹ tay kẻo rách. Cắt bỏ phần cuống dài,
+          **giữ lại cuống** — lát nữa dùng để ghim mép cuốn.
+      - text: >-
+          Trải lá ra rổ hoặc khăn sạch, để **ráo hẳn 15 phút**. Sốt ruột thì
+          thấm từng lá bằng khăn giấy.
+      - text: >-
+          Chọn riêng những **lá to và lành lặn** để cuốn. Lá nhỏ, lá rách thì
+          thái sợi trộn vào nhân — chỗ đó làm mùi lá lốt đi cả vào trong thịt.
+  - title: Trộn nhân
+    icon: spoon
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Cho thịt bò băm vào tô, thêm sả tỏi hành băm, mỡ heo thái hạt lựu, lá
+          lốt thái sợi, dầu hào, nước mắm, tiêu, đường và chút dầu ăn.
+      - text: >-
+          Trộn đều **theo một chiều** chừng 2 phút cho nhân kết dính. Đừng nhồi
+          quá lâu, thịt bò nhồi kỹ là chai lại.
+      - text: >-
+          Bọc kín, để ngăn mát **30 phút**. Nhân lạnh thì săn và dễ cuốn hơn
+          hẳn.
+    callout:
+      type: tip
+      text: >-
+        Muốn biết đã vừa miệng chưa: **véo một viên nhỏ áp chảo** cho chín rồi
+        nếm. Nêm lại lúc này còn kịp, chứ cuốn xong rồi thì chịu.
+  - title: Cuốn lá — nhân nằm trên mặt sẫm
+    icon: roll
+    minutes: 20 phút
+    intro: "Nhìn cho ra hai mặt lá trước khi cuốn:"
+    bullets:
+      - text: >-
+          Đặt lá xuống thớt với **mặt sẫm màu, có gân nổi rõ, quay lên trên**.
+          Mặt kia bóng và nhạt hơn, sẽ nằm ra ngoài cuốn.
+      - text: >-
+          Múc chừng **một thìa cà phê đầy nhân**, đặt gần phía cuống, dàn thành
+          một thanh ngang.
+      - text: >-
+          **Gấp hai mép bên vào** rồi cuộn tròn từ cuống lên ngọn. Cuốn chặt
+          tay, cỡ bằng ngón tay cái.
+      - text: >-
+          Ghim mép bằng chính **cuống lá xiên qua**, hoặc dùng tăm. Xiên 4–5
+          cuốn vào một xiên tre để lát nữa trở cho tiện.
+    callout:
+      type: warn
+      text: >-
+        Nhồi nhiều nhân quá là lúc nướng thịt nở ra, **lá bung và nhân rơi
+        xuống than**. Một thìa cà phê là vừa — cuốn nhỏ nhìn còn ngon mắt hơn.
+  - title: Nướng — trở đều, đừng để một mặt quá lâu
+    icon: flame
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Đợi than **hồng đều và phủ lớp tro trắng**, đừng nướng lúc lửa còn
+          bốc ngọn. Đặt vỉ cách than chừng [[10|cm]].
+      - text: >-
+          Xếp xiên lên vỉ, nướng **6–9 phút**, **trở mỗi phút một lần**. Nghe
+          tiếng xèo nhẹ và thấy lá quăn lại là đang đúng.
+      - label: "Dấu hiệu chín:"
+        text: >-
+          Lá **chuyển sang xanh sẫm gần đen, sém lấm tấm ở mấy chỗ nhô**, và
+          cuốn săn chắc lại. Bấm nhẹ thấy đàn hồi, không mềm oặt.
+      - text: >-
+          Phút cuối quét một lớp dầu mỏng lên mặt cuốn cho bóng và thơm, nướng
+          thêm 30 giây rồi lấy xuống.
+    callout:
+      type: warn
+      text: >-
+        Để một mặt trên than quá lâu là lá **cháy đen và đắng** trong khi mặt
+        kia còn sống. Trở đều tay quan trọng hơn là nướng lâu.
+    timer:
+      secs: 420
+      label: Hẹn giờ nướng · 07:00
+      doneMsg: Lá quăn lại, sém lấm tấm — quét chút dầu rồi lấy xuống!
+  - title: Bày dĩa và cuốn ăn
+    icon: roll
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Xếp cuốn ra dĩa, rắc đậu phộng rang giã thô và ít hành phi.
+      - text: >-
+          Dọn kèm rổ rau sống, dĩa bún, xấp bánh tráng và chén mắm nêm pha sẵn.
+      - text: >-
+          "Cách cuốn: trải bánh tráng đã nhúng mềm, xếp xà lách, ít bún, mấy
+          cọng rau thơm, **đặt một cuốn lá lốt lên** rồi cuộn chặt tay. Chấm
+          ngập mắm nêm."
+    doneText: Cắn cuốn đầu tiên — mùi lá lốt bật lên trước. Xong!
+
+tipsTitle: 6 bí quyết cho **lá không rách, thịt không khô**
+tipsLead: >-
+  Món này hỏng theo bốn kiểu: lá rách bung, lá cháy đắng, thịt khô xác, và
+  cuốn nhạt thếch. Sáu điều dưới đây chặn hết.
+tips:
+  - icon: herb
+    title: Nhân đặt trên mặt sẫm, mặt bóng ra ngoài
+    text: >-
+      Mặt sẫm có gân nổi nên bám nhân tốt và không trượt; mặt bóng chịu nhiệt
+      tốt hơn nên nằm ngoài thì sém đẹp mà không rách. Cuốn ngược mặt là vừa
+      xấu vừa dễ bung.
+  - icon: meat
+    title: Không có mỡ heo thì cuốn sẽ khô
+    text: >-
+      Thịt bò gần như không có mỡ, nướng lửa than là mất nước rất nhanh. Thái
+      [[50|g]] mỡ heo hạt lựu trộn vào — mỡ chảy ra trong lúc nướng và giữ cho
+      nhân mọng. Không có mỡ heo thì thay bằng [[2|muỗng canh]] dầu ăn, nhưng
+      không bằng.
+  - icon: knife
+    title: Băm dao thay vì xay máy
+    text: >-
+      Thịt băm thô bằng dao còn giữ được thớ, cắn vào có miếng. Xay máy nhuyễn
+      thì nhân mịn như giò sống, nướng lên bở và mất cảm giác thịt.
+  - icon: flame
+    title: Đợi than phủ tro trắng rồi mới nướng
+    text: >-
+      Lửa còn bốc ngọn thì lá cháy đen trước khi thịt kịp chín. Than hồng đều
+      phủ tro trắng cho nhiệt ổn định và đều — đây là lúc bắt đầu.
+  - icon: drop
+    title: Lá phải ráo hẳn trước khi cuốn
+    text: >-
+      Nước đọng trên lá gặp than sẽ bốc hơi và làm lá rách toác. Trải ra rổ
+      mười lăm phút, hoặc thấm từng lá bằng khăn giấy nếu vội.
+  - icon: bulb
+    title: Không có bếp than thì áp chảo, đừng nướng lò
+    text: >-
+      Chảo gang nóng, quét chút dầu, áp mỗi mặt **2–3 phút** — vẫn ra lá sém
+      và thịt mọng. Nướng lò thì hơi nóng bao quanh làm lá **khô giòn rồi vụn
+      ra** trước khi sém, mất hẳn cái mềm dai của lá.
+
+serve:
+  title: Dĩa bò lá lốt — **món của bàn đông người**
+  paras:
+    - >-
+      Đây là món để cuốn, nên bày thành mâm: dĩa cuốn nướng ở giữa, quanh đó
+      là rổ rau sống, dĩa bún trắng, xấp bánh tráng và chén mắm nêm. Mỗi người
+      tự cuốn phần mình, cuốn tới đâu ăn tới đó cho nóng.
+    - >-
+      Nướng thành nhiều mẻ nhỏ thay vì nướng hết một lần — cuốn lá lốt để
+      nguội là lá dai lại và mất mùi thơm. Bàn nhậu thì cứ để bếp than ngay
+      cạnh, nướng tới đâu gắp tới đó.
+  aside:
+    title: Mâm gợi ý
+    intro: "Bốn thứ làm nên mâm cuốn:"
+    items:
+      - icon: lettuce
+        text: "**Rổ rau sống đủ loại** — xà lách, húng quế, tía tô, chuối chát, khế chua."
+      - icon: noodle
+        text: "**Dĩa bún tươi** — để ráo, xếp thành từng vắt nhỏ cho dễ gắp."
+      - icon: bottle
+        text: "**Chén mắm nêm pha thơm** — thứ đi đúng nhất với món này."
+      - icon: pod
+        text: "**Đậu phộng rang giã thô** — rắc lên cuốn cho thơm và bùi."
+
+faq:
+  - q: Lá lốt và lá trầu không có phải một không?
+    a: >-
+      Không, và rất hay bị nhầm vì hình lá giống nhau. **Lá lốt** mặt lá mỏng
+      hơn, xanh sậm, gân nổi rõ, mùi thơm hắc; **lá trầu không** dày hơn, bóng
+      hơn và vị cay nồng, dùng để ăn trầu chứ không nấu ăn. Mua ở hàng rau
+      thì cứ hỏi thẳng "lá lốt" — người bán phân biệt được ngay.
+  - q: Không mua được lá lốt thì thay bằng gì?
+    a: >-
+      Khó thay thật, vì cả món ăn nhau ở mùi lá. Gần nhất là **lá cải bẹ
+      xanh** hoặc **lá tía tô cỡ lớn** — cuốn và nướng y hệt, ra một món ngon
+      nhưng mùi khác hẳn, và nói thẳng là không còn là bò lá lốt nữa. Lá lốt
+      thường có ở hàng rau gia vị ngoài chợ, hoặc trồng chậu rất dễ.
+  - q: Nướng bằng chảo thay than được không?
+    a: >-
+      Được, và nhiều nhà làm vậy. **Chảo gang hoặc chảo chống dính đáy dày**,
+      quét chút dầu, để lửa vừa, áp mỗi mặt 2–3 phút và đậy vung 1 phút cho
+      chín trong. Khác biệt là cuốn sẽ hơi ẩm hơn — muốn khô ráo thì mở vung
+      thêm một phút cuối.
+  - q: Cuốn cứ bung ra khi nướng?
+    a: >-
+      Ba nguyên nhân: **nhồi nhiều nhân quá**, **cuốn lỏng tay**, hoặc **quên
+      ghim mép**. Ghim bằng cuống lá xiên qua là cách chắc nhất và không phải
+      gỡ tăm khi ăn. Xiên chung 4–5 cuốn vào một xiên tre cũng giữ cho chúng
+      không bung.
+  - q: Làm trước được bao lâu?
+    a: >-
+      Cuốn xong xếp một lớp vào hộp, ngăn mát được **1 ngày**. Cấp đông thì
+      được **1 tháng** — xếp rời trên khay cho đông cứng rồi mới trút vào túi,
+      lúc nướng để rã đông trong ngăn mát rồi nướng như thường. Nhân trộn sẵn
+      thì để ngăn mát 1 ngày.
+  - q: Thay bò bằng heo hay gà được không?
+    a: >-
+      Được. **Thịt heo xay có mỡ sẵn** nên bỏ phần mỡ heo thêm vào, và nướng
+      lâu hơn chừng 2 phút cho chín hẳn. **Gà** thì nên dùng đùi bỏ xương băm
+      thô, thêm chút mỡ gà. Cả hai đều ngon, chỉ là vị bò với lá lốt là cặp
+      quen thuộc nhất.
+
+ticker:
+  - icon: herb
+    text: Nhân đặt trên mặt sẫm của lá
+  - icon: flame
+    text: Đợi than phủ tro trắng rồi mới nướng
+  - icon: meat
+    text: Trộn mỡ heo cho nhân khỏi khô
+  - icon: roll
+    text: Ghim mép bằng chính cuống lá
+  - icon: drop
+    text: Lá phải ráo hẳn mới cuốn được
+  - icon: bottle
+    text: Cuốn bánh tráng, chấm mắm nêm

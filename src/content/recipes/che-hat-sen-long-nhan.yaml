@@ -1,0 +1,341 @@
+title: Chè hạt sen long nhãn **mỗi trái nhãn giấu một hạt sen**
+summary: >-
+  Hạt sen luộc mềm được **nhét vào giữa trái nhãn đã moi hạt**, thả vào nước
+  đường phèn trong veo rồi ướp lạnh. Cắn một trái là thấy hai lớp: vỏ nhãn giòn
+  mọng bọc lấy hạt sen bùi mềm bên trong.
+region: Miền Trung
+category: Chè
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ 15 phút
+  active: 45 phút
+servingsBase: 4
+difficulty: Kỳ công
+featured: false
+order: 116
+art: che-sen-nhan
+heroEyebrow: Chén chè phải ngồi lồng từng trái một…
+
+quick:
+  ingredients:
+    - Hạt sen tươi [[200|g]] — bỏ tâm sen (cái mầm xanh ở giữa, đắng)
+    - Nhãn lồng tươi [[500|g]] — chừng 30 trái, cùi dày, hạt nhỏ
+    - Đường phèn [[200|g]] · muối [[0.25|muỗng cà phê|frac]]
+    - Nước lọc [[1.2|lít]] · lá dứa [[2|lá]] (tùy thích)
+  steps:
+    - Hạt sen bỏ tâm, luộc lửa nhỏ **15–20 phút** tới khi bấm nhẹ là mềm — đừng sôi mạnh, hạt bung nát.
+    - Vớt sen ra, ngâm ngay vào tô nước lạnh cho **hạt săn lại và trắng**.
+    - Nhãn bóc vỏ, dùng **mũi dao nhỏ khoét quanh hạt** rồi đẩy hạt ra — giữ cùi nguyên vòng, đừng làm rách.
+    - Nấu nước đường phèn với chút muối cho tan hẳn, để **nguội hoàn toàn**.
+    - "**Lồng một hạt sen vào giữa mỗi trái nhãn**, xếp ra dĩa cho khỏi bẹp."
+    - Thả nhãn đã lồng sen vào nước đường nguội, ướp ngăn mát **ít nhất 2 tiếng**.
+    - "Múc chén: mấy trái nhãn, chan nước đường, thêm đá viên nhỏ nếu thích."
+  warning: >-
+    Đừng thả nhãn vào nước đường còn nóng. Cùi nhãn gặp nóng là **mềm nhũn và
+    đục**, mất hẳn cái giòn mọng — mà đó lại là toàn bộ lý do người ta chịu khó
+    ngồi lồng từng trái.
+
+flavor:
+  chua: 0
+  ngot: 6.5
+  man: 0.5
+  cay: 0
+  thom: 6
+flavorNote: >-
+  **Chuẩn chén chè:** nước đường **trong suốt nhìn thấy đáy chén**, ngọt thanh
+  chứ không gắt. Cùi nhãn còn **giòn mọng**, hạt sen bên trong **bùi và bở tơi**
+  nhưng vẫn nguyên hình — cắn một trái thấy rõ hai kết cấu chứ không nhoè
+  thành một.
+storyEyebrow: Chuyện chén chè xứ Huế
+storyTitle: Món chè mà **công nằm ở đôi tay, không nằm ở nồi**
+story:
+  - >-
+    Chè hạt sen long nhãn là món chè của Huế, và là món chè hiếm hoi mà phần
+    khó **không nằm ở bếp**. Nấu thì chỉ có hai việc: luộc sen cho mềm, nấu
+    nước đường cho trong. Cái làm nên món là việc ngồi **moi hạt từng trái
+    nhãn rồi lồng hạt sen vào chỗ trống đó** — ba chục trái là ba chục lần.
+  - >-
+    Vì sao phải lồng vào nhau chứ không thả chung một nồi? Vì hai thứ này
+    ngược nhau. Cùi nhãn **giòn mọng, ngọt sắc, mỏng**; hạt sen **bùi, bở,
+    ngọt nhạt**. Nấu chung một nồi thì mỗi thứ nằm một góc chén, ăn muỗng nào
+    ra muỗng đó. Lồng vào nhau thì một miếng cắn có đủ cả hai — giòn trước,
+    bùi sau.
+  - >-
+    Đây cũng là lý do món này hay xuất hiện ở mâm cỗ và bàn tiếp khách hơn là
+    ở bữa chiều thường ngày. Nó không nấu nhanh được, và nhìn chén chè là biết
+    người làm đã ngồi bao lâu. Bù lại, chè có thể làm từ hôm trước — để lạnh
+    qua đêm còn ngấm và trong hơn.
+
+ingredientGroups:
+  - name: Sen & nhãn
+    icon: basket
+    items:
+      - id: hatsen
+        name: Hạt sen tươi
+        icon: pod
+        color: green
+        base: 200
+        unit: g
+        note: >-
+          Chọn hạt trắng ngà, mập đều, còn nguyên vỏ lụa mỏng. Hạt sen khô cũng
+          được — dùng [[100|g]] và ngâm nước 1 tiếng trước khi luộc
+      - id: nhan
+        name: Nhãn tươi
+        icon: flower
+        color: gold
+        base: 500
+        unit: g
+        note: >-
+          Chừng 30 trái. Chọn trái to đều, **cùi dày hạt nhỏ** — cùi mỏng thì
+          khoét xong rách hết, không lồng được
+      - id: ladua
+        name: Lá dứa
+        icon: herb
+        color: green
+        base: 2
+        unit: lá
+        note: Tùy thích — thả vào nồi nước đường lúc nấu rồi vớt ra, cho thơm nhẹ
+  - name: Nước đường
+    icon: jar
+    items:
+      - id: duongphen
+        name: Đường phèn
+        icon: jar
+        base: 200
+        unit: g
+        note: >-
+          Đường phèn cho nước **trong và ngọt dịu**; thay bằng đường cát thì
+          nước hơi đục và ngọt gắt hơn
+      - id: nuoc
+        name: Nước lọc
+        icon: drop
+        base: 1.2
+        unit: lít
+        note: Nấu nước đường riêng, đừng dùng nước luộc sen — nước đó hơi đục
+      - id: muoi
+        name: Muối
+        icon: jar
+        base: 0.25
+        unit: muỗng cà phê
+        frac: true
+        note: Nhúm muối nhỏ làm cái ngọt bật lên, không phải để mặn
+      - id: da
+        name: Đá viên nhỏ
+        icon: drop
+        qtyText: Tùy thích
+        note: Thả lúc dọn. Đá to làm loãng nước đường nhanh quá
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước cho **chén chè trong veo, cắn ra hai lớp**
+stepsLead: >-
+  Bốn bước đầu làm nhanh và làm trước được. Bước lồng sen vào nhãn mới là chỗ
+  tốn thời gian — cứ ngồi thong thả, hỏng một trái thì ăn luôn trái đó.
+steps:
+  - title: Luộc hạt sen — lửa nhỏ, đừng sôi bùng
+    icon: pot
+    minutes: 20 phút
+    bullets:
+      - label: "Bỏ tâm sen:"
+        text: >-
+          Tách đôi đầu hạt, lấy **cái mầm xanh nhỏ ở giữa** ra và bỏ đi. Sót
+          lại là cả chén chè đắng. Sen khô đã bỏ tâm sẵn thì bỏ qua bước này.
+      - text: >-
+          Cho sen vào nồi, đổ nước ngập [[3|cm]], nấu **lửa nhỏ liu riu 15–20
+          phút**. Thử một hạt: bấm giữa hai ngón thấy mềm mà **hạt vẫn tròn
+          nguyên** là đạt.
+      - text: >-
+          Vớt sen ra thả ngay vào tô nước lạnh chừng một phút, rồi để ráo. Sen
+          gặp lạnh thì **săn lại, trắng và chắc hạt** — dễ lồng vào nhãn hơn.
+    callout:
+      type: warn
+      text: >-
+        Sôi mạnh là hạt sen va nhau bung nát, lồng vào nhãn được nửa trái thì
+        vỡ. Nước chỉ được **sôi lăn tăn**, và đừng khuấy.
+    timer:
+      secs: 1080
+      label: Hẹn giờ luộc sen · 18:00
+      doneMsg: Bấm thử một hạt — mềm mà còn tròn nguyên là vớt ra ngâm lạnh!
+  - title: Khoét hạt nhãn — giữ cùi nguyên vòng
+    icon: knife
+    minutes: 25 phút
+    intro: "Đây là bước quyết định chén chè đẹp hay xấu:"
+    bullets:
+      - text: >-
+          Bóc vỏ nhãn nhẹ tay, cố **giữ cùi liền một vòng**, đừng bấm móng tay
+          làm thủng.
+      - label: "Cách moi hạt:"
+        text: >-
+          Dùng **mũi dao nhỏ nhọn** rạch một đường ngắn ở phần cuống, xoay lưỡi
+          dao quanh hạt cho cùi tách ra, rồi **đẩy hạt ra bằng đầu ngón tay**.
+          Lỗ ở cuống là lỗ tự nhiên, mở rộng chỗ đó thì cùi ít rách nhất.
+      - text: >-
+          Thả cùi đã moi vào tô nước lạnh trong lúc làm trái tiếp theo — cùi để
+          ngoài không khí lâu sẽ ngả nâu.
+      - text: >-
+          Trái nào rách thì để riêng, lát nữa thả vào nồi cùng cho khỏi phí —
+          chỉ là không lồng được sen.
+    callout:
+      type: tip
+      text: >-
+        Nhãn để **ngăn mát nửa tiếng trước khi bóc** thì cùi săn lại, khoét dễ
+        hơn hẳn và ít rách. Móng tay cắt ngắn cũng đỡ được nhiều trái.
+  - title: Nấu nước đường phèn — và để nguội hẳn
+    icon: drop
+    minutes: 12 phút
+    bullets:
+      - text: >-
+          Cho [[1.2|lít]] nước với [[200|g]] đường phèn và nhúm muối vào nồi,
+          nấu lửa vừa cho đường **tan hết hoàn toàn**. Thả lá dứa buộc gút nếu
+          có, vớt ra trước khi tắt bếp.
+      - text: >-
+          Hớt sạch bọt để nước thật trong. Nếm thử — ngọt vừa miệng lúc còn
+          nóng thì lúc ướp lạnh sẽ **thấy nhạt hơn một chút**, nên nêm hơi
+          ngọt hơn ý muốn một chút.
+      - text: >-
+          Tắt bếp, để nguội **hoàn toàn về nhiệt độ phòng**. Muốn nhanh thì đặt
+          nồi vào chậu nước đá.
+    callout:
+      type: warn
+      text: >-
+        Bước này không rút ngắn được. Nước còn ấm mà thả nhãn vào là cùi
+        **mềm nhũn và đục ngay**, cả rổ nhãn vừa khoét coi như phí công.
+  - title: Lồng sen vào nhãn
+    icon: flower
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Cầm trái nhãn đã moi hạt, **nhét một hạt sen vào chỗ trống** rồi vuốt
+          nhẹ cho cùi khép lại quanh hạt. Không cần kín hẳn.
+      - text: >-
+          Chọn hạt sen **nhỏ hơn lỗ khoét một chút** — nhồi hạt to quá là bung
+          rách cùi. Hạt to để riêng, thả vào nồi ăn kèm.
+      - text: >-
+          Xếp trái đã lồng ra dĩa **thành một lớp**, đừng chồng lên nhau kẻo bẹp.
+    doneText: Xong rổ nhãn — phần khó nhất qua rồi!
+  - title: Ướp lạnh rồi múc chén
+    icon: bowl
+    minutes: 5 phút
+    bullets:
+      - text: >-
+          Thả nhẹ nhàng nhãn đã lồng sen vào nồi nước đường **đã nguội**, đậy
+          nắp, cho ngăn mát **ít nhất 2 tiếng** — để qua đêm càng thấm.
+      - text: >-
+          Múc chén: mỗi chén chừng **6–8 trái**, chan nước đường ngập. Thêm vài
+          viên đá nhỏ nếu thích thật lạnh.
+      - text: >-
+          Ăn bằng muỗng nhỏ, gắp nguyên trái chứ đừng bổ ra — cả cái thú của
+          món nằm ở miếng cắn đầu tiên.
+    doneText: Cắn trái đầu tiên — giòn trước, bùi sau. Xong!
+
+tipsTitle: 6 điều giữ cho **nước trong và cùi giòn**
+tipsLead: >-
+  Món này hỏng theo đúng ba kiểu: nước đục, cùi nhũn, và chén chè đắng. Sáu
+  điều dưới đây chặn cả ba.
+tips:
+  - icon: pod
+    title: Tâm sen sót lại là hỏng cả chén
+    text: >-
+      Cái mầm xanh nhỏ nằm giữa hạt sen đắng rất gắt, và một hạt sót cũng đủ
+      làm người ăn nhăn mặt. Tách đôi đầu hạt, đẩy mầm ra bằng tăm — làm một
+      lượt cho cả rổ trước khi bắc nồi.
+  - icon: clock
+    title: Nhãn lạnh thì dễ khoét hơn nhãn ấm
+    text: >-
+      Để nhãn ngăn mát nửa tiếng rồi mới bóc. Cùi lạnh **săn và dai hơn**, mũi
+      dao xoay quanh hạt không làm rách. Làm ấm thì cứ ba trái hỏng một.
+  - icon: drop
+    title: Nước đường nấu riêng, đừng dùng nước luộc sen
+    text: >-
+      Nước luộc sen có bột từ hạt nên hơi đục, mà cả món này ăn nhau ở chỗ
+      **nhìn thấu đáy chén**. Nấu nồi nước đường riêng, hớt bọt kỹ.
+  - icon: alert
+    title: Nguội hẳn rồi mới thả nhãn
+    text: >-
+      Đây là lỗi hay gặp nhất. Nước còn âm ấm cũng đủ làm cùi nhãn mềm và
+      trắng đục. Sờ tay vào thành nồi thấy mát hẳn thì mới thả.
+  - icon: jar
+    title: Đường phèn cho nước trong hơn đường cát
+    text: >-
+      Đường phèn tan chậm nhưng ra nước **trong và ngọt dịu**; đường cát ngọt
+      gắt và hơi đục. Không có đường phèn thì dùng đường cát và hớt bọt kỹ
+      hơn nữa.
+  - icon: bulb
+    title: Trái rách đừng bỏ
+    text: >-
+      Cùi rách cứ thả thẳng vào nồi, hạt sen thừa cũng vậy. Chén chè có sẵn
+      mấy trái "rời" như thế nhìn còn tự nhiên hơn là toàn trái tròn đều tăm
+      tắp.
+
+serve:
+  title: Chén chè của **buổi chiều và của mâm khách**
+  paras:
+    - >-
+      Chè này ăn lạnh, múc chén nhỏ chứ không múc tô. Nước đường trong nhìn
+      thấy rõ mấy trái nhãn tròn nằm dưới đáy, cắn một trái là giòn mọng rồi
+      tới cái bùi của hạt sen — nên ăn chậm, từng trái một.
+    - >-
+      Vì làm mất công nên người ta hay làm hẳn một mẻ lớn từ hôm trước rồi để
+      ngăn mát ăn dần. Càng để lạnh lâu nước càng ngấm vào cùi, tới ngày thứ
+      hai là vừa đẹp. Có khách thì múc ra chén thủy tinh cho nhìn thấy bên
+      trong.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ hợp với chén chè này:"
+    items:
+      - icon: drop
+        text: "**Đá viên nhỏ** — thả lúc dọn, đừng ngâm sẵn kẻo loãng nước đường."
+      - icon: pod
+        text: "**Ít hạt sen luộc để riêng** — cho ai thích ăn thêm phần bùi."
+      - icon: herb
+        text: "**Một lá dứa nhỏ gác miệng chén** — thơm nhẹ, và nhìn ra chất chè Huế."
+
+faq:
+  - q: Dùng nhãn khô (long nhãn khô) thay nhãn tươi được không?
+    a: >-
+      Được, và nhiều nhà nấu kiểu đó cho nhanh — ngâm [[100|g]] long nhãn khô
+      trong nước ấm 20 phút rồi thả vào nước đường. Nhưng **long nhãn khô dai
+      và ngọt đậm chứ không giòn mọng**, nên không lồng hạt sen vào được; nồi
+      chè thành kiểu "sen với nhãn nấu chung", vẫn ngon mà khác món.
+  - q: Cùi nhãn cứ rách hoài, có mẹo gì không?
+    a: >-
+      Ba chỗ hay sai: nhãn để ấm (ướp lạnh trước), **rạch ở giữa trái thay vì ở
+      cuống** (chỗ cuống có lỗ sẵn, mở rộng chỗ đó là ít rách nhất), và moi
+      bằng móng tay thay vì mũi dao. Chọn trái cùi dày cũng ăn thua nhiều —
+      trái nhỏ cùi mỏng thì gần như không cứu được.
+  - q: Nước chè bị đục thì chữa được không?
+    a: >-
+      Đục do bọt đường không hớt hoặc do thả nhãn lúc nước còn ấm. Nếu chỉ đục
+      nhẹ thì **lọc qua rây có lót vải mỏng** rồi ướp lạnh lại. Đục do nhãn
+      nhũn thì không chữa được, ăn vẫn ngon nhưng hết đẹp.
+  - q: Hạt sen luộc xong bị nát, còn cứu được không?
+    a: >-
+      Hạt nát thì không lồng vào nhãn được nữa, nhưng đừng bỏ: dằm luôn cho
+      mịn rồi khuấy vào một phần nước đường thành nồi chè sen dằm, ăn riêng.
+      Lần sau hạ lửa xuống mức **nước chỉ sôi lăn tăn** và bấm thử sớm hơn 5
+      phút.
+  - q: Làm trước được mấy ngày?
+    a: >-
+      Ngăn mát **2–3 ngày**, đậy kín. Ngày thứ hai là ngon nhất — nước đã ngấm
+      đều vào cùi. Sang ngày thứ tư thì cùi bắt đầu mềm và nước ngả đục. Đừng
+      cấp đông, cùi nhãn rã đông là bã.
+  - q: Nhà không ăn ngọt nhiều thì bớt đường được không?
+    a: >-
+      Bớt được, xuống [[150|g]] vẫn ổn. Nhưng đừng bớt sâu hơn: nước đường
+      loãng quá thì **không thấm vào cùi nhãn**, ướp cả đêm cùi vẫn nhạt mà
+      nước thì ngọt lỏng bỏng. Muốn nhẹ hơn nữa thì giữ lượng đường và pha
+      thêm đá lúc dọn.
+
+ticker:
+  - icon: flower
+    text: Mỗi trái nhãn giấu một hạt sen
+  - icon: drop
+    text: Nước đường phèn trong thấy đáy chén
+  - icon: pod
+    text: Giòn mọng trước, bùi bở sau
+  - icon: clock
+    text: Nguội hẳn rồi mới thả nhãn
+  - icon: knife
+    text: Khoét từ lỗ cuống thì cùi ít rách
+  - icon: bowl
+    text: Chén chè của mâm tiếp khách

@@ -1,0 +1,155 @@
+---
+/* Kho quẹt — họ nâu đã có 5 tộ đất (cá kho tộ, gà kho gừng, ốc om chuối đậu,
+   thịt kho hột vịt, tôm rim). Nếu vẽ thêm một tộ giữa khung nữa là hình thứ sáu
+   cùng khuôn. Đòn bẩy dùng ở đây là ĐỔI BỐ CỤC:
+   1) TÂM NHỎ — VÒNG CUNG LỚN: tộ kho quẹt cố ý vẽ BÉ và đặt LỆCH, còn thứ chiếm
+      khung là VÒNG CUNG RAU CỦ LUỘC nhiều màu xếp quanh. Chưa hình nào trong họ
+      nâu dùng bố cục này (mọi hình đều "một gò/một nồi đặt giữa")
+   2) rau xếp thành cung LỆCH HẲN về nửa sau, không bày đối xứng hai bên
+   3) ruột tộ: mảng nâu cánh gián SỆT, tôm khô đỏ cam và tóp mỡ vàng nổi lên trên
+   Màu rau (xanh · cam · trắng ngà) là dải màu chưa họ nâu nào có, nên ô này đọc
+   ra ngay từ xa.
+   id prefix "kqu" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Dĩa lớn xếp vòng cung rau củ luộc nhiều màu quanh một tộ đất nhỏ đựng kho quẹt sệt màu nâu cánh gián có tôm khô và tóp mỡ">
+  <defs>
+    <linearGradient id="kquPot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8A5A34"/><stop offset="1" stop-color="#4E2E14"/>
+    </linearGradient>
+    <linearGradient id="kquSauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A4413"/><stop offset="1" stop-color="#4A2609"/>
+    </linearGradient>
+    <linearGradient id="kquPlate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF0"/><stop offset="1" stop-color="#E7DFC8"/>
+    </linearGradient>
+    <!-- đậu bắp: khía dọc + đầu nhọn, cắt vát một đầu -->
+    <g id="kquOkra">
+      <path d="M-30 0 C -30 -7 -22 -11 -6 -11 C 12 -11 26 -7 30 -1 C 26 6 12 10 -6 10 C -22 10 -30 6 -30 0 Z"
+            fill="#5E9440" stroke="#33601F" stroke-width="2.2"/>
+      <g fill="none" stroke="#8CC06A" stroke-width="1.8" stroke-linecap="round">
+        <path d="M-22 -4 L 22 -4 M -22 3 L 22 3"/>
+      </g>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <g class="steam">
+    <path d="M296 250 C 285 226 311 210 300 184 C 293 168 307 156 303 142"/>
+    <path d="M338 244 C 328 220 354 206 343 180 C 336 164 350 152 346 138"/>
+  </g>
+  <ellipse cx="256" cy="410" rx="200" ry="25" fill="rgba(15,26,14,.35)"/>
+
+  <!-- DĨA LỚN -->
+  <ellipse cx="256" cy="356" rx="198" ry="50" fill="#EFE8D4"/>
+  <ellipse cx="256" cy="350" rx="198" ry="50" fill="url(#kquPlate)" stroke="#D8D0B6" stroke-width="2"/>
+  <ellipse cx="256" cy="350" rx="198" ry="50" fill="none" stroke="#2C5234" stroke-width="4.5"/>
+  <ellipse cx="256" cy="351" rx="170" ry="41" fill="none" stroke="#E0A32E" stroke-width="2.4" stroke-dasharray="2 11" stroke-linecap="round"/>
+
+  <!-- KHỐI RAU CỦ LUỘC: bản 1 rải từng lát cách nhau nên ở 260px đọc ra "mấy
+       lát rau bay lơ lửng trên dĩa trống". Luật đợt 10: món ăn phải là MỘT
+       KHỐI — vẽ path khối liền làm nền đống trước, rồi mới đắp từng thứ lên,
+       miếng nào cũng chồng mép lên miếng khác. Khối dồn LỆCH về nửa trái-sau. -->
+  <!-- Thái: "đống rau nhìn như đang lơ lửng vậy" — hạ khối rau xuống sát mặt
+       dĩa và thêm BÓNG ĐỔ ngay dưới chân khối thì nó mới bám xuống được. -->
+  <ellipse cx="168" cy="344" rx="96" ry="16" fill="rgba(15,26,14,.38)"/>
+  <g transform="translate(142 312) scale(.6) translate(-148 -268)">
+  <path d="M96 330 C 104 268 152 236 216 234 C 282 232 330 260 340 320 C 300 352 138 356 96 330 Z"
+        fill="#2F5E2B"/>
+
+  <!-- lớp sau: bầu và bí trắng ngà, khoanh to -->
+  <g transform="translate(150 274) rotate(-12)">
+    <path d="M-40 0 C -40 -15 -22 -24 0 -24 C 22 -24 40 -15 40 0 C 40 14 22 23 0 23 C -22 23 -40 14 -40 0 Z"
+          fill="#EAF0D6" stroke="#7E9A5E" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="20" ry="10" fill="#F7FAE9"/>
+    <g fill="#CBDCA8"><ellipse cx="-6" cy="-1" rx="3.6" ry="2.4"/><ellipse cx="6" cy="2" rx="3.4" ry="2.2"/></g>
+  </g>
+  <g transform="translate(224 254) rotate(8)">
+    <path d="M-36 0 C -36 -14 -20 -22 0 -22 C 20 -22 36 -14 36 0 C 36 13 20 21 0 21 C -20 21 -36 13 -36 0 Z"
+          fill="#F0F5E0" stroke="#7E9A5E" stroke-width="3"/>
+    <ellipse cx="0" cy="0" rx="18" ry="9" fill="#FAFCF0"/>
+    <g fill="#CBDCA8"><ellipse cx="-5" cy="-1" rx="3.2" ry="2.2"/><ellipse cx="5" cy="2" rx="3" ry="2"/></g>
+  </g>
+
+  <!-- cà rốt khoanh cam, chồng mép lên bầu -->
+  <g transform="translate(292 268) rotate(-6)">
+    <path d="M0 -26 C 11 -26 26 -16 26 0 C 26 16 11 26 0 26 C -12 26 -26 16 -26 0 C -26 -16 -12 -26 0 -26 Z"
+          fill="#E08A2E" stroke="#A85D14" stroke-width="3"/>
+    <path d="M0 -14 C 8 -14 14 -8 14 0 C 14 8 8 14 0 14 C -8 14 -14 8 -14 0 C -14 -8 -8 -14 0 -14 Z" fill="#F2B45E"/>
+    <g fill="none" stroke="#C97418" stroke-width="2" stroke-linecap="round">
+      <path d="M-18 -11 L -9 -6 M 16 -11 L 8 -5 M 0 20 L 0 11"/>
+    </g>
+  </g>
+  <g transform="translate(112 302) rotate(14) scale(.84)">
+    <path d="M0 -26 C 11 -26 26 -16 26 0 C 26 16 11 26 0 26 C -12 26 -26 16 -26 0 C -26 -16 -12 -26 0 -26 Z"
+          fill="#D9821F" stroke="#A85D14" stroke-width="3.2"/>
+    <path d="M0 -14 C 8 -14 14 -8 14 0 C 14 8 8 14 0 14 C -8 14 -14 8 -14 0 C -14 -8 -8 -14 0 -14 Z" fill="#EDA84C"/>
+  </g>
+
+  <!-- đậu bắp xanh: nằm chéo, chồng lên khối, đầu chìa ra ngoài đường bao -->
+  <use href="#kquOkra" transform="translate(186 322) rotate(-14) scale(1.2)"/>
+  <use href="#kquOkra" transform="translate(268 306) rotate(9) scale(1.1)"/>
+  <use href="#kquOkra" transform="translate(118 254) rotate(-28) scale(.94)"/>
+
+  <!-- rau lang: cọng dài lá xoè, ló hẳn ra khỏi mép trái khối -->
+  <g>
+    <path d="M74 316 C 100 296 138 288 174 296" fill="none" stroke="#2A5322" stroke-width="8" stroke-linecap="round"/>
+    <path d="M74 316 C 100 296 138 288 174 296" fill="none" stroke="#6CA84C" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M72 312 C 54 292 54 268 70 256 C 86 268 88 296 72 312 Z" fill="#3E7B3A" stroke="#26521F" stroke-width="2.4"/>
+    <path d="M112 298 C 100 276 106 254 124 246 C 134 262 128 288 112 298 Z" fill="#4C8A3C" stroke="#26521F" stroke-width="2.4"/>
+    <g fill="none" stroke="#8CC06A" stroke-width="1.8" stroke-linecap="round">
+      <path d="M69 306 C 64 292 65 276 71 266"/>
+      <path d="M114 292 C 109 276 112 262 121 253"/>
+    </g>
+  </g>
+
+  <!-- su su xếp thấp, chồng mép lên cà rốt -->
+  <g transform="translate(322 296) rotate(-10)">
+    <path d="M-28 0 C -28 -12 -16 -19 0 -19 C 16 -19 28 -12 28 0 C 28 11 16 18 0 18 C -16 18 -28 11 -28 0 Z"
+          fill="#DDEBC6" stroke="#7E9A5E" stroke-width="3"/>
+    <path d="M-15 -4 C -8 -10 8 -10 15 -4" fill="none" stroke="#F2F8E4" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  </g>
+
+  <!-- TỘ KHO QUẸT: vật chính, đặt lệch phải-trước, chồng mép lên khối rau -->
+  <!-- Thái: "tộ kho quẹt phải bự hơn đống rau luộc nhiều chứ!" — vòng 2 phóng
+       tộ lên 1,5 lần và thu khối rau lại, trả tộ về vai vật chính. -->
+  <g transform="translate(318 312) scale(1.78)">
+    <ellipse cx="0" cy="42" rx="74" ry="17" fill="rgba(15,26,14,.32)"/>
+    <path d="M-64 -10 C -78 -10 -80 8 -66 10" fill="none" stroke="#6E4222" stroke-width="10" stroke-linecap="round"/>
+    <path d="M64 -10 C 78 -10 80 8 66 10" fill="none" stroke="#6E4222" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-66 -14 C -61 22 -37 40 0 40 C 37 40 61 22 66 -14 Z" fill="url(#kquPot)"/>
+    <path d="M-52 -4 C -48 17 -34 30 -14 36 C -34 27 -44 15 -46 -4 Z" fill="rgba(255,255,255,.2)"/>
+    <ellipse cx="0" cy="-16" rx="68" ry="19" fill="#7A4E2A" stroke="#3E2410" stroke-width="3.4"/>
+    <ellipse cx="0" cy="-14" rx="56" ry="14" fill="url(#kquSauce)"/>
+    <path d=" M -36 -19 L -6 -25 M -22 -9 L 6 -15" stroke="#A06A2C" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+    <g>
+      <path d="M-30 -16 C -35 -22 -27 -29 -17 -28 C -8 -27 -4 -20 -10 -15 C -16 -11 -25 -12 -30 -16 Z"
+            fill="#D8552C" stroke="#962E12" stroke-width="2"/>
+      <path d="M6 -21 C 1 -27 9 -34 19 -33 C 28 -32 32 -25 26 -20 C 20 -16 11 -17 6 -21 Z"
+            fill="#E2603C" stroke="#962E12" stroke-width="2"/>
+      <path d="M28 -11 C 24 -16 30 -22 38 -21 C 45 -20 48 -14 44 -10 C 39 -7 32 -8 28 -11 Z"
+            fill="#C94526" stroke="#962E12" stroke-width="1.9"/>
+    </g>
+    <g>
+      <path d="M-18 -7 L -8 -12 L -1 -6 L -11 -1 Z" fill="#E0AC58" stroke="#A87428" stroke-width="1.9"/>
+      <path d="M10 -9 L 20 -14 L 27 -8 L 17 -3 Z" fill="#EDBE6C" stroke="#A87428" stroke-width="1.9"/>
+      <path d="M-40 -7 L -31 -11 L -25 -5 L -34 -1 Z" fill="#D9A24A" stroke="#A87428" stroke-width="1.8"/>
+    </g>
+    <g>
+      <path d="M36 -26 C 44 -31 54 -31 60 -26" fill="none" stroke="#3E7B3A" stroke-width="2.8" stroke-linecap="round"/>
+      <g fill="#5E9440" stroke="#33601F" stroke-width="1.6">
+        <circle cx="38" cy="-24" r="4"/><circle cx="47" cy="-28" r="3.8"/><circle cx="56" cy="-24" r="3.5"/>
+      </g>
+      <g transform="translate(-44 -21) rotate(-18)">
+        <ellipse cx="0" cy="0" rx="12" ry="5.4" fill="#C3372B" stroke="#8B2018" stroke-width="2"/>
+        <ellipse cx="0" cy="0" rx="6.4" ry="2.6" fill="#E5705E"/>
+      </g>
+    </g>
+    <g fill="#4E7B36">
+      <ellipse cx="-8" cy="-23" rx="5.4" ry="2.3" transform="rotate(-14 -8 -23)"/>
+      <ellipse cx="28" cy="-19" rx="5" ry="2.2" transform="rotate(10 28 -19)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+---
+/* Chà bông thịt heo — VÒNG 2, sửa theo Thái: "hình nhìn cảm giác như hũ đồ ăn
+   bị rớt ra do tai nạn" và "nên có nhiều sợi bông tách nhau chứ không phải có
+   một đống".
+
+   Vòng 1 vẽ hũ NẰM NGHIÊNG đổ ra — ở 260px đọc thành tai nạn chứ không ra món.
+   Vòng 2: hũ ĐỨNG THẲNG, nắp mở gác bên cạnh, và phần chà bông dọn ra là một
+   NHÚM SỢI TƠI trên dĩa nhỏ trước hũ — sợi rời hẳn nhau, có khe hở, không đắp
+   thành đống liền.
+
+   BẢNG MÀU THẬT (tra 2026-08-01):
+   · SỢI CHÀ BÔNG — vàng nâu nhạt (#E0B064) tới vàng rơm sáng (#F4D79C); sợi
+     mảnh, xoăn, tơi xốp như bông gòn. KHÔNG phải nâu sẫm
+   · KHE GIỮA CÁC SỢI — nâu sẫm (#7A5222) lót dưới, để sợi sáng nổi lên trên nền
+     họ nâu (luật đợt 15: tách hai vật bằng tương phản sáng/tối)
+   · Món KHÔ, để nguội mới vô hũ ⇒ KHÔNG CÓ KHÓI. Đây là hình duy nhất của họ
+     nâu không khói, và đó là chủ ý
+   id prefix "cbg" */
+---
+<svg viewBox="0 0 520 470" role="img" aria-label="Hũ thủy tinh đứng đầy chà bông thịt heo, nắp gỗ gác bên cạnh, phía trước là dĩa nhỏ đựng nhúm chà bông sợi vàng tơi rời nhau, cạnh đó có khoanh bánh mì">
+  <defs>
+    <linearGradient id="cbgJar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="rgba(255,255,255,.40)"/>
+      <stop offset="0.5" stop-color="rgba(255,255,255,.13)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,.28)"/>
+    </linearGradient>
+    <!-- TÚM SỢI: mấy nét cong XOĂN rời nhau, không nét nào song song nét nào -->
+    <g id="cbgTuft">
+      <path d="M-32 4 C -22 -7 -6 -9 6 -3 C 17 2 28 0 36 -7" fill="none" stroke="#E0B064" stroke-width="3.2" stroke-linecap="round"/>
+      <path d="M-27 11 C -14 2 1 3 13 9 C 22 13 30 10 36 4" fill="none" stroke="#F4D79C" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M-23 -3 C -12 -14 5 -16 18 -10" fill="none" stroke="#D6A054" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M-5 14 C 6 18 19 16 28 9" fill="none" stroke="#EFC781" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <circle cx="260" cy="240" r="200" fill="rgba(255,255,255,.055)"/>
+  <circle cx="260" cy="240" r="228" fill="none" stroke="rgba(242,214,138,.4)" stroke-width="3" stroke-dasharray="3 16" stroke-linecap="round"/>
+  <ellipse cx="256" cy="410" rx="196" ry="25" fill="rgba(15,26,14,.35)"/>
+
+  <!-- ĐẠO CỤ PHẢI: khoanh bánh mì cắt vát, ruột xốp, có rắc chà bông -->
+  <g transform="translate(410 332) rotate(-12)">
+    <ellipse cx="4" cy="50" rx="52" ry="13" fill="rgba(15,26,14,.3)"/>
+    <path d="M-40 14 C -45 -10 -27 -26 0 -26 C 27 -26 45 -10 40 14 C 27 28 -27 28 -40 14 Z"
+          fill="#D9A65C" stroke="#A2712C" stroke-width="2.8"/>
+    <path d="M-31 10 C -35 -8 -21 -19 0 -19 C 21 -19 35 -8 31 10 C 20 20 -20 20 -31 10 Z"
+          fill="#F4E5C2" stroke="#D6BE8E" stroke-width="2.2"/>
+    <g fill="#E2CFA4">
+      <ellipse cx="-13" cy="-2" rx="5.4" ry="4"/><ellipse cx="5" cy="-8" rx="4.8" ry="3.4"/>
+      <ellipse cx="15" cy="3" rx="4.2" ry="3.2"/><ellipse cx="-4" cy="7" rx="3.8" ry="2.8"/>
+    </g>
+    <use href="#cbgTuft" transform="translate(0 -3) scale(.5)"/>
+  </g>
+
+  <!-- HŨ THỦY TINH ĐỨNG THẲNG, đầy chà bông -->
+  <g transform="translate(286 216) scale(1.02)">
+    <ellipse cx="0" cy="126" rx="76" ry="18" fill="rgba(15,26,14,.32)"/>
+    <!-- thân hũ -->
+    <path d="M-68 -70 L 68 -70 L 62 104 C 61.4 112 55 116 46 116 L -46 116 C -55 116 -61.4 112 -62 104 Z"
+          fill="url(#cbgJar)" stroke="rgba(255,255,255,.6)" stroke-width="3.4"/>
+    <!-- chà bông trong hũ: lót nâu sẫm rồi đắp sợi sáng lên -->
+    <path d="M-58 -50 L 58 -50 L 53 100 C 52.6 106 48 109 41 109 L -41 109 C -48 109 -52.6 106 -53 100 Z"
+          fill="#7A5222"/>
+    <use href="#cbgTuft" transform="translate(-24 -34) rotate(-8) scale(1.06)"/>
+    <use href="#cbgTuft" transform="translate(18 -44) rotate(7) scale(.96)"/>
+    <use href="#cbgTuft" transform="translate(-10 -8) rotate(-14) scale(1.1)"/>
+    <use href="#cbgTuft" transform="translate(26 4) rotate(10) scale(.94)"/>
+    <use href="#cbgTuft" transform="translate(-28 22) rotate(5) scale(1.02)"/>
+    <use href="#cbgTuft" transform="translate(14 44) rotate(-11) scale(.98)"/>
+    <use href="#cbgTuft" transform="translate(-18 66) rotate(13) scale(.9)"/>
+    <use href="#cbgTuft" transform="translate(22 84) rotate(-5) scale(.86)"/>
+    <!-- vành miệng hũ -->
+    <rect x="-74" y="-82" width="148" height="16" rx="7" fill="rgba(255,255,255,.44)" stroke="rgba(255,255,255,.72)" stroke-width="3"/>
+    <!-- ánh sáng dọc thân -->
+    <path d="M-48 -56 L -50 96" stroke="rgba(255,255,255,.5)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M44 -50 L 42 60" stroke="rgba(255,255,255,.24)" stroke-width="4.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- DĨA NHỎ ĐỰNG NHÚM CHÀ BÔNG, đặt trước hũ — SỢI RỜI HẲN NHAU -->
+  <g transform="translate(206 372) scale(1.55)">
+    <ellipse cx="0" cy="16" rx="86" ry="20" fill="rgba(15,26,14,.3)"/>
+    <ellipse cx="0" cy="6" rx="84" ry="24" fill="#F1EAD6"/>
+    <ellipse cx="0" cy="2" rx="84" ry="24" fill="#FDFAF0" stroke="#D8D0B6" stroke-width="2.2"/>
+    <ellipse cx="0" cy="2" rx="84" ry="24" fill="none" stroke="#2C5234" stroke-width="3.4"/>
+    <ellipse cx="0" cy="3" rx="66" ry="17" fill="#F6F1E1"/>
+    <!-- khe nâu sẫm lót dưới, chỉ vài vệt — cố ý KHÔNG phủ kín để sợi đọc ra rời -->
+    <g fill="none" stroke="#7A5222" stroke-width="7" stroke-linecap="round" opacity=".75">
+      <path d="M-50 -2 C -34 -12 -10 -14 8 -9"/>
+      <path d="M-20 6 C 0 -4 26 -6 46 0"/>
+      <path d="M-32 12 C -14 6 8 5 24 9"/>
+    </g>
+    <use href="#cbgTuft" transform="translate(-44 -6) rotate(-12) scale(1.15)"/>
+    <use href="#cbgTuft" transform="translate(-6 -14) rotate(9) scale(1.22)"/>
+    <use href="#cbgTuft" transform="translate(34 -6) rotate(-6) scale(1.12)"/>
+    <use href="#cbgTuft" transform="translate(-26 6) rotate(15) scale(1.06)"/>
+    <use href="#cbgTuft" transform="translate(16 8) rotate(-16) scale(1.1)"/>
+    <use href="#cbgTuft" transform="translate(52 6) rotate(7) scale(.94)"/>
+    <use href="#cbgTuft" transform="translate(-4 16) rotate(-3) scale(1)"/>
+  </g>
+
+  <!-- VÀI SỢI RỜI HẲN rơi trên bàn, tách khỏi dĩa -->
+  <g fill="none" stroke="#E0B064" stroke-width="2.8" stroke-linecap="round">
+    <path d="M96 384 C 106 376 118 374 128 378"/>
+    <path d="M78 400 C 88 393 100 392 108 396"/>
+    <path d="M300 392 C 312 384 324 384 332 388"/>
+    <path d="M340 376 C 350 368 362 368 370 372"/>
+  </g>
+  <g fill="none" stroke="#F4D79C" stroke-width="1.9" stroke-linecap="round">
+    <path d="M100 388 C 110 381 120 380 128 383"/>
+    <path d="M304 396 C 314 389 324 389 331 392"/>
+  </g>
+</svg>

@@ -1,0 +1,380 @@
+title: Súp cua **sánh đặc, thớ cua nguyên miếng**
+summary: >-
+  Chén súp sánh vàng nhạt, **thịt cua gỡ ra còn nguyên thớ**, vân trứng kéo
+  thành sợi mảnh và mấy múi trứng bắc thảo đen nằm trên mặt. Rắc tiêu, thả
+  mấy khoanh quẩy giòn, xúc muỗng nào cũng đủ vị.
+region: Miền Nam
+category: Món nước
+occasions: [Ăn chơi, Đãi khách]
+pubDate: 2026-08-01
+time:
+  total: 1 giờ
+  active: 45 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 123
+art: sup-cua
+heroEyebrow: Chén nhỏ mà đủ thứ trong đó…
+
+quick:
+  ingredients:
+    - Cua biển [[600|g]] (hoặc ghẹ) — hấp rồi gỡ lấy thịt, giữ nước hấp
+    - Ức gà [[150|g]] · trứng cút [[8|quả]] · trứng bắc thảo [[2|quả]]
+    - Bắp ngọt [[1|trái]] · nấm đông cô [[4|cái]] · cà rốt [[0.5|củ|frac]]
+    - Trứng gà [[2|quả]] · bột năng [[3|muỗng canh]] · nước dùng gà [[1.2|lít]]
+  steps:
+    - Hấp cua với gừng và sả **12–15 phút**, gỡ thịt ra **để nguyên thớ**, giữ lại nước hấp.
+    - Luộc ức gà trong nước dùng, vớt ra xé sợi; luộc trứng cút, bóc vỏ.
+    - Nấm đông cô ngâm nở thái sợi, bắp tách hạt, cà rốt thái hạt lựu nhỏ.
+    - Đun nước dùng với nước hấp cua, thả bắp, cà rốt, nấm — nấu **10 phút**.
+    - Nêm nước mắm, muối, đường, tiêu. Cho gà xé và trứng cút vào.
+    - "**Rót bột năng pha loãng từ từ**, khuấy tới khi súp sánh như hồ loãng."
+    - Tắt bếp rồi mới **rót trứng đánh tan thành dòng chỉ**, khuấy một chiều cho ra vân.
+    - Thả thịt cua vào sau cùng, đảo nhẹ. Múc chén, xếp trứng bắc thảo lên mặt.
+  warning: >-
+    Cho thịt cua vào sớm rồi khuấy là **thớ cua tan hết thành sợi vụn**, chén
+    súp mất luôn thứ đắt tiền nhất. Cua vào sau cùng, tắt bếp, và chỉ đảo một
+    vòng thật nhẹ.
+
+flavor:
+  chua: 0
+  ngot: 5
+  man: 5.5
+  cay: 2
+  thom: 6
+flavorNote: >-
+  **Chuẩn chén súp:** sánh tới mức **muỗng múc lên thì chảy thành dòng chậm**,
+  chứ không lỏng như canh cũng không đặc như hồ. Thịt cua còn ra miếng, cắn có
+  thớ. Vân trứng là **sợi mảnh dài**, không phải mảng trứng dày.
+storyEyebrow: Chuyện chén súp cua
+storyTitle: Món ăn chơi buổi chiều, **múc bằng chén chứ không bằng tô**
+story:
+  - >-
+    Súp cua là món quà chiều quen thuộc của Sài Gòn: một chén nhỏ sánh đặc,
+    nóng, ăn bằng muỗng, mua ở xe đẩy đầu hẻm hay quán vỉa hè. Không phải món
+    chan cơm, cũng không phải một tô no bụng — nó nằm giữa hai thứ đó, và
+    người ta ăn nó vào lúc chưa đói hẳn mà thèm cái gì nong nóng.
+  - >-
+    Cùng lúc đó, súp cua lại là món mở màn quen mặt của **bàn tiệc cưới** —
+    chén đầu tiên được bưng ra trước khi tới các món chính. Cùng một công
+    thức, đổi cái chén là đổi hẳn chỗ đứng.
+  - >-
+    Thứ quyết định chén súp ngon hay dở không phải gia vị mà là **cách xử lý
+    thịt cua**. Cua hấp xong phải gỡ nhẹ tay để thớ thịt còn nguyên, và chỉ
+    được thả vào nồi ở giây cuối cùng. Nấu kỹ hay khuấy mạnh thì thớ cua tan
+    ra, chén súp còn ngọt nhưng mất hẳn cái miếng để cắn.
+
+ingredientGroups:
+  - name: Cua & gà
+    icon: shrimp
+    items:
+      - id: cua
+        name: Cua biển (hoặc ghẹ)
+        icon: shrimp
+        color: red
+        base: 600
+        unit: g
+        note: >-
+          Chọn con **chắc thịt, ấn vào yếm thấy cứng**. Cua thịt chứ đừng cua
+          gạch. Ghẹ rẻ hơn và thịt ngọt, dùng thay được
+      - id: ucga
+        name: Ức gà
+        icon: meat
+        base: 150
+        unit: g
+        note: Luộc rồi xé sợi nhỏ — làm đầy chén súp mà không lấn vị cua
+      - id: xuongga
+        name: Xương gà (nấu nước dùng)
+        icon: meat
+        base: 400
+        unit: g
+        note: >-
+          Ninh 40 phút lấy [[1.2|lít]] nước trong. Không có thì dùng nước luộc
+          gà, hoặc nước lọc và nêm đậm hơn
+  - name: Trứng
+    icon: egg
+    items:
+      - id: trungcut
+        name: Trứng cút
+        icon: egg
+        base: 8
+        unit: quả
+        note: Luộc 4 phút, bóc vỏ, để nguyên quả
+      - id: trungbacthao
+        name: Trứng bắc thảo
+        icon: egg
+        base: 2
+        unit: quả
+        note: >-
+          Trứng vịt ủ trong hỗn hợp tro và vôi cho lòng trắng chuyển sang màu
+          nâu trong như thạch. Bổ múi cau, xếp lên mặt chén lúc dọn
+      - id: trungga
+        name: Trứng gà
+        icon: egg
+        base: 2
+        unit: quả
+        note: >-
+          Đánh tan thật kỹ rồi lọc qua rây — có lọc thì vân trứng mới ra sợi
+          mảnh đều
+  - name: Rau củ & nấm
+    icon: pod
+    items:
+      - id: bap
+        name: Bắp ngọt
+        icon: pod
+        color: gold
+        base: 1
+        unit: trái
+        note: Tách hạt. Bắp là chỗ ngọt nền của chén súp
+      - id: namdongco
+        name: Nấm đông cô
+        icon: pod
+        base: 4
+        unit: cái
+        note: Ngâm nước ấm 20 phút cho nở, bỏ chân, thái sợi. Giữ nước ngâm nấu cùng
+      - id: carot
+        name: Cà rốt
+        icon: pod
+        color: red
+        base: 0.5
+        unit: củ
+        frac: true
+        note: Thái hạt lựu thật nhỏ — to quá thì lấn miếng cua
+      - id: ngo
+        name: Ngò rí
+        icon: herb
+        color: green
+        qtyText: Một nhúm
+        note: Thái nhỏ, rắc lúc dọn
+  - name: Làm sánh & nêm
+    icon: jar
+    items:
+      - id: botnang
+        name: Bột năng
+        icon: rice
+        base: 3
+        unit: muỗng canh
+        note: >-
+          Pha với [[6|muỗng canh]] nước lạnh cho tan hẳn. Rót từ từ, dừng khi
+          thấy vừa sánh
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Nêm vào cuối cùng cho giữ mùi
+      - id: giavi
+        name: Gia vị lặt vặt
+        icon: jar
+        qtyText: Muối · đường · tiêu · dầu mè
+        note: Tiêu rắc lúc dọn; dầu mè nhỏ vài giọt cho thơm
+      - id: quay
+        name: Quẩy
+        icon: bread
+        qtyText: Một cây
+        note: Cắt khoanh mỏng, hong lại cho giòn, thả lên mặt chén lúc ăn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **chén súp sánh, thớ cua còn nguyên**
+stepsLead: >-
+  Phần lâu nhất là ninh nước dùng và gỡ cua, làm trước được cả. Lúc nấu thì
+  chỉ có ba chỗ phải canh: độ sánh, dòng trứng, và giây thả cua vào.
+steps:
+  - title: Hấp cua và gỡ thịt cho khéo
+    icon: shrimp
+    minutes: 25 phút
+    intro: "Gỡ nhẹ tay ở đây thì chén súp đẹp ở cuối:"
+    bullets:
+      - text: >-
+          Rửa cua, hấp với vài lát gừng và cây sả đập dập **12–15 phút** kể từ
+          lúc nước sôi. **Giữ lại phần nước chảy ra dưới xửng** — đó là nước
+          ngọt nhất.
+      - label: "Gỡ thịt:"
+        text: >-
+          Tách mai, bẻ càng, dùng chày dằn nhẹ cho nứt vỏ rồi **gỡ thịt ra
+          từng miếng theo thớ**. Đừng dùng nĩa cào — cào là nát.
+      - text: >-
+          Rà lại một lượt bằng tay để chắc chắn **không còn mảnh vỏ nào**. Vỏ
+          cua sắc và rất khó phát hiện khi đã lẫn trong súp.
+      - text: Để thịt cua riêng trong chén, đậy lại, cất ngăn mát cho tới lúc dùng.
+  - title: Chuẩn bị nước dùng và các thứ trong chén
+    icon: pot
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Ninh xương gà [[40|phút]] lấy [[1.2|lít]] nước dùng trong. Lọc, rồi
+          **pha thêm phần nước hấp cua** vào.
+      - text: >-
+          Luộc ức gà trong chính nồi nước dùng đó chừng 12 phút, vớt ra để
+          nguội rồi **xé sợi nhỏ dọc thớ**.
+      - text: >-
+          Luộc trứng cút 4 phút, bóc vỏ. Ngâm nấm đông cô cho nở rồi thái sợi.
+          Tách hạt bắp, thái cà rốt hạt lựu.
+      - text: >-
+          Trứng bắc thảo bổ múi cau, để riêng — thứ này chỉ xếp lên mặt lúc
+          dọn, không nấu trong nồi.
+  - title: Nấu và làm sánh
+    icon: flame
+    minutes: 15 phút
+    bullets:
+      - text: >-
+          Đun nước dùng sôi, thả bắp, cà rốt và nấm vào nấu **10 phút** cho
+          ngọt nước và rau củ chín mềm.
+      - text: >-
+          Nêm [[1|muỗng canh]] nước mắm, chút muối, chút đường, tiêu. Nếm cho
+          **vừa miệng lúc này**, vì lát nữa bột năng sẽ làm vị nhạt đi một
+          chút.
+      - text: Cho gà xé và trứng cút vào, đun thêm 2 phút.
+      - label: "Làm sánh:"
+        text: >-
+          **Rót bột năng đã pha loãng thành dòng nhỏ**, vừa rót vừa khuấy đều.
+          Dừng lại khi múc muỗng lên thấy súp **chảy xuống thành dòng chậm**.
+          Đừng đổ hết một lần.
+    callout:
+      type: warn
+      text: >-
+        Súp sẽ **đặc thêm khi nguội bớt**, nên dừng lúc còn hơi loãng hơn ý
+        muốn. Lỡ đặc quá thì chế thêm nước dùng nóng, khuấy đều — đừng chế
+        nước lạnh.
+  - title: Rót trứng thành vân
+    icon: egg
+    minutes: 3 phút
+    intro: "Muốn vân trứng ra sợi mảnh thì làm đúng ba việc sau:"
+    bullets:
+      - text: >-
+          **Tắt bếp** (hoặc hạ lửa nhỏ nhất) trước khi rót. Nước đang sôi bùng
+          thì trứng vón thành mảng.
+      - text: >-
+          Đánh tan trứng, **lọc qua rây**, rồi rót **thành dòng chỉ thật mảnh**
+          từ trên cao xuống, đi vòng quanh nồi.
+      - text: >-
+          Tay kia khuấy **chậm và theo một chiều duy nhất**. Đảo qua đảo lại là
+          vân đứt vụn.
+      - text: Để yên 30 giây cho vân trứng se lại rồi mới động vào nồi.
+  - title: Thả cua và múc chén
+    icon: bowl
+    minutes: 3 phút
+    bullets:
+      - text: >-
+          Trút thịt cua vào nồi, **đảo đúng một vòng nhẹ** bằng muỗng lớn rồi
+          thôi. Nhiệt trong nồi đủ làm ấm thịt cua.
+      - text: >-
+          Múc ra **chén nhỏ**, xếp mấy múi trứng bắc thảo lên mặt, rắc tiêu và
+          ngò, nhỏ vài giọt dầu mè.
+      - text: >-
+          Thả mấy khoanh quẩy lên trên ngay trước khi bưng — thả sớm là quẩy
+          ngấm nước và mềm.
+    doneText: Xúc muỗng đầu tiên — sánh, nóng, có thớ cua. Xong!
+
+tipsTitle: 6 bí quyết cho **chén súp sánh đúng, cua còn miếng**
+tipsLead: >-
+  Súp cua hỏng theo bốn kiểu: loãng như canh, đặc như hồ, vân trứng vón mảng,
+  và thịt cua tan mất. Sáu điều dưới đây chặn hết.
+tips:
+  - icon: shrimp
+    title: Cua thả sau cùng, và chỉ đảo một vòng
+    text: >-
+      Thịt cua đã chín sẵn từ lúc hấp, cho vào nồi chỉ để làm ấm. Nấu thêm hay
+      khuấy nhiều là thớ tách ra thành sợi vụn — chén súp vẫn ngọt nhưng nhìn
+      không còn thấy cua đâu nữa.
+  - icon: drop
+    title: Bột năng pha loãng, rót từ từ, dừng sớm
+    text: >-
+      Đổ ào là vón cục, mà cục bột thì không khuấy tan lại được. Pha với nước
+      lạnh cho tan hẳn, rót thành dòng nhỏ, và nhớ rằng súp còn đặc thêm khi
+      nguội.
+  - icon: egg
+    title: Tắt bếp rồi mới rót trứng
+    text: >-
+      Đây là chỗ quyết định vân trứng ra sợi hay ra mảng. Nước phải lặng, dòng
+      trứng phải mảnh, và khuấy chỉ một chiều. Lọc trứng qua rây trước khi rót
+      cũng ăn thua nhiều.
+  - icon: pot
+    title: Giữ lại nước hấp cua
+    text: >-
+      Phần nước chảy xuống đáy xửng lúc hấp là thứ ngọt đậm nhất của con cua.
+      Đổ đi là phí — chắt hết vào nồi nước dùng, chén súp đậm hẳn lên mà không
+      cần nêm thêm.
+  - icon: alert
+    title: Rà kỹ mảnh vỏ trước khi thả vào nồi
+    text: >-
+      Mảnh vỏ cua sắc, lẫn trong súp sánh thì gần như không nhìn thấy. Sau khi
+      gỡ, dàn thịt cua ra dĩa trắng và rà bằng đầu ngón tay một lượt — hai
+      phút cho yên tâm cả chén.
+  - icon: bread
+    title: Quẩy thả lúc bưng ra, không thả sớm
+    text: >-
+      Quẩy giòn gặp súp nóng thì mềm rất nhanh. Hong lại quẩy trên chảo hoặc
+      trong lò cho giòn, cắt khoanh, và chỉ thả lên mặt chén ở giây cuối.
+
+serve:
+  title: Chén súp cua — **buổi chiều, hoặc chén mở màn bàn tiệc**
+  paras:
+    - >-
+      Múc chén nhỏ, ăn nóng, kèm một muỗng sứ. Trên mặt chén nên có đủ ba thứ
+      cho vui mắt: mấy múi trứng bắc thảo màu nâu trong, nhúm ngò xanh, và
+      mấy khoanh quẩy vàng. Rắc tiêu ngay trước khi ăn cho dậy mùi.
+    - >-
+      Nhà nào thích đậm thì để sẵn chén **nước tương ớt** hoặc lọ **giấm tiều**
+      bên cạnh — vài giọt chua cay làm chén súp bật lên. Ăn chơi buổi chiều thì
+      một chén là đủ; dọn mở màn bữa tiệc thì múc chén nhỏ hơn nữa.
+  aside:
+    title: Dọn kèm gì cho đủ
+    intro: "Ba thứ để cạnh chén súp:"
+    items:
+      - icon: bread
+        text: "**Quẩy cắt khoanh** — hong lại cho giòn, thả lên mặt lúc ăn."
+      - icon: pepper
+        text: "**Lọ tiêu xay** — súp cua phải rắc tiêu mới đúng."
+      - icon: bottle
+        text: "**Chén nước tương ớt hoặc giấm tiều** — vài giọt cho bật vị."
+
+faq:
+  - q: Dùng thịt cua đóng hộp hay thanh cua được không?
+    a: >-
+      **Thịt cua đóng hộp** thì được — vắt bớt nước rồi thả vào ở bước cuối như
+      cua tươi. **Thanh cua** (surimi) thì là thứ khác hẳn: làm từ cá xay ép
+      thành thanh, xé ra không có thớ và vị ngọt kiểu khác. Dùng cũng ăn được,
+      nhưng đừng trông đợi miếng cua thật.
+  - q: Súp bị loãng hoặc đặc quá thì chữa sao?
+    a: >-
+      **Loãng**: đun sôi nhẹ rồi rót thêm bột năng pha loãng từng thìa, khuấy
+      đều. **Đặc**: chế thêm nước dùng nóng và khuấy — đừng dùng nước lạnh,
+      súp sẽ vón. Cả hai đều chữa được dễ dàng, nên cứ mạnh dạn nêm.
+  - q: Vân trứng bị vón thành mảng dày?
+    a: >-
+      Ba nguyên nhân: **nước còn sôi mạnh khi rót**, **rót quá nhanh**, hoặc
+      **khuấy hai chiều**. Lần sau tắt bếp trước, lọc trứng qua rây, rót thành
+      dòng chỉ từ trên cao và khuấy chậm một chiều. Nồi đã vón thì vẫn ngon,
+      chỉ là nhìn không mảnh.
+  - q: Nấu chay được không?
+    a: >-
+      Được. Nước dùng nấu từ **bắp, củ cải trắng, nấm đông cô và rong biển**;
+      thay cua và gà bằng **nấm bào ngư xé sợi** (xé ra rất giống thớ cua) và
+      **đậu hũ non cắt hạt lựu**. Bỏ trứng hoặc giữ tuỳ nhà. Vẫn làm sánh
+      bằng bột năng như thường.
+  - q: Nấu trước rồi hâm lại được không?
+    a: >-
+      Được, nhưng nấu tới bước làm sánh thôi rồi tắt bếp. **Phần trứng và
+      phần cua để riêng**, khi nào ăn mới hâm nồi lên, rót trứng rồi thả cua.
+      Hâm cả nồi đã có trứng và cua thì vân trứng nát và thịt cua tan.
+  - q: Để tủ lạnh được mấy ngày?
+    a: >-
+      **2 ngày** ngăn mát. Súp để lạnh sẽ đông đặc lại — hâm nóng và chế thêm
+      chút nước dùng là trở lại bình thường. Đừng cấp đông: bột năng rã đông
+      thì tách nước, chén súp lợn cợn.
+
+ticker:
+  - icon: shrimp
+    text: Thịt cua gỡ theo thớ, thả sau cùng
+  - icon: egg
+    text: Tắt bếp rồi mới rót trứng thành vân
+  - icon: drop
+    text: Sánh tới mức muỗng chảy thành dòng chậm
+  - icon: pot
+    text: Giữ lại nước hấp cua cho vào nồi
+  - icon: bread
+    text: Quẩy thả lên mặt lúc bưng ra
+  - icon: bowl
+    text: Chén quà chiều, và chén mở màn bàn tiệc

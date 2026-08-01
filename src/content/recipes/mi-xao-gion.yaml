@@ -1,0 +1,400 @@
+title: Mì xào giòn **sợi rụm dưới lớp sốt sánh**
+summary: >-
+  Vắt mì trứng chiên ngập dầu thành **ổ vàng giòn rụm**, bên trên đổ một lớp
+  sốt sánh nóng đầy tôm, mực, gan và cải ngọt. Ăn nhanh tay: chỗ sốt chạm tới
+  thì mềm ngọt, chỗ còn khô vẫn rụm tan trong miệng.
+region: Miền Nam
+category: Xào
+occasions: [Đãi khách, Ăn chơi]
+pubDate: 2026-08-01
+time:
+  total: 45 phút
+  active: 40 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 118
+art: mi-xao-gion
+heroEyebrow: Món ăn có hai kết cấu cùng lúc…
+
+quick:
+  ingredients:
+    - Mì trứng sợi nhỏ [[300|g]] — loại vắt khô, chiên ngập dầu
+    - Tôm [[200|g]] · mực [[150|g]] · gan heo [[100|g]] (hoặc thay bằng thịt nạc)
+    - Cải ngọt [[200|g]] · cà rốt [[1|củ]] · nấm rơm [[100|g]] · hành tây [[0.5|củ|frac]]
+    - "Sốt: dầu hào [[2|muỗng canh]] · nước tương [[1|muỗng canh]] · bột năng [[2|muỗng canh]] · nước dùng [[400|ml]]"
+  steps:
+    - Trụng mì **30 giây** cho sợi rời, xả nước lạnh, để **thật ráo** — còn ướt là chiên bắn dầu.
+    - Chiên mì ngập dầu nóng già, ép thành **ổ tròn dẹt**, vàng đều hai mặt thì vớt ra giấy thấm.
+    - Ướp tôm mực gan với chút muối tiêu dầu hào, **chần nhanh qua nước sôi** rồi vớt ra.
+    - Phi tỏi, xào cà rốt và hành tây trước, cải ngọt và nấm sau — rau còn xanh giòn thì trút ra.
+    - Đổ nước dùng vào chảo, nêm dầu hào nước tương, **rót bột năng pha loãng từ từ** tới khi sốt sánh.
+    - Trả hải sản và rau vào chảo, đảo nhẹ một vòng rồi tắt bếp ngay.
+    - "Dọn: đặt ổ mì ra dĩa sâu lòng, **chan sốt lên giữa** cho tràn ra mép."
+  warning: >-
+    Chan sốt sớm rồi để đó là cả dĩa mì **ỉu nhũn trong ba phút**. Chiên mì
+    xong cứ để riêng, bắc chảo sốt xong mới chan — và chan ngay trước khi bưng
+    ra bàn.
+
+flavor:
+  chua: 1
+  ngot: 4
+  man: 6
+  cay: 1
+  thom: 7
+flavorNote: >-
+  **Chuẩn dĩa mì:** sốt **sánh bám được vào muỗng** chứ không lỏng chảy tràn
+  dĩa; mì ở rìa vẫn **giòn rụm** khi đã ăn tới nửa dĩa. Tôm mực chín tới, còn
+  sần sật; cải ngọt xanh và giòn ở cọng.
+storyEyebrow: Chuyện dĩa mì xào giòn
+storyTitle: Một món, **hai kết cấu**, và một cuộc chạy đua với thời gian
+story:
+  - >-
+    Mì xào giòn là món của mấy tiệm ăn người Hoa trong vùng Chợ Lớn, và cách
+    dựng món khá lạ: hai phần được nấu **hoàn toàn tách nhau** rồi chỉ gặp
+    nhau đúng lúc bưng ra bàn. Phần dưới là ổ mì trứng chiên ngập dầu, vàng
+    và rụm. Phần trên là chảo sốt sánh nóng hổi đầy tôm mực và rau.
+  - >-
+    Cái hay nằm ở chỗ hai phần đó **không bao giờ hoà làm một**. Sốt ngấm dần
+    từ giữa ra, nên gắp muỗng đầu tiên thì mì mềm ngọt đẫm sốt, gắp tới rìa
+    dĩa lại thấy sợi khô rụm gãy tanh tách. Một dĩa mà ăn được hai kiểu, và
+    kiểu nào cũng đúng.
+  - >-
+    Đổi lại, món này **không chờ được**. Nấu xong là phải ăn. Nên khi làm ở
+    nhà, thứ tự quan trọng hơn kỹ thuật: chiên mì trước để nguội cũng không
+    sao, nhưng chảo sốt phải là việc cuối cùng, và chan xong là bưng lên bàn
+    ngay.
+
+ingredientGroups:
+  - name: Mì và chảo dầu
+    icon: noodle
+    items:
+      - id: mitrung
+        name: Mì trứng sợi nhỏ
+        icon: noodle
+        color: gold
+        base: 300
+        unit: g
+        note: >-
+          Loại vắt khô sợi mảnh, màu vàng. Sợi to quá thì chiên xong cứng như
+          bánh, sợi quá mảnh thì cháy trước khi vàng đều
+      - id: dauchien
+        name: Dầu ăn (để chiên)
+        icon: bottle
+        base: 500
+        unit: ml
+        note: >-
+          Đủ ngập nửa ổ mì trong chảo sâu lòng. Chiên xong để nguội, lọc lại
+          dùng tiếp được
+  - name: Nhân xào
+    icon: shrimp
+    items:
+      - id: tom
+        name: Tôm tươi
+        icon: shrimp
+        color: red
+        base: 200
+        unit: g
+        note: Lột vỏ, chừa đuôi cho đẹp, rút chỉ lưng
+      - id: muc
+        name: Mực ống
+        icon: fish
+        base: 150
+        unit: g
+        note: >-
+          Khía vẩy rồng rồi cắt miếng vừa ăn — khía xong miếng mực cuộn lại,
+          ngấm sốt tốt hơn
+      - id: ganheo
+        name: Gan heo
+        icon: meat
+        color: red
+        base: 100
+        unit: g
+        note: >-
+          Thái lát mỏng, ngâm nước muối loãng 10 phút rồi rửa lại. Nhà không ăn
+          gan thì thay bằng thịt nạc thái lát
+      - id: cangot
+        name: Cải ngọt
+        icon: lettuce
+        color: green
+        base: 200
+        unit: g
+        note: Cắt khúc [[5|cm]], tách riêng phần cọng và phần lá
+      - id: carot
+        name: Cà rốt
+        icon: pod
+        color: red
+        base: 1
+        unit: củ
+        note: Thái lát mỏng chéo, hoặc tỉa hoa nếu làm đãi khách
+      - id: namrom
+        name: Nấm rơm
+        icon: pod
+        base: 100
+        unit: g
+        note: Bổ đôi theo chiều dọc, chần qua nước sôi có chút muối
+      - id: hanhtay
+        name: Hành tây
+        icon: onion
+        base: 0.5
+        unit: củ
+        frac: true
+        note: Cắt múi cau, cho vào sau cùng để còn giòn
+  - name: Sốt
+    icon: bottle
+    items:
+      - id: nuocdung
+        name: Nước dùng (hoặc nước lọc)
+        icon: drop
+        base: 400
+        unit: ml
+        note: >-
+          Nước luộc gà hay nước hầm xương thì đậm hơn hẳn; không có thì dùng
+          nước lọc và nêm mạnh tay hơn một chút
+      - id: dauhao
+        name: Dầu hào
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        note: Thứ làm nên vị nền của sốt — đừng thay bằng nước mắm
+      - id: nuoctuong
+        name: Nước tương
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: Cho màu và vị mặn dịu
+      - id: botnang
+        name: Bột năng
+        icon: rice
+        base: 2
+        unit: muỗng canh
+        note: >-
+          Pha với [[4|muỗng canh]] nước lạnh cho tan hẳn rồi mới rót vào chảo,
+          rót từ từ và khuấy liên tục
+      - id: daume
+        name: Dầu mè
+        icon: bottle
+        base: 1
+        unit: muỗng cà phê
+        note: Rưới lúc tắt bếp, đừng nấu — nấu là bay hết mùi
+      - id: giavi
+        name: Gia vị lặt vặt
+        icon: jar
+        qtyText: Tỏi · tiêu · đường · muối
+        note: Tỏi băm để phi; tiêu rắc lúc dọn
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **dĩa mì giòn rụm dưới lớp sốt sánh**
+stepsLead: >-
+  Thứ tự là tất cả ở món này. Chiên mì trước, sơ chế xong hết mọi thứ, rồi
+  mới bắc chảo sốt — vì từ lúc sốt sánh tới lúc lên bàn chỉ nên có một phút.
+steps:
+  - title: Trụng mì rồi làm cho thật ráo
+    icon: noodle
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Thả vắt mì vào nồi nước sôi **đúng 30 giây**, dùng đũa gỡ cho sợi
+          tách rời nhau, rồi vớt ra xả ngay dưới vòi nước lạnh.
+      - text: >-
+          Trải mì ra rổ thưa, **xóc cho ráo hết nước**, để chừng 10 phút cho
+          khô mặt sợi. Sốt ruột thì thấm bằng khăn giấy.
+      - text: >-
+          Trộn vào mì [[1|muỗng cà phê]] dầu ăn, bóp nhẹ cho sợi rời — mì dính
+          bết thì chiên xong bên trong còn sống.
+    callout:
+      type: warn
+      text: >-
+        Mì còn đọng nước mà thả vào chảo dầu nóng là **dầu bắn tung toé**.
+        Chỗ này không vội được: sợi phải khô mặt rồi mới chiên.
+  - title: Chiên mì thành ổ vàng giòn
+    icon: flame
+    minutes: 10 phút
+    intro: "Chiên một mẻ lớn hay bốn ổ nhỏ đều được:"
+    bullets:
+      - text: >-
+          Đun dầu trong chảo sâu lòng tới khi thả một sợi mì vào **thấy sủi
+          quanh ngay lập tức**. Dầu chưa đủ nóng thì mì ngậm dầu và ỉu.
+      - text: >-
+          Thả mì vào, dùng hai chiếc đũa **ép nhẹ thành ổ tròn dẹt**, chiên
+          mặt dưới **2–3 phút** tới vàng thì lật, chiên tiếp mặt kia.
+      - text: >-
+          Vớt ra để nghiêng trên vỉ hoặc giấy thấm dầu. Ổ mì để nguội vẫn giòn,
+          nên làm trước cũng được.
+      - text: >-
+          Muốn giòn lâu hơn nữa thì chiên hai lần: lần đầu vàng nhạt, vớt ra
+          nghỉ 5 phút, rồi thả lại vào dầu nóng già chừng 30 giây.
+    callout:
+      type: tip
+      text: >-
+        Ổ mì dày quá thì ngoài vàng mà trong còn mềm. Ép dày chừng [[2|cm]] là
+        vừa — vẫn có ruột mềm để hút sốt, mà rìa thì rụm.
+    timer:
+      secs: 180
+      label: Hẹn giờ chiên mặt đầu · 03:00
+      doneMsg: Nhấc thử mép ổ mì — vàng đều thì lật mặt!
+  - title: Sơ chế và chần hải sản
+    icon: shrimp
+    minutes: 10 phút
+    bullets:
+      - text: >-
+          Ướp tôm, mực, gan với chút muối, tiêu và [[1|muỗng cà phê]] dầu hào,
+          để 10 phút.
+      - label: "Chần nhanh:"
+        text: >-
+          Đun nồi nước sôi, thả tôm mực vào **đúng 20–30 giây** rồi vớt ra ngay.
+          Gan chần lâu hơn chút, chừng 1 phút.
+      - text: >-
+          Chần trước như vậy thì lát nữa chỉ cần trả vào chảo sốt một vòng —
+          hải sản chín tới, còn sần sật, và **nước tiết ra không làm loãng
+          sốt**.
+      - text: >-
+          Chần luôn nấm rơm và phần cọng cải trong nồi nước đó.
+  - title: Xào rau rồi nấu sốt
+    icon: pot
+    minutes: 8 phút
+    bullets:
+      - text: >-
+          Phi thơm tỏi băm với chút dầu, cho **cà rốt vào trước**, đảo 1 phút,
+          rồi tới hành tây và cọng cải, cuối cùng là lá cải và nấm. Rau vừa
+          chín tới thì trút hết ra dĩa.
+      - text: >-
+          Vẫn chảo đó, đổ [[400|ml]] nước dùng vào, nêm [[2|muỗng canh]] dầu
+          hào, [[1|muỗng canh]] nước tương, chút đường và tiêu. Nếm cho vừa
+          **đậm hơn bình thường một chút** — lát nữa mì sẽ hút bớt.
+      - label: "Làm sánh:"
+        text: >-
+          Nước sôi thì **rót bột năng đã pha loãng từ từ**, vừa rót vừa khuấy,
+          tới khi sốt **sánh đủ để bám vào mặt sau chiếc muỗng**. Đừng đổ hết
+          một lần.
+      - text: >-
+          Trả hải sản và rau vào chảo, đảo **nhẹ tay một vòng**, rưới dầu mè
+          rồi tắt bếp ngay.
+    callout:
+      type: warn
+      text: >-
+        Đổ ào cả chén bột năng vào là sốt **vón cục và đặc quánh như hồ**. Rót
+        thành dòng nhỏ, khuấy liên tục, và dừng khi sốt còn hơi loãng hơn ý
+        muốn — nó sẽ đặc thêm khi nguội bớt.
+  - title: Chan sốt và bưng lên bàn
+    icon: bowl
+    minutes: 2 phút
+    bullets:
+      - text: >-
+          Đặt ổ mì vào **dĩa sâu lòng** — dĩa phẳng thì sốt chảy tràn ra bàn.
+      - text: >-
+          Chan sốt **vào giữa ổ mì** cho tràn dần ra mép, chừa lại vành mì khô
+          quanh rìa. Đó là chỗ giữ được cái giòn tới cuối bữa.
+      - text: Rắc tiêu, thêm vài cọng ngò. Bưng ra bàn ngay.
+    doneText: Gắp miếng đầu ở giữa, miếng thứ hai ở rìa — hai kiểu. Xong!
+
+tipsTitle: 6 bí quyết cho **sợi mì giòn tới miếng cuối**
+tipsLead: >-
+  Món này chỉ hỏng theo hai kiểu: mì ỉu và sốt loãng. Sáu điều dưới đây chặn
+  cả hai.
+tips:
+  - icon: clock
+    title: Chan sốt là việc cuối cùng, không có ngoại lệ
+    text: >-
+      Mì chiên gặp nước là bắt đầu đếm ngược. Chan ở bếp rồi bưng ra sau ba
+      phút thì cả dĩa đã nhũn. Bày mì ra dĩa, để chảo sốt bên cạnh, **chan
+      ngay trước mặt người ăn** nếu được.
+  - icon: flame
+    title: Dầu phải nóng già trước khi thả mì
+    text: >-
+      Dầu ấm ấm thì sợi mì **ngậm dầu** rồi mới vàng — ăn vừa ngán vừa mềm.
+      Thử bằng một sợi mì: thả xuống mà sủi tăm quanh ngay lập tức là được.
+  - icon: drop
+    title: Bột năng pha loãng, rót từ từ
+    text: >-
+      Bột khô đổ thẳng vào nước nóng là vón cục ngay, mà cục bột thì không
+      khuấy tan lại được. Pha với nước lạnh cho tan hẳn, rót thành dòng nhỏ và
+      khuấy đều tay.
+  - icon: shrimp
+    title: Chần hải sản trước, chỉ trả vào chảo một vòng
+    text: >-
+      Xào thẳng tôm mực trong chảo sốt thì chúng tiết nước, sốt loãng ra và
+      hải sản thì dai. Chần riêng rồi trả vào cuối là cách giữ được cả độ sánh
+      lẫn cái sần sật.
+  - icon: lettuce
+    title: Rau vào chảo theo thứ tự cứng trước mềm sau
+    text: >-
+      Cà rốt lâu chín nhất, rồi tới hành tây và cọng cải, cuối cùng là lá cải
+      và nấm. Cho cùng lúc thì hoặc cà rốt còn sượng, hoặc lá cải đã úa vàng.
+  - icon: bowl
+    title: Dĩa sâu lòng, và chừa vành mì khô
+    text: >-
+      Chan phủ kín cả ổ mì là mất luôn phần giòn. Chan vào giữa, để sốt tự
+      loang ra — người ăn muốn giòn thì gắp rìa, muốn mềm thì gắp giữa.
+
+serve:
+  title: Dĩa mì của **bàn ăn đông người**
+  paras:
+    - >-
+      Mì xào giòn là món dọn giữa bàn để cả nhà cùng gắp, không phải món ăn
+      một mình. Dĩa lớn đặt giữa, mỗi người một chén nhỏ, gắp tới đâu ăn tới
+      đó — vì để lâu trong chén thì phần mì cũng mềm dần.
+    - >-
+      Ăn kèm chén **nước tương ớt** hoặc một lọ giấm đỏ. Nhiều nhà còn để sẵn
+      lọ tiêu và một đĩa ớt hiểm thái lát; món này nêm nhạt hơn khẩu vị một
+      chút rồi để người ăn tự thêm là hợp lý nhất.
+  aside:
+    title: Mâm gợi ý
+    intro: "Ba thứ dọn cùng cho tròn bữa:"
+    items:
+      - icon: bowl
+        text: "**Một tô canh trong** — món này đậm và có dầu, cần thứ nhẹ đi kèm."
+      - icon: bottle
+        text: "**Nước tương ớt hoặc giấm đỏ** — chấm hải sản, chua nhẹ cho đỡ ngán."
+      - icon: herb
+        text: "**Dĩa ngò và hành lá cắt khúc** — rắc thêm lúc ăn cho thơm."
+
+faq:
+  - q: Mì xào giòn khác mì xào mềm ở chỗ nào?
+    a: >-
+      Khác ở **cách làm chín sợi mì và cách gặp nhau giữa mì với nhân**. Bản
+      giòn thì mì được chiên ngập dầu thành ổ, nhân nấu riêng thành sốt sánh
+      rồi chan lên lúc dọn. Bản mềm thì mì trụng rồi đảo thẳng trong chảo cùng
+      thịt và rau, sợi ngấm gia vị từ trong bếp. Cùng vắt mì, ra hai món khác
+      hẳn nhau.
+  - q: Không có mì trứng vắt khô thì dùng mì gói được không?
+    a: >-
+      Được, và khá ổn — bỏ gói gia vị, trụng mì gói **20 giây thôi** (mì gói
+      đã chiên sẵn nên rất mau mềm), làm ráo rồi chiên như thường. Sợi sẽ mảnh
+      hơn và giòn nhanh hơn, nên canh lửa kỹ kẻo cháy. Mì tươi thì không hợp:
+      sợi ẩm, chiên lên ỉu.
+  - q: Sốt bị loãng, chữa sao?
+    a: >-
+      Đun sôi lại rồi rót thêm chút bột năng pha loãng, từng thìa một. Nếu
+      loãng vì hải sản tiết nước thì lần sau nhớ **chần riêng trước**. Đừng
+      chữa bằng cách đun cạn — đun lâu thì rau nhũn và tôm dai.
+  - q: Nhà không ăn được hải sản thì thay bằng gì?
+    a: >-
+      Thịt gà thái lát mỏng, hoặc thịt heo nạc vai. Cách làm y hệt, chỉ khác
+      là **ướp thêm chút bột năng vào thịt** trước khi chần — lớp bột mỏng đó
+      giữ thịt mềm. Nấm đông cô ngâm nở thái lát cũng rất hợp, thay được cả
+      phần mực.
+  - q: Chiên mì trước mấy tiếng có được không?
+    a: >-
+      Được, chiên trước **2–3 tiếng** thoải mái. Để ổ mì trên vỉ ở nơi thoáng,
+      đừng đậy kín và đừng cho vào tủ lạnh — hơi nước đọng lại là ỉu. Trước
+      khi dùng, hong lại trong lò [[180|độ C]] chừng 3 phút là giòn như mới.
+  - q: Ăn không hết thì cất thế nào?
+    a: >-
+      Tách riêng: phần sốt cho vào hộp cất ngăn mát được 2 ngày, phần mì đã
+      ngấm sốt thì ăn luôn trong bữa. Hôm sau hâm sốt lại và **chiên ổ mì
+      mới** — mì đã ngấm sốt để qua đêm thì không cứu lại giòn được nữa.
+
+ticker:
+  - icon: noodle
+    text: Ổ mì chiên vàng rụm
+  - icon: drop
+    text: Sốt sánh bám được vào muỗng
+  - icon: shrimp
+    text: Tôm mực chần riêng, chỉ trả vào một vòng
+  - icon: clock
+    text: Chan sốt xong là bưng lên bàn ngay
+  - icon: flame
+    text: Dầu nóng già rồi mới thả mì
+  - icon: bowl
+    text: Giữa mềm ngọt, rìa còn giòn

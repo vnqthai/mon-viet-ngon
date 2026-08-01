@@ -143,6 +143,8 @@ const recipes = defineCollection({
         'xoi-dau-xanh', 'xoi-ga', 'xoi-gac', 'xoi-ngu-sac', 'sua-chua-nep-cam',
         'banh-chung', 'banh-tet', 'banh-giay', 'banh-duc-nong',
         'banh-da-cua', 'cha-ca-that-lat',
+        'che-sen-nhan', 'che-troi-nuoc', 'mi-xao-gion', 'mien-luon', 'kho-quet',
+        'mam-chung', 'cha-bong', 'sup-cua', 'banh-beo', 'bo-la-lot', 'gia-cay',
         'bowl', 'claypot', 'plate', 'rolls',
       ])
       .optional(),

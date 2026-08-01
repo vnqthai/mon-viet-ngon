@@ -1,0 +1,356 @@
+title: Chà bông thịt heo **bông tơi như tơ, để dành cả tháng**
+summary: >-
+  Thịt thăn luộc mềm, xé dọc thớ rồi giã cho tơi ra, sau đó **rang khô trên
+  chảo gần một tiếng** tới khi sợi thịt xoăn lại, nhẹ bẫng và vàng ruộm. Một
+  mẻ đầy hũ, xúc ăn với cơm, cháo, bánh mì hay xôi đều được.
+region: Cả nước
+category: Xào
+occasions: [Cho bé, Bữa sáng]
+pubDate: 2026-08-01
+time:
+  total: 2 giờ
+  active: 1 giờ 30 phút
+servingsBase: 4
+difficulty: Vừa
+featured: false
+order: 122
+art: cha-bong
+heroEyebrow: Nửa ký thịt ra một hũ nhỏ xíu…
+
+quick:
+  ingredients:
+    - Thịt thăn heo [[600|g]] — miếng dài, thớ chạy một chiều, lọc sạch gân mỡ
+    - "Ướp: nước mắm [[2|muỗng canh]] · đường [[1|muỗng canh]] · tiêu · hành tím băm"
+    - Sả [[2|cây]] · hành tím [[3|củ]] để luộc cùng cho thơm
+    - Chảo đáy dày · chày cối hoặc cán bột
+  steps:
+    - Lọc sạch **gân, mỡ và da**, thái thịt thành khối vuông dày [[2|cm]] dọc theo thớ.
+    - Ướp thịt với nước mắm, đường, tiêu, hành tím băm — để **30 phút**.
+    - Luộc thịt với sả và hành tím, lửa nhỏ **35–40 phút** tới khi xé được bằng tay.
+    - Vớt ra để nguội bớt, **xé dọc thớ** thành sợi nhỏ nhất có thể.
+    - Giã nhẹ trong cối cho sợi **tơi và tướp ra**, rồi xé lại lần nữa.
+    - Rang chảo **lửa nhỏ nhất 40–50 phút**, đảo liên tục tới khi sợi khô, xoăn và nhẹ bẫng.
+    - Để nguội **hoàn toàn** rồi mới cho vào hũ đậy kín.
+  warning: >-
+    Cho vào hũ khi còn ấm là hơi nước đọng lại trong hũ và **cả mẻ mốc trong
+    vài ngày**. Trải ra mâm cho nguội hẳn, sờ tay thấy mát rồi mới cất.
+
+flavor:
+  chua: 0
+  ngot: 3
+  man: 6
+  cay: 1
+  thom: 6
+flavorNote: >-
+  **Chuẩn mẻ chà bông:** sợi **mảnh, xoăn, tơi rời từng sợi** và nhẹ tới mức
+  bốc một nắm gần như không thấy nặng tay. Màu vàng nâu nhạt đều, không có
+  mảng sẫm. Bỏ vào miệng thì tan dần chứ không dai nhách cũng không cứng vụn.
+storyEyebrow: Chuyện hũ chà bông
+storyTitle: Nửa ký thịt, **một tiếng đứng chảo**, và một hũ để dành
+story:
+  - >-
+    Chà bông là thịt nạc đã được luộc mềm, xé thành sợi rồi rang khô trên chảo
+    cho tới khi gần như không còn nước. Miền Nam gọi là chà bông, miền Bắc gọi
+    là **ruốc** — cùng một thứ. Vì đã rút hết nước nên nó để được rất lâu
+    trong hũ kín, và đó chính là lý do món này ra đời.
+  - >-
+    Cách làm không có gì khó, nhưng có một chỗ không rút ngắn được: **thời
+    gian đứng chảo**. Muốn sợi tơi và nhẹ thì phải rang lửa thật nhỏ và đảo
+    liên tục gần một tiếng. Rang nhanh bằng lửa lớn thì bên ngoài cháy sém mà
+    bên trong sợi vẫn còn ẩm — hũ đó để một tuần là chua.
+  - >-
+    Bù lại, một mẻ dùng được rất lâu và đi với gần như mọi thứ: rắc lên chén
+    cháo, nhét vào ổ bánh mì, ăn với xôi hay cơm trắng, cuốn bánh tráng. Nhà
+    có con nhỏ thì hũ chà bông tự làm gần như luôn có mặt trong bếp.
+
+ingredientGroups:
+  - name: Thịt
+    icon: meat
+    items:
+      - id: thitthan
+        name: Thịt thăn heo
+        icon: meat
+        color: red
+        base: 600
+        unit: g
+        note: >-
+          Chọn **miếng dài, thớ chạy rõ một chiều**, màu hồng tươi. Thăn nội là
+          ngon nhất; nạc mông cũng được nhưng sợi ngắn hơn. Ức gà cũng làm
+          được, sợi trắng và mềm hơn
+      - id: sa
+        name: Sả
+        icon: stem
+        color: green
+        base: 2
+        unit: cây
+        note: Đập dập, thả vào nồi luộc — cho thơm, vớt bỏ sau khi luộc xong
+      - id: hanhtimluoc
+        name: Hành tím (luộc cùng)
+        icon: onion
+        base: 3
+        unit: củ
+        note: Đập dập, thả vào nồi luộc cùng sả
+  - name: Ướp
+    icon: jar
+    items:
+      - id: nuocmam
+        name: Nước mắm
+        icon: bottle
+        base: 2
+        unit: muỗng canh
+        note: >-
+          Ướp trước khi luộc để vị đi vào tận thớ. Nêm thêm lúc rang thì chỉ
+          mặn ngoài mặt sợi
+      - id: duong
+        name: Đường
+        icon: jar
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Chỗ ngọt nhẹ này làm sợi chà bông có hậu; nhiều quá thì lúc rang dễ
+          cháy
+      - id: hanhtimbam
+        name: Hành tím băm
+        icon: onion
+        base: 2
+        unit: củ
+        note: Trộn vào lúc ướp
+      - id: tieu
+        name: Tiêu xay
+        icon: pepper
+        base: 1
+        unit: muỗng cà phê
+        note: Xay mịn cho khỏi lợn cợn trong sợi
+      - id: dauan
+        name: Dầu ăn
+        icon: bottle
+        base: 1
+        unit: muỗng canh
+        note: >-
+          Xoa một lớp mỏng vào chảo trước khi rang — chỉ để chống dính, đừng đổ
+          nhiều
+
+stepsEyebrow: Vô bếp thôi!
+stepsTitle: 5 bước ra **hũ chà bông sợi tơi, nhẹ bẫng**
+stepsLead: >-
+  Bốn bước đầu nhanh gọn. Bước cuối — rang chảo — là bước dài nhất và cũng là
+  bước quyết định; cứ bật một tập phim rồi đứng đảo cho hết giờ.
+steps:
+  - title: Lọc và thái dọc thớ
+    icon: knife
+    minutes: 10 phút
+    intro: "Hướng thái quyết định sợi dài hay ngắn:"
+    bullets:
+      - text: >-
+          Lọc bỏ **hết gân, mỡ và màng trắng**. Sót lại một sợi gân là lúc rang
+          nó co cứng thành cục, không xé ra được.
+      - label: "Thái dọc thớ:"
+        text: >-
+          Nhìn cho ra hướng chạy của thớ thịt, rồi **cắt theo chiều đó** thành
+          khối dài dày chừng [[2|cm]]. Cắt ngang thớ là sợi chà bông sẽ ngắn
+          và vụn.
+      - text: >-
+          Rửa sạch, thấm khô rồi ướp với nước mắm, đường, tiêu và hành tím
+          băm. Để **30 phút** cho thấm.
+  - title: Luộc tới khi xé được bằng tay
+    icon: pot
+    minutes: 40 phút
+    bullets:
+      - text: >-
+          Cho thịt vào nồi, đổ nước **xâm xấp mặt thịt** (đừng ngập nhiều —
+          nước nhiều thì vị ướp trôi ra hết), thả sả và hành tím đập dập.
+      - text: >-
+          Đun sôi, hớt bọt, rồi **hạ lửa nhỏ 35–40 phút**. Nước cạn dần tới gần
+          hết là vừa đẹp.
+      - text: >-
+          Thử: lấy một miếng ra, dùng hai chiếc nĩa kéo ngược nhau — **thớ tách
+          ra dễ dàng thành sợi** là chín tới. Còn phải dùng sức thì luộc thêm
+          10 phút.
+      - text: Vớt ra, để nguội bớt tới mức cầm tay được.
+    callout:
+      type: warn
+      text: >-
+        Luộc quá tay thì thịt bở, xé ra thành vụn chứ không thành sợi — rang
+        lên sẽ ra một thứ giống bột hơn là chà bông. Cứ thử bằng nĩa từ phút
+        thứ 30.
+    timer:
+      secs: 2100
+      label: Hẹn giờ luộc · 35:00
+      doneMsg: Kéo thử bằng hai chiếc nĩa — thớ tách ra dễ là vớt được rồi!
+  - title: Xé rồi giã cho tơi
+    icon: spoon
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Dùng hai chiếc nĩa hoặc tay **xé dọc thớ** thành sợi nhỏ nhất có
+          thể. Kiên nhẫn ở bước này thì bước rang nhàn hẳn.
+      - label: "Giã cho tướp:"
+        text: >-
+          Cho từng nắm thịt đã xé vào cối, **giã nhẹ tay** (hoặc dùng cán bột
+          lăn qua lăn lại) cho sợi tướp ra và mềm. Giã mạnh là nát thành bột.
+      - text: >-
+          Giã xong xé lại lần nữa những sợi còn to. Tới lúc này khối thịt nhìn
+          đã tơi và bông lên.
+    callout:
+      type: tip
+      text: >-
+        Có máy trộn bột thì dùng **que trộn hình mái chèo, để số chậm nhất,
+        chừng 1–2 phút** — thịt tự tướp ra thành sợi. Đừng dùng máy xay: lưỡi
+        xay cắt ngang sợi và cho ra bột thịt.
+  - title: Rang chảo — lửa nhỏ nhất, đảo liên tục
+    icon: flame
+    minutes: 50 phút
+    intro: "Bước dài nhất, và là bước làm nên mẻ chà bông:"
+    bullets:
+      - text: >-
+          Xoa một lớp dầu thật mỏng vào chảo đáy dày, trút thịt vào, để **lửa
+          nhỏ nhất**.
+      - text: >-
+          Đảo **liên tục** bằng đũa hoặc xẻng gỗ, dàn mỏng ra rồi gom lại,
+          lặp đi lặp lại. Đừng để yên quá mười giây, chỗ chạm chảo sẽ sém.
+      - label: "Dấu hiệu tới:"
+        text: >-
+          Sau **40–50 phút**, sợi thịt **xoăn lại, ngả vàng nâu, rời hẳn ra
+          từng sợi** và bốc một nắm thấy nhẹ bẫng. Bóp thử một nhúm: tơi ra
+          ngay, không vón.
+      - text: >-
+          Nếm thử — nhạt thì rắc thêm chút muối mịn ở phút cuối, đảo đều rồi
+          tắt.
+    callout:
+      type: warn
+      text: >-
+        Lửa lớn cho nhanh là hỏng chắc chắn: mặt ngoài sợi cháy sém và đắng
+        trong khi bên trong vẫn còn ẩm. Ẩm còn sót là hũ chà bông sẽ chua và
+        mốc trong tuần đầu.
+    timer:
+      secs: 2700
+      label: Hẹn giờ rang · 45:00
+      doneMsg: Bốc một nắm — nhẹ bẫng và tơi rời là xong!
+  - title: Để nguội hẳn rồi mới vô hũ
+    icon: jar
+    minutes: 20 phút
+    bullets:
+      - text: >-
+          Trải chà bông ra mâm rộng thành lớp mỏng, để nguội **hoàn toàn** ở
+          nơi thoáng. Sờ tay thấy mát hẳn mới được.
+      - text: >-
+          Cho vào **hũ thủy tinh khô ráo tuyệt đối**, đậy kín. Một hũ nhỏ là
+          vừa hết chỗ thịt ban đầu — nửa ký thịt ra chừng [[180|g]] chà bông.
+      - text: >-
+          Cất nơi khô mát. Muốn để lâu hơn nữa thì bỏ ngăn mát tủ lạnh.
+    doneText: Đậy nắp hũ — xong, và dùng được cả tháng!
+
+tipsTitle: 6 bí quyết cho **sợi tơi, không vụn, không mốc**
+tipsLead: >-
+  Chà bông hỏng theo bốn kiểu: vụn như bột, dai như dây, cháy sém, và mốc sau
+  vài ngày. Sáu điều dưới đây chặn hết.
+tips:
+  - icon: knife
+    title: Thái dọc thớ ngay từ đầu
+    text: >-
+      Đây là quyết định sớm nhất và không sửa lại được. Thái dọc thớ thì sợi
+      chà bông dài và bông; thái ngang thớ thì dù xé kỹ tới đâu cũng chỉ ra
+      vụn ngắn. Nhìn kỹ miếng thịt tìm hướng vân trước khi hạ dao.
+  - icon: meat
+    title: Lọc sạch gân và mỡ, không chừa sợi nào
+    text: >-
+      Gân gặp nhiệt thì co lại thành cục dai, nằm lẫn trong hũ chà bông rất
+      khó chịu. Mỡ thì làm sợi bết và mau ôi. Bỏ thêm năm phút ở khâu lọc là
+      đáng.
+  - icon: drop
+    title: Luộc nước xâm xấp, đừng ngập nhiều
+    text: >-
+      Nước nhiều thì vị ướp trôi hết ra nồi, thịt luộc xong nhạt thếch. Xâm
+      xấp mặt thịt và để cạn dần tới cuối là vị ở lại trong thớ.
+  - icon: flame
+    title: Rang lửa nhỏ nhất, không có đường tắt
+    text: >-
+      Bốn mươi phút là bốn mươi phút. Đây là chỗ duy nhất của món không rút
+      ngắn được, và cũng là chỗ phân biệt hũ chà bông nhà làm với thứ rang
+      vội — sợi tơi hay không nằm ở đây.
+  - icon: bulb
+    title: Muốn nhanh hơn thì sấy lò, không phải tăng lửa
+    text: >-
+      Rang chảo chừng 20 phút cho ráo mặt, rồi trải mỏng ra khay và **sấy lò
+      [[120|độ C]] chừng 25 phút**, cứ 10 phút đảo một lần. Nhiệt đều từ mọi
+      phía nên sợi khô đồng loạt, khỏi phải đứng đảo.
+  - icon: jar
+    title: Hũ phải khô tuyệt đối và chà bông phải nguội hẳn
+    text: >-
+      Một giọt nước trong hũ hay chút hơi ấm còn sót là đủ cho mốc mọc. Tráng
+      hũ nước sôi rồi **úp cho khô hẳn** (hoặc sấy lò), và trải chà bông ra
+      mâm cho nguội hoàn toàn.
+
+serve:
+  title: Hũ chà bông — **thứ cứu bữa sáng của cả nhà**
+  paras:
+    - >-
+      Chà bông không phải món dọn ra dĩa mà là thứ để sẵn trong hũ, xúc ra khi
+      cần. Rắc lên chén cháo trắng, nhét vào ổ bánh mì với chút bơ, ăn với xôi
+      hay cơm nóng, cuốn bánh tráng cùng rau sống — chỗ nào cần một chút mặn
+      và thơm là dùng được.
+    - >-
+      Nhà có con nhỏ thì hũ này rất được việc: mặn nhẹ, sợi mềm, không xương
+      không gân. Rắc lên chén cháo hoặc cơm nát là bé ăn hết chén. Muốn làm
+      riêng cho bé thì giảm nước mắm xuống một nửa và bỏ tiêu.
+  aside:
+    title: Ăn với gì
+    intro: "Bốn cách dùng quen nhất:"
+    items:
+      - icon: rice
+        text: "**Cháo trắng hoặc cơm nóng** — rắc một nhúm lên mặt là xong bữa sáng."
+      - icon: bread
+        text: "**Bánh mì phết bơ** — bơ giữ cho sợi chà bông bám vào ruột bánh."
+      - icon: rice
+        text: "**Xôi trắng** — thêm chút mỡ hành nữa là thành gói xôi hàng."
+      - icon: roll
+        text: "**Cuốn bánh tráng** — với rau sống và dưa leo, chấm mắm chua ngọt."
+
+faq:
+  - q: "\"Ruốc\" và \"chà bông\" có phải một thứ không?"
+    a: >-
+      Đúng là một thứ — miền Bắc gọi **ruốc**, miền Nam gọi **chà bông**.
+      Nhưng cẩn thận: ở miền Trung và miền Nam, chữ **"mắm ruốc"** lại chỉ một
+      thứ hoàn toàn khác — thứ mắm sệt màu tím nâu làm từ con ruốc (loài tôm
+      rất nhỏ). Hai thứ không liên quan gì tới nhau, chỉ trùng tên.
+  - q: Làm bằng ức gà hay cá được không?
+    a: >-
+      Được cả hai. **Ức gà** làm y hệt, sợi trắng và mềm hơn, thời gian luộc
+      ngắn hơn chừng 10 phút. **Cá** (cá lóc, cá hồi, cá thu) thì hấp chín
+      thay vì luộc, gỡ bỏ thật kỹ xương rồi rang — sợi sẽ ngắn và bông hơn,
+      và chỉ để được chừng 2 tuần chứ không lâu bằng chà bông heo.
+  - q: Chà bông bị vụn như bột, sai ở đâu?
+    a: >-
+      Hai chỗ: **thái ngang thớ** hoặc **giã quá mạnh**. Cũng có thể do luộc
+      quá lâu làm thịt bở. Mẻ đã vụn thì vẫn ăn ngon, cứ dùng để rắc cháo. Lần
+      sau nhìn kỹ hướng thớ, và giã thì chỉ dằn nhẹ cho tướp chứ không nện.
+  - q: Sợi bị dai và cứng thì sao?
+    a: >-
+      Ngược lại với vụn: thịt **luộc chưa đủ mềm**, hoặc còn sót gân. Nếu phát
+      hiện lúc đang rang thì vẩy vào chảo hai thìa nước luộc, đậy nắp om 5
+      phút cho mềm rồi rang tiếp. Phát hiện lúc đã xong thì đành chịu.
+  - q: Để được bao lâu?
+    a: >-
+      Hũ kín để nơi khô mát: **3–4 tuần**. Cất ngăn mát: **2 tháng**. Cấp
+      đông: **6 tháng**, rã đông ở nhiệt độ phòng rồi hong lại trên chảo cho
+      thơm. Mỗi lần lấy thì dùng **muỗng khô**, đừng thò tay hay dùng muỗng
+      ướt.
+  - q: Chà bông bị ỉu mềm sau vài ngày, cứu được không?
+    a: >-
+      Được, và dễ. Trải ra chảo **rang lại lửa nhỏ 5–10 phút** cho khô, để
+      nguội hẳn rồi cất vào hũ khác đã sấy khô. Nguyên nhân gần như luôn là
+      hũ chưa khô hoặc nắp đậy không kín.
+
+ticker:
+  - icon: knife
+    text: Thái dọc thớ thì sợi mới dài
+  - icon: flame
+    text: Rang lửa nhỏ nhất, gần một tiếng
+  - icon: spoon
+    text: Giã nhẹ cho tướp, đừng nện nát
+  - icon: jar
+    text: Nguội hẳn rồi mới vô hũ
+  - icon: meat
+    text: Nửa ký thịt ra một hũ nhỏ
+  - icon: bread
+    text: Cháo, xôi, bánh mì — thứ nào cũng hợp
