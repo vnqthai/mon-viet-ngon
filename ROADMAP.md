@@ -17,7 +17,7 @@ _Cập nhật 2026-08-01 (sau đợt 16). Site đang **126 món / 7 vùng / 17 k
 |---|---|
 | **Nội dung** | 126 món · 7 vùng · 17 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo **6 họ màu**, trang chi tiết mang màu họ của chính nó |
-| **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** |
+| **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** · ô tìm ở hero (form GET sang `/mon/?q=`) · **3 trục lối vào** (Kiểu món 17 · Theo dịp 7 · Miền 7 — mỗi cửa kèm số món, bấm là sang `/mon/` đã lọc sẵn) |
 | **Dung lượng** | `/mon/` **~38,2 KB** gzip ở 126 món (39.150 B, **ước từ cục bộ ×1,02**) — 11 món thêm 2,8 KB, tức **0,25 KB/món** |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 756 liên kết |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
@@ -397,6 +397,10 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 - **Đo bố cục thì phải NẠP HẲN FONT rồi mới đo — `document.fonts.ready` KHÔNG đủ.** Nó chỉ hứa "hết việc đang chờ", mà font Google có thể chưa kịp được yêu cầu lúc nó resolve. Đo mà không nạp hẳn thì **mỗi iframe rơi vào một trạng thái font khác nhau**, số nhảy **±16px** giữa hai lần chạy và có lần còn đảo thứ tự hai khung màn hình — tưởng là hiệu ứng bề rộng, thật ra là nhiễu. Cách đúng: `await Promise.all([...].map(f => d.fonts.load(f)))` liệt đủ các nét thật sự dùng, rồi mới `fonts.ready`, rồi mới đo. **Kiểm bằng `[...d.fonts].filter(f => f.status === 'loaded').length` — phải ra đúng 15 và giống nhau ở mọi khung.**
 - **Chênh lệch giữa hai bản thì đáng tin hơn con số tuyệt đối.** Đợt hero: mockup báo 990/1293, bản ship thật đo lại ra 1006/1309 — lệch đều 16px vì nhiễu font ở trên, nhưng **phần bớt được (−158 / −315) thì trùng khít**, vì hai bản cùng đo trong một điều kiện. Khi số tuyệt đối và số chênh lệch mâu thuẫn nhau, tin số chênh lệch.
 - **Soi thứ đã build, đừng gọi lại hàm sinh ra nó.** `link-audit` đọc HTML trong `dist/` chứ không gọi `relatedFor()`: gọi lại chính hàm đó rồi đo là tự chấm điểm mình, hỏng ở khâu dựng trang thì không thấy.
+- **⭐ TẮT `content-visibility` TRƯỚC KHI ĐO — nếu không, mọi vị trí nằm dưới lưới món đều là mục tiêu di động.** `.rcard` để `content-visibility:auto`, nên thẻ ngoài khung nhìn chỉ mang chiều cao ước lượng của `contain-intrinsic-size`. Hệ quả: đo `top` của một mục ở cuối trang, rồi kéo iframe lên để chụp mục đó — chính cú kéo ấy đổi khung nhìn, thẻ tính lại chiều cao thật, và con số vừa đo sai ngay vài trăm px. Lần này lệch **482px**, khung chụp rơi trúng phần tiêu đề chứ không phải thứ cần xem, và mất 4 vòng mới hiểu. Chèn `.rcard{content-visibility:visible!important}` vào iframe trước khi đo là hết. Chiều cao của **bản thân** một khối thì không dính (nó tự tính), chỉ **vị trí** mới dính.
+- **So hai bản build thì `src` của iframe phải mang tham số phá cache.** Build lại rồi `cp -R dist harness/moi/` nhưng `src` vẫn là `./moi/index.html` ⇒ trình duyệt trả bản cũ, và không có dấu hiệu nào báo: số đo vẫn ra đẹp, chỉ là số của bản trước. Mất một vòng đo tưởng "sửa mà không ăn thua". Thêm `?cb=<v>` vào `src`.
+- **Hai bản build phục vụ từ hai thư mục con thì `/_astro/…` gãy hết.** Astro nhúng đường dẫn tuyệt đối, nên `harness/cu/index.html` đi tìm `/_astro/Base.<hash>.css` ở **gốc máy chủ**, không phải trong `cu/`. CSS 404 im lặng ⇒ đo trang **không có style**. Dấu hiệu nhận ra: số vô lý kiểu một nhóm 7 chip cao **2711px** (icon SVG về kích thước gốc). Chữa: `cp -R cu/. harness/ && cp -R moi/. harness/` — tên file có băm nên hai bản không đè nhau, chỉ file giống hệt mới trùng tên.
+- **Tab của tiện ích Chrome chạy ở NỀN nên `setTimeout` bị bóp còn ~1 lần/giây.** Vòng lặp "đợi tới khi số đứng yên" 40 nhịp × 60ms tưởng là 2,4 giây, thật ra thành **40 giây mỗi khung** — 9 khung là chờ 6 phút. `getBoundingClientRect()` tự ép tính lại bố cục, nên đọc lại bằng microtask (`await Promise.resolve()`) là đủ, khỏi cần hẹn giờ. (Cùng họ với luật `scroll-behavior:smooth` ở trên: thứ gì cần rAF thì ở tab nền đều hỏng.)
 
 **Ô tìm kiếm**
 - **KHÔNG đưa `summary` vào chỉ mục tìm kiếm.** Summary là văn xuôi và cố ý nhắc tên món khác ("cùng họ với canh chua cá lóc") — gộp vào thì gõ đúng tên món này lại lòi ra món kia. Chỉ lấy **tên món · miền/kiểu món/dịp · nguyên liệu**, mỗi thứ một trường riêng.
@@ -556,6 +560,33 @@ Dung lượng `/mon/` **25,5 KB** gzip ở 71 món — **26.136 B đo trên máy
 Liên kết chéo tự lên **426** (71 × 6), vẫn 0 mồ côi · 0 dải trùng · **1 mảnh liền**. Featured đổi đúng một chỗ: **sườn xào chua ngọt** vào, **trứng chưng thịt nấm mèo** ra — cả hai đều "Cả nước" nên trang chủ vẫn phủ **7/7 vùng**.
 
 **Nghiệm thu trên máy chủ (2026-07-31):** 7 trang món mới và 7 file `/art/*.svg` đều trả 200 · 6 ảnh `/anh-mon/` mẫu đều có file thật · sitemap **71 URL món** (74 tổng) · RSS **71 mục**, đủ cả 7 món mới · trang chủ đúng **12 ô**, có sườn xào chua ngọt, không còn trứng chưng.
+
+## Trục thứ ba cho mục "Tìm món theo cách của mình" — 2026-08-01
+
+Thái hỏi: *"phần này mới chỉ có 2 cách lọc, có nên thêm lọc theo Kiểu món không?"*
+
+**Câu trả lời nằm sẵn trong code, không phải chuyện phải cân nhắc.** `/mon/` từ lâu đã lọc trên **ba** trục và đã đọc `?kieu=` từ URL (`PARAM` trong `src/pages/mon/index.astro`) — chỉ có trang chủ là mở đúng **hai** cửa. Thêm trục thứ ba là dựng một khối `gate-group` nữa trỏ `?kieu=`, **không đụng một dòng JS nào** ở trang đích. Đây là kiểu việc đáng soi định kỳ: *trang đích làm được gì mà lối vào chưa mời?*
+
+**Vì sao Kiểu món đặt LÊN ĐẦU, trên cả Theo dịp và Miền:** `/mon/` xếp Kiểu món → Dịp → Miền, và bấm từ trang chủ sang thì bên đó **tự mở bảng lọc** — trục vừa bấm phải nằm đúng chỗ mắt đang chờ. Hai trang cùng một thứ tự thì không phải học lại.
+
+**Mục này không phải bản sao của thanh lọc ở `/mon/`:** mỗi cửa ở đây kèm **số món** (Món nước 20 · Bánh mì 3), thứ thanh lọc bên kia không có. Đó là lý do giữ cả 17 cửa chứ không cắt còn 8 cửa to nhất — cắt là cắt đúng phần thông tin riêng.
+
+**Rồi cái lưới có sẵn lòi ra là vấn đề thật.** Thái xem bản đầu và nhận xét: *"chỗ thì theo phương ngang, chỗ thì theo phương dọc, chỗ thì vừa ngang vừa dọc"* — đúng. `.gates` vốn là `auto-fit minmax(300px,1fr)`; ở 1280px nó dựng **3 làn**, nhóm 17 cửa trải hết cả ba còn Dịp và Miền bị ép vào cột **315px** nên 7 chip xuống dòng lỗ chỗ, hàng 2 cái hàng 1 cái. **Ba nhịp đọc trong một khối.** Lỗi này có sẵn từ trước — hồi hai nhóm thì `auto-fit` gộp lại còn 2 làn 494px nên không ai thấy; **nhóm thứ ba chỉ làm nó lộ ra**.
+
+**Chữa: bỏ hẳn việc chia cột** — `.gates{display:grid;gap:26px}`, mỗi trục là một dải ngang xếp chồng, cả ba cùng rộng 1032px ở 1280.
+
+| | Đang chạy (2 trục) | Bản chia cột (bỏ) | **Đã ship** |
+|---|---:|---:|---:|
+| Khối chip ở 1280px | 191px | 522px | **403px** |
+| Bề rộng làn của Dịp / Miền | 494px | 315px | **1032px** |
+| Cả mục ở 768px | 614px | 835px | **882px** |
+| Cả mục ở 390px | 935px | 1376px | **1368px** |
+
+Tức so với bản chia cột thì **ngắn hơn 119px ở 1280** và **dài hơn 47px ở 768** — trả 47px lấy một nhịp đọc thống nhất. Điện thoại gần như không đổi (vốn đã một cột). So với trang đang chạy thật thì mục này cao thêm **433px ở 390** và **268px ở 768**, toàn bộ là chỗ của 17 cửa mới; mục bắt đầu ở ~7950px trên điện thoại nên người cuộn tới đây là người đang tìm, không phải người lướt qua.
+
+**Bài học chung — thêm phần tử vào một lưới `auto-fit` là đổi cả số làn, không chỉ thêm một ô.** `auto-fit` gộp làn trống lại, nên bố cục hai nhóm và bố cục ba nhóm là hai bố cục khác nhau về chất. Nhìn thấy "ngang dọc lẫn lộn" thì đừng chữa nhóm mới — soi cái lưới.
+
+**Nghiệm thu trên production (`46d39d4`, deploy xanh):** trang chủ trả về **17** liên kết `/mon/?kieu=…`, CSS thật đang chạy là `.gates{gap:26px;display:grid}`. Bấm thử `/mon/?kieu=Chè` ra đúng **9 món**, bảng lọc tự mở, chip `cat=Chè` sáng.
 
 ## Số món phải đập vào mắt ngay — 2026-08-01
 
