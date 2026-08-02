@@ -63,11 +63,16 @@ src/
 ### `npm run qa` — chạy trước mỗi lần build
 
 ```bash
-npm run qa      # = check-recipes.mjs + check-art-ids.mjs
+npm run qa      # = check-recipes.mjs + check-art-ids.mjs + check-third-party.mjs
 ```
 
-Hai script này bắt những lỗi **Zod không bắt được** — build vẫn xanh, trang vẫn
-dựng, chỉ là sai:
+Ba script này bắt những lỗi **Zod không bắt được** — build vẫn xanh, trang vẫn
+dựng, chỉ là sai. `check-third-party.mjs` là chốt chặn của luật "Tài sản &
+bên thứ ba" (ROADMAP phần 4): tài nguyên nào trỏ ra host lạ (nguồn lẫn `dist/`
+nếu đã build, chuỗi định danh schema.org/w3.org và URL trong chú thích thì
+không tính) và font khai trong `fonts.css` mà thiếu file wOF2 thật trong
+`public/fonts/` — thứ gãy im lặng, trình duyệt chỉ lặng lẽ rơi về font hệ thống.
+Hai script còn lại:
 
 | `tools/check-recipes.mjs` | `tools/check-art-ids.mjs` |
 |---|---|

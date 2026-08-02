@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "qa": "node tools/check-recipes.mjs && node tools/check-art-ids.mjs",
+    "qa": "node tools/check-recipes.mjs && node tools/check-art-ids.mjs && node tools/check-third-party.mjs",
     "link-audit": "node tools/link-audit.mjs",
     "seo-audit": "node tools/check-seo-images.mjs",
     "contact-sheet": "node tools/contact-sheet.mjs",
