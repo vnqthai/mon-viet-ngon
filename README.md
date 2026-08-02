@@ -277,6 +277,8 @@ Cuối cùng vào **Settings → Pages → Custom domain** điền `www.monvietn
 
 - Giỏ đi chợ, tiến độ nấu, khẩu phần, theme lưu bằng `localStorage`,
   namespace theo món: `mvn:<slug>:…` — không cookie, không server.
-- Font Google (Paytone One, Be Vietnam Pro, Dancing Script — đủ tiếng Việt),
-  offline tự rơi về font hệ thống.
+- Font tự host (Paytone One, Be Vietnam Pro, Dancing Script — đủ tiếng Việt,
+  đều SIL OFL 1.1): 15 file woff2 trong `public/fonts/`, khai báo ở
+  `src/styles/fonts.css`, văn bản license ở `src/assets/fonts/*-OFL.txt`.
+  Site không gọi ra một bên thứ ba nào.
 - Toàn bộ minh họa là SVG trong repo, không ảnh ngoài.
