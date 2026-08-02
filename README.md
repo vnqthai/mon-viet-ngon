@@ -280,5 +280,7 @@ Cuối cùng vào **Settings → Pages → Custom domain** điền `www.monvietn
 - Font tự host (Paytone One, Be Vietnam Pro, Dancing Script — đủ tiếng Việt,
   đều SIL OFL 1.1): 15 file woff2 trong `public/fonts/`, khai báo ở
   `src/styles/fonts.css`, văn bản license ở `src/assets/fonts/*-OFL.txt`.
-  Site không gọi ra một bên thứ ba nào.
+  Site không gọi ra một bên thứ ba nào — đây là **luật cứng** ("Tài sản &
+  bên thứ ba", ROADMAP phần 4): không tài sản không-free, không dịch vụ
+  tính tiền; đọc luật đó trước khi thêm bất cứ tài nguyên hay dependency nào.
 - Toàn bộ minh họa là SVG trong repo, không ảnh ngoài.

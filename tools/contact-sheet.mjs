@@ -187,16 +187,31 @@ const paletteStrip = `
 
 const counts = FAMILIES.map((f) => `${f.name}: ${recipes.filter((r) => r.family && r.family.id === f.id).length}`).join(' · ');
 
+/* ---------- Font: nhúng woff2 local dạng data-URI, không gọi Google ----------
+   Đọc đúng khai báo site đang dùng (src/styles/fonts.css) rồi đổi url(/fonts/…)
+   thành data-URI — sheet mở offline vẫn đúng chữ, nâng bản font là tự khớp theo,
+   và repo không còn một dòng CDN nào (luật "Tài sản & bên thứ ba", ROADMAP phần 4).
+   Dancing Script sheet không dùng nên bỏ cho nhẹ file. */
+const fontCss = fs
+  .readFileSync(path.join(ROOT, 'src/styles/fonts.css'), 'utf8')
+  .split(/\n(?=\/\* )/)
+  .filter((b) => b.includes('@font-face') && !b.includes('Dancing Script'))
+  .map((b) =>
+    b.replace(/url\('\/fonts\/([^']+)'\)/, (_, f) =>
+      `url(data:font/woff2;base64,${fs.readFileSync(path.join(ROOT, 'public/fonts', f)).toString('base64')})`
+    )
+  )
+  .join('\n');
+if (!fontCss.includes('data:font/woff2')) throw new Error('fonts.css không đọc ra khối @font-face nào — soi lại cách tách khối');
+
 const html = `<!doctype html>
 <html lang="vi">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Contact sheet — hình món trên nền họ màu</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet" />
 <style>
+${fontCss}
 :root{
   --paper:#F3F0E0; --card:#FBF9EE; --ink:#242B1D; --muted:#5F6A52; --line:#D8D2B6;
   --river:#2C5234; --gold:#E0A32E; --chili:#B7402E;

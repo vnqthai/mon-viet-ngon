@@ -5,7 +5,9 @@
    không còn gửi sang Google — chuyện GDPR), bỏ 2 vòng DNS+TLS và điểm hỏng
    đơn lẻ. Xem ROADMAP "Việc lớn còn lại" mục 3.
    License: cả ba họ đều SIL OFL 1.1 — văn bản để ở src/assets/fonts/*-OFL.txt.
-   Đổi nét chữ thì kiểm lại bằng: grep -oh "font-weight:[0-9]*" src/styles/*.css | sort | uniq -c */
+   Đổi nét chữ thì kiểm lại bằng: grep -oh "font-weight:[0-9]*" src/styles/*.css | sort | uniq -c
+   Nâng bản font (hiếm khi cần): công thức đầy đủ ở ROADMAP phần 4,
+   luật "Tài sản & bên thứ ba" — tải lại 15 woff2 từ css2, tên file mới. */
 
 /* vietnamese */
 @font-face {

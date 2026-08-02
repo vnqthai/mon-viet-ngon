@@ -79,6 +79,7 @@ Không có site công thức thuần nào mạnh. Một site tĩnh nhanh, schema
 5. **Đừng mua link, đừng guest-post farm, đừng "5 cách làm X" listicle nhồi** — ngược cả thuật toán lẫn giọng site.
 6. **Đừng nổ tổ hợp trang giao trục** (kiểu × vùng = 119 trang mỏng) — chỉ 31 trang trục đơn; giao trục chỉ mở khi GSC chứng minh có demand (§5).
 7. **Đừng gắn lại SearchAction** — đã gỡ vì Google khai tử, không phải vì quên.
+8. **Đừng gắn tài nguyên bên thứ ba / tài sản không-free** — mọi thứ tự host, free có giấy tờ kiểm ở chính file; luật đầy đủ + lệnh kiểm nhanh ở ROADMAP §4 *"Tài sản & bên thứ ba"* (chốt 2026-08-02, sau khi tự host font xóa bên-thứ-ba cuối cùng). GA4 nếu gắn (§2 mục 1 bên ROADMAP) là ngoại lệ phải quyết riêng vì kéo theo cookie + dải xin phép.
 
 ---
 
