@@ -22,6 +22,13 @@ jobs:
           # v6 mặc định đã là 24, nhưng ghi rõ để lần sau nâng action không
           # âm thầm đổi luôn Node build. Giữ ở bản CHẴN = LTS.
           node-version: 24
+      - name: QA sau build — phạm luật là không deploy
+        # Đặt SAU bước build có chủ đích: check-third-party soi được cả dist/
+        # (đúng thứ khách sẽ nhận), còn node + node_modules thì action trên đã
+        # cài sẵn trong job. Fail ở đây ⇒ job build đỏ ⇒ job deploy không chạy —
+        # luật "Tài sản & bên thứ ba" (ROADMAP phần 4) do máy giữ trên MỌI lần
+        # push, không phụ thuộc ai nhớ chạy qa ở máy mình.
+        run: npm run qa
 
   deploy:
     needs: build
