@@ -12,7 +12,7 @@ _Lập 2026-08-01 từ một vòng phân tích toàn site + hai vòng nghiên c�
 |---|---|---|---|
 | 1 | Title/description theo ý định tìm kiếm ("cách nấu/cách làm") | **LỚN** — sửa đúng chỗ người Việt gõ | ✅ title **LIVE `4f70049`** — **§4**; meta description = giai đoạn 2, làm dần |
 | 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | ✅ **LIVE `4f70049`**, URL phương án A — **§5** |
-| 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ **LIVE `4f70049`** — brand-only, ẩn danh, chưa email; câu chữ Thái đã rút gọn — **§6** |
+| 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ **LIVE `4f70049`** — brand-only, ẩn danh; email liên hệ thêm 2026-08-02 — **§6** |
 | 4 | Fix kỹ thuật nhỏ (4 cái) | NHỎ nhưng rẻ | ✅ 2026-08-01, **đã live** (`a745ff2`, curl kiểm production) — **§7** |
 | 5 | Checklist Search Console | NHỎ | 👤 mục 1–3 ✅ 2026-08-01; còn rải Request Indexing vài hôm tới, mục 5 chờ GA4 — **§8** |
 | 6 | Theo dõi + kỳ vọng thời gian | — | đọc **§9** trước khi sốt ruột |
@@ -180,13 +180,13 @@ Slug bỏ dấu, một nguồn sự thật trong data file: kiểu món `mon-nuo
 
 # 6 · Việc 3 — Lớp tin cậy — ✅ LIVE `4f70049`, Thái đã chốt cả ba câu
 
-> **Chốt: (A) brand-only** — "Món Việt Ngon" đứng tên tác giả, **giữ ẩn danh**, **chưa có email** liên hệ (khi có thì bổ sung vào trang). `/gioi-thieu/` đã dựng (`src/pages/gioi-thieu.astro`) + link footer. **Thái đã duyệt và RÚT GỌN câu chữ 2026-08-01**: bỏ các câu tự kể về luật nội dung (bịa số liệu/công dụng/dinh dưỡng), chuyện bản vùng miền + nguyên liệu thay thế, chuyện không quảng cáo/ngày cập nhật, và câu hứa hòm thư — trang chỉ còn ba ý: kho công thức là gì, nguyên tắc "chính xác và trung thực", hình vẽ riêng từng món. `author` trong Recipe schema giữ Organization như cũ (khớp lựa chọn A). Nếu sau này đổi sang (B) Person hóa thì mở lại mục này.
+> **Chốt: (A) brand-only** — "Món Việt Ngon" đứng tên tác giả, **giữ ẩn danh**, email liên hệ **`monvietngon.bep@gmail.com`** (Thái tạo riêng cho site 2026-08-02, đã lên trang). `/gioi-thieu/` đã dựng (`src/pages/gioi-thieu.astro`) + link footer. **Thái đã duyệt và RÚT GỌN câu chữ 2026-08-01**: bỏ các câu tự kể về luật nội dung (bịa số liệu/công dụng/dinh dưỡng), chuyện bản vùng miền + nguyên liệu thay thế, chuyện không quảng cáo/ngày cập nhật, và câu hứa hòm thư — trang chỉ còn ba ý: kho công thức là gì, nguyên tắc "chính xác và trung thực", hình vẽ riêng từng món. `author` trong Recipe schema giữ Organization như cũ (khớp lựa chọn A). Nếu sau này đổi sang (B) Person hóa thì mở lại mục này.
 
 Bối cảnh lúc lập kế hoạch: Google hỏi thẳng "Is it self-evident who authored your content?", AI Mode recipe cards in **tên tác giả** lên card — mà site khi đó chưa có trang giới thiệu, chưa có đường liên hệ. "Everyday expertise" được quality rater tính, không cần bằng cấp.
 
 **Ba câu đã hỏi — Thái trả lời 2026-08-01:**
 1. Mức lộ danh **(A) brand-only hay (B) Person hóa** → **A**: thương hiệu "Món Việt Ngon" đứng tên, `author` Organization trong schema giữ nguyên, card AI hiện tên bếp.
-2. Email công khai cho trang liên hệ → **chưa có** — trang không nhắc chuyện hòm thư (cả câu hứa "sẽ bổ sung" cũng bị Thái gỡ khi duyệt).
+2. Email công khai cho trang liên hệ → lúc chốt là **chưa có**; **cập nhật 2026-08-02: Thái tạo `monvietngon.bep@gmail.com`** (địa chỉ riêng cho site — không dùng mail cá nhân, giữ đúng ẩn danh) — đã lên `/gioi-thieu/`. Gmail là đủ cho E-E-A-T (Google cần ĐƯỜNG liên hệ hoạt động, không chấm điểm domain của email); muốn đẹp hơn sau này thì forwarding miễn phí `lienhe@monvietngon.com` → Gmail (Cloudflare Email Routing/Zoho), sửa trang một dòng. **Cố ý không đưa email vào JSON-LD** — không thêm gì cho rank, chỉ thêm mồi scraper.
 3. Kể chuyện bếp thật hay ẩn danh → **ẩn danh**.
 
 ---
@@ -206,7 +206,17 @@ Nghiệm thu: build sạch, `dist/sitemap-0.xml` có lastmod, trang món có đ�
 
 # 8 · Checklist Search Console — 👤 tay Thái, ~15 phút
 
-> ✅ **Mục 1–3 Thái làm xong 2026-08-01.** Việc còn kéo dài của mục 2: quota Request Indexing mỗi ngày có hạn — **các hôm tới rải nốt** số món featured còn lại + vài trang trục đáng giá (`/kieu/kho/` · `/kieu/mon-nuoc/` · `/mien/mien-tay/` · `/dip/co-tet/` · `/dip/com-nha/`). Mục 4 chỉ là "biết để khỏi hết hồn", mục 5 chờ GA4, mục 6 tùy hứng.
+> ✅ **Mục 1–3 Thái làm xong 2026-08-01; 2026-08-02 quota đã cạn.** Phần rải tiếp lên **lịch 5 ngày dưới đây — mỗi ngày đúng 10 URL**, và đã đặt **5 lời nhắc tự động** trên claude.ai (routines, ~9:00 sáng mỗi ngày 03–07/08, lời nhắc chứa sẵn URL của ngày đó). **Hết 07/08 thì DỪNG request tay** — sitemap + liên kết nội bộ lo nốt ~96 trang món còn lại, đừng tốn quota. Mục 4 chỉ là "biết để khỏi hết hồn", mục 5 chờ GA4, mục 6 tùy hứng.
+>
+> | Ngày | 10 URL (prefix `https://www.monvietngon.com`) |
+> |---|---|
+> | **03/08** | `/kieu/kho/` · `/kieu/mon-nuoc/` · `/kieu/xao/` · `/kieu/canh/` · `/kieu/lau/` · `/kieu/banh/` · `/kieu/che/` · `/kieu/com/` · `/kieu/nuong/` · `/kieu/chien/` |
+> | **04/08** | `/kieu/xoi/` · `/kieu/hap/` · `/kieu/bun-tron/` · `/kieu/chao/` · `/kieu/cuon/` · `/kieu/goi/` · `/kieu/banh-mi/` · `/mien/mien-bac/` · `/mien/mien-trung/` · `/mien/mien-nam/` |
+> | **05/08** | `/mien/mien-tay/` · `/mien/tay-bac/` · `/mien/tay-nguyen/` · `/mien/ca-nuoc/` · `/dip/com-nha/` · `/dip/bua-sang/` · `/dip/dai-khach/` · `/dip/nhau-lai-rai/` · `/dip/an-choi/` · `/dip/co-tet/` |
+> | **06/08** | `/dip/cho-be/` · `/gioi-thieu/` · `/mon/pho-ga/` · `/mon/bun-bo-hue/` · `/mon/bun-cha-ha-noi/` · `/mon/thit-kho-hot-vit/` · `/mon/banh-xeo-mien-tay/` · `/mon/bo-kho/` · `/mon/com-ga-hoi-an/` · `/mon/heo-quay-da-gion/` |
+> | **07/08** | `/mon/banh-cuon-nong/` · `/mon/bun-rieu-cua/` · `/mon/goi-cuon-tom-thit/` · `/mon/lau-thai/` · `/mon/canh-kho-qua-nhoi-thit/` · `/mon/sup-cua/` · `/mon/xoi-gac/` · `/mon/banh-mi-heo-quay/` · `/mon/hu-tieu-nam-vang/` · `/mon/che-troi-nuoc/` |
+>
+> Món ở hai ngày cuối là món KHÔNG featured (12 món featured đã request 01/08), chọn theo query mạnh.
 
 1. ~~**Sitemaps:** kiểm `sitemap-index.xml` trạng thái Success; **nộp thêm `https://www.monvietngon.com/rss.xml`** làm sitemap phụ~~ — ✅ 2026-08-01.
 2. ~~**URL Inspection → Request indexing:** trang chủ, `/mon/`, và ~12 món featured~~ — ✅ đợt đầu 2026-08-01; **còn rải tiếp các hôm tới** (xem khung trên).

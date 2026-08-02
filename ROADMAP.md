@@ -17,11 +17,11 @@ _Cập nhật 2026-08-01 (sau đợt 16). Site đang **126 món / 7 vùng / 17 k
 |---|---|
 | **Nội dung** | 126 món · 7 vùng · 17 kiểu món · 7 nhãn Theo dịp · **0 món trống nhãn** |
 | **Giao diện** | Hướng "Khăn rằn": nền thẻ mã hóa theo **6 họ màu**, trang chi tiết mang màu họ của chính nó |
-| **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** · ô tìm ở hero (form GET sang `/mon/?q=`) · **3 trục lối vào** (Kiểu món 17 · Theo dịp 7 · Miền 7 — mỗi cửa kèm số món, bấm là sang `/mon/` đã lọc sẵn) |
+| **Trang chủ** | 12 món nổi bật, phủ **7/7 vùng** · ô tìm ở hero (form GET sang `/mon/?q=`) · **3 trục lối vào** (Kiểu món 17 · Theo dịp 7 · Miền 7 — mỗi cửa kèm số món, bấm là sang **trang trục tĩnh** `/kieu/…` `/mien/…` `/dip/…`; chip lọc JS trên `/mon/` vẫn giữ cho người lọc nhanh) |
 | **Dung lượng** | `/mon/` **38,5 KB** gzip ở 126 món (**39.470 B, đo thật trên máy chủ 2026-08-01**; hệ số ước cục bộ nâng lên **×1,025** sau 7 điểm dữ liệu) — 11 món thêm 2,8 KB, tức **0,25 KB/món** |
 | **Liên kết chéo** | Mỗi trang món có dải **6 món** cuối trang — 0 mồ côi, 0 dải trùng, catalog liền **1 mảnh**, 756 liên kết |
 | **QA** | `npm run qa` (bắt buộc trước mỗi build) · `npm run link-audit` + `npm run seo-audit` (sau build) · `npm run art-png -- --sheet` · `npm run contact-sheet` |
-| **SEO** | JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` + `SearchAction` · `canonical` + `og:url` · sitemap · **RSS** `/rss.xml` |
+| **SEO** | Title mọi trang món theo ý định tìm kiếm **"Cách nấu/làm …"** · **31 trang trục lọc** `/kieu/ /mien/ /dip/` kèm `ItemList` · JSON-LD `Recipe` · `BreadcrumbList` + breadcrumb thật · `WebSite` (SearchAction đã gỡ — Google khai tử 11/2024) · `canonical` + `og:url` · sitemap + `lastmod` thật · **RSS** `/rss.xml` · trang `/gioi-thieu/` + email liên hệ — **chi tiết và trạng thái: [`SEO.md`](SEO.md)** |
 | **Ảnh tìm kiếm** | `/anh-mon/<slug>-{1x1,4x3,16x9}.jpg` — hình món trên nền họ màu, sinh lúc build. **Khác `/og/`**: `/og/` là thẻ chữ để chia sẻ, `/anh-mon/` là ảnh cho bot |
 | **Hạ tầng** | JSON-LD Recipe · ảnh OG sinh lúc build · sitemap · robots.txt · deploy tự động GitHub Pages + HTTPS |
 
@@ -109,7 +109,7 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 
 ## Hạ tầng, theo thứ tự đáng làm
 
-> 🔍 **SEO — kế hoạch đầy đủ nằm ở [`SEO.md`](SEO.md) (lập 2026-08-01), phiên nào đụng SEO thì mở file đó trước, đừng làm theo trí nhớ.** Tóm một dòng: 4 fix kỹ thuật nhỏ ĐÃ LÀM cùng ngày (meta robots + og:site_name + lastmod sitemap + gỡ SearchAction chết); còn chờ Thái duyệt 2 việc lớn (title theo ý định tìm kiếm "cách nấu/cách làm" · ~31 trang trục lọc) + 1 câu mức lộ danh cho trang giới thiệu; kèm danh sách ĐỪNG-LÀM đã tra nguồn (FAQPage chết 5/2026, llms.txt không ai đọc, Pinterest vắng ở VN…).
+> 🔍 **SEO — kế hoạch đầy đủ + trạng thái nằm ở [`SEO.md`](SEO.md), phiên nào đụng SEO thì mở file đó trước, đừng làm theo trí nhớ.** Trạng thái 2026-08-02: **cả ba việc lớn + 4 fix nhỏ ĐÃ LIVE** (`a745ff2` + `4f70049`, curl kiểm production) — title mọi trang món "Cách nấu/làm…", 31 trang trục `/kieu/ /mien/ /dip/` (site 130 → 162 trang), `/gioi-thieu/` + email `monvietngon.bep@gmail.com`. Còn mở: rải Request Indexing 03–07/08 (bảng + lời nhắc tự động, SEO.md §8) · GA4 · meta description giai đoạn 2. Kèm danh sách ĐỪNG-LÀM đã tra nguồn (FAQPage chết 5/2026, llms.txt không ai đọc, Pinterest vắng ở VN…). **Đợt món mới chỉ phát sinh hai việc SEO:** gán `seoVerb` nếu lệch default (QA réo) + Request Indexing món mới.
 
 1. **Thống kê truy cập — Thái đã chốt dùng [Google Analytics 4](https://analytics.google.com), KHÔNG dùng GoatCounter (2026-07-30).** Chưa làm, và cố ý chưa làm ngay — nhưng **sẽ làm sớm**, nên đừng gỡ mục này xuống.
 
@@ -143,7 +143,7 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 
 - ~~`rel="canonical"`~~ — có ở mọi trang trừ 404 (trang 404 không có bản chuẩn nào để trỏ tới). Kèm `og:url`.
 - ~~`BreadcrumbList`~~ — có, **kèm breadcrumb nhìn thấy được** trong hero trang món; Google chỉ hiện đường dẫn phân cấp khi trang có breadcrumb thật.
-- ~~`WebSite`~~ — có ở trang chủ, kèm `SearchAction` trỏ `/mon/?q=` (khai được vì trang có tìm kiếm thật, form GET thuần).
+- ~~`WebSite`~~ — có ở trang chủ, kèm `SearchAction` trỏ `/mon/?q=` (khai được vì trang có tìm kiếm thật, form GET thuần). *(Cập nhật 2026-08-01: khối `SearchAction` đã GỠ — Google khai tử sitelinks search box 11/2024, markup thành mã chết; `WebSite` giữ nguyên. Xem SEO.md §3.)*
 
 ## Bốn cảnh báo Recipe của Search Console — **cố ý để nguyên**
 

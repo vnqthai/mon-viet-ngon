@@ -4,7 +4,9 @@ import Base from '../layouts/Base.astro';
 /**
  * TRANG GIỚI THIỆU — trả lời ba câu Who/How/Why mà Google nêu trong tài liệu
  * helpful content (SEO.md §6). Mức lộ danh Thái chốt 2026-08-01: THƯƠNG HIỆU,
- * không tên người, không hòm thư (chưa có — khi có thì bổ sung ở đây).
+ * không tên người. Email liên hệ monvietngon.bep@gmail.com (địa chỉ tạo riêng
+ * cho site, thêm 2026-08-02 — cố ý KHÔNG đưa vào JSON-LD, chỉ để trên trang:
+ * schema email không thêm được gì cho rank mà chỉ thêm mồi cho scraper).
  * Mọi câu trong trang phải ĐÚNG SỰ THẬT — đây là trang cam kết, sai một câu
  * là hỏng cả trang.
  *
@@ -66,7 +68,8 @@ const breadcrumbLd = {
         <p>
           Bếp đứng tên chung là <b>Món Việt Ngon</b> — cứ
           vào <a href="/mon/">kho món</a> chọn một món mà nấu, đó là lời chào
-          quý nhất với một cái bếp.
+          quý nhất với một cái bếp. Còn muốn nhắn gì thêm, biên thư
+          về <a href="mailto:monvietngon.bep@gmail.com">monvietngon.bep@gmail.com</a>.
         </p>
       </div>
     </div>
