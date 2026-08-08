@@ -14,7 +14,8 @@ _Lập 2026-08-01 từ một vòng phân tích toàn site + hai vòng nghiên c�
 | 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | ✅ **LIVE `4f70049`**, URL phương án A — **§5** |
 | 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ **LIVE `4f70049`** — brand-only, ẩn danh; email liên hệ thêm 2026-08-02 — **§6** |
 | 4 | Fix kỹ thuật nhỏ (4 cái) | NHỎ nhưng rẻ | ✅ 2026-08-01, **đã live** (`a745ff2`, curl kiểm production) — **§7** |
-| 5 | Checklist Search Console | NHỎ | 👤 mục 1–3 ✅ 2026-08-01; còn rải Request Indexing vài hôm tới, mục 5 chờ GA4 — **§8** |
+| 5 | Checklist Search Console | NHỎ | 👤 mục 1–3 ✅ 2026-08-01; lịch rải 03–07/08 ✅ xong, mục 5 chờ GA4 — **§8** |
+| 5b | Đọc báo cáo "Page indexing" (44 URL gắn cờ 05/08) | NHỎ | ✅ mổ xong 2026-08-08: **1 bug thật đã sửa + đo**, 3 ngày request tay còn lại, phần lớn là CHỜ — **§8b** |
 | 6 | Theo dõi + kỳ vọng thời gian | — | đọc **§9** trước khi sốt ruột |
 
 > ✅ **CẢ BA VIỆC ĐÃ LIVE — `4f70049`, 2026-08-01, deploy xanh, đã curl kiểm production:** title mới trên trang món · `/kieu/kho/` trả 200 kèm ItemList · `/gioi-thieu/` hết lỗi dính chữ · cửa trục trang chủ + badge trang món trỏ trang tĩnh · sitemap 161 URL. Site giờ **162 trang**. Còn mở: **rải nốt Request Indexing** (§8, vài hôm) · **GA4** (ROADMAP §2 — mở khoá §8 mục 5 + quyết định hero C) · **meta description giai đoạn 2** (§4, làm dần theo GSC). Mọi đợt món mới tự ăn hạ tầng này — việc SEO phát sinh mỗi đợt chỉ là gán `seoVerb` nếu lệch default (QA sẽ réo title dài) và Request Indexing món mới.
@@ -80,6 +81,7 @@ Không có site công thức thuần nào mạnh. Một site tĩnh nhanh, schema
 6. **Đừng nổ tổ hợp trang giao trục** (kiểu × vùng = 119 trang mỏng) — chỉ 31 trang trục đơn; giao trục chỉ mở khi GSC chứng minh có demand (§5).
 7. **Đừng gắn lại SearchAction** — đã gỡ vì Google khai tử, không phải vì quên.
 8. **Đừng gắn tài nguyên bên thứ ba / tài sản không-free** — mọi thứ tự host, free có giấy tờ kiểm ở chính file; luật đầy đủ + lệnh kiểm nhanh ở ROADMAP §4 *"Tài sản & bên thứ ba"* (chốt 2026-08-02, sau khi tự host font xóa bên-thứ-ba cuối cùng). GA4 nếu gắn (§2 mục 1 bên ROADMAP) là ngoại lệ phải quyết riêng vì kéo theo cookie + dải xin phép.
+9. **Đừng "sửa" mấy bucket lành trong báo cáo Page indexing** — 3 URL `http://` / không-www là 301 của chính mình (đúng, và sẽ nằm đó vĩnh viễn), `rss.xml` là feed nên không bao giờ được index như một trang. Đi sửa chúng là tự tạo việc. Cách đọc báo cáo cho đúng: **§8b**.
 
 ---
 
@@ -207,7 +209,7 @@ Nghiệm thu: build sạch, `dist/sitemap-0.xml` có lastmod, trang món có đ�
 
 # 8 · Checklist Search Console — 👤 tay Thái, ~15 phút
 
-> ✅ **Mục 1–3 Thái làm xong 2026-08-01; 2026-08-02 quota đã cạn.** Phần rải tiếp lên **lịch 5 ngày dưới đây — mỗi ngày đúng 10 URL**, và đã đặt **5 lời nhắc tự động** trên claude.ai (routines, ~9:00 sáng mỗi ngày 03–07/08, lời nhắc chứa sẵn URL của ngày đó). **Hết 07/08 thì DỪNG request tay** — sitemap + liên kết nội bộ lo nốt ~96 trang món còn lại, đừng tốn quota. Mục 4 chỉ là "biết để khỏi hết hồn", mục 5 chờ GA4, mục 6 tùy hứng.
+> ✅ **Mục 1–3 Thái làm xong 2026-08-01; 2026-08-02 quota đã cạn.** Phần rải tiếp lên **lịch 5 ngày dưới đây — mỗi ngày đúng 10 URL**, và đã đặt **5 lời nhắc tự động** trên claude.ai (routines, ~9:00 sáng mỗi ngày 03–07/08, lời nhắc chứa sẵn URL của ngày đó). **Hết 07/08 thì DỪNG request tay** — sitemap + liên kết nội bộ lo nốt ~96 trang món còn lại, đừng tốn quota. Mục 4 chỉ là "biết để khỏi hết hồn", mục 5 chờ GA4, mục 6 tùy hứng. *(Cập nhật 2026-08-08: lịch 5 ngày đã chạy xong. Sau đó GSC chỉ đúng tên 25 URL đang tắc, nên có thêm **3 ngày rải CÓ NHẮM** — bảng ở **§8b**; hết 10/08 là dừng thật.)*
 >
 > | Ngày | 10 URL (prefix `https://www.monvietngon.com`) |
 > |---|---|
@@ -225,6 +227,65 @@ Nghiệm thu: build sạch, `dist/sitemap-0.xml` có lastmod, trang món có đ�
 4. **Pages (indexing report):** sẽ thấy URL đời chủ cũ của domain (`/tag/…`, `/mon-diem-tam/`) báo 404 — **đúng và kệ**; không tìm thấy backlink sống nào đáng redirect (đã tra 2026-08-01).
 5. Khi gắn GA4 (đã chốt ở ROADMAP §2): nối GA4 ↔ Search Console.
 6. _(Tùy chọn, 5 phút, giá trị thấp)_ Bing Webmaster Tools import từ GSC; Cốc Cốc nộp sitemap.
+
+---
+
+# 8b · Báo cáo "Page indexing" 05/08/2026 — 44 URL gắn cờ, chỉ 6 cái là bug
+
+> **Mổ xong 2026-08-08.** Ba bucket, 44 URL. Kết luận: **một bug thật (đã sửa, đã đo) · một việc tay cho Thái · còn lại là CHỜ.** Đừng đọc 44 con số này thành 44 chỗ hỏng — hai bucket lớn nhất là trạng thái bình thường của một domain 12 ngày tuổi.
+
+## Bucket 1 — "Page with redirect" (9 URL): 3 cái đúng, 6 cái là bug đã sửa
+
+**3 URL phải để nguyên VĨNH VIỄN:** `http://monvietngon.com/` · `http://www.monvietngon.com/` · `https://monvietngon.com/`. `curl` cả ba: `301` sạch về `https://www.monvietngon.com/`. Báo cáo đang khen 301 của mình chạy đúng — **đừng bấm "Validate fix", đừng đi sửa**; chúng sẽ nằm trong bucket này mãi.
+
+**6 URL còn lại là bug thật** (`/mon/?mien=Cả nước` · `?dip=Cho bé` · `?mien=` Miền Trung / Tây Nguyên / Miền Nam / Tây Bắc): máy chủ trả **200** kèm canonical đúng về `/mon/`. Cái "redirect" nằm ở phía client — `syncUrl()` ghép lại query bằng `URLSearchParams.toString()`, mà hàm đó **viết dấu cách thành `+`**. Vào trang bằng `?mien=C%E1%BA%A3%20n%C6%B0%E1%BB%9Bc` là bị `replaceState` sang `?mien=C%E1%BA%A3+n%C6%B0%E1%BB%9Bc` — cùng một bộ tham số mà URL vẫn đổi. Googlebot render xong thấy URL khác lúc tải về nên xếp thành "Page with redirect".
+
+**Chữ ký của bug khớp 100%, không phải suy đoán:** cả 6 URL bị gắn cờ đều là giá trị **có dấu cách** (7/7 giá trị `mien` và 7/7 giá trị `dip` đều có dấu cách), và **không một URL `?kieu=` nào bị gắn cờ** — giá trị kiểu món là một chữ (`Kho`, `Xào`) nên chuỗi ghép lại trùng khít từng byte, không có gì đổi. 6 gắn cờ / 6 có dấu cách / 0 `kieu`.
+
+**Đo trên production** (headless Chrome + CDP `/json/list` để đọc URL thật của tab): URL tự đổi sau **~1,5 giây**.
+
+**Đã sửa** — `src/pages/mon/index.astro`, hàm `syncUrl()`: so **semantic** rồi mới ghi, `new URLSearchParams(location.search).toString() === qs` thì thoát sớm. Nghiệm thu 6 ca trên bản build mới:
+
+| URL vào | Trước | Sau |
+|---|---|---|
+| `?mien=Cả%20nước` | URL tự đổi | **đứng im** |
+| `?dip=Cho%20bé` | URL tự đổi | **đứng im** |
+| `?kieu=Kho` | đứng im | đứng im |
+| `?fbclid=abc123` | → `/mon/` | **→ `/mon/`** (giữ nguyên nết dọn tham số rác) |
+| `/mon/` trơn | — | đứng im |
+| `?mien=Miền+Nam` | — | đứng im |
+
+**Đừng kỳ vọng sai về phần thưởng:** 6 URL đó KHÔNG được index sau khi sửa — chúng *không nên* được index. Sửa chỉ đẩy chúng sang bucket lành "Alternate page with proper canonical tag" và thôi ăn crawl. Lợi ích nhỏ; nhưng URL tự đổi dưới chân Googlebot thì đúng là thứ không nên có.
+
+**Cố ý KHÔNG dựng chốt QA cho cái này** — bắt được nó cần Chrome headless trong CI, đắt quá so với giá trị. Ghi lý do ngay cạnh code là đủ. Đây là quyết định, không phải bỏ sót.
+
+## Bucket 2 — "Discovered – currently not indexed" (25 URL): chờ + 3 ngày request tay
+
+`Last crawled: N/A` — Google **chưa từng tải** 25 trang này. Đã kiểm: cả 25 đều có trong sitemap.
+
+**Đã thử giả thuyết "món mới nên chưa kịp crawl" — và LOẠI được bằng cách đếm:** nếu vậy thì 25 món phải dồn vào đợt mới nhất. Đếm thật thì chúng **rải đều theo tỉ lệ** khắp cả sáu ngày `pubDate` (10 món từ đợt 33-món ngày 31/07 · 4 từ 01/08 · 4 từ 30/07 · 4 từ 29/07 · 2 từ 28/07 · 1 từ 27/07). Rải đều ⇒ không phải lỗi nội dung hay cấu trúc, chỉ là **Google đang bóp nhịp crawl** trên domain mới. Không có gì để sửa bằng code.
+
+**👤 Việc tay đáng làm — 3 ngày × 10 URL.** §8 chốt "hết 07/08 thì DỪNG", và lúc đó chốt vậy là đúng — nhưng đó là quyết định lúc chưa biết gì. Giờ GSC **chỉ đúng tên 25 URL đang tắc**, tức quota đã có chỗ nhắm chính xác thay vì rải theo phỏng đoán; đây đúng là công dụng sách vở của Request Indexing. Rải nốt rồi dừng thật:
+
+> | Ngày | URL (prefix `https://www.monvietngon.com/mon/`) |
+> |---|---|
+> | **08/08** | `banh-mi-heo-quay/` · `banh-tet/` · `bo-nuong-la-lot/` · `bun-thit-nuong/` · `ca-loc-nuong-trui/` · `ca-nuc-sot-ca-chua/` · `ca-tai-tuong-chien-xu/` · `ca-thu-sot-ca-chua/` · `ca-tim-nuong-mo-hanh/` · `che-ba-ba/` |
+> | **09/08** | `che-dau-do/` · `che-dau-xanh-bot-bang/` · `che-hat-sen-long-nhan/` · `che-thai/` · `cua-hap-bia/` · `lau-bo-da-lat/` · `lau-bo-nhung-giam/` · `mien-ga/` · `mien-xao-cua/` · `muc-xao-thom-can-tay/` |
+> | **10/08** | `oc-om-chuoi-dau/` · `pa-pinh-top/` · `rau-muong-xao-toi/` · `sua-chua-nep-cam/` · `suon-xao-chua-ngot/` |
+>
+> Mở URL Inspection trước từng cái: **đã "Indexed" thì bỏ qua** — danh sách này chụp ngày 05/08 nên vài món có thể đã tự được crawl. **Hết 10/08 là dừng hẳn**, sitemap + liên kết nội bộ lo phần còn lại.
+
+## Bucket 3 — "Crawled – currently not indexed" (10 URL): chờ, không sửa gì
+
+- **`rss.xml`** — bình thường và **vĩnh viễn**. Feed nộp làm sitemap phụ; Google không index feed như một trang. Kệ nó.
+- **7 trang trục** (`/kieu/chao/` `/kieu/xoi/` `/kieu/cuon/` `/kieu/hap/` `/mien/mien-nam/` `/mien/tay-nguyen/` `/dip/bua-sang/`) — cả 7 crawl ngày **05/08**, mà báo cáo cũng chốt ngày **05/08**: quyết định index chưa kịp rơi. **24/31 trang trục không có trong danh sách.** Đã thử giả thuyết "trang mỏng nên bị loại" và **LOẠI được bằng số đo**: `/dip/bua-sang/` **2.445 chữ** bị gắn cờ, còn `/kieu/kho/` **814 chữ** thì không — dài/ngắn không phải thứ phân loại ở đây.
+- **2 trang món** (`cha-ca-that-lat-chien` · `lau-thai`) — đo trong `dist`, xếp thứ **83/126** và **110/126** từ ngắn tới dài (median 2.665 chữ), tức thuộc nhóm DÀI. Không có gì hỏng.
+
+**Chốt kỹ thuật kiểm cùng lúc:** không một chữ `noindex` nào trong `dist` · `max-image-preview:large` phục vụ đúng · sitemap 161 URL, `lastmod` thật, không lẫn URL query. Về kỹ thuật site sạch — hai bucket lớn là **tuổi domain**, không phải lỗi.
+
+## Việc nội dung mọc ra từ đây — ưu tiên thấp, đừng làm ngay
+
+`/kieu/chao/` (3 món, 298 chữ) và `/kieu/cuon/` (3 món, 270 chữ) là hai trang yếu nhất site về cấu trúc. **Không làm gì riêng bây giờ** — đường tới 200 món tự làm dày chúng. Chỉ cần biết **trang trục 3 món là đáy**, thêm một lý do để mỗi đợt ngó qua mấy ô mỏng (ROADMAP §2 *"Đường tới 200 món"*).
 
 ---
 

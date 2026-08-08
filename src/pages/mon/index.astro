@@ -157,6 +157,15 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
     const raw = q?.value.trim();
     if (raw) p.set('q', raw);
     const qs = p.toString();
+    // So SEMANTIC chứ đừng so chuỗi. URLSearchParams viết dấu cách thành `+`,
+    // nên vào trang bằng `?mien=Cả%20nước` là bị ghi lại thành `?mien=Cả+nước`
+    // — cùng một bộ tham số mà URL vẫn đổi. Googlebot render xong thấy URL
+    // khác lúc tải về nên xếp thành "Page with redirect": GSC 05/08/2026 báo
+    // đúng 6 URL, TẤT CẢ đều là giá trị có dấu cách (mien/dip), còn `?kieu=Kho`
+    // một chữ nên chuỗi trùng khít và không bị. Đo lại trên production: URL tự
+    // đổi sau ~1,5s. Chốt cửa ở đây thì URL đứng im, Google chỉ còn thấy 200 +
+    // canonical `/mon/` — đúng thứ mình muốn nó thấy.
+    if (new URLSearchParams(location.search).toString() === qs) return;
     history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
   }
 

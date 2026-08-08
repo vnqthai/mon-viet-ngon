@@ -109,7 +109,7 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 
 ## Hạ tầng, theo thứ tự đáng làm
 
-> 🔍 **SEO — kế hoạch đầy đủ + trạng thái nằm ở [`SEO.md`](SEO.md), phiên nào đụng SEO thì mở file đó trước, đừng làm theo trí nhớ.** Trạng thái 2026-08-02: **cả ba việc lớn + 4 fix nhỏ ĐÃ LIVE** (`a745ff2` + `4f70049`, curl kiểm production) — title mọi trang món "Cách nấu/làm…", 31 trang trục `/kieu/ /mien/ /dip/` (site 130 → 162 trang), `/gioi-thieu/` + email `monvietngon.bep@gmail.com`. Còn mở: rải Request Indexing 03–07/08 (bảng + lời nhắc tự động, SEO.md §8) · GA4 · meta description giai đoạn 2. Kèm danh sách ĐỪNG-LÀM đã tra nguồn (FAQPage chết 5/2026, llms.txt không ai đọc, Pinterest vắng ở VN…). **Đợt món mới chỉ phát sinh hai việc SEO:** gán `seoVerb` nếu lệch default (QA réo) + Request Indexing món mới.
+> 🔍 **SEO — kế hoạch đầy đủ + trạng thái nằm ở [`SEO.md`](SEO.md), phiên nào đụng SEO thì mở file đó trước, đừng làm theo trí nhớ.** Trạng thái 2026-08-02: **cả ba việc lớn + 4 fix nhỏ ĐÃ LIVE** (`a745ff2` + `4f70049`, curl kiểm production) — title mọi trang món "Cách nấu/làm…", 31 trang trục `/kieu/ /mien/ /dip/` (site 130 → 162 trang), `/gioi-thieu/` + email `monvietngon.bep@gmail.com`. Còn mở: **3 ngày Request Indexing CÓ NHẮM 08–10/08** (25 URL Google chưa từng crawl, GSC chỉ tên — bảng ở SEO.md §8b; lịch 03–07/08 đã chạy xong) · GA4 · meta description giai đoạn 2. **Báo cáo "Page indexing" 05/08 đã mổ xong (SEO.md §8b): 44 URL gắn cờ mà chỉ 6 cái là bug thật** — đã sửa; 3 URL `http://`/không-www là 301 của chính mình, đừng đi "sửa" chúng. Kèm danh sách ĐỪNG-LÀM đã tra nguồn (FAQPage chết 5/2026, llms.txt không ai đọc, Pinterest vắng ở VN…). **Đợt món mới chỉ phát sinh hai việc SEO:** gán `seoVerb` nếu lệch default (QA réo) + Request Indexing món mới.
 
 1. **Thống kê truy cập — Thái đã chốt dùng [Google Analytics 4](https://analytics.google.com), KHÔNG dùng GoatCounter (2026-07-30).** Chưa làm, và cố ý chưa làm ngay — nhưng **sẽ làm sớm**, nên đừng gỡ mục này xuống.
 
@@ -447,6 +447,16 @@ Rút ra từ nhật ký bên dưới, gom lại đây cho khỏi phải đọc c
 # 5 · Nhật ký
 
 Chuyện đã qua, xếp theo thứ tự thời gian.
+
+## Bug "URL tự đổi dưới chân Googlebot" — 2026-08-08
+
+**Chuyện gì:** Search Console báo **44 URL không được index** (3 bucket). Mổ ra thì **38 cái không có gì để sửa** (301 của chính mình · domain 12 ngày tuổi bị bóp nhịp crawl · quyết định index chưa kịp rơi · `rss.xml` vốn không index như trang), **6 cái là bug thật**: vào `/mon/?mien=Cả nước` thì chính JS của trang ghi lại URL thành `?mien=Cả+nước` (`URLSearchParams.toString()` viết dấu cách thành `+`), Googlebot render xong thấy URL khác lúc tải nên xếp thành "Page with redirect". Sửa: `syncUrl()` so semantic rồi mới `replaceState`. **Toàn bộ chẩn đoán + số đo + việc tay còn lại: [`SEO.md`](SEO.md) §8b.**
+
+**Ba bài học đáng mang đi:**
+
+1. **Tìm CHỮ KÝ của bug trước khi tin chẩn đoán.** Cơ chế đoán ra ("dấu cách bị viết thành `+`") dự đoán một thứ kiểm được: chỉ giá trị *có dấu cách* mới bị. Đếm thật: 6/6 URL gắn cờ đều có dấu cách, **0** URL `?kieu=` (giá trị một chữ) bị gắn cờ. Khớp thì mới gọi là biết — không thì chỉ là một câu chuyện nghe hợp lý.
+2. **Vòng poll không có độ trễ là bẫy đo lường mới** (họ hàng với ba bẫy ở mục so giao diện): đọc CDP `/json/list` ngay sau khi mở Chrome thì xong **trước cả lúc JS chạy**, ra kết quả "URL không đổi" — sai ngược. Lần đầu đo đã tin hụt đúng chỗ này. Cách thoát: **kiểm chính cái harness bằng một trang mình biết chắc kết quả** rồi mới tin nó (dựng trang tự gọi `replaceState`, thấy CDP báo đúng thì harness mới dùng được).
+3. **Đọc báo cáo GSC phải tách "hỏng" khỏi "đang chờ"** — hai bucket lớn nhất không có gì để sửa, đi "sửa" chúng là tự tạo việc. Cách loại giả thuyết cho rẻ: **đếm phân bố** (25 URL rải đều theo `pubDate` ⇒ không phải "món mới chưa kịp crawl") và **đo số** (trang 2.445 chữ bị gắn cờ mà trang 814 chữ thì không ⇒ không phải "mỏng nên bị loại").
 
 ## Tổng kiểm định nội dung toàn site — 2026-08-01
 
