@@ -283,11 +283,15 @@ Cuối cùng vào **Settings → Pages → Custom domain** điền `www.monvietn
 ## Ghi chú kỹ thuật
 
 - Giỏ đi chợ, tiến độ nấu, khẩu phần, theme lưu bằng `localStorage`,
-  namespace theo món: `mvn:<slug>:…` — không cookie, không server.
+  namespace theo món: `mvn:<slug>:…` — không cookie, không server. Cookie duy nhất
+  trên site là của Google Analytics, và chỉ xuất hiện sau khi khách bấm *Đồng ý*
+  ở ô hỏi nhỏ góc dưới trang (ROADMAP phần 2 mục 1; lựa chọn lưu `mvn:consent`).
 - Font tự host (Paytone One, Be Vietnam Pro, Dancing Script — đủ tiếng Việt,
   đều SIL OFL 1.1): 15 file woff2 trong `public/fonts/`, khai báo ở
   `src/styles/fonts.css`, văn bản license ở `src/assets/fonts/*-OFL.txt`.
   Site không gọi ra một bên thứ ba nào — đây là **luật cứng** ("Tài sản &
   bên thứ ba", ROADMAP phần 4): không tài sản không-free, không dịch vụ
   tính tiền; đọc luật đó trước khi thêm bất cứ tài nguyên hay dependency nào.
+  Ngoại lệ duy nhất, có điều kiện: gtag.js của Google Analytics, chỉ tải SAU
+  khi khách bấm *Đồng ý* (ROADMAP phần 2 mục 1).
 - Toàn bộ minh họa là SVG trong repo, không ảnh ngoài.

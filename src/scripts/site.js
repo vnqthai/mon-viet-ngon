@@ -119,3 +119,71 @@ if (toTop) {
     window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
   });
 }
+
+/* ---------- Thống kê (Google Analytics 4) — CHỈ sau khi khách bấm "Đồng ý" ----------
+   Ngoại lệ duy nhất của luật "Tài sản & bên thứ ba" (ROADMAP phần 4), và có điều
+   kiện: chưa bấm Đồng ý thì trang không tải một byte nào từ Google ("basic consent
+   mode"). Luật VN 91/2025 + NĐ 356/2025 (hiệu lực 01/01/2026) lẫn GDPR đều đòi xin
+   phép TRƯỚC khi đặt cookie thống kê, nên hỏi MỌI khách chứ không riêng EU.
+   Lựa chọn lưu localStorage `mvn:consent` = 'yes' | 'no', hỏi đúng một lần; đổi ý
+   ở /gioi-thieu/#thong-ke. Chỉ đo trên đúng miền thật — dev, preview và harness đo
+   giao diện không bao giờ bắn hit. Ô hỏi (#consent) nằm ở layouts/Base.astro. */
+const GA_ID = 'G-DDLS1WV3MC';
+const CONSENT_KEY = 'mvn:consent';
+const LIVE_HOST = 'www.monvietngon.com';
+let gaLoaded = false;
+
+function startAnalytics() {
+  if (location.hostname !== LIVE_HOST) return;
+  window['ga-disable-' + GA_ID] = false; // gỡ chốt chặn nếu vừa bấm Không rồi đổi ý
+  if (gaLoaded) return;
+  gaLoaded = true;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag('consent', 'default', {
+    analytics_storage: 'granted',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+  });
+  window.gtag('js', new Date());
+  window.gtag('config', GA_ID);
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+  document.head.appendChild(s);
+}
+
+/* Rút lại đồng ý: chặn gtag ngay trên trang này (cờ ga-disable là API chính thức)
+   và xoá hai cookie GA4 đã đặt (_ga và _ga_<ID>) — GA đặt ở miền gốc nên xoá cả
+   hai dạng miền cho chắc. */
+function stopAnalytics() {
+  window['ga-disable-' + GA_ID] = true;
+  const names = ['_ga', '_ga_' + GA_ID.replace(/^G-/, '')];
+  const domains = ['', '; domain=.monvietngon.com', '; domain=' + location.hostname];
+  for (const n of names) {
+    for (const d of domains) document.cookie = `${n}=; Max-Age=0; path=/${d}`;
+  }
+}
+
+const consentBar = document.getElementById('consent');
+function decideConsent(choice) {
+  store.set(CONSENT_KEY, choice);
+  if (consentBar) consentBar.hidden = true;
+  if (choice === 'yes') startAnalytics();
+  else stopAnalytics();
+}
+document.getElementById('consentYes')?.addEventListener('click', () => decideConsent('yes'));
+document.getElementById('consentNo')?.addEventListener('click', () => decideConsent('no'));
+/* Nút "Đổi lựa chọn thống kê" ở /gioi-thieu/ — xoá lựa chọn cũ, mở lại dải hỏi */
+document.getElementById('consentChange')?.addEventListener('click', () => {
+  store.remove(CONSENT_KEY);
+  if (consentBar) {
+    consentBar.hidden = false;
+    consentBar.querySelector('button')?.focus();
+  }
+});
+
+const consentChoice = store.get(CONSENT_KEY, null);
+if (consentChoice === 'yes') startAnalytics();
+else if (consentChoice === null && consentBar) consentBar.hidden = false;

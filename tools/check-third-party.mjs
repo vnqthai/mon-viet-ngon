@@ -15,7 +15,16 @@
  *
  * Chuỗi ĐỊNH DANH thì không tính là request: schema.org (JSON-LD @context),
  * w3.org (xmlns của SVG). Chú thích code cũng được nhắc URL thoải mái — đã
- * bóc chú thích trước khi soi. Chạy: node tools/check-third-party.mjs
+ * bóc chú thích trước khi soi. Thẻ <a href="https://…"> là LIÊN KẾT để bấm,
+ * không phải tài nguyên trình duyệt tự tải — không tính (thẻ khác vẫn soi).
+ *
+ * NGOẠI LỆ DUY NHẤT, ĐÃ CHỐT 2026-09-11 (ROADMAP phần 2 mục 1 + phần 4): Google
+ * Analytics 4 — đúng MỘT URL (loader gtag.js), chỉ được nhắc tới trong
+ * src/scripts/site.js và bản build của chính file đó, và site.js chỉ chèn nó
+ * SAU khi khách bấm "Đồng ý" (tool tĩnh này không kiểm được lúc chạy — sửa
+ * site.js thì đọc lại điều kiện đó). Mọi thứ khác của Google (gtm.js, fonts,
+ * ads…) vẫn là host lạ. Số chỗ dùng ngoại lệ in ở dòng tổng kết để không ai
+ * quên nó tồn tại. Chạy: node tools/check-third-party.mjs
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -25,6 +34,11 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OWN = /(^|\.)monvietngon\.com$/;
 const INERT = /(^|\.)(schema\.org|w3\.org)$/;
+/* Ngoại lệ GA4 (xem đầu file): đúng URL này, đúng các file này. */
+const GA_URL = /^https:\/\/www\.googletagmanager\.com\/gtag\/js(\?|$)/;
+const GA_FILES = /^(src\/scripts\/site\.js|dist\/.*\.js)$/;
+let nGa = 0;
+const gaOk = (file, url) => GA_URL.test(url) && GA_FILES.test(file) && ++nGa > 0;
 const errors = [];
 const rel = (f) => path.relative(ROOT, f);
 const note = (file, line, what) => errors.push(`  ✗ ${file}:${line}  ${what}`);
@@ -72,21 +86,28 @@ const strip = (s) =>
   s.replace(/<!--[\s\S]*?-->/g, '').replace(/\/\*[\s\S]*?\*\//g, '').replace(/(?<!:)\/\/[^\n]*/g, '');
 const stripYaml = (s) => s.replace(/^\s*#.*$/gm, '');
 
+/* Thuộc tính đứng trong thẻ <a …>? Lùi về dấu "<" gần nhất rồi đọc tên thẻ —
+   \b chặn nhầm <abbr>, <area>, <audio>. */
+const inAnchor = (txt, idx) => /^a\b/i.test(txt.slice(txt.lastIndexOf('<', idx) + 1, idx));
 const scanAttrs = (file, txt) => {
   /* thuộc tính tải tài nguyên (kể cả xlink:href) + url() trong CSS/style */
   for (const m of txt.matchAll(/\b(?:src|href|srcset|poster|action|data)\s*=\s*"(https?:\/\/[^"]+)"/g)) {
     const h = hostOf(m[1]);
-    if (h && !OWN.test(h)) note(file, lineOf(txt, m.index), `tài nguyên trỏ ra ngoài: ${m[1].slice(0, 90)}`);
+    if (h && !OWN.test(h) && !inAnchor(txt, m.index)) note(file, lineOf(txt, m.index), `tài nguyên trỏ ra ngoài: ${m[1].slice(0, 90)}`);
   }
   for (const m of txt.matchAll(/url\(\s*['"]?(https?:\/\/[^)'"]+)/g)) {
     const h = hostOf(m[1]);
     if (h && !OWN.test(h)) note(file, lineOf(txt, m.index), `url() trỏ ra ngoài: ${m[1].slice(0, 90)}`);
   }
 };
+/* URL đứng ngay sau href=" của một thẻ <a>? Đó là liên kết để bấm — cùng luật với scanAttrs. */
+const isAnchorHref = (txt, idx) => /href\s*=\s*["']$/.test(txt.slice(Math.max(0, idx - 12), idx)) && inAnchor(txt, idx);
 const scanStrings = (file, txt) => {
-  for (const m of txt.matchAll(/https?:\/\/[a-zA-Z0-9.-]+/g)) {
+  for (const m of txt.matchAll(/https?:\/\/[a-zA-Z0-9.-]+[^\s'"`<>)]*/g)) {
     const h = hostOf(m[0]);
-    if (h && !OWN.test(h) && !INERT.test(h)) note(file, lineOf(txt, m.index), `host lạ trong code: ${m[0]}`);
+    if (!h || OWN.test(h) || INERT.test(h)) continue;
+    if (gaOk(file, m[0]) || isAnchorHref(txt, m.index)) continue;
+    note(file, lineOf(txt, m.index), `host lạ trong code: ${m[0].slice(0, 90)}`);
   }
 };
 
@@ -133,11 +154,11 @@ if (distBuilt) {
 
 /* ---------- kết ---------- */
 console.log('SOI BÊN THỨ BA — luật "Tài sản & bên thứ ba" (ROADMAP phần 4)');
-console.log(`  ${fontRefs.length} font woff2 khớp fonts.css · ${nTracked} file git · ${nSource} file nguồn · ${distBuilt ? `${nDist} file dist` : 'dist chưa build'}`);
+console.log(`  ${fontRefs.length} font woff2 khớp fonts.css · ${nTracked} file git · ${nSource} file nguồn · ${distBuilt ? `${nDist} file dist` : 'dist chưa build'} · ngoại lệ GA4 (gtag.js, chỉ sau Đồng ý): ${nGa} chỗ`);
 if (!distBuilt) console.log('  ⚠ dist/ chưa build — lượt này chỉ soi nguồn + font; `npm run build` rồi chạy lại để soi cả bản build');
 if (errors.length) {
   console.log(errors.join('\n'));
   console.log(`  ✗ ${errors.length} chỗ phạm luật — site không được gọi ra bên thứ ba, tài nguyên thì tải về repo (kiểm license!) rồi tự phục vụ`);
   process.exit(1);
 }
-console.log('  ✓ sạch — mọi tài nguyên đều từ chính miền này, không host lạ nào');
+console.log('  ✓ sạch — mọi tài nguyên đều từ chính miền này; host lạ duy nhất là gtag.js và chỉ sau khi khách bấm Đồng ý');

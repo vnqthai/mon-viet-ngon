@@ -104,6 +104,8 @@ section[id]{scroll-margin-top:80px}
    khác mỗi ngữ nghĩa: trang danh sách cần một h1 thật cho máy đọc. */
 .section h1,.section h2{font-size:clamp(1.9rem,3.4vw,2.55rem);color:var(--ink);margin:0 0 14px}
 .section h1 .accent,.section h2 .accent{color:var(--river)}
+/* Tiêu đề phụ trong một trang chữ (mục "Thống kê lượt xem" ở /gioi-thieu/) */
+.section h2.h--sub{font-size:clamp(1.3rem,2.2vw,1.6rem);margin:36px 0 10px}
 :root[data-theme="dark"] .section h1 .accent,
 :root[data-theme="dark"] .section h2 .accent{color:var(--leaf)}
 @media (prefers-color-scheme: dark){:root:not([data-theme]) .section h2 .accent{color:var(--leaf)}}
@@ -209,6 +211,31 @@ a.ticker__item:hover{color:var(--chili);text-decoration:underline;text-underline
   .totop{bottom:calc(20px + env(safe-area-inset-bottom))}
 }
 
+/* ---------- Ô xin phép đếm lượt xem (GA4 chỉ tải sau khi bấm Đồng ý) ----------
+   Pill một dòng ở góc dưới trái — chỉ một câu hỏi + Đồng ý · Không · Chi tiết,
+   không câu giải thích (Thái chốt 2026-09-11). Trên điện thoại thì nút xuống
+   hàng dưới câu hỏi; nút lên-đầu-trang ẩn tạm khi ô này đang hiện để khỏi đè. */
+.consent{
+  position:fixed;left:16px;bottom:16px;z-index:98;
+  display:inline-flex;align-items:center;gap:6px 12px;flex-wrap:wrap;
+  max-width:calc(100vw - 32px);
+  background:var(--river);color:#F7F3E1;
+  padding:8px 10px 8px 16px;border-radius:999px;box-shadow:var(--shadow-lift);
+  font-size:.88rem;font-weight:600;line-height:1.3;
+}
+.consent[hidden]{display:none}
+.consent p{margin:0}
+.consent__btns{display:flex;align-items:center;gap:6px}
+.consent .btn{padding:7px 13px;font-size:.84rem}
+.consent a{color:var(--gold);padding:0 6px;text-underline-offset:3px}
+@supports (padding:env(safe-area-inset-bottom)){
+  .consent{bottom:calc(16px + env(safe-area-inset-bottom))}
+}
+@media (max-width:560px){
+  .consent{border-radius:22px;padding:10px 12px 10px 16px}
+  .consent:not([hidden]) ~ .totop{display:none}
+}
+
 /* ---------- Chuyển động & in ---------- */
 @media (max-width:720px){
   .section{padding:64px 0}
@@ -229,7 +256,7 @@ a.ticker__item:hover{color:var(--chili);text-decoration:underline;text-underline
   .ticker__item[aria-hidden="true"]{display:none}
 }
 @media print{
-  .site-head,.ticker,.checker,.toast,.site-foot__nav,.totop{display:none !important}
+  .site-head,.ticker,.checker,.toast,.consent,.site-foot__nav,.totop{display:none !important}
   body{background:#fff;color:#000;font-size:11pt}
   .section{padding:20pt 0}
   .tip{box-shadow:none;border:1px solid #bbb;break-inside:avoid}

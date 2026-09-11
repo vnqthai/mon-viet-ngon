@@ -121,11 +121,27 @@ const canonical = canonPath === '/404' ? null : new URL(canonPath ? `${canonPath
         <a href="/mon/">Món ngon</a>
         <a href="/bi-quyet/">Bí quyết bếp</a>
         <a href="/gioi-thieu/">Về bếp này</a>
+        <a href="/gioi-thieu/#thong-ke">Cookie &amp; thống kê</a>
       </nav>
       <p>Nấu bằng cái bụng thương quê <span class="heart">♥</span> — monvietngon.com</p>
       <p class="fine">© {new Date().getFullYear()} Món Việt Ngon — công thức và hình minh họa là của bếp này, xin đừng mang đi nấu nồi khác.</p>
     </div>
   </footer>
+
+  {/* Ô xin phép đếm lượt xem — Google Analytics chỉ tải SAU khi bấm "Đồng ý":
+      ngoại lệ duy nhất, có điều kiện, của luật "Tài sản & bên thứ ba" (ROADMAP
+      phần 4). Thái chốt 2026-09-11: KHÔNG câu giải thích trên UI, chỉ một câu
+      hỏi + Đồng ý · Không · Chi tiết, pill một dòng góc dưới trái. Ẩn sẵn;
+      scripts/site.js mở khi trình duyệt này chưa chọn gì và chỉ nạp gtag.js
+      trên đúng miền thật. Lời công bố đầy đủ + nút đổi ý ở /gioi-thieu/#thong-ke. */}
+  <div class="consent" id="consent" role="region" aria-label="Xin phép đếm lượt xem" hidden>
+    <p>Cho bếp bật Google Analytics nhé?</p>
+    <div class="consent__btns">
+      <button type="button" class="btn btn--gold" id="consentYes">Đồng ý</button>
+      <button type="button" class="btn btn--ghost" id="consentNo">Không</button>
+      <a href="/gioi-thieu/#thong-ke">Chi tiết</a>
+    </div>
+  </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite">
     <Icon name="bowl" />

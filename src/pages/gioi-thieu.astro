@@ -71,6 +71,23 @@ const breadcrumbLd = {
           quý nhất với một cái bếp. Còn muốn nhắn gì thêm, biên thư
           về <a href="mailto:monvietngon.bep@gmail.com">monvietngon.bep@gmail.com</a>.
         </p>
+        {/* Công bố thống kê — điều 7 ToS Google Analytics đòi có, luật VN 91/2025
+            + GDPR đòi xin phép trước. Thái chốt 2026-09-11: NGẮN, không chi tiết
+            kỹ thuật — chỉ giữ đúng phần ToS bắt buộc: tên Google Analytics, có
+            đặt cookie, link trang giải thích của Google, và cách đổi ý. Mọi câu
+            vẫn phải ĐÚNG với cách site.js làm (chỉ bật sau Đồng ý). Link ra
+            policies.google.com là liên kết để bấm, không phải tài nguyên tự tải —
+            qa bỏ qua thẻ <a> (ROADMAP phần 4). */}
+        <h2 id="thong-ke" class="h--sub">Thống kê lượt xem</h2>
+        <p>
+          Bếp dùng <b>Google Analytics</b> để biết món nào được ghé nhiều, và chỉ bật
+          khi bạn bấm <b>Đồng ý</b> ở ô hỏi nhỏ góc dưới trang. Khi bật, Google đặt
+          cookie thống kê trên trình duyệt của bạn; bếp chỉ thấy con số theo trang.
+          Google xử lý dữ liệu đó ra sao thì họ giải thích ở <a href="https://policies.google.com/technologies/partner-sites?hl=vi">trang này</a>. Đổi ý lúc nào cũng được:
+        </p>
+        <p>
+          <button type="button" class="btn btn--line" id="consentChange">Đổi lựa chọn thống kê</button>
+        </p>
       </div>
     </div>
   </section>

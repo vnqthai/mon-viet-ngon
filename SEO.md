@@ -14,11 +14,11 @@ _Lập 2026-08-01 từ một vòng phân tích toàn site + hai vòng nghiên c�
 | 2 | ~31 trang trục lọc (17 kiểu món · 7 vùng · 7 dịp) | **LỚN** — mở cả họ query "các món X ngon" đang bằng 0 | ✅ **LIVE `4f70049`**, URL phương án A — **§5** |
 | 3 | Lớp tin cậy: trang giới thiệu + liên hệ + tác giả | VỪA — E-E-A-T + AI Mode cards | ✅ **LIVE `4f70049`** — brand-only, ẩn danh; email liên hệ thêm 2026-08-02 — **§6** |
 | 4 | Fix kỹ thuật nhỏ (4 cái) | NHỎ nhưng rẻ | ✅ 2026-08-01, **đã live** (`a745ff2`, curl kiểm production) — **§7** |
-| 5 | Checklist Search Console | NHỎ | 👤 mục 1–3 ✅ 2026-08-01; lịch rải 03–07/08 ✅ xong, mục 5 chờ GA4 — **§8** |
+| 5 | Checklist Search Console | NHỎ | 👤 mục 1–3 ✅ 2026-08-01; lịch rải 03–07/08 ✅ xong, mục 5 MỞ KHOÁ 2026-09-11 (GA4 đã gắn) — Thái nối GSC theo **§8** mục 5 |
 | 5b | Đọc báo cáo "Page indexing" (44 URL gắn cờ 05/08) | NHỎ | ✅ mổ xong 2026-08-08: **1 bug thật đã sửa + đo**, 3 ngày request tay còn lại, phần lớn là CHỜ — **§8b** |
 | 6 | Theo dõi + kỳ vọng thời gian | — | đọc **§9** trước khi sốt ruột |
 
-> ✅ **CẢ BA VIỆC ĐÃ LIVE — `4f70049`, 2026-08-01, deploy xanh, đã curl kiểm production:** title mới trên trang món · `/kieu/kho/` trả 200 kèm ItemList · `/gioi-thieu/` hết lỗi dính chữ · cửa trục trang chủ + badge trang món trỏ trang tĩnh · sitemap 161 URL. Site giờ **162 trang**. Còn mở: **rải nốt Request Indexing** (§8, vài hôm) · **GA4** (ROADMAP §2 — mở khoá §8 mục 5 + quyết định hero C) · **meta description giai đoạn 2** (§4, làm dần theo GSC). Mọi đợt món mới tự ăn hạ tầng này — việc SEO phát sinh mỗi đợt chỉ là gán `seoVerb` nếu lệch default (QA sẽ réo title dài) và Request Indexing món mới.
+> ✅ **CẢ BA VIỆC ĐÃ LIVE — `4f70049`, 2026-08-01, deploy xanh, đã curl kiểm production:** title mới trên trang món · `/kieu/kho/` trả 200 kèm ItemList · `/gioi-thieu/` hết lỗi dính chữ · cửa trục trang chủ + badge trang món trỏ trang tĩnh · sitemap 161 URL. Site giờ **162 trang**. Còn mở: **rải nốt Request Indexing** (§8, vài hôm) · **GA4 — gắn xong 2026-09-11** (ROADMAP §2 mục 1: dải xin phép cho mọi khách; còn tay Thái: 3 setting trong GA + nối GSC §8 mục 5; hero C chờ ~1 tuần số) · **meta description giai đoạn 2** (§4, làm dần theo GSC). Mọi đợt món mới tự ăn hạ tầng này — việc SEO phát sinh mỗi đợt chỉ là gán `seoVerb` nếu lệch default (QA sẽ réo title dài) và Request Indexing món mới.
 
 ---
 
@@ -80,7 +80,7 @@ Không có site công thức thuần nào mạnh. Một site tĩnh nhanh, schema
 5. **Đừng mua link, đừng guest-post farm, đừng "5 cách làm X" listicle nhồi** — ngược cả thuật toán lẫn giọng site.
 6. **Đừng nổ tổ hợp trang giao trục** (kiểu × vùng = 119 trang mỏng) — chỉ 31 trang trục đơn; giao trục chỉ mở khi GSC chứng minh có demand (§5).
 7. **Đừng gắn lại SearchAction** — đã gỡ vì Google khai tử, không phải vì quên.
-8. **Đừng gắn tài nguyên bên thứ ba / tài sản không-free** — mọi thứ tự host, free có giấy tờ kiểm ở chính file; luật đầy đủ + lệnh kiểm nhanh ở ROADMAP §4 *"Tài sản & bên thứ ba"* (chốt 2026-08-02, sau khi tự host font xóa bên-thứ-ba cuối cùng). GA4 nếu gắn (§2 mục 1 bên ROADMAP) là ngoại lệ phải quyết riêng vì kéo theo cookie + dải xin phép.
+8. **Đừng gắn tài nguyên bên thứ ba / tài sản không-free** — mọi thứ tự host, free có giấy tờ kiểm ở chính file; luật đầy đủ + lệnh kiểm nhanh ở ROADMAP §4 *"Tài sản & bên thứ ba"* (chốt 2026-08-02, sau khi tự host font xóa bên-thứ-ba cuối cùng). GA4 là ngoại lệ duy nhất, **đã gắn 2026-09-11** với dải xin phép cho MỌI khách (Luật BVDLCN 91/2025 + GDPR): chưa bấm Đồng ý thì không tải gì của Google — chi tiết ROADMAP §2 mục 1, công bố ở `/gioi-thieu/#thong-ke`.
 9. **Đừng "sửa" mấy bucket lành trong báo cáo Page indexing** — 3 URL `http://` / không-www là 301 của chính mình (đúng, và sẽ nằm đó vĩnh viễn), `rss.xml` là feed nên không bao giờ được index như một trang. Đi sửa chúng là tự tạo việc. Cách đọc báo cáo cho đúng: **§8b**.
 
 ---
@@ -225,7 +225,7 @@ Nghiệm thu: build sạch, `dist/sitemap-0.xml` có lastmod, trang món có đ�
 2. ~~**URL Inspection → Request indexing:** trang chủ, `/mon/`, và ~12 món featured~~ — ✅ đợt đầu 2026-08-01; **còn rải tiếp các hôm tới** (xem khung trên).
 3. ~~**Enhancements → Recipe:** theo dõi số item hợp lệ bò từ 4 → ~126~~ — ✅ đã xem 2026-08-01; số bò dần là bình thường, 4 cảnh báo recommended: kệ.
 4. **Pages (indexing report):** sẽ thấy URL đời chủ cũ của domain (`/tag/…`, `/mon-diem-tam/`) báo 404 — **đúng và kệ**; không tìm thấy backlink sống nào đáng redirect (đã tra 2026-08-01).
-5. Khi gắn GA4 (đã chốt ở ROADMAP §2): nối GA4 ↔ Search Console.
+5. **Nối GA4 ↔ Search Console** — GA4 gắn 2026-09-11 (`G-DDLS1WV3MC`). Đăng nhập đúng Gmail sở hữu property GSC; trong GA4: Admin → Product links → *Search Console links* → Link → *Choose accounts* → chọn domain property monvietngon.com → Next → chọn stream *Web* → Next → Submit. Rồi Reports → Library → bộ *Search Console* → Publish. ~48 giờ sau mới có số; hai báo cáo mới: *Google organic search queries* và *Google organic search traffic* (landing page kèm clicks/impressions/CTR/position cạnh engagement).
 6. _(Tùy chọn, 5 phút, giá trị thấp)_ Bing Webmaster Tools import từ GSC; Cốc Cốc nộp sitemap.
 
 ---
