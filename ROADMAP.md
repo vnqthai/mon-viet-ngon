@@ -137,6 +137,11 @@ Ba việc này soi ra 2026-07-30 và làm ngay trong ngày. Chi tiết ở mục
 
    > **Còn phần chưa làm, và nó chờ GA4:** phương án **C** (bỏ 2 nút *"Xem hết món ngon"* + *"Bí quyết bếp Việt"*, gộp 3 pill thống kê thành một dòng) đo được **−294px desktop / −485px điện thoại** và là bản duy nhất đưa thẻ món lọt màn hình đầu ở 1440×900. **Cố ý chưa làm** vì cái giá là hai đích bấm lớn nhất trang mà chưa ai biết có bao nhiêu người bấm. GA4 gắn 2026-09-11, và **sự kiện `hero_cta` (tham số `cta` = `mon` | `bi-quyet`) gắn cùng ngày** trong `src/pages/index.astro` — sau ~1 tuần mở GA4 → Reports → Engagement → Events: tỉ lệ bấm = số `hero_cta` ÷ số `page_view` của trang chủ (chỉ đếm khách đã Đồng ý, nhưng *tỉ lệ* thì vẫn nói được); vài phần trăm trở xuống là C an toàn, cao thì giữ nút. Phương án **D** (bỏ thêm eyebrow + câu dẫn khối món) thì đắt hơn nữa, để sau C.
 5. **Nhãn "Quà chiều"** cho trục Theo dịp. Ứng viên: **bún ốc nguội** (món quà chiều rõ nhất của cả catalog — chính bài viết của nó gọi vậy), bún đỏ, ốc len, bún đậu, bánh xèo, cháo lòng, cơm cháy chà bông. Mở một giá trị enum mới là phải **rà gắn lại cả 115 món** chứ không chỉ món mới — nên phải là việc riêng, **đừng nhét vào một đợt món**.
+6. **📅 Từ 2026-09-25: đọc số GA4 rồi quyết hai việc đang chờ số** *(thêm 2026-09-11 — GA4 và hai sự kiện đã gắn xong cùng ngày, `0e098c9` + `8e9711f`; chỉ còn đợi đủ dữ liệu, không có gì để làm trước ngày đó)*. Mở GA4 → Reports → Engagement → Events:
+   - **Hero C** (mục 4 ở trên): tỉ lệ bấm = số sự kiện `hero_cta` ÷ số `page_view` của trang chủ (Reports → Engagement → Pages and screens, hàng `/`). **Vài phần trăm trở xuống ⇒ làm C** (bỏ 2 nút, gộp 3 pill — số đo đã có sẵn ở Nhật ký *"Rút ngắn hero trang chủ"*); **cao ⇒ giữ nút, gạch C vĩnh viễn.** Bấm vào sự kiện xem tham số `cta` để biết nút nào được bấm.
+   - **Thứ tự chip lọc `/mon/`**: sự kiện `filter_change`, xem theo tham số `value` (và `axis`) — chip nhiều lượt lên đầu hàng, chip 0 lượt sau vài tuần thì cân nhắc gộp.
+
+   Số chỉ gồm khách đã bấm Đồng ý, nhưng *tỉ lệ* và *thứ tự* thì vẫn đọc được. Quyết xong hai việc này là gạch mục.
 
 ## ~~SEO còn thiếu~~ — XONG 2026-07-30
 
