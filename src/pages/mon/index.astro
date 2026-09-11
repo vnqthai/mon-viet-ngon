@@ -295,6 +295,10 @@ const regions = has(REGION_ORDER, (r) => r.data.region);
     btn.addEventListener('click', () => {
       const axis = btn.dataset.f!, val = btn.dataset.v!;
       state[axis] = state[axis] === val && val !== 'all' ? 'all' : val;
+      // Sự kiện GA4 `filter_change` (axis = cat | occ | region, value = chip vừa
+      // chọn, 'all' khi bỏ chọn) — dữ liệu cho câu hỏi thứ tự chip (ROADMAP phần 2
+      // mục 1). window.gtag chỉ tồn tại sau khi khách Đồng ý (scripts/site.js).
+      (window as any).gtag?.('event', 'filter_change', { axis, value: state[axis] });
       for (const b of document.querySelectorAll<HTMLElement>(`[data-f="${axis}"]`)) {
         b.classList.toggle('is-active', b.dataset.v === state[axis]);
       }
